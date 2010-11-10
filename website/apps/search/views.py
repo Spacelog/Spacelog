@@ -62,7 +62,7 @@ class SearchView(TemplateView):
             query=query,
             startrank=offset,
             endrank=offset+PAGESIZE,
-            checkatleast=offset+PAGESIZE+1,
+            checkatleast=-1, # everything (entire xapian db fits in memory, so this should be fine)
             sortby="-weight",
         )
         # Go through the results, building a list of LogLine objects
