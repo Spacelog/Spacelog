@@ -4,11 +4,17 @@ This is the source code for [Spacelog](http://spacelog.org/), a website for expe
 
 With the exception of the font and some icons (credited on the mission about page), everything outside the `missions` directory is released under the [CC-0](http://creativecommons.org/publicdomain/zero/1.0/) license. Mission images are credited in the mission's `_meta` file.
 
+# A quick note about multiple transcripts
+
+For Mercury-Atlas 6, there is only one transcript available, that of the air-to-ground radio communications (John Glenn's mike was hot through the entire mission). For Apollo 13, there is a second transcript from the Command Module recording, but it cuts out very early into the mission, so we didn't consider it worth including.
+
+However for many other missions there are multiple transcripts. If you're adding missions to Spacelog, please keep these transcripts in different files. We don't yet have support to identify them distinctly, but if you move them all into one big file it'll be impossible for us ever to work on that!
+
 # Getting involved without technical knowledge
 
 For small errors, it's probably easiest to just email them through to us at [spacelog@googlegroups.com](mail:spacelog@googlegroups.com).
 
-For anything larger, we'd rather you send us corrected files from the `missions` directory. Look in `transcript-file-format` for a description of how we lay out files. If you're transcribing a mission we don't have, you will find the example `_meta` and `TEC` files useful, since they are the main two files you'll need to create. If you can make both of them (or get as close as you can), and send them through to us along with a link to the original transcript PDF you used, we'll do the rest. (If you are gifted in design, we've included the source files for all the artwork we've created, which you could use as a basis for making things like orbital diagrams.)
+For anything larger, we'd rather you send us corrected files from the `missions` directory. Look in `transcript-file-format` for a description of how we lay out files. If you're transcribing a mission we don't have, you will find the example `_meta` and `TEC` files useful, since they are the main two files you'll need to create (if you're going to include more than just the air-to-ground transcription, you'll want to put that in `TEC`, the command module transcript in `CM`, and so on). If you can make them in that format (or get as close as you can), and send them through to us along with a link to the original transcript PDFs you used, we'll do the rest. (If you are gifted in design, we've included the source files for all the artwork we've created, which you could use as a basis for making things like orbital diagrams.)
 
 If that's too hard for you, we can import from a much simpler file format based on the automatic OCR text version that NASA includes in their original transcript PDFs. If you select all the text of a transcript PDF and copy it into a text editor, you'll see lots of lines that look like this:
 
