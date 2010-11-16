@@ -97,6 +97,10 @@
         }
     ],
     "key_scenes" : [
+      {
+        "title": "The Eagle touches down on the lunar surface.",
+        "range": [ "04:06:45:40", "04:06:46:06" ]
+      }
     ],
     "homepage_quotes" : [
         "04:13:24:48",
