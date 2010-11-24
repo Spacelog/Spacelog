@@ -33,10 +33,11 @@ class FileParser(object):
                 reuse_line = None
             else:
                 try:
-                    line = lines.next().decode("utf8")
+                    line = lines.next()
                 except StopIteration:
                     break
                 offset += len(line)
+                line = line.decode("utf8")
             # If it's a comment or empty line, ignore it.
             if not line.strip() or line.strip()[0] == "#":
                 continue
@@ -58,8 +59,9 @@ class FileParser(object):
                 # Meta item
                 name, blob = line.split(":", 1)
                 while True:
-                    line = lines.next().decode("utf8")
+                    line = lines.next()
                     offset += len(line)
+                    line = line.decode("utf8")
                     if not line.strip() or line.strip()[0] == "#":
                         continue
                     if line[0] in string.whitespace:

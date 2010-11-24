@@ -35,5 +35,7 @@ if __name__ == "__main__":
     idx = Indexer(redis_conn, fp)
     idx.index()
 
-
+    from api import LogLine
+    l = LogLine(redis_conn, "a13/TEC", 12)
+    print l
 
