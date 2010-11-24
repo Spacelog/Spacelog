@@ -23,16 +23,20 @@ class FileParser(object):
         current_chunk = None
         reuse_line = None
         lines = iter(self.get_lines(offset))
-        while lines:
+        while lines or reuse_line:
             # If there's a line to reuse, use that, else read a new
             # line from the file.
             if reuse_line:
                 line = reuse_line
                 reuse_line = None
             else:
-                line = lines.next()
+                try:
+                    line = lines.next()
+                except StopIteration:
+                    break
+                offset += len(line)
             # If it's a comment or empty line, ignore it.
-            if not line.strip() or line[0] == "#":
+            if not line.strip() or line.strip()[0] == "#":
                 continue
             # If it's a timestamp header, make a new chunk object.
             elif line[0] == "[":
@@ -45,6 +49,7 @@ class FileParser(object):
                     "timestamp": timestamp,
                     "lines": [],
                     "meta": {},
+                    "offset": offset - len(line),
                 }
             # If it's metadata, read the entire thing.
             elif line[0] == "_":
@@ -52,6 +57,9 @@ class FileParser(object):
                 name, blob = line.split(":", 1)
                 while True:
                     line = lines.next()
+                    offset += len(line)
+                    if not line.strip() or line.strip()[0] == "#":
+                        continue
                     if line[0] in string.whitespace:
                         blob += line
                     else:
@@ -85,6 +93,8 @@ class FileParser(object):
                         "text": text.strip(),
                     }
                     current_chunk['lines'].append(line)
+
+        print current_chunk, "<<"
         if current_chunk:
             yield current_chunk
 

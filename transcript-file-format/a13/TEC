@@ -36,7 +36,10 @@ CDR: Yaw program.
 [12]
 _audio: [
     {
-        "url": "http://blah.fort/audio.mp4",
+        # Warning: No trailing commas! That's invalid JSON.
+        # An invalid example of the NNC would be:
+        # "url": "http://blah.fort/audio.mp4",
+        "url": "http://blah.fort/audio.mp4"
     }
     ]
 CMP: Clear the tower.
