@@ -88,6 +88,20 @@ class Query(object):
             [ key for key in self.keys if key in speaker_keys ]
         )
     
+    def labels(self, labels):
+        "Returns a new Query whose results are any of the specified labels"
+        label_keys = set()
+        
+        for label in labels:
+            label_keys.update(
+                self.redis_conn.smembers( "label:%s" % label )
+            )
+        return Query(
+            self.redis_conn,
+            [ key for key in self.keys if key in label_keys ]
+        )
+    
+    
     def items(self):
         for key in self.keys:
             stream_name, timestamp = key.split(":", 3)
@@ -97,7 +111,7 @@ class Query(object):
         return iter( self.items() )
     
     def sort_by_time(self):
-        """Sorts the query results by timestamp"""
+        "Sorts the query results by timestamp"
         return sorted(self.keys, key=lambda x: int(x.split(":", 3)[1]) )
     
 

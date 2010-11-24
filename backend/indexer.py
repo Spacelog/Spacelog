@@ -17,6 +17,8 @@ class Indexer(object):
         # Delete the old things in the database
         # TODO: More sensible flush/switching behaviour
         self.redis_conn.flushdb()
+        
+        current_labels = {}
         for chunk in self.file_parser.get_chunks():
             # First, create a record with the byte offset
             log_line_id = "%s:%i" % (self.file_parser.name, chunk['timestamp'])
@@ -25,6 +27,26 @@ class Indexer(object):
             speakers = set([ line['speaker'] for line in chunk['lines'] ])
             for speaker in speakers:
                 self.redis_conn.sadd("speaker:%s" % speaker, log_line_id)
+            
+            if '_labels' in chunk['meta']:
+                for label, endpoint in chunk['meta']['_labels'].items():
+                    if endpoint is not None and label not in current_labels:
+                        current_labels[label] = endpoint
+                    elif label in current_labels:
+                        current_labels[label] = max(
+                            current_labels[label],
+                            endpoint
+                        )
+                    elif endpoint is None:
+                        self.redis_conn.sadd("label:%s" % label, log_line_id)
+            
+            for label, endpoint in current_labels.items():
+                # TODO: Decide if we want inclusive or exclusive label endpoints
+                if endpoint <= chunk['timestamp']:
+                    del current_labels[label]
+            
+            for label in current_labels:
+                self.redis_conn.sadd("label:%s" % label, log_line_id)
 
 if __name__ == "__main__":
     os.environ['TRANSCRIPT_ROOT'] = os.path.join( os.path.dirname( __file__ ), '..', "transcript-file-format/" ) 
@@ -36,5 +58,5 @@ if __name__ == "__main__":
     idx.index()
 
     from api import Query
-    print list(Query(redis_conn).speakers( [ "CDR", "CMP" ] ).sort_by_time())
+    print list(Query(redis_conn).labels( [ "funny" ] ).sort_by_time())
 
