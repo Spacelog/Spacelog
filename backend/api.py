@@ -42,4 +42,48 @@ class LogLine(object):
         for key in keys:
             stream_name, timestamp = key.split(":", 3)[1:3]
             yield cls(redis_conn, stream_name, int(timestamp))
+    
+
+class Query(object):
+    """
+    
+    """
+    def __init__(self, redis_conn, keys=None):
+        self.redis_conn = redis_conn
+        
+        if keys is None:
+            self.keys = redis_conn.keys( "stream:*:offset" )
+        else:
+            self.keys = keys
+    
+    def stream(self, stream_name):
+        "Returns a new Query filtered by stream"
+        return Query( self.redis_conn, [ key for key in self.keys
+            if key.split( ':' )[1] == stream_name
+        ] )
+    
+    def items(self):
+        for key in self.keys:
+            stream_name, timestamp = key.split(":", 3)[1:3]
+            yield LogLine(self.redis_conn, stream_name, int(timestamp))
+    
+    def __iter__(self):
+        return iter( self.items() )
+    
+    def sort_by_time(self):
+        """Sorts the query results by timestamp"""
+        return sorted(self.keys, key=lambda x: int(x.split(":", 3)[2]) )
+    
+
+
+
+
+
+
+
+
+
+
+
+
 

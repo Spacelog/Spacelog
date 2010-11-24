@@ -35,6 +35,6 @@ if __name__ == "__main__":
     idx = Indexer(redis_conn, fp)
     idx.index()
 
-    from api import LogLine
-    print list(LogLine.by_stream(redis_conn, "a13/TEC"))
+    from api import Query
+    print list(Query(redis_conn).stream( "a13/TEC" ).sort_by_time())
 
