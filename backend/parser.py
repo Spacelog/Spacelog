@@ -31,7 +31,7 @@ class FileParser(object):
                 reuse_line = None
             else:
                 try:
-                    line = lines.next()
+                    line = lines.next().decode("utf8")
                 except StopIteration:
                     break
                 offset += len(line)
@@ -56,7 +56,7 @@ class FileParser(object):
                 # Meta item
                 name, blob = line.split(":", 1)
                 while True:
-                    line = lines.next()
+                    line = lines.next().decode("utf8")
                     offset += len(line)
                     if not line.strip() or line.strip()[0] == "#":
                         continue
@@ -84,17 +84,16 @@ class FileParser(object):
             else:
                 # New line of speech
                 try:
-                    author, text = line.split(":", 1)
+                    speaker, text = line.split(":", 1)
                 except ValueError:
                     print "Error: First speaker line not in Name: Text format."
                 else:
                     line = {
-                        "author": author.strip(),
+                        "speaker": speaker.strip(),
                         "text": text.strip(),
                     }
                     current_chunk['lines'].append(line)
 
-        print current_chunk, "<<"
         if current_chunk:
             yield current_chunk
 

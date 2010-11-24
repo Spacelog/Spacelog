@@ -1,0 +1,3 @@
+
+class LogLine(object):
+    pass
