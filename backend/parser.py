@@ -1,3 +1,4 @@
+import os
 import string
 import simplejson
 
@@ -7,8 +8,9 @@ class FileParser(object):
     byte offsets.
     """
 
-    def __init__(self, filename):
-        self.filename = filename
+    def __init__(self, name):
+        self.name = name
+        self.filename = os.path.join(os.environ.get("TRANSCRIPT_ROOT", "."), self.name)
 
     def get_lines(self, offset):
         with open(self.filename) as fh:
