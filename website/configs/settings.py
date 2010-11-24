@@ -1,6 +1,17 @@
 # Django settings for website project.
 
-DEBUG = True
+import os
+import django
+import sys
+
+# calculated paths for django and the site
+# used as starting points for various other paths
+DJANGO_ROOT = os.path.dirname(os.path.realpath(django.__file__))
+SITE_ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+
+sys.path.append(os.path.join(SITE_ROOT, 'apps'))
+
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -27,7 +38,7 @@ DATABASES = {
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'UTC'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -68,11 +79,6 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
-    'django.middleware.common.CommonMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
 )
 
 ROOT_URLCONF = 'website.urls'
@@ -81,14 +87,8 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    os.path.join(SITE_ROOT, 'templates'),
 )
 
 INSTALLED_APPS = (
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.sites',
-    'django.contrib.messages',
-    # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
 )
