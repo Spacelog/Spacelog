@@ -1,0 +1,90 @@
+import string
+import simplejson
+
+class FileParser(object):
+    """
+    Runs through a transcript file working out and storing the
+    byte offsets.
+    """
+
+    def __init__(self, filename):
+        self.filename = filename
+
+    def get_lines(self, offset):
+        with open(self.filename) as fh:
+            fh.seek(offset)
+            for line in fh:
+                yield line
+
+    def get_chunks(self, offset=0):
+        """
+        Reads the log lines from the file in order and yields them.
+        """
+        current_chunk = None
+        reuse_line = None
+        lines = iter(self.get_lines(offset))
+        while lines:
+            # If there's a line to reuse, use that, else read a new
+            # line from the file.
+            if reuse_line:
+                line = reuse_line
+                reuse_line = None
+            else:
+                line = lines.next()
+            # If it's a comment or empty line, ignore it.
+            if not line.strip() or line[0] == "#":
+                continue
+            # If it's a timestamp header, make a new chunk object.
+            elif line[0] == "[":
+                # Read the timestamp
+                timestamp = int(line[1:].split("]")[0])
+                if current_chunk:
+                    yield current_chunk
+                # Start a new log line item
+                current_chunk = {
+                    "timestamp": timestamp,
+                    "lines": [],
+                    "meta": {},
+                }
+            # If it's metadata, read the entire thing.
+            elif line[0] == "_":
+                # Meta item
+                name, blob = line.split(":", 1)
+                while True:
+                    line = lines.next()
+                    if line[0] in string.whitespace:
+                        blob += line
+                    else:
+                        reuse_line = line
+                        break
+                # Parse the blob
+                try:
+                    data = simplejson.loads(blob)
+                except simplejson.JSONDecodeError:
+                    print "Error: Invalid json at timestamp %s, key %s" % (timestamp, name)
+                current_chunk['meta'][name.strip()] = data
+            # If it's a continuation, append to the current line
+            elif line[0] in string.whitespace:
+                # Continuation line
+                if not current_chunk:
+                    print "Error: Continuation line before first timestamp header."
+                elif not current_chunk['lines']:
+                    print "Error: Continuation line before first speaker name"
+                else:
+                    current_chunk['lines'][-1]['text'] += " " + line.strip()
+            # If it's a new line, start a new line. Shock.
+            else:
+                # New line of speech
+                try:
+                    author, text = line.split(":", 1)
+                except ValueError:
+                    print "Error: First speaker line not in Name: Text format."
+                else:
+                    line = {
+                        "author": author.strip(),
+                        "text": text.strip(),
+                    }
+                    current_chunk['lines'].append(line)
+        if current_chunk:
+            yield current_chunk
+
