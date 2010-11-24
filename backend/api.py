@@ -53,29 +53,47 @@ class Query(object):
         
         if keys is None:
             self.keys = redis_conn.keys( "stream:*:offset" )
+            self.keys = [ ":".join( key.split( ":" )[1:3] ) 
+                for key in self.keys
+            ]
         else:
             self.keys = keys
     
     def stream(self, stream_name):
         "Returns a new Query filtered by stream"
         return Query( self.redis_conn, [ key for key in self.keys
-            if key.split( ':' )[1] == stream_name
+            if key.split( ':' )[0] == stream_name
         ] )
     
     def range(self, start_time, end_time):
         "Returns a new Query whose results are between two times"
         keys = []
         for key in self.keys:
-            timestamp = int(key.split( ':' )[2])
+            timestamp = int(key.split( ':' )[1])
             if start_time <= timestamp < end_time \
             or start_time == timestamp:
                 keys.append( key )
         return Query( self.redis_conn, keys )
+    
+    def speakers(self, speakers):
+        "Returns a new Query whose results are any of the specified speakers"
+        speaker_keys = set()
         
+        for speaker in speakers:
+            speaker_keys.update(
+                self.redis_conn.smembers( "speaker:%s" % speaker )
+            )
+        print speaker_keys
+        print self.keys
+        return Query(
+            self.redis_conn,
+            [ key for key in self.keys if key in speaker_keys ]
+        )
+    
     
     def items(self):
         for key in self.keys:
-            stream_name, timestamp = key.split(":", 3)[1:3]
+            stream_name, timestamp = key.split(":", 3)
             yield LogLine(self.redis_conn, stream_name, int(timestamp))
     
     def __iter__(self):

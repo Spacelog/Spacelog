@@ -36,5 +36,5 @@ if __name__ == "__main__":
     idx.index()
 
     from api import Query
-    print list(Query(redis_conn).range( 2, 2 ).sort_by_time())
+    print list(Query(redis_conn).speakers( [ "CDR" ] ).sort_by_time())
 
