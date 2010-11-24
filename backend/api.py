@@ -83,13 +83,10 @@ class Query(object):
             speaker_keys.update(
                 self.redis_conn.smembers( "speaker:%s" % speaker )
             )
-        print speaker_keys
-        print self.keys
         return Query(
             self.redis_conn,
             [ key for key in self.keys if key in speaker_keys ]
         )
-    
     
     def items(self):
         for key in self.keys:
@@ -101,7 +98,7 @@ class Query(object):
     
     def sort_by_time(self):
         """Sorts the query results by timestamp"""
-        return sorted(self.keys, key=lambda x: int(x.split(":", 3)[2]) )
+        return sorted(self.keys, key=lambda x: int(x.split(":", 3)[1]) )
     
 
 
