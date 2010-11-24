@@ -1,0 +1,44 @@
+# This is a comment
+# Blank, or whitespace-only, lines, like the next one, are always ignored
+
+# Throughout this file, we will refer to:
+# - ‘next non-comment line’ as NNC
+
+# NNC is a timestamp, in seconds from mission start.
+# NOTE: These can also be negative.
+# TODO: Page references
+[-10]
+
+# NNC is a logline.
+# Loglines are of the form /^[speaker]\s+:\s+[text]$/
+CAPCOM: 10, 9, 8, 7, 6, …
+
+[2]
+CDR: The clock is running.
+
+[3]
+# NNC is a metaline, and continues across all following
+# lines starting with /\s+/
+# Metalines (when combined with continuations) are
+# of the form /_[meta_key]\s+:\s+[JSON data]/
+# NOTE: Both loglines and metalines can continue using this format
+_labels: {
+    "funny"  : 12, 
+    "stupid" : null
+    }
+# NNC contains a backticked fragment (`Jim:CDR`).
+# This fragment is of the form `[text]:[glossary reference]`
+CMP: Okay. P11, `Jim:CDR`.
+
+[5]
+CDR: Yaw program.
+
+[12]
+_audio: [
+    {
+        "url": "http://blah.fort/audio.mp4",
+    }
+    ]
+CMP: Clear the tower.
+CDR: Yaw complete.
+     Roll program.

@@ -1,0 +1,41 @@
+acts : [
+    {
+        title: "Acte the Firste: Launche!",
+        description: "The rocket go bye-bye."
+        range: [-10, 54]
+    },
+    {
+        description: "The rocket go boom. Sadface."
+        range: [54, 120]
+    },
+]
+key_scenes : [
+    {
+        title: "It all goes to shit.",
+        range: [15, 25]
+    }
+]
+relays : [
+    {
+        description: "Rupert",
+        range: [13, 72]
+    }
+    {
+        description: "Outback",
+        range: [72, 180]
+    }
+]
+glossary: {
+    CAPCOM: {
+        description: "Capsule communicator",
+    },
+    CDR: {
+        description: "Commander",
+        links: [
+            {
+                url: 'http://dave.com',
+                caption: 'Astronaut Dave\'s blog\
+            },
+        ]
+    }
+}
