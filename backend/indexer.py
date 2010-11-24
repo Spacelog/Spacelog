@@ -36,6 +36,5 @@ if __name__ == "__main__":
     idx.index()
 
     from api import LogLine
-    l = LogLine(redis_conn, "a13/TEC", 12)
-    print l
+    print list(LogLine.by_stream(redis_conn, "a13/TEC"))
 

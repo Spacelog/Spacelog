@@ -29,14 +29,17 @@ class LogLine(object):
         # Load onto our attributes
         self.lines = item['lines']
 
-    def __str__(self):
+    def __repr__(self):
         return "<LogLine %s:%i (%s lines)>" % (self.stream_name, self.timestamp, len(self.lines))
-    
-class Query(object):
-    """
-    Query interface to LogLines.
-    """
 
-    def __init__(self):
-        pass
+    ### Querying ###
+
+    @classmethod
+    def by_stream(cls, redis_conn, stream_name):
+        "Returns all items in a stream."
+        keys = redis_conn.keys("stream:%s:*:offset" % stream_name)
+        keys.sort(key=lambda x: int(x.split(":", 3)[2]))
+        for key in keys:
+            stream_name, timestamp = key.split(":", 3)[1:3]
+            yield cls(redis_conn, stream_name, int(timestamp))
 
