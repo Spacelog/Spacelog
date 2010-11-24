@@ -1,0 +1,121 @@
+/* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*-
+
+    "Normalise" browser styling to a neutral starting point.
+    Otherwise known as a reset stylesheet.
+
+*/
+
+html {
+    color:                  #000;
+    background:             #fff;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+body,
+div,
+dl, dt, dd,
+pre, code,
+form, fieldset, legend, input, textarea,
+p,
+blockquote {
+    margin:                 0;
+    padding:                0;
+}
+
+/* No header styling */
+h1, h2, h3, h4, h5, h6 {
+    margin:                 0;
+    padding:                0;
+    font-size:              100%;
+    font-weight:            inherit;
+}
+
+/* */
+ul, ol, li {
+    margin:                 0;
+    padding:                0;
+}
+li {
+    list-style:             none;
+}
+
+/* Try to pull tables back as far as possible */
+table {
+    border-collapse:        collapse;
+    border-spacing:         0;
+/*    font-size:              inherit;*/
+/*    font:                   100%;*/
+}
+th, td {
+    margin:                 0;
+    padding:                0;
+}
+th {
+    text-align:             left;
+    font-style:             normal;
+    font-weight:            normal;
+}
+
+/* no borders by default */
+fieldset,
+img {
+    border:                 0;
+}
+
+/* */
+abbr {
+    font-variant:           normal;
+    border:                 0;
+}
+
+/* no font styling by default */
+address,
+caption,
+cite,
+code,
+dfn,
+em, strong,
+b, i,
+var {
+    font-style:             inherit;
+    font-weight:            inherit;
+}
+caption {
+    text-align:             left;
+}
+
+/* No generated content */
+q:before, q:after {
+    content:                '';
+}
+
+/* layouts */
+sup {
+    vertical-align:         text-top;
+}
+sub {
+    vertical-align:         text-bottom;
+}
+
+/* Forms */
+input,
+select,
+textarea {
+    font-family:            inherit;
+    font-size:              inherit;
+    font-weight:            inherit;
+}
+
+/* fixed-width stuff */
+pre,
+code,
+kbd,
+samp,
+tt {
+    font-family:            monospace;
+    line-height:            100%;
+}
