@@ -27,7 +27,7 @@ class Indexer(object):
                 self.redis_conn.sadd("speaker:%s" % speaker, log_line_id)
 
 if __name__ == "__main__":
-    os.environ['TRANSCRIPT_ROOT'] = "../transcript-file-format/"
+    os.environ['TRANSCRIPT_ROOT'] = os.path.join( os.path.dirname( __file__ ), '..', "transcript-file-format/" ) 
 
     redis_conn = redis.Redis()
 
