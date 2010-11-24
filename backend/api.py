@@ -62,6 +62,17 @@ class Query(object):
             if key.split( ':' )[1] == stream_name
         ] )
     
+    def range(self, start_time, end_time):
+        "Returns a new Query whose results are between two times"
+        keys = []
+        for key in self.keys:
+            timestamp = int(key.split( ':' )[2])
+            if start_time <= timestamp < end_time \
+            or start_time == timestamp:
+                keys.append( key )
+        return Query( self.redis_conn, keys )
+        
+    
     def items(self):
         for key in self.keys:
             stream_name, timestamp = key.split(":", 3)[1:3]
