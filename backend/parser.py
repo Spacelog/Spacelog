@@ -2,18 +2,17 @@ import os
 import string
 import simplejson
 
-class FileParser(object):
+class TranscriptParser(object):
     """
     Runs through a transcript file working out and storing the
     byte offsets.
     """
 
-    def __init__(self, name):
-        self.name = name
-        self.filename = os.path.join(os.environ.get("TRANSCRIPT_ROOT", "."), self.name)
+    def __init__(self, path):
+        self.path = path
 
     def get_lines(self, offset):
-        with open(self.filename) as fh:
+        with open(self.path) as fh:
             fh.seek(offset)
             for line in fh:
                 yield line
@@ -101,3 +100,8 @@ class FileParser(object):
         if current_chunk:
             yield current_chunk
 
+class MetaParser(TranscriptParser):
+    
+    def get_meta(self):
+        with open(self.path) as fh:
+            return simplejson.load(fh)

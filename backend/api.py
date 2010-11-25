@@ -2,22 +2,22 @@
 class LogLine(object):
     """
     Basic object that represents a log line; pass in the timestamp
-    and stream name and it will extract the right bits of data and
+    and transcript name and it will extract the right bits of data and
     make them accessible via attributes.
     """
     
-    def __init__(self, redis_conn, stream_name, timestamp):
+    def __init__(self, redis_conn, transcript_name, timestamp):
         self.redis_conn = redis_conn
-        self.stream_name = stream_name
+        self.transcript_name = transcript_name
         self.timestamp = timestamp
-        self.id = "%s:%i" % (self.stream_name, self.timestamp)
+        self.id = "%s:%i" % (self.transcript_name, self.timestamp)
         self._load()
 
     @classmethod
     def by_log_line_id(cls, redis_conn, log_line_id):
-        stream, timestamp = log_line_id.split(":", 1)
+        transcript, timestamp = log_line_id.split(":", 1)
         timestamp = int(timestamp)
-        return cls(redis_conn, stream, timestamp)
+        return cls(redis_conn, transcript, timestamp)
 
     def _load(self):
         # Find the offset and load just one item from there
@@ -30,7 +30,7 @@ class LogLine(object):
         self.previous_log_line_id = data.get('previous', None)
 
     def __repr__(self):
-        return "<LogLine %s:%i, page %s (%s lines)>" % (self.stream_name, self.timestamp, self.page, len(self.lines))
+        return "<LogLine %s:%i, page %s (%s lines)>" % (self.transcript_name, self.timestamp, self.page, len(self.lines))
 
     def next(self):
         if self.next_log_line_id:
@@ -61,9 +61,9 @@ class Query(object):
         new_filters[key] = value
         return Query(self.redis_conn, new_filters)
     
-    def stream(self, stream_name):
-        "Returns a new Query filtered by stream"
-        return self._extend_query("stream", stream_name)
+    def transcript(self, transcript_name):
+        "Returns a new Query filtered by transcript"
+        return self._extend_query("transcript", transcript_name)
     
     def range(self, start_time, end_time):
         "Returns a new Query whose results are between two times"
@@ -71,8 +71,8 @@ class Query(object):
     
     def first_after(self, timestamp):
         "Returns the closest log line after the timestamp."
-        if "stream" in self.filters:
-            key = "stream:%s" % self.filters['stream']
+        if "transcript" in self.filters:
+            key = "transcript:%s" % self.filters['transcript']
         else:
             key = "all"
         # Do a search.
@@ -91,8 +91,8 @@ class Query(object):
         return self._key_to_instance(results[0])
 
     def first_before(self, timestamp):
-        if "stream" in self.filters:
-            key = "stream:%s" % self.filters['stream']
+        if "transcript" in self.filters:
+            key = "transcript:%s" % self.filters['transcript']
         else:
             key = "all"
         # Do a search.
@@ -124,11 +124,11 @@ class Query(object):
         filter_names = set(self.filters.keys())
         if filter_names == set():
             keys = self.redis_conn.zrange("all", 0, -1)
-        elif filter_names == set(["stream"]):
-            keys = self.redis_conn.zrange("stream:%s" % self.filters['stream'], 0, -1)
-        elif filter_names == set(["stream", "range"]):
+        elif filter_names == set(["transcript"]):
+            keys = self.redis_conn.zrange("transcript:%s" % self.filters['transcript'], 0, -1)
+        elif filter_names == set(["transcript", "range"]):
             keys = self.redis_conn.zrangebyscore(
-                "stream:%s" % self.filters['stream'],
+                "transcript:%s" % self.filters['transcript'],
                 self.filters['range'][0],
                 self.filters['range'][1],
             )
@@ -145,8 +145,8 @@ class Query(object):
             yield self._key_to_instance(key)
     
     def _key_to_instance(self, key):
-        stream_name, timestamp = key.split(":", 1)
-        return LogLine(self.redis_conn, stream_name, int(timestamp))
+        transcript_name, timestamp = key.split(":", 1)
+        return LogLine(self.redis_conn, transcript_name, int(timestamp))
 
     def __iter__(self):
         return iter( self.items() )

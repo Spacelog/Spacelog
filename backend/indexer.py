@@ -2,32 +2,28 @@ import os
 import redis
 import pprint
 
-from parser import FileParser
+from parser import TranscriptParser, MetaParser
 
-class Indexer(object):
+class TranscriptIndexer(object):
     """
     Parses a file and indexes it.
     """
 
     LINES_PER_PAGE = 2
 
-    def __init__(self, redis_conn, file_parser):
+    def __init__(self, redis_conn, transcript_name, parser):
         self.redis_conn = redis_conn
-        self.file_parser = file_parser
+        self.transcript_name = transcript_name
+        self.parser = parser
 
     def index(self):
-        # Delete the old things in the database
-        # TODO: More sensible flush/switching behaviour
-        self.redis_conn.flushdb()
-        
         current_labels = {}
         current_transcript_page = None
         current_page = 1
         current_page_lines = 0
         previous_log_line_id = None
-
-        for chunk in self.file_parser.get_chunks():
-            log_line_id = "%s:%i" % (self.file_parser.name, chunk['timestamp'])
+        for chunk in self.parser.get_chunks():
+            log_line_id = "%s:%i" % (self.transcript_name, chunk['timestamp'])
             # If we've filled up the current page, go to a new one
             if current_page_lines >= self.LINES_PER_PAGE:
                 current_page += 1
@@ -69,9 +65,9 @@ class Indexer(object):
             speakers = set([ line['speaker'] for line in chunk['lines'] ])
             for speaker in speakers:
                 self.redis_conn.sadd("speaker:%s" % speaker, log_line_id)
-            # Add it into the stream and everything sets
+            # Add it into the transcript and everything sets
             self.redis_conn.zadd("all", log_line_id, chunk['timestamp'])
-            self.redis_conn.zadd("stream:%s" % self.file_parser.name, log_line_id, chunk['timestamp'])
+            self.redis_conn.zadd("transcript:%s" % self.transcript_name, log_line_id, chunk['timestamp'])
             # Read the new labels into current_labels
             if '_labels' in chunk['meta']:
                 for label, endpoint in chunk['meta']['_labels'].items():
@@ -96,13 +92,59 @@ class Indexer(object):
             current_page_lines += len(chunk['lines'])
 
 
-if __name__ == "__main__":
-    os.environ['TRANSCRIPT_ROOT'] = os.path.join( os.path.dirname( __file__ ), '..', "transcript-file-format/" ) 
+class MetaIndexer(object):
+    """
+    Takes a mission folder and reads and indexes its meta information.
+    """
 
+    def __init__(self, redis_conn, mission_name, parser):
+        self.redis_conn = redis_conn
+        self.parser = parser
+        self.mission_name = mission_name
+
+    def index(self):
+        meta = self.parser.get_meta()
+        print meta
+
+
+class MissionIndexer(object):
+    """
+    Takes a mission folder and indexes everything inside it.
+    """
+
+    def __init__(self, redis_conn, folder_path):
+        self.redis_conn = redis_conn
+        self.folder_path = folder_path
+        self.mission_name = folder_path.strip("/").split("/")[-1]
+
+    def index(self):
+        # Delete the old things in the database
+        # TODO: More sensible flush/switching behaviour
+        self.redis_conn.flushdb()
+        
+        self.index_transcripts()
+        self.index_meta()
+
+    def index_transcripts(self):
+        for filename in os.listdir(self.folder_path):
+            if "." not in filename and filename[0] != "_":
+                path = os.path.join(self.folder_path, filename)
+                parser = TranscriptParser(path)
+                indexer = TranscriptIndexer(self.redis_conn, "%s/%s" % (self.mission_name, filename), parser)
+                indexer.index()
+                print filename, "indexed"
+
+    def index_meta(self):
+        path = os.path.join(self.folder_path, "_meta")
+        parser = MetaParser(path)
+        indexer = MetaIndexer(self.redis_conn, self.mission_name, parser)
+        indexer.index()
+
+
+if __name__ == "__main__":
     redis_conn = redis.Redis()
 
-    fp = FileParser("a13/TEC")
-    idx = Indexer(redis_conn, fp)
+    idx = MissionIndexer(redis_conn, os.path.join(os.path.dirname( __file__ ), '..', "transcript-file-format/", "a13")) 
     idx.index()
 
     from api import Query
