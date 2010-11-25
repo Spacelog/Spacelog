@@ -6,6 +6,7 @@
             "range": [-10, 54]
         },
         {
+            "title": "Phase 2: Electric Boogaloo",
             "description": "The rocket go boom. Sadface.",
             "range": [54, 120]
         }

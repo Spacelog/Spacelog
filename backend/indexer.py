@@ -104,7 +104,16 @@ class MetaIndexer(object):
 
     def index(self):
         meta = self.parser.get_meta()
-        print meta
+
+        for noun in ('act', 'key_scene'):
+            for i, data in enumerate(meta.get('%ss' % noun, [])):
+                key = "%s:%s/%i" % (noun, self.mission_name, i)
+                self.redis_conn.sadd("%ss:%s" % (noun, self.mission_name), key)
+
+                data['start'], data['end'] = data['range']
+                del data['range']
+
+                self.redis_conn.hmset(key, data)
 
 
 class MissionIndexer(object):
