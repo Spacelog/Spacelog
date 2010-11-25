@@ -4,8 +4,7 @@ import sys
 
 #MAX_FILE_NUMBER = 20
 MAX_FILE_NUMBER = 765
-ERRORS = []
-DIRTY_FILE = False
+errors = []
        
 def get_file_name_for(num):
     return str(num).zfill(3) + ".txt"
@@ -83,7 +82,12 @@ def set_timestamp_speaker_and_text(line):
 
 def line_is_a_new_entry(line):
     
-    for token in line.raw.split(" ")[0:4]:
+    dateTokens = line.raw.split(" ")[0:4]
+    
+    if len(dateTokens) < 4 :
+        return False
+    
+    for token in dateTokens:
         try:
             int(token)
         except:
@@ -132,7 +136,7 @@ def get_formatted_record_for(line):
         lines.append((u"%s: %s" % (line.speaker, line.text,)).encode('utf-8'))
         return lines
     else:
-        print("Found invalid line")
+        errors.append("Found invalid line")
         return []
     
 class LogLine:
@@ -197,3 +201,5 @@ if __name__ == "__main__":
         outputFile.writelines(get_formatted_record_for(goodLine))
     
     outputFile.close()
+    
+    sys.exit(1)
