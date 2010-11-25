@@ -89,6 +89,10 @@ class LogLine(object):
             "Returns a new Query whose results are between two times"
             return self._extend_query("range", (start_time, end_time))
         
+        def page(self, page_number):
+            "Returns a new Query whose results are all the log lines on a given page"
+            return self._extend_query("page", page_number)
+
         def first_after(self, timestamp):
             "Returns the closest log line after the timestamp."
             if "transcript" in self.filters:
@@ -158,6 +162,8 @@ class LogLine(object):
                     self.filters['range'][0],
                     self.filters['range'][1],
                 )
+            elif filter_names == set(['page', 'transcript']):
+                keys = self.redis_conn.lrange("page:%s:%i" % (self.filters['transcript'], self.filters['page']), 0, -1)
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
             # Iterate over the keys and return LogLine objects

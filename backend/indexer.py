@@ -10,7 +10,7 @@ class TranscriptIndexer(object):
     Parses a file and indexes it.
     """
 
-    LINES_PER_PAGE = 2
+    LINES_PER_PAGE = 20
 
     def __init__(self, redis_conn, mission_name, transcript_name, parser):
         self.redis_conn = redis_conn
@@ -76,6 +76,8 @@ class TranscriptIndexer(object):
             speakers = set([ line['speaker'] for line in chunk['lines'] ])
             for speaker in speakers:
                 self.redis_conn.sadd("speaker:%s" % speaker, log_line_id)
+            # Add it to the index for this page
+            self.redis_conn.rpush("page:%s:%i" % (self.transcript_name, current_page), log_line_id)
             # Add it into the transcript and everything sets
             self.redis_conn.zadd("log_lines:%s" % self.mission_name, log_line_id, chunk['timestamp'])
             self.redis_conn.zadd("transcript:%s" % self.transcript_name, log_line_id, chunk['timestamp'])
@@ -171,9 +173,9 @@ if __name__ == "__main__":
     idx.index()
 
     from api import LogLine, Act
-    log_lines = list(LogLine.Query(redis_conn, 'a13').range(2, 12))
+    log_lines = list(LogLine.Query(redis_conn, 'a13').transcript('a13/TEC').page(7))
 
     for line in log_lines:
-        print line, line.previous(), line.next(), line.act()
+        print line, line.lines
 
     print list(Act.Query(redis_conn, 'a13'))

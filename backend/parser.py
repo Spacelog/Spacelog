@@ -69,11 +69,16 @@ class TranscriptParser(object):
                         reuse_line = line
                         break
                 # Parse the blob
-                try:
-                    data = simplejson.loads(blob)
-                except simplejson.JSONDecodeError:
-                    print "Error: Invalid json at timestamp %s, key %s" % (timestamp, name)
-                current_chunk['meta'][name.strip()] = data
+                blob = blob.strip()
+                if blob:
+                    try:
+                        data = simplejson.loads(blob)
+                    except simplejson.JSONDecodeError:
+                        try:
+                            data = simplejson.loads('"%s"' % blob)
+                        except simplejson.JSONDecodeError:
+                            print "Error: Invalid json at timestamp %s, key %s" % (timestamp, name)
+                    current_chunk['meta'][name.strip()] = data
             # If it's a continuation, append to the current line
             elif line[0] in string.whitespace:
                 # Continuation line
