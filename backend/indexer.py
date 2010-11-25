@@ -22,15 +22,12 @@ class TranscriptIndexer(object):
         current_transcript_page = None
         current_page = 1
         current_page_lines = 0
+        last_act = None
         previous_log_line_id = None
         acts = list(Act.Query(self.redis_conn, self.mission_name))
         for chunk in self.parser.get_chunks():
             timestamp = chunk['timestamp']
             log_line_id = "%s:%i" % (self.transcript_name, timestamp)
-            # If we've filled up the current page, go to a new one
-            if current_page_lines >= self.LINES_PER_PAGE:
-                current_page += 1
-                current_page_lines = 0
             # See if there's transcript page info, and update it if so
             if chunk['meta'].get('_page', 0):
                 current_transcript_page = int(chunk["meta"]['_page'])
@@ -41,7 +38,12 @@ class TranscriptIndexer(object):
                 if act.includes(timestamp):
                     break
             else:
-                raise RuntimeError("No act for timestamp %i" % timestamp) 
+                raise RuntimeError("No act for timestamp %i" % timestamp)
+            # If we've filled up the current page, go to a new one
+            if current_page_lines >= self.LINES_PER_PAGE or (last_act is not None and last_act != act):
+                current_page += 1
+                current_page_lines = 0
+            last_act = act
             # First, create a record with some useful information
             self.redis_conn.hmset(
                 "log_line:%s:info" % log_line_id,
