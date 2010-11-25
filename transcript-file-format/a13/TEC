@@ -6,8 +6,11 @@
 
 # NNC is a timestamp, in seconds from mission start.
 # NOTE: These can also be negative.
-# TODO: Page references
 [-10]
+# NNC is a page reference. You only need to have this at the
+# start of each page; it automatically applies to the following
+# lines until a new page reference is provided.
+_page: 1
 
 # NNC is a logline.
 # Loglines are of the form /^[speaker]\s+:\s+[text]$/
@@ -34,6 +37,7 @@ CMP: Okay. P11, `Jim:CDR`.
 CDR: Yaw program.
 
 [12]
+_page: 2
 _audio: [
     {
         # Warning: No trailing commas! That's invalid JSON.

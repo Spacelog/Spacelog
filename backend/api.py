@@ -12,6 +12,7 @@ class LogLine(object):
         self.redis_conn = redis_conn
         self.stream_name = stream_name
         self.timestamp = timestamp
+        self.id = "%s:%i" % (self.stream_name, self.timestamp)
         self._load()
 
     @classmethod
@@ -24,24 +25,14 @@ class LogLine(object):
         # Load the file parser
         fp = FileParser(self.stream_name)
         # Find the offset and load just one item from there
-        offset = self.redis_conn.get("stream:%s:%i:offset" % (self.stream_name, self.timestamp))
+        offset = self.redis_conn.get("log_line:%s:offset" % self.id)
         item = iter(fp.get_chunks(int(offset))).next()
         # Load onto our attributes
         self.lines = item['lines']
+        self.page = self.redis_conn.get("log_line:%s:page" % self.id)
 
     def __repr__(self):
         return "<LogLine %s:%i (%s lines)>" % (self.stream_name, self.timestamp, len(self.lines))
-
-    ### Querying ###
-
-    @classmethod
-    def by_stream(cls, redis_conn, stream_name):
-        "Returns all items in a stream."
-        keys = redis_conn.keys("stream:%s:*:offset" % stream_name)
-        keys.sort(key=lambda x: int(x.split(":", 3)[2]))
-        for key in keys:
-            stream_name, timestamp = key.split(":", 3)[1:3]
-            yield cls(redis_conn, stream_name, int(timestamp))
     
 
 class Query(object):
@@ -50,9 +41,8 @@ class Query(object):
     """
     def __init__(self, redis_conn, keys=None):
         self.redis_conn = redis_conn
-        
         if keys is None:
-            self.keys = redis_conn.keys( "stream:*:offset" )
+            self.keys = redis_conn.keys( "log_line:*:offset" )
             self.keys = [ ":".join( key.split( ":" )[1:3] ) 
                 for key in self.keys
             ]
@@ -78,7 +68,6 @@ class Query(object):
     def speakers(self, speakers):
         "Returns a new Query whose results are any of the specified speakers"
         speaker_keys = set()
-        
         for speaker in speakers:
             speaker_keys.update(
                 self.redis_conn.smembers( "speaker:%s" % speaker )
@@ -91,7 +80,6 @@ class Query(object):
     def labels(self, labels):
         "Returns a new Query whose results are any of the specified labels"
         label_keys = set()
-        
         for label in labels:
             label_keys.update(
                 self.redis_conn.smembers( "label:%s" % label )
@@ -112,7 +100,10 @@ class Query(object):
     
     def sort_by_time(self):
         "Sorts the query results by timestamp"
-        return sorted(self.keys, key=lambda x: int(x.split(":", 3)[1]) )
+        return Query(
+            self.redis_conn,
+            sorted(self.keys, key=lambda x: int(x.split(":", 3)[1]) ),
+        )
     
 
 
