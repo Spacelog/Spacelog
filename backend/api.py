@@ -201,11 +201,15 @@ class Act(object):
         self.id = "%s:%i" % (self.mission_name, self.number)
         self._load()
 
+    def __eq__(self, other):
+        return self.id == other.id
+
     def _load(self):
         data = self.redis_conn.hgetall("act:%s" % self.id)
         # Load onto our attributes
         self.start = int(data['start'])
         self.end = int(data['end'])
+        self.title = data['title']
         self.data = data
 
     def __repr__(self):

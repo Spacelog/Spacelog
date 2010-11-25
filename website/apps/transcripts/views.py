@@ -1,5 +1,5 @@
 from django.views.generic import TemplateView
-from backend.api import LogLine
+from backend.api import LogLine, Act
 import redis
 
 class PageView(TemplateView):
@@ -27,5 +27,7 @@ class PageView(TemplateView):
             'log_lines': log_lines,
             'next_timestamp': log_lines[-1].timestamp + 1,
             'previous_timestamp': previous_timestamp,
+            'acts': Act.Query(redis_conn, 'a13').items(),
+            'current_act': log_lines[0].act(),
         }
 

@@ -25,5 +25,16 @@
         <a href="{% url view_timestamp next_timestamp %}">Next</a>
     {% endif %}
 
+<h2>Acts</h2>
+<ol>
+  {% for act in acts %}
+    {% if act == current_act %}
+      <li><strong>You are here: <a href="{% url view_timestamp act.start %}">{{ act.title }}</a></strong></li>
+    {% else %}
+      <li><a href="{% url view_timestamp act.start %}">{{ act.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ol>
+
 {% endblock %}
 
