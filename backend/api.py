@@ -1,4 +1,30 @@
 
+
+class BaseQuery(object):
+    """
+    Very basic common shared functionality.
+    """
+
+    all_key_pattern = None
+
+    def __init__(self, redis_conn, mission_name, filters=None):
+        self.redis_conn = redis_conn
+        self.mission_name = mission_name
+        if filters is None:
+            self.filters = {}
+        else:
+            self.filters = filters
+        self.all_key = self.all_key_pattern % {"mission_name": mission_name} 
+
+    def _extend_query(self, key, value):
+        new_filters = dict(self.filters.items())
+        new_filters[key] = value
+        return self.__class__(self.redis_conn, self.mission_name, new_filters)
+
+    def __iter__(self):
+        return iter( self.items() )
+    
+
 class LogLine(object):
     """
     Basic object that represents a log line; pass in the timestamp
@@ -20,7 +46,6 @@ class LogLine(object):
         return cls(redis_conn, transcript, timestamp)
 
     def _load(self):
-        # Find the offset and load just one item from there
         data = self.redis_conn.hgetall("log_line:%s:info" % self.id)
         # Load onto our attributes
         self.page = data['page']
@@ -43,124 +68,140 @@ class LogLine(object):
             return LogLine.by_log_line_id(self.redis_conn, self.previous_log_line_id)
         else:
             return None
+
+    class Query(BaseQuery):
+        """
+        Allows you to query for LogLines.
+        """
+
+        all_key_pattern = "log_lines:%(mission_name)s"
+
+        def transcript(self, transcript_name):
+            "Returns a new Query filtered by transcript"
+            return self._extend_query("transcript", transcript_name)
+        
+        def range(self, start_time, end_time):
+            "Returns a new Query whose results are between two times"
+            return self._extend_query("range", (start_time, end_time))
+        
+        def first_after(self, timestamp):
+            "Returns the closest log line after the timestamp."
+            if "transcript" in self.filters:
+                key = "transcript:%s" % self.filters['transcript']
+            else:
+                key = self.all_key
+            # Do a search.
+            period = 1
+            results = []
+            while not results:
+                results = self.redis_conn.zrangebyscore(key, timestamp, timestamp+period)
+                period *= 2
+                # This test is here to ensure they don't happen on every single request.
+                if period == 8:
+                    # Use zrange to get the highest scoring element and take its score
+                    top_score = self.redis_conn.zrange(key, -1, -1, withscores=True)[0][1]
+                    if timestamp > top_score:
+                        raise ValueError("No matching LogLines after timestamp %s." % timestamp)
+            # Return the first result
+            return self._key_to_instance(results[0])
+
+        def first_before(self, timestamp):
+            if "transcript" in self.filters:
+                key = "transcript:%s" % self.filters['transcript']
+            else:
+                key = self.all_key
+            # Do a search.
+            period = 1
+            results = []
+            while not results:
+                results = self.redis_conn.zrangebyscore(key, timestamp-period, timestamp)
+                period *= 2
+                # This test is here to ensure they don't happen on every single request.
+                if period == 8:
+                    # Use zrange to get the highest scoring element and take its score
+                    bottom_score = self.redis_conn.zrange(key, 0, 0, withscores=True)[0][1]
+                    if timestamp < bottom_score:
+                        raise ValueError("No matching LogLines before timestamp %s." % timestamp)
+            # Return the first result
+            return self._key_to_instance(results[-1])
+        
+        def speakers(self, speakers):
+            "Returns a new Query whose results are any of the specified speakers"
+            return self._extend_query("speakers", speakers)
+        
+        def labels(self, labels):
+            "Returns a new Query whose results are any of the specified labels"
+            return self._extend_query("labels", labels)
+        
+        def items(self):
+            "Executes the query and returns the items."
+            # Make sure it's a valid combination 
+            filter_names = set(self.filters.keys())
+            if filter_names == set():
+                keys = self.redis_conn.zrange(self.all_key, 0, -1)
+            elif filter_names == set(["transcript"]):
+                keys = self.redis_conn.zrange("transcript:%s" % self.filters['transcript'], 0, -1)
+            elif filter_names == set(["transcript", "range"]):
+                keys = self.redis_conn.zrangebyscore(
+                    "transcript:%s" % self.filters['transcript'],
+                    self.filters['range'][0],
+                    self.filters['range'][1],
+                )
+            elif filter_names == set(["range"]):
+                keys = self.redis_conn.zrangebyscore(
+                    self.all_key,
+                    self.filters['range'][0],
+                    self.filters['range'][1],
+                )
+            else:
+                raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
+            # Iterate over the keys and return LogLine objects
+            for key in keys:
+                yield self._key_to_instance(key)
+        
+        def _key_to_instance(self, key):
+            transcript_name, timestamp = key.split(":", 1)
+            return LogLine(self.redis_conn, transcript_name, int(timestamp))
     
 
-class Query(object):
+class Act(object):
+    """
+    Represents an Act in the mission.
     """
     
-    """
-    def __init__(self, redis_conn, filters=None):
+    def __init__(self, redis_conn, mission_name, number):
         self.redis_conn = redis_conn
-        if filters is None:
-            self.filters = {}
-        else:
-            self.filters = filters
+        self.mission_name = mission_name
+        self.number = number
+        self.id = "%s:%i" % (self.mission_name, self.number)
+        self._load()
 
-    def _extend_query(self, key, value):
-        new_filters = dict(self.filters.items())
-        new_filters[key] = value
-        return Query(self.redis_conn, new_filters)
-    
-    def transcript(self, transcript_name):
-        "Returns a new Query filtered by transcript"
-        return self._extend_query("transcript", transcript_name)
-    
-    def range(self, start_time, end_time):
-        "Returns a new Query whose results are between two times"
-        return self._extend_query("range", (start_time, end_time))
-    
-    def first_after(self, timestamp):
-        "Returns the closest log line after the timestamp."
-        if "transcript" in self.filters:
-            key = "transcript:%s" % self.filters['transcript']
-        else:
-            key = "all"
-        # Do a search.
-        period = 1
-        results = []
-        while not results:
-            results = self.redis_conn.zrangebyscore(key, timestamp, timestamp+period)
-            period *= 2
-            # This test is here to ensure they don't happen on every single request.
-            if period == 8:
-                # Use zrange to get the highest scoring element and take its score
-                top_score = self.redis_conn.zrange(key, -1, -1, withscores=True)[0][1]
-                if timestamp > top_score:
-                    raise ValueError("No matching LogLines after timestamp %s." % timestamp)
-        # Return the first result
-        return self._key_to_instance(results[0])
+    def _load(self):
+        data = self.redis_conn.hgetall("act:%s" % self.id)
+        # Load onto our attributes
+        self.start = int(data['start'])
+        self.end = int(data['end'])
+        self.data = data
 
-    def first_before(self, timestamp):
-        if "transcript" in self.filters:
-            key = "transcript:%s" % self.filters['transcript']
-        else:
-            key = "all"
-        # Do a search.
-        period = 1
-        results = []
-        while not results:
-            results = self.redis_conn.zrangebyscore(key, timestamp-period, timestamp)
-            period *= 2
-            # This test is here to ensure they don't happen on every single request.
-            if period == 8:
-                # Use zrange to get the highest scoring element and take its score
-                bottom_score = self.redis_conn.zrange(key, 0, 0, withscores=True)[0][1]
-                if timestamp < bottom_score:
-                    raise ValueError("No matching LogLines before timestamp %s." % timestamp)
-        # Return the first result
-        return self._key_to_instance(results[-1])
-    
-    def speakers(self, speakers):
-        "Returns a new Query whose results are any of the specified speakers"
-        return self._extend_query("speakers", speakers)
-    
-    def labels(self, labels):
-        "Returns a new Query whose results are any of the specified labels"
-        return self._extend_query("labels", labels)
-    
-    def items(self):
-        "Executes the query and returns the items."
-        # Make sure it's a valid combination 
-        filter_names = set(self.filters.keys())
-        if filter_names == set():
-            keys = self.redis_conn.zrange("all", 0, -1)
-        elif filter_names == set(["transcript"]):
-            keys = self.redis_conn.zrange("transcript:%s" % self.filters['transcript'], 0, -1)
-        elif filter_names == set(["transcript", "range"]):
-            keys = self.redis_conn.zrangebyscore(
-                "transcript:%s" % self.filters['transcript'],
-                self.filters['range'][0],
-                self.filters['range'][1],
-            )
-        elif filter_names == set(["range"]):
-            keys = self.redis_conn.zrangebyscore(
-                "all",
-                self.filters['range'][0],
-                self.filters['range'][1],
-            )
-        else:
-            raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
-        # Iterate over the keys and return LogLine objects
-        for key in keys:
-            yield self._key_to_instance(key)
-    
-    def _key_to_instance(self, key):
-        transcript_name, timestamp = key.split(":", 1)
-        return LogLine(self.redis_conn, transcript_name, int(timestamp))
+    def __repr__(self):
+        return "<Act %s:%i [%s to %s]>" % (self.mission_name, self.number, self.start, self.end)
 
-    def __iter__(self):
-        return iter( self.items() )
-    
+    class Query(BaseQuery):
+        
+        all_key_pattern = "acts:%(mission_name)s"
 
+        def items(self):
+            "Executes the query and returns the items."
+            # Make sure it's a valid combination 
+            filter_names = set(self.filters.keys())
+            if filter_names == set():
+                keys = self.redis_conn.lrange(self.all_key, 0, -1)
+            else:
+                raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
+            # Iterate over the keys and return LogLine objects
+            for key in keys:
+                yield self._key_to_instance(key)
 
-
-
-
-
-
-
-
-
-
-
-
+        def _key_to_instance(self, key):
+            mission_name, number = key.split(":", 1)
+            return Act(self.redis_conn, mission_name, int(number))

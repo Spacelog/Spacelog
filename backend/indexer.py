@@ -11,8 +11,9 @@ class TranscriptIndexer(object):
 
     LINES_PER_PAGE = 2
 
-    def __init__(self, redis_conn, transcript_name, parser):
+    def __init__(self, redis_conn, mission_name, transcript_name, parser):
         self.redis_conn = redis_conn
+        self.mission_name = mission_name
         self.transcript_name = transcript_name
         self.parser = parser
 
@@ -66,7 +67,7 @@ class TranscriptIndexer(object):
             for speaker in speakers:
                 self.redis_conn.sadd("speaker:%s" % speaker, log_line_id)
             # Add it into the transcript and everything sets
-            self.redis_conn.zadd("all", log_line_id, chunk['timestamp'])
+            self.redis_conn.zadd("log_lines:%s" % self.mission_name, log_line_id, chunk['timestamp'])
             self.redis_conn.zadd("transcript:%s" % self.transcript_name, log_line_id, chunk['timestamp'])
             # Read the new labels into current_labels
             if '_labels' in chunk['meta']:
@@ -107,8 +108,11 @@ class MetaIndexer(object):
 
         for noun in ('act', 'key_scene'):
             for i, data in enumerate(meta.get('%ss' % noun, [])):
-                key = "%s:%s/%i" % (noun, self.mission_name, i)
-                self.redis_conn.sadd("%ss:%s" % (noun, self.mission_name), key)
+                key = "%s:%s:%i" % (noun, self.mission_name, i)
+                self.redis_conn.rpush(
+                    "%ss:%s" % (noun, self.mission_name),
+                    "%s:%i" % (self.mission_name, i),
+                )
 
                 data['start'], data['end'] = data['range']
                 del data['range']
@@ -139,7 +143,7 @@ class MissionIndexer(object):
             if "." not in filename and filename[0] != "_":
                 path = os.path.join(self.folder_path, filename)
                 parser = TranscriptParser(path)
-                indexer = TranscriptIndexer(self.redis_conn, "%s/%s" % (self.mission_name, filename), parser)
+                indexer = TranscriptIndexer(self.redis_conn, self.mission_name, "%s/%s" % (self.mission_name, filename), parser)
                 indexer.index()
                 print filename, "indexed"
 
@@ -156,21 +160,10 @@ if __name__ == "__main__":
     idx = MissionIndexer(redis_conn, os.path.join(os.path.dirname( __file__ ), '..', "transcript-file-format/", "a13")) 
     idx.index()
 
-    from api import Query
-    log_lines =  list(Query(redis_conn).range(2, 12))
+    from api import LogLine, Act
+    log_lines = list(LogLine.Query(redis_conn, 'a13').range(2, 12))
 
     for line in log_lines:
         print line, line.previous(), line.next()
 
-    print "==="
-
-    try:
-        print Query(redis_conn).first_after(378)
-    except ValueError:
-        print "yay."
-    print Query(redis_conn).first_before(378)
-    print Query(redis_conn).first_before(0)
-    print Query(redis_conn).first_after(0)
-    print Query(redis_conn).first_after(-1000)
-    print Query(redis_conn).first_before(-1000)
-
+    print list(Act.Query(redis_conn, 'a13'))
