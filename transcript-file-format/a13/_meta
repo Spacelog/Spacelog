@@ -1,14 +1,29 @@
 {
     "acts" : [
         {
-            "title": "Acte the Firste: Launche!",
-            "description": "The rocket go bye-bye.",
-            "range": [-10, 5]
+            "title": "Launch",
+            "description": "Leaving the earth!",
+            "range": [-20, 720]
         },
         {
-            "title": "Phase 2: Electric Boogaloo",
+            "title": "Earth orbit",
             "description": "The rocket go boom. Sadface.",
-            "range": [5, 1200000000]
+            "range": [720, 9720]
+        },
+        {
+            "title": "To the Moon",
+            "description": "",
+            "range": [9720, 286020]
+        },
+        {
+            "title": "Towards Earth",
+            "description": "",
+            "range": [286020, 508620]
+        },
+        {
+            "title": "Re-entry",
+            "description": "",
+            "range": [508620, 520000]
         }
     ],
     "key_scenes" : [
