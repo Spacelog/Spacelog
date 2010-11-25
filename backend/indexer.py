@@ -111,3 +111,15 @@ if __name__ == "__main__":
     for line in log_lines:
         print line, line.previous(), line.next()
 
+    print "==="
+
+    try:
+        print Query(redis_conn).first_after(378)
+    except ValueError:
+        print "yay."
+    print Query(redis_conn).first_before(378)
+    print Query(redis_conn).first_before(0)
+    print Query(redis_conn).first_after(0)
+    print Query(redis_conn).first_after(-1000)
+    print Query(redis_conn).first_before(-1000)
+

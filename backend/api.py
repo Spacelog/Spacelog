@@ -69,9 +69,46 @@ class Query(object):
         "Returns a new Query whose results are between two times"
         return self._extend_query("range", (start_time, end_time))
     
-    def closest(self, timestamp):
+    def first_after(self, timestamp):
         "Returns the closest log line after the timestamp."
-        pass
+        if "stream" in self.filters:
+            key = "stream:%s" % self.filters['stream']
+        else:
+            key = "all"
+        # Do a search.
+        period = 1
+        results = []
+        while not results:
+            results = self.redis_conn.zrangebyscore(key, timestamp, timestamp+period)
+            period *= 2
+            # This test is here to ensure they don't happen on every single request.
+            if period == 8:
+                # Use zrange to get the highest scoring element and take its score
+                top_score = self.redis_conn.zrange(key, -1, -1, withscores=True)[0][1]
+                if timestamp > top_score:
+                    raise ValueError("No matching LogLines after timestamp %s." % timestamp)
+        # Return the first result
+        return self._key_to_instance(results[0])
+
+    def first_before(self, timestamp):
+        if "stream" in self.filters:
+            key = "stream:%s" % self.filters['stream']
+        else:
+            key = "all"
+        # Do a search.
+        period = 1
+        results = []
+        while not results:
+            results = self.redis_conn.zrangebyscore(key, timestamp-period, timestamp)
+            period *= 2
+            # This test is here to ensure they don't happen on every single request.
+            if period == 8:
+                # Use zrange to get the highest scoring element and take its score
+                bottom_score = self.redis_conn.zrange(key, 0, 0, withscores=True)[0][1]
+                if timestamp < bottom_score:
+                    raise ValueError("No matching LogLines before timestamp %s." % timestamp)
+        # Return the first result
+        return self._key_to_instance(results[-1])
     
     def speakers(self, speakers):
         "Returns a new Query whose results are any of the specified speakers"
@@ -105,9 +142,12 @@ class Query(object):
             raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
         # Iterate over the keys and return LogLine objects
         for key in keys:
-            stream_name, timestamp = key.split(":", 3)
-            yield LogLine(self.redis_conn, stream_name, int(timestamp))
+            yield self._key_to_instance(key)
     
+    def _key_to_instance(self, key):
+        stream_name, timestamp = key.split(":", 1)
+        return LogLine(self.redis_conn, stream_name, int(timestamp))
+
     def __iter__(self):
         return iter( self.items() )
     
