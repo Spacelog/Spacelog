@@ -32,3 +32,5 @@ class PageView(TemplateView):
             'current_act': log_lines[0].act(),
         }
 
+class RangeView(PageView):
+    pass
