@@ -136,6 +136,17 @@ class LogLine(object):
                         raise ValueError("No matching LogLines before timestamp %s." % timestamp)
             # Return the first result
             return self._key_to_instance(results[-1])
+
+        def first(self):
+            "Returns the first log line if you've filtered by page."
+            if set(self.filters.keys()) == set(["transcript", "page"]):
+                try:
+                    key = self.redis_conn.lrange("page:%s:%i" % (self.filters['transcript'], self.filters['page']), 0, 0)[0]
+                except IndexError:
+                    raise ValueError("There are no log lines for this page.")
+                return self._key_to_instance(key)
+            else:
+                raise ValueError("You can only use first() if you've used page() and transcript() only.")
         
         def speakers(self, speakers):
             "Returns a new Query whose results are any of the specified speakers"

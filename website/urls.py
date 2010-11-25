@@ -7,7 +7,7 @@ urlpatterns = patterns('',
     # (r'^website/', include('website.foo.urls')),
     
     (r'^$', 'homepage.views.homepage'),
-    (r'^view/(?:(?P<timestamp>-?[0-9]+)/)?$', PageView.as_view()),
+    url(r'^view/(?:(?P<timestamp>-?[0-9]+)/)?$', PageView.as_view(), name="view_timestamp"),
 )
 
 if settings.DEBUG: # pragma: no cover

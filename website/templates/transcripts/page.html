@@ -2,7 +2,11 @@
 {% load missiontime %}
 
 {% block content %}
-Page {{page_number}}
+
+{% if previous_timestamp %}
+    <a href="{% url view_timestamp previous_timestamp %}">Previous</a>
+{% endif %}
+
 <ol>
     {% for log_line in log_lines %}
         {% for speaker, text in log_line.lines %}
@@ -14,5 +18,10 @@ Page {{page_number}}
         {% endfor %}
     {% endfor %}
 </ol>
+
+{% if next_timestamp %}
+    <a href="{% url view_timestamp next_timestamp %}">Next</a>
+{% endif %}
+
 {% endblock %}
 
