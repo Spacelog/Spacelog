@@ -3,6 +3,7 @@ import redis
 import pprint
 
 from parser import TranscriptParser, MetaParser
+from api import Act, LogLine
 
 class TranscriptIndexer(object):
     """
@@ -23,8 +24,10 @@ class TranscriptIndexer(object):
         current_page = 1
         current_page_lines = 0
         previous_log_line_id = None
+        acts = list(Act.Query(self.redis_conn, self.mission_name))
         for chunk in self.parser.get_chunks():
-            log_line_id = "%s:%i" % (self.transcript_name, chunk['timestamp'])
+            timestamp = chunk['timestamp']
+            log_line_id = "%s:%i" % (self.transcript_name, timestamp)
             # If we've filled up the current page, go to a new one
             if current_page_lines >= self.LINES_PER_PAGE:
                 current_page += 1
@@ -34,6 +37,12 @@ class TranscriptIndexer(object):
                 current_transcript_page = int(chunk["meta"]['_page'])
             if current_transcript_page:
                 self.redis_conn.set("log_line:%s:page" % log_line_id, current_transcript_page)
+            # Look up the act
+            for act in acts:
+                if act.includes(timestamp):
+                    break
+            else:
+                raise RuntimeError("No act for timestamp %i" % timestamp) 
             # First, create a record with some useful information
             self.redis_conn.hmset(
                 "log_line:%s:info" % log_line_id,
@@ -41,6 +50,7 @@ class TranscriptIndexer(object):
                     "offset": chunk['offset'],
                     "page": current_page,
                     "transcript_page": current_transcript_page,
+                    "act": act.number,
                 }
             )
             # Create the doubly-linked list structure
@@ -135,8 +145,8 @@ class MissionIndexer(object):
         # TODO: More sensible flush/switching behaviour
         self.redis_conn.flushdb()
         
-        self.index_transcripts()
         self.index_meta()
+        self.index_transcripts()
 
     def index_transcripts(self):
         for filename in os.listdir(self.folder_path):
@@ -164,6 +174,6 @@ if __name__ == "__main__":
     log_lines = list(LogLine.Query(redis_conn, 'a13').range(2, 12))
 
     for line in log_lines:
-        print line, line.previous(), line.next()
+        print line, line.previous(), line.next(), line.act()
 
     print list(Act.Query(redis_conn, 'a13'))

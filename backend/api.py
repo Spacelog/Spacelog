@@ -35,6 +35,7 @@ class LogLine(object):
     def __init__(self, redis_conn, transcript_name, timestamp):
         self.redis_conn = redis_conn
         self.transcript_name = transcript_name
+        self.mission_name = transcript_name.split("/")[0]
         self.timestamp = timestamp
         self.id = "%s:%i" % (self.transcript_name, self.timestamp)
         self._load()
@@ -53,6 +54,7 @@ class LogLine(object):
         self.lines = self.redis_conn.lrange("log_line:%s:lines" % self.id, 0, -1)
         self.next_log_line_id = data.get('next', None)
         self.previous_log_line_id = data.get('previous', None)
+        self.act_number = int(data['act'])
 
     def __repr__(self):
         return "<LogLine %s:%i, page %s (%s lines)>" % (self.transcript_name, self.timestamp, self.page, len(self.lines))
@@ -68,6 +70,9 @@ class LogLine(object):
             return LogLine.by_log_line_id(self.redis_conn, self.previous_log_line_id)
         else:
             return None
+
+    def act(self):
+        return Act(self.redis_conn, self.mission_name, self.act_number)
 
     class Query(BaseQuery):
         """
@@ -185,6 +190,12 @@ class Act(object):
 
     def __repr__(self):
         return "<Act %s:%i [%s to %s]>" % (self.mission_name, self.number, self.start, self.end)
+
+    def log_lines(self):
+        return LogLine.Query(self.redis_conn, self.mission_name).range(self.start, self.end)
+
+    def includes(self, timestamp):
+        return self.start <= timestamp < self.end
 
     class Query(BaseQuery):
         
