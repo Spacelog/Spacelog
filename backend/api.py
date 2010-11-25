@@ -49,7 +49,7 @@ class LogLine(object):
     def _load(self):
         data = self.redis_conn.hgetall("log_line:%s:info" % self.id)
         # Load onto our attributes
-        self.page = data['page']
+        self.page = int(data['page'])
         self.transcript_page = data['transcript_page']
         self.lines = self.redis_conn.lrange("log_line:%s:lines" % self.id, 0, -1)
         self.next_log_line_id = data.get('next', None)

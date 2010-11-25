@@ -1,11 +1,13 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
+from transcripts.views import PageView
 
 urlpatterns = patterns('',
     # Example:
     # (r'^website/', include('website.foo.urls')),
     
     (r'^$', 'homepage.views.homepage'),
+    (r'^view/(?:(?P<timestamp>-?[0-9]+)/)?$', PageView.as_view()),
 )
 
 if settings.DEBUG: # pragma: no cover

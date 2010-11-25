@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+Page {{page_number}}
+<ol>
+    {% for line in log_lines %}
+        <li>{{line.lines}}</li>
+    {% endfor %}
+</ol>
+{% endblock %}
+
