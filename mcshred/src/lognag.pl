@@ -9,11 +9,12 @@ use Data::Dumper;
 use Getopt::Std;
 
 my %opt;
-if ( !getopts( 'ho:t:', \%opt ) || $opt{h} || !@ARGV ) {
+if ( !getopts( 'ho:t:v', \%opt ) || $opt{h} || !@ARGV ) {
     print "Usage: lognag.pl [files]
       -h : This help
   -o dir : Write valid output to files in 'dir'
 -t regex : Only check for failures of type 'regex'
+      -v : Verbose. Make editorially biased comments regarding the files
 eg:
    ./lognag.pl AS13_TEC/0_CLEAN/[0-9]*.txt
 
@@ -23,9 +24,10 @@ lognag will sort files on the commandline by filename, excluding directory compo
 }
 
 my %valid_speaker = map { $_ => 1 }
-  qw( AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC);
+  qw( AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music);
 my $last = 0;
 my %badfiles;
+my %speakers;
 
 sub process {
     my ($file) = @_;
@@ -51,23 +53,28 @@ sub process {
                 --$logscore if $words[$i] =~ /^[a-z]+$/;
                 ++$logscore if $words[$i] =~ /^\d{2}$/;
             }
-            if ( $logscore > 3 && $words[4] !~ m/^\(Music/ ) {
+            my $speaker = $words[4];
+            $speaker = 'Music' if $speaker =~ /^\(Music/;
+            if ( $logscore > 3 ) {
                 my @speakers =
-                  grep( !$valid_speaker{$_}, split( '/', $words[4] ) );
+                  grep( !$valid_speaker{$_}, split( '/', $speaker ) );
                 push( @fail, 'imposter:' . join( ',', @speakers ) )
                   if @speakers;
             }
-        }
-        if ( $logscore == 4 ) {
-            push( @fail, 'badday' )  if $words[0] > 5;
-            push( @fail, 'badhour' ) if $words[1] > 24;
-            push( @fail, 'badmin' )  if $words[2] > 60;
-            push( @fail, 'badsec' )  if $words[3] > 60;
-            if ( !@fail ) {
-                my $now =
-                  join( '-', $words[0], $words[1], $words[2], $words[3] );
-                push( @fail, "timewarp:$last" ) if $now lt $last;
-                $last = $now;
+            if ( $logscore == 4 ) {
+                push( @fail, 'badday' )  if $words[0] > 5;
+                push( @fail, 'badhour' ) if $words[1] > 24;
+                push( @fail, 'badmin' )  if $words[2] > 60;
+                push( @fail, 'badsec' )  if $words[3] > 60;
+                if ( !@fail ) {
+                    my $now =
+                      join( '-', $words[0], $words[1], $words[2], $words[3] );
+                    push( @fail, "timewarp:$last" ) if $now lt $last;
+                    $last = $now;
+                    foreach my $spkr ( split( '/', $speaker ) ) {
+                        ++$speakers{$spkr}[ $words[0] ];
+                    }
+                }
             }
         }
 
@@ -114,15 +121,32 @@ sub process {
 
 foreach my $file ( sort filesort @ARGV ) { process($file); }
 print 'Badfiles: ', join( ' ', sort keys %badfiles ), "\n" if %badfiles;
+
+if ( $opt{v} ) {
+    foreach my $speaker ( sort keys %speakers ) {
+        my $perday;
+        my $total;
+        for ( my $day = 0 ; $day < @{ $speakers{$speaker} } ; ++$day ) {
+            $speakers{$speaker}[$day] ||= 0;
+            $perday .= sprintf( '%4d ', $speakers{$speaker}->[$day] );
+            $total += $speakers{$speaker}[$day];
+        }
+        chop $perday;
+        printf "%5s: %4d    ($perday)\n", $speaker, $total;
+    }
+}
 exit;
 
 sub filesort {
+
+    # Ensure we process the files sorted by filename not by pathname
     my $fa = $a;
     my $fb = $b;
     $fa =~ s:.*/::;
     $fb =~ s:.*/::;
     return $fa cmp $fb;
 }
+
 __END__;
 
     if (/^Tape \S+/) {
