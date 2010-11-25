@@ -9,8 +9,9 @@ class PageView(TemplateView):
     def get_context_data(self, timestamp):
         redis_conn = redis.Redis()
 
+        acts = list(Act.Query(redis_conn, 'a13').items())
         if timestamp is None:
-            timestamp = -10
+            timestamp = acts[0].start
 
         closest_log_line = LogLine.Query(redis_conn, 'a13').first_after(int(timestamp))
         page_number = closest_log_line.page
@@ -27,7 +28,7 @@ class PageView(TemplateView):
             'log_lines': log_lines,
             'next_timestamp': log_lines[-1].timestamp + 1,
             'previous_timestamp': previous_timestamp,
-            'acts': Act.Query(redis_conn, 'a13').items(),
+            'acts': acts,
             'current_act': log_lines[0].act(),
         }
 
