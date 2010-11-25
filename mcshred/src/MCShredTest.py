@@ -107,11 +107,13 @@ class Test(unittest.TestCase):
         
         translatedLines = MCShred.translate_lines(shreddedLines)
         
+        print(translatedLines[0].text)
+        
         assert len(translatedLines) == 1
         assert translatedLines[0].page == 2
         assert translatedLines[0].tape == u"3/2"
         assert translatedLines[0].speaker == u"CC"
-        assert translatedLines[0].text == u"This is the rest of the line" + u"\n" + logLine2 + u"\n" + logLine3
+        assert translatedLines[0].text == u"This is the rest of the line" + "     " + logLine2 + "     " + logLine3
 
     def test_get_filename_for(self):
         assert MCShred.get_file_name_for(0) == u"000.txt"

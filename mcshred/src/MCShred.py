@@ -4,6 +4,8 @@ import sys
 
 #MAX_FILE_NUMBER = 20
 MAX_FILE_NUMBER = 765
+ERRORS = []
+DIRTY_FILE = False
        
 def get_file_name_for(num):
     return str(num).zfill(3) + ".txt"
@@ -13,11 +15,11 @@ def shred_to_lines(lines, pageNumber):
     tapeNumber = u""
         
     for line in lines:
-        if line.startswith(u"Page"):
+        if line.strip().startswith(u"Page"):
             pass
-        elif line.startswith(u"APOLLO 13 AIR-TO-GROUND VOICE TRANSCRIPTION"):
+        elif line.strip().startswith(u"APOLLO 13 AIR-TO-GROUND VOICE TRANSCRIPTION"):
             pass
-        elif line.startswith(u"Tape "):
+        elif line.strip().startswith(u"Tape "):
             tapeNumber = line.lstrip(u"Tape ").strip()
         else:
             logLines.append(LogLine(pageNumber, tapeNumber, line))
@@ -147,7 +149,7 @@ class LogLine:
         self.text = text
     
     def append_text(self, text):
-        self.text = self.text + (" " * (len(self.speaker) + 3)) + text
+        self.text = self.text + (" " * 5) + text
         
     def set_time_stamp(self, secondsFromMissionStart):
         self.secondsFromMissionStart = secondsFromMissionStart
@@ -155,6 +157,13 @@ class LogLine:
     def set_speaker(self, speaker):
         self.speaker = speaker
 
+def check_lines_are_in_sequence(lines):
+    currentTime = -20000000
+    for line in lines:
+        if line.secondsFromMissionStart < currentTime:
+            print('Error on processing, the following entry is out of sequence:')
+            print(get_formatted_record_for(line))
+        currentTime = line.secondsFromMissionStart
 
 class BadNumberSub:
     def __init__(self, number, badSubList):
@@ -162,7 +171,7 @@ class BadNumberSub:
         self.badSubList = badSubList
 
 if __name__ == "__main__":
-    if sys.argv != 2:
+    if len(sys.argv) != 2:
         print "usage MCShred.py <pathToCompletedFiles> <fileNumberToStartWith>"
         print "ex: MCShred.py /assets/transcripts/apollo13/AS13_TEC/0_CLEAN/ 8"
     
@@ -181,6 +190,8 @@ if __name__ == "__main__":
 #    print all_lines[0].tape
 #    print all_lines[0].speaker
 #    print all_lines[0].text
+    
+    check_lines_are_in_sequence(all_lines)
     
     for goodLine in all_lines:
         outputFile.writelines(get_formatted_record_for(goodLine))
