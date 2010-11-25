@@ -1,0 +1,12 @@
+/* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*- */
+
+#masthead {
+    background:             #232323;
+}
+#masthead h1 {
+    color:                  white;
+    text-transform:         uppercase;
+}
+#masthead h1 em {
+    color:                   #f8b334;
+}
