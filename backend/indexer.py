@@ -157,7 +157,6 @@ class MissionIndexer(object):
                 parser = TranscriptParser(path)
                 indexer = TranscriptIndexer(self.redis_conn, self.mission_name, "%s/%s" % (self.mission_name, filename), parser)
                 indexer.index()
-                print filename, "indexed"
 
     def index_meta(self):
         path = os.path.join(self.folder_path, "_meta")
@@ -167,15 +166,7 @@ class MissionIndexer(object):
 
 
 if __name__ == "__main__":
+    print "Indexing..."
     redis_conn = redis.Redis()
-
     idx = MissionIndexer(redis_conn, os.path.join(os.path.dirname( __file__ ), '..', "transcript-file-format/", "a13")) 
     idx.index()
-
-    from api import LogLine, Act
-    log_lines = list(LogLine.Query(redis_conn, 'a13').transcript('a13/TEC').page(7))
-
-    for line in log_lines:
-        print line, line.lines
-
-    print list(Act.Query(redis_conn, 'a13'))
