@@ -24,6 +24,7 @@ class Indexer(object):
         current_transcript_page = None
         current_page = 1
         current_page_lines = 0
+        previous_log_line_id = None
 
         for chunk in self.file_parser.get_chunks():
             log_line_id = "%s:%i" % (self.file_parser.name, chunk['timestamp'])
@@ -38,18 +39,31 @@ class Indexer(object):
                 self.redis_conn.set("log_line:%s:page" % log_line_id, current_transcript_page)
             # First, create a record with some useful information
             self.redis_conn.hmset(
-                    "log_line:%s:info" % log_line_id,
-                    {
-                        "offset": chunk['offset'],
-                        "page": current_page,
-                        "transcript_page": current_transcript_page,
-                    }
+                "log_line:%s:info" % log_line_id,
+                {
+                    "offset": chunk['offset'],
+                    "page": current_page,
+                    "transcript_page": current_transcript_page,
+                }
             )
+            # Create the doubly-linked list structure
+            if previous_log_line_id:
+                self.redis_conn.hset(
+                    "log_line:%s:info" % log_line_id,
+                    "previous",
+                    previous_log_line_id,
+                )
+                self.redis_conn.hset(
+                    "log_line:%s:info" % previous_log_line_id,
+                    "next",
+                    log_line_id,
+                )
+            previous_log_line_id = log_line_id
             # Also store the text
             for line in chunk['lines']:
                 self.redis_conn.rpush(
-                        "log_line:%s:lines" % log_line_id,
-                        "%(speaker)s: %(text)s" % line,
+                    "log_line:%s:lines" % log_line_id,
+                    "%(speaker)s: %(text)s" % line,
                 )
             # Add that logline ID for the people involved
             speakers = set([ line['speaker'] for line in chunk['lines'] ])
@@ -92,5 +106,8 @@ if __name__ == "__main__":
     idx.index()
 
     from api import Query
-    print list(Query(redis_conn).sort_by_time())
+    log_lines =  list(Query(redis_conn).sort_by_time())
+
+    for line in log_lines:
+        print line, line.previous(), line.next()
 

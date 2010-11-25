@@ -26,9 +26,23 @@ class LogLine(object):
         self.page = data['page']
         self.transcript_page = data['transcript_page']
         self.lines = self.redis_conn.lrange("log_line:%s:lines" % self.id, 0, -1)
+        self.next_log_line_id = data.get('next', None)
+        self.previous_log_line_id = data.get('previous', None)
 
     def __repr__(self):
         return "<LogLine %s:%i, page %s (%s lines)>" % (self.stream_name, self.timestamp, self.page, len(self.lines))
+
+    def next(self):
+        if self.next_log_line_id:
+            return LogLine.by_log_line_id(self.redis_conn, self.next_log_line_id)
+        else:
+            return None
+
+    def previous(self):
+        if self.previous_log_line_id:
+            return LogLine.by_log_line_id(self.redis_conn, self.previous_log_line_id)
+        else:
+            return None
     
 
 class Query(object):
