@@ -49,68 +49,67 @@ class Query(object):
     """
     
     """
-    def __init__(self, redis_conn, keys=None):
+    def __init__(self, redis_conn, filters=None):
         self.redis_conn = redis_conn
-        if keys is None:
-            self.keys = redis_conn.smembers("all")
+        if filters is None:
+            self.filters = {}
         else:
-            self.keys = keys
+            self.filters = filters
+
+    def _extend_query(self, key, value):
+        new_filters = dict(self.filters.items())
+        new_filters[key] = value
+        return Query(self.redis_conn, new_filters)
     
     def stream(self, stream_name):
         "Returns a new Query filtered by stream"
-        return Query( self.redis_conn, [ key for key in self.keys
-            if key.split( ':' )[0] == stream_name
-        ] )
+        return self._extend_query("stream", stream_name)
     
     def range(self, start_time, end_time):
         "Returns a new Query whose results are between two times"
-        keys = []
-        for key in self.keys:
-            timestamp = int(key.split( ':' )[1])
-            if start_time <= timestamp < end_time \
-            or start_time == timestamp:
-                keys.append( key )
-        return Query( self.redis_conn, keys )
+        return self._extend_query("range", (start_time, end_time))
+    
+    def closest(self, timestamp):
+        "Returns the closest log line after the timestamp."
+        pass
     
     def speakers(self, speakers):
         "Returns a new Query whose results are any of the specified speakers"
-        speaker_keys = set()
-        for speaker in speakers:
-            speaker_keys.update(
-                self.redis_conn.smembers( "speaker:%s" % speaker )
-            )
-        return Query(
-            self.redis_conn,
-            [ key for key in self.keys if key in speaker_keys ]
-        )
+        return self._extend_query("speakers", speakers)
     
     def labels(self, labels):
         "Returns a new Query whose results are any of the specified labels"
-        label_keys = set()
-        for label in labels:
-            label_keys.update(
-                self.redis_conn.smembers( "label:%s" % label )
-            )
-        return Query(
-            self.redis_conn,
-            [ key for key in self.keys if key in label_keys ]
-        )
-    
+        return self._extend_query("labels", labels)
     
     def items(self):
-        for key in self.keys:
+        "Executes the query and returns the items."
+        # Make sure it's a valid combination 
+        filter_names = set(self.filters.keys())
+        if filter_names == set():
+            keys = self.redis_conn.zrange("all", 0, -1)
+        elif filter_names == set(["stream"]):
+            keys = self.redis_conn.zrange("stream:%s" % self.filters['stream'], 0, -1)
+        elif filter_names == set(["stream", "range"]):
+            keys = self.redis_conn.zrangebyscore(
+                "stream:%s" % self.filters['stream'],
+                self.filters['range'][0],
+                self.filters['range'][1],
+            )
+        elif filter_names == set(["range"]):
+            keys = self.redis_conn.zrangebyscore(
+                "all",
+                self.filters['range'][0],
+                self.filters['range'][1],
+            )
+        else:
+            raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
+        # Iterate over the keys and return LogLine objects
+        for key in keys:
             stream_name, timestamp = key.split(":", 3)
             yield LogLine(self.redis_conn, stream_name, int(timestamp))
     
     def __iter__(self):
         return iter( self.items() )
-    
-    def sort_by_time(self):
-        "Sorts the query results by timestamp"
-        return Query(
-            self.redis_conn,
-            sorted(self.keys, key=lambda x: int(x.split(":", 3)[1]) ),
-        )
     
 
 

@@ -70,8 +70,8 @@ class Indexer(object):
             for speaker in speakers:
                 self.redis_conn.sadd("speaker:%s" % speaker, log_line_id)
             # Add it into the stream and everything sets
-            self.redis_conn.sadd("all", log_line_id)
-            self.redis_conn.sadd("stream:%s" % self.file_parser.name, log_line_id)
+            self.redis_conn.zadd("all", log_line_id, chunk['timestamp'])
+            self.redis_conn.zadd("stream:%s" % self.file_parser.name, log_line_id, chunk['timestamp'])
             # Read the new labels into current_labels
             if '_labels' in chunk['meta']:
                 for label, endpoint in chunk['meta']['_labels'].items():
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     idx.index()
 
     from api import Query
-    log_lines =  list(Query(redis_conn).sort_by_time())
+    log_lines =  list(Query(redis_conn).range(2, 12))
 
     for line in log_lines:
         print line, line.previous(), line.next()
