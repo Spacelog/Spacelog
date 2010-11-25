@@ -8,7 +8,7 @@
         {
             "title": "Phase 2: Electric Boogaloo",
             "description": "The rocket go boom. Sadface.",
-            "range": [5, 120]
+            "range": [5, 1200000000]
         }
     ],
     "key_scenes" : [
