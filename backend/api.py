@@ -210,6 +210,7 @@ class Act(object):
         self.start = int(data['start'])
         self.end = int(data['end'])
         self.title = data['title']
+        self.description = data['description']
         self.data = data
 
     def __repr__(self):

@@ -32,5 +32,17 @@ class PageView(TemplateView):
             'current_act': log_lines[0].act(),
         }
 
+
+class PhasesView(TemplateView):
+    
+    template_name = 'transcripts/phases.html'
+    
+    def get_context_data(self):
+        redis_conn = redis.Redis()
+        return {
+            'acts': list(Act.Query(redis_conn, 'a13').items()),
+        }
+
+
 class RangeView(PageView):
     pass
