@@ -1,27 +1,29 @@
 {% extends "base.html" %}
 {% load missiontime %}
 
+{% block title %}Transcript - Starting at {{ log_lines.0.timestamp|mission_time_format }}{% endblock %}
+
 {% block content %}
 
-{% if previous_timestamp %}
-    <a href="{% url view_timestamp previous_timestamp %}">Previous</a>
-{% endif %}
+    {% if previous_timestamp %}
+        <a href="{% url view_timestamp previous_timestamp %}">Previous</a>
+    {% endif %}
 
-<ol>
-    {% for log_line in log_lines %}
-        {% for speaker, text in log_line.lines %}
-            <li>
-                <span class='time'>{{log_line.timestamp|mission_time_format}}</span>
-                <span class='speaker'>{{speaker}}</span>
-                {{text}}
-            </li>
+    <ol>
+        {% for log_line in log_lines %}
+            {% for speaker, text in log_line.lines %}
+                <li>
+                    <span class='time'>{{log_line.timestamp|mission_time_format}}</span>
+                    <span class='speaker'>{{speaker}}</span>
+                    {{text}}
+                </li>
+            {% endfor %}
         {% endfor %}
-    {% endfor %}
-</ol>
+    </ol>
 
-{% if next_timestamp %}
-    <a href="{% url view_timestamp next_timestamp %}">Next</a>
-{% endif %}
+    {% if next_timestamp %}
+        <a href="{% url view_timestamp next_timestamp %}">Next</a>
+    {% endif %}
 
 {% endblock %}
 
