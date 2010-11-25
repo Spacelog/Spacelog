@@ -51,7 +51,10 @@ class LogLine(object):
         # Load onto our attributes
         self.page = int(data['page'])
         self.transcript_page = data['transcript_page']
-        self.lines = self.redis_conn.lrange("log_line:%s:lines" % self.id, 0, -1)
+        self.lines = [
+            [x.strip() for x in line.split(":", 1)]
+            for line in self.redis_conn.lrange("log_line:%s:lines" % self.id, 0, -1)
+        ]
         self.next_log_line_id = data.get('next', None)
         self.previous_log_line_id = data.get('previous', None)
         self.act_number = int(data['act'])

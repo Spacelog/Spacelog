@@ -1,9 +1,17 @@
 {% extends "base.html" %}
+{% load missiontime %}
+
 {% block content %}
 Page {{page_number}}
 <ol>
-    {% for line in log_lines %}
-        <li>{{line.lines}}</li>
+    {% for log_line in log_lines %}
+        {% for speaker, text in log_line.lines %}
+            <li>
+                <span class='time'>{{log_line.timestamp|mission_time_format}}</span>
+                <span class='speaker'>{{speaker}}</span>
+                {{text}}
+            </li>
+        {% endfor %}
     {% endfor %}
 </ol>
 {% endblock %}

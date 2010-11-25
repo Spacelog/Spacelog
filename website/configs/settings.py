@@ -95,4 +95,5 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
+    'transcripts',
 )
