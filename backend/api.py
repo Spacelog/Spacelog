@@ -1,6 +1,4 @@
 
-from parser import FileParser
-
 class LogLine(object):
     """
     Basic object that represents a log line; pass in the timestamp
@@ -22,17 +20,15 @@ class LogLine(object):
         return cls(redis_conn, stream, timestamp)
 
     def _load(self):
-        # Load the file parser
-        fp = FileParser(self.stream_name)
         # Find the offset and load just one item from there
-        offset = self.redis_conn.get("log_line:%s:offset" % self.id)
-        item = iter(fp.get_chunks(int(offset))).next()
+        data = self.redis_conn.hgetall("log_line:%s:info" % self.id)
         # Load onto our attributes
-        self.lines = item['lines']
-        self.page = self.redis_conn.get("log_line:%s:page" % self.id)
+        self.page = data['page']
+        self.transcript_page = data['transcript_page']
+        self.lines = self.redis_conn.lrange("log_line:%s:lines" % self.id, 0, -1)
 
     def __repr__(self):
-        return "<LogLine %s:%i (%s lines)>" % (self.stream_name, self.timestamp, len(self.lines))
+        return "<LogLine %s:%i, page %s (%s lines)>" % (self.stream_name, self.timestamp, self.page, len(self.lines))
     
 
 class Query(object):
@@ -42,10 +38,7 @@ class Query(object):
     def __init__(self, redis_conn, keys=None):
         self.redis_conn = redis_conn
         if keys is None:
-            self.keys = redis_conn.keys( "log_line:*:offset" )
-            self.keys = [ ":".join( key.split( ":" )[1:3] ) 
-                for key in self.keys
-            ]
+            self.keys = redis_conn.smembers("all")
         else:
             self.keys = keys
     
