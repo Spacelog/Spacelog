@@ -1,9 +1,8 @@
 import os
 import redis
-import pprint
 
 from parser import TranscriptParser, MetaParser
-from api import Act, LogLine
+from api import Act
 
 class TranscriptIndexer(object):
     """

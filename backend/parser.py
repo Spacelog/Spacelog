@@ -1,6 +1,8 @@
-import os
 import string
-import simplejson
+try:
+    import json
+except ImportError:
+    import simplejson as json
 
 class TranscriptParser(object):
     """
@@ -72,10 +74,10 @@ class TranscriptParser(object):
                 blob = blob.strip()
                 if blob:
                     try:
-                        data = simplejson.loads(blob)
+                        data = json.loads(blob)
                     except ValueError:
                         try:
-                            data = simplejson.loads('"%s"' % blob)
+                            data = json.loads('"%s"' % blob)
                         except ValueError:
                             print "Error: Invalid json at timestamp %s, key %s" % (timestamp, name)
                     current_chunk['meta'][name.strip()] = data
@@ -109,4 +111,4 @@ class MetaParser(TranscriptParser):
     
     def get_meta(self):
         with open(self.path) as fh:
-            return simplejson.load(fh)
+            return json.load(fh)
