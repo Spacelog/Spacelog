@@ -15,7 +15,7 @@
                 <li>
                     <span class='time'>{{log_line.timestamp|mission_time_format}}</span>
                     <span class='speaker'>{{speaker}}</span>
-                    {{text}}
+                    {{text|safe}}
                 </li>
             {% endfor %}
         {% endfor %}
