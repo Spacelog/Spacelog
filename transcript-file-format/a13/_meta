@@ -3,12 +3,12 @@
         {
             "title": "Acte the Firste: Launche!",
             "description": "The rocket go bye-bye.",
-            "range": [-10, 54]
+            "range": [-10, 5]
         },
         {
             "title": "Phase 2: Electric Boogaloo",
             "description": "The rocket go boom. Sadface.",
-            "range": [54, 120]
+            "range": [5, 120]
         }
     ],
     "key_scenes" : [
