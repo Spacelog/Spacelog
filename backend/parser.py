@@ -73,10 +73,10 @@ class TranscriptParser(object):
                 if blob:
                     try:
                         data = simplejson.loads(blob)
-                    except simplejson.JSONDecodeError:
+                    except ValueError:
                         try:
                             data = simplejson.loads('"%s"' % blob)
-                        except simplejson.JSONDecodeError:
+                        except ValueError:
                             print "Error: Invalid json at timestamp %s, key %s" % (timestamp, name)
                     current_chunk['meta'][name.strip()] = data
             # If it's a continuation, append to the current line
