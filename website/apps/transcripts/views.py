@@ -3,12 +3,20 @@ from backend.api import LogLine, Act
 import redis
 
 class TranscriptView(TemplateView):
+    """
+    Base view for all views which deal with transcripts.
+    Provides some nice common functionality.
+    """
+
     def parse_mission_time(self, mission_time):
         "Parses a mission timestamp from a URL and converts it to a number of seconds"
         d, h, m, s = [ int(x) for x in mission_time.split(':') ]
         return s + m*60 + h*3600 + d*86400
 
 class PageView(TranscriptView):
+    """
+    Shows a single page of transcript, based on a passed-in timestamp.
+    """
 
     template_name = 'transcripts/page.html'
 
@@ -31,10 +39,17 @@ class PageView(TranscriptView):
         except ValueError:
             previous_timestamp = None
 
+        # Find the next log line and its timestamp
+        next_log_line = log_lines[-1].next()
+        if next_log_line:
+            next_timestamp = next_log_line.timestamp
+        else:
+            next_timestamp = None
+
         return {
             'page_number': page_number,
             'log_lines': log_lines,
-            'next_timestamp': log_lines[-1].timestamp + 1,
+            'next_timestamp': next_timestamp,
             'previous_timestamp': previous_timestamp,
             'acts': acts,
             'current_act': log_lines[0].act(),
@@ -42,6 +57,9 @@ class PageView(TranscriptView):
 
 
 class PhasesView(TranscriptView):
+    """
+    Shows the list of all phases (acts).
+    """
     
     template_name = 'transcripts/phases.html'
     
@@ -53,4 +71,8 @@ class PhasesView(TranscriptView):
 
 
 class RangeView(PageView):
+    """
+    Shows records between two timestamps.
+    """
     pass
+
