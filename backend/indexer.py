@@ -197,7 +197,7 @@ class MetaIndexer(object):
         meta = self.parser.get_meta()
 
         self.redis_conn.set("launch_time:%s" % self.mission_name, meta['utc_launch_time'])
-
+        # Index acts and key scenes
         for noun in ('act', 'key_scene'):
             for i, data in enumerate(meta.get('%ss' % noun, [])):
                 key = "%s:%s:%i" % (noun, self.mission_name, i)
@@ -210,6 +210,14 @@ class MetaIndexer(object):
                 del data['range']
 
                 self.redis_conn.hmset(key, data)
+        # Index glossary information
+        for key, data in meta['glossary'].items():
+            self.redis_conn.hmset(
+                "glossary:%s" % key,
+                {
+                    "description": data.get('description', ""),
+                },
+            )
 
 
 class MissionIndexer(object):
