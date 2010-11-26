@@ -1,7 +1,8 @@
 [2]
 _images: [
     {
-        "filename" : "timeline/00_00_00_02.jpg",
+        "filename" : "00_00_00_02.jpg",
+        "thumbnail_filename" : "00_00_00_02-thumb.jpg",
         "caption"  : "The rocket lifts off from Cape Canaveral",
         "source"   : "NASA"
     }

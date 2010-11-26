@@ -43,6 +43,11 @@
       {% endif %}
     </dd>
     {% endfor %}
+    {% for image in log_line.images %}
+      <a href="/assets/img/missions/a13/{{ image.filename }}">
+        <img src="/assets/img/missions/a13/{{ image.thumbnail_filename }}" />
+      </a>
+    {% endfor %}
   {% endfor %}
   </dl>
 

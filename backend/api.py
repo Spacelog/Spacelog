@@ -98,6 +98,12 @@ class LogLine(object):
     def act(self):
         return Act(self.redis_conn, self.mission_name, self.act_number)
 
+    def images(self):
+        "Returns any images associated with this LogLine."
+        image_ids = self.redis_conn.lrange("log_line:%s:images" % self.id, 0, -1)
+        images = [self.redis_conn.hgetall("image:%s" % id) for id in image_ids]
+        return images
+
     class Query(BaseQuery):
         """
         Allows you to query for LogLines.

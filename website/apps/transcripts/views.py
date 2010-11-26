@@ -23,11 +23,14 @@ class TranscriptView(TemplateView):
         return Act.Query(self.redis_conn, 'a13')
 
     def log_lines(self, start_page, end_page):
-        "Returns the log lines and the previous/next timestamps"
+        "Returns the log lines and the previous/next timestamps, with images mixed in."
         # Collect the log lines
         log_lines = []
         for page in range(start_page, end_page+1):
             log_lines += list(self.log_line_query().transcript('a13/TEC').page(page))
+        # Find all media that falls inside this same range, and add it in
+        log_lines += list(self.log_line_query().transcript('a13/MEDIA').range(log_lines[0].timestamp, log_lines[1].timestamp))
+        log_lines.sort(key=lambda ll: ll.timestamp)
         # Find the previous log line from this, and then the beginning of its page
         try:
             previous_timestamp = self.log_line_query().transcript('a13/TEC').page(start_page - 1).first().timestamp
