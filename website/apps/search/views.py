@@ -34,11 +34,12 @@ class SearchView(TemplateView):
                 "xappydb",
             ),
         )
+        query = db.query_parse(
+            q,
+            default_op=db.OP_OR,
+        )
         results = db.search(
-            query=db.query_parse(
-                q,
-                default_op=db.OP_OR
-            ),
+            query=query,
             startrank=offset,
             endrank=offset+PAGESIZE,
             checkatleast=offset+PAGESIZE+1,
@@ -73,7 +74,7 @@ class SearchView(TemplateView):
         thispage = offset / PAGESIZE
         maxpage = results.matches_estimated / PAGESIZE
         
-        pages_to_show = set([1]) | set([thispage-1, thispage, thispage+1]) | set([maxpage])
+        pages_to_show = set([0]) | set([thispage-1, thispage, thispage+1]) | set([maxpage])
         if 0 == thispage:
             pages_to_show.remove(thispage-1)
         if maxpage == thispage:
@@ -86,8 +87,10 @@ class SearchView(TemplateView):
                 self.url = url
                 self.selected = selected
         
-        for page in pages_to_show:
-            if len(pages)>1 and page != pages[-1].number:
+        pages_in_order = list(pages_to_show)
+        pages_in_order.sort()
+        for page in pages_in_order:
+            if len(pages)>0 and page != pages[-1].number:
                 pages.append('...')
             pages.append(Page(page+1, page_url(page*PAGESIZE), page==thispage))
         
@@ -98,4 +101,7 @@ class SearchView(TemplateView):
             'previous_page': previous_page,
             'next_page': next_page,
             'pages': pages,
+            'debug': {
+                'query': query,
+            },
         }
