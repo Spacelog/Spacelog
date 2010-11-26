@@ -1,4 +1,4 @@
-
+import datetime
 
 class BaseQuery(object):
     """
@@ -58,6 +58,7 @@ class LogLine(object):
         self.next_log_line_id = data.get('next', None)
         self.previous_log_line_id = data.get('previous', None)
         self.act_number = int(data['act'])
+        self.utc_time = datetime.datetime.utcfromtimestamp(int(data['utc_time']))
 
     def __repr__(self):
         return "<LogLine %s:%i, page %s (%s lines)>" % (self.transcript_name, self.timestamp, self.page, len(self.lines))

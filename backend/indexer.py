@@ -24,6 +24,7 @@ class TranscriptIndexer(object):
         current_page_lines = 0
         last_act = None
         previous_log_line_id = None
+        launch_time = int(self.redis_conn.get("launch_time:%s" % self.mission_name))
         acts = list(Act.Query(self.redis_conn, self.mission_name))
         for chunk in self.parser.get_chunks():
             timestamp = chunk['timestamp']
@@ -52,6 +53,7 @@ class TranscriptIndexer(object):
                     "page": current_page,
                     "transcript_page": current_transcript_page,
                     "act": act.number,
+                    "utc_time": launch_time + timestamp,
                 }
             )
             # Create the doubly-linked list structure
@@ -118,6 +120,8 @@ class MetaIndexer(object):
 
     def index(self):
         meta = self.parser.get_meta()
+
+        self.redis_conn.set("launch_time:%s" % self.mission_name, meta['utc_launch_time'])
 
         for noun in ('act', 'key_scene'):
             for i, data in enumerate(meta.get('%ss' % noun, [])):
