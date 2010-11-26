@@ -8,7 +8,9 @@
 
 {% include "_base/masthead.html" %}
 
+<div id='content' class='{% block content-class %}{% endblock %}'>
 {% block content %}{% endblock %}
+</div>
 
 </div></body>
 </html>

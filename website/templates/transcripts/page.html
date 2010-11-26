@@ -3,27 +3,31 @@
 
 {% block title %}Transcript - Starting at {{ log_lines.0.timestamp|mission_time_format }}{% endblock %}
 
+{% block content-class %}transcript{% endblock %}
+
 {% block content %}
 
-    {% if previous_timestamp %}
-        <a href="{% timestamp_to_url previous_timestamp %}">Previous</a>
-    {% endif %}
+  {% if previous_timestamp %}
+    <a href="{% timestamp_to_url previous_timestamp %}">Previous</a>
+  {% endif %}
 
-    <ol id='transcripts'>
-        {% for log_line in log_lines %}
-            {% for speaker, text in log_line.lines %}
-                <li>
-                    <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">{{log_line.timestamp|mission_time_format}}</time>
-                    <span class='speaker'>{{speaker}}</span>
-                    {{text|safe}}
-                </li>
-            {% endfor %}
-        {% endfor %}
-    </ol>
+  <dl id='transcript'>
+  {% for log_line in log_lines %}
+    {% for speaker, text in log_line.lines %}
+    <dt>
+      <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
+        {{log_line.timestamp|mission_time_format}}
+      </time>
+    </dt>
+    <dt>{{speaker}}</dt>
+    <dd>{{text|safe}}</dd>
+    {% endfor %}
+  {% endfor %}
+  </dl>
 
-    {% if next_timestamp %}
-        <a href="{% timestamp_to_url next_timestamp %}">Next</a>
-    {% endif %}
+  {% if next_timestamp %}
+    <a href="{% timestamp_to_url next_timestamp %}">Next</a>
+  {% endif %}
 
 <h2>Phases</h2>
 <ol>
