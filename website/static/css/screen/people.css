@@ -1,7 +1,7 @@
 .people {
     background:             #000;
     color:                  #fff;
-    padding:                30px 0;
+    padding:                20px 0;
 }
 .people .wrapper {
     -cp-contain:            easy;
@@ -22,16 +22,23 @@
 .person,
 .people .more a {
     float:                  left;
-    margin:                 0 10px;
+    margin-bottom:          30px;
+    padding:                10px;
     width:                  300px;
 }
 .person:nth-last-child( +2 ) {
     float:                  right;
 }
+.person:target {
+    background:             #333;
+    border:                 1px solid transparent;
+    border-radius:          5px;
+    padding:                9px;
+}
 
 .people .more a {
     font:                   36px 'League Gothic', sans-serif;
-    padding:                50px 40px;
+    padding:                50px 80px;
     text-align:             center;
     text-transform:         uppercase;
     width:                  160px;
@@ -87,8 +94,8 @@
 }
 
 .person .quote {
-    margin:                40px 0;
-    text-align:             center;
+    margin:                40px 0 0;
+    text-align:            center;
 }
 .person .quote blockquote {
     font:                   18px Georgia, serif;
