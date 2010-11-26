@@ -60,7 +60,7 @@ class PageView(TranscriptView):
 
     template_name = 'transcripts/page.html'
 
-    def get_context_data(self, start, end=None):
+    def get_context_data(self, start=None, end=None):
 
         if end is None:
             end = start
