@@ -1,8 +1,13 @@
 import os
 import redis
+import xappy
 
 from backend.parser import TranscriptParser, MetaParser
 from backend.api import Act
+
+search_db = xappy.IndexerConnection(
+    os.path.join(os.path.dirname(__file__), '..', 'xappydb'),
+)
 
 class TranscriptIndexer(object):
     """
@@ -16,6 +21,70 @@ class TranscriptIndexer(object):
         self.mission_name = mission_name
         self.transcript_name = transcript_name
         self.parser = parser
+
+        search_db.add_field_action(
+            "speaker",
+            xappy.FieldActions.STORE_CONTENT,
+        )
+        search_db.add_field_action(
+            "speaker",
+            xappy.FieldActions.INDEX_FREETEXT,
+            weight=1,
+            language='en',
+            search_by_default=True,
+            allow_field_specific=True,
+        )
+        search_db.add_field_action(
+            "text",
+            xappy.FieldActions.STORE_CONTENT,
+        )
+        search_db.add_field_action(
+            "text",
+            xappy.FieldActions.INDEX_FREETEXT,
+            weight=1,
+            language='en',
+            search_by_default=True,
+            allow_field_specific=False,
+            spell=True,
+        )
+        # FIXME: this should come out of meta
+        name_map = {
+            'CDR': 'Jim Lovell',
+            'CMP': 'Jack Swigert',
+            'LMP': 'Fred Haise',
+            # not convinced this is suitable for synonyming
+            # 'CC': [
+            #     'Jack Lousma',
+            #     'Vance Brand',
+            #     'Joseph Joe Kerwin',
+            #     'Ken Mattingly',
+            #     'Charlie Charles Duke',
+            # ],
+        }
+        for role, names in name_map.items():
+            if type(names) is not list:
+                names = list(names)
+            for name in names:
+                for bit in name.split():
+                    search_db.add_synonym(bit, role)
+                    search_db.add_synonym(bit, role, field='speaker')
+
+    def add_to_search_index(self, id, text, speakers):
+        """
+        Take some text and a set of speakers (also text) and add a document
+        to the search index, with the id stuffed in the document data.
+        """
+        doc = xappy.UnprocessedDocument()
+        doc.fields.append(xappy.Field("text", text))
+        for speaker in speakers:
+            doc.fields.append(xappy.Field("speaker", speaker))
+        doc.id = id
+        try:
+            search_db.add(search_db.process(doc))
+        except xappy.errors.IndexerError:
+            print "umm, error"
+            print id, text, speakers
+            raise
 
     def index(self):
         current_labels = {}
@@ -79,6 +148,12 @@ class TranscriptIndexer(object):
             speakers = set([ line['speaker'] for line in chunk['lines'] ])
             for speaker in speakers:
                 self.redis_conn.sadd("speaker:%s" % speaker, log_line_id)
+            # And add this logline to search index
+            self.add_to_search_index(
+                id=log_line_id,
+                text=u" ".join(line['text'] for line in chunk['lines']),
+                speakers=speakers,
+            )
             # Add it to the index for this page
             self.redis_conn.rpush("page:%s:%i" % (self.transcript_name, current_page), log_line_id)
             # Add it into the transcript and everything sets
@@ -175,3 +250,4 @@ if __name__ == "__main__":
     redis_conn = redis.Redis()
     idx = MissionIndexer(redis_conn, os.path.join(os.path.dirname( __file__ ), '..', "transcript-file-format/", "a13")) 
     idx.index()
+    search_db.flush()
