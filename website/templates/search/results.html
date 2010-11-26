@@ -3,15 +3,41 @@
 {% load missiontime %}
 
 {% block content %}
-    <h1>{{ q }}</h1>
+    <form method='get' action=''>
+        <input type='text' name='q' value='{{ q|escape }}'>
+        <input type='submit' value='Search'>
+    </form>
+
+    <h2>Results for &ldquo;{{ q }}&rdquo;</h2>
+    
     <ol>
         {% for log_line in log_lines %}
             <li>
-                <a href="{% selection_url log_line.timestamp %}">
-                    <span>{{ log_line.speaker }}:</span>
-                    <span>{{ log_line.summary }}</span>
+                <a href="{% timestamp_to_url log_line.timestamp %}">
+                    <span>{{ log_line.title|safe }}</span>
                 </a>
+                <p>&ldquo;{{ log_line.summary }}&rdquo;</p>
             </li>
         {% endfor %}
     </ol>
+
+    {% if previous_page %}
+        <a href='{{ previous_page }}'>Previous page</a>
+    {% else %}
+        First page
+    {% endif %}
+
+    <ol>
+        {% for page in pages %}
+            <li>
+                {% if page == "..." %}&hellip;{% else %}{% if page.selected %}{{ page.number }}{% else %}<a href='{{ page.url }}'>{{ page.number }}</a>{% endif %}{% endif %}
+            </li>
+        {% endfor %}
+    </ol>
+
+    {% if next_page %}
+        <a href='{{ next_page }}'>Next page</a>
+    {% else %}
+        Last page
+    {% endif %}
 {% endblock %}
