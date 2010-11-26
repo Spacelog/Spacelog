@@ -47,9 +47,11 @@
     </dd>
     {% endfor %}
     {% for image in log_line.images %}
-      <a href="/assets/img/missions/a13/{{ image.filename }}">
-        <img src="/assets/img/missions/a13/{{ image.thumbnail_filename }}" />
-      </a>
+      <dd{% if log_line.highlighted %} class='highlighted {% if log_line.highlight_index == 1%}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}'{% endif %}{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
+        <a href="/assets/img/missions/a13/{{ image.filename }}">
+          <img src="/assets/img/missions/a13/{{ image.thumbnail_filename }}" />
+        </a>
+      </dd>
     {% endfor %}
   {% endfor %}
   </dl>
