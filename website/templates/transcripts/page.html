@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load missiontime %}
+{% load linkify %}
 {% load pauses %}
 
 {% block title %}Transcript - Starting at {{ log_lines.0.timestamp|mission_time_format }}{% endblock %}
@@ -36,7 +37,7 @@
         {{speaker}}
       </dt>
       <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1%}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}'>
-        {{text|safe}}
+      {{text|linkify|safe}}
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
           <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}'>Expand selection up</a>
         {% endif %}

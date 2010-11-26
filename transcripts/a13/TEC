@@ -6578,7 +6578,7 @@ CC:  - - that and put "Optional, solar corona."
 CMP: Okay.
 
 [118393]
-CC:  - - starting at 108:00 on the left-hand side,
+CC:  - - starting at [time:388800 108:00] on the left-hand side,
      line out "Stop ORB rate at ORB science attitude."
      At - Line out in the left-hand column the DAP
      load of "10101" and "11111." Going down to
@@ -47017,3 +47017,6 @@ R: Apollo 13, Apollo 13, this is Recovery. Over.
 
 [514307]
 R: Apollo 13 - -
+
+[514520]
+_info: End of mission.
