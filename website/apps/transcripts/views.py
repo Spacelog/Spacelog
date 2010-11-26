@@ -34,11 +34,7 @@ class TranscriptView(TemplateView):
         except ValueError:
             previous_timestamp = None
         # Find the next log line and its timestamp
-        next_log_line = log_lines[-1].next()
-        if next_log_line:
-            next_timestamp = next_log_line.timestamp
-        else:
-            next_timestamp = None
+        next_timestamp = log_lines[-1].next_timestamp()
         # Return
         return log_lines, previous_timestamp, next_timestamp, 0
 
@@ -66,7 +62,7 @@ class PageView(TranscriptView):
             end = start
 
         # Get the content
-        log_lines, previous_timestamp, next_timestamp, highlighted_line_count = self.log_lines(
+        log_lines, previous_timestamp, next_timestamp, max_highlight_index = self.log_lines(
             self.page_number(start),
             self.page_number(end),
         )
@@ -77,7 +73,7 @@ class PageView(TranscriptView):
             'previous_timestamp': previous_timestamp,
             'acts': list(self.act_query().items()),
             'current_act': log_lines[0].act(),
-            'highlighted_line_count': highlighted_line_count,
+            'max_highlight_index': max_highlight_index,
         }
 
 
@@ -99,7 +95,15 @@ class RangeView(PageView):
                 log_line.highlight_index = highlight_index
                 highlight_index += 1
 
-        return log_lines, previous_link, next_link, highlight_index
+        return log_lines, previous_link, next_link, highlight_index-1
+
+    def get_context_data(self, start=None, end=None):
+        data = super(RangeView, self).get_context_data(start, end)
+        data.update({
+            "selection_start_timestamp": self.parse_mission_time(start),
+            "selection_end_timestamp": self.parse_mission_time(start if end is None else end),
+        })
+        return data
 
 
 class PhasesView(TranscriptView):

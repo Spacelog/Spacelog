@@ -75,6 +75,20 @@ class LogLine(object):
         else:
             return None
 
+    def next_timestamp(self):
+        next_log_line = self.next()
+        if next_log_line is None:
+            return None
+        else:
+            return next_log_line.timestamp
+
+    def previous_timestamp(self):
+        previous_log_line = self.previous()
+        if previous_log_line is None:
+            return None
+        else:
+            return previous_log_line.timestamp
+
     def act(self):
         return Act(self.redis_conn, self.mission_name, self.act_number)
 
