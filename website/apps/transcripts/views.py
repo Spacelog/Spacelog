@@ -2,7 +2,13 @@ from django.views.generic import TemplateView
 from backend.api import LogLine, Act
 import redis
 
-class PageView(TemplateView):
+class TranscriptView(TemplateView):
+    def parse_mission_time(self, mission_time):
+        "Parses a mission timestamp from a URL and converts it to a number of seconds"
+        d, h, m, s = [ int(x) for x in mission_time.split(':') ]
+        return s + m*60 + h*3600 + d*86400
+
+class PageView(TranscriptView):
 
     template_name = 'transcripts/page.html'
 
@@ -12,8 +18,10 @@ class PageView(TemplateView):
         acts = list(Act.Query(redis_conn, 'a13').items())
         if timestamp is None:
             timestamp = acts[0].start
+        else:
+            timestamp = self.parse_mission_time(timestamp)
 
-        closest_log_line = LogLine.Query(redis_conn, 'a13').first_after(int(timestamp))
+        closest_log_line = LogLine.Query(redis_conn, 'a13').first_after(timestamp)
         page_number = closest_log_line.page
         log_lines = list(LogLine.Query(redis_conn, 'a13').transcript('a13/TEC').page(page_number))
 
@@ -33,7 +41,7 @@ class PageView(TemplateView):
         }
 
 
-class PhasesView(TemplateView):
+class PhasesView(TranscriptView):
     
     template_name = 'transcripts/phases.html'
     

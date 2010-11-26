@@ -6,7 +6,7 @@
 {% block content %}
 
     {% if previous_timestamp %}
-        <a href="{% url view_page previous_timestamp %}">Previous</a>
+        <a href="{% timestamp_to_url previous_timestamp %}">Previous</a>
     {% endif %}
 
     <ol>
@@ -22,16 +22,16 @@
     </ol>
 
     {% if next_timestamp %}
-        <a href="{% url view_page next_timestamp %}">Next</a>
+        <a href="{% timestamp_to_url next_timestamp %}">Next</a>
     {% endif %}
 
 <h2>Phases</h2>
 <ol>
   {% for act in acts %}
     {% if act == current_act %}
-      <li><strong>You are here: <a href="{% url view_page act.start %}">{{ act.title }}</a></strong></li>
+      <li><strong>You are here: <a href="{% timestamp_to_url act.start %}">{{ act.title }}</a></strong></li>
     {% else %}
-      <li><a href="{% url view_page act.start %}">{{ act.title }}</a></li>
+      <li><a href="{% timestamp_to_url act.start %}">{{ act.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ol>
