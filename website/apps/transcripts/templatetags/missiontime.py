@@ -11,7 +11,7 @@ def timestamp_components(seconds):
     seconds = seconds % 60
     return (days, hours, minutes, seconds)
 
-def mission_time(seconds, separator):
+def mission_time(seconds, separator=':'):
     """
     Takes a timestamp and a separator and returns a mission time string
     e.g. Passing in 63 seconds and ':' would return '00:00:01:03'
@@ -27,4 +27,11 @@ def mission_time_format(seconds):
 
 @register.simple_tag
 def timestamp_to_url(seconds):
-    return reverse("view_page", kwargs={"start": mission_time(seconds, ':')})
+    return reverse("view_page", kwargs={"start": mission_time(seconds)})
+
+@register.simple_tag
+def selection_url(start_seconds, end_seconds=None):
+    if end_seconds is None:
+        return reverse("view_range", kwargs={"start": mission_time(start_seconds)})
+    else:
+        return reverse("view_range", kwargs={"start": mission_time(start_seconds), "end": mission_time(end_seconds)})

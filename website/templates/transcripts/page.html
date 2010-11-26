@@ -15,9 +15,11 @@
   {% for log_line in log_lines %}
     {% for speaker, text in log_line.lines %}
     <dt{% if log_line.highlighted %} class='highlighted'{% endif %}>
-      <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
-        {{log_line.timestamp|mission_time_format}}
-      </time>
+      <a href='{% selection_url log_line.timestamp %}'>
+        <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
+          {{log_line.timestamp|mission_time_format}}
+        </time>
+      </a>
     </dt>
     <dt{% if log_line.highlighted %} class='highlighted'{% endif %}>{{speaker}}</dt>
     <dd{% if log_line.highlighted %} class='highlighted'{% endif %}>{{text|safe}}</dd>
