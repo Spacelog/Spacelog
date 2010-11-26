@@ -22,3 +22,7 @@ devserver:
 devcss:
 	cssprepare --optimise --extended-syntax \
 		--pipe $(screen_css) $(source_screen_css)
+
+thumbnails:
+	cd website/static/img/missions/a13/
+	python resize.py

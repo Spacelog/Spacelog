@@ -29,7 +29,7 @@ class TranscriptView(TemplateView):
         for page in range(start_page, end_page+1):
             log_lines += list(self.log_line_query().transcript('a13/TEC').page(page))
         # Find all media that falls inside this same range, and add it in
-        log_lines += list(self.log_line_query().transcript('a13/MEDIA').range(log_lines[0].timestamp, log_lines[1].timestamp))
+        log_lines += list(self.log_line_query().transcript('a13/MEDIA').range(log_lines[0].timestamp, log_lines[-1].timestamp))
         log_lines.sort(key=lambda ll: ll.timestamp)
         # Find the previous log line from this, and then the beginning of its page
         try:
