@@ -29,8 +29,16 @@
     ],
     "key_scenes" : [
         {
-            "title": "It all goes to shit.",
-            "range": [15, 25]
+            "title": "\"Houston, we've had a problem.\"",
+            "range": [201300, 201300]
+        },
+        {
+            "title": "Moving into the LM",
+            "range": [206640, 206640]
+        },
+        {
+            "title": "Building the CO2 Scrubbers",
+            "range": [324540, 324540]
         }
     ],
     "glossary": {
