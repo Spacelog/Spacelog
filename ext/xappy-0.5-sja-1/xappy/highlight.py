@@ -107,7 +107,7 @@ class Highlighter(object):
             return [self.stem(q.lower()) for q in query]
 
 
-    def makeSample(self, text, query, maxlen=600, hl=None, ellipsis='..'):
+    def makeSample(self, text, query, maxlen=600, hl=None, ellipsis='..', strict_length=False):
         """Make a contextual summary from the supplied text.
 
         This basically works by splitting the text into phrases, counting the query
@@ -119,6 +119,8 @@ class Highlighter(object):
         `query` is either a Xapian query object or a list of (unstemmed) term strings.
         `maxlen` is the maximum length of the generated summary.
         `hl` is a pair of strings to insert around highlighted terms, e.g. ('<b>', '</b>')
+        `ellipsis` is the separating ellipsis to use
+        `strict_length` stops the sample from truncating the last interesting phrase found, at the cost of not using all its allotted characters
 
         """
 
@@ -157,7 +159,8 @@ class Highlighter(object):
         for count in xrange(3, -1, -1):
             for b in blocks:
                 if b[3] >= count:
-                    b[4] = True
+                    if not strict_length or chars == 0 or chars + b[2] < maxlen:
+                        b[4] = True
                     chars += b[2]
                     if chars >= maxlen: break
             if chars >= maxlen: break

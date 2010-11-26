@@ -86,7 +86,7 @@ class SearchResult(ProcessedDocument):
                         pass
         return 'none'
 
-    def summarise(self, field, maxlen=600, hl=('<b>', '</b>'), ellipsis=None, query=None):
+    def summarise(self, field, maxlen=600, hl=('<b>', '</b>'), ellipsis=None, strict_length=None, query=None):
         """Return a summarised version of the field specified.
 
         This will return a summary of the contents of the field stored in the
@@ -110,6 +110,9 @@ class SearchResult(ProcessedDocument):
         from SearchConnection.query_parse() or related methods, which will be
         used as the basis of the summarisation and highlighting rather than the
         query which was used for the search.
+        
+        `ellipsis` and `strict_length` are passed through to `Highlighter.makeSample`
+        if given
 
         Raises KeyError if the field is not known.
 
@@ -121,8 +124,10 @@ class SearchResult(ProcessedDocument):
         if query is None:
             query = self._results._query
         kwargs = {}
-        if ellipsis:
+        if ellipsis is not None:
             kwargs['ellipsis'] = ellipsis
+        if strict_length is not None:
+            kwargs['strict_length'] = strict_length
         return highlighter.makeSample(text, query, maxlen, hl, **kwargs)
 
     def highlight(self, field, hl=('<b>', '</b>'), strip_tags=False, query=None):
