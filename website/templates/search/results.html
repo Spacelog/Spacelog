@@ -2,21 +2,33 @@
 {% load xappy %}
 {% load missiontime %}
 
+{% block content-class %}search{% endblock %}
 {% block content %}
     <form method='get' action=''>
         <input type='text' name='q' value='{{ q|escape }}'>
         <input type='submit' value='Search'>
     </form>
 
-    <h2>Results for &ldquo;{{ q }}&rdquo;</h2>
+    <h1>Results for &ldquo;{{ q }}&rdquo;</h1>
     
-    <ol>
+    <ol id="results">
         {% for log_line in log_lines %}
             <li>
-                <a href="{% selection_url log_line.timestamp %}">
-                    <span>{{ log_line.title|safe }}</span>
-                </a>
-                <p>&ldquo;{{ log_line.summary }}&rdquo;</p>
+                <h2>
+                    <a href="{% selection_url log_line.timestamp %}">
+                        {{ log_line.title|safe }}
+                    </a>
+                </h2>
+                <blockquote cite="{% selection_url log_line.timestamp %}"><p>{{ log_line.summary }}</p></blockquote>
+                <dl>
+                    <dt>Timestamp</dt>
+                    <dd>
+                        <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
+                            {{log_line.timestamp|mission_time_format}}
+                        </time>
+                    </dd>
+                </dl>                
+                    
             </li>
         {% endfor %}
     </ol>

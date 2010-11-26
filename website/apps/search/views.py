@@ -52,7 +52,7 @@ class SearchView(TemplateView):
             log_line = LogLine(redis_conn, transcript_name, int(timestamp))
             log_line.speaker = result.data['speaker'][0]
             log_line.title = mark_safe(log_line.speaker + ": &ldquo;" + result.summarise("text", maxlen=50, ellipsis='&hellip;', strict_length=True, hl=None)) + "&rdquo;"
-            log_line.summary = mark_safe(result.summarise("text", maxlen=600, ellipsis='&hellip;', hl=('<em>', '</em>')))
+            log_line.summary = mark_safe(result.summarise("text", maxlen=600, ellipsis='&hellip;', hl=('<mark>', '</mark>')))
             log_lines.append(log_line)
 
         def page_url(offset):
