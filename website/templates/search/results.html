@@ -3,15 +3,15 @@
 {% load missiontime %}
 
 {% block content %}
-	<h1>{{ q }}</h1>
-	<ol>
-		{% for log_line in log_lines %}
+    <h1>{{ q }}</h1>
+    <ol>
+        {% for log_line in log_lines %}
             <li>
                 <a href="{% timestamp_to_url log_line.timestamp %}">
                     <span>{{ log_line.speaker }}:</span>
                     <span>{{ log_line.summary }}</span>
                 </a>
             </li>
-		{% endfor %}
-	</ol>
+        {% endfor %}
+    </ol>
 {% endblock %}
