@@ -53,7 +53,7 @@ def get_all_raw_lines(path, startNumber):
     
     file_number = startNumber
     
-    while file_number < MAX_FILE_NUMBER:
+    while file_number <= MAX_FILE_NUMBER:
         filename = get_file_name_for(file_number)
         try:    
             file = open(path + filename, "r")
