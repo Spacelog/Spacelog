@@ -4,7 +4,6 @@ register = Library()
 
 @register.filter
 def mission_time_format(seconds):
-    print seconds
     days = seconds // 86400
     hours = seconds % 86400 // 3600
     minutes = seconds % 3600 // 60
