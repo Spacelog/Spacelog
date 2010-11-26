@@ -144,6 +144,20 @@ class TranscriptIndexer(object):
                     "log_line:%s:lines" % log_line_id,
                     "%(speaker)s: %(text)s" % line,
                 )
+            # Store any images
+            for i, image in enumerate(chunk['meta'].get("_images", [])):
+                # Make the image id
+                image_id = "%s:%s" % (log_line_id, i)
+                # Push it onto the images list
+                self.redis_conn.rpush(
+                    "log_line:%s:images" % log_line_id,
+                    image_id,
+                )
+                # Store the image data
+                self.redis_conn.hmset(
+                    "image:%s" % image_id,
+                    image,
+                )
             # Add that logline ID for the people involved
             speakers = set([ line['speaker'] for line in chunk['lines'] ])
             for speaker in speakers:
@@ -241,6 +255,7 @@ class MissionIndexer(object):
     def index_transcripts(self):
         for filename in os.listdir(self.folder_path):
             if "." not in filename and filename[0] != "_":
+                print "Indexing %s..." % filename
                 path = os.path.join(self.folder_path, filename)
                 parser = TranscriptParser(path)
                 indexer = TranscriptIndexer(self.redis_conn, self.mission_name, "%s/%s" % (self.mission_name, filename), parser)
@@ -254,7 +269,6 @@ class MissionIndexer(object):
 
 
 if __name__ == "__main__":
-    print "Indexing..."
     redis_conn = redis.Redis()
     idx = MissionIndexer(redis_conn, os.path.join(os.path.dirname( __file__ ), '..', "transcripts/", "a13")) 
     idx.index()

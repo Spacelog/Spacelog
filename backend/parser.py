@@ -61,7 +61,10 @@ class TranscriptParser(object):
                 # Meta item
                 name, blob = line.split(":", 1)
                 while True:
-                    line = lines.next()
+                    try:
+                        line = lines.next()
+                    except StopIteration:
+                        break
                     offset += len(line)
                     line = line.decode("utf8")
                     if not line.strip() or line.strip()[0] == "#":
@@ -104,7 +107,7 @@ class TranscriptParser(object):
                         "text": text.strip(),
                     }
                     current_chunk['lines'].append(line)
-
+        # Finally, if there's one last chunk, yield it.
         if current_chunk:
             yield current_chunk
 
