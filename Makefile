@@ -1,6 +1,8 @@
 indexer           = backend/indexer.py
 screen_css        = website/static/css/screen.css
 source_screen_css = website/static/css/screen/*.css
+webserver_ip     ?= 0.0.0.0
+webserver_port   ?= 8000
 
 all: reindex productioncss
 
@@ -13,6 +15,9 @@ productioncss:	$(screen_css)
 $(screen_css):
 	cssprepare --optimise --extended-syntax \
 		$(source_screen_css) > $(screen_css)
+
+devserver:
+	python -m website.manage runserver $(webserver_ip):$(webserver_port)
 
 devcss:
 	cssprepare --optimise --extended-syntax \
