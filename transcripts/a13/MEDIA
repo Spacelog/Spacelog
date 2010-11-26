@@ -3,7 +3,7 @@ _images: [
     {
         "filename" : "00_00_00_02.jpg",
         "thumbnail_filename" : "00_00_00_02-thumb.jpg",
-        "caption"  : "The rocket lifts off from Cape Canaveral",
-        "source"   : "NASA"
+        "caption"  : "Apollo 13's Saturn V rocket launching from Cape Canaveral, Florida",
+        "source"   : "NASA / JSC"
     }
     ]
