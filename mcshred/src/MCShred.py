@@ -159,12 +159,23 @@ def validate_line(line):
     errors.append("Line with invalid speaker found at %d" % line.seconds_from_mission_start)
     return False
 
+last_tape = None
+last_page = None
+
 def get_formatted_record_for(line):
+    "Returns a correctly-formatted line."
+    # These really shouldn't be globals, but I'm not ready to refactor
+    # this all into a big class and use instance variables.
+    global last_page, last_tape
     if validate_line(line):
         lines = []
         lines.append(u"\n[%d]\n" % line.seconds_from_mission_start)
-        lines.append(u"_page : %d\n" % line.page)
-        lines.append(u"_tape : %s\n" % line.tape)
+        if line.page != last_page:
+            lines.append(u"_page : %d\n" % line.page)
+            last_page = line.page
+        if line.tape != last_tape:
+            lines.append(u"_tape : %s\n" % line.tape)
+            last_tape = line.tape
         if len(line.non_log_lines) > 0:
             lines.append(u"_extra : %s\n" % "/n".join(line.non_log_lines))
         lines.append((u"%s: %s" % (line.speaker, line.text,)).encode('utf-8'))
