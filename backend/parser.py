@@ -84,6 +84,7 @@ class TranscriptParser(object):
                             data = json.loads('"%s"' % blob)
                         except ValueError:
                             print "Error: Invalid json at timestamp %s, key %s" % (timestamp, name)
+                            continue
                     current_chunk['meta'][name.strip()] = data
             # If it's a continuation, append to the current line
             elif line[0] in string.whitespace:
