@@ -87,6 +87,7 @@ sub process {
         push( @fail, 'underscore' )    if $line =~ /_/;
         push( @fail, 'lonely-l' )      if $line =~ /\bl\b/;
         push( @fail, 'doh-ray-me-fa-so-la' )       if $line =~ /\blA\b/;
+        push( @fail, 'we-have-a-floblem' )         if $line =~ /[^H]ouston/;
         push( @fail, 'hyphen-icide' )              if $line =~ /[a-z]-$/;
         push( @fail, 't-is-such-a-lonely-number' ) if $line =~ /[^']\bt\b/;
         push( @fail, 'stu-tts-ers' )               if $line =~ /tts\b/;
