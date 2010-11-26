@@ -9,7 +9,7 @@ urlpatterns = patterns('',
     (r'^$', 'homepage.views.homepage'),
     url(r'^page/(?:(?P<timestamp>-?\d{2}:\d{2}:\d{2}:\d{2})/)?$', PageView.as_view(), name="view_page"),
     url(r'^(?P<start>-?[0-9]+)/$', RangeView.as_view(), name="view_range"),
-    (r'^phases/$', PhasesView.as_view()),
+    url(r'^phases/$', PhasesView.as_view(), name="phases"),
 )
 
 if settings.DEBUG: # pragma: no cover
