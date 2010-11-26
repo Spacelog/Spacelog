@@ -1,17 +1,72 @@
-#transcripts li {
-    padding-left:   250px;
-    padding-top:    20px;
-    padding-bottom: 20px;
-    padding-right:  130px;
-    border-bottom:  1px solid gray;
+/* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*- 
+
+        Styling the transcripts page.
+
+*/
+
+#transcript dt.time {
+    // position
+    float:                  left;
+    line-height:            32px;
+    margin-right:           20px;
+    width:                  140px;
+    
+    // style
+    display:                table-cell;
+    text-align:             center;
+}
+#transcript time {
+    font-size:              24px;
+    line-height:            32px;
+    font-family:            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
+}
+#transcript dt.time a {
+    color:                  #00abd7;
+    text-decoration:        none;
+}
+#content.with-highlight #transcript dt.time a {
+    color:                  #00667f;
 }
 
-#transcripts time {
-    float:          left;
-    margin-left:    -220px;
+#transcript dt.speaker {
+    float:                  left;
 }
 
-#transcripts .speaker {
-    float:          left;
-    margin-left:    -110px;
+#transcript dt {
+    padding-top:            20px;
+}
+
+#transcript dd {
+    padding-top:            24px;
+    padding-left:           240px;
+    padding-bottom:         20px;
+    padding-right:          140px;
+    
+    line-height:            1.5;
+    
+    // provide a border, which means containing floats
+    border-bottom:          1px solid #ddd;
+    -cp-contain:            easy;
+}
+
+#content.with-highlight #transcript dd {
+    border-bottom:          1px solid #858585;
+}
+
+#transcript dd.highlighted {
+    background:             white;
+}
+
+#transcript dd.first {
+    -cp-border-top-left-radius:  5px;
+    -cp-border-top-right-radius: 5px;
+}
+
+#content.with-highlight #transcript dd.last {
+    -cp-border-bottom-left-radius:  5px;
+    -cp-border-bottom-right-radius: 5px;
+    border-bottom:                  none;
 }

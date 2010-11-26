@@ -92,10 +92,10 @@ class RangeView(PageView):
         for log_line in log_lines:
             if start <= log_line.timestamp <= end:
                 log_line.highlighted = True
-                log_line.highlight_index = highlight_index
                 highlight_index += 1
+                log_line.highlight_index = highlight_index
 
-        return log_lines, previous_link, next_link, highlight_index-1
+        return log_lines, previous_link, next_link, highlight_index
 
     def get_context_data(self, start=None, end=None):
         data = super(RangeView, self).get_context_data(start, end)
