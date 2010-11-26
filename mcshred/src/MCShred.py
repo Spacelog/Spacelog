@@ -215,6 +215,9 @@ def check_lines_are_in_sequence(lines):
         if line.seconds_from_mission_start < currentTime:
             errors.append("Line out of Sync error at %d seconds from mission start" %line.seconds_from_mission_start)
             print(get_formatted_record_for(line))
+        elif line.seconds_from_mission_start == currentTime:
+            errors.append("Duplicate timestamp error at %d seconds from mission start" %line.seconds_from_mission_start)
+            print(get_formatted_record_for(line))
         currentTime = line.seconds_from_mission_start
 
 class BadNumberSub:
@@ -233,9 +236,10 @@ def report_errors_and_exit():
     sys.exit(0)
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print "usage MCShred.py <pathToCompletedFiles> <fileNumberToStartWith>"
         print "ex: MCShred.py /assets/transcripts/apollo13/AS13_TEC/0_CLEAN/ 8"
+        sys.exit(0)
     
     file_path = sys.argv[1]
     file_number = int(sys.argv[2])
