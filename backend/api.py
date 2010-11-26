@@ -298,7 +298,11 @@ class Character(object):
 
     def quotable_log_line(self):
         transcript_name, timestamp = self.quotable_log_line_id.split(":")
-        return LogLine(self.redis_conn, transcript_name, int(timestamp))
+        return LogLine(
+            self.redis_conn,
+            '%s/%s' % (self.mission_name, transcript_name), 
+            int(timestamp)
+        )
 
     class Query(BaseQuery):
 

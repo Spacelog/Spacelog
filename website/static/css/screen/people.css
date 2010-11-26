@@ -3,7 +3,8 @@
     color:                  #fff;
     padding:                20px 0;
 }
-.people .wrapper {
+.people .wrapper,
+.people .group {
     -cp-contain:            easy;
 }
 .people a {
