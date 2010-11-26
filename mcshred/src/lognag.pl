@@ -51,7 +51,8 @@ sub process {
                 $fix += $words[$i] =~ s/[B]/8/g;
                 $fix += $words[$i] =~ s/[h]/4/g;
                 --$logscore if $words[$i] =~ /^[a-z]+$/;
-                ++$logscore if $words[$i] =~ /^\d{2}$/;
+                if   ($i) { ++$logscore if $words[$i] =~ /^\d{2}$/; }
+                else      { ++$logscore if $words[$i] =~ /^-?\d{2}$/; }
             }
             my $speaker = $words[4];
             $speaker = 'Music' if $speaker =~ /^\(Music/;
@@ -85,7 +86,8 @@ sub process {
         push( @fail, 'noleet0please' ) if $line =~ /(\w\s)(?![1-9]0*)0[A-Z]/;
         push( @fail, 'underscore' )    if $line =~ /_/;
         push( @fail, 'lonely-l' )      if $line =~ /\bl\b/;
-        push( @fail, 'SoundOfMusicException:lA' )  if $line =~ /\blA\b/;
+        push( @fail, 'doh-ray-me-fa-so-la' )       if $line =~ /\blA\b/;
+        push( @fail, 'hyphen-icide' )              if $line =~ /\w-$/;
         push( @fail, 't-is-such-a-lonely-number' ) if $line =~ /[^']\bt\b/;
         push( @fail, 'stu-tts-ers' )               if $line =~ /tts\b/;
         push( @fail, 'pleaseflush' )               if $line =~ /\b(po0|p0o)\b/i;
@@ -93,8 +95,8 @@ sub process {
         push( @fail, 'less-ls-more-1s' )           if $line =~ /(l\d|\dl)/;
         push( @fail, 'doublebonuslonely-l' )       if $line =~ /\b[^\w']ll\b/;
         push( @fail, 'multiballpunctuation' )      if $line =~ /[,:;]{2}/;
-        push( @fail, 'GeoffMinterAlert' ) if $line =~ /[^A-Z][a-z][A-Z]/;
-        push( @fail, '2Bornot2B13' )      if $line =~ /\b[1l]B\b/;
+        push( @fail, 'geoff-minter-alert' ) if $line =~ /[^A-Z][a-z][A-Z]/;
+        push( @fail, '2Bornot2B13' )        if $line =~ /\b[1l]B\b/;
 
         push( @fail, 'badchar' )
           if my (@badchar) =
