@@ -1,12 +1,9 @@
+{% extends "base.html" %}
 {% load xappy %}
 {% load missiontime %}
-<body>
+
+{% block content %}
 	<h1>{{ q }}</h1>
-	<form method='get' action='/search/'>
-		<input type='text' name='q' value='{{ q|escape }}'>
-		<input type='submit' value='Search'>
-	</form>
-	
 	<ol>
 		{% for log_line in log_lines %}
             <li>
@@ -17,4 +14,4 @@
             </li>
 		{% endfor %}
 	</ol>
-</body>
+{% endblock %}

@@ -9,8 +9,8 @@
         <li><a href='#TODO'>Glossary</a></li>
         <li><a href='#TODO'>About</a></li>
       </ul>
-      <form>
-        <input type="text" name="q" value="" id="q">
+      <form method="get" action="/search/">
+        <input type="text" name="q" value="{{ q|escape }}" id="q">
       </form>
     </nav>
   </div>
