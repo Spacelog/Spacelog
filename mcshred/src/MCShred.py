@@ -5,6 +5,28 @@ import sys
 #MAX_FILE_NUMBER = 20
 MAX_FILE_NUMBER = 765
 errors = []
+valid_tec_speakers = (
+    "AB",
+    "CC",
+    "CDR",
+    "CMP", 
+    "CT", 
+    "F", 
+    "IWO", 
+    "LCC", 
+    "LMP", 
+    "MS", 
+    "P-1", 
+    "P-2", 
+    "R", 
+    "R-1", 
+    "R-2", 
+    "S", 
+    "S-1", 
+    "S-2", 
+    "SC", 
+    "Music",
+)
        
 def get_file_name_for(num):
     return str(num).zfill(3) + ".txt"
@@ -74,7 +96,7 @@ def get_seconds_from_mission_start(line):
 def set_timestamp_speaker_and_text(line):
     values =  line.raw.split(u" ");
    
-    line.set_time_stamp(get_seconds_from_mission_start(line))
+    line.set_seconds_from_mission_start(get_seconds_from_mission_start(line))
     
     line.set_speaker(values[4])
     
@@ -95,6 +117,9 @@ def line_is_a_new_entry(line):
     
     return True
 
+def is_a_non_log_line(line):
+    return len(line.raw) != len(line.raw.lstrip()) or len(line.raw) == 0
+
 def translate_lines(all_lines):
     translatedLines = []
     currentLine = None
@@ -106,10 +131,12 @@ def translate_lines(all_lines):
             set_timestamp_speaker_and_text(line)
             currentLine = line
         elif currentLine != None:
-            currentLine.append_text(line.raw)
+            if is_a_non_log_line(line):
+                currentLine.append_non_log_line(line.raw.strip())
+            else:
+                currentLine.append_text(line.raw)
         else:
-            print("Encountered An initial Line without nominal timestamp, booo.")
-            print(line.raw)
+            errors.append("Encountered An initial Line without nominal timestamp:  \n%s" % line.raw)
     
     translatedLines.append(currentLine)
     
@@ -117,26 +144,32 @@ def translate_lines(all_lines):
 
 def validate_line(line):
     try:
-        line.secondsFromMissionStart
+        line.seconds_from_mission_start
         line.page
         line.tape
         line.speaker
         line.text
     except:
+        errors.append("Invalid line found at %d" % line.seconds_from_mission_start)
         return False
     
-    return True
+    if line.speaker in valid_tec_speakers:
+        return True
+    
+    errors.append("Line with invalid speaker found at %d" % line.seconds_from_mission_start)
+    return False
 
 def get_formatted_record_for(line):
     if validate_line(line):
         lines = []
-        lines.append(u"\n[%d]\n" % line.secondsFromMissionStart)
+        lines.append(u"\n[%d]\n" % line.seconds_from_mission_start)
         lines.append(u"_page : %d\n" % line.page)
         lines.append(u"_tape : %s\n" % line.tape)
+        if len(line.non_log_lines) > 0:
+            lines.append(u"_extra : %s\n" % "/n".join(line.non_log_lines))
         lines.append((u"%s: %s" % (line.speaker, line.text,)).encode('utf-8'))
         return lines
     else:
-        errors.append("Found invalid line")
         return []
     
 class LogLine:
@@ -145,6 +178,7 @@ class LogLine:
         self.page = pageNumber
         self.tape = tapeNumber
         self.speaker = ""
+        self.non_log_lines = []
 
     def get_raw_line(self):
         return self.raw
@@ -155,24 +189,37 @@ class LogLine:
     def append_text(self, text):
         self.text = self.text + (" " * 5) + text
         
-    def set_time_stamp(self, secondsFromMissionStart):
-        self.secondsFromMissionStart = secondsFromMissionStart
+    def set_seconds_from_mission_start(self, seconds_from_mission_start):
+        self.seconds_from_mission_start = seconds_from_mission_start
     
     def set_speaker(self, speaker):
         self.speaker = speaker
+        
+    def append_non_log_line(self, line):
+        self.non_log_lines.append(line)
 
 def check_lines_are_in_sequence(lines):
     currentTime = -20000000
     for line in lines:
-        if line.secondsFromMissionStart < currentTime:
-            print('Error on processing, the following entry is out of sequence:')
+        if line.seconds_from_mission_start < currentTime:
+            errors.append("Line out of Sync error at %d seconds from mission start" %line.seconds_from_mission_start)
             print(get_formatted_record_for(line))
-        currentTime = line.secondsFromMissionStart
+        currentTime = line.seconds_from_mission_start
 
 class BadNumberSub:
     def __init__(self, number, badSubList):
         self.number = number
         self.badSubList = badSubList
+
+def report_errors_and_exit():
+    if len(errors) > 0:
+        print "Shred returned errors, please check the following:"
+        for error in errors:
+            print error
+        sys.exit(1)
+    
+    print "No errors found"    
+    sys.exit(0)
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -202,4 +249,4 @@ if __name__ == "__main__":
     
     outputFile.close()
     
-    sys.exit(1)
+    report_errors_and_exit()

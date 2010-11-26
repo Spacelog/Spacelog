@@ -59,9 +59,9 @@ class Test(unittest.TestCase):
         expectedTime = (59 + (3 * 60) + (2 * 60 * 60) + (1 * 24 * 60 * 60))
         
 #        print(expectedTime)
-#        print(logLine.secondsFromMissionStart)
+#        print(logLine.seconds_from_mission_start)
         
-        assert logLine.secondsFromMissionStart == expectedTime
+        assert logLine.seconds_from_mission_start == expectedTime
         assert logLine.speaker == u"CC"
         assert logLine.text == "This is the rest of the line"
         
@@ -122,6 +122,19 @@ class Test(unittest.TestCase):
         assert MCShred.get_file_name_for(304) == u"304.txt"
         assert MCShred.get_file_name_for(200) == u"200.txt"
         assert MCShred.get_file_name_for(003) == u"003.txt"
+        
+    def test_is_a_non_log_line(self):
+        logLine0 = u"Tape 3/2"
+        logLine1 = u"01 02 03 59 CC This is the rest of the line"
+        logLine2 = u"except for this thing because it's actually"
+        logLine3 = u"    ( other weird text Thing )"
+        logLine4 = u""
+        assert MCShred.is_a_non_log_line(logLine0) == False
+        assert MCShred.is_a_non_log_line(logLine1) == False
+        assert MCShred.is_a_non_log_line(logLine2) == False
+        assert MCShred.is_a_non_log_line(logLine3) == True
+        assert MCShred.is_a_non_log_line(logLine4) == True
+        
             
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']
