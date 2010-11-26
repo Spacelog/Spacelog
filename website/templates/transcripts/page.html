@@ -23,7 +23,7 @@
   <dl id='transcript'>
   {% for log_line in log_lines %}
     {% for speaker, text in log_line.lines %}
-    <div>
+    <div id="log-line-{{ log_line.timestamp }}">
       <dt class='time {% if log_line.highlighted %}highlighted {% endif %}'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
         <a href='{% selection_url log_line.timestamp %}'>
           <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
