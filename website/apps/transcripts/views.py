@@ -89,7 +89,11 @@ class RangeView(PageView):
     def log_lines(self, start_page, end_page):
         log_lines, previous_link, next_link, highlight_index = super(RangeView, self).log_lines(start_page, end_page)
         start = self.parse_mission_time(self.kwargs['start'])
-        end = self.parse_mission_time(self.kwargs.get('end', self.kwargs['start']))
+        # If there's no end, make it the first item after the given start.
+        if "end" in self.kwargs:
+            end = self.parse_mission_time(self.kwargs['end'])
+        else:
+            end = self.log_line_query().first_after(start).timestamp
 
         highlight_index = 0
         for log_line in log_lines:
