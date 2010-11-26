@@ -104,6 +104,10 @@ class LogLine(object):
         images = [self.redis_conn.hgetall("image:%s" % id) for id in image_ids]
         return images
 
+    def labels(self):
+        "Returns the labels for this LogLine."
+        return self.redis_conn.smembers("log_line:%s:labels" % self.id)
+
     class Query(BaseQuery):
         """
         Allows you to query for LogLines.

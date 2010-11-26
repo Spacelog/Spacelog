@@ -3947,6 +3947,10 @@ CC:  We'll see what we can do, Jack. We'll get with
 CDR: Outstanding.
 
 [87606]
+_labels: {
+        "funny": 87636,
+        "taxes": 87636
+    }
 CDR: Houston, this is 13. Is it true that Jack's income tax return was going to be used to buy the
      ascent fuel for the LM?
 

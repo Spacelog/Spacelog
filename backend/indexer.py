@@ -187,12 +187,12 @@ class TranscriptIndexer(object):
                         self.redis_conn.sadd("label:%s" % label, log_line_id)
             # Expire any old labels
             for label, endpoint in current_labels.items():
-                # TODO: Decide if we want inclusive or exclusive label endpoints
-                if endpoint <= chunk['timestamp']:
+                if endpoint < chunk['timestamp']:
                     del current_labels[label]
             # Apply any surviving labels
             for label in current_labels:
                 self.redis_conn.sadd("label:%s" % label, log_line_id)
+                self.redis_conn.sadd("log_line:%s:labels" % log_line_id, label)
             # Increment the number of log lines we've done
             current_page_lines += len(chunk['lines'])
 

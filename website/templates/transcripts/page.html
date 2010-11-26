@@ -53,6 +53,11 @@
       {% if log_line.following_silence > 3600 %}
         <span class='extended-pause'>No contact for {% pause_length log_line.following_silence %}</span>
       {% endif %}
+
+      {# Labels #}
+      {% if log_line.labels %}
+        <span class='labels'>{{ log_line.labels|length }} label{{ log_line.labels|length|pluralize }}</span>
+      {% endif %}
     </dd>
     {% endfor %}
     {% for image in log_line.images %}
