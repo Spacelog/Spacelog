@@ -32,6 +32,7 @@ def timestamp_to_url(seconds):
 @register.simple_tag
 def selection_url(start_seconds, end_seconds=None):
     if end_seconds is None:
-        return reverse("view_range", kwargs={"start": mission_time(start_seconds)})
+        url = reverse("view_range", kwargs={"start": mission_time(start_seconds)})
     else:
-        return reverse("view_range", kwargs={"start": mission_time(start_seconds), "end": mission_time(end_seconds)})
+        url = reverse("view_range", kwargs={"start": mission_time(start_seconds), "end": mission_time(end_seconds)})
+    return '%s#show-selection' % url

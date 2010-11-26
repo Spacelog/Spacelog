@@ -98,6 +98,11 @@ class RangeView(PageView):
                 highlight_index += 1
                 log_line.highlight_index = highlight_index
 
+        for log_line1, log_line2 in zip(log_lines, log_lines[1:]):
+            if getattr(log_line2, 'highlight_index', None) == 1:
+                log_line1.pre_highlight = True
+                break
+
         return log_lines, previous_link, next_link, highlight_index
 
     def get_context_data(self, start=None, end=None):
