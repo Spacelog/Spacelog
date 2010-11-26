@@ -1,4 +1,5 @@
 {% load xappy %}
+{% load missiontime %}
 <body>
 	<h1>{{ q }}</h1>
 	<form method='get' action='/search/'>
@@ -7,11 +8,13 @@
 	</form>
 	
 	<ol>
-		{% for r in results %}
-		<li>
-			<span>{{ r.data.speaker.0 }}</span>
-			<span>{{ r|summarise:"text" }}</span>
-		</li>
+		{% for log_line in log_lines %}
+            <li>
+                <a href="{% timestamp_to_url log_line.timestamp %}">
+                    <span>{{ log_line.speaker }}:</span>
+                    <span>{{ log_line.summary }}</span>
+                </a>
+            </li>
 		{% endfor %}
 	</ol>
 </body>
