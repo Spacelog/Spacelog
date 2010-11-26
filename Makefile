@@ -1,6 +1,12 @@
-screen_css        = css/screen.css
-source_screen_css = css/screen/*.css
+indexer           = backend/indexer.py
+screen_css        = website/static/css/screen.css
+source_screen_css = website/static/css/screen/*.css
 
+all:
+
+reindex: $(indexer)
+	rm -rf xappydb
+	python -m backend.indexer
 
 productioncss:	$(screen_css)
 
