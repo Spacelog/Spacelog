@@ -248,6 +248,6 @@ class MissionIndexer(object):
 if __name__ == "__main__":
     print "Indexing..."
     redis_conn = redis.Redis()
-    idx = MissionIndexer(redis_conn, os.path.join(os.path.dirname( __file__ ), '..', "transcript-file-format/", "a13")) 
+    idx = MissionIndexer(redis_conn, os.path.join(os.path.dirname( __file__ ), '..', "transcripts/", "a13")) 
     idx.index()
     search_db.flush()
