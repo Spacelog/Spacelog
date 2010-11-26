@@ -26,6 +26,14 @@ class TranscriptIndexer(object):
             "speaker",
             xappy.FieldActions.STORE_CONTENT,
         )
+        # Can't use facetting unless Xapian supports it
+        # can't be bothered to check this (xappy._checkxapian.missing_features['facets']==1)
+        #
+        # search_db.add_field_action(
+        #     "speaker",
+        #     xappy.FieldActions.FACET,
+        #     type='string',
+        # )
         search_db.add_field_action(
             "speaker",
             xappy.FieldActions.INDEX_FREETEXT,
@@ -47,6 +55,11 @@ class TranscriptIndexer(object):
             allow_field_specific=False,
             spell=True,
         )
+        search_db.add_field_action(
+            "weight",
+            xappy.FieldActions.SORTABLE,
+            type='float',
+        )
         # FIXME: this should come out of meta
         name_map = {
             'CDR': 'Jim Lovell',
@@ -59,25 +72,27 @@ class TranscriptIndexer(object):
             #     'Joseph Joe Kerwin',
             #     'Ken Mattingly',
             #     'Charlie Charles Duke',
+            #     'Tom Stafford',
             # ],
         }
         for role, names in name_map.items():
-            if type(names) is not list:
-                names = list(names)
+            if type(names) is str:
+                names = [names]
             for name in names:
                 for bit in name.split():
                     search_db.add_synonym(bit, role)
                     search_db.add_synonym(bit, role, field='speaker')
 
-    def add_to_search_index(self, id, text, speakers):
+    def add_to_search_index(self, id, lines, weight=1):
         """
         Take some text and a set of speakers (also text) and add a document
         to the search index, with the id stuffed in the document data.
         """
         doc = xappy.UnprocessedDocument()
-        doc.fields.append(xappy.Field("text", text))
-        for speaker in speakers:
-            doc.fields.append(xappy.Field("speaker", speaker))
+        doc.fields.append(xappy.Field("weight", weight))
+        for line in lines:
+            doc.fields.append(xappy.Field("text", line['text']))
+            doc.fields.append(xappy.Field("speaker", line['speaker']))
         doc.id = id
         try:
             search_db.add(search_db.process(doc))
@@ -162,12 +177,6 @@ class TranscriptIndexer(object):
             speakers = set([ line['speaker'] for line in chunk['lines'] ])
             for speaker in speakers:
                 self.redis_conn.sadd("speaker:%s" % speaker, log_line_id)
-            # And add this logline to search index
-            self.add_to_search_index(
-                id=log_line_id,
-                text=u" ".join(line['text'] for line in chunk['lines']),
-                speakers=speakers,
-            )
             # Add it to the index for this page
             self.redis_conn.rpush("page:%s:%i" % (self.transcript_name, current_page), log_line_id)
             # Add it into the transcript and everything sets
@@ -192,7 +201,16 @@ class TranscriptIndexer(object):
             # Apply any surviving labels
             for label in current_labels:
                 self.redis_conn.sadd("label:%s" % label, log_line_id)
-                self.redis_conn.sadd("log_line:%s:labels" % log_line_id, label)
+            # And add this logline to search index
+            if len(current_labels):
+                weight = 3 # magic!
+            else:
+                weight = 1
+            self.add_to_search_index(
+                id=log_line_id,
+                lines = chunk['lines'],
+                weight=weight,
+            )
             # Increment the number of log lines we've done
             current_page_lines += len(chunk['lines'])
 
