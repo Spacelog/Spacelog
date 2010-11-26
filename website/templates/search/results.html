@@ -13,7 +13,7 @@
     <ol>
         {% for log_line in log_lines %}
             <li>
-                <a href="{% timestamp_to_url log_line.timestamp %}">
+                <a href="{% selection_url log_line.timestamp %}">
                     <span>{{ log_line.title|safe }}</span>
                 </a>
                 <p>&ldquo;{{ log_line.summary }}&rdquo;</p>
