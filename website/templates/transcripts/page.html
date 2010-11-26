@@ -24,11 +24,18 @@
     <dt{% if log_line.highlighted %} class='highlighted'{% endif %}>{{speaker}}</dt>
     <dd{% if log_line.highlighted %} class='highlighted'{% endif %}>
       {{text|safe}}
-      {% if log_line.previous_timestamp and log_line.highlight_index == 0 %}
+      {% if log_line.highlight_index == 0 and log_line.previous_timestamp %}
         <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}'>Expand selection up</a>
       {% endif %}
-      {% if log_line.next_timestamp and log_line.highlight_index == max_highlight_index %}
+      {% if log_line.highlight_index == 0 and log_line.next_timestamp and log_line.next_timestamp <= selection_end_timestamp %}
+        <a href='{% selection_url log_line.next_timestamp selection_end_timestamp %}'>Contract selection down</a>
+      {% endif %}
+
+      {% if log_line.highlight_index == max_highlight_index and log_line.next_timestamp %}
         <a href='{% selection_url selection_start_timestamp log_line.next_timestamp %}'>Expand selection down</a>
+      {% endif %}
+      {% if log_line.highlight_index == max_highlight_index and log_line.previous_timestamp and log_line.previous_timestamp >= selection_start_timestamp %}
+        <a href='{% selection_url selection_start_timestamp log_line.previous_timestamp %}'>Contract selection up</a>
       {% endif %}
     </dd>
     {% endfor %}
