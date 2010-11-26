@@ -11,16 +11,16 @@
     <a href="{% timestamp_to_url previous_timestamp %}">Previous</a>
   {% endif %}
 
-  <dl id='transcript'>
+  <dl id='transcript'{% if highlighted_line_count > 0 %} class='with-highlight'{% endif %}>
   {% for log_line in log_lines %}
     {% for speaker, text in log_line.lines %}
-    <dt>
+    <dt{% if log_line.highlighted %} class='highlighted'{% endif %}>
       <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
         {{log_line.timestamp|mission_time_format}}
       </time>
     </dt>
-    <dt>{{speaker}}</dt>
-    <dd>{{text|safe}}</dd>
+    <dt{% if log_line.highlighted %} class='highlighted'{% endif %}>{{speaker}}</dt>
+    <dd{% if log_line.highlighted %} class='highlighted'{% endif %}>{{text|safe}}</dd>
     {% endfor %}
   {% endfor %}
   </dl>

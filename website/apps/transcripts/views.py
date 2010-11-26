@@ -40,7 +40,7 @@ class TranscriptView(TemplateView):
         else:
             next_timestamp = None
         # Return
-        return log_lines, previous_timestamp, next_timestamp
+        return log_lines, previous_timestamp, next_timestamp, 0
 
     def page_number(self, timestamp):
         "Finds the page number for a given timestamp"
@@ -66,7 +66,7 @@ class PageView(TranscriptView):
             end = start
 
         # Get the content
-        log_lines, previous_timestamp, next_timestamp = self.log_lines(
+        log_lines, previous_timestamp, next_timestamp, highlighted_line_count = self.log_lines(
             self.page_number(start),
             self.page_number(end),
         )
@@ -77,6 +77,7 @@ class PageView(TranscriptView):
             'previous_timestamp': previous_timestamp,
             'acts': list(self.act_query().items()),
             'current_act': log_lines[0].act(),
+            'highlighted_line_count': highlighted_line_count,
         }
 
 
@@ -87,13 +88,18 @@ class RangeView(PageView):
     """
     
     def log_lines(self, start_page, end_page):
-        log_lines, previous_link, next_link = super(RangeView, self).log_lines(start_page, end_page)
+        log_lines, previous_link, next_link, highlight_index = super(RangeView, self).log_lines(start_page, end_page)
         start = self.parse_mission_time(self.kwargs['start'])
         end = self.parse_mission_time(self.kwargs.get('end', self.kwargs['start']))
+
+        highlight_index = 0
         for log_line in log_lines:
             if start <= log_line.timestamp <= end:
                 log_line.highlighted = True
-        return log_lines, previous_link, next_link
+                log_line.highlight_index = highlight_index
+                highlight_index += 1
+
+        return log_lines, previous_link, next_link, highlight_index
 
 
 class PhasesView(TranscriptView):
