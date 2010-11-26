@@ -272,3 +272,56 @@ class Act(object):
         def _key_to_instance(self, key):
             mission_name, number = key.split(":", 1)
             return Act(self.redis_conn, mission_name, int(number))
+
+class Character(object):
+    """
+    Represents a character in the mission
+    """
+
+    def __init__(self, redis_conn, mission_name, identifier):
+        self.redis_conn = redis_conn
+        self.mission_name = mission_name
+        self.identifier = identifier
+        self.id = "%s:%s" % (self.mission_name, identifier)
+        self._load()
+
+    def _load(self):
+        data = self.redis_conn.hgetall("characters:%s" % self.id)
+        self.name = data['name']
+        self.short_name = data['short_name']
+        self.bio = data['bio']
+        self.quotable_log_line_id = data['quotable_log_line_id']
+        self.photo = data['photo']
+        self.hours_in_space = data['hours_in_space']
+        self.role = data['role']
+        self.honours = data['honours']
+
+    def quotable_log_line(self):
+        transcript_name, timestamp = self.quotable_log_line_id.split(":")
+        return LogLine(self.redis_conn, transcript_name, int(timestamp))
+
+    class Query(BaseQuery):
+
+        all_key_pattern = "characters:%(mission_name)s"
+        role_key_pattern = "characters:%(mission_name)s:%(role)s"
+
+        def role(self, role):
+            return self._extend_query("role", role)
+
+        def items(self):
+            "Executes the query and returns the items."
+            
+            filter_names = set(self.filters.keys())
+            if filter_names == set():
+                keys = self.redis_conn.lrange(self.all_key, 0, -1)
+            elif filter_names == set(['role']):
+                role_key = self.role_key_pattern % {'mission_name':self.mission_name, 'role':self.filters['role']}
+                keys = self.redis_conn.lrange(role_key, 0, -1)
+            else:
+                raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
+            
+            for key in keys:
+                yield self._key_to_instance(key)
+
+        def _key_to_instance(self, key):
+            return Character(self.redis_conn, self.mission_name, key)

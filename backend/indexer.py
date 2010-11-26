@@ -3,7 +3,7 @@ import redis
 import xappy
 
 from backend.parser import TranscriptParser, MetaParser
-from backend.api import Act
+from backend.api import Act, Character
 
 search_db = xappy.IndexerConnection(
     os.path.join(os.path.dirname(__file__), '..', 'xappydb'),
@@ -60,28 +60,13 @@ class TranscriptIndexer(object):
             xappy.FieldActions.SORTABLE,
             type='float',
         )
-        # FIXME: this should come out of meta
-        name_map = {
-            'CDR': 'Jim Lovell',
-            'CMP': 'Jack Swigert',
-            'LMP': 'Fred Haise',
-            # not convinced this is suitable for synonyming
-            # 'CC': [
-            #     'Jack Lousma',
-            #     'Vance Brand',
-            #     'Joseph Joe Kerwin',
-            #     'Ken Mattingly',
-            #     'Charlie Charles Duke',
-            #     'Tom Stafford',
-            # ],
-        }
-        for role, names in name_map.items():
-            if type(names) is str:
-                names = [names]
-            for name in names:
+        # Add names as synonyms for speaker identifiers
+        characters = Character.Query(self.redis_conn, self.mission_name).items()
+        for character in characters:
+            for name in [character.name, character.short_name]:
                 for bit in name.split():
-                    search_db.add_synonym(bit, role)
-                    search_db.add_synonym(bit, role, field='speaker')
+                    search_db.add_synonym(bit, character.identifier)
+                    search_db.add_synonym(bit, character.identifier, field='speaker')
 
     def add_to_search_index(self, id, lines, weight=1):
         """
@@ -229,7 +214,13 @@ class MetaIndexer(object):
         meta = self.parser.get_meta()
 
         self.redis_conn.set("launch_time:%s" % self.mission_name, meta['utc_launch_time'])
-        # Index acts and key scenes
+
+        self.index_narative_elements(meta)
+        self.index_glossary(meta)
+        self.index_characters(meta)
+
+    def index_narative_elements(self, meta):
+        "Stores acts and key scenes in redis"
         for noun in ('act', 'key_scene'):
             for i, data in enumerate(meta.get('%ss' % noun, [])):
                 key = "%s:%s:%i" % (noun, self.mission_name, i)
@@ -242,7 +233,9 @@ class MetaIndexer(object):
                 del data['range']
 
                 self.redis_conn.hmset(key, data)
-        # Index glossary information
+
+    def index_glossary(self, meta):
+        "Stores glossary terms in redis"
         for key, data in meta['glossary'].items():
             self.redis_conn.hmset(
                 "glossary:%s" % key,
@@ -250,6 +243,14 @@ class MetaIndexer(object):
                     "description": data.get('description', ""),
                 },
             )
+
+    def index_characters(self, meta):
+        "Stores character information in redis"
+        for identifier, data in meta['characters'].items():
+            key = "characters:%s:%s" % (self.mission_name, identifier)
+            self.redis_conn.rpush('characters:%s' % self.mission_name, identifier)
+            self.redis_conn.rpush('characters:%s:%s' % (self.mission_name, data['role']), identifier)
+            self.redis_conn.hmset(key, data)
 
 
 class MissionIndexer(object):

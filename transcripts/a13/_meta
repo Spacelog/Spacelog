@@ -41,6 +41,38 @@
             "range": [324540, 324540]
         }
     ],
+    "characters": {
+        "CDR": {
+          "role": "astronaut",
+          "name": "James A. (Jim) Lovell, Jr.",
+          "short_name": "Jim Lovell",
+          "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+          "photo": "jim.jpg",
+          "hours_in_space": 390,
+          "honours": 7,
+          "quotable_log_line_id": "TEC:211000"
+        },
+        "LMP": {
+          "role": "astronaut",
+          "name": "Fred W. Haise, Jr.",
+          "short_name": "Fred Haise",
+          "bio": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          "photo": "fred.jpg",
+          "hours_in_space": 625,
+          "honours": 4,
+          "quotable_log_line_id": "TEC:270695"
+        },
+        "CMP": {
+          "role": "astronaut",
+          "name": "John L. (Jack) Swigert, Jr.",
+          "short_name": "Jack Swigert",
+          "bio": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "photo": "jack.jpg",
+          "hours_in_space": 123,
+          "honours": 8,
+          "quotable_log_line_id": "TEC:393690"
+        }
+    },
     "glossary": {
         "CAPCOM": {
             "description": "Capsule communicator"
