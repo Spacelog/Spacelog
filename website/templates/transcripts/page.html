@@ -22,43 +22,45 @@
   <dl id='transcript'>
   {% for log_line in log_lines %}
     {% for speaker, text in log_line.lines %}
-    <dt class='time {% if log_line.highlighted %}highlighted {% endif %}'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
-      <a href='{% selection_url log_line.timestamp %}'>
-        <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
-          {{log_line.timestamp|mission_time_format}}
-        </time>
-      </a>
-    </dt>
-    <dt class='speaker {% if log_line.highlighted %}highlighted{% endif %}'>
-      <img src='http://img.fort/32x32.png' alt='{{speaker}}' 
-           width='32' height='32'>
-      {{speaker}}
-    </dt>
-    <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1%}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}'>
-      {{text|safe}}
-      {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
-        <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}'>Expand selection up</a>
-      {% endif %}
-      {% if log_line.highlight_index == 1 and log_line.next_timestamp and log_line.next_timestamp <= selection_end_timestamp %}
-        <a href='{% selection_url log_line.next_timestamp selection_end_timestamp %}'>Contract selection down</a>
-      {% endif %}
+    <div>
+      <dt class='time {% if log_line.highlighted %}highlighted {% endif %}'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
+        <a href='{% selection_url log_line.timestamp %}'>
+          <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
+            {{log_line.timestamp|mission_time_format}}
+          </time>
+        </a>
+      </dt>
+      <dt class='speaker {% if log_line.highlighted %}highlighted{% endif %}'>
+        <img src='http://img.fort/32x32.png' alt='{{speaker}}' 
+            width='32' height='32'>
+        {{speaker}}
+      </dt>
+      <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1%}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}'>
+        {{text|safe}}
+        {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
+          <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}'>Expand selection up</a>
+        {% endif %}
+        {% if log_line.highlight_index == 1 and log_line.next_timestamp and log_line.next_timestamp <= selection_end_timestamp %}
+          <a href='{% selection_url log_line.next_timestamp selection_end_timestamp %}'>Contract selection down</a>
+        {% endif %}
 
-      {% if log_line.highlight_index == max_highlight_index and log_line.next_timestamp %}
-        <a href='{% selection_url selection_start_timestamp log_line.next_timestamp %}'>Expand selection down</a>
-      {% endif %}
-      {% if log_line.highlight_index == max_highlight_index and log_line.previous_timestamp and log_line.previous_timestamp >= selection_start_timestamp %}
-        <a href='{% selection_url selection_start_timestamp log_line.previous_timestamp %}'>Contract selection up</a>
-      {% endif %}
+        {% if log_line.highlight_index == max_highlight_index and log_line.next_timestamp %}
+          <a href='{% selection_url selection_start_timestamp log_line.next_timestamp %}'>Expand selection down</a>
+        {% endif %}
+        {% if log_line.highlight_index == max_highlight_index and log_line.previous_timestamp and log_line.previous_timestamp >= selection_start_timestamp %}
+          <a href='{% selection_url selection_start_timestamp log_line.previous_timestamp %}'>Contract selection up</a>
+        {% endif %}
 
-      {% if log_line.following_silence > 3600 %}
-        <span class='extended-pause'>No contact for {% pause_length log_line.following_silence %}</span>
-      {% endif %}
+        {% if log_line.following_silence > 3600 %}
+          <span class='extended-pause'>No contact for {% pause_length log_line.following_silence %}</span>
+        {% endif %}
 
-      {# Labels #}
-      {% if log_line.labels %}
-        <span class='labels'>{{ log_line.labels|length }} label{{ log_line.labels|length|pluralize }}</span>
-      {% endif %}
-    </dd>
+        {# Labels #}
+        {% if log_line.labels %}
+          <span class='labels'>{{ log_line.labels|length }} label{{ log_line.labels|length|pluralize }}</span>
+        {% endif %}
+      </dd>
+    </div>
     {% endfor %}
     {% for image in log_line.images %}
       <dd{% if log_line.highlighted %} class='highlighted {% if log_line.highlight_index == 1%}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}'{% endif %}{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
