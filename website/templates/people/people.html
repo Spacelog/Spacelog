@@ -2,17 +2,22 @@
 
 {% block title %}People{% endblock %}
 
+{% block content-class %}people{% endblock %}
+
 {% block content %}
 <h1>People</h1>
 
 <h2>Flight Crew</h2>
 
-<h3><img src="http://img.fort/190x205.png" width="190" height="205">James A. (Jim) Lovell, Jr.</h3>
+{% include "people/_person.html" %}
+{% include "people/_person.html" %}
+{% include "people/_person.html" %}
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-
-<h3>Mission Control</h3>
+<h2>Mission Control</h2>
+{% include "people/_simple_person.html" %}
+{% include "people/_simple_person.html" %}
+<div class="more">
+  <a href="#TODO">View full Mission Control Team</a>
+</div>
 
 {% endblock %}
