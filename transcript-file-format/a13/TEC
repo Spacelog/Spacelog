@@ -24,14 +24,15 @@ CDR: The clock is running.
 # lines starting with /\s+/
 # Metalines (when combined with continuations) are
 # of the form /_[meta_key]\s+:\s+[JSON data]/
-# NOTE: Both loglines and metalines can continue using this format
+# NOTE: Both loglines and metalines can continue using this format.
+# The JSON data must always be indented - don't unindent the last {.
 _labels: {
-    "funny"  : 12,
-    "stupid" : null
+    "funny"  : 12, # This label applies from here until timestamp 12 (inclusive)
+    "stupid" : null # This label applies only to this log line.
     }
-# NNC contains a backticked fragment (`Jim:CDR`).
-# This fragment is of the form `[text]:[glossary reference]`
-CMP: Okay. P11, `Jim:CDR`.
+# NNC contains a link to the speaker Jim (who is ID'd as CDR).
+# This fragment is of the form [type:key the link text].
+CMP: Okay. P11, [speaker:CDR Jim].
 
 [5]
 CDR: Yaw program.
@@ -49,3 +50,4 @@ _audio: [
 CMP: Clear the tower.
 CDR: Yaw complete.
      Roll program.
+     We'll be in orbit at [time:115800 32:10]. # This is a link to a time
