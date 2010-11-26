@@ -89,6 +89,12 @@ class LogLine(object):
         else:
             return previous_log_line.timestamp
 
+    def following_silence(self):
+        try:
+            return self.next_timestamp() - self.timestamp
+        except TypeError:
+            return None
+
     def act(self):
         return Act(self.redis_conn, self.mission_name, self.act_number)
 
