@@ -8,7 +8,10 @@
 {% block content %}
 
   {% if previous_timestamp %}
-    <a href="{% timestamp_to_url previous_timestamp %}">Previous</a>
+    <p class='load-more'>
+      <a href="{% timestamp_to_url previous_timestamp %}">Previous
+         dialogue</a>
+    </p>
   {% endif %}
 
   <dl id='transcript'>
@@ -52,7 +55,10 @@
   </dl>
 
   {% if next_timestamp %}
-    <a href="{% timestamp_to_url next_timestamp %}">Next</a>
+    <p class='load-more'>
+      <a href="{% timestamp_to_url next_timestamp %}">Next
+         dialogue</a>
+    </p>
   {% endif %}
 
 <h2>Phases</h2>

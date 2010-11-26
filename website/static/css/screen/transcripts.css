@@ -70,3 +70,42 @@
     -cp-border-bottom-right-radius: 5px;
     border-bottom:                  none;
 }
+
+p.load-more {
+    margin-top:             10px;
+    margin-bottom:          10px;
+    text-align:             center;
+}
+p.load-more a {
+    color:                  #878787;
+    padding:                5px 10px;
+    -cp-border-radius:      5px;
+    text-decoration:        none;
+}
+
+/*! verbatim */
+p.load-more a {
+    -webkit-box-shadow:     #222 0 2px 4px;
+    -moz-box-shadow:        #222 0 2px 4px;
+    text-shadow:            0 1px 0 #fff;
+    background:             -webkit-gradient(
+                                linear,
+                                left top,
+                                left bottom,
+                                from(#f2f2f2),
+                                to(#d3d3d3)
+                            );
+    background:             -moz-linear-gradient(top,#f2f2f2,#d3d3d3);
+    *filter: progid:DXImageTransform.Microsoft.gradient(
+                                startColorstr='#fff',
+                                endColorstr='red'
+                            );
+}
+p.load-more a:hover,
+p.load-more a:focus {
+    -webkit-box-shadow:     #222 0 2px 4px,
+                            #ccc 0 0 10px inset;
+    -moz-box-shadow:        #222 0 2px 4px,
+                            #ccc 0 0 10px inset;
+}
+/* -- */
