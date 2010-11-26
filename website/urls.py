@@ -16,6 +16,7 @@ urlpatterns = patterns('',
     url(r'^(?P<start>' + tspatt + ')/(?P<end>' + tspatt + ')/$', RangeView.as_view(), name="view_range"),
     url(r'^phases/$', PhasesView.as_view(), name="phases"),
     url(r'^search/$', SearchView.as_view(), name="search"),
+    url(r'^people/$', 'people.views.people', name="people"),
 )
 
 if settings.DEBUG: # pragma: no cover
