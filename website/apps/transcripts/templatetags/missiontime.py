@@ -27,4 +27,4 @@ def mission_time_format(seconds):
 
 @register.simple_tag
 def timestamp_to_url(seconds):
-    return reverse("view_page", kwargs={"timestamp":mission_time(seconds, ':')})
+    return reverse("view_page", kwargs={"start": mission_time(seconds, ':')})
