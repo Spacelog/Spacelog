@@ -1,15 +1,17 @@
 <div id='masthead'>
-  <h1 class='league-gothic'>Mission <em>Apollo 13</em></h1>
-  <nav>
-    <ul>
-      <li><a href='{% url view_page %}'>Transcripts</a></li>
-      <li><a href='{% url phases %}'>Phases</a></li>
-      <li><a href='{% url people %}'>People</a></li>
-      <li><a href='#TODO'>Glossary</a></li>
-      <li><a href='#TODO'>About</a></li>
-    </ul>
-    <form>
-      <input type="text" name="q" value="" id="q">
-    </form>
-  </nav>
+  <div class='wrapper'>
+    <h1 class='league-gothic'>Mission <em>Apollo 13</em></h1>
+    <nav>
+      <ul>
+        <li><a href='{% url view_page %}'>Transcripts</a></li>
+        <li><a href='{% url phases %}'>Phases</a></li>
+        <li><a href='{% url people %}'>People</a></li>
+        <li><a href='#TODO'>Glossary</a></li>
+        <li><a href='#TODO'>About</a></li>
+      </ul>
+      <form>
+        <input type="text" name="q" value="" id="q">
+      </form>
+    </nav>
+  </div>
 </div>

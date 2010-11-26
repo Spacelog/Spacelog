@@ -4,14 +4,15 @@
 
 */
 
-#body {
-    width:                  960px;
-    margin:                 0 auto;
+body {
     font-family:            "Helvetica Neue",
                             "Arial",
                             sans-serif;
 }
-
+.wrapper {
+    width:                  960px;
+    margin:                 0 auto;
+}
 
 /*! verbatim */
 @font-face {
