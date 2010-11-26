@@ -27,7 +27,7 @@ class TranscriptView(TemplateView):
         # Collect the log lines
         log_lines = []
         for page in range(start_page, end_page+1):
-            log_lines = list(self.log_line_query().transcript('a13/TEC').page(page))
+            log_lines += list(self.log_line_query().transcript('a13/TEC').page(page))
         # Find the previous log line from this, and then the beginning of its page
         try:
             previous_timestamp = self.log_line_query().transcript('a13/TEC').page(start_page - 1).first().timestamp
