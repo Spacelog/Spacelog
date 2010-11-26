@@ -3763,7 +3763,7 @@ CC:  And, 13, Houston. That's all the business I got
 _page : 67
 _tape : Tape 16/3
 CDR: Just hold off a little bit there, Joe if you
-     don't mind ....
+     don't mind. ...
 
 [84516]
 CC:  Stand by one, Jim. You're coming in garbled again.
@@ -4130,7 +4130,7 @@ CC:  Okay, copy that.
 
 [90843]
 CMP: Yes, and that - it was all pretty - pretty short in
-     span - Just a second or so before and like a second
+     span - just a second or so before and like a second
      afterwards, Joe.
 
 [90854]
@@ -4364,7 +4364,7 @@ CDR: Okay, on comparing the flight of 13 to Apollo 8,
      transients of the cut-off and a couple of big
      bangs where we were thrown backwards longitudinally
      on our straps before the S-II went off. And the
-     S-II was, of course, Just as smooth on 13 as 8
+     S-II was, of course, just as smooth on 13 as 8
      except for the number 5 engine. And we did not
      experience the vibration that we experienced on
      8 towards the end of the S-II burn. And the
@@ -4552,7 +4552,7 @@ CC:  13, Houston. Go ahead.
 
 [100794]
 CDR: Just a passing comment, Joe. We're having lunch
-     right now, and I Just made myself a hotdog
+     right now, and I just made myself a hotdog
      sandwich with catsup. Very tasty and almost
      unheard of in the old days.
 
@@ -4664,10 +4664,10 @@ CC:  Okay, Fred; Houston.
 LMP: Go ahead.
 
 [103971]
-CC:  The two additional comments were Just that,
+CC:  The two additional comments were just that,
      first of all, they biased DELTA-V<sub>C</sub> by
      minus 0.34 feet per second based on your EMS null
-     bias cheeks. That's Just for information. And
+     bias cheeks. That's just for information. And
      the second one also for information is that your
      targeted pericynthion is 60 miles after this
      correction.
@@ -4742,7 +4742,7 @@ CMP: Okay. Stand by 1. Are these updates or what?
 
 [106196]
 CC:  I'm going to give you some high gain antenna
-     angles for TV and the rest is Just information,
+     angles for TV and the rest is just information,
      general words.
 
 [106208]
@@ -4959,7 +4959,7 @@ CDR: Okay. Now you are looking at a thruster quad at
 [109061]
 LMP: I've got the f-stop all the way open now, Vance;
      that's quad - quad 1 you're looking at with the
-     LM should - The Moon should be in view Just over
+     LM should - The Moon should be in view just over
      the top of the quad.
 
 [109078]
@@ -4998,7 +4998,7 @@ LMP: And I'm now ... all the way out.
 
 [109250]
 CC:  Okay. We could see you zoom in on the Moon, and
-     it's near the center of our screen, Just a little
+     it's near the center of our screen, just a little
      to the left. Very clear.
 
 [109269]
@@ -5095,7 +5095,7 @@ LMP: Wondering if you can pick up the caution array
      there?
 
 [109740]
-CC:  Right. We Just saw your - your testing of the
+CC:  Right. We just saw your - your testing of the
      caution and warning system at the left-hand side
      of the panel on our TV. See the lights all flash
      on. You're doing it again.
@@ -5206,7 +5206,7 @@ CMP: Hopefully, you'll see the - or we'll see the two
 LMP: Minus 6 minutes.
 
 [110092]
-CDR: MAIN BUS TIES, two, ON, Fred. 0kay. SPS HELIUM
+CDR: MAIN BUS TIES, two, ON, Fred. Okay. SPS HELIUM
      VALVE, two, AUTO and checked AUTO barber pole.
      TVC SERVO POWER is 1, AC1/MAIN A; 2, AC2/MAIN B.
 
@@ -6558,7 +6558,7 @@ CMP: Okay. Got it.
 [118339]
 CC:  Okay, next page, 16. This is a continuation of
      the same solar-corona thing. On the right-hand
-     side of the page, starting Just above 107:40
+     side of the page, starting just above 107:40
      with "VERB 49, maneuver to solar-corona attitude,"
      from there on down to 107:55 Just beneath "Replace
      dark slide," all of this is in an optional category. So you Just might line off - -
@@ -48640,3 +48640,59 @@ R: Apollo 13, Apollo 13, this is Recovery. Over.
 
 [514307]
 R: Apollo 13 - -
+
+[514309]
+_page : 765
+CMP: Go ahead.
+
+[514315]
+CMP: - - see you loud and clear going through 5000.
+
+[514319]
+R: Roger, Apollo 13. This is Recovery and your chutes look good.
+
+[514331]
+R: Apollo 13, this is Recovery. We observed your
+     RCS burn. Over.
+
+[514418]
+R: This is Recovery. Apollo 13 is descending
+     through 2000 feet. 
+
+[514422]
+IWO: Okay. Our altimeter concurs.
+
+[514427]
+R: Iwo Jima; Roger. Out.
+
+[514449]
+R: Apollo 13 and Recovery passing through 1000 feet.
+
+[514454]
+IWO: Iwo Jima; Roger. 
+
+[514474]
+R: Through 500 feet.
+
+[514478]
+S-1: Swim 1 on station.
+
+[514480]
+S-2: - - 2 is on station. 
+
+[514484]
+P-1: Photo 1's on station. Photo 1 observes splashdown at this time.
+
+[514488]
+IWO: 1 ... pickup ... !
+
+[514489]
+S-1: Roger.
+
+[514496]
+P-1: Photo-1. Splashdown at this time. The three 
+     chutes are displaced. They're in the water.
+
+[514512]
+R-1: ... Recovery, I have a clock - - 
+     END OF TRANSCRIPTION
