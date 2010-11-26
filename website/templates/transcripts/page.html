@@ -9,7 +9,7 @@
         <a href="{% timestamp_to_url previous_timestamp %}">Previous</a>
     {% endif %}
 
-    <ol>
+    <ol id='transcripts'>
         {% for log_line in log_lines %}
             {% for speaker, text in log_line.lines %}
                 <li>

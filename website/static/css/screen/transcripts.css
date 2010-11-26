@@ -1,0 +1,17 @@
+#transcripts li {
+    padding-left:   250px;
+    padding-top:    20px;
+    padding-bottom: 20px;
+    padding-right:  130px;
+    border-bottom:  1px solid gray;
+}
+
+#transcripts time {
+    float:          left;
+    margin-left:    -220px;
+}
+
+#transcripts .speaker {
+    float:          left;
+    margin-left:    -110px;
+}
