@@ -1,8 +1,8 @@
 import os
 import redis
 
-from parser import TranscriptParser, MetaParser
-from api import Act
+from backend.parser import TranscriptParser, MetaParser
+from backend.api import Act
 
 class TranscriptIndexer(object):
     """
