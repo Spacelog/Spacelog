@@ -9,7 +9,7 @@
 
 {% block content %}
 
-  {% if previous_timestamp %}
+  {% if previous_timestamp and not max_highlight_index %}
     <p class='load-more'>
       <a href="{% timestamp_to_url previous_timestamp %}">Previous
          dialogue</a>
@@ -73,7 +73,7 @@
   {% endfor %}
   </dl>
 
-  {% if next_timestamp %}
+  {% if next_timestamp and not max_highlight_index %}
     <p class='load-more'>
       <a href="{% timestamp_to_url next_timestamp %}">Next
          dialogue</a>
@@ -92,4 +92,3 @@
 </ol>
 
 {% endblock %}
-
