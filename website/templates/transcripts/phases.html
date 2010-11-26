@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load missiontime %}
+
+{% block title %}Phases{% endblock %}
+
+{% block content %}
+
+  <h1>Phases</h1>
+
+  {% for act in acts %}
+    <h2>Phase {{ act.number }}: {{ act.title }}</h2>
+    <p>{{ act.start|mission_time_format }} to {{ act.end|mission_time_format }}</p>
+    <p>{{ act.description }}</p>
+    <p><a href="{% url view_page act.start %}">Read the transcript…</a></p>
+  {% endfor %}
+
+{% endblock %}
