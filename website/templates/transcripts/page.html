@@ -15,6 +15,10 @@
     </p>
   {% endif %}
 
+  {% if log_lines.0.transcript_page %}
+    <a href="/assets/transcripts/a13/TEC/{{ log_lines.0.transcript_page }}.png">View original transcript</a>
+  {% endif %}
+
   <dl id='transcript'>
   {% for log_line in log_lines %}
     {% for speaker, text in log_line.lines %}
