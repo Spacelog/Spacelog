@@ -1,0 +1,17 @@
+{% load xappy %}
+<body>
+	<h1>{{ q }}</h1>
+	<form method='get' action='/search/'>
+		<input type='text' name='q' value='{{ q|escape }}'>
+		<input type='submit' value='Search'>
+	</form>
+	
+	<ol>
+		{% for r in results %}
+		<li>
+			<span>{{ r.data.speaker.0 }}</span>
+			<span>{{ r|summarise:"text" }}</span>
+		</li>
+		{% endfor %}
+	</ol>
+</body>
