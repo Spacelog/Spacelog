@@ -51,6 +51,10 @@
         {% if log_line.highlight_index == max_highlight_index and log_line.previous_timestamp and log_line.previous_timestamp >= selection_start_timestamp %}
           <a href='{% selection_url selection_start_timestamp log_line.previous_timestamp %}'>Contract selection up</a>
         {% endif %}
+        {% if log_line.highlight_index == max_highlight_index %}
+            <a href='{% timestamp_to_url log_line.timestamp %}'>Close</a>
+            <!-- Our MET in seconds is {{ log_line.timestamp }} -->
+        {% endif %}
 
         {% if log_line.following_silence > 3600 %}
           <span class='extended-pause'>No contact for {% pause_length log_line.following_silence %}</span>
