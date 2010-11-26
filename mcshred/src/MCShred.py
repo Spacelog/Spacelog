@@ -49,7 +49,7 @@ def shred_to_lines(lines, pageNumber):
 
 def get_all_raw_lines(path, startNumber):
     missing_files = []
-    all_lines = []
+    translated_lines = []
     
     file_number = startNumber
     
@@ -59,16 +59,18 @@ def get_all_raw_lines(path, startNumber):
             file = open(path + filename, "r")
             file_lines = file.readlines()
             shredded_lines = shred_to_lines(file_lines, file_number)
-            all_lines.extend(shredded_lines)
+            translated_lines.extend(shredded_lines)
         except:
             missing_files.append(filename)
         finally:    
             file_number = file_number + 1                 
     
     if (len(missing_files) > 0):
-        print("Missing %d files:" % len(missing_files))
+        print "Missing %d files:" % len(missing_files)
+        for filename in missing_files:
+            print filename
     
-    return all_lines    
+    return translated_lines    
 
 def sterilize_token(token):
     bs0 = BadNumberSub(0, ["o","Q","O"])
@@ -120,11 +122,11 @@ def line_is_a_new_entry(line):
 def is_a_non_log_line(line):
     return len(line.raw) != len(line.raw.lstrip()) or len(line.raw) == 0
 
-def translate_lines(all_lines):
+def translate_lines(translated_lines):
     translatedLines = []
     currentLine = None
     
-    for line in all_lines:
+    for line in translated_lines:
         if line_is_a_new_entry(line):
             if currentLine != None:
                 translatedLines.append(currentLine)
@@ -183,6 +185,45 @@ def get_formatted_record_for(line):
     else:
         return []
     
+
+
+def check_lines_are_in_sequence(lines):
+    currentTime = -20000000
+    for line in lines:
+        if line.seconds_from_mission_start < currentTime:
+            errors.append("Line out of Sync error at %d seconds from mission start" %line.seconds_from_mission_start)
+            print(get_formatted_record_for(line))
+        currentTime = line.seconds_from_mission_start
+
+def report_errors_and_exit():
+    if len(errors) > 0:
+        print "Shred returned errors, please check the following:"
+        for error in errors:
+            print error
+        sys.exit(1)
+    
+    print "No errors found"    
+    sys.exit(0)
+
+def output_lines_to_file(lines, output_file_name_and_path):
+    outputFile = open(output_file_name_and_path, "w")
+    for line in lines:
+        outputFile.writelines(get_formatted_record_for(line))
+    outputFile.close()
+
+def amalgamate_lines_by_timestamp(lines):
+    amalgamated_lines = []
+    last_line = lines[0]
+    for line in lines[1:]:
+        if last_line.seconds_from_mission_start == line.seconds_from_mission_start:
+            last_line.append_second_line_content(line)
+        else:
+            amalgamated_lines.append(last_line)
+            last_line = line
+    amalgamated_lines.append(last_line)
+
+    return amalgamated_lines
+
 class LogLine:
     def __init__(self, pageNumber, tapeNumber, rawLine):
         self.raw = rawLine
@@ -200,6 +241,9 @@ class LogLine:
     def append_text(self, text):
         self.text = self.text + (" " * 5) + text
         
+    def append_second_line_content(self, line):
+        self.text = self.text + "\n%s: %s" % (line.speaker, line.text)
+        
     def set_seconds_from_mission_start(self, seconds_from_mission_start):
         self.seconds_from_mission_start = seconds_from_mission_start
     
@@ -209,59 +253,28 @@ class LogLine:
     def append_non_log_line(self, line):
         self.non_log_lines.append(line)
 
-def check_lines_are_in_sequence(lines):
-    currentTime = -20000000
-    for line in lines:
-        if line.seconds_from_mission_start < currentTime:
-            errors.append("Line out of Sync error at %d seconds from mission start" %line.seconds_from_mission_start)
-            print(get_formatted_record_for(line))
-        elif line.seconds_from_mission_start == currentTime:
-            errors.append("Duplicate timestamp error at %d seconds from mission start" %line.seconds_from_mission_start)
-            print(get_formatted_record_for(line))
-        currentTime = line.seconds_from_mission_start
-
 class BadNumberSub:
     def __init__(self, number, badSubList):
         self.number = number
         self.badSubList = badSubList
 
-def report_errors_and_exit():
-    if len(errors) > 0:
-        print "Shred returned errors, please check the following:"
-        for error in errors:
-            print error
-        sys.exit(1)
-    
-    print "No errors found"    
-    sys.exit(0)
-
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print "usage MCShred.py <pathToCompletedFiles> <fileNumberToStartWith>"
-        print "ex: MCShred.py /assets/transcripts/apollo13/AS13_TEC/0_CLEAN/ 8"
-        sys.exit(0)
+    if len(sys.argv) != 4:
+        print "usage MCShred.py <pathToCompletedFilesDirectory> <fileNumberToStartWith> <outputFile>"
+        print "ex: MCShred.py /assets/transcripts/apollo13/AS13_TEC/0_CLEAN/ 8 /assets/transcripts/apollo13/as13/TEC"
+        sys.exit(1)
     
     file_path = sys.argv[1]
     file_number = int(sys.argv[2])
+    output_file = sys.argv[3]
     allRawLines = get_all_raw_lines(file_path, file_number)
     
-#    for a in allRawLines:
-#        print(a)
+    translated_lines = translate_lines(allRawLines)
     
-    all_lines = translate_lines(allRawLines)
+    check_lines_are_in_sequence(translated_lines)
     
-    outputFile = open(file_path + "output.txt", "w")
+    amalgamated_lines = amalgamate_lines_by_timestamp(translated_lines)
     
-#    print all_lines[0].page
-#    print all_lines[0].tape
-#    print all_lines[0].speaker
-#    print all_lines[0].text
-    
-    check_lines_are_in_sequence(all_lines)
-    
-    for goodLine in all_lines:
-        outputFile.writelines(get_formatted_record_for(goodLine))
-    
-    outputFile.close()
-    
+    output_lines_to_file(amalgamated_lines, output_file)
+        
     report_errors_and_exit()
