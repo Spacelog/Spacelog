@@ -2,7 +2,7 @@ indexer           = backend/indexer.py
 screen_css        = website/static/css/screen.css
 source_screen_css = website/static/css/screen/*.css
 
-all:
+all: reindex productioncss
 
 reindex: $(indexer)
 	rm -rf xappydb
