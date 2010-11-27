@@ -359,7 +359,7 @@ if __name__ == "__main__":
     transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "transcripts")
     for filename in os.listdir(transcript_dir):
         path = os.path.join(transcript_dir, filename)
-        if os.path.isdir(path):
+        if filename[0] not in "_." and os.path.isdir(path):
             print "Mission: %s" % filename
             idx = MissionIndexer(redis_conn, path) 
             idx.index()
