@@ -15,19 +15,24 @@ def people(request, role=None):
                 'members': list(character_query.role(role)),
             }
         ]
+        more_people = False
     else:
+        all_people = list(character_query)
+        astronauts = list(character_query.role('astronaut'))
+        ops = list(character_query.role('mission-ops-title'))
         people = [
             {
                 'name': 'Flight Crew',
-                'members': list(character_query.role('astronaut')),
+                'members': astronauts,
                 'view': 'full'
             },
             {
                 'name': 'Mission Control',
-                'members': list(character_query.role('mission-ops-title')),
+                'members': ops,
                 'view': 'simple'
             }
         ]
+        more_people = len(all_people) > len(astronauts) + len(ops)
     
     # 404 if we have no content
     if 1 == len(people) and 0 == len(people[0]['members']):
@@ -37,6 +42,7 @@ def people(request, role=None):
         {
             'role':   role,
             'people': people,
+            'more_people': more_people,
         },
         context_instance = RequestContext(request),
     )
