@@ -68,44 +68,44 @@
             "photo_height": 155,
             "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png",
             "shifts": [
-              ["JOE KERWIN", "-00:01:00:00"],
-              ["VANCE BRAND", "00:07:09:09"],
-              ["JACK LOUSMA", "00:16:00:00", "uncertain since he doesn't appear in the transcript"],
-              ["JOE KERWIN", "00:23:11:14"],
-              ["VANCE BRAND", "01:05:40:00"],
-              ["JACK LOUSMA", "01:13:07:15"],
+              ["JOE_KERWIN", "-00:01:00:00", "strictly, only Kerwin, Brand and Lousma were taking shifts (AFAICT), however other astronauts come on as CAPCOM in the original transcript, and we use the shift mechanism to display that properly"],
+              ["VANCE_BRAND", "00:07:09:09"],
+              ["JACK_LOUSMA", "00:16:00:00", "uncertain since he doesn't appear in the transcript"],
+              ["JOE_KERWIN", "00:23:11:14"],
+              ["VANCE_BRAND", "01:05:40:00"],
+              ["JACK_LOUSMA", "01:13:07:15"],
               ["CC", "01:22:43:18", "unknown CAPCOM until 01:22:47:33"],
-              ["JOE KERWIN", "01:23:38:10"],
+              ["JOE_KERWIN", "01:23:38:10"],
               ["CC", "02:03:07:02", "unknown CAPCOM"],
-              ["VANCE BRAND", "02:04:07:42"],
+              ["VANCE_BRAND", "02:04:07:42"],
               ["CC", "02:05:34:32", "unknown CAPCOM until 02:06:06:20 ???"],
               ["CC", "02:06:06:20", "unknown CAPCOM denies being Jack"],
-              ["JACK LOUSMA", "02:06:24:15"],
-              ["JOE KERWIN", "02:16:38:23"],
-              ["CHARLIE DUKE", "03:00:28:47"],
-              ["VANCE BRAND", "03:01:09:03"],
-              ["CHARLIE DUKE", "03:02:53:19"],
-              ["VANCE BRAND", "03:03:24:51"],
-              ["JACK LOUSMA", "03:10:01:04"],
+              ["JACK_LOUSMA", "02:06:24:15"],
+              ["JOE_KERWIN", "02:16:38:23"],
+              ["CHARLIE_DUKE", "03:00:28:47"],
+              ["VANCE_BRAND", "03:01:09:03"],
+              ["CHARLIE_DUKE", "03:02:53:19"],
+              ["VANCE_BRAND", "03:03:24:51"],
+              ["JACK_LOUSMA", "03:10:01:04"],
               ["CC", "03:17:58:23", "unknown CAPCOM"],
-              ["JOE KERWIN", "03:18:00:56"],
-              ["TOM STAFFORD", "03:19:21:06", "reasonable guess this is Tom Stafford"],
-              ["JOE KERWIN", "03:19:53:11"],
-              ["VANCE BRAND", "04:01:14:26"],
-              ["CHARLIE DUKE", "04:04:01:12"],
-              ["VANCE BRAND", "04:04:50:08"],
-              ["JACK LOUSMA", "04:08:35:00"],
+              ["JOE_KERWIN", "03:18:00:56"],
+              ["TOM_STAFFORD", "03:19:21:06", "reasonable guess this is Tom Stafford"],
+              ["JOE_KERWIN", "03:19:53:11"],
+              ["VANCE_BRAND", "04:01:14:26"],
+              ["CHARLIE_DUKE", "04:04:01:12"],
+              ["VANCE_BRAND", "04:04:50:08"],
+              ["JACK_LOUSMA", "04:08:35:00"],
               ["CC", "04:16:26:34", "unknown CAPCOM until 04:16:49:07"],
-              ["JOE KERWIN", "04:17:13:64"],
-              ["VANCE BRAND", "05:00:55:13"],
-              ["TOM STAFFORD", "05:09:09:35", "reasonable guess this is Tom Stafford"],
-              ["VANCE BRAND", "05:09:10:07", "supposition after 05:09:30:13"],
-              ["JACK LOUSMA", "05:12:28:56"],
-              ["JOE KERWIN", "05:16:04:59"],
-              ["KEN MATTINGLY", "05:18:35:35"],
-              ["JOE KERWIN", "05:18:37:01"],
-              ["KEN MATTINGLY", "05:19:23:32"],
-              ["JOE KERWIN", "05:19:25:25"]
+              ["JOE_KERWIN", "04:17:13:64"],
+              ["VANCE_BRAND", "05:00:55:13"],
+              ["TOM_STAFFORD", "05:09:09:35", "reasonable guess this is Tom Stafford"],
+              ["VANCE_BRAND", "05:09:10:07", "supposition after 05:09:30:13"],
+              ["JACK_LOUSMA", "05:12:28:56"],
+              ["JOE_KERWIN", "05:16:04:59"],
+              ["KEN_MATTINGLY", "05:18:35:35"],
+              ["JOE_KERWIN", "05:18:37:01"],
+              ["KEN_MATTINGLY", "05:19:23:32"],
+              ["JOE_KERWIN", "05:19:25:25"]
             ]
         },
         "F": {
@@ -118,7 +118,15 @@
             "photo_height": 155,
             "avatar": "/assets/transcripts/a13/_meta/avatars/F_48.png",
             "shifts": [
-              ["F", "-00:01:00:00"]
+              ["F", "-00:01:00:00", "what we're trying to do here is to identify flight directors as F, but note where Deke Slayton was marked in the original transcript separately; this means that every Deke interjection is surrounded by a chunk ascribed to F even if there are no loglines during that period"],
+              ["DEKE_SLAYTON", "05:05:40:28", "until 05:05:50:47"],
+              ["F", "05:05:50:48"],
+              ["DEKE_SLAYTON", "05:08:12:01", "one line only"],
+              ["F", "05:08:12:02"],
+              ["DEKE_SLAYTON", "05:12:52:14", "until 05:12:54:19"],
+              ["F", "05:12:54:20"],
+              ["DEKE_SLAYTON", "05:17:47:38", "until "05:17:47:49"],
+              ["F", "05:17:47:50"]
             ]
         },
         "CDR": {
@@ -199,7 +207,7 @@
           ],
           "quotable_log_line_id": "TEC:02:07:55:20"
         },
-        "CHARLIE DUKE": {
+        "CHARLIE_DUKE": {
           "role": "mission-ops",
           "name": "Charles Moss Duke, Jr.",
           "short_name": "Charlie Duke",
@@ -210,7 +218,7 @@
           "photo_height": 155,
           "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
         },
-        "KEN MATTINGLY": {
+        "KEN_MATTINGLY": {
           "role": "mission-ops",
           "name": "Thomas Kenneth Mattingly II",
           "short_name": "Ken Mattingly",
@@ -221,7 +229,7 @@
           "photo_height": 155,
           "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
         },
-        "VANCE BRAND": {
+        "VANCE_BRAND": {
           "role": "mission-ops",
           "name": "Vance DeVoe Brand",
           "short_name": "Vance Brand (CAPCOM)",
@@ -232,7 +240,7 @@
           "photo_height": 155,
           "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
         },
-        "JACK LOUSMA": {
+        "JACK_LOUSMA": {
           "role": "mission-ops",
           "name": "Jack Robert Lousma",
           "short_name": "Jack Lousma (CAPCOM)",
@@ -243,7 +251,7 @@
           "photo_height": 155,
           "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
         },
-        "JOE KERWIN": {
+        "JOE_KERWIN": {
           "role": "mission-ops",
           "name": "Joseph Peter Kerwin",
           "short_name": "Joe Kerwin (CAPCOM)",
@@ -254,7 +262,7 @@
           "photo_height": 155,
           "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
         },
-        "TOM STAFFORD": {
+        "TOM_STAFFORD": {
           "role": "mission-ops",
           "name": "Thomas Patten Stafford",
           "short_name": "Tom Stafford",
@@ -265,7 +273,7 @@
           "photo_height": 155,
           "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
         },
-        "DEKE SLAYTON": {
+        "DEKE_SLAYTON": {
           "role": "mission-ops",
           "name": "Donald Kent Slayton",
           "short_name": "Deke Slayton",
@@ -276,7 +284,7 @@
           "photo_height": 155,
           "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
         },
-        "GENE KRANZ": {
+        "GENE_KRANZ": {
           "role": "mission-ops",
           "name": "Eugene Francis Kranz",
           "short_name": "Gene Kranz",
