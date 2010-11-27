@@ -46,7 +46,11 @@ class TranscriptParser(object):
             # If it's a timestamp header, make a new chunk object.
             elif line[0] == "[":
                 # Read the timestamp
-                timestamp = int(line[1:].split("]")[0])
+                try:
+                    timestamp = int(line[1:].split("]")[0])
+                except ValueError:
+                    parts = map(int, line[1:].split("]")[0].split(":", 3))
+                    timestamp = (parts[0] * 86400) + (parts[1] * 3600) + (parts[2] * 60) + parts[3]
                 if current_chunk:
                     yield current_chunk
                 # Start a new log line item

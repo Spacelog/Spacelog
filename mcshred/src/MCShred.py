@@ -171,8 +171,8 @@ def get_formatted_record_for(line):
     global last_page, last_tape
     if validate_line(line):
         lines = []
-#        lines.append(u"\n[%s]\n" % get_timestamp_as_mission_time(line))
-        lines.append(u"\n[%d]\n" % line.seconds_from_mission_start)
+        lines.append(u"\n[%s]\n" % get_timestamp_as_mission_time(line))
+#        lines.append(u"\n[%d]\n" % line.seconds_from_mission_start)
         if line.page != last_page:
             lines.append(u"_page : %d\n" % line.page)
             last_page = line.page
