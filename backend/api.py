@@ -358,8 +358,12 @@ class Glossary(object):
         self.description = data['description']
         self.abbr        = data['abbr']
         self.key         = self.id
-        if 'links' in data:
-            self.links   = data['links']
+
+    def links(self):
+        # Fetch all the IDs
+        link_ids = self.redis_conn.lrange("glossary:%s:links" % self.id, 0, -1)
+        for link_id in link_ids:
+            yield self.redis_conn.hgetall("glossary-link:%s" % link_id)
 
     class Query(BaseQuery):
         all_key_pattern  = "glossary:%(mission_name)s"

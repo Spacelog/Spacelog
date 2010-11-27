@@ -234,16 +234,6 @@ class MetaIndexer(object):
 
                 self.redis_conn.hmset(key, data)
 
-    def index_glossary(self, meta):
-        "Stores glossary terms in redis"
-        for key, data in meta['glossary'].items():
-            self.redis_conn.hmset(
-                "glossary:%s" % key,
-                {
-                    "description": data.get('description', ""),
-                },
-            )
-
     def index_characters(self, meta):
         "Stores character information in redis"
         for identifier, data in meta['characters'].items():
@@ -270,30 +260,29 @@ class MetaIndexer(object):
     def index_glossary(self, meta):
         "Stores glossary information in redis"
         for identifier, data in meta['glossary'].items():
-            mission_key   = "glossary:%s" % self.mission_name
-            character_key = "%s:%s" % (mission_key, identifier)
+            character_key = "%s:%s" % (self.mission_name, identifier)
             
-            self.redis_conn.rpush(mission_key, identifier)
-            # self.redis_conn.rpush(
-            #     '%s:%s' % (mission_key, data['role']),
-            #     identifier
-            # )
-            
-            # # Push stats as a list so it's in-order later
-            # for stat in data.get('stats', []):
-            #     self.redis_conn.rpush(
-            #         '%s:stats' % character_key, 
-            #         "%s:%s" % (stat['value'], stat['text'])
-            #     )
-            # if 'stats' in data:
-            #     del data['stats']
+            # Add the ID to the list for this mission
+            self.redis_conn.rpush("glossary:%s" % self.mission_name, identifier)
+
+            # Extract the links from the data
+            links = data.get('links', [])
+            if "links" in data:
+                del data['links']
             
             data['abbr'] = identifier
             
-            print character_key
-            print data
-            
-            self.redis_conn.hmset(character_key, data)
+            # Store the main data in a hash
+            self.redis_conn.hmset("glossary:%s" % character_key, data)
+
+            # Store the links in a list
+            for i, link in enumerate(links):
+                link_id = "%s:%i" % (character_key, i)
+                self.redis_conn.rpush("glossary:%s:links" % character_key, link_id)
+                self.redis_conn.hmset(
+                    "glossary-link:%s" % link_id,
+                    link,
+                )
 
 
 class MissionIndexer(object):
