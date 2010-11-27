@@ -78,7 +78,7 @@ sub process {
                       $words[1] * 60 * 60 +
                       $words[2] * 60 +
                       $words[3];
-                    push( @fail, "timewarp:$last" ) if $now <= $last;
+                    push( @fail, "timewarp:$last" ) if $now < $last;
                     $last = $now;
                     foreach my $spkr ( split( '/', $speaker ) ) {
                         ++$speakers{$spkr}[ $words[0] ];
@@ -100,10 +100,12 @@ sub process {
             foreach my $timestamp (@timestamps) {
                 my $parsed_timestamp = parse_timestamp( $last, $timestamp );
                 next if !defined $parsed_timestamp;
+                my $time_link = timefmt($parsed_timestamp);
+                $line =~ s/$timestamp/[time:$time_link $timestamp]/g;
                 my $offset = timefmt( $parsed_timestamp - $last );
                 $offset =~ s/(\s*) /$1+/ if $parsed_timestamp >= $last;
                 printf( "$file: %s (%s $offset) $line",
-                    timefmt($last), timefmt($parsed_timestamp) );
+                    timefmt($last), $time_link );
             }
         }
 
@@ -112,7 +114,8 @@ sub process {
               $line =~ /[^\-\t ._,A-Za-z0-9"'\?:\[\]<!&>;\/\n\(\)\*é#]/;
 
         push( @fail, 'j-grows-up-so-fast' )
-          if $txt =~ /[^.][ ]J(?!ack|im|oe|ohn|ames|ETT|ETS|r\.)/;
+          if $txt =~
+              /[^.\?"][ ]+J(?!ack|im|oe|ohn|ames|ay|ustice|ETT|ETS|r\.)[^A-Z]/;
         push( @fail, 'noleet-0-please' )
           if $txt =~ /([A-Za-z]0[A-Za-z\s]|[A-Za-z\s]0[A-Za-z])/;
         push( @fail, '2B-or-not-2B-13' )       if $txt =~ /\b[1l]B\b/;
@@ -174,9 +177,8 @@ exit;
 
 sub timefmt {
     my $secs = shift;
-    return sprintf "    %02d:%02d", ( $secs / 60 ) % 60, $secs % 60
-      if $secs < 60 * 60;
-    return sprintf "%3d:%02d:%02d", $secs / ( 60 * 60 ), ( $secs / 60 ) % 60,
+    return sprintf "%02d:%02d:%02d:%02d", $secs / ( 60 * 60 * 24 ),
+      $secs / ( 60 * 60 ) % 24, ( $secs / 60 ) % 60,
       $secs % 60;
 }
 
