@@ -1,7 +1,7 @@
 {
     "name": "a13",
     "featured": true,
-    "description": "A tale of bravery and oxygen!",
+    "description": "The third lunar landing mission, aborted due to on onboard explosion, but deemed a &ldquo;successful failure&rdquo; due to the safe return of the crew.",
     "image": "/assets/img/badge_a13.png",
     "subdomains": ["a13", "apollo13"],
     "title": "Apollo 13",
