@@ -419,3 +419,23 @@ class Mission(object):
         self.main_transcript = data['main_transcript']
         self.media_transcript = data['media_transcript']
 
+    class Query(BaseQuery):
+
+        def __init__(self, redis_conn):
+            self.redis_conn = redis_conn
+
+        def items(self):
+            "Executes the query and returns the items."
+            
+            filter_names = set(self.filters.keys())
+            if filter_names == set():
+                keys = [x.split(":")[1] for x in self.redis_conn.keys("mission:*")]
+            else:
+                raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
+            
+            for key in keys:
+                yield self._key_to_instance(key)
+
+        def _key_to_instance(self, key):
+            return Mission(self.redis_conn, key)
+
