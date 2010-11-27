@@ -51,10 +51,14 @@ class LogLine(object):
         # Load onto our attributes
         self.page = int(data['page'])
         self.transcript_page = data['transcript_page']
-        self.lines = [
-            [x.strip() for x in line.split(":", 1)]
-            for line in self.redis_conn.lrange("log_line:%s:lines" % self.id, 0, -1)
-        ]
+
+        self.lines = []
+        for line in self.redis_conn.lrange("log_line:%s:lines" % self.id, 0, -1):
+            speaker_identifier, text = [x.strip() for x in line.split(":", 1)]
+            speaker = Character.Query(self.redis_conn, self.mission_name).identifiers(speaker_identifier)
+            speaker = list(speaker)[0]
+            self.lines += [[speaker, text]]
+
         self.next_log_line_id = data.get('next', None)
         self.previous_log_line_id = data.get('previous', None)
         self.act_number = int(data['act'])
@@ -316,6 +320,9 @@ class Character(object):
             int(timestamp)
         )
 
+    def __repr__(self):
+        return '<Character: %s>' % self.identifier
+
     class Query(BaseQuery):
 
         all_key_pattern = "characters:%(mission_name)s"
@@ -323,6 +330,9 @@ class Character(object):
 
         def role(self, role):
             return self._extend_query("role", role)
+
+        def identifiers(self, *identifiers):
+            return self._extend_query("identifiers", identifiers)
 
         def items(self):
             "Executes the query and returns the items."
@@ -333,6 +343,8 @@ class Character(object):
             elif filter_names == set(['role']):
                 role_key = self.role_key_pattern % {'mission_name':self.mission_name, 'role':self.filters['role']}
                 keys = self.redis_conn.lrange(role_key, 0, -1)
+            elif filter_names == set(['identifiers']):
+                keys = self.filters['identifiers']
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
             

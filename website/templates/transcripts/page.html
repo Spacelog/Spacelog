@@ -2,6 +2,7 @@
 {% load missiontime %}
 {% load linkify %}
 {% load pauses %}
+{% load characters %}
 
 {% block title %}Transcript - Starting at {{ log_lines.0.timestamp|mission_time_format }}{% endblock %}
 
@@ -38,9 +39,7 @@
         </a>
       </dt>
       <dt class='speaker {% if log_line.highlighted %}highlighted{% endif %}'>
-        <img src='http://img.fort/48x48.png' alt='{{speaker}}' 
-            width='48' height='48'>
-        <span>{{speaker}}</span>
+        {% avatar_and_name speaker %}
       </dt>
       <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}'>
       <p>{{text|linkify|safe}}</p>
