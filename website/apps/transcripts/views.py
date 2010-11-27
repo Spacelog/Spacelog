@@ -28,6 +28,8 @@ class TranscriptView(JsonTemplateView):
 
     def log_lines(self, start_page, end_page):
         "Returns the log lines and the previous/next timestamps, with images mixed in."
+        if end_page > (start_page + 5):
+            end_page = start_page + 5
         # Collect the log lines
         log_lines = []
         for page in range(start_page, end_page+1):
