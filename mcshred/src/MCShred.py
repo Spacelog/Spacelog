@@ -120,7 +120,7 @@ def line_is_a_new_entry(line):
     return True
 
 def is_a_non_log_line(line):
-    return len(line.raw) != len(line.raw.lstrip()) or len(line.raw) == 0
+    return len(line.raw) != len(line.raw.lstrip()) or not line.raw or "(Music" in line.raw
 
 def translate_lines(translated_lines):
     translatedLines = []
@@ -133,10 +133,11 @@ def translate_lines(translated_lines):
             set_timestamp_speaker_and_text(line)
             currentLine = line
         elif currentLine != None:
-            if is_a_non_log_line(line):
-                currentLine.append_non_log_line(line.raw.strip())
-            else:
-                currentLine.append_text(line.raw)
+            if line.raw.strip():
+                if is_a_non_log_line(line):
+                    currentLine.append_non_log_line(line.raw.strip())
+                else:
+                    currentLine.append_text(line.raw)
         else:
             errors.append("Encountered An initial Line without nominal timestamp:  \n%s" % line.raw)
     
