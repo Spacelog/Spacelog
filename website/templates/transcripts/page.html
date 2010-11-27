@@ -25,8 +25,8 @@
 
   <dl id='transcript'>
   {% for log_line in log_lines %}
+    {% for speaker, text in log_line.lines %}
     <div id="log-line-{{ log_line.timestamp }}">
-      {% for speaker, text in log_line.lines %}
       <dt class='time {% if log_line.highlighted %}highlighted {% endif %}'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
         <a href='{% selection_url log_line.timestamp %}'>
           <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
@@ -39,7 +39,7 @@
             width='48' height='48'>
         <span>{{speaker}}</span>
       </dt>
-      <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index and not log_line.images %}last{% endif %}{% endif %}'>
+      <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}'>
       <p>{{text|linkify|safe}}</p>
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
           <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}'>Expand selection up</a>
@@ -67,16 +67,20 @@
         {% if log_line.labels %}
           <span class='labels'>{{ log_line.labels|length }} label{{ log_line.labels|length|pluralize }}</span>
         {% endif %}
+
+        {# Images #}
+        {% if forloop.last %}
+          {% for image in log_line.images %}
+            <div class='image'>
+              <a href="/assets/img/missions/a13/{{ image.filename }}">
+                <img src="/assets/img/missions/a13/{{ image.thumbnail_filename }}" />
+              </a>
+            </div>
+            {% endfor %}
+        {% endif %}
       </dd>
-      {% for image in log_line.images %}
-        <dd class='image {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
-          <a href="/assets/img/missions/a13/{{ image.filename }}">
-            <img src="/assets/img/missions/a13/{{ image.thumbnail_filename }}" />
-          </a>
-        </dd>
-      {% endfor %}
+      </div>
     {% endfor %}
-    </div>
   {% endfor %}
   </dl>
 
