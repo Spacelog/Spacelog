@@ -10733,7 +10733,7 @@ CC:  Okay, 13. We'd like to have you give us those
 
 [02:09:10:11]
 _page : 181
-_tape : 39/2
+_tape : Tape 39/2
 CDR: Okay. 1 and 3 coming up.
 
 [02:09:10:14]
@@ -11644,7 +11644,7 @@ CC:  Jim, we don't want you to power down the ball in
 
 [02:10:19:39]
 _page : 194
-_tape : 39/15
+_tape : Tape 39/15
 CMP: Jack, they haven't powered down - -
 
 [02:10:19:42]
@@ -11714,7 +11714,7 @@ CC:  Okay. We want you to power up your eight-ball.
 
 [02:10:22:23]
 _page : 195
-_tape : 39/16
+_tape : Tape 39/16
 LMP: Okay, Jack. I got two commander FDAI breakers in,
      AC and DC, and the two GASTA breakers in AC and
      DC and next you'll want the RCS heaters all on
@@ -11785,7 +11785,7 @@ CDR: Well, that's my question. We're not - Our 16 20
 
 [02:10:27:28]
 _page : 196
-_tape : 39/17
+_tape : Tape 39/17
 CC:  Roger. How far are you from RCS power up - RCS
      pressurization?
 
@@ -11856,7 +11856,7 @@ LMP: Hell, is he still firing up there?
 
 [02:10:31:15]
 _page : 197
-_tape : 39/18
+_tape : Tape 39/18
 CC:  Okay, Fred. Negative on the activation on page 37.
      Go on to your RCS pressurize and then get your TCA
      breakers in and go to PGNS attitude hold.
@@ -11932,7 +11932,7 @@ CDR: Okay. We've got ATCA (PGNS) closed.
 
 [02:10:34:31]
 _page : 198
-_tape : 39/19
+_tape : Tape 39/19
 LMP: Yes.
 
 [02:10:34:32]
@@ -12008,7 +12008,7 @@ CC:  Okay, Jack. What we want you to do is close the
 
 [02:10:37:15]
 _page : 199
-_tape : 39/20
+_tape : Tape 39/20
 CMP: Check the control, and make sure we don't go to
      gimbal lock, Fred.
 
@@ -12020,13 +12020,13 @@ CMP: Okay, Jack; understand. Close REAC valve circuit
      and C. All off.
 
 [02:10:37:41]
+_extra : END OF TAPE
 CC:  That's affirmative, Jack. And close the reactant
      valve on fuel cell 2, there.
-     END OF TAPE
 
 [02:10:37:50]
 _page : 200
-_tape : 40/1
+_tape : Tape 40/1
 CDR: Okay. I'll do that, and Jack'll do that other.
 
 [02:10:38:02]
@@ -12097,7 +12097,7 @@ CDR: What about these lights up here?
 
 [02:10:41:30]
 _page : 201
-_tape : 40/2
+_tape : Tape 40/2
 LMP: I've got it.
 
 [02:10:41:32]
@@ -12169,7 +12169,7 @@ CC:  Aquarius, Houston. Can you see any stars out the
 
 [02:10:47:53]
 _page : 202
-_tape : 40/3
+_tape : Tape 40/3
 LMP: We'll have to wipe them off, Jack. They're
      coated with water right now.
 
@@ -12235,7 +12235,7 @@ CMP: I'm just glad ...
 
 [02:10:51:25]
 _page : 203
-_tape : 40/4
+_tape : Tape 40/4
 CDR: Okay, stand by.
 
 [02:10:51:40]
@@ -12299,7 +12299,7 @@ CDR: And, say - We're getting the pad book now, Jack -
 
 [02:10:55:38]
 _page : 204
-_tape : 40/5
+_tape : Tape 40/5
 CC:  Okay. I have some circuit breakers that you can
      open up in order to power down displays.
 
@@ -12374,7 +12374,7 @@ CC:  Aquarius, Houston. You're watching the middle
 
 [02:11:00:12]
 _page : 205
-_tape : 40/6
+_tape : Tape 40/6
 LMP: Okay. Go ahead with the breakers first, Jack.
 
 [02:11:00:15]
@@ -12446,7 +12446,7 @@ CDR: Pitch and yaw, maybe, huh?
 
 [02:11:03:42]
 _page : 206
-_tape : 40/7
+_tape : Tape 40/7
 LMP: Okay, what was the last two things you gave me,
      a pitch and roll angle for what?
 
@@ -12519,7 +12519,7 @@ CDR: Okay. We'll try that. Let me get around though.
 
 [02:11:06:12]
 _page : 207
-_tape : 40/8
+_tape : Tape 40/8
 LMP: Yes, you can't let it roll all the way.
 
 [02:11:06:13]
@@ -12592,7 +12592,7 @@ CC:  Open the TEMP/PRESS DISPLAY-FLAGS and PQGS/DISPLAYS.
 
 [02:11:08:10]
 _page : 208
-_tape : 40/9
+_tape : Tape 40/9
 LMP: Okay. They're both OPEN.
 
 [02:11:08:12]
@@ -12662,7 +12662,7 @@ CDR: Well, I'd rather have a timer going so that we -
 
 [02:11:10:37]
 _page : 209
-_tape : 40/10
+_tape : Tape 40/10
 LMP: Is that what you want to do?
 
 [02:11:10:38]
@@ -12738,7 +12738,7 @@ CC:  And, Aquarius; Houston. We've got you both on VOX.
 
 [02:11:12:54]
 _page : 210
-_tape : 40/11
+_tape : Tape 40/11
 LMP: Like to go what?
 
 [02:11:12:56]
@@ -12810,7 +12810,7 @@ CC:  Affirmative. That's the pad that we've given you,
 
 [02:11:18:47]
 _page : 211
-_tape : 40/12
+_tape : Tape 40/12
 LMP: Okay.
 
 [02:11:18:48]
@@ -12882,7 +12882,7 @@ CC:  Go ahead, Aquarius.
 
 [02:11:41:19]
 _page : 212
-_tape : 40/13
+_tape : Tape 40/13
 CDR: Okay. We're thinking about rigging up the urine
      dump to the side hatch. We're thinking about
      rigging up the urine dump to the side hatch and
@@ -12945,7 +12945,7 @@ CC:  Hey, Jim, do you suppose that you could orient
 
 [02:11:47:47]
 _page : 213
-_tape : 40/14
+_tape : Tape 40/14
 CC:  Aquarius, Houston. Radio check.
 
 [02:11:48:15]
@@ -13015,7 +13015,7 @@ CC:  I'm hearing you 5 square, Fred. How me?
 
 [02:12:01:13]
 _page : 214
-_tape : 40/15
+_tape : Tape 40/15
 CC:  Aquarius, Houston. How do you read?
 
 [02:12:01:58]
@@ -13090,7 +13090,7 @@ CC:  The reason that we think that that would work
 
 [02:12:06:00]
 _page : 215
-_tape : 40/16
+_tape : Tape 40/16
 CC:  AFT OMNI, Fred.
 
 [02:12:06:07]
@@ -13115,12 +13115,12 @@ CC:  AFT OMNI, Aquarius.
 CC:  Aquarius, Houston.
 
 [02:12:11:18]
+_extra : END OF TAPE
 LMP: Okay, Houston; Aquarius. How do you read?
-     END OF TAPE
 
 [02:12:18:21]
 _page : 216
-_tape : 41/1
+_tape : Tape 41/1
 CC:  Aquarius, Houston. How do you read?
 
 [02:12:22:46]
@@ -13180,7 +13180,7 @@ CDR: Let's shoot for an hour if we can, Jack. How's
 
 [02:12:25:15]
 _page : 217
-_tape : 41/2
+_tape : Tape 41/2
 CC:  Okay, Jim. How about 61 hours and 30 minutes?
      That's an hour and 5 from now.
 
@@ -13305,7 +13305,7 @@ CC:  Roger, and in step 5, we want to leave INVERTER 1
 
 [02:12:31:37]
 _page : 219
-_tape : 41/4
+_tape : Tape 41/4
 LMP: Roger. In step 5, we'll leave INVERTER 1 CB
      OPEN.
 
@@ -13373,7 +13373,7 @@ CC:  Roger. Let's go on with the circuit breaker
 
 [02:12:34:34]
 _page : 220
-_tape : 41/5
+_tape : Tape 41/5
 LMP: Okay. I'll just give you - I think it'll be
      easier to give you what I got in. Okay, in the
      top row on 11, we have the four AC BUS TIE
@@ -13436,7 +13436,7 @@ CC:  Aquarius, Houston. On your circuit breaker
 
 [02:12:38:57]
 _page : 221
-_tape : 41/6
+_tape : Tape 41/6
 LMP: Okay. You want us to configure as per checklist.
      Okay. We'll do that.
 
@@ -13507,7 +13507,7 @@ CC:  Switch to FORWARD OMNI.
 
 [02:12:42:53]
 _page : 222
-_tape : 41/7
+_tape : Tape 41/7
 CC:  Okay. We can leave the VHF powered down, too.
 
 [02:12:43:01]
@@ -13577,7 +13577,7 @@ CC:  Let's close the SUIT FLOW CONTROL breaker - -
 
 [02:12:47:22]
 _page : 223
-_tape : 41/8
+_tape : Tape 41/8
 CDR: And, now ...
 
 [02:12:47:23]
@@ -13646,7 +13646,7 @@ CC:  And panel 11 ASCENT ECA can be open.
 
 [02:12:51:07]
 _page : 224
-_tape : 41/9
+_tape : Tape 41/9
 CDR: It's open.
 
 [02:12:51:27]
@@ -13711,7 +13711,7 @@ LMP: Okay, Jack, we have a P30 maneuver pad, a midcourse for free return. NOUN 3
 
 [02:12:56:02]
 _page : 225
-_tape : 41/10
+_tape : Tape 41/10
 CC:  That's a good readback, Fred. I'd like to verify,
      however, in NOUN 81, in V<sub>Y</sub>, it's plus three balls
      41.
@@ -13778,7 +13778,7 @@ CDR: Okay, we'll do that now.
 
 [02:13:00:10]
 _page : 226
-_tape : 41/11
+_tape : Tape 41/11
 LMP: Okay. The landing gear are down and locked,
      Jack, and looking ahead now at page 11, we've
      done all of that.
@@ -13845,7 +13845,7 @@ CC:  Stand by 1.
 
 [02:13:03:33]
 _page : 227
-_tape : 41/12
+_tape : Tape 41/12
 CC:  Okay. Here's the word on the DAP set, gimbal/
      throttle test. Let's do step 1 and step 2, and
      that'll get our gimbal set.
@@ -13912,7 +13912,7 @@ CC:  You're GO on the weights.
 
 [02:13:09:05]
 _page : 228
-_tape : 41/13
+_tape : Tape 41/13
 CC:  Aquarius, Houston. We'd like you to recycle on
      the DAP load and change your DAP to 32021. Over.
 
@@ -13982,7 +13982,7 @@ CC:  Affirmative on the VERB 65.
 
 [02:13:23:49]
 _page : 229
-_tape : 41/14
+_tape : Tape 41/14
 LMP: Okay.
 
 [02:13:24:12]
@@ -14054,7 +14054,7 @@ LMP: Okay, 1 plus 30 to burn.
 
 [02:13:28:20]
 _page : 230
-_tape : 41/15
+_tape : Tape 41/15
 CC:  Roger.
 
 [02:13:28:45]
@@ -14122,7 +14122,7 @@ CC:  Stand by on that one, Jim.
 
 [02:13:38:13]
 _page : 231
-_tape : 41/16
+_tape : Tape 41/16
 CC:  Okay, Aquarius. We're working on what's going
      to happen next. In the meantime, we'd like to
      take some high-power items off the line, so on
@@ -14188,7 +14188,7 @@ CC:  That's affirmative.
 
 [02:13:43:20]
 _page : 232
-_tape : 41/17
+_tape : Tape 41/17
 CDR: Tell us when.
 
 [02:13:43:42]
@@ -14219,13 +14219,13 @@ LMP: Okay. You tell me - you tell me when.
 CC:  Okay. Turn it off now. See you in 5 minutes.
 
 [02:13:44:26]
+_extra : END OF TAPE
 LMP: Okay. It's gone off. It's gone off for
      5 minutes.
-     END OF TAPE
 
 [02:13:52:44]
 _page : 233
-_tape : 42/1
+_tape : Tape 42/1
 CC:  Aquarius, Houston. How do you read?
 
 [02:13:52:52]
@@ -14286,7 +14286,7 @@ CC:  Roger.
 
 [02:13:59:33]
 _page : 234
-_tape : 42/2
+_tape : Tape 42/2
 CC:  And, Aquarius, for your information, we now have
      136-mile perigee. Confirmed by Doppler.
 
@@ -14360,7 +14360,7 @@ CC:  Okay, Aquarius. Here's what we're going to do.
 
 [02:14:27:34]
 _page : 235
-_tape : 42/3
+_tape : Tape 42/3
 CC:  Aquarius, Houston. How do you read?
 
 [02:14:27:45]
@@ -14418,7 +14418,7 @@ CC:  And we'll give you that word when we want you to
 
 [02:14:31:38]
 _page : 236
-_tape : 42/4
+_tape : Tape 42/4
 CDR: Understand.
 
 [02:14:33:57]
@@ -14477,7 +14477,7 @@ CC:  Okay. With a minor modification, your P51, P52
 
 [02:14:38:44]
 _page : 237
-_tape : 42/5
+_tape : Tape 42/5
 LMP: Okay. I'll eat after I wake up between 69 and 70.
 
 [02:14:38:53]
@@ -14619,7 +14619,7 @@ CC:  Okay, Fred. P30 maneuver purpose is PC plus 2,
 
 [02:15:07:46]
 _page : 239
-_tape : 42/7
+_tape : Tape 42/7
 LMP: Okay. DPS, pericynthion plus 2 into the MPL,
      079, 27, 4013, plus 08144, minus 00443, minus
      00226, N/A, plus 00205, 08455, 4 plus 20, 268,
@@ -14731,7 +14731,7 @@ CC:  Go ahead.
 
 [02:15:19:14]
 _page : 241
-_tape : 43/1
+_tape : Tape 43/1
 CMP: Okay, I still have the PYRO A sequence A and
      PYRO B sequence B circuit breakers in. Do you
      want those out?
@@ -14794,7 +14794,7 @@ CC:  Roger. And remember we're not going to have a
 
 [02:15:21:52]
 _page : 242
-_tape : 43/2
+_tape : Tape 43/2
 CDR: Roger.
 
 [02:15:22:06]
@@ -14862,7 +14862,7 @@ CDR: Will do.
 
 [02:15:31:48]
 _page : 243
-_tape : 43/3
+_tape : Tape 43/3
 CDR: Okay, Jack. Have I gotten your 360 on yaw and
      roll? I'm going to go to ATT HOLD.
 
@@ -14994,7 +14994,7 @@ CDR: ENGINE ARM coming open and ASA I guess will be
 
 [02:15:39:01]
 _page : 245
-_tape : 43/5
+_tape : Tape 43/5
 CC:  We just got a change on that. Let's keep the
      ASA closed.
 
@@ -15059,7 +15059,7 @@ CC:  That's affirm.
 
 [02:15:44:16]
 _page : 246
-_tape : 43/6
+_tape : Tape 43/6
 CC:  Okay, Jim. Your present configuration has
      the following features. We got the electrical
      BUSES cross tied through the BAL LOAD circuit
@@ -15124,7 +15124,7 @@ CC:  Roger, Jim. I guess we're going to just kind of
 
 [02:15:52:37]
 _page : 247
-_tape : 43/7
+_tape : Tape 43/7
 CMP: Okay, Jack. One more question about Odyssey here.
 
 [02:15:52:45]
@@ -15193,7 +15193,7 @@ CC:  Aquarius, Houston. We see ASCENT O<sub>2</sub> tank number 2 building up ag
 
 [02:16:00:39]
 _page : 248
-_tape : 43/8
+_tape : Tape 43/8
 CDR: Roger. Opening up ascent O<sub>2</sub> tank number 2, and
      turning off descent.
 
@@ -15258,7 +15258,7 @@ CC:  Okay. We want you to go in when you can and
 
 [02:16:09:33]
 _page : 249
-_tape : 43/9
+_tape : Tape 43/9
 CC:  That's it, Jack. And another note on taking
      water; if you don't drain enough water so that - -
 
@@ -15319,7 +15319,7 @@ CDR: Roger, Jack. We're asking whether P51 and a
 
 [02:16:37:56]
 _page : 250
-_tape : 43/10
+_tape : Tape 43/10
 CC: I think so, Jim, but stand by while I verify it.
 
 [02:16:38:23]
@@ -15388,7 +15388,7 @@ CC:  Okay. Step 1, BIOMED off; step 2, go to LOW BIT
 
 [02:16:48:39]
 _page : 251
-_tape : 43/11
+_tape : Tape 43/11
 CDR: Okay. BIOMED, off; LOW BIT RATE; DOWNVOICE
      BACKUP; POWER AMP to PRIME; circuit breakers,
      panel 16, POWER AMP CIRCUIT BREAKER, open.
@@ -15455,7 +15455,7 @@ CC:  Aquarius, this is Houston. We read you with
 
 [02:16:52:03]
 _page : 252
-_tape : 43/12
+_tape : Tape 43/12
 CDR: We read you with a lot of noise, the noise seems
      to indicate ... read you better.
 
@@ -15469,13 +15469,13 @@ CDR: Okay, Houston; Aquarius. How do you read us
      now?
 
 [02:16:52:27]
+_extra : END OF TAPE
 CC:  Just the same, Jim. You're readable but it's
      very noisy.
-     END OF TAPE
 
 [02:16:52:45]
 _page : 253
-_tape : 44/1
+_tape : Tape 44/1
 CDR: Okay. We can still read you. Do you want us
      to remain in this configuration?
 
@@ -15693,7 +15693,7 @@ CDR: ... Yes ... down to 270 ...
 
 [02:17:15:32]
 _page : 256
-_tape : 44/4
+_tape : Tape 44/4
 CDR: It's jumping now.
 
 [02:17:17:15]
@@ -15768,7 +15768,7 @@ CMP: I'll tell you, we'll have to start thinking
 
 [02:17:23:19]
 _page : 257
-_tape : 4/5
+_tape : Tape 4/5
 CDR: How about ...?
 
 [02:17:23:53]
@@ -15844,7 +15844,7 @@ CC:  Roger that.
 
 [02:17:36:57]
 _page : 258
-_tape : 44/6
+_tape : Tape 44/6
 CC:  How do you read now, Jim?
 
 [02:17:37:37]
@@ -15913,7 +15913,7 @@ CC:  Aquarius, this is Houston. Go ahead.
 
 [02:17:51:21]
 _page : 259
-_tape : 44/7
+_tape : Tape 44/7
 CDR: Joe, it appears that the best detent possibly
      to put the stars in the AOT, would be either
      number 2 or 4. The rendezvous radar antenna
@@ -15978,7 +15978,7 @@ CC:  Okay, Aquarius; Houston. We have data back
 
 [02:18:08:35]
 _page : 260
-_tape : 44/8
+_tape : Tape 44/8
 CDR: Houston, This is Aquarius. The COMM is very,
      very, very noisy. Over.
 
@@ -16054,7 +16054,7 @@ CC:  Okay. We'll look at it some more. Your COMM
 
 [02:18:18:27]
 _page : 261
-_tape : 44/0
+_tape : Tape 44/0
 CDR: Houston, Aquarius.
 
 [02:18:18:31]
@@ -16080,9 +16080,8 @@ CC:  Aquarius, Houston. Is the noise any better now?
 CDR: This is Aquarius. Negative.
 
 [02:18:23:20]
-_extra : APOLLO 13 AIR-T0-GROUND VOICE TRANSCRIPTION
+_extra : END OF TAPE/nAPOLLO 13 AIR-T0-GROUND VOICE TRANSCRIPTION
 CC:  Roger.
-     END OF TAPE
 
 [02:18:33:34]
 _page : 262
@@ -16157,7 +16156,7 @@ CC:  Okay, why don't we stay where we are for a few
 
 [02:19:02:42]
 _page : 263
-_tape : 45/2
+_tape : Tape 45/2
 CDR: Okay. Houston, Aquarius. We're deadbanding in
      the new attitude.
 
@@ -16230,7 +16229,7 @@ CDR: Okay.
 
 [02:19:36:35]
 _page : 264
-_tape : 45/3
+_tape : Tape 45/3
 LMP: ...
 
 [02:19:37:21]
@@ -16312,7 +16311,7 @@ CDR: ... We're going to have to do something to get
 
 [02:19:46:23]
 _page : 265
-_tape : 45/4
+_tape : Tape 45/4
 LMP: I'll set up ... before I turn the thing on.
 
 [02:19:46:27]
@@ -16389,16 +16388,16 @@ LMP: ... ...?
 
 [02:20:00:01]
 _page : 266
-_tape : 45/5
+_tape : Tape 45/5
 CDR: Yes.
 
 [02:20:00:13]
+_extra : END OF TAPE
 CDR: ... Over on the ...
-     END OF TAPE
 
 [02:20:03:33]
 _page : 267
-_tape : 46/1
+_tape : Tape 46/1
 CDR: Well, I'm afraid this is going to be the last
      lunar mission for a long time.
 
@@ -16466,7 +16465,7 @@ CC:  Aquarius, Houston. Go ahead.
 
 [02:20:38:01]
 _page : 268
-_tape : 46/2
+_tape : Tape 46/2
 CDR: As we approach the burn, you want to go through
      the same check that we did for the last burn.
      That is, we want to make sure we have everything
@@ -16665,7 +16664,7 @@ CC:  Oh, yes, we do have COMM. You're extremely
 
 [02:21:14:22]
 _page : 271
-_tape : 46/5
+_tape : Tape 46/5
 LMP: Okay. Joe, I read you loud and clear on this
      mode.
 
@@ -16737,7 +16736,7 @@ CDR: Oh, yes, yes. Keep opening - open the jets slowly
 
 [02:21:24:02]
 _page : 272
-_tape : 46/6
+_tape : Tape 46/6
 CDR: Is there some way that we could ... water in the
      PLSS.
 
@@ -16791,8 +16790,8 @@ LMP: Okay, Joe. That sounds great. I just thought
 CC:  Roger.
 
 [02:21:34:22]
+_extra : END OF TAPE
 CDR: How's the water doing?
-     END OF TAPE
 
 [02:21:47:30]
 _page : 273
@@ -17756,7 +17755,7 @@ CC:  Sorry, Jim, but we are only reading you about
 
 [03:01:16:56]
 _page : 289
-_tape : 49/8
+_tape : Tape 49/8
 LMP: Look at that big ... out there.
 
 [03:01:17:04]
@@ -17831,7 +17830,7 @@ LMP: Okay. ... give ... a call.
 
 [03:01:26:01]
 _page : 290
-_tape : 49/9
+_tape : Tape 49/9
 CDR: Well, they probably don't know what to do there.
 
 [03:01:26:06]
@@ -17904,7 +17903,7 @@ LMP: ... now, Power up your FDI.
 
 [03:01:32:31]
 _page : 291
-_tape : 49/10
+_tape : Tape 49/10
 CDR: All right.
 
 [03:01:32:34]
@@ -17981,7 +17980,7 @@ LMP: Houston, Aquarius.
 
 [03:01:37:08]
 _page : 292
-_tape : 49/11
+_tape : Tape 49/11
 CC:  Reading you loud and clear. Go ahead.
 
 [03:01:37:14]
@@ -18059,7 +18058,7 @@ CDR: I don't have all the confidence in the world in
 
 [03:01:42:18]
 _page : 293
-_tape : 49/12
+_tape : Tape 49/12
 CDR: You know how many times I screwed up on my
      arithmetic.
 
@@ -18134,7 +18133,7 @@ LMP: Pitch and yaw are in, but we're off in your roll
 
 [03:01:45:41]
 _page : 294
-_tape : 40/13
+_tape : Tape 40/13
 CDR: Okay. It brings it in. Say when.
 
 [03:01:46:05]
@@ -18210,7 +18209,7 @@ CC:  Stand by on that one for a minute, Fred.
 
 [03:01:48:00]
 _page : 295
-_tape : 49/14
+_tape : Tape 49/14
 LMP: - - the ball ... get back to - Okay. What we'd
      like now, I guess, is the next attitude to go to,
      Vance, and we will work on getting there while
@@ -18276,7 +18275,7 @@ CDR: Let's not read that in the R<sub>1</sub>, R<sub>2</sub>. I don't want
 
 [03:01:53:18]
 _page : 296
-_tape : 49/15
+_tape : Tape 49/15
 CC:  Jim. Those are not VERB 49 angles. Those are
      strictly FDAI attitudes. Over.
 
@@ -18346,7 +18345,7 @@ LMP: That's negative, Vance. What is you clock reading right now?
 
 [03:01:58:14]
 _page : 297
-_tape : 49/16
+_tape : Tape 49/16
 CC:  Okay. When I give you a hack, it will be 73:59,
      and that's about 40 seconds away.
 
@@ -18422,7 +18421,7 @@ CDR: Roll, pitch, and yaw, but drift's the one. That
 
 [03:02:02:32]
 _page : 298
-_tape : 49/17
+_tape : Tape 49/17
 CDR: And, Houston, I see that this maneuver gives us
      a roll of 27172, a pitch of 08301. Is that what
      they gave us?
@@ -19228,7 +19227,7 @@ CC:  Okay. Fred. On page 16, perform the "Docked
      CMC - FREE." Over.
 
 [03:03:11:27]
-LMP: Yes. I kind of deduced that one, Charlie.
+LMP: Yes. I kind of deduced that one, Charlie. Page 16, "Docked DPS BURN (PGNS)," except we'll
      forget the CSM maneuver.
 
 [03:03:11:35]
@@ -25430,7 +25429,7 @@ CC:  Okay. Earth 10 degrees. Thank you.
 
 [03:14:45:53]
 _page : 404
-_tape : 58/1
+_tape : Tape 58/1
 CDR: And, Houston ... As we ... No! ... has an angle
      of about 24 degrees on the LPD.
 
@@ -25495,7 +25494,7 @@ CC:  Roger. The Moon at 10 degrees.
 
 [03:15:04:24]
 _page : 405
-_tape : 58/2
+_tape : Tape 58/2
 _extra : burn, I'd like to say that we're going
 CC:  Okay, Jim. Just as kind of a lead-in to this
      procedure that we're going to use for the mid-course
@@ -26809,7 +26808,7 @@ CMP: Okay. Our do-it-yourself lithium hydroxide
 
 [03:19:10:53]
 _page : 427
-_tape : 62/4
+_tape : Tape 62/4
 CC:  Okayy, Jack. I concur. I think it'll work, too.
      There's one step that i omitted, which you can
      do now qulte conveniently, and it's this. Where
@@ -26869,7 +26868,7 @@ CMP: What I'd better do is before I put this thing back
 
 [03:19:15:05]
 _page : 428
-_tape : 62/5
+_tape : Tape 62/5
 CMP: Okay, Houston; Aquarius.
 
 [03:19:15:07]
@@ -26938,7 +26937,7 @@ CC: Aquarius, Houston. You might pass on to Jim, he
 
 [03:19:21:52]
 _page : 429
-_tape : 62/6
+_tape : Tape 62/6
 CMP: That's exactly what he did. Tom said you had
      such a long day yesterday, he thought he was
      going to have to play some guitar music to get
@@ -27005,7 +27004,7 @@ CMP: Yes, I've got to get the launch checklist. And
 
 [03:19:46:45]
 _page : 430
-_tape : 62/7
+_tape : Tape 62/7
 CMP: I kind of have an idea that as soon as we hit
      darkness, we'll be doing a P51, P52. Hope we're
      going to be ...
@@ -27074,7 +27073,7 @@ CC:  Okay. The next one, two, three, four are unchanged.
 
 [03:19:55:36]
 _page : 431
-_tape : 62/8
+_tape : Tape 62/8
 CMP: Okay.
 
 [03:19:55:39]
@@ -27139,7 +27138,7 @@ CMP: Okay. Keep going.
 
 [03:19:58:28]
 _page : 432
-_tape : 62/9
+_tape : Tape 62/9
 CC:  Okay. The next three are unchanged. And then
      the EVENT TIMER START to STOP. Over.
 
@@ -27217,7 +27216,7 @@ CMP: Alpha/Pc to Pc; LAUNCH VEHICLE SPS INDICATOR to
 
 [03:20:02:38]
 _page : 433
-_tape : 62/10
+_tape : Tape 62/10
 CC:  Okay - -
 
 [03:20:02:40]
@@ -27266,7 +27265,7 @@ CMP: Yes. ... we don't have any H<sub>2</sub> or O<sub>2</sub> ... Okay.
 
 [03:20:04:29]
 _page : 434
-_tape : 62/11
+_tape : Tape 62/11
 CC: Okay, Jack. Those are the only changes on
      page 1-3.
 
@@ -27336,7 +27335,7 @@ CC:  All right. Then the next one, two, three, four,
 
 [03:20:07:10]
 _page : 435
-_tape : 62/12
+_tape : Tape 62/12
 CMP: Okay. Read back the changes on this page -
      Stand by. I ... another OMNI.
 
@@ -27405,7 +27404,7 @@ CC:  Okay. Skip the next one, and we want INVERTER 1
 
 [03:20:10:14]
 _page : 436
-_tape : 62/13
+_tape : Tape 62/13
 CMP: Okay.
 
 [03:20:10:15]
@@ -27473,7 +27472,7 @@ CMP: Okay.
 
 [03:20:14:15]
 _page : 437
-_tape : 62/14
+_tape : Tape 62/14
 CC:  Okay. On panel 6, skip the first one. We want
      POWER to OFF, and skip down then to SUIT POWER to
      OFF. Over.
@@ -27541,7 +27540,7 @@ CC:  Roger. The next is EDS, three, to open.
 
 [03:20:18:05]
 _page : 438
-_tape : 62/15
+_tape : Tape 62/15
 CMP: EDS, three, open.
 
 [03:20:18:08]
@@ -27558,13 +27557,14 @@ CC:  Roger. POSTLANDING VENT FLIGHT slash POSTLANDING
 CMP: Okay. POSTLANDING and POSTLANDING VENT, open.
 
 [03:20:18:57]
+_extra : END OF TAPE
 CC:  Okay. That was the - Yes, the POSTLANDING VENT,
      that's FLT/PL, to open. The next are SCS DIRECT
      ULLAGE, two, to open.
-     END OF TAPE
+
 [03:20:19:15]
 _page : 439
-_tape : 63/1
+_tape : Tape 63/1
 CMP: SCS DIRECT ULLAGE, two, open.
 
 [03:20:19:21]
@@ -27628,7 +27628,7 @@ CMP: All right, let's do it. SCS ELECTRONICS POWER,
 
 [03:20:22:42]
 _page : 440
-_tape : 63/2
+_tape : Tape 63/2
 CC:  Okay; that's correet, Jack. Let's go to
      page 1-8. In the second line, SUIT POWER's OFF.
      Over.
@@ -27701,7 +27701,7 @@ CC:  Okay. Panel 162, no change. Panel 163, no
 
 [03:20:25:13]
 _page : 441
-_tape : 63/3
+_tape : Tape 63/3
 CMP: Okay. Got it.
 
 [03:20:25:14]
@@ -27771,7 +27771,7 @@ CC:  Okay. Satisfactory, Jack. You ready for
 
 [03:20:27:58]
 _page : 442
-_tape : 63/4
+_tape : Tape 63/4
 CMP: Let's go.
 
 [03:20:28:00]
@@ -27834,7 +27834,7 @@ CMP: Okay. There are three FLOOD circuit breakers
 
 [03:20:31:49]
 _page : 443
-_tape : 63/5
+_tape : Tape 63/5
 CC:  That's affirmative, Jack, and all the rest open.
      Okay. Panel 227, no change, and panel 229, one
      addition to the circuit breakers we want open,
@@ -27904,7 +27904,7 @@ CC:  Okay, and that's all for page 1-10. You want
 
 [03:20:34:39]
 _page : 444
-_tape : 63/6
+_tape : Tape 63/6
 CMP: No, I think I've got it all.
 
 [03:20:34:41]
@@ -27970,7 +27970,7 @@ CMP: Okay. MAIN REG valve, two, to CLOSED. WATER/
 
 [03:20:37:27]
 _page : 445
-_tape : 63/7
+_tape : Tape 63/7
 CC:  Okay. That's affirm. Those to the left,
      changes on 1-12. Let's go to 1-13.
 
@@ -28034,7 +28034,7 @@ CMP: Go ahead.
 
 [03:20:40:27]
 _page : 446
-_tape : 63/8
+_tape : Tape 63/8
 CC: Okay, we don't have anything for you. Our only
      concern is that you'll wake up somebody; is
      there anybody sleeping right now?
@@ -28104,7 +28104,7 @@ CMP: Okay, Houston. We are standing by.
 
 [03:20:44:12]
 _page : 447
-_tape : 63/9
+_tape : Tape 63/9
 CC:  Aquarius, Houston. Over.
 
 [03:20:44:16]
@@ -28175,7 +28175,7 @@ CC:  Okay, Jim. We are still gathering our thoughts
 
 [03:20:47:33]
 _page : 448
-_tape : 63/10
+_tape : Tape 63/10
 CDR: We have no druthers. As long as we do the midcourse and there is plenty of tracking thereafter
      to correct for another midcourse; that's my only
      concern.
@@ -28233,7 +28233,7 @@ LMP: And I don't know if Jack passed it on to you,
 
 [03:20:50:51]
 _page : 449
-_tape : 63/11
+_tape : Tape 63/11
 CC: Roger, Fred. Copy that. Is it a little chilly
      up there?
 
@@ -28301,7 +28301,7 @@ CC:  Oh, that's much better. Go ahead.
 
 [03:20:59:36]
 _page : 450
-_tape : 63/12
+_tape : Tape 63/12
 LMP: Okay. I was just going to say we haven't had
      an overboard waste water dump since clear back
      around the other side of the Moon. About this
@@ -28370,7 +28370,7 @@ CC:  Oh, let's see. We're reading 6.6 right now,
 
 [03:21:23:38]
 _page : 451
-_tape : 63/13
+_tape : Tape 63/13
 LMP: I'm reading about 12.5. I guess we've got a
      gage problem ... I did just get a MASTER ALARM 
      and no caution light; we kind of figured that's
@@ -28436,7 +28436,7 @@ CC:  Okay. Copy that. You have the MASTER ALARM,
      second canister bag. Over.
 [03:21:27:29]
 _page : 452
-_tape : 63/14
+_tape : Tape 63/14
 LMP: Okay. Yes. Sure enough; the commander's red
      hose is inserted into the canister bag.
 
@@ -28509,7 +28509,7 @@ CC:  Okay, Fred. Understand only the LMP's red hose
 
 [03:21:45:02]
 _page : 453
-_tape : 63/15
+_tape : Tape 63/15
 LMP: Okay. Jack's back in here. I guess he can do
      that. Stand by.
 
@@ -28571,7 +28571,7 @@ LMP: And we've checked all the fittings and I know I
      doesn't leak, we can transfer.
 [03:21:52:31]
 _page : 454
-_tape : 63/16
+_tape : Tape 63/16
 CC:  Okay, Fred. We still don't have a final answer
      on whether or not it'll leak. If you need it,
      I'd go ahead and use it; and standing by for
@@ -28607,16 +28607,17 @@ CMP: Okay, Joe. Fred has the secondary cartridge out.
      We're back on primary now.
 
 [03:21:54:39]
+_extra : END OF TAPE
 CC:  Okay, Jack. The next step is to place the command 
      module canisters with the hoses attached in
      a suitable location to permit the bottom of the
      canister to be exposed to free airflow and tape
      them in place. Ideally, well, it doesn't matter.
      Just - just pick out your own spot.
-     END OF TAPE
+
 [03:21:55:05]
 _page : 455
-_tape : 64/1
+_tape : Tape 64/1
 CMP: Okay. I'm going to tell you where they are.
      They're both situated, as you say, with the
      bottom of the canister exposed to free air, and
@@ -28678,7 +28679,7 @@ CMP: Okay. We have the LMP's blue hose up by the
 
 [03:21:58:03]
 _page : 456
-_tape : 64/2
+_tape : Tape 64/2
 CC:  Okay, Jack. That sounds satisfactory. The next
      steps are - are suit-loop configuration steps,
      and the first one is to - - 
@@ -28759,7 +28760,7 @@ CC:  Roger, Jack. That completes that procedure, and
 
 [03:22:01:33]
 _page : 457
-_tape : 64/3
+_tape : Tape 64/3
 CMP: Okay, Joe. How you read?
 
 [03:22:01:36]
@@ -28809,7 +28810,7 @@ CMP: Okay. TV RENDEZVOUS TRANSPONDER FLIGHT BUS,
 
 [03:22:03:35]
 _page : 458
-_tape : 64/4
+_tape : Tape 64/4
 CC:  Okay. That's correct, Jack. And now we'll go
      into the main bus powerup procedure. And the
      first step there, is on panel 5. We want the
@@ -28873,7 +28874,7 @@ CMP: Okay. ...
 
 [03:22:07:46]
 _page : 459
-_tape : 64/5
+_tape : Tape 64/5
 CC:  Okay, Jack; Houston. We're in had COMM again;
      let's wait a minute.
 
@@ -28932,7 +28933,7 @@ CC:  That's correct. Readback was 100 percent, and
      we'll wait to hear from you.
 [03:22:10:32]
 _page : 460
-_tape : 64/6
+_tape : Tape 64/6
 CMP: Okay, Joe. And just for confirmation, I went
      through the switch list you gave me. We are in
      exactly that configuration with one exception,
@@ -29001,7 +29002,7 @@ CC:  Okay, Fred. We recommend that you push your
 
 [03:22:13:36]
 _page : 461
-_tape : 64/7
+_tape : Tape 64/7
 LMP: Okay.
 
 [03:22:14:22]
@@ -29072,7 +29073,7 @@ LMP: That's affirm. We got all the breakers pulled
 CC:  Okay. Real fine.
 [03:22:32:33]
 _page : 462
-_tape : 64/8
+_tape : Tape 64/8
 LMP: Hey, Houston; Aquarius. How do you read?
 
 [03:22:32:38]
@@ -29143,7 +29144,7 @@ CC:  Okay.
 
 [03:22:37:02]
 _page : 463
-_tape : 64/9
+_tape : Tape 64/9
 LMP: Okay, Joe. Go ahead.
 
 [03:22:37:05]
@@ -29208,7 +29209,7 @@ LMP: Okay. The panel 16 ... ... ENGINE ... OVERRIDE
      is open.
 [03:22:40:19]
 _page : 464
-_tape : 64/10
+_tape : Tape 64/10
 CC: Roger.
 
 [03:22:46:28]
@@ -29276,7 +29277,7 @@ CC:  I'm not sure I copied that, Fred. If you asked
      have it for you, yet. Over.
 [03:22:51:54]
 _page : 465
-_tape : 64/11
+_tape : Tape 64/11
 LMP: No. The question was, do you have a ... from
      the Moon burn.
 
@@ -29345,7 +29346,7 @@ CC:  Okay. Copy that, Fred. On the O<sub>2</sub> flow thing,
      got in the circuit.
 [03:22:56:01]
 _page : 466
-_tape : 64/12
+_tape : Tape 64/12
 LMP: Roger.
 
 [03:22:56:28]
@@ -29417,7 +29418,7 @@ CMP: We can't help them too much. Actually it isn't
      going to pull them out ...
 [03:22:59:35]
 _page : 467
-_tape : 64/13
+_tape : Tape 64/13
 CMP: Another burn that's never been done.
 
 [03:22:59:43]
@@ -29487,7 +29488,7 @@ LMP: Okay, Joe. It - Our wobble in this PTC has
 
 [03:23:06:37]
 _page : 468
-_tape : 64/14
+_tape : Tape 64/14
 CC:  Okay. Roger that, Fred.
 
 [03:23:08:33]
@@ -29553,7 +29554,7 @@ CMP: Fred, they said they're looking at the SHe tank
 
 [03:23:12:48]
 _page : 469
-_tape : 64/15
+_tape : Tape 64/15
 CC:  Okay. Real fine. Are you ready for the procedure,
      now, Jack?
 
@@ -29621,7 +29622,7 @@ CC:  That's correct. Now we'll go to the CSM, and
      Over.
 [03:23:16:13]
 _page : 470
-_tape : 64/16
+_tape : Tape 64/16
 CMP: Okay. Connect LM/CSM umbilical.
 
 [03:23:16:17]
@@ -29689,7 +29690,7 @@ CC: That's correct. And then on panel 250, circuit
      and verify MAIN BUS B voltage.
 [03:23:20:37]
 _page : 471
-_tape : 64/17
+_tape : Tape 64/17
 CMP: Okay. Panel 250 BAT B POWER ENTRY/POSTLANDING, 
      open, and then verify the MAIN BUS voltage.
 
@@ -29757,7 +29758,7 @@ LMP: Okay. While Jack was on COMM, I was looking out
      upstairs to see what it looks like up there.
 [03:23:23:33]
 _page : 472
-_tape : 64/18
+_tape : Tape 64/18
 CC:  Okay. Good deal. We copy that, Fred. And to
      show you how relaxed we are about the entry, Ken
      is looking at - giving you guys a chance to -
@@ -29829,17 +29830,17 @@ LMP: Yes, that brings up one more possibility, Joe.
 CC:  Say again, Fred.
 [03:23:27:23]
 _page : 473
-_tape : 64/19
+_tape : Tape 64/19
+_extra : END OF TAPE
 LMP: Brings up another possibility. Now that we've
      got all of that stowed into the bags and the
      condensate can, we could probably blow all of
      that through the PLSS ..., I wonder how the
      sublimator would work on waste water.
-     END OF TAPE
 
 [03:23:27:38]
 _page : 474
-_tape : 65/1
+_tape : Tape 65/1
 CC: It might work if we had to do it, Fred. Right
      now we're looking at a comfortable excess of
      water through the sublimator. We were talking
@@ -29887,7 +29888,7 @@ LMP: Far more wobble than I noticed on my previous
      watch.
 [03:23:41:19]
 _page : 475
-_tape : 65/2
+_tape : Tape 65/2
 CC:  Okay. Copied that, Fred. And our thermal people
      will be looking at it. One of the things we're
      talking about relative to the midcourse correction 
@@ -29953,7 +29954,7 @@ CC:  The docking window. Roger that. Somebody just
      real steady, and it looks real good.
 [03:23:49:07]
 _page : 476
-_tape : 65/3
+_tape : Tape 65/3
 LMP: Roger.
 
 [04:00:20:45]
@@ -30028,18 +30029,19 @@ CC:  Okay. We are taking our final look at the
 
 [04:00:37:27]
 _page : 477
-_tape : 65/4
+_tape : Tape 65/4
 CMP: Okay. Stand by.
 
 [04:00:37:44]
 CMP: Okay, Joe. The AGS STATUS switch is OFF.
 
 [04:00:37:47]
+_extra : END OF TAPE
 CC: Okay. OFF. Thank you.
-     END OF TAPE
+
 [04:01:14:26]
 _page : 478
-_tape : 66/1
+_tape : Tape 66/1
 SC: Houston, Aquarius.
 
 [04:01:14:37]
@@ -30168,7 +30170,7 @@ CC:  Okay. I'm reading you weakly, Fred. Go ahead.
 
 [04:01:36:17]
 _page : 480
-_tape : 66/3
+_tape : Tape 66/3
 LMP: With all this other procedures you've been
      working on there, I thought I was going to
      have a new one for you. How to get four gingerbread 
@@ -30239,7 +30241,7 @@ CC:  Okay, Fred. We're receiving your MED data; it
      was a little slow in coming in.
 [04:01:43:09]
 _page : 481
-_tape : 66/4
+_tape : Tape 66/4
 LMP: Okay.
 
 [04:02:23:04]
@@ -30311,7 +30313,7 @@ CDR: Hello, Houston; Aquarius.
 CC:  Roger, Jim. Good morning.
 [04:02:29:53]
 _page : 482
-_tape : 66/5
+_tape : Tape 66/5
 CDR: Good morning, Vance. How's things going down
      there?
 
@@ -30349,14 +30351,14 @@ CC: Aquarius, Houston.
 CDR: Go ahead, Vance.
 
 [04:02:31:51]
+_extra : END OF TAPE
 CC: Jim, the next time that it's convenient, could
      you get the readout of the REPRESS package in
      the command module for us? Over.
-     END OF TAPE
 
 [04:02:32:02]
 _page : 483
-_tape : 67/1
+_tape : Tape 67/1
 CDR: Will do.
 
 [04:02:32:04]
@@ -30425,7 +30427,7 @@ CC:  Aquarius, Houston.
 
 [04:02:37:11]
 _page : 484
-_tape : 67/2
+_tape : Tape 67/2
 CDR: Did they give Jack any more procedures on command
      module powerup?
 
@@ -30492,7 +30494,7 @@ CC:  One other point. The philosophy of timing this
      bit. Over.
 [04:02:42:45]
 _page : 485
-_tape : 67/3
+_tape : Tape 67/3
 CDR: Okay. Understand. Philosophy on the midcourse
      in doing it prior to venting of the SHe tank,
      which means we'll be doing this around 105 hours,
@@ -30564,7 +30566,7 @@ CC:  That's correct, Jim. And this is to guard against
      back on.
 [04:02:57:04]
 _page : 486
-_tape : 67/4
+_tape : Tape 67/4
 CDR: Roger.
 
 [04:02:58:20]
@@ -30641,7 +30643,7 @@ CDR: If you're getting high bit data, we could do an
 
 [04:03:53:29]
 _page : 487
-_tape : 67/5
+_tape : Tape 67/5
 CC:  Okay. Could you turn off battery 2, and leave
      it off and let us look at it?
 
@@ -30712,7 +30714,7 @@ CC: Aquarius, Houston.
 
 [04:04:00:25]
 _page : 488
-_tape : 67/6
+_tape : Tape 67/6
 CDR: Go ahead, Houston.
 
 [04:04:00:27]
@@ -30777,18 +30779,18 @@ CDR: Roger. Omit step 3; perform step 4, except for
 
 [04:04:03:34]
 _page : 489
-_tape : 67/7
+_tape : Tape 67/7
+_extra : END OF TAPE
 CC: Roger. That's correct. On step 5, perform
      step 5. Under "Primary Glycol Loop Activation,"
      step 1, line 1, "CB(16) ECS: DISPLAY - CLOSE."
      That's a crew option; you can have it if you
      want to. Omit the rest of step 1 and step 2.
      Perform step 3. Over.
-     END OF TAPE
 
 [04:04:04:11]
 _page : 490
-_tape : 68/1
+_tape : Tape 68/1
 CDR: Okay. On primary glycol loop activation, crew
      option on step 1, first line; the rest of it
      we'll omit. Step 2, we'll omit, and we'll do
@@ -30849,7 +30851,7 @@ CC:  That's affirmative. Okay. Row 3, under PROPELLANT:
      open. Over.
 [04:04:07:35]
 _page : 491
-_tape : 68/2
+_tape : Tape 68/2
 CDR: Okay. Row 3, under PROPELLANT - propulsion:
      the DESCENT HELIUM REG/VENT will be open: the
      STANDBY RENDEZVOUS HEATER will be open and the
@@ -30919,7 +30921,7 @@ CC:  Under LIGHTING; FLOOD, open; TRACK, open. Under
 
 [04:04:11:45]
 _page : 492
-_tape : 68/3
+_tape : Tape 68/3
 CDR: Okay. On the last three rows, we have FLOOD and
      TRACK circuit breakers, row 2, open; LOGIC POWER B,
      open; DESCENT ENGINE OVERRIDE, open; SUIT FLOW
@@ -30975,7 +30977,7 @@ CC:  That's affirmative, Jim, Going on to page 29.
      it down, if you're ready to copy. Over.
 [04:04:15:03]
 _page : 493
-_tape : 68/4
+_tape : Tape 68/4
 CDR: Ready to copy.
 
 [04:04:15:05]
@@ -31037,7 +31039,7 @@ CC:  Roger, Jim. We were hoping that in your PTC that
      Earth momentarily. Over.
 [04:04:18:44]
 _page : 494
-_tape : 68/5
+_tape : Tape 68/5
 CDR: Roger.
 
 [04:04:18:46]
@@ -31098,7 +31100,7 @@ CC:  What we're really trying to do is get you in a
      scratch step 4 under the "RCS PRESS." Over.
 [04:04:21:55]
 _page : 495
-_tape : 68/6
+_tape : Tape 68/6
 CDR: Roger. Under "AGS Activation," well, I included
      that step on the ASA circuit breaker and we'll
      do step 1 and 2 under "AGS Activation." But
@@ -34546,13 +34548,13 @@ CC: Aquarius, Houston,
 CDR: Go ahead, Houston.
 
 [04:13:24:24]
+_extra : END OF TAPE
 CC: Okay, Jim. Since the antenna switch is kind of
      annoying, we've talked them into buying only
      half of the data. If it gets too troublesome
      for you to switch antennas, why, just leave ii
      on one antenna and we'll listen to you half of
      the time.
-     END OF TAPE
 
 [04:13:24:43]
 _page : 550
@@ -35176,6 +35178,7 @@ CC:  Okay. Go ahead with the command module
      procedures.
 
 [04:14:57:23]
+_extra : END OF TAPE
 CMP: Okay. Connect LM and CSM umbilicals. Step 2,
      panel 5: LM POWER 1 AC and 2 AC, closed, circuit
      breakers. Step 3, panel 5: EPS SENSOR SIGNAL,
@@ -35185,7 +35188,6 @@ CMP: Okay. Connect LM and CSM umbilicals. Step 2,
      power to CSM. Step 7: CB MAIN B BAT BUS B,
      open. And on panel 250, BAT POWER ENTRY and
      POSTLANDING, open. Verify MAIN BUS voltage.
-     END OF TAPE
 
 [04:14:58:49]
 _page : 561
@@ -37337,7 +37339,7 @@ CC:  Okay, and you're real good. It's a - It's a
 
 [05:00:23:32]
 _page : 596
-_tape : 81/2
+_tape : Tape 81/2
 CDR: Okay. bounds good. You're going to give me an
      overall time line now, I take it; is that right?
 
@@ -40142,7 +40144,7 @@ CMP: Okay. Panel 8: SEQ PYRO ARM, two, to SAFE.
 
 [05:06:38:28]
 _page : 641
-_tape : 85/4
+_tape : Tape 85/4
 CC: Okay. And following this, we take SEQUENTIAL,
      LOGIC, two, to OFF.
 
@@ -40208,7 +40210,7 @@ CMP: Okay. Panel 5: CB G&N, COMPUTER, MAIN B, closed.
 
 [05:06:41:35]
 _page : 642
-_tape : 85/5
+_tape : Tape 85/5
 CC: That's affirmative. Now you're going to come
      up with a 37 ENTER 06 ENTER most likely on the
      computer. And what we want to do is to put the
@@ -40276,7 +40278,7 @@ CMP: Okay.
 
 [05:06:43:41]
 _page : 643
-_tape : 85/6
+_tape : Tape 85/6
 CC:  And we need another battery B readout.
 
 [05:06:43:56]
@@ -40347,7 +40349,7 @@ CMP: CB INVERTER POWER 1, 2, and 3, closed.
 
 [05:06:47:13]
 _page : 644
-_tape : 85/7
+_tape : Tape 85/7
 CC: That's correct. On panel 5: circuit breaker
      BATTERY RELAY BUS, BATTERY A and B, closed.
 
@@ -40421,7 +40423,7 @@ CMP: CB CAUTION/WARNING, MAIN A, closed.
 
 [05:06:50:45]
 _page : 645
-_tape : 85/8
+_tape : Tape 85/8
 CC: That's correct. On panel 3: AC INVERTER,
      AC BUS 1 and 2, RESET and back to the center.
 
@@ -40493,7 +40495,7 @@ CMP: UP TELEMETRY, CMC to ACCEPT.
 
 [05:06:54:09]
 _page : 646
-_tape : 85/9
+_tape : Tape 85/9
 CC:  On panel 275: circuit breaker FLIGHT/POSTLANDING, MAIN A and MAIN B, closed.
 
 [05:06:54:26]
@@ -40567,7 +40569,7 @@ CC:  That's correct. Okay, now the ground is going
 
 [05:06:58:13]
 _page : 647
-_tape : 85/10
+_tape : Tape 85/10
 CMP: No, I've got them. They are going to give me a
      clock DELTA, state vector, VERB 66, two
      REFSMMATs, and an entry target load.
@@ -40625,7 +40627,7 @@ CMP: How do you mean? We are going to make an alinement on the Moon and on the S
 
 [05:07:00:45]
 _page : 648
-_tape : 85/11
+_tape : Tape 85/11
 CC: Okay. Basically, that is correct. Let me just
      run through it hand-waving-type for a minute,
      and then I'll read you the steps. I think it
@@ -40674,7 +40676,7 @@ CC: Okay. Basically, that is correct. Let me just
 
 [05:07:03:11]
 _page : 649
-_tape : 85/12
+_tape : Tape 85/12
 CMP: Okay. Well, let me ask a question. The LM
      maneuvers to a set of Moon-viewing angles. Okay,
      at this time, I am going to do a P52, is that
@@ -40744,7 +40746,7 @@ CC:  That's right. And you'll put in the attitudes
 
 [05:07:05:45]
 _page : 650
-_tape : 85/13
+_tape : Tape 85/13
 CMP: Okay. VERB 40 NOUN 20, ENTER when Moon is -
      the LM is satisfied that they're at the Moon-viewing attitude.
 
@@ -40800,7 +40802,7 @@ CC:  If - I'm not sure right offhand what the angular
 
 [05:07:08:04]
 _page : 651
-_tape : 85/14
+_tape : Tape 85/14
 CMP: Okay. If I can define the center through the
      sextant, do it that way. And if I can't, use
      the telescope.
@@ -40871,7 +40873,7 @@ CC:  Okay. The one thing that everybody would like
 
 [05:07:10:40]
 _page : 652
-_tape : 85/15
+_tape : Tape 85/15
 CMP: Okay. If I get a set of good stars, do I start
      right out to a basic P51 and a P52 option 1?
 
@@ -40933,7 +40935,7 @@ CC:  That's right, Jack, and we're going to close the
 
 [05:07:12:51]
 _page : 653
-_tape : 85/16
+_tape : Tape 85/16
 CMP: Understand you're going to close tile dump valve,
      now on the LM hatch, right?
 
@@ -41001,7 +41003,7 @@ CC:  Okay. And let me tell you what we're going to
 
 [05:07:15:24]
 _page : 654
-_tape : 85/17
+_tape : Tape 85/17
 CMP: Okay. It sounds good.
 
 [05:07:15:26]
@@ -41066,7 +41068,7 @@ CMP: Primary ECS GLYCOL PUMPS to 1, AC1.
 
 [05:07:18:17]
 _page : 655
-_tape : 85/18
+_tape : Tape 85/18
 CC:  That's correct. Okay, then we'll finish going
      back to the tunnel vent, and verify the LM/CM
      DELTA-P and make sure it's been holding pressure. And we'll come back again and rehash all
@@ -41136,7 +41138,7 @@ CMP: Okay, there's those four circuit breakers over
 
 [05:07:22:17]
 _page : 656
-_tape : 85/19
+_tape : Tape 85/19
 CC: Okay, that's correct, Jack. Okay, at EI minus
      1 hour, we're going to be doing the LM jettison;
      so just prior to that, we want to do a P47.
@@ -41204,7 +41206,7 @@ CMP: ... - -
 
 [05:07:25:26]
 _page : 657
-_tape : 85/2O
+_tape : Tape 85/2O
 CC:  Okay. And as soon as you've gotten yourself all
      set up with a good control mode, you want to
      maneuver Lo the entry attitude.
@@ -41276,7 +41278,7 @@ CC:  Okay. Now we're going to perform what we call
 
 [05:07:28:38]
 _page : 658
-_tape : 85/21
+_tape : Tape 85/21
 CMP: Maybe you better describe it.
 
 [05:07:28:41]
@@ -41334,7 +41336,7 @@ CC:  That's correct. Now, I'd like to verify the
 
 [05:07:31:13]
 _page : 659
-_tape : 55/22
+_tape : Tape 55/22
 CMP: Verify SURGE TANK and REPRESS PACKAGE are ON.
 
 [05:07:31:16]
@@ -41405,7 +41407,7 @@ CMP: Okay, activate the primary evaporator. All this
 
 [05:07:34:03]
 _page : 660
-_tape : 85/23
+_tape : Tape 85/23
 CC:  That's correct. We started out that way, and we
      turned the glycol pumps on, and we're just circulating 
      it internally. And we're counting on
@@ -41472,7 +41474,7 @@ CMP: Jim would like to know whether the descent water
 
 [05:07:36:19]
 _page : 661
-_tape : 85/24
+_tape : Tape 85/24
 CC: Okay, Jack. Looks like we're going to go on
      the ascent tanks and 128:30. And it looks like - -
 
@@ -41538,7 +41540,7 @@ CC:  That's correct. And delete lines 23, 24, and
 
 [05:07:38:33]
 _page : 662
-_tape : 85/25
+_tape : Tape 85/25
 CC:  Okay. Delete lines 23 through 28.
 
 [05:07:38:38]
@@ -41608,7 +41610,7 @@ CC:  Okay. On the top of the next page where it says
 
 [05:07:41:14]
 _page : 663
-_tape : 85/26
+_tape : Tape 85/26
 CMP: Okay, "minus 06:30," and the voltage reading 3.9
      still is good, right?
 
@@ -41668,7 +41670,7 @@ CMP: SERVICE MODULE RCS HEATERS, QUAD Charlie, MAIN
 
 [05:07:43:55]
 _page : 664
-_tape : 85/27
+_tape : Tape 85/27
 CC: Okay. And the same thing for SERVICE MODULE RCS
      HEADERS, QUAD Delta, MAIN A, open.
 
@@ -41737,7 +41739,7 @@ CC:  All right. Under "CM RCS checks," the fourth
 
 [05:07:46:39]
 _page : 665
-_tape : 85/28
+_tape : Tape 85/28
 CMP: Okay. MANUAL ATTITUDE, three, to ACCEL COMMAND.
 
 [05:07:46:42]
@@ -43609,7 +43611,7 @@ LMP: Hold on, Vance; I don't understand. We want to
      delete everything on page 34?
 
 [05:09:21:07]
-CC:  No, that's not correct, Fred. What we waist to do
+CC:  No, that's not correct, Fred. What we wait to do
      is leave everything the way it is on 34, and add
      this one comment I'm giving you at the - at the
      bottom of it.
@@ -43635,7 +43637,7 @@ LMP: Okay. At EI minus 5 hours. Let me take a look
      and see how that flows, now.
 
 [05:09:22:00]
-CC: 	Okay. Andd also you hawe a - -
+CC:  Okay. And also you have a - -
 
 [05:09:22:02]
 LMP: Okay. That would be the LM - the LM preentry
@@ -45596,8 +45598,8 @@ CC:  Okay. Well, this attitude we passed you is not
      this.
 
 [05:17:17:39]
+_extra : END OF TAPE
 CC:  It should be off about 8 degrees, FLIGHT.
-     END OF TAPE
 
 [05:17:20:34]
 _page : 724
@@ -46522,9 +46524,9 @@ CDR: And are you tracking us, and do you have any
      results on that last midcourse?
 
 [05:18:51:21]
+_extra : END OF TAPE
 CC:  Stand by. It looks good. I'll try and get
      you numbers.
-     END OF TAPE
      AOOLLO 13 AIR-TO-GROUND VOICE TRANSCRIPTION
 
 [05:18:52:14]
@@ -47103,8 +47105,8 @@ CC:  Roger. Okay. Verify the POWER AMP talkback is
 CDR: Okay. That's verified.
 
 [05:20:23:24]
+_extra : END OF TAPE
 CC:  Okay.
-     END OF TAPE
 
 [05:20:24:13]
 _page : 747
@@ -47620,7 +47622,7 @@ CMP: Okay. Okay. In work.
 
 [05:21:04:49]
 _page : 754
-_tape : 94/8
+_tape : Tape 94/8
 CMP: Okay, Houston. Let me read out the injector
      temperatures for you.
 
@@ -47693,7 +47695,7 @@ CMP: Yes, sir. That is verified.
 
 [05:21:13:38]
 _page : 755
-_tape : 94/9
+_tape : Tape 94/9
 CC: Okay, and - -
 
 [05:21:13:39]
@@ -47761,7 +47763,7 @@ CC:  - - 1. That's BMAG 1 now, as you know.
 
 [05:21:18:45]
 _page : 756
-_tape : 94/10
+_tape : Tape 94/10
 CMP: Yes, BMAG 1 is in WARM UP.
 
 [05:21:18:47]
@@ -47834,7 +47836,7 @@ CC:  Odyssey, Houston. We can give you a GO if you'll
 
 [05:21:28:41]
 _page : 757
-_tape : 94/11
+_tape : Tape 94/11
 CMP: Okay. The SECs LOGIC is on.
 
 [05:21:28:42]
@@ -47908,7 +47910,7 @@ CC:  Okay, Jack. It'll be a few minutes yet. We want
 
 [05:21:38:43]
 _page : 758
-_tape : 94/12
+_tape : Tape 94/12
 CMP: Okay. I can proceed with EMS check, can't I, Joe?
 
 [05:21:38:46]
@@ -47977,8 +47979,8 @@ CDR: Roger. We never did bring that angle up, did
      we?
 
 [05:21:51:12]
+_extra : END OF TAPE
 CC:  No, actually, we didn't.
-     END OF TAPE
 
 [05:22:00:42]
 _page : 760
@@ -48056,7 +48058,7 @@ CC:  Okay. You're still looking real fat on power.
 
 [05:22:09:35]
 _page : 761
-_tape : 95/2
+_tape : Tape 95/2
 CDR: Okay.
 
 [05:22:17:54]
@@ -48121,7 +48123,7 @@ CMP: Okay.
 
 [05:22:21:21]
 _page : 762
-_tape : 95/3
+_tape : Tape 95/3
 CC: Jack, Houston. Your NOUN 63 looks good to us.
 
 [05:22:21:25]
@@ -48190,7 +48192,7 @@ CC:  Odyssey, Houston. Over.
 
 [05:22:30:49]
 _page : 763
-_tape : 756
+_tape : Tape 756
 CMP: Go ahead.
 
 [05:22:30:50]
