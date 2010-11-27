@@ -2,22 +2,18 @@
 
 #masthead {
     background:             #232323;
-}
-#masthead .wrapper {
-    padding-top:            10px;
-    padding-bottom:         10px;
+    font-family:            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
+    font-size:              24px;
+    line-height:            1.6;
+    text-transform:         uppercase;
     -cp-contain:            easy;
 }
 #masthead h1 {
     // style the text
     color:                  white;
-    font-family:            'League Gothic',
-                            'Helvetica Neue Condensed',
-                            'Arial',
-                            sans-serif;
-    font-size:              30px;
-    line-height:            0.95;
-    text-transform:         uppercase;
     
     // position in the grid
     float:                  left;
@@ -29,7 +25,6 @@
 }
 
 #masthead nav ul {
-    // position in the grid
     width:                  540px;
     margin-right:           20px;
     float:                  left;
@@ -38,23 +33,34 @@
     float:                  left;
 }
 #masthead li a {
-    color:                  #999;
+    color:                  #959595;
     text-decoration:        none;
-    margin-right:           20px;
+    margin-right:           30px;
     text-transform:         uppercase;
-    
-    // 16px to 30px is 1.875
-    line-height:            1.875;
+}
+#masthead li a:hover,
+#masthead li a:focus {
+    color:                  white;
 }
 
 #masthead form {
     float:                  left;
     width:                  140px;
+    position:               relative;
 }
 #masthead input {
-    background:             black;
+    position:               absolute;
+    top:                    8px;
+    background:             #565656;
     border:                 none;
     -cp-border-radius:      5px;
     width:                  140px;
-    color:                  white;
+    color:                  black;
 }
+
+/*! verbatim */
+#masthead {
+    -webkit-box-shadow:     #222 0 2px 4px;
+    -moz-box-shadow:        #222 0 2px 4px;
+}
+/* -- */
