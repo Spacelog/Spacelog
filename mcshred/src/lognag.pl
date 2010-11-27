@@ -45,7 +45,15 @@ if (
 eg:
    ./lognag.pl AS13_TEC/0_CLEAN/[0-9]*.txt
 
-lognag will sort files on the commandline by filename, excluding directory component
+lognag will sort files on the commandline by filename, excluding
+directory component
+
+It parses timestamp log lines and check for increasing timestamps.
+It also tries to handle and warn about a relatively high level of
+OCR damage.
+If it finds a line starting Speakers: it takes the rest of the line
+as a whitespace separated list of valid speakers on loglines.
+
 ";
     exit;
 }
@@ -53,12 +61,105 @@ lognag will sort files on the commandline by filename, excluding directory compo
 my $x_last_lognag = 0;
 my $x_last_tea    = 0;
 my $x_last_bacon  = 0;
-my %valid_speaker = map { $_ => 1 }
-  qw( AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music);
+my %valid_speaker = load_speakers(
+    'AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music');
 my $last = -60 * 60;    # Allow for up to T minus 1 hour
 my %badfiles;
 my %speakers;
 my $total_fail;
+
+foreach my $file ( sort filesort @ARGV ) { process($file); }
+print 'Bad files: ', join( ' ', sort keys %badfiles ), "\n" if %badfiles;
+print 'Fail: ', $total_fail, "\n" if $total_fail;
+
+if ($show_stats) {
+    foreach my $speaker ( sort keys %speakers ) {
+        my $perday;
+        my $total;
+        for ( my $day = 0 ; $day < @{ $speakers{$speaker} } ; ++$day ) {
+            $speakers{$speaker}[$day] ||= 0;
+            $perday .= sprintf( '%4d ', $speakers{$speaker}->[$day] );
+            $total += $speakers{$speaker}[$day];
+        }
+        chop $perday;
+        printf "%5s: %4d    ($perday)\n", $speaker, $total;
+    }
+}
+exit;
+
+sub filesort {
+
+    # Ensure we process the files sorted by filename not by pathname
+    my $fa = $a;
+    my $fb = $b;
+    $fa =~ s:.*/::;
+    $fb =~ s:.*/::;
+    return $fa cmp $fb;
+}
+
+sub load_speakers {
+    my $str = shift;
+    return map { $_ => 1 } split( /\s+/, $str );
+}
+
+sub parse_inline_timestamp {
+    my ( $logtimestamp, $timestamptxt ) = @_;
+
+    my $valid;
+    my $parsed;
+
+    if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)\.\d+$/ ) {
+        $valid = $1 * 60 * 60 + $2 * 60 + $3;
+    }
+
+    # Some magic numbers which are not passed literally
+    $valid = 5 * 60 + 32 if $timestamptxt eq '5:32';
+    $valid = 135 * 60 * 60 + 4 * 60 + 25 if $timestamptxt eq '35:04:25';
+
+    if ( !$valid ) {
+        if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)$/ ) {
+            $parsed = $1 * 60 * 60 + $2 * 60 + $3;
+        }
+        elsif ( $timestamptxt =~ /^(\d+):(\d+)(?:\.\d+)?$/ ) {
+            $parsed = $1 * 60 * 60 + $2 * 60;
+        }
+        else {
+            warn("Unable to parse timestamp '$timestamptxt'");
+        }
+
+        my $percent_change =
+          100 * abs( $logtimestamp - $parsed ) / $logtimestamp;
+
+        $valid = $parsed if $parsed > 485900 && $parsed < 514000;
+        $valid = $parsed if $percent_change < 25;
+    }
+
+    return $parsed if $invalid_inline_timestamps && !$valid;
+    return $valid if $inline_timestamps;
+    return;
+}
+
+sub parse_log_timestamp {
+    my ( $words, $fail ) = @_;
+
+    my $timestamp = $words->[ $log_timestamp_elements - 1 ];
+    if ( $log_timestamp_elements > 1 ) {
+        push( @{$fail}, 'badsec' )
+          if $words->[ $log_timestamp_elements - 1 ] > 60;
+        $timestamp += $words->[ $log_timestamp_elements - 2 ] * 60;
+    }
+    if ( $log_timestamp_elements > 2 ) {
+        push( @{$fail}, 'badmin' )
+          if $words->[ $log_timestamp_elements - 2 ] > 60;
+        $timestamp += $words->[ $log_timestamp_elements - 3 ] * 60 * 60;
+    }
+    if ( $log_timestamp_elements > 3 ) {
+        push( @{$fail}, 'badhour' )
+          if $words->[ $log_timestamp_elements - 3 ] > 24;
+        $timestamp += $words->[ $log_timestamp_elements - 4 ] * 60 * 60 * 24;
+    }
+    return $timestamp;
+}
 
 sub process {
     my ($file) = @_;
@@ -71,6 +172,8 @@ sub process {
         my $logscore = 0;
         my $fix      = 0;
         my $txt      = $line;
+
+%valid_speaker = load_speakers($1) if $line =~ /Speakers:\s+(.*)/;
 
         if ( @words > $log_timestamp_elements ) {
             for ( my $i = 0 ; $i < $log_timestamp_elements ; ++$i ) {
@@ -216,25 +319,6 @@ sub process {
     }
 }
 
-foreach my $file ( sort filesort @ARGV ) { process($file); }
-print 'Bad files: ', join( ' ', sort keys %badfiles ), "\n" if %badfiles;
-print 'Fail: ', $total_fail, "\n" if $total_fail;
-
-if ($show_stats) {
-    foreach my $speaker ( sort keys %speakers ) {
-        my $perday;
-        my $total;
-        for ( my $day = 0 ; $day < @{ $speakers{$speaker} } ; ++$day ) {
-            $speakers{$speaker}[$day] ||= 0;
-            $perday .= sprintf( '%4d ', $speakers{$speaker}->[$day] );
-            $total += $speakers{$speaker}[$day];
-        }
-        chop $perday;
-        printf "%5s: %4d    ($perday)\n", $speaker, $total;
-    }
-}
-exit;
-
 sub timefmt {
     my $secs            = shift;
     my $timestamp       = '';
@@ -245,73 +329,4 @@ sub timefmt {
         $secs /= $timestamp_units[$index];
     }
     return ( sprintf '%02d', $secs ) . $timestamp;
-}
-
-sub filesort {
-
-    # Ensure we process the files sorted by filename not by pathname
-    my $fa = $a;
-    my $fb = $b;
-    $fa =~ s:.*/::;
-    $fb =~ s:.*/::;
-    return $fa cmp $fb;
-}
-
-sub parse_log_timestamp {
-    my ( $words, $fail ) = @_;
-
-    my $timestamp = $words->[ $log_timestamp_elements - 1 ];
-    if ( $log_timestamp_elements > 1 ) {
-        push( @{$fail}, 'badsec' )
-          if $words->[ $log_timestamp_elements - 1 ] > 60;
-        $timestamp += $words->[ $log_timestamp_elements - 2 ] * 60;
-    }
-    if ( $log_timestamp_elements > 2 ) {
-        push( @{$fail}, 'badmin' )
-          if $words->[ $log_timestamp_elements - 2 ] > 60;
-        $timestamp += $words->[ $log_timestamp_elements - 3 ] * 60 * 60;
-    }
-    if ( $log_timestamp_elements > 3 ) {
-        push( @{$fail}, 'badhour' )
-          if $words->[ $log_timestamp_elements - 3 ] > 24;
-        $timestamp += $words->[ $log_timestamp_elements - 4 ] * 60 * 60 * 24;
-    }
-    return $timestamp;
-}
-
-sub parse_inline_timestamp {
-    my ( $logtimestamp, $timestamptxt ) = @_;
-
-    my $valid;
-    my $parsed;
-
-    if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)\.\d+$/ ) {
-        $valid = $1 * 60 * 60 + $2 * 60 + $3;
-    }
-
-    # Some magic numbers which are not passed literally
-    $valid = 5 * 60 + 32 if $timestamptxt eq '5:32';
-    $valid = 135 * 60 * 60 + 4 * 60 + 25 if $timestamptxt eq '35:04:25';
-
-    if ( !$valid ) {
-        if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)$/ ) {
-            $parsed = $1 * 60 * 60 + $2 * 60 + $3;
-        }
-        elsif ( $timestamptxt =~ /^(\d+):(\d+)(?:\.\d+)?$/ ) {
-            $parsed = $1 * 60 * 60 + $2 * 60;
-        }
-        else {
-            warn("Unable to parse timestamp '$timestamptxt'");
-        }
-
-        my $percent_change =
-          100 * abs( $logtimestamp - $parsed ) / $logtimestamp;
-
-        $valid = $parsed if $parsed > 485900 && $parsed < 514000;
-        $valid = $parsed if $percent_change < 25;
-    }
-
-    return $parsed if $invalid_inline_timestamps && !$valid;
-    return $valid if $inline_timestamps;
-    return;
 }
