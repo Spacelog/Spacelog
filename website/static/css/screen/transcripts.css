@@ -12,6 +12,10 @@
     min-height:             60px;
 }
 
+#content.transcript {
+    padding-bottom:         180px;
+}
+
 #transcript {
     clear:                  both;
 }
@@ -109,6 +113,22 @@
     border-bottom:                  none;
 }
 
+#phases {
+    position:               fixed;
+    bottom:                 0;
+    left:                   0;
+    height:                 150px;
+    background:             black;
+    color:                  white;
+    width:                  100%;
+}
+#phases .wrapper {
+    background: #444;
+}
+#phases li {
+    float:                  left;
+    margin-right:           20px;
+}
 
 p.load-more {
     margin-top:             20px;

@@ -95,15 +95,19 @@
   {% endif %}
   </div>
 
-<h2>Phases</h2>
-<ol>
-  {% for act in acts %}
-    {% if act == current_act %}
-      <li><strong>You are here: <a href="{% timestamp_to_url act.start %}">{{ act.title }}</a></strong></li>
-    {% else %}
-      <li><a href="{% timestamp_to_url act.start %}">{{ act.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ol>
-
+  <div id='phases'>
+    <div class='wrapper'>
+      <h2>Phases</h2>
+      <ol>
+        {% for act in acts %}
+          {% if act == current_act %}
+            <li><strong>You are here: <a href="{% timestamp_to_url act.start %}">{{ act.title }}</a></strong></li>
+          {% else %}
+            <li><a href="{% timestamp_to_url act.start %}">{{ act.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+  
 {% endblock %}
