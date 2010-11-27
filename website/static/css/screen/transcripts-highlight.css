@@ -1,0 +1,85 @@
+/* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*- */
+
+#content.with-highlight {
+    background:             #777;
+}
+#content.with-highlight a {
+    color:                  #00667f;
+}
+#content.with-highlight #transcript .highlighted dt.time a {
+    color:                  #00abd7;
+}
+
+#content.with-highlight #transcript dd {
+    border-bottom:          1px solid #858585;
+}
+#content.with-highlight .key-scene {
+    background:             #666;
+}
+
+#transcript .highlighted {
+    background:             white;
+    position:               relative;
+    margin:                 0 -20px;
+    padding:                0 20px;
+}
+#transcript .highlighted.key-scene {
+    background:             white;
+}
+#transcript .highlighted.first {
+    -cp-border-top-left-radius:  5px;
+    -cp-border-top-right-radius: 5px;
+}
+#transcript .highlighted.last {
+    -cp-border-bottom-left-radius:  5px;
+    -cp-border-bottom-right-radius: 5px;
+}
+#content.with-highlight #transcript .highlighted.last dd {
+    border-bottom-width:            0;
+}
+
+
+#content.with-highlight #transcript dd.last {
+    -cp-border-bottom-left-radius:  5px;
+    -cp-border-bottom-right-radius: 5px;
+    border-bottom:                  none;
+}
+
+.range-ui span {
+    position:               absolute;
+    left:                   -999em;
+}
+.range-ui {
+    position:               absolute;
+    display:                block;
+    width:                  20px;
+    height:                 20px;
+    background:             transparent
+                            url(/assets/img/base/range_ui.png)
+                            no-repeat;
+}
+#selection-close {
+    top:                    0;
+    right:                  0;
+    background-position:    -80px 0;
+}
+#expand-previous {
+    top:                    -20px;
+    left:                   20px;
+    background-position:    0px 0;
+}
+#contract-previous {
+    top:                    0;
+    left:                   40px;
+    background-position:    -20px 0;
+}
+#expand-next {
+    bottom:                 -20px;
+    left:                   20px;
+    background-position:    -40px 0;
+}
+#contract-next {
+    bottom:                 0;
+    left:                   40px;
+    background-position:    -60px 0;
+}

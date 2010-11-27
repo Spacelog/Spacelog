@@ -5,11 +5,11 @@ register = Library()
 @register.simple_tag
 def pause_class(seconds):
     if 120 <= seconds < 300:
-        return 'short-pause'
+        return 'pause short'
     elif 300 <= seconds < 1800:
-        return 'medium-pause'
+        return 'pause medium'
     elif 1800 <= seconds < 3600:
-        return 'long-pause'
+        return 'pause long'
     else:
         return ''
 

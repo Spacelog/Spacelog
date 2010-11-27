@@ -24,10 +24,6 @@ a:active {
     text-decoration:        underline;
 }
 
-#content.with-highlight {
-    background:             #999;
-}
-
 /* Sunrise pages */
 .people {
     background:             #000

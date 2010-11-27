@@ -18,6 +18,11 @@
     min-height:             60px;
 }
 
+#transcript dd:after {
+//    content:                'hello';
+ //   font-size:              200px;
+}
+
 #transcript {
     clear:                  both;
 }
@@ -54,12 +59,6 @@
                             'Arial',
                             sans-serif;
 }
-#content.with-highlight #transcript dt.time a {
-    color:                  #00667f;
-}
-#content.with-highlight #transcript dt.time.highlighted a {
-    color:                  #00abd7;
-}
 
 #transcript dt.speaker {
     padding-left:           70px;
@@ -85,7 +84,6 @@
     display:                block;
 }
 
-
 #transcript dd {
     padding-top:            24px;
     padding-left:           240px;
@@ -101,26 +99,10 @@
 #transcript dd p {
     padding-top:            6px;
 }
-#content.with-highlight #transcript dd {
-    border-bottom:          1px solid #858585;
-}
-
-#transcript dd.highlighted {
-    background:             white;
-}
-#transcript dd.key-scene {
+#transcript .key-scene {
     background:             #eee;
-}
-
-#transcript dd.first {
-    -cp-border-top-left-radius:  5px;
-    -cp-border-top-right-radius: 5px;
-}
-
-#content.with-highlight #transcript dd.last {
-    -cp-border-bottom-left-radius:  5px;
-    -cp-border-bottom-right-radius: 5px;
-    border-bottom:                  none;
+    padding:                0 20px;
+    margin:                 0 -20px;
 }
 
 #phases {

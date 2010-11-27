@@ -31,34 +31,34 @@
     {% endif %}
     
     {% for speaker, text in log_line.lines %}
-    <div id="log-line-{{ log_line.timestamp }}">
-      <dt class='time {% if log_line.highlighted %}highlighted {% endif %}{% if log_line.key_scene_number %}key-scene {% endif %}'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
+    <div id="log-line-{{ log_line.timestamp }}" class='{% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}{% if log_line.key_scene_number %} key-scene{% endif %}'>
+      <dt class='time'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
         <a href='{% selection_url log_line.timestamp %}'>
           <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
             {{log_line.timestamp|mission_time_format}}
           </time>
         </a>
       </dt>
-      <dt class='speaker{% if log_line.highlighted %} highlighted{% endif %}{% if log_line.key_scene_number %} key-scene{% endif %}'>
+      <dt class='speaker'>
         {% avatar_and_name speaker log_line.timestamp %}
       </dt>
-      <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}{% if log_line.key_scene_number %} key-scene{% endif %}'>
+      <dd class='{% pause_class log_line.following_silence %}'>
       <p>{{text|linkify|safe}}</p>
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
-          <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}'>Expand selection up</a>
+          <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}' class='range-ui' id='expand-previous'><span>Expand selection up</span></a>
         {% endif %}
         {% if log_line.highlight_index == 1 and log_line.next_timestamp and log_line.next_timestamp <= selection_end_timestamp %}
-          <a href='{% selection_url log_line.next_timestamp selection_end_timestamp %}'>Contract selection down</a>
+          <a href='{% selection_url log_line.next_timestamp selection_end_timestamp %}' class='range-ui' id='contract-previous'><span>Contract selection down</span></a>
         {% endif %}
 
         {% if log_line.highlight_index == max_highlight_index and log_line.next_timestamp %}
-          <a href='{% selection_url selection_start_timestamp log_line.next_timestamp %}'>Expand selection down</a>
+          <a href='{% selection_url selection_start_timestamp log_line.next_timestamp %}' class='range-ui' id='expand-next'><span>Expand selection down</span></a>
         {% endif %}
         {% if log_line.highlight_index == max_highlight_index and log_line.previous_timestamp and log_line.previous_timestamp >= selection_start_timestamp %}
-          <a href='{% selection_url selection_start_timestamp log_line.previous_timestamp %}'>Contract selection up</a>
+          <a href='{% selection_url selection_start_timestamp log_line.previous_timestamp %}' class='range-ui' id='contract-next'><span>Contract selection up</span></a>
         {% endif %}
-        {% if log_line.highlight_index == max_highlight_index %}
-            <a href='{% timestamp_to_url log_line.timestamp selection_start_timestamp %}'>Close</a>
+        {% if log_line.highlight_index == 1 %}
+            <a href='{% timestamp_to_url log_line.timestamp selection_start_timestamp %}' class='range-ui' id='selection-close'><span>Close</span></a>
             <!-- Our MET in seconds is {{ log_line.timestamp }} -->
         {% endif %}
 

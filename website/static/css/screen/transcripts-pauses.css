@@ -1,0 +1,24 @@
+/* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*- */
+
+#transcript dd.pause {
+    border-bottom-width:    0;
+}
+#transcript dd.pause:after {
+    content:                '…';
+    color:                  #999;
+    text-align:             center;
+    height:                 auto;
+    line-height:            0.9;
+    visibility:             visible;
+}
+#transcript dd.short:after {
+    padding-top:            1em;
+/*    padding-top:            0.5em;*/
+}
+#transcript dd.medium:after {
+/*    padding-top:            1.5em;*/
+    font-size:              2em;
+}
+#transcript dd.long:after {
+    font-size:              4em;
+}
