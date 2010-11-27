@@ -12,7 +12,14 @@ search_db = xappy.IndexerConnection(
 def mission_time_to_timestamp(mission_time):
     """Takes a mission time string (XX:XX:XX:XX) and converts it to a number of seconds"""
     d,h,m,s = map(int, mission_time.split(':'))
-    return d*86400 + h*3600 + m*60 + s    
+    
+    if d < 0:
+        d = abs(d)
+        direction = -1
+    else:
+        direction = 1
+    
+    return direction * (d*86400 + h*3600 + m*60 + s)
 
 class TranscriptIndexer(object):
     """
@@ -299,7 +306,10 @@ class MetaIndexer(object):
             
             # Store the shifts
             if 'shifts' in data:
-                for character_identifier, shift_start in data['shifts']:
+                for shift_information in data['shifts']:
+                    character_identifier = shift_information[0]
+                    shift_start = shift_information[1]
+                    
                     shift_start = mission_time_to_timestamp(shift_start)
                     shifts_key = '%s:shifts' % character_key
                     self.redis_conn.zadd(shifts_key, character_identifier, shift_start)
