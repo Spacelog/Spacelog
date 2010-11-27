@@ -1,4 +1,5 @@
 from django.views.generic import TemplateView
+from django.http import Http404
 from backend.api import LogLine, Act
 import redis
 
@@ -57,7 +58,11 @@ class TranscriptView(TemplateView):
             timestamp = acts[0].start
         else:
             timestamp = self.parse_mission_time(timestamp)
-        closest_log_line = self.log_line_query().first_after(timestamp)
+        try:
+            closest_log_line = self.log_line_query().transcript("a13/TEC").first_after(timestamp)
+        except ValueError:
+            raise Http404("No log entries match that timestamp.")
+        print timestamp, closest_log_line
         return closest_log_line.page
 
 
@@ -102,7 +107,7 @@ class RangeView(PageView):
         if "end" in self.kwargs:
             end = self.parse_mission_time(self.kwargs['end'])
         else:
-            end = self.log_line_query().first_after(start).timestamp
+            end = self.log_line_query().transcript("a13/TEC").first_after(start).timestamp
 
         highlight_index = 0
         for log_line in log_lines:
