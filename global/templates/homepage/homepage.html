@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load missions %}
+
+{% block title %}PROJECT_TITLE{% endblock %}
+{% block content-class %}homepage{% endblock %}
+{% block content %}
+<p class="tagline">
+  <em>Read the stories of early space exploration from the official <acronym title="National Aeronautics and Space Administration">NASA</acronym>
+  transcripts.</em> Now open to the public in a searchable, linkable format.
+</p>
+
+{% if missions|featured %}
+<h2>Featured Missions</h2>
+<ul class="featured">
+{% for mission in missions|featured %}
+  <li>{% include "homepage/_feature.html" %}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% if missions|featured:"False" %}
+<h2>All Missions</h2>
+<ul class="all">
+{% for mission in missions %}
+  <li>{% include "homepage/_mission.html" %}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% endblock %}

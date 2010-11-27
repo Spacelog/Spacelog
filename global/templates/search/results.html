@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load xappy %}
+{% load missiontime %}
+{% load characters %}
+
+{% block content-class %}search{% endblock %}
+{% block content %}
+    <form method='get' action=''>
+        <input type='text' name='q' value='{{ q|escape }}'>
+        <input type='submit' value='Search'>
+    </form>
+
+    <h1>Results for &ldquo;{{ q }}&rdquo;</h1>
+    
+    <ol id="results">
+        {% for log_line in log_lines %}
+            <li>
+                <h2>
+                    {% avatar_and_name log_line.speaker log_line.timestamp %}
+                    said
+                    <a href="{% selection_url log_line.timestamp %}">
+                        <q>{{ log_line.title|safe }}</q>
+                    </a>
+                </h2>
+                <blockquote cite="{% selection_url log_line.timestamp %}"><p>{{ log_line.summary }}</p></blockquote>
+                <dl>
+                    <dt>Timestamp</dt>
+                    <dd>
+                        <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
+                            {{log_line.timestamp|mission_time_format}}
+                        </time>
+                    </dd>
+                </dl>                
+                    
+            </li>
+        {% endfor %}
+    </ol>
+
+    {% if previous_page %}
+        <a href='{{ previous_page }}'>Previous page</a>
+    {% else %}
+        First page
+    {% endif %}
+
+    <ol>
+        {% for page in pages %}
+            <li>
+                {% if page == "..." %}&hellip;{% else %}{% if page.selected %}{{ page.number }}{% else %}<a href='{{ page.url }}'>{{ page.number }}</a>{% endif %}{% endif %}
+            </li>
+        {% endfor %}
+    </ol>
+
+    {% if next_page %}
+        <a href='{{ next_page }}'>Next page</a>
+    {% else %}
+        Last page
+    {% endif %}
+{% endblock %}

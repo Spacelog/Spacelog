@@ -1,7 +1,10 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
+from search.views import SearchView
 
 urlpatterns = patterns('',
+    url(r'^$', 'homepage.views.homepage', name="homepage"),
+    # url(r'^search/$', SearchView.as_view(), name="search"),
 )
 
 if settings.DEBUG: # pragma: no cover

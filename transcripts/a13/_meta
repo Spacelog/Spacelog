@@ -1,5 +1,8 @@
 {
     "name": "a13",
+    "featured": true,
+    "description": "A tale of bravery and oxygen!",
+    "image": "/assets/img/badge_a13.png",
     "subdomains": ["a13", "apollo13"],
     "title": "Apollo 13",
     "main_transcript": "a13/TEC",

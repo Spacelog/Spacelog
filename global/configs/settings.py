@@ -102,4 +102,7 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
+    'homepage',
+    'search',
+    'website.apps.transcripts'
 )

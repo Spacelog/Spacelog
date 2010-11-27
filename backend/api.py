@@ -461,13 +461,20 @@ class Mission(object):
     def _load(self):
         data = self.redis_conn.hgetall("mission:%s" % self.name)
         self.title = data['title']
+        self.description = data['description']
+        self.featured = (data['featured'].lower() == 'true')
+        self.image = data['image']
         self.main_transcript = data['main_transcript']
         self.media_transcript = data['media_transcript']
 
     class Query(BaseQuery):
 
-        def __init__(self, redis_conn):
+        def __init__(self, redis_conn, filters=None):
             self.redis_conn = redis_conn
+            if filters is None:
+                self.filters = {}
+            else:
+                self.filters = filters
 
         def items(self):
             "Executes the query and returns the items."

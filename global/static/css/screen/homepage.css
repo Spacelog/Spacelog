@@ -1,0 +1,65 @@
+.homepage {
+    background:             #000
+                            url( /assets/img/home-bg.jpg )
+                            no-repeat
+                            top center;
+    padding:                50px 0 200px;
+}
+
+.homepage a {
+    color:                  #fff;
+}
+
+.homepage h2,
+.homepage h3 {
+    font-weight:            bold;
+}
+.homepage h2 {
+    font-size:              32px;
+    margin:                 70px 0 0;
+}
+.homepage h3 a {
+    display:                block;
+}
+
+.homepage .tagline {
+    color:                  #808080;
+    font-size:              40px;
+}
+.homepage .tagline em {
+    color:                  #fff;
+    font-weight:            bold;
+}
+
+.homepage ul {
+    -cp-contain:            easy;
+    margin:                 0 -10px;
+}
+.homepage li {
+    float:                  left;
+    padding:                0 10px;
+    width:                  300px;
+}
+
+.homepage .featured {
+    font-weight:            bold;
+    margin-top:             23px;
+}
+.homepage .featured img {
+    display:                block;
+}
+
+.homepage .all li {
+    border-bottom:          1px solid transparent;
+    padding:                20px 10px;
+}
+.homepage .all li:nth-child( 3n ) {
+    padding-right:           0;
+}
+.homepage .all li:nth-child( 3n+1 ) {
+    margin-left:            10px;
+    padding-left:           0;
+}
+.homepage .all li:nth-last-child( n+4 ) {
+    border-bottom-color:    #3c3b3d;
+}
