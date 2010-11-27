@@ -5,24 +5,26 @@ import redis
 from backend.api import Character
 
 def people(request, role=None):
-    redis_conn = redis.Redis()
+    
+    character_query = Character.Query(request.redis_conn, request.mission.name)
+
     if role:
         people = [
             {
                 'name': role,
-                'members': list( Character.Query( redis_conn, 'a13' ).role( role ) ),
+                'members': list(character_query.role(role)),
             }
         ]
     else:
         people = [
             {
                 'name': 'Flight Crew',
-                'members': list(Character.Query( redis_conn, 'a13' ).role( 'astronaut' )),
+                'members': list(character_query.role('astronaut')),
                 'view': 'full'
             },
             {
                 'name': 'Mission Control',
-                'members': list(Character.Query( redis_conn, 'a13' ).role( 'mission-ops-title' )),
+                'members': list(character_query.role('mission-ops-title')),
                 'view': 'simple'
             }
         ]
