@@ -57,7 +57,7 @@
           <a href='{% selection_url selection_start_timestamp log_line.previous_timestamp %}'>Contract selection up</a>
         {% endif %}
         {% if log_line.highlight_index == max_highlight_index %}
-            <a href='{% timestamp_to_url log_line.timestamp %}'>Close</a>
+            <a href='{% timestamp_to_url log_line.timestamp selection_start_timestamp %}'>Close</a>
             <!-- Our MET in seconds is {{ log_line.timestamp }} -->
         {% endif %}
 

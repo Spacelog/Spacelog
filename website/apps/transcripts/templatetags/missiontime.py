@@ -26,8 +26,11 @@ def mission_time_format(seconds):
     return mission_time(seconds, ' ')
 
 @register.simple_tag
-def timestamp_to_url(seconds):
-    return reverse("view_page", kwargs={"start": mission_time(seconds)})
+def timestamp_to_url(seconds, anchor=None):
+    url = reverse("view_page", kwargs={"start": mission_time(seconds)})
+    if anchor:
+        url = '%s#log-line-%s' % (url, anchor)
+    return url
 
 @register.simple_tag
 def selection_url(start_seconds, end_seconds=None):
