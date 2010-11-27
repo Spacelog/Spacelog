@@ -23,6 +23,13 @@ class TranscriptIndexer(object):
         self.parser = parser
 
         search_db.add_field_action(
+            "mission",
+            xappy.FieldActions.INDEX_EXACT,
+            search_by_default=False,
+            allow_field_specific=False,
+        )
+        # don't think we need STORE_CONTENT actions any more
+        search_db.add_field_action(
             "speaker",
             xappy.FieldActions.STORE_CONTENT,
         )
@@ -68,12 +75,13 @@ class TranscriptIndexer(object):
                     search_db.add_synonym(bit, character.identifier)
                     search_db.add_synonym(bit, character.identifier, field='speaker')
 
-    def add_to_search_index(self, id, lines, weight=1):
+    def add_to_search_index(self, mission, id, lines, weight=1):
         """
         Take some text and a set of speakers (also text) and add a document
         to the search index, with the id stuffed in the document data.
         """
         doc = xappy.UnprocessedDocument()
+        doc.fields.append(xappy.Field("mission", mission))
         doc.fields.append(xappy.Field("weight", weight))
         for line in lines:
             doc.fields.append(xappy.Field("text", line['text']))
@@ -198,6 +206,7 @@ class TranscriptIndexer(object):
             else:
                 weight = 1
             self.add_to_search_index(
+                mission=self.mission_name,
                 id=log_line_id,
                 lines = chunk['lines'],
                 weight=weight,

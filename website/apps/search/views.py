@@ -5,6 +5,7 @@ from django.core.urlresolvers import reverse
 from django.conf import settings
 from django.utils.safestring import mark_safe
 import xappy
+import xapian
 import redis
 from backend.api import LogLine
 
@@ -37,6 +38,11 @@ class SearchView(TemplateView):
         query = db.query_parse(
             q,
             default_op=db.OP_OR,
+        )
+        query=db.query_filter(
+            query,
+            # FIXME: mission-specific filter!
+            xapian.Query(db._field_mappings.get_prefix("mission") + "a13"),
         )
         results = db.search(
             query=query,
