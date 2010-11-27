@@ -33,6 +33,6 @@ if settings.DEBUG: # pragma: no cover
         (r'^500/$', ErrorView.as_view(error_code=500)),
     )
 
-handler_404 = ErrorView.as_view()
-handler_500 = ErrorView.as_view(error_code=500)
+handler404 = ErrorView.as_view()
+handler500 = ErrorView.as_view(error_code=500)
 
