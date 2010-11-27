@@ -112,6 +112,15 @@ p.load-more a {
     text-decoration:        none;
 }
 
+p.original {
+    margin-top:             15px;
+    float:                  right;
+    font-size:              12px;
+}
+p.original a {
+    color:                  #00aad3;
+}
+
 /*! verbatim */
 p.load-more a {
     -webkit-box-shadow:     #222 0 2px 4px;

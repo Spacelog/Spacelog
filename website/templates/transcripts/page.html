@@ -17,7 +17,9 @@
   {% endif %}
 
   {% if log_lines.0.transcript_page %}
-    <a href="/assets/transcripts/a13/TEC/{{ log_lines.0.transcript_page }}.png">View original transcript</a>
+    <p class='original'>
+      <a href="/assets/transcripts/a13/TEC/{{ log_lines.0.transcript_page }}.png">View original transcript for this dialogue</a>
+    </p>
   {% endif %}
 
   <dl id='transcript'>
