@@ -24,7 +24,13 @@
         {
             "title": "Re-entry",
             "description": "",
-            "range": [508620, 520000]
+            "range": [508620, 513516]
+        },
+        {
+            "comment": "end point (514521) is one second after the 'end of mission' marker, which is after all end photos",
+            "title": "Splash-down",
+            "description": "",
+            "range": [513516, 514521]
         }
     ],
     "key_scenes" : [
