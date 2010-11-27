@@ -19,7 +19,7 @@
   {% endif %}
   {% if log_lines.0.transcript_page %}
     <p class='original'>
-    <a href="/assets/transcripts/{{ log_lines.0.transcript_name }}/{{ log_lines.0.transcript_page }}.png">View original transcript for this dialogue</a>
+    <a href="/assets/transcripts/{{ log_lines.0.transcript_name }}/{{ log_lines.0.transcript_page }}.png">View original transcript</a>
     </p>
   {% endif %}
   </div>
@@ -27,7 +27,7 @@
   <dl id='transcript'>
   {% for log_line in log_lines %}
     {% if log_line.first_in_act and log_line.act.banner %}
-      <img class="act-banner" src="/assets/img/acts/{{ log_line.mission_name }}/{{ log_line.act.banner }}">
+      <p class='act-banner'><img class="act-banner" src="/assets/img/acts/{{ log_line.mission_name }}/{{ log_line.act.banner }}"></p>
     {% endif %}
     {% for speaker, text in log_line.lines %}
     <div id="log-line-{{ log_line.timestamp }}">

@@ -4,16 +4,18 @@
 
 */
 
+#content.transcript {
+    padding-bottom:         180px;
+    background:             white;
+    color:                  black;
+}
+
 #content.transcript .nav {
     min-height:             40px;
     -cp-contain:            easy;
 }
 #content.transcript .nav.after {
     min-height:             60px;
-}
-
-#content.transcript {
-    padding-bottom:         180px;
 }
 
 #transcript {
@@ -62,12 +64,17 @@
 #transcript dt.speaker {
     padding-left:           70px;
     float:                  left;
-    display:                table;
     width:                  70px;
     height:                 48px;
 }
-#transcript dt.speaker span {
+#transcript dt.speaker a {
+    display:                table;
+}
+#transcript dt.speaker,
+#transcript dt.speaker a {
     color:                  #999;
+}
+#transcript dt.speaker span {
     font-size:              12px;
     display:                table-cell;
     vertical-align:         middle;
@@ -114,6 +121,7 @@
 }
 
 #phases {
+    border-top:             1px solid #959595;
     position:               fixed;
     bottom:                 0;
     left:                   0;
@@ -147,6 +155,17 @@ p.original {
     float:                  right;
     margin-top:             20px;
     font-size:              12px;
+    line-height:            2;
+    padding-right:          34px;
+    background:             transparent
+                            url(/assets/img/base/original.png)
+                            no-repeat
+                            top right;
+}
+
+p.act-banner {
+    height:                 200px;
+    margin:                 20px -40px;
 }
 
 /*! verbatim */
