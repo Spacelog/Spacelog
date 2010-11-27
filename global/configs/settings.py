@@ -106,3 +106,5 @@ INSTALLED_APPS = (
     'search',
     'website.apps.transcripts'
 )
+
+PROJECT_DOMAIN = "artemisproject.com"

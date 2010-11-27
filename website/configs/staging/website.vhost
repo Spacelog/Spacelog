@@ -1,5 +1,6 @@
 <VirtualHost *:80>
-	ServerName artemis.fort
+	ServerName a13.artemis.fort
+	ServerAlias ma6.artemis.fort
 	
 	Alias /assets /home/df-artemis/releases/current/website/static
 

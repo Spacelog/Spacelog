@@ -1,4 +1,4 @@
-<h3><a href="#TODO">
+{% load missions %}<h3><a href="{{ mission.name|mission_url }}">
   {{ mission.title }}
 </a></h3>
 <p>{{ mission.description }}</p>
