@@ -79,13 +79,15 @@ class TranscriptIndexer(object):
         )
         # Add names as synonyms for speaker identifiers
         characters = Character.Query(self.redis_conn, self.mission_name).items()
+        self.characters = {}
         for character in characters:
+            self.characters[character.identifier] = character
             for name in [character.name, character.short_name]:
                 for bit in name.split():
                     search_db.add_synonym(bit, character.identifier)
                     search_db.add_synonym(bit, character.identifier, field='speaker')
 
-    def add_to_search_index(self, mission, id, lines, weight=1):
+    def add_to_search_index(self, mission, id, lines, weight, timestamp):
         """
         Take some text and a set of speakers (also text) and add a document
         to the search index, with the id stuffed in the document data.
@@ -96,6 +98,10 @@ class TranscriptIndexer(object):
         for line in lines:
             doc.fields.append(xappy.Field("text", line['text']))
             doc.fields.append(xappy.Field("speaker", line['speaker']))
+            # grab the character to get some more text to index under speaker
+            ch = self.characters.get(line['speaker'], None)
+            if ch:
+                doc.fields.append(xappy.Field("speaker", ch.current_shift(timestamp).identifier))
         doc.id = id
         try:
             search_db.add(search_db.process(doc))
@@ -220,6 +226,7 @@ class TranscriptIndexer(object):
                 id=log_line_id,
                 lines = chunk['lines'],
                 weight=weight,
+                timestamp=timestamp,
             )
             # For any mentioned glossary terms, add to them.
             for word in text.split():
