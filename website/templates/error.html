@@ -16,5 +16,12 @@
 
 <p>{{ text|safe }}</p>
 
-<p>Why not browse the <a href='{% url view_page %}'>transcripts</a>?  Check out the classic <a href='{% selection_url 201335 %}'>"Houston, we've had a problem"</a> moment, or go back to the <a href='{% url homepage %}'>home page.</a></p>
+<p>
+    Why not browse the <a href='{% url view_page %}'>transcripts</a>?
+    {% if classic_moment %}
+    Check out the classic <a href='{% selection_url classic_moment_quote %}'>{{ classic_moment }}</a> moment, or
+    {% else %}
+    Or,
+    {% endif %}
+    go back to the <a href='{% url homepage %}'>home page.</a></p>
 {% endblock %}

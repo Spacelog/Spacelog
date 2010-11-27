@@ -375,7 +375,9 @@
             "title": "404 - Who stirred the tanks?",
             "heading": "That's<br />no moon.",
             "subheading": "404 - Page Not Found.",
-            "text": "Looks like we've lost a page.  Sorry about that.  Not your fault at all."
+            "text": "Looks like we've lost a page.  Sorry about that.  Not your fault at all.",
+            "classic_moment": "\"Houston, we've had a problem\"",
+            "classic_moment_quote": "02:07:55:35"
         },
         "500": {
             "title": "500 Rodger, this is Houston, hold 1 please.",
@@ -383,8 +385,8 @@
             "heading_quote": "01:04:00:18",
             "subheading": "500 - Server Error.",
             "text": "Roger Aquarius, we are aware of the problem and our engineers are working on a solution.",
-            "classic_moment": "Houston, we've had a problem",
-            "classic_moment_quote": "00:00:00:02"
+            "classic_moment": "\"Houston, we've had a problem\"",
+            "classic_moment_quote": "02:07:55:35"
         }
     },
     "special_searches": {
