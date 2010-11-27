@@ -1,6 +1,7 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
 from transcripts.views import PageView, PhasesView, RangeView
+from django.views.generic import TemplateView
 from search.views import SearchView
 
 tspatt = r'-?\d{2}:\d{2}:\d{2}:\d{2}'
@@ -17,6 +18,7 @@ urlpatterns = patterns('',
     url(r'^phases/$', PhasesView.as_view(), name="phases"),
     url(r'^search/$', SearchView.as_view(), name="search"),
     url(r'^people/$', 'people.views.people', name="people"),
+    url(r'^404/$', TemplateView.as_view(template_name="404.html")),
     url(r'^people/(?P<role>[-_\w]+)/$', 'people.views.people', name="people"),
     url(r'^glossary/$', 'glossary.views.glossary', name="glossary"),
 )

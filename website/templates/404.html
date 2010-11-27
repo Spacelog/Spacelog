@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load missiontime %}
+{% load linkify %}
+{% load pauses %}
+
+{% block title %}404 - Who stirred the tanks?{% endblock %}
+{% block content-class %}not_found{% endblock %}
+{% block content %}
+<h1>That's<br/>no moon.</h1>
+
+<h2>404: Page Not Found.</h2>
+
+<p>Looks like we've lost a page.  Sorry about that.  Not your fault at all.</p>
+
+<p>Why not browse the <a href='{% url view_page %}'>transcripts</a>?  Check out the classic <a href='{% selection_url 201335 %}'>"Houston, we've had a problem"</a> moment, or go back to the <a href='{% url homepage %}'>home page.</a></p>
+{% endblock %}
