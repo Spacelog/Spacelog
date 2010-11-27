@@ -8,6 +8,7 @@ import xappy
 import xapian
 import redis
 from backend.api import LogLine, Character
+from backend.util import timestamp_to_seconds
 
 PAGESIZE = 20
 
@@ -113,6 +114,18 @@ class SearchView(TemplateView):
                 pages.append('...')
             pages.append(Page(page+1, page_url(page*PAGESIZE), page==thispage))
         
+        error_info = self.request.redis_conn.hgetall(
+            "error_page:%s:%s" % (
+                self.request.mission.name,
+                'no_search_results',
+            )
+        )
+        error_quote = LogLine(
+            self.request.redis_conn,
+            self.request.mission.main_transcript,
+            timestamp_to_seconds(error_info['classic_moment_quote'])
+        )
+        
         return {
             'log_lines': log_lines,
             'result': results,
@@ -123,4 +136,8 @@ class SearchView(TemplateView):
             'debug': {
                 'query': query,
             },
+            'error': {
+                'info': error_info,
+                'quote': error_quote,
+            }
         }

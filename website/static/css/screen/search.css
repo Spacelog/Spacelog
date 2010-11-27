@@ -100,3 +100,39 @@
 .pagination a {
     margin:                 0 5px;
 }
+
+.error .speaker {
+    float:                  left;
+}
+.error blockquote {
+    font:                   18px Georgia, serif;
+    line-height:            28px;
+    margin:                 23px 0 20px 60px;
+    padding:                0 40px;
+    position:               relative;
+}
+.error blockquote:before,
+.error blockquote:after {
+    font-size:              72px;
+    height:                 28px;
+    margin-top:             0.11em;
+    position:               absolute;
+}
+.error blockquote:before {
+    content:                "“";
+    left:                   0;
+    top:                    0;
+}
+.error blockquote:after {
+    content:                "”";
+    bottom:                 -17px;
+    right:                  0;
+}
+.error .speaker {
+    -cp-contain:            easy;
+    margin:                 15px 0 20px;
+}
+.error .speaker img {
+/*    float:                  left;*/
+/*    margin-right:           10px;*/
+}

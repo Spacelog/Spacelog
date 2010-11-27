@@ -712,6 +712,10 @@
             "text": "Roger Aquarius, we are aware of the problem and our engineers are working on a solution.",
             "classic_moment": "\"Houston, we've had a problem\"",
             "classic_moment_quote": "02:07:55:35"
+        },
+        "no_search_results": {
+            "text": "Sorry about that. Incidentally, <a href=\"/00:00:22:11/\">Astronaut Fred Haise</a> once had the same problem:",
+            "classic_moment_quote": "00:00:22:11"
         }
     },
     "special_searches": {

@@ -3,6 +3,8 @@
 {% load missiontime %}
 {% load characters %}
 
+{% block title %}Search Results for &ldquo;{{ q }}&rdquo;{% endblock %}
+
 {% block content-class %}search{% endblock %}
 {% block content %}
     <form method='get' action=''>
@@ -12,17 +14,6 @@
 
     {% if log_lines %}
     <h1><span>Search </span>Results for &ldquo;{{ q }}&rdquo;</h1>
-    {% else %}
-    <h1>No <span>Search </span>results for &ldquo;{{ q }}&rdquo;</h1>
-    
-    <p>
-      Sorry about that. Incidentally, Astronaut Fed Haise once had the same
-      problem:
-    </p>
-    
-    
-    {% endif %}
-    <!-- {{ debug.query }} -->
     
     <ol id="results">
         {% for log_line in log_lines %}
@@ -66,4 +57,24 @@
         <a href='{{ next_page }}'>Next<span> page</span></a>
     {% endif %}
     </div>
+    {% else %}
+    <div class="error">
+    <h1>No <span>Search </span>results for &ldquo;{{ q }}&rdquo;</h1>
+    
+    <p>{{ error.info.text|safe }}</p>
+    
+    {% if error.quote.lines %}
+      {% for line in error.quote.lines %}
+      <img src="{{ line.0.avatar }}" width="48" height="48" alt="" class="speaker">
+    
+      <blockquote>
+        <a href="{% selection_url error.quote.timestamp %}"><p>{{ line.1 }}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></a>
+      </blockquote>
+    
+      {% endfor %}
+    {% endif %}
+    {% endif %}
+    </div>
+    <!-- {{ debug.query }} -->
+    
 {% endblock %}
