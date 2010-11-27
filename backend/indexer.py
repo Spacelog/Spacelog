@@ -101,7 +101,7 @@ class TranscriptIndexer(object):
             search_db.add(search_db.process(doc))
         except xappy.errors.IndexerError:
             print "umm, error"
-            print id, text, speakers
+            print id, lines
             raise
 
     def index(self):
