@@ -29,6 +29,7 @@ a:active {
 }
 
 /* Sunrise pages */
+.search,
 .people {
     background:             #000
                             url( /assets/img/base/sunrise.jpg )

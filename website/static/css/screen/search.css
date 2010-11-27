@@ -1,37 +1,56 @@
-#content.search {
-    padding:            40px;
+.search .wrapper {
+    background:             #232323;
+    border-top:             1px solid #2b2b2b;
+    margin:                 20px auto 30px;
+    padding:                80px 160px 50px;
+    position:               relative;
+    width:                  620px;
+    -cp-contain:            easy;
 }
 
-#content.search input[type=text] {
-    width:              500px;
-    margin-right:       20px;
-    font-size:          1.25em;
+.search input[type=text] {
+    background:             #333;
+    border:                 1px solid #999;
+    color:                  #ccc;
+    font-size:              18px;
+    margin-right:           20px;
+    padding:                6px 12px;
+    width:                  434px;
 }
 
-#content.search input[type=submit] {
-    border:                     none;
-    background-color:           #888;
-    color:                      white;
-    -webkit-border-radius:      8px;
-    -moz-border-radius:         8px;
-    border-radius:              8px;
-    padding:                    5px 10px;
+.search input[type=submit] {
+    border:                 none;
+    background-color:       #888;
+    color:                  white;
+    -webkit-border-radius:  8px;
+    -moz-border-radius:     8px;
+    border-radius:          8px;
+    padding:                5px 10px;
 }
 
-#content.search form {
-    margin-bottom:              30px;
+.search form {
+    margin-bottom:          30px;
 }
 
-#content.search h1 {
-    font-weight:                bold;
-    margin-bottom:              40px;
-       
+.search h1 {
+    font-weight:            bold;
+    font-size:              32px;
+    margin-bottom:          32px;
+}
+.search h1 span {
+    left:                   20px;
+    position:               absolute;
+    top:                    13px;
 }
 
 #results h2 {
     font-weight:            bold;
-    font-size:              1.25em;
+    font-size:              18px;
     margin-bottom:          .5em;
+}
+#results h2 img {
+    float:                  left;
+    margin-right:           10px;
 }
 
 #results blockquote p:before, #results blockquote p:after {
@@ -39,34 +58,45 @@
 }
 
 #results blockquote {
-    font-family:            serif;
+    font-family:            Georgia, serif;
+    font-size:              13px;
     font-style:             italic;
-    margin-bottom:          1em;
+    line-height:            18px;
+    margin-bottom:          5px;
 }
 
 #results dl {
+    font-size:              13px;
+    font-weight:            bold;
+    line-height:            18px;
 }
 
 #results li {
-    clear:           left;
-    margin-bottom:   50px;
-}
-
-#results li:after {
-    content:         ".";
-    clear:           left;
-    color:           white;
+    clear:                  left;
+    margin-bottom:          50px;
 }
 
 #results dt, 
 #results dd {
-    float:              left;
-    margin-right:       5px;
-    color:              gray;
+    float:                  left;
+    margin-right:           5px;
+    color:                  gray;
 }
 
 #results mark {
-    background-color:   yellow;
+    background-color:       #999;
+    color:                  #000;
 }
 
-
+.pagination {
+    float:                  right;
+    font-size:              13px;
+}
+.pagination a,
+.pagination ol,
+.pagination li {
+    float:                  left;
+}
+.pagination a {
+    margin:                 0 5px;
+}

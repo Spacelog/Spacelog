@@ -10,7 +10,18 @@
         <input type='submit' value='Search'>
     </form>
 
-    <h1>Results for &ldquo;{{ q }}&rdquo;</h1>
+    {% if log_lines %}
+    <h1><span>Search </span>Results for &ldquo;{{ q }}&rdquo;</h1>
+    {% else %}
+    <h1>No <span>Search </span>results for &ldquo;{{ q }}&rdquo;</h1>
+    
+    <p>
+      Sorry about that. Incidentally, Astronaut Fed Haise once had the same
+      problem:
+    </p>
+    
+    
+    {% endif %}
     <!-- {{ debug.query }} -->
     
     <ol id="results">
@@ -27,20 +38,20 @@
                 <dl>
                     <dt>Timestamp</dt>
                     <dd>
+                      <a href="{% selection_url log_line.timestamp %}">
                         <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
                             {{log_line.timestamp|mission_time_format}}
                         </time>
+                      </a>
                     </dd>
-                </dl>                
-                    
+                </dl>
             </li>
         {% endfor %}
     </ol>
 
+    <div class="pagination">
     {% if previous_page %}
-        <a href='{{ previous_page }}'>Previous page</a>
-    {% else %}
-        First page
+        <a href='{{ previous_page }}'>Previous<span> page</span></a>
     {% endif %}
 
     <ol>
@@ -52,8 +63,7 @@
     </ol>
 
     {% if next_page %}
-        <a href='{{ next_page }}'>Next page</a>
-    {% else %}
-        Last page
+        <a href='{{ next_page }}'>Next<span> page</span></a>
     {% endif %}
+    </div>
 {% endblock %}
