@@ -96,7 +96,7 @@
                 "text": "years of American Naval Service"
             }
           ],
-          "quotable_log_line_id": "TEC:211000"
+          "quotable_log_line_id": "TEC:00:00:01:07"
         },
         "LMP": {
           "role": "astronaut",
@@ -121,7 +121,7 @@
                 "text": "years of midnight"
             }
           ],
-          "quotable_log_line_id": "TEC:270695"
+          "quotable_log_line_id": "TEC:00:00:01:07"
         },
         "CMP": {
           "role": "astronaut",
@@ -146,7 +146,7 @@
                 "text": "facets of something"
             }
           ],
-          "quotable_log_line_id": "TEC:393690"
+          "quotable_log_line_id": "TEC:00:00:01:07"
         },
         "SC": {
           "role": "other",

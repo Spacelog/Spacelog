@@ -25,8 +25,8 @@ class TranscriptIndexer(object):
         search_db.add_field_action(
             "mission",
             xappy.FieldActions.INDEX_EXACT,
-            search_by_default=False,
-            allow_field_specific=False,
+            # search_by_default=False,
+            # allow_field_specific=False,
         )
         # don't think we need STORE_CONTENT actions any more
         search_db.add_field_action(

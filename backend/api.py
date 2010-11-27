@@ -312,7 +312,10 @@ class Character(object):
     def quotable_log_line(self):
         if not self.quotable_log_line_id:
             return None
-        transcript_name, timestamp = self.quotable_log_line_id.split(":")
+        transcript_name, timestamp = self.quotable_log_line_id.split(":", 1)
+        
+        parts = map(int, timestamp.split(":"))
+        timestamp = (parts[0] * 86400) + (parts[1] * 3600) + (parts[2] * 60) + parts[3]
         return LogLine(
             self.redis_conn,
             '%s/%s' % (self.mission_name, transcript_name), 
