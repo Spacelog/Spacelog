@@ -1,7 +1,7 @@
 from django.template import Template, Context, loader, NodeList, TemplateDoesNotExist
 from django.template.loader_tags import BlockNode
 from django.views.generic import TemplateView
-import simplejson
+from django.utils import simplejson
 
 class JsonTemplate(Template):
     def _render(self, context):
