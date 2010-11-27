@@ -1,25 +1,38 @@
+from django.http import Http404
 from django.shortcuts import render_to_response
 import redis
 from backend.api import Character
 
-def people(request):
+def people(request, role=None):
     redis_conn = redis.Redis()
-    astronauts = list(Character.Query( redis_conn, 'a13' ).role( 'astronaut' ))
-    mission_ops_titles = list(Character.Query( redis_conn, 'a13' ).role( 'mission_ops_title' ))
+    if role:
+        people = [
+            {
+                'name': role,
+                'members': list( Character.Query( redis_conn, 'a13' ).role( role ) ),
+            }
+        ]
+    else:
+        people = [
+            {
+                'name': 'Flight Crew',
+                'members': list(Character.Query( redis_conn, 'a13' ).role( 'astronaut' )),
+                'view': 'full'
+            },
+            {
+                'name': 'Mission Control',
+                'members': list(Character.Query( redis_conn, 'a13' ).role( 'mission-ops-title' )),
+                'view': 'simple'
+            }
+        ]
+    
+    # 404 if we have no content
+    if 1 == len(people) and 0 == len(people[0]['members']):
+        raise Http404( "No people were found" )
     return render_to_response(
         'people/people.html',
         {
-            'people': [
-                {
-                    'name': 'Flight Crew',
-                    'members': astronauts,
-                    'expanded_view': True
-                },
-                {
-                    'name': 'Mission Control',
-                    'members': mission_ops_titles,
-                    'expanded_view': False
-                }
-            ],
+            'role':   role,
+            'people': people,
         },
     )

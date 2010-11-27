@@ -13,19 +13,21 @@
 {% endif %}
   <h2>{{ group.name }}</h2>
   {% for person in group.members %}
-    {% if group.expanded_view %}
+    {% ifequal group.view "full" %}
       {% include "people/_person.html" %}
     {% else %}
       {% include "people/_simple_person.html" %}
-    {% endif %}
+    {% endifequal %}
   {% endfor %}
 {% if not forloop.last %}
 </div>
 {% endif %}
 {% endfor %}
 
+{% if not role %}
 <div class="more">
-  <a href="#TODO">View full Mission Control Team</a>
+  <a href="{% url people "mission-ops" %}">View full Mission Control Team</a>
 </div>
+{% endif %}
 
 {% endblock %}

@@ -2,12 +2,16 @@
 
 <div class="person" id="{{ person.short_name|slugify }}">
   <h3>
+    {% if person.photo %}
     <img src="{{ person.photo }}" alt=""
-         width="190" height="155">
+         width="{{ person.photo_width }}" height="{{ person.photo_height }}">
+    {% endif %}
     {{ person.name }}
   </h3>
 
+  {% if person.bio %}
   <p>
     {{ person.bio }}
   </p>
+  {% endif %}
 </div>

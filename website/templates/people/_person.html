@@ -3,7 +3,7 @@
 <div class="person" id="{{ person.short_name|slugify }}">
   <h3>
     <img src="{{ person.photo }}" alt=""
-         width="190" height="205">
+         width="{{ person.photo_width }}" height="{{ person.photo_height }}">
     {{ person.name }}
   </h3>
 
@@ -11,6 +11,7 @@
     {{ person.bio }}
   </p>
   
+  {% if person.stats or person.quotable_log_line %}
   <h4>{{ person.short_name }} in numbers and words</h4>
   
   {% if person.stats %}
@@ -21,6 +22,7 @@
   </ul>
   {% endif %}
   
+  {% if person.quotable_log_line %}
   <div class="quote">
     <blockquote>
       {% for speaker, line in person.quotable_log_line.lines %}
@@ -33,4 +35,6 @@
       <a href="{% selection_url person.quotable_log_line.timestamp %}">See this quote <span>by {{ person.short_name }}</span> in the transcript</a>
     </cite>
   </div>
+  {% endif %}
+  {% endif %}
 </div>
