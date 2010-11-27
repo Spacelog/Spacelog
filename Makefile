@@ -12,6 +12,7 @@ all: reindex productioncss
 reindex: $(indexer)
 	rm -rf xappydb
 	python -m backend.indexer
+	python -m backend.stats_porn
 
 productioncss:	$(website_screen_css) $(global_screen_css)
 

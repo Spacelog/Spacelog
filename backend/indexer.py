@@ -3,7 +3,7 @@ import redis
 import xappy
 
 from backend.parser import TranscriptParser, MetaParser
-from backend.api import Act, KeyScene, Character, Glossary
+from backend.api import Act, KeyScene, Character, Glossary, LogLine
 
 search_db = xappy.IndexerConnection(
     os.path.join(os.path.dirname(__file__), '..', 'xappydb'),

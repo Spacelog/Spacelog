@@ -302,6 +302,15 @@ class Act(NarrativeElement):
         self.banner = self.data.get("banner", None)
         self.banner_class = self.data.get("banner_class", None)
 
+        stats_data = self.redis_conn.hgetall("%s:%s:stats" % (self.noun, self.id))
+        if stats_data:
+            self.has_stats = True
+            self.stats_image_map = stats_data['image_map']
+            self.stats_image_map_id = stats_data['image_map_id']
+            self.stats_image = stats_data['image']
+        else:
+            self.has_stats = False
+        
     class Query(NarrativeElement.Query):
         all_key_pattern = "acts:%(mission_name)s"
 

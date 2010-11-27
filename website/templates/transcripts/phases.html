@@ -12,6 +12,11 @@
     <p>{{ act.start|mission_time_format }} to {{ act.end|mission_time_format }}</p>
     <p>{{ act.description }}</p>
     <p><a href="{% timestamp_to_url act.start %}">Read the transcript…</a></p>
+
+    {% if act.has_stats %}
+      {{ act.stats_image_map|safe }}
+      <img src='{{ act.stats_image }}' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
+    {% endif %}
   {% endfor %}
 
 {% endblock %}
