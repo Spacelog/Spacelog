@@ -87,7 +87,10 @@ def sterilize_token(token):
     return tempToken
 
 def get_seconds_from_mission_start(line):
-    values =  line.raw.split(u" ");
+    return translate_timestamp_to_seconds_from_mission_start(line.raw)
+
+def translate_timestamp_to_seconds_from_mission_start(timestamp):
+    values =  timestamp.split(u" ");
     days = int(sterilize_token(values[0]))
     hours = int(sterilize_token(values[1]))
     minutes = int(sterilize_token(values[2]))

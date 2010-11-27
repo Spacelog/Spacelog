@@ -18,9 +18,8 @@ urlpatterns = patterns('',
     url(r'^phases/$', PhasesView.as_view(), name="phases"),
     url(r'^search/$', SearchView.as_view(), name="search"),
     url(r'^people/$', 'people.views.people', name="people"),
-    url(r'^404/$', TemplateView.as_view(template_name="404.html")),
     url(r'^people/(?P<role>[-_\w]+)/$', 'people.views.people', name="people"),
-    url(r'^glossary/$', 'glossary.views.glossary', name="glossary"),
+    url(r'^glossary/$', 'glossary.views.glossary', name="glossary"),   
 )
 
 if settings.DEBUG: # pragma: no cover

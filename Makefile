@@ -6,6 +6,9 @@ webserver_port   ?= 8000
 
 all: reindex productioncss
 
+mcshred: 
+	python mcshred/src/MCShred.py /home/assets/transcripts/apollo13/AS13_TEC/0_CLEAN/ 8 transcripts/a13/TEC
+
 reindex: $(indexer)
 	rm -rf xappydb
 	python -m backend.indexer
