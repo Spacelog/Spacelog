@@ -299,6 +299,7 @@ class Character(object):
         self.name                 = data['name']
         self.short_name           = data['short_name']
         self.role                 = data['role']
+        self.mission_position     = data.get('mission_position', '')
         self.avatar               = data['avatar']
         self.bio                  = data.get('bio', None)
         self.photo                = data.get('photo', None)
