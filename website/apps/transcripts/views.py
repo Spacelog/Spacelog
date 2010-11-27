@@ -1,8 +1,9 @@
-from django.views.generic import TemplateView
 from django.http import Http404
+from website.apps.common.template import JsonTemplateView
 from backend.api import LogLine, Act
+from django.views.generic import TemplateView
 
-class TranscriptView(TemplateView):
+class TranscriptView(JsonTemplateView):
     """
     Base view for all views which deal with transcripts.
     Provides some nice common functionality.
