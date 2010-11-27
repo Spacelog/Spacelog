@@ -4,6 +4,7 @@ try:
     import json
 except ImportError:
     import simplejson as json
+from backend.util import timestamp_to_seconds
 
 class TranscriptParser(object):
     """
@@ -49,8 +50,7 @@ class TranscriptParser(object):
                 try:
                     timestamp = int(line[1:].split("]")[0])
                 except ValueError:
-                    parts = map(int, line[1:].split("]")[0].split(":", 3))
-                    timestamp = (parts[0] * 86400) + (parts[1] * 3600) + (parts[2] * 60) + parts[3]
+                    timestamp = timestamp_to_seconds(line[1:].split("]")[0])
                 if current_chunk:
                     yield current_chunk
                 # Start a new log line item
