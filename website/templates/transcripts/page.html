@@ -32,12 +32,12 @@
         </a>
       </dt>
       <dt class='speaker {% if log_line.highlighted %}highlighted{% endif %}'>
-        <img src='http://img.fort/32x32.png' alt='{{speaker}}' 
-            width='32' height='32'>
-        {{speaker}}
+        <img src='http://img.fort/48x48.png' alt='{{speaker}}' 
+            width='48' height='48'>
+        <span>{{speaker}}</span>
       </dt>
       <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1%}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}'>
-      {{text|linkify|safe}}
+      <p>{{text|linkify|safe}}</p>
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
           <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}'>Expand selection up</a>
         {% endif %}

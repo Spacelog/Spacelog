@@ -4,18 +4,32 @@
 
 */
 
+#transcript dt {
+    padding-top:            0;
+    margin-top:             20px;
+    height:                 48px;
+    display:                table;
+}
+
+#transcript dt span,
+#transcript dt a {
+    display:                table-cell;
+    vertical-align:         middle;
+}
+
+
 #transcript dt.time {
     // position
     float:                  left;
     line-height:            32px;
-    margin-right:           20px;
-    width:                  140px;
+    width:                  80px;
     
     // style
-    display:                table-cell;
     text-align:             center;
 }
 #transcript time {
+    display:                table-cell;
+    
     font-size:              24px;
     line-height:            32px;
     font-family:            'League Gothic',
@@ -32,12 +46,24 @@
 }
 
 #transcript dt.speaker {
+    padding-left:           70px;
     float:                  left;
+    display:                table;
+    width:                  70px;
+    height:                 48px;
+}
+#transcript dt.speaker span {
+    color:                  #999;
+    font-size:              12px;
+    display:                table-cell;
+    vertical-align:         middle;
+}
+#transcript dt.speaker img {
+    margin-left:            -58px;
+    float:                  left;
+    display:                block;
 }
 
-#transcript dt {
-    padding-top:            20px;
-}
 
 #transcript dd {
     padding-top:            24px;
@@ -51,7 +77,9 @@
     border-bottom:          1px solid #ddd;
     -cp-contain:            easy;
 }
-
+#transcript dd p {
+    padding-top:            6px;
+}
 #content.with-highlight #transcript dd {
     border-bottom:          1px solid #858585;
 }
@@ -70,6 +98,7 @@
     -cp-border-bottom-right-radius: 5px;
     border-bottom:                  none;
 }
+
 
 p.load-more {
     margin-top:             10px;
@@ -105,6 +134,7 @@ p.load-more a:hover,
 p.load-more a:focus {
     -webkit-box-shadow:     #222 0 2px 4px,
                             #ccc 0 0 10px inset;
+
     -moz-box-shadow:        #222 0 2px 4px,
                             #ccc 0 0 10px inset;
 }
