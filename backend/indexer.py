@@ -24,7 +24,7 @@ class TranscriptIndexer(object):
     Parses a file and indexes it.
     """
 
-    LINES_PER_PAGE = 20
+    LINES_PER_PAGE = 50
 
     def __init__(self, redis_conn, mission_name, transcript_name, parser):
         self.redis_conn = redis_conn
