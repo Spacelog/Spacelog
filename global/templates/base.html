@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}SET THE TITLE{% endblock %}</title>
+  <link rel="stylesheet" href="/assets/css/screen.css" media="screen">
+</head>
+<body>
+
+<div id='content' class='{% block content-class %}{% endblock %}'><div class="wrapper">
+{% block content %}{% endblock %}
+</div></div>
+
+</body>
+</html>

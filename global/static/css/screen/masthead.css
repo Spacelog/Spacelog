@@ -1,0 +1,60 @@
+/* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*- */
+
+#masthead {
+    background:             #232323;
+}
+#masthead .wrapper {
+    padding-top:            10px;
+    padding-bottom:         10px;
+    -cp-contain:            easy;
+}
+#masthead h1 {
+    // style the text
+    color:                  white;
+    font-family:            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
+    font-size:              30px;
+    line-height:            0.95;
+    text-transform:         uppercase;
+    
+    // position in the grid
+    float:                  left;
+    margin-right:           20px;
+    width:                  220px;
+}
+#masthead h1 em {
+    color:                   #f8b334;
+}
+
+#masthead nav ul {
+    // position in the grid
+    width:                  540px;
+    margin-right:           20px;
+    float:                  left;
+}
+#masthead nav li {
+    float:                  left;
+}
+#masthead li a {
+    color:                  #999;
+    text-decoration:        none;
+    margin-right:           20px;
+    text-transform:         uppercase;
+    
+    // 16px to 30px is 1.875
+    line-height:            1.875;
+}
+
+#masthead form {
+    float:                  left;
+    width:                  140px;
+}
+#masthead input {
+    background:             black;
+    border:                 none;
+    -cp-border-radius:      5px;
+    width:                  140px;
+    color:                  white;
+}

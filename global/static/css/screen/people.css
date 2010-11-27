@@ -1,0 +1,131 @@
+.people {
+    padding-top:            20px;
+}
+.people .wrapper {
+    width:                  960px;
+}
+.people .wrapper,
+.people .group {
+    -cp-contain:            easy;
+}
+.people a {
+    color:                  #009bc1;
+}
+
+/* TODO: Do we want these in the page? Do we use them elsewhere? */
+.people h1,
+.people h2,
+.people h4,
+.person .quote cite span {
+    left:                   -999em;
+    position:               absolute;
+}
+
+.person,
+.people .more a {
+    float:                  left;
+    margin-bottom:          30px;
+    padding:                10px;
+    width:                  300px;
+}
+.group .person:nth-last-child( +2 ) {
+    float:                  left;
+}
+.person:nth-last-child( +2 ) {
+    float:                  right;
+}
+.person:target {
+    background:             #333;
+    border-radius:          5px;
+    padding:                9px;
+}
+
+.people .more a {
+    font:                   36px 'League Gothic', sans-serif;
+    padding:                50px 80px;
+    text-align:             center;
+    text-transform:         uppercase;
+    width:                  160px;
+}
+
+.person h3 {
+    font-weight:            bold;
+    margin-bottom:          25px;
+    text-align:             center;
+}
+.person h3 img {
+    border:                 10px solid #fff;
+    display:                block;
+    margin:                 0  auto 20px;
+}
+.person p {
+    font-size:              13px;
+    line-height:            18px;
+}
+.person .quote p {
+    font-size:              inherit;
+    line-height:            inherit;
+}
+
+.person .stats {
+    margin:                40px 0;
+    -cp-contain:            easy;
+}
+.person .stats li:first-child {
+    border-bottom:          1px solid #fff;
+    font-size:              32px;
+    font-weight:            bold;
+    margin-bottom:          5px;
+    padding-bottom:         3px;
+}
+.person .stats .secondary {
+    float:                  left;
+    font-size:              13px;
+    padding:                0 10px 0 70px;
+    width:                  50px;
+}
+.person .stats .secondary em {
+    color:                  #e5352d;
+    float:                  left;
+    font:                   50px 'League Gothic', sans-serif;
+    margin-left:            -60px;
+    text-align:             center;
+    width:                  60px;
+}
+.person .stats .alt {
+    border-left:            1px solid #fff;
+    margin-left:            9px;
+}
+
+.person .quote {
+    margin:                40px 0 0;
+    text-align:            center;
+}
+.person .quote blockquote {
+    font:                   18px Georgia, serif;
+    line-height:            28px;
+    margin-bottom:          20px;
+    padding:                0 40px;
+    position:               relative;
+}
+.person .quote blockquote:before,
+.person .quote blockquote:after {
+    font-size:              72px;
+    height:                 28px;
+    margin-top:             0.11em;
+    position:               absolute;
+}
+.person .quote blockquote:before {
+    content:                "“";
+    left:                   0;
+    top:                    0;
+}
+.person .quote blockquote:after {
+    content:                "”";
+    bottom:                 -17px;
+    right:                  0;
+}
+
+.person .quote a {
+    font-size:              11px;
+}

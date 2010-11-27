@@ -1,0 +1,30 @@
+<VirtualHost *:80>
+	ServerName artemis.fort
+	
+	Alias /assets /home/df-artemis/releases/current/website/static
+
+	DocumentRoot /var/www
+
+	<Directory /home/df-artemis>
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+
+	<Directory /home/df-artemis/releases/current/website/static>
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	WSGIDaemonProcess artemis-staging user=df-artemis group=df-artemis processes=5 threads=10 maximum-requests=1000
+	WSGIProcessGroup artemis-staging
+	
+	WSGIScriptAlias / /home/df-artemis/releases/current/website/configs/staging/website.wsgi
+	<Directory /home/df-artemis/releases/current/website/configs/staging>
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	ErrorLog /var/log/apache2/artemis/error.log
+	LogLevel warn
+	CustomLog /var/log/apache2/artemis/access.log combined
+</VirtualHost>

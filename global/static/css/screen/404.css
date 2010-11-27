@@ -1,0 +1,46 @@
+#content.not_found {
+    padding-top:                140px;
+    padding-left:               208px;
+    background-color:           black;
+    background-image:           url(/assets/img/base/moonheader.jpg);
+    background-position:        top center;
+    background-repeat:          no-repeat;
+}
+
+.not_found .wrapper {
+    margin-left:                122px;
+}
+
+#content.not_found h1, 
+#content.not_found h2, 
+#content.not_found p {
+    color:                      white;
+}
+
+#content.not_found h1, 
+#content.not_found h2 {
+    font-family:               'League Gothic',
+                               'Helvetica Neue Condensed',
+                               'Arial',
+                               sans-serif;
+    text-transform:            uppercase;
+    width:                     260px;
+}
+
+#content.not_found h1 {
+    font-size:                 5em;
+    line-height:               .9em;
+    margin-bottom:             15px;
+}
+
+#content.not_found h2 {
+    font-size:                 2em;
+    margin-bottom:             40px;
+}
+
+#content.not_found p {
+    width:                     380px;
+    margin-bottom:             15px;
+    
+}
+
