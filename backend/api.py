@@ -377,7 +377,7 @@ class Glossary(object):
         self.description = data['description']
         self.abbr        = data['abbr']
         self.key         = self.id
-        self.times_mentioed = data['times_mentioned']
+        self.times_mentioned = data['times_mentioned']
 
     def links(self):
         # Fetch all the IDs
