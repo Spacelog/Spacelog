@@ -129,20 +129,33 @@
     float:                  left;
     margin-right:           20px;
 }
+#phases li em {
+    min-width:              200px;
+    display:                block;
+}
 #phases .prev,
 #phases a[rel=prev] {
     padding-left:           50px;
+}
+#phases a[rel=prev] {
     background:             transparent
                             url(/assets/img/base/act_prev.png)
                             no-repeat
                             0% 50%;
 }
+#phases .next,
 #phases a[rel=next] {
     padding-right:          50px;
+}
+#phases a[rel=next] {
     background:             transparent
                             url(/assets/img/base/act_next.png)
                             no-repeat
                             100% 50%;
+}
+#phases .next,
+#phases .prev {
+    color:                  #333;
 }
 
 p.load-more {
