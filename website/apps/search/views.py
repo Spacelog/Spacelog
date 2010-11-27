@@ -42,7 +42,7 @@ class SearchView(TemplateView):
         query=db.query_filter(
             query,
             # FIXME: mission-specific filter!
-            xapian.Query(db._field_mappings.get_prefix("mission") + "a13"),
+            xapian.Query(db._field_mappings.get_prefix("mission") + self.request.mission.name),
         )
         results = db.search(
             query=query,
