@@ -1,7 +1,6 @@
 from django.views.generic import TemplateView
 from django.http import Http404
 from backend.api import LogLine, Act
-import redis
 
 class TranscriptView(TemplateView):
     """
@@ -9,30 +8,33 @@ class TranscriptView(TemplateView):
     Provides some nice common functionality.
     """
 
-    def __init__(self):
-        self.redis_conn = redis.Redis()
-
     def parse_mission_time(self, mission_time):
         "Parses a mission timestamp from a URL and converts it to a number of seconds"
         d, h, m, s = [ int(x) for x in mission_time.split(':') ]
         return s + m*60 + h*3600 + d*86400
 
     def log_line_query(self):
-        return LogLine.Query(self.redis_conn, 'a13')
+        return LogLine.Query(self.request.redis_conn, self.request.mission.name)
 
     def act_query(self):
-        return Act.Query(self.redis_conn, 'a13')
+        return Act.Query(self.request.redis_conn, self.request.mission.name)
+
+    def main_transcript_query(self):
+        return self.log_line_query().transcript(self.request.mission.main_transcript)
+
+    def media_transcript_query(self):
+        return self.log_line_query().transcript(self.request.mission.media_transcript)
 
     def log_lines(self, start_page, end_page):
         "Returns the log lines and the previous/next timestamps, with images mixed in."
         # Collect the log lines
         log_lines = []
         for page in range(start_page, end_page+1):
-            log_lines += list(self.log_line_query().transcript('a13/TEC').page(page))
+            log_lines += list(self.main_transcript_query().page(page))
         for log_line in log_lines:
             log_line.images = list(log_line.images())
         # Find all media that falls inside this same range, and add it onto the preceding line.
-        for image_line in self.log_line_query().transcript('a13/MEDIA').range(log_lines[0].timestamp, log_lines[-1].timestamp):
+        for image_line in self.media_transcript_query().range(log_lines[0].timestamp, log_lines[-1].timestamp):
             # Find the line just before the images
             last_line = None
             for log_line in log_lines:
@@ -43,7 +45,7 @@ class TranscriptView(TemplateView):
             last_line.images += image_line.images()
         # Find the previous log line from this, and then the beginning of its page
         try:
-            previous_timestamp = self.log_line_query().transcript('a13/TEC').page(start_page - 1).first().timestamp
+            previous_timestamp = self.main_transcript_query().page(start_page - 1).first().timestamp
         except ValueError:
             previous_timestamp = None
         # Find the next log line and its timestamp
@@ -59,10 +61,9 @@ class TranscriptView(TemplateView):
         else:
             timestamp = self.parse_mission_time(timestamp)
         try:
-            closest_log_line = self.log_line_query().transcript("a13/TEC").first_after(timestamp)
+            closest_log_line = self.main_transcript_query().first_after(timestamp)
         except ValueError:
             raise Http404("No log entries match that timestamp.")
-        print timestamp, closest_log_line
         return closest_log_line.page
 
 
@@ -107,7 +108,7 @@ class RangeView(PageView):
         if "end" in self.kwargs:
             end = self.parse_mission_time(self.kwargs['end'])
         else:
-            end = self.log_line_query().transcript("a13/TEC").first_after(start).timestamp
+            end = self.main_transcript_query().first_after(start).timestamp
 
         highlight_index = 0
         for log_line in log_lines:
@@ -140,7 +141,6 @@ class PhasesView(TranscriptView):
     template_name = 'transcripts/phases.html'
     
     def get_context_data(self):
-        redis_conn = redis.Redis()
         return {
             'acts': list(self.act_query().items()),
         }

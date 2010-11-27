@@ -25,8 +25,8 @@ class TranscriptIndexer(object):
         search_db.add_field_action(
             "mission",
             xappy.FieldActions.INDEX_EXACT,
-            # search_by_default=False,
-            # allow_field_specific=False,
+            #search_by_default=False,
+            #allow_field_specific=False,
         )
         # don't think we need STORE_CONTENT actions any more
         search_db.add_field_action(
@@ -101,7 +101,7 @@ class TranscriptIndexer(object):
         current_page_lines = 0
         last_act = None
         previous_log_line_id = None
-        launch_time = int(self.redis_conn.get("launch_time:%s" % self.mission_name))
+        launch_time = int(self.redis_conn.hget("mission:%s" % self.mission_name, "utc_launch_time"))
         acts = list(Act.Query(self.redis_conn, self.mission_name))
         glossary_items = dict([
             (item.identifier.lower(), item) for item in
@@ -238,7 +238,15 @@ class MetaIndexer(object):
     def index(self):
         meta = self.parser.get_meta()
 
-        self.redis_conn.set("launch_time:%s" % self.mission_name, meta['utc_launch_time'])
+        self.redis_conn.hmset(
+            "mission:%s" % self.mission_name,
+            {
+                "utc_launch_time": meta['utc_launch_time'],
+                "title": meta['title'],
+                "main_transcript": meta['main_transcript'],
+                "media_transcript": meta['media_transcript'],
+            }
+        )
 
         self.index_narative_elements(meta)
         self.index_glossary(meta)

@@ -395,3 +395,18 @@ class Glossary(object):
 
         def _key_to_instance(self, key):
             return Glossary(self.redis_conn, self.mission_name, key)
+
+
+class Mission(object):
+
+    def __init__(self, redis_conn, name):
+        self.redis_conn = redis_conn
+        self.name = name
+        self._load()
+
+    def _load(self):
+        data = self.redis_conn.hgetall("mission:%s" % self.name)
+        self.title = data['title']
+        self.main_transcript = data['main_transcript']
+        self.media_transcript = data['media_transcript']
+

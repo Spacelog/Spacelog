@@ -1,4 +1,8 @@
 {
+    "name": "a13",
+    "title": "Apollo 13",
+    "main_transcript": "a13/TEC",
+    "media_transcript": "a13/MEDIA",
     "utc_launch_time": 8709180,
     "acts" : [
         {
