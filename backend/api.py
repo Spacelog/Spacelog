@@ -98,6 +98,9 @@ class LogLine(object):
     def act(self):
         return Act(self.redis_conn, self.mission_name, self.act_number)
 
+    def first_in_act(self):
+        return LogLine.Query(self.redis_conn, self.mission_name).first_after(self.act().start).timestamp == self.timestamp
+
     def images(self):
         "Returns any images associated with this LogLine."
         image_ids = self.redis_conn.lrange("log_line:%s:images" % self.id, 0, -1)
@@ -242,6 +245,7 @@ class Act(object):
         self.end = int(data['end'])
         self.title = data['title']
         self.description = data['description']
+        self.banner = data.get("banner", None)
         self.data = data
 
     def __repr__(self):

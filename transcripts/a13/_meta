@@ -4,27 +4,32 @@
         {
             "title": "Launch",
             "description": "Leaving the earth!",
-            "range": [-20, 720]
+            "range": [-20, 720],
+            "banner": "phase1.png"
         },
         {
             "title": "Earth orbit",
             "description": "The rocket go boom. Sadface.",
-            "range": [720, 9720]
+            "range": [720, 9720],
+            "banner": "phase2.png"
         },
         {
             "title": "To the Moon",
             "description": "",
-            "range": [9720, 286020]
+            "range": [9720, 286020],
+            "banner": "phase3.png"
         },
         {
             "title": "Towards Earth",
             "description": "",
-            "range": [286020, 508620]
+            "range": [286020, 508620],
+            "banner": "phase4.png"
         },
         {
             "title": "Re-entry",
             "description": "",
-            "range": [508620, 513516]
+            "range": [508620, 513516],
+            "banner": "phase5.png"
         },
         {
             "comment": "end point (514521) is one second after the 'end of mission' marker, which is after all end photos",

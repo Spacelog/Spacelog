@@ -25,6 +25,9 @@
 
   <dl id='transcript'>
   {% for log_line in log_lines %}
+    {% if log_line.first_in_act %}
+      <img class="act-banner" src="/assets/img/acts/a13/{{ log_line.act.banner }}">
+    {% endif %}
     {% for speaker, text in log_line.lines %}
     <div id="log-line-{{ log_line.timestamp }}">
       <dt class='time {% if log_line.highlighted %}highlighted {% endif %}'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
