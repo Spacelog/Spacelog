@@ -13,7 +13,7 @@ def avatar_and_name(speaker, timestamp=None):
         current_speaker = speaker
 
     detail = """
-      <img src='%(avatar)s' alt='%(short_name)s' width='48' height='48'>
+      <img src='%(avatar)s' alt='' width='48' height='48'>
       <span>%(short_name)s</span>
     """ % {"avatar": current_speaker.avatar, "short_name": current_speaker.short_name}
 
