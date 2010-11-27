@@ -171,7 +171,7 @@ def get_formatted_record_for(line):
     global last_page, last_tape
     if validate_line(line):
         lines = []
-        lines.append(u"\n[%d]\n" % line.seconds_from_mission_start)
+        lines.append(u"\n[%s]\n" % get_timestamp_as_mission_time(line))
         if line.page != last_page:
             lines.append(u"_page : %d\n" % line.page)
             last_page = line.page
@@ -191,7 +191,7 @@ def check_lines_are_in_sequence(lines):
     currentTime = -20000000
     for line in lines:
         if line.seconds_from_mission_start < currentTime:
-            errors.append("Line out of Sync error at %d seconds from mission start" %line.seconds_from_mission_start)
+            errors.append("Line out of Sync error at %s" % get_timestamp_as_mission_time(line))
             print(get_formatted_record_for(line))
         currentTime = line.seconds_from_mission_start
 
@@ -223,6 +223,15 @@ def amalgamate_lines_by_timestamp(lines):
     amalgamated_lines.append(last_line)
 
     return amalgamated_lines
+
+def get_timestamp_as_mission_time(line):
+    sec = line.seconds_from_mission_start
+    days = sec // 86400
+    hours = (sec // 3600) % 24
+    minutes = (sec // 60) % 60
+    seconds = sec % 60
+    
+    return "%02d:%02d:%02d:%02d" % (days, hours, minutes, seconds)
 
 class LogLine:
     def __init__(self, pageNumber, tapeNumber, rawLine):
