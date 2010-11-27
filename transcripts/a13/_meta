@@ -19,19 +19,19 @@
         {
             "title": "Earth orbit",
             "description": "The rocket go boom. Sadface.",
-            "range": ["00:00:12:00", "00:02:42:00"],
+            "range": ["00:00:12:00", "00:02:41:00"],
             "banner": "phase2.png"
         },
         {
             "title": "To the Moon",
             "description": "",
-            "range": ["00:02:42:00", "03:07:27:00"],
+            "range": ["00:02:41:00", "03:07:27:00"],
             "banner": "phase3.png"
         },
         {
             "title": "Towards Earth",
             "description": "",
-            "range": ["03:07:27:00", "05:21:17:00"],
+            "range": ["03:07:27:00", "05:17:23:00"],
             "banner": "phase4.png"
         },
         {
