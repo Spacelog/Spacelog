@@ -1,15 +1,15 @@
 from django.shortcuts import render_to_response
-import redis
+from django.template import RequestContext
 from backend.api import Glossary
 
 
 def glossary(request):
-    redis_conn = redis.Redis()
-    terms      = list( Glossary.Query( redis_conn, 'a13' ).items() )
+    terms = list( Glossary.Query(request.redis_conn, request.mission.name).items() )
     
     return render_to_response(
         'glossary/glossary.html',
         {
             'terms': terms,
-        }
+        },
+        context_instance = RequestContext(request),
     )
