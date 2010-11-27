@@ -369,7 +369,7 @@ class MetaIndexer(object):
     def index_special_searches(self, meta):
         "Indexes things that in no way sound like 'feaster legs'."
         for search, value in meta.get('special_searches', {}).items():
-            self.redis_conn.set("special_search:%s" % search, value)
+            self.redis_conn.set("special_search:%s:%s" % (self.mission_name, search), value)
 
     def index_errors(self, meta):
         "Indexes error page info"
