@@ -14,11 +14,14 @@ class HomepageView(TemplateView):
         quote_timestamp = self.request.redis_conn.srandmember(
             "mission:%s:homepage_quotes" % self.request.mission.name,
         )
-        quote = LogLine(
-            self.request.redis_conn,
-            self.request.mission.main_transcript,
-            int(timestamp_to_seconds(quote_timestamp)),
-        )
+        if quote_timestamp:
+            quote = LogLine(
+                self.request.redis_conn,
+                self.request.mission.main_transcript,
+                int(timestamp_to_seconds(quote_timestamp)),
+            )
+        else:
+            quote = None
         return {
             "acts": acts,
             "quote": quote,

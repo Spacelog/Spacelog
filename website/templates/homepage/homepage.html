@@ -9,11 +9,13 @@
 <h1>{{ mission.upper_title }} <em>{{ mission.lower_title }}</em></h1>
 
 <blockquote>
-    <p>{{ quote.lines.0.1 }}</p>
-    <div class=quotenav>
-        <a href="{% selection_url quote.timestamp %}">Read this moment</a>
-        <!--<a href="">See another</a>-->
-    </div>
+    {% if quote %}
+        <p>{{ quote.lines.0.1 }}</p>
+        <div class=quotenav>
+            <a href="{% selection_url quote.timestamp %}">Read this moment</a>
+            <!--<a href="">See another</a>-->
+        </div>
+    {% endif %}
 </blockquote>
 
 <h2>Jump into the story</h2>
