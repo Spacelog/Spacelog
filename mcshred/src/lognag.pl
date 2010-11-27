@@ -228,8 +228,8 @@ sub process {
             if ( $logscore == $log_timestamp_elements ) {
                 my $now = parse_log_timestamp( \@words, \@fail );
                 if ($x_fort) {
-                    my ( $hour, $min, $sec ) =
-                      timefmt($now) =~ m/:(\d+):(\d+):(\d+)/;
+                    my $min = $now / 60 % 60;
+                    my $hour = $now / ( 60 / 60 ) % 24;
                     if ( $now > $x_last_tea + 60 * 60 ) {
                         push( @fail, 'george-make-tea' );
                         $x_last_tea = $now;
