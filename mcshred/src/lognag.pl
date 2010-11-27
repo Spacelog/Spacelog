@@ -9,13 +9,14 @@ use Data::Dumper;
 use Getopt::Std;
 
 my %opt;
-if ( !getopts( 'ho:t:vIT', \%opt ) || $opt{h} || !@ARGV ) {
+if ( !getopts( 'f:ho:t:vIT', \%opt ) || $opt{h} || !@ARGV ) {
     print "Usage: lognag.pl [files]
+-f regex : Only check for failures of type 'regex'
       -h : This help
       -T : Search and report on inline timestamps
       -I : Search and report on invalid inline timestamps
+  -t num : Number of timestamp elements in log lines (default 4)
   -o dir : Write valid output to files in 'dir'
--t regex : Only check for failures of type 'regex'
       -v : Verbose. Make editorially biased comments regarding the speakers
 eg:
    ./lognag.pl AS13_TEC/0_CLEAN/[0-9]*.txt
@@ -27,7 +28,8 @@ lognag will sort files on the commandline by filename, excluding directory compo
 
 my %valid_speaker = map { $_ => 1 }
   qw( AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music);
-my $last = -60 * 60;    # Allow for up to T minus 1 hour
+my $last = -60 * 60;                     # Allow for up to T minus 1 hour
+my $timestamp_elements = $opt{t} || 4;
 my %badfiles;
 my %speakers;
 my $total_fail;
@@ -39,13 +41,13 @@ sub process {
     open( FILE, "<$file" ) || die("Unable to open $file: $!");
     while ( my $line = <FILE> ) {
         my @fail;
-        my @words    = split( ' ', $line );
+        my @words    = split( ' ', $line, $timestamp_elements + 2 );
         my $logscore = 0;
         my $fix      = 0;
         my $txt      = $line;
 
-        if ( @words > 4 ) {
-            foreach my $i (qw(0 1 2 3)) {
+        if ( @words > $timestamp_elements ) {
+            for ( my $i = 0 ; $i < $timestamp_elements ; ++$i ) {
                 if ( $words[$i] =~ /^[a-zA-Z']{3,}[.,]?$/ ) {
                     $logscore -= 2;
                     next;
@@ -59,36 +61,29 @@ sub process {
                 if   ($i) { ++$logscore if $words[$i] =~ /^\d{2}$/; }
                 else      { ++$logscore if $words[$i] =~ /^-?\d{2}$/; }
             }
-            my $speaker = $words[4];
+            my $speaker = $words[$timestamp_elements];
             $speaker = 'Music' if $speaker =~ /^\(Music/;
-            if ( $logscore > 3 ) {
+            if ( $logscore && $logscore > $timestamp_elements - 1 ) {
                 my @speakers =
                   grep( !$valid_speaker{$_}, split( '/', $speaker ) );
                 push( @fail, 'imposter:' . join( ',', @speakers ) )
                   if @speakers;
             }
-            if ( $logscore == 4 ) {
-                push( @fail, 'badday' )  if $words[0] > 5;
-                push( @fail, 'badhour' ) if $words[1] > 24;
-                push( @fail, 'badmin' )  if $words[2] > 60;
-                push( @fail, 'badsec' )  if $words[3] > 60;
-                if ( !@fail ) {
-                    my $now =
-                      $words[0] * 24 * 60 * 60 +
-                      $words[1] * 60 * 60 +
-                      $words[2] * 60 +
-                      $words[3];
-                    push( @fail, "timewarp:$last" ) if $now < $last;
+            if ( $logscore == $timestamp_elements ) {
+                my $now = parse_log_timestamp( \@words, \@fail );
+                if ( defined $now ) {
+                    push( @fail, 'timewarp:' . timefmt($last) ) if $now < $last;
                     $last = $now;
-                    foreach my $spkr ( split( '/', $speaker ) ) {
-                        ++$speakers{$spkr}[ $words[0] ];
-                    }
                 }
-                $txt =~ s/(\S+\s*){5}//;
+                foreach my $spkr ( split( '/', $speaker ) ) {
+                    ++$speakers{$spkr}[ $words[0] ];
+                }
+                $txt = $words[ $timestamp_elements + 1 ];
             }
         }
 
-        if ( ( $logscore > 1 && $logscore < 4 ) || ( $fix && $logscore == 4 ) )
+        if (   ( $logscore > 1 && $logscore < $timestamp_elements )
+            || ( $fix && $logscore == $timestamp_elements ) )
         {
             push( @fail, "badlog" );
         }
@@ -98,7 +93,8 @@ sub process {
             my @timestamps =
               $txt =~ /(?<![Mm]inus )\d+:\d\d(?::\d+)?(?:\.\d\d?)?/g;
             foreach my $timestamp (@timestamps) {
-                my $parsed_timestamp = parse_timestamp( $last, $timestamp );
+                my $parsed_timestamp =
+                  parse_inline_timestamp( $last, $timestamp );
                 next if !defined $parsed_timestamp;
                 my $time_link = timefmt($parsed_timestamp);
                 $line =~ s/$timestamp/[time:$time_link $timestamp]/g;
@@ -136,7 +132,7 @@ sub process {
         push( @fail, 'underscore' )                if $txt =~ /_/;
         push( @fail, 'we-tlave-a-floblem' )        if $txt =~ /[^H]ouston/;
 
-        @fail = grep ( /^$opt{t}/, @fail ) if $opt{t};
+        @fail = grep ( /^$opt{f}/, @fail ) if $opt{f};
         if (@fail) {
             ++$badfiles{$file};
             print "$file: (@fail) $line";
@@ -176,10 +172,15 @@ if ( $opt{v} ) {
 exit;
 
 sub timefmt {
-    my $secs = shift;
-    return sprintf "%02d:%02d:%02d:%02d", $secs / ( 60 * 60 * 24 ),
-      $secs / ( 60 * 60 ) % 24, ( $secs / 60 ) % 60,
-      $secs % 60;
+    my $secs            = shift;
+    my $timestamp       = '';
+    my @timestamp_units = ( 60, 60, 24 );    # Sorted seconds, min, hour, day...
+    for ( my $index = 0 ; $index < $timestamp_elements - 1 ; ++$index ) {
+        $timestamp =
+          sprintf( ":%02d", $secs % $timestamp_units[$index] ) . $timestamp;
+        $secs /= $timestamp_units[$index];
+    }
+    return ( sprintf '%02d', $secs ) . $timestamp;
 }
 
 sub filesort {
@@ -192,7 +193,26 @@ sub filesort {
     return $fa cmp $fb;
 }
 
-sub parse_timestamp {
+sub parse_log_timestamp {
+    my ( $words, $fail ) = @_;
+
+    my $timestamp = $words->[ $timestamp_elements - 1 ];
+    if ( $timestamp_elements > 1 ) {
+        push( @{$fail}, 'badsec' ) if $words->[ $timestamp_elements - 1 ] > 60;
+        $timestamp += $words->[ $timestamp_elements - 2 ] * 60;
+    }
+    if ( $timestamp_elements > 2 ) {
+        push( @{$fail}, 'badmin' ) if $words->[ $timestamp_elements - 2 ] > 60;
+        $timestamp += $words->[ $timestamp_elements - 3 ] * 60 * 60;
+    }
+    if ( $timestamp_elements > 3 ) {
+        push( @{$fail}, 'badhour' ) if $words->[ $timestamp_elements - 3 ] > 24;
+        $timestamp += $words->[ $timestamp_elements - 4 ] * 60 * 60 * 24;
+    }
+    return $timestamp;
+}
+
+sub parse_inline_timestamp {
     my ( $logtimestamp, $timestamptxt ) = @_;
 
     my $valid;
