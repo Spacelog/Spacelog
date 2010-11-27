@@ -310,7 +310,11 @@ class MetaIndexer(object):
                     
                     shift_start = mission_time_to_timestamp(shift_start)
                     shifts_key = '%s:shifts' % character_key
-                    self.redis_conn.zadd(shifts_key, character_identifier, shift_start)
+                    self.redis_conn.zadd(
+                        shifts_key,
+                        '%s:%s' % (shift_start, character_identifier),
+                        shift_start
+                    )
                 del data['shifts']
             
             self.redis_conn.hmset(character_key, data)
