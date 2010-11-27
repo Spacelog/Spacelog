@@ -49,18 +49,24 @@
     ],
     "characters": {
         "CC": {
-            "role": "mission_ops_title",
+            "role": "mission-ops-title",
             "name": "Capsule Communicator",
             "short_name": "CapCom",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-            "photo": "http://img.fort/190x155.png"
+            "photo": "http://img.fort/190x155.png",
+            "photo_width": 190,
+            "photo_height": 155,
+            "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
         },
         "F": {
-            "role": "mission_ops_title",
+            "role": "mission-ops-title",
             "name": "Flight Director",
             "short_name": "Flight",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-            "photo": "http://img.fort/190x155.png"
+            "photo": "http://img.fort/190x155.png",
+            "photo_width": 190,
+            "photo_height": 155,
+            "avatar": "/assets/transcripts/a13/_meta/avatars/F_48.png"
         },
         "CDR": {
           "role": "astronaut",
@@ -68,6 +74,9 @@
           "short_name": "Jim Lovell",
           "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
           "photo": "/assets/transcripts/a13/_meta/lovell.png",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "/assets/transcripts/a13/_meta/avatars/lovell_48.png",
           "stats": [
             {
                 "value": 390,
@@ -90,6 +99,9 @@
           "short_name": "Fred Haise",
           "bio": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
           "photo": "/assets/transcripts/a13/_meta/haise.png",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "/assets/transcripts/a13/_meta/avatars/haise_48.png",
           "stats": [
             {
                 "value": 10,
@@ -112,6 +124,9 @@
           "short_name": "Jack Swigert",
           "bio": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
           "photo": "/assets/transcripts/a13/_meta/swigert.png",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "/assets/transcripts/a13/_meta/avatars/swigert_48.png",
           "stats": [
             {
                 "value": 390,
@@ -127,6 +142,66 @@
             }
           ],
           "quotable_log_line_id": "TEC:393690"
+        },
+        "SC": {
+          "role": "other",
+          "name": "Unidentified crew member",
+          "short_name": "Unidentified crew member",
+          "avatar": "/assets/transcripts/a13/_meta/avatars/SC_48.png"
+        },
+        "MS": {
+          "role": "other",
+          "name": "Multiple speakers",
+          "short_name": "Multiple speakers",
+          "avatar": "/assets/transcripts/a13/_meta/avatars/MS_48.png"
+        },
+        "AB": {
+          "role": "other",
+          "name": "Airboss (Recovery aircraft)",
+          "short_name": "Airboss",
+          "avatar": "/assets/transcripts/a13/_meta/avatars/AB_48.png"
+        },
+        "IWO": {
+          "role": "other",
+          "name": "USS Iwo Jima",
+          "short_name": "USS Iwo Jima",
+          "avatar": "/assets/transcripts/a13/_meta/avatars/IWO_48.png"
+        },
+        "P-1": {
+          "role": "other",
+          "name": "Photographic helicopter 1",
+          "short_name": "Photographic helicopter 1",
+          "avatar": "/assets/transcripts/a13/_meta/avatars/copters_48.png"
+        },
+        "R": {
+          "role": "other",
+          "name": "Recovery helicopter",
+          "short_name": "Recovery helicopter",
+          "avatar": "/assets/transcripts/a13/_meta/avatars/copters_48.png"
+        },
+        "R-1": {
+          "role": "other",
+          "name": "Recovery helicopter 1",
+          "short_name": "Recovery helicopter 1",
+          "avatar": "/assets/transcripts/a13/_meta/avatars/copters_48.png"
+        },
+        "S": {
+          "role": "other",
+          "name": "Surgeon",
+          "short_name": "Surgeon",
+          "avatar": "/assets/transcripts/a13/_meta/avatars/S_48.png"
+        },
+        "S-1": {
+          "role": "other",
+          "name": "Swim 1",
+          "short_name": "Swim 1",
+          "avatar": "/assets/transcripts/a13/_meta/avatars/blank_48.png"
+        },
+        "S-2": {
+          "role": "other",
+          "name": "Swim 2",
+          "short_name": "Swim 2",
+          "avatar": "/assets/transcripts/a13/_meta/avatars/blank_48.png"
         }
     },
     "glossary": {

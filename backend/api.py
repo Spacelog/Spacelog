@@ -291,9 +291,12 @@ class Character(object):
         
         self.name                 = data['name']
         self.short_name           = data['short_name']
-        self.bio                  = data['bio']
-        self.photo                = data['photo']
         self.role                 = data['role']
+        self.avatar               = data['avatar']
+        self.bio                  = data.get('bio', None)
+        self.photo                = data.get('photo', None)
+        self.photo_width          = data.get('photo_width', None)
+        self.photo_height         = data.get('photo_height', None)
         self.quotable_log_line_id = data.get('quotable_log_line_id', None)
         
         stat_pairs = self.redis_conn.lrange( "%s:stats" % key, 0, -1 )
