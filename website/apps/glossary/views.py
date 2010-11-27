@@ -4,7 +4,12 @@ from backend.api import Glossary
 
 
 def glossary(request):
-    terms = list( Glossary.Query(request.redis_conn, request.mission.name).items() )
+    terms = sorted(
+        list(
+            Glossary.Query(request.redis_conn, request.mission.name).items()
+        ),
+        key=lambda term: term.abbr,
+    )
     
     return render_to_response(
         'glossary/glossary.html',
