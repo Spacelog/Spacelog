@@ -284,7 +284,7 @@
         },
         "TOM_STAFFORD": {
           "role": "mission-ops",
-          "name": "Thomas Patten Stafford",
+          "name": "Thomas Patten (Tom) Stafford",
           "short_name": "Tom Stafford",
           "mission_position": "Chief of the Astronaut Office",
           "bio": "A test pilot and flight test trainer, Tom Stafford was instrumental to developing the theoretical underpinnings of the Apollo lunar missions, both working on the techniques and flying missions for the first space rendezvous, the first lunar orbit abort rendezvous, and commanding Apollo 10, which ran through the entire lunar landing mission except for the lunar landing itself, including the first flight and rendezvous with the lunar module during lunar orbit.",
@@ -295,7 +295,7 @@
         },
         "DEKE_SLAYTON": {
           "role": "mission-ops",
-          "name": "Donald Kent Slayton",
+          "name": "Donald Kent (Deke) Slayton",
           "short_name": "Deke Slayton",
           "mission_position": "Director of Flight Crew Operations",
           "bio": "A member of the first NASA group of astronauts, assembled in 1959 for the Mercury Program, Slayton didn't fly until the Apollo-Soyuz Test Project in 1975 (at which time he was the oldest person to fly in space). From 1963 until 1972 he served as Director of Flight Crew Operations, and after Apollo-Soyuz was Head of the Shuttle Approach & Landing Tests Program.",
@@ -306,7 +306,7 @@
         },
         "GENE_KRANZ": {
           "role": "mission-ops",
-          "name": "Eugene Francis Kranz",
+          "name": "Eugene Francis (Gene) Kranz",
           "short_name": "Gene Kranz",
           "mission_position": "Flight Director (White shift)",
           "bio": "A former USAF pilot, Gene Kranz worked at McDonnell Aircraft before moving to the NASA Space Task Group where he was Mission Control procedures office for early Mercury flights including the first American in space and the first American orbit of the Earth. By the time of the Apollo Program, he was an experienced flight director whose team was on duty during the Apollo 11 lunar landing and the explosion in Apollo 13's Service Module. His last shift for NASA before retirement was for Shuttle mission STS-61, repairing the Hubble Space Telescope, in 1993.",
