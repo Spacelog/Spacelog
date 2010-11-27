@@ -96,7 +96,7 @@ class PageView(TranscriptView):
         
         if act_id > 0:
             previous_act = acts[act_id-1]
-        if act_id < len(acts):
+        if act_id < len(acts) - 1:
             next_act = acts[act_id+1]
         
         return {
