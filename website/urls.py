@@ -9,7 +9,7 @@ urlpatterns = patterns('',
     # Example:
     # (r'^website/', include('website.foo.urls')),
     
-    (r'^$', 'homepage.views.homepage'),
+    url(r'^$', 'homepage.views.homepage', name="homepage"),
     url(r'^page/$', PageView.as_view(), name="view_page"),
     url(r'^page/(?P<start>' + tspatt + ')/$', PageView.as_view(), name="view_page"),
     url(r'^(?P<start>' + tspatt + ')/$', RangeView.as_view(), name="view_range"),
