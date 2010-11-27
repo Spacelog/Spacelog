@@ -12,7 +12,7 @@ reindex: $(indexer)
 
 productioncss:	$(screen_css)
 
-$(screen_css):
+$(screen_css): $(source_screen_css)
 	cssprepare --optimise --extended-syntax \
 		$(source_screen_css) > $(screen_css)
 
