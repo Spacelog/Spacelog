@@ -273,7 +273,7 @@ class MissionIndexer(object):
 
     def index_transcripts(self):
         for filename in os.listdir(self.folder_path):
-            if "." not in filename and filename[0] != "_":
+            if "." not in filename and filename[0] != "_" and filename[-1] != "~":
                 print "Indexing %s..." % filename
                 path = os.path.join(self.folder_path, filename)
                 parser = TranscriptParser(path)
