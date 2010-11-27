@@ -350,14 +350,10 @@ class Glossary(object):
     def _load(self):
         key = "glossary:%s" % self.id
         data = self.redis_conn.hgetall( key )
-        
-        print self.id
-        print data
-        print ''
-        
         self.description = data['description']
         self.abbr        = data['abbr']
         self.key         = self.id
+        self.times_mentioed = data['times_mentioned']
 
     def links(self):
         # Fetch all the IDs

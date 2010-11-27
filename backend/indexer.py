@@ -3,7 +3,7 @@ import redis
 import xappy
 
 from backend.parser import TranscriptParser, MetaParser
-from backend.api import Act, Character
+from backend.api import Act, Character, Glossary
 
 search_db = xappy.IndexerConnection(
     os.path.join(os.path.dirname(__file__), '..', 'xappydb'),
@@ -95,6 +95,10 @@ class TranscriptIndexer(object):
         previous_log_line_id = None
         launch_time = int(self.redis_conn.get("launch_time:%s" % self.mission_name))
         acts = list(Act.Query(self.redis_conn, self.mission_name))
+        glossary_items = dict([
+            (item.identifier.lower(), item) for item in
+            Glossary.Query(self.redis_conn, self.mission_name)
+        ])
         for chunk in self.parser.get_chunks():
             timestamp = chunk['timestamp']
             log_line_id = "%s:%i" % (self.transcript_name, timestamp)
@@ -139,11 +143,13 @@ class TranscriptIndexer(object):
                 )
             previous_log_line_id = log_line_id
             # Also store the text
+            text = ""
             for line in chunk['lines']:
                 self.redis_conn.rpush(
                     "log_line:%s:lines" % log_line_id,
                     "%(speaker)s: %(text)s" % line,
                 )
+                text += "%s %s" % (line['speaker'], line['text'])
             # Store any images
             for i, image in enumerate(chunk['meta'].get("_images", [])):
                 # Make the image id
@@ -196,6 +202,16 @@ class TranscriptIndexer(object):
                 lines = chunk['lines'],
                 weight=weight,
             )
+            # For any mentioned glossary terms, add to them.
+            for word in text.split():
+                word = word.strip(",;-:'\"").lower()
+                if word in glossary_items:
+                    glossary_item = glossary_items[word]
+                    self.redis_conn.hincrby(
+                        "glossary:%s" % glossary_item.id,
+                        "times_mentioned",
+                        1,
+                    )
             # Increment the number of log lines we've done
             current_page_lines += len(chunk['lines'])
 
@@ -271,6 +287,7 @@ class MetaIndexer(object):
                 del data['links']
             
             data['abbr'] = identifier
+            data['times_mentioned'] = 0
             
             # Store the main data in a hash
             self.redis_conn.hmset("glossary:%s" % character_key, data)
