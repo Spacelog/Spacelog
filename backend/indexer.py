@@ -273,6 +273,7 @@ class MetaIndexer(object):
         self.index_glossary(meta)
         self.index_characters(meta)
         self.index_special_searches(meta)
+        self.index_errors(meta)
 
     def index_narrative_elements(self, meta):
         "Stores acts and key scenes in redis"
@@ -359,6 +360,14 @@ class MetaIndexer(object):
         "Indexes things that in no way sound like 'feaster legs'."
         for search, value in meta.get('special_searches', {}).items():
             self.redis_conn.set("special_search:%s" % search, value)
+
+    def index_errors(self, meta):
+        "Indexes error page info"
+        for key, info in meta.get('error_pages', {}).items():
+            self.redis_conn.hmset(
+                "error_page:%s:%s" % (self.mission_name, key),
+                info,
+            )
 
 
 class MissionIndexer(object):

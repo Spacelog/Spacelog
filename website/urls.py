@@ -1,7 +1,6 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
-from transcripts.views import PageView, PhasesView, RangeView
-from django.views.generic import TemplateView
+from transcripts.views import PageView, PhasesView, RangeView, ErrorView
 from search.views import SearchView
 
 tspatt = r'-?\d{2}:\d{2}:\d{2}:\d{2}'
@@ -30,5 +29,10 @@ if settings.DEBUG: # pragma: no cover
         # (r'^' + settings.MEDIA_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
         #     'document_root': settings.MEDIA_ROOT
         # }),
+        (r'^404/$', ErrorView.as_view()),
+        (r'^500/$', ErrorView.as_view(error_code=500)),
     )
+
+handler_404 = ErrorView.as_view()
+handler_500 = ErrorView.as_view(error_code=500)
 

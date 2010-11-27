@@ -146,3 +146,29 @@ class PhasesView(TranscriptView):
             'acts': list(self.act_query().items()),
         }
 
+class ErrorView(TemplateView):
+
+    template_name = "error.html"
+    error_code = 404
+
+    default_titles = {
+        404: "Page Not Found",
+        500: "Server Error",
+    }
+
+    def get_context_data(self):
+        error_info = self.request.redis_conn.hgetall(
+            "error_page:%s:%i" % (
+                self.request.mission.name,
+                self.error_code,
+            )
+        )
+        return {
+            "title": error_info.get('title', self.default_titles[self.error_code]),
+            "heading": error_info.get('heading', self.default_titles[self.error_code]),
+            "heading_quote": error_info.get('heading_quote', None),
+            "subheading": error_info.get('subheading', ""),
+            "text": error_info.get('text', ''),
+            "classic_moment": error_info.get('classic_moment', None),
+            "classic_moment_quote": error_info.get('classic_moment_quote', None),
+        }

@@ -16,6 +16,8 @@ def mission_time(seconds, separator=':'):
     Takes a timestamp and a separator and returns a mission time string
     e.g. Passing in 63 seconds and ':' would return '00:00:01:03'
     """
+    if isinstance(seconds, basestring) and separator in seconds:
+        return seconds
     mission_time = separator.join([ '%02d' % x for x in timestamp_components(abs(seconds)) ])
     if seconds < 0:
         mission_time = '-%s' % mission_time

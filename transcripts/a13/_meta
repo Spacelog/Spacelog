@@ -370,6 +370,23 @@
             ]
         }
     },
+    "error_pages": {
+        "404": {
+            "title": "404 - Who stirred the tanks?",
+            "heading": "That's<br />no moon.",
+            "subheading": "404 - Page Not Found.",
+            "text": "Looks like we've lost a page.  Sorry about that.  Not your fault at all."
+        },
+        "500": {
+            "title": "500 Rodger, this is Houston, hold 1 please.",
+            "heading": "We blew it.",
+            "heading_quote": "01:04:00:18",
+            "subheading": "500 - Server Error.",
+            "text": "Roger Aquarius, we are aware of the problem and our engineers are working on a solution.",
+            "classic_moment": "Houston, we've had a problem",
+            "classic_moment_quote": "00:00:00:02"
+        }
+    },
     "special_searches": {
         "easter egg": "<h2>Lovell's Blues<h2><pre class='blues'>Woke up this this mornin\nTo fly to the moon (x2)\nMy rocket took off\nInboard engine cut out too soon\n\nDid i want more trouble?\nNo way, no thanks (x2)\nBut trouble i got, soon as\nWe stirred those oxygen tanks\n\nI got me some problems\nA serious fault (x2)\nHouston we're dying\nMain bus B undervolt\n\nNow I ain't got no power\nI aint go no air (x2)\nSee that lunar module\nI'm gonna go get in there\n\nTrapped up here with Swiggert\nHe's a ladies' man (x2)\nHe might never know another\nMission control, give us a plan\n\nBrother let me tell you\nThis aint my first time (x2)\nIf i don't walk on the moon this week\nWont that just be a crime\n\nTransearth injection\nCan't come too soon (x2)\nWe're changing direction\nDark side of the moon\n\nGot too much dioxide\nNeed to the filter the air (x2)\nThen cap com comes callin\n\"Got any duct tape up there?\"\n\nVance is drivin me crazy\nGot me preppin the LM (x2)\nWhy we gotta configure our spaceships\nRight before we burn them\n\nLet's get rid of these modules\nGet them outta here (x2)\nHey, one whole side's missin\nAnd here comes the atmosphere\n\nHope we still got our shielding\nCause i don't wanna burn (x2)\nMight be headed for hellfire, baby, but\nToday aint my turn\n\nI'm at five thousand feet, sugar\nAnd i miss my hometown (x2)\nHope my chutes are still open\nCause it's time for splashdown\n\nSPLASH</pre>",
         "pants piano": "<h2>Lovell's Blues (with cover art)<h2><pre class='blues'>Woke up this this mornin\nTo fly to the moon (x2)\nMy rocket took off\nInboard engine cut out too soon\n\nDid i want more trouble?\nNo way, no thanks (x2)\nBut trouble i got, soon as\nWe stirred those oxygen tanks\n\nI got me some problems\nA serious fault (x2)\nHouston we're dying\nMain bus B undervolt\n\nNow I ain't got no power\nI aint go no air (x2)\nSee that lunar module\nI'm gonna go get in there\n\nTrapped up here with Swiggert\nHe's a ladies' man (x2)\nHe might never know another\nMission control, give us a plan\n\nBrother let me tell you\nThis aint my first time (x2)\nIf i don't walk on the moon this week\nWont that just be a crime\n\nTransearth injection\nCan't come too soon (x2)\nWe're changing direction\nDark side of the moon\n\nGot too much dioxide\nNeed to the filter the air (x2)\nThen cap com comes callin\n\"Got any duct tape up there?\"\n\nVance is drivin me crazy\nGot me preppin the LM (x2)\nWhy we gotta configure our spaceships\nRight before we burn them\n\nLet's get rid of these modules\nGet them outta here (x2)\nHey, one whole side's missin\nAnd here comes the atmosphere\n\nHope we still got our shielding\nCause i don't wanna burn (x2)\nMight be headed for hellfire, baby, but\nToday aint my turn\n\nI'm at five thousand feet, sugar\nAnd i miss my hometown (x2)\nHope my chutes are still open\nCause it's time for splashdown\n\nSPLASH\n</pre><img src='/assets/transcripts/a13/_meta/Matt-Pants-Piano.gif'>"
