@@ -1,0 +1,31 @@
+{
+    "name": "ma6",
+    "subdomains": ["ma6"],
+    "title": "Mercury 6",
+    "main_transcript": "ma6/TEC",
+    "media_transcript": "ma6/MEDIA",
+    "utc_launch_time": -10,
+    "acts" : [
+        {
+            "title": "Launch",
+            "description": "Leaving the earth!",
+            "range": [-20, 720]
+        }
+    ],
+    "key_scenes" : [
+    ],
+    "characters": {
+        "CC": {
+            "role": "mission-ops-title",
+            "name": "Capsule Communicator",
+            "short_name": "CapCom",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "photo": "http://img.fort/190x155.png",
+            "photo_width": 190,
+            "photo_height": 155,
+            "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+        }
+    },
+    "glossary": {
+    }
+}

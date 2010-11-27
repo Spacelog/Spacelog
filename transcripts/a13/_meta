@@ -1,5 +1,6 @@
 {
     "name": "a13",
+    "subdomains": ["a13", "apollo13"],
     "title": "Apollo 13",
     "main_transcript": "a13/TEC",
     "media_transcript": "a13/MEDIA",

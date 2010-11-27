@@ -238,6 +238,10 @@ class MetaIndexer(object):
     def index(self):
         meta = self.parser.get_meta()
 
+        # Store mission info
+        for subdomain in meta['subdomains']:
+            self.redis_conn.set("subdomain:%s" % subdomain, meta['name'])
+        del meta['subdomains']
         self.redis_conn.hmset(
             "mission:%s" % self.mission_name,
             {
@@ -330,10 +334,6 @@ class MissionIndexer(object):
         self.mission_name = folder_path.strip("/").split("/")[-1]
 
     def index(self):
-        # Delete the old things in the database
-        # TODO: More sensible flush/switching behaviour
-        self.redis_conn.flushdb()
-        
         self.index_meta()
         self.index_transcripts()
 
@@ -355,6 +355,12 @@ class MissionIndexer(object):
 
 if __name__ == "__main__":
     redis_conn = redis.Redis()
-    idx = MissionIndexer(redis_conn, os.path.join(os.path.dirname( __file__ ), '..', "transcripts/", "a13")) 
-    idx.index()
+    redis_conn.flushdb()
+    transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "transcripts")
+    for filename in os.listdir(transcript_dir):
+        path = os.path.join(transcript_dir, filename)
+        if os.path.isdir(path):
+            print "Mission: %s" % filename
+            idx = MissionIndexer(redis_conn, path) 
+            idx.index()
     search_db.flush()
