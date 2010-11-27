@@ -42,7 +42,7 @@
         {% avatar_and_name speaker log_line.timestamp %}
       </dt>
       <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}'>
-      <p>{{text|linkify|safe}}</p>
+      <p><a href='{% selection_url log_line.timestamp %}'>{{text|linkify|safe}}</a></p>
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
           <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}'>Expand selection up</a>
         {% endif %}
@@ -97,6 +97,21 @@
 
   <div id='phases'>
     <div class='wrapper'>
+      <nav><ul>
+        {% if previous_act %}
+          <li><a href='{% timestamp_to_url previous_act.start %}' rel='prev'>Previous</a></li>
+        {% else %}
+          <li><span class='prev'>Previous</span></li>
+        {% endif %}
+        <li><em>Phase {{ act }}: {{ current_act.title }}</em></li>
+        {% if next_act %}
+          <li><a href='{% timestamp_to_url next_act.start %}' rel='next'>Next</a></li>
+        {% else %}
+          <li><span class='next'>Next</span></li>
+        {% endif %}
+      </ul></nav>
+      <img src='/assets/img/missions/{{ mission.name }}/act{{ act }}.png'>
+      <!--
       <h2>Phases</h2>
       <ol>
         {% for act in acts %}
@@ -107,6 +122,7 @@
           {% endif %}
         {% endfor %}
       </ol>
+      -->
     </div>
   </div>
   

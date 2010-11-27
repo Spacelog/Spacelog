@@ -114,13 +114,35 @@
     background:             black;
     color:                  white;
     width:                  100%;
+    font-size:              1.5em;
+    font-family:            "League Gothic";
+    text-transform:         uppercase;
 }
-#phases .wrapper {
-    background: #444;
+#phases nav {
+    text-align:             center;
 }
-#phases li {
+#phases ul {
+    display:                inline-block;
+}
+#phases nav li {
+    white-space:            pre;
     float:                  left;
     margin-right:           20px;
+}
+#phases .prev,
+#phases a[rel=prev] {
+    padding-left:           50px;
+    background:             transparent
+                            url(/assets/img/base/act_prev.png)
+                            no-repeat
+                            0% 50%;
+}
+#phases a[rel=next] {
+    padding-right:          50px;
+    background:             transparent
+                            url(/assets/img/base/act_next.png)
+                            no-repeat
+                            100% 50%;
 }
 
 p.load-more {

@@ -87,13 +87,27 @@ class PageView(TranscriptView):
             self.page_number(start),
             self.page_number(end),
         )
-
+        
+        act          = log_lines[0].act()
+        act_id       = log_lines[0].act().number
+        acts         = list(self.act_query().items())
+        previous_act = None
+        next_act     = None
+        
+        if act_id > 0:
+            previous_act = acts[act_id-1]
+        if act_id < len(acts):
+            next_act = acts[act_id+1]
+        
         return {
             'log_lines': log_lines,
             'next_timestamp': next_timestamp,
             'previous_timestamp': previous_timestamp,
-            'acts': list(self.act_query().items()),
-            'current_act': log_lines[0].act(),
+            'acts': acts,
+            'act': act_id+1,
+            'current_act': act,
+            'previous_act': previous_act,
+            'next_act': next_act,
             'max_highlight_index': max_highlight_index,
         }
 
