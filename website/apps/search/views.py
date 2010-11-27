@@ -27,6 +27,16 @@ class SearchView(TemplateView):
                 offset = 0
         except ValueError:
             offset = 0
+
+        # Is it a special search?
+        special_value = self.request.redis_conn.get("special_search:%s" % q)
+        if special_value:
+            self.template_name = "search/special.html"
+            return {
+                "q": q,
+                "text": special_value,
+            }
+
         # Get the results from Xapian
         db = xappy.SearchConnection(
             os.path.join(

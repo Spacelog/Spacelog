@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content-class %}search special-search{% endblock %}
+{% block content %}
+    <form method='get' action=''>
+        <input type='text' name='q' value='{{ q|escape }}'>
+        <input type='submit' value='Search'>
+    </form>
+
+    <h1>Results for &ldquo;{{ q }}&rdquo;</h1>
+    <ol id="results">
+            <li>
+                {{ text|safe }}
+            </li>
+    </ol>
+{% endblock %}
