@@ -117,6 +117,7 @@ sub process {
                         my $foo = '';
                         $foo = '-useless'    if $r % 2 == 0;
                         $foo = '-that-works' if $r % 3 == 0;
+                        $foo = '-readable'   if $r % 100 == 0;
                         push( @fail, "abs-add-something${foo}-to-lognag" );
                         $x_last_lognag = $now;
                     }
