@@ -38,10 +38,11 @@ class SearchView(TemplateView):
         query = db.query_parse(
             q,
             default_op=db.OP_OR,
+            deny = [ "mission" ],
         )
         query=db.query_filter(
             query,
-            xapian.Query(db._field_mappings.get_prefix("mission") + self.request.mission.name),
+            db.query_field("mission", self.request.mission.name),
         )
         results = db.search(
             query=query,
