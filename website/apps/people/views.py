@@ -5,6 +5,7 @@ from backend.api import Character
 def people(request):
     redis_conn = redis.Redis()
     astronauts = list(Character.Query( redis_conn, 'a13' ).role( 'astronaut' ))
+    mission_ops_titles = list(Character.Query( redis_conn, 'a13' ).role( 'mission_ops_title' ))
     return render_to_response(
         'people/people.html',
         {
@@ -16,7 +17,7 @@ def people(request):
                 },
                 {
                     'name': 'Mission Control',
-                    'members': astronauts[:2],
+                    'members': mission_ops_titles,
                     'expanded_view': False
                 }
             ],

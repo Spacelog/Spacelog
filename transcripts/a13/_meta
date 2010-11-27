@@ -48,14 +48,40 @@
         }
     ],
     "characters": {
+        "CC": {
+            "role": "mission_ops_title",
+            "name": "Capsule Communicator",
+            "short_name": "CapCom",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "photo": "http://img.fort/190x155.png"
+        },
+        "F": {
+            "role": "mission_ops_title",
+            "name": "Flight Director",
+            "short_name": "Flight",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "photo": "http://img.fort/190x155.png"
+        },
         "CDR": {
           "role": "astronaut",
           "name": "James A. (Jim) Lovell, Jr.",
           "short_name": "Jim Lovell",
           "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-          "photo": "jim.jpg",
-          "hours_in_space": 390,
-          "honours": 7,
+          "photo": "/assets/transcripts/a13/_meta/lovell.png",
+          "stats": [
+            {
+                "value": 390,
+                "text": "hours in space"
+            },
+            {
+                "value": 7,
+                "text": "medals, awards, and honours"
+            },
+            {
+                "value": 28,
+                "text": "years of American Naval Service"
+            }
+          ],
           "quotable_log_line_id": "TEC:211000"
         },
         "LMP": {
@@ -63,9 +89,21 @@
           "name": "Fred W. Haise, Jr.",
           "short_name": "Fred Haise",
           "bio": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          "photo": "fred.jpg",
-          "hours_in_space": 625,
-          "honours": 4,
+          "photo": "/assets/transcripts/a13/_meta/haise.png",
+          "stats": [
+            {
+                "value": 10,
+                "text": "days in space"
+            },
+            {
+                "value": 7,
+                "text": "seconds to go"
+            },
+            {
+                "value": 28,
+                "text": "years of midnight"
+            }
+          ],
           "quotable_log_line_id": "TEC:270695"
         },
         "CMP": {
@@ -73,9 +111,21 @@
           "name": "John L. (Jack) Swigert, Jr.",
           "short_name": "Jack Swigert",
           "bio": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "photo": "jack.jpg",
-          "hours_in_space": 123,
-          "honours": 8,
+          "photo": "/assets/transcripts/a13/_meta/swigert.png",
+          "stats": [
+            {
+                "value": 390,
+                "text": "days with your mum"
+            },
+            {
+                "value": 7,
+                "text": "cats"
+            },
+            {
+                "value": 28,
+                "text": "facets of something"
+            }
+          ],
           "quotable_log_line_id": "TEC:393690"
         }
     },

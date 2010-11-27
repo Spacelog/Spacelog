@@ -1,6 +1,6 @@
 {% load missiontime %}
 
-<div class="person" id="jim-lovell">
+<div class="person" id="{{ person.short_name|slugify }}">
   <h3>
     <img src="{{ person.photo }}" alt=""
          width="190" height="205">
@@ -13,11 +13,13 @@
   
   <h4>{{ person.short_name }} in numbers and words</h4>
   
+  {% if person.stats %}
   <ul class="stats">
-    <li><em>{{ person.hours_in_space }}</em> hours in space</li>
-    <li class="secondary"><em>28</em> years of American Naval Service</li>
-    <li class="secondary alt"><em>{{ person.honours }}</em> medals, awards, and honours</li>
+  {% for value, text in person.stats %}
+    <li{% if not forloop.first %} class="secondary{% cycle "" " alt" %}"{% endif %}><em>{{ value }}</em> {{ text }}</li>
+  {% endfor %}
   </ul>
+  {% endif %}
   
   <div class="quote">
     <blockquote>

@@ -286,17 +286,22 @@ class Character(object):
         self._load()
 
     def _load(self):
-        data = self.redis_conn.hgetall("characters:%s" % self.id)
-        self.name = data['name']
-        self.short_name = data['short_name']
-        self.bio = data['bio']
-        self.quotable_log_line_id = data['quotable_log_line_id']
-        self.photo = data['photo']
-        self.hours_in_space = data['hours_in_space']
-        self.role = data['role']
-        self.honours = data['honours']
+        key = "characters:%s" % self.id
+        data = self.redis_conn.hgetall( key )
+        
+        self.name                 = data['name']
+        self.short_name           = data['short_name']
+        self.bio                  = data['bio']
+        self.photo                = data['photo']
+        self.role                 = data['role']
+        self.quotable_log_line_id = data.get('quotable_log_line_id', None)
+        
+        stat_pairs = self.redis_conn.lrange( "%s:stats" % key, 0, -1 )
+        self.stats = [ stat.split(':', 1) for stat in stat_pairs ]
 
     def quotable_log_line(self):
+        if not self.quotable_log_line_id:
+            return None
         transcript_name, timestamp = self.quotable_log_line_id.split(":")
         return LogLine(
             self.redis_conn,

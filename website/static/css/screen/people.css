@@ -3,6 +3,9 @@
     color:                  #fff;
     padding:                20px 0;
 }
+.people .wrapper {
+    width:                  960px;
+}
 .people .wrapper,
 .people .group {
     -cp-contain:            easy;
@@ -27,12 +30,14 @@
     padding:                10px;
     width:                  300px;
 }
+.group .person:nth-last-child( +2 ) {
+    float:                  left;
+}
 .person:nth-last-child( +2 ) {
     float:                  right;
 }
 .person:target {
     background:             #333;
-    border:                 1px solid transparent;
     border-radius:          5px;
     padding:                9px;
 }

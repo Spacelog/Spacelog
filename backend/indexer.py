@@ -247,10 +247,25 @@ class MetaIndexer(object):
     def index_characters(self, meta):
         "Stores character information in redis"
         for identifier, data in meta['characters'].items():
-            key = "characters:%s:%s" % (self.mission_name, identifier)
-            self.redis_conn.rpush('characters:%s' % self.mission_name, identifier)
-            self.redis_conn.rpush('characters:%s:%s' % (self.mission_name, data['role']), identifier)
-            self.redis_conn.hmset(key, data)
+            mission_key   = "characters:%s" % self.mission_name
+            character_key = "%s:%s" % (mission_key, identifier)
+            
+            self.redis_conn.rpush(mission_key, identifier)
+            self.redis_conn.rpush(
+                '%s:%s' % (mission_key, data['role']),
+                identifier
+            )
+            
+            # Push stats as a list so it's in-order later
+            for stat in data.get('stats', []):
+                self.redis_conn.rpush(
+                    '%s:stats' % character_key, 
+                    "%s:%s" % (stat['value'], stat['text'])
+                )
+            if 'stats' in data:
+                del data['stats']
+            
+            self.redis_conn.hmset(character_key, data)
 
 
 class MissionIndexer(object):

@@ -1,6 +1,6 @@
 {# NOTE: This template exists solely for the purpose of testing styling. #}
 
-<div class="person">
+<div class="person" id="{{ person.short_name|slugify }}">
   <h3>
     <img src="{{ person.photo }}" alt=""
          width="190" height="155">
