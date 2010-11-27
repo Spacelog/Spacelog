@@ -188,3 +188,15 @@ class ErrorView(TemplateView):
             "classic_moment": error_info.get('classic_moment', None),
             "classic_moment_quote": error_info.get('classic_moment_quote', None),
         }
+
+class OriginalView(TemplateView):
+
+    template_name = "transcripts/original.html"
+
+    def get_context_data(self, page):
+        page = int(page)
+        return {
+            "page": page,
+            "next_page": page + 1,
+            "previous_page": page - 1 if page > 1 else None
+        }

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Original Transcript - Page {{ page }}{% endblock %}
+
+{% block content-class %}original-transcript{% endblock %}
+
+{% block content %}
+  
+    {% if previous_page %}
+        <div class="page-link">
+            <a href="{% url original previous_page %}">Previous</a>
+        </div>
+    {% endif %}
+
+    <img src="/assets/transcripts/{{ mission.main_transcript }}/{{ page }}.png" width="940">
+
+    {% if next_page %}
+        <div class="page-link">
+            <a href="{% url original next_page %}">Next</a>
+        </div>
+    {% endif %}
+  
+{% endblock %}

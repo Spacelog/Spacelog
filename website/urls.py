@@ -1,6 +1,6 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
-from transcripts.views import PageView, PhasesView, RangeView, ErrorView
+from transcripts.views import PageView, PhasesView, RangeView, ErrorView, OriginalView
 from search.views import SearchView
 
 tspatt = r'-?\d{2}:\d{2}:\d{2}:\d{2}'
@@ -19,6 +19,7 @@ urlpatterns = patterns('',
     url(r'^people/$', 'people.views.people', name="people"),
     url(r'^people/(?P<role>[-_\w]+)/$', 'people.views.people', name="people"),
     url(r'^glossary/$', 'glossary.views.glossary', name="glossary"),   
+    url(r'^original/(?P<page>\d+)/$', OriginalView.as_view(), name="original"),   
 )
 
 if settings.DEBUG: # pragma: no cover

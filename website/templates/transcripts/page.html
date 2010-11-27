@@ -29,7 +29,7 @@
   {% endif %}
   {% if log_lines.0.transcript_page %}
     <p class='original'>
-    <a href="/assets/transcripts/{{ log_lines.0.transcript_name }}/{{ log_lines.0.transcript_page }}.png">View original transcript</a>
+      <a href="{% url original log_lines.0.transcript_page %}">View original transcript</a>
     </p>
   {% endif %}
   </div>

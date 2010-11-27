@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Transcript - Starting at {{ log_lines.0.timestamp|mission_time_format }}{% endblock %}
+
+{% block content-class %}original-transcript{% endblock %}
+
+{% block content %}
+  
+    <ul class="nav">
+        {% if previous_page %}
+            <li><a href="{% url original previous_page %}">Previous</a></li>
+        {% endif %}
+        {% if next_page %}
+            <li><a href="{% url original next_page %}">Next</a></li>
+        {% endif %}
+    </ul>
+
+    <img src="/assets/transcripts/{{ mission.main_transcript }}/{{ page }}.png">
+  
+{% endblock %}

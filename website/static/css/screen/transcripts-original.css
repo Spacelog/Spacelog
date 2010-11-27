@@ -1,0 +1,10 @@
+/* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*- 
+
+        Styling the transcripts page.
+
+*/
+
+#content.original-transcript .page-link {
+    padding: 10px 0;
+    text-align: center;
+}
