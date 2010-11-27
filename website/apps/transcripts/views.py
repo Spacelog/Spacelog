@@ -28,9 +28,18 @@ class TranscriptView(TemplateView):
         log_lines = []
         for page in range(start_page, end_page+1):
             log_lines += list(self.log_line_query().transcript('a13/TEC').page(page))
-        # Find all media that falls inside this same range, and add it in
-        log_lines += list(self.log_line_query().transcript('a13/MEDIA').range(log_lines[0].timestamp, log_lines[-1].timestamp))
-        log_lines.sort(key=lambda ll: ll.timestamp)
+        for log_line in log_lines:
+            log_line.images = list(log_line.images())
+        # Find all media that falls inside this same range, and add it onto the preceding line.
+        for image_line in self.log_line_query().transcript('a13/MEDIA').range(log_lines[0].timestamp, log_lines[-1].timestamp):
+            # Find the line just before the images
+            last_line = None
+            for log_line in log_lines:
+                if log_line.timestamp > image_line.timestamp:
+                    break
+                last_line = log_line
+            # Add the images to it
+            last_line.images += image_line.images()
         # Find the previous log line from this, and then the beginning of its page
         try:
             previous_timestamp = self.log_line_query().transcript('a13/TEC').page(start_page - 1).first().timestamp
