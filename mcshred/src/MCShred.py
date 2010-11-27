@@ -152,13 +152,13 @@ def validate_line(line):
         line.speaker
         line.text
     except:
-        errors.append("Invalid line found at %d" % line.seconds_from_mission_start)
+        errors.append("Invalid line found at %s" % get_timestamp_as_mission_time(line))
         return False
     
     if line.speaker in valid_tec_speakers:
         return True
     
-    errors.append("Line with invalid speaker found at %d" % line.seconds_from_mission_start)
+    errors.append("Line with invalid speaker found at %s" % get_timestamp_as_mission_time(line))
     return False
 
 last_tape = None
@@ -171,7 +171,8 @@ def get_formatted_record_for(line):
     global last_page, last_tape
     if validate_line(line):
         lines = []
-        lines.append(u"\n[%s]\n" % get_timestamp_as_mission_time(line))
+#        lines.append(u"\n[%s]\n" % get_timestamp_as_mission_time(line))
+        lines.append(u"\n[%d]\n" % line.seconds_from_mission_start)
         if line.page != last_page:
             lines.append(u"_page : %d\n" % line.page)
             last_page = line.page
