@@ -226,11 +226,11 @@ class LogLine(object):
             return LogLine(self.redis_conn, transcript_name, int(timestamp))
     
 
-class Act(object):
+class NarrativeElement(object):
     """
-    Represents an Act in the mission.
+    Super-class for Acts and KeyScenes
     """
-    
+
     def __init__(self, redis_conn, mission_name, number):
         self.redis_conn = redis_conn
         self.mission_name = mission_name
@@ -242,17 +242,15 @@ class Act(object):
         return self.id == other.id
 
     def _load(self):
-        data = self.redis_conn.hgetall("act:%s" % self.id)
+        data = self.redis_conn.hgetall("%s:%s" % (self.noun, self.id))
         # Load onto our attributes
         self.start = int(data['start'])
         self.end = int(data['end'])
         self.title = data['title']
-        self.description = data['description']
-        self.banner = data.get("banner", None)
         self.data = data
 
     def __repr__(self):
-        return "<Act %s:%i [%s to %s]>" % (self.mission_name, self.number, self.start, self.end)
+        return "<%s %s:%i [%s to %s]>" % (self.noun, self.mission_name, self.number, self.start, self.end)
 
     def log_lines(self):
         return LogLine.Query(self.redis_conn, self.mission_name).range(self.start, self.end)
@@ -261,9 +259,6 @@ class Act(object):
         return self.start <= timestamp < self.end
 
     class Query(BaseQuery):
-        
-        all_key_pattern = "acts:%(mission_name)s"
-
         def items(self):
             "Executes the query and returns the items."
             # Make sure it's a valid combination 
@@ -278,7 +273,43 @@ class Act(object):
 
         def _key_to_instance(self, key):
             mission_name, number = key.split(":", 1)
+            return self.result_class(self.redis_conn, mission_name, int(number))
+
+
+class Act(NarrativeElement):
+    """
+    Represents an Act in the mission.
+    """
+
+    noun = 'act'
+
+    def _load(self):
+        super(Act, self)._load()
+        self.description = self.data['description']
+        self.banner = self.data.get("banner", None)
+
+    class Query(NarrativeElement.Query):
+        all_key_pattern = "acts:%(mission_name)s"
+
+        def _key_to_instance(self, key):
+            mission_name, number = key.split(":", 1)
             return Act(self.redis_conn, mission_name, int(number))
+
+
+class KeyScene(NarrativeElement):
+    """
+    Represents an Key Scene in the mission.
+    """
+
+    noun = 'key_scene'
+
+    class Query(NarrativeElement.Query):
+        all_key_pattern = "key_scenes:%(mission_name)s"
+
+        def _key_to_instance(self, key):
+            mission_name, number = key.split(":", 1)
+            return KeyScene(self.redis_conn, mission_name, int(number))
+
 
 class Character(object):
     """

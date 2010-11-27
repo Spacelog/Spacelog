@@ -262,12 +262,12 @@ class MetaIndexer(object):
             }
         )
 
-        self.index_narative_elements(meta)
+        self.index_narrative_elements(meta)
         self.index_glossary(meta)
         self.index_characters(meta)
         self.index_special_searches(meta)
 
-    def index_narative_elements(self, meta):
+    def index_narrative_elements(self, meta):
         "Stores acts and key scenes in redis"
         for noun in ('act', 'key_scene'):
             for i, data in enumerate(meta.get('%ss' % noun, [])):
