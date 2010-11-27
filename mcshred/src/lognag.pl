@@ -8,26 +8,27 @@ use warnings;
 use Data::Dumper;
 use Getopt::Long;
 
-my %opt;
-my $report_fail;
+my $help;
+my $inline_timestamp_format;
+my $inline_timestamp_regex = '\d+:\d\d(?::\d+)?(?:\.\d\d?)?';
 my $inline_timestamps;
 my $invalid_inline_timestamps;
+my $log_timestamp_elements = 4;
 my $output_dir;
+my $report_fail;
 my $show_stats;
 my $x_fort;
-my $log_timestamp_elements = 4;
-my $help;
 
 if (
     !GetOptions(
-        'report|f=s'                 => \$report_fail,
-        'help|h'                     => \$help,
-        'fort'                       => \$x_fort,
-        'inline-timestamps|T'        => \$inline_timestamps,
-        'all-inline-timestamps|I'    => \$invalid_inline_timestamps,
-        'log-timestamp-elements|t=i' => \$log_timestamp_elements,
-        'stats-porn|v'               => \$show_stats,
-        'output-dir|o=s'             => \$output_dir,
+        'report|f=s'                  => \$report_fail,
+        'help|h'                      => \$help,
+        'fort'                        => \$x_fort,
+        'inline-timestamps|T'         => \$inline_timestamps,
+        'invalid-inline-timestamps|I' => \$invalid_inline_timestamps,
+        'log-timestamp-elements|t=i'  => \$log_timestamp_elements,
+        'stats-porn|v'                => \$show_stats,
+        'output-dir|o=s'              => \$output_dir,
     )
     || $help
     || !@ARGV
@@ -61,12 +62,13 @@ as a whitespace separated list of valid speakers on loglines.
 my $x_last_lognag = 0;
 my $x_last_tea    = 0;
 my $x_last_bacon  = 0;
-my %valid_speaker = load_speakers(
-    'AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music');
+my %valid_speaker;
 my $last = -60 * 60;    # Allow for up to T minus 1 hour
 my %badfiles;
 my %speakers;
 my $total_fail;
+setup_valid_speakers(
+    'AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music');
 
 foreach my $file ( sort filesort @ARGV ) { process($file); }
 print 'Bad files: ', join( ' ', sort keys %badfiles ), "\n" if %badfiles;
@@ -97,42 +99,57 @@ sub filesort {
     return $fa cmp $fb;
 }
 
-sub load_speakers {
-    my $str = shift;
-    return map { $_ => 1 } split( /\s+/, $str );
-}
-
 sub parse_inline_timestamp {
     my ( $logtimestamp, $timestamptxt ) = @_;
 
     my $valid;
     my $parsed;
 
-    if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)\.\d+$/ ) {
-        $valid = $1 * 60 * 60 + $2 * 60 + $3;
-    }
-
-    # Some magic numbers which are not passed literally
-    $valid = 5 * 60 + 32 if $timestamptxt eq '5:32';
-    $valid = 135 * 60 * 60 + 4 * 60 + 25 if $timestamptxt eq '35:04:25';
-
-    if ( !$valid ) {
-        if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)$/ ) {
+    if ( $inline_timestamp_format eq 'HH MM SS' ) {
+        if ( $timestamptxt =~ /\b(\d\d) (\d\d) (\d\d)\b$/ ) {
             $parsed = $1 * 60 * 60 + $2 * 60 + $3;
         }
-        elsif ( $timestamptxt =~ /^(\d+):(\d+)(?:\.\d+)?$/ ) {
-            $parsed = $1 * 60 * 60 + $2 * 60;
-        }
-        else {
-            warn("Unable to parse timestamp '$timestamptxt'");
-        }
 
-        my $percent_change =
-          100 * abs( $logtimestamp - $parsed ) / $logtimestamp;
-
-        $valid = $parsed if $parsed > 485900 && $parsed < 514000;
-        $valid = $parsed if $percent_change < 25;
     }
+    elsif ( defined $inline_timestamp_format ) {
+        die
+"Unable to understand inline timestamp format $inline_timestamp_format";
+    }
+
+    else    # Apollo 13
+    {
+
+        if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)\.\d+$/ ) {
+            $valid = $1 * 60 * 60 + $2 * 60 + $3;
+        }
+
+        # Some magic numbers for Apollo13 which are modified
+        $valid = 5 * 60 + 32 if $timestamptxt eq '5:32';
+        $valid = 135 * 60 * 60 + 4 * 60 + 25 if $timestamptxt eq '35:04:25';
+
+        if ( !$valid ) {
+            if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)$/ ) {
+                $parsed = $1 * 60 * 60 + $2 * 60 + $3;
+            }
+            elsif ( $timestamptxt =~ /^(\d+):(\d+)(?:\.\d+)?$/ ) {
+                $parsed = $1 * 60 * 60 + $2 * 60;
+            }
+            else {
+                warn("Unable to parse timestamp '$timestamptxt'");
+            }
+
+            # Apollo 13
+            ( $valid = $parsed )
+              if $parsed > 485900
+                  && $parsed < 514000
+                  && !defined $inline_timestamp_format;
+
+        }
+    }
+
+    my $percent_change = 100 * abs( $logtimestamp - $parsed ) / $logtimestamp;
+
+    $valid = $parsed if $percent_change < 25 || $parsed > $logtimestamp;
 
     return $parsed if $invalid_inline_timestamps && !$valid;
     return $valid if $inline_timestamps;
@@ -173,7 +190,9 @@ sub process {
         my $fix      = 0;
         my $txt      = $line;
 
-%valid_speaker = load_speakers($1) if $line =~ /Speakers:\s+(.*)/;
+        setup_valid_speakers($1)          if $line =~ /Speakers:\s+(.*)/;
+        setup_log_timestamp_format($1)    if $line =~ /LogTimestamp:\s+(.*)/;
+        setup_inline_timestamp_format($1) if $line =~ /InlineTimestamp:\s+(.*)/;
 
         if ( @words > $log_timestamp_elements ) {
             for ( my $i = 0 ; $i < $log_timestamp_elements ; ++$i ) {
@@ -257,8 +276,7 @@ sub process {
 
         if ( $inline_timestamps || $invalid_inline_timestamps ) {
 
-            my @timestamps =
-              $txt =~ /(?<![Mm]inus )\d+:\d\d(?::\d+)?(?:\.\d\d?)?/g;
+            my @timestamps = $txt =~ /$inline_timestamp_regex/g;
             foreach my $timestamp (@timestamps) {
                 my $parsed_timestamp =
                   parse_inline_timestamp( $last, $timestamp );
@@ -274,11 +292,11 @@ sub process {
 
         push( @fail, 'badchar' )
           if my (@badchar) =
-              $line =~ /[^\-\t ._,A-Za-z0-9"'\?:\[\]<!&>;\/\n\(\)\*é#]/;
+              $line =~ /[^\-\t ._,A-Za-z0-9"'\?:\[\]<!&>;\/\n\(\)\*é°#]/;
 
         push( @fail, 'j-grows-up-so-fast' )
           if $txt =~
-              /[^.\?"][ ]+J(?!ack|im|oe|ohn|ames|ay|ustice|ETT|ETS|r\.)[^A-Z]/;
+/[^.\?"][ ]+J(?!ack|im|oe|ohn|ames|ay|ustice|ohannesburg|ETT|ETS|r\.)[^A-Z]/;
         push( @fail, 'noleet-0-please' )
           if $txt =~ /([A-Za-z]0[A-Za-z\s]|[A-Za-z\s]0[A-Za-z])/;
         push( @fail, '2B-or-not-2B-13' )       if $txt =~ /\b[1l]B\b/;
@@ -317,6 +335,33 @@ sub process {
         print OUTFILE $cleandata;
         close(OUTFILE);
     }
+}
+
+sub setup_inline_timestamp_format {
+    my $value = shift;
+    if ( $value eq 'HH MM SS' ) {
+        $inline_timestamp_format = $value;
+        $inline_timestamp_regex  = '\d\d \d\d \d\d';
+    }
+    else {
+        die "Unknown inline timestamp format: $value";
+    }
+}
+
+sub setup_log_timestamp_format {
+    my $value = shift;
+    if    ( $value eq 'SS' )          { $log_timestamp_elements = 1 }
+    elsif ( $value eq 'MM SS' )       { $log_timestamp_elements = 2 }
+    elsif ( $value eq 'HH MM SS' )    { $log_timestamp_elements = 3 }
+    elsif ( $value eq 'DD HH MM SS' ) { $log_timestamp_elements = 4 }
+    else {
+        die "Unknown log timestamp format: $value";
+    }
+}
+
+sub setup_valid_speakers {
+    my $value = shift;
+    %valid_speaker = map { $_ => 1 } split( /\s+/, $value );
 }
 
 sub timefmt {
