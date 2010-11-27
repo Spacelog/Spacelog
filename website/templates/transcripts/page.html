@@ -19,15 +19,15 @@
   {% endif %}
   {% if log_lines.0.transcript_page %}
     <p class='original'>
-      <a href="/assets/transcripts/a13/TEC/{{ log_lines.0.transcript_page }}.png">View original transcript for this dialogue</a>
+    <a href="/assets/transcripts/{{ log_lines.0.transcript_name }}/{{ log_lines.0.transcript_page }}.png">View original transcript for this dialogue</a>
     </p>
   {% endif %}
   </div>
 
   <dl id='transcript'>
   {% for log_line in log_lines %}
-    {% if log_line.first_in_act %}
-      <img class="act-banner" src="/assets/img/acts/a13/{{ log_line.act.banner }}">
+    {% if log_line.first_in_act and log_line.act.banner %}
+      <img class="act-banner" src="/assets/img/acts/{{ log_line.mission_name }}/{{ log_line.act.banner }}">
     {% endif %}
     {% for speaker, text in log_line.lines %}
     <div id="log-line-{{ log_line.timestamp }}">
@@ -74,8 +74,8 @@
         {% if forloop.last %}
           {% for image in log_line.images %}
             <div class='image'>
-              <a href="/assets/img/missions/a13/{{ image.filename }}">
-                <img src="/assets/img/missions/a13/{{ image.thumbnail_filename }}" />
+                <a href="/assets/img/missions/{{ log_line.mission_name }}/{{ image.filename }}">
+                    <img src="/assets/img/missions/{{ log_line.mission_name }}/{{ image.thumbnail_filename }}" />
               </a>
             </div>
             {% endfor %}
