@@ -9,52 +9,52 @@
         {
             "title": "Launch",
             "description": "Leaving the earth!",
-            "range": [-20, 720],
+            "range": ["-00:00:00:20", "00:00:12:00"],
             "banner": "phase1.png"
         },
         {
             "title": "Earth orbit",
             "description": "The rocket go boom. Sadface.",
-            "range": [720, 9720],
+            "range": ["00:00:12:00", "00:02:42:00"],
             "banner": "phase2.png"
         },
         {
             "title": "To the Moon",
             "description": "",
-            "range": [9720, 286020],
+            "range": ["00:02:42:00", "03:07:27:00"],
             "banner": "phase3.png"
         },
         {
             "title": "Towards Earth",
             "description": "",
-            "range": [286020, 508620],
+            "range": ["03:07:27:00", "05:21:17:00"],
             "banner": "phase4.png"
         },
         {
             "title": "Re-entry",
             "description": "",
-            "range": [508620, 513516],
+            "range": ["05:21:17:00", "05:22:38:36"],
             "banner": "phase5.png"
         },
         {
-            "comment": "end point (514521) is one second after the 'end of mission' marker, which is after all end photos",
+            "comment": "end point (05:22:55:21) is one second after the 'end of mission' marker, which is after all end photos",
             "title": "Splash-down",
             "description": "",
-            "range": [513516, 514521]
+            "range": ["05:22:38:36", "05:22:55:21"]
         }
     ],
     "key_scenes" : [
         {
             "title": "\"Houston, we've had a problem.\"",
-            "range": [201300, 201300]
+            "range": ["02:07:55:00", "02:07:55:00"]
         },
         {
             "title": "Moving into the LM",
-            "range": [206640, 206640]
+            "range": ["02:09:24:00", "02:09:24:00"]
         },
         {
             "title": "Building the CO2 Scrubbers",
-            "range": [324540, 324540]
+            "range": ["03:18:09:00", "03:18:09:00"]
         }
     ],
     "characters": {

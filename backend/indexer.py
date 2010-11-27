@@ -276,7 +276,7 @@ class MetaIndexer(object):
                     "%s:%i" % (self.mission_name, i),
                 )
 
-                data['start'], data['end'] = data['range']
+                data['start'], data['end'] = map(mission_time_to_timestamp, data['range'])
                 del data['range']
 
                 self.redis_conn.hmset(key, data)

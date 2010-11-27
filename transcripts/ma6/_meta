@@ -9,7 +9,7 @@
         {
             "title": "Launch",
             "description": "Leaving the earth!",
-            "range": [-20, 720]
+            "range": ["-00:00:00:20", "00:00:12:00"]
         }
     ],
     "key_scenes" : [
