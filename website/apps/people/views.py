@@ -1,5 +1,6 @@
 from django.http import Http404
 from django.shortcuts import render_to_response
+from django.template import RequestContext
 import redis
 from backend.api import Character
 
@@ -35,4 +36,5 @@ def people(request, role=None):
             'role':   role,
             'people': people,
         },
+        context_instance = RequestContext(request),
     )
