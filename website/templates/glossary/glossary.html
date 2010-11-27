@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>awesome glossary</h1>
+
+<dl>
+  {% for term in terms %}
+  <dt>{{term.abbr}}</dt>
+  <dd>
+    {{term.description}}
+    {% if term.links %}
+    <ul>
+      {% for link in term.links %}
+      <li><a href='{{ link.url }}'>{{link.caption}}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </dd>
+  {% endfor %}
+</dl>
+
+{% endblock %}

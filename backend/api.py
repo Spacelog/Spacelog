@@ -334,3 +334,48 @@ class Character(object):
 
         def _key_to_instance(self, key):
             return Character(self.redis_conn, self.mission_name, key)
+
+class Glossary(object):
+    """
+    Represents a technical term with an associated explanation.
+    """
+    
+    def __init__(self, redis_conn, mission_name, identifier):
+        self.redis_conn   = redis_conn
+        self.mission_name = mission_name
+        self.identifier   = identifier
+        self.id           = "%s:%s" % (self.mission_name, identifier)
+        self._load()
+
+    def _load(self):
+        key = "glossary:%s" % self.id
+        data = self.redis_conn.hgetall( key )
+        
+        print self.id
+        print data
+        print ''
+        
+        self.description = data['description']
+        self.abbr        = data['abbr']
+        self.key         = self.id
+        if 'links' in data:
+            self.links   = data['links']
+
+    class Query(BaseQuery):
+        all_key_pattern  = "glossary:%(mission_name)s"
+        role_key_pattern = "glossary:%(mission_name)s:%(abbr)s"
+
+        def items(self):
+            "Executes the query and returns the items."
+            
+            filter_names = set(self.filters.keys())
+            if filter_names == set():
+                keys = self.redis_conn.lrange(self.all_key, 0, -1)
+            else:
+                raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
+            
+            for key in keys:
+                yield self._key_to_instance(key)
+
+        def _key_to_instance(self, key):
+            return Glossary(self.redis_conn, self.mission_name, key)

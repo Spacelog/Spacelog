@@ -267,6 +267,34 @@ class MetaIndexer(object):
             
             self.redis_conn.hmset(character_key, data)
 
+    def index_glossary(self, meta):
+        "Stores glossary information in redis"
+        for identifier, data in meta['glossary'].items():
+            mission_key   = "glossary:%s" % self.mission_name
+            character_key = "%s:%s" % (mission_key, identifier)
+            
+            self.redis_conn.rpush(mission_key, identifier)
+            # self.redis_conn.rpush(
+            #     '%s:%s' % (mission_key, data['role']),
+            #     identifier
+            # )
+            
+            # # Push stats as a list so it's in-order later
+            # for stat in data.get('stats', []):
+            #     self.redis_conn.rpush(
+            #         '%s:stats' % character_key, 
+            #         "%s:%s" % (stat['value'], stat['text'])
+            #     )
+            # if 'stats' in data:
+            #     del data['stats']
+            
+            data['abbr'] = identifier
+            
+            print character_key
+            print data
+            
+            self.redis_conn.hmset(character_key, data)
+
 
 class MissionIndexer(object):
     """

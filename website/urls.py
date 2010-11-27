@@ -17,6 +17,7 @@ urlpatterns = patterns('',
     url(r'^phases/$', PhasesView.as_view(), name="phases"),
     url(r'^search/$', SearchView.as_view(), name="search"),
     url(r'^people/$', 'people.views.people', name="people"),
+    url(r'^glossary/$', 'glossary.views.glossary', name="glossary"),
 )
 
 if settings.DEBUG: # pragma: no cover
