@@ -108,6 +108,9 @@
 #transcript dd.highlighted {
     background:             white;
 }
+#transcript dd.key-scene {
+    background:             #eee;
+}
 
 #transcript dd.first {
     -cp-border-top-left-radius:  5px;

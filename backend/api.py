@@ -61,6 +61,7 @@ class LogLine(object):
         self.next_log_line_id = data.get('next', None)
         self.previous_log_line_id = data.get('previous', None)
         self.act_number = int(data['act'])
+        self.key_scene_number = data.get('key_scene', None)
         self.utc_time = datetime.datetime.utcfromtimestamp(int(data['utc_time']))
 
     def __repr__(self):
@@ -101,8 +102,20 @@ class LogLine(object):
     def act(self):
         return Act(self.redis_conn, self.mission_name, self.act_number)
 
+    def key_scene(self):
+        if self.key_scene_number:
+            return KeyScene(self.redis_conn, self.mission_name, int(self.key_scene_number))
+        else:
+            return None
+
+    def has_key_scene(self):
+        return self.key_scene_number is not None
+
     def first_in_act(self):
         return LogLine.Query(self.redis_conn, self.mission_name).first_after(self.act().start).timestamp == self.timestamp
+
+    def first_in_key_scene(self):
+        return LogLine.Query(self.redis_conn, self.mission_name).first_after(self.key_scene().start).timestamp == self.timestamp
 
     def images(self):
         "Returns any images associated with this LogLine."

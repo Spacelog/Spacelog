@@ -3,7 +3,7 @@ import redis
 import xappy
 
 from backend.parser import TranscriptParser, MetaParser
-from backend.api import Act, Character, Glossary
+from backend.api import Act, KeyScene, Character, Glossary
 
 search_db = xappy.IndexerConnection(
     os.path.join(os.path.dirname(__file__), '..', 'xappydb'),
@@ -119,6 +119,7 @@ class TranscriptIndexer(object):
         previous_log_line_id = None
         launch_time = int(self.redis_conn.hget("mission:%s" % self.mission_name, "utc_launch_time"))
         acts = list(Act.Query(self.redis_conn, self.mission_name))
+        key_scenes = list(KeyScene.Query(self.redis_conn, self.mission_name))
         glossary_items = dict([
             (item.identifier.lower(), item) for item in
             Glossary.Query(self.redis_conn, self.mission_name)
@@ -143,8 +144,9 @@ class TranscriptIndexer(object):
                 current_page_lines = 0
             last_act = act
             # First, create a record with some useful information
+            info_key = "log_line:%s:info" % log_line_id
             self.redis_conn.hmset(
-                "log_line:%s:info" % log_line_id,
+                info_key,
                 {
                     "offset": chunk['offset'],
                     "page": current_page,
@@ -153,10 +155,15 @@ class TranscriptIndexer(object):
                     "utc_time": launch_time + timestamp,
                 }
             )
+            # Look up the key scene
+            for key_scene in key_scenes:
+                if key_scene.includes(timestamp):
+                    self.redis_conn.hset(info_key, 'key_scene', key_scene.number)
+                    break
             # Create the doubly-linked list structure
             if previous_log_line_id:
                 self.redis_conn.hset(
-                    "log_line:%s:info" % log_line_id,
+                    info_key,
                     "previous",
                     previous_log_line_id,
                 )

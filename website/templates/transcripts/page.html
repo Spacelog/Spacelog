@@ -29,19 +29,20 @@
     {% if log_line.first_in_act and log_line.act.banner %}
       <p class='act-banner'><img class="act-banner" src="/assets/img/acts/{{ log_line.mission_name }}/{{ log_line.act.banner }}"></p>
     {% endif %}
+    
     {% for speaker, text in log_line.lines %}
     <div id="log-line-{{ log_line.timestamp }}">
-      <dt class='time {% if log_line.highlighted %}highlighted {% endif %}'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
+      <dt class='time {% if log_line.highlighted %}highlighted {% endif %}{% if log_line.key_scene_number %}key-scene {% endif %}'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
         <a href='{% selection_url log_line.timestamp %}'>
           <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
             {{log_line.timestamp|mission_time_format}}
           </time>
         </a>
       </dt>
-      <dt class='speaker {% if log_line.highlighted %}highlighted{% endif %}'>
+      <dt class='speaker{% if log_line.highlighted %} highlighted{% endif %}{% if log_line.key_scene_number %} key-scene{% endif %}'>
         {% avatar_and_name speaker log_line.timestamp %}
       </dt>
-      <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}'>
+      <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}{% if log_line.key_scene_number %} key-scene{% endif %}'>
       <p>{{text|linkify|safe}}</p>
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
           <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}'>Expand selection up</a>
