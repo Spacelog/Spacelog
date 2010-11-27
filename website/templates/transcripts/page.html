@@ -39,7 +39,7 @@
         </a>
       </dt>
       <dt class='speaker {% if log_line.highlighted %}highlighted{% endif %}'>
-        {% avatar_and_name speaker %}
+        {% avatar_and_name speaker log_line.timestamp %}
       </dt>
       <dd class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}'>
       <p>{{text|linkify|safe}}</p>

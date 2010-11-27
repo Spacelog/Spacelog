@@ -9,6 +9,11 @@ search_db = xappy.IndexerConnection(
     os.path.join(os.path.dirname(__file__), '..', 'xappydb'),
 )
 
+def mission_time_to_timestamp(mission_time):
+    """Takes a mission time string (XX:XX:XX:XX) and converts it to a number of seconds"""
+    d,h,m,s = map(int, mission_time.split(':'))
+    return d*86400 + h*3600 + m*60 + s    
+
 class TranscriptIndexer(object):
     """
     Parses a file and indexes it.
@@ -25,8 +30,8 @@ class TranscriptIndexer(object):
         search_db.add_field_action(
             "mission",
             xappy.FieldActions.INDEX_EXACT,
-            #search_by_default=False,
-            #allow_field_specific=False,
+            # search_by_default=False,
+            # allow_field_specific=False,
         )
         # don't think we need STORE_CONTENT actions any more
         search_db.add_field_action(
@@ -284,13 +289,21 @@ class MetaIndexer(object):
             )
             
             # Push stats as a list so it's in-order later
-            for stat in data.get('stats', []):
-                self.redis_conn.rpush(
-                    '%s:stats' % character_key, 
-                    "%s:%s" % (stat['value'], stat['text'])
-                )
             if 'stats' in data:
+                for stat in data['stats']:
+                    self.redis_conn.rpush(
+                        '%s:stats' % character_key, 
+                        "%s:%s" % (stat['value'], stat['text'])
+                    )
                 del data['stats']
+            
+            # Store the shifts
+            if 'shifts' in data:
+                for character_identifier, shift_start in data['shifts']:
+                    shift_start = mission_time_to_timestamp(shift_start)
+                    shifts_key = '%s:shifts' % character_key
+                    self.redis_conn.zadd(shifts_key, character_identifier, shift_start)
+                del data['shifts']
             
             self.redis_conn.hmset(character_key, data)
 

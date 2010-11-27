@@ -322,6 +322,14 @@ class Character(object):
             int(timestamp)
         )
 
+    def current_shift(self, timestamp):
+        shifts_key = 'characters:%s:shifts' % self.id
+        shifts = self.redis_conn.zrangebyscore(shifts_key, 0, timestamp)
+        if shifts:
+            return Character(self.redis_conn, self.mission_name, shifts[-1])
+        else:
+            return self
+
     def __repr__(self):
         return '<Character: %s>' % self.identifier
 

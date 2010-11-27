@@ -66,7 +66,32 @@
             "photo": "http://img.fort/190x155.png",
             "photo_width": 190,
             "photo_height": 155,
-            "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+            "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png",
+            "shifts": [
+              ["CC_vance", "00:00:00:00"],
+              ["CC_jack", "00:00:01:00"],
+              ["CC", "00:00:02:00"]
+            ]
+        },
+        "CC_vance": {
+          "role": "mission-ops",
+          "name": "Vance Something (Capsule Communicator)",
+          "short_name": "CapCom: Vance",
+          "bio": "Vance. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "photo": "http://img.fort/190x155.png",
+          "photo_width": 190,
+          "photo_height": 155,
+          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+        },
+        "CC_jack": {
+          "role": "mission-ops",
+          "name": "Jack Something (Capsule Communicator)",
+          "short_name": "CapCom: Jack",
+          "bio": "Jack. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "photo": "http://img.fort/190x155.png",
+          "photo_width": 190,
+          "photo_height": 155,
+          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
         },
         "F": {
             "role": "mission-ops-title",
