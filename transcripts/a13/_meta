@@ -5,6 +5,8 @@
     "image": "/assets/img/badge_a13.png",
     "subdomains": ["a13", "apollo13"],
     "title": "Apollo 13",
+    "upper_title": "Apollo",
+    "lower_title": "13",
     "main_transcript": "a13/TEC",
     "media_transcript": "a13/MEDIA",
     "utc_launch_time": 8709180,

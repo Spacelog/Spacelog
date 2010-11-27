@@ -48,6 +48,8 @@ class LogLine(object):
 
     def _load(self):
         data = self.redis_conn.hgetall("log_line:%s:info" % self.id)
+        if not data:
+            raise ValueError("No such LogLine: %s at %s" % (self.transcript_name, self.timestamp))
         # Load onto our attributes
         self.page = int(data['page'])
         self.transcript_page = data['transcript_page']
@@ -471,11 +473,14 @@ class Mission(object):
     def _load(self):
         data = self.redis_conn.hgetall("mission:%s" % self.name)
         self.title = data['title']
+        self.upper_title = data['upper_title']
+        self.lower_title = data['lower_title']
         self.description = data['description']
         self.featured = (data['featured'].lower() == 'true')
         self.image = data['image']
         self.main_transcript = data['main_transcript']
         self.media_transcript = data['media_transcript']
+
 
     class Query(BaseQuery):
 

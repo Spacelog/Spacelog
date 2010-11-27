@@ -276,8 +276,15 @@ class MetaIndexer(object):
                 "image": meta['image'],
                 "main_transcript": meta['main_transcript'],
                 "media_transcript": meta['media_transcript'],
+                "upper_title": meta['upper_title'],
+                "lower_title": meta['lower_title'],
             }
         )
+        for homepage_quote in meta.get('homepage_quotes', []):
+            self.redis_conn.sadd(
+                "mission:%s:homepage_quotes" % self.mission_name,
+                homepage_quote,
+            )
 
         self.index_narrative_elements(meta)
         self.index_glossary(meta)

@@ -6,15 +6,27 @@
 {% block title %}We are go{% endblock %}
 {% block content-class %}homepage{% endblock %}
 {% block content %}
-<!-- yes yes, this will be done programmatically sometime soon -->
-<h1>Apollo <em>13</em></h1>
-<blockquote><p>Houston, we've had a problem.</p><div class=quotenav><a href="">Read this moment</a><a href="">See another</a></div></blockquote>
+<h1>{{ mission.upper_title }} <em>{{ mission.lower_title }}</em></h1>
+
+<blockquote>
+    <p>{{ quote.lines.0.1 }}</p>
+    <div class=quotenav>
+        <a href="{% selection_url quote.timestamp %}">Read this moment</a>
+        <!--<a href="">See another</a>-->
+    </div>
+</blockquote>
+
 <h2>Jump into the story</h2>
-<dl><dd><a href='{% selection_url "-00:00:00:20" %}'><img src="/assets/img/missions/a13/homepage/phase1.jpg"/></a></dd><dt><a href='{% selection_url "-00:00:00:20" %}'>Phase 1: Launch</a></dt></dl>
-<dl><dd><a href='{% selection_url "00:00:12:00" %}'><img src="/assets/img/missions/a13/homepage/phase2.jpg"/></a></dd><dt><a href='{% selection_url "00:00:12:00" %}'>Phase 2: Earth orbit</a></dt></dl>
-<dl><dd><a href='{% selection_url "00:02:42:00" %}'><img src="/assets/img/missions/a13/homepage/phase3.jpg"/></a></dd><dt><a href='{% selection_url "00:02:42:00" %}'>Phase 3: To the moon</a></dt></dl>
-<dl><dd><a href='{% selection_url "03:07:27:00" %}'><img src="/assets/img/missions/a13/homepage/phase4.jpg"/></a></dd><dt><a href='{% selection_url "03:07:27:00" %}'>Phase 4: Towards earth</a></dt></dl>
-<dl><dd><a href='{% selection_url "05:21:17:00" %}'><img src="/assets/img/missions/a13/homepage/phase5.jpg"/></a></dd><dt><a href='{% selection_url "05:21:17:00" %}'>Phase 5: re-entry</a></dt></dl>
-<dl><dd><a href='{% selection_url "05:22:38:36" %}'><img src="/assets/img/missions/a13/homepage/phase6.jpg"/></a></dd><dt><a href='{% selection_url "05:22:38:36" %}'>Phase 6: spashdown</a></dt></dl>
+
+{% for number, act in acts %}
+<dl>
+    <dd>
+    <a href='{% selection_url act.start %}'><img src="/assets/img/missions/{{ mission.name }}/homepage/phase{{ number }}.jpg"/></a>
+    </dd>
+    <dt>
+    <a href='{% selection_url act.start %}'>Phase {{ number }}: {{ act.title }}</a>
+    </dt>
+</dl>
+{% endfor %}
 
 {% endblock %}
