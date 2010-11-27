@@ -5,9 +5,10 @@
 
 <dl>
   {% for term in terms %}
-  <dt>{{term.abbr}}</dt>
+  <dt>{{ term.abbr }}</dt>
   <dd>
-    {{term.description}}
+    {{ term.description }}
+    ({{ term.times_mentioned }})
     {% if term.links %}
     <ul>
       {% for link in term.links %}

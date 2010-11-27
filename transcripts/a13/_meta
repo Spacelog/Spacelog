@@ -360,17 +360,320 @@
         }
     },
     "glossary": {
-        "CAPCOM": {
-            "description": "Capsule communicator"
+        "AEA": {
+            "description": "Abort electronics assembly"
         },
-        "CDR": {
-            "description": "Commander",
-            "links": [
-                {
-                    "url": "http://dave.com",
-                    "caption": "Astronaut Dave's blog"
-                }
-            ]
+        "AGS": {
+            "description": "Abort guidance system"
+        },
+        "ALSCC": {
+            "description": "Apollo lunar surface closeup camera"
+        },
+        "ALSD": {
+            "description": "Apollo lunar surface drill"
+        },
+        "ALSEP": {
+            "description": "Apollo lunar surface experiments package"
+        },
+        "AOS": {
+            "description": "Acquisition of signal"
+        },
+        "AOT": {
+            "description": "Alinement optical telescope"
+        },
+        "APS": {
+            "description": "Auxiliary propulsion system (S-IVB)/Ascent propulsion system (LM)"
+        },
+        "ARS": {
+            "description": "Atmosphere revitalization system"
+        },
+        "BEF": {
+            "description": "Blunt end forward"
+        },
+        "CCGE": {
+            "description": "Cold cathode gag.s experiment"
+        },
+        "CCIG": {
+            "description": "Cold cathode ion gage"
+        },
+        "CDH": {
+            "description": "Constant delta altitude (height)"
+        },
+        "CM": {
+            "description": "Command module"
+        },
+        "CMC": {
+            "description": "Command module computer"
+        },
+        "COAS": {
+            "description": "Crew optical alinement sight"
+        },
+        "CP": {
+            "description": "Control point"
+        },
+        "CPLEE": {
+            "description": "Charged particle lunar environment experiment"
+        },
+        "CSC": {
+            "description": "Contingency sample collection"
+        },
+        "CSI": {
+            "description": "Coelliptic sequence initiation"
+        },
+        "CSM": {
+            "description": "Command and service module"
+        },
+        "CWEA": {
+            "description": "Caution and warning electronics assembly"
+        },
+        "DAC": {
+            "description": "Data acquisition camera"
+        },
+        "DAP": {
+            "description": "Digital autopilot"
+        },
+        "DEDA": {
+            "description": "Data entry and display assembly"
+        },
+        "DET": {
+            "description": "Digital event timer"
+        },
+        "DOI": {
+            "description": "Descent orbit insertion"
+        },
+        "DPS": {
+            "description": "Descent propulsion system"
+        },
+        "DSE": {
+            "description": "Data storage equipment"
+        },
+        "DSEA": {
+            "description": "Data storage equipment assembly"
+        },
+        "DSKY": {
+            "description": "Display and keyboard"
+        },
+        "DTO": {
+            "description": "Detailed test objective"
+        },
+        "ECS": {
+            "description": "Environmental control system"
+        },
+        "EI": {
+            "description": "Entry interface"
+        },
+        "EMS": {
+            "description": "Entry monitor system"
+        },
+        "EMI": {
+            "description": "Extravehicular mobility unit"
+        },
+        "EPS": {
+            "description": "Electrical power system"
+        },
+        "ETB": {
+            "description": "Equipment transfer bag"
+        },
+        "EVA": {
+            "description": "Extravehicular activity"
+        },
+        "EVT": {
+            "description": "Extravehicular transfer"
+        },
+        "FDAI": {
+            "description": "Flight director attitude indicator"
+        },
+        "GDC": {
+            "description": "Gyro display coupler"
+        },
+        "GET": {
+            "description": "Grotmd elapsed time"
+        },
+        "GETI": {
+            "description": "Ground elapsed time of ignition"
+        },
+        "HFE": {
+            "description": "Heat flow experiment"
+        },
+        "HGA": {
+            "description": "High gain antenna"
+        },
+        "HTC": {
+            "description": "Handtool carrier"
+        },
+        "IMU": {
+            "description": "Inertial measurement unit"
+        },
+        "IP": {
+            "description": "Initial point"
+        },
+        "ISA": {
+            "description": "Interim stowage assembly"
+        },
+        "IU": {
+            "description": "Instrument unit"
+        },
+        "IVT": {
+            "description": "Intravehicular transfer"
+        },
+        "LAD": {
+            "description": "Lunar atmosphere detector"
+        },
+        "LCG": {
+            "description": "Liquid cooled garment"
+        },
+        "LEB": {
+            "description": "Lower equipment bay"
+        },
+        "LEC": {
+            "description": "Lunar equipment conveyor"
+        },
+        "LGC": {
+            "description": "Lunar module guidance computer"
+        },
+        "LM": {
+            "description": "Lunar module"
+        },
+        "LOI": {
+            "description": "Lunar orbit insertion"
+        },
+        "LOPC": {
+            "description": "Lunar orbit plane change"
+        },
+        "LOS": {
+            "description": "Loss of signal/line of sight"
+        },
+        "LPD": {
+            "description": "Landing point designator"
+        },
+        "LTC": {
+            "description": "Lunar topographic camera"
+        },
+        "MCC": {
+            "description": "Mission Control Center/midcourse correction"
+        },
+        "MESA": {
+            "description": "Modular equipment stowage assembly"
+        },
+        "MSFN": {
+            "description": "Manned Space Flight Network"
+        },
+        "MTVC": {
+            "description": "Manual thrust vector control"
+        },
+        "OPS": {
+            "description": "Oxygen purge system"
+        },
+        "ORDEAL": {
+            "description": "Orbital rate display earth and lunar"
+        },
+        "PDI": {
+            "description": "Powered descent initiation"
+        },
+        "PGA": {
+            "description": "Pressure garment assembly"
+        },
+        "PGNCS": {
+            "description": "Primary guidance, navigation, and control system (CM)"
+        },
+        "PGNS": {
+            "description": "Primary guidance and navigation system (LM)"
+        },
+        "PIPA": {
+            "description": "Pulsed integrating pendulous accelerometer"
+        },
+        "PLSS": {
+            "description": "Portable life support system"
+        },
+        "PRD": {
+            "description": "Personal radiation dosimeter"
+        },
+        "PSE": {
+            "description": "Passive seismic experiment"
+        },
+        "PTC": {
+            "description": "Passive thermal control"
+        },
+        "RCS": {
+            "description": "Reaction control system"
+        },
+        "RCU": {
+            "description": "Remote control unit"
+        },
+        "REFSMMAT": {
+            "description": "Reference to stable member matrix"
+        },
+        "RLS": {
+            "description": "Radius of landing site"
+        },
+        "RTG": {
+            "description": "Radioisotope thermoelectric generator"
+        },
+        "SCE": {
+            "description": "Signal conditioning equipment"
+        },
+        "SCS": {
+            "description": "Stabilization control system"
+        },
+        "SECS": {
+            "description": "Sequential events control system"
+        },
+        "SEF": {
+            "description": "Sharp end forward"
+        },
+        "SIDE": {
+            "description": "Suprathermal ion detector experiment"
+        },
+        "SLA": {
+            "description": "SM/LM adapter"
+        },
+        "SM": {
+            "description": "Service module"
+        },
+        "SNAP": {
+            "description": "Systems for nuclear auxiliary power"
+        },
+        "SPS": {
+            "description": "Service propulsion system"
+        },
+        "SRC": {
+            "description": "Sample return container"
+        },
+        "SWC": {
+            "description": "Solar wind composition"
+        },
+        "SWE": {
+            "description": "Solar wind experiment"
+        },
+        "TEC": {
+            "description": "Transearth coast"
+        },
+        "TEI": {
+            "description": "Transearth injection"
+        },
+        "Tig": {
+            "description": "Time of ignition"
+        },
+        "TLC": {
+            "description": "Translunar coast"
+        },
+        "TLI": {
+            "description": "Translunar injection"
+        },
+        "TPF": {
+            "description": "Terminal phase final"
+        },
+        "TPI": {
+            "description": "Terminal phase initiation"
+        },
+        "TSB": {
+            "description": "Temporary stowage bag"
+        },
+        "TVC": {
+            "description": "Thrust vector control"
+        },
+        "UHT": {
+            "description": "Universal handtool"
         }
     },
     "error_pages": {
