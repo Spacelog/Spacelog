@@ -9,18 +9,19 @@
 
 {% block content %}
 
+  <div class='nav'>
   {% if previous_timestamp and not max_highlight_index %}
     <p class='load-more'>
       <a href="{% timestamp_to_url previous_timestamp %}">Previous
          dialogue</a>
     </p>
   {% endif %}
-
   {% if log_lines.0.transcript_page %}
     <p class='original'>
       <a href="/assets/transcripts/a13/TEC/{{ log_lines.0.transcript_page }}.png">View original transcript for this dialogue</a>
     </p>
   {% endif %}
+  </div>
 
   <dl id='transcript'>
   {% for log_line in log_lines %}
@@ -79,12 +80,14 @@
   {% endfor %}
   </dl>
 
+  <div class='nav after'>
   {% if next_timestamp and not max_highlight_index %}
     <p class='load-more'>
       <a href="{% timestamp_to_url next_timestamp %}">Next
          dialogue</a>
     </p>
   {% endif %}
+  </div>
 
 <h2>Phases</h2>
 <ol>

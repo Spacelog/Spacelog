@@ -4,6 +4,17 @@
 
 */
 
+#content.transcript .nav {
+    min-height:             40px;
+    -cp-contain:            easy;
+}
+#content.transcript .nav.after {
+    min-height:             60px;
+}
+
+#transcript {
+    clear:                  both;
+}
 #transcript dt {
     padding-top:            0;
     margin-top:             20px;
@@ -37,12 +48,11 @@
                             'Arial',
                             sans-serif;
 }
-#transcript dt.time a {
-    color:                  #00abd7;
-    text-decoration:        none;
-}
 #content.with-highlight #transcript dt.time a {
     color:                  #00667f;
+}
+#content.with-highlight #transcript dt.time.highlighted a {
+    color:                  #00abd7;
 }
 
 #transcript dt.speaker {
@@ -101,9 +111,10 @@
 
 
 p.load-more {
-    margin-top:             10px;
-    margin-bottom:          10px;
+    margin-top:             20px;
     text-align:             center;
+    float:                  left;
+    margin-left:            240px;
 }
 p.load-more a {
     color:                  #878787;
@@ -113,12 +124,9 @@ p.load-more a {
 }
 
 p.original {
-    margin-top:             -25px;
     float:                  right;
+    margin-top:             20px;
     font-size:              12px;
-}
-p.original a {
-    color:                  #00aad3;
 }
 
 /*! verbatim */
