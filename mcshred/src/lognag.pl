@@ -9,10 +9,11 @@ use Data::Dumper;
 use Getopt::Std;
 
 my %opt;
-if ( !getopts( 'ho:t:vT', \%opt ) || $opt{h} || !@ARGV ) {
+if ( !getopts( 'ho:t:vIT', \%opt ) || $opt{h} || !@ARGV ) {
     print "Usage: lognag.pl [files]
       -h : This help
       -T : Search and report on inline timestamps
+      -I : Search and report on invalid inline timestamps
   -o dir : Write valid output to files in 'dir'
 -t regex : Only check for failures of type 'regex'
       -v : Verbose. Make editorially biased comments regarding the speakers
@@ -41,7 +42,7 @@ sub process {
         my @words    = split( ' ', $line );
         my $logscore = 0;
         my $fix      = 0;
-	my $txt = $line;
+        my $txt      = $line;
 
         if ( @words > 4 ) {
             foreach my $i (qw(0 1 2 3)) {
@@ -83,7 +84,7 @@ sub process {
                         ++$speakers{$spkr}[ $words[0] ];
                     }
                 }
-	    $txt =~ s/(\S+\s*){5}//;
+                $txt =~ s/(\S+\s*){5}//;
             }
         }
 
@@ -92,7 +93,7 @@ sub process {
             push( @fail, "badlog" );
         }
 
-        if ( $opt{T} ) {
+        if ( $opt{T} || $opt{I} ) {
 
             my @timestamps =
               $txt =~ /(?<![Mm]inus )\d+:\d\d(?::\d+)?(?:\.\d\d?)?/g;
@@ -191,28 +192,37 @@ sub filesort {
 
 sub parse_timestamp {
     my ( $logtimestamp, $timestamptxt ) = @_;
+
+    my $valid;
     my $parsed;
+
     if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)\.\d+$/ ) {
-        return $1 * 60 * 60 + $2 * 60 + $3;
+        $valid = $1 * 60 * 60 + $2 * 60 + $3;
     }
+
     # Some magic numbers which are not passed literally
-    return 5 * 60 + 32 if $timestamptxt eq '5:32';
-    return 135 * 60 * 60 + 4 * 60 + 25 if $timestamptxt eq '35:04:25';
+    $valid = 5 * 60 + 32 if $timestamptxt eq '5:32';
+    $valid = 135 * 60 * 60 + 4 * 60 + 25 if $timestamptxt eq '35:04:25';
 
-    if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)$/ ) {
-        $parsed = $1 * 60 * 60 + $2 * 60 + $3;
+    if ( !$valid ) {
+        if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)$/ ) {
+            $parsed = $1 * 60 * 60 + $2 * 60 + $3;
+        }
+        elsif ( $timestamptxt =~ /^(\d+):(\d+)(?:\.\d+)?$/ ) {
+            $parsed = $1 * 60 * 60 + $2 * 60;
+        }
+        else {
+            warn("Unable to parse timestamp '$timestamptxt'");
+        }
+
+        my $percent_change =
+          100 * abs( $logtimestamp - $parsed ) / $logtimestamp;
+
+        $valid = $parsed if $parsed > 485900 && $parsed < 514000;
+        $valid = $parsed if $percent_change < 25;
     }
-    elsif ( $timestamptxt =~ /^(\d+):(\d+)(?:\.\d+)?$/ ) {
-        $parsed = $1 * 60 * 60 + $2 * 60;
-    }
-    else {
-        warn("Unable to parse timestamp '$timestamptxt'");
-    }
 
-    return $parsed if $parsed > 485900 && $parsed < 514000;
-
-    my $percent_change = 100 * abs( $logtimestamp - $parsed ) / $logtimestamp;
-    return $parsed if $percent_change < 25;
-
-    return undef;
+    return $parsed if $opt{I} && !$valid;
+    return $valid if $opt{T};
+    return;
 }
