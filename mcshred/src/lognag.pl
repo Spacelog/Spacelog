@@ -50,6 +50,9 @@ lognag will sort files on the commandline by filename, excluding directory compo
     exit;
 }
 
+my $x_last_lognag = 0;
+my $x_last_tea    = 0;
+my $x_last_bacon  = 0;
 my %valid_speaker = map { $_ => 1 }
   qw( AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music);
 my $last = -60 * 60;    # Allow for up to T minus 1 hour
@@ -105,16 +108,33 @@ sub process {
                 if ($x_fort) {
                     my ( $hour, $min, $sec ) =
                       timefmt($now) =~ m/:(\d+):(\d+):(\d+)/;
+                    if ( $now > $x_last_tea + 60 * 60 ) {
+                        push( @fail, 'george-make-tea' );
+                        $x_last_tea = $now;
+                    }
+                    if ( $now > $x_last_lognag + 60 * 61 * 20 ) {
+                        my $r   = rand(4);
+                        my $foo = '';
+                        $foo = '-useless'    if $r % 2 == 0;
+                        $foo = '-that-works' if $r % 3 == 0;
+                        push( @fail, "abs-add-something${foo}-to-lognag" );
+                        $x_last_lognag = $now;
+                    }
+                    if ( $now > $x_last_bacon + 60 * 30 && $hour == 8 ) {
+                        push( @fail, 'norm-eat-bacon' );
+                        $x_last_bacon = $now;
+                    }
                     if ( $hour > 20 && $hour <= 23 && $txt =~ /battery/i ) {
-                        push( @fail, 'matt-write-a-song' );
+                        push( @fail, 'matt-writes-a-new-song' );
                     }
                     if ( $hour > 20 && $txt =~ /charge/i ) {
-                        push( @fail, 'matt-wear-comedy-hat' );
+                        push( @fail, 'matt-wears-comedy-hat' );
                     }
-                    push( @fail, 'matt-ask-hannah-to-rework-all-rocket-images' )
-                      if $txt =~ /\bmodule\b/ && $min % 5 == 0;
+                    push( @fail,
+                        'matt-asks-hannah-to-rework-all-rocket-images-again' )
+                      if $txt =~ /\bmodule\b/ && $min % 3 == 0;
                     if ( $hour < 3 && $txt =~ /service/ ) {
-                        push( @fail, 'matt-play-very-loud' );
+                        push( @fail, 'matt-plays-very-loud-in-piano-pants' );
                     }
 
                 }
