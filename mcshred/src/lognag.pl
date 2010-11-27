@@ -9,12 +9,13 @@ use Data::Dumper;
 use Getopt::Std;
 
 my %opt;
-if ( !getopts( 'ho:t:v', \%opt ) || $opt{h} || !@ARGV ) {
+if ( !getopts( 'ho:t:vT', \%opt ) || $opt{h} || !@ARGV ) {
     print "Usage: lognag.pl [files]
       -h : This help
+      -T : Search and report on inline timestamps
   -o dir : Write valid output to files in 'dir'
 -t regex : Only check for failures of type 'regex'
-      -v : Verbose. Make editorially biased comments regarding the files
+      -v : Verbose. Make editorially biased comments regarding the speakers
 eg:
    ./lognag.pl AS13_TEC/0_CLEAN/[0-9]*.txt
 
@@ -25,9 +26,10 @@ lognag will sort files on the commandline by filename, excluding directory compo
 
 my %valid_speaker = map { $_ => 1 }
   qw( AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music);
-my $last = 0;
+my $last = -60 * 60;    # Allow for up to T minus 1 hour
 my %badfiles;
 my %speakers;
+my $total_fail;
 
 sub process {
     my ($file) = @_;
@@ -39,6 +41,8 @@ sub process {
         my @words    = split( ' ', $line );
         my $logscore = 0;
         my $fix      = 0;
+	my $txt = $line;
+
         if ( @words > 4 ) {
             foreach my $i (qw(0 1 2 3)) {
                 if ( $words[$i] =~ /^[a-zA-Z']{3,}[.,]?$/ ) {
@@ -69,13 +73,17 @@ sub process {
                 push( @fail, 'badsec' )  if $words[3] > 60;
                 if ( !@fail ) {
                     my $now =
-                      join( '-', $words[0], $words[1], $words[2], $words[3] );
-                    push( @fail, "timewarp:$last" ) if $now lt $last;
+                      $words[0] * 24 * 60 * 60 +
+                      $words[1] * 60 * 60 +
+                      $words[2] * 60 +
+                      $words[3];
+                    push( @fail, "timewarp:$last" ) if $now <= $last;
                     $last = $now;
                     foreach my $spkr ( split( '/', $speaker ) ) {
                         ++$speakers{$spkr}[ $words[0] ];
                     }
                 }
+	    $txt =~ s/(\S+\s*){5}//;
             }
         }
 
@@ -83,25 +91,46 @@ sub process {
         {
             push( @fail, "badlog" );
         }
-        push( @fail, 'noleet0please' ) if $line =~ /(\w\s)(?![1-9]0*)0[A-Z]/;
-        push( @fail, 'underscore' )    if $line =~ /_/;
-        push( @fail, 'lonely-l' )      if $line =~ /\bl\b/;
-        push( @fail, 'doh-ray-me-fa-so-la' )       if $line =~ /\blA\b/;
-        push( @fail, 'we-have-a-floblem' )         if $line =~ /[^H]ouston/;
-        push( @fail, 'hyphen-icide' )              if $line =~ /[a-z]-$/;
-        push( @fail, 't-is-such-a-lonely-number' ) if $line =~ /[^']\bt\b/;
-        push( @fail, 'stu-tts-ers' )               if $line =~ /tts\b/;
-        push( @fail, 'pleaseflush' )               if $line =~ /\b(po0|p0o)\b/i;
-        push( @fail, 'CB(11)please' )              if $line =~ /CB\([iI]{2}\)/;
-        push( @fail, 'less-ls-more-1s' )           if $line =~ /(l\d|\dl)/;
-        push( @fail, 'doublebonuslonely-l' )       if $line =~ /\b[^\w']ll\b/;
-        push( @fail, 'multiballpunctuation' )      if $line =~ /[,:;]{2}/;
-        push( @fail, 'geoff-minter-alert' ) if $line =~ /[^A-Z][a-z][A-Z]/;
-        push( @fail, '2Bornot2B13' )        if $line =~ /\b[1l]B\b/;
+
+        if ( $opt{T} ) {
+
+            my @timestamps =
+              $txt =~ /(?<![Mm]inus )\d+:\d\d(?::\d+)?(?:\.\d\d?)?/g;
+            foreach my $timestamp (@timestamps) {
+                my $parsed_timestamp = parse_timestamp( $last, $timestamp );
+                next if !defined $parsed_timestamp;
+                my $offset = timefmt( $parsed_timestamp - $last );
+                $offset =~ s/(\s*) /$1+/ if $parsed_timestamp >= $last;
+                printf( "$file: %s (%s $offset) $line",
+                    timefmt($last), timefmt($parsed_timestamp) );
+            }
+        }
 
         push( @fail, 'badchar' )
           if my (@badchar) =
               $line =~ /[^\-\t ._,A-Za-z0-9"'\?:\[\]<!&>;\/\n\(\)\*é#]/;
+
+        push( @fail, 'j-grows-up-so-fast' )
+          if $txt =~ /[^.][ ]J(?!ack|im|oe|ohn|ames|ETT|ETS|r\.)/;
+        push( @fail, 'noleet-0-please' )
+          if $txt =~ /([A-Za-z]0[A-Za-z\s]|[A-Za-z\s]0[A-Za-z])/;
+        push( @fail, '2B-or-not-2B-13' )       if $txt =~ /\b[1l]B\b/;
+        push( @fail, 'CB(11)-please' )         if $txt =~ /CB\([iI]{2}\)/;
+        push( @fail, 'doh-ray-me-fa-so-la' )   if $txt =~ /\blA\b/;
+        push( @fail, 'doubleplus-lonely-l' )   if $txt =~ /\b[^\w']ll\b/;
+        push( @fail, 'ellipsis-needs-a-diet' ) if $txt =~ /\.\.\.\./;
+        push( @fail, 'geoff-minter-alert' )    if $txt =~ /[^A-Z][a-z][A-Z]/;
+        push( @fail, 'ail-the-single-ladies' ) if $txt =~ /\bail\b/i;
+        push( @fail, 'hyphen-icide' )          if $txt =~ /[a-z]-$/;
+        push( @fail, 'less-ls-more-1s' )       if $txt =~ /(l\d|\dl)/;
+        push( @fail, 'lonely-l' )              if $txt =~ /\bl\b/;
+        push( @fail, 'multiball-punctuation' ) if $txt =~ /[,:;]{2}/;
+        push( @fail, 'please-flush' )          if $txt =~ /\b(po0|p0o)\b/i;
+        push( @fail, 'plunger-00-needed' )     if $txt =~ /\bPOO\b/;
+        push( @fail, 'stu-tts-ers' )           if $txt =~ /tts\b/;
+        push( @fail, 't-is-such-a-lonely-number' ) if $txt =~ /[^']\bt\b/;
+        push( @fail, 'underscore' )                if $txt =~ /_/;
+        push( @fail, 'we-tlave-a-floblem' )        if $txt =~ /[^H]ouston/;
 
         @fail = grep ( /^$opt{t}/, @fail ) if $opt{t};
         if (@fail) {
@@ -111,6 +140,7 @@ sub process {
         else {
             $cleandata .= $line;
         }
+        $total_fail += @fail;
     }
     close(FILE);
     if ( $opt{o} ) {
@@ -123,7 +153,8 @@ sub process {
 }
 
 foreach my $file ( sort filesort @ARGV ) { process($file); }
-print 'Badfiles: ', join( ' ', sort keys %badfiles ), "\n" if %badfiles;
+print 'Bad files: ', join( ' ', sort keys %badfiles ), "\n" if %badfiles;
+print 'Fail: ', $total_fail, "\n" if $total_fail;
 
 if ( $opt{v} ) {
     foreach my $speaker ( sort keys %speakers ) {
@@ -140,6 +171,14 @@ if ( $opt{v} ) {
 }
 exit;
 
+sub timefmt {
+    my $secs = shift;
+    return sprintf "    %02d:%02d", ( $secs / 60 ) % 60, $secs % 60
+      if $secs < 60 * 60;
+    return sprintf "%3d:%02d:%02d", $secs / ( 60 * 60 ), ( $secs / 60 ) % 60,
+      $secs % 60;
+}
+
 sub filesort {
 
     # Ensure we process the files sorted by filename not by pathname
@@ -150,25 +189,30 @@ sub filesort {
     return $fa cmp $fb;
 }
 
-__END__;
+sub parse_timestamp {
+    my ( $logtimestamp, $timestamptxt ) = @_;
+    my $parsed;
+    if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)\.\d+$/ ) {
+        return $1 * 60 * 60 + $2 * 60 + $3;
+    }
+    # Some magic numbers which are not passed literally
+    return 5 * 60 + 32 if $timestamptxt eq '5:32';
+    return 135 * 60 * 60 + 4 * 60 + 25 if $timestamptxt eq '35:04:25';
 
-    if (/^Tape \S+/) {
-	print 'Tape ', $_;
+    if ( $timestamptxt =~ /^(\d+):(\d+):(\d+)$/ ) {
+        $parsed = $1 * 60 * 60 + $2 * 60 + $3;
     }
-    elsif (/^.*/) {
-	print 'NewP ', $_;
+    elsif ( $timestamptxt =~ /^(\d+):(\d+)(?:\.\d+)?$/ ) {
+        $parsed = $1 * 60 * 60 + $2 * 60;
     }
-    elsif (/^(?:[\dloPOh_iI!B\]]{2} ){4}\S+ .*/) {
-	print 'LogL ', $_;
-    }
-    elsif (/^\S*Pag\S* \S+$/) {
-	print 'Page ', $_;
-    }
-    elsif (/^END OF TAPE/) {
-	print 'TapE ', $_;
-	}
     else {
-        print '**** ', $_;
+        warn("Unable to parse timestamp '$timestamptxt'");
     }
 
+    return $parsed if $parsed > 485900 && $parsed < 514000;
 
+    my $percent_change = 100 * abs( $logtimestamp - $parsed ) / $logtimestamp;
+    return $parsed if $percent_change < 25;
+
+    return undef;
+}
