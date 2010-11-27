@@ -7,7 +7,7 @@ from django.utils.safestring import mark_safe
 import xappy
 import xapian
 import redis
-from backend.api import LogLine
+from backend.api import LogLine, Character
 
 PAGESIZE = 20
 
@@ -56,8 +56,8 @@ class SearchView(TemplateView):
         for result in results:
             transcript_name, timestamp = result.id.split(":", 1)
             log_line = LogLine(redis_conn, transcript_name, int(timestamp))
-            log_line.speaker = result.data['speaker'][0]
-            log_line.title = mark_safe(log_line.speaker + ": &ldquo;" + result.summarise("text", maxlen=50, ellipsis='&hellip;', strict_length=True, hl=None)) + "&rdquo;"
+            log_line.speaker = Character(redis_conn, transcript_name.split('/')[0], result.data['speaker'][0])
+            log_line.title = mark_safe(result.summarise("text", maxlen=50, ellipsis='&hellip;', strict_length=True, hl=None))
             log_line.summary = mark_safe(result.summarise("text", maxlen=600, ellipsis='&hellip;', hl=('<mark>', '</mark>')))
             log_lines.append(log_line)
 
