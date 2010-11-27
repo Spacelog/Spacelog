@@ -113,7 +113,7 @@ p.load-more a {
 }
 
 p.original {
-    margin-top:             15px;
+    margin-top:             -25px;
     float:                  right;
     font-size:              12px;
 }
