@@ -6,18 +6,42 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use Getopt::Std;
+use Getopt::Long;
 
 my %opt;
-if ( !getopts( 'f:ho:t:vIT', \%opt ) || $opt{h} || !@ARGV ) {
+my $report_fail;
+my $inline_timestamps;
+my $invalid_inline_timestamps;
+my $output_dir;
+my $show_stats;
+my $x_fort;
+my $log_timestamp_elements = 4;
+my $help;
+
+if (
+    !GetOptions(
+        'report|f=s'                 => \$report_fail,
+        'help|h'                     => \$help,
+        'fort'                       => \$x_fort,
+        'inline-timestamps|T'        => \$inline_timestamps,
+        'all-inline-timestamps|I'    => \$invalid_inline_timestamps,
+        'log-timestamp-elements|t=i' => \$log_timestamp_elements,
+        'stats-porn|v'               => \$show_stats,
+        'output-dir|o=s'             => \$output_dir,
+    )
+    || $help
+    || !@ARGV
+  )
+{
     print "Usage: lognag.pl [files]
--f regex : Only check for failures of type 'regex'
-      -h : This help
-      -T : Search and report on inline timestamps
-      -I : Search and report on invalid inline timestamps
-  -t num : Number of timestamp elements in log lines (default 4)
-  -o dir : Write valid output to files in 'dir'
-      -v : Verbose. Make editorially biased comments regarding the speakers
+                      --help : This help
+                      --fort : Run with additional /dev/fort filter
+         --inline-timestamps : Search and markup 'valid' inline timestamps
+ --invalid-inline-timestamps : Search and markup 'invalid' inline timestamps
+--log-timestamp-elements num : Number of timestamp elements in log lines (default 4)
+              --report regex : Only report failures of type 'regex'
+	    --output-dir dir : Write sanitised/updated files into dir
+                --stats-porn : Show some stats on speakers
 eg:
    ./lognag.pl AS13_TEC/0_CLEAN/[0-9]*.txt
 
@@ -28,8 +52,7 @@ lognag will sort files on the commandline by filename, excluding directory compo
 
 my %valid_speaker = map { $_ => 1 }
   qw( AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music);
-my $last = -60 * 60;                     # Allow for up to T minus 1 hour
-my $timestamp_elements = $opt{t} || 4;
+my $last = -60 * 60;    # Allow for up to T minus 1 hour
 my %badfiles;
 my %speakers;
 my $total_fail;
@@ -41,13 +64,13 @@ sub process {
     open( FILE, "<$file" ) || die("Unable to open $file: $!");
     while ( my $line = <FILE> ) {
         my @fail;
-        my @words    = split( ' ', $line, $timestamp_elements + 2 );
+        my @words    = split( ' ', $line, $log_timestamp_elements + 2 );
         my $logscore = 0;
         my $fix      = 0;
         my $txt      = $line;
 
-        if ( @words > $timestamp_elements ) {
-            for ( my $i = 0 ; $i < $timestamp_elements ; ++$i ) {
+        if ( @words > $log_timestamp_elements ) {
+            for ( my $i = 0 ; $i < $log_timestamp_elements ; ++$i ) {
                 if ( $words[$i] =~ /^[a-zA-Z']{3,}[.,]?$/ ) {
                     $logscore -= 2;
                     next;
@@ -61,34 +84,54 @@ sub process {
                 if   ($i) { ++$logscore if $words[$i] =~ /^\d{2}$/; }
                 else      { ++$logscore if $words[$i] =~ /^-?\d{2}$/; }
             }
-            my $speaker = $words[$timestamp_elements];
+            my $speaker = $words[$log_timestamp_elements];
             $speaker = 'Music' if $speaker =~ /^\(Music/;
-            if ( $logscore && $logscore > $timestamp_elements - 1 ) {
+
+            # log timestamp passed enough tests
+            if ( $logscore && $logscore > $log_timestamp_elements - 1 ) {
                 my @speakers =
                   grep( !$valid_speaker{$_}, split( '/', $speaker ) );
                 push( @fail, 'imposter:' . join( ',', @speakers ) )
                   if @speakers;
+                foreach my $spkr ( split( '/', $speaker ) ) {
+                    ++$speakers{$spkr}[ $words[0] ];
+                    $txt = $words[ $log_timestamp_elements + 1 ];
+                }
             }
-            if ( $logscore == $timestamp_elements ) {
+
+            # log timestamp passed tests
+            if ( $logscore == $log_timestamp_elements ) {
                 my $now = parse_log_timestamp( \@words, \@fail );
+                if ($x_fort) {
+                    my ( $hour, $min, $sec ) =
+                      timefmt($now) =~ m/:(\d+):(\d+):(\d+)/;
+                    if ( $hour > 20 && $hour <= 23 && $txt =~ /battery/i ) {
+                        push( @fail, 'matt-write-a-song' );
+                    }
+                    if ( $hour > 20 && $txt =~ /charge/i ) {
+                        push( @fail, 'matt-wear-comedy-hat' );
+                    }
+                    push( @fail, 'matt-ask-hannah-to-rework-all-rocket-images' )
+                      if $txt =~ /\bmodule\b/ && $min % 5 == 0;
+                    if ( $hour < 3 && $txt =~ /service/ ) {
+                        push( @fail, 'matt-play-very-loud' );
+                    }
+
+                }
                 if ( defined $now ) {
                     push( @fail, 'timewarp:' . timefmt($last) ) if $now < $last;
                     $last = $now;
                 }
-                foreach my $spkr ( split( '/', $speaker ) ) {
-                    ++$speakers{$spkr}[ $words[0] ];
-                }
-                $txt = $words[ $timestamp_elements + 1 ];
             }
         }
 
-        if (   ( $logscore > 1 && $logscore < $timestamp_elements )
-            || ( $fix && $logscore == $timestamp_elements ) )
+        if (   ( $logscore > 1 && $logscore < $log_timestamp_elements )
+            || ( $fix && $logscore == $log_timestamp_elements ) )
         {
             push( @fail, "badlog" );
         }
 
-        if ( $opt{T} || $opt{I} ) {
+        if ( $inline_timestamps || $invalid_inline_timestamps ) {
 
             my @timestamps =
               $txt =~ /(?<![Mm]inus )\d+:\d\d(?::\d+)?(?:\.\d\d?)?/g;
@@ -132,7 +175,7 @@ sub process {
         push( @fail, 'underscore' )                if $txt =~ /_/;
         push( @fail, 'we-tlave-a-floblem' )        if $txt =~ /[^H]ouston/;
 
-        @fail = grep ( /^$opt{f}/, @fail ) if $opt{f};
+        @fail = grep ( /^$report_fail/, @fail ) if $report_fail;
         if (@fail) {
             ++$badfiles{$file};
             print "$file: (@fail) $line";
@@ -143,9 +186,9 @@ sub process {
         $total_fail += @fail;
     }
     close(FILE);
-    if ( $opt{o} ) {
+    if ($output_dir) {
         $file =~ m#([^/]+)$#;
-        my $outfile = "$opt{o}/$1";
+        my $outfile = "$output_dir/$1";
         open( OUTFILE, ">$outfile" ) || die "Unable to write $outfile: $!";
         print OUTFILE $cleandata;
         close(OUTFILE);
@@ -156,7 +199,7 @@ foreach my $file ( sort filesort @ARGV ) { process($file); }
 print 'Bad files: ', join( ' ', sort keys %badfiles ), "\n" if %badfiles;
 print 'Fail: ', $total_fail, "\n" if $total_fail;
 
-if ( $opt{v} ) {
+if ($show_stats) {
     foreach my $speaker ( sort keys %speakers ) {
         my $perday;
         my $total;
@@ -175,7 +218,7 @@ sub timefmt {
     my $secs            = shift;
     my $timestamp       = '';
     my @timestamp_units = ( 60, 60, 24 );    # Sorted seconds, min, hour, day...
-    for ( my $index = 0 ; $index < $timestamp_elements - 1 ; ++$index ) {
+    for ( my $index = 0 ; $index < $log_timestamp_elements - 1 ; ++$index ) {
         $timestamp =
           sprintf( ":%02d", $secs % $timestamp_units[$index] ) . $timestamp;
         $secs /= $timestamp_units[$index];
@@ -196,18 +239,21 @@ sub filesort {
 sub parse_log_timestamp {
     my ( $words, $fail ) = @_;
 
-    my $timestamp = $words->[ $timestamp_elements - 1 ];
-    if ( $timestamp_elements > 1 ) {
-        push( @{$fail}, 'badsec' ) if $words->[ $timestamp_elements - 1 ] > 60;
-        $timestamp += $words->[ $timestamp_elements - 2 ] * 60;
+    my $timestamp = $words->[ $log_timestamp_elements - 1 ];
+    if ( $log_timestamp_elements > 1 ) {
+        push( @{$fail}, 'badsec' )
+          if $words->[ $log_timestamp_elements - 1 ] > 60;
+        $timestamp += $words->[ $log_timestamp_elements - 2 ] * 60;
     }
-    if ( $timestamp_elements > 2 ) {
-        push( @{$fail}, 'badmin' ) if $words->[ $timestamp_elements - 2 ] > 60;
-        $timestamp += $words->[ $timestamp_elements - 3 ] * 60 * 60;
+    if ( $log_timestamp_elements > 2 ) {
+        push( @{$fail}, 'badmin' )
+          if $words->[ $log_timestamp_elements - 2 ] > 60;
+        $timestamp += $words->[ $log_timestamp_elements - 3 ] * 60 * 60;
     }
-    if ( $timestamp_elements > 3 ) {
-        push( @{$fail}, 'badhour' ) if $words->[ $timestamp_elements - 3 ] > 24;
-        $timestamp += $words->[ $timestamp_elements - 4 ] * 60 * 60 * 24;
+    if ( $log_timestamp_elements > 3 ) {
+        push( @{$fail}, 'badhour' )
+          if $words->[ $log_timestamp_elements - 3 ] > 24;
+        $timestamp += $words->[ $log_timestamp_elements - 4 ] * 60 * 60 * 24;
     }
     return $timestamp;
 }
@@ -244,7 +290,7 @@ sub parse_inline_timestamp {
         $valid = $parsed if $percent_change < 25;
     }
 
-    return $parsed if $opt{I} && !$valid;
-    return $valid if $opt{T};
+    return $parsed if $invalid_inline_timestamps && !$valid;
+    return $valid if $inline_timestamps;
     return;
 }
