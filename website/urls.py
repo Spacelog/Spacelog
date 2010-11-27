@@ -1,6 +1,7 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
 from transcripts.views import PageView, PhasesView, RangeView, ErrorView, OriginalView
+from homepage.views import HomepageView
 from search.views import SearchView
 
 tspatt = r'-?\d{2}:\d{2}:\d{2}:\d{2}'
@@ -9,7 +10,7 @@ urlpatterns = patterns('',
     # Example:
     # (r'^website/', include('website.foo.urls')),
     
-    url(r'^$', 'homepage.views.homepage', name="homepage"),
+    url(r'^$', HomepageView.as_view(), name="homepage"),
     url(r'^page/$', PageView.as_view(), name="view_page"),
     url(r'^page/(?P<start>' + tspatt + ')/$', PageView.as_view(), name="view_page"),
     url(r'^(?P<start>' + tspatt + ')/$', RangeView.as_view(), name="view_range"),

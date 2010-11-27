@@ -1,7 +1,5 @@
-from django.shortcuts import render_to_response
+from django.views.generic import TemplateView
 
-def homepage(request):
-    return render_to_response(
-        'homepage/homepage.html',
-        {},
-    )    
+class HomepageView(TemplateView):
+    template_name = 'homepage/homepage.html'
+
