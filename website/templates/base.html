@@ -7,6 +7,8 @@
 <body>
 {% include "_base/masthead.html" %}
 
+{% block crest %}{% endblock %}
+
 <div id='content' class='{% block content-class %}{% endblock %}'><div class="wrapper">
 {% block content %}{% endblock %}
 </div></div>

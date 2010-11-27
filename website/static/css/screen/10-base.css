@@ -14,6 +14,10 @@ body {
     margin:                 0 auto;
 }
 
+#crest.blue {
+    background:             #5d86b2;
+}
+
 a {
     color:                  #00abd7;
     text-decoration:        none;

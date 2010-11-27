@@ -13,7 +13,8 @@
             "title": "Launch",
             "description": "Leaving the earth!",
             "range": ["-00:00:00:20", "00:00:12:00"],
-            "banner": "phase1.png"
+            "banner": "phase1.png",
+	    "banner_class": "blue"
         },
         {
             "title": "Earth orbit",

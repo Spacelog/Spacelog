@@ -8,8 +8,18 @@
 
 {% block content-class %}transcript {% if max_highlight_index > 0 %}with-highlight{% endif %}{% endblock %}
 
-{% block content %}
+{% block crest %}
+{% if log_lines.0.first_in_act and log_lines.0.act.banner %}
+  {% with log_lines.0.act as act %}
+    <div id='crest' {% if act.banner_class %}class='{{ act.banner_class }}'{% endif %}><div class='wrapper'>
+    <p class='act-banner'><img class="act-banner" src="/assets/img/acts/{{ act.mission_name }}/{{ act.banner }}"></p>
+    </div></div>
+  {% endwith %}
+{% endif %}
+{% endblock %}
 
+{% block content %}
+  
   <div class='nav'>
   {% if previous_timestamp and not max_highlight_index %}
     <p class='load-more'>
@@ -26,9 +36,6 @@
 
   <dl id='transcript'>
   {% for log_line in log_lines %}
-    {% if log_line.first_in_act and log_line.act.banner %}
-      <p class='act-banner'><img class="act-banner" src="/assets/img/acts/{{ log_line.mission_name }}/{{ log_line.act.banner }}"></p>
-    {% endif %}
     {% for speaker, text in log_line.lines %}
     <div id="log-line-{{ log_line.timestamp }}">
       <dt class='time {% if log_line.highlighted %}highlighted {% endif %}'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
@@ -95,7 +102,7 @@
   {% endif %}
   </div>
 
-  <div id='phases'>
+  <div id='phases'><div class='shim'>
     <div class='wrapper'>
       <nav><ul>
         {% if previous_act %}
@@ -111,19 +118,7 @@
         {% endif %}
       </ul></nav>
       <img src='/assets/img/missions/{{ mission.name }}/act{{ act }}.png'>
-      <!--
-      <h2>Phases</h2>
-      <ol>
-        {% for act in acts %}
-          {% if act == current_act %}
-            <li><strong>You are here: <a href="{% timestamp_to_url act.start %}">{{ act.title }}</a></strong></li>
-          {% else %}
-            <li><a href="{% timestamp_to_url act.start %}">{{ act.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ol>
-      -->
-    </div>
+    </div></div>
   </div>
   
 {% endblock %}

@@ -106,7 +106,8 @@
 }
 
 #phases {
-    border-top:             1px solid #959595;
+    margin-top:             1px;
+    border-top:             1px solid #232323;
     position:               fixed;
     bottom:                 0;
     left:                   0;
@@ -118,8 +119,12 @@
     font-family:            "League Gothic";
     text-transform:         uppercase;
 }
+#phases .shim {
+    border-top:             1px solid #555;
+}
 #phases nav {
     text-align:             center;
+    padding-top:            5px;
 }
 #phases ul {
     display:                inline-block;
@@ -185,10 +190,14 @@ p.original {
 
 p.act-banner {
     height:                 200px;
-    margin:                 20px -40px;
+    margin:                 0 -40px;
 }
 
 /*! verbatim */
+#phases {
+    -webkit-box-shadow:     #222 0 -2px 4px;
+    -moz-box-shadow:        #222 0 -2px 4px;
+}
 p.load-more a {
     -webkit-box-shadow:     #222 0 2px 4px;
     -moz-box-shadow:        #222 0 2px 4px;

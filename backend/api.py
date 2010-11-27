@@ -300,6 +300,7 @@ class Act(NarrativeElement):
         super(Act, self)._load()
         self.description = self.data['description']
         self.banner = self.data.get("banner", None)
+        self.banner_class = self.data.get("banner_class", None)
 
     class Query(NarrativeElement.Query):
         all_key_pattern = "acts:%(mission_name)s"
