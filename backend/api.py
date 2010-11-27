@@ -324,7 +324,7 @@ class Character(object):
 
     def current_shift(self, timestamp):
         shifts_key = 'characters:%s:shifts' % self.id
-        shifts = self.redis_conn.zrangebyscore(shifts_key, 0, timestamp)
+        shifts = self.redis_conn.zrangebyscore(shifts_key, -1000, timestamp)
         if shifts:
             return Character(self.redis_conn, self.mission_name, shifts[-1])
         else:

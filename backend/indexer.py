@@ -12,14 +12,12 @@ search_db = xappy.IndexerConnection(
 def mission_time_to_timestamp(mission_time):
     """Takes a mission time string (XX:XX:XX:XX) and converts it to a number of seconds"""
     d,h,m,s = map(int, mission_time.split(':'))
+    timestamp = d*86400 + h*3600 + m*60 + s
     
-    if d < 0:
-        d = abs(d)
-        direction = -1
+    if mission_time[0] == "-":
+        return timestamp * -1
     else:
-        direction = 1
-    
-    return direction * (d*86400 + h*3600 + m*60 + s)
+        return timestamp
 
 class TranscriptIndexer(object):
     """
