@@ -57,11 +57,11 @@
 }
 
 #content.homepage blockquote p {
-    font-family:            'Geroria',
+    font-family:            'Georgia',
                             serif;
     font-size:              2em;
     margin-bottom:          1em;
-    padding-top:             50px;
+    padding:                50px 20px 0 20px;
 }
 
 #content.homepage blockquote div#quotenav {
