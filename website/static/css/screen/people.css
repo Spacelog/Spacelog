@@ -1,7 +1,5 @@
 .people {
-    background:             #000;
-    color:                  #fff;
-    padding:                20px 0;
+    padding-top:            20px;
 }
 .people .wrapper {
     width:                  960px;

@@ -28,6 +28,16 @@ a:active {
     background:             #999;
 }
 
+/* Sunrise pages */
+.people {
+    background:             #000
+                            url( /assets/img/base/sunrise.jpg )
+                            no-repeat
+                            bottom center;
+    color:                  #fff;
+    padding-bottom:         100px;
+}
+
 /*! verbatim */
 @font-face {
     font-family:            'League Gothic';
