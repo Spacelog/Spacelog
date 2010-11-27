@@ -1,6 +1,6 @@
 {
     "name": "ma6",
-    "featured": false,
+    "featured": true,
     "subdomains": ["ma6"],
     "title": "Mercury 6",
     "description": "Another!",
