@@ -42,7 +42,8 @@
             "banner": "act1.jpg",
             "banner_class": "blue",
             "orbital": "act1.png",
-            "illustration": "act1.gif"
+            "illustration": "act1.gif",
+            "homepage": "act1.jpg"
         },
         {
             "title": "Earth orbit",
@@ -50,7 +51,8 @@
             "range": ["00:00:12:00", "00:02:41:00"],
             "banner": "act2.png",
             "orbital": "act2.png",
-            "illustration": "act2.gif"
+            "illustration": "act2.gif",
+            "homepage": "act2.jpg"
         },
         {
             "title": "To the Moon",
@@ -58,7 +60,8 @@
             "range": ["00:02:41:00", "03:07:27:00"],
             "banner": "act3.png",
             "orbital": "act3.png",
-            "illustration": "act3.gif"
+            "illustration": "act3.gif",
+            "homepage": "act3.jpg"
         },
         {
             "title": "Towards Earth",
@@ -66,7 +69,8 @@
             "range": ["03:07:27:00", "05:17:23:00"],
             "banner": "act4.png",
             "orbital": "act4.png",
-            "illustration": "act4.gif"
+            "illustration": "act4.gif",
+            "homepage": "act4.jpg"
         },
         {
             "title": "Reentry",
@@ -74,7 +78,8 @@
             "range": ["05:17:23:00", "05:22:38:36"],
             "banner": "act5.jpg",
             "orbital": "act5.png",
-            "illustration": "act5.gif"
+            "illustration": "act5.gif",
+            "homepage": "act5.jpg"
         },
         {
             "comment": "end point (05:22:55:21) is one second after the 'end of mission' marker, which is after all end photos",
@@ -83,7 +88,8 @@
             "range": ["05:22:38:36", "05:22:55:21"],
             "banner": "act6.jpg",
             "orbital": "act6.png",
-            "illustration": "act6.gif"
+            "illustration": "act6.gif",
+            "homepage": "act6.jpg"
         }
     ],
     "key_scenes" : [

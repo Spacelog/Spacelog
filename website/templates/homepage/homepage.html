@@ -30,8 +30,10 @@
 {% for number, act in acts %}
   <li>
     <a href='{% timestamp_to_url act.start %}'>
-      <img src="/assets/missions/{{ mission.name }}/images/homepage/phase{{ number }}.jpg"
+        {% if act.homepage %}
+          <img src="/assets/missions/{{ mission.name }}/images/homepage/{{ act.homepage }}"
            alt="" width="220" height="140"/>
+        {% endif %}
       Phase {{ number }}: {{ act.title }}
     </a>
   </li>
