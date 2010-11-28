@@ -63,7 +63,7 @@ Whenever you edit information about a mission, or add a new one, you need to run
 Within the system, there are a number of terms that describe pieces of the system but do not necessarily match what is shown on the websites.
 
  * TRANSCRIPT FILE -- our textual representation of the original transcript; see transcript-file-format/
- * TIMESTAMP -- four colon-separated numbers that represent the GET (Ground Elapsed Time), the time since ignition within the mission; the four numbers are days, hours, minutes, seconds, so ignition is 00:00:00:00; these are used in the transcript files, and also in URLs
+ * TIMESTAMP -- four colon-separated numbers that represent the GET (Ground Elapsed Time), the time since launch within the mission; the four numbers are days, hours, minutes, seconds, so ignition is 00:00:00:00; these are used in the transcript files, and also in URLs
  * LOG LINE -- smallest linkable chunk, identified by timestamp and transcript file
  * RANGE -- a range between two timestamps (can be the same two)
  * LABEL -- a keyword applied to a range within a specific stream (note that labels are not currently used)
