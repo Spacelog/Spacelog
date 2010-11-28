@@ -42,6 +42,7 @@
 .phase .navigation a {
   text-shadow:            0 1px 1px rgba(0,0,0,0.75);
   -webkit-box-shadow:     inset #494747 0 2px 0;
+  -moz-box-shadow:        inset #494747 0 2px 0;
   background:             -webkit-gradient(
                               linear,
                               left top,
@@ -49,10 +50,12 @@
                               from(#373636),
                               to(#282828)
                           );
+  background:             -moz-linear-gradient(top,#373636,#282828);
 }
 
 .phase .navigation li.selected strong {
   -webkit-box-shadow:     inset #252525 0 2px 0;
+  -moz-box-shadow:        inset #252525 0 2px 0;
   background:             -webkit-gradient(
                               linear,
                               left top,
@@ -60,6 +63,7 @@
                               from(#191919),
                               to(black)
                           );
+  background:             -moz-linear-gradient(top,#191919,black);
 }
 /* -- */
 
@@ -70,6 +74,7 @@
   padding:                20px;
   font-size:              14px;
   -webkit-box-shadow:     #222222 0 -1px 1px;
+  -moz-box-shadow:        #222222 0 -1px 1px;
 }
 
 .phase .details h1 {
@@ -100,6 +105,8 @@
   text-shadow:            rgba(0, 0, 0, 0.75) 0 1px 2px;
   -webkit-box-shadow:     inset #34d5fc 0 2px 2px,
                           rgba(0, 0, 0, 0.75) 0 2px 2px;
+  -moz-box-shadow:        inset #34d5fc 0 2px 2px,
+                          rgba(0, 0, 0, 0.75) 0 2px 2px;
   background:             -webkit-gradient(
                               linear,
                               left top,
@@ -107,6 +114,7 @@
                               from(#037c99),
                               to(#037c99)
                           );
+  background:             -moz-linear-gradient(top,#037c99,#037c99);
 }
 /* -- */
 
