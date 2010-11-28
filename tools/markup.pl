@@ -31,8 +31,6 @@ directory it will look for a TEC and _meta files in that directory.
     exit;
 }
 
-warn
-"Will create broken marked up links for entries containing <sub>";
 foreach my $dir (@ARGV) {
     process($dir);
 }
@@ -96,8 +94,12 @@ sub markup {
     my ( $link, @tags ) = @_;
     my $regex = join '|',
       map { s{(.)}{$1(?:<[^>]+>)?}g; "(?<!\\[$link:)$_(?!\])" } @tags;
-    map { $_->{text} =~ s/\b($regex)\b/[$link:$1 $1]/g; $_ } @lines;
+    map { $_->{text} =~ s/\b($regex)\b/"[$link:".clean($1)." $1]"/eg; $_ }
+      @lines;
 }
+
+# Cleanup links by removing <tags>
+sub clean { my $key = shift; $key =~ s/<[^>]+>//g; $key; }
 
 sub process {
     my ($path) = @_;
@@ -115,7 +117,7 @@ sub process {
     }
     load_transcript($transcript_file);
     load_meta($meta_file);
-    markup('glossary', keys %{$glossary}) if keys %{$glossary};
+    markup( 'glossary', keys %{$glossary} ) if keys %{$glossary};
     save_transcript("$transcript_file-markedup");
 }
 
