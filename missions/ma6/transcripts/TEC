@@ -26,7 +26,7 @@ CC: Standby for 20 seconds.
 P: Roger.
 
 [00:00:00:20]
-CC: 2-- 1, mark.
+CC: 2 -- 1, mark.
 
 [00:00:00:23]
 P: Roger. Backup clock is started.
@@ -370,10 +370,10 @@ P: This is Friendship Seven. Standby. I'm getting out some equipment. Over.
 P: Hello, Canary, Friendship Seven, switching to UHF. Over.
 
 [00:00:14:09]
-CC: Friendship Seven, Friendship Seven, Canary Cap Com. Sa3, again.
+CC: Friendship Seven, Friendship Seven, Canary Cap Com. Say, again.
 
 [00:00:14:23]
-CC: Friendship Seven, Friendship Seven, Canary Cap Corel. Read you.
+CC: Friendship Seven, Friendship Seven, Canary Cap Com. Read you.
 
 [00:00:14:32]
 P: Hello, Canary, Friendship Seven on UHF. How now? Over.
@@ -522,7 +522,7 @@ _extra : KANO (FIRST ORBIT)
 CC: Seven, you are fading; how me? Over.
 
 [00:00:21:33]
-CC: Friendship Seven, this is Kano Cap Corn, I read you loud and clear. How do
+CC: Friendship Seven, this is Kano Cap Com, I read you loud and clear. How do
      you read me? Over.
 
 [00:00:21:37]
@@ -700,11 +700,11 @@ P: This is Friendship Seven. Hello, Zanzibar, Friendship Seven. Do you receive?
      Over.
 
 [00:00:29:39]
-CT: Friendship Seven, Friendship Seven, this is Zanzibar Corn Tech transmitting on
+CT: Friendship Seven, Friendship Seven, this is Zanzibar Com Tech transmitting on
      HF, UHF, do you copy? Over.
 
 [00:00:29:45]
-P: Roger, Zanzibar Corn Tech, read you loud and clear. Control fuel is 90 98 [percent] cabin pressure, 5.6 and holding; oxygen, 75-100 [percent]. Over.
+P: Roger, Zanzibar Com Tech, read you loud and clear. Control fuel is 90 98 [percent] cabin pressure, 5.6 and holding; oxygen, 75-100 [percent]. Over.
 
 [00:00:30:13]
 P: This is Friendship Seven in the blind for recording. Much of eastern Africa is
@@ -719,7 +719,7 @@ CC: Friendship Seven, this is Zanzibar Cap Com, reading you loud and clear.
 P: Roger, Zanzibar.
 
 [00:00:30:39]
-CC: Message from IOS Cap Corn, that he will not release balloon flare this orbit. Will
+CC: Message from IOS Cap Com, that he will not release balloon flare this orbit. Will
      fire parachute flares instead. Did you copy? Over.
 
 [00:00:30:47]
@@ -789,7 +789,7 @@ CC: Now, thank you.
 [00:00:34:26]
 S: Friendship Seven, this is Zanzibar Surgeon, received your report indicating good
      reach accuracy. No disturbances on head motion, good visual acuity including
-     astigmatism test and good response to exercise. Over. Could you ... ?
+     astigmatism test and good response to exercise. Over. Could you ...?
 
 [00:00:34:39]
 P: Roger, this is Friendship Seven. Are you ready to copy panel rundown? Over.
@@ -861,8 +861,8 @@ P: Roger, Roger, I copy inverter temperatures okay.
 
 [00:00:37:59]
 CC: Friendship Seven, this is Zanzibar Cap Com. Telemetry indicates all systems go.
-     Medical status go, . . . reports same, we have a little bit of telemetry drop
-     out. ... Standby to pick up IOS in about 3 minutes. Zanzibar Cap Corn
+     Medical status go, ... reports same, we have a little bit of telemetry drop
+     out. ... Standby to pick up IOS in about 3 minutes. Zanzibar Cap Com
      out.
 
 [00:00:38:22]
@@ -870,19 +870,19 @@ _extra : INDIAN OCEAN SHIP (FIRST ORBIT)
 P: Roger, Zanzibar.
 
 [00:00:38:26]
-CT: Hello, Friendship Seven, Friendship Seven. This is Indian Corn Tech. ...
+CT: Hello, Friendship Seven, Friendship Seven. This is Indian Com Tech. ...
 
 [00:00:38:41]
 P: This is Friendship Seven, going on to eye patch.
 
 [00:00:39:04]
-CT: Hello, Friendship Seven. Friendship Seven, IOS Corn Teeh. Over.
+CT: Hello, Friendship Seven. Friendship Seven, IOS Com Tech. Over.
 
 [00:00:39:09]
-P: Hello, IOS Corn Teeh, Friendship Seven. Go ahead.
+P: Hello, IOS Com Tech, Friendship Seven. Go ahead.
 
 [00:00:39:28]
-CT: Friendship Seven, Friendship Seven. This is Indian Corn Tech on HF UtIF.
+CT: Friendship Seven, Friendship Seven. This is Indian Com Tech on HF UtIF.
      How do you read? Over.
 
 [00:00:39:36]
@@ -896,11 +896,11 @@ CT: Friendship Seven, Friendship Seven. This is Indian Com Tech on HF UHP.
 P: Indian Com Tech. Read you loud and clear on HF. Over.
 
 [00:00:40:08]
-CT: Hello Friendship Seven, Friendship Seven. This is Indian Corn Tech on HF UH F.
+CT: Hello Friendship Seven, Friendship Seven. This is Indian Com Tech on HF UH F.
      How do you read? Over.
 
 [00:00:40:16]
-P: Indian Corn Tech, Friendship Seven. Loud and clear, how me?
+P: Indian Com Tech, Friendship Seven. Loud and clear, how me?
 
 [00:00:40:19]
 CT: Roger, Friendship Seven, reading you loud and clear--
@@ -1085,7 +1085,7 @@ CC: Your voice transmissions are starting to fade very badly. Over.
 P: Roger. Friendship Seven.
 
 [00:00:47:15]
-CC: . . . clear, IOS Cap Com. Out.
+CC: ... clear, IOS Cap Com. Out.
 
 [00:00:47:18]
 P: Roger.
@@ -1105,7 +1105,7 @@ P: This is Friendship Seven, broadcasting in the blind. Wait a minute. Friendshi
 CT: Friendship Seven, Muchea Com Tech. We read you. Would you.
 
 [00:00:49:55]
-P: Hello, Muchea Corn Tech. This is Friendship Seven, reading you loud and clear.
+P: Hello, Muchea Com Tech. This is Friendship Seven, reading you loud and clear.
      How me?
 
 [00:00:50:01]
@@ -1166,7 +1166,7 @@ P: Roger.
 CC: Z Cal coming through now.
 
 [00:00:51:51]
-CC: Roger. Shortly yon may observe some lights down there. You want to take a
+CC: Roger. Shortly you may observe some lights down there. You want to take a
      check on that to your right? Over.
 
 [00:00:51:56]
@@ -1341,7 +1341,7 @@ P: Roger. Panel rundown follows: The fuse switches on the left panel are all as
 [00:00:58:23]
 P: Cabin pressure is holding steady at 5.5. Temperature in the cabin is 100 [degrees].
      Cabin humidity is 25 percent, Coolant quantity is 67 percent. Suit environment
-     is 62 [degrees]. Inlet pressure. Inlet temperature, . . . pressure is 5.8 on the
+     is 62 [degrees]. Inlet pressure. Inlet temperature, ... pressure is 5.8 on the
      suit. Steam temperature is 57 [degrees] and dropping since I turned it down.
      Oxygen is 74-101 [percent]. Amps 23. Are you still copying? Over.
 
@@ -1441,7 +1441,7 @@ P: This is Friendship Seven. This is Friendship Seven, broadcasting in the blind
      the Mercury network. 1, 2, 3, 4, 5. This is Mercury Friendship Seven. Out.
 
 [00:01:04:16]
-CC: This is Canaveral Cap Com, testing the HF. G.m.t. 15 (Cape) 52 05, MARK.
+CC: This is Canaveral Cap Com, testing the HF. G.m.t. 15 52 05, MARK.
      I did not read the capsule. Cape, out.
 
 [00:01:05:17]
@@ -1450,7 +1450,7 @@ CC: Friendship Seven, this Kano. G.m.t. [time:00:15:53:02 15 53 02]. I did (Kano
 
 [00:01:05:32]
 _extra : CANTON (FIRST ORBIT)
-CC: Friendship Seven, this is Zanzibar Cap Corn. ... This is Zanzibar Cap Corn, out.
+CC: Friendship Seven, this is Zanzibar Cap Com. ... This is Zanzibar Cap Com, out.
 
 [00:01:09:44]
 CT: Friendship Seven. This is Canton Com Tech. Do you read? Over.
@@ -1464,11 +1464,11 @@ P: Hello Canton. Hello Canton, Friendship Seven. Read you loud and clear. How
      me? Over.
 
 [00:01:10:08]
-CT: Friendship Seven, Canton Corn Tech. Read you loud and clear, also. Stand by
+CT: Friendship Seven, Canton Com Tech. Read you loud and clear, also. Stand by
      for Cap Com.
 
 [00:01:10:14]
-P: Roger. This is Friendship Seven. Corn Tech Canton. Fuel 90-100 [percent],
+P: Roger. This is Friendship Seven. Com Tech Canton. Fuel 90-100 [percent],
      oxygen 73-101 [percent].
 
 [00:01:10:28]
@@ -1888,7 +1888,7 @@ CT: Friendship Seven, this is Cape Com Tech, Cape Com Tech. Do you read? Over.
 P: Roger, Cape Com Tech. Friendship Seven.
 
 [00:01:33:23]
-P: Hello, Cape Corn Tech. Friendship Seven. Over.
+P: Hello, Cape Com Tech. Friendship Seven. Over.
 
 [00:01:33:27]
 CT: Friendship Seven, this is Canaveral Com Tech. How do you copy? Over.
@@ -2074,7 +2074,7 @@ P: This is Friendship Seven. Oculo check being completed. Got no effects.
 CC: ... Com. Go ahead.
 
 [00:01:42:14]
-P: Bermuda Cap Corn, Friendship Seven. I get no results from oculo check.
+P: Bermuda Cap Com, Friendship Seven. I get no results from oculo check.
 
 [00:01:42:20]
 CC: Cap Com. If you read, go ahead,
@@ -2139,7 +2139,7 @@ P: This is Friendship Seven on UHF. As I went over recovery area that time, I
      the ships in our recovery area.
 
 [00:01:45:09]
-CC: Friendship Seven, . . . We do not read you, do not read you. Over.
+CC: Friendship Seven, ... We do not read you, do not read you. Over.
 
 [00:01:45:17]
 CC: (KNO) Friendship Seven, this is Kano. At G.m.t. [time:00:16:33:00 16 33 00]. We do not. ... This is Kano. Out.
@@ -2152,30 +2152,30 @@ P: Hello, Canary. Friendship Seven. Receive you loud and a little garbled. Do
      you receive me? Over.
 
 [00:01:46:55]
-CT: Friendship Seven, Friendship Seven, this is CYI Corn Tech. Over.
+CT: Friendship Seven, Friendship Seven, this is CYI Com Tech. Over.
 
 [00:01:47:01]
 P: Hello, Canary, Friendship Seven. I read you loud and clear. How me? Over.
 
 [00:01:47:25]
-CT: Friendship Seven, Friendship Seven, this is CYI Coin Teeh. Over.
+CT: Friendship Seven, Friendship Seven, this is CYI Com Tech. Over.
 
 [00:01:47:30]
-P: Hello, CYI Corn Tech. Friendship Seven. How do you read me? Over.
+P: Hello, CYI Com Tech. Friendship Seven. How do you read me? Over.
 
 [00:01:47:48]
-CT: Friendship Seven, Friendship Seven, this is CYI, CYI Corn Teeh. Do you read?
+CT: Friendship Seven, Friendship Seven, this is CYI, CYI Com Tech. Do you read?
      Over.
 
 [00:01:47:54]
 P: Roger. This is Friendship Seven, CYI. I read you loud and clear. Over.
 
 [00:01:48:15]
-CT: Friendship Seven, Friendship Seven, this is CYI Corn Tech, CYI Com Teeh. Do
+CT: Friendship Seven, Friendship Seven, this is CYI Com Tech, CYI Com Tech. Do
      you read? Over.
 
 [00:01:48:20]
-P: Hello, CYI Corn Tech. Roger, read you loud and clear.
+P: Hello, CYI Com Tech. Roger, read you loud and clear.
 
 [00:01:48:26]
 _page: 165
@@ -2199,7 +2199,7 @@ CC: I read you loud and clear. I am instructed to ask you to correlate the actio
      Do you read? Over.
 
 [00:01:49:15]
-P: This is Friendship Seven. I did not read you clear. I read yon loud but very
+P: This is Friendship Seven. I did not read you clear. I read you loud but very
      garbled. Over.
 
 [00:01:49:22]
@@ -2286,7 +2286,7 @@ P: Friendship Seven, coming up to 14°.
 CC: When are you coming up?
 
 [00:01:52:29]
-CC: . . . coming up. ...
+CC: ... coming up. ...
 
 [00:01:52:31]
 P: Say again. You're very garbled. This is Friendship Seven.
@@ -2305,7 +2305,7 @@ P: This is Friendship Seven. I have no problem at all controlling on the horizon
      Over.
 
 [00:01:53:00]
-CC: Roger, understand yon have no problem at all controlling with the horizon.
+CC: Roger, understand you have no problem at all controlling with the horizon.
 
 [00:01:53:05]
 P: That's affirmative.
@@ -2524,14 +2524,14 @@ _extra : ZANZIBAR (SECOND ORBIT)
 P: Roger, this is Friendship Seven.
 
 [00:02:02:49]
-CT: Friendship Seven, Friendship Seven this is Zanzibar Com Teeh, transmitting on
+CT: Friendship Seven, Friendship Seven this is Zanzibar Com Tech, transmitting on
      HF UHF. Do you read? Over.
 
 [00:02:02:56]
 P: Roger, Zanzibar. Friendship Seven.
 
 [00:02:03:10]
-CT: Friendship Seven, Friendship Seven, this is Zanzibar Corn Tech, transmitting on
+CT: Friendship Seven, Friendship Seven, this is Zanzibar Com Tech, transmitting on
      HF UHF. DO you read? Over.
 
 [00:02:03:16]
@@ -2544,7 +2544,7 @@ P: Zanzibar Com Tech, this is Friendship Seven. Over.
 P: Zanzibar Com Tech.
 
 [00:02:03:42]
-CT: Friendship Seven, this is Zanzibar Corn Tech transmitting on HF UHF. Do you
+CT: Friendship Seven, this is Zanzibar Com Tech transmitting on HF UHF. Do you
      read? Over.
 
 [00:02:03:47]
@@ -2687,7 +2687,7 @@ CT: Friendship Seven, Friendship Seven, this is Indian Com Tech on HF and UHF
      How read? Over.
 
 [00:02:13:24]
-P: This is Friendship Seven. I read you okay, Indian Corn Tech. This is Friendship
+P: This is Friendship Seven. I read you okay, Indian Com Tech. This is Friendship
      Seven. I am on straight manual control at present time. I have 92 percent
      fuel. Over on, on manual, auto fuel is at 64 [percent]. Over.
 
@@ -2853,39 +2853,39 @@ _extra : MUCHEA (SECOND ORBIT)
 CC: Roger, understand.
 
 [00:02:21:19]
-CT: Friendship Seven, Friendship Seven, this is Muchea Com Teeh. Friendship Seven,
-     this is Muehea Corn Tech. Do you read?
+CT: Friendship Seven, Friendship Seven, this is Muchea Com Tech. Friendship Seven,
+     this is Muehea Com Tech. Do you read?
 
 [00:02:21:28]
-P: Hello, Muchea Com Teeh, Friendship Seven. Over.
+P: Hello, Muchea Com Tech, Friendship Seven. Over.
 
 [00:02:21:45]
 CT: Friendship Seven, Friendship Seven, this is Muchea Com Tech. Have your 
-     telemetry. Muchea Corn Tech. Do you read?
+     telemetry. Muchea Com Tech. Do you read?
 
 [00:02:21:51]
-P: Hello, Muchea Corn Teeh. Friendship Seven. Read you loud and clear; how me?
+P: Hello, Muchea Com Tech. Friendship Seven. Read you loud and clear; how me?
 
 [00:02:22:14]
 _page: 170
 CC: Friendship Seven, Friendship Seven, this is Muchea Com Tech. Friendship Seven,
-     this is Muchea Corn Tech. Do you read? Over.
+     this is Muchea Com Tech. Do you read? Over.
 
 [00:02:22:24]
 P: Hello, Muchea Com Tech, Friendship Seven. I read you loud and clear; how me?
 
 [00:02:22:38]
-P: Muchea Corn Tech, Friendship Seven. Holding attitude on Orion. Over.
+P: Muchea Com Tech, Friendship Seven. Holding attitude on Orion. Over.
 
 [00:02:22:46]
-CC: Friendship Seven, Friendship Seven, this is Muchea Corn Tech, calling on HF and
-     UHF. Friendship Seven, this is Muehea Corn Tech. Do you read?
+CC: Friendship Seven, Friendship Seven, this is Muchea Com Tech, calling on HF and
+     UHF. Friendship Seven, this is Muehea Com Tech. Do you read?
 
 [00:02:23:10]
 P: Hello Muchea, hello Muchea. Friendship Seven on HF. Over.
 
 [00:02:23:16]
-CT: Friendship Seven, this is Muchea Corn Tech. Do you read?
+CT: Friendship Seven, this is Muchea Com Tech. Do you read?
 
 [00:02:23:19]
 P: Roger, Muchea. Friendship Seven. Read you loud and clear; how me?
@@ -3213,7 +3213,7 @@ _extra : CANTON (SECOND ORBIT)
 P: This is Friendship Seven.
 
 [00:02:42:01]
-CT: Friendship Seven, Canton Corn Tech.
+CT: Friendship Seven, Canton Com Tech.
 
 [00:02:42:05]
 P: Hello Canton Com Tech. Friendship Seven. How did you receive UHF-HI?
@@ -3356,11 +3356,11 @@ _extra : HAWAII (SECOND ORBIT)
 P: Roger, Friendship Seven.
 
 [00:02:48:36]
-CT: Friendship Seven, this is Hawaii Corn Tech on UHF and HF. How do you read?
+CT: Friendship Seven, this is Hawaii Com Tech on UHF and HF. How do you read?
      Over.
 
 [00:02:48:42]
-P: Say again, Corn Tech, what station?
+P: Say again, Com Tech, what station?
 
 [00:02:49:06]
 CT: Friendship Seven, Hawaii Com Tech on UHF and HF. How do you read? Over.
@@ -3545,7 +3545,7 @@ CT: Friendship Seven, Friendship Seven, this is California Com Tech, California 
 
 [00:02:57:54]
 _page: 175
-P: Hello, California Com Teeh. Friendship Seven. Loud and clear; how me?
+P: Hello, California Com Tech. Friendship Seven. Loud and clear; how me?
 
 [00:02:58:14]
 CT: Friendship Seven, Friendship Seven, this is California Com Tech, California Com
@@ -3637,7 +3637,7 @@ CC: Roger. 3 Alpha corrected for the second error will be 03 plus 11 plus 26. Ov
 P: Roger, [time:00:03:11:26 03 11 26].
 
 [00:03:01:35]
-CC: You have your end-of-orbit time, and that has not changed and I believe yon have
+CC: You have your end-of-orbit time, and that has not changed and I believe you have
      Area Golf also.
 
 [00:03:01:41]
@@ -3707,7 +3707,7 @@ CC: I assume you are still on manual proportional; is that correct?
 P: That's affirmative, I'm still on manual.
 
 [00:03:03:40]
-CC: Friendship Seven, Guaymas Cap Corn reads you loud and clear. Over.
+CC: Friendship Seven, Guaymas Cap Com reads you loud and clear. Over.
 
 [00:03:03:44]
 P: Roger, Guaymas. Read you loud and clear, also.
@@ -3775,14 +3775,14 @@ _extra : CANAVERAL (THIRD ORBIT)
 P: This is. ...
 
 [00:03:07:03]
-CT: Canaveral Corn Tech. How do you copy? Over.
+CT: Canaveral Com Tech. How do you copy? Over.
 
 [00:03:07:05]
 P: Hello, Canaveral Com Tech. Friendship Seven. Loud and clear; how me?
 
 [00:03:07:09]
-CT: Roger, Friendship Seven. This is Canaveral Corn Tech. Copy you loud and clear,
-     also. Standby for Cap Corn please.
+CT: Roger, Friendship Seven. This is Canaveral Com Tech. Copy you loud and clear,
+     also. Standby for Cap Com please.
 
 [00:03:07:14]
 P: Roger.
@@ -3799,7 +3799,7 @@ CC: Friendship Seven, reading you loud and clear. I'll give you the 3 Bravo
 P: Roger, [time:00:03:22:26 03 22 26], for 3 Bravo. Is that affirm?
 
 [00:03:07:47]
-CC: . . . 3 Charlie [time:00:03:40:18 03 40 18]. Over.
+CC: ... 3 Charlie [time:00:03:40:18 03 40 18]. Over.
 
 [00:03:07:54]
 P: Roger, [time:00:03:40:18 03 40 18] for 3 Charlie.
@@ -4048,7 +4048,7 @@ P: Hello, Canary Com Tech. On HF; how do you receive me? Loud and clear from
      you. Over.
 
 [00:03:20:41]
-CT: Friendship Seven, this is CYI Corn Teeh. Do you read? Over.
+CT: Friendship Seven, this is CYI Com Tech. Do you read? Over.
 
 [00:03:20:46]
 P: Roger, Canary.
@@ -4138,7 +4138,7 @@ P: This is Friendship Seven. Negative. I have felt perfectly normal during the
 S: Very good. Back lo Cap Com.
 
 [00:03:23:41]
-CC: Friendship Seven, Friendship Seven, do you want yonr inverter temperatures at
+CC: Friendship Seven, Friendship Seven, do you want your inverter temperatures at
      this time?
 
 [00:03:23:45]
@@ -4272,10 +4272,10 @@ _extra : ZANZIBAR (THIRD ORBIT)
 P: This is Friendship Seven. Did not read you, ATS.
 
 [00:03:31:23]
-CT: Friendship Seven, this is Zanzibar Corn Tech, transmitting on HF UHF.
+CT: Friendship Seven, this is Zanzibar Com Tech, transmitting on HF UHF.
 
 [00:03:31:57]
-CT: Friendship Seven, Friendship Seven, this is Zanzibar Corn Tech, transmitting
+CT: Friendship Seven, Friendship Seven, this is Zanzibar Com Tech, transmitting
      on HF UHF. Do you read? Over.
 
 [00:03:32:04]
@@ -4312,7 +4312,7 @@ P: Atlantic Ship, this is Friendship Seven. Over.
 P: This is Friendship Seven, approaching sunset.
 
 [00:03:36:09]
-CT: Friendship Seven, Friendship Seven, this is Zanzibar Corn Tech transmitting on
+CT: Friendship Seven, Friendship Seven, this is Zanzibar Com Tech transmitting on
      HF UHF. Please acknowledge on HF. Over.
 
 [00:03:36:49]
@@ -4346,15 +4346,15 @@ P: The way the horizon looks is a very orange band. Just as the sun goes down an
 P: Once again I can see lightning flashing under me, very clearly.
 
 [00:03:40:36]
-CT: Friendship Seven, Friendship Seven, this is Zanzibar Corn Tech, transmitting on
+CT: Friendship Seven, Friendship Seven, this is Zanzibar Com Tech, transmitting on
      HF UHF. Please acknowledge on HF. Over.
 
 [00:03:40:44]
-P: Hello, Zanzibar Corn Tech. Friendship Seven on HF. Do you receive me now.
+P: Hello, Zanzibar Com Tech. Friendship Seven on HF. Do you receive me now.
      Over.
 
 [00:03:40:50]
-CC: Friendship Seven, this is Zanzibar Cap Corn reading you weak but garbled.
+CC: Friendship Seven, this is Zanzibar Cap Com reading you weak but garbled.
 
 [00:03:40:58]
 P: Roger. Understand reading me weak and garbled.
@@ -4426,21 +4426,21 @@ P: This is Friendship Seven. Several times I have felt that I had a partially st
      thruster occasionally.
 
 [00:03:47:03]
-CT: Friendship Seven, Friendship Seven, this is Indian Corn Tech. How do you read?
+CT: Friendship Seven, Friendship Seven, this is Indian Com Tech. How do you read?
      Over.
 
 [00:03:47:09]
-P: Hello, Indian Corn Tech, Friendship Seven. Over.
+P: Hello, Indian Com Tech, Friendship Seven. Over.
 
 [00:03:47:14]
-CT: Friendship Seven, this is Indian Corn Tech. I read you very weak, very weak,
+CT: Friendship Seven, this is Indian Com Tech. I read you very weak, very weak,
      very garbled. Am turning over to Cap Com on UHF. Over.
 
 [00:03:47:23]
 P: Roger. Friendship Seven.
 
 [00:03:47:30]
-CC: Friendship Seven, Friendship Seven, this is Indian Cap Corn on UHF. Do you
+CC: Friendship Seven, Friendship Seven, this is Indian Cap Com on UHF. Do you
      read? Over.
 
 [00:03:47:34]
@@ -4612,10 +4612,10 @@ P: This is Friendship Seven. Affirmative. I have Orion right in the middle of th
      am using it as horizon reference'at the moment.
 
 [00:03:55:05]
-CT: Friendship Seven, this is Muchea Corn Tech. How do you read? Over.
+CT: Friendship Seven, this is Muchea Com Tech. How do you read? Over.
 
 [00:03:55:09]
-P: Hello, Muchea Corn Tech. Loudand clear. Standby one. I'm right in the middle
+P: Hello, Muchea Com Tech. Loudand clear. Standby one. I'm right in the middle
      of operation here.
 
 [00:03:55:29]
@@ -4625,7 +4625,7 @@ CT: Friendship Seven, Friendship Seven, Muchea Coin Tech. Do you read? Over.
 P: Hello, Muchea Com Tech. Roger. Read you loud and clear. How me?
 
 [00:03:55:59]
-CT: Friendship Seven, Friendship Seven, Muchea Corn Tech. Do you read? Over.
+CT: Friendship Seven, Friendship Seven, Muchea Com Tech. Do you read? Over.
 
 [00:03:56:17]
 P: Hello, Muchea Com Tech, Muchea Com Tech. Roger. Friendship Seven. Loud
@@ -4648,7 +4648,7 @@ P: Roger, Friendship Seven, reading you loud and clear on HF. Over.
 CT: Friendship Seven, Friendship Seven, Muchea Com Tech, say again.
 
 [00:03:56:58]
-P: Roger, Muchea Corn Tech. Friendship Seven. Loud and clear. How me?
+P: Roger, Muchea Com Tech. Friendship Seven. Loud and clear. How me?
 
 [00:03:57:11]
 CT: Friendship Seven, Friendship Seven, this is Muchea Com Tech. Do you read?
@@ -4661,13 +4661,13 @@ _page: 183
 CC: Roger, Friendship Seven. You are 3 by 3. Go ahead to Cap Com.
 
 [00:03:57:24]
-P: Roger. Hello Cap Corn, Friendship Seven. How are things going?
+P: Roger. Hello Cap Com, Friendship Seven. How are things going?
 
 [00:03:57:36]
-P: Hello, Muchea Cap Corn, Muehea Cap Corn, Friendship Seven. Over.
+P: Hello, Muchea Cap Com, Muehea Cap Com, Friendship Seven. Over.
 
 [00:03:57:48]
-P: Hello, Muehea Cap Corn, Muchea Cap Com. Over.
+P: Hello, Muehea Cap Com, Muchea Cap Com. Over.
 
 [00:03:57:53]
 CC: How me? Over.
@@ -4676,7 +4676,7 @@ CC: How me? Over.
 CC: Friendship Seven, Muchea Cap Cmn. How now? Over.
 
 [00:03:58:04]
-P: Muchea Cap Corn: Friendship Seven. Loud and clear. How me?
+P: Muchea Cap Com: Friendship Seven. Loud and clear. How me?
 
 [00:03:58:09]
 CC: Roger. You are coming through rather weak. Do you want to switch to UHF?
@@ -4896,7 +4896,7 @@ CC: Roger,... temperature. Over.
 P: Say again please. Over.
 
 [00:04:05:58]
-CC: Friendship Seven, you are fading . . . temperature. Over.
+CC: Friendship Seven, you are fading ... temperature. Over.
 
 [00:04:06:02]
 P: Roger, steam temperature is 49-49 [degrees]. Over.
@@ -4932,7 +4932,7 @@ P: Go ahead, Canton.
 
 [00:04:15:33]
 CT: Com Tech, Roger, read you loud and clear. Friendship Seven, this is Canton Com
-     Teeh, you are weak but readable. Standby for Cap Com.
+     Tech, you are weak but readable. Standby for Cap Com.
 
 [00:04:15:40]
 P: Roger.
@@ -4996,14 +4996,14 @@ CT: Roger. Reading you loud and clear on HF.
 P: Roger, this is Friendship Seven. Caging gyros and uncaging.
 
 [00:04:21:43]
-P: Hawaii Corn Tech, Cap Com, this is Friendship Seven. Fuel 43-45 [percent],
+P: Hawaii Com Tech, Cap Com, this is Friendship Seven. Fuel 43-45 [percent],
      oxygen is 60-90 [percent], amps is 23. Over.
 
 [00:04:21:56]
-P: Hello, Hawaii Corn Tech. Do you receive? Over.
+P: Hello, Hawaii Com Tech. Do you receive? Over.
 
 [00:04:21:59]
-CT: Friendship Seven, ttawaii Corn Tech. Roger. Transfer frmn HF, would you go
+CT: Friendship Seven, ttawaii Com Tech. Roger. Transfer frmn HF, would you go
      to UHF? Over.
 
 [00:04:22:05]
@@ -5172,7 +5172,7 @@ P: Hello California Cap Com. Friendship Seven. Over.
 CC: Friendship Seven, this is California Cap Com. Read you loud and clear, how me?
 
 [00:04:30:35]
-P: California Cap Corn, Friendship Seven, UHF. Do you receive now? Over.
+P: California Cap Com, Friendship Seven, UHF. Do you receive now? Over.
 
 [00:04:30:41]
 P: Hello California Cap Com, Friendship Seven, UHF. Over.
@@ -5184,20 +5184,20 @@ CC: Friendship Seven, California Cap Com. How do you read? Over.
 P: This is Friendship Seven. Loud and clear. How me? Over.
 
 [00:04:30:56]
-P: Hello California Cap Corn, Friendship Seven. Over.
+P: Hello California Cap Com, Friendship Seven. Over.
 
 [00:04:31:06]
-P: California Cap Corn, Friendship Seven. Over.
+P: California Cap Com, Friendship Seven. Over.
 
 [00:04:31:09]
-CT: Seven, this is California Corn Tech, California Corn Tech. How do you read?
+CT: Seven, this is California Com Tech, California Com Tech. How do you read?
      Over.
 
 [00:04:31:13]
 P: This is Friendship Seven. Loud and clear. How me? Over.
 
 [00:04:31:18]
-CT: Roger, Friendship Seven, this is California Corn Teeh. Reading you loud and
+CT: Roger, Friendship Seven, this is California Com Tech. Reading you loud and
      clear on UHF.
 
 [00:04:31:21]
@@ -5474,7 +5474,7 @@ CT: Roger. Reading you 5 square. Standby for Texas Cap Com.
 P: Roger.
 
 [00:04:38:23]
-CC: This is Texas Cap Corn, Friendship Seven. We are recommending that you leave
+CC: This is Texas Cap Com, Friendship Seven. We are recommending that you leave
      the retropackage on through the entire reentry. This means that you will have
      to override the 0.05g switch which is expected to occur at [time:00:04:43:53 04 43 53]. This also
      means that you will have to manually retract the scope. Do you read?
@@ -5635,7 +5635,7 @@ P: Hello, Cape. Friendship Seven. Do you receive? Over.
 P: Hello, Cape. Friendship Seven. Do you receive? Over.
 
 [00:04:47:15]
-CC: . . . How do you read? Over.
+CC: ... How do you read? Over.
 
 [00:04:47:16]
 P: Loud and clear; how me?
@@ -5653,7 +5653,7 @@ CC: Roger. Your impact point is within 1 mile of the up-range destroyer.
 P: Roger.
 
 [00:04:47:31]
-CC: . . . Over.
+CC: ... Over.
 
 [00:04:47:32]
 P: Roger.
