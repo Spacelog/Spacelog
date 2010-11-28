@@ -68,7 +68,7 @@ my %badfiles;
 my %speakers;
 my $total_fail;
 setup_valid_speakers(
-    'AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music');
+    'AB CC CDR CMP CT F IWO LCC LMP MS P-1 P-2 R R-1 R-2 S S-1 S-2 SC Music G');
 
 foreach my $file ( sort filesort @ARGV ) { process($file); }
 print 'Bad files: ', join( ' ', sort keys %badfiles ), "\n" if %badfiles;
@@ -334,6 +334,7 @@ sub process {
           if $txt =~ /[^'.]\bt\b/;
         push( @fail, 'underscore' )         if $txt =~ /_/;
         push( @fail, 'we-tlave-a-floblem' ) if $txt =~ /[^H]ouston/;
+        push( @fail, 'orphaned-degree' ) if $txt =~ /\s°/;
 
         @fail = grep ( /^$report_fail/, @fail ) if $report_fail;
         if (@fail) {
