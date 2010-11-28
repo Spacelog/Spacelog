@@ -7,17 +7,13 @@
 {% block content %}
   
     {% if previous_page %}
-        <div class="page-link">
-            <a href="{% url original previous_page %}">Previous</a>
-        </div>
+        <a rel='prev' href="{% url original previous_page %}"><span>Previous</span></a>
     {% endif %}
 
     <img src="/assets/missions/{{ mission.name }}/images/original/{{ mission.main_transcript_subname }}/{{ page }}.png" width="940">
 
     {% if next_page %}
-        <div class="page-link">
-            <a href="{% url original next_page %}">Next</a>
-        </div>
+        <a rel='next' href="{% url original next_page %}"><span>Next</span></a>
     {% endif %}
   
 {% endblock %}

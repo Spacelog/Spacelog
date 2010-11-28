@@ -184,6 +184,9 @@
     min-width:              200px;
     display:                block;
 }
+#phases li em a {
+    color:                  #fff;
+}
 #phases a span,
 #phases .prev span,
 #phases .next span {
