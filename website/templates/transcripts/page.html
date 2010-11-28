@@ -6,6 +6,9 @@
 
 {% block title %}Transcript - Starting at {{ log_lines.0.timestamp|mission_time_format }}{% endblock %}
 
+{% block extra_js %}<script type="text/javascript" src="/assets/js/page.js"></script>{% endblock %}
+
+
 {% block content-class %}transcript {% if max_highlight_index > 0 %}with-highlight{% endif %}{% endblock %}
 
 {% block crest %}
@@ -111,7 +114,7 @@
   {% endif %}
   </div>
 
-  <div id='phases'><div class='shim'>
+  <div id='phases'>
     <div class='wrapper'>
       <nav><ul>
         {% if previous_act %}
@@ -127,7 +130,7 @@
         {% endif %}
       </ul></nav>
       <img src='/assets/missions/{{ mission.name }}/images/orbital/{{ current_act.orbital }}'>
-    </div></div>
+    </div>
   </div>
   
 {% endblock %}

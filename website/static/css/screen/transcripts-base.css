@@ -128,25 +128,28 @@
 }
 
 #phases {
-    margin-top:             1px;
-    border-top:             1px solid #232323;
     position:               fixed;
     bottom:                 0;
     left:                   0;
-    height:                 150px;
+    height:                 38.4px;
     background:             black;
     color:                  white;
     width:                  100%;
-    font-size:              1.5em;
+    font-size:              24px;
     font-family:            "League Gothic";
     text-transform:         uppercase;
-}
-#phases .shim {
-    border-top:             1px solid #555;
+    line-height:            28px;
+    overflow:               hidden;
 }
 #phases nav {
     text-align:             center;
-    padding-top:            5px;
+    position:               absolute;
+    bottom:                 0px;
+    width:                  940px;
+}
+#phases img {
+    position:               absolute;
+    bottom:                 40px;
 }
 #phases ul {
     display:                inline-block;
@@ -185,6 +188,10 @@
     color:                  #333;
 }
 
+#phases .map {
+    position:               absolute;
+    right:                  0px;
+}
 p.load-more {
     margin-top:             20px;
     text-align:             center;
