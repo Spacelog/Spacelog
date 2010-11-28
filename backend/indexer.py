@@ -157,7 +157,8 @@ class TranscriptIndexer(object):
                 if act.includes(timestamp):
                     break
             else:
-                raise RuntimeError("No act for timestamp %s" % seconds_to_timestamp(timestamp))
+                print "Error: No act for timestamp %s" % seconds_to_timestamp(timestamp)
+                continue
             # If we've filled up the current page, go to a new one
             if current_page_lines >= self.LINES_PER_PAGE or (last_act is not None and last_act != act):
                 current_page += 1
