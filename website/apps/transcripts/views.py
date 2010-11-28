@@ -186,8 +186,10 @@ class ErrorView(TemplateView):
             "error_page:%s:%i" % (
                 self.request.mission.name,
                 self.error_code,
-            )
+            ),
         )
+        if not error_info:
+            error_info = {}
         return {
             "title": error_info.get('title', self.default_titles[self.error_code]),
             "heading": error_info.get('heading', self.default_titles[self.error_code]),

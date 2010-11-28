@@ -118,13 +118,18 @@ class SearchView(TemplateView):
             "error_page:%s:%s" % (
                 self.request.mission.name,
                 'no_search_results',
+            ),
+        )
+        if not error_info:
+            error_info = {}
+        if error_info.has_key('classic_moment_quote'):
+            error_quote = LogLine(
+                self.request.redis_conn,
+                self.request.mission.main_transcript,
+                timestamp_to_seconds(error_info['classic_moment_quote'])
             )
-        )
-        error_quote = LogLine(
-            self.request.redis_conn,
-            self.request.mission.main_transcript,
-            timestamp_to_seconds(error_info['classic_moment_quote'])
-        )
+        else:
+            error_quote = None
         
         return {
             'log_lines': log_lines,
