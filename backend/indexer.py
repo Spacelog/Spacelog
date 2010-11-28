@@ -270,15 +270,15 @@ class MetaIndexer(object):
             "mission:%s" % self.mission_name,
             {
                 "utc_launch_time": meta['utc_launch_time'],
-                "title": meta['title'],
                 "featured": meta.get('featured', False),
-                "description": meta['description'],
                 "image": meta['image'],
                 "main_transcript": meta['main_transcript'],
                 "media_transcript": meta['media_transcript'],
-                "upper_title": meta['upper_title'],
-                "lower_title": meta['lower_title'],
             }
+        )
+        self.redis_conn.hmset(
+            "mission:%s:copy" % self.mission_name,
+            meta.get("copy", {}),
         )
         for homepage_quote in meta.get('homepage_quotes', []):
             self.redis_conn.sadd(

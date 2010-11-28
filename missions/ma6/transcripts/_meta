@@ -2,10 +2,12 @@
     "name": "ma6",
     "featured": true,
     "subdomains": ["ma6"],
-    "title": "Mercury 6",
-    "upper_title": "Mercury",
-    "lower_title": "6",
-    "description": "The 1962 Mercury mission that made pilot John Glenn the first American to reach Earth orbit, with three orbits before re-entry.",
+    "copy": {
+        "title": "Mercury 6",
+        "upper_title": "Mercury",
+        "lower_title": "6",
+        "description": "The 1962 Mercury mission that made pilot John Glenn the first American to reach Earth orbit, with three orbits before re-entry."
+    },
     "image": "/assets/img/badge_m6.png",
     "main_transcript": "ma6/TEC",
     "media_transcript": "ma6/MEDIA",

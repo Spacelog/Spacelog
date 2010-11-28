@@ -472,10 +472,11 @@ class Mission(object):
 
     def _load(self):
         data = self.redis_conn.hgetall("mission:%s" % self.name)
-        self.title = data['title']
-        self.upper_title = data['upper_title']
-        self.lower_title = data['lower_title']
-        self.description = data['description']
+        self.copy = self.redis_conn.hgetall("mission:%s:copy" % self.name)
+        self.title = self.copy['title']
+        self.upper_title = self.copy['upper_title']
+        self.lower_title = self.copy['lower_title']
+        self.description = self.copy['description']
         self.featured = (data['featured'].lower() == 'true')
         self.image = data['image']
         self.main_transcript = data['main_transcript']
