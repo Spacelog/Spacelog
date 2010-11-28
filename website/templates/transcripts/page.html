@@ -129,7 +129,9 @@
           <li><span class='next'>Next</span></li>
         {% endif %}
       </ul></nav>
-      <img src='/assets/missions/{{ mission.name }}/images/orbital/{{ current_act.orbital }}'>
+      {% if current_act.orbital %}
+        <img src='/assets/missions/{{ mission.name }}/images/orbital/{{ current_act.orbital }}'>
+      {% endif %}
     </div>
   </div>
   
