@@ -1,0 +1,168 @@
+.phase .navigation {
+  color:                  #999;
+  text-transform:         uppercase;
+  font-size:              24px;
+  line-height:            1.5;
+  margin-top:             10px;
+  -cp-contain:            easy;
+}
+
+.phase .navigation h2,
+.phase .navigation ol,
+.phase .navigation li {
+  display:                inline;
+  float:                  left;
+  margin-right:           10px;
+}
+
+.phase .navigation a,
+.phase .navigation li.selected strong {
+  display:                block;
+  padding:                0 30px;
+  -cp-border-radius:      2px;
+}
+
+.phase .navigation a {
+  display:                block;
+  color:                  #00aad3;
+}
+
+.phase .navigation li.selected {
+  padding-bottom:         15px;
+  background:             url(/assets/img/phase/selected_arrow.png) 50% 100% no-repeat;
+}
+.phase .navigation li.selected strong {
+  color:                  #fff;
+}
+.phase .navigation li.selected span {
+  position:               absolute;
+  left:                   -999em;
+}
+/*! verbatim */
+.phase .navigation a {
+  text-shadow:            0 1px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow:     inset #494747 0 2px 0;
+  background:             -webkit-gradient(
+                              linear,
+                              left top,
+                              left bottom,
+                              from(#373636),
+                              to(#282828)
+                          );
+}
+
+.phase .navigation li.selected strong {
+  -webkit-box-shadow:     inset #252525 0 2px 0;
+  background:             -webkit-gradient(
+                              linear,
+                              left top,
+                              left bottom,
+                              from(#191919),
+                              to(black)
+                          );
+}
+/* -- */
+
+.phase .details {
+  background:             #232323;
+  border:                 1px solid #2b2b2b;
+  margin-top:             -1px;
+  padding:                20px;
+  font-size:              14px;
+  -webkit-box-shadow:     #222222 0 -1px 1px;
+}
+
+.phase .details h1 {
+  float:                  left;
+  font-size:              32px;
+  font-weight:            bold;
+  width:                  200px;
+  margin-right:           20px;
+}
+
+.phase .details h2 {
+  font-size:              18px;
+  font-weight:            bold;
+  margin-bottom:          20px;
+}
+
+.phase .details a.read-button {
+  display:                block;
+  float:                  right;
+  font-size:              24px;
+  text-transform:         uppercase;
+  color:                  #fff;
+  padding:                2px 15px;
+  -cp-border-radius:      3px;
+}
+/*! verbatim */
+.phase .details a.read-button {
+  text-shadow:            rgba(0, 0, 0, 0.75) 0 1px 2px;
+  -webkit-box-shadow:     inset #34d5fc 0 2px 2px,
+                          rgba(0, 0, 0, 0.75) 0 2px 2px;
+  background:             -webkit-gradient(
+                              linear,
+                              left top,
+                              left bottom,
+                              from(#037c99),
+                              to(#037c99)
+                          );
+}
+/* -- */
+
+.phase .details .description {
+  padding:                0 220px 30px;
+  margin-bottom:          20px;
+  border-bottom:          1px dotted #333;
+}
+
+.phase .details .frequency em.start {
+  float:                  left;
+}
+.phase .details .frequency em.end {
+  float:                  right;
+}
+.phase .details .frequency span {
+  position:               absolute;
+  left:                   -999em;
+}
+.phase .details .frequency img {
+  margin:                 2px 0 0 -1px;
+}
+
+.phase .key-scenes {
+  margin-top:             20px;
+  -cp-contain:            easy;
+}
+.phase .key-scenes li {
+  width:                  200px;
+  margin-right:           82px;
+  float:                  left;
+  padding:                0 0 10px 40px;
+}
+.phase .key-scenes li.col1 {
+  clear:                  left;
+}
+.phase .key-scenes li.col3 {
+  margin-right:           0;
+}
+.phase .key-scenes li span {
+  display:                block;
+  float:                  left;
+  width:                  20px;
+  line-height:            20px;
+  text-align:             center;
+  margin-left:            -40px;
+  background:             #00aad3;
+  color:                  #000;
+  font-size:              13px;
+  font-weight:            bold;
+}
+.phase .key-scenes li a {
+  color:                  #fff;
+}
+.phase .key-scenes li a:hover span,
+.phase .key-scenes li a:focus span,
+.phase .key-scenes li a:active span {
+  background:             #fff;
+}

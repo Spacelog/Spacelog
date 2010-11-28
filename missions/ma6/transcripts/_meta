@@ -123,6 +123,6 @@
         }, 
         "SECO": {
             "description": "Sustainer Engine Cut-Off"
-        }, 
+        }
     }
 }

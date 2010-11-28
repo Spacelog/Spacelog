@@ -1,46 +1,62 @@
 {% extends "base.html" %}
 {% load missiontime %}
 {% load linkify %}
+{% load humanize %}
 
-{% block title %}Phases{% endblock %}
+
+{% block content-class %}phase{% endblock %}
+{% block title %}Phase {{ act.one_based_number }}: {{ act.title }}{% endblock %}
 
 {% block content %}
-
-  <h2>Phase:</h2>
-  <ol>
-    {% for nav_act in acts %}
-      {% if nav_act.number == act.number %}
-        <li>You are here: {{ nav_act.one_based_number }}</li>
-      {% else %}
-        <li><a href='{% url phases nav_act.one_based_number %}' title='{{ nav_act.title }}'>{{ nav_act.one_based_number }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ol>
-
-  <h1>{{ act.title }}</h1>
-  <a href="{% timestamp_to_url act.start %}">Start reading</a>
 
   {% if act.illustration %}
     <img src='/assets/missions/{{ mission.name }}/images/illustration/{{ act.illustration }}' alt='' />
   {% endif %}
 
-  <p>{{ act.description|linkify }}</p>
-
-  <h3>Activity</h3>
-  {% if act.has_stats %}
-    <div class='stats'>
-      <p>{{ act.start|mission_time_format }} to {{ act.end|mission_time_format }}</p>
-      {{ act.stats_image_map|safe }}
-      <img src='/assets/missions/{{ mission.name }}/images/stats/graph_{{ mission.name }}_{{ act.number }}.png' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
-    </div>
-  {% endif %}
-
-  {% if act.key_scenes %}
-    <ol class='key-scenes'>
-      {% for key_scene in act.key_scenes %}
-        <li>{{ key_scene.title }}</li>
+  <div class='league-gothic navigation'>
+    <h2>Phase:</h2>
+    <ol>
+      {% for nav_act in acts %}
+        {% if nav_act.number == act.number %}
+          <li class='selected'><span>You are here: </span><strong>{{ nav_act.one_based_number|apnumber }}</strong></li>
+        {% else %}
+          <li><a href='{% url phases nav_act.one_based_number %}' title='{{ nav_act.title }}'>{{ nav_act.one_based_number|apnumber }}</a></li>
+        {% endif %}
       {% endfor %}
     </ol>
-  {% endif %}
+  </div>
+
+  <div class='details'>
+    <h1>{{ act.title }}</h1>
+    <a class='league-gothic read-button' href="{% timestamp_to_url act.start %}">Start reading</a>
+
+    <p class='description'>{{ act.description|linkify }}</p>
+
+    <h2>Activity</h2>
+    {% if act.has_stats %}
+      <div class='frequency'>
+        <p>
+          <em class='start'>{{ act.start|mission_time_format }}</em>
+          <span> to </span>
+          <em class='end'>{{ act.end|mission_time_format }}</em>
+        </p>
+        {{ act.stats_image_map|safe }}
+        <img src='/assets/missions/{{ mission.name }}/images/stats/graph_{{ mission.name }}_{{ act.number }}.png' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
+      </div>
+    {% endif %}
+
+    {% if act.key_scenes %}
+      <ol class='key-scenes'>
+        {% for key_scene in act.key_scenes %}
+          <li class='{% cycle 'col1' 'col2' 'col3' %}'>
+            <a href='{% selection_url key_scene.start key_scene.end %}'>
+              <span>{{ forloop.counter }}</span>
+              {{ key_scene.title|safe }}
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+  </div>
 
 {% endblock %}

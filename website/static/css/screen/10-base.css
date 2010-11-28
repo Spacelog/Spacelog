@@ -32,7 +32,8 @@ a:active {
 .glossary,
 .about,
 .search,
-.people {
+.people,
+.phase {
     background:             #000
                             url( /assets/img/base/sunrise.jpg )
                             no-repeat

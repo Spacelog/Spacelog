@@ -108,6 +108,7 @@ TEMPLATE_DIRS = (
 INSTALLED_APPS = (
     'transcripts',
     'search',
+    'django.contrib.humanize',
 )
 
 PROJECT_HOME = "http://artemisproject.com/"
