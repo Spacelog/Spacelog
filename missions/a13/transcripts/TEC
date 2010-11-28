@@ -275,10 +275,10 @@ CDR: Understand; 12 plus 34 predicted cut-off time.
 CC:  That's affirm.
 
 [00:00:12:31]
-CDR: SECO.
+CDR: [glossary:SECO SECO].
 
 [00:00:12:32]
-CC:  Copy SECO, Jim. We're looking at the DSKY.
+CC:  Copy [glossary:SECO SECO], Jim. We're looking at the [glossary:DSKY DSKY].
 
 [00:00:12:36]
 CDR: Roger.
@@ -338,7 +338,7 @@ CC:  Apollo 13, Houston.
 CDR: Go ahead, Houston.
 
 [00:00:21:44]
-CC:  Okay. Couple minutes to LOS, Jim. Everything
+CC:  Okay. Couple minutes to [glossary:LOS LOS], Jim. Everything
      is looking real good. Your [glossary:AOS AOS] time at Carnarvon
      will be [time:00:00:52:36 52:36], and we don't have too much of a
      handle on why the inboard cut off early except
@@ -818,7 +818,7 @@ CC:  Apollo 13, Houston.
 CDR: Go ahead, Houston.
 
 [00:01:53:26]
-CC:  About 2-1/2 minutes to LOS, Jim, and your AOS
+CC:  About 2-1/2 minutes to [glossary:LOS LOS], Jim, and your AOS
      at Carnarvon will be 2 plus 25 plus 50. Over.
 
 [00:01:53:41]
@@ -6758,9 +6758,9 @@ CC:  On the right-hand side of page 25, where you
 CMP: Okay.
 
 [01:09:02:58]
-CC:  And in the figure, where you have the "[glossary:DAC DAC] LOS"
+CC:  And in the figure, where you have the "[glossary:DAC DAC] [glossary:LOS LOS]"
      line, which is parallel to the X-axis on the
-     horizon, cross out "[glossary:DAC DAC] LOS" parallel to X-axis
+     horizon, cross out "[glossary:DAC DAC] [glossary:LOS LOS]" parallel to X-axis
      on horizon.
 
 [01:09:03:24]
