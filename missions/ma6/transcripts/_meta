@@ -14,8 +14,31 @@
         {
             "title": "Launch",
             "description": "Leaving the earth!",
-            "range": ["-00:00:00:20", "00:00:12:00"]
+            "range": ["-00:00:00:20", "00:00:05:04"]
+        },
+        {
+            "title": "First Orbit",
+            "description": "Leaving the earth!",
+            "range": ["00:00:05:04", "00:01:32:50"]
+        },
+        {
+            "title": "Second Orbit",
+            "description": "Leaving the earth!",
+            "range": ["00:01:32:50", "00:03:07:03"]
+        },
+        {
+            "title": "Third Orbit",
+            "description": "Leaving the earth!",
+            "range": ["00:03:07:03", "00:04:32:39"]
+        },
+        {
+            "title": "Reentry",
+            "description": "Leaving the earth!",
+            "range": ["00:04:32:39", "00:05:05:11"]
         }
+
+
+
     ],
     "key_scenes" : [
     ],
