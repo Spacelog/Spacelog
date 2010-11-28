@@ -85,6 +85,7 @@ TEMPLATE_LOADERS = (
 
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
+    'transcripts.middleware.HoldingMiddleware',
     'transcripts.middleware.MissionMiddleware',
 )
 

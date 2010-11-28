@@ -438,6 +438,7 @@ class MissionIndexer(object):
 if __name__ == "__main__":
     redis_conn = redis.Redis()
     redis_conn.flushdb()
+    redis_conn.set("hold", "1")
     transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
     for filename in os.listdir(transcript_dir):
         path = os.path.join(transcript_dir, filename)
@@ -446,3 +447,5 @@ if __name__ == "__main__":
             idx = MissionIndexer(redis_conn, filename, os.path.join(path, "transcripts")) 
             idx.index()
     search_db.flush()
+    redis_conn.delete("hold")
+
