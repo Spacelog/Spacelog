@@ -4,7 +4,7 @@
     background-position:        top center;
     background-repeat:          no-repeat;
     padding-top:                40px;
-    
+    -cp-contain:                easy;
 }
 
 #content.homepage h1, #content.homepage h2 {
@@ -19,7 +19,9 @@
     font-size:                 4em;
     line-height:               .9em;
     margin-bottom:             4px;
-    float:                     left;  
+    float:                     left;
+    text-align:                center;
+    width:                     140px; 
    
 }
 
@@ -36,7 +38,7 @@
     font-size:                 2em;
     line-height:               .9em;
     width:                     10px;
-    height:                    500px;
+    height:                    400px;
     margin-right:              150px;
     float:                     left;
 }
@@ -86,7 +88,7 @@
 
 #content.homepage dl {
     float:                  left;
-    margin-left:            10px;
+    margin-right:           20px;
     margin-bottom:          20px;
 }
 
