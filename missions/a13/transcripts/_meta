@@ -589,7 +589,7 @@
             "description": "Gyro display coupler"
         },
         "GET": {
-            "description": "Grotmd elapsed time"
+            "description": "Ground elapsed time"
         },
         "GETI": {
             "description": "Ground elapsed time of ignition"
