@@ -32,7 +32,7 @@ directory it will look for a TEC and _meta files in that directory.
 }
 
 warn
-"Will create broken marked up links for entries containing <sub>, and will add glossary links to already marked up text";
+"Will create broken marked up links for entries containing <sub>";
 foreach my $dir (@ARGV) {
     process($dir);
 }
@@ -91,9 +91,12 @@ sub load_transcript {
     $fh->close;
 }
 
-sub markup_glossary {
-    my $regex = join '|', map { s{(.)}{$1(?:<[^>]+>)?}g; $_ } keys %{$glossary};
-    map { $_->{text} =~ s/\b($regex)\b/[glossary:$1 $1]/g; $_ } @lines;
+# May miss items which are followed by ']'
+sub markup {
+    my ( $link, @tags ) = @_;
+    my $regex = join '|',
+      map { s{(.)}{$1(?:<[^>]+>)?}g; "(?<!\\[$link:)$_(?!\])" } @tags;
+    map { $_->{text} =~ s/\b($regex)\b/[$link:$1 $1]/g; $_ } @lines;
 }
 
 sub process {
@@ -112,7 +115,7 @@ sub process {
     }
     load_transcript($transcript_file);
     load_meta($meta_file);
-    markup_glossary() if keys %{$glossary};
+    markup('glossary', keys %{$glossary}) if keys %{$glossary};
     save_transcript("$transcript_file-markedup");
 }
 
