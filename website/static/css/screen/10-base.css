@@ -27,6 +27,12 @@ a:focus,
 a:active {
     text-decoration:        underline;
 }
+sub {
+    vertical-align:         sub;
+}
+sup {
+    vertical-align:         super;
+}
 
 /* Sunrise pages */
 .glossary,
