@@ -179,11 +179,11 @@ CC:  13, Houston. Still looking good. Your gimbals
 CDR: Roger.
 
 [00:00:06:53]
-CC:  13, Houston. Level sense arm time 8 plus 38
-     nominal; S-II cut-off time 9 plus 48. Over.
+CC:  13, Houston. Level sense arm time [time:00:00:08:38 8 plus 38]
+     nominal; S-II cut-off time [time:00:00:09:48 9 plus 48]. Over.
 
 [00:00:07:02]
-CDR: Roger. Nominal on the level sense arm, 9:48 on
+CDR: Roger. Nominal on the level sense arm, [time:00:00:09:48 9:48] on
      the S-II cut-off.
 
 [00:00:07:08]
@@ -262,14 +262,14 @@ CC:  13, Houston. You're looking good. Trajectory,
 CDR: Thank you, Joe.
 
 [00:00:11:09]
-CC:  13, Houston. At 11 minutes, you're GO. Predicted cut-off on the S-IVB is 12 plus 34. Over.
+CC:  13, Houston. At 11 minutes, you're GO. Predicted cut-off on the S-IVB is [time:00:00:12:34 12 plus 34]. Over.
 
 [00:00:11:35]
 CC:  Apollo 13, Houston. You're GO at 11-1/2, and
-     predicted cut-off time is 12 plus 34. Over.
+     predicted cut-off time is [time:00:00:12:34 12 plus 34]. Over.
 
 [00:00:11:42]
-CDR: Understand; 12 plus 34 predicted cut-off time.
+CDR: Understand; [time:00:00:12:34 12 plus 34] predicted cut-off time.
 
 [00:00:11:45]
 CC:  That's affirm.
@@ -482,7 +482,7 @@ LMP: Okay.
 [00:01:05:36]
 CC:  Okay. 13, Houston. [glossary:LOS LOS] Honeysuckle in about
      30 seconds, and we'll see you over the States at
-     1 plus 28 plus 43.
+     [time:00:01:28:43 1 plus 28 plus 43].
 
 [00:01:05:57]
 _extra : GUAYMAS (REV 1)
