@@ -1,0 +1,92 @@
+.about {
+    padding-top:            20px;
+}
+
+.about h1 {
+    font-size:              32px;
+    margin-left: 345px;
+    font-weight: bold;
+}
+
+.about #coverpage img {
+    display: block;
+    width: 300px;
+    border: 5px solid gray;
+    margin: -32px 0 0 0;
+}
+
+.about #coverpage {
+    float: left;
+    margin: 0 35px 0 0;
+}
+
+.about #coverpage a {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    margin: 25px 0 0 0;
+}
+
+.about p {
+    margin-left: 345px;
+    margin-bottom: 12px;
+}
+
+.about h2,
+.about h3 {
+    font-weight: bold;
+    margin-left: 345px;
+    margin-bottom: 12px;
+}
+
+.about #how-this-was-made {
+    background-color: #111;
+    border-top: 1px solid #333;
+    font-size: 12px;
+}
+
+.about #how-this-was-made #team,
+.about #how-this-was-made #colophon {
+    float: left;
+    width: 430px; /* FIXME: correct pixel width would help */
+    padding: 10px 20px;
+}
+
+.about #how-this-was-made h2 {
+    font-size:              32px;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+    margin: 0 0 30px 0;
+    padding-bottom: 15px;
+}
+
+.about #how-this-was-made h3 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.about #how-this-was-made h3:after {
+    content: ":";
+}
+
+.about #team li {
+    display: inline;
+}
+
+.about #team li + li:before {
+    content: ", ";
+}
+
+.about #how-this-was-made p,
+.about #how-this-was-made ul {
+    margin-bottom: 12px;
+}
+
+.about #how-this-was-made p {
+    margin-left: 0;
+}
+
+.about #how-this-was-made {
+    -cp-contain:            easy;
+}
