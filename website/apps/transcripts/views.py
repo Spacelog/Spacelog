@@ -166,9 +166,10 @@ class PhasesView(TranscriptView):
     
     template_name = 'transcripts/phases.html'
     
-    def get_context_data(self):
+    def get_context_data(self, phase_number='1'):
         return {
-            'acts': list(self.act_query().items()),
+            'acts': list(self.act_query()),
+            'act': Act(self.request.redis_conn, self.request.mission.name, int(phase_number) - 1),
         }
 
 class ErrorView(TemplateView):

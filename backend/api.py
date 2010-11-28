@@ -254,6 +254,7 @@ class NarrativeElement(object):
         self.redis_conn = redis_conn
         self.mission_name = mission_name
         self.number = number
+        self.one_based_number = number + 1
         self.id = "%s:%i" % (self.mission_name, self.number)
         self._load()
 
