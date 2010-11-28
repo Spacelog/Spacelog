@@ -19,7 +19,7 @@
         {% for log_line in log_lines %}
             <li>
                 <h2>
-                    {% avatar_and_name log_line.speaker log_line.timestamp %}
+                    {% avatar_and_name log_line.speaker mission.name log_line.timestamp %}
                     said
                     <a href="{% selection_url log_line.timestamp %}">
                         <q>{{ log_line.title|safe }}</q>
@@ -65,7 +65,7 @@
     
     {% if error.quote.lines %}
       {% for line in error.quote.lines %}
-      <div class="speaker">{% avatar line.0 %}</div>
+      <div class="speaker">{% avatar line.0 mission.name %}</div>
     
       <blockquote>
         <a href="{% selection_url error.quote.timestamp %}"><p>{{ line.1 }}</p></a>

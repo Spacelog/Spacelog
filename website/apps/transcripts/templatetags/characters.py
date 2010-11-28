@@ -5,7 +5,7 @@ from django.template.defaultfilters import slugify
 register = Library()
 
 @register.simple_tag
-def avatar_and_name(speaker, timestamp=None):
+def avatar_and_name(speaker, mission_name, timestamp=None):
 
     if timestamp:
         current_speaker = speaker.current_shift(timestamp)
@@ -13,9 +13,13 @@ def avatar_and_name(speaker, timestamp=None):
         current_speaker = speaker
 
     detail = """
-      <img src='%(avatar)s' alt='' width='48' height='48'>
+      <img src='/assets/missions/%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48'>
       <span>%(short_name)s</span>
-    """ % {"avatar": current_speaker.avatar, "short_name": current_speaker.short_name}
+    """ % {
+        "avatar": current_speaker.avatar,
+        "short_name": current_speaker.short_name,
+        "mission_name": mission_name,
+    }
 
     url = None
     if current_speaker.role == 'mission-ops':
@@ -29,7 +33,7 @@ def avatar_and_name(speaker, timestamp=None):
         return detail
 
 @register.simple_tag
-def avatar(speaker, timestamp=None):
+def avatar(speaker, mission_name, timestamp=None):
 
     if timestamp:
         current_speaker = speaker.current_shift(timestamp)
@@ -37,8 +41,12 @@ def avatar(speaker, timestamp=None):
         current_speaker = speaker
 
     detail = """
-      <img src='%(avatar)s' alt='' width='48' height='48' alt='%(short_name)s'>
-    """ % {"avatar": current_speaker.avatar, "short_name": current_speaker.short_name}
+      <img src='/assets/missions/%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48' alt='%(short_name)s'>
+    """ % {
+        "avatar": current_speaker.avatar,
+        "short_name": current_speaker.short_name,
+        "mission_name": mission_name,
+    }
 
     url = None
     if current_speaker.role == 'mission-ops':

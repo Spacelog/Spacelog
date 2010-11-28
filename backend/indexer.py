@@ -392,10 +392,10 @@ class MissionIndexer(object):
     Takes a mission folder and indexes everything inside it.
     """
 
-    def __init__(self, redis_conn, folder_path):
+    def __init__(self, redis_conn, mission_name, folder_path):
         self.redis_conn = redis_conn
         self.folder_path = folder_path
-        self.mission_name = folder_path.strip("/").split("/")[-1]
+        self.mission_name = mission_name
 
     def index(self):
         self.index_meta()
@@ -420,11 +420,11 @@ class MissionIndexer(object):
 if __name__ == "__main__":
     redis_conn = redis.Redis()
     redis_conn.flushdb()
-    transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "transcripts")
+    transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
     for filename in os.listdir(transcript_dir):
         path = os.path.join(transcript_dir, filename)
         if filename[0] not in "_." and os.path.isdir(path):
             print "Mission: %s" % filename
-            idx = MissionIndexer(redis_conn, path) 
+            idx = MissionIndexer(redis_conn, filename, os.path.join(path, "transcripts")) 
             idx.index()
     search_db.flush()

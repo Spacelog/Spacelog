@@ -303,6 +303,7 @@ class Act(NarrativeElement):
         self.description = self.data['description']
         self.banner = self.data.get("banner", None)
         self.banner_class = self.data.get("banner_class", None)
+        self.orbital = self.data.get("orbital", None)
 
         stats_data = self.redis_conn.hgetall("%s:%s:stats" % (self.noun, self.id))
         if stats_data:

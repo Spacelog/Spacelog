@@ -15,39 +15,45 @@
             "title": "Launch",
             "description": "Leaving the earth!",
             "range": ["-00:00:00:20", "00:00:12:00"],
-            "banner": "phase1.jpg",
-	    "banner_class": "blue"
+            "banner": "act1.jpg",
+            "banner_class": "blue",
+            "orbital": "act1.png"
         },
         {
             "title": "Earth orbit",
             "description": "The rocket go boom. Sadface.",
             "range": ["00:00:12:00", "00:02:41:00"],
-            "banner": "phase2.png"
+            "banner": "act2.png",
+            "orbital": "act2.png"
         },
         {
             "title": "To the Moon",
             "description": "",
             "range": ["00:02:41:00", "03:07:27:00"],
-            "banner": "phase3.png"
+            "banner": "act3.png",
+            "orbital": "act3.png"
         },
         {
             "title": "Towards Earth",
             "description": "",
             "range": ["03:07:27:00", "05:17:23:00"],
-            "banner": "phase4.png"
+            "banner": "act4.png",
+            "orbital": "act4.png"
         },
         {
             "title": "Re-entry",
             "description": "",
             "range": ["05:17:23:00", "05:22:38:36"],
-            "banner": "phase5.jpg"
+            "banner": "act5.jpg",
+            "orbital": "act5.png"
         },
         {
             "comment": "end point (05:22:55:21) is one second after the 'end of mission' marker, which is after all end photos",
             "title": "Splash-down",
             "description": "",
             "range": ["05:22:38:36", "05:22:55:21"],
-            "banner": "phase6.jpg"
+            "banner": "act6.jpg",
+            "orbital": "act6.png"
         }
     ],
     "key_scenes" : [
@@ -86,10 +92,10 @@
             "name": "Capsule Communicator",
             "short_name": "CapCom",
             "bio": "Throughout the Apollo Space Program, the CAPCOM was another astronaut who was the main person to communicate with the crew, as it was considered that someone who had that training would be best able to clearly pass information back and forth. On Apollo 13, there were three CAPCOMs operating in shifts.",
-            "photo": "http://img.fort/190x155.png",
+            "photo": "",
             "photo_width": 190,
             "photo_height": 155,
-            "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png",
+            "avatar": "CC_48.png",
             "shifts": [
               ["JOE_KERWIN", "-00:01:00:00", "strictly, only Kerwin, Brand and Lousma were taking shifts (AFAICT), however other astronauts come on as CAPCOM in the original transcript, and we use the shift mechanism to display that properly"],
               ["VANCE_BRAND", "00:07:09:09"],
@@ -136,10 +142,10 @@
             "name": "Flight Director",
             "short_name": "Flight",
             "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. On Apollo 13, there were four FLIGHT teams operating in shifts. Shift changes are occasionally noted in the transcript.",
-            "photo": "http://img.fort/190x155.png",
+            "photo": "",
             "photo_width": 190,
             "photo_height": 155,
-            "avatar": "/assets/transcripts/a13/_meta/avatars/F_48.png",
+            "avatar": "F_48.png",
             "shifts": [
               ["F", "-00:01:00:00", "what we're trying to do here is to identify flight directors as F, but note where Deke Slayton was marked in the original transcript separately; this means that every Deke interjection is surrounded by a chunk ascribed to F even if there are no loglines during that period"],
               ["DEKE_SLAYTON", "05:05:40:28", "until 05:05:50:47"],
@@ -158,10 +164,10 @@
           "short_name": "Jim Lovell (CDR)",
           "mission_position": "Commander",
           "bio": "One of NASA's most experienced astronauts at the time of the Apollo 13 mission, Jim Lovell had been a test pilot before joining the NASA program in a group that also included Neil Armstrong. He was the Pilot for Gemini 7 with Frank Borman, performing the first space rendezvous with Gemini 6a, and then the Command Pilot on Gemini 12 with Buzz Aldrin. In the Apollo Program he had been Command Module Pilot for Apollo 8 which performed the first lunar orbit, before being assigned as Commander of the Apollo 13 mission.",
-          "photo": "/assets/transcripts/a13/_meta/lovell.png",
+          "photo": "lovell.png",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/lovell_48.png",
+          "avatar": "lovell_48.png",
           "stats": [
             {
                 "value": 715,
@@ -184,10 +190,10 @@
           "short_name": "Fred Haise (LMP)",
           "mission_position": "Lunar Module Pilot",
           "bio": "Fred Haise had become a NASA astranaut in April 1966 (along with many of the astronauts involved in Apollo 13 both in space and on ground at Mission Control) after over ten years as a fighter pilot with the USMC and several years as a NASA research pilot. Following the Apollo Program, he was the commander of Enterprise during the Shuttle Program's Approach & Landing Tests in 1977.",
-          "photo": "/assets/transcripts/a13/_meta/haise.png",
+          "photo": "haise.png",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/haise_48.png",
+          "avatar": "haise_48.png",
           "stats": [
             {
                 "value": 142,
@@ -210,10 +216,10 @@
           "short_name": "Jack Swigert (CMP)",
           "mission_position": "Command Module Pilot",
           "bio": "A former USAF aviator and commercial test pilot, Jack Swigert was the only unmarried NASA astronaut when he joined in 1966. After leaving NASA, he served as staff director of the Committee on Science and Technology of the US House of Representatives, and was elected in Colorado's 6th congressional district in November 1982 although he succumbed to bone cancer before being sworn in.",
-          "photo": "/assets/transcripts/a13/_meta/swigert.png",
+          "photo": "swigert.png",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/swigert_48.png",
+          "avatar": "swigert_48.png",
           "stats": [
             {
               "value": 142,
@@ -236,10 +242,10 @@
           "short_name": "Charlie Duke",
           "mission_position": "Backup crew",
           "bio": "Lunar Module Pilot on the backup crew for Apollo 13, Charlie Duke had previously been CAPCOM during the Apollo 11 lunar landing. An interceptor pilot before joining the NASA astronaut program in 1966, he went on to be Lunar Module Pilot for Apollo 16, with a record lunar stay of 71 hours 41 minutes along with commander John Young.",
-          "photo": "http://img.fort/190x155.png",
+          "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+          "avatar": "CC_48.png"
         },
         "KEN_MATTINGLY": {
           "role": "mission-ops",
@@ -247,10 +253,10 @@
           "short_name": "Ken Mattingly",
           "mission_position": "Backup crew",
           "bio": "A US Navy pilot, Mattingly was originally slated to be Command Module Pilot for Apollo 13, but was swapped with Jack Swigert after concerns over an outbreak of rubella. He went on to fly on Apollo 16, before commanding the Space Shuttle Columbia on her final test flight, and later Discovery, before moving to Lockheed Martin to head up the X-33 program for a next generation re-usable launch vehicle.",
-          "photo": "http://img.fort/190x155.png",
+          "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+          "avatar": "CC_48.png"
         },
         "VANCE_BRAND": {
           "role": "mission-ops",
@@ -258,10 +264,10 @@
           "short_name": "Vance Brand (CAPCOM)",
           "mission_position": "CAPCOM",
           "bio": "A former fighter and test pilot who joined the astronaut program in 1966, Vance Brand went on to fly on the Apollo-Soyuz Test Project, and was commander of the Space Shuttle Columbia for her first fully operational flight and later her first flight dedicated to astronomy.",
-          "photo": "http://img.fort/190x155.png",
+          "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+          "avatar": "CC_48.png"
         },
         "JACK_LOUSMA": {
           "role": "mission-ops",
@@ -269,10 +275,10 @@
           "short_name": "Jack Lousma (CAPCOM)",
           "mission_position": "CAPCOM",
           "bio": "A USMC attack pilot before joining the astronaut program, Jack Lousma went on to pilot Skylab 3, and was commander of the Space Shuttle Columbia during her third flight test in 1982.",
-          "photo": "http://img.fort/190x155.png",
+          "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+          "avatar": "CC_48.png"
         },
         "JOE_KERWIN": {
           "role": "mission-ops",
@@ -280,10 +286,10 @@
           "short_name": "Joe Kerwin (CAPCOM)",
           "mission_position": "CAPCOM",
           "bio": "A naval flight surgeon, and one of NASA's first scientist-astronauts, after Apollo 13 Joe Kerwin was science-pilot for Skylab 2, and subsequently held various astronaut office and science roles at NASA.",
-          "photo": "http://img.fort/190x155.png",
+          "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+          "avatar": "CC_48.png"
         },
         "TOM_STAFFORD": {
           "role": "mission-ops",
@@ -291,10 +297,10 @@
           "short_name": "Tom Stafford",
           "mission_position": "Chief of the Astronaut Office",
           "bio": "A test pilot and flight test trainer, Tom Stafford was instrumental to developing the theoretical underpinnings of the Apollo lunar missions, both working on the techniques and flying missions for the first space rendezvous, the first lunar orbit abort rendezvous, and commanding Apollo 10, which ran through the entire lunar landing mission except for the lunar landing itself, including the first flight and rendezvous with the lunar module during lunar orbit.",
-          "photo": "http://img.fort/190x155.png",
+          "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+          "avatar": "CC_48.png"
         },
         "DEKE_SLAYTON": {
           "role": "mission-ops",
@@ -302,10 +308,10 @@
           "short_name": "Deke Slayton",
           "mission_position": "Director of Flight Crew Operations",
           "bio": "A member of the first NASA group of astronauts, assembled in 1959 for the Mercury Program, Slayton didn't fly until the Apollo-Soyuz Test Project in 1975 (at which time he was the oldest person to fly in space). From 1963 until 1972 he served as Director of Flight Crew Operations, and after Apollo-Soyuz was Head of the Shuttle Approach & Landing Tests Program.",
-          "photo": "http://img.fort/190x155.png",
+          "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+          "avatar": "CC_48.png"
         },
         "GENE_KRANZ": {
           "role": "mission-ops",
@@ -313,70 +319,70 @@
           "short_name": "Gene Kranz",
           "mission_position": "Flight Director (White shift)",
           "bio": "A former USAF pilot, Gene Kranz worked at McDonnell Aircraft before moving to the NASA Space Task Group where he was Mission Control procedures office for early Mercury flights including the first American in space and the first American orbit of the Earth. By the time of the Apollo Program, he was an experienced flight director whose team was on duty during the Apollo 11 lunar landing and the explosion in Apollo 13's Service Module. His last shift for NASA before retirement was for Shuttle mission STS-61, repairing the Hubble Space Telescope, in 1993.",
-          "photo": "http://img.fort/190x155.png",
+          "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+          "avatar": "CC_48.png"
         },
         "SC": {
           "role": "other",
           "name": "Unidentified crew member",
           "short_name": "Unidentified crew member",
-          "avatar": "/assets/transcripts/a13/_meta/avatars/SC_48.png"
+          "avatar": "SC_48.png"
         },
         "MS": {
           "role": "other",
           "name": "Multiple speakers",
           "short_name": "Multiple speakers",
-          "avatar": "/assets/transcripts/a13/_meta/avatars/MS_48.png"
+          "avatar": "MS_48.png"
         },
         "AB": {
           "role": "other",
           "name": "Airboss (Recovery aircraft)",
           "short_name": "Airboss",
-          "avatar": "/assets/transcripts/a13/_meta/avatars/AB_48.png"
+          "avatar": "AB_48.png"
         },
         "IWO": {
           "role": "other",
           "name": "USS Iwo Jima",
           "short_name": "USS Iwo Jima",
-          "avatar": "/assets/transcripts/a13/_meta/avatars/IWO_48.png"
+          "avatar": "IWO_48.png"
         },
         "P-1": {
           "role": "other",
           "name": "Photographic helicopter 1",
           "short_name": "Photographic helicopter 1",
-          "avatar": "/assets/transcripts/a13/_meta/avatars/copters_48.png"
+          "avatar": "copters_48.png"
         },
         "R": {
           "role": "other",
           "name": "Recovery helicopter",
           "short_name": "Recovery helicopter",
-          "avatar": "/assets/transcripts/a13/_meta/avatars/copters_48.png"
+          "avatar": "copters_48.png"
         },
         "R-1": {
           "role": "other",
           "name": "Recovery helicopter 1",
           "short_name": "Recovery helicopter 1",
-          "avatar": "/assets/transcripts/a13/_meta/avatars/copters_48.png"
+          "avatar": "copters_48.png"
         },
         "S": {
           "role": "other",
           "name": "Surgeon",
           "short_name": "Surgeon",
-          "avatar": "/assets/transcripts/a13/_meta/avatars/S_48.png"
+          "avatar": "S_48.png"
         },
         "S-1": {
           "role": "other",
           "name": "Swim 1",
           "short_name": "Swim 1",
-          "avatar": "/assets/transcripts/a13/_meta/avatars/blank_48.png"
+          "avatar": "blank_48.png"
         },
         "S-2": {
           "role": "other",
           "name": "Swim 2",
           "short_name": "Swim 2",
-          "avatar": "/assets/transcripts/a13/_meta/avatars/blank_48.png"
+          "avatar": "blank_48.png"
         }
     },
     "glossary": {

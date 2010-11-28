@@ -2,7 +2,7 @@
 
 <div class="person" id="{{ person.short_name|slugify }}">
   <h3>
-    <img src="{{ person.photo }}" alt=""
+      <img src="/assets/missions/{{ mission.name }}/images/people/{{ person.photo }}" alt=""
          width="{{ person.photo_width }}" height="{{ person.photo_height }}">
     <em>{{ person.name }}</em>
     {{ person.mission_position }}
