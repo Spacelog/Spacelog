@@ -17,13 +17,15 @@ if (   !GetOptions( 'help|h' => \$help, )
     || $help
     || !@ARGV )
 {
-    print "Usage: markup.pl [dir]
+    print "Usage: markup.pl [dir/file]
                       --help : This help
 eg:
-   tools/markup.pl missions/ma6/transcripts
+   tools/markup.pl missions/ma6/transcripts/TEC
 
 markup will attenmpt to automatically markup glossary references
-in a processed TEC transcript.
+in a processed TEC transcript. If given a file it will read from
+the file and look for a _meta in the same directory. If given a
+directory it will look for a TEC and _meta files in that directory.
 
 ";
     exit;
@@ -90,23 +92,28 @@ sub load_transcript {
 }
 
 sub markup_glossary {
-    if ( keys %{$glossary} < 1 ) {
-        print "Empty glossary\n";
-        return;
-    }
     my $regex = join '|', map { s{(.)}{$1(?:<[^>]+>)?}g; $_ } keys %{$glossary};
-    foreach my $line (@lines) {
-        $line->{text} =~ s/\b($regex)\b/[glossary:$1 $1]/g;
-    }
+    map { $_->{text} =~ s/\b($regex)\b/[glossary:$1 $1]/g; $_ } @lines;
 }
 
 sub process {
-    my ($dir) = @_;
+    my ($path) = @_;
 
-    load_transcript("$dir/TEC");
-    load_meta("$dir/_meta");
-    markup_glossary();
-    save_transcript("$dir/TEC-markedup");
+    my $meta_file;
+    my $transcript_file;
+    if ( -d $path ) {
+        $transcript_file = "$path/TEC";
+        $meta_file       = "$path/_meta";
+    }
+    else {
+        $transcript_file = $path;
+        $meta_file       = $path;
+        $meta_file =~ s:[^/]*$:_meta:;
+    }
+    load_transcript($transcript_file);
+    load_meta($meta_file);
+    markup_glossary() if keys %{$glossary};
+    save_transcript("$transcript_file-markedup");
 }
 
 sub save_transcript {
