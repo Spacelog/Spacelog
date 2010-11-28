@@ -9,7 +9,7 @@
 
 {% block crest %}{% endblock %}
 
-<div id='content' class='{% block content-class %}{% endblock %}'><div class="wrapper">
+<div id='content' class='{% block content-class %}{% endblock %}' {% block content-extra %}{% endblock %}><div class="wrapper">
 {% block content %}{% endblock %}
 </div></div>
 </body>

@@ -5,6 +5,7 @@
 
 {% block title %}We are go{% endblock %}
 {% block content-class %}homepage{% endblock %}
+{% block content-extra %}style="background-image:url(/assets/missions/{{ mission.name }}/images/homepage/background.jpg);"{% endblock %}
 {% block content %}
 <h1>{{ mission.upper_title }} <em>{{ mission.lower_title }}</em></h1>
 

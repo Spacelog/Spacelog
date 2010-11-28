@@ -42,7 +42,7 @@ class StatsPornGenerator(object):
                 except OSError:
                     pass
 
-                graph_file = '%s/stats/graph_%s_%s.png' % (mission.name, mission.name, act.number)
+                graph_file = 'graph_%s_%s.png' % (mission.name, act.number)
                 output_path = '%s/%s' % (real_output_path, graph_file)
 
                 draw_commands = ['convert', self.graph_background_file, '-fill', self.graph_bar_colour]
