@@ -278,7 +278,6 @@ class MetaIndexer(object):
             {
                 "utc_launch_time": meta['utc_launch_time'],
                 "featured": meta.get('featured', False),
-                "image": meta['image'],
                 "main_transcript": meta['main_transcript'],
                 "media_transcript": meta['media_transcript'],
             }
