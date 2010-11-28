@@ -13,19 +13,9 @@
     border:                 1px solid #999;
     color:                  #ccc;
     font-size:              18px;
-    margin-right:           20px;
+    margin-right:           16px;
     padding:                6px 12px;
     width:                  434px;
-}
-
-.search input[type=submit] {
-    border:                 none;
-    background-color:       #888;
-    color:                  white;
-    -webkit-border-radius:  8px;
-    -moz-border-radius:     8px;
-    border-radius:          8px;
-    padding:                5px 10px;
 }
 
 .search form {

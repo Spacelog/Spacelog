@@ -39,7 +39,34 @@ a:active {
     padding-bottom:         100px;
 }
 
+/* Blue button */
+.search input[type=submit] {
+    background:             #037a97;
+    border:                 1px solid transparent;
+    border-radius:          3px;
+    color:                  #fff;
+    font-family:            'League Gothic', sans-serif;
+    font-size:              23px;
+    position:               relative;
+    text-transform:         uppercase;
+    top:                    2px;
+    padding:                3px 22px;
+    width:                  140px;
+}
+
 /*! verbatim */
+.search input[type=submit] {
+    border-top-color:       #34d5fc;
+    border-bottom-color:    #037b98;
+    text-shadow:            0 1px 0 #000;
+    background:             -webkit-gradient(
+                                linear,
+                                left top,
+                                left bottom,
+                                from(#00aad3),
+                                to(#037a97)
+                            );
+}
 @font-face {
     font-family:            'League Gothic';
     src: url('/assets/fonts/league-gothic.eot');
