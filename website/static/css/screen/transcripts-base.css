@@ -91,9 +91,6 @@
     border-bottom:          1px solid #ddd;
     -cp-contain:            easy;
 }
-#transcript dd a {
-    color:                  black;
-}
 #transcript dd p {
     padding-top:            6px;
 }

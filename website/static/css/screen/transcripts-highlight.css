@@ -6,11 +6,9 @@
 #content.with-highlight a {
     color:                  #00667f;
 }
+#content.with-highlight #transcript .highlighted dd a,
 #content.with-highlight #transcript .highlighted dt.time a {
-    color:                  #00abd7;
-}
-#content.with-highlight dd a {
-    color:                  black;
+    color:                  #00aad3;
 }
 
 #content.with-highlight #transcript dd {
