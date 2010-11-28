@@ -1,4 +1,71 @@
 
+Artemis.TranscriptView = Backbone.View.extend({
+    el: $('#transcript').parent(),
+    events: {
+        'click #load-previous a': 'loadPrevious',
+        'click #load-more a':     'loadMore'
+    },
+
+    initialize: function() {
+        _.bindAll(this);
+    },
+
+    lastLoadMorePath: null,
+
+    loadPrevious: function() {
+        var a = $('#load-previous a');
+        if (a) {
+            $.getJSON(a.attr('href'), _.bind(function(data) {
+                this.loadMoreCallback(data, true);
+            }, this));
+            Artemis.replaceWithSpinner(a);
+            this.lastLoadMorePath = a.attr('href');
+        }
+        return false;
+    },
+
+    loadMore: function() {
+        var a = $('#load-more a');
+        if (a) {
+            $.getJSON(a.attr('href'), _.bind(function(data) {
+                this.loadMoreCallback(data, false)
+            }, this));
+            Artemis.replaceWithSpinner(a);
+            this.lastLoadMorePath = a.attr('href');
+        }
+        return false;
+    },
+
+    loadMoreCallback: function(data, previous) {
+        var content = $(data.content);
+        var crest = $(data.crest);
+
+        if (previous) {
+            // Load previous button may disappear
+            if (content.find('#load-previous').length) {
+                $('#load-previous').replaceWith(content.find('#load-previous'));
+            }
+            else {
+                $('#load-previous').remove();
+            }
+            if (crest.children().length) {
+                $('#crest').replaceWith(data.crest);
+            }
+            $('#transcript').prepend(content.filter('#transcript'));
+        }
+        else {
+            // If there is a crest, we've hit the next phase
+            if (crest.children().length) {
+                window.location = this.lastLoadMorePath;
+                return;
+            }
+            $('#load-more').replaceWith(content.find('#load-more'));
+            $('#transcript').append(content.filter('#transcript'));
+        }
+    }
+});
+
+
 Artemis.PhasesView = Backbone.View.extend({
     el: $('#phases'),
     events: {
@@ -28,7 +95,6 @@ Artemis.PhasesView = Backbone.View.extend({
             height = this.openHeight;
         }
         this.el.stop().animate({height: height});
-        console.debug(!isOpen);
         this.setIsOpen(!isOpen);
         return false;
     },
@@ -50,6 +116,7 @@ Artemis.PhasesView = Backbone.View.extend({
 
 $(function() {
     Artemis.phasesView = new Artemis.PhasesView();
+    Artemis.transcriptView = new Artemis.TranscriptView();
 });
 
 

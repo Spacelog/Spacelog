@@ -7,6 +7,10 @@
                 return parseInt(i, 10);
             });
             return t[3] + t[2]*60 + t[1]*3600 + t[0]*86400;
+        },
+
+        replaceWithSpinner: function(e) {
+            $(e).replaceWith('<img src="/assets/img/ajax-loader.gif" alt="">');
         }
     };
 
