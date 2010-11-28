@@ -96,5 +96,23 @@
         }
     },
     "glossary": {
+        "ASCS": {
+            "description": "Automatic Stabilization and Control System"
+        },
+        "FBW": {
+            "description": "Fly By Wire"
+        }, 
+        "MP": {
+            "description": "Manual Proportional"
+        }, 
+        "RSCS": {
+            "description": "Rate Stabilization and Control System"
+        }, 
+        "BECO": {
+            "description": "Booster Engine Cut-Off"
+        }, 
+        "SECO": {
+            "description": "Sustainer Engine Cut-Off"
+        }, 
     }
 }
