@@ -23,6 +23,7 @@ def linkify(text):
     # Typographize double quotes
     text = re.sub(
         r'"([^"]+)"', r'&ldquo;\1&rdquo;', text)
+    text = text.replace("'", "&apos;").replace('...', '&hellip;')
     # Dashing through the text, with a one-space open sleigh
-    text = text.replace("- -", "&mdash;").replace(" - ", "&mdash;")
+    text = text.replace("- -", "&mdash;").replace(" - ", "&mdash;").replace("--", "&mdash;")
     return mark_safe(text)
