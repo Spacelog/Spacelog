@@ -12,7 +12,7 @@
 {% if log_lines.0.first_in_act and log_lines.0.act.banner %}
   {% with log_lines.0.act as act %}
     <div id='crest' {% if act.banner_class %}class='{{ act.banner_class }}'{% endif %}><div class='wrapper'>
-    <p class='act-banner'><img class="act-banner" src="/assets/img/acts/{{ act.mission_name }}/{{ act.banner }}"></p>
+    <p class='act-banner'><img class="act-banner" src="/assets/img/missions/{{ act.mission_name }}/{{ act.banner }}"></p>
     </div></div>
   {% endwith %}
   {% else %}<div id="crest"></div>{% endif %}
@@ -47,7 +47,7 @@
       <dt class='speaker'>
         {% avatar_and_name speaker log_line.timestamp %}
       </dt>
-      <dd class=''>
+      <dd class='{% pause_class log_line.following_silence %}'>
       <p><a href='{% selection_url log_line.timestamp %}'>{{text|linkify|safe}}</a></p>
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
           <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}' class='range-ui' id='expand-previous'><span>Expand selection up</span></a>
