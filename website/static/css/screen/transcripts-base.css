@@ -97,6 +97,11 @@
 #transcript dd div.image {
     margin-top:             20px;
 }
+#transcript dd div.image img {
+    padding:                4px;
+    -webkit-box-shadow:     rgba(0,0,0,0.5) 0 0 3px;
+    -moz-box-shadow:        rgba(0,0,0,0.5) 0 0 3px;
+}
 
 #transcript div.key-scene {
     position:               relative;
