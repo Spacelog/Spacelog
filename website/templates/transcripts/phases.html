@@ -15,7 +15,7 @@
 
     {% if act.has_stats %}
       {{ act.stats_image_map|safe }}
-      <img src='{{ act.stats_image }}' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
+      <img src='/assets/missions/{{ mission.name }}/images/stats/graph_{{ mission.name }}_{{ act.number }}.png' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
     {% endif %}
   {% endfor %}
 

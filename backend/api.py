@@ -310,7 +310,6 @@ class Act(NarrativeElement):
             self.has_stats = True
             self.stats_image_map = stats_data['image_map']
             self.stats_image_map_id = stats_data['image_map_id']
-            self.stats_image = stats_data['image']
         else:
             self.has_stats = False
         
