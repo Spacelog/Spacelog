@@ -125,6 +125,7 @@
 #homepage-quote a {
     -webkit-border-radius:  5px;
     -moz-border-radius:     5px;
+    text-shadow:            1px 1px 1px rgba( 0, 0, 0, 0.3 );
     border-top:             1px solid rgba( 0, 171, 215, 0.2 );
 }
 #homepage-quote a.transcript {
