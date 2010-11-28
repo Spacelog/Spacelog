@@ -1,0 +1,131 @@
+# This is an example _meta file. It's not technically valid, as you can't have comments in them.
+{
+    # The (code) name of this mission. Should match the directory name the files come in.
+    "name": "ma6",
+
+    # If this gets a big badge on the main page listing all missions.
+    "featured": true,
+
+    # Subdomains this mission should appear under.
+    "subdomains": ["ma6"],
+
+    # General site copy.
+    "copy": {
+        # The title as it appears in the header bar
+        "title": "Mercury 6",
+
+        # The two parts of the title for the homepage.
+        "upper_title": "Mercury",
+        "lower_title": "6",
+
+        # Description for the global homepage.
+        "description": "The 1962 Mercury mission that made pilot John Glenn the first American to reach Earth orbit, with three orbits before re-entry.",
+
+        # Introduction for the glossary page.
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+
+        # Cleaners for the about page.
+        "cleaners": [
+            "David Brownlee",
+            "Russ Garrett"
+        ],
+
+        # Text for the about page.
+        "about": "John Glenn got in rocket. John Glenn got out of rocket. John Glenn got in rocket. John Glenn got out of rocket. Rinse, repeat. On the last cycle, fire the rocket.\n\nThis site allows you to explore transcripts of radio communications between John Glenn aboard Friendship 7 and the NASA personnel at monitoring stations around the world, along with photographs taken both from the ground and by Glenn in space.",
+
+        # Image attributions for the about page.
+        "image_attributions": [
+            { "url": "#TODO", "title": "Earth rising", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
+            { "url": "#TODO", "title": "Moon rising", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
+            { "url": "#TODO", "title": "Satellite", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
+            { "url": "#TODO", "title": "Launch", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
+            { "url": "#TODO", "title": "Under the Moon", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
+            { "url": "#TODO", "title": "Parachute landing", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
+            { "url": "#TODO", "title": "Earth from space", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" }
+        ],
+        "call_signs": "When only the CSM (Command and Service Module pairing) is manned, its call sign is Apollo 13. When both the Control and Lunar Modules are manned, the CM's call sign is Odyssey, and the LM's call sign is Aquarius. The call sign for <a href='/people/#capcom'>CAPCOM</a> is Houston."
+    },
+
+    # The two transcripts to use for the main view
+    "main_transcript": "ma6/TEC",
+    "media_transcript": "ma6/MEDIA",
+
+    # The launch time, in seconds since the UNIX epoch.
+    "utc_launch_time": -248087541,
+
+    # Acts - they include the start and exclude the end of their range.
+    # Called phases in the UI.
+    "acts" : [
+        {
+            "title": "Launch",
+            "description": "Leaving the earth!",
+            "range": ["-00:00:00:20", "00:00:05:04"]
+        },
+        {
+            "title": "First Orbit",
+            "description": "Round one!",
+            "range": ["00:00:05:04", "00:01:32:50"]
+        },
+        {
+            "title": "Second Orbit",
+            "description": "Round two!",
+            "range": ["00:01:32:50", "00:03:07:03"]
+        },
+        {
+            "title": "Third Orbit",
+            "description": "Round three!",
+            "range": ["00:03:07:03", "00:04:32:39"]
+        },
+        {
+            "title": "Reentry",
+            "description": "Safely back home.",
+            "range": ["00:04:32:39", "00:05:05:11"]
+        }
+    ],
+
+    # Key scenes - ranges work like acts.
+    "key_scenes" : [
+    ],
+
+    # Characters - used to build the transcript info.
+    "characters": {
+        "CC": {
+            "role": "mission-ops-title",
+            "name": "Capsule Communicator",
+            "short_name": "CAPCOM",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "photo": "http://img.fort/190x155.png",
+            "photo_width": 190,
+            "photo_height": 155,
+            "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+        },
+        "P": {
+          "role": "astronaut",
+          "name": "John Herschel Glenn, Jr.",
+          "short_name": "John Glenn",
+          "bio": "A highly decorated USMC combat pilot with test flight experience including the first supersonic transcontinental flight, John Glenn was chosen to be the third American in space, and first to reach Earth orbit, from NASA's initial intake of seven astronauts in 1959. Following the assassination of President John F. Kennedy, he resigned from NASA to run for political office, returning to space age 77 onboard the Space Shuttle in 1998, becoming the oldest person to go to space.",
+          "photo": "http://img.fort/190x155.png",
+          "photo_width": 190,
+          "photo_height": 155,
+          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png",
+          "stats": [
+            {
+                "value": 218,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 40,
+                "text": "age at launch"
+            }
+          ]
+        }
+    },
+
+    # Glossary: Used to populate the glossary page.
+    "glossary": {
+    }
+}
