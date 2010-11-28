@@ -1,46 +1,44 @@
 #content.homepage {
-    background-color:           black;
-    background-position:        top center;
-    background-repeat:          no-repeat;
-    padding-top:                40px;
-    -cp-contain:                easy;
+    background-color:       black;
+    background-position:    top center;
+    background-repeat:      no-repeat;
+    padding-top:            40px;
+    -cp-contain:            easy;
 }
 
 #content.homepage h1, #content.homepage h2 {
-    font-family:               'League Gothic',
-                               'Helvetica Neue Condensed',
-                               'Arial',
-                               sans-serif;
-    text-transform:            uppercase;
+    font-family:            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
+    text-transform:         uppercase;
 }
 
 #content.homepage h1 {
-    outline:                   1px solid red;
-    font-size:                 3em;
-    line-height:               .9em;
-    margin-bottom:             4px;
-    float:                     left;
-    text-align:                center;
-    width:                     140px; 
-   
+    outline:                1px solid red;
+    font-size:              3em;
+    line-height:            .9em;
+    margin-bottom:          4px;
+    float:                  left;
+    text-align:             center;
+    width:                  140px; 
 }
 
-
 #content.homepage h1 em {
-    font-size:                 3.5em;
-    display:                   block;
-    line-height:               1em;
-    margin-bottom:             0px;
-    color:                     #f8b334;
+    font-size:              3.5em;
+    display:                block;
+    line-height:            1em;
+    margin-bottom:          0px;
+    color:                  #f8b334;
 }
 
 #content.homepage h2 {
-    font-size:                 2em;
-    line-height:               .9em;
-    width:                     10px;
-    height:                    400px;
-    margin-right:              150px;
-    float:                     left;
+    font-size:              2em;
+    line-height:            .9em;
+    width:                  10px;
+    height:                 400px;
+    margin-right:           150px;
+    float:                  left;
 }
 
 /*! verbatim */
@@ -84,31 +82,34 @@
     padding:                5px;
     font-weight:            bold;
     margin:                 10px;
-    -webkit-border-radius:      4px;
-    -moz-border-radius:         4px;
-    border-radius:              4px;
+    -webkit-border-radius:  4px;
+    -moz-border-radius:     4px;
+    border-radius:          4px;
 }
-/* -- */
 
 #content.homepage blockquote a img {
     margin-right:            10px;
 }
 
-#content.homepage dl {
+#content.homepage li {
+    color:                  #009BC1;
     float:                  left;
-    margin-right:           20px;
-    margin-bottom:          20px;
-}
-
-#content.homepage dt {    
     font-family:            'League Gothic',
                             'Helvetica Neue Condensed',
                             'Arial',
                             sans-serif;
     font-size:              1.5em;                            
     font-weight:            bold;
-    color:                  #009BC1;
-    padding:                5px;
+    margin-right:           20px;
+    margin-bottom:          20px;
     text-transform:         uppercase;
     text-align:             center;
+    text-shadow:            1px 1px 2px #000;
+}
+/* -- */
+
+#content.homepage li a,
+#content.homepage li img {
+    display:                block;
+    margin-bottom:          5px;
 }
