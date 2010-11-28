@@ -9190,7 +9190,7 @@ CDR: Right. We'll stop it when we're setting up our TV.
 CC:  Roger.
 
 [02:05:54:34]
-CMP: Okay, Houston, the waste water dump and 02 fuel
+CMP: Okay, Houston, the waste water dump and O<sub>2</sub> fuel
      cell purge are complete.
 
 [02:05:54:41]
@@ -10759,7 +10759,7 @@ LMP: Hello, Houston; Apollo 13. How do you read?
 
 [02:08:57:07]
 CC:  Okay, 13. This is Houston. It appears to us that
-     we're losing 02 flow through fuel cell 3. So, we
+     we're losing O<sub>2</sub> flow through fuel cell 3. So, we
      want you to close the REAC valve on fuel cell 3.
      It looks like fuel cell 1 and 2 are trying to
      hold up okay. You copy?
@@ -11234,13 +11234,13 @@ CC:  And, 13, Houston. As a final effort here, we
 CDR: Roger. Understand. Turn on the fans in tank 2.
 
 [02:09:39:34]
-CDR: You want the 02 fans in tank 2, Jack?
+CDR: You want the O<sub>2</sub> fans in tank 2, Jack?
 
 [02:09:39:38]
 CC:  That's affirmative, Jim.
 
 [02:09:39:45]
-CDR: 02 tanks - fans in tank 2 are on.
+CDR: O<sub>2</sub> tanks - fans in tank 2 are on.
 
 [02:09:39:48]
 _page : 186
@@ -11442,7 +11442,7 @@ CC:  Roger.
 [02:09:55:42]
 CC:  And, 13, in the [glossary:CSM CSM], we want to verify that all
      the fuel cell pumps are off, and we want to have
-     you turn off the 02 fans in the tank 2.
+     you turn off the O<sub>2</sub> fans in the tank 2.
 
 [02:09:55:56]
 CMP: Okay. Tank 2 fans going off. Okay. That leaves
@@ -11792,7 +11792,7 @@ CC:  Stand by.
 
 [02:10:18:53]
 CMP: Houston, he's going to give a 16 NOUN 20, Jack.
-     And, okay, I've got 02 heaters and fans off in
+     And, okay, I've got O<sub>2</sub> heaters and fans off in
      tank 1.
 
 [02:10:19:15]
