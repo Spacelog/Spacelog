@@ -31,7 +31,7 @@
 .group .person:nth-last-child( +2 ) {
     float:                  left;
 }
-.person:nth-last-child( +2 ) {
+.group:last-child .person:nth-last-child( +2 ) {
     float:                  right;
 }
 .person:target {
@@ -82,10 +82,12 @@
     padding-bottom:         3px;
 }
 .person .stats .secondary {
+    display:                table-cell;
     float:                  left;
     font-size:              13px;
     padding:                0 10px 0 70px;
     width:                  50px;
+    vertical-align:         middle;
 }
 .person .stats .secondary em {
     color:                  #e5352d;
@@ -94,6 +96,7 @@
     margin-left:            -60px;
     text-align:             center;
     width:                  60px;
+    vertical-align:         middle;
 }
 .person .stats .alt {
     border-left:            1px solid #fff;

@@ -9,13 +9,6 @@
     {{ person.mission_position }}
   </h3>
 
-  <p>
-    {{ person.bio }}
-  </p>
-  
-  {% if person.stats or person.quotable_log_line %}
-  <h4>{{ person.short_name }} in numbers and words</h4>
-  
   {% if person.stats %}
   <ul class="stats">
   {% for value, text in person.stats %}
@@ -23,6 +16,12 @@
   {% endfor %}
   </ul>
   {% endif %}
+  <p>
+    {{ person.bio }}
+  </p>
+  
+  {% if person.quotable_log_line %}
+  <h4>{{ person.short_name }} in words</h4>
   
   {% if person.quotable_log_line %}
   <div class="quote">
