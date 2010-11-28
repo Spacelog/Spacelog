@@ -54,7 +54,7 @@ class TranscriptView(JsonTemplateView):
         # Find the next log line and its timestamp
         next_timestamp = log_lines[-1].next_timestamp()
         # Return
-        return log_lines, previous_timestamp, next_timestamp, 0
+        return log_lines, previous_timestamp, next_timestamp, 0, None
 
     def page_number(self, timestamp):
         "Finds the page number for a given timestamp"
@@ -83,7 +83,7 @@ class PageView(TranscriptView):
             end = start
 
         # Get the content
-        log_lines, previous_timestamp, next_timestamp, max_highlight_index = self.log_lines(
+        log_lines, previous_timestamp, next_timestamp, max_highlight_index, first_highlighted_line = self.log_lines(
             self.page_number(start),
             self.page_number(end),
         )
@@ -109,6 +109,12 @@ class PageView(TranscriptView):
             'previous_act': previous_act,
             'next_act': next_act,
             'max_highlight_index': max_highlight_index,
+            'first_highlighted_line': first_highlighted_line,
+            'permalink': 'http://%s%s%s' % (
+                self.request.META['HTTP_HOST'],
+                self.request.path,
+                '#show-selection',
+            )
         }
 
 
@@ -119,7 +125,7 @@ class RangeView(PageView):
     """
     
     def log_lines(self, start_page, end_page):
-        log_lines, previous_link, next_link, highlight_index = super(RangeView, self).log_lines(start_page, end_page)
+        log_lines, previous_link, next_link, highlight_index, discard = super(RangeView, self).log_lines(start_page, end_page)
         start = self.parse_mission_time(self.kwargs['start'])
         # If there's no end, make it the first item after the given start.
         if "end" in self.kwargs:
@@ -128,9 +134,12 @@ class RangeView(PageView):
             end = self.main_transcript_query().first_after(start).timestamp
 
         highlight_index = 0
+        first_highlighted_line = None
         for log_line in log_lines:
             if start <= log_line.timestamp <= end:
                 log_line.highlighted = True
+                if highlight_index == 0:
+                    first_highlighted_line = log_line
                 highlight_index += 1
                 log_line.highlight_index = highlight_index
 
@@ -139,7 +148,7 @@ class RangeView(PageView):
                 log_line1.pre_highlight = True
                 break
 
-        return log_lines, previous_link, next_link, highlight_index
+        return log_lines, previous_link, next_link, highlight_index, first_highlighted_line
 
     def get_context_data(self, start=None, end=None):
         data = super(RangeView, self).get_context_data(start, end)

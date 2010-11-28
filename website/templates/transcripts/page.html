@@ -83,6 +83,13 @@
             {% endfor %}
         {% endif %}
       </dd>
+      {% if log_line.highlight_index == max_highlight_index %}
+      <p id='range-advisory'>
+        Spoken on {{ first_highlighted_line.utc_time }} UTC ({{ first_highlighted_line.utc_time|timesince }} ago)<span>. </span>
+        <i>Permanent link</i><span> to this range is</span>
+        <input type="text" name="" value="{{ permalink }}">
+      </p>
+      {% endif %}
       </div>
       {% if log_line.following_silence > 3600 %}
         <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}</dd>
