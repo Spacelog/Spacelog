@@ -105,15 +105,19 @@ sub parse_inline_timestamp {
     my $valid;
     my $parsed;
 
-    if ( $inline_timestamp_format eq 'HH MM SS' ) {
-        if ( $timestamptxt =~ /\b(\d\d) (\d\d) (\d\d)\b$/ ) {
-            $parsed = $1 * 60 * 60 + $2 * 60 + $3;
+    if ( defined $inline_timestamp_format ) {
+        if ( $inline_timestamp_format eq 'HH MM SS' ) {
+            if ( $timestamptxt =~ /\b(\d\d) (\d\d) (\d\d)\b$/ ) {
+                $parsed = $1 * 60 * 60 + $2 * 60 + $3;
+                $valid = $parsed if ( $parsed && $parsed > $logtimestamp );
+            }
+
+        }
+        else {
+            die
+"Cannot understand inline timestamp format $inline_timestamp_format";
         }
 
-    }
-    elsif ( defined $inline_timestamp_format ) {
-        die
-"Unable to understand inline timestamp format $inline_timestamp_format";
     }
 
     else    # Apollo 13
@@ -124,7 +128,6 @@ sub parse_inline_timestamp {
         }
 
         # Some magic numbers for Apollo13 which are modified
-        $valid = 5 * 60 + 32 if $timestamptxt eq '5:32';
         $valid = 135 * 60 * 60 + 4 * 60 + 25 if $timestamptxt eq '35:04:25';
 
         if ( !$valid ) {
@@ -132,7 +135,12 @@ sub parse_inline_timestamp {
                 $parsed = $1 * 60 * 60 + $2 * 60 + $3;
             }
             elsif ( $timestamptxt =~ /^(\d+):(\d+)(?:\.\d+)?$/ ) {
-                $parsed = $1 * 60 * 60 + $2 * 60;
+                if ( $timestamptxt eq '52:36' || $timestamptxt eq '5:32' ) {
+                    $valid = $1 * 60 + $2;
+                }
+                else {
+                    $parsed = $1 * 60 * 60 + $2 * 60;
+                }
             }
             else {
                 warn("Unable to parse timestamp '$timestamptxt'");
@@ -140,16 +148,15 @@ sub parse_inline_timestamp {
 
             # Apollo 13
             ( $valid = $parsed )
-              if $parsed > 485900
-                  && $parsed < 514000
-                  && !defined $inline_timestamp_format;
+              if $parsed && $parsed > 485900 && $parsed < 514000;
 
         }
     }
-
-    my $percent_change = 100 * abs( $logtimestamp - $parsed ) / $logtimestamp;
-
-    $valid = $parsed if $percent_change < 25 || $parsed > $logtimestamp;
+    if ( $parsed && !$valid ) {
+        my $percent_change =
+          100 * abs( $logtimestamp - $parsed ) / $logtimestamp;
+        $valid = $parsed if $percent_change < 25;
+    }
 
     return $parsed if $invalid_inline_timestamps && !$valid;
     return $valid if $inline_timestamps;
@@ -350,6 +357,7 @@ sub process {
     close(FILE);
     if ($output_dir) {
         $file =~ m#([^/]+)$#;
+        mkdir( $output_dir, 0755 );
         my $outfile = "$output_dir/$1";
         open( OUTFILE, ">$outfile" )
           || die "Unable to write $outfile: $!";
