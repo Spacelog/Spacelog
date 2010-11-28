@@ -11,10 +11,10 @@
 
 <blockquote>
     {% if quote %}
-        <p>{{ quote.lines.0.1 }}</p>
+        <div class=quotebody><p>{{ quote.lines.0.1 }}</p></div>
         <div class=quotenav>
             <a href="{% selection_url quote.timestamp %}"><img src="/assets/img/base/transcript-icon.png">Read this moment</a>
-            <!--<a href="">See another</a>-->
+            <a href='{% url homepage %}'><img src="/assets/img/base/refresh-icon.png">See another</a>
         </div>
     {% endif %}
 </blockquote>

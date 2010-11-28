@@ -15,7 +15,6 @@
 }
 
 #content.homepage h1 {
-    outline:                1px solid red;
     font-size:              3em;
     line-height:            .9em;
     margin-bottom:          4px;
@@ -43,7 +42,6 @@
 
 /*! verbatim */
 #content.homepage blockquote {
-    outline:                1px solid red;
     margin-left:            160px;
     margin-bottom:          10px;
     height:                 211px;
@@ -62,16 +60,18 @@
     content:                "”";
 }
 
+#content.homepage blockquote div.quotebody {
+    height:                 175px;
+    vertical-align:         middle;
+}
+
 #content.homepage blockquote p {
     font-family:            'Georgia',
                             serif;
     font-size:              2em;
-    margin-bottom:          1em;
 }
 
-#content.homepage blockquote div#quotenav {
-    margin-bottom:          10px;
-    vertical-align:         bottom;
+#content.homepage blockquote div.quotenav {
     text-align:             center;
 }
 /*! verbatim */
