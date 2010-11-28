@@ -9,6 +9,9 @@
 #content.with-highlight #transcript .highlighted dt.time a {
     color:                  #00abd7;
 }
+#content.with-highlight dd a {
+    color:                  black;
+}
 
 #content.with-highlight #transcript dd {
     border-bottom:          1px solid #858585;
