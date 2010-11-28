@@ -8,14 +8,19 @@
   <h1>Phases</h1>
 
   {% for act in acts %}
-    <h2>Phase {{ act.number }}: {{ act.title }}</h2>
-    <p>{{ act.start|mission_time_format }} to {{ act.end|mission_time_format }}</p>
+    <h2>{{ act.title }}</h2>
+    <a href="{% timestamp_to_url act.start %}">Start reading</a>
+
+    {% if act.illustration %}
+      <img src='/assets/missions/{{ mission.name }}/images/illustration/{{ act.illustration }}' alt='' />
+    {% endif %}
+
     <p>{{ act.description }}</p>
-    <p><a href="{% timestamp_to_url act.start %}">Read the transcript…</a></p>
 
     <h3>Activity</h3>
     {% if act.has_stats %}
       <div class='stats'>
+        <p>{{ act.start|mission_time_format }} to {{ act.end|mission_time_format }}</p>
         {{ act.stats_image_map|safe }}
         <img src='/assets/missions/{{ mission.name }}/images/stats/graph_{{ mission.name }}_{{ act.number }}.png' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
       </div>
