@@ -372,7 +372,7 @@ class Character(object):
         self.short_name           = data.get('short_name', self.identifier)
         self.role                 = data.get('role', 'other')
         self.mission_position     = data.get('mission_position', '')
-        self.avatar               = data.get('avatar', '/assets/img/blank_avatar_48.png')
+        self.avatar               = data.get('avatar', 'blank_avatar_48.png')
         self.bio                  = data.get('bio', None)
         self.photo                = data.get('photo', None)
         self.photo_width          = data.get('photo_width', None)
