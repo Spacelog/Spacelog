@@ -26,4 +26,22 @@ class HomepageView(TemplateView):
             "acts": acts,
             "quote": quote,
         }
+        
+class AboutView(TemplateView):
+    template_name = 'homepage/about.html'
 
+    def get_context_data(self):
+        return {
+            "cleaners": [
+                "Ryan Alexander",
+                "James Aylett",
+                "George Brocklehurst",
+                "David Brownlee",
+                "Ben Firshman",
+                "Mark Norman Francis",
+                "Russ Garrett",
+                "Andrew Godwin",
+                "Steve Marshall",
+                "Matt Ogle",
+            ],
+        }

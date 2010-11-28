@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% load missiontime %}
+
+{% block title %}About this site{% endblock %}
+{% block content-class %}about{% endblock %}
+{% block content %}
+  <h1>Based on the original transcript</h1>
+  <div id='coverpage'>
+    <img src='/assets/missions/a13/images/original/TEC/1.png'>
+    <a href='/original/1/'>View this page in the original transcript</a>
+  </div>
+
+  <p>
+When Apollo 13 launched from Kennedy Space Centre in Florida on Saturday 11th April 1970, no one involved could have anticipated that, far from a smooth third Moon landing, the journey would revolve around an explosion in the Service Module, which turned the mission into one of the most famous of not only the Apollo program but of human space exploration in the 20th century.
+</p>
+<p>
+This site allows you to explore transcripts of radio communications between the Apollo 13 crew and the NASA personnel back at Houston, along with photographs taken both from the ground and by the crew in space, as well as other information about the mission, the problems that occurred, and the measures that were taken, both on ground and in the Command and Lunar Modules that made up the crew areas of Apollo 13.
+  </p>
+  
+  <h2>How the site works</h2>
+  <p>
+The main textual content of this site comes from a transcript of radio communications between the crew and mission control; there are some limitations which stem from the original recordings.
+</p>
+
+<p>
+Each line starts with a timestamp, in Ground Elapsed Time, which is the time (in days, hours, minutes and seconds) since ignition; photographs are shown inline at a suitable place. You can navigate through the transcript using the <a href='/phases/'>phases</a> of the mission, and key scenes within them, or search for <a href='/search/?q=reentry'>things that might interest you</a> using the box at the top of the page. While browsing through the transcript, there are also links that take you to the same place in the original typescript.
+</p>
+
+<h3>Call signs</h3>
+
+<p>When only the CSM (Command and Service Module pairing) is manned, its call sign is Apollo 13. When both the Control and Lunar Modules are manned, the CM's call sign is Odyssey, and the LM's call sign is Aquarius. The call sign for <a href='/people/#capcom'>CAPCOM</a> is Houston.</p>
+
+  <h2>You can help</h2>
+  <p>
+This site can be improved, and you can help &mdash; whether by correcting remaining errors (although we hope there aren't many left), by adding more photos, or marking further glossary items. We would also be keen to talk to people about cleaning and converting transcripts and other information from other space missions, particularly for the early NASA missions in the Mercury, Gemini and Apollo programs, where <a href='#TODO'>transcripts are already available</a>.</p>
+<p>All our code, and the transcript files, is available on <a href='http://github.com/devfort/artemis/'>github</a>, where there is information on how to contribute changes and new missions. (If you're up to it, you can also fork the repository, and issue a pull request to us when you're done.)</p>
+  <p><a href='http://github.com/devfort/artemis/'>Find out how</a></p>
+  
+  <div id='how-this-was-made'>
+    <div id='team'>
+      <h2>The Team</h2>
+      <h3>Product</h3><!-- Chiefs of the Astronaut Office -->
+      <ul>
+        <li><a href='http://russ.garrett.co.uk'>Russ Garrett</a></li><li><a href='http://mattogle.com/'>Matt Ogle</a></li>
+      </ul>
+      <h3>Design</h3><!-- Flight crew -->
+      <ul>
+        <li><a href='http://www.hannahdonovan.com/'>Hannah Donovan</a></li><li><a href='http://www.chrisgovias.com/'>Chris Govias</a></li><li><a href='http://uk.linkedin.com/in/gavinocarroll'>Gavin O'Carroll</a></li>
+      </ul>
+      <h3>Development</h3>
+      <ul>
+        <li><a href='http://rnalexander.wordpress.com/'>Ryan Alexander</a></li><!-- FLIGHT
+         --><li><a href='http://tartarus.org/james/'>James Aylett</a></li><!-- CAPCOM
+         --><li><a href='http://georgebrock.com/'>George Brocklehurst</a></li><!-- Engineering
+         --><li><a href='http://www.absd.org/'>David Brownlee</a></li><!-- Guidance
+         --><li><a href='http://benfirshman.com/'>Ben Firshman</a></li><!-- FLIGHT
+         --><li><a href='#TODO'>Mark Norman Francis</a></li><!-- Mission Director
+         --><li><a href='http://www.aeracode.org/'>Andrew Godwin</a></li><!-- Engineering
+          --><li><a href='http://nascentguruism.com/'>Steve Marshall</a></li><!-- FLIGHT -->
+      </ul>
+      <h3>Data cleanup</h3>
+      <ul><!-- FIXME: for MA6 it's just Russ & David -->
+        {% for leon in cleaners %}
+          <li>{{ leon }}</li>
+        {% endfor %}
+      </ul>
+      <p>A <a href='http://devfort.com/'>/dev/fort</a> production; our work is available under the <a href='#TODO'>CC-0</a> license.</p>
+    </div>
+    <div id='colophon'>
+      <h2>Colophon</h2>
+      <h3>Typface</h3>
+      <p><a href='#TODO'>League Gothic</a></p>
+      <h3>Icons</h3>
+      <p>Joseph Wain of <a href='http://glyphish.com/'>glyphish.com</a></p>
+      <h3>Images</h3>
+      <ul>
+        <li><a href='#TODO'>Earth rising</a> by <a href='#TODO'>NASA's Marshall Space Flight Centre</a> CC [check attrib]</li>
+        <li><a href='#TODO'>Moon rising</a> by <a href='#TODO'>NASA's Marshall Space Flight Centre</a> CC [check attrib]</li>
+        <li><a href='#TODO'>Satellite</a> by <a href='#TODO'>NASA's Marshall Space Flight Centre</a> CC [check attrib]</li>
+        <li><a href='#TODO'>Launch</a> by <a href='#TODO'>NASA's Images</a> CC [check attrib]</li>
+        <li><a href='#TODO'>Under the Moon</a> by <a href='#TODO'>NASA's Images</a> CC [check attrib]</li>
+        <li><a href='#TODO'>Parachute landing</a> by <a href='#TODO'>NASA's Images</a> CC [check attrib]</li>
+        <li><a href='#TODO'>Earth from space</a> by <a href='#TODO'>NASA's Images</a> CC [check attrib]</li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}
