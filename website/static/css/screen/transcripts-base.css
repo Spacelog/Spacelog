@@ -140,7 +140,7 @@
     font-family:            "League Gothic";
     text-transform:         uppercase;
     line-height:            28px;
-    z-index:                3;
+    z-index:                4;
     overflow:               hidden;
 }
 #phases nav {
