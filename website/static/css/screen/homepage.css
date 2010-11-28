@@ -78,7 +78,7 @@
     position:               absolute;
     left:                   -999em;
 }
-#homepage-quote a {
+#homepage-quote i a {
     -cp-border-radius:      5px;
     padding:                7px 10px 7px 30px;
     margin:                 0 10px;
@@ -122,17 +122,17 @@
 #content.homepage li {
     text-shadow:            1px 1px 2px #000;
 }
-#homepage-quote a {
+#homepage-quote i a {
     text-shadow:            1px 1px 1px rgba( 0, 0, 0, 0.3 );
     border-top:             1px solid rgba( 0, 171, 215, 0.2 );
 }
-#homepage-quote a.transcript {
+#homepage-quote i a.transcript {
     background:             rgba( 0, 48, 61, 0.5 )
                             url(/assets/img/base/transcript-icon.png)
                             no-repeat
                             10px center;
 }
-#homepage-quote a.refresh {
+#homepage-quote i a.refresh {
     background:             rgba( 0, 48, 61, 0.5 )
                             url(/assets/img/base/refresh-icon.png)
                             no-repeat
