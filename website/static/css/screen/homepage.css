@@ -15,7 +15,8 @@
 }
 
 #content.homepage h1 {
-    font-size:                 4em;
+    outline:                   1px solid red;
+    font-size:                 3em;
     line-height:               .9em;
     margin-bottom:             4px;
     float:                     left;
@@ -44,17 +45,23 @@
 
 /*! verbatim */
 #content.homepage blockquote {
+    outline:                1px solid red;
     margin-left:            160px;
     margin-bottom:          10px;
-    height:                 280px;
+    height:                 211px;
     width:                  700px;
     background-color:       rgba(0,0,0,0.4);
     text-align:             center;
 }
 /* -- */
 
-#content.homepage blockquote p:before, #content.homepage blockquote p:after {
-    content:                '"';
+
+#content.homepage blockquote p:before, {
+    content:                "“";
+}
+
+#content.homepage blockquote p:after, {
+    content:                "”";
 }
 
 #content.homepage blockquote p {
@@ -62,11 +69,11 @@
                             serif;
     font-size:              2em;
     margin-bottom:          1em;
-    padding:                50px 20px 0 20px;
 }
 
 #content.homepage blockquote div#quotenav {
-    margin-bottom:          40px;
+    margin-bottom:          10px;
+    vertical-align:         bottom;
     text-align:             center;
 }
 /*! verbatim */
@@ -76,13 +83,16 @@
     background-color:       rgba(0,0,128,0.4);   
     padding:                5px;
     font-weight:            bold;
-    vertical-align:         bottom;
     margin:                 10px;
     -webkit-border-radius:      4px;
     -moz-border-radius:         4px;
     border-radius:              4px;
 }
 /* -- */
+
+#content.homepage blockquote a img {
+    margin-right:            10px;
+}
 
 #content.homepage dl {
     float:                  left;
