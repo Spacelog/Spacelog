@@ -6,18 +6,24 @@
 {% block title %}We are go{% endblock %}
 {% block content-class %}homepage{% endblock %}
 {% block content-extra %}style="background-image:url(/assets/missions/{{ mission.name }}/images/homepage/background.jpg);"{% endblock %}
+
 {% block content %}
+<div class='crest'>
 <h1>{{ mission.upper_title }} <em>{{ mission.lower_title }}</em></h1>
 
-<blockquote>
-    {% if quote %}
-        <div class=quotebody><p>{{ quote.lines.0.1 }}</p></div>
-        <div class=quotenav>
-            <a href="{% selection_url quote.timestamp %}"><img src="/assets/img/base/transcript-icon.png">Read this moment</a>
-            <a href='{% url homepage %}'><img src="/assets/img/base/refresh-icon.png">See another</a>
-        </div>
-    {% endif %}
-</blockquote>
+{% if quote %}
+<div id='homepage-quote'>
+  <blockquote>
+    <p>{{ quote.lines.0.1 }}</p>
+  </blockquote>
+  <i>
+  <cite><a class='transcript' href="{% selection_url quote.timestamp %}">Read this moment</a></cite>
+  <span> or </span>
+  <a class='refresh' href='{% url homepage %}'>See another</a>
+  </i>
+</div>
+{% endif %}
+</div>
 
 <h2>Jump into the story</h2>
 <ol>

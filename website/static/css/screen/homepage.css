@@ -1,3 +1,5 @@
+/* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*- */
+
 #content.homepage {
     background-color:       black;
     background-position:    top center;
@@ -18,9 +20,10 @@
     font-size:              3em;
     line-height:            .9em;
     margin-bottom:          4px;
+    margin-right:           20px;
     float:                  left;
     text-align:             center;
-    width:                  140px; 
+    width:                  140px;
 }
 
 #content.homepage h1 em {
@@ -32,63 +35,62 @@
 }
 
 #content.homepage h2 {
+    clear:                  both;
+    margin-left:            80px;
     font-size:              2em;
     line-height:            .9em;
     width:                  10px;
-    height:                 400px;
-    margin-right:           150px;
+    margin-right:           70px;
     float:                  left;
 }
 
-/*! verbatim */
-#content.homepage blockquote {
-    margin-left:            160px;
-    margin-bottom:          10px;
-    height:                 211px;
-    width:                  700px;
-    background-color:       rgba(0,0,0,0.4);
-    text-align:             center;
+#content.homepage .crest {
+    -cp-contain:            easy;
+    margin-bottom:          20px;
 }
-/* -- */
 
-
-#content.homepage blockquote p:before, {
+#homepage-quote {
+    float:                  left;
+    width:                  660px;
+    padding:                30px 20px 0;
+}
+#homepage-quote blockquote {
+    min-height:             110px;
+    font-family:            "Georgia",
+                            serif;
+    font-size:              2em;
+    text-align:             center;
+    padding-bottom:         30px;
+}
+#homepage-quote p:before, {
     content:                "“";
 }
 
-#content.homepage blockquote p:after, {
+#homepage-quote p:after, {
     content:                "”";
 }
-
-#content.homepage blockquote div.quotebody {
-    height:                 175px;
-    vertical-align:         middle;
-}
-
-#content.homepage blockquote p {
-    font-family:            'Georgia',
-                            serif;
-    font-size:              2em;
-}
-
-#content.homepage blockquote div.quotenav {
+#homepage-quote i {
+    display:                block;
     text-align:             center;
+    padding:                10px 0;
 }
-/*! verbatim */
-#content.homepage blockquote a {
-    font-family:            sans-serif;
-    color:                  #009BC1;
-    background-color:       rgba(0,0,128,0.4);   
-    padding:                5px;
+#homepage-quote span {
+    position:               absolute;
+    left:                   -999em;
+}
+#homepage-quote a {
+    padding:                7px 10px 7px 30px;
+    margin:                 0 10px;
+    font-size:              12px;
+    line-height:            1.5;
     font-weight:            bold;
-    margin:                 10px;
-    -webkit-border-radius:  4px;
-    -moz-border-radius:     4px;
-    border-radius:          4px;
 }
 
-#content.homepage blockquote a img {
-    margin-right:            10px;
+#content.homepage ol {
+    overflow:               auto;       // TODO: fix to easyclearing
+    float:                  right;
+    width:                  720px;
+    margin-right:           60px;
 }
 
 #content.homepage li {
@@ -98,18 +100,43 @@
                             'Helvetica Neue Condensed',
                             'Arial',
                             sans-serif;
-    font-size:              1.5em;                            
+    font-size:              1.5em;
     font-weight:            bold;
     margin-right:           20px;
     margin-bottom:          20px;
     text-transform:         uppercase;
     text-align:             center;
-    text-shadow:            1px 1px 2px #000;
 }
-/* -- */
 
 #content.homepage li a,
 #content.homepage li img {
     display:                block;
     margin-bottom:          5px;
 }
+
+/*! verbatim */
+#homepage-quote {
+    background-color:       rgba( 0, 0, 0, 0.3 );
+}
+#content.homepage blockquote,
+#content.homepage li {
+    text-shadow:            1px 1px 2px #000;
+}
+#homepage-quote a {
+    -webkit-border-radius:  5px;
+    -moz-border-radius:     5px;
+    border-top:             1px solid rgba( 0, 171, 215, 0.2 );
+}
+#homepage-quote a.transcript {
+    background:             rgba( 0, 48, 61, 0.5 )
+                            url(/assets/img/base/transcript-icon.png)
+                            no-repeat
+                            10px center;
+}
+#homepage-quote a.refresh {
+    background:             rgba( 0, 48, 61, 0.5 )
+                            url(/assets/img/base/refresh-icon.png)
+                            no-repeat
+                            10px center;
+}
+/* -- */
