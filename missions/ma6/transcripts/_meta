@@ -63,7 +63,8 @@
     ],
     "characters": {
         "CC": {
-            "role": "mission-ops-title",
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
             "name": "Capsule Communicator",
             "short_name": "CAPCOM",
             "bio": "In the Mercury missions, CAPCOM was the main person to communicate with the pilot. On Mercury-Atlas 6, there were CAPCOMs operating from different stations around the world, enabling Glenn to remain in contact with the Earth through his orbits.",
@@ -73,7 +74,8 @@
             "avatar": "capcom_generic.jpg"
         },
         "F": {
-            "role": "mission-ops-title",
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
             "name": "Flight Director",
             "short_name": "Flight",
             "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. They rarely talked directly to the capsule pilot, usually communicating through CAPCOM.",
@@ -87,24 +89,11 @@
           "name": "John Herschel Glenn, Jr.",
           "short_name": "John Glenn",
           "bio": "A highly decorated USMC combat pilot with test flight experience including the first supersonic transcontinental flight, John Glenn was chosen to be the third American in space, and first to reach Earth orbit, from NASA's initial intake of seven astronauts in 1959. Following the assassination of President John F. Kennedy, he resigned from NASA to run for political office, returning to space age 77 onboard the Space Shuttle in 1998, becoming the oldest person to go to space.",
-          "photo": "",
+          "photo": "john_glenn.png",
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "john_glenn.jpg",
-          "stats": [
-            {
-                "value": 218,
-                "text": "hours in space"
-            },
-            {
-                "value": 2,
-                "text": "missions"
-            },
-            {
-                "value": 40,
-                "text": "age at launch"
-            }
-          ]
+          "quotable_log_line_id": "TEC:00:01:14:19"
         },
         "CT": {
           "role": "other",
