@@ -107,10 +107,11 @@
 #transcript dd em {
     color:                  #e4362d;
     position:               absolute;
-    right:                  -36px;
+    right:                  -16px;
     font-size:              20px;
     line-height:            1;
     padding-right:          60px;
+    top:                    0.8em;
     width:                  116px;
     z-index:                2;
     text-transform:         uppercase;
