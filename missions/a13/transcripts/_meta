@@ -162,6 +162,18 @@
         "02:09:24:12",
         "02:23:06:34"
     ],
+    "character_ordering": [
+        "CC",
+        "F",
+        "CHARLIE_DUKE",
+        "KEN_MATTINGLY",
+        "VANCE_BRAND",
+        "JACK_LOUSMA",
+        "JOE_KERWIN",
+        "TOM_STAFFORD",
+        "DEKE_SLAYTON",
+        "GENE_KRANZ"
+    ],
     "characters": {
         "CC": {
             "role": "mission-ops-title",

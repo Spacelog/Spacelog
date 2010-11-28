@@ -1,25 +1,29 @@
 from django.http import Http404
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-import redis
 from backend.api import Character
 
 def people(request, role=None):
     
     character_query = Character.Query(request.redis_conn, request.mission.name)
+    character_ordering = list(request.redis_conn.lrange("character-ordering:%s" % request.mission.name, 0, -1))
+    sort_characters = lambda l: sorted(
+        list(l),
+        key=lambda x: character_ordering.index(x.identifier) if x.identifier in character_ordering else 100
+    )
 
     if role:
         people = [
             {
                 'name': role,
-                'members': list(character_query.role(role)),
+                'members': sort_characters(character_query.role(role)),
             }
         ]
         more_people = False
     else:
-        all_people = list(character_query)
+        all_people = sort_characters(character_query)
         astronauts = list(character_query.role('astronaut'))
-        ops = list(character_query.role('mission-ops-title'))
+        ops = sort_characters(character_query.role('mission-ops-title'))
         people = [
             {
                 'name': 'Flight Crew',

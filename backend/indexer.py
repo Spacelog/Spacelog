@@ -341,6 +341,11 @@ class MetaIndexer(object):
 
     def index_characters(self, meta):
         "Stores character information in redis"
+        for identifier in meta.get("character_ordering", []):
+            self.redis_conn.rpush(
+                "character-ordering:%s" % self.mission_name,
+                identifier,
+            )
         for identifier, data in meta['characters'].items():
             mission_key   = "characters:%s" % self.mission_name
             character_key = "%s:%s" % (mission_key, identifier)
