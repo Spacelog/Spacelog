@@ -341,7 +341,7 @@ CDR: Go ahead, Houston.
 [00:00:21:44]
 CC:  Okay. Couple minutes to LOS, Jim. Everything
      is looking real good. Your AOS time at Carnarvon
-     will be 52:36, and we don't have too much of a
+     will be [time:00:00:52:36 52:36], and we don't have too much of a
      handle on why the inboard cut off early except
      that it apparently was an engine problem and not
      a switch-select function. But we are certain
@@ -552,7 +552,7 @@ CDR: Okay. Go ahead with the TLI pad, Joe.
 
 [00:01:32:41]
 CC:  Okay. This is the TLI plus 90 pad. SPS/G&N,
-     63825, minus 1.54, plus 1.32, 004:06:45.53,
+     63825, minus 1.54, plus 1.32, [time:00:04:06:45 004:06:45.53],
      minus 0491.7, plus 0000.1, plus 6634.0, 180,
      228, 001; HA is N/A; HP is plus 0017.9; 6652.2,
      7:37, 6626.5, 26, 155.4, 15.7. Boresight star
@@ -578,7 +578,7 @@ CDR: Yes, I think you'd better.
 [00:01:34:56]
 _extra : MILA(REV2)
 CC:  Okay. TLI plus 90: SPS/G&N, 63825, minus 1.54,
-     plus 1.32, 004:06:45.53, minus 0491.7,
+     plus 1.32, [time:00:04:06:45 004:06:45.53], minus 0491.7,
      plus 0000.1 , plus 6634.0, 180, 228, 001; N/A;
      plus 0017.9, 6652.2, 7:37, 6626.5, 26, 155.4,
      15.7; Zeta Sagittarius; up, 08.0; right 2.1;
@@ -588,7 +588,7 @@ CC:  Okay. TLI plus 90: SPS/G&N, 63825, minus 1.54,
 
 [00:01:36:47]
 LMP: Okay, Joe. That's 63825, minus 1.54, plus 1.32,
-     004:06:45.53 - -
+     [time:00:04:06:45 004:06:45.53] - -
 
 [00:01:37:02]
 CC:  Fred, Houston. Stand by 1.
@@ -1218,6 +1218,75 @@ CC:  Fred, Houston. We'd like to try going to
 LMP: Okay. You've got AVERAGE, and a little yellow
      dust cap just floated by in front of us.
 
+[00:03:18:36]
+_page : 27
+_tape : Tape 3/3
+CC:  Yes. We see it at the top of the screen.
+
+[00:03:18:41]
+CC:  Fred, after a few minutes of this, at your convenience, we could use some interior shots if you
+     get the time and if the lighting is good.
+
+[00:03:18:51]
+LMP: Okay.
+
+[00:03:18:52]
+CC:  And, 13, Houston. The S-IVB vent times are nominal as in the flight plan within a few seconds.
+
+[00:03:19:18]
+CDR: We're hard docked, Houston.
+
+[00:03:19:21]
+CC:  Roger. Understand. Good deal. Fred, one more
+     thing on the TV. If you could come to f:22
+     again - -
+
+[00:03:19:32]
+LMP: Okay. You've got f:22 again.
+
+[00:03:20:22]
+CDR: And, Houston, Fred will handle the camera as we
+     go through the postdocking checklist.
+
+[00:03:20:26]
+CC:  Okay, Jim. Real good.
+
+[00:03:21:38]
+LMP: Okay, Joe. I am pointing it over toward Jack,
+     and it's pretty bright with the Earth out that
+     window. Is that sort of washing out the picture
+     here?
+
+[00:03:21:49]
+CC:  No, Fred, it's not. We've got a bright spot
+     where the window is. The rest of you are semi-silhouetted. It's a pretty impressive picture.
+
+[00:03:22:36]
+CC:  Apollo 13, Houston.
+
+[00:03:22:38]
+CDR: Go ahead, Joe.
+
+[00:03:22:40]
+CC:  For Fred. The IOS [?] has caught you with the
+     fuel cell reactant values in latch again.
+
+[00:03:22:52]
+LMP: Touché.
+
+[00:03:22:54]
+CC:  And we have word that the propellant usage for
+     T&D was nominal.
+
+[00:03:23:01]
+CMP: Okay, what is nominal, please?
+
+[00:03:23:02]
+CC:  Well, I didn't ask that yet, Jack; stand by one.
+
+[00:03:23:07]
+CMP: Okay (laughter).
+
 [00:03:24:20]
 _page : 28
 _tape : Tape 3/4
@@ -1492,7 +1561,7 @@ CC:  Okay, 13; Houston. Correction on that. You're
      We don't want it early.
 
 [00:03:58:27]
-CDR: Okay, Joe. We'll do it at 04:01:00.
+CDR: Okay, Joe. We'll do it at [time:00:04:01:00 04:01:00].
 
 [00:03:58:29]
 CC:  Roger.
@@ -3068,7 +3137,7 @@ CDR: Go ahead, Houston.
 
 [00:11:30:40]
 CC:  A couple of items, Jim. The first is, the time
-     for closing the waste stowage vent is 12:24. If
+     for closing the waste stowage vent is [time:00:12:24:00 12:24]. If
      you turn in before that time, why it's okay as far
      as we're concerned down here to close it before
      that time just before you go to bed. The second
@@ -3322,7 +3391,7 @@ LMP: Go ahead.
 
 [00:12:12:30]
 CC:  Okay. In answer to the battery-charging questions,
-     I calculate it should be fully charged at 12:35.
+     I calculate it should be fully charged at [time:00:12:35:00 12:35].
      Play that one, though, the same as the waste vent.
      If you want to do it earlier because you're turning
      in, why that's fine with us.
@@ -4237,7 +4306,7 @@ CC:  Go ahead, Jim.
 
 [01:01:20:19]
 CDR: I - I think we answer to number 9. We - at
-     around 5:32, I think, was when we think the
+     around [time:00:00:05:32 5:32], I think, was when we think the
      number 5 light came on in the S-II, and a
      definite vibration which was more than just a
      high-frequency vibration we got with the normal
@@ -4572,7 +4641,7 @@ LMP: Okay, Joe. You can go ahead with the P30 pad.
 
 [01:04:49:11]
 CC:  Okay. Here we go. MCC-2, SPS/G&N: 63634;
-     plus 0.96, minus 0.23; 030:40:49.00; minus 0021.7,
+     plus 0.96, minus 0.23; [time:01:06:40:49 030:40:49.00]; minus 0021.7,
      minus 0001.7, minus 0008.0; 080, 164, 326; N/A,
      N/A; 0023.2, 0:03.5 - We'll give you half a
      second on the burn time because it's so short -
@@ -4583,7 +4652,7 @@ CC:  Okay. Here we go. MCC-2, SPS/G&N: 63634;
 
 [01:04:51:02]
 LMP: Okay. MCC-2, SPS/G&N: 63634; plus 0.96,
-     minus 0.23, 030:40:49.00; minus 0021.7,
+     minus 0.23, [time:01:06:40:49 030:40:49.00]; minus 0021.7,
      minus 0001.7, minus 0008.0; 080, 164, 326; N/A,
      N/A; 0023.2, burn time 0:03.5, 0018.5; 44, 135.9,
      28.1; and the rest N/A. Set stars 31, 23; roll
@@ -5982,7 +6051,7 @@ LMP: Is that it, Vance?
 CC:  And that's all.
 
 [01:07:11:19]
-LMP: Okay. The time is - The event will be at 32:00;
+LMP: Okay. The time is - The event will be at [time:01:08:00:00 32:00];
      and we're to maneuver to the following attitude;
      roll 101.0, pitch 090.0, yaw all zips. High
      gain angles will be pitch minus 23, yaw 93. And
@@ -7144,7 +7213,7 @@ CMP: Go ahead, Vance.
 
 [01:09:53:57]
 CC:  Okay, maneuver pad, purpose: fly-by, SPS/G&N;
-     63385; plus 0.97, minus 0.23; 072:24:33.08;
+     63385; plus 0.97, minus 0.23; [time:03:00:24:33 072:24:33.08];
      plus 0212.7, minus 0141.7, minus 0254.8; 148,
      316, 050; NA, plus 0022.5; 0360.9, 0:53, 0356.3;
      33, 352.7, 15.0; NA, NA, NA. Starting with
@@ -7157,7 +7226,7 @@ CC:  Okay, maneuver pad, purpose: fly-by, SPS/G&N;
 
 [01:09:57:39]
 CDR: Our pad as follows: fly-by, SPS/G&N; 63385;
-     plus 0.97, minus 0.23; 072:24:33.08; plus 0212.7,
+     plus 0.97, minus 0.23; [time:03:00:24:33 072:24:33.08]; plus 0212.7,
      minus 0141.7, minus 0254.8; 148, 316, 050; NA,
      plus 0022.5; 0360.9, 0:53, 0356.3; 33, 352.7,
      15.0; NA, NA, NA; minus 23.26, minus 165.00;
@@ -7693,7 +7762,7 @@ CDR: Joe, we confirm. Our gage reading is - on the
      first looked at it this morning.
 
 [01:23:41:00]
-CC:  We verify that. At 46:115 we had 82 percent and
+CC:  We verify that. At [time:01:22:11:00 46:11]5 we had 82 percent and
      apparently when he stirred the, the cryos, the
      sensor broke.
 
@@ -7776,7 +7845,7 @@ CDR: Okay. Jack's still off COMM. We'll hold off
 [01:23:45:01]
 CC:  Okay; fine. I've got two updates for you, Jim.
      One is a procedure for looking for Comet Bennett
-     at about 49:45, and I'll wait till Jack gets up
+     at about [time:02:01:45:00 49:45], and I'll wait till Jack gets up
      before passing you the details on that. The
      other update is concerned with going into the
      LM 3 hours early, and I think Vance mentioned
@@ -7799,17 +7868,17 @@ CC:  Okay. I've got some details on the flight plan
      until later, which I'll - which I'll tell -
      which I'll tell - which I'll tell you in a
      minute. Okay. Then you - we want to move the
-     battery charge up 3 hours to about 52:30. And
+     battery charge up 3 hours to about [time:02:04:30:00 52:30]. And
      we want to move the - moving the LM tunnel vent
-     valve to LM/CM DELTA-P up B hours to 52:45, and
+     valve to LM/CM DELTA-P up B hours to [time:02:04:45:00 52:45], and
      at that point you can simply go to the 57-hour
      point in the flight plan and change your number
      from 57 hours to 54 hours and start through that.
-     In the remarks section at about 57:50 it says,
+     In the remarks section at about [time:02:09:50:00 57:50] it says,
      "0<sub>2</sub> fuel cell purge and waste water dump," here.
      If not performed earlier, we want you to do that
      at 54 hours and 50 minutes. The TV pass then,
-     will be at 55 hours to 55:30. You'll go right
+     will be at 55 hours to [time:02:07:30:00 55:30]. You'll go right
      through the LM Activation checklist stuff. I'm
      losing you; let's wait a minute.
 
@@ -7828,13 +7897,13 @@ CDR: We're back with you.
 [01:23:49:20]
 CC:  Okay. I've gone through the battery charge, the
      LM vent valve, the fuel cell purge, and then
-     stop PTC at 55 hours, and your roll attitude	# continued from previous page
+     stop PTC at 55 hours, and your roll attitude
      there will be 285 degrees, which is per the
      flight plan. The high gain antenna angles are
      slightly different, pitch 23 and yaw 267 degrees.
-     The TV pass till 55:30, the standard LM activation except for some special steps we'll give
+     The TV pass till [time:02:07:30:00 55:30], the standard LM activation except for some special steps we'll give
      you to take a look at SHe tank pressure, which
-     I don't have yet. Restart PTC at about 56:30
+     I don't have yet. Restart PTC at about [time:02:08:30:00 56:30]
      or whenever you're through with the LM activities, and after that, at your convenience,
      we'd like you to - to do the P52 option 3 that
      we cancelled at 54-1/2 hours. Over.
@@ -7843,7 +7912,7 @@ CC:  Okay. I've gone through the battery charge, the
 _page : 132
 _tape : Tape 31/4
 CDR: Okay. That last comment was that we'll do the
-     P52 after we start PTC at about 56:30.
+     P52 after we start PTC at about [time:02:08:30:00 56:30].
 
 [01:23:50:31]
 CC:  That's right. Any time after that; it's not
@@ -7851,16 +7920,16 @@ CC:  That's right. Any time after that; it's not
 
 [01:23:50:43]
 CDR: Okay. Let's see if I have some of this, Joe.
-     Around 52:30 we're to do the battery charge
+     Around [time:02:04:30:00 52:30] we're to do the battery charge
      on BAT - battery B.
 
 [01:23:50:52]
 CC:  That's correct.
 
 [01:23:50:54]
-CDR: And then about 52:40 we're going to do the LM
+CDR: And then about [time:02:04:40:00 52:40] we're going to do the LM
      tunnel vent valve, and the LM/CM DELTA-P which
-     has been written up at 55:40.
+     has been written up at [time:02:07:40:00 55:40].
 
 [01:23:51:04]
 CC:  That's correct.
@@ -7879,7 +7948,7 @@ CC:  That's correct. You can start at 57 in the
 
 [01:23:51:48]
 CDR: Okay. Then whenever we're finished with the LM,
-     which we anticipate around 56:30, we'll commence
+     which we anticipate around [time:02:08:30:00 56:30], we'll commence
      PTC and sometime after that we'll do a P52.
 
 [01:23:51:59]
@@ -7918,10 +7987,10 @@ CDR: And, Houston, Apollo 13. One thing I missed
 
 [01:23:53:53]
 CC:  Roger. We'd like the the 0<sub>2</sub> fuel cell purge
-     and waste water dump at 54:50.
+     and waste water dump at [time:02:06:50:00 54:50].
 
 [01:23:54:04]
-CDR: Roger. We'll pick up those items at 54:50.
+CDR: Roger. We'll pick up those items at [time:02:06:50:00 54:50].
 
 [01:23:54:30]
 CC:  Apollo 13, Houston.
@@ -8025,15 +8094,15 @@ CMP: Okay, Joe. I'm ready to copy the ... now.
 CC:  Okay, Jack. I'm going to read it to you, and
      then add some comments and we'll talk about it
      a little. This should occur sometime after
-     49:30. After the P52 realine at 49 hours, if
+     [time:02:01:30:00 49:30]. After the P52 realine at 49 hours, if
      time permits we would like the crew to investigate while in PTC if there is a roll angle in
-     which the comet can be observed for photos. If # continused from previous page
+     which the comet can be observed for photos. If
      there is, record the optimum roll angle for
      possible photography, prior to reinitiating PTC
-     at 56:30 or so, whenever the guys are done in
+     at [time:02:08:30:00 56:30] or so, whenever the guys are done in
      the LM, use P52 planet option, and the following
      half-unit vectors for tracking Comet Bennett at
-     about 49:46. Are you ready to copy half-unit
+     about [time:02:01:46:00 49:46]. Are you ready to copy half-unit
      vectors? Over.
 
 [02:00:01:05]
@@ -8082,7 +8151,7 @@ CMP: Okay, Joe. Let me give it back to you and see
      and if we do see it, make an observation of
      whether it is photographable, note the roll
      angle for photographs to be taken after or
-     prior to initiation of PTC at 56:30.
+     prior to initiation of PTC at [time:02:08:30:00 56:30].
 
 [02:00:03:58]
 _page : 136
@@ -8225,7 +8294,7 @@ CMP: Hey, Houston; 13.
 CC:  13, Houston. Go ahead.
 
 [02:01:42:44]
-CMP: Okay, Joe. I got into P52 about 49:34. We loaded
+CMP: Okay, Joe. I got into P52 about [time:02:01:34:00 49:34]. We loaded
      the planet - or Bennett Comet vectors into the
      planet option, and P52 tracked it all the way
      across except that it was always occulted by the
@@ -9277,7 +9346,7 @@ CMP: Okay. We're back on CSM power. The time was
      54 hours 58 minutes 50 seconds.
 
 [02:06:59:10]
-CC:  Roger, Jack. 54:58:50. Thank you.
+CC:  Roger, Jack. [time:02:06:58:50 54:58:50]. Thank you.
 
 [02:06:59:26]
 CMP: Okay, Houston, we'll try to pick you up on the
@@ -9489,6 +9558,64 @@ LMP: And one of the nice things, Jack, particularly
 LMP: The second backpack is mounted down on the LM
      floor, I hope, positioned right between the two
      of us. I have my hand on it at this time.
+
+[02:07:19:41]
+_page : 160
+_tape : Tape 36/6
+CC:  Roger, Fred. We see it. The picture's coming
+     through real good, and your description is good.
+     We see Jim's got the camera oriented the way wa
+     like to look at it. So, keep talking.
+
+[02:07:20:05]
+LMP: Okay. I guess everybody has pretty much
+     envisioned the space program as being all a lot
+     of exotic electronics, and, certainly, a lot of
+     it is. But I thought I'd bring out a couple of
+     items here in conjunction with the PLSS. After
+     the first EVA, you get a very accurate measurement of the amount of water that's left in the
+     PLSSs. We're going to make use of this bag I'm
+     showing now to collect the remaining water out
+     of the PLSS and see just how much we really did
+     have left, and hopefully, on future missions, to
+     be able to extend safely the allowable time on
+     these units even a little further. And, my
+     other hand, I have the mechanism by which we
+     determine just how much water we really have in
+     this bag. And I guess this - an apt description
+     for this device would be a fish scale. And you
+     can see I'm weighing myself right now, and it
+     says I weigh actually less than zero right now.
+     Guess its calibration isn't too good.
+
+[02:07:21:22]
+CC:  That'll be the day.
+
+[02:07:21:29]
+LMP: I think even you'd weigh zero here, Jack.
+
+[02:07:21:38]
+CC:  Touché.
+
+[02:07:22:14]
+CDR: Houston, this is Jim. Since Fred's been in the
+     lunar module, and since he's the lunar module
+     pilot, this is the first time that he's felt
+     that he's been right-side up.
+
+[02:07:22:34]
+CC:  Roger, Jim.
+
+[02:07:22:37]
+CDR: I might tell you that we're looking at right
+     now, that round bag that's just behind Fred holds
+     our vacuum hose; and when we get back inside the
+     LM we'll hook the vacuum off our suits, and it's
+     resting or it's attached to the hatch which
+     will - we will open to go on to the lunar surface, and, of course, to come back in. The
+     hatch which we have come to now is a round hatch,
+     which is our docking hatch between the - between
+     Odyssey and Aquarius.
 
 [02:07:23:11]
 _page : 161
@@ -11441,7 +11568,7 @@ CMP: Three -
 _page : 191
 _tape : Tape 39/12
 CMP: Get the GET; we need the GET. What is it? What's
-     that? 58? 58:07?
+     that? 58? [time:02:10:07:00 58:07]?
 
 [02:10:08:15]
 CMP: 58 what?
@@ -12430,7 +12557,7 @@ LMP: Okay. Go ahead.
 
 [02:11:01:57]
 CC:  Okay. The purpose is a pericynthion plus 2 hours
-     DPS abort. NOUN 33: 079:25:26.48; plus 1633.0,
+     DPS abort. NOUN 33: [time:03:07:25:26 079:25:26.48]; plus 1633.0,
      minus 0014.5, minus 0751.5; apogee not applicable,
      perigee is plus 0020.5; 1797.7, 8:35, 268, 264,
      plus 16410, minus 00145, minus 07338. COAS is
@@ -12464,7 +12591,7 @@ CC:  Yes, that's what I mean. Sorry.
 
 [02:11:03:58]
 LMP: Pericynthion plus 2 - Okay, DPS pericynthion
-     plus 2, at 079:25:026.48; plus 1633.0,
+     plus 2, at [time:03:07:25:26 079:25:026.48]; plus 1633.0,
      minus 0014.5, minus 0751.5; HA N slash A, HP
      plus 0020.5; 1797.7, 8:35, 268, 264, plus 16410,
      minus 00145, minus 07338 - -
@@ -12623,7 +12750,7 @@ CDR: We're going to fill up command module water.
      We'll ...
 
 [02:11:09:09]
-LMP: Hell, do you need a QD *** Jim. No way to get
+LMP: Hell, do you need a QD ... Jim. No way to get
      ours in there. I don't think.
 
 [02:11:09:37]
@@ -13677,7 +13804,7 @@ CC:  Roger. I have a pad for you. I have a P30
 CDR: Roger. Stand by.
 
 [02:12:52:53]
-CDR: ... --
+CDR: ... - -
 
 [02:12:52:54]
 LMP: Go right ahead, Jack.
@@ -13692,7 +13819,7 @@ CDR: That's affirm.
 
 [02:12:53:09]
 CC:  Okay. Here we go. The purpose is midcourse
-     correction for free return. NOUN 33: 061:29:42.84;
+     correction for free return. NOUN 33: [time:02:13:29:42 061:29:42.84];
      minus 0021.3, plus 0004.1, minus 0031.2; HA and
      HP are NA; DELTA-V 0038.0; 031, 120, 298,
      minus 00213, plus 00041, minus 00312; COAS NA.
@@ -13702,7 +13829,7 @@ CC:  Okay. Here we go. The purpose is midcourse
      ullage will be two jets for 10 seconds.
 
 [02:12:54:57]
-LMP: Okay, Jack, we have a P30 maneuver pad, a midcourse for free return. NOUN 33: 061:29:42.84;
+LMP: Okay, Jack, we have a P30 maneuver pad, a midcourse for free return. NOUN 33: [time:02:13:29:42 061:29:42.84];
      minus 0021.3, plus 004.1, minus 0031.2; HA and
      HP N/A; DELTA-V<sub>R</sub> 0038.0; 031, 120, 298;
      minus 00213, plus 00041, minus 00312. COAS N/A;
@@ -14446,7 +14573,7 @@ CC:  Okay. We're suggesting that the LMP rest while
      76 hours. Around 70 - 76-1/2 to 77 hours, we'll
      do a P51 and a 52. At 78:30, we'll load P30 and
      aline AGS to PGNS. Our ignition time for a second
-     burn will be, presently, 79:25:26.5, and we'll
+     burn will be, presently, [time:03:07:25:26 79:25:26.5], and we'll
      have a pad for you shortly. We suggest that all
      of you eat after the burn. That'll be 81 to
      82 hours. Let the CMP and CDR eat while you are
@@ -14455,14 +14582,14 @@ CC:  Okay. We're suggesting that the LMP rest while
 
 [02:14:37:05]
 LMP: Okay, Jack. As I read that, the LMP is to go to
-     sleep at 63:00 for about 6 hours. During that
+     sleep at [time:02:15:00:00 63:00] for about 6 hours. During that
      period, the CDR and CMP should try to get a bite
      to eat. I'm to awake at 69 hours. CDR and CMP
      sleep at 70 hours, and they are to awake at
      76 hours. And we should plan on doing our P51,
-     P52 at 76 hours or 76:30. At 78:30, we're going
+     P52 at 76 hours or [time:03:04:30:00 76:30]. At 78:30, we're going
      to load a P30 and aline AGS to PGNS. Second
-     maneuver is to take place at 79:25:26.5 for
+     maneuver is to take place at [time:03:07:25:26 79:25:26.5] for
      ignition time. Then we're all to eat at 81 to
      82 hours.
 
@@ -16186,7 +16313,7 @@ CDR: Okay, we'll go to DOWN VOICE BACKUP and pull the
 
 [02:19:32:57]
 CC:  Okay, real fine, and we estimate the next yaw
-     maneuver should start at about 68:02. Over.
+     maneuver should start at about [time:02:20:02:00 68:02]. Over.
 
 [02:19:33:08]
 CDR: Okay. Could you give me that in minutes?
@@ -17786,7 +17913,7 @@ CDR: Okay.
 CDR: Okay. ... P22. What's our next time line?
 
 [03:01:22:50]
-LMP: ... about 73:30 ...
+LMP: ... about [time:03:01:30:00 73:30] ...
 
 [03:01:23:56]
 CDR: Did you get that or did he give it to you?
@@ -17886,7 +18013,7 @@ CDR: Okay, Houston; Aquarius. I'd just like to do the
 CC:  Jim, Roger. We just came up with a maneuver time
      of approximately 15 minutes, so if you start any
      time between now and about the next 2 minutes it
-     would get you into attitude by 73:15. Over.
+     would get you into attitude by [time:03:01:15:00 73:15]. Over.
 
 [03:01:32:06]
 CDR: Roger. We'll start the maneuver at this time.
@@ -18346,7 +18473,7 @@ LMP: That's negative, Vance. What is you clock reading right now?
 [03:01:58:14]
 _page : 297
 _tape : Tape 49/16
-CC:  Okay. When I give you a hack, it will be 73:59,
+CC:  Okay. When I give you a hack, it will be [time:03:01:59:00 73:59],
      and that's about 40 seconds away.
 
 [03:01:58:27]
@@ -18357,7 +18484,7 @@ LMP: Okay. I think we will make one last check there
 [03:01:58:36]
 CC:  Okay. And I 'm going to calculate in the 2 seconds
      in giving you the time hack coming up on
-     73:59:00 when I give the mark. Okay. Stand by.
+     [time:03:01:59:00 73:59:00] when I give the mark. Okay. Stand by.
 
 [03:01:58:59]
 CC:  MARK.
@@ -19083,7 +19210,7 @@ LMP: Okay, panel 11 configuration, top row: AC BUS B,
      HEATER, OPEN; LANDING RADAR HEATER, OPEN.
      Under STAB/CONTROL: ATTITUDE DIRECT breaker,
      CLOSED; ED: LOGIC POWER A, OPEN;
-     LIGHTING: UTILITY, OPEN. Under ECS: SUIT FAN 1,	# Cont from previous page
+     LIGHTING: UTILITY, OPEN. Under ECS: SUIT FAN 1,
      CLOSED; AUTO TRANSFER, CLOSED. Under COMM: VHF B
      TRANSMITTER, OPEN; VHF A RECEIVER, OPEN. Under
      PGNS: SIGNAL STRENGTH DISPLAY, OPEN; IMU
@@ -19608,7 +19735,7 @@ LMP: Okay. I'm ready to copy a P30, a PC plus 2.
 [03:03:28:49]
 CC:  Okay. Okay, this is a preliminary P30 LM
      maneuver PC plus 2. Starting NOUN 33:
-     079:27:40.07; plus 0819.2, minus 0020.0,
+     [time:03:07:27:40 079:27:40.07]; plus 0819.2, minus 0020.0,
      minus 0218.9; NA; plus 0020.9, 0848.2; 420,
      274, 082; plus 0820.3, minus 0020.0, minus 0215.0.
      Comments. Ullage is two jets for 10 seconds.
@@ -19618,7 +19745,7 @@ CC:  Okay. Okay, this is a preliminary P30 LM
      and the remainder at MAX. Over.
 
 [03:03:31:21]
-LMP: Okay. PC plus 2. 079:27:40.07; plus 0819.2,
+LMP: Okay. PC plus 2. [time:03:07:27:40 079:27:40.07]; plus 0819.2,
      minus 0020.0, minus 0218.9; NA; plus 0020.9,
      0848.2; 420, 274, 082; plus 0820.3, minus 0020.0,
      minus 0215.0; the rest N/A. Under remarks:
@@ -19670,11 +19797,11 @@ LMP: Okay, go ahead.
 CC:  Okay, at the top, purpose is monitor PC plus 2;
      everything is blank until you get down to
      NOUN 61. Latitude as follows: minus 21.47,
-     minus 165.00; 1166.0, 36291, 142:39:20. Over.
+     minus 165.00; 1166.0, 36291, [time:05:22:39:20 142:39:20]. Over.
 
 [03:03:35:07]
 LMP: Okay, monitor PC plus 2 pad. NOUN 81: minus
-     21.47, minus 165.00; 1166.0, 36291, 142:39:20.
+     21.47, minus 165.00; 1166.0, 36291, [time:05:22:39:20 142:39:20].
 
 [03:03:35:28]
 CC:  Roger; that's correct, Fred-o. And we - now
@@ -20221,7 +20348,7 @@ CDR: It must be that - You're right, because it's
      behind us now.
 
 [03:04:28:31]
-CMP: Wait a minute, ???? holding insertion attitude. # uncertain
+CMP: Wait a minute, [...] holding insertion attitude.
 
 [03:04:28:38]
 LMP: Yes, we're not at the T<sub>ig</sub> attitude.
@@ -20330,7 +20457,7 @@ CC:  Okay. After PC plus 2, there are no trim requirements; and, if you have a s
      do one - MCC later. At PC plus 4, the increase
      in DELT - in DELTA-V, or the penalty, would be
      about 24 feet per second, with a landing in the
-     mid-Pacific at 142:46:30. Now, you should expect new pads, state vectors, and targets for
+     mid-Pacific at [time:05:22:46:30 142:46:30]. Now, you should expect new pads, state vectors, and targets for
      PC plus 2 at about GET 78. Over.
 
 [03:04:36:56]
@@ -20367,7 +20494,7 @@ LMP: Okay. Burn rules. We should shut down for the
      manual ullage, and START pushbutton, push, and
      DESCENT ENGINE COMMAND OVERRIDE, open. If we
      don't do a PC-2, our next burn will it be at PC-4
-     for an added 24 foot per second. We'll land mid-PAC at 142:46:30. Okay. We'll have the AGS up
+     for an added 24 foot per second. We'll land mid-PAC at [time:05:22:46:30 142:46:30]. Okay. We'll have the AGS up
      for backup rate command, or rate damping, I
      guess. And the free return that we're on, if
      we don't - that we're on now, if we don't do
@@ -20453,14 +20580,14 @@ CMP: Flashlight. Okay.
 LMP: Go ahead, Vance.
 
 [03:04:43:18]
-CC:  Okay. LOS 77:08:35, AOS 77:33:10. Sunrise -
+CC:  Okay. LOS [time:03:05:08:35 77:08:35], AOS [time:03:05:33:10 77:33:10]. Sunrise -
      First I'll give you sunset which is past, but that
-     was supposed to be at 76:32:45 and sunrise
-     77:16:48.
+     was supposed to be at [time:03:04:32:45 76:32:45] and sunrise
+     [time:03:05:16:48 77:16:48].
 
 [03:04:43:58]
-LMP: Okay. LOS at 77:08:35, AOS at 77:33:10. Sunset
-     at 76:32:45, sunrise at 77:16:48.
+LMP: Okay. LOS at [time:03:05:08:35 77:08:35], AOS at [time:03:05:33:10 77:33:10]. Sunset
+     at [time:03:04:32:45 76:32:45], sunrise at [time:03:05:16:48 77:16:48].
 
 [03:04:44:13]
 CC:  Roger. We'll get back with you on the powerup
@@ -20986,7 +21113,7 @@ CDR: Okay. Go ahead with the ...
 _page : 336
 _tape : Tape 52/4
 CC:  Okay. This is P30, IN maneuver pad, PC
-     plus 2 hours, starting with NOUN 33, 079:27:38.30,
+     plus 2 hours, starting with NOUN 33, [time:03:07:27:38 079:27:38.30],
      plus 0833.0, minus 0050.9, minus 0213.9, N/A,
      plus 0020.5, 0861.5, 4:24, 272, 081, and the
      rest is N/A except for comments as follows.
@@ -20997,7 +21124,7 @@ CC:  Okay. This is P30, IN maneuver pad, PC
      the time at MAX. Over.
 
 [03:05:56:02]
-LMP: Okay, Vance. ... 079:27:38.30, plus 0833.0,
+LMP: Okay, Vance. ... [time:03:07:27:38 079:27:38.30], plus 0833.0,
      minus 0050.9, minus 0213.9, N/A, plus 00205,
      08615, 4:24, 272, 081 and the rest N/A. Ullage
      two jets 10 seconds, CSM weight 62480, LM weight
@@ -21021,7 +21148,7 @@ CC:  Hey, you're loud and clear now.
 
 [03:05:59:23]
 LMP: Okay. I got the POWER AMPS now, PC plus 2 hours,
-     079:27; 38.030, plus 08330, minus 00509,
+     [time:03:07:27:00 079:27]; 38.030, plus 08330, minus 00509,
      minus 02139, N/A, plus 00205, 08615, 4:24, 272,
      081; rest N/A. Ullage two jets, 10 seconds,
      CSM weight 62480, LM weight 33452; DPS throttle
@@ -21044,13 +21171,13 @@ CMP: Okay. Go ahead.
 CC:  Okay, Fred-o. This is maneuver pad monitor PC
      plus 2 hours; all N/A until you get to NOUN 61,
      latitude minus 21.65, minus 165.00, 1163.5,
-     36292, 142:39:22. Over.
+     36292, [time:05:22:39:22 142:39:22]. Over.
 
 [03:06:01:48]
 _page : 337
 _tape : Tape 52/5
 CMP: Monitor plane change plus 2; NOUN 81 minus 21.65
-     minus 165.00, 1163.5, 36292, 142:39:22.
+     minus 165.00, 1163.5, 36292, [time:05:22:39:22 142:39:22].
 
 [03:06:02:06]
 CC:  Roger. That was starting with NOUN 61, and that's
@@ -21098,7 +21225,7 @@ CDR: Roger. Understand, Vance. I think Nunki would
 CC:  Right.
 
 [03:06:04:27]
-CDR: And, Vance, we plan to start powering up at 78:12.
+CDR: And, Vance, we plan to start powering up at [time:03:06:12:00 78:12].
      Is that a good time or do you think we ought to
      hold off a little longer?
 
@@ -25666,7 +25793,7 @@ CDR: Okay, Jack. Ready to copy.
 
 [03:15:17:06]
 CC:  Okay, Jim. P30 LM maneuver pad: the purpose is
-     midcourse-7. NOUN 33 is 134:59:42.98. NOUN 81
+     midcourse-7. NOUN 33 is [time:05:14:59:42 134:59:42.98]. NOUN 81
      is N/A. H<sub>A</sub> is N/A. H<sub>P</sub> is plus 0020.5. DELTA-V R
      is 0019.3. Burn time, 0:39; 008, 000; the rest
      is N/A; thrust will be at 10 percent. Read back.
@@ -25675,7 +25802,7 @@ CC:  Okay, Jim. P30 LM maneuver pad: the purpose is
 _page : 408
 _tape : Tape 58/5
 CDR: All right. This is midcourse-7 corridor control,
-     and it's in case we lose COMM: 134:59:42.98;
+     and it's in case we lose COMM: [time:05:14:59:42 134:59:42.98];
      NOUN 81 is N/A; 42, N/A; plus 0020.5; 0019.3.
      Burn time, 0:39; 008, 000. All the rest is N/A:
      thrust 10 percent.
@@ -25724,12 +25851,12 @@ _tape : Tape 59/1
 CC:  Okay, Jim. I just have the last three blocks.
      NOUN 61: latitude, minus 021.62; longitude,
      minus 265.37; range to go, 2162.9; VERB 10:36291:
-     GET of .05g is 142:41:30; read back.
+     GET of .05g is [time:05:22:41:30 142:41:30]; read back.
 
 [03:15:22:59]
 CDR: I didn't get the latitude, but the longitude is
      minus 165.67; range to go, 11629; velocity
-     36291; 142:41:30.
+     36291; [time:05:22:41:30 142:41:30].
 
 [03:15:23:24]
 CC:  Okay, Jim. The latitude is minus 021.62; I have
@@ -27010,8 +27137,8 @@ CMP: I kind of have an idea that as soon as we hit
      going to be ...
 
 [03:19:49:30]
-CMP: When you get through, you could get me that R-
-     the checklist up in R-3 ...
+CMP: When you get through, you could get me that 
+     R - the checklist up in R-3 ...
 
 [03:19:53:05]
 CMP: Okay; Houston; Aquarius.
@@ -30498,7 +30625,7 @@ _tape : Tape 67/3
 CDR: Okay. Understand. Philosophy on the midcourse
      in doing it prior to venting of the SHe tank,
      which means we'll be doing this around 105 hours,
-     I suppose, or 105:30 and so I'll have control of
+     I suppose, or [time:04:09:30:00 105:30] and so I'll have control of
      the spacecraft if it should give us some perturbation.
 
 [04:02:43:06]
@@ -31256,8 +31383,8 @@ CC:  Roger. Turning over to page 33. Minus 4 minutes.
 
 [04:04:32:16]
 CDR: Okay. At 4 minutes, "ENGINE GIMBAL" will be "OFF";
-     "MODE CONTROL" will be to "AGS, ATT HOLD"; "PRO-
-     PELLANT QUANTITY MONITOR, DESCENT 1," scratched.
+     "MODE CONTROL" will be to "AGS, ATT HOLD"; 
+     "PROPELLANT QUANTITY MONITOR, DESCENT 1," scratched.
 
 [04:04:32:27]
 CC:  Roger. Picking up at minus 1 minute, scratch
@@ -31886,11 +32013,11 @@ CMP: Okay. BAT Charlie POWER ENTRY/POSTLANDING.
 
 [04:05:18:57]
 CC:  Okay, now back to panel 250. CB BAT Bravo POWER
-     ENTRY/POSTLANDING, close. Next, MDC 3, AC IN-
-     VERTER 2 to MAIN B. AC INVERTER 2, AC BUS 1, on
-     up. Next, panel 5: AC INVERTER AC BUS 1 to RE-
-     SET and then center. Panel 3: UP TLM to COM-
-     MAND RESET then OFF. Then select best OMNI.
+     ENTRY/POSTLANDING, close. Next, MDC 3, AC 
+     INVERTER 2 to MAIN B. AC INVERTER 2, AC BUS 1, on
+     up. Next, panel 5: AC INVERTER AC BUS 1 to 
+     RESET and then center. Panel 3: UP TLM to 
+     COMMAND RESET then OFF. Then select best OMNI.
      Readback, please.
 
 [04:05:20:48]
@@ -32691,7 +32818,7 @@ CC:  Go ahead.
 [04:06:56:40]
 CDR: Some time ago, I copied down a long COMM
      midcourse-7 corridor control burn at a GET of
-     134:59:42.98. Is that burn pad still valid?
+     [time:05:14:59:42 134:59:42.98]. Is that burn pad still valid?
 
 [04:06:57:07]
 CC:  Jim, that's affirm. That pad is still valid.
@@ -32710,12 +32837,12 @@ CC:  Aquarius, Houston.
 CDR: Go ahead.
 
 [04:06:58:04]
-CC:  Jim, we're setting up your burn for 105:30, and
+CC:  Jim, we're setting up your burn for [time:04:09:30:00 105:30], and
      we'll be working up a pad, et cetera, based on
      that time. Over.
 
 [04:06:58:17]
-CDR: Roger. The time will 105:30.
+CDR: Roger. The time will [time:04:09:30:00 105:30].
 
 [04:06:58:21]
 CC:  And, additional point; I guess this one's for
@@ -32847,7 +32974,7 @@ LMP: Okay. Go ahead, Vance.
 [04:07:43:43]
 CC:  Okay, Fred. First of all, preparations for this,
      starting with contingeacy checklist, page 24, we
-     would recommend should start at 104:30 GET, and
+     would recommend should start at [time:04:08:30:00 104:30] GET, and
      we'll be happy to receive any comments you have
      on that, though. Second point: when you're in
      the burn attitude, you should see the Sun at the
@@ -32870,7 +32997,7 @@ CC:  Okay, Fred. First of all, preparations for this,
 
 [04:07:45:54]
 LMP: Okay, Vance. You're saying we should start into
-     the PREP in the contingency book at about 104:30,
+     the PREP in the contingency book at about [time:04:08:30:00 104:30],
      and I'll talk this over in a minute with Jim and
      we'll get back with you on it. When in the burn
      attitude, we should see the Sun right at the top
@@ -32990,13 +33117,13 @@ CC:  Okay.
 
 [04:07:53:18]
 LMP: Okay, Vance. Is the T<sub>ig</sub> time going to be
-     approximately - Is it 105 or 105:30?
+     approximately - Is it 105 or [time:04:09:30:00 105:30]?
 
 [04:07:53:26]
-CC:  It's 105:30.
+CC:  It's [time:04:09:30:00 105:30].
 
 [04:07:53:31]
-LMP: Okay. Your 104:30 time to start in is - sounds
+LMP: Okay. Your [time:04:08:30:00 104:30] time to start in is - sounds
      pretty good. That'll give us lots of time to
      get set up with the attitude business, in case
      we have any trouble stopping PTC and getting
@@ -33061,7 +33188,7 @@ LMP: Okay.
 LMP: And, Houston, you might just let us know if
      there's any chance it's going to slip further
      down the road, because we're going to kind of
-     hold to that 104:30 start time. And if you're
+     hold to that [time:04:08:30:00 104:30] start time. And if you're
      going to delay any, we'll delay accordingly.
 
 [04:08:20:03]
@@ -33117,7 +33244,7 @@ CDR: Roger, Houston. Stand by. Are you ready -
 
 [04:08:33:43]
 CC:  Okay. A P30 maneuver pad on the DPS: purpose
-     is midcourse 5, NOUN 33, 105:30:00.00, NOUN 81
+     is midcourse 5, NOUN 33, [time:04:09:30:00 105:30:00.00], NOUN 81
      is N/A, H<sub>A</sub> is N/A, perigee, plus 0019.8,
      0.007.8, 0.15, the rest is N/A. Shut down the
      engine at 1 second prior to the end of burn
@@ -33127,7 +33254,7 @@ CC:  Okay. A P30 maneuver pad on the DPS: purpose
 
 [04:08:35:00]
 LMP: Okay, Jack. We've got a DPS midcourse 5: NOUN
-     33, 105:30:00.00; NOUN 81, N/A; H<sub>A</sub> N/A; plus
+     33, [time:04:09:30:00 105:30:00.00]; NOUN 81, N/A; H<sub>A</sub> N/A; plus
      0019.8, 0007.8, burn time 0.15, the rest of the
      pad, N/A. Shut down manually at 14 seconds,
      ullage four jets for 1O seconds, and the entire
@@ -33175,11 +33302,11 @@ LMP: Okay. Now I'm ready.
 
 [04:08:39:47]
 CC:  Okay. NOUN 61: latitude, minus 21.67, minus
-     165.37, 1163.1, 36292, 142:41.02. Read back.
+     165.37, 1163.1, 36292, [time:05:22:41:00 142:41.02]. Read back.
 
 [04:08:40:20]
 LMP: Okay. NOUN 61; minus 21.67, minus 165.37.
-     1163.1, 36292, 142:41.02.
+     1163.1, 36292, [time:05:22:41:00 142:41.02].
 
 [04:08:40:43]
 CC:  Good readback.
@@ -33292,10 +33419,10 @@ LMP: Right on.
 CC:  Roger. It was reading 33 on my mark. Right?
 
 [04:09:02:32]
-LMP: Okay. You got about 105:03 GET now down there?
+LMP: Okay. You got about [time:04:09:03:00 105:03] GET now down there?
 
 [04:09:02:39]
-CC:  That's affirmative, Fred. Going through 105:03:45.
+CC:  That's affirmative, Fred. Going through [time:04:09:03:45 105:03:45].
 
 [04:09:03:44]
 CC:  MARK.
@@ -34200,7 +34327,7 @@ _tape : Tape 73/2
 CC:  That's affirmative.
 
 [04:12:25:05]
-CDR: Are you planning any no-COMM midcourse at 134 # last character suspect
+CDR: Are you planning any no-COMM midcourse at 134
      and change anyway right now, or are you going
      to wait?
 
@@ -37349,18 +37476,18 @@ CC:  That's affirm. I'm going to first of all just
      events, and then we'll go back and fill in some
      of the details. Okay. Entry interface is at
      142 hours 40 minutes; 6-1/2 hours, roughly prior
-     to that or at about 136:10, we'll start this
+     to that or at about [time:05:16:10:00 136:10], we'll start this
      whole thing going by applying IMU HEATER POWER,
      by checking the CM/RCS temperatures and preheating
      the CM/RCS if required, and we suspect we'll
      probably want to do that. We'll have detailed
      procedures up for it later. At about 6 hours
-     prior to EI or about 136:40, we will commence
+     prior to EI or about [time:05:16:40:00 136:40], we will commence
      powering up the LM, powering up the AGS, using
      the modified LM/DPS RCS 30-minute checklist, which
      you have used for the previous midcourse. Then
      shortly, just before 5 hours, prior to EI or at
-     about 137:49, we'll want you in the attitude for a
+     about [time:05:17:49:00 137:49], we'll want you in the attitude for a
      LM AGS body axis alinement, using the Earth
      terminator like we did before; and as soon as
      we have that, we'll perform MCC-7, which looks
@@ -37378,7 +37505,7 @@ CC:  That's affirm. I'm going to first of all just
      module ready for service module SEP, including
      command module RCS checkout and hot fire, and at
      approximately 4 hours and 30 minutes prior to EI
-     or 138:10, we'll jettison the service module.
+     or [time:05:18:10:00 138:10], we'll jettison the service module.
      We'll pitch the LM up until we aquire the
      service module in the ... and try and get some
      photographs, but we're not going to fool around
@@ -37390,7 +37517,7 @@ CC:  That's affirm. I'm going to first of all just
      on over to checklist and prepare for powering
      up the command module. We're going to start the
      command module full powerup at EI minus 2 hours
-     and 30 minutes or 140:10 GET. We'll get the
+     and 30 minutes or [time:05:20:10:00 140:10] GET. We'll get the
      computer on the line, we'll get the IMU up, we'll
      start uplinking your state vectors, and so forth,
      and alining the command module platform. At
@@ -38611,7 +38738,7 @@ CMP: You say, you figure you are going to be charging
      BAT A until about 126?
 
 [05:03:24:32]
-CC:  Roger. About 126:30 is an estimate, Jack.
+CC:  Roger. About [time:05:06:30:00 126:30] is an estimate, Jack.
 
 [05:03:24:40]
 CMP: Okay. You figure it will be fully charged then,
@@ -40025,7 +40152,7 @@ CC:  That's correct. Okay. The next is the command
      page E/1-6.
 
 [05:06:32:13]
-CMP: Okay. The next is perform CSM - or CM RCS activation for step 4-1 of page E -- E/1-6.
+CMP: Okay. The next is perform CSM - or CM RCS activation for step 4-1 of page E - E/1-6.
 
 [05:06:32:28]
 CC:  That's correct.
@@ -41476,7 +41603,7 @@ CMP: Jim would like to know whether the descent water
 _page : 661
 _tape : Tape 85/24
 CC: Okay, Jack. Looks like we're going to go on
-     the ascent tanks and 128:30. And it looks like - -
+     the ascent tanks and [time:05:08:30:00 128:30]. And it looks like - -
 
 [05:07:36:29]
 CMP: Okay, understand. We are going - -
@@ -41487,7 +41614,7 @@ CC:  - - you have plenty of water. I'm sorry we cut
 
 [05:07:36:34]
 CMP: Okay, yes. I was going to say, understand we're
-     going to go on the ascent tanks at 128:30.
+     going to go on the ascent tanks at [time:05:08:30:00 128:30].
 
 [05:07:36:40]
 CC:  That's right; based on the current rate, that's
@@ -43954,7 +44081,7 @@ CC:  Roger. You plan to try to get any more?
 CMP: What GET do you have?
 
 [05:12:37:24]
-CC:  We got 132:37.
+CC:  We got [time:05:12:37:00 132:37].
 
 [05:12:37:40]
 CMP: Well, if I - If I get everything done, I'll try,
@@ -44303,7 +44430,7 @@ LMP: Okay, Houston. We'd like to get a hack to set
      our mission timer here, Jack.
 
 [05:13:34:21]
-CC:  Okay, Fred-o. Set it at 133:35 straight up.
+CC:  Okay, Fred-o. Set it at [time:05:13:35:00 133:35] straight up.
      You've got about 30 seconds to set it.
 
 [05:13:34:49]
@@ -44320,7 +44447,7 @@ CC:  START.
 LMP: Okay. We've got it.
 
 [05:13:35:05]
-CC:  Okay. I'm counting 133:35:10.
+CC:  Okay. I'm counting [time:05:13:35:10 133:35:10].
 
 [05:13:35:11]
 LMP: Right on.
@@ -44725,7 +44852,7 @@ CDR: Okay.
 [05:15:04:28]
 _page : 710
 _tape : Tape 90/4
-CDR: At 35:04:25. # Note - probably 135-04-25
+CDR: At [time:05:15:04:25 35:04:25].
 
 [05:15:06:10]
 CC:  Aquarius, do you have a star close by there you
@@ -44866,7 +44993,7 @@ CC: Roger. We'll pass the word.
 
 [05:15:38:21]
 CC: Aquarius, Houston. We think we've figured out
-     a way to save you some time at a very critical --
+     a way to save you some time at a very critical -
      very full schedule. And that's by doing a
      docked coarse aline, since we got the LM up now.
      That would save you a maneuver or two.
@@ -45079,14 +45206,14 @@ _tape : Tape 91/3
 LMP: Go ahead, Joe.
 
 [05:16:05:46]
-CC:  MCC-7: 137:39:48.39, minus 0003.1, plus all
+CC:  MCC-7: [time:05:17:39:48 137:39:48.39], minus 0003.1, plus all
      zeros, plus 00001, N/A, plus 0020.5, 0003.1,
      0:23, 008, 359; the rest is N/A. Remarks: plus-X,
      four jets, RCS; and your weights for the DAP load:
      LM weight, 25181; CSM weight, 62468. Over.
 
 [05:16:07:02]
-LMP: Okay, Joe. MCC-7: 137:39:48.39, minus 0003.1,
+LMP: Okay, Joe. MCC-7: [time:05:17:39:48 137:39:48.39], minus 0003.1,
      plus all balls, plus 0000.1, N/A, plus 0020.5,
      plus 0003.1, 0:23, 008 359; the rest of pad N/A.
      Remarks: plus-X, four jets, RCS, ullage; the
@@ -45131,7 +45258,7 @@ LMP: Okay. Following MCC-7 we're to maneuver to the
 
 [05:16:09:54]
 CC:  Okay. That's correct. And the last part of the
-     pad is at GET 138:10:00, which is EI minus 4.5 hours,
+     pad is at GET [time:05:18:10:00 138:10:00], which is EI minus 4.5 hours,
      execute a push of 0.5 feet per second, four jet,
      plus-X; perform SM SEP; then execute pull, 0.5 feet
      per second, four jet, minus-X. Over.
@@ -45147,7 +45274,7 @@ CC: Okay, Jim.
 
 [05:16:11:14]
 LMP: Okay. That last Joe was execute at tile GET at
-     138:10:00 which is EI minus 4-1/2 hours; execute
+     [time:05:18:10:00 138:10:00] which is EI minus 4-1/2 hours; execute
      a push of 0.5 feet per second, four-jet ullage;
      then execute SM SEP followedby a pull of 0.5 feet
      per second, with respect to a nomenclature on the
@@ -45184,7 +45311,7 @@ CC:  Yes.
 LMP: Okay. Go ahead, Joe.
 
 [05:16:13:11]
-CC:  Okay, Fred. Prior to 141:40:00, which is EI minus 1
+CC:  Okay, Fred. Prior to [time:05:21:40:00 141:40:00], which is EI minus 1
      hour, maneuver the LM to the following FDAI angles:
      roll, 130; pitch, 125; yaw, 012.4. The corresponding
      CSM gimbal angles will be roll, 291; pitch,
@@ -45193,7 +45320,7 @@ CC:  Okay, Fred. Prior to 141:40:00, which is EI minus 1
      05 16 ]1!14 CDR Thank you.
 
 [05:16:14:23]
-LMP: Okay. A LM SEP pad prior to 141:40:00, EI minus
+LMP: Okay. A LM SEP pad prior to [time:05:21:40:00 141:40:00], EI minus
      1 hour, maneuver to fo]lowing attitudes: roll,
      130; pitch, 125; yaw, 012.4. The corresponding
      CSM gimbal angles are ro11, 291; pitch, 196;
@@ -45874,10 +46001,10 @@ CDR: Okay, Jack just reported that all thrusters fired
 CC:  Real fine. Real fine.
 
 [05:17:58:32]
-CDR: And SM JETT at 138:12.
+CDR: And SM JETT at [time:05:18:12:00 138:12].
 
 [05:17:58:43]
-CC:  Roger. Understand; that's SM JETT, 138:12. It's
+CC:  Roger. Understand; that's SM JETT, [time:05:18:12:00 138:12]. It's
      not that time critical, Jim.
 
 [05:17:58:52]
@@ -45930,8 +46057,7 @@ CC: Beautiful, beautiful. And for you information,
      for helium. No sweat. Over.
 
 [05:18:04:46]
-CDR: And there's one whole side of that spacecraft
-     missing.
+CDR: And there's one whole side of that spacecraft missing.
 
 [05:18:04:50]
 CC: Is that right?
@@ -46407,9 +46533,9 @@ CDR: Okay, Joe. Standing by to copy the entry pad.
 CC:  Okay, here we come. Entry pad: Mid-Pacific,
      000153; 000. The next two lines will be the
      GET of moonset and the Moon-check attitude;
-     142:38:17, 178; NOUN 61, minus 21.66, minus
+     [time:05:22:38:17 142:38:17], 178; NOUN 61, minus 21.66, minus
      165.37; 06.7; 36211, 6.51; 1168.9, 36292;
-     142:40:40; 00:28. The next four are N/A;
+     [time:05:22:40:40 142:40:40]; 00:28. The next four are N/A;
      D<sub>O</sub> is 4.00, 02:04; 00:17, 03:22, 08:14;
      33, 353.1, 29.9. Boresight star is Sigma
      Libra, down 08.8, left 0.4; lift vector up.
@@ -46422,8 +46548,8 @@ CC:  Okay, here we come. Entry pad: Mid-Pacific,
 
 [05:18:43:46]
 CDR: Entry pad as follows: Mid-PAC, 000153, 000;
-     142:38:17, 178; minus 21.66, minus 165.37;
-     06.7; 36211, 6.51; 1168.9, 36292; 142:40:40;
+     [time:05:22:38:17 142:38:17], 178; minus 21.66, minus 165.37;
+     06.7; 36211, 6.51; 1168.9, 36292; [time:05:22:40:40 142:40:40];
      00:28. Next four columns are N/A; D<sub>O</sub> is 4.00,
      02:04; 00:17, 03:22 08:14; 33, 353.1, 29.9.
      Zebra Libra, or something like that, Beta Libra
@@ -46524,7 +46650,7 @@ CDR: And are you tracking us, and do you have any
      results on that last midcourse?
 
 [05:18:51:21]
-_extra : END OF TAPE\nAPPLLO 13 AIR-TO-GROUND VOICE TRANSCRIPTION
+_extra : END OF TAPE
 CC:  Stand by. It looks good. I'll try and get
      you numbers.
 
@@ -47945,10 +48071,10 @@ CC:  Odyssey, Houston. I have your final entry pad
 CDR: Okay, Houston. Ready to copy.
 
 [05:21:48:23]
-CC:  Okay. Mid-PAC, 000152, 000; 142:38:19, 178; and
+CC:  Okay. Mid-PAC, 000152, 000; [time:05:22:38:19 142:38:19], 178; and
      you recall that's GET moonset and Moon-check
      attitude. NOUN 61, minus 21.66, minus 165.37;
-     05.2; 3621.1, 6.20; 1119.7, 36291; 142:40:46;
+     05.2; 3621.1, 6.20; 1119.7, 36291; [time:05:22:40:46 142:40:46];
      00:30; the next four are N/A; D<sub>O</sub> is 4.00, 02:20;
      00:19, 03:38, 07:59. The rest of the pad is
      N/A for this one. You are lift vector up at the
@@ -47958,8 +48084,8 @@ CC:  Okay. Mid-PAC, 000152, 000; 142:38:19, 178; and
 
 [05:21:50:02]
 CDR: Okay. Entry pad as follows: Mid-PAC, 000152,
-     000; 142:38:19, 178; minus 21.66, minus 165.37;
-     05.2; 3621.1, 6.20; 1119.7, 36291; 142:40:46;
+     000; [time:05:22:38:19 142:38:19], 178; minus 21.66, minus 165.37;
+     05.2; 3621.1, 6.20; 1119.7, 36291; [time:05:22:40:46 142:40:46];
      00:30; all the DLS are N/A. DO is 4.00, 02:20;
      00:19, 03:38, 07:59. lll the rest are N/A,
      except lift vector which is up; and I have the
@@ -48390,5 +48516,5 @@ P-1: Photo-1. Splashdown at this time. The three
      chutes are displaced. They're in the water.
 
 [05:22:55:12]
+_extra : END OF TRANSCRIPTION
 R-1: ... Recovery, I have a clock - - 
-     END OF TRANSCRIPTION
