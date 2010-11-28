@@ -1707,7 +1707,7 @@ CC:  Yes, yes. More like that. That's nice. It's
 CC:  Oh, that's very nice, very nice.
 
 [00:04:13:55]
-CMP: Okay, Joe. Is EECOMM monitoring the 0<sub>2</sub> FLOW HIGH
+CMP: Okay, Joe. Is EECOMM monitoring the O<sub>2</sub> FLOW HIGH
      light again? We haven't yet started the venting
      yet.
 
@@ -2190,7 +2190,7 @@ CMP: Okay, in work.
 CC:  Okay.
 
 [00:07:00:18]
-CMP: Do you know we're also purging fuel cells 0<sub>2</sub> now.
+CMP: Do you know we're also purging fuel cells O<sub>2</sub> now.
 
 [00:07:00:21]
 CC:  Okay, Jack.
@@ -2835,7 +2835,7 @@ _tape : Tape 7/4
 CC:  Roger.
 
 [00:10:08:38]
-CMP: Okay, ready? 3, 2, i -
+CMP: Okay, ready? 3, 2, 1 -
 
 [00:10:08:40]
 CMP: MARK.
@@ -3265,7 +3265,7 @@ CC:  Fred, did you get any MASTER ALARMS up there
      saw some here and they were curious about it.
 
 [00:11:59:46]
-LMP: Yes. We got another 0<sub>2</sub> FLOW HIGH on - I guess it
+LMP: Yes. We got another O<sub>2</sub> FLOW HIGH on - I guess it
      was about 5 minutes ago.
 
 [00:11:59:57]
@@ -3640,8 +3640,8 @@ CDR: Roger.
 
 [00:23:20:23]
 CC:  And, 13, Houston. We'd like to verify that you
-     cycled the 0<sub>2</sub> cryo fans. We saw the H<sub>2</sub>, but we
-     didn't see the 0<sub>2</sub> get stirred up.
+     cycled the O<sub>2</sub> cryo fans. We saw the H<sub>2</sub>, but we
+     didn't see the O<sub>2</sub> get stirred up.
 
 [00:23:20:35]
 CMP: Yes, Joe. We did, and it kind of looked like we
@@ -3761,7 +3761,7 @@ CC:  Okay. At 23 hours the total RCS is 1121, quad A
      is 274, quad Bravo is 286, quad Charlie is 274,
      quad Delta is 287, and the cryos are as follows:
      H<sub>2</sub> tank 1, 83 percent; H<sub>2</sub> tank 2, 86 percent;
-     0<sub>2</sub> tank 1, 87 percent; 0<sub>2</sub> tank 2, 87 percent.
+     O<sub>2</sub> tank 1, 87 percent; O<sub>2</sub> tank 2, 87 percent.
      Over.
 
 [00:23:27:07]
@@ -7875,7 +7875,7 @@ CC:  Okay. I've got some details on the flight plan
      point in the flight plan and change your number
      from 57 hours to 54 hours and start through that.
      In the remarks section at about [time:02:09:50:00 57:50] it says,
-     "0<sub>2</sub> fuel cell purge and waste water dump," here.
+     "O<sub>2</sub> fuel cell purge and waste water dump," here.
      If not performed earlier, we want you to do that
      at 54 hours and 50 minutes. The TV pass then,
      will be at 55 hours to [time:02:07:30:00 55:30]. You'll go right
@@ -7982,11 +7982,11 @@ CDR: Okay.
 
 [01:23:53:46]
 CDR: And, Houston, Apollo 13. One thing I missed
-     about the 0<sub>2</sub> fuel cell purge and waste and water
+     about the O<sub>2</sub> fuel cell purge and waste and water
      dump.
 
 [01:23:53:53]
-CC:  Roger. We'd like the the 0<sub>2</sub> fuel cell purge
+CC:  Roger. We'd like the the O<sub>2</sub> fuel cell purge
      and waste water dump at [time:02:06:50:00 54:50].
 
 [01:23:54:04]
@@ -8001,11 +8001,11 @@ CMP: Go ahead, Joe.
 [01:23:54:36]
 CC:  All right, Jack. One thing we'd like to have
      done sometime soon is to have you cycle the
-     cryo fans in 0<sub>2</sub> tank 2 one more time. We'd
+     cryo fans in O<sub>2</sub> tank 2 one more time. We'd
      like to see if we can get that sensor back.
 
 [01:23:54:50]
-CMP: Okay. 0<sub>2</sub> tank 2 fan on now.
+CMP: Okay. O<sub>2</sub> tank 2 fan on now.
 
 [01:23:54:55]
 CC:  Roger.
@@ -8036,7 +8036,7 @@ CDR: Go ahead.
 _page : 134
 _tape : Tape 31/6
 CC:  Roger. The word on that, Jim, is that they
-     want to insure the proper 0<sub>2</sub> concentration in
+     want to insure the proper O<sub>2</sub> concentration in
      the LM when you get to the surface, and this
      is a method of doing that by bleeding out
      additional nitrogen.
@@ -8168,7 +8168,7 @@ CC:  Apollo 13, Houston.
 CMP: Go ahead, Joe.
 
 [02:00:06:25]
-CC:  We're ready to have to 0<sub>2</sub> tank 2 fan off, and
+CC:  We're ready to have to O<sub>2</sub> tank 2 fan off, and
      thank you.
 
 [02:00:06:32]
@@ -15841,7 +15841,7 @@ CMP: Get up front and turn that antenna ...
 
 [02:17:19:49]
 CDR: And, Houston, could you give us an approximate
-     time to turn off the ascent 0<sub>2</sub> in case we're
+     time to turn off the ascent O<sub>2</sub> in case we're
      losing point with you?
 
 [02:17:19:59]
@@ -15854,7 +15854,7 @@ CDR: Roger, Houston. We'd like a time to go back to
 
 [02:17:20:20]
 CC:  Jim, Houston. That's affirmative. You may go
-     back to descent 0<sub>2</sub>. Over.
+     back to descent O<sub>2</sub>. Over.
 
 [02:17:20:30]
 CDR: Roger. Going back now.
@@ -38015,8 +38015,8 @@ CDR: Okay.
 
 [05:01:52:44]
 CC:  Okay. 16-millimeter and 70-millimeter exposed
-     film in R-13. Okay, next. 0<sub>2</sub> hose screen caps
-     on the 0<sub>2</sub> hoses. Next: two 70-millimeter Hasselblad cameras, and stow these in B-6 in the
+     film in R-13. Okay, next. O<sub>2</sub> hose screen caps
+     on the O<sub>2</sub> hoses. Next: two 70-millimeter Hasselblad cameras, and stow these in B-6 in the
      empty LiOH volume.
 
 [05:01:53:45]
@@ -41139,7 +41139,7 @@ CC:  Okay. Now let me give you some plumbing switches
      to ON.
 
 [05:07:15:45]
-CMP: SURGE TANK 0<sub>2</sub> to ON.
+CMP: SURGE TANK O<sub>2</sub> to ON.
 
 [05:07:15:48]
 CC:  All right. Take the MAIN REGs, two, OPEN.
@@ -41486,7 +41486,7 @@ CC:  That's right, Jack, and what this - what we're
      planning to do in order to conserve power is
      we're going to run the suit compressor from an
      hour to this point at minus 40. And we'll be
-     watching the PC0<sub>2</sub>; if that thing's working, we'll
+     watching the PCO<sub>2</sub>; if that thing's working, we'll
      turn it off at the earliest time that we have a
      good cabin, and then we'll just leave it off.
      And in the event that the PCO<sub>2</sub> gage isn't working
@@ -42418,7 +42418,7 @@ CMP: Okay, Deke.
 [05:08:12:12]
 CC:  Okay, then, Jack. Continuing on, everything's
      okay until you get down to - on the next page,
-     you get through "Verify 0<sub>2</sub> FLOW INDICATOR no increase." We would like to delete everything below
+     you get through "Verify O<sub>2</sub> FLOW INDICATOR no increase." We would like to delete everything below
      that, until the iast step, which is TUNNEL LIGHTS,
      OFF. So starting with "Before undocking only,"
      delete all lines through "TUNNEL VENT VALVE to
@@ -46451,7 +46451,7 @@ CMP: Okay. I've been not reading any voltage at all
      on BAT C, and the amperage looks like about
      2 amps, but that could be kind of noise-level
      stuff. I've got all the floodlights off and I -
-     Can you think of anything - I could power dewar
+     Can you think of anything - I could power down
      to lower MAIN A.
 
 [05:18:35:53]
