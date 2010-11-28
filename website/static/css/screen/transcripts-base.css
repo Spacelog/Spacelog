@@ -109,12 +109,12 @@
 }
 #transcript dd em {
     color:                  #e4362d;
-    position:               absolute;
-    right:                  -36px;
+    float:                  right;
+    margin-right:           -176px;
     font-size:              20px;
     line-height:            1;
-    padding-right:          60px;
-    width:                  116px;
+    padding-right:          50px;
+    width:                  95px;
     text-transform:         uppercase;
     background:             url(/assets/img/base/keyscene.png)
                             no-repeat
