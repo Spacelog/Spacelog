@@ -496,7 +496,6 @@ class Mission(object):
         self.lower_title = self.copy['lower_title']
         self.description = self.copy['description']
         self.featured = (data['featured'].lower() == 'true')
-        self.image = data['image']
         self.main_transcript = data['main_transcript']
         self.main_transcript_subname = data['main_transcript'].split("/", 1)[1]
         self.media_transcript = data['media_transcript']
