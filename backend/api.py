@@ -447,6 +447,8 @@ class Glossary(object):
     def _load(self):
         key = "glossary:%s" % self.id
         data = self.redis_conn.hgetall( key )
+        if not data:
+            raise ValueError("No such glossary item: %s" % self.id)
         self.description = data['description']
         self.abbr        = data['abbr']
         self.key         = self.id
