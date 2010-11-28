@@ -139,7 +139,7 @@
     position:               fixed;
     bottom:                 0;
     left:                   0;
-    height:                 38.4px;
+    height:                 40.4px;
     background:             black;
     color:                  white;
     width:                  100%;
@@ -150,11 +150,24 @@
     z-index:                4;
     overflow:               hidden;
 }
+#phases p.original {
+    position:               absolute;
+    bottom:                 0;
+    left:                   50%;
+    margin-left:            -480px;
+    line-height:            38.4px;
+    padding-right:          34px;
+    background:             transparent
+                            url(/assets/img/base/original.png)
+                            no-repeat
+                            100% 50%;
+}
 #phases nav {
-    text-align:             center;
     position:               absolute;
     bottom:                 0px;
-    width:                  940px;
+    left:                   50%;
+    margin-left:            -230px;
+    width:                  700px;
 }
 #phases img {
     position:               absolute;
@@ -164,66 +177,104 @@
     display:                inline-block;
 }
 #phases nav li {
-    white-space:            pre;
     float:                  left;
-    margin-right:           20px;
+    margin-right:           5px;
 }
 #phases li em {
+    text-align:             center;
     min-width:              200px;
     display:                block;
 }
-#phases .prev,
-#phases a[rel=prev] {
-    padding-left:           50px;
+#phases a span,
+#phases .prev span,
+#phases .next span {
+    position:               absolute;
+    left:                   -999em;
 }
 #phases a[rel=prev] {
     background:             transparent
-                            url(/assets/img/base/act_prev.png)
+                            url(/assets/img/base/scan_back.png)
                             no-repeat
                             0% 50%;
 }
-#phases .next,
-#phases a[rel=next] {
-    padding-right:          50px;
+#phases a[rel=prev]:hover,
+#phases a[rel=prev]:focus,
+#phases a[rel=prev]:active {
+    background-image:       url(/assets/img/base/scan_back_hover.png);
 }
 #phases a[rel=next] {
     background:             transparent
-                            url(/assets/img/base/act_next.png)
+                            url(/assets/img/base/scan_forward.png)
                             no-repeat
                             100% 50%;
 }
-#phases .next,
+#phases a[rel=next]:hover,
+#phases a[rel=next]:focus,
+#phases a[rel=next]:active {
+    background-image:       url(/assets/img/base/scan_forward_hover.png);
+}
+#phases .prev,
+#phases .next {
+    background-position:    0 50%;
+    background-repeat:      no-repeat;
+}
 #phases .prev {
+    background-image:       url(/assets/img/base/scan_back_disabled.png);;
+}
+#phases .next {
+    background-image:       url(/assets/img/base/scan_forward_disabled.png);;
+}
+#phases .next,
+#phases .prev,
+#phases a[rel=prev],
+#phases a[rel=next] {
+    display:                block;
+    width:                  34px;
+    height:                 28px;
     color:                  #333;
 }
 
 #phases .map {
     position:               absolute;
     right:                  0px;
+    padding:                0 10px;
+    -cp-border-radius:      3px;
+    background:             #383838;
+    color:                  #fff;
+}
+/*! verbatim */
+#phases .map {
+    text-shadow:            0 1px 1px #000;
+}
+/* -- */
+#phases.open .map {
+    background:             #ddd;
+    color:                  #444;
+}
+/*! verbatim */
+#phases.open .map {
+    -webkit-box-shadow:     inset 0 1px 3px #000;
+    text-shadow:            none;
+}
+/* -- */
+#phases .map:hover,
+#phases .map:focus,
+#phases .map:active {
+    background:             #555;
+    color:                  #fff;
+    text-decoration:        none;
 }
 p.load-more {
     margin-top:             20px;
     text-align:             center;
-    float:                  left;
-    margin-left:            240px;
 }
 p.load-more a {
+    display:                inline-block;
+    margin-top:             5px;
     color:                  #878787;
     padding:                5px 10px;
     -cp-border-radius:      5px;
     text-decoration:        none;
-}
-
-p.original {
-    float:                  right;
-    margin-top:             20px;
-    font-size:              12px;
-    line-height:            2;
-    padding-right:          34px;
-    background:             transparent
-                            url(/assets/img/base/original.png)
-                            no-repeat
-                            top right;
 }
 
 p.act-banner {

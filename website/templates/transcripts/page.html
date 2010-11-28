@@ -29,11 +29,6 @@
       <a href="{% timestamp_to_url previous_timestamp %}">Load previous</a>
     </p>
   {% endif %}
-  {% if log_lines.0.transcript_page %}
-    <p class='original'>
-      <a href="{% url original log_lines.0.transcript_page %}">View original transcript</a>
-    </p>
-  {% endif %}
   </div>
 
   <dl id='transcript'>
@@ -119,17 +114,24 @@
 
   <div id='phases'>
     <div class='wrapper'>
+
+      {% if log_lines.0.transcript_page %}
+        <p class='original'>
+          <a href="{% url original log_lines.0.transcript_page %}">View original</a>
+        </p>
+      {% endif %}
+
       <nav><ul>
         {% if previous_act %}
-          <li><a href='{% timestamp_to_url previous_act.start %}' rel='prev'>Previous</a></li>
+          <li><a href='{% timestamp_to_url previous_act.start %}' rel='prev'><span>Previous</span></a></li>
         {% else %}
-          <li><span class='prev'>Previous</span></li>
+          <li class='prev'><span>Previous</span></li>
         {% endif %}
         <li><em>Phase {{ act }}: {{ current_act.title }}</em></li>
         {% if next_act %}
-          <li><a href='{% timestamp_to_url next_act.start %}' rel='next'>Next</a></li>
+          <li><a href='{% timestamp_to_url next_act.start %}' rel='next'><span>Next</span></a></li>
         {% else %}
-          <li><span class='next'>Next</span></li>
+          <li class='next'><span>Next</span></li>
         {% endif %}
       </ul></nav>
       {% if current_act.orbital %}

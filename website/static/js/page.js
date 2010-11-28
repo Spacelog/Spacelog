@@ -73,14 +73,18 @@ Artemis.PhasesView = Backbone.View.extend({
     },
     cookieName: 'mapIsOpen',
     openHeight: 150,
-    closedHeight: 38.4,
+    closedHeight: 40.4,
     
 
     initialize: function() {
+        this.el.find('ul').append('<li><a href="#" class="map">Show map</a></li>');
+        if (this.getIsOpen()) {
+            this.el.css({height: this.openHeight});
         if (this.el.find('img').length) {
             this.el.find('ul').append('<li><a href="#" class="map">Map</a></li>');
             if (this.getIsOpen()) {
                 this.el.css({height: this.openHeight});
+                this.el.addClass("open")
             }
         }
     },
@@ -94,6 +98,7 @@ Artemis.PhasesView = Backbone.View.extend({
         else {
             height = this.openHeight;
         }
+        this.el.toggleClass('open', !isOpen);
         this.el.stop().animate({height: height});
         this.setIsOpen(!isOpen);
         return false;
