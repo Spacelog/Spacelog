@@ -90,49 +90,53 @@
     "key_scenes" : [
         {
             "title": "The inboard engine cuts out two minutes early",
-            "range": ["00:00:05:32", "00:00:06:14"]
+            "range": ["00:00:05:32", "00:00:06:15"]
         
         },
         {
             "title": "The crew broadcasts their first TV signal from orbit",
-            "range": ["00:01:41:18", "00:01:42:34"]
+            "range": ["00:01:41:18", "00:01:42:35"]
         
         },
         {
             "title": "The crew take some photographs of Earth",
-            "range": ["00:10:29:31", "00:10:31:23"]
+            "range": ["00:10:29:31", "00:10:31:24"]
         
         },
         {
             "title": "\"Houston, we've had a problem.\"",
-            "range": ["02:07:55:00", "02:07:56:41"]
+            "range": ["02:07:55:00", "02:07:56:42"]
         },
         {
             "title": "With oxygen dropping, the crew considers a move to the LM",
-            "range": ["02:09:23:54", "02:09:24:54"]
+            "range": ["02:09:23:54", "02:09:24:55"]
         },
         {
-            "title": "Collecting materials to make the 'mailbox' CO2 scrubbers",
-            "range": ["03:18:08:38", "03:18:10:03"]
+            "title": "Mission control describes the 'mailbox' CO<sub>2</sub> scrubbers",
+            "range": ["03:08:37:33", "03:08:38:46"]
+        },        
+        {
+            "title": "Collecting materials to make the CO<sub>2</sub> scrubbers",
+            "range": ["03:18:08:38", "03:18:10:04"]
         },
         {
             "title": "The crew completes their first 'mailbox'",
-            "range": ["03:19:08:39", "03:19:12:28"]
+            "range": ["03:19:08:39", "03:19:12:29"]
         
         },
         {
             "title": "\"There's one whole side of the spacecraft missing\"",
-            "range": ["05:18:02:06", "05:18:04:57"]
+            "range": ["05:18:02:06", "05:18:04:58"]
         
         },
         {
             "title": "Jettisoning the lunar module",
-            "range": ["05:21:28:42", "05:21:30:05"]
+            "range": ["05:21:28:42", "05:21:30:06"]
         
         },
         {
             "title": "The command module within sight of mission control",
-            "range": ["05:22:50:06", "05:22:50:15"]
+            "range": ["05:22:50:06", "05:22:50:16"]
         
         }
     ],
@@ -150,7 +154,8 @@
         "04:01:37:49",
         "04:00:21:39",
         "04:12:09:02",
-        "02:09:24:12"
+        "02:09:24:12",
+        "02:23:06:34"
     ],
     "characters": {
         "CC": {
