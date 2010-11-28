@@ -17,6 +17,16 @@
 {% endfor %}
 </ul>
 {% endif %}
+
+{% if missions_coming_soon %}
+<h2>Coming Soon (with your help)</h2>
+<ul class="featured">
+  {% for mission in missions_coming_soon %}
+  <li>{% include "homepage/_feature.html" %}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
 {% if missions|featured:"False" %}
 <h2>All Missions</h2>
 <ul class="all">
