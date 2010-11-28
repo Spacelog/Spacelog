@@ -13,8 +13,10 @@ class TranscriptView(JsonTemplateView):
 
     def parse_mission_time(self, mission_time):
         "Parses a mission timestamp from a URL and converts it to a number of seconds"
-        d, h, m, s = [ int(x) for x in mission_time.split(':') ]
-        return s + m*60 + h*3600 + d*86400
+        # d, h, m, s = [ int(x) for x in mission_time.split(':') ]
+        # print mission_time
+        # return s + m*60 + h*3600 + d*86400
+        return timestamp_to_seconds( mission_time )
 
     def log_line_query(self):
         return LogLine.Query(self.request.redis_conn, self.request.mission.name)
