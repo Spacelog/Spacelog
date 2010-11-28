@@ -459,7 +459,14 @@
           "name": "Swim 2",
           "short_name": "Swim 2",
           "avatar": "blank_48.png"
+        },
+        "LCC": {
+          "role": "other",
+          "name": "Launch Control Center",
+          "short_name": "Launch Control",
+          "avatar": "blank_48.png"
         }
+
     },
     "glossary": {
         "AEA": {
