@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load missiontime %}
+{% load linkify %}
+{% load pauses %}
+
+{% block title %}500 Internal Server Error{% endblock %}
+{% block masthead %}{% endblock %}
+{% block content-class %}not_found{% endblock %}
+{% block content %}
+<h1>
+    Server Error.
+</h1>
+
+<h2>We've had an internal server error. Sorry about that; should be fixed soon.</h2>
+
+{% endblock %}
