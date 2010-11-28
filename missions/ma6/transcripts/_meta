@@ -61,6 +61,12 @@
     ],
     "key_scenes" : [
     ],
+    "homepage_quotes": [
+        "00:00:40:28",
+        "00:01:14:19",
+        "00:00:00:13",
+        "00:00:53:01"
+    ],
     "characters": {
         "CC": {
             "role": "astronaut",
