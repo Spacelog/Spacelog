@@ -4,6 +4,8 @@ import sys
 
 #MAX_FILE_NUMBER = 20
 MAX_FILE_NUMBER = 765
+TIMESTAMP_PARTS = 4
+
 errors = []
 valid_tec_speakers = (
     "AB",
@@ -26,6 +28,9 @@ valid_tec_speakers = (
     "S-2", 
     "SC", 
     "Music",
+    "P",
+    "G",
+    "SY"
 )
        
 def get_file_name_for(num):
@@ -36,6 +41,7 @@ def shred_to_lines(lines, pageNumber):
     tapeNumber = u""
         
     for line in lines:
+        line = line.decode('utf-8')
         if line.strip().startswith(u"Page"):
             pass
         elif line.strip().startswith(u"APOLLO 13 AIR-TO-GROUND VOICE TRANSCRIPTION"):
@@ -44,7 +50,7 @@ def shred_to_lines(lines, pageNumber):
             tapeNumber = line.lstrip(u"Tape ").strip()
         else:
             logLines.append(LogLine(pageNumber, tapeNumber, line))
-    
+
     return logLines
 
 def get_all_raw_lines(path, startNumber):
@@ -91,10 +97,16 @@ def get_seconds_from_mission_start(line):
 
 def translate_timestamp_to_seconds_from_mission_start(timestamp):
     values =  timestamp.split(u" ");
-    days = int(sterilize_token(values[0]))
-    hours = int(sterilize_token(values[1]))
-    minutes = int(sterilize_token(values[2]))
-    seconds = int(sterilize_token(values[3]))
+    i = 0
+    days = 0
+    if TIMESTAMP_PARTS > 3:
+        days = int(sterilize_token(values[i]))
+        i += 1
+    hours = int(sterilize_token(values[i]))
+    i += 1
+    minutes = int(sterilize_token(values[i]))
+    i += 1
+    seconds = int(sterilize_token(values[i]))
     
     return (seconds + (minutes * 60) + (hours * 60 * 60) + (days * 24 * 60 * 60))
 
@@ -103,15 +115,15 @@ def set_timestamp_speaker_and_text(line):
    
     line.set_seconds_from_mission_start(get_seconds_from_mission_start(line))
     
-    line.set_speaker(values[4])
+    line.set_speaker(values[TIMESTAMP_PARTS])
     
-    line.set_text(" ".join(values[5:]))
+    line.set_text(" ".join(values[TIMESTAMP_PARTS + 1:]))
 
 def line_is_a_new_entry(line):
     
-    dateTokens = line.raw.split(" ")[0:4]
-    
-    if len(dateTokens) < 4 :
+    dateTokens = line.raw.split(" ")[0:TIMESTAMP_PARTS]
+
+    if len(dateTokens) < TIMESTAMP_PARTS:
         return False
     
     for token in dateTokens:
@@ -128,7 +140,7 @@ def is_a_non_log_line(line):
 def translate_lines(translated_lines):
     translatedLines = []
     currentLine = None
-    
+
     for line in translated_lines:
         if line_is_a_new_entry(line):
             if currentLine != None:
