@@ -44,7 +44,7 @@ class TranscriptView(JsonTemplateView):
                 for s, t in log_line.lines
             ]
             # If this is the first after the start time, add an anchor later
-            if log_line.timestamp > timestamp_to_seconds(self.kwargs['start']) and not done_closest:
+            if log_line.timestamp > timestamp_to_seconds(self.kwargs.get('start', "00:00:00:00")) and not done_closest:
                 log_line.closest = True
                 done_closest = True
         # Find all media that falls inside this same range, and add it onto the preceding line.
