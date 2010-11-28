@@ -165,7 +165,7 @@
             "photo": "",
             "photo_width": 190,
             "photo_height": 155,
-            "avatar": "CC_48.png",
+            "avatar": "capcom_generic.png",
             "shifts": [
               ["JOE_KERWIN", "-00:01:00:00", "strictly, only Kerwin, Brand and Lousma were taking shifts (AFAICT), however other astronauts come on as CAPCOM in the original transcript, and we use the shift mechanism to display that properly"],
               ["VANCE_BRAND", "00:07:09:09"],
@@ -237,7 +237,7 @@
           "photo": "lovell.png",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "lovell_48.png",
+          "avatar": "jim_lovell.jpg",
           "stats": [
             {
                 "value": 715,
@@ -263,7 +263,7 @@
           "photo": "haise.png",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "haise_48.png",
+          "avatar": "fred_haise.png",
           "stats": [
             {
                 "value": 142,
@@ -289,7 +289,7 @@
           "photo": "swigert.png",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "swigert_48.png",
+          "avatar": "jack_swigert.jpg",
           "stats": [
             {
               "value": 142,
@@ -315,7 +315,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "CC_48.png"
+          "avatar": "charlie_duke.jpg"
         },
         "KEN_MATTINGLY": {
           "role": "mission-ops",
@@ -326,7 +326,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "CC_48.png"
+          "avatar": "tom_ken_mattingly.jpg"
         },
         "VANCE_BRAND": {
           "role": "mission-ops",
@@ -337,7 +337,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "CC_48.png"
+          "avatar": "vance_brand.jpg"
         },
         "JACK_LOUSMA": {
           "role": "mission-ops",
@@ -348,7 +348,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "CC_48.png"
+          "avatar": "jack_lousma.jpg"
         },
         "JOE_KERWIN": {
           "role": "mission-ops",
@@ -359,7 +359,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "CC_48.png"
+          "avatar": "joe_kerwin.jpg"
         },
         "TOM_STAFFORD": {
           "role": "mission-ops",
@@ -370,7 +370,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "CC_48.png"
+          "avatar": "tom_stafford.jpg"
         },
         "DEKE_SLAYTON": {
           "role": "mission-ops",
@@ -381,7 +381,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "CC_48.png"
+          "avatar": "deke_slayton.jpg"
         },
         "GENE_KRANZ": {
           "role": "mission-ops",
@@ -392,7 +392,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "CC_48.png"
+          "avatar": "gene_kranz.jpg"
         },
         "SC": {
           "role": "other",
