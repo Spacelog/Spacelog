@@ -85,6 +85,7 @@ TEMPLATE_LOADERS = (
 
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
+    'homepage.middleware.HoldingMiddleware',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
