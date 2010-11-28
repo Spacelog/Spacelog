@@ -6,7 +6,23 @@
         "title": "Mercury 6",
         "upper_title": "Mercury",
         "lower_title": "6",
-        "description": "The 1962 Mercury mission that made pilot John Glenn the first American to reach Earth orbit, with three orbits before re-entry."
+        "description": "The 1962 Mercury mission that made pilot John Glenn the first American to reach Earth orbit, with three orbits before re-entry.",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+            "David Brownlee",
+            "Russ Garrett"
+        ],
+        "about": "John Glenn got in rocket. John Glenn got out of rocket. John Glenn got in rocket. John Glenn got out of rocket. Rinse, repeat. On the last cycle, fire the rocket.\n\nThis site allows you to explore transcripts of radio communications between John Glenn aboard Friendship 7 and the NASA personnel at monitoring stations around the world, along with photographs taken both from the ground and by Glenn in space.",
+        "image_attributions": [
+            { "url": "#TODO", "title": "Earth rising", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
+            { "url": "#TODO", "title": "Moon rising", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
+            { "url": "#TODO", "title": "Satellite", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
+            { "url": "#TODO", "title": "Launch", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
+            { "url": "#TODO", "title": "Under the Moon", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
+            { "url": "#TODO", "title": "Parachute landing", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
+            { "url": "#TODO", "title": "Earth from space", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" }
+        ],
+        "call_signs": "When only the CSM (Command and Service Module pairing) is manned, its call sign is Apollo 13. When both the Control and Lunar Modules are manned, the CM's call sign is Odyssey, and the LM's call sign is Aquarius. The call sign for <a href='/people/#capcom'>CAPCOM</a> is Houston."
     },
     "image": "/assets/img/badge_m6.png",
     "main_transcript": "ma6/TEC",
@@ -20,22 +36,22 @@
         },
         {
             "title": "First Orbit",
-            "description": "Leaving the earth!",
+            "description": "Round one!",
             "range": ["00:00:05:04", "00:01:32:50"]
         },
         {
             "title": "Second Orbit",
-            "description": "Leaving the earth!",
+            "description": "Round two!",
             "range": ["00:01:32:50", "00:03:07:03"]
         },
         {
             "title": "Third Orbit",
-            "description": "Leaving the earth!",
+            "description": "Round three!",
             "range": ["00:03:07:03", "00:04:32:39"]
         },
         {
             "title": "Reentry",
-            "description": "Leaving the earth!",
+            "description": "Safely back home.",
             "range": ["00:04:32:39", "00:05:05:11"]
         }
 

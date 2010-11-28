@@ -6,16 +6,11 @@
 {% block content %}
   <h1>Based on the original transcript</h1>
   <div id='coverpage'>
-    <img src='/assets/missions/a13/images/original/TEC/1.png'>
-    <a href='/original/1/'>View this page in the original transcript</a>
+    <img src='/assets/missions/{{ mission.name }}/images/original/TEC/1.png'>
+    <a href='{% url original 1 %}'>View this page in the original transcript</a>
   </div>
 
-  <p>
-When Apollo 13 launched from Kennedy Space Centre in Florida on Saturday 11th April 1970, no one involved could have anticipated that, far from a smooth third Moon landing, the journey would revolve around an explosion in the Service Module, which turned the mission into one of the most famous of not only the Apollo program but of human space exploration in the 20th century.
-</p>
-<p>
-This site allows you to explore transcripts of radio communications between the Apollo 13 crew and the NASA personnel back at Houston, along with photographs taken both from the ground and by the crew in space, as well as other information about the mission, the problems that occurred, and the measures that were taken, both on ground and in the Command and Lunar Modules that made up the crew areas of Apollo 13.
-  </p>
+{{ mission.copy.about|linebreaks }}
   
   <h2>How the site works</h2>
   <p>
@@ -26,9 +21,11 @@ The main textual content of this site comes from a transcript of radio communica
 Each line starts with a timestamp, in Ground Elapsed Time, which is the time (in days, hours, minutes and seconds) since ignition; photographs are shown inline at a suitable place. You can navigate through the transcript using the <a href='/phases/'>phases</a> of the mission, and key scenes within them, or search for <a href='/search/?q=reentry'>things that might interest you</a> using the box at the top of the page. While browsing through the transcript, there are also links that take you to the same place in the original typescript.
 </p>
 
-<h3>Call signs</h3>
+{% if mission.copy.call_signs %}
+  <h3>Call signs</h3>
 
-<p>When only the CSM (Command and Service Module pairing) is manned, its call sign is Apollo 13. When both the Control and Lunar Modules are manned, the CM's call sign is Odyssey, and the LM's call sign is Aquarius. The call sign for <a href='/people/#capcom'>CAPCOM</a> is Houston.</p>
+  {{ mission.copy.call_signs|safe|linebreaks }}
+{% endif %}
 
   <h2>You can help</h2>
   <p>
@@ -60,9 +57,7 @@ This site can be improved, and you can help &mdash; whether by correcting remain
       </ul>
       <h3>Data cleanup</h3>
       <ul><!-- FIXME: for MA6 it's just Russ & David -->
-        {% for leon in cleaners %}
-          <li>{{ leon }}</li>
-        {% endfor %}
+        {% for leon in mission.copy.cleaners %}<li>{{ leon }}</li>{% endfor %}
       </ul>
       <p>A <a href='http://devfort.com/'>/dev/fort</a> production; our work is available under the <a href='#TODO'>CC-0</a> license.</p>
     </div>
@@ -72,16 +67,14 @@ This site can be improved, and you can help &mdash; whether by correcting remain
       <p><a href='#TODO'>League Gothic</a></p>
       <h3>Icons</h3>
       <p>Joseph Wain of <a href='http://glyphish.com/'>glyphish.com</a></p>
-      <h3>Images</h3>
-      <ul>
-        <li><a href='#TODO'>Earth rising</a> by <a href='#TODO'>NASA's Marshall Space Flight Centre</a> CC [check attrib]</li>
-        <li><a href='#TODO'>Moon rising</a> by <a href='#TODO'>NASA's Marshall Space Flight Centre</a> CC [check attrib]</li>
-        <li><a href='#TODO'>Satellite</a> by <a href='#TODO'>NASA's Marshall Space Flight Centre</a> CC [check attrib]</li>
-        <li><a href='#TODO'>Launch</a> by <a href='#TODO'>NASA's Images</a> CC [check attrib]</li>
-        <li><a href='#TODO'>Under the Moon</a> by <a href='#TODO'>NASA's Images</a> CC [check attrib]</li>
-        <li><a href='#TODO'>Parachute landing</a> by <a href='#TODO'>NASA's Images</a> CC [check attrib]</li>
-        <li><a href='#TODO'>Earth from space</a> by <a href='#TODO'>NASA's Images</a> CC [check attrib]</li>
-      </ul>
+      {% if mission.copy.image_attributions %}
+        <h3>Images</h3>
+        <ul>
+          {% for image in mission.copy.image_attributions %}
+            <li><a href='{{ image.url }}'>{{ image.title }}</a> by <a href='{{ image.attrib_url }}'>{{ image.attrib }}</a> {{ image.license }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </div>
   </div>
 {% endblock %}
