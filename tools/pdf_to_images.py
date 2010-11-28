@@ -3,10 +3,12 @@ import os
 import subprocess
 import sys
 
+OPTIMISE_IMAGES = False
+
 if len(sys.argv) < 2:
     print >>sys.stderr, "Usage: python pdf_to_images.py [pdf file]"
     print >>sys.stderr
-    print >>sys.stderr, "Converts a PDF into a directory full of PNGs. Requires ImageMagick. & optipng"
+    print >>sys.stderr, "Converts a PDF into a directory full of PNGs. Requires ImageMagick and optipng."
     sys.exit(1)
 
 pdf_file = sys.argv[1]
@@ -27,18 +29,19 @@ while True:
     ])
     if exit_code != 0:
         break
-
-    # This usually takes many times longer than the extract
-    print "Optimising %s..." % png_file
-    subprocess.call([
-	'optipng',
-	'-q',
-	'-o7',
-	png_file,
-    ])
-    if exit_code != 0:
-	print >>sys.stderr, "optipng failed"
-	sys.exit(1)
+    
+    if OPTIMISE_IMAGES:
+        # This usually takes many times longer than the extract
+        print "Optimising %s..." % png_file
+        subprocess.call([
+            'optipng',
+            '-q',
+            '-o7',
+            png_file,
+        ])
+        if exit_code != 0:
+            print >>sys.stderr, "optipng failed"
+            sys.exit(1)
 
     page += 1
 
