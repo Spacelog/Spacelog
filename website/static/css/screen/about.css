@@ -1,92 +1,109 @@
-.about {
-    padding-top:            20px;
+/* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*- */
+
+#content.about .wrapper {
+    padding-left:           320px;
+    width:                  620px; // 940 - 320
+    
+    padding-top:            40px;
+    padding-bottom:         80px;
+    position:               relative;
 }
 
-.about h1 {
-    font-size:              32px;
-    margin-left: 345px;
-    font-weight: bold;
+#coverpage {
+    position:               absolute;
+    top:                    50px;
+    left:                   0;
+    width:                  280px;
+    text-align:             center;
+}
+#coverpage img {
+    border:                 5px solid #999;
+    margin-bottom:          1.5em;
+    display:                block;
+}
+#coverpage a {
+    text-decoration:        none;
+    font-size:              12px;
+}
+#coverpage a:hover,
+#coverpage a:focus {
+    text-decoration:        underline;
 }
 
-.about #coverpage img {
-    display: block;
-    width: 300px;
-    border: 5px solid gray;
-    margin: -32px 0 0 0;
+#content.about h1 {
+    font-size:              3em;
+    font-weight:            bold;
+    line-height:            1.1;
+    margin-bottom:          1em;
+}
+#content.about p {
+    margin:                 1em 0;
+    line-height:            1.4;
+}
+#content.about h2 {
+    font-weight:            bold;
+    font-size:              1.5em;
+    margin:                 2em 0 1em;
+}
+#content.about h3 {
+    font-weight:            bold;
+    font-size:              1.2em;
 }
 
-.about #coverpage {
-    float: left;
-    margin: 0 35px 0 0;
+#how-this-was-made {
+    background-color:       #232323;
+    border-top:             1px solid #424242;
+    font-size:              0.875em;
+    margin-left:            -320px;
+    width:                  940px;
 }
 
-.about #coverpage a {
-    font-weight: bold;
-    font-size: 12px;
-    text-align: center;
-    display: block;
-    margin: 25px 0 0 0;
+#how-this-was-made #team,
+#how-this-was-made #colophon {
+    float:                  left;
+    width:                  430px; // FIXME: correct pixel width would help
+    padding:                10px 20px;
 }
 
-.about p {
-    margin-left: 345px;
-    margin-bottom: 12px;
+#content.about #how-this-was-made h2 {
+    font-size:              2em;
+    font-weight:            bold;
+    border-bottom:          1px solid #333;
+    margin:                 0.5em 0 1em 0;
+    padding-bottom:         0.5em;
 }
 
-.about h2,
-.about h3 {
-    font-weight: bold;
-    margin-left: 345px;
-    margin-bottom: 12px;
+#how-this-was-made h3 {
+    font-weight:            bold;
+    margin:                 1.5em 0 0.25em;
 }
 
-.about #how-this-was-made {
-    background-color: #111;
-    border-top: 1px solid #333;
-    font-size: 12px;
+#how-this-was-made h3:after {
+    content:                ":";
 }
 
-.about #how-this-was-made #team,
-.about #how-this-was-made #colophon {
-    float: left;
-    width: 430px; /* FIXME: correct pixel width would help */
-    padding: 10px 20px;
+#how-this-was-made #team li {
+    display:                inline;
+    line-height:            1.5;
 }
 
-.about #how-this-was-made h2 {
-    font-size:              32px;
-    font-weight: bold;
-    border-bottom: 1px solid #333;
-    margin: 0 0 30px 0;
-    padding-bottom: 15px;
+#team li + li:before {
+    content:                ", ";
 }
 
-.about #how-this-was-made h3 {
-    font-weight: bold;
-    margin: 0;
+#how-this-was-made p,
+#how-this-was-made ul {
+    margin-bottom:          12px;
 }
 
-.about #how-this-was-made h3:after {
-    content: ":";
+#content.about #how-this-was-made p {
+    margin:                 0;
 }
 
-.about #team li {
-    display: inline;
-}
-
-.about #team li + li:before {
-    content: ", ";
-}
-
-.about #how-this-was-made p,
-.about #how-this-was-made ul {
-    margin-bottom: 12px;
-}
-
-.about #how-this-was-made p {
-    margin-left: 0;
-}
-
-.about #how-this-was-made {
+#how-this-was-made {
     -cp-contain:            easy;
+}
+
+#how-this-was-made #colophon li {
+    line-height:            1.5;
 }

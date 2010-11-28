@@ -6,8 +6,11 @@
 {% block content %}
   <h1>Based on the original transcript</h1>
   <div id='coverpage'>
-    <img src='/assets/missions/{{ mission.name }}/images/original/TEC/1.png'>
-    <a href='{% url original 1 %}'>View this page in the original transcript</a>
+    <a href='{% url original 1 %}'>
+      <img src='/assets/missions/{{ mission.name }}/images/original/TEC/1.png'
+           width='270' alt=''>
+      View this page in the original transcript
+    </a>
   </div>
 
 {{ mission.copy.about|linebreaks }}
@@ -38,7 +41,7 @@ This site can be improved, and you can help &mdash; whether by correcting remain
       <h2>The Team</h2>
       <h3>Product</h3><!-- Chiefs of the Astronaut Office -->
       <ul>
-        <li><a href='http://russ.garrett.co.uk'>Russ Garrett</a></li><li><a href='http://mattogle.com/'>Matt Ogle</a></li>
+        <li><a href='http://russ.garrett.co.uk/'>Russ Garrett</a></li><li><a href='http://mattogle.com/'>Matt Ogle</a></li>
       </ul>
       <h3>Design</h3><!-- Flight crew -->
       <ul>
@@ -51,7 +54,7 @@ This site can be improved, and you can help &mdash; whether by correcting remain
          --><li><a href='http://georgebrock.com/'>George Brocklehurst</a></li><!-- Engineering
          --><li><a href='http://www.absd.org/'>David Brownlee</a></li><!-- Guidance
          --><li><a href='http://benfirshman.com/'>Ben Firshman</a></li><!-- FLIGHT
-         --><li><a href='#TODO'>Mark Norman Francis</a></li><!-- Mission Director
+         --><li><a href='http://marknormanfrancis.com/'>Mark Norman Francis</a></li><!-- Mission Director
          --><li><a href='http://www.aeracode.org/'>Andrew Godwin</a></li><!-- Engineering
           --><li><a href='http://nascentguruism.com/'>Steve Marshall</a></li><!-- FLIGHT -->
       </ul>
@@ -63,8 +66,8 @@ This site can be improved, and you can help &mdash; whether by correcting remain
     </div>
     <div id='colophon'>
       <h2>Colophon</h2>
-      <h3>Typface</h3>
-      <p><a href='#TODO'>League Gothic</a></p>
+      <h3>Typeface</h3>
+      <p><a href='http://kernest.com/league-gothic'>League Gothic</a></p>
       <h3>Icons</h3>
       <p>Joseph Wain of <a href='http://glyphish.com/'>glyphish.com</a></p>
       {% if mission.copy.image_attributions %}
