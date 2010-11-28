@@ -190,9 +190,21 @@ sub process {
         my $fix      = 0;
         my $txt      = $line;
 
-        setup_valid_speakers($1)          if $line =~ /Speakers:\s+(.*)/;
-        setup_log_timestamp_format($1)    if $line =~ /LogTimestamp:\s+(.*)/;
-        setup_inline_timestamp_format($1) if $line =~ /InlineTimestamp:\s+(.*)/;
+        if ( $line =~ /Speakers:\s+(.*)/ ) {
+            setup_valid_speakers($1);
+            $cleandata .= $line;
+            next;
+        }
+        if ( $line =~ /LogTimestamp:\s+(.*)/ ) {
+            setup_log_timestamp_format($1);
+            $cleandata .= $line;
+            next;
+        }
+        if ( $line =~ /InlineTimestamp:\s+(.*)/ ) {
+            setup_inline_timestamp_format($1);
+            $cleandata .= $line;
+            next;
+        }
 
         if ( @words > $log_timestamp_elements ) {
             for ( my $i = 0 ; $i < $log_timestamp_elements ; ++$i ) {
@@ -247,7 +259,10 @@ sub process {
                         push( @fail, 'norm-eat-bacon' );
                         $x_last_bacon = $now;
                     }
-                    if ( $hour > 20 && $hour <= 23 && $txt =~ /battery/i ) {
+                    if (   $hour > 20
+                        && $hour <= 23
+                        && $txt =~ /battery/i )
+                    {
                         push( @fail, 'matt-writes-a-new-song' );
                     }
                     if ( $hour > 20 && $txt =~ /charge/i ) {
@@ -262,7 +277,8 @@ sub process {
 
                 }
                 if ( defined $now ) {
-                    push( @fail, 'timewarp:' . timefmt($last) ) if $now < $last;
+                    push( @fail, 'timewarp:' . timefmt($last) )
+                      if $now < $last;
                     $last = $now;
                 }
             }
@@ -292,19 +308,20 @@ sub process {
 
         push( @fail, 'badchar' )
           if my (@badchar) =
-              $line =~ /[^\-\t ._,A-Za-z0-9"'\?:\[\]<!&>;\/\n\(\)\*é°#]/;
+              $line =~ /[^\-\t ._,A-Za-z0-9"'\?:\[\]<!&>;\/\n\(\)\*é°¼#]/;
 
         push( @fail, 'j-grows-up-so-fast' )
           if $txt =~
-/[^.\?"][ ]+J(?!ack|im|oe|ohn|ames|ay|ustice|ohannesburg|ETT|ETS|r\.)[^A-Z]/;
+/[^.\?"][ ]+J(?!ack|im|oe|ohn|ames|ay|ustice|ohannesburg|ettison|ETT|ETS|r\.)[^A-Z]/;
         push( @fail, 'noleet-0-please' )
           if $txt =~ /([A-Za-z]0[A-Za-z\s]|[A-Za-z\s]0[A-Za-z])/;
-        push( @fail, '2B-or-not-2B-13' )       if $txt =~ /\b[1l]B\b/;
+        # push( @fail, '2B-or-not-2B-13' )       if $txt =~ /\b[1l]B\b/;
         push( @fail, 'CB(11)-please' )         if $txt =~ /CB\([iI]{2}\)/;
         push( @fail, 'doh-ray-me-fa-so-la' )   if $txt =~ /\blA\b/;
         push( @fail, 'doubleplus-lonely-l' )   if $txt =~ /\b[^\w']ll\b/;
         push( @fail, 'ellipsis-needs-a-diet' ) if $txt =~ /\.\.\.\./;
-        push( @fail, 'geoff-minter-alert' )    if $txt =~ /[^A-Z][a-z][A-Z]/;
+        push( @fail, 'geoff-minter-alert' )
+          if $txt =~ /(\w*[^A-Z][a-z][A-Z]\w*)/ && $1 ne 'CapCom';
         push( @fail, 'ail-the-single-ladies' ) if $txt =~ /\bail\b/i;
         push( @fail, 'hyphen-icide' )          if $txt =~ /[a-z]-$/;
         push( @fail, 'less-ls-more-1s' )       if $txt =~ /(l\d|\dl)/;
@@ -313,9 +330,10 @@ sub process {
         push( @fail, 'please-flush' )          if $txt =~ /\b(po0|p0o)\b/i;
         push( @fail, 'plunger-00-needed' )     if $txt =~ /\bPOO\b/;
         push( @fail, 'stu-tts-ers' )           if $txt =~ /tts\b/;
-        push( @fail, 't-is-such-a-lonely-number' ) if $txt =~ /[^']\bt\b/;
-        push( @fail, 'underscore' )                if $txt =~ /_/;
-        push( @fail, 'we-tlave-a-floblem' )        if $txt =~ /[^H]ouston/;
+        push( @fail, 't-is-such-a-lonely-number' )
+          if $txt =~ /[^'.]\bt\b/;
+        push( @fail, 'underscore' )         if $txt =~ /_/;
+        push( @fail, 'we-tlave-a-floblem' ) if $txt =~ /[^H]ouston/;
 
         @fail = grep ( /^$report_fail/, @fail ) if $report_fail;
         if (@fail) {
@@ -331,7 +349,8 @@ sub process {
     if ($output_dir) {
         $file =~ m#([^/]+)$#;
         my $outfile = "$output_dir/$1";
-        open( OUTFILE, ">$outfile" ) || die "Unable to write $outfile: $!";
+        open( OUTFILE, ">$outfile" )
+          || die "Unable to write $outfile: $!";
         print OUTFILE $cleandata;
         close(OUTFILE);
     }
