@@ -50,7 +50,7 @@
       <dd class='{% pause_class log_line.following_silence %}'>
       <p>
         {% if log_line.first_in_key_scene %}
-        <em><span>Start of </span>key scene<span>: </span></em>
+        <em>{{ log_line.key_scene.title }}<span>: </span></em>
         {% endif %}
         <a href='{% selection_url log_line.timestamp %}'>{{text|linkify|safe}}</a></p>
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
