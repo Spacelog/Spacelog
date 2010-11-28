@@ -55,12 +55,12 @@ def get_all_raw_lines(path, startNumber):
     
     while file_number <= MAX_FILE_NUMBER:
         filename = get_file_name_for(file_number)
-        try:    
+        try:
             file = open(path + filename, "r")
             file_lines = file.readlines()
             shredded_lines = shred_to_lines(file_lines, file_number)
             translated_lines.extend(shredded_lines)
-        except:
+        except IOError:
             missing_files.append(filename)
         finally:    
             file_number = file_number + 1                 
@@ -284,7 +284,7 @@ if __name__ == "__main__":
     allRawLines = get_all_raw_lines(file_path, file_number)
     
     translated_lines = translate_lines(allRawLines)
-    
+
     check_lines_are_in_sequence(translated_lines)
     
     amalgamated_lines = amalgamate_lines_by_timestamp(translated_lines)
