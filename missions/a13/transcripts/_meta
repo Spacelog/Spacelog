@@ -168,9 +168,9 @@
             "name": "Capsule Communicator",
             "short_name": "CapCom",
             "bio": "Throughout the Apollo Space Program, the CAPCOM was another astronaut who was the main person to communicate with the crew, as it was considered that someone who had that training would be best able to clearly pass information back and forth. On Apollo 13, there were three CAPCOMs operating in shifts.",
-            "photo": "",
+            "photo": "capcom.jpg",
             "photo_width": 190,
-            "photo_height": 155,
+            "photo_height": 205,
             "avatar": "capcom_generic.png",
             "shifts": [
               ["JOE_KERWIN", "-00:01:00:00", "strictly, only Kerwin, Brand and Lousma were taking shifts (AFAICT), however other astronauts come on as CAPCOM in the original transcript, and we use the shift mechanism to display that properly"],
@@ -218,9 +218,9 @@
             "name": "Flight Director",
             "short_name": "Flight",
             "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. On Apollo 13, there were four FLIGHT teams operating in shifts. Shift changes are occasionally noted in the transcript.",
-            "photo": "",
+            "photo": "flight_directors.jpg",
             "photo_width": 190,
-            "photo_height": 155,
+            "photo_height": 205,
             "avatar": "F_48.png",
             "shifts": [
               ["F", "-00:01:00:00", "what we're trying to do here is to identify flight directors as F, but note where Deke Slayton was marked in the original transcript separately; this means that every Deke interjection is surrounded by a chunk ascribed to F even if there are no loglines during that period"],
@@ -318,7 +318,7 @@
           "short_name": "Charlie Duke",
           "mission_position": "Backup crew",
           "bio": "Lunar Module Pilot on the backup crew for Apollo 13, Charlie Duke had previously been CAPCOM during the Apollo 11 lunar landing. An interceptor pilot before joining the NASA astronaut program in 1966, he went on to be Lunar Module Pilot for Apollo 16, with a record lunar stay of 71 hours 41 minutes along with commander John Young.",
-          "photo": "",
+          "photo": "charlie_duke.jpg",
           "photo_width": 190,
           "photo_height": 155,
           "avatar": "charlie_duke.jpg"
@@ -329,10 +329,10 @@
           "short_name": "Ken Mattingly",
           "mission_position": "Backup crew",
           "bio": "A US Navy pilot, Mattingly was originally slated to be Command Module Pilot for Apollo 13, but was swapped with Jack Swigert after concerns over an outbreak of rubella. He went on to fly on Apollo 16, before commanding the Space Shuttle Columbia on her final test flight, and later Discovery, before moving to Lockheed Martin to head up the X-33 program for a next generation re-usable launch vehicle.",
-          "photo": "",
+          "photo": "ken_mattingly.jpg",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "tom_ken_mattingly.jpg"
+          "avatar": "ken_mattingly.jpg"
         },
         "VANCE_BRAND": {
           "role": "mission-ops",
@@ -340,7 +340,7 @@
           "short_name": "Vance Brand (CAPCOM)",
           "mission_position": "CAPCOM",
           "bio": "A former fighter and test pilot who joined the astronaut program in 1966, Vance Brand went on to fly on the Apollo-Soyuz Test Project, and was commander of the Space Shuttle Columbia for her first fully operational flight and later her first flight dedicated to astronomy.",
-          "photo": "",
+          "photo": "vance_brand.jpg",
           "photo_width": 190,
           "photo_height": 155,
           "avatar": "vance_brand.jpg"
@@ -351,7 +351,7 @@
           "short_name": "Jack Lousma (CAPCOM)",
           "mission_position": "CAPCOM",
           "bio": "A USMC attack pilot before joining the astronaut program, Jack Lousma went on to pilot Skylab 3, and was commander of the Space Shuttle Columbia during her third flight test in 1982.",
-          "photo": "",
+          "photo": "jack_lousma.jpg",
           "photo_width": 190,
           "photo_height": 155,
           "avatar": "jack_lousma.jpg"
@@ -362,7 +362,7 @@
           "short_name": "Joe Kerwin (CAPCOM)",
           "mission_position": "CAPCOM",
           "bio": "A naval flight surgeon, and one of NASA's first scientist-astronauts, after Apollo 13 Joe Kerwin was science-pilot for Skylab 2, and subsequently held various astronaut office and science roles at NASA.",
-          "photo": "",
+          "photo": "joe_kerwin.jpg",
           "photo_width": 190,
           "photo_height": 155,
           "avatar": "joe_kerwin.jpg"
@@ -373,7 +373,7 @@
           "short_name": "Tom Stafford",
           "mission_position": "Chief of the Astronaut Office",
           "bio": "A test pilot and flight test trainer, Tom Stafford was instrumental to developing the theoretical underpinnings of the Apollo lunar missions, both working on the techniques and flying missions for the first space rendezvous, the first lunar orbit abort rendezvous, and commanding Apollo 10, which ran through the entire lunar landing mission except for the lunar landing itself, including the first flight and rendezvous with the lunar module during lunar orbit.",
-          "photo": "",
+          "photo": "tom_stafford.jpg",
           "photo_width": 190,
           "photo_height": 155,
           "avatar": "tom_stafford.jpg"
@@ -384,7 +384,7 @@
           "short_name": "Deke Slayton",
           "mission_position": "Director of Flight Crew Operations",
           "bio": "A member of the first NASA group of astronauts, assembled in 1959 for the Mercury Program, Slayton didn't fly until the Apollo-Soyuz Test Project in 1975 (at which time he was the oldest person to fly in space). From 1963 until 1972 he served as Director of Flight Crew Operations, and after Apollo-Soyuz was Head of the Shuttle Approach & Landing Tests Program.",
-          "photo": "",
+          "photo": "deke_slayton.jpg",
           "photo_width": 190,
           "photo_height": 155,
           "avatar": "deke_slayton.jpg"
@@ -395,7 +395,7 @@
           "short_name": "Gene Kranz",
           "mission_position": "Flight Director (White shift)",
           "bio": "A former USAF pilot, Gene Kranz worked at McDonnell Aircraft before moving to the NASA Space Task Group where he was Mission Control procedures office for early Mercury flights including the first American in space and the first American orbit of the Earth. By the time of the Apollo Program, he was an experienced flight director whose team was on duty during the Apollo 11 lunar landing and the explosion in Apollo 13's Service Module. His last shift for NASA before retirement was for Shuttle mission STS-61, repairing the Hubble Space Telescope, in 1993.",
-          "photo": "",
+          "photo": "gene_kranz.jpg",
           "photo_width": 190,
           "photo_height": 155,
           "avatar": "gene_kranz.jpg"
