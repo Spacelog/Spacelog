@@ -798,6 +798,12 @@
         },
         "UHT": {
             "description": "Universal handtool"
+        },
+        "MILA": {
+            "description": "Meritt Island Launch Area tracking station"
+        },
+        "S-IVB": {
+            "description": "Saturn V Third Stage"
         }
     },
     "error_pages": {
