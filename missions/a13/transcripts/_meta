@@ -13,7 +13,7 @@
     "acts" : [
         {
             "title": "Launch",
-            "description": "Leaving the earth!",
+            "description": "During takeoff the crew sat inside Odyssey, Apollo 13's Command Module, on top of the Saturn V rocket. As fuel was burnt up, the first two stages of the Saturn V were jettisoned and fell back to Earth along with the abort tower.",
             "range": ["-00:00:00:20", "00:00:12:00"],
             "banner": "act1.jpg",
             "banner_class": "blue",
@@ -21,36 +21,36 @@
         },
         {
             "title": "Earth orbit",
-            "description": "The rocket go boom. Sadface.",
+            "description": "When Apollo 13 reached Earth orbit, it was still attached to part of the Saturn V rocket (the S-IVB ‘ess-four-bee’ stage). Two hours later, the S-IVB's engine was restarted to propel the spacecraft out of orbit and onto a course towards the Moon.",
             "range": ["00:00:12:00", "00:02:41:00"],
             "banner": "act2.png",
             "orbital": "act2.png"
         },
         {
             "title": "To the Moon",
-            "description": "",
+            "description": "Once Apollo 13 was on its way to the Moon, the crew jettisoned the remaining part of the Saturn V rocket. They then detached the Lunar Module from the back of the Service Module and docked it to the front of the Command Module so they could crawl through into it. After the Oxygen tank explosion in the Service Module, the crew started working out of the Lunar Module, Aquarius, using it as a ‘lifeboat’.",
             "range": ["00:02:41:00", "03:07:27:00"],
             "banner": "act3.png",
             "orbital": "act3.png"
         },
         {
             "title": "Towards Earth",
-            "description": "",
+            "description": "On the way home to Earth, Apollo 13's crew spent most of their time cramped in the Lunar Module. Because of the oxygen tank explosion in phase 3, they were running out of air to breathe, and had to ‘scrub’ their air clean with materials they could salvage from the Lunar Module.",
             "range": ["03:07:27:00", "05:17:23:00"],
             "banner": "act4.png",
             "orbital": "act4.png"
         },
         {
-            "title": "Re-entry",
-            "description": "",
+            "title": "Reentry",
+            "description": "Before entering the Earth’s atmosphere, the crew moved back into Odyssey, the heat-resistant Command Module, and jettisoned first the Service Module, and then their Lunar Module (which never got to land on the Moon).",
             "range": ["05:17:23:00", "05:22:38:36"],
             "banner": "act5.jpg",
             "orbital": "act5.png"
         },
         {
             "comment": "end point (05:22:55:21) is one second after the 'end of mission' marker, which is after all end photos",
-            "title": "Splash-down",
-            "description": "",
+            "title": "Splashdown",
+            "description": "After a tense ten minutes of communication loss as Odyssey re-entered Earth's atmosphere, the parachutes opened and the Command Module splashed down into the South Pacific. A US Navy ship and helicopters were awaiting Lovell, Haise and Swigert to pick them up and bring them safely home.",
             "range": ["05:22:38:36", "05:22:55:21"],
             "banner": "act6.jpg",
             "orbital": "act6.png"
