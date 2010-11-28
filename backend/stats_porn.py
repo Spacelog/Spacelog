@@ -72,10 +72,10 @@ class StatsPornGenerator(object):
                 bar_width = 6
                 bar_spacing = 4
 
-                top_left_x     = i * (bar_width + bar_spacing)
-                top_left_y     = self.max_bar_height - height
+                top_left_x     = i * (bar_width + bar_spacing) + 2
+                top_left_y     = self.max_bar_height - height + 14
                 bottom_right_x = top_left_x + bar_width
-                bottom_right_y = self.max_bar_height
+                bottom_right_y = self.max_bar_height + 14
 
                 draw_commands.append('-draw')
                 draw_commands.append('rectangle %s,%s,%s,%s' % (top_left_x, top_left_y, bottom_right_x, bottom_right_y))
@@ -95,8 +95,8 @@ class StatsPornGenerator(object):
             for i, key_scene in enumerate(act.key_scenes()):
                 print '     - %s' % key_scene.title
 
-                top_left_x =     int((self.graph_background_width / float(act_duration)) * (key_scene.start - act.start))
-                top_left_y =     self.max_bar_height + 5
+                top_left_x =     int((self.graph_background_width / float(act_duration)) * (key_scene.start - act.start)) + 2
+                top_left_y =     self.max_bar_height + 5 + 14
                 bottom_right_x = top_left_x + 20
                 bottom_right_y = top_left_y + 20
                 marker_image =   self.key_scene_marker_files % (i+1)
