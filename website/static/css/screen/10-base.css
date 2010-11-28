@@ -73,6 +73,11 @@ a.big-blue-button-thing,
                                 from(#00aad3),
                                 to(#037a97)
                             );
+    background:             -moz-linear-gradient(top,#00aad3,#037a97);
+    *filter: progid:DXImageTransform.Microsoft.gradient(
+                                startColorstr='#00aad3',
+                                endColorstr='#037a97'
+                            );
 }
 @font-face {
     font-family:            'League Gothic';

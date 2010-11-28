@@ -56,6 +56,10 @@
                               to(#282828)
                           );
   background:             -moz-linear-gradient(top,#373636,#282828);
+  *filter: progid:DXImageTransform.Microsoft.gradient(
+                              startColorstr='#373636',
+                              endColorstr='#282828'
+                          );
 }
 
 .phase .navigation li.selected strong {
@@ -69,6 +73,10 @@
                               to(black)
                           );
   background:             -moz-linear-gradient(top,#191919,black);
+  *filter: progid:DXImageTransform.Microsoft.gradient(
+                              startColorstr='#191919',
+                              endColorstr='#000'
+                          );
 }
 /* -- */
 
@@ -120,6 +128,10 @@
                               to(#037c99)
                           );
   background:             -moz-linear-gradient(top,#037c99,#037c99);
+  *filter: progid:DXImageTransform.Microsoft.gradient(
+                              startColorstr='#037c99',
+                              endColorstr='#037c99'
+                          );
 }
 /* -- */
 
