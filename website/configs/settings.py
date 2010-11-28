@@ -109,3 +109,5 @@ INSTALLED_APPS = (
     'transcripts',
     'search',
 )
+
+PROJECT_HOME = "http://artemisproject.com/"
