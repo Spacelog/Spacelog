@@ -29,7 +29,8 @@ in a processed TEC transcript.
     exit;
 }
 
-warn "Will create broken marked up links for entries containing <sub>, and will add glossary links to already marked up text";
+warn
+"Will create broken marked up links for entries containing <sub>, and will add glossary links to already marked up text";
 foreach my $dir (@ARGV) {
     process($dir);
 }
@@ -47,7 +48,6 @@ sub load_meta {
     my $json = JSON->new->allow_nonref;
     my $meta = $json->decode($json_text);
     $glossary = $meta->{glossary};
-
 }
 
 sub load_transcript {
@@ -90,8 +90,11 @@ sub load_transcript {
 }
 
 sub markup_glossary {
-    my $regex =
-      join( '|', map { s{(.)}{$1(?:</?sub>)?}g; $_ } sort keys %{$glossary} );
+    if ( keys %{$glossary} < 1 ) {
+        print "Empty glossary\n";
+        return;
+    }
+    my $regex = join '|', map { s{(.)}{$1(?:<[^>]+>)?}g; $_ } keys %{$glossary};
     foreach my $line (@lines) {
         $line->{text} =~ s/\b($regex)\b/[glossary:$1 $1]/g;
     }
