@@ -1,4 +1,3 @@
-
 [-00:00:00:03]
 _page : 148
 _tape : 
@@ -65,7 +64,7 @@ CC: Roger. You'i'e through max. Q. Your flight path is. ...
 P: Roger. Feels good, through max. Q and smoothing out real fine.
 
 [00:00:01:26]
-_page: 149
+_page : 149
 P: Cabin pressure coming down by 7.0 okay; flight very smooth now.
 
 [00:00:01:31]
@@ -204,7 +203,7 @@ CC: Roger, still reading you loud and clear. Next transmission, Bermuda.
 P: Roger. Understand next transmission, Bermuda. Capsule did damp okay and turned around. Scope has extended, okay. Taking off the filter I had on it before launch.
 
 [00:00:06:02]
-_page: 150
+_page : 150
 P: Making electrical check.
 
 [00:00:06:18]
@@ -330,13 +329,13 @@ P: Hello, Canary, Friendship Seven. Over.
 CC: Friendship Seven, Friendship Seven, this is Canary CapCom. Read you loud and clear. Over.
 
 [00:00:11:26]
-P: Canary, Friendship Seven. Roger. Control check complete. Capsule in ASCS and holding. I have booster in sight out the window. It's probably about 1 mile away and going down under my position and a little bit to my left. Over.
+P: Canary, Friendship Seven. Roger. Control check complete. Capsule in [glossary:ASCS ASCS] and holding. I have booster in sight out the window. It's probably about 1 mile away and going down under my position and a little bit to my left. Over.
 
 [00:00:11:46]
 P: This is Friendship Seven. Everything is still Go. Capsule is in fine shape. Holding pressure at 5.8. Over.
 
 [00:00:12:18]
-_page: 151
+_page : 151
 CC: Friendship Seven, Friendship Seven, this is Canary Cap Com. Do you read? Over.
 
 [00:00:12:21]
@@ -401,7 +400,7 @@ CC: Friendship Seven, Friendship Seven. What is your spacecraft status report? O
 
 [00:00:15:17]
 P: Roger. Standby, Will give status report. I am in orbit attitude for your tracking. Status report, follows: Fuses all number one except Tower Sep number two. Emergency Retrosequence, Emergency Retrojettison, and Emergency Drogue
-     are in the center-off position, Squib is Armed. Auto Retrojettison is off. ASCS is normal, auto, gyro normal. All "T" handles are in the "in"-position. Retro Delay is normal. Cabin Lights are on both. Photo Lights are still on.
+     are in the center-off position, Squib is Armed. Auto Retrojettison is off. [glossary:ASCS ASCS] is normal, auto, gyro normal. All "T" handles are in the "in"-position. Retro Delay is normal. Cabin Lights are on both. Photo Lights are still on.
      Telemetry Low Frequency is on. Rescue Aids are on automatic. Ah, Jettison Tower, and Sep Capsule lights are out. The pressure regulator is still in the "in"-position. Launch control is on. .ali sequence panel positions are normal except Landing Bag is off. Are you receiving? Over.
 
 [00:00:16:19]
@@ -418,7 +417,7 @@ CC: Automatic fuel is 90 [percent], 98 [percent].
 
 [00:00:16:35]
 P: That is affirmative. Attitude: roll 0 [degrees], yaw 2 [degrees] right, pitch --33
-     [degrees]. Rates are all indicating zero. I am on ASCS at present time. The
+     [degrees]. Rates are all indicating zero. I am on [glossary:ASCS ASCS] at present time. The
      clock is still set for time to ret, for retrograde time of 04 plus 32 plus 28. I have
      retrograde times okay from Bermuda. Cabin pressure holding steady at 5.7.
      Cabin air 90 [degrees]. Relative humidity, 30 [percent]. Coolant quantity is
@@ -427,7 +426,7 @@ P: That is affirmative. Attitude: roll 0 [degrees], yaw 2 [degrees] right, pitch
      not want to turn it down just yet. Primary oxygen is 78 [percent]; secondary,
      102 [percent]. Main bus is 24. Number one is 25, 25, 25. Standby one is 26;
      Standby two is 25; Isolated, 29, and back on main. Ammeter is indicating 23.
-     ASCS is 112. Fans are 112. Over.
+     [glossary:ASCS ASCS] is 112. Fans are 112. Over.
 
 [00:00:17:58]
 CC: I understand, I understand your retrosequence time is [time:00:04:32:28 04 32 28]. Over.
@@ -450,7 +449,7 @@ P: This is Friendship Seven. Have beautiful view of the African Coast, both in t
      scope, and out the window. Out the window is by far the best view.
 
 [00:00:18:56]
-_page:152
+_page : 152
 P: Part of the Canaries was hidden by clouds.
 
 [00:00:19:09]
@@ -602,7 +601,7 @@ CC: We have a temperature of 189° on your 150 volt inverter and 150° your 250 
      inverter.
 
 [00:00:24:28]
-_page: 153
+_page : 153
 P: Roger. This is Friendship Seven on UHF Hi again. Understand inverter temperatures.
 
 [00:00:24:38]
@@ -726,7 +725,7 @@ CC: Message from IOS Cap Com, that he will not release balloon flare this orbit.
 P: Roger, this is Friendship Seven, understand.
 
 [00:00:30:52]
-_page: 154
+_page : 154
 CC: Friendship Seven, this is Zanzibar Cap Com. We have solid telemetry contact,
      report your status. Over.
 
@@ -800,7 +799,7 @@ CC: Roger, Friendship Seven. This is Zanzibar CapCom. Proceed.
 [00:00:34:48]
 P: Ah, Roger, Zanzibar CapCom. Friensdhip Seven. All fuses remain same as
      previously reported; have not changed any of them. Squib is armed. Auto
-     Retrojettison is off. ASCS is on normal, auto, gyro normal. All "T" handles
+     Retrojettison is off. [glossary:ASCS ASCS] is on normal, auto, gyro normal. All "T" handles
      are in. Retro Delay is normal. The sequence panel is normal. Landing bag
      is off. Fuel is 90-98 [percent]. The EPI is indicating just about right on
      schedule. My attitude is 5 [degrees] left, 3 [degrees] right, -- 33 [degrees] on pitch.
@@ -835,7 +834,7 @@ P: Roger. Suit exhaust temperature, steam temperature is 61 [degrees]. I have ju
 CC: Roger, Friendship Seven. Continue with battery voltages. Over.
 
 [00:00:36:58]
-_page: 155
+_page : 155
 P: Roger. Battery voltages: Main is 24, Number One is 25, Two is 25, Three is 25.
      Standby One 25, Standby Two 25, Isolated 29. Ammeter is 22; ASCS, 112;
      fans, 113. Over.
@@ -972,7 +971,7 @@ CC: Friendship Seven. Would you confirm you received retrosequenee time 1 Deha
 P: This is Friendship Seven. Roger, 1 Delta is [time:00:00:50:24 00 50 24].
 
 [00:00:43:42]
-_page: 156
+_page : 156
 CC: Roger. I have areas 1 Echo, Foxtrot, and Hotel. Are you prepared to copy?
      Over.
 
@@ -1057,7 +1056,7 @@ P: I am now on suit temperature setting of 1.7. Over.
 CC: Roger, understand. What is your control mode? Over.
 
 [00:00:46:24]
-P: Control mode is ASCS automatic. Over.
+P: Control mode is [glossary:ASCS ASCS] automatic. Over.
 
 [00:00:46:28]
 CC: Roger, understand.
@@ -1112,7 +1111,7 @@ P: Hello, Muchea Com Tech. This is Friendship Seven, reading you loud and clear.
 CC: Roger, Friendship Seven. Muchea Cap Com. How me? Over.
 
 [00:00:50:05]
-_page: 157
+_page : 157
 P: Roger. How are you doing Gordo? We're doing real fine up here. Everything is
      going very well. Over.
 
@@ -1260,7 +1259,7 @@ CC: Roger. The surgeons are standing by for your blood pressure whenever you're
 P: Roger. I'm already sending it. Did they pick it up? Over.
 
 [00:00:54:28]
-_page: 158
+_page : 158
 CC: Roger. They have it in good shape.
 
 [00:00:54:31]
@@ -1329,7 +1328,7 @@ CC: Roger, Friendship Seven. Let's continue on with this 30-minute report.
 [00:00:57:07]
 P: Roger. Panel rundown follows: The fuse switches on the left panel are all as 
      previously reported, without repeating them again. Squib is armed. Auto 
-     Retrojettison is off. ASCS Mode Select is normal, auto, gyro normal. All "T"
+     Retrojettison is off. [glossary:ASCS ASCS] Mode Select is normal, auto, gyro normal. All "T"
      Handles are in. The Retro Delay is normal, Cabin lights are on both. I have
      the red filters on, of course. The Telem low frequence is on. Rescue Aids is
      auto. All sequence panel items are normal except the Landing Bag to the 
@@ -1350,7 +1349,7 @@ CC: Affirmative, Friendship Seven. Go ahead.
 
 [00:00:59:07]
 P: Roger. Main Bus is 24, One is 25, 25, 25. Standby One is 25, 25. Isolated
-     29, and Main 24 again. Fans 113, ASCS 113. All switch fuses on the right
+     29, and Main 24 again. Fans 113, [glossary:ASCS ASCS] 113. All switch fuses on the right
      are on except Retrojettison and Retromanual in the center-off position. All
      other switches normal. Over.
 
@@ -1365,7 +1364,7 @@ P: This is Friendship Seven. Negative, I do not; there's too much cloud cover in
      do not have the lights at Woomera; sorry. Over.
 
 [00:00:59:58]
-_page: 159
+_page : 159
 CC: Roger, Friendship Seven.
 
 [00:01:00:01]
@@ -1506,7 +1505,7 @@ CC: Roger, Friendship Seven. Canton standing by.
 P: Roger, Friendship Seven.
 
 [00:01:12:06]
-_page: 160
+_page : 160
 CC: Friendship Seven. This is Canton Cap Com. All systems on the ground appear
      go. Your 150 volt-amp inverter temperature is presently 188° repeat 188° .
      Your clocks are in sync. Over.
@@ -1619,7 +1618,7 @@ P: Hello, Guaymas Com Tech, Guaymas Com Tech. This is Friendship Seven.
      Receive your HF loud and clear. How me? Over.
 
 [00:01:21:00]
-_page: 161
+_page : 161
 CC: Friendship Seven, Friendship Seven. This is Guaymas Cap Com. You're little
      garbled right now, but understandable. What is, what is your status? Over.
 
@@ -1763,7 +1762,7 @@ P: Roger. Friendship Seven. Will give blood pressure check. I still have some
 CC: Roger. How big are these particles?
 
 [00:01:28:32]
-_page: 162
+_page : 162
 P: Very small, I would indicate they are on the order of 16th of an inch or smaller.
      They drift by the window and I can see them against the dark sky. Just at
      sunrise there were literally thousands of them. It looked just like a myriad
@@ -1834,7 +1833,7 @@ CC: Roger.
 P: This is Friendship Seven. Back on ASCS.
 
 [00:01:31:15]
-CC: Friendship Seven, Guaymas. You were on ASCS when it started drifting out.
+CC: Friendship Seven, Guaymas. You were on [glossary:ASCS ASCS] when it started drifting out.
      Over.
 
 [00:01:31:19]
@@ -1848,7 +1847,7 @@ P: This is Friendship Seven. I have the land in sight out the window. Controllin
      manually, on fly-by-wire.
 
 [00:01:31:41]
-CC: Friendship Seven. Is the ASCS OK now? Over.
+CC: Friendship Seven. Is the [glossary:ASCS ASCS] OK now? Over.
 
 [00:01:31:45]
 P: I'll switch back on to it now and see.
@@ -1904,7 +1903,7 @@ CT: Friendship Seven, Canaveral Com Tech. Read you loud and clear. Standby for
 P: Roger.
 
 [00:01:33:44]
-_page: 163
+_page : 163
 CC: Friendship Seven, Cap Com. Would you give us the difficulty you've been having
      in yaw in ASCS? Over.
 
@@ -1964,7 +1963,7 @@ CC: Roger, Seven. Having a little difficulty. Start off with your 30 minute repo
 P: Roger. This is Friendship Seven, controlling manually on fly-by-wire, having no
      trouble controlling. Very smooth and easy; controls very nicely. Fuses are
      still the same on the left panel. Squib is, Squib is armed. Auto Retrojettison
-     is off. ASCS is fly-by-wire, auto, gyro normal. All fuel, all "T" handles are in,
+     is off. [glossary:ASCS ASCS] is fly-by-wire, auto, gyro normal. All fuel, all "T" handles are in,
      Retro Delay is normal. 1 have beautiful view out the window of the coast at
      present, time. Just departing. Can see the, way down across Florida. Cannot
      quite see the Cape. yet.
@@ -1996,7 +1995,7 @@ P: Roger. Continuing report. Cabin pressure 5.5 and holding nicely. Cabin air is
      95 [degrees]; relative humidity, 20 [percent]; coolant quantity is 67 [percent];
      temperature is 67 [degrees] on the suit; 5.8 on the pressure; steam temperature
      is 50 [degrees] and coming down slowly. Oxygen is 70-100 [percent]; amps, 22.
-     Only really unusual thing so far beside ASCS trouble were the little particles,
+     Only really unusual thing so far beside [glossary:ASCS ASCS] trouble were the little particles,
      luminous particles around the capsule, just thousands of them right at sunrise
      over the Pacific. Over.
 
@@ -2021,7 +2020,7 @@ CC: Roger, we read you 5 by 5.
 CC: (CNV) Seven, this is Cape. Go to Bermuda now.
 
 [00:01:39:18]
-_page: 164
+_page : 164
 P: Roger. This is Friendship Seven. Go ahead, Bermuda.
 
 [00:01:39:24]
@@ -2178,7 +2177,7 @@ CT: Friendship Seven, Friendship Seven, this is CYI Com Tech, CYI Com Tech. Do
 P: Hello, CYI Com Tech. Roger, read you loud and clear.
 
 [00:01:48:26]
-_page: 165
+_page : 165
 CT: Friendship Seven, this is CYI Com Tech. Read you loud and clear also, on UHF,
      on UHF. Standby.
 
@@ -2324,7 +2323,7 @@ CC: Friendship Seven, Friendship Seven, tiffs is ATS Cap Com. Over.
 P: Hello, ATS Cap Com. Loud and clear; how me?
 
 [00:01:53:38]
-_page: 166
+_page : 166
 CC: Roger, Friendship Seven. You are loud and clear, also.
 
 [00:01:53:48]
@@ -2478,12 +2477,12 @@ CC: Roger. Confirm you have control in low thrust to the left, but no control in
 P: That is affirmative. Friendship Seven.
 
 [00:01:59:51]
-_page: 167
+_page : 167
 CC: We will inform MCC. Have you any other comments or queries?
 
 [00:01:59:55]
 P: Negative. Friendship Seven. I'm in orbit attitude. I'll try and go back on
-     ASCS and see if it works. Over.
+     [glossary:ASCS ASCS] and see if it works. Over.
 
 [00:02:00:02]
 CC: Roger. Will stand by.
@@ -2498,7 +2497,7 @@ P: This is Friendship Seven. The capsule appears. ...
 CC: Friendship Seven, your last transmission was interrupted.
 
 [00:02:00:41]
-P: This is Friendship Seven. The capsule appears to be holding in ASCS okay, but
+P: This is Friendship Seven. The capsule appears to be holding in [glossary:ASCS ASCS] okay, but
      I believe we are off in yaw. Do you confirm? Over.
 
 [00:02:00:50]
@@ -2575,10 +2574,10 @@ P: Roger. This is Friendship Seven. Thirty-minute report follows: Head
      movements cause no nausea or no bad feelings at all. I am surprised that I can look
      as close to the sun as I can; the sun is shining directly on my face at present time,
      and all I have to do is to shade my eyes with my eyebrow. All fuse switches
-     are still as previously reported on left panel. ASCS Mode Select is normal,
+     are still as previously reported on left panel. [glossary:ASCS ASCS] Mode Select is normal,
      auto, gyro normal: Squib is armed, Auto Retrojettison is off. All "T" handles
      are in except manual and I have it pulled so that I can immediately go to manual
-     as a backup in case the ASCS malfunctions further. Thc Rescue Aids are
+     as a backup in case the [glossary:ASCS ASCS] malfunctions further. Thc Rescue Aids are
      normal. Landing bag is off. All other sequence panel items are in normal
      position. Control fuel is 68-100 [percent], repeat, 68-100. EPI is indicating
      my approximate position. Time from launch is 02 plus 06 plus 30 MARK.
@@ -2599,7 +2598,7 @@ CC: Friendship Seven, this is Zanzibar Cap Com. We don't have word from Canavera
      instructing us to instruct you to change the clock at this time.
 
 [00:02:07:11]
-_page: 168
+_page : 168
 P: Roger, Roger.
 
 [00:02:07:20]
@@ -2657,14 +2656,14 @@ CC: Friendship Seven, this is Zanzibar Cap Com. Please comment an reach accuracy
 [00:02:10:26]
 P: Right, visual acuity is good. I have no problem reading the charts, no problem
      with the astigmatism at all. I am having no trouble at all holding attitudes
-     either. I'm still on fly-by-wire. I'm on normal ASCS but I'm backing it up
+     either. I'm still on fly-by-wire. I'm on normal [glossary:ASCS ASCS] but I'm backing it up
      with manual at present time. Over.
 
 [00:02:10:56]
 CC: Roger, Friendship Seven. We have intermittent pitch ignore.
 
 [00:02:11:02]
-CC: The inverter temperatures are 205° for fans inverted 190° for ASCS inverter. We
+CC: The inverter temperatures are 205° for fans inverted 190° for [glossary:ASCS ASCS] inverter. We
      are losing telemetry contact. Stand by to contact IOS, Zan.
 
 [00:02:11:15]
@@ -2725,7 +2724,7 @@ P: This is Friendship Seven. Fuel, 62-90 [percent]; oxygen, 68-100 [percent]; am
      20. Over.
 
 [00:02:15:02]
-_page: 169
+_page : 169
 CC: Roger, Roger. You're coming in loud and clear, loud and clear. Over.
 
 [00:02:15:06]
@@ -2867,7 +2866,7 @@ CT: Friendship Seven, Friendship Seven, this is Muchea Com Tech. Have your
 P: Hello, Muchea Com Tech. Friendship Seven. Read you loud and clear; how me?
 
 [00:02:22:14]
-_page: 170
+_page : 170
 CC: Friendship Seven, Friendship Seven, this is Muchea Com Tech. Friendship Seven,
      this is Muchea Com Tech. Do you read? Over.
 
@@ -3020,7 +3019,7 @@ P: Affirmative, go ahead.
 CC: Cal corning through.
 
 [00:02:27:26]
-_page: 171
+_page : 171
 CC: Any comments on weightlessness, etc.
 
 [00:02:27:30]
@@ -3110,10 +3109,10 @@ CC: Good in all axes. Over.
 P: That is affirmative
 
 [00:02:30:27]
-CC: Call you give status on your ASCS system? Over.
+CC: Call you give status on your [glossary:ASCS ASCS] system? Over.
 
 [00:02:30:30]
-P: This is Friendship Seven. ASCS started out operating, it would drop into 
+P: This is Friendship Seven. [glossary:ASCS ASCS] started out operating, it would drop into 
      orientation mode in yaw and that would throw the other axes out. It was doing this
      for a while it world drift off slowly, yaw right and there would be no correction
      until it went out about 20° . Then it would come rapidly back across and correct
@@ -3130,7 +3129,7 @@ CC: Friendship Seven, if you're ready, could we conduct this 30 minute report? O
 
 [00:02:31:32]
 P: Friendship Seven. Roger. All switch fuses still same position. Squib is armed.
-     Auto Retrojettison is off. ASCS mode selector is normal, rate command, gyro,
+     Auto Retrojettison is off. [glossary:ASCS ASCS] mode selector is normal, rate command, gyro,
      normal. Manual fuel handle is pulled. Automatic fuel is still on. Retro-Delay,
      normal, Landing Bag is off. Everything else on sequence panel is normal.
      Fuel. ...
@@ -3155,7 +3154,7 @@ CC: Roger. Would like to go through this 30-minute report again, starting with t
      Auto Retro-jett switch. Go ahead.
 
 [00:02:32:49]
-_page: 172
+_page : 172
 P: Auto Retro-jettison is armed. I'm having to break this in the middle because I
      need to keep looking out the window to control accurately. Over.
 
@@ -3166,7 +3165,7 @@ CC: Roger, Friendship Seven. ... discussion. Over.
 P: Roger.
 
 [00:02:33:09]
-P: This is Friendship Seven. Auto Retro-jettison is off. ASCS mode selector is
+P: This is Friendship Seven. Auto Retro-jettison is off. [glossary:ASCS ASCS] mode selector is
      normal, rate command, gyro normal. All "T" handles are in except manual, and
      it is out. I am controlling manually at present time. Landing Bag switch is off.
      Sequence panel is all normal except for that. The control fuel is 60-82 [percent].
@@ -3187,7 +3186,7 @@ P: Cabin relative humidity is indicating 20 [percent]. Coolant quantity is 66 [p
      Suit is 68 [degrees] on temperature, pressure 5.8 indicated, steam temperature,
      50 [degrees] in suit circuit and comfortable. Oxygen is 65-100 [percent] amps
      20. Voltages: main 24, 25, 25, 25; standby one is 25, 25; isolated 29; and back
-     on main. Fans is 113, ASCS 113. I have two warning lights on, the excess
+     on main. Fans is 113, [glossary:ASCS ASCS] 113. I have two warning lights on, the excess
      cabin water and fuel quantity. Over.
 
 [00:02:35:29]
@@ -3276,7 +3275,7 @@ CC: Friendship Seven, this is Canton. Our Aeromed would like to hear any comment
      you have on weightlessness, nausea, dizziness, taste and smell sensations. Over.
 
 [00:02:45:15]
-_page: 173
+_page : 173
 P: Friendship Seven, I have no sensations at all from weightlessness except very
      pleasant. No ill effects at all, I'm not sick; feel fine. I have had no, no
      dizziness: I've run the head checks, the head movements and have no problem with
@@ -3286,7 +3285,7 @@ P: Friendship Seven, I have no sensations at all from weightlessness except very
 
 [00:02:45:48]
 CC: Roger, Friendship Seven. Our fuel quantities here agree with yours. Our 150
-     fans inverter temperature is 200 [degrees]. The ASCS temperature is 190
+     fans inverter temperature is 200 [degrees]. The [glossary:ASCS ASCS] temperature is 190
      [degrees]. Out
 
 [00:02:46:00]
@@ -3401,7 +3400,7 @@ P: This is affirmative. During the dark side I went to 0 0 0 as best I could and
      caged and uncaged the gyros. I'm rechecking this at present time. Over.
 
 [00:02:50:26]
-_page: 174
+_page : 174
 CC: Roger. I'll stand by until you complete your checks and we'd like to get the
      results.
 
@@ -3544,7 +3543,7 @@ CT: Friendship Seven, Friendship Seven, this is California Com Tech, California 
      Tech. Do you read? Over.
 
 [00:02:57:54]
-_page: 175
+_page : 175
 P: Hello, California Com Tech. Friendship Seven. Loud and clear; how me?
 
 [00:02:58:14]
@@ -3567,14 +3566,14 @@ CC: Friendship Seven, this is California Cap Com. We read you loud and clear; ho
 [00:02:58:41]
 P: Roger. Receiving you much better now, Wally. Very good. Fuel is 62-62
      [percent], oxygen 62-95 [percent], amps are 25. All systems are still go. I have
-     had some erratic ASCS operation. I caged and uncaged on the night side and it
+     had some erratic [glossary:ASCS ASCS] operation. I caged and uncaged on the night side and it
      appears to be working fairly well now although I was drifting again in roll a
      moment ago. It appears to have corrected itself in roll, however, without me
      caging again now. Over.
 
 [00:02:59:17]
 CC: Good, John. We have a go all the way on this. I'd like to give you your inverter
-     temperatures. Your fans are 215 [degrees], your ASCS 198 [degrees]. We're
+     temperatures. Your fans are 215 [degrees], your [glossary:ASCS ASCS] 198 [degrees]. We're
      not going to do anything about them. Looks real good.
 
 [00:02:59:23]
@@ -3689,7 +3688,7 @@ P: Roger, understand. Friendship Seven.
 CC: For your information your O2 is holding. It seems to be working; it's reading about
 
 [00:03:03:11]
-_page: 176
+_page : 176
 P: Roger, Friendship Seven. Cabin temperature is holding steady at about 90
      [degrees]. I still have excess cabin water light on and my, I have the cabin
      water turned almost completely off at present time.
@@ -3817,11 +3816,11 @@ P: Roger, retrograde time is reset to 04 plus 32 plus 38. Over.
 [00:03:08:32]
 CC: Roger, Seven. We recommend for the third orbit that you use gyros as you desire
      either normal or free so that in the event prior to retrofire on the third orbit that
-     the scanners and ASCS do not program properly you may use your gyros in the
+     the scanners and [glossary:ASCS ASCS] do not program properly you may use your gyros in the
      free position for attitude reference. Over.
 
 [00:03:08:58]
-_page: 177
+_page : 177
 P: Roger. This is Friendship Seven. I have a fair, pretty good line-up now on
      thc gyros, I believe. The check that I made on the night side was okav but
      they drifted off again, apparently rather rapidly in fact. I got another check
@@ -3945,14 +3944,14 @@ CC: Friendship Seven, Bermuda Cap Com.
 P: Go ahead, Bermuda.
 
 [00:03:13:17]
-CC: Cape recommends that you reenter on ASCS with manual for backup.
+CC: Cape recommends that you reenter on [glossary:ASCS ASCS] with manual for backup.
 
 [00:03:13:22]
-P: Roger, this is Friendship Seven. Understand recommend ASCS with manual
+P: Roger, this is Friendship Seven. Understand recommend [glossary:ASCS ASCS] with manual
      backup.
 
 [00:03:13:29]
-P: This, this operation of ASCS has been very erratic. I have not been able to pin
+P: This, this operation of [glossary:ASCS ASCS] has been very erratic. I have not been able to pin
      it down to any particular, one particular item. It went off one direction in yaw
      at one time; it went off the other the next time. I felt for a little while that
      pitch was drifting. It seemed to have a little stuck thrust in pitch at one time
@@ -3970,7 +3969,7 @@ P: Roger. Standby.
 CC: Friendship Seven, can you give me both your primary and secondary oxygen?
 
 [00:03:14:38]
-_page: 178
+_page : 178
 P: Roger, primary oxygen is 62 [percent], secondary is 94 [percent].
 
 [00:03:14:45]
@@ -3986,7 +3985,7 @@ CC: Friendship Seven, Bermuda Cap Com.
 P: Go ahead Bermuda.
 
 [00:03:15:34]
-CC: Your fans inverter temperature is 205 [degrees] and your ASCS temperature is
+CC: Your fans inverter temperature is 205 [degrees] and your [glossary:ASCS ASCS] temperature is
      195 [degrees].
 
 [00:03:15:44]
@@ -4123,7 +4122,7 @@ CC: Roger. Understand.
 CC: Friendship Seven, this is Canary Cap Com. The Aeromed wants to talk to you. Over.
 
 [00:03:23:17]
-_page: 179
+_page : 179
 P: Roger. Go ahead, Aeromed.
 
 [00:03:23:19]
@@ -4258,7 +4257,7 @@ CC: Roger. Standing by.
 P: Friendship Seven. Going to ASCS. Ready-now.
 
 [00:03:31:05]
-_page: 180
+_page : 180
 CC: Friendship Seven, this is ATS Cap Com. Do you read me? Over.
 
 [00:03:31:09]
@@ -4377,7 +4376,7 @@ P: There's quite a big storm area under me. It must extend for, I see lightning 
      They're just like firecrackers going off. Over.
 
 [00:03:41:59]
-_page: 181
+_page : 181
 P: Zanzibar, this is Friendship Seven. Did you get my fuels when I reported them?
      Over.
 
@@ -4466,9 +4465,9 @@ CC: Roger, understand.
 CC: Friendship Seven, this is Indian Cap Com. What is your control mode? Over.
 
 [00:03:48:19]
-P: This is Friendship Seven. I'm on ASCS but it is operating very erratically. I'm
+P: This is Friendship Seven. I'm on [glossary:ASCS ASCS] but it is operating very erratically. I'm
      backing it up with manual at the present thne. I'm trying to get it set up so it
-     will be in a decent ASCS attitude for retrofire. Over.
+     will be in a decent [glossary:ASCS ASCS] attitude for retrofire. Over.
 
 [00:03:48:33]
 CC: Roger, understand.
@@ -4510,7 +4509,7 @@ CC: Affirmative. Area 3 Echo, Area 3 Echo is 4 hours, 22 minutes, 12 seconds. I 
 P: Roger. Area 3 Echo is 04 plus 22 plus 12.
 
 [00:03:50:01]
-_page: 182
+_page : 182
 CC: Roger. Area Hotel is 4 hours, 32 minutes, 37 seconds. Say it again; 4 hours, 32
      minutes 37 seconds. Over.
 
@@ -4529,7 +4528,7 @@ P: One second error, that is affirm. Request you confirm with Cape that I have 0
 CC: Roger. That's affirmative.
 
 [00:03:50:49]
-P: This is Friendship Seven. The ASCS is drifting again. I'm indicating 25° right
+P: This is Friendship Seven. The [glossary:ASCS ASCS] is drifting again. I'm indicating 25° right
      in yaw. Over.
 
 [00:03:50:59]
@@ -4657,7 +4656,7 @@ CT: Friendship Seven, Friendship Seven, this is Muchea Com Tech. Do you read?
 P: Roger, Muchea Com Tech, Friendship Seven. Read you loud and clear. How me?
 
 [00:03:57:20]
-_page: 183
+_page : 183
 CC: Roger, Friendship Seven. You are 3 by 3. Go ahead to Cap Com.
 
 [00:03:57:24]
@@ -4698,7 +4697,7 @@ P: Hello, Muchea, Friendship Seven. Loud and clear, how me? Over.
 CC: Muchea Cap Com. Give us 30-minute report.
 
 [00:03:58:43]
-P: Roger. This is Friendship Seven. 30-minute report: ASCS is major item, still
+P: Roger. This is Friendship Seven. 30-minute report: [glossary:ASCS ASCS] is major item, still
      not operating properly. I am on fly-by-wire at present time. I have no low thrust
      to the right fly-by-wire. Over.
 
@@ -4785,7 +4784,7 @@ P: Roger. Okay, cabin pressure is still holding at 5.5. It's been there ever sin
      cause it was down around 20 [percent]. Our coolant quantity, though, is down
      around 62 [percent] now. The suit temperature is 70 [degrees] inlet; cabin
      suit pressure is 5.8. Steam temperature is 4 point, is 48 [degrees]. Oxygen is
-     60-90 [percent]. Amps are 24, ASCS is 11, about 115 now. Fan, is 110. Over.
+     60-90 [percent]. Amps are 24, [glossary:ASCS ASCS] is 11, about 115 now. Fan, is 110. Over.
 
 [00:04:02:10]
 CC: Roger. All your switches outboard?
@@ -4796,7 +4795,7 @@ P: That's affirmative. On the right side, everything is outboard except the fuel
      audio.
 
 [00:04:02:22]
-_page: 184
+_page : 184
 P: The only 2 switch fuses in the center off position, on the right, are Retro Jettison and Retro Manual. Over.
 
 [00:04:02:29]
@@ -4830,19 +4829,19 @@ P: Yes I did. I got these okay.
 [00:04:03:19]
 CC: And, now I gave you the recommended change in the retro clock to [time:00:04:32:37 04 32 37].
      On your retro, using ASCS, you'll be using high torque thrusters for retrofire
-     mode there. What do you say about retroing by ASCS and backing up by
+     mode there. What do you say about retroing by [glossary:ASCS ASCS] and backing up by
      fly-by-wire?
 
 [00:04:03:36]
-P: Well-well, you can't, you couldn't do it on ASCS and fly-by-wire. You mean on
+P: Well-well, you can't, you couldn't do it on [glossary:ASCS ASCS] and fly-by-wire. You mean on
      manual.
 
 [00:04:03:43]
-CC: No, I meant you could go ASCS by fly-by-wire and back it up on manual proportional.
+CC: No, I meant you could go [glossary:ASCS ASCS] by fly-by-wire and back it up on manual proportional.
 
 [00:04:03:48]
-P: Yes. If the ASCS appears to be programing and holding a good orbit attitude
-     I'll let it go on ASCS and back it up with manual. If not, if it appears that the
+P: Yes. If the [glossary:ASCS ASCS] appears to be programing and holding a good orbit attitude
+     I'll let it go on [glossary:ASCS ASCS] and back it up with manual. If not, if it appears that the
      gyros are cocked as they were a little while ago, then I'll just stay on manual
      retrofire, I think and let it go at that.
 
@@ -4875,7 +4874,7 @@ CC: Roger, Friendship Seven. Surgeon recommends that if you haven't eaten that
 
 [00:04:05:18]
 P: This is Friendship Seven. Negative. I did not eat on that last round because of,
-     I was busy with the ASCS problem. Over.
+     I was busy with the [glossary:ASCS ASCS] problem. Over.
 
 [00:04:05:30]
 CC: Friendship Seven, let's have your fuel readings. Over.
@@ -4924,7 +4923,7 @@ P: They do not seen, to be coming from the capsule at all. There are too many of
      be miles away.
 
 [00:04:15:23]
-_page: 185
+_page : 185
 CT: This is Com Tech, Canton Com Tech. Do you read? Over.
 
 [00:04:15:28]
@@ -5068,7 +5067,7 @@ CC: Roger. Can you comment again on this, the attitude system with respect to th
      respect to the visual reference, how you feel about this at this time?
 
 [00:04:25:28]
-_page: 186
+_page : 186
 P: Well, it's into, it's in and out of orientation mode right now and is wasting fuel, in yaw. I may have to cut it in yaw, I don't know. It appears to be correcting,
      though, at the present time or maybe the scanners are correcting it okay now.
 
@@ -5219,8 +5218,8 @@ CC: John, I'll give a mark. 45, MARK.
 P: Roger.
 
 [00:04:31:57]
-_page: 187
-P: I'm on ASCS and backing it up manual. Over.
+_page : 187
+P: I'm on [glossary:ASCS ASCS] and backing it up manual. Over.
 
 [00:04:32:02]
 CC: Roger, John.
@@ -5316,7 +5315,7 @@ CC: Cheek.
 CC: Pretty good looking flight from what all we've seen.
 
 [00:04:33:51]
-P: Roger, everything went pretty good except for all this ASCS problem.
+P: Roger, everything went pretty good except for all this [glossary:ASCS ASCS] problem.
 
 [00:04:33:55]
 CC: It looked like your attitude held pretty well. Did you have to back it up at all?
@@ -5366,7 +5365,7 @@ CC: Looks pretty good on this end. How did the attitude seem to hold? Did you
      have any diversions in yaw at all?
 
 [00:04:35:21]
-P: Negative, very close. I backed it up and worked right along with the ASCS and
+P: Negative, very close. I backed it up and worked right along with the [glossary:ASCS ASCS] and
      it looked like it held right on the money.
 
 [00:04:35:27]
@@ -5392,7 +5391,7 @@ CC: Roger, Friendship Seven.
 P: Hello, Texas. Friendship Seven. Over.
 
 [00:04:35:56]
-_page: 188
+_page : 188
 CC: Friendship Seven, Cal Cap Com. Do you read?
 
 [00:04:35:58]
@@ -5542,7 +5541,7 @@ CC: Recommend you go to reentry attitude and retract the scope manually at this
 P: Roger, retracting scope manually.
 
 [00:04:40:34]
-_page: 189
+_page : 189
 CC: While you're doing that, we are not sure whether or not your landing bag has
      deployed. We feel it is possible to reenter with the retropackage on. We see
      no difficulty at this time in that type of reentry. Over.
@@ -5708,7 +5707,7 @@ P: 45,000.
 P: Rocking quite a bit. I may still have some of that pack on. I can't damp it either.
 
 [00:04:49:00]
-_page: 190
+_page : 190
 CC: ... post reentry check list. Over.
 
 [00:04:49:12]
@@ -5871,7 +5870,7 @@ R: Remain in capsule unless you have an overriding reason for getting out. Over.
 P: Roger. Friendship Seven.
 
 [00:04:54:32]
-_page: 191
+_page : 191
 P: Friendship Seven. Ready for impact; almost down.
 
 [00:04:54:35]
@@ -6017,7 +6016,7 @@ R: Steelhead. Roger, break, disregard that.
 P: Roger.
 
 [00:05:02:11]
-_page: 192
+_page : 192
 R: Friendship Seven, Stcelhead. Helicopter is on its way. At present, they expect
      to be here in approximately 8 minutes. Over.
 
@@ -6087,3 +6086,4 @@ R: (Aircraft) You're riding in a good attitude. Over.
 
 [00:05:05:10]
 P: Roger.
+
