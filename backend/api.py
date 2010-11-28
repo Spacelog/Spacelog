@@ -1,4 +1,8 @@
 import datetime
+try:
+    import json
+except ImportError:
+    import simplejson as json
 
 class BaseQuery(object):
     """
@@ -482,7 +486,10 @@ class Mission(object):
 
     def _load(self):
         data = self.redis_conn.hgetall("mission:%s" % self.name)
-        self.copy = self.redis_conn.hgetall("mission:%s:copy" % self.name)
+        self.copy = dict([
+            (k, json.loads(v)) for k, v in
+            self.redis_conn.hgetall("mission:%s:copy" % self.name).items()
+        ])
         self.title = self.copy['title']
         self.upper_title = self.copy['upper_title']
         self.lower_title = self.copy['lower_title']

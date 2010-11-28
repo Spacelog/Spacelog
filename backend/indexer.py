@@ -1,6 +1,10 @@
 import os
 import redis
 import xappy
+try:
+    import json
+except ImportError:
+    import simplejson as json
 
 from backend.parser import TranscriptParser, MetaParser
 from backend.api import Act, KeyScene, Character, Glossary, LogLine
@@ -279,9 +283,12 @@ class MetaIndexer(object):
                 "media_transcript": meta['media_transcript'],
             }
         )
+        copy = meta.get("copy", {})
+        for key, value in copy.items():
+            copy[key] = json.dumps(value)
         self.redis_conn.hmset(
             "mission:%s:copy" % self.mission_name,
-            meta.get("copy", {}),
+            copy,
         )
         for homepage_quote in meta.get('homepage_quotes', []):
             self.redis_conn.sadd(
