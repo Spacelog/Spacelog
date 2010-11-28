@@ -92,9 +92,9 @@ sub load_transcript {
 # May miss items which are followed by ']'
 sub markup {
     my ( $link, @tags ) = @_;
-    my $regex = join '|',
-      map { s{(.)}{$1(?:<[^>]+>)?}g; "(?<!\\[$link:)($_)(?![<\]])" } @tags;
-    map { $_->{text} =~ s/\b($regex)(?= |$)/"[$link:".clean($1)." $1]"/eg; $_ }
+    my $regex = '\b(?<!\\[$link:)(' . join('|',
+      map { s{(.)}{$1(?:<[^>]+>)?}g; "($_)" } @tags).')(?![<\]])(?= |$)';
+    map { $_->{text} =~ s/$regex/"[$link:".clean($1)." $1]"/eg; $_ }
       @lines;
 }
 
