@@ -47,7 +47,7 @@ a.big-blue-button-thing,
 .search input[type=submit] {
     background:             #037a97;
     border:                 1px solid transparent;
-    border-radius:          3px;
+    -cp-border-radius:      3px;
     color:                  #fff;
     font-family:            'League Gothic', sans-serif;
     font-size:              23px;

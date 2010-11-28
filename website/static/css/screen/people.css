@@ -36,7 +36,7 @@
 }
 .person:target {
     background:             #333;
-    border-radius:          5px;
+    -cp-border-radius:      5px;
     padding:                9px;
 }
 

@@ -79,6 +79,7 @@
     left:                   -999em;
 }
 #homepage-quote a {
+    -cp-border-radius:      5px;
     padding:                7px 10px 7px 30px;
     margin:                 0 10px;
     font-size:              12px;
@@ -122,8 +123,6 @@
     text-shadow:            1px 1px 2px #000;
 }
 #homepage-quote a {
-    -webkit-border-radius:  5px;
-    -moz-border-radius:     5px;
     text-shadow:            1px 1px 1px rgba( 0, 0, 0, 0.3 );
     border-top:             1px solid rgba( 0, 171, 215, 0.2 );
 }
