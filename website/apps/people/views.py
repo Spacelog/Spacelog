@@ -32,7 +32,7 @@ def people(request, role=None):
                 'view': 'simple'
             }
         ]
-        more_people = len(all_people) > len(astronauts) + len(ops)
+        more_people = len(list(character_query.role('mission-ops')))
     
     # 404 if we have no content
     if 1 == len(people) and 0 == len(people[0]['members']):
