@@ -24,7 +24,6 @@
         ],
         "call_signs": "When only the CSM (Command and Service Module pairing) is manned, its call sign is Apollo 13. When both the Control and Lunar Modules are manned, the CM's call sign is Odyssey, and the LM's call sign is Aquarius. The call sign for <a href='/people/#capcom'>CAPCOM</a> is Houston."
     },
-    "image": "/assets/img/badge_m6.png",
     "main_transcript": "ma6/TEC",
     "media_transcript": "ma6/MEDIA",
     "utc_launch_time": -248087541,
@@ -66,20 +65,20 @@
             "name": "Capsule Communicator",
             "short_name": "CAPCOM",
             "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-            "photo": "http://img.fort/190x155.png",
+            "photo": "",
             "photo_width": 190,
             "photo_height": 155,
-            "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png"
+            "avatar": "CC_48.png"
         },
         "P": {
           "role": "astronaut",
           "name": "John Herschel Glenn, Jr.",
           "short_name": "John Glenn",
           "bio": "A highly decorated USMC combat pilot with test flight experience including the first supersonic transcontinental flight, John Glenn was chosen to be the third American in space, and first to reach Earth orbit, from NASA's initial intake of seven astronauts in 1959. Following the assassination of President John F. Kennedy, he resigned from NASA to run for political office, returning to space age 77 onboard the Space Shuttle in 1998, becoming the oldest person to go to space.",
-          "photo": "http://img.fort/190x155.png",
+          "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "/assets/transcripts/a13/_meta/avatars/CC_48.png",
+          "avatar": "CC_48.png",
           "stats": [
             {
                 "value": 218,

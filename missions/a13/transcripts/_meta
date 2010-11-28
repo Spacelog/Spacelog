@@ -1,7 +1,6 @@
 {
     "name": "a13",
     "featured": true,
-    "image": "/assets/img/badge_a13.png",
     "subdomains": ["a13", "apollo13"],
     "copy": {
         "title": "Apollo 13",

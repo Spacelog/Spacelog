@@ -65,6 +65,7 @@ MEDIA_URL = ''
 
 # FIXME - evil to get around a bug in static files
 P_STATIC_ROOT = os.path.join(SITE_ROOT, 'static')
+MISSIONS_STATIC_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
 P_STATIC_URL  = '/assets/'
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
