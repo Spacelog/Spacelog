@@ -101,10 +101,30 @@
     margin-top:             20px;
 }
 
-#transcript .key-scene {
+#transcript div.key-scene {
     background:             #eee;
     padding:                0 20px;
     margin:                 0 -20px;
+}
+#transcript dd em {
+    color:                  #e4362d;
+    float:                  right;
+    margin-right:           -176px;
+    font-size:              20px;
+    line-height:            2;
+    padding-right:          60px;
+    text-transform:         uppercase;
+    background:             url(/assets/img/base/keyscene.png)
+                            no-repeat
+                            100% 50%;
+    font-family:            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
+}
+#transcript dd em span {
+    position:               absolute;
+    left:                   -999em;
 }
 
 #phases {
