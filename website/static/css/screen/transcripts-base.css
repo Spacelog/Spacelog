@@ -97,6 +97,10 @@
 #transcript dd p {
     padding-top:            6px;
 }
+#transcript dd div.image {
+    margin-top:             20px;
+}
+
 #transcript .key-scene {
     background:             #eee;
     padding:                0 20px;
