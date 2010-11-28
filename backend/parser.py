@@ -4,7 +4,7 @@ try:
     import json
 except ImportError:
     import simplejson as json
-from backend.util import timestamp_to_seconds
+from backend.util import timestamp_to_seconds, seconds_to_timestamp
 
 class TranscriptParser(object):
     """
@@ -87,16 +87,19 @@ class TranscriptParser(object):
                         try:
                             data = json.loads('"%s"' % blob)
                         except ValueError:
-                            print "Error: Invalid json at timestamp %s, key %s" % (timestamp, name)
+                            print "Error: Invalid json at timestamp %s, key %s" % \
+                                            (seconds_to_timestamp(timestamp), name)
                             continue
                     current_chunk['meta'][name.strip()] = data
             # If it's a continuation, append to the current line
             elif line[0] in string.whitespace:
                 # Continuation line
                 if not current_chunk:
-                    print "Error: Continuation line before first timestamp header."
+                    print "Error: Continuation line before first timestamp header. Timestamp %s" % \
+                                                                        (seconds_to_timestamp(timestamp))
                 elif not current_chunk['lines']:
-                    print "Error: Continuation line before first speaker name"
+                    print "Error: Continuation line before first speaker name. Timestamp %s" % \
+                                                                        (seconds_to_timestamp(timestamp))
                 else:
                     current_chunk['lines'][-1]['text'] += " " + line.strip()
             # If it's a new line, start a new line. Shock.
