@@ -82,15 +82,19 @@ class TranscriptIndexer(object):
             xappy.FieldActions.SORTABLE,
             type='float',
         )
+        search_db.add_field_action(
+            "speaker_identifier",
+            xappy.FieldActions.STORE_CONTENT,
+        )
         # Add names as synonyms for speaker identifiers
         characters = Character.Query(self.redis_conn, self.mission_name).items()
         self.characters = {}
         for character in characters:
             self.characters[character.identifier] = character
-            for name in [character.name, character.short_name]:
-                for bit in name.split():
-                    search_db.add_synonym(bit, character.identifier)
-                    search_db.add_synonym(bit, character.identifier, field='speaker')
+        #     for name in [character.name, character.short_name]:
+        #         for bit in name.split():
+        #             search_db.add_synonym(bit, character.identifier)
+        #             search_db.add_synonym(bit, character.identifier, field='speaker')
 
     def add_to_search_index(self, mission, id, lines, weight, timestamp):
         """
@@ -107,11 +111,16 @@ class TranscriptIndexer(object):
                 line['text'],
             )
             doc.fields.append(xappy.Field("text", text))
-            doc.fields.append(xappy.Field("speaker", line['speaker']))
             # grab the character to get some more text to index under speaker
             ch = self.characters.get(line['speaker'], None)
             if ch:
-                doc.fields.append(xappy.Field("speaker", ch.current_shift(timestamp).identifier))
+                ch2 = ch.current_shift(timestamp)
+                doc.fields.append(xappy.Field("speaker_identifier", ch2.identifier))
+                doc.fields.append(xappy.Field("speaker", ch2.short_name))
+                doc.fields.append(xappy.Field("speaker", ch.short_name))
+            else:
+                doc.fields.append(xappy.Field("speaker_identifier", line['speaker']))
+                doc.fields.append(xappy.Field("speaker", line['speaker']))
         doc.id = id
         try:
             search_db.add(search_db.process(doc))
