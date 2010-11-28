@@ -11,7 +11,7 @@
 
 #coverpage {
     position:               absolute;
-    top:                    50px;
+    top:                    40px;
     left:                   0;
     width:                  280px;
     text-align:             center;
@@ -31,7 +31,7 @@
 }
 
 #content.about h1 {
-    font-size:              3em;
+    font-size:              2em;
     font-weight:            bold;
     line-height:            1.1;
     margin-bottom:          1em;
@@ -56,13 +56,17 @@
     font-size:              0.875em;
     margin-left:            -320px;
     width:                  940px;
+    padding-bottom:         20px;
 }
 
 #how-this-was-made #team,
 #how-this-was-made #colophon {
     float:                  left;
-    width:                  430px; // FIXME: correct pixel width would help
+    width:                  420px;
     padding:                10px 20px;
+}
+#how-this-was-made #team {
+    margin-right:           20px;
 }
 
 #content.about #how-this-was-made h2 {
