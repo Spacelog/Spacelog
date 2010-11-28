@@ -38,25 +38,25 @@
             "title": "First Orbit",
             "description": "Round one!",
             "range": ["00:00:05:04", "00:01:32:50"],
-            "homepage": "phase1.jpg"
+            "homepage": "phase2.jpg"
         },
         {
             "title": "Second Orbit",
             "description": "Round two!",
             "range": ["00:01:32:50", "00:03:07:03"],
-            "homepage": "phase1.jpg"
+            "homepage": "phase3.jpg"
         },
         {
             "title": "Third Orbit",
             "description": "Round three!",
             "range": ["00:03:07:03", "00:04:32:39"],
-            "homepage": "phase1.jpg"
+            "homepage": "phase4.jpg"
         },
         {
             "title": "Reentry",
             "description": "Safely back home.",
             "range": ["00:04:32:39", "00:05:05:11"],
-            "homepage": "phase1.jpg"
+            "homepage": "phase5.jpg"
         }
     ],
     "key_scenes" : [
