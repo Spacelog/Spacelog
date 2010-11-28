@@ -80,12 +80,7 @@ Artemis.PhasesView = Backbone.View.extend({
         this.el.find('ul').append('<li><a href="#" class="map">Show map</a></li>');
         if (this.getIsOpen()) {
             this.el.css({height: this.openHeight});
-        if (this.el.find('img').length) {
-            this.el.find('ul').append('<li><a href="#" class="map">Map</a></li>');
-            if (this.getIsOpen()) {
-                this.el.css({height: this.openHeight});
-                this.el.addClass("open")
-            }
+            this.el.addClass("open");
         }
     },
 
