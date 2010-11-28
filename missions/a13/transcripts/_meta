@@ -60,6 +60,21 @@
     ],
     "key_scenes" : [
         {
+            "title": "The inboard engine cuts out two minutes early",
+            "range": ["00:00:05:32", "00:00:06:14"]
+        
+        },
+        {
+            "title": "The crew broadcasts their first TV signal from orbit",
+            "range": ["00:01:41:18", "00:01:42:34"]
+        
+        },
+        {
+            "title": "The crew takes some photographs of Earth",
+            "range": ["00:10:29:31", "00:10:31:23"]
+        
+        },
+        {
             "title": "\"Houston, we've had a problem.\"",
             "range": ["02:07:55:00", "02:07:56:41"]
         },
@@ -68,8 +83,28 @@
             "range": ["02:09:23:54", "02:09:24:54"]
         },
         {
-            "title": "The crew collects materials to make the CO2 scrubbers",
+            "title": "Collecting materials to make the 'mailbox' CO2 scrubbers",
             "range": ["03:18:08:38", "03:18:10:03"]
+        },
+        {
+            "title": "The crew completes their first 'mailbox'",
+            "range": ["03:19:08:39", "03:19:12:28"]
+        
+        },
+        {
+            "title": "\"There's one whole side of the spacecraft missing\"",
+            "range": ["05:18:02:06", "05:18:04:57"]
+        
+        },
+        {
+            "title": "Jettisoning the lunar module",
+            "range": ["05:21:28:42", "05:21:30:05"]
+        
+        },
+        {
+            "title": "The command module within sight of mission control",
+            "range": ["05:22:50:06", "05:22:50:15"]
+        
         }
     ],
     "homepage_quotes" : [
