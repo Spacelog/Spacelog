@@ -26,7 +26,7 @@
   <div class='nav'>
   {% if previous_timestamp and not max_highlight_index and not log_lines.0.first_in_act %}
     <p id='load-previous' class='load-more'>
-      <a href="{% timestamp_to_url previous_timestamp %}">Load previous</a>
+      <a href="{% timestamp_to_url previous_timestamp %}">Load previous&hellip;</a>
     </p>
   {% endif %}
   </div>
@@ -107,7 +107,7 @@
   <div class='nav after'>
   {% if next_timestamp and not max_highlight_index %}
     <p id='load-more' class='load-more'>
-      <a href="{% timestamp_to_url next_timestamp %}">Load more</a>
+      <a href="{% timestamp_to_url next_timestamp %}">Load more&hellip;</a>
     </p>
   {% endif %}
   </div>
