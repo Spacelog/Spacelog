@@ -145,15 +145,18 @@ class TranscriptIndexer(object):
             last_act = act
             # First, create a record with some useful information
             info_key = "log_line:%s:info" % log_line_id
+            info_record = {
+                "offset": chunk['offset'],
+                "page": current_page,
+                "act": act.number,
+                "utc_time": launch_time + timestamp,
+            }
+            if current_transcript_page:
+                info_record["transcript_page"] = current_transcript_page
+
             self.redis_conn.hmset(
                 info_key,
-                {
-                    "offset": chunk['offset'],
-                    "page": current_page,
-                    "transcript_page": current_transcript_page,
-                    "act": act.number,
-                    "utc_time": launch_time + timestamp,
-                }
+                info_record,
             )
             # Look up the key scene
             for key_scene in key_scenes:

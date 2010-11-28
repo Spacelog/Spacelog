@@ -52,7 +52,7 @@ class LogLine(object):
             raise ValueError("No such LogLine: %s at %s" % (self.transcript_name, self.timestamp))
         # Load onto our attributes
         self.page = int(data['page'])
-        self.transcript_page = data['transcript_page']
+        self.transcript_page = data.get('transcript_page')
 
         self.lines = []
         for line in self.redis_conn.lrange("log_line:%s:lines" % self.id, 0, -1):
