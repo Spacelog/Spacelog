@@ -20,7 +20,7 @@
     margin-right:           20px;
     width:                  220px;
 }
-#masthead h1 em {
+#masthead h1 .mission {
     color:                   #f8b334;
 }
 

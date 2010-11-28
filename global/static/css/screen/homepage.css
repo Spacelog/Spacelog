@@ -18,6 +18,10 @@
     font-size:              32px;
     margin:                 70px 0 0;
 }
+.homepage h3 {
+    font-weight:            bold;
+    margin:                 23px 0 15px;
+}
 .homepage h3 a {
     display:                block;
 }
@@ -37,13 +41,18 @@
 }
 .homepage li {
     float:                  left;
+    line-height:            21px;
     padding:                0 10px;
     width:                  300px;
 }
 
-.homepage .featured h3 {
-    font-weight:            bold;
-    margin-top:             23px;
+/*! verbatim */
+.homepage .featured {
+    text-shadow:            1px 1px 2px #000;
+}
+/* -- */
+.homepage .featured li {
+    margin-bottom:          30px;
 }
 .homepage .featured img {
     display:                block;
