@@ -23,7 +23,7 @@
 <ol>
 {% for number, act in acts %}
   <li>
-    <a href='{% selection_url act.start %}'>
+    <a href='{% timestamp_to_url act.start %}'>
       <img src="/assets/missions/{{ mission.name }}/images/homepage/phase{{ number }}.jpg"
            alt="" width="220" height="140"/>
       Phase {{ number }}: {{ act.title }}
