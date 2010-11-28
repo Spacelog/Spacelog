@@ -165,13 +165,13 @@
     "character_ordering": [
         "CC",
         "F",
-        "CHARLIE_DUKE",
-        "KEN_MATTINGLY",
         "VANCE_BRAND",
         "JACK_LOUSMA",
         "JOE_KERWIN",
-        "TOM_STAFFORD",
+        "CHARLIE_DUKE",
+        "KEN_MATTINGLY",
         "DEKE_SLAYTON",
+        "TOM_STAFFORD",
         "GENE_KRANZ"
     ],
     "characters": {
