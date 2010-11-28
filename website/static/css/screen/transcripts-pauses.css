@@ -22,3 +22,6 @@
 #transcript dd.long:after {
     font-size:              4em;
 }
+#transcript dd.extended-pause {
+    color:                  #999;
+}
