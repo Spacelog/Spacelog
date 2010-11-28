@@ -2,6 +2,7 @@
 	ServerName a13.artemis.fort
 	ServerAlias ma6.artemis.fort
 	
+	Alias /assets/missions /home/df-artemis/releases/current/website/missions
 	Alias /assets /home/df-artemis/releases/current/website/static
 
 	DocumentRoot /var/www
@@ -12,6 +13,10 @@
 	</Directory>
 
 	<Directory /home/df-artemis/releases/current/website/static>
+		Order allow,deny
+		allow from all
+	</Directory>
+	<Directory /home/df-artemis/releases/current/website/missions>
 		Order allow,deny
 		allow from all
 	</Directory>

@@ -1,7 +1,8 @@
 <VirtualHost *:80>
 	ServerName artemis.fort
 	
-	Alias /assets /home/df-artemis/releases/current/global/static
+	Alias /assets/missions /home/df-artemis/releases/current/website/missions
+	Alias /assets /home/df-artemis/releases/current/website/static
 
 	DocumentRoot /var/www
 
@@ -10,7 +11,11 @@
 		AllowOverride None
 	</Directory>
 
-	<Directory /home/df-artemis/releases/current/global/static>
+	<Directory /home/df-artemis/releases/current/website/static>
+		Order allow,deny
+		allow from all
+	</Directory>
+	<Directory /home/df-artemis/releases/current/website/missions>
 		Order allow,deny
 		allow from all
 	</Directory>
