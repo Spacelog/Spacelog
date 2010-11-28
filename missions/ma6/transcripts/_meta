@@ -68,7 +68,7 @@
             "photo": "",
             "photo_width": 190,
             "photo_height": 155,
-            "avatar": "CC_48.png"
+            "avatar": "capcom_generic.jpg"
         },
         "F": {
             "role": "mission-ops-title",
@@ -88,7 +88,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 155,
-          "avatar": "CC_48.png",
+          "avatar": "john_glenn.jpg",
           "stats": [
             {
                 "value": 218,
