@@ -11,7 +11,7 @@ class StatsPornGenerator(object):
     graph_background_height = 40
     graph_bar_colour = '#00a9d2'
     
-    image_output_path = 'website/static/transcripts'
+    image_output_path = 'missions/%s/images/stats/'
     
     def __init__(self, redis_conn):
         self.redis_conn = redis_conn
@@ -28,6 +28,7 @@ class StatsPornGenerator(object):
             t = act.start            
             segment_line_counts = []
             max_line_count = 0
+            real_output_path = self.image_output_path % mission.name
             while t < act.end:
                 query = LogLine.Query(self.redis_conn, mission.name).transcript(mission.main_transcript).range(t, t+section_duration)
                 line_count = len(list(query))
@@ -37,12 +38,12 @@ class StatsPornGenerator(object):
                 t += section_duration
 
                 try:
-                    os.makedirs('%s/%s/stats' % (self.image_output_path, mission.name))
+                    os.makedirs('%s/%s/stats' % (real_output_path, mission.name))
                 except OSError:
                     pass
 
                 graph_file = '%s/stats/graph_%s_%s.png' % (mission.name, mission.name, act.number)
-                output_path = '%s/%s' % (self.image_output_path, graph_file)
+                output_path = '%s/%s' % (real_output_path, graph_file)
 
                 draw_commands = ['convert', self.graph_background_file, '-fill', self.graph_bar_colour]
 

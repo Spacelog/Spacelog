@@ -497,7 +497,11 @@ class Mission(object):
             
             filter_names = set(self.filters.keys())
             if filter_names == set():
-                keys = [x.split(":")[1] for x in self.redis_conn.keys("mission:*")]
+                keys = [
+                    x.split(":")[1]
+                    for x in self.redis_conn.keys("mission:*")
+                    if len(x.split(":")) == 2
+                ]
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
             
