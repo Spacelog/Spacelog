@@ -3098,6 +3098,10 @@ CMP: I think this PTC's going to work out good. I been
 [00:11:21:13]
 CC:  Good. It's looking good here.
 
+[00:11:21:26]
+_type: music
+SC:  (Music - Aquarius)
+
 [00:11:21:44]
 CC:  Good Lord!
 
@@ -3235,6 +3239,10 @@ LMP: Yes. The readability of that thing is like, you
 
 [00:11:38:27]
 CC:  Okay.
+
+[00:11:41:57]
+_type: music
+SC:  (Music - Halls of Montezuma)
 
 [00:11:42:12]
 CC:  Roger. Houston copies.
@@ -5486,6 +5494,10 @@ CMP: MODE NORMAL.
 [01:06:40:22]
 CDR: Standing by for ENTER ENABLE.
 
+[01:06:40:46]
+_comment: "Actually attributed to LMP/CMP"
+LMP: ENTER ENABLE
+
 [01:06:40:51]
 LMP: Two balls.
 
@@ -7147,6 +7159,10 @@ CC:  It may be awhile before your rates are settled
 [01:09:41:29]
 CMP: Okay. Thank you.
 
+[01:09:44:53]
+_type: music
+SC:  (Music)
+
 [01:09:50:36]
 CC:  Apollo 13, Houston.
 
@@ -7453,6 +7469,7 @@ CC:  Well, I hope you had a good meal.
 LMP: It wasn't too bad.
 
 [01:12:42:55]
+_type: music
 SC:  (Music)
 
 [01:12:43:01]
@@ -9917,6 +9934,10 @@ CDR: It took Fred 1 hour to shave.
 CDR: We might give you a quick - a quick shot of our
      entertainment on board the spacecraft, which
      has been keeping us company for some time.
+
+[02:07:43:57]
+_type: music
+SC:  (Music - Willow Weep For Me)
 
 [02:07:44:15]
 CDR: This little tape recorder has been a big
@@ -18793,6 +18814,10 @@ CDR: There's our 83. - -
 [03:02:18:36]
 CC:  Apollo 13, Houston.
 
+[03:02:18:41]
+_comment: "Actually attributed to CDR/LMP"
+CDR: Go ahead.
+
 [03:02:18:43]
 CC:  13, request you put in the POWER AMPL circuit
      breakers so that we can take a look at your
@@ -21815,7 +21840,7 @@ LMP: Okay, Vance. I'm on - Do you read me now, hot
 CC:  Roger. Loud and clear, Fred.
 
 [03:07:53:26]
-LMP: Okay. Jim just noticed we got a VHY breaker in
+LMP: Okay. Jim just noticed we got a VHF breaker in
      on panel 11 still, I think, that probably should be opened.
 
 [03:07:53:41]
@@ -21989,7 +22014,7 @@ CDR: Here we go.
 CDR: ... the battery. ...
 
 [03:08:08:27]
-CDR: Do you know what the p]us-X thrusters are?
+CDR: Do you know what the plus-X thrusters are?
 
 [03:08:08:41]
 CDR: Yes, okay. I just wanted to make sure you do.. I
@@ -22003,7 +22028,7 @@ CDR: Go ahead.
 
 [03:08:09:01]
 CC:  Okay. A couple of things, Jim. One is that you
-     can use the TTCAs to maaeuver, but you're going
+     can use the TTCAs to maneuver, but you're going
      to save a lot of fuel if you'd try MINIMUM IMPULSE.
      So, that might be a better recommendation. The other
      thing is, we'd like to give you a GO before you disable 
@@ -22016,7 +22041,7 @@ CDR: Okay; understand. You want a GO before I - I'm -
      is in ATT HOLD, at this time. But, this is later on down.
 
 [03:08:10:04]
-CC:  Yes. All we wanted to io was take a look at things
+CC:  Yes. All we wanted to do was take a look at things
      before you disabled the plus-X thrusters, and before 
      you go to MIN IMPULSE at the end there - that
      VERB 76, ENTER; MODE CONTROL, ATT HOLD.
@@ -22323,7 +22348,7 @@ CC:  Okay. Read you loud and clear now, Jim.
 
 [03:08:32:48]
 CDR: Okay. Did you hear what I just said about the
-     [glossary:ECS ECS] light and the blinking C02 component light?
+     [glossary:ECS ECS] light and the blinking CO<sub>2</sub> component light?
 
 [03:08:32:54]
 CC:  Okay. We got that and - Stand by 1.
@@ -22555,7 +22580,7 @@ LMP: ...
 [03:08:50:10]
 CDR: Yes, I've been trying to get roll out. Roll to
      zero. Just go ahead to zero, I'm going to put
-     it in ATT HOLD. Then it '11 take out yaw, leaving
+     it in ATT HOLD. Then it'll take out yaw, leaving
      pitch the way it is; then we're going to pitch down.
 
 [03:08:50:48]
@@ -22748,7 +22773,7 @@ CDR: Go ahead, Houston.
 [03:09:14:36]
 CC:  Jim, that's affirm. We're monitoring and you're
      almost there, but we'd like to let them stabilize
-     a little hit longer. Over.
+     a little bit longer. Over.
 
 [03:09:14:48]
 CDR: Okay. We'll - We'll just hold.
@@ -23124,7 +23149,7 @@ CDR: It's not much better. Okay, let's go this one.
 LMP: Keep the ...
 
 [03:09:45:41]
-CC:  Aqusrius, Houston. Over.
+CC:  Aquarius, Houston. Over.
 
 [03:09:45:46]
 CDR: Go ahead.
@@ -23207,7 +23232,7 @@ CC:  Okay; oxygen. You have remaining 44 pounds in
      and B at 6 2 percent. We only expect 2 percent
      to be used for the PTC, so you're in good shape
      for RCS. Next, [glossary:DPS DPS] DELTA-V. You have 1190 feet
-     per second remaining. And, fina]]y, [glossary:CSM CSM] EPS.
+     per second remaining. And, finally, [glossary:CSM CSM] EPS.
      We estimate that you have 99 amp-hours. That's
      an estimate. And that's it. Over.
 
@@ -23218,7 +23243,7 @@ CDR: Okay. I copy.
 
 [03:09:51:24]
 CC:  Okay. And just a question. It would be interesting 
-     to hear from Jack to see if he thinks vhat
+     to hear from Jack to see if he thinks that
      main B bus is good. If he has any idea of how,
      if whether it's good or not, this would influence 
      our steps in the future; for example, we
@@ -23241,7 +23266,7 @@ CC:  Would you stand by on that, Jim? We'd like to
      give you a procedure for that later on.
 
 [03:09:52:34]
-CDR: Okay. Got a midcourse at 104 hours, lie's going
+CDR: Okay. Got a midcourse at 104 hours, he's going
      to give us a procedure for that later on.
 
 [03:09:52:48]
@@ -23881,7 +23906,7 @@ CMP: Are they going to - -
 
 [03:10:25:47]
 CDR: - - that - We just don't want to go to sleep
-     here and forget about the rise in C02.
+     here and forget about the rise in CO<sub>2</sub>.
 
 [03:10:25:51]
 CMP: Are they going to use ... - -
@@ -25118,7 +25143,7 @@ LMP: Okay. And, Jack, the Earth [glossary:LPD LPD] angle is
 
 [03:13:22:14]
 CC:  Roger. Earth at 24. And it looks like you're
-     getting up to about 15 on the C02, so we want
+     getting up to about 15 on the CO<sub>2</sub>, so we want
      you to select SECONDARY and swap out the primary
      cartridge. Over.
 
@@ -25143,7 +25168,7 @@ LMP: And the change out is complete, Jack.
 
 [03:13:29:50]
 CC:  Okay. Copy the changeout complete, and we're
-     reading 4.5 on the C02 here.
+     reading 4.5 on the CO<sub>2</sub> here.
 
 [03:13:30:01]
 LMP: Okay. I'm ...
@@ -35728,7 +35753,7 @@ CC:  No, if you've got something in the right-hand
      get that for you in a jiffy.
 
 [04:15:27:22]
-CMP: Okay. I']] be standing by to copy it.
+CMP: Okay. I'll be standing by to copy it.
 
 [04:15:27:25]
 CC:  Okay. We have a last minute change to that.
@@ -35790,7 +35815,7 @@ CMP: I'm ready to copy. Go ahead.
 
 [04:15:35:40]
 CC:  Okay. This assumes that all the descent batteries
-     are on ]ine and ASCENT BATTERY 6 is on NORMAL
+     are on line and ASCENT BATTERY 6 is on NORMAL
      FEED, as we said earlier. First thing you do is
      go in the [glossary:CSM CSM] and look on panel 5 circuit breaker.
      [glossary:LM LM] POWER-2 MAIN B, open; [glossary:LM LM] POWER-1 MAIN A, open;
@@ -45338,8 +45363,10 @@ CC:  Okay, Fred. Prior to [time:05:21:40:00 141:40:00], which is [glossary:EI EI
      roll, 130; pitch, 125; yaw, 012.4. The corresponding
      [glossary:CSM CSM] gimbal angles will be roll, 291; pitch,
      196; yaw, 045, and that's the pad. Over. And the
-     computer is yours, Aquerius.
-     05 16 ]1!14 CDR Thank you.
+     computer is yours, Aquarius.
+
+[05:16:13:14]
+CDR: Thank you.
 
 [05:16:14:23]
 LMP: Okay. A [glossary:LM LM] SEP pad prior to [time:05:21:40:00 141:40:00], [glossary:EI EI] minus
@@ -47854,6 +47881,10 @@ CC: Roger. We think that you were just pressurizing
 
 [05:21:15:14]
 CC:  Odyssey, Houston.
+
+[05:21:15:18]
+_comment: "Actually attributed to CMP/CDR"
+CMP: Go ahead.
 
 [05:21:15:19]
 CC:  Okay. We're observing middle gimbal angle getting
