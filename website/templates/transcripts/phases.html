@@ -13,10 +13,22 @@
     <p>{{ act.description }}</p>
     <p><a href="{% timestamp_to_url act.start %}">Read the transcript…</a></p>
 
+    <h3>Activity</h3>
     {% if act.has_stats %}
-      {{ act.stats_image_map|safe }}
-      <img src='/assets/missions/{{ mission.name }}/images/stats/graph_{{ mission.name }}_{{ act.number }}.png' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
+      <div class='stats'>
+        {{ act.stats_image_map|safe }}
+        <img src='/assets/missions/{{ mission.name }}/images/stats/graph_{{ mission.name }}_{{ act.number }}.png' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
+      </div>
     {% endif %}
+
+    {% if act.key_scenes %}
+      <ol class='key-scenes'>
+        {% for key_scene in act.key_scenes %}
+          <li>{{ key_scene.title }}</li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+
   {% endfor %}
 
 {% endblock %}

@@ -274,12 +274,18 @@ class NarrativeElement(object):
         return self.start <= timestamp < self.end
 
     class Query(BaseQuery):
+        def act_number(self, act_number):
+            return self._extend_query('act_number', act_number)
+
         def items(self):
             "Executes the query and returns the items."
             # Make sure it's a valid combination 
             filter_names = set(self.filters.keys())
             if filter_names == set():
                 keys = self.redis_conn.lrange(self.all_key, 0, -1)
+            elif filter_names == set(['act_number']):
+                redis_key = 'act:%s:%s:key_scenes' % (self.mission_name, self.filters['act_number'])
+                keys = self.redis_conn.lrange(redis_key, 0, -1)
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
             # Iterate over the keys and return LogLine objects
@@ -312,7 +318,10 @@ class Act(NarrativeElement):
             self.stats_image_map_id = stats_data['image_map_id']
         else:
             self.has_stats = False
-        
+    
+    def key_scenes(self):
+        return list( KeyScene.Query(self.redis_conn, self.mission_name).act_number(self.number).items() )
+    
     class Query(NarrativeElement.Query):
         all_key_pattern = "acts:%(mission_name)s"
 
@@ -352,11 +361,11 @@ class Character(object):
         key = "characters:%s" % self.id
         data = self.redis_conn.hgetall( key )
         
-        self.name                 = data['name']
-        self.short_name           = data['short_name']
-        self.role                 = data['role']
+        self.name                 = data.get('name', self.identifier)
+        self.short_name           = data.get('short_name', self.identifier)
+        self.role                 = data.get('role', 'other')
         self.mission_position     = data.get('mission_position', '')
-        self.avatar               = data['avatar']
+        self.avatar               = data.get('avatar', '/assets/img/blank_avatar_48.png')
         self.bio                  = data.get('bio', None)
         self.photo                = data.get('photo', None)
         self.photo_width          = data.get('photo_width', None)

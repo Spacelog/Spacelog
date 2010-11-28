@@ -309,6 +309,14 @@ class MetaIndexer(object):
                 del data['range']
 
                 self.redis_conn.hmset(key, data)
+        # Link key scenes and acts
+        for act in Act.Query(self.redis_conn, self.mission_name):
+            for key_scene in KeyScene.Query(self.redis_conn, self.mission_name):
+                if act.includes(key_scene.start):
+                    self.redis_conn.rpush(
+                        'act:%s:%s:key_scenes' % (self.mission_name, act.number),
+                        '%s:%s' % (self.mission_name, key_scene.number),
+                    )
 
     def index_characters(self, meta):
         "Stores character information in redis"
