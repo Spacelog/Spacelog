@@ -19,7 +19,7 @@ def glossary_link(match, request):
             title = gitem.description
     else:
         title = ""
-    return "<a href='%s#%s' title='%s'>%s</a>" % (
+    return "<a href='%s#%s'><abbr title='%s'>%s</abbr></a>" % (
         reverse("glossary"),
         slugify(match.group(1)),
         title,
