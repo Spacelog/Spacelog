@@ -34,19 +34,18 @@
     vertical-align:         middle;
 }
 
-
 #transcript dt.time {
     // position
     float:                  left;
     line-height:            32px;
-    width:                  80px;
-    
-    // style
-    text-align:             center;
+    width:                  100px;
+    margin-left:            -20px;
+}
+#transcript dt.time a {
+    // FIXME: Shouldn't be needed.
+    text-align:             right;
 }
 #transcript time {
-    display:                table-cell;
-    
     font-size:              24px;
     line-height:            32px;
     font-family:            'League Gothic',
