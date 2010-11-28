@@ -98,7 +98,7 @@ P: Roger.
 P: Still have about 1 1/2 g's. Programming. Over.
 
 [00:00:02:36]
-P: There the tower went right then. Have the tower m sight way out. Could see the tower go. Jettison tower is green.
+P: There the tower went right then. Have the tower in sight way out. Could see the tower go. Jettison tower is green.
 
 [00:00:02:48]
 CC: Roger.
@@ -179,7 +179,7 @@ CC: Roger, stand. ...
 P: Roger. Zero-g and I feel fine. Capsule is turning around.
 
 [00:00:05:18]
-P: Oh, that view is tremendous]
+P: Oh, that view is tremendous
 
 [00:00:05:21]
 CC: Roger. Turnaround has started.
@@ -401,7 +401,7 @@ CC: Friendship Seven, Friendship Seven. What is your spacecraft status report? O
 [00:00:15:17]
 P: Roger. Standby, Will give status report. I am in orbit attitude for your tracking. Status report, follows: Fuses all number one except Tower Sep number two. Emergency Retrosequence, Emergency Retrojettison, and Emergency Drogue
      are in the center-off position, Squib is Armed. Auto Retrojettison is off. [glossary:ASCS ASCS] is normal, auto, gyro normal. All "T" handles are in the "in"-position. Retro Delay is normal. Cabin Lights are on both. Photo Lights are still on.
-     Telemetry Low Frequency is on. Rescue Aids are on automatic. Ah, Jettison Tower, and Sep Capsule lights are out. The pressure regulator is still in the "in"-position. Launch control is on. .ali sequence panel positions are normal except Landing Bag is off. Are you receiving? Over.
+     Telemetry Low Frequency is on. Rescue Aids are on automatic. Ah, Jettison Tower, and Sep Capsule lights are out. The pressure regulator is still in the "in"-position. Launch control is on. All sequence panel positions are normal except Landing Bag is off. Are you receiving? Over.
 
 [00:00:16:19]
 CC: Understand. We have telemetry solid.
@@ -811,7 +811,7 @@ CC: Roger, Friendship Seven. Continue with the report.
 [00:00:35:40]
 P: Roger. This is Friendship Seven. The window, attitude indications, and periscope all check right together in good shape. I can see the dark side coming up
      in the periscope back behind me at present time. Cabin pressure is 5.5 and
-     holding. Cabin temperature is 95 [degrees[. Relative humidity is 28 [percent].
+     holding. Cabin temperature is 95 [degrees]. Relative humidity is 28 [percent].
      I have turned the cabin--my suit temperature onto the increased water position
      for more cooling. Steam temperature is presently indicating 61 [degrees].
      Oxygen is 75--100 [percent]. I didn't give suit temperature. Suit inlet temperature is 65 [degrees] and pressure is 5.8. Over.
@@ -989,7 +989,7 @@ CC: Roger. Area I Echo is one hour, 15 minutes, 42 seconds. I say again, one hou
      15 minutes, 42 seconds. Over.
 
 [00:00:44:07]
-P: Roger. One Echo is 01 plus 15 plus 4ff.
+P: Roger. One Echo is 01 plus 15 plus 42.
 
 [00:00:44:13]
 CC: Roger. Area Foxtrot is one hour, 28 minutes, 50 seconds. I say again, one hour, 28 minutes, 50 seconds.
@@ -1127,7 +1127,7 @@ P: Roger. Control fuel is 90-100 [percent], oxygen is 75-100 [percent], amps are
 CC: Roger. Do you have any star or weather or landmark observations as yet? Over.
 
 [00:00:50:29]
-P: Roger. I was just nmking some to the recorder. The only unusual thing I have
+P: Roger. I was just making some to the recorder. The only unusual thing I have
      noticed is a rather high, what would appear to be a haze layer up some 7 or 8
      degrees above tiw horizon on the night side. The stars I can see through it as
      they go down toward the real horizon, but it is a very visible single band or layer
@@ -1970,13 +1970,13 @@ P: Roger. This is Friendship Seven, controlling manually on fly-by-wire, having 
 
 [00:01:37:35]
 CC: Roger.
-     22. 4 P Continuing with th( report. No sequence panel lights showing. Only abnormal
+     22. 4 P Continuing with the report. No sequence panel lights showing. Only abnormal
      position. Landing bag is off. The EPI is indicating okay. Control fuel is 80
      [percent] auto, 100 [percent] nmnual. Retrograde time set in is 04 plus 32 plus 28.
      Over.
 
 [00:01:38:00]
-CC: Roger, still reading 5 ou.
+CC: Roger, still reading you.
 
 [00:01:38:02]
 P: Roger. Are we in communication yet? Over.
@@ -4053,7 +4053,7 @@ CT: Friendship Seven, this is CYI Com Tech. Do you read? Over.
 P: Roger, Canary.
 
 [00:03:20:49]
-CT: ROg, Roger. Read you 5 by, read you 5 by, here in the Canaries. Over.
+CT: Rog, Roger. Read you 5 by, read you 5 by, here in the Canaries. Over.
 
 [00:03:20:54]
 P: Roger, Friendship Seven. I read you loud and clear on HF, also.

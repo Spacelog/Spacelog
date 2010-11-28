@@ -100,7 +100,14 @@
           "name": "Communications Technician",
           "short_name": "Comm Tech",
           "avatar": "blank_48.png"
+        },
+        "S": {
+          "role": "other",
+          "name": "Surgeon",
+          "short_name": "Flight Surgeon",
+          "avatar": "blank_48.png"
         }
+
     },
     "glossary": {
         "ASCS": {
@@ -120,6 +127,15 @@
         }, 
         "SECO": {
             "description": "Sustainer Engine Cut-Off"
+        },
+        "IOS": {
+            "description": "Indian Ocean Ship"
+        },
+        "CYI": {
+            "description": "Canary Islands"
+        },
+        "MCC": {
+            "description": "Mercury Control Center"
         }
     }
 }
