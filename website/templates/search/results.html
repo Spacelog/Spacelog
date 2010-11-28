@@ -2,6 +2,7 @@
 {% load xappy %}
 {% load missiontime %}
 {% load characters %}
+{% load linkify %}
 
 {% block title %}Search Results for &ldquo;{{ q }}&rdquo;{% endblock %}
 
@@ -68,7 +69,7 @@
       <div class="speaker">{% avatar line.0 mission.name %}</div>
     
       <blockquote>
-        <a href="{% selection_url error.quote.timestamp %}"><p>{{ line.1 }}</p></a>
+        <a href="{% selection_url error.quote.timestamp %}"><p>{{ line.1|linkify }}</p></a>
       </blockquote>
     
       {% endfor %}

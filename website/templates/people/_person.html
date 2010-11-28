@@ -1,4 +1,5 @@
 {% load missiontime %}
+{% load linkify %}
 
 <div class="person" id="{{ person.short_name|slugify }}">
   <h3>
@@ -28,7 +29,7 @@
     <blockquote>
       {% for speaker, line in person.quotable_log_line.lines %}
       <p>
-        {{ line }}
+        {{ line|linkify }}
       </p>
       {% endfor %}
     </blockquote>
