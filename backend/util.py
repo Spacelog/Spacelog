@@ -1,10 +1,12 @@
 
 def seconds_to_timestamp(seconds):
-    return "%02i:%02i:%02i:%02i" % (
-        seconds // 86400,
-        seconds % 86400 // 3600,
-        seconds % 3600 // 60,
-        seconds % 60,
+    abss = abs(seconds)
+    return "%s%02i:%02i:%02i:%02i" % (
+        "-" if seconds<0 else "",
+        abss // 86400,
+        abss % 86400 // 3600,
+        abss % 3600 // 60,
+        abss % 60,
     )
 
 def timestamp_to_seconds(timestamp):
