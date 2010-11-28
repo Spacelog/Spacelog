@@ -12,11 +12,11 @@ def glossary_link(match, request):
     # Try to look up the definition
     if request:
         try:
-            gitem = Glossary(request.redis_conn, request.mission_name, match.group(1))
+            gitem = Glossary(request.redis_conn, request.mission.name, match.group(1))
         except ValueError:
             title = ""
         else:
-            title = gitem.title
+            title = gitem.description
     else:
         title = ""
     return "<a href='%s#%s' title='%s'>%s</a>" % (

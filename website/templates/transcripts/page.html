@@ -55,7 +55,7 @@
         {% if log_line.first_in_key_scene %}
         <em>{{ log_line.key_scene.title }}<span>: </span></em>
         {% endif %}
-        {{text|linkify|safe}}
+        {{text|safe}}
       </p>
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
           <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}' class='range-ui' id='expand-previous'><span>Expand selection up</span></a>
