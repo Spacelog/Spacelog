@@ -67,9 +67,9 @@
             "name": "Capsule Communicator",
             "short_name": "CAPCOM",
             "bio": "In the Mercury missions, CAPCOM was the main person to communicate with the pilot. On Mercury-Atlas 6, there were CAPCOMs operating from different stations around the world, enabling Glenn to remain in contact with the Earth through his orbits.",
-            "photo": "",
+            "photo": "capcom.jpg",
             "photo_width": 190,
-            "photo_height": 155,
+            "photo_height": 205,
             "avatar": "capcom_generic.jpg"
         },
         "F": {
@@ -77,9 +77,9 @@
             "name": "Flight Director",
             "short_name": "Flight",
             "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. They rarely talked directly to the capsule pilot, usually communicating through CAPCOM.",
-            "photo": "",
+            "photo": "flight_directors.jpg",
             "photo_width": 190,
-            "photo_height": 155,
+            "photo_height": 205,
             "avatar": "F_48.png"
         },
         "P": {
@@ -89,7 +89,7 @@
           "bio": "A highly decorated USMC combat pilot with test flight experience including the first supersonic transcontinental flight, John Glenn was chosen to be the third American in space, and first to reach Earth orbit, from NASA's initial intake of seven astronauts in 1959. Following the assassination of President John F. Kennedy, he resigned from NASA to run for political office, returning to space age 77 onboard the Space Shuttle in 1998, becoming the oldest person to go to space.",
           "photo": "",
           "photo_width": 190,
-          "photo_height": 155,
+          "photo_height": 205,
           "avatar": "john_glenn.jpg",
           "stats": [
             {
