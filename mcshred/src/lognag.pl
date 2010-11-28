@@ -297,7 +297,7 @@ sub process {
                 my $parsed_timestamp =
                   parse_inline_timestamp( $last, $timestamp );
                 next if !defined $parsed_timestamp;
-                my $time_link = timefmt($parsed_timestamp);
+                my $time_link = timefmt( $parsed_timestamp, 4 );
                 $line =~ s/$timestamp/[time:$time_link $timestamp]/g;
                 my $offset = timefmt( $parsed_timestamp - $last );
                 $offset =~ s/(\s*) /$1+/ if $parsed_timestamp >= $last;
@@ -315,6 +315,7 @@ sub process {
 /[^.\?"][ ]+J(?!ack|im|oe|ohn|ames|ay|ustice|ohannesburg|ettison|ETT|ETS|r\.)[^A-Z]/;
         push( @fail, 'noleet-0-please' )
           if $txt =~ /([A-Za-z]0[A-Za-z\s]|[A-Za-z\s]0[A-Za-z])/;
+
         # push( @fail, '2B-or-not-2B-13' )       if $txt =~ /\b[1l]B\b/;
         push( @fail, 'CB(11)-please' )         if $txt =~ /CB\([iI]{2}\)/;
         push( @fail, 'doh-ray-me-fa-so-la' )   if $txt =~ /\blA\b/;
@@ -334,7 +335,7 @@ sub process {
           if $txt =~ /[^'.]\bt\b/;
         push( @fail, 'underscore' )         if $txt =~ /_/;
         push( @fail, 'we-tlave-a-floblem' ) if $txt =~ /[^H]ouston/;
-        push( @fail, 'orphaned-degree' ) if $txt =~ /\s°/;
+        push( @fail, 'orphaned-degree' )    if $txt =~ /\s°/;
 
         @fail = grep ( /^$report_fail/, @fail ) if $report_fail;
         if (@fail) {
@@ -385,10 +386,11 @@ sub setup_valid_speakers {
 }
 
 sub timefmt {
-    my $secs            = shift;
-    my $timestamp       = '';
+    my ( $secs, $timestamp_elements ) = @_;
+    $timestamp_elements ||= $log_timestamp_elements;
+    my $timestamp = '';
     my @timestamp_units = ( 60, 60, 24 );    # Sorted seconds, min, hour, day...
-    for ( my $index = 0 ; $index < $log_timestamp_elements - 1 ; ++$index ) {
+    for ( my $index = 0 ; $index < $timestamp_elements - 1 ; ++$index ) {
         $timestamp =
           sprintf( ":%02d", $secs % $timestamp_units[$index] ) . $timestamp;
         $secs /= $timestamp_units[$index];
