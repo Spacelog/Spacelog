@@ -1,4 +1,5 @@
 import datetime
+import backend.util
 try:
     import json
 except ImportError:
@@ -53,7 +54,7 @@ class LogLine(object):
     def _load(self):
         data = self.redis_conn.hgetall("log_line:%s:info" % self.id)
         if not data:
-            raise ValueError("No such LogLine: %s at %s" % (self.transcript_name, self.timestamp))
+            raise ValueError("No such LogLine: %s at %s [%s]" % (self.transcript_name, backend.util.seconds_to_timestamp(self.timestamp), self.timestamp))
         # Load onto our attributes
         self.page = int(data['page'])
         self.transcript_page = data.get('transcript_page')
