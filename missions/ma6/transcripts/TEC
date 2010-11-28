@@ -229,18 +229,18 @@ CC: Friendship Seven. Standby for retrosequence times.
 P: Roger. Ready to copy.
 
 [00:00:07:08]
-CC: Roger. 1B, 00 17 50.
+CC: Roger. 1B, [time:00:00:17:50 00 17 50].
 
 P: Roger. 1 Bravo is 00 plus 17 plus 50.
 
 [00:00:07:14]
-CC: End of orbit, 01 28 54.
+CC: End of orbit, [time:00:01:28:54 01 28 54].
 
 [00:00:07:19]
 P: Roger, 01 plus 28 plus 54.
 
 [00:00:07:22]
-CC: Roger, end of mission is 04 32 47.
+CC: Roger, end of mission is [time:00:04:32:47 04 32 47].
 
 [00:00:07:28]
 P: Roger. 04 plus 32 plus 47. Do I have okay for resetting clock? Over.
@@ -427,7 +427,7 @@ P: That is affirmative. Attitude: roll 0 [degrees], yaw 2 [degrees] right, pitch
      ASCS is 112. Fans are 112. Over.
 
 [00:00:17:58]
-CC: I understand, I understand your retrosequence time is 04 32 28. Over.
+CC: I understand, I understand your retrosequence time is [time:00:04:32:28 04 32 28]. Over.
 
 [00:00:18:04]
 P: That is affirmative. That's what's set in the clock. The horizon is a brilliant, a
@@ -684,11 +684,11 @@ P: Roger. Going back on ASCS. Yaw check okay. Can pick up yaw fairly well
 
 [00:00:28:26]
 CC: Seven, you are fading rapidly. I will broadcast this time in the blind for Area 1
-     Charlie, 00 32 12, 00 32 12.
+     Charlie, [time:00:00:32:12 [time:00:00:32:12 00 32 12]], [time:00:00:32:12 [time:00:00:32:12 00 32 12]].
 
 [00:00:28:40]
 _extra : ZANZIBAR (FIRST ORBIT)
-P: 00 32 22. Is that affirm? Over.
+P: [time:00:00:32:22 00 32 22]. Is that affirm? Over.
 
 [00:00:29:25]
 P: This is Friendship Seven. Hello, Zanzibar, Friendship Seven. Do you receive?
@@ -841,10 +841,10 @@ CC: Roger, Friendship Seven. Are you ready to copy your Contingency Area 1 Delta
 P: Roger. Say 1 Delta.
 
 [00:00:37:30]
-CC: I Delta is 00 50 24. Did you copy? Over.
+CC: I Delta is [time:00:00:50:24 00 50 24]. Did you copy? Over.
 
 [00:00:37:35]
-P: Roger. 00 50 24 for 1 Delta.
+P: Roger. [time:00:00:50:24 00 50 24] for 1 Delta.
 
 [00:00:37:40]
 CC: Roger, your inverter temperatures 150 volt inverter is 188°, 250 volt inverter, 158°.
@@ -962,7 +962,7 @@ CC: Friendship Seven. Would you confirm you received retrosequenee time 1 Deha
      from Zanzibar? Over.
 
 [00:00:43:34]
-P: This is Friendship Seven. Roger, 1 Delta is 00 50 24.
+P: This is Friendship Seven. Roger, 1 Delta is [time:00:00:50:24 00 50 24].
 
 [00:00:43:42]
 CC: Roger. I have areas 1 Echo, Foxtrot, and Hotel. Are you prepared to copy?
@@ -1434,7 +1434,7 @@ CC: This is Canaveral Cap Com, testing the HF. G.m.t. 15 (Cape) 52 05, MARK.
      I did not read the capsule. Cape, out.
 
 [00:01:05:17]
-CC: Friendship Seven, this Kano. G.m.t. 15 53 02. I did (Kano) not read your
+CC: Friendship Seven, this Kano. G.m.t. [time:00:15:53:02 15 53 02]. I did (Kano) not read your
      transmission. Kano, out.
 
 [00:01:05:32]
@@ -1660,7 +1660,7 @@ P: This is Friendship Seven. For the record, number, the number two film that I'
 [00:01:23:52]
 CC: Friendship Seven. Guaymas Cap Com. We have about 3 minutes yet before
      we acquire telemetry. I'll give you, I'll give you your retrosequence times for
-     Areas 2 Alpha, Golf, Hotel. Area 2 Alpha is 01 36 38.
+     Areas 2 Alpha, Golf, Hotel. Area 2 Alpha is [time:00:01:36:38 01 36 38].
 
 [00:01:24:11]
 P: This is Friendship Seven. Standby. I'm not ready to copy yet; I'm changing
@@ -1720,19 +1720,19 @@ CC: Friendship Seven, Guaymas. Do you want your contingency times now? Over.
 P: This is Friendship Seven. Ready to copy.
 
 [00:01:27:32]
-CC: Area 2 Alpha 01 36 38. Area Golf 03 00 41.
+CC: Area 2 Alpha [time:00:01:36:38 01 36 38]. Area Golf [time:00:03:00:41 03 00 41].
 
 [00:01:27:42]
 P: Say again Area Golf again, please.
 
 [00:01:27:45]
-CC: Area Golf 03 00 41.
+CC: Area Golf [time:00:03:00:41 03 00 41].
 
 [00:01:27:50]
 P: Roger, Area Golf is 03 plus 00 plus 41. Is that affirm?
 
 [00:01:27:56]
-CC: That's affirmative. Area Hotel is 04 32 40.
+CC: That's affirmative. Area Hotel is [time:00:04:32:40 04 32 40].
 
 [00:01:28:02]
 P: Roger, 04 plus 32 plus 40 for Hotel.
@@ -1908,11 +1908,11 @@ CC: Roger. Understand. Do you have a retrofire time for 2 Bravo and 2 Charlie?
 P: This is Friendship Seven. Negative.
 
 [00:01:34:41]
-CC: OK, 2 Bravo, 01 50 00; 2 Charlie, 02 05 59. Over.
+CC: OK, 2 Bravo, [time:00:01:50:00 01 50 00]; 2 Charlie, [time:00:02:05:59 02 05 59]. Over.
 
 [00:01:34:57]
 P: Ah, this is Friendship Seven. Understand 1 Bravo is 01 plus 50 plus 00; 2
-     Charlie, correction 2 Bravo is 01 50 00, 2 Charlie is 02 plus 05 plus 59. Is that
+     Charlie, correction 2 Bravo is [time:00:01:50:00 01 50 00], 2 Charlie is 02 plus 05 plus 59. Is that
      affirm?
 
 [00:01:35:09]
@@ -2107,14 +2107,14 @@ P: This is Friendship Seven broadcasting blind to Mercury Network on from just o
      the east coast over middle Atlantic, check completed at 15.
 
 [00:01:44:17]
-CC: (CNV) ... testing on HF G.m.t. 16 31 59 MARK. I read the capsule weak, but readable. Cape, out.
+CC: (CNV) ... testing on HF G.m.t. [time:00:16:31:59 16 31 59] MARK. I read the capsule weak, but readable. Cape, out.
 
 [00:01:44:31]
 _extra : CANARY (SECOND ORBIT)
-CC: Friendship Seven, this is Bermuda Cap Com on HF. We did not read the capsule. G.m.t. 16 32 15.
+CC: Friendship Seven, this is Bermuda Cap Com on HF. We did not read the capsule. G.m.t. [time:00:16:32:15 16 32 15].
 
 [00:01:44:41]
-CC: Friendship Seven, Friendship Seven, this is CYI. The time now 16 32 26. We
+CC: Friendship Seven, Friendship Seven, this is CYI. The time now [time:00:16:32:26 16 32 26]. We
      are reading you loud and clear; we are reading you loud and clear. CYI.
 
 [00:01:44:57]
@@ -2126,7 +2126,7 @@ P: This is Friendship Seven on UHF. As I went over recovery area that time, I
 CC: Friendship Seven, . . . We do not read you, do not read you. Over.
 
 [00:01:45:17]
-CC: (KNO) Friendship Seven, this is Kano. At G.m.t. 16 33 00. We do not. ... This is Kano. Out.
+CC: (KNO) Friendship Seven, this is Kano. At G.m.t. [time:00:16:33:00 16 33 00]. We do not. ... This is Kano. Out.
 
 [00:01:46:38]
 CT: Friendship Seven, Friendship Seven, this is CYI Com Tech. Over.
@@ -2619,16 +2619,16 @@ P: And I am not night adapted right now, so I cannot see any of the zodiacal lig
 
 [00:02:09:56]
 CC: Friendship Seven, this is Zanzibar Cap Com. Contingency time for 
-     Area 2 Delta, 02 38 31 Did you copy? Over.
+     Area 2 Delta, [time:00:02:38:31 02 38 31] Did you copy? Over.
 
 [00:02:10:07]
 P: Say again, contingeney area time. Over.
 
 [00:02:10:10]
-CC: 02 38 31. Over
+CC: [time:00:02:38:31 02 38 31]. Over
 
 [00:02:10:14]
-P: 02 38 31, Roger.
+P: [time:00:02:38:31 02 38 31], Roger.
 
 [00:02:10:20]
 CC: Friendship Seven, this is Zanzibar Cap Com. Please comment an reach accuracy
@@ -3273,7 +3273,7 @@ CC: Friendship Seven, this is Canton. Do you have all the retro times that you r
 
 [00:02:46:19]
 P: This is Friendship Seven. I believe so. I have Foxtrot coming up here, I mean
-     Golf coming up, at 03 00 39. Is that affirm?
+     Golf coming up, at [time:00:03:00:39 03 00 39]. Is that affirm?
 
 [00:02:46:30]
 CC: Standby one.
@@ -3283,7 +3283,7 @@ P: This is Friendship Seven. I'm trying to get some pictures of these particles 
      are outside here. Over.
 
 [00:02:46:50]
-CC: Friendship Seven, that time we have for Golf is 03 00 39. Over.
+CC: Friendship Seven, that time we have for Golf is [time:00:03:00:39 03 00 39]. Over.
 
 [00:02:46:58]
 P: Roger.
@@ -3607,7 +3607,7 @@ P: Roger, ready to copy 3 Alpha.
 CC: Roger. 3 Alpha corrected for the second error will be 03 plus 11 plus 26. Over.
 
 [00:03:01:22]
-P: Roger, 03 11 26.
+P: Roger, [time:00:03:11:26 03 11 26].
 
 [00:03:01:35]
 CC: You have your end-of-orbit time, and that has not changed and I believe yon have
@@ -3765,19 +3765,19 @@ P: Hello, Cap Com. Friendship Seven. Fuel is 62-60 [percent]; oxygen is 62-95
 
 [00:03:07:28]
 CC: Friendship Seven, reading you loud and clear. I'll give you the 3 Bravo
-     Time, 03 22 26. Over.
+     Time, [time:00:03:22:26 03 22 26]. Over.
 
 [00:03:07:42]
-P: Roger, 03 22 26, for 3 Bravo. Is that affirm?
+P: Roger, [time:00:03:22:26 03 22 26], for 3 Bravo. Is that affirm?
 
 [00:03:07:47]
-CC: . . . 3 Charlie 03 40 18. Over.
+CC: . . . 3 Charlie [time:00:03:40:18 03 40 18]. Over.
 
 [00:03:07:54]
-P: Roger, 03 40 18 for 3 Charlie.
+P: Roger, [time:00:03:40:18 03 40 18] for 3 Charlie.
 
 [00:03:08:00]
-CC: That is correct. At this time change your retro setting manually to 04 32 38.
+CC: That is correct. At this time change your retro setting manually to [time:00:04:32:38 04 32 38].
      Over.
 
 [00:03:08:11]
@@ -3848,16 +3848,16 @@ CC: Seven, this is Cape. Over.
 P: Go ahead, Cape.
 
 [00:03:10:40]
-CC: Correct your 3 Bravo time to 03 22 22. Over.
+CC: Correct your 3 Bravo time to [time:00:03:22:22 03 22 22]. Over.
 
 [00:03:10:48]
-P: Roger, 03 22 22 for 3 Bravo.
+P: Roger, [time:00:03:22:22 03 22 22] for 3 Bravo.
 
 [00:03:10:54]
 CC: Well, Seven, I'm having trouble, the seconds should be 32. Over.
 
 [00:03:10:57]
-P: Roger, 03 22 32.
+P: Roger, [time:00:03:22:32 03 22 32].
 
 [00:03:11:02]
 CC: Good Show.
@@ -4739,7 +4739,7 @@ P: My retrograde time 04 plus 32 plus 38 for capsule time which corrects for I s
      error in this clock.
 
 [00:04:01:09]
-CC: On that, MCC recommends you change that to 04 32 37 shortly after you get
+CC: On that, MCC recommends you change that to [time:00:04:32:37 04 32 37] shortly after you get
      done with these others.
 
 [00:04:01:14]
@@ -4792,7 +4792,7 @@ CC: Roger. Do you have your three Dog, Easy, and Hotel times from Indian Ocean
 P: Yes I did. I got these okay.
 
 [00:04:03:19]
-CC: And, now I gave you the recommended change in the retro clock to 04 32 37.
+CC: And, now I gave you the recommended change in the retro clock to [time:00:04:32:37 04 32 37].
      On your retro, using ASCS, you'll be using high torque thrusters for retrofire
      mode there. What do you say about retroing by ASCS and backing up by
      fly-by-wire?
@@ -5044,7 +5044,7 @@ P: I'm in ASCS, automatic.
 CC: Understand.
 
 [00:04:25:51]
-CC: Did you understand the Cape would like you to change your clock by one second, to 04 32 37?
+CC: Did you understand the Cape would like you to change your clock by one second, to [time:00:04:32:37 04 32 37]?
 
 [00:04:25:58]
 P: Negative. I'll change it right now.
@@ -5436,7 +5436,7 @@ P: Roger.
 [00:04:38:23]
 CC: This is Texas Cap Corn, Friendship Seven. We are recommending that you leave
      the retropackage on through the entire reentry. This means that you will have
-     to override the 0.05g switch which is expected to occur at 04 43 53. This also
+     to override the 0.05g switch which is expected to occur at [time:00:04:43:53 04 43 53]. This also
      means that you will have to manually retract the scope. Do you read?
 
 [00:04:38:47]
@@ -5452,7 +5452,7 @@ P: Roger. Say again your instructions please. Over.
 [00:04:38:59]
 CC: We are recommending that the retropaekage not, I say again, not be jettisoned.
      This means that you will have to override the 0.05g switch which is expected
-     to occur at 04 43 53. This is approximately 4¼ minutes from now. This
+     to occur at [time:00:04:43:53 04 43 53]. This is approximately 4¼ minutes from now. This
      also means that you will have to retract the scope manually. Do you understand?
 
 [00:04:39:23]
