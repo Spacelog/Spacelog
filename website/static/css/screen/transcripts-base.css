@@ -12,7 +12,7 @@
 
 #content.transcript .nav {
     min-height:             40px;
-    -cp-contain:            easy;
+/*    -cp-contain:            easy;*/
 }
 #content.transcript .nav.after {
     min-height:             60px;
@@ -109,12 +109,13 @@
 }
 #transcript dd em {
     color:                  #e4362d;
-    float:                  right;
-    margin-right:           -176px;
+    position:               absolute;
+    right:                  -36px;
     font-size:              20px;
     line-height:            1;
-    padding-right:          50px;
-    width:                  95px;
+    padding-right:          60px;
+    width:                  116px;
+    z-index:                2;
     text-transform:         uppercase;
     background:             url(/assets/img/base/keyscene.png)
                             no-repeat
