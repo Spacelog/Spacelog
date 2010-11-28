@@ -9,6 +9,7 @@ except ImportError:
 
 from backend.parser import TranscriptParser, MetaParser
 from backend.api import Act, KeyScene, Character, Glossary, LogLine
+from backend.util import seconds_to_timestamp
 
 search_db = xappy.IndexerConnection(
     os.path.join(os.path.dirname(__file__), '..', 'xappydb'),
@@ -156,7 +157,7 @@ class TranscriptIndexer(object):
                 if act.includes(timestamp):
                     break
             else:
-                raise RuntimeError("No act for timestamp %i" % timestamp)
+                raise RuntimeError("No act for timestamp %s" % seconds_to_timestamp(timestamp))
             # If we've filled up the current page, go to a new one
             if current_page_lines >= self.LINES_PER_PAGE or (last_act is not None and last_act != act):
                 current_page += 1
