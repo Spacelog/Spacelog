@@ -1,9 +1,14 @@
+.phase .illustration {
+  margin-left:            -10px;
+}
+
 .phase .navigation {
   color:                  #999;
   text-transform:         uppercase;
   font-size:              24px;
   line-height:            1.5;
   margin-top:             10px;
+  margin-left:            15px;
   -cp-contain:            easy;
 }
 
@@ -18,7 +23,7 @@
 .phase .navigation a,
 .phase .navigation li.selected strong {
   display:                block;
-  padding:                0 30px;
+  padding:                0 25px;
   -cp-border-radius:      2px;
 }
 
