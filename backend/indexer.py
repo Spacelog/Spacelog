@@ -1,4 +1,5 @@
 import os
+import re
 import redis
 import xappy
 try:
@@ -100,7 +101,12 @@ class TranscriptIndexer(object):
         doc.fields.append(xappy.Field("mission", mission))
         doc.fields.append(xappy.Field("weight", weight))
         for line in lines:
-            doc.fields.append(xappy.Field("text", line['text']))
+            text = re.sub(
+                r"\[\w+:([\d\w:]+) ([^\]]+)\]",
+                lambda m: m.group(2),
+                line['text'],
+            )
+            doc.fields.append(xappy.Field("text", text))
             doc.fields.append(xappy.Field("speaker", line['speaker']))
             # grab the character to get some more text to index under speaker
             ch = self.characters.get(line['speaker'], None)
