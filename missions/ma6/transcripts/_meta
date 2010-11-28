@@ -31,31 +31,33 @@
         {
             "title": "Launch",
             "description": "Leaving the earth!",
-            "range": ["-00:00:00:20", "00:00:05:04"]
+            "range": ["-00:00:00:20", "00:00:05:04"],
+            "homepage": "phase1.jpg"
         },
         {
             "title": "First Orbit",
             "description": "Round one!",
-            "range": ["00:00:05:04", "00:01:32:50"]
+            "range": ["00:00:05:04", "00:01:32:50"],
+            "homepage": "phase1.jpg"
         },
         {
             "title": "Second Orbit",
             "description": "Round two!",
-            "range": ["00:01:32:50", "00:03:07:03"]
+            "range": ["00:01:32:50", "00:03:07:03"],
+            "homepage": "phase1.jpg"
         },
         {
             "title": "Third Orbit",
             "description": "Round three!",
-            "range": ["00:03:07:03", "00:04:32:39"]
+            "range": ["00:03:07:03", "00:04:32:39"],
+            "homepage": "phase1.jpg"
         },
         {
             "title": "Reentry",
             "description": "Safely back home.",
-            "range": ["00:04:32:39", "00:05:05:11"]
+            "range": ["00:04:32:39", "00:05:05:11"],
+            "homepage": "phase1.jpg"
         }
-
-
-
     ],
     "key_scenes" : [
     ],
