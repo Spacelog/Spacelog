@@ -1,14 +1,19 @@
 {% extends "base.html" %}
+{% block content-class %}glossary{% endblock %}
 {% block title %}Glossary{% endblock %}
 
 {% block content %}
-<h1>awesome glossary</h1>
+<h1>Glossary</h1>
+
+<p>{{ mission.copy.glossary_introduction }}</p>
 
 <dl>
   {% for term in terms %}
-  <dt>{{ term.abbr }}</dt>
+  <dt id="{{ term.abbr|slugify }}">{{ term.abbr }}</dt>
   <dd>
     {{ term.description }}
+    {% comment %}
+    Don't show times mentioned or links yet.
     ({{ term.times_mentioned }})
     {% if term.links %}
     <ul>
@@ -17,6 +22,7 @@
       {% endfor %}
     </ul>
     {% endif %}
+    {% endcomment %}
   </dd>
   {% endfor %}
 </dl>

@@ -1,0 +1,42 @@
+.glossary .wrapper {
+    background:             #232323;
+    border-top:             1px solid #2b2b2b;
+    margin:                 20px auto 30px;
+    padding:                80px 160px 50px;
+    position:               relative;
+    width:                  620px;
+    -cp-contain:            easy;
+}
+
+.glossary h1 {
+    font-size:              32px;
+    font-weight:            bold;
+    left:                   20px;
+    margin-bottom:          32px;
+    position:               absolute;
+    top:                    13px;
+}
+.glossary p {
+    border-bottom:          1px solid black;
+    font-size:              14px;
+    line-height:            21px;
+    padding-bottom:         30px;
+}
+.glossary dl {
+    border-top:             1px solid #2b2b2b;
+    padding-top:            30px;
+}
+
+.glossary dt {
+    clear:                  left;
+    float:                  left;
+    font:                   18px Helvetica, Arial, sans-serif;
+    font-weight:            bold;
+    line-height:            24px;
+}
+.glossary dd {
+    font:                   18px Helvetica, Arial, sans-serif;
+    line-height:            24px;
+    margin-left:            240px;
+    margin-bottom:          20px;
+}
