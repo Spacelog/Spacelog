@@ -20,6 +20,9 @@ def linkify(text):
         lambda m: "<a href='%s#%s'>%s</a>" % (reverse("glossary"), m.group(1).upper(), m.group(2)),
         text,
     )
+    # Typographize double quotes
+    text = re.sub(
+        r'"([^"]+)"', r'&ldquo;\1&rdquo;', text)
     # Dashing through the text, with a one-space open sleigh
     text = text.replace("- -", "&mdash;").replace(" - ", "&mdash;")
     return mark_safe(text)
