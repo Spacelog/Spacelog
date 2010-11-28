@@ -100,27 +100,29 @@
 
 #transcript div.key-scene {
     position:               relative;
-    background:             #eee;
+    border-right:           10px solid #b01610;
     padding:                0 20px;
     margin:                 0 -20px;
 }
 #transcript dd em {
     color:                  #e4362d;
     position:               absolute;
-    right:                  -16px;
-    font-size:              20px;
-    line-height:            1;
-    padding-right:          60px;
-    top:                    0.8em;
-    width:                  116px;
+    right:                  20px;
+    top:                    20px;
+    line-height:            normal;
+    width:                  140px;
+    font-size:              12px;
     z-index:                2;
+    text-align:             right;
+}
+#transcript dd em i {
+    display:                block;
     text-transform:         uppercase;
-    background:             url(/assets/img/base/keyscene.png)
-                            no-repeat
-                            100% 50%;
-    font-family:            'League Gothic',
-                            'Helvetica Neue Condensed',
-                            'Arial',
+    font-size:              18px;
+    font-weight:            bold;
+    font-family:            "League Gothic",
+                            "Helvetica Neue",
+                            "Arial",
                             sans-serif;
 }
 #transcript dd em span {

@@ -53,7 +53,7 @@
       <dd class='{% pause_class log_line.following_silence %}'>
       <p>
         {% if log_line.first_in_key_scene %}
-        <em>{{ log_line.key_scene.title }}<span>: </span></em>
+        <em><i>Key moment</i> {{ log_line.key_scene.title }}<span>: </span></em>
         {% endif %}
         {{text|safe}}
       </p>
