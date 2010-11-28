@@ -1515,7 +1515,7 @@ LMP: Okay. How's that picture looking back outside
 CC:  Okay. That looks pretty good, Fred.
 
 [00:03:54:14]
-CDR: Houston, this is 13. Do we have a GO for' pyro
+CDR: Houston, this is 13. Do we have a GO for pyro
      arm?
 
 [00:03:54:20]
@@ -1991,7 +1991,7 @@ CC:  13, Houston. Okay. We got them.
 _page : 38
 _tape : Tape 4/3
 CDR: Okay. The time of torquing was 5 hours
-     3O minutes and 40 seconds.
+     30 minutes and 40 seconds.
 
 [00:05:30:51]
 CC:  Roger. We copy.
@@ -17553,7 +17553,7 @@ CDR: Okay. You have no special techniques going back
 [03:00:54:33]
 CC:  Not right now, Jim. Dave Scott's been running
      these things and we'll get them up to you shortly.
-     0ver.
+     Over.
 
 [03:00:54:43]
 CDR: Okay.
@@ -24349,7 +24349,7 @@ CC:  5 square, Fred. How me?
 CC:  We're still here, Fred. How's it going?
 
 [03:11:28:11]
-LMP: Okay. My CO2 reading is now just below 13.
+LMP: Okay. My CO<sub>2</sub> reading is now just below 13.
 
 [03:11:28:21]
 CC:  Say again what it is.
@@ -33257,7 +33257,7 @@ LMP: Okay, Jack. We've got a DPS midcourse 5: NOUN
      33, [time:04:09:30:00 105:30:00.00]; NOUN 81, N/A; H<sub>A</sub> N/A; plus
      0019.8, 0007.8, burn time 0.15, the rest of the
      pad, N/A. Shut down manually at 14 seconds,
-     ullage four jets for 1O seconds, and the entire
+     ullage four jets for 10 seconds, and the entire
      burn is at 10-percent throttle.
 
 [04:08:35:36]
@@ -36564,7 +36564,7 @@ LMP: Okay. We've got both canisters completed now.
 
 [04:17:56:03]
 CC:  Okay. Roger that, Fred. And you're reading
-     0.1 again on the CO2. Incidentally, are you guys
+     0.1 again on the CO<sub>2</sub>. Incidentally, are you guys
      having good luck getting water out of the command
      module?
 
@@ -36637,7 +36637,7 @@ CMP: Just happy to know that you're standing by.
 CC:  Roger that. Except I'm sitting by.
 
 [04:18:06:19]
-CMP: Did that CO2 drop?
+CMP: Did that CO<sub>2</sub> drop?
 
 [04:18:18:30]
 CMP: Joe, how far out are we now and how fast are
@@ -36682,7 +36682,7 @@ CMP: Okay. We'll get it for you.
 CC:  Good show.
 
 [04:18:30:59]
-CMP: Joe, did our sticky MOD on that - those CO2
+CMP: Joe, did our sticky MOD on that - those CO<sub>2</sub>
      canisters work? I'm sorry - ...
 
 [04:18:31:07]
@@ -41333,7 +41333,7 @@ CMP: ... - -
 
 [05:07:25:26]
 _page : 657
-_tape : Tape 85/2O
+_tape : Tape 85/20
 CC:  Okay. And as soon as you've gotten yourself all
      set up with a good control mode, you want to
      maneuver Lo the entry attitude.
@@ -44942,13 +44942,13 @@ CDR: Okay. Coming to you.
 [05:15:22:35]
 CC:  Okay, Jack. On your entry checklist, on page 2-5.
      Down there on step 9, where it says 152 degrees
-     pitch at .O5g, adjacent to that, so that Recovery
+     pitch at .05g, adjacent to that, so that Recovery
      can see you better on the way down, we want you
      to turn your S-BAND, POWER AMPLIFIER to HIGH.
      Over.
 
 [05:15:23:25]
-CMP: Okay. Turn S-BAND, POWER AMP to HIGH at .O5g
+CMP: Okay. Turn S-BAND, POWER AMP to HIGH at .05g
      time.
 
 [05:15:23:37]
@@ -45323,7 +45323,7 @@ CC:  Okay, Fred. Prior to [time:05:21:40:00 141:40:00], which is EI minus 1
 LMP: Okay. A LM SEP pad prior to [time:05:21:40:00 141:40:00], EI minus
      1 hour, maneuver to fo]lowing attitudes: roll,
      130; pitch, 125; yaw, 012.4. The corresponding
-     CSM gimbal angles are ro11, 291; pitch, 196;
+     CSM gimbal angles are roll, 291; pitch, 196;
      yaw, 045.
 
 [05:16:14:49]
