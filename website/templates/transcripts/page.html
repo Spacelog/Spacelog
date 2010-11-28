@@ -38,6 +38,9 @@
 
   <dl id='transcript'>
   {% for log_line in log_lines %}
+    {% if log_line.closest %}
+      <span id="log-line-closest"></span>
+    {% endif %}
     {% for speaker, text in log_line.lines %}
     <div id="log-line-{{ log_line.timestamp }}" class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}{% if log_line.key_scene_number %} key-scene{% endif %}'>
       <dt class='time'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>

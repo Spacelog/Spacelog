@@ -4,7 +4,8 @@ from django.template.defaultfilters import slugify
 from django.core.urlresolvers import reverse
 from django.utils.safestring import mark_safe
 from backend.api import Glossary
-from transcripts.templatetags.missiontime import selection_url
+from backend.util import timestamp_to_seconds
+from transcripts.templatetags.missiontime import timestamp_to_url
 
 register = Library()
 
@@ -34,7 +35,10 @@ def linkify(text, request=None):
     # Time links
     text = re.sub(
         r"\[time:([\d:]+) ([^\]]+)\]",
-        lambda m: "<a href='%s'>%s</a>" % (selection_url(m.group(1)), m.group(2)),
+        lambda m: "<a href='%s'>%s</a>" % (
+            timestamp_to_url(m.group(1), anchor="closest"),
+            m.group(2)
+        ),
         text,
     )
     # Glossary links

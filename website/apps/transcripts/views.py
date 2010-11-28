@@ -2,6 +2,7 @@ from django.http import Http404
 from django.views.generic import TemplateView
 from website.apps.common.template import JsonTemplateView
 from backend.api import LogLine, Act
+from backend.util import timestamp_to_seconds
 from transcripts.templatetags.linkify import linkify
 
 class TranscriptView(JsonTemplateView):
@@ -33,6 +34,7 @@ class TranscriptView(JsonTemplateView):
             end_page = start_page + 5
         # Collect the log lines
         log_lines = []
+        done_closest = False
         for page in range(start_page, end_page+1):
             log_lines += list(self.main_transcript_query().page(page))
         for log_line in log_lines:
@@ -41,6 +43,10 @@ class TranscriptView(JsonTemplateView):
                 (s, linkify(t, self.request))
                 for s, t in log_line.lines
             ]
+            # If this is the first after the start time, add an anchor later
+            if log_line.timestamp > timestamp_to_seconds(self.kwargs['start']) and not done_closest:
+                log_line.closest = True
+                done_closest = True
         # Find all media that falls inside this same range, and add it onto the preceding line.
         for image_line in self.media_transcript_query().range(log_lines[0].timestamp, log_lines[-1].timestamp):
             # Find the line just before the images
