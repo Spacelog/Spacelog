@@ -4,7 +4,7 @@
   <title>{{ mission.title }} {% block title %}SET THE TITLE{% endblock %}</title>
   <link rel="stylesheet" href="/assets/css/screen.css" media="screen">
 </head>
-<body>
+<body class='{% block body-class %}{% endblock %}'>
 
 {% block masthead %}
 {% include "_base/masthead.html" %}

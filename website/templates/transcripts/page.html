@@ -10,6 +10,7 @@
 
 
 {% block content-class %}transcript {% if max_highlight_index > 0 %}with-highlight{% endif %}{% endblock %}
+{% block body-class %}transcript-section{% endblock %}
 
 {% block crest %}
 {% if log_lines.0.first_in_act and log_lines.0.act.banner %}

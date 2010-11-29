@@ -42,7 +42,12 @@
     text-transform:         uppercase;
 }
 #masthead li a:hover,
-#masthead li a:focus {
+#masthead li a:focus,
+body.transcript-section #masthead li.transcript-section a,
+body.phase-section #masthead li.phase-section a,
+body.people-section #masthead li.people-section a,
+body.glossary-section #masthead li.glossary-section a,
+body.about-section #masthead li.about-section a {
     color:                  white;
 }
 

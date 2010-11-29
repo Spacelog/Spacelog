@@ -3,11 +3,11 @@
     <h1><a href='{{ PROJECT_HOME }}'>Mission</a> <a href="/" class="mission">{{ mission.title }}</a></h1>
     <nav>
       <ul>
-        <li><a href='{% url view_page %}'>Transcripts</a></li>
-        <li><a href='{% url phases %}'>Phases</a></li>
-        <li><a href='{% url people %}'>People</a></li>
-        <li><a href='{% url glossary %}'>Glossary</a></li>
-        <li><a href='{% url about %}'>About</a></li>
+        <li class='transcript-section'><a href='{% url view_page %}'>Transcripts</a></li>
+        <li class='phase-section'><a href='{% url phases %}'>Phases</a></li>
+        <li class='people-section'><a href='{% url people %}'>People</a></li>
+        <li class='glossary-section'><a href='{% url glossary %}'>Glossary</a></li>
+        <li class='about-section'><a href='{% url about %}'>About</a></li>
       </ul>
       <form method="get" action="/search/">
         <input type="search" name="q" value="{{ q|escape }}" id="q"
