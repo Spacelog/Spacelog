@@ -34,7 +34,7 @@ Clone the repository:
 and you can run the entire system locally. For any changes you make (fixed, new missions, or even new website features), you can issue a pull request to us from another [github](http://github.com/) repository). You will need some software installed:
 
  * python (and pip)
- * redis (often packages as `python-redis`; we need Redis 1.2 or later)
+ * redis (often packages as `python-redis`; we need Redis 2.0 or later)
  * imagemagick (for stats images on the phase pages)
  * Xapian and its python bindings (the search engine library we use; often packaged as `python-xapian`)
  * `CSS::Prepare` (a perl library for managing CSS; `sudo cpanm -f CSS::Prepare`)
