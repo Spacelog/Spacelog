@@ -2,3 +2,5 @@
 *.pyc
 .DS_Store
 /website/static/css/screen.css
+/missions/*/images/stats
+/xappydb
