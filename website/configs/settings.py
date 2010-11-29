@@ -111,4 +111,4 @@ INSTALLED_APPS = (
     'django.contrib.humanize',
 )
 
-PROJECT_HOME = "http://artemisproject.com/"
+PROJECT_HOME = "http://spacelog.org/"

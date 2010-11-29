@@ -109,4 +109,4 @@ INSTALLED_APPS = (
     'website.apps.transcripts'
 )
 
-PROJECT_DOMAIN = "artemisproject.com"
+PROJECT_DOMAIN = "spacelog.org"
