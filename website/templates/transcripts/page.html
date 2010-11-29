@@ -115,9 +115,9 @@
   <div id='phases'>
     <div class='wrapper'>
 
-      {% if log_lines.0.transcript_page %}
+      {% if original_transcript_page %}
         <p class='original'>
-          <a href="{% url original log_lines.0.transcript_page %}">View original</a>
+          <a href="{% url original original_transcript_page %}">View original</a>
         </p>
       {% endif %}
 

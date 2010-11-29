@@ -112,6 +112,13 @@ class PageView(TranscriptView):
         if act_id < len(acts) - 1:
             next_act = acts[act_id+1]
         
+        for log_line in log_lines:
+            if log_line.transcript_page:
+                original_transcript_page = log_line.transcript_page
+                break
+        else:
+            original_transcript_page = None
+        
         return {
             'log_lines': log_lines,
             'next_timestamp': next_timestamp,
@@ -123,6 +130,7 @@ class PageView(TranscriptView):
             'next_act': next_act,
             'max_highlight_index': max_highlight_index,
             'first_highlighted_line': first_highlighted_line,
+            'original_transcript_page': original_transcript_page,
             'permalink': 'http://%s%s%s' % (
                 self.request.META['HTTP_HOST'],
                 self.request.path,
