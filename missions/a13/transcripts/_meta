@@ -1,7 +1,7 @@
 {
     "name": "a13",
     "featured": true,
-    "subdomains": ["a13", "apollo13"],
+    "subdomains": ["apollo13"],
     "copy": {
         "title": "Apollo 13",
         "upper_title": "Apollo",

@@ -1,0 +1,37 @@
+<VirtualHost *:80>
+	ServerName apollo13.spacelog.org
+	ServerAlias mercury6.spacelog.org
+	# add further missions here as ServerAlias lines
+	
+	Alias /assets/missions /home/spacelog/releases/current/missions
+	Alias /assets /home/spacelog/releases/current/website/static
+
+	DocumentRoot /var/www
+
+	<Directory /home/spacelog>
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+
+	<Directory /home/spacelog/releases/current/website/static>
+		Order allow,deny
+		allow from all
+	</Directory>
+	<Directory /home/spacelog/releases/current/missions>
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	WSGIDaemonProcess spacelog-website user=spacelog group=spacelog processes=5 threads=10 maximum-requests=1000
+	WSGIProcessGroup spacelog-website
+	
+	WSGIScriptAlias / /home/spacelog/releases/current/website/configs/live/website.wsgi
+	<Directory /home/spacelog/releases/current/website/configs>
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	ErrorLog /var/log/apache2/spacelog.org/error.log
+	LogLevel warn
+	CustomLog /var/log/apache2/spacelog.org/access.log combined
+</VirtualHost>

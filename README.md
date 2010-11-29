@@ -46,15 +46,15 @@ Make sure `redis-server` is running, then run `make reindex` in the checkout dir
  * `python website/manage.py runserver 0.0.0.0:8000` will run the mission-specific websites
  * `python global/manage.py runserver 0.0.0.0:3000` will run the project homepage
 
-To make it possible to work with multiple missions, you need edit `/etc/hosts` to include an alias `artemis`, plus aliases of the form `<mission>.artemis`, such as `a13.artemis` and `ma6.artemis`; these all need to point to `localhost` (or to your virtual machine, if that's how you develop things). For instance, here's an `/etc/hosts` entry using `localhost`:
+To make it possible to work with multiple missions, you need edit `/etc/hosts` to include an alias `artemis`, plus aliases of the form `<mission>.artemis`, such as `apollo13.artemis` and `mercury6.artemis`; these all need to point to `localhost` (or to your virtual machine, if that's how you develop things). For instance, here's an `/etc/hosts` entry using `localhost`:
   
-    localhost	a13.artemis ma6.artemis artemis
+    localhost	apollo13.artemis mercury6.artemis artemis
 
 and here's one for a virtual machine (you'll need to change the dotted quad at the start of the line):
   
-    192.168.56.101	a13.artemis ma6.artemis artemis
+    192.168.56.101	apollo13.artemis mercury6.artemis artemis
 
-The project homepage will appear at [http://artemis:3000/](http://artemis:3000/), and the per-mission sites at [http://a13.artemis:8000/](http://a13.artemis:8000/) (which will show the Apollo 13 mission), [http://ma6.artemis:8000/](http://ma6.artemis:8000/) (Mercury-Atlas 6) and so on.
+The project homepage will appear at [http://artemis:3000/](http://artemis:3000/), and the per-mission sites at [http://apollo13.artemis:8000/](http://apollo13.artemis:8000/) (which will show the Apollo 13 mission), [http://mercury6.artemis:8000/](http://mercury6.artemis:8000/) (Mercury-Atlas 6) and so on.
 
 Whenever you edit information about a mission, or add a new one, you need to run `make reindex` again.
 

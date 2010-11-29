@@ -1,0 +1,40 @@
+<VirtualHost *:80>
+	ServerName spacelog.org
+	
+	Alias /assets/missions /home/spacelog/releases/current/missions
+	Alias /assets /home/spacelog/releases/current/global/static
+
+	DocumentRoot /var/www
+
+	<Directory /home/spacelog>
+		Options FollowSymLinks
+		AllowOverride None
+	</Directory>
+
+	<Directory /home/spacelog/releases/current/global/static>
+		Order allow,deny
+		allow from all
+	</Directory>
+	<Directory /home/spacelog/releases/current/missions>
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	WSGIDaemonProcess spacelog-global user=spacelog group=spacelog processes=5 threads=10 maximum-requests=1000
+	WSGIProcessGroup spacelog-global
+	
+	WSGIScriptAlias / /home/spacelog/releases/current/global/configs/live/global.wsgi
+	<Directory /home/spacelog/releases/current/global/configs>
+		Order allow,deny
+		allow from all
+	</Directory>
+
+	ErrorLog /var/log/apache2/spacelog.org/error.log
+	LogLevel warn
+	CustomLog /var/log/apache2/spacelog.org/access.log combined
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName www.spacelog.org
+    RedirectMatch ^/(.*)$ http://spacelog.org/$1
+</VirtualHost>
