@@ -10,20 +10,16 @@ PATH/archives -- tgz archives of versions
 from fabric.api import *
 from fabric.contrib.files import exists
 
-env.remote = "git@github.com:artemis"
 env.branch = "master"
-env.svn_user = "james"
-env.svn_password = "james"
-env.svn_url = "http://core.fort/svn/trunk"
 
 # App choices
 
 def artemis():
     env.django_project_name = 'artemis'
-    env.staging_hosts = ['core.fort']
-    env.live_hosts = ['atreus.tartarus.org']
-    env.user = 'df-artemis'
-    env.path = '/home/df-artemis'
+    env.staging_hosts = ['core.fort'] # old, aww
+    env.live_hosts = ['spacelog.org']
+    env.user = 'spacelog'
+    env.path = '/home/spacelog'
 
 # only one app
 artemis()
@@ -57,13 +53,12 @@ def deploy(dirty=False):
 
     ponder_release()
 
-    # export_and_upload_tar_from_git()
-    export_and_upload_tar_from_svn()
-    # if dirty:
-    #     copy_previous_virtualenv()
-    #     update_release_virtualenv()
-    # else:
-    #     make_release_virtualenv()
+    export_and_upload_tar_from_git()
+    if dirty:
+        copy_previous_virtualenv()
+        update_release_virtualenv()
+    else:
+        make_release_virtualenv()
     prepare_release()
     switch_to(env.release)
     restart_webserver()
@@ -138,9 +133,8 @@ def export_and_upload_tar_from_git():
 
 def export_tgz_from_git():
     "Create an archive from the git remote."
-    local("git archive --format=tar --prefix=%(release)s/ --remote=%(remote)s %(branch)s | gzip -c > %(release)s.tar.gz" % {
+    local("git archive --format=tar --prefix=%(release)s/ %(branch)s | gzip -c > %(release)s.tar.gz" % {
         'release': env.release,
-        'remote': env.remote,
         'branch': env.branch,
         }
     )
