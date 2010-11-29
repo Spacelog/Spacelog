@@ -63,6 +63,7 @@ class SearchView(TemplateView):
             startrank=offset,
             endrank=offset+PAGESIZE,
             checkatleast=offset+PAGESIZE+1,
+            sortby="-weight",
         )
         # Go through the results, building a list of LogLine objects
         redis_conn = redis.Redis()
