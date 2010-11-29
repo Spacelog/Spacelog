@@ -1,12 +1,12 @@
-# Project Artemis
+# Spacelog
 
-This is the source code for [Project Artemis](#TODO), a website for experiencing space missions through radio transcripts and photography.
+This is the source code for [Spacelog](http://spacelog.org/), a website for experiencing space missions through radio transcripts and photography.
 
-With the exception of the font and some icons (credited on the mission about page), everything outside the `missions` directory is released under the [CC-0](#TODO) license. Mission images are credited in the mission's `_meta` file.
+With the exception of the font and some icons (credited on the mission about page), everything outside the `missions` directory is released under the [CC-0](http://creativecommons.org/publicdomain/zero/1.0/) license. Mission images are credited in the mission's `_meta` file.
 
 # Getting involved without technical knowledge
 
-For small errors, it's probably easiest to just email them through to us at [team@artemisproject.com](#TODO).
+For small errors, it's probably easiest to just email them through to us at [team@spacelog.com](mail:team@spacelog.org).
 
 For anything larger, we'd rather you send us corrected files from the `missions` directory. Look in `transcript-file-format` for a description of how we lay out files. If you're transcribing a mission we don't have, you will find the example `_meta` and `TEC` files useful, since they are the main two files you'll need to create. If you can make both of them (or get as close as you can), and send them through to us along with a link to the original transcript PDF you used, we'll do the rest. (If you are gifted in design, we've included the source files for all the artwork we've created, which you could use as a basis for making things like orbital diagrams.)
 
@@ -29,16 +29,16 @@ If you clean up the text version like this, and send it through to us, we can do
 
 Clone the repository:
 
-    $ git clone #TODO
+    $ git clone https://github.com/devfort/spacelog.git
 
 and you can run the entire system locally. For any changes you make (fixed, new missions, or even new website features), you can issue a pull request to us from another [github](http://github.com/) repository). You will need some software installed:
 
  * python (and pip)
- * redis and its python bindings (often packages as `python-redis`; we need Redis 1.2 or later)
+ * redis (often packages as `python-redis`; we need Redis 1.2 or later)
  * imagemagick (for stats images on the phase pages)
  * Xapian and its python bindings (the search engine library we use; often packaged as `python-xapian`)
  * `CSS::Prepare` (a perl library for managing CSS; `sudo cpanm -f CSS::Prepare`)
- * various python modules (run `pip install -r requirements.txt`) #TODO: write requirements.txt
+ * various python modules (run `pip install -r requirements.txt`)
 
 Make sure `redis-server` is running, then run `make reindex` in the checkout directory, which will import all the mission data into redis. You then need to have three other servers running:
 

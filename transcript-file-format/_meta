@@ -33,15 +33,9 @@
         # Text for the about page.
         "about": "John Glenn got in rocket. John Glenn got out of rocket. John Glenn got in rocket. John Glenn got out of rocket. Rinse, repeat. On the last cycle, fire the rocket.\n\nThis site allows you to explore transcripts of radio communications between John Glenn aboard Friendship 7 and the NASA personnel at monitoring stations around the world, along with photographs taken both from the ground and by Glenn in space.",
 
-        # Image attributions for the about page.
+        # Image attributions for the about page. None means that there are no copyright
+        # images used that are mission-specific (eg in phase images or orbital diagrams).
         "image_attributions": [
-            { "url": "#TODO", "title": "Earth rising", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
-            { "url": "#TODO", "title": "Moon rising", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
-            { "url": "#TODO", "title": "Satellite", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
-            { "url": "#TODO", "title": "Launch", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
-            { "url": "#TODO", "title": "Under the Moon", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
-            { "url": "#TODO", "title": "Parachute landing", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
-            { "url": "#TODO", "title": "Earth from space", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" }
         ],
         "call_signs": "When only the CSM (Command and Service Module pairing) is manned, its call sign is Apollo 13. When both the Control and Lunar Modules are manned, the CM's call sign is Odyssey, and the LM's call sign is Aquarius. The call sign for <a href='/people/#capcom'>CAPCOM</a> is Houston."
     },
