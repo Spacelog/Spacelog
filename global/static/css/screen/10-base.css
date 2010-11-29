@@ -32,9 +32,11 @@ a:active {
     background:             #232323;
     border-top:             1px solid #424242;
     font-size:              13px;
+    overflow:               hidden;
+    zoom:                   1;
 }
 #attribution {
-    padding:                14px 0;
+    padding:                10px 0 14px;
     float:                  left;
     font-weight:            bold;
 }
@@ -43,11 +45,15 @@ a:active {
                             url(/assets/img/ft-cta.png)
                             no-repeat
                             left center;
-    margin-left:            340px;
-    padding:                14px 0 14px 27px;
+    padding:                14px 0 0 27px;
 }
 #cta a {
     font-weight:            bold;
+}
+#footer .credits {
+    padding:                10px 0 14px;
+    float:                  left;
+    margin-left:            40px;
 }
 
 /*! verbatim */
