@@ -22,13 +22,9 @@
         ],
         "about": "When Apollo 13 launched from Kennedy Space Centre in Florida on Saturday 11th April 1970, no one involved could have anticipated that the mission would be anything but a smooth third Moon landing. The journey would instead revolve around an explosion in the Service Module that turned it into one of the most famous of not only the Apollo program but of human space exploration in the 20th century.\n\nThis site allows you to explore transcripts of radio communications between the Apollo 13 crew and the NASA personnel back at Houston. Included with the transcripts are photographs taken both from the ground and by the crew in space, as well as other information about the mission, the problems that occurred, and the measures that were taken, both on ground and in the Command and Lunar Modules that made up the crew areas of Apollo 13.",
         "image_attributions": [
-            { "url": "#TODO", "title": "Earth rising", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
-            { "url": "#TODO", "title": "Moon rising", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
-            { "url": "#TODO", "title": "Satellite", "attrib_url": "#TODO", "attrib": "NASA's Marshall Space Flight Centre", "license": "CC" },
-            { "url": "#TODO", "title": "Launch", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
-            { "url": "#TODO", "title": "Under the Moon", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
-            { "url": "#TODO", "title": "Parachute landing", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" },
-            { "url": "#TODO", "title": "Earth from space", "attrib_url": "#TODO", "attrib": "NASA's Images", "license": "CC" }
+            { "url": "http://www.flickr.com/photos/28634332@N05/4971286005/", "title": "Crescent Moon, Earth's Atmosphere", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" },
+            { "url": "http://www.flickr.com/photos/28634332@N05/4971276687/", "title": "Edge of the Earth", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" },
+            { "url": "http://www.flickr.com/photos/28634332@N05/4089570162/", "title": "International Space Station Over Earth", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" }
         ]
     },
     "main_transcript": "a13/TEC",
