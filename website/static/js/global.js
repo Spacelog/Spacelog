@@ -15,6 +15,8 @@
     };
 
     $(function() {
+        // Placeholder support for legacy browsers
+        $('input[placeholder], textarea[placeholder]').placeholder();
     });
 
     window.Artemis = Artemis;

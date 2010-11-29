@@ -34,6 +34,11 @@ sup {
     vertical-align:         super;
 }
 
+/* Fake input[placeholder] for old browsers */
+input.placeholder {
+    color:                  #999;
+}
+
 /* Sunrise pages */
 .glossary,
 .about,
