@@ -74,6 +74,12 @@ From this we generate a number of higher-level pieces which are used in the webs
  * KEY SCENE -- an editorially defined point in the transcript where an important event or exchange starts
  * STREAM -- a collection of related content arranged on a timeline
 
+## Original transcript pages
+
+The system has the capability to display the original scanned NASA transcripts, but these files aren't included in the repository for reasons of size. These images are only required for displaying the original transcript pages.
+
+[This tarball](http://s3.amazonaws.com/spacelog/original-images.tar) contains these files. Place it in the repository root and untar it, and it'll put these files in the right places.
+
 ## Code layout
 
 The main code is two Django projects and a python library for managing transcript files into a redis data store. There is also a directory full of per-mission information (transcript files, images and so on), and some other tools directories.
