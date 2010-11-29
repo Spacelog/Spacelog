@@ -80,7 +80,7 @@
         {
             "comment": "end point (05:22:55:21) is one second after the 'end of mission' marker, which is after all end photos",
             "title": "Splashdown",
-            "description": "After a tense ten minutes of communication loss as Odyssey re-entered Earth's atmosphere, the parachutes opened and the Command Module splashed down into the South Pacific. A US Navy ship and helicopters were awaiting Lovell, Haise and Swigert to pick them up and bring them safely home.",
+            "description": "After tense minutes of communication loss as Odyssey re-entered Earth's atmosphere, the parachutes opened and the Command Module splashed down into the South Pacific. A US Navy ship and helicopters were awaiting Lovell, Haise and Swigert to pick them up and bring them safely home.",
             "range": ["05:22:38:36", "05:22:55:21"],
             "banner": "act6.jpg",
             "orbital": "act6.png",
