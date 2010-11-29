@@ -229,6 +229,7 @@ class TranscriptIndexer(object):
             self.redis_conn.zadd("log_lines:%s" % self.mission_name, log_line_id, chunk['timestamp'])
             self.redis_conn.zadd("transcript:%s" % self.transcript_name, log_line_id, chunk['timestamp'])
             # Read the new labels into current_labels
+            has_labels = False
             if '_labels' in chunk['meta']:
                 for label, endpoint in chunk['meta']['_labels'].items():
                     if endpoint is not None and label not in current_labels:
@@ -240,6 +241,7 @@ class TranscriptIndexer(object):
                         )
                     elif endpoint is None:
                         self.redis_conn.sadd("label:%s" % label, log_line_id)
+                        has_labels = True
             # Expire any old labels
             for label, endpoint in current_labels.items():
                 if endpoint < chunk['timestamp']:
@@ -247,11 +249,13 @@ class TranscriptIndexer(object):
             # Apply any surviving labels
             for label in current_labels:
                 self.redis_conn.sadd("label:%s" % label, log_line_id)
+                has_labels = True
             # And add this logline to search index
-            if len(current_labels):
-                weight = 3 # magic!
+            if has_labels:
+                print "weight = 3 for %s" % log_line_id
+                weight = 3.0 # magic!
             else:
-                weight = 1
+                weight = 1.0
             self.add_to_search_index(
                 mission=self.mission_name,
                 id=log_line_id,
