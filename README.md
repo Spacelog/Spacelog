@@ -29,7 +29,7 @@ If you clean up the text version like this, and send it through to us, we can do
 
 Clone the repository:
 
-    $ git clone https://github.com/devfort/spacelog.git
+    $ git clone git://github.com/Spacelog/Spacelog.git
 
 and you can run the entire system locally. For any changes you make (fixed, new missions, or even new website features), you can issue a pull request to us from another [github](http://github.com/) repository). You will need some software installed:
 
