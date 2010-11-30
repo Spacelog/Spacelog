@@ -151,10 +151,8 @@
 }
 #phases p.original {
     position:               absolute;
-    bottom:                 0;
-    left:                   50%;
-    margin-left:            -470px;
-    line-height:            38.4px;
+    top:                    0;
+    left:                   0;
     padding-right:          34px;
     background:             transparent
                             url(/assets/img/base/original.png)
@@ -165,8 +163,9 @@
     position:               absolute;
     bottom:                 0px;
     left:                   50%;
-    margin-left:            -230px;
-    width:                  700px;
+    margin-left:            -470px;
+    width:                  940px;
+    text-align:             center;
 }
 #phases img {
     position:               absolute;
@@ -177,11 +176,11 @@
 }
 #phases nav li {
     float:                  left;
-    margin-right:           5px;
 }
 #phases li em {
     text-align:             center;
     min-width:              200px;
+    padding:                0 5px;
     display:                block;
 }
 #phases li em a {
