@@ -522,6 +522,9 @@
         "CMC": {
             "description": "Command module computer"
         },
+        "COI": {
+            "description": "Contingency Orbit Injection"
+        },
         "COAS": {
             "description": "Crew optical alinement sight"
         },
@@ -629,6 +632,9 @@
         },
         "IU": {
             "description": "Instrument unit"
+        },
+        "ICDU": {
+            "description": "Inertial Coupling Data Unit"
         },
         "IVT": {
             "description": "Intravehicular transfer"
@@ -800,6 +806,225 @@
         },
         "S-IVB": {
             "description": "Saturn V Third Stage"
+        },
+        "FIDO": {
+            "description": "Flight Dynamics Officer"
+        },
+        "VERB 01": {
+            "description": "Display contents of erasable memory location"
+        },
+        "VERB 03": {
+            "description": "Display register 1"
+        },
+        "VERB 04": {
+            "description": "Display register 1 and 2"
+        },
+        "VERB 05": {
+            "description": "Display register 1, 2 and 3"
+        },
+        "VERB 06": {
+            "description": "Display data in decimal"
+        },
+        "VERB 07": {
+            "description": "Display double-precision data"
+        },
+        "VERB 11": {
+            "description": "Monitor register 1"
+        },
+        "VERB 12": {
+            "description": "Monitor register 2"
+        },
+        "VERB 13": {
+            "description": "Monitor register 3"
+        },
+        "VERB 14": {
+            "description": "Monitor register 1 and 2"
+        },
+        "VERB 15": {
+            "description": "Monitor register 1, 2 and 3"
+        },
+        "VERB 16": {
+            "description": "Monitor data in decimal"
+        },
+        "VERB 17": {
+            "description": "Monitor double-precision data"
+        },
+        "VERB 21": {
+            "description": "Load register 1"
+        },
+        "VERB 22": {
+            "description": "Load register 2"
+        },
+        "VERB 23": {
+            "description": "Load register 3"
+        },
+        "VERB 24": {
+            "description": "Load register 1 and 2"
+        },
+        "VERB 25": {
+            "description": "Load register 1, 2 and 3"
+        },
+        "VERB 31": {
+            "description": "Bank display"
+        },
+        "VERB 33": {
+            "description": "Proceed without data"
+        },
+        "VERB 34": {
+            "description": "Terminate"
+        },
+        "VERB 36": {
+            "description": "Fresh start"
+        },
+        "VERB 37": {
+            "description": "Change major mode to"
+        },
+        "VERB 40": {
+            "description": "Zero CDU registers"
+        },
+        "VERB 41": {
+            "description": "Coarse align IMU"
+        },
+        "VERB 42": {
+            "description": "Fine align IMU"
+        },
+        "VERB 43": {
+            "description": "Lock IMU"
+        },
+        "VERB 44": {
+            "description": "Set IMU to ATTITUDE CONTROL"
+        },
+        "VERB 45": {
+            "description": "Set IMU ENTRY"
+        },
+        "VERB 46": {
+            "description": "Return IMU ENTRY"
+        },
+        "VERB 52": {
+            "description": "Mark reject"
+        },
+        "VERB 53": {
+            "description": "Free"
+        },
+        "VERB 54": {
+            "description": "Pulse torque gyros"
+        },
+        "VERB 55": {
+            "description": "Align time"
+        },
+        "VERB 56": {
+            "description": "Perform bank sum"
+        },
+        "VERB 64": {
+            "description": "Calculate orbital parameters"
+        },
+        "VERB 65": {
+            "description": "Calculate time of arrival at longitude"
+        },
+        "VERB 66": {
+            "description": "Calculate latitude and longitude at specified time"
+        },
+        "VERB 67": {
+            "description": "Calculate maximum declination and time of arrival"
+        },
+        "VERB 73": {
+            "description": "Return to Earth aim point update"
+        },
+        "VERB 74": {
+            "description": "Orbit change aim point update"
+        },
+        "VERB 75": {
+            "description": "Manual lift-off"
+        },
+        "VERB 76": {
+            "description": "Update state vector"
+        },
+        "NOUN 09": {
+            "description": "Last three program alarms"
+        },
+        "NOUN 14": {
+            "description": "Desired Delta-V"
+        },
+        "NOUN 20": {
+            "description": "ICDUs"
+        },
+        "NOUN 21": {
+            "description": "PIPA (accelerometer) values"
+        },
+        "NOUN 23": {
+            "description": "Number of passes, time to burn, burn delta-V."
+        },
+        "NOUN 25": {
+            "description": "Perform checklist action"
+        },
+        "NOUN 29": {
+            "description": "Launch azimuth"
+        },
+        "NOUN 33": {
+            "description": "Time of ignition"
+        },
+        "NOUN 34": {
+            "description": "Time of next program event"
+        },
+        "NOUN 44": {
+            "description": "Height (nautical miles)"
+        },
+        "NOUN 47": {
+            "description": "Command and Service Module weight (lbs)"
+        },
+        "NOUN 48": {
+            "description": "Pitch and yaw trim"
+        },
+        "NOUN 62": {
+            "description": "Velocity information during launch and landing"
+        },
+        "NOUN 81": {
+            "description": "Change in velocity (fps)"
+        },
+        "P00": {
+            "description": "Idle"
+        },
+        "P11": {
+            "description": "Launch control"
+        },
+        "P22": {
+            "description": "Ground track determination"
+        },
+        "P22": {
+            "description": "Optics update"
+        },
+        "P23": {
+            "description": "Cislunar navigation"
+        },
+        "P27": {
+            "description": "CMC update"
+        },
+        "P30": {
+            "description": "External Delta-V"
+        },
+        "P33": {
+            "description": "Corrective combination maneuvre (NCC)"
+        },
+        "P37": {
+            "description": "Rendezvous final phase"
+        },
+       "P40": {
+            "description": "SPS thrusting"
+        },
+        "P41": {
+            "description": "RCS thrusting"
+        },
+       "P47": {
+            "description": "Thrust monitor"
+        },
+        "P51": {
+            "description": "Read guidance platform orientation"
+        },
+        "P52": {
+            "description": "Guidance platform realignment"
+        },
+        "P61": {
+            "description": "Entry preparation"
         }
     },
     "error_pages": {

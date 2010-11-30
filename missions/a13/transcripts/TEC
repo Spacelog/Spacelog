@@ -16,7 +16,7 @@ _tape : Tape 1/1
 CDR: The clock is running.
 
 [00:00:00:03]
-CMP: Okay. P11, Jim.
+CMP: Okay. [glossary:P11 P11], Jim.
 
 [00:00:00:05]
 CDR: Yaw program.
@@ -155,19 +155,19 @@ CDR: Inboard.
 CC:  Roger. We confirm inboard out.
 
 [00:00:05:44]
-CC:  13, Houston. Stand by for S-IVB to COI
+CC:  13, Houston. Stand by for [glossary:S-IVB S-IVB] to COI
      capability.
 
 [00:00:05:48]
 _page : 10
 _tape : Tape 1/3
-CDR: S-IVB to COI. Roger.
+CDR: [glossary:S-IVB S-IVB] to [glossary:COI COI]. Roger.
 
 [00:00:05:49]
 CC:  Roger. You've got it now, Jim.
 
 [00:00:05:52]
-CDR: We've got S-IVB to COI.
+CDR: We've got [glossary:S-IVB S-IVB] to [glossary:COI COI].
 
 [00:00:06:03]
 CC:  You're GO at 6 minutes, 13.
@@ -202,17 +202,17 @@ CDR: Roger. Nominal on the level sense arm, [time:00:00:09:48 9:48] on
      the S-II cut-off.
 
 [00:00:07:08]
-CC:  That's affirmative, and stand by for S-IVB to
+CC:  That's affirmative, and stand by for [glossary:S-IVB S-IVB] to
      orbit.
 
 [00:00:07:11]
 CC:  MARK.
 
 [00:00:07:12]
-CC:  You have S-IVB to orbit, Jim.
+CC:  You have [glossary:S-IVB S-IVB] to orbit, Jim.
 
 [00:00:07:14]
-CDR: Roger. We have S-IVB to orbit.
+CDR: Roger. We have [glossary:S-IVB S-IVB] to orbit.
 
 [00:00:08:02]
 CC:  13, Houston. Looking good at 8 minutes.
@@ -277,7 +277,7 @@ CC:  13, Houston. You're looking good. Trajectory,
 CDR: Thank you, Joe.
 
 [00:00:11:09]
-CC:  13, Houston. At 11 minutes, you're GO. Predicted cut-off on the S-IVB is [time:00:00:12:34 12 plus 34]. Over.
+CC:  13, Houston. At 11 minutes, you're GO. Predicted cut-off on the [glossary:S-IVB S-IVB] is [time:00:00:12:34 12 plus 34]. Over.
 
 [00:00:11:35]
 CC:  Apollo 13, Houston. You're GO at 11-1/2, and
@@ -312,7 +312,7 @@ _tape : Tape 1/5
 CC:  Don't mention it.
 
 [00:00:13:30]
-CC:  13, Houston. We copy your NOUN 44.
+CC:  13, Houston. We copy your [glossary:NOUN 44 NOUN 44].
 
 [00:00:13:34]
 CMP: Okay, Joe.
@@ -398,7 +398,7 @@ CC:  13, Houston. Loud and clear.
 [00:00:52:23]
 CMP: Okay, Joe. Everything's going good. We're
      proceeding on the time line in good fashion.
-     I've got a P52 done. I can give you the torquing angles.
+     I've got a [glossary:P52 P52] done. I can give you the torquing angles.
 
 [00:00:52:33]
 CC:  I'm ready for them, Jack.
@@ -733,15 +733,15 @@ CC:  Roger, Jack. We see that. Of course, there's
      the Moon.
 
 [00:01:42:58]
-CC:  Apollo 13, Houston. We've had [glossary:LOS LOS] MILA now.
+CC:  Apollo 13, Houston. We've had [glossary:LOS LOS] [glossary:MILA MILA] now.
      Thank you very much.
 
 [00:01:43:48]
-CC:  Apollo 13, Houston. Request P00 and ACCEPT for
+CC:  Apollo 13, Houston. Request [glossary:P00 P00] and ACCEPT for
      a state vector. Over.
 
 [00:01:43:53]
-CDR: Roger, Houston. We're in P00 and ACCEPT.
+CDR: Roger, Houston. We're in [glossary:P00 P00] and ACCEPT.
 
 [00:01:43:56]
 CC:  Okay.
@@ -768,12 +768,12 @@ CC:  And you are GO for [glossary:TLI TLI]. Huntsville reports
      57 minutes where you slew the [glossary:FDAI FDAI] to 18 degrees,
      we recommend 20 degrees there, and we recommend
      that you look for 8 degrees instead of 6 degrees
-     at ignition. The S-IVB is riding on the top of
+     at ignition. The [glossary:S-IVB S-IVB] is riding on the top of
      its deadband.
 
 [00:01:48:56]
 CDR: - - Understand; and just out of curiosity, was that
-     engine out to use up more S-IVB fuel?
+     engine out to use up more [glossary:S-IVB S-IVB] fuel?
 
 [00:01:49:03]
 CC:  The engine out did cause you to use more S-IVB
@@ -894,7 +894,7 @@ CMP: Thank you.
 
 [00:02:31:22]
 CC:  Apollo 13, Houston. We will be losing data from
-     Carnasvon in about 1 minute. We'll probably have
+     Carnarvon in about 1 minute. We'll probably have
      voice through ARIA. Everything is honkey-dory,
      and we will be listening for you to tell us how
      the burn goes.
@@ -1005,7 +1005,7 @@ CC:  Apollo 13, Houston.
 CDR: Roger, Houston; 13 here.
 
 [00:02:48:39]
-CC:  Okay. We have the S-IVB maneuver to SEP
+CC:  Okay. We have the [glossary:S-IVB S-IVB] maneuver to SEP
      attitude commencing at 2 plus 56 plus 37.
      Duration of the maneuver: 4 minutes. SEP time,
      3 plus 06 plus 37. Over.
@@ -1038,13 +1038,13 @@ CDR: Go ahead.
 
 [00:02:57:57]
 CC:  We see the booster doing all the right things,
-     and FIDO says your trajectory looks good, and it
+     and [glossary:FIDO FIDO] says your trajectory looks good, and it
      looks like we'll stick with a pretty close to
      nominal midcourse, too. We'll have some numbers
      for you later
 
 [00:02:58:02]
-CDR: Okay. And we concur. The S-IVB is maneuvering
+CDR: Okay. And we concur. The [glossary:S-IVB S-IVB] is maneuvering
      at this time.
 
 [00:02:58:13]
@@ -1118,7 +1118,7 @@ CMP: Okay. We got the [glossary:SLA SLA] panels - one of them is
 CC:  Ah, so.
 
 [00:03:08:38]
-CMP: Got the S-IVB. I guess we're about 80 feet.
+CMP: Got the [glossary:S-IVB S-IVB]. I guess we're about 80 feet.
 
 [00:03:08:42]
 CC:  Good deal.
@@ -1207,7 +1207,7 @@ LMP: Yes, we are just about there. About 10 more feet
 CC:  Roger.
 
 [00:03:16:43]
-LMP: Everything looks pretty good down in the S-IVB,
+LMP: Everything looks pretty good down in the [glossary:S-IVB S-IVB],
      too. The shroud still looks intact down there.
 
 [00:03:16:50]
@@ -1245,7 +1245,7 @@ CC:  Fred, after a few minutes of this, at your convenience, we could use some i
 LMP: Okay.
 
 [00:03:18:52]
-CC:  And, 13, Houston. The S-IVB vent times are nominal as in the flight plan within a few seconds.
+CC:  And, 13, Houston. The [glossary:S-IVB S-IVB] vent times are nominal as in the flight plan within a few seconds.
 
 [00:03:19:18]
 CDR: We're hard docked, Houston.
@@ -1649,15 +1649,15 @@ CC:  Jack, they're not willing to pin it down to a
 CMP: Okay.
 
 [00:04:08:26]
-CMP: Okay, Houston. We have the S-IVB in sight. You
-     are GO to maneuver the S-IVB.
+CMP: Okay, Houston. We have the [glossary:S-IVB S-IVB] in sight. You
+     are GO to maneuver the [glossary:S-IVB S-IVB].
 
 [00:04:08:31]
 CC:  Houston, Roger that.
 
 [00:04:09:04]
 CMP: Try to give you a - Houston, we're going to try
-     to give you a shot of the S-IVB with the TV out
+     to give you a shot of the [glossary:S-IVB S-IVB] with the TV out
      window number 3.
 
 [00:04:09:11]
@@ -1685,7 +1685,7 @@ CC:  Not at the moment, Jim. We had a garbled one
      this moment.
 
 [00:04:10:05]
-CDR: Okay. I can see the S-IVB now out the hatch
+CDR: Okay. I can see the [glossary:S-IVB S-IVB] now out the hatch
      window and it's - -
 
 [00:04:10:11]
@@ -1708,7 +1708,7 @@ CDR: Roger.
 
 [00:04:11:37]
 CC:  13, Houston. Wonder if you could zoom in on that
-     S-IVB for us a little bit?
+     [glossary:S-IVB S-IVB] for us a little bit?
 
 [00:04:11:42]
 CDR: Okay.
@@ -1744,7 +1744,7 @@ CC:  Jack, your cabin REGs are still making up, but
 
 [00:04:14:52]
 CMP: Okay. Real fine. Well, we'll wait till the
-     S-IVB does its maneuver here.
+     [glossary:S-IVB S-IVB] does its maneuver here.
 
 [00:04:14:58]
 CC:  Okay.
@@ -1871,7 +1871,7 @@ LMP: All right, Houston; 13.
 CC:  13, Houston. Go ahead.
 
 [00:04:50:49]
-LMP: Is the S-IVB doing something different now?
+LMP: Is the [glossary:S-IVB S-IVB] doing something different now?
 
 [00:04:50:56]
 CC:  Well, I don't know. It should be - let's see,
@@ -1881,7 +1881,7 @@ CC:  Well, I don't know. It should be - let's see,
 
 [00:04:51:10]
 LMP: I'm looking out window 5 at what I think is the
-     S-IVB, and I'm seeing what looks to be double
+     [glossary:S-IVB S-IVB], and I'm seeing what looks to be double
      plumes, going in two very narrow bands maybe
      about 3 degrees that are streaming out from it.
      And then there is a less dense band that covers
@@ -1957,7 +1957,7 @@ CMP: Go ahead, Joe.
 
 [00:04:54:57]
 CC:  Okay. We have a [glossary:PTC PTC] [glossary:REFSMMAT REFSMMAT] ready, if you're
-     ready to go P00 and ACCEPT, we'll stick it in
+     ready to go [glossary:P00 P00] and ACCEPT, we'll stick it in
      there.
 
 [00:04:55:05]
@@ -1967,7 +1967,7 @@ CMP: Okay. Stand by.
 CC:  Okay.
 
 [00:04:55:45]
-CMP: Okay. I'm P00 and ACCEPT, Joe.
+CMP: Okay. I'm [glossary:P00 P00] and ACCEPT, Joe.
 
 [00:04:55:48]
 CC:  Okay. Roger that.
@@ -2114,7 +2114,7 @@ CMP: Hello, Houston; Apollo 13. Over.
 CC:  13, Houston. Go ahead.
 
 [00:06:44:51]
-CMP: Hey, were you copying my P23 results?
+CMP: Hey, were you copying my [glossary:P23 P23] results?
 
 [00:06:44:56]
 CC:  That's affirmative, Jack. We followed you
@@ -2532,7 +2532,7 @@ CC:  Roger.
 
 [00:08:25:32]
 CMP: Have they come up with an idea of how much fuel
-     I used on the docking and also the P23 session
+     I used on the docking and also the [glossary:P23 P23] session
      at 5 hours or 6 hours.
 
 [00:08:25:47]
@@ -2654,10 +2654,10 @@ CC:  Jim, Houston here. Two items: first of all,
 LMP: Go ahead, Vance, we're ready to copy.
 
 [00:09:24:46]
-CC:  Okay. The procedure is as follows: VERB 25,
+CC:  Okay. The procedure is as follows: [glossary:VERB 25 VERB 25],
      NOUN 07, ENTER; 1331, ENTER; 7, ENTER; and ENTER.
      Explanation as follows. During the P23s, there
-     was one time when VERB 37 was entered into the
+     was one time when [glossary:VERB 37 VERB 37] was entered into the
      computer at about 16 seconds after the OPTICS
      ZERO switch was flicked to ZERO. This is a very
      uncommon anomaly in that, if you do this during -
@@ -2670,7 +2670,7 @@ CC:  Okay. The procedure is as follows: VERB 25,
 
 [00:09:26:01]
 LMP: Okay, Vance, and I guess I'll try to be slower
-     on that VERB 37.
+     on that [glossary:VERB 37 VERB 37].
 
 [00:09:26:07]
 CC:  Yes. Actually slower or faster, either one, I
@@ -2859,11 +2859,11 @@ CC:  Roger, copy your mark.
 
 [00:10:09:06]
 CC:  Apollo 13, Houston. We have a [glossary:CSM CSM] state vector
-     to send you. Request P00 and ACCEPT at your
+     to send you. Request [glossary:P00 P00] and ACCEPT at your
      convenience.
 
 [00:10:09:28]
-CMP: Okay, Vance. There's P00 and ACCEPT.
+CMP: Okay, Vance. There's [glossary:P00 P00] and ACCEPT.
 
 [00:10:09:32]
 CC:  Okay, it's coming up.
@@ -2926,7 +2926,7 @@ CC:  This is Houston. Go ahead.
 
 [00:10:39:30]
 CMP: Okay, Van. Ready to copy in the torquing angles
-     of the P52 option 3?
+     of the [glossary:P52 P52] option 3?
 
 [00:10:39:45]
 CC:  That's affirm - that's affirm, but stand by.
@@ -3306,7 +3306,7 @@ CMP: Yes. We were rigging the siren device over the
 
 [00:12:00:20]
 CC:  Okay. Good enough. And anytime you're ready to
-     copy, I've got a pad P37 block data.
+     copy, I've got a pad [glossary:P37 P37] block data.
 
 [00:12:00:32]
 CMP: Stand by.
@@ -3315,7 +3315,7 @@ CMP: Stand by.
 CMP: Okay. Go ahead, Vance.
 
 [00:12:01:24]
-CC:  Okay. P37 block data, starting with [glossary:GETI GETI]. 025:00,
+CC:  Okay. [glossary:P37 P37] block data, starting with [glossary:GETI GETI]. 025:00,
      5119, minus 165, 071:08; 035:00, 7733, minus 165,
      070:36; 045:00, 6208, minus 165, 094:52; 060:00,
      5993, minus 165, 118:53. Over.
@@ -3638,7 +3638,7 @@ CC:  Okay. Copy that. Let's see what else we have
      and on time. And it's holding real firm now.
      For your information, and you don't need to copy
      this down, because it's still pretty soft, but
-     we have an S-IVB impact of about 8.57 south and
+     we have an [glossary:S-IVB S-IVB] impact of about 8.57 south and
      about 33.9 west, which is a little west and a
      little south of the flight plan value. We have
      it at a [glossary:GET GET] of about 77 plus 51 which is just
@@ -3738,7 +3738,7 @@ CC:  Okay. The first extra is, and let me get the
      observations during the early S-II center engine
      out-off, and approximately 90 seconds prior to
      [glossary:TLI TLI] cut-off, you reported a high vibration in
-     the S-IVB. We'd like you to describe the buildup
+     the [glossary:S-IVB S-IVB]. We'd like you to describe the buildup
      of this vibration and its behavior through cut-off. Over.
 
 [00:23:25:02]
@@ -3748,7 +3748,7 @@ CDR: Okay. Essentially, what you'd like us to talk
      about is vibration sequence during the early
      S-II cut-off of the center engine and also
      describe the vibrations that we encountered
-     during the S-IVB [glossary:TLI TLI] burn. Is that correct?
+     during the [glossary:S-IVB S-IVB] [glossary:TLI TLI] burn. Is that correct?
 
 [00:23:25:17]
 CC:  That's it. Okay. The second extra question is
@@ -4030,7 +4030,7 @@ CC:  That's right.
 
 [01:00:21:23]
 CC:  Okay, crew. About the only other thing I've got
-     for you right now is an update to your P37 pad
+     for you right now is an update to your [glossary:P37 P37] pad
      for lift-off plus 35. This is a change to the
      pad we gave you yesterday. The reason for the
      update is for weather avoidance in the mid-Pacific
@@ -4179,7 +4179,7 @@ CMP: Yes, and that - it was all pretty - pretty short in
 CC:  Oh. Roger.
 
 [01:01:14:18]
-CDR: And on the S-IVB, the vibration of the vehicle itself wasn't what ... second ... powered flight - a
+CDR: And on the [glossary:S-IVB S-IVB], the vibration of the vehicle itself wasn't what ... second ... powered flight - a
      very-high-frequency vibration.
 
 [01:01:14:33]
@@ -4195,7 +4195,7 @@ CDR: Well, it was a high-frequency viola - vibration
 CC:  Okay, I - understand.
 
 [01:01:15:13]
-CMP: I guess the S-IVB vibration during [glossary:TLI TLI] was there
+CMP: I guess the [glossary:S-IVB S-IVB] vibration during [glossary:TLI TLI] was there
      all the time although it seemed to - to grow to
      us as the burn progressed, although that may have
      been just due to the boost weight decrease.
@@ -4214,7 +4214,7 @@ CC:  Okay, was it uncomfortable or did it cause your
 
 [01:01:15:46]
 CDR: No, it - it was not uncomfortable at all but I was
-     recalling the ride on 8, and the S-IVB was more -
+     recalling the ride on 8, and the [glossary:S-IVB S-IVB] was more -
      much more smooth than even it was on 13.
 
 [01:01:15:59]
@@ -4271,11 +4271,11 @@ CDR: In answer to number 6, the answer is essentially
      [glossary:LM LM] or the [glossary:CSM CSM] ...
 
 [01:01:18:14]
-CC:  Okay, Jim. I guess you described to us the non-propulsive venting on the S-IVB after the APS
+CC:  Okay, Jim. I guess you described to us the non-propulsive venting on the [glossary:S-IVB S-IVB] after the APS
      maneuver and we copied that at the time.
 
 [01:01:18:30]
-CDR: Okay. Fred saw the S-IVB venting.
+CDR: Okay. Fred saw the [glossary:S-IVB S-IVB] venting.
 
 [01:01:18:33]
 LMP: Yes, we had already talked about that, Joe. And
@@ -4289,7 +4289,7 @@ _tape : Tape 17/4
 CC:  Roger.
 
 [01:01:19:12]
-CDR: Okay, Joe. The last time we saw the S-IVB positively was when Fred saw it venting at about - at
+CDR: Okay, Joe. The last time we saw the [glossary:S-IVB S-IVB] positively was when Fred saw it venting at about - at
      about 5 hours. We think we might have picked it
      up later on. We saw a particle or something out
      there that was tumbling which might have been the
@@ -4306,7 +4306,7 @@ CDR: We're - we're debating. It was somewhere between -
 CC:  Okay.
 
 [01:01:19:50]
-LMP: But, Joe, assuming the S-IVB is still stable.
+LMP: But, Joe, assuming the [glossary:S-IVB S-IVB] is still stable.
      The object I was looking at was definitely
      tumbling.
 
@@ -4407,7 +4407,7 @@ CDR: Okay, on comparing the flight of 13 to Apollo 8,
      except for the number 5 engine. And we did not
      experience the vibration that we experienced on
      8 towards the end of the S-II burn. And the
-     S-IVB was - had more vibration than we had on 8.
+     [glossary:S-IVB S-IVB] was - had more vibration than we had on 8.
 
 [01:01:25:31]
 CC:  Okay, Jim, got all that.
@@ -4649,7 +4649,7 @@ CC:  That's acceptable, Fred, and meanwhile, when you
 LMP: Okay. Stand by 1.
 
 [01:04:48:15]
-CC:  Roger that. And also if you can go to P00 and
+CC:  Roger that. And also if you can go to [glossary:P00 P00] and
      ACCEPT conveniently, we'd like to uplink.
 
 [01:04:48:31]
@@ -4659,7 +4659,7 @@ LMP: Okay. You've got it.
 CC:  Okay.
 
 [01:04:49:06]
-LMP: Okay, Joe. You can go ahead with the P30 pad.
+LMP: Okay, Joe. You can go ahead with the [glossary:P30 P30] pad.
 
 [01:04:49:11]
 CC:  Okay. Here we go. MCC-2, SPS/G&N: 63634;
@@ -4850,7 +4850,7 @@ CC:  Roger. Copy plus 100 to plus 101.5, and that
 CMP: Okay. Fine.
 
 [01:05:45:46]
-CMP: Okay, Houston. We're at P40 burn attitude. Jim
+CMP: Okay, Houston. We're at [glossary:P40 P40] burn attitude. Jim
      is on the sextant star check, and we do have a
      star in the sextant.
 
@@ -4958,7 +4958,7 @@ CC:  Okay. Yes, we see those.
 CDR: Jack's complaining about seeing stars.
 
 [01:06:16:16]
-CC:  FIDO says he can understand why that would
+CC:  [glossary:FIDO FIDO] says he can understand why that would
      perturbate a trajectory now.
 
 [01:06:16:26]
@@ -6051,7 +6051,7 @@ LMP: Okay, Vance. Go ahead.
 _page : 101
 _tape : Tape 20/18
 CC:  Okay. Time 32 hours 00 minutes [glossary:GET GET]. Instructions
-     at completion of P23, maneuver to following attitude: roll 101.0, pitch 090.0, yaw 000.0. High
+     at completion of [glossary:P23 P23], maneuver to following attitude: roll 101.0, pitch 090.0, yaw 000.0. High
      gain antenna angles will be: pitch minus 23,
      yaw 93. Use normal [glossary:PTC PTC] procedures to dampen rates.
      After vehicle's stable, and before spinup, take
@@ -6164,7 +6164,7 @@ CC:  Apollo 13, Houston.
 CMP: Go ahead.
 
 [01:07:36:50]
-CC:  On the P33, just like to verify that you changed
+CC:  On the [glossary:P33 P33], just like to verify that you changed
      the NOUN 88 values for this last star. It looks
      like they haven't been changed. Over.
 
@@ -6299,12 +6299,12 @@ CMP: Okay, Vance. And one other slight distinction
 [01:08:00:26]
 CC:  Okay. We copy. And the last item: we'd like
      to send you an IRIG update, so at your convenience,
-     request P00 and ACCEPT.
+     request [glossary:P00 P00] and ACCEPT.
 
 [01:08:00:46]
 _page : 105
 _tape : Tape 21/4
-CMP: Okay. We are in P00 and ACCEPT, Vance.
+CMP: Okay. We are in [glossary:P00 P00] and ACCEPT, Vance.
 
 [01:08:00:49]
 CC:  Okay.
@@ -7112,7 +7112,7 @@ CMP: Well, I had a good prime crewman that taught me
 CC:  Don't run out.
 
 [01:09:20:50]
-CMP: Hey, when FIDO gets a good hack on our trajectory,
+CMP: Hey, when [glossary:FIDO FIDO] gets a good hack on our trajectory,
      will you let us know?
 
 [01:09:20:58]
@@ -7150,7 +7150,7 @@ CMP: Okay. I was kind of holding off on this. We're
      dumping a little waste water now.
 
 [01:09:24:23]
-CC:  Okay. FIDO says he knew it all along. He's -
+CC:  Okay. [glossary:FIDO FIDO] says he knew it all along. He's -
      he says he's been very concerned that you've
      been doing a lot of water dumping.
 
@@ -7186,7 +7186,7 @@ CMP: Go ahead, Vance.
 
 [01:09:50:42]
 CC:  Okay. We've got about three items. First one
-     is, all of your P23 batch - two marks have been
+     is, all of your [glossary:P23 P23] batch - two marks have been
      evaluated and - Hey, congratulations. Looks
      real good; they're very happy with it. You're
      down to 4 arc-minutes on the substellar-point
@@ -7228,7 +7228,7 @@ CC:  Yes. Big Brother is watching.
 CC:  13 - -
 
 [01:09:52:51]
-CMP: I can just see EECOM telling FIDO.
+CMP: I can just see EECOM telling [glossary:FIDO FIDO].
 
 [01:09:53:03]
 CC:  Yes. You really have to watch that pair, all
@@ -7266,7 +7266,7 @@ CDR: Our pad as follows: fly-by, SPS/G&N; 63385;
 
 [01:09:59:20]
 CC:  Roger. That's correct. Want to verify under
-     NOUN 81 that DELTA-V<sub>X</sub> is plus 02127. You cut
+     [glossary:NOUN 81 NOUN 81] that DELTA-V<sub>X</sub> is plus 02127. You cut
      out right there.
 
 [01:09:59:35]
@@ -7283,7 +7283,7 @@ CMP: Okay. In work.
 
 [01:09:59:54]
 CC:  Okay. And when the computer is available,
-     request P00 and ACCEPT and we'll ship you your
+     request [glossary:P00 P00] and ACCEPT and we'll ship you your
      state vector.
 
 [01:10:00:07]
@@ -7294,7 +7294,7 @@ CDR: Wait until I get [glossary:PTC PTC] going first, Vance, then
 CC:  Okay.
 
 [01:10:02:41]
-CMP: Okay, Vance. We're P00 and ACCEPT. The
+CMP: Okay, Vance. We're [glossary:P00 P00] and ACCEPT. The
      computer's yours.
 
 [01:10:02:48]
@@ -7364,7 +7364,7 @@ CDR: Okay, thank you. And we're going to change
 CC:  Okay.
 
 [01:10:58:54]
-CMP: And, Vance. Has FIDO come up with any observations on the trajectory?
+CMP: And, Vance. Has [glossary:FIDO FIDO] come up with any observations on the trajectory?
 
 [01:10:59:02]
 CC:  Well, a minute ago, he said that to tell you
@@ -7678,7 +7678,7 @@ CDR: Ah so. I just thought I'd be waking up. And we
 CC:  Roger. Spacecraft is in real good shape as far
      as we're concerned, Jim. We're bored to tears
      down here. We do have a few little items for
-     you, like a P37 update and a couple of flight
+     you, like a [glossary:P37 P37] update and a couple of flight
      plan updates. But there's no rush about them.
      Over.
 
@@ -7757,7 +7757,7 @@ CDR: Roger, Joe. We're standing by for that P37
 
 [01:23:38:32]
 CC:  Okay. Got it right here, Jim, and it follows.
-     This is the P37 pad for lift-off plus 60. The
+     This is the [glossary:P37 P37] pad for lift-off plus 60. The
      reason for the update is for weather avoidance
      in the MPL at 119 hours. It's the same one we
      passed you yesterday, and it's the same weather,
@@ -7843,7 +7843,7 @@ CC:  Okay, Jim. At your convenience we'd like P00
      Over.
 
 [01:23:42:38]
-CDR: Roger. You're in P00 and ACCEPT, no midcourse 3,
+CDR: Roger. You're in [glossary:P00 P00] and ACCEPT, no midcourse 3,
      and we're all set for a state vector update and
      I'm giving you the LM/[glossary:CM CM] DELTA-P here shortly.
 
@@ -7863,7 +7863,7 @@ CDR: Houston, Apollo 13. I'm about ready for any
      flight plan updates that you have.
 
 [01:23:44:40]
-CC:  Okay, 13. To start off with, got a minor procedural change for Jack on his next P52, if he's
+CC:  Okay, 13. To start off with, got a minor procedural change for Jack on his next [glossary:P52 P52], if he's
      ready to listen to that.
 
 [01:23:44:54]
@@ -7894,7 +7894,7 @@ CDR: Okay. Right, that's fine with us. We'll move
 CC:  Okay. I've got some details on the flight plan
      for you as follows. Of course, since there's
      no MCC-3 you'll be deleting all the midcourse 3
-     stuff including the - the P52, which is called
+     stuff including the - the [glossary:P52 P52], which is called
      out at about 54-1/2, and we'll be slipping that
      until later, which I'll - which I'll tell -
      which I'll tell - which I'll tell you in a
@@ -7936,14 +7936,14 @@ CC:  Okay. I've gone through the battery charge, the
      you to take a look at SHe tank pressure, which
      I don't have yet. Restart [glossary:PTC PTC] at about [time:02:08:30:00 56:30]
      or whenever you're through with the [glossary:LM LM] activities, and after that, at your convenience,
-     we'd like you to - to do the P52 option 3 that
+     we'd like you to - to do the [glossary:P52 P52] option 3 that
      we cancelled at 54-1/2 hours. Over.
 
 [01:23:50:27]
 _page : 132
 _tape : Tape 31/4
 CDR: Okay. That last comment was that we'll do the
-     P52 after we start [glossary:PTC PTC] at about [time:02:08:30:00 56:30].
+     [glossary:P52 P52] after we start [glossary:PTC PTC] at about [time:02:08:30:00 56:30].
 
 [01:23:50:31]
 CC:  That's right. Any time after that; it's not
@@ -7980,7 +7980,7 @@ CC:  That's correct. You can start at 57 in the
 [01:23:51:48]
 CDR: Okay. Then whenever we're finished with the [glossary:LM LM],
      which we anticipate around [time:02:08:30:00 56:30], we'll commence
-     [glossary:PTC PTC] and sometime after that we'll do a P52.
+     [glossary:PTC PTC] and sometime after that we'll do a [glossary:P52 P52].
 
 [01:23:51:59]
 CC:  That's affirmative. And did you copy the new
@@ -8077,7 +8077,7 @@ CDR: Okay. Thank you.
 
 [01:23:57:21]
 CC:  And, 13, Houston. If Jack is up, I'd like to
-     talk to him about the P52, briefly.
+     talk to him about the [glossary:P52 P52], briefly.
 
 [01:23:57:29]
 CDR: Okay. He's here.
@@ -8087,14 +8087,14 @@ CMP: Go ahead, Joe.
 
 [01:23:57:32]
 CC:  Okay, Jack. What they'd like you to do on this
-     P52 at 49 hours, they've been observing a slight
+     [glossary:P52 P52] at 49 hours, they've been observing a slight
      jitter in the optics shaft angle of about 0.2 of
      a degree plus or minus. Before you come out of
      the OPTICS ZERO position, at the start of this
-     P52, they'd like you to just observe the shaft
+     [glossary:P52 P52], they'd like you to just observe the shaft
      readout, and see if the jitter occurs on your
      direct readout there, and also they'd like you
-     to briefly call up a VERB 16, NOUN 91 so we
+     to briefly call up a [glossary:VERB 16 VERB 16], NOUN 91 so we
      can look at the shaft and trunnion angles.
 
 [01:23:58:11]
@@ -8125,13 +8125,13 @@ CMP: Okay, Joe. I'm ready to copy the ... now.
 CC:  Okay, Jack. I'm going to read it to you, and
      then add some comments and we'll talk about it
      a little. This should occur sometime after
-     [time:02:01:30:00 49:30]. After the P52 realine at 49 hours, if
+     [time:02:01:30:00 49:30]. After the [glossary:P52 P52] realine at 49 hours, if
      time permits we would like the crew to investigate while in [glossary:PTC PTC] if there is a roll angle in
      which the comet can be observed for photos. If
      there is, record the optimum roll angle for
      possible photography, prior to reinitiating PTC
      at [time:02:08:30:00 56:30] or so, whenever the guys are done in
-     the [glossary:LM LM], use P52 planet option, and the following
+     the [glossary:LM LM], use [glossary:P52 P52] planet option, and the following
      half-unit vectors for tracking Comet Bennett at
      about [time:02:01:46:00 49:46]. Are you ready to copy half-unit
      vectors? Over.
@@ -8173,8 +8173,8 @@ CC:  Okay. That's correct and the last sentence on
 
 [02:00:03:10]
 CMP: Okay, Joe. Let me give it back to you and see
-     if I've got it here. After the P52, during our
-     [glossary:PTC PTC] you want us to use P52 and observe Bennett's
+     if I've got it here. After the [glossary:P52 P52], during our
+     [glossary:PTC PTC] you want us to use [glossary:P52 P52] and observe Bennett's
      Comet through the sextant; note a roll angle if
      we can find it visible. It would be visible
      somewhere between - ideally between 45 and 75
@@ -8221,7 +8221,7 @@ CMP: Houston, Apollo 13.
 CC:  Hey, 13; Houston. Go ahead.
 
 [02:01:01:26]
-CMP: Okay, Joe. I've started into P52 here. I've
+CMP: Okay, Joe. I've started into [glossary:P52 P52] here. I've
      proceeded on option 3, and on the dis - 1520 -
      1525 display, I've called up 1691. I'm going to
      let you observe and see while the - the shaft
@@ -8310,7 +8310,7 @@ CC:  Apollo 13, Houston.
 CDR: Go ahead, Houston.
 
 [02:01:10:19]
-CC:  Roger. For Jack, we missed the star angle difference on the P52. Would you read us that?
+CC:  Roger. For Jack, we missed the star angle difference on the [glossary:P52 P52]. Would you read us that?
 
 [02:01:10:30]
 CDR: Roger, Houston. It was all balls.
@@ -8325,9 +8325,9 @@ CMP: Hey, Houston; 13.
 CC:  13, Houston. Go ahead.
 
 [02:01:42:44]
-CMP: Okay, Joe. I got into P52 about [time:02:01:34:00 49:34]. We loaded
+CMP: Okay, Joe. I got into [glossary:P52 P52] about [time:02:01:34:00 49:34]. We loaded
      the planet - or Bennett Comet vectors into the
-     planet option, and P52 tracked it all the way
+     planet option, and [glossary:P52 P52] tracked it all the way
      across except that it was always occulted by the
      [glossary:LM LM], and we're in a roll angle of 155 now.
 
@@ -10078,9 +10078,7 @@ CMP: I believe we've had a problem here.
 CC:  This is Houston. Say again, please.
 
 [02:07:55:35]
-_labels: {
-  "Key line": null
-  }
+_labels : {
 CDR: Houston, we've had a problem. We've had a MAIN B BUS UNDERVOLT.
 
 [02:07:55:42]
@@ -11048,14 +11046,14 @@ LMP: Okay.
 [02:09:20:55]
 CMP: Okay, Jack. When we got the loud bang, we got
      also a restart. Did you copy that? Is - does
-     GUIDO want anything, a VERB 74 or anything done
+     GUIDO want anything, a [glossary:VERB 74 VERB 74] or anything done
      with the CMC?
 
 [02:09:21:06]
 CC:  Stand by.
 
 [02:09:21:54]
-CC:  13, Houston. We're ready with a VERB 74 now, please.
+CC:  13, Houston. We're ready with a [glossary:VERB 74 VERB 74] now, please.
 
 [02:09:22:05]
 CMP: Coming down at you.
@@ -11102,7 +11100,7 @@ CDR: Charge battery A. Roger.
 
 [02:09:27:13]
 CC:  And, Jack, in regard to your question about the
-     P52 and [glossary:LM LM] platform, it's - There's no need to
+     [glossary:P52 P52] and [glossary:LM LM] platform, it's - There's no need to
      worry about that now. We wouldn't be using the
      [glossary:LM LM] platform for - until about 79 hours, so let's
      go as is on the platform for now. Over.
@@ -11528,7 +11526,7 @@ CMP: Okay. I can verify all heaters off. Jack, I've
 CC:  Roger.
 
 [02:10:02:26]
-LMP: Okay. VERB 41, NOUN 20. Okay. You want plus?
+LMP: Okay. [glossary:VERB 41 VERB 41], [glossary:NOUN 20 NOUN 20]. Okay. You want plus?
      Plus or minus? Plus 302.43? Is that right?
 
 [02:10:03:12]
@@ -11565,7 +11563,7 @@ CC:  Okay, Jim. We copy the roll CAL at minus 2.0.
      The command module is 355.57, 167.78, 351.87.
 
 [02:10:05:19]
-LMP: Okay. VERB 41, we've done that. Okay.
+LMP: Okay. [glossary:VERB 41 VERB 41], we've done that. Okay.
 
 [02:10:05:27]
 CC:  Aquarius, Houston. Request high bit rate, please.
@@ -11794,7 +11792,7 @@ CDR: Okay. And, Jack, can we turn on the [glossary:FDAI FDAI] circuit
 CC:  Stand by.
 
 [02:10:18:53]
-CMP: Houston, he's going to give a 16 NOUN 20, Jack.
+CMP: Houston, he's going to give a 16 [glossary:NOUN 20 NOUN 20], Jack.
      And, okay, I've got O<sub>2</sub> heaters and fans off in
      tank 1.
 
@@ -12363,13 +12361,13 @@ LMP: What have you got? How much you got left in
 
 [02:10:48:51]
 CDR: They're talking about powering down and doing
-     a P51 here?
+     a [glossary:P51 P51] here?
 
 [02:10:48:57]
-LMP: No. They were just thinking about P52 - -
+LMP: No. They were just thinking about [glossary:P52 P52] - -
 
 [02:10:49:00]
-CC:  Aquarius, Houston. Negative on the P51. We want
+CC:  Aquarius, Houston. Negative on the [glossary:P51 P51]. We want
      to stay just like we are, but we'd like to be able
      to correlate what you're doing with some simulator
      work we're going to crank up. And so if you can
@@ -12381,7 +12379,7 @@ CDR: Would you say one more time? Give me the top two.
      The top two.
 
 [02:10:49:33]
-CC:  Jim, what we want you to do is go with your current fine aline and disregard the P51. What we're
+CC:  Jim, what we want you to do is go with your current fine aline and disregard the [glossary:P51 P51]. What we're
      attempting to do is to crank up some LMS simulations to correlate what we can get out your window
      with what we can get out the LMS window to see if
      that will help us any. So when you can see some
@@ -12449,7 +12447,7 @@ LMP: TTCA ...
 [02:10:55:08]
 CC:  And, Aquarius; Houston. I've got some circuit
      breakers you can open to power down displays.
-     In addition, I have a P30 maneuver pad. Over.
+     In addition, I have a [glossary:P30 P30] maneuver pad. Over.
 
 [02:10:55:20]
 CDR: Roger. Stand by, Houston. Get the CS - get the
@@ -12588,7 +12586,7 @@ LMP: It's OPEN?
 
 [02:11:01:42]
 CC:  Okay. That concludes the powerdown of displays.
-     And I have a P30 pad for you.
+     And I have a [glossary:P30 P30] pad for you.
 
 [02:11:01:53]
 LMP: Okay. Go ahead.
@@ -12878,7 +12876,7 @@ CC:  Aquarius, Houston. I think we've got a better
 CDR: Go ahead with it.
 
 [02:11:11:59]
-CC:  Okay. We can do a VERB 55, ENTER, and then put
+CC:  Okay. We can do a [glossary:VERB 55 VERB 55], ENTER, and then put
      an R<sub>1</sub>, minus 00088. In R<sub>2</sub>, minus 00059; R<sub>3</sub>
      minus 03274.
 
@@ -12928,7 +12926,7 @@ CC:  Reading you 5 square, Fred.
 LMP: Okay.
 
 [02:11:14:12]
-CC:  And, Aquarius, we're ready for a VERB 74 when you
+CC:  And, Aquarius, we're ready for a [glossary:VERB 74 VERB 74] when you
      can give it to us.
 
 [02:11:14:23]
@@ -12984,7 +12982,7 @@ CC:  - - minimum time return.
 [02:11:20:09]
 CC:  Aquarius, Houston. We've got to change the
      [glossary:REFSMMAT REFSMMAT] to the one to which you're alined. So
-     we'd like to have P00 and DATA and we'll ship
+     we'd like to have [glossary:P00 P00] and DATA and we'll ship
      that up to you.
 
 [02:11:20:21]
@@ -13411,7 +13409,7 @@ CC:  Okay. That's good information and during the
      you ever get in a position where you think the
      [glossary:AOT AOT] might be of some use, we'd like you to
      periodically look out of it and see if you can
-     see some stars that would enable us to get a P52.
+     see some stars that would enable us to get a [glossary:P52 P52].
 
 [02:12:27:59]
 CDR: Okay, will do. And also, let me ask you a question. In this configuration, docked, we have to
@@ -13779,7 +13777,7 @@ CC:  Stand by. That's a negative on the ASCENT ECA
      breaker. Leave it open.
 
 [02:12:50:02]
-CC:  And, Aquarius, we need P00 and DATA - -
+CC:  And, Aquarius, we need [glossary:P00 P00] and DATA - -
 
 [02:12:50:04]
 CDR: And that's a - -
@@ -13850,7 +13848,7 @@ LMP: Go right ahead, Jack.
 [02:12:52:58]
 CC:  Okay. We want you to hold your maneuver until
      we finish making the load. We haven't completed
-     it yet. Are you ready to copy P30 maneuver pad?
+     it yet. Are you ready to copy [glossary:P30 P30] maneuver pad?
 
 [02:12:53:07]
 CDR: That's affirm.
@@ -13867,7 +13865,7 @@ CC:  Okay. Here we go. The purpose is midcourse
      ullage will be two jets for 10 seconds.
 
 [02:12:54:57]
-LMP: Okay, Jack, we have a P30 maneuver pad, a midcourse for free return. NOUN 33: [time:02:13:29:42 061:29:42.84];
+LMP: Okay, Jack, we have a [glossary:P30 P30] maneuver pad, a midcourse for free return. NOUN 33: [time:02:13:29:42 061:29:42.84];
      minus 0021.3, plus 004.1, minus 0031.2; HA and
      HP N/A; DELTA-V<sub>R</sub> 0038.0; 031, 120, 298;
      minus 00213, plus 00041, minus 00312. [glossary:COAS COAS] N/A;
@@ -13878,11 +13876,11 @@ LMP: Okay, Jack, we have a P30 maneuver pad, a midcourse for free return. NOUN 3
 _page : 225
 _tape : Tape 41/10
 CC:  That's a good readback, Fred. I'd like to verify,
-     however, in NOUN 81, in V<sub>Y</sub>, it's plus three balls
+     however, in [glossary:NOUN 81 NOUN 81], in V<sub>Y</sub>, it's plus three balls
      41.
 
 [02:12:56:14]
-LMP: Okay. NOUN 81, V<sub>Y</sub> is plus 0004.1.
+LMP: Okay. [glossary:NOUN 81 NOUN 81], V<sub>Y</sub> is plus 0004.1.
 
 [02:12:56:21]
 CC:  Good readback. Let's press on with the checklist.
@@ -14140,10 +14138,10 @@ CDR: Roger.
 
 [02:13:23:37]
 LMP: And, Houston, we'd like to confirm, do you
-     want the VERB 65 ENTER in there?
+     want the [glossary:VERB 65 VERB 65] ENTER in there?
 
 [02:13:23:45]
-CC:  Affirmative on the VERB 65.
+CC:  Affirmative on the [glossary:VERB 65 VERB 65].
 
 [02:13:23:49]
 _page : 229
@@ -14426,12 +14424,12 @@ LMP: Okay. Stand by on your latter list there, Jack.
 
 [02:13:55:21]
 CC:  Okay. For attitude control coordinates, we're
-     recommending manual control VERB 76 and watch
+     recommending manual control [glossary:VERB 76 VERB 76] and watch
      your middle gimbal angle. Your [glossary:DAP DAP] load that you
      have now looks good.
 
 [02:13:55:37]
-LMP: Okay. It's ATT HOLD VERB 76 for the guy on
+LMP: Okay. It's ATT HOLD [glossary:VERB 76 VERB 76] for the guy on
      watch. And the [glossary:DAP DAP] load we got right now is okay.
 
 [02:13:58:17]
@@ -14609,7 +14607,7 @@ CC:  Okay. We're suggesting that the LMP rest while
      69 hours. At 70 hours, the commander and the
      command module pilot sleep for 6 hours until
      76 hours. Around 70 - 76-1/2 to 77 hours, we'll
-     do a P51 and a 52. At 78:30, we'll load P30 and
+     do a [glossary:P51 P51] and a 52. At 78:30, we'll load [glossary:P30 P30] and
      aline [glossary:AGS AGS] to [glossary:PGNS PGNS]. Our ignition time for a second
      burn will be, presently, [time:03:07:25:26 79:25:26.5], and we'll
      have a pad for you shortly. We suggest that all
@@ -14624,15 +14622,15 @@ LMP: Okay, Jack. As I read that, the LMP is to go to
      period, the CDR and CMP should try to get a bite
      to eat. I'm to awake at 69 hours. CDR and CMP
      sleep at 70 hours, and they are to awake at
-     76 hours. And we should plan on doing our P51,
-     P52 at 76 hours or [time:03:04:30:00 76:30]. At 78:30, we're going
-     to load a P30 and aline [glossary:AGS AGS] to [glossary:PGNS PGNS]. Second
+     76 hours. And we should plan on doing our [glossary:P51 P51],
+     [glossary:P52 P52] at 76 hours or [time:03:04:30:00 76:30]. At 78:30, we're going
+     to load a [glossary:P30 P30] and aline [glossary:AGS AGS] to [glossary:PGNS PGNS]. Second
      maneuver is to take place at [time:03:07:25:26 79:25:26.5] for
      ignition time. Then we're all to eat at 81 to
      82 hours.
 
 [02:14:38:05]
-CC:  Okay. With a minor modification, your P51, P52
+CC:  Okay. With a minor modification, your [glossary:P51 P51], P52
      will be about 77 hours, and that's the period of
      darkness. And the commander and the CMP ought to
      eat around 68 to 69 hours, and you should eat
@@ -14655,7 +14653,7 @@ LMP: - - and I've got the correction to P - -
 CC:  Go ahead, Fred.
 
 [02:14:39:00]
-LMP: Yes. We got the word the P51, P52 is going to be
+LMP: Yes. We got the word the [glossary:P51 P51], [glossary:P52 P52] is going to be
      done around 77 hours, while we're in darkness.
 
 [02:14:39:11]
@@ -14702,11 +14700,11 @@ CDR: Ready to copy.
 
 [02:14:47:42]
 CC:  Okay. It's pretty easy. We see you've already
-     got VERB 16 NOUN 20 called up there and so we
+     got [glossary:VERB 16 VERB 16] [glossary:NOUN 20 NOUN 20] called up there and so we
      want you to, in maneuver and [glossary:PGNS PGNS] ATTITUDE HOLD,
      use the TTCA. We want you to, on the commander's
      ball, pitch to 267.5 and yaw to minus 4.5. And
-     when you do this in VERB 16 NOUN 20, on the [glossary:DSKY DSKY],
+     when you do this in [glossary:VERB 16 VERB 16] [glossary:NOUN 20 NOUN 20], on the [glossary:DSKY DSKY],
      you ought to read plus 00120, plus 26750, and
      plus 00450. Go ahead.
 
@@ -14760,7 +14758,7 @@ LMP: Yes. Houston, I wonder if you're accounting for
 [02:15:04:38]
 CC:  And, Fred-o, I know you're supposed to start
      sleeping here pretty soon, but we got a new PC
-     plus 2 pad, P30 maneuver pad for you.
+     plus 2 pad, [glossary:P30 P30] maneuver pad for you.
 
 [02:15:04:56]
 CDR: Stand by.
@@ -14769,9 +14767,9 @@ CDR: Stand by.
 LMP: Okay. Go ahead, Jack.
 
 [02:15:05:35]
-CC:  Okay, Fred. P30 maneuver purpose is PC plus 2,
+CC:  Okay, Fred. [glossary:P30 P30] maneuver purpose is PC plus 2,
      [glossary:DPS DPS] to this time, we're going to the MPL. And
-     NOUN 33, 079, 27, 4013, plus 08144, minus 00443,
+     [glossary:NOUN 33 NOUN 33], 079, 27, 4013, plus 08144, minus 00443,
      minus 02226, apogee is N/A, perigee is plus 00205,
      08455, 420, 268, 261, plus 08155, minus 00443,
      minus 02187, [glossary:COAS COAS] is N/A. Your GDA ought to be
@@ -14796,11 +14794,11 @@ LMP: Okay. [glossary:DPS DPS], pericynthion plus 2 into the MPL,
      put us into the water at 142 plus 47.
 
 [02:15:09:03]
-CC:  Okay, Fred. I have a correction in NOUN 81.
+CC:  Okay, Fred. I have a correction in [glossary:NOUN 81 NOUN 81].
      DELTA-V<sub>Z</sub> is minus 02226. Read back.
 
 [02:15:09:22]
-LMP: Okay. DELTA-V<sub>Z</sub> in NOUN 81 is minus 02226.
+LMP: Okay. DELTA-V<sub>Z</sub> in [glossary:NOUN 81 NOUN 81] is minus 02226.
 
 [02:15:09:28]
 CC:  Okay. Good readback.
@@ -14833,8 +14831,8 @@ CC:  We'd like you to think about this control mode,
      Jim, and see if you think it might work from
      what you know right now. We're a little skeptical, but we'd like to put it to you. So, once
      you get in a pretty good attitude, monitor in
-     VERB 16 NOUN 20, go to [glossary:PGNS PGNS] MINIMUM IMPULSE,
-     VERB 76, as we have, and set up a yaw rate - yaw
+     [glossary:VERB 16 VERB 16] [glossary:NOUN 20 NOUN 20], go to [glossary:PGNS PGNS] MINIMUM IMPULSE,
+     [glossary:VERB 76 VERB 76], as we have, and set up a yaw rate - yaw
      rate to the right. Monitor the middle gimbal on
      R<sub>3</sub> on the [glossary:DSKY DSKY] and see if she'll kind of stabilize
      out. If not, the only other suggestion we've got
@@ -15232,10 +15230,10 @@ CC:  Okay, Jim. Your present configuration has
      thing we'd like to do right now is to give you
      an uplink, so immediately we have to, on panel 11,
      close the UPDATA LINK circuit breaker. Go to
-     P00 and DATA. Over.
+     [glossary:P00 P00] and DATA. Over.
 
 [02:15:44:52]
-CDR: Okay. We're going to P00 and DATA. The circuit
+CDR: Okay. We're going to [glossary:P00 P00] and DATA. The circuit
      breaker is closed.
 
 [02:15:48:57]
@@ -15245,7 +15243,7 @@ CDR: Houston, Aquarius. Did you say that you had a
 [02:15:49:02]
 CC:  Jim, I passed that newest pad that we have to
      Fred about 30 minutes ago. That's our latest.
-     It's PC plus 2, and it begins with NOUN 33 of
+     It's PC plus 2, and it begins with [glossary:NOUN 33 NOUN 33] of
      79 hours 27 minutes and 40.13 seconds. You got
      that one?
 
@@ -15479,8 +15477,8 @@ CDR: Houston, Aquarius.
 CC:  Aquarius, Houston. Go.
 
 [02:16:37:48]
-CDR: Roger, Jack. We're asking whether P51 and a
-     P52 are required in the back side of the Moon.
+CDR: Roger, Jack. We're asking whether [glossary:P51 P51] and a
+     [glossary:P52 P52] are required in the back side of the Moon.
 
 [02:16:37:56]
 _page : 250
@@ -15496,7 +15494,7 @@ CDR: Go ahead.
 [02:16:38:30]
 CC:  We think we know where the platform is, Jim.
      The tracking looks real good from the last
-     burn. We feel just a P52 will be required.
+     burn. We feel just a [glossary:P52 P52] will be required.
 
 [02:16:38:39]
 CDR: Okay.
@@ -15776,7 +15774,7 @@ CC:  Okay. First, on panel 11, close the S-BAND
 CDR: Roger. Copy.
 
 [02:17:04:34]
-CC:  - - and complete steps 2, 3, and 4 of Activation 28. You'll have to do a VERB 64 to get
+CC:  - - and complete steps 2, 3, and 4 of Activation 28. You'll have to do a [glossary:VERB 64 VERB 64] to get
      the pitch and yaw angles, and the last step is
      on panel 16, S-BAND ANTENNA HEATER circuit
      breaker to CLOSE. Over.
@@ -15792,7 +15790,7 @@ CDR: Joe, we didn't get all of that. We just have,
 CC:  Jim, that's - -
 
 [02:17:05:15]
-CDR: Then do a VERB 64 to get -
+CDR: Then do a [glossary:VERB 64 VERB 64] to get -
 
 [02:17:05:39]
 CC:  Aquarius, Houston. That procedure I just passed
@@ -17010,7 +17008,7 @@ LMP: Go ahead, Houston.
 CC:  Okay, Fred. I have a few words for you on some
      things we want to do in the next few hours, and
      in order to get good COMM for that and also in
-     order to give FIDO a few minutes of ranging, I
+     order to give [glossary:FIDO FIDO] a few minutes of ranging, I
      want to have you put the POWER AMPLIFIER circuit
      breaker in panel 16 in, the VOICE FUNCTION switch
      to VOICE, and RANGING FUNCTION switch to RANGING.
@@ -17027,10 +17025,10 @@ CC:  Okay, Fred. And you're loud and clear down here
      That will be a detent 2; we'll have a detail procedure
      up shortly and it will include a rendezvous
      radar redesignation to get it out of the way and
-     a P52 maneuver to the attitude. It's our feeling
+     a [glossary:P52 P52] maneuver to the attitude. It's our feeling
      that if that checks out within 1 degree that your
      platform will be okay for the burn without a
-     subsequent P52. If it's not within 1 degree, we
+     subsequent [glossary:P52 P52]. If it's not within 1 degree, we
      are working up an Earth/Sun alinement procedure
      to aline the platform, and we'll have that up
      to you later. Okay. Assuming that the Sun check
@@ -17051,11 +17049,11 @@ LMP: Okay. Stand by 1.
 LMP: Okay. Joe. As I read that, at 74 hours we're
      going to do an [glossary:AOT AOT] Sun check at detent 2, which
      is going to require the rendezvous radar out of
-     the way. And we use P52 AUTO maneuver to get
+     the way. And we use [glossary:P52 P52] AUTO maneuver to get
      there, or at least the angles out of that, and
      if this passes within 1 degree, you're saying
      the platform is okay for the maneuver, and we
-     won't need a subsequent P52. But even if it is
+     won't need a subsequent [glossary:P52 P52]. But even if it is
      okay, you'll give us a star which we can use for
      our check when we're in darkness. If this check
      flunks, you'll pass us on up then an Earth/Moon
@@ -17221,7 +17219,7 @@ CC:  Okay, Fred-o. Reading you 5-by. The procedure
      I'm going to read up to you is a Sun check for
      the - to see if we're going to need an alinement
      or not. If you'll get out your G&N dictionary
-     and open it to P52, page 34, we'll start at the
+     and open it to [glossary:P52 P52], page 34, we'll start at the
      bottom. Over.
 
 [03:00:29:23]
@@ -17248,7 +17246,7 @@ CC:  Aquarius, Houston. You ready with your G&N
      dictionary? Over.
 
 [03:00:31:24]
-LMP: Okay. I'm on page 34 now, looking at P52.
+LMP: Okay. I'm on page 34 now, looking at [glossary:P52 P52].
 
 [03:00:31:28]
 CC:  Okay, Fred-o. At the bottom of the page, we
@@ -17260,7 +17258,7 @@ CC:  Okay, Fred-o. At the bottom of the page, we
 
 [03:00:32:03]
 LMP: Okay. Let me see if I'm with you. We call up
-     P52 and, on the flashing 0406, we PRO on a
+     [glossary:P52 P52] and, on the flashing 0406, we PRO on a
      3 [glossary:REFSMMAT REFSMMAT] which leads us to a flashing 5025.
      We ENTER on that. On the flashing 0170, we
      want to ENTER a 200.
@@ -17360,7 +17358,7 @@ LMP: Okay. 31120.
 _page : 280
 _tape : Tape 48/4
 CC:  Roger. Now, if we pass that check, you can
-     Just terminate P52 right there, and we'll give
+     Just terminate [glossary:P52 P52] right there, and we'll give
      you an attitude to go to a burn attitude, and
      from this we can get a star check. If you don't
      pass, we'd like you to do an alinement at 75 hours.
@@ -17487,9 +17485,9 @@ LMP: Roger. I'm right up with you at step 6. Go
      ahead.
 
 [03:00:47:29]
-CC:  Okay, Fred. Good show. Step 6: VERB 41 NOUN 72
+CC:  Okay, Fred. Good show. Step 6: [glossary:VERB 41 VERB 41] NOUN 72
      ENTER, plus all balls, plus 28300. Step 7:
-     Monitor movement with VERB 16 NOUN 72. Step 8:
+     Monitor movement with [glossary:VERB 16 VERB 16] NOUN 72. Step 8:
      CB 11 RENDEZVOUS RADAR 2, open. Are you with
      me ? Over.
 
@@ -17500,7 +17498,7 @@ LMP: Stand by 1.
 LMP: Okay. Go ahead now.
 
 [03:00:48:30]
-CC:  Roger. Step 9 is a VERB 44. Step 10: CB 16,
+CC:  Roger. Step 9 is a [glossary:VERB 44 VERB 44]. Step 10: CB 16,
      [glossary:EPS EPS] INVERTER 2, open. Over.
 
 [03:00:48:53]
@@ -17520,7 +17518,7 @@ CC:  I got one more for you. You'll copy this and
      you get the attitude and you want to use the -
      you want to get the [glossary:AOT AOT] lamp, we got to go CB 16
      [glossary:EPS EPS] INVERTER 2, close; CB 11, AC BUS A [glossary:AOT AOT] LAMP,
-     close. After the P52, you can open CB 16 EPS
+     close. After the [glossary:P52 P52], you can open CB 16 EPS
      INVERTER 2, and open CB 11 AC BUS A [glossary:AOT AOT] LAMP and
      AC BUS A BUS TIE INVERTER 2. Over.
 
@@ -17536,11 +17534,11 @@ LMP: Okay. Let's see if I got it all. For rendezvous
      RADAR 2 closed, both breakers. Then we are to
      pull the RENDEZVOUS RADAR RELEASE handle. On
      panel 3, we then want RENDEZVOUS RADAR to [glossary:LGC LGC].
-     A VERB 41 NOUN 72 ENTER with plus all zips,
+     A [glossary:VERB 41 VERB 41] NOUN 72 ENTER with plus all zips,
      plus 28300 in registers 1 and 2. GO on that.
      Then we monitor movement with the 16 72. After
      it gets parked, CB 11 RENDEZVOUS RADAR 2 open,
-     followed by VERB 44 ENTER. And CB 16 EPS
+     followed by [glossary:VERB 44 VERB 44] ENTER. And CB 16 EPS
      INVERTER 2 open. Now, when it comes time for
      the alinement to get an [glossary:AOT AOT] lamp, CB 16, EPS
      INVERTER 2 closed, CB 11 AC BUS A [glossary:AOT AOT] LAMP closed,
@@ -17598,7 +17596,7 @@ CDR: Okay.
 
 [03:00:54:44]
 CC:  We think the alinement's going to be okay, so
-     we don't have to do this P52 fullup alinement.
+     we don't have to do this [glossary:P52 P52] fullup alinement.
      We think the check is going to be okay. Like to
      remind you since you are in ATT - if check does
      not pass, since you are in attitude for the Sun,
@@ -17836,7 +17834,7 @@ LMP: Okay. Panel 3, check the [glossary:LGC LGC].
 CDR: [glossary:LGC LGC].
 
 [03:01:13:37]
-LMP: Okay. Give me a VERB 41 NOUN 72.
+LMP: Okay. Give me a [glossary:VERB 41 VERB 41] NOUN 72.
 
 [03:01:13:40]
 CDR: Still going good, right?
@@ -17912,7 +17910,7 @@ CDR: And, just out of curiosity, we got rid of the
      middle of the - the forward digit is the docking
      light on the command module. Can you believe
      that? I don't think it will hurt our Sun check,
-     but it'll sure make P52 ...
+     but it'll sure make [glossary:P52 P52] ...
 
 [03:01:16:53]
 CC:  Sorry, Jim, but we are only reading you about
@@ -17948,7 +17946,7 @@ LMP: Yes.
 CDR: Okay.
 
 [03:01:22:45]
-CDR: Okay. ... P22. What's our next time line?
+CDR: Okay. ... [glossary:P22 P22]. What's our next time line?
 
 [03:01:22:50]
 LMP: ... about [time:03:01:30:00 73:30] ...
@@ -18116,7 +18114,7 @@ LMP: Okay ... on this ... vector. Okay, R<sub>1</sub> plus 45498
      ... and the main ... in AUTO ... ...
 
 [03:01:36:09]
-CDR: Houston, are you monitoring our P52 technique?
+CDR: Houston, are you monitoring our [glossary:P52 P52] technique?
 
 [03:01:36:20]
 CC:  - - Apollo 13 - -
@@ -18149,7 +18147,7 @@ _tape : Tape 49/11
 CC:  Reading you loud and clear. Go ahead.
 
 [03:01:37:14]
-CDR: Are you monitoring our P52 technique?
+CDR: Are you monitoring our [glossary:P52 P52] technique?
 
 [03:01:37:19]
 CC:  That's negative, Jim. We do not have high bit
@@ -18219,7 +18217,7 @@ LMP: Right here, Jim. There it is. Looks like it ...
 
 [03:01:41:25]
 CDR: I don't have all the confidence in the world in
-     this Earth-Sun P52.
+     this Earth-Sun [glossary:P52 P52].
 
 [03:01:42:18]
 _page : 293
@@ -18547,7 +18545,7 @@ CDR: That's it, she's right on still. Okay. I have,
      too. That's better than I expected.
 
 [03:02:00:05]
-LMP: Okay. Let's do a VERB 74 and get out of here.
+LMP: Okay. Let's do a [glossary:VERB 74 VERB 74] and get out of here.
 
 [03:02:00:12]
 CDR: If we can. Go to P00? Okay. I'm going to go
@@ -18925,7 +18923,7 @@ CDR: Okay, stand by.
 CDR: Go ahead.
 
 [03:02:29:30]
-CC:  Okay. VERB 21, NOUN 01, ENTER; 3011, ENTER;
+CC:  Okay. [glossary:VERB 21 VERB 21], NOUN 01, ENTER; 3011, ENTER;
      44, ENTER. Now, that's the procedure for
      widening the deadband to 5 degrees with the [glossary:DAP DAP].
      Later on, prior to the burn, you would return
@@ -18943,14 +18941,14 @@ CDR: Go ahead.
 
 [03:02:30:40]
 CC:  Okay. To return the deadband later to
-     1.4 degrees: VERB 21, NOUN 01, ENTER; 3011,
+     1.4 degrees: [glossary:VERB 21 VERB 21], NOUN 01, ENTER; 3011,
      ENTER; 200, ENTER. Over.
 
 [03:02:31:03]
 LMP: Okay, Vance. To widen the deadband, we'll enter
-     a VERB 21, NOUN 01, ENTER; 3011, ENTER; 44, ENTER.
+     a [glossary:VERB 21 VERB 21], NOUN 01, ENTER; 3011, ENTER; 44, ENTER.
      Before the burn to go back to narrow deadband,
-     it's VERB 21, NOUN 01, ENTER; 3011, ENTER;
+     it's [glossary:VERB 21 VERB 21], NOUN 01, ENTER; 3011, ENTER;
      200, ENTER.
 
 [03:02:31:22]
@@ -19157,12 +19155,12 @@ CC:  Okay. That will be on CB(16), Fred-o, but
      it's INVERTER 2 OPEN. Okay, on the Mission
      Timer Activation. Do step 1, correction,
      lines 1 and 2. Omit "set mission timer on CSM
-     mark" and insert a VERB 16, NOUN 65, set mission
+     mark" and insert a [glossary:VERB 16 VERB 16], NOUN 65, set mission
      timer. Over.
 
 [03:02:57:04]
 LMP: Okay. We'll do the Mission Timer Activation
-     except we'll set it on VERB 16, NOUN 65.
+     except we'll set it on [glossary:VERB 16 VERB 16], NOUN 65.
 
 [03:02:57:11]
 CC:  Okay. Proceeding on to step, correction, page 3,
@@ -19306,7 +19304,7 @@ LMP: Okay. Go ahead, page 12. I'm there.
 [03:03:06:21]
 CC:  Okay Fred-o. On page 12, we want the MSFN
      updates. We've got some vectors for you and a
-     P30 pad. And we'll - when you get to that state,
+     [glossary:P30 P30] pad. And we'll - when you get to that state,
      we'll let you know when we want to uplink. Okay.
      Under "[glossary:AGS AGS] Activation and Self Test," perform
      the entire procedure. On page 13, under "AGS
@@ -19329,14 +19327,14 @@ LMP: Okay. I'll catch up here. On page 12, you'll
 [03:03:07:43]
 CC:  Good readback. Turning over to page 14, step 2,
      we want you to change the [glossary:DAP DAP] NOUN 46 to 31021.
-     Then after the NOUN 47, insert "VERB 34, ENTER."
+     Then after the [glossary:NOUN 47 NOUN 47], insert "[glossary:VERB 34 VERB 34], ENTER."
      Over.
 
 [03:03:08:15]
 LMP: Okay. On page 14, a VERB 48, [glossary:DAP DAP] load, NOUN 46
      changed to 31021. I assume you will give us any
      updated weights if we need any, and after the
-     NOUN 47, a "VERB 34, ENTER." So, I - you're
+     [glossary:NOUN 47 NOUN 47], a "[glossary:VERB 34 VERB 34], ENTER." So, I - you're
      saying our gimbals look all right.
 
 [03:03:08:35]
@@ -19499,13 +19497,13 @@ CC:  Okay, good readback, Fred-o. At plus 15 seconds,
      scratch "MASTER ARM - OFF;" and at - proceeding
      on down to "At Engine Cutoff," it's - after the
      "MODE CONTROL: [glossary:PGNS PGNS] to ATT HOLD," we'd like a
-     "VERB 76," and the "Damp Excessive Rates Via
+     "[glossary:VERB 76 VERB 76]," and the "Damp Excessive Rates Via
      the [glossary:LM LM] Y, Z Translation." Over.
 
 [03:03:16:48]
 LMP: Okay, scratch "MASTER ARM - OFF" at plus 15, and
      "At Engine Cutoff" after "MODE CONTROL: [glossary:PGNS PGNS] -
-     ATT HOLD," we want a "VERB 76 ENTER," and "Damp
+     ATT HOLD," we want a "[glossary:VERB 76 VERB 76] ENTER," and "Damp
      Excessive rates Via [glossary:LM LM] Y, Z translation." And
      a question on the - propellant quantity, we expect
      it to get down below 37 percent on this burn.
@@ -19641,11 +19639,11 @@ CC:  Go ahead, Jim. Over.
 [03:03:23:34]
 CDR: Roger. Be advised I'm now seeing Antares and
      Nunki in the [glossary:AOT AOT], and I just wanted to know
-     whether you want me to try to do a P52.
+     whether you want me to try to do a [glossary:P52 P52].
 
 [03:03:23:48]
 CC:  Roger. Stand by. We copy the stars you are
-     seeing. Stand by on a P52.
+     seeing. Stand by on a [glossary:P52 P52].
 
 [03:03:23:56]
 LMP: Not very far apart. Put the card back up, Jim - -
@@ -19657,14 +19655,14 @@ CDR: It's better than Antares and Shaula.
 LMP: Yes. Sure is. That's right.
 
 [03:03:24:16]
-CDR: We got pretty good ... I'll do an AUTO P52 to
+CDR: We got pretty good ... I'll do an AUTO [glossary:P52 P52] to
      Antares. That's the way I'll get it up there.
 
 [03:03:24:23]
 CC:  Hey, Houston - correction - Aquarius, Houston.
      We're satisfied with our present alinement. We
      don't want you to waste any more [glossary:RCS RCS] gas trying
-     to do this P52, and be advised you guys are hot
+     to do this [glossary:P52 P52], and be advised you guys are hot
      mike, if you haven't heard. Over.
 
 [03:03:24:44]
@@ -19682,7 +19680,7 @@ CDR: What was that - -
 [03:03:25:20]
 _page : 315
 _tape : Tape 50/14
-CDR: Okay, okay, let's go back to that P52 ... now the
+CDR: Okay, okay, let's go back to that [glossary:P52 P52] ... now the
      attitude.
 
 [03:03:25:26]
@@ -19766,16 +19764,16 @@ CC:  Okay. About all we have to do is to send up
      your state vectors and target loads, and that
      will have to wait a couple of minutes until we
      get ready to do so. And if you're ready to
-     copy, I can give you the P30 maneuver pad for
+     copy, I can give you the [glossary:P30 P30] maneuver pad for
      PC plus 2, and after that, probably you should
      eat and then we'll regroup again to send up
      other things. Over.
 
 [03:03:28:45]
-LMP: Okay. I'm ready to copy a P30, a PC plus 2.
+LMP: Okay. I'm ready to copy a [glossary:P30 P30], a PC plus 2.
 
 [03:03:28:49]
-CC:  Okay. Okay, this is a preliminary P30 LM
+CC:  Okay. Okay, this is a preliminary [glossary:P30 P30] LM
      maneuver PC plus 2. Starting NOUN 33:
      [time:03:07:27:40 079:27:40.07]; plus 0819.2, minus 0020.0,
      minus 0218.9; NA; plus 0020.9, 0848.2; 420,
@@ -19859,11 +19857,11 @@ LMP: Okay, go ahead.
 CC:  Okay, circuit breaker panel 11 UPDATA LINK,
      CLOSE; PRIMARY POWER AMPL, panel 16, CLOSE;
      VOICE FUNCTION to VOICE; RANGE - HANGING FUNCTION
-     to RANGING; TM bit rate, HI; and then P00 and
+     to RANGING; TM bit rate, HI; and then [glossary:P00 P00] and
      DATA.
 
 [03:03:36:28]
-LMP: Okay, we're now in P00 and DATA, and switches
+LMP: Okay, we're now in [glossary:P00 P00] and DATA, and switches
      and breakers are configured. You got it.
 
 [03:03:36:32]
@@ -20644,9 +20642,9 @@ LMP: Okay. Go ahead with the VERB 49 value.
 CC:  Okay. R<sub>1</sub> plus 27210, R<sub>2</sub> plus 35570, R<sub>3</sub> plus
      33010. Second item, as you know, due to maneuver
      with a PROCEED and a PROCEED; and, after your
-     attitude, a reminder that P40 will not set you
+     attitude, a reminder that [glossary:P40 P40] will not set you
      back to a narrow deadband. To get back to the
-     1.40-degree deadband, you have to use the procedure I gave you, which is VERB 21, NOUN 01,
+     1.40-degree deadband, you have to use the procedure I gave you, which is [glossary:VERB 21 VERB 21], NOUN 01,
      ENTER, 3011, ENTER. And 200, ENTER.
 
 [03:04:45:47]
@@ -20654,7 +20652,7 @@ _page : 329
 _tape : Tape 51/10
 LMP: Okay. VERB 49, register 1, plus 27218; register 2, plus 35570; register 3, plus 33010; and
      to get the narrow deadband back we want a
-     VERB 21, NOUN 01, ENTER, 3011, ENTER, 200 ENTER.
+     [glossary:VERB 21 VERB 21], NOUN 01, ENTER, 3011, ENTER, 200 ENTER.
 
 [03:04:46:11]
 CC:  Roger. And a correction on your - on your first
@@ -21101,7 +21099,7 @@ CDR: Go ahead, Houston.
 
 [03:05:52:46]
 CC:  Okay, Jim. We have about three items for you.
-     We have a maneuver pad, P30 [glossary:LM LM] maneuver, again;
+     We have a maneuver pad, [glossary:P30 P30] [glossary:LM LM] maneuver, again;
      and the maneuver pad for the [glossary:CM CM] for splashdown.
      We also have a checklist change with contingencies, - [glossary:LM LM] contingencies checklist. And, I'll
      stand by while you're gathering the books.
@@ -21145,7 +21143,7 @@ CDR: ...
 
 [03:05:55:05]
 CC:  Okay. You're very weak now. When you are ready
-     to take the P30 [glossary:LM LM] maneuver pad, I'll be reading
+     to take the [glossary:P30 P30] [glossary:LM LM] maneuver pad, I'll be reading
      it up.
 
 [03:05:55:20]
@@ -21154,8 +21152,8 @@ CDR: Okay. Go ahead with the ...
 [03:05:55:24]
 _page : 336
 _tape : Tape 52/4
-CC:  Okay. This is P30, IN maneuver pad, PC
-     plus 2 hours, starting with NOUN 33, [time:03:07:27:38 079:27:38.30],
+CC:  Okay. This is [glossary:P30 P30], IN maneuver pad, PC
+     plus 2 hours, starting with [glossary:NOUN 33 NOUN 33], [time:03:07:27:38 079:27:38.30],
      plus 0833.0, minus 0050.9, minus 0213.9, N/A,
      plus 0020.5, 0861.5, 4:24, 272, 081, and the
      rest is N/A except for comments as follows.
@@ -21176,7 +21174,7 @@ LMP: Okay, Vance. ... [time:03:07:27:38 079:27:38.30], plus 0833.0,
 
 [03:05:58:30]
 CC:  Okay, Aquarius; Houston. You're coming in about
-     1 by 1 now. Advise that I heard everything except the beginning NOUN 33 values and the comments. Please repeat the readback on those.
+     1 by 1 now. Advise that I heard everything except the beginning [glossary:NOUN 33 NOUN 33] values and the comments. Please repeat the readback on those.
 
 [03:05:58:48]
 LMP: Okay. I'm going to UP with the POWER AMP here,
@@ -21218,7 +21216,7 @@ CC:  Okay, Fred-o. This is maneuver pad monitor PC
 [03:06:01:48]
 _page : 337
 _tape : Tape 52/5
-CMP: Monitor plane change plus 2; NOUN 81 minus 21.65
+CMP: Monitor plane change plus 2; [glossary:NOUN 81 NOUN 81] minus 21.65
      minus 165.00, 1163.5, 36292, [time:05:22:39:22 142:39:22].
 
 [03:06:02:06]
@@ -21317,11 +21315,11 @@ CDR: Houston, are you planning to give us a state
 [03:06:18:04]
 CC:  That's - That's affirm, Jim. All we need is
      UPDATA LINK circuit breaker closed on panel 11,
-     and P00 and ACCEPT and we can ship it up to you.
-     P00 and DATA.
+     and [glossary:P00 P00] and ACCEPT and we can ship it up to you.
+     [glossary:P00 P00] and DATA.
 
 [03:06:18:32]
-CDR: Okay, Vance. We're in DATA and P00 and the
+CDR: Okay, Vance. We're in DATA and [glossary:P00 P00] and the
      circuit breaker's in. Go ahead.
 
 [03:06:18:39]
@@ -21833,7 +21831,7 @@ CDR: Okay. Let's see. So we're going to lose the
 CMP: Yes.
 
 [03:07:52:11]
-LMP: I'll get 16 NOUN 20 out.
+LMP: I'll get 16 [glossary:NOUN 20 NOUN 20] out.
 
 [03:07:52:53]
 CDR: Do you have me move AUTO TRANSFER this time?
@@ -21938,11 +21936,11 @@ CDR: Houston, I'm standing by to copy the [glossary:PTC PTC] procedures
 CC:  Okay. I'll get back with you on your cuestion
      in a minute, Fred. New, here comes the PTC
      procedure. Step 1, GUIDANCE CONTROL to PGNS;
-     two MODE CONTROL, ATT HOLD; VERB 76, ENTER;
+     two MODE CONTROL, ATT HOLD; [glossary:VERB 76 VERB 76], ENTER;
      maneuver to [glossary:PTC PTC] attitude; and that incidentally
      is roll 0, pitch 90, and present yaw. We realize
      you can't monitor that on your [glossary:FDAI FDAI], but you can
-     on a verb, with a VERB 16 NOUN 20.
+     on a verb, with a [glossary:VERB 16 VERB 16] [glossary:NOUN 20 NOUN 20].
 
 [03:07:58:20]
 _page : 348
@@ -21951,39 +21949,39 @@ CC:  With me?
 
 [03:07:58:40]
 CDR: Roger. GUIDANCE CONTROL, PGNS; MODE CONTROL, ATT
-     HOLD, VERB 76, ENTER; maneuver to [glossary:PTC PTC] attitude
+     HOLD, [glossary:VERB 76 VERB 76], ENTER; maneuver to [glossary:PTC PTC] attitude
      which is roll 0, pitch 90, and yaw, which is the
      present yaw. Is that correct?
 
 [03:07:58:54]
 CC:  That's correct. Okay. Next. Mode - at - When
      you're established at the attitude, MODE CONTROL
-     AUTO. Key in VERB 16 NOUN 20 to monitor rates;
+     AUTO. Key in [glossary:VERB 16 VERB 16] [glossary:NOUN 20 NOUN 20] to monitor rates;
      when less than 0.1 degree a second, rate in all -
      in each axis, then disable plus-X thrusters.
-     Okay. Next VERB 25, NOUN 07, ENTER; 1257, ENTER;
+     Okay. Next [glossary:VERB 25 VERB 25], NOUN 07, ENTER; 1257, ENTER;
      252, ENTER; 1, ENTER; VERB 77, ENTER; VERB 48,
-     ENTER; put in the DAR 22110 and PROCEED; VERB 34,
-     ENTER; then VERB 16, NOUN 20; and monitor rates.
+     ENTER; put in the DAR 22110 and PROCEED; [glossary:VERB 34 VERB 34],
+     ENTER; then [glossary:VERB 16 VERB 16], NOUN 20; and monitor rates.
      On rates less than 0.01 degrees per second in all
-     axis: VERB 76, ENTER; MODE CONTROL, ATT HOLD;
+     axis: [glossary:VERB 76 VERB 76], ENTER; MODE CONTROL, ATT HOLD;
      then 30 clicks of right yaw to start the maneuver.
      Over.
 
 [03:08:01:48]
 CDR: Okay, Vance. [glossary:PTC PTC] procedure: GUIDANCE CONTROL,
-     PGNS; MODE CONTROL, ATT HOLD; VERB 76, ENTER;
+     PGNS; MODE CONTROL, ATT HOLD; [glossary:VERB 76 VERB 76], ENTER;
      maneuver to [glossary:PTC PTC] attitude; roll 0, pitch 90,
      yaw 0; my ball now, of course, is inoperative,
      so I'll have to get that on the [glossary:DSKY DSKY]. The 5 is
-     MODE CONTROL, AUTO; 6: VERB 16, NOUN 20, monitor
+     MODE CONTROL, AUTO; 6: [glossary:VERB 16 VERB 16], [glossary:NOUN 20 NOUN 20], monitor
      rates; rates less that 1 degree per secend in
      each axis, disable, and I didn't hear that last
-     part. The next one was VERB 25, NOUN 07, ENTER;
+     part. The next one was [glossary:VERB 25 VERB 25], NOUN 07, ENTER;
      1257, ENTER; 252, ENTER; 1, ENTER; VERB 77, ENTER;
-     VERB 48, ENTER; 22110, PROCEED; VERB 34, ENTER;
-     VERB 16, NOUN 20, ENTEF; monitor rates. Rates less
-     than 0.01 degrees per second in all axis. VERB 76,
+     VERB 48, ENTER; 22110, PROCEED; [glossary:VERB 34 VERB 34], ENTER;
+     [glossary:VERB 16 VERB 16], [glossary:NOUN 20 NOUN 20], ENTER; monitor rates. Rates less
+     than 0.01 degrees per second in all axis. [glossary:VERB 76 VERB 76],
      ENTER; MODE CONTROL, ATT HOLD; then 30 clicks of
      right yaw to stop - to start - maneuvers
 
@@ -22022,7 +22020,7 @@ CC:  Okay.
 
 [03:08:06:07]
 CDR: Okay. GIJTDANCE CONTROL, PGNS; MODE CONTROL to
-     ATT HOLD. VERB 73 clears. Okay. We've got to
+     ATT HOLD. [glossary:VERB 73 VERB 73] clears. Okay. We've got to
      get that out. ...  it stopped moving.
 
 [03:08:06:54]
@@ -22051,7 +22049,7 @@ CC:  Okay. A couple of things, Jim. One is that you
      So, that might be a better recommendation. The other
      thing is, we'd like to give you a GO before you disable 
      the plus-X thrusters, and before you do a
-     VERB 76, and MODE CONTROL to ATT HOLD. Over.
+     [glossary:VERB 76 VERB 76], and MODE CONTROL to ATT HOLD. Over.
 
 [03:08:09:40]
 CDR: Okay; understand. You want a GO before I - I'm -
@@ -22062,7 +22060,7 @@ CDR: Okay; understand. You want a GO before I - I'm -
 CC:  Yes. All we wanted to do was take a look at things
      before you disabled the plus-X thrusters, and before 
      you go to MIN IMPULSE at the end there - that
-     VERB 76, ENTER; MODE CONTROL, ATT HOLD.
+     [glossary:VERB 76 VERB 76], ENTER; MODE CONTROL, ATT HOLD.
 
 [03:08:10:20]
 _page : 350
@@ -22094,7 +22092,7 @@ LMP: In what fashion did you want us to disable those
      and mask those jets?
 
 [03:08:11:33]
-CC:  Okay, Fred. We didn't explain that. The VERB 25,
+CC:  Okay, Fred. We didn't explain that. The [glossary:VERB 25 VERB 25],
      NOUN 07, ENTER sequence does that.
 
 [03:08:11:43]
@@ -22149,7 +22147,7 @@ CDR: We're now in the hands of tracking.
 LMP: Yes. It looks diffcrert than before.
 
 [03:08:19:09]
-LMP: Hard to do P37s in the [glossary:LM LM]. Hard to do a P37 in the [glossary:LM LM].
+LMP: Hard to do P37s in the [glossary:LM LM]. Hard to do a [glossary:P37 P37] in the [glossary:LM LM].
 
 [03:08:19:52]
 CDR: Well, you can see where - -
@@ -22813,14 +22811,14 @@ CDR: Go ahead.
 [03:09:18:10]
 CC:  Okay, Jim. Looks like your rates are damped
      sufficient. Recommend that you go ahead with
-     the VERB 25, NOUN 07, ENTER bit on down through
-     the VERB 34, ENTER, and then wish you'd stand
+     the [glossary:VERB 25 VERB 25], NOUN 07, ENTER bit on down through
+     the [glossary:VERB 34 VERB 34], ENTER, and then wish you'd stand
      by for us to look at it again before you go
      beyond that. Over.
 
 [03:09:18:36]
-CDR: Okay, Houston. I'll go through VERB 25, NOUN 07,
-     down through VERB 34 ENTER, and I '11 stand by.
+CDR: Okay, Houston. I'll go through [glossary:VERB 25 VERB 25], NOUN 07,
+     down through [glossary:VERB 34 VERB 34] ENTER, and I '11 stand by.
 
 [03:09:18:47]
 CC:  Right-o.
@@ -23015,18 +23013,18 @@ CC:  Okay, Jim. Your rates are once again looking
 LMP: Jets are firing again.
 
 [03:09:36:18]
-CDR: Okay. I'll do a VERB 76 ENTER with the MODE
+CDR: Okay. I'll do a [glossary:VERB 76 VERB 76] ENTER with the MODE
      CONTROL ATT HOLD and then 30 clicks of right yaw
      to set the maneuver.
 
 [03:09:36:26]
-CC:  VERB 76 ENTER.
+CC:  [glossary:VERB 76 VERB 76] ENTER.
 
 [03:09:36:31]
 CDR: Roger.
 
 [03:09:36:36]
-CDR: There's your VERB 76, ENTER. MODE CONTROL to
+CDR: There's your [glossary:VERB 76 VERB 76], ENTER. MODE CONTROL to
      ATT HOLD. Now you want me to do 30 clicks of right yaw?
 
 [03:09:36:58]
@@ -24706,7 +24704,7 @@ CC: These guys down here are saying they knew it all
 
 [03:12:06:56]
 LMP: Well, that's right. They do good work. Whoever
-     heard of doing a P52 in the LM?
+     heard of doing a [glossary:P52 P52] in the LM?
 
 [03:12:08:48]
 CC:  Say, Fred, sometime when you're not too busy
@@ -25089,7 +25087,7 @@ LMP: Hey, that all sounds pretty good.
 
 [03:13:08:29]
 CC:  Say, Fred, did you get the dope on the Saturn IV
-     impact - S-IVB impact?
+     impact - [glossary:S-IVB S-IVB] impact?
 
 [03:13:08:41]
 LMP: Yes. Just as we came around the corner, Vance,
@@ -25826,7 +25824,7 @@ CDR: And, Jack, how long do you estimate the length
 CC:  Okay. The length of the burns are going to be
      probably less than a minute. And we want you
      to have cut-off based on time. So we will give
-     you a burn time. And I have a P30 maneuver pad
+     you a burn time. And I have a [glossary:P30 P30] maneuver pad
      for midcourse-7 in the event that we lose COMM
      if you are ready to copy.
 
@@ -25834,8 +25832,8 @@ CC:  Okay. The length of the burns are going to be
 CDR: Okay, Jack. Ready to copy.
 
 [03:15:17:06]
-CC:  Okay, Jim. P30 [glossary:LM LM] maneuver pad: the purpose is
-     midcourse-7. NOUN 33 is [time:05:14:59:42 134:59:42.98]. NOUN 81
+CC:  Okay, Jim. [glossary:P30 P30] [glossary:LM LM] maneuver pad: the purpose is
+     midcourse-7. [glossary:NOUN 33 NOUN 33] is [time:05:14:59:42 134:59:42.98]. NOUN 81
      is N/A. H<sub>A</sub> is N/A. H<sub>P</sub> is plus 0020.5. DELTA-V R
      is 0019.3. Burn time, 0:39; 008, 000; the rest
      is N/A; thrust will be at 10 percent. Read back.
@@ -25845,7 +25843,7 @@ _page : 408
 _tape : Tape 58/5
 CDR: All right. This is midcourse-7 corridor control,
      and it's in case we lose COMM: [time:05:14:59:42 134:59:42.98];
-     NOUN 81 is N/A; 42, N/A; plus 0020.5; 0019.3.
+     [glossary:NOUN 81 NOUN 81] is N/A; 42, N/A; plus 0020.5; 0019.3.
      Burn time, 0:39; 008, 000. All the rest is N/A:
      thrust 10 percent.
 
@@ -27175,7 +27173,7 @@ CMP: Yes, I've got to get the launch checklist. And
 _page : 430
 _tape : Tape 62/7
 CMP: I kind of have an idea that as soon as we hit
-     darkness, we'll be doing a P51, P52. Hope we're
+     darkness, we'll be doing a [glossary:P51 P51], [glossary:P52 P52]. Hope we're
      going to be ...
 
 [03:19:49:30]
@@ -28322,7 +28320,7 @@ CDR: Okay, before I hit the sack, Joe, I just want
 [03:20:46:16]
 CC:  Okay, Jim. We are still gathering our thoughts
      on the [glossary:MCC MCC], but some of the considerations go
-     like this: FIDO tells us that we can do that
+     like this: [glossary:FIDO FIDO] tells us that we can do that
      correction probably as late as 118 hours, with
      no significant DELTA-V penalty, and with plenty
      of tracking thereafter to make sure that we've
@@ -29997,7 +29995,7 @@ LMP: Okay. The waste transfer into the condensate
 CC:  Okay. Good deal.
 
 [03:23:26:33]
-LMP: So, I guess we can keep FIDO happy with no overboard 
+LMP: So, I guess we can keep [glossary:FIDO FIDO] happy with no overboard 
      dumps.
 
 [03:23:26:39]
@@ -31401,10 +31399,10 @@ CDR: Okay. Let me see if I have that right, now. You
 
 [04:04:28:50]
 CC:  Okay. Now on page 32, top of the page, first line,
-     scratch "VERB 76." Third line, "MODE CONTROL:
+     scratch "[glossary:VERB 76 VERB 76]." Third line, "MODE CONTROL:
      [glossary:AGS AGS], ATT HOLD." At "Minus 6 minutes," scratch
      lines 1, 2, and at "Burn Attitude," scratch
-     "VERB 40 NOUN 20." Scratch lines 2, 3, and 4.
+     "[glossary:VERB 40 VERB 40] [glossary:NOUN 20 NOUN 20]." Scratch lines 2, 3, and 4.
      Now at "Burn Attitude," we want you to do a
      "400 plus 5" and then a "VERB - a 400 plus zero."
      And we have a caution note at this point. Over.
@@ -31429,7 +31427,7 @@ CC:  That's a Roger, Jim. What happens is, of course,
      attitude reference. You establish a new attitude
      reference, and it might not be the burn attitude
      since, at this point, we're controlling attitude
-     with the TTCA. Now, picking up with the "VERB 37,
+     with the TTCA. Now, picking up with the "[glossary:VERB 37 VERB 37],
      ENTER," scratch. Scratch everything down to the
      "404 plus zero," and we want you to perform those
      [glossary:AGS AGS] steps with 404 down through 470. Over.
@@ -31504,7 +31502,7 @@ CDR: Okay, "The shutdown is on burn time minus
 
 [04:04:35:47]
 CC:  That's affirmative. We'll give you the pad, be
-     coming up here from FIDO in a couple of hours,
+     coming up here from [glossary:FIDO FIDO] in a couple of hours,
      I guess, when we stabilize out on our tracking.
      The reason for - If you're ready to copy out a
      couple of more steps, and then I '11 explain the
@@ -33308,8 +33306,8 @@ CDR: Roger, Houston. Stand by. Are you ready -
      Stand by to copy. Okay. Ready to copy.
 
 [04:08:33:43]
-CC:  Okay. A P30 maneuver pad on the DPS: purpose
-     is midcourse 5, NOUN 33, [time:04:09:30:00 105:30:00.00], NOUN 81
+CC:  Okay. A [glossary:P30 P30] maneuver pad on the DPS: purpose
+     is midcourse 5, [glossary:NOUN 33 NOUN 33], [time:04:09:30:00 105:30:00.00], NOUN 81
      is N/A, H<sub>A</sub> is N/A, perigee, plus 0019.8,
      0.007.8, 0.15, the rest is N/A. Shut down the
      engine at 1 second prior to the end of burn
@@ -33319,7 +33317,7 @@ CC:  Okay. A P30 maneuver pad on the DPS: purpose
 
 [04:08:35:00]
 LMP: Okay, Jack. We've got a [glossary:DPS DPS] midcourse 5: NOUN
-     33, [time:04:09:30:00 105:30:00.00]; NOUN 81, N/A; H<sub>A</sub> N/A; plus
+     33, [time:04:09:30:00 105:30:00.00]; [glossary:NOUN 81 NOUN 81], N/A; H<sub>A</sub> N/A; plus
      0019.8, 0007.8, burn time 0.15, the rest of the
      pad, N/A. Shut down manually at 14 seconds,
      ullage four jets for 10 seconds, and the entire
@@ -35080,7 +35078,7 @@ CC: Jim, I can give you the general idea of the
      fly to, to point the [glossary:CSM CSM] optics at the Moon.
      And, if you can see stars, why, we can use those
      too. Then we can give you an equivalent set of
-     CDU angles to put into NOUN 20 and to torque the
+     CDU angles to put into [glossary:NOUN 20 NOUN 20] and to torque the
      platform over. So, now we're coarse alined.
      Then we do a fine aline by shooting at the Moon
      and then at the Sun. Do you follow all that?
@@ -35128,7 +35126,7 @@ CDR: Okay. Same old problem, huh?
 CC:  Yes.
 
 [04:14:40:13]
-CC:  And, Jim, finally on the P52, we're considering
+CC:  And, Jim, finally on the [glossary:P52 P52], we're considering
      using the - the Moon and then the Sun for the fine aline.
 
 [04:14:40:24]
@@ -35152,7 +35150,7 @@ CC:  After we do the body axis aline on the [glossary:AGS AGS], we
      can tell you what attitude on the [glossary:AGS AGS] ball to
      fly to in order to poiat the [glossary:CSM CSM] optics at the
      Moon or at some star. And then we can, knowing
-     where the optics are pointed, give you an equivalent set of CDU angles to put in NOUN 20 to
+     where the optics are pointed, give you an equivalent set of CDU angles to put in [glossary:NOUN 20 NOUN 20] to
      torque the platform.
 
 [04:14:42:22]
@@ -36712,7 +36710,7 @@ CMP: Joe, how far out are we now and how fast are
 CC:  Okay, Jack. The plot shows you about 130 000
      miles out, which is about, gee, 10 000 closer
      than you were when I came on a couple of hours
-     ago. And let me check with FIDO for your rate
+     ago. And let me check with [glossary:FIDO FIDO] for your rate
      of closure.
 
 [04:18:19:23]
@@ -36722,7 +36720,7 @@ CC:  Hey, Jack. Over.
 CMP: Go ahead.
 
 [04:18:19:30]
-CC:  Your smiling FIDO says you're making 5040 in a
+CC:  Your smiling [glossary:FIDO FIDO] says you're making 5040 in a
      5000-mile zone
 
 [04:18:19:39]
@@ -36804,7 +36802,7 @@ CMP: Okay. Real fine ...
 CC:  Okay.
 
 [04:18:57:13]
-CMP: You might also check with FIDO whether we ...
+CMP: You might also check with [glossary:FIDO FIDO] whether we ...
      perigee ...
 
 [04:18:57:23]
@@ -36824,7 +36822,7 @@ CC:  Jack, Houston. Over.
 CMP: Go ahead.
 
 [04:18:58:41]
-CC:  Okay. The good FIDO gives us a vacuum perigee
+CC:  Okay. The good [glossary:FIDO FIDO] gives us a vacuum perigee
      at the present time of 23.6 with a flight path
      angle of minus 6.25 degrees. That's without
      a midcourse. He's kind of tossing around the
@@ -36840,7 +36838,7 @@ CC:  And, Jack, Houston. We verified that that COMM
      problem was a ground problem.
 
 [04:18:59:59]
-CMP: Okay. Thank you. That FIDO is really cooking
+CMP: Okay. Thank you. That [glossary:FIDO FIDO] is really cooking
      today.
 
 [04:19:00:03]
@@ -39142,7 +39140,7 @@ CC:  Not changing very fast, is it?
 CMP: How far out are we?
 
 [05:04:20:55]
-CC:  Okay. 953 and 6068 on velocity, per FIDO.
+CC:  Okay. 953 and 6068 on velocity, per [glossary:FIDO FIDO].
 
 [05:04:21:02]
 CMP: Okay.
@@ -40417,7 +40415,7 @@ CC: That's affirmative. Now you're going to come
 
 [05:06:42:16]
 CMP: Okay. You're saying that I will probably get
-     a PROGRAM 06 with a VERB 37 ENTER flashing.
+     a PROGRAM 06 with a [glossary:VERB 37 VERB 37] ENTER flashing.
 
 [05:06:42:27]
 CC: I expect that you - -
@@ -40749,10 +40747,10 @@ CMP: Okay. Perform the [glossary:EMS EMS] check per step 32 per
 
 [05:06:57:26]
 CC:  That's correct. Okay, now the ground is going
-     to give you a P27 update, at [glossary:EI EI] minus 2 plus 15.
+     to give you a [glossary:P27 P27] update, at [glossary:EI EI] minus 2 plus 15.
      That's a - that's a time that you need to be
      configured to accept up telemetry. And what
-     they're going to give you on a P27 update will
+     they're going to give you on a [glossary:P27 P27] update will
      by a clock increment, a state vector; they'll
      give you a VERB 66; they'll give you two
      REFSMMATs, there'll be an actual and a preferred;
@@ -40763,7 +40761,7 @@ CC:  That's correct. Okay, now the ground is going
 _page : 647
 _tape : Tape 85/10
 CMP: No, I've got them. They are going to give me a
-     clock DELTA, state vector, VERB 66, two
+     clock DELTA, state vector, [glossary:VERB 66 VERB 66], two
      REFSMMATs, and an entry target load.
 
 [05:06:58:20]
@@ -40855,7 +40853,7 @@ CC: Okay. Basically, that is correct. Let me just
      we have to, we could break off at this point and
      go ahead with an entry; however, in an attempt
      to get a good platform, we are going to have you
-     then do a P52 option 1, and what you are going to
+     then do a [glossary:P52 P52] option 1, and what you are going to
      find in the option 1 slots in the entry [glossary:REFSMMAT REFSMMAT].
      You'll come up with the NOUN 22 values, and we
      intend to go ahead and coarse aline the ball to
@@ -40871,19 +40869,19 @@ _page : 649
 _tape : Tape 85/12
 CMP: Okay. Well, let me ask a question. The LM
      maneuvers to a set of Moon-viewing angles. Okay,
-     at this time, I am going to do a P52, is that
+     at this time, I am going to do a [glossary:P52 P52], is that
      right? With the planet option?
 
 [05:07:03:29]
 CC:  The first thing we arc going to do is to coarse
      aline the platform and get it inertial, based on
      the [glossary:REFSMMAT REFSMMAT] that you have in the present slot
-     inside the [glossary:CMC CMC]. We'll then go - and do a P52,
+     inside the [glossary:CMC CMC]. We'll then go - and do a [glossary:P52 P52],
      option 4 - Correction, option 1.
 
 [05:07:03:48]
 CMP: Okay - That's after the [glossary:LM LM] gets established at
-     the attitude. Jim says I'm here at the Moon-viewing attitude, I do a VERB 41 NOUN 20 to the
+     the attitude. Jim says I'm here at the Moon-viewing attitude, I do a [glossary:VERB 41 VERB 41] [glossary:NOUN 20 NOUN 20] to the
      set of angles that you're going to give me in
      the pad.
 
@@ -40891,27 +40889,27 @@ CMP: Okay - That's after the [glossary:LM LM] gets established at
 CC:  That's affirmative - -
 
 [05:07:04:01]
-CMP: And then I enter the P52.
+CMP: And then I enter the [glossary:P52 P52].
 
 [05:07:04:03]
 CC:  That's correct.
 
 [05:07:04:04]
-CMP: Okay. Then enter the P52 and that's an
+CMP: Okay. Then enter the [glossary:P52 P52] and that's an
      option 3, right?
 
 [05:07:04:11]
-CC:  The P52 will be done as an option 1. The only
+CC:  The [glossary:P52 P52] will be done as an option 1. The only
      reason you have the other [glossary:REFSMMAT REFSMMAT] inside the
      computer is that in order to set the REFSMMAT
      flag, you need some relative orientation.
 
 [05:07:04:22]
-CMP: Okay. I see. I do a P52 option 1, and when do
+CMP: Okay. I see. I do a [glossary:P52 P52] option 1, and when do
      I set the [glossary:REFSMMAT REFSMMAT] flag and the drift flag?
 
 [05:07:04:33]
-CC:  That will be before entering P52. I am going to
+CC:  That will be before entering [glossary:P52 P52]. I am going to
      give you this procedure in detail.
 
 [05:07:04:38]
@@ -40921,11 +40919,11 @@ CMP: Okay. All right. Let's go at it. Maybe it'll
 
 [05:07:04:45]
 CC:  Okay. I'm ready to start reading again. We
-     start with a VERB 41 NOUN 20.
+     start with a [glossary:VERB 41 VERB 41] [glossary:NOUN 20 NOUN 20].
 
 [05:07:05:08]
 CMP: Okay. When the [glossary:LM LM] is in the Moon-viewing attitude,
-     I do a VERB 41 NOUN 20, ENTER.
+     I do a [glossary:VERB 41 VERB 41] [glossary:NOUN 20 NOUN 20], ENTER.
 
 [05:07:05:14]
 CC:  That's right. And you'll put in the attitudes
@@ -40934,12 +40932,12 @@ CC:  That's right. And you'll put in the attitudes
      is at the Moon-viewing attitude. Then when
      they're all squared away, I tell you they have
      the right attitude; we then pick up again with
-     a VERB 40 NOUN 20, ENTER.
+     a [glossary:VERB 40 VERB 40] [glossary:NOUN 20 NOUN 20], ENTER.
 
 [05:07:05:45]
 _page : 650
 _tape : Tape 85/13
-CMP: Okay. VERB 40 NOUN 20, ENTER when Moon is -
+CMP: Okay. [glossary:VERB 40 VERB 40] [glossary:NOUN 20 NOUN 20], ENTER when Moon is -
      the [glossary:LM LM] is satisfied that they're at the Moon-viewing attitude.
 
 [05:07:05:53]
@@ -40952,11 +40950,11 @@ CMP: Okay. Set the [glossary:REFSMMAT REFSMMAT] flag for G&C 7-1,
      steps 3 and 4.
 
 [05:07:06:20]
-CC:  That's correct. Now VERB 37, ENTER; 52, ENTER;
+CC:  That's correct. Now [glossary:VERB 37 VERB 37], ENTER; 52, ENTER;
      option 1.
 
 [05:07:06:33]
-CMP: VERB 37, ENTER; 52, ENTER; option 1.
+CMP: [glossary:VERB 37 VERB 37], ENTER; 52, ENTER; option 1.
 
 [05:07:06:36]
 CC:  That's correct. And we'll do the coarse aline.
@@ -41067,7 +41065,7 @@ CC:  Okay. The one thing that everybody would like
 _page : 652
 _tape : Tape 85/15
 CMP: Okay. If I get a set of good stars, do I start
-     right out to a basic P51 and a P52 option 1?
+     right out to a basic [glossary:P51 P51] and a [glossary:P52 P52] option 1?
 
 [05:07:10:50]
 CC:  That's affirmative.
@@ -41333,7 +41331,7 @@ _page : 656
 _tape : Tape 85/19
 CC: Okay, that's correct, Jack. Okay, at [glossary:EI EI] minus
      1 hour, we're going to be doing the [glossary:LM LM] jettison;
-     so just prior to that, we want to do a P47.
+     so just prior to that, we want to do a [glossary:P47 P47].
 
 [05:07:22:47]
 CMP: Okay, say at about 1 minute prior to [glossary:LM LM] jettison,
@@ -41374,10 +41372,10 @@ CC:  That's correct. Now we're going back to panel 8,
 CMP: Okay. SEQ PYRO ARM, two, to SAFE.
 
 [05:07:24:31]
-CC:  That's correct, and go back to P00.
+CC:  That's correct, and go back to [glossary:P00 P00].
 
 [05:07:24:42]
-CMP: Okay. Go to P00.
+CMP: Okay. Go to [glossary:P00 P00].
 
 [05:07:24:44]
 CC: All right. And now it's time to configure for
@@ -41628,12 +41626,12 @@ CMP: Yes, and we used to call the command module the
 CC:  Okay, just don't call it the reefer. Okay. At
      about [glossary:EI EI] minus 19, we get back into the standard
      entry checklist on page 2-2, where it starts
-     with P61.
+     with [glossary:P61 P61].
 
 [05:07:35:04]
 CMP: Okay, at [glossary:EI EI] minus 19, we get back into the entry
      checklist at page 2-2, where we start entering
-     P61.
+     [glossary:P61 P61].
 
 [05:07:35:14]
 CC:  Okay, Jack. Now that's the - those are the
@@ -42120,7 +42118,7 @@ CC:  Okay. Under [glossary:CMC CMC] powerup, line - or step 2 says
 [05:07:54:43]
 _page : 668
 _tape : Tape 85/31
-CMP: Okay. You want me to go to VERB 37, ENTER; 00,
+CMP: Okay. You want me to go to [glossary:VERB 37 VERB 37], ENTER; 00,
      ENTER; and then do a VERB 96?
 
 [05:07:54:55]
@@ -43620,7 +43618,7 @@ LMP: Okay. Steps 1 and 2 back in.
 
 [05:09:12:38]
 CC:  That's affirm. And underneath "Set EVENT TIMER,"
-     add the following: VERB 25 NOUN 07, ENTER;
+     add the following: [glossary:VERB 25 VERB 25] NOUN 07, ENTER;
      1257, ENTER.
 
 [05:09:13:04]
@@ -43664,12 +43662,12 @@ CC:  Okay. Next, same page, under "[glossary:DAP DAP] set gimbal
 LMP: Okay. 32021.
 
 [05:09:14:35]
-CC:  Okay. Proceeding on down below the NOUN 47, to
-     the PROCEED, insert VERB 34, ENTER, after the
-     PROCEED. And that would come before the NOUN 48.
+CC:  Okay. Proceeding on down below the [glossary:NOUN 47 NOUN 47], to
+     the PROCEED, insert [glossary:VERB 34 VERB 34], ENTER, after the
+     PROCEED. And that would come before the [glossary:NOUN 48 NOUN 48].
 
 [05:09:14:59]
-LMP: Okay. To PRO and then do a VERB 34.
+LMP: Okay. To PRO and then do a [glossary:VERB 34 VERB 34].
 
 [05:09:15:13]
 CC:  Roger. Okay. We have some noise here, Fred.
@@ -43687,10 +43685,10 @@ LMP: Okay. I'm on 32.
 
 [05:09:15:48]
 CC:  Okay. At the very first step above "GUIDANCE
-     CONTROL, [glossary:AGS AGS]," put in VERB 76, ENTER.
+     CONTROL, [glossary:AGS AGS]," put in [glossary:VERB 76 VERB 76], ENTER.
 
 [05:09:16:02]
-LMP: Okay. VERB 76, ENTER.
+LMP: Okay. [glossary:VERB 76 VERB 76], ENTER.
 
 [05:09:16:05]
 CC:  Okay. Below "GUIDANCE CONTROL, [glossary:AGS AGS]," the third
@@ -43709,7 +43707,7 @@ LMP: Okay.
 [05:09:16:32]
 CC:  Okay. At minus 6 - 6 hours - or 6 minutes rather,
      under MODE CONTROL, [glossary:PGNS PGNS], ATT HOLD, which was
-     scratched out, insert VERB 41 NOUN 20, ENTER, and
+     scratched out, insert [glossary:VERB 41 VERB 41] [glossary:NOUN 20 NOUN 20], ENTER, and
      three more ENTERs. So - So it's as shown in your
      procedure there.
 
@@ -43732,7 +43730,7 @@ LMP: Okay. [glossary:DEDA DEDA], 400 plus 5.
 
 [05:09:17:38]
 CC:  Okay. Okay. We want back in again the next step
-     which is "At burn attitude: VERB 40 NOUN 20, ENTER."
+     which is "At burn attitude: [glossary:VERB 40 VERB 40] [glossary:NOUN 20 NOUN 20], ENTER."
 
 [05:09:17:56]
 LMP: Okay.
@@ -44117,15 +44115,15 @@ CMP: Okay. You're going to delete between 2 hours and
 CC:  That's right. You got it correctly. Okay, Jack.
      One other item. Just before [glossary:EI EI] minus 2 hours
      and 15 minutes, we need an E-memory dump
-     VERB 74 ENTER. Over.
+     [glossary:VERB 74 VERB 74] ENTER. Over.
 
 [05:12:35:40]
 CMP: Okay. Stand by 1, would you, please?
 
 [05:12:36:24]
 CMP: Okay. Right before 2 hours and 15 minutes, I
-     assume that's before [glossary:MSFN MSFN] gives their P27 update,
-     I do a VERB 74. Right?
+     assume that's before [glossary:MSFN MSFN] gives their [glossary:P27 P27] update,
+     I do a [glossary:VERB 74 VERB 74]. Right?
 
 [05:12:36:34]
 CC:  That's affirmative, Jack.
@@ -44998,7 +44996,7 @@ CDR: Yes. I'm pretty confident that the platform's
      fairly descent.
 
 [05:15:17:38]
-CC:  Aquarius, Houston. We need an E MOD VERB 74,
+CC:  Aquarius, Houston. We need an E MOD [glossary:VERB 74 VERB 74],
      when you've got a chance, please.
 
 [05:15:17:43]
@@ -45079,7 +45077,7 @@ CMP: Affirm.
 CC:  Okay, Jim. We're looking at doing this in the
      service module SEP attitude, and the optics will
      be pointed away from the Sun. So it should be a
-     good attitude for a P52.
+     good attitude for a [glossary:P52 P52].
 
 [05:15:40:34]
 CDR: Okay. So, we'll be going to the service module
@@ -45095,7 +45093,7 @@ CC:  The way we'll do that in our time line Jim, is
      then we'll just stay in that attitude and when
      it comes time in our time line as we've outlined,
      to bring the platform up, we'll proceed with the
-     P52 - coarse aline, and then the P52.
+     [glossary:P52 P52] - coarse aline, and then the [glossary:P52 P52].
 
 [05:15:41:40]
 CDR: Okay. Are we going to use the same techniques
@@ -45140,7 +45138,7 @@ _page : 714
 _tape : Tape 91/1
 CMP: Okay. I just wanted to talk over with you, it
      looks like we've had some changes in the flight
-     plan here, due to Jim's. P52. Do you have - Can
+     plan here, due to Jim's. [glossary:P52 P52]. Do you have - Can
      you talk over with me what your plans are?
 
 [05:15:45:50]
@@ -45185,7 +45183,7 @@ CC:  You're going the wrong way, son.
 [05:15:48:29]
 CMP: Okay, Jack. It looks - just looking over what I
      may expect here, it locks like I'm just going to
-     get three angles to do a VERB 41 NOUN 20, right?
+     get three angles to do a [glossary:VERB 41 VERB 41] [glossary:NOUN 20 NOUN 20], right?
 
 [05:15:48:45]
 CC:  That's what it looks like from here, Jack. It's
@@ -45194,7 +45192,7 @@ CC:  That's what it looks like from here, Jack. It's
 
 [05:15:49:05]
 CMP: Yes, except in a way we did a lot of VERB 06
-     NOUN 20, ENTERS, simultaneously, and then you
+     [glossary:NOUN 20 NOUN 20], ENTERS, simultaneously, and then you
      all shipped him up post-torque values. You're
      not going to do anything like that are you?
 
@@ -45205,7 +45203,7 @@ CC:  Say again, please, Jack.
 
 [05:15:49:23]
 CC:  Okay. During the activation part, we do a lot
-     of VERB 06 NOUN 20, ENTERS simultaneously, reading
+     of [glossary:VERB 06 VERB 06] [glossary:NOUN 20 NOUN 20], ENTERS simultaneously, reading
      you out the difference in the angles, and then
      [glossary:MSFN MSFN] furnishes the post-torquing angles, in
      order to get the platform fine alined. Do you
@@ -45215,7 +45213,7 @@ CC:  Okay. During the activation part, we do a lot
 [05:15:49:53]
 CC:  Jack, we're going to give you three coarse aline
      angles, and then you can go right to your checklist as we're giving it,
-     and start in with the VERB 40 NOUN 20.
+     and start in with the [glossary:VERB 40 VERB 40] [glossary:NOUN 20 NOUN 20].
 
 [05:15:50:07]
 CMP: Okay. Real fine.
@@ -45307,7 +45305,7 @@ LMP: Okay. I was going to say I don't - We don't hardly
 CC:  Yes, we'll have to change that.
 
 [05:16:09:02]
-LMP: Okay. I'm using a P27 here. Go ahead.
+LMP: Okay. I'm using a [glossary:P27 P27] here. Go ahead.
 
 [05:16:09:06]
 CC:  Okay. The pad reads as follows and then I'll repeat
@@ -45355,7 +45353,7 @@ CC:  Okay, Aquarius. The last pad I had for you right
      Stand by 1, Aquarius.
 
 [05:16:12:22]
-CC:  Okay, Aquarius; Houston. Request P00 and DATA for
+CC:  Okay, Aquarius; Houston. Request [glossary:P00 P00] and DATA for
      a data load. Over.
 
 [05:16:12:28]
@@ -45573,7 +45571,7 @@ CC:  Aquarius, Houston.
 CDR: Go ahead.
 
 [05:16:46:47]
-CC:  Roger. Reminder P41 for the [glossary:RCS RCS] burn.
+CC:  Roger. Reminder [glossary:P41 P41] for the [glossary:RCS RCS] burn.
 
 [05:16:46:54]
 CDR: Thanks for keeping us honest.
@@ -45867,7 +45865,7 @@ CC:  That's affirm, Jim. Don't trim 5018.
 CDR: Okay.
 
 [05:17:26:53]
-CC:  We just want you to cycle on through P41 to get
+CC:  We just want you to cycle on through [glossary:P41 P41] to get
      the average g and burn it out.
 
 [05:17:27:00]
@@ -45991,7 +45989,7 @@ CC:  Aquarius, Houston.
 CDR: Go ahead, Houston.
 
 [05:17:43:59]
-CC:  Okay. Recommend you terminate P41.
+CC:  Okay. Recommend you terminate [glossary:P41 P41].
 
 [05:17:44:08]
 CDR: Okay.
@@ -46244,13 +46242,13 @@ CDR: Okay.
 
 [05:18:12:58]
 CC:  And, Jim, when you have leisure to copy, I have
-     your NOUN 46 and NOUN 47 [glossary:DAP DAP] data load numbers.
+     your NOUN 46 and [glossary:NOUN 47 NOUN 47] [glossary:DAP DAP] data load numbers.
 
 [05:18:13:08]
 CDR: Okay. Go ahead.
 
 [05:18:13:10]
-CC:  Okay. NOUN 46, 31021; NOUN 47, plus 25248 and
+CC:  Okay. NOUN 46, 31021; [glossary:NOUN 47 NOUN 47], plus 25248 and
      plus 09050. Over.
 
 [05:18:13:33]
@@ -46328,7 +46326,7 @@ CC:  Okay. Understand. We're - we're thinking about
      it. Stand by 1.
 
 [05:18:17:09]
-CC:  Okay, Jack; Houston. We'd like you to go VERB 37,
+CC:  Okay, Jack; Houston. We'd like you to go [glossary:VERB 37 VERB 37],
      ENTER; 06, ENTER again. Over.
 
 [05:18:17:17]
@@ -46365,7 +46363,7 @@ CC:  Go ahead.
 [05:18:19:41]
 _page : 732
 _tape : Tape 92/9
-CMP: Okay. Doing a VERB 37, ENTER; 06, ENTER does
+CMP: Okay. Doing a [glossary:VERB 37 VERB 37], ENTER; 06, ENTER does
      bring up the three balls 62 display, but I can't
      PROCEED on it on either [glossary:DSKY DSKY] and a VERB 33
      doesn't wor either.
@@ -46734,7 +46732,7 @@ CDR: I just said, Joe, it feels nice to use the hand
      controller again.
 
 [05:18:52:25]
-CC:  Oh. Roger that. FIDO says he's got you nailed
+CC:  Oh. Roger that. [glossary:FIDO FIDO] says he's got you nailed
      within a half a foot per second; the midcourse
      looked real good.
 
@@ -46811,7 +46809,7 @@ CC:  Okay, Jim. We - We've been talking about your
      to be able to compute the coarse aline gimbal
      angles for the [glossary:CSM CSM], and we can do that if you go
      to the selected attitude, hold it, call up a
-     VERB 06 NOUN 20, and read us your [glossary:LM LM] gimbal angles,
+     [glossary:VERB 06 VERB 06] [glossary:NOUN 20 NOUN 20], and read us your [glossary:LM LM] gimbal angles,
      we can take those and compute [glossary:CSM CSM] coarse aline
      gimbal angles on the assumption that, when we get
      back into the [glossary:CSM CSM] coarse aline, you will return
@@ -46973,7 +46971,7 @@ CC: Okay. What we'd like to do, Jim, is - We'll go
      ahead and get the coarse aline to the gimbal
      angles that - that you're going to be holding
      for us; and we'll get the platform up, and then
-     when you call P52 and you use PICAPAR, it probably won't be close enough to put the star in
+     when you call [glossary:P52 P52] and you use PICAPAR, it probably won't be close enough to put the star in
      the sextant, but if you can see any kind of a
      bright star in the general vicinity, - and like
      general vicinity, I mean 2 to 3 degrees from the
@@ -47026,7 +47024,7 @@ CDR: We'll go with your original 91-degree angle, if
 
 [05:19:31:18]
 CC:  Okay. Roger that, Jim. Then at - at your convenience here, we'd like you to go to that attitude, as close as you can get, and call up a
-     NOUN 20 for us.
+     [glossary:NOUN 20 NOUN 20] for us.
 
 [05:19:31:31]
 CDR: Okay. In work now.
@@ -47058,11 +47056,11 @@ CC:  That's roughly correct, Jim. Jack will coarse
      and pass them up to him, and the first thing he'll
      do when he gets there, per his checklist, is to
      coarse aline his platform. Then he'll go into
-     the P52, and, if he can't see stars, we will
+     the [glossary:P52 P52], and, if he can't see stars, we will
      quickly pass up to you the - your [glossary:FDAI FDAI] angles to
      put him in the Moon-view attitude, and he'll do
-     his P52 on the Moon, and then have you maneuver
-     on the Sun and complete the P52 of the Sun.
+     his [glossary:P52 P52] on the Moon, and then have you maneuver
+     on the Sun and complete the [glossary:P52 P52] of the Sun.
 
 [05:19:36:11]
 CDR: Okay. But I'm going to have to maneuver to the
@@ -47084,7 +47082,7 @@ CDR: Go ahead.
 [05:19:37:30]
 CC:  Just like to mention that, even if, for some
      reason, we run out of time or something and
-     don't complete the Moon-Sun P52, Jack will have
+     don't complete the Moon-Sun [glossary:P52 P52], Jack will have
      a platform coarse aline to the entry [glossary:REFSMMAT REFSMMAT],
      which we feel will be plenty good enough.
 
@@ -47131,7 +47129,7 @@ CDR: Okay. The command module angles will be: ROLL,
 
 [05:19:52:21]
 CC:  That's affirmative, and that's for his VERB 41
-     NOUN 20 when he gets there.
+     [glossary:NOUN 20 NOUN 20] when he gets there.
 
 [05:20:00:50]
 CC:  Aquarius, Houston. Over.
@@ -47310,7 +47308,7 @@ CDR: Go ahead.
 
 [05:20:24:16]
 CC:  We have high bit rate; we are standing by for the
-     VERB 74 ENTER and the E-MOD dump.
+     [glossary:VERB 74 VERB 74] ENTER and the E-MOD dump.
 
 [05:20:24:22]
 CDR: Roger. Thank you.
@@ -47322,13 +47320,13 @@ CMP: Joe, how do you read?
 CC:  Okay. Read you, babe.
 
 [05:20:24:29]
-CMP: Okay, Loud and clear. VERB 74 coming down.
+CMP: Okay, Loud and clear. [glossary:VERB 74 VERB 74] coming down.
 
 [05:20:24:39]
 CC:  Okay. Copy that, Jack.
 
 [05:20:24:43]
-CMP: And I'll be ready for your P27 update.
+CMP: And I'll be ready for your [glossary:P27 P27] update.
 
 [05:20:24:47]
 CC:  Okay.
@@ -47337,7 +47335,7 @@ CC:  Okay.
 CMP: And I'm in ACCEPT.
 
 [05:20:24:54]
-CC:  Okay. Understand you are in P00 and ACCEPT.
+CC:  Okay. Understand you are in [glossary:P00 P00] and ACCEPT.
      Verify OMNI Charlie.
 
 [05:20:25:04]
@@ -47349,12 +47347,12 @@ CC:  Okay. Stand by.
 
 [05:20:25:23]
 CC:  Okay, Odyssey; Houston. Select your own best
-     OMNI and then repeat VERB 74 ENTER. Over.
+     OMNI and then repeat [glossary:VERB 74 VERB 74] ENTER. Over.
 
 [05:20:26:50]
 CC:  Okay, Odyssey; Houston. We are locked on solid
-     high bit rate now; repeat the VERB 74 ENTER. Over.
-     Delay that; hold the VERB 74 1 minute. Wait.
+     high bit rate now; repeat the [glossary:VERB 74 VERB 74] ENTER. Over.
+     Delay that; hold the [glossary:VERB 74 VERB 74] 1 minute. Wait.
 
 [05:20:27:02]
 CMP: You're too late, Joe; it's coming down.
@@ -47370,12 +47368,12 @@ CC:  Okay. We are going to skip the E-MOD dump for
      right now and get the uplink in.
 
 [05:20:27:43]
-LMP: Okay. P00 and ACCEPT.
+LMP: Okay. [glossary:P00 P00] and ACCEPT.
 
 [05:20:27:44]
 _page : 748
 _tape : Tape 94/2
-CC:  Okay. P00 and ACCEPT. And, Jack, you can go
+CC:  Okay. [glossary:P00 P00] and ACCEPT. And, Jack, you can go
      ahead with the [glossary:IMU IMU] and optics powerup. Over.
 
 [05:20:27:54]
@@ -47422,7 +47420,7 @@ CMP: Is the computer mine now, Joe?
 CC:  Stand by 1 second.
 
 [05:20:40:02]
-CC:  Okay, Jack. We'd like the VERB 74 ENTER, and
+CC:  Okay, Jack. We'd like the [glossary:VERB 74 VERB 74] ENTER, and
      it'll take less than a minute for E-MOD dump.
 
 [05:20:40:10]
@@ -47483,7 +47481,7 @@ CC:  Copy that.
 [05:20:43:37]
 CC:  Aquarius, Houston. I copied that you - that he's
      completed the coarse aline; he's going into the
-     P52 now? Is that right?
+     [glossary:P52 P52] now? Is that right?
 
 [05:20:43:54]
 CDR: Let me check. I think he is.
@@ -47723,7 +47721,7 @@ CMP: There.
 CC:  Okay. Good.
 
 [05:21:00:20]
-CC:  Roger. That's VERB 46. Roger. Aquarius, Houston.
+CC:  Roger. That's [glossary:VERB 46 VERB 46]. Roger. Aquarius, Houston.
 
 [05:21:00:31]
 CDR: Go ahead.
@@ -48085,7 +48083,7 @@ CC:  Roger.
 CMP: Okay, Houston. The sextant star check passes.
 
 [05:21:37:23]
-CC:  Houston, copy. Good show. That was some P52,
+CC:  Houston, copy. Good show. That was some [glossary:P52 P52],
      Jack.
 
 [05:21:37:35]
@@ -48187,7 +48185,7 @@ CC:  Odyssey, Houston. Over.
 CMP: Go ahead.
 
 [05:22:00:45]
-CC:  Okay, Jack. We'd like P00 and ACCEPT for your
+CC:  Okay, Jack. We'd like [glossary:P00 P00] and ACCEPT for your
      final state vector.
 
 [05:22:00:55]
@@ -48312,7 +48310,7 @@ CC: That's affirmative. Hold it just a second; we
 CMP: Okay. That's not too many g's.
 
 [05:22:20:41]
-CC: Jack, FIDO says that's okay.
+CC: Jack, [glossary:FIDO FIDO] says that's okay.
 
 [05:22:20:45]
 CMP: Okay.
@@ -48431,7 +48429,7 @@ CC:  (Laughter) That's the nicest thing anybody's
      ever said! How about that?
 
 [05:22:33:43]
-CMP: Sure wish I could go to the FIDO party tonight.
+CMP: Sure wish I could go to the [glossary:FIDO FIDO] party tonight.
 
 [05:22:33:47]
 CC:  (Laughter) Yes, it's going to be a wild one.
