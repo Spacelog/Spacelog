@@ -316,6 +316,10 @@ Artemis.PhasesView = Backbone.View.extend({
     
 
     initialize: function() {
+        if(this.el.find('img.orbital').length === 0) {
+            return;
+        }
+
         this.el.find('ul').append('<li><a href="#" class="map">Show map</a></li>');
         if (this.getIsOpen()) {
             this.el.css({height: this.openHeight});
