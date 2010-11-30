@@ -268,15 +268,15 @@ Artemis.TranscriptView = Backbone.View.extend({
     el: $('#transcript').parent(),
     overlay: $('<div id="highlight-overlay"></div>'),
     events: {
-        'click #transcript > div':  'highlightLine',
-        'click #transcript > div .time a': 'highlightLine',
+        'click #transcript > div':  'selectionOpen',
+        'click #transcript > div .time a': 'selectionOpen',
         'click #transcript > div dd #selection-close': 'selectionClose'
     },
     // The log lines which are currently highlighted
     highlightedLines: new Artemis.HighlightedLogLineCollection(),
     
     initialize: function() {
-        _.bindAll(this, 'selectionClose');
+        _.bindAll(this, 'selectionClose', 'setOverlayHeight');
 
         if ($('#load-previous').size()) {
             this.loadPreviousButton = new Artemis.LoadMoreButtonView({
@@ -306,16 +306,20 @@ Artemis.TranscriptView = Backbone.View.extend({
         var content = $('#content');
         if (content.hasClass('with-highlight')) {
             content.removeClass('with-highlight');
-            this.showOverlay(false);
+            if (this.loadPreviousButton) this.loadPreviousButton.hide();
+            if (this.loadMoreButton) this.loadMoreButton.hide();
+           
             _.each($('#transcript > .highlighted'), _.bind(function(e) {
                 this.highlightedLines.add(
                     new Artemis.LogLine({el: $(e)})
                 );
             }, this));
+
+            this.showOverlay(false);
         }
     },
 
-    highlightLine: function(e) {
+    selectionOpen: function(e) {
         if (this.highlightedLines.size() == 0) {
             var target = $(e.currentTarget).closest('div');
             var line = new Artemis.LogLine({el: target});
@@ -331,29 +335,17 @@ Artemis.TranscriptView = Backbone.View.extend({
     },
 
     selectionClose: function(e) {
-        // TODO: we should keep track of what page we're on
-        if (location.pathname.slice(0, 6) == '/page/') {
-            this.el.find('#range-advisory').hide('blind', Artemis.animationTime, _.bind(function() {
-                this.highlightedLines.each(function(line) {
-                    line.view.unHighlight();
-                });
-                this.highlightedLines = new Artemis.HighlightedLogLineCollection();
+        this.el.find('#range-advisory').hide('blind', Artemis.animationTime, _.bind(function() {
+            this.highlightedLines.each(function(line) {
+                line.view.unHighlight();
+            });
+            this.highlightedLines = new Artemis.HighlightedLogLineCollection();
 
-            }, this));
-            this.hideOverlay();
-            if (this.loadPreviousButton) this.loadPreviousButton.show();
-            if (this.loadMoreButton) this.loadMoreButton.show();
-            return false;
-        }
-        // If we're on a log line highlight page, fall through to linking back
-        // to the page
-        else {
-            // For whatever goddamn reason, letting the normal click event fall
-            // through doesn't work. Probably something to do with another
-            // click even intefering
-            window.location = this.highlightedLines.first().getPageURL();
-            return true;
-        }
+        }, this));
+        this.hideOverlay();
+        if (this.loadPreviousButton) this.loadPreviousButton.show();
+        if (this.loadMoreButton) this.loadMoreButton.show();
+        return false;
     },
 
     showOverlay: function(animate) {
@@ -368,13 +360,17 @@ Artemis.TranscriptView = Backbone.View.extend({
             this.overlay.css({'opacity': '0'});
             this.overlay.animate({'opacity': '0.5'}, Artemis.animationTime);
         }
-        this.setOverlayHeight();
+
+        // HACK: on detail pages, for some reason a redraw is needed before we
+        // get the right height
+        setTimeout(this.setOverlayHeight, 0);
         this.overlay.appendTo($('body'));
     },
 
     setOverlayHeight: function() {
+        console.debug($('body').height())
         this.overlay.css({
-            'height': ($('body').height() - 38) + 'px'
+            'height': ($(document).height() - 38) + 'px'
         });
     },
 

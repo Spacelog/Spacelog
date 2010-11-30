@@ -21,7 +21,9 @@
 #content.with-highlight #transcript dd {
     border-bottom:          1px solid #858585;
 }
-
+#content.with-highlight .load-more a {
+    display:                none;
+}
 #transcript .highlighted {
     background:             white;
     position:               relative;
