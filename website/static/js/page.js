@@ -236,7 +236,7 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
 
         // With lines highlighted, hide the button
         if (Artemis.transcriptView.highlightedLines.size()) {
-            this.el.hide();
+            this.el.children().hide();
         }
         
         // Insert new lines
