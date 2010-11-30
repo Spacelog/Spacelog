@@ -6,7 +6,6 @@
                             'Helvetica Neue Condensed',
                             'Arial',
                             sans-serif;
-    font-size:              24px;
     line-height:            1.6;
     text-transform:         uppercase;
     -cp-contain:            easy;
@@ -19,6 +18,7 @@
     float:                  left;
     margin-right:           20px;
     width:                  220px;
+    font-size:              24px;
 }
 #masthead h1 a {
     color:                  #fff;
@@ -31,6 +31,7 @@
     width:                  540px;
     margin-right:           20px;
     float:                  left;
+    font-size:              24px;
 }
 #masthead nav li {
     float:                  left;
@@ -59,14 +60,23 @@ body.about-section #masthead li.about-section a {
 #masthead input {
     position:               absolute;
     top:                    8px;
-    background:             #565656;
+    background:             #fff;
     border:                 none;
-    -cp-border-radius:      5px;
+    -cp-border-radius:      10px;
     width:                  140px;
-    color:                  black;
+    font-weight:            normal;
+    padding:                1px;
+    text-indent:            8px;
+    font-family:            "Helvetica Neue",
+                            "Arial",
+                            sans-serif;
 }
 
 /*! verbatim */
+#masthead input {
+    -moz-box-shadow:        inset rgba(0,0,0,0.5) 0 1px 2px;
+}
+
 #masthead {
     -webkit-box-shadow:     #222 0 2px 4px;
     -moz-box-shadow:        #222 0 2px 4px;
