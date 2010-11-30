@@ -27,6 +27,13 @@
     position:               relative;
     margin:                 0 -20px;
     padding:                0 20px;
+    z-index:                6;
+}
+#transcript .highlighted .range-ui {
+    z-index:                8;
+}
+#transcript .highlighted dd em {
+    z-index:                7;
 }
 #transcript .highlighted.key-scene {
     background:             white;
@@ -114,4 +121,11 @@
 #range-advisory input {
     color:                  #666;
     width:                  250px;
+}
+#highlight-overlay {
+    position:               absolute;
+    top:                    38px;
+    left:                   0px;
+    width:                  100%;
+    z-index:                5;
 }

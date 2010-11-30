@@ -146,7 +146,7 @@
     font-family:            "League Gothic";
     text-transform:         uppercase;
     line-height:            28px;
-    z-index:                4;
+    z-index:                10;
     overflow:               hidden;
 }
 #phases p.original {
@@ -220,10 +220,10 @@
     background-repeat:      no-repeat;
 }
 #phases .prev {
-    background-image:       url(/assets/img/base/scan_back_disabled.png);;
+    background-image:       url(/assets/img/base/scan_back_disabled.png);
 }
 #phases .next {
-    background-image:       url(/assets/img/base/scan_forward_disabled.png);;
+    background-image:       url(/assets/img/base/scan_forward_disabled.png);
 }
 #phases .next,
 #phases .prev,

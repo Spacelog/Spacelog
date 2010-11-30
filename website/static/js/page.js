@@ -65,6 +65,7 @@ Artemis.LogLineView = Backbone.View.extend({
 
     highlight: function() {
         this.el.addClass('highlighted');
+        this.el.css({'cursor': 'auto'});
 
         // Reset range UI
         this.el.find('.range-ui').remove();
@@ -107,6 +108,7 @@ Artemis.LogLineView = Backbone.View.extend({
 
     unHighlight: function() {
         this.el.removeClass('highlighted first last');
+        this.el.css({'cursor': 'pointer'});
         this.el.find('.range-ui').remove();
         this.removeRangeAdvisory();
     },
@@ -145,10 +147,11 @@ Artemis.LogLineView = Backbone.View.extend({
     },
     createRangeAdvisory: function() {
         if (!this.el.children('#range-advisory').length) {
-            this.el.append(_.template(this.rangeAdvisoryTemplate, {
+            var rangeAdvisory = $(_.template(this.rangeAdvisoryTemplate, {
                 time: this.model.collection.first().view.el.find('time').data('range-advisory'),
                 permalink: this.model.collection.getURL()
             }));
+            this.el.append(rangeAdvisory);
         }
     },
     removeRangeAdvisory: function() {
@@ -236,6 +239,7 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
 
 Artemis.TranscriptView = Backbone.View.extend({
     el: $('#transcript').parent(),
+    overlay: $('<div id="highlight-overlay"></div>'),
     events: {
         'click #transcript div':  'highlightLine',
         'click #transcript div .time a': 'highlightLine',
@@ -245,7 +249,7 @@ Artemis.TranscriptView = Backbone.View.extend({
     highlightedLines: new Artemis.HighlightedLogLineCollection(),
     
     initialize: function() {
-        _.bindAll(this);
+        _.bindAll(this, 'selectionClose');
 
         if ($('#load-previous').size()) {
             this.loadPreviousButton = new Artemis.LoadMoreButtonView({
@@ -258,6 +262,9 @@ Artemis.TranscriptView = Backbone.View.extend({
                 el: $('#load-more'),
             });
         }
+
+        this.overlay.click(this.selectionClose);
+        this.el.find('#transcript').css({'cursor': 'pointer'});
     },
 
     gatherCurrentSelection: function() {
@@ -274,8 +281,9 @@ Artemis.TranscriptView = Backbone.View.extend({
             var target = $(e.currentTarget).closest('div');
             var line = new Artemis.LogLine({el: target});
             this.highlightedLines.add(line);
-            $('#content').addClass('with-highlight');
             $('#load-more, #load-previous').hide();
+            this.showOverlay();
+            line.view.el.find('#range-advisory').hide().show('blind');
         }
         return false;
     },
@@ -283,12 +291,14 @@ Artemis.TranscriptView = Backbone.View.extend({
     selectionClose: function(e) {
         // TODO: we should keep track of what page we're on
         if (location.pathname.slice(0, 6) == '/page/') {
-            this.highlightedLines.each(function(line) {
-                line.view.unHighlight();
-            });
-            this.highlightedLines = new Artemis.HighlightedLogLineCollection();
-            $('#content').removeClass('with-highlight');
-            $('#load-more, #load-previous').show();
+            this.el.find('#range-advisory').hide('blind', _.bind(function() {
+                this.highlightedLines.each(function(line) {
+                    line.view.unHighlight();
+                });
+                this.highlightedLines = new Artemis.HighlightedLogLineCollection();
+                $('#load-more, #load-previous').show();
+            }, this));
+            this.hideOverlay();
             return false;
         }
         // If we're on a log line highlight page, fall through to linking back
@@ -301,6 +311,22 @@ Artemis.TranscriptView = Backbone.View.extend({
             return true;
         }
     },
+
+    showOverlay: function() {
+        this.overlay.css({
+            'height': ($('body').height() - 38) + 'px',
+            'background-color': 'black',
+            'opacity': '0'
+        });
+        this.overlay.appendTo($('body'));
+        this.overlay.animate({'opacity': '0.5'});
+    },
+
+    hideOverlay: function() {
+        this.overlay.animate({'opacity': 0}, _.bind(function() {
+            this.overlay.detach();
+        }, this));
+    }
 
 });
 
