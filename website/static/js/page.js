@@ -264,6 +264,7 @@ Artemis.TranscriptView = Backbone.View.extend({
     overlay: $('<div id="highlight-overlay"></div>'),
     events: {
         'click #transcript > div':  'highlightLine',
+        'click #transcript > div .time a': 'highlightLine',
         'click #transcript > div dd #selection-close': 'selectionClose'
     },
     // The log lines which are currently highlighted
@@ -289,10 +290,7 @@ Artemis.TranscriptView = Backbone.View.extend({
         
         // Bust through the div's click event to allow all links to work apart from 
         // the time link
-        this.el.find('#transcript > div a').click(function(e) {
-            if ($(e.currentTarget).parent().hasClass('time')) {
-                return this.highlightLine(e);
-            }
+        this.el.find('#transcript > div').find('dt.speaker a, dd a').click(function(e) {
             e.stopImmediatePropagation();
             return true;
         });
@@ -300,11 +298,16 @@ Artemis.TranscriptView = Backbone.View.extend({
 
     gatherCurrentSelection: function() {
         // Gather any currently selected lines
-        _.each($('#transcript > .highlighted'), _.bind(function(e) {
-            this.highlightedLines.add(
-                new Artemis.LogLine({el: $(e)})
-            );
-        }, this));
+        var content = $('#content');
+        if (content.hasClass('with-highlight')) {
+            content.removeClass('with-highlight');
+            this.showOverlay(false);
+            _.each($('#transcript > .highlighted'), _.bind(function(e) {
+                this.highlightedLines.add(
+                    new Artemis.LogLine({el: $(e)})
+                );
+            }, this));
+        }
     },
 
     highlightLine: function(e) {
@@ -348,14 +351,20 @@ Artemis.TranscriptView = Backbone.View.extend({
         }
     },
 
-    showOverlay: function() {
+    showOverlay: function(animate) {
+        if (animate === undefined) {
+            animate = true;
+        }
         this.overlay.css({
             'background-color': 'black',
-            'opacity': '0'
+            'opacity': '0.5'
         });
+        if (animate) {
+            this.overlay.css({'opacity': '0'});
+            this.overlay.animate({'opacity': '0.5'});
+        }
         this.setOverlayHeight();
         this.overlay.appendTo($('body'));
-        this.overlay.animate({'opacity': '0.5'});
     },
 
     setOverlayHeight: function() {
