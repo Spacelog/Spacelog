@@ -39,6 +39,12 @@
     -cp-border-bottom-left-radius:  5px;
     -cp-border-bottom-right-radius: 5px;
 }
+#transcript .highlighted.key-scene.first {
+    -cp-border-top-right-radius: 0;
+}
+#transcript .highlighted.key-scene.last {
+    -cp-border-bottom-right-radius: 0;
+}
 #content.with-highlight #transcript .highlighted.last dd {
     border-bottom-width:            0;
 }
