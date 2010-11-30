@@ -1,5 +1,7 @@
 (function() {
     var Artemis = {
+        animationTime: 250,
+
         // Parses a mission timestamp from a URL and converts it to a number of 
         // seconds
         parseMissionTime: function(mission_time) {

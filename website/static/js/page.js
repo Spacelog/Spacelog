@@ -255,11 +255,11 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
     },
 
     hide: function() {
-        this.el.children().fadeOut();
+        this.el.children().fadeOut(Artemis.animationTime);
     },
 
     show: function() {
-        this.el.children().fadeIn();
+        this.el.children().fadeIn(Artemis.animationTime);
     }
 });
 
@@ -325,7 +325,7 @@ Artemis.TranscriptView = Backbone.View.extend({
             if (this.loadMoreButton) this.loadMoreButton.hide();
 
             this.showOverlay();
-            line.view.el.find('#range-advisory').hide().show('blind');
+            line.view.el.find('#range-advisory').hide().show('blind', {}, Artemis.animationTime);
         }
         return false;
     },
@@ -333,7 +333,7 @@ Artemis.TranscriptView = Backbone.View.extend({
     selectionClose: function(e) {
         // TODO: we should keep track of what page we're on
         if (location.pathname.slice(0, 6) == '/page/') {
-            this.el.find('#range-advisory').hide('blind', _.bind(function() {
+            this.el.find('#range-advisory').hide('blind', Artemis.animationTime, _.bind(function() {
                 this.highlightedLines.each(function(line) {
                     line.view.unHighlight();
                 });
@@ -366,7 +366,7 @@ Artemis.TranscriptView = Backbone.View.extend({
         });
         if (animate) {
             this.overlay.css({'opacity': '0'});
-            this.overlay.animate({'opacity': '0.5'});
+            this.overlay.animate({'opacity': '0.5'}, Artemis.animationTime);
         }
         this.setOverlayHeight();
         this.overlay.appendTo($('body'));
@@ -379,7 +379,7 @@ Artemis.TranscriptView = Backbone.View.extend({
     },
 
     hideOverlay: function() {
-        this.overlay.animate({'opacity': 0}, _.bind(function() {
+        this.overlay.animate({'opacity': 0}, Artemis.animationTime, _.bind(function() {
             this.overlay.detach();
         }, this));
     }
