@@ -151,6 +151,10 @@ Artemis.LogLineView = Backbone.View.extend({
                 time: this.model.collection.first().view.el.find('time').data('range-advisory'),
                 permalink: this.model.collection.getURL()
             }));
+            // Select text in text field on focus
+            rangeAdvisory.find('input').click(function() {
+                $(this).focus().select();
+            });
             this.el.append(rangeAdvisory);
         }
     },
