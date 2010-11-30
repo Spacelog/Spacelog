@@ -42,7 +42,7 @@
     margin-left:            -20px;
 }
 #transcript dt.time a {
-    // FIXME: Shouldn't be needed.
+    /* FIXME: Shouldn't be needed. */
     text-align:             right;
 }
 #transcript time {
