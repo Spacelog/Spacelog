@@ -368,7 +368,6 @@ Artemis.TranscriptView = Backbone.View.extend({
     },
 
     setOverlayHeight: function() {
-        console.debug($('body').height())
         this.overlay.css({
             'height': ($(document).height() - 38) + 'px'
         });
