@@ -11,6 +11,10 @@ Artemis.LogLine = Backbone.Model.extend({
 
     getTimestamp: function() {
         return this.getURL().split('/')[1];
+    },
+
+    getPageURL: function() {
+        return '/page/'+this.getTimestamp()+'/#log-line-'+this.id;
     }
 
 });
@@ -116,7 +120,7 @@ Artemis.LogLineView = Backbone.View.extend({
     addRangeUI: function(id) {
         var href = '#';
         if (id == 'selection-close') {
-            href = '/page/'+this.model.getTimestamp()+'/#log-line-'+this.model.id;
+            href = this.model.getPageURL();
         }
         this.el.children('dd').append('<a href="'+href+'" class="range-ui" id="'+id+'"></a>');
     },
@@ -200,9 +204,6 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
         var content = $(data.content);
         var crest = $(data.crest);
 
-        // To start with, get rid of the spinner
-        this.el.children().replaceWith(this.elLast.clone().children());
-        
         // We've hit the start of a new phase
         if (crest.children().size()) {
             // If we're going backwards, show the new crest
@@ -217,10 +218,14 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
             // If going forwards, skip to next phase 
             else {
                 window.location = this.elLast.children('a').attr('href');
+                return;
             }
         }
         
-        // See if the new content has a spinner
+        // To start with, get rid of the spinner
+        this.el.children().replaceWith(this.elLast.clone().children());
+
+        // See if the new content has a button
         var newEl = content.find('#'+this.el.attr('id'));
         if (newEl.size() && newEl.children().size()) {
             this.el.children().replaceWith(newEl.children());
@@ -346,7 +351,7 @@ Artemis.TranscriptView = Backbone.View.extend({
             // For whatever goddamn reason, letting the normal click event fall
             // through doesn't work. Probably something to do with another
             // click even intefering
-            window.location = $(e.currentTarget).attr('href');
+            window.location = this.highlightedLines.first().getPageURL();
             return true;
         }
     },
