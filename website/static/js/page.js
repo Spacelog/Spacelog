@@ -198,7 +198,24 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
 
         // To start with, get rid of the spinner
         this.el.children().replaceWith(this.elLast.clone().children());
-
+        
+        // We've hit the start of a new phase
+        if (crest.children().size()) {
+            // If we're going backwards, show the new crest
+            if (this.isPrevious) {
+                $('#crest').replaceWith(data.crest);
+            }
+            // Don't load anything if we're highlighted and reached the end of
+            // a phase
+            else if (Artemis.transcriptView.highlightedLines.size()) {
+                return;
+            }
+            // If going forwards, skip to next phase 
+            else {
+                window.location = this.elLast.children('a').attr('href');
+            }
+        }
+        
         // See if the new content has a spinner
         var newEl = content.find('#'+this.el.attr('id'));
         if (newEl.size() && newEl.children().size()) {
@@ -212,18 +229,8 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
         if (Artemis.transcriptView.highlightedLines.size()) {
             this.el.hide();
         }
-
-        if (crest.children().size()) {
-            // If we're going backwards, show the new crest
-            if (this.isPrevious) {
-                $('#crest').replaceWith(data.crest);
-            }
-            // If going forwards and we're not highlighting, skip to next phase 
-            else if (!Artemis.transcriptView.highlightedLines.size()) {
-                window.location = this.elLast.children('a').attr('href');
-            }
-        }
         
+        // Insert new lines
         if (this.isPrevious) {
             $('#transcript').prepend(content.filter('#transcript').children());
         }
@@ -252,9 +259,8 @@ Artemis.TranscriptView = Backbone.View.extend({
     el: $('#transcript').parent(),
     overlay: $('<div id="highlight-overlay"></div>'),
     events: {
-        'click #transcript div':  'highlightLine',
-        'click #transcript div .time a': 'highlightLine',
-        'click #transcript div dd #selection-close': 'selectionClose'
+        'click #transcript > div':  'highlightLine',
+        'click #transcript > div dd #selection-close': 'selectionClose'
     },
     // The log lines which are currently highlighted
     highlightedLines: new Artemis.HighlightedLogLineCollection(),
@@ -276,6 +282,16 @@ Artemis.TranscriptView = Backbone.View.extend({
 
         this.overlay.click(this.selectionClose);
         this.el.find('#transcript').css({'cursor': 'pointer'});
+        
+        // Bust through the div's click event to allow all links to work apart from 
+        // the time link
+        this.el.find('#transcript > div a').click(function(e) {
+            if ($(e.currentTarget).parent().hasClass('time')) {
+                return this.highlightLine(e);
+            }
+            e.stopImmediatePropagation();
+            return true;
+        });
     },
 
     gatherCurrentSelection: function() {
@@ -292,9 +308,9 @@ Artemis.TranscriptView = Backbone.View.extend({
             var target = $(e.currentTarget).closest('div');
             var line = new Artemis.LogLine({el: target});
             this.highlightedLines.add(line);
-
-            this.loadPreviousButton.hide();
-            this.loadMoreButton.hide();
+            
+            if (this.loadPreviousButton) this.loadPreviousButton.hide();
+            if (this.loadMoreButton) this.loadMoreButton.hide();
 
             this.showOverlay();
             line.view.el.find('#range-advisory').hide().show('blind');
@@ -313,8 +329,8 @@ Artemis.TranscriptView = Backbone.View.extend({
 
             }, this));
             this.hideOverlay();
-            this.loadPreviousButton.show();
-            this.loadMoreButton.show();
+            if (this.loadPreviousButton) this.loadPreviousButton.show();
+            if (this.loadMoreButton) this.loadMoreButton.show();
             return false;
         }
         // If we're on a log line highlight page, fall through to linking back
