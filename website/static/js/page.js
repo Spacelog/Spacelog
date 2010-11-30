@@ -246,15 +246,6 @@ Artemis.TranscriptView = Backbone.View.extend({
     
     initialize: function() {
         _.bindAll(this);
-        
-
-        // Gather any currently selected lines
-        _.each($('#transcript > .highlighted'), _.bind(function(e) {
-            this.highlightedLines.add(
-                new Artemis.LogLine({el: $(e)})
-            );
-        }, this));
-        
 
         if ($('#load-previous').size()) {
             this.loadPreviousButton = new Artemis.LoadMoreButtonView({
@@ -267,6 +258,15 @@ Artemis.TranscriptView = Backbone.View.extend({
                 el: $('#load-more'),
             });
         }
+    },
+
+    gatherCurrentSelection: function() {
+        // Gather any currently selected lines
+        _.each($('#transcript > .highlighted'), _.bind(function(e) {
+            this.highlightedLines.add(
+                new Artemis.LogLine({el: $(e)})
+            );
+        }, this));
     },
 
     highlightLine: function(e) {
@@ -360,6 +360,7 @@ Artemis.PhasesView = Backbone.View.extend({
 $(function() {
     Artemis.phasesView = new Artemis.PhasesView();
     Artemis.transcriptView = new Artemis.TranscriptView();
+    Artemis.transcriptView.gatherCurrentSelection();
 });
 
 
