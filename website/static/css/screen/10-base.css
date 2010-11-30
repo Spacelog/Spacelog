@@ -60,7 +60,10 @@ a.big-blue-button-thing,
     border:                 1px solid transparent;
     -cp-border-radius:      3px;
     color:                  #fff;
-    font-family:            'League Gothic', sans-serif;
+    font-family:            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
     font-size:              23px;
     position:               relative;
     text-transform:         uppercase;

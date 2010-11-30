@@ -41,7 +41,11 @@
 }
 
 .people .more a {
-    font:                   36px 'League Gothic', sans-serif;
+    font:                   36px 
+                            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
     padding:                50px 80px;
     text-align:             center;
     text-transform:         uppercase;
@@ -87,7 +91,11 @@
 .person .stats .secondary em {
     color:                  #e5352d;
     float:                  left;
-    font:                   50px 'League Gothic', sans-serif;
+    font:                   50px
+                            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
     margin-left:            -60px;
     text-align:             center;
     width:                  60px;
