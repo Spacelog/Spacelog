@@ -243,6 +243,7 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
         
         // Insert new lines
         if (this.isPrevious) {
+            var topLogLine = $('#transcript').children()[0];
             var initialWindowTop  = $( document ).scrollTop();
             
             $('#transcript').prepend( content.filter('#transcript').children() );
