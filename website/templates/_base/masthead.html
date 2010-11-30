@@ -10,7 +10,7 @@
         <li class='about-section'><a href='{% url about %}'>About</a></li>
       </ul>
       <form method="get" action="/search/">
-        <input type="search" name="q" value="{{ q|escape }}" id="q"
+        <input type="text" name="q" value="{{ q|escape }}" id="q"
           placeholder="Search transcript">
       </form>
     </nav>

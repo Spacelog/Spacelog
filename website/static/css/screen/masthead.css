@@ -65,7 +65,8 @@ body.about-section #masthead li.about-section a {
     -cp-border-radius:      10px;
     width:                  140px;
     font-weight:            normal;
-    padding:                1px;
+    font-size:              14px;
+    padding:                2px 1px;
     text-indent:            8px;
     font-family:            "Helvetica Neue",
                             "Arial",
