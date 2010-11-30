@@ -43,7 +43,7 @@ def linkify(text, request=None):
     )
     # Glossary links
     text = re.sub(
-        r"\[glossary:([\w\-]+) ([^\]]+)\]",
+        r"\[glossary:([^]]+) (\1)\]",
         lambda m: glossary_link(m, request),
         text,
     )
