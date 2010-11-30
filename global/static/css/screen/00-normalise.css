@@ -67,7 +67,8 @@ img {
 }
 
 /* */
-abbr {
+abbr,
+acronym {
     font-variant:           normal;
     border:                 0;
 }
