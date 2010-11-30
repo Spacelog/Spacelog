@@ -168,7 +168,6 @@
         "KEN_MATTINGLY",
         "DEKE_SLAYTON",
         "TOM_STAFFORD",
-        "GENE_KRANZ"
     ],
     "characters": {
         "CC": {
@@ -396,17 +395,6 @@
           "photo_width": 190,
           "photo_height": 155,
           "avatar": "deke_slayton.jpg"
-        },
-        "GENE_KRANZ": {
-          "role": "mission-ops",
-          "name": "Eugene Francis (Gene) Kranz",
-          "short_name": "Gene Kranz",
-          "mission_position": "Flight Director (White shift)",
-          "bio": "A former USAF pilot, Gene Kranz worked at McDonnell Aircraft before moving to the NASA Space Task Group where he was Mission Control procedures office for early Mercury flights including the first American in space and the first American orbit of the Earth. By the time of the Apollo Program, he was an experienced flight director whose team was on duty during the Apollo 11 lunar landing and the explosion in Apollo 13's Service Module. His last shift for NASA before retirement was for Shuttle mission STS-61, repairing the Hubble Space Telescope, in 1993.",
-          "photo": "gene_kranz.jpg",
-          "photo_width": 190,
-          "photo_height": 155,
-          "avatar": "gene_kranz.jpg"
         },
         "SC": {
           "role": "other",
