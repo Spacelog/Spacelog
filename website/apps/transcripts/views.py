@@ -188,9 +188,14 @@ class PhasesView(TranscriptView):
     template_name = 'transcripts/phases.html'
     
     def get_context_data(self, phase_number='1'):
+        try:
+            selected_act = Act(self.request.redis_conn, self.request.mission.name, int(phase_number) - 1)
+        except KeyError:
+            raise Http404('Phase %s not found' % phase_number)
+
         return {
             'acts': list(self.act_query()),
-            'act': Act(self.request.redis_conn, self.request.mission.name, int(phase_number) - 1),
+            'act': selected_act,
         }
 
 class ErrorView(TemplateView):
