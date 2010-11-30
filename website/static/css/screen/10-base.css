@@ -56,7 +56,6 @@ input.placeholder {
 /* Blue button */
 a.big-blue-button-thing,
 .search input[type=submit] {
-    background:             #037a97;
     border:                 1px solid transparent;
     -cp-border-radius:      3px;
     color:                  #fff;
@@ -80,6 +79,7 @@ a.big-blue-button-thing,
     border-top-color:       #34d5fc;
     border-bottom-color:    #037b98;
     text-shadow:            0 1px 0 #000;
+    background:             #037a97;
     background:             -webkit-gradient(
                                 linear,
                                 left top,

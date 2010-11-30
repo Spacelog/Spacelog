@@ -293,6 +293,7 @@ p.load-more a {
     -webkit-box-shadow:     #222 0 2px 4px;
     -moz-box-shadow:        #222 0 2px 4px;
     text-shadow:            0 1px 0 #fff;
+    background:             #d3d3d3;
     background:             -webkit-gradient(
                                 linear,
                                 left top,
