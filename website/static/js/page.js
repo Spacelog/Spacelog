@@ -47,7 +47,8 @@ Artemis.HighlightedLogLineCollection = Backbone.Collection.extend({
     getURL: function() {
         var first = this.first().getURL().split('/')[1];
         var last = this.last().getURL().split('/')[1];
-        var out = [document.location.origin, '/', first, '/'];
+        var l = document.location;
+        var out = [l.protocol, '//', l.host, '/', first, '/'];
         if (first != last) {
             out.push(last);
             out.push('/');
