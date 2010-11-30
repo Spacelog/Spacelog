@@ -204,7 +204,8 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
     loadMoreCallback: function(data) {
         var content = $(data.content);
         var crest = $(data.crest);
-        var oldCrestHeight = $('#crest')[0].clientHeight;
+        var transcriptTop = $('#transcript')[0].offsetTop;
+        
         // We've hit the start of a new phase
         if (crest.children().size()) {
             // If we're going backwards, show the new crest
@@ -249,9 +250,9 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
             $('#transcript').prepend( content.filter('#transcript').children() );
             
             // Keep the topmost item in (almost the same place)
-            // TODO: Fix the 2px jogging that occurs with this
+            
             $( window ).scrollTop(
-                topLogLine.offsetTop - topLogLine.clientHeight + initialWindowTop
+                topLogLine.offsetTop - transcriptTop + initialWindowTop
             );
         }
         else {
