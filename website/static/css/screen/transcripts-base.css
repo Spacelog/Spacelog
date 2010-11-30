@@ -266,8 +266,9 @@
     text-decoration:        none;
 }
 p.load-more {
-    margin-top:             20px;
+    padding-top:             20px;
     text-align:             center;
+    height:                 33px;
 }
 p.load-more a {
     display:                inline-block;

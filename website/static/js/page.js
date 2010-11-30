@@ -233,6 +233,17 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
 
         // Rehighlight all rows to add any missing "+" buttons
         Artemis.transcriptView.highlightedLines.highlight();
+
+        // Readjust height of overlay
+        Artemis.transcriptView.setOverlayHeight();
+    },
+
+    hide: function() {
+        this.el.children().fadeOut();
+    },
+
+    show: function() {
+        this.el.children().fadeIn();
     }
 });
 
@@ -281,7 +292,10 @@ Artemis.TranscriptView = Backbone.View.extend({
             var target = $(e.currentTarget).closest('div');
             var line = new Artemis.LogLine({el: target});
             this.highlightedLines.add(line);
-            $('#load-more, #load-previous').hide();
+
+            this.loadPreviousButton.hide();
+            this.loadMoreButton.hide();
+
             this.showOverlay();
             line.view.el.find('#range-advisory').hide().show('blind');
         }
@@ -296,9 +310,11 @@ Artemis.TranscriptView = Backbone.View.extend({
                     line.view.unHighlight();
                 });
                 this.highlightedLines = new Artemis.HighlightedLogLineCollection();
-                $('#load-more, #load-previous').show();
+
             }, this));
             this.hideOverlay();
+            this.loadPreviousButton.show();
+            this.loadMoreButton.show();
             return false;
         }
         // If we're on a log line highlight page, fall through to linking back
@@ -314,12 +330,18 @@ Artemis.TranscriptView = Backbone.View.extend({
 
     showOverlay: function() {
         this.overlay.css({
-            'height': ($('body').height() - 38) + 'px',
             'background-color': 'black',
             'opacity': '0'
         });
+        this.setOverlayHeight();
         this.overlay.appendTo($('body'));
         this.overlay.animate({'opacity': '0.5'});
+    },
+
+    setOverlayHeight: function() {
+        this.overlay.css({
+            'height': ($('body').height() - 38) + 'px'
+        });
     },
 
     hideOverlay: function() {
