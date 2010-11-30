@@ -2655,7 +2655,7 @@ LMP: Go ahead, Vance, we're ready to copy.
 
 [00:09:24:46]
 CC:  Okay. The procedure is as follows: [glossary:VERB 25 VERB 25],
-     NOUN 07, ENTER; 1331, ENTER; 7, ENTER; and ENTER.
+     [glossary:NOUN 07 NOUN 07], ENTER; 1331, ENTER; 7, ENTER; and ENTER.
      Explanation as follows. During the P23s, there
      was one time when [glossary:VERB 37 VERB 37] was entered into the
      computer at about 16 seconds after the OPTICS
@@ -6525,7 +6525,7 @@ CMP: Okay. Got it.
 
 [01:08:50:13]
 CC:  Okay. Now, next, at about 105:05, there's a
-     "VERB 48." That should be moved up to 105, and
+     "[glossary:VERB 48 VERB 48]." That should be moved up to 105, and
      below that, the "VERB 49 maneuver" should be
      moved up, too.
 
@@ -6928,7 +6928,7 @@ CMP: Okay, go ahead.
 [01:09:11:03]
 CC:  Okay. First a comment. In the middle of the
      page is where the zodiacal light stuff ends,
-     just under VERB 48. And then, if you'll go down
+     just under [glossary:VERB 48 VERB 48]. And then, if you'll go down
      to the bottom of the page, cross out the line
      "Photo target 12 on track," et cetera, and cross
      out the "E5" that is below that line.
@@ -10078,9 +10078,7 @@ CMP: I believe we've had a problem here.
 CC:  This is Houston. Say again, please.
 
 [02:07:55:35]
-_labels : {
-  "Key line": null
-  }
+_labels : {"Key line": null}
 CDR: Houston, we've had a problem. We've had a MAIN B BUS UNDERVOLT.
 
 [02:07:55:42]
@@ -12444,7 +12442,7 @@ CDR: Roger. We're continuing to drift. Okay, get
      your TTCAs to roll.
 
 [02:10:54:54]
-LMP: TTCA ...
+LMP: [glossary:TTCA TTCA] ...
 
 [02:10:55:08]
 CC:  And, Aquarius; Houston. I've got some circuit
@@ -12502,7 +12500,7 @@ CMP: Looks like I'm cross-coupling here. I might as
      well -
 
 [02:10:58:23]
-LMP: Yes, you are. TTCA will give you the best controlling warning.
+LMP: Yes, you are. [glossary:TTCA TTCA] will give you the best controlling warning.
 
 [02:10:58:30]
 CDR: Yes, and I want to get out of this roll. What
@@ -12675,7 +12673,7 @@ CDR: Every time I try to - I can't take that doggone
 
 [02:11:05:50]
 LMP: Wait a minute. Do you - you fight roll by using
-     the TTCA left right. That's what you need to play
+     the [glossary:TTCA TTCA] left right. That's what you need to play
      with.
 
 [02:11:06:04]
@@ -12893,7 +12891,7 @@ CMP: God damn. I wish you'd get to something I know.
 
 [02:11:12:41]
 CDR: Well, as soon as we get over here, we'll stop it
-     with the TTCA.
+     with the [glossary:TTCA TTCA].
 
 [02:11:12:43]
 CMP: Okay.
@@ -13415,7 +13413,7 @@ CC:  Okay. That's good information and during the
 
 [02:12:27:59]
 CDR: Okay, will do. And also, let me ask you a question. In this configuration, docked, we have to
-     use the TTCA to control pitch and roll. And,
+     use the [glossary:TTCA TTCA] to control pitch and roll. And,
      just how much can we use that without really
      changing our trajectory? We only have 60 miles
      to play with.
@@ -13888,12 +13886,12 @@ LMP: Okay. [glossary:NOUN 81 NOUN 81], V<sub>Y</sub> is plus 0004.1.
 CC:  Good readback. Let's press on with the checklist.
 
 [02:12:56:27]
-CDR: Okay. And, Jack, find out about using TTCA to
+CDR: Okay. And, Jack, find out about using [glossary:TTCA TTCA] to
      maneuver with.
 
 [02:12:56:32]
 CC:  Okay. We're finished with the computer, it's
-     yours, and we recommend using the TTCA to
+     yours, and we recommend using the [glossary:TTCA TTCA] to
      maneuver with.
 
 [02:12:56:41]
@@ -14123,10 +14121,10 @@ CDR: Houston, we're going to do a [glossary:PGNS PGNS] AUTO maneuver
 
 [02:13:15:49]
 CC:  Stand by on that. Aquarius, we recommend
-     driving it around there manually with a TTCA.
+     driving it around there manually with a [glossary:TTCA TTCA].
 
 [02:13:15:58]
-CDR: Okay, we'll have to use the TTCA. Roger.
+CDR: Okay, we'll have to use the [glossary:TTCA TTCA]. Roger.
 
 [02:13:21:10]
 CDR: We're going to AUTO now, Houston, to try to damp
@@ -14209,7 +14207,7 @@ CDR: That's affirm.
 [02:13:27:00]
 CC:  And, in the event that you have to do a manual
      takeover, turn the ENGINE GIMBAL OFF, MODE CONTROL
-     to ATTITUDE HOLD, and use the hand - use the TTCA.
+     to ATTITUDE HOLD, and use the hand - use the [glossary:TTCA TTCA].
 
 [02:13:27:16]
 CDR: Roger.
@@ -14516,10 +14514,10 @@ CC:  Okay, Aquarius. Here's what we're going to do.
      or south. That's the positive X-axis. It appears
      to us that it would be closer to orient the LM
      plus X-axis toward the south. Do that with the
-     [glossary:LGC LGC] powered up using the TTCA. After that, we
+     [glossary:LGC LGC] powered up using the [glossary:TTCA TTCA]. After that, we
      propose to power down the [glossary:LGC LGC] to save some power.
      However, this means that we lose the use of the
-     TTCA, and we'll have to control the spacecraft
+     [glossary:TTCA TTCA], and we'll have to control the spacecraft
      with the hand controller in the DIRECT mode.
      Request your - your position on these two items.
 
@@ -14532,7 +14530,7 @@ CC:  Aquarius, Houston. How do you read?
 CDR: Okay, Jack. Understand. You want us to point
      the [glossary:LM LM] X - plus X-axis to the south using the
      TTCAs with the [glossary:LGC LGC] powered up. Then, by powering
-     down the [glossary:LGC LGC], we'll lose a TTCA. I wasn't too
+     down the [glossary:LGC LGC], we'll lose a [glossary:TTCA TTCA]. I wasn't too
      successful in controlling the spacecraft in attitude only, but I might be able to keep it out
      of gimbal lock.
 
@@ -14687,7 +14685,7 @@ CC:  And, Aquarius, just to get you thinking in that
      we're going to do. And we'll have to monitor the
      middle gimbal angle. And we'll get the procedure
      on that, and it'll also be an easier control mode
-     where we'll be able to use the TTCA through the -
+     where we'll be able to use the [glossary:TTCA TTCA] through the -
      through the [glossary:DAP DAP].
 
 [02:14:42:17]
@@ -14704,7 +14702,7 @@ CDR: Ready to copy.
 CC:  Okay. It's pretty easy. We see you've already
      got [glossary:VERB 16 VERB 16] [glossary:NOUN 20 NOUN 20] called up there and so we
      want you to, in maneuver and [glossary:PGNS PGNS] ATTITUDE HOLD,
-     use the TTCA. We want you to, on the commander's
+     use the [glossary:TTCA TTCA]. We want you to, on the commander's
      ball, pitch to 267.5 and yaw to minus 4.5. And
      when you do this in [glossary:VERB 16 VERB 16] [glossary:NOUN 20 NOUN 20], on the [glossary:DSKY DSKY],
      you ought to read plus 00120, plus 26750, and
@@ -14967,7 +14965,7 @@ CDR: Without the ball, I still have use of the TTCA
      for control of the - angles.
 
 [02:15:22:12]
-CC:  Affirmative. You'll have the TTCA for pitch and
+CC:  Affirmative. You'll have the [glossary:TTCA TTCA] for pitch and
      roll.
 
 [02:15:22:18]
@@ -15345,7 +15343,7 @@ CDR: And, something else, Jack. When it's time for
 
 [02:15:58:37]
 CC:  Roger. It sounds like a good plan and you can
-     use your TTCA in MIN IMPULSE to take care of
+     use your [glossary:TTCA TTCA] in MIN IMPULSE to take care of
      pitch and roll.
 
 [02:15:58:47]
@@ -17309,7 +17307,7 @@ _page : 279
 _tape : Tape 48/3
 LMP: Okay. So we PRO on the NOUN 88, and we end up
      with a flashing 5018; and you want an AUTO
-     maneuver here rather than using the TTCA, so we
+     maneuver here rather than using the [glossary:TTCA TTCA], so we
      PRO with GUIDANCE, PNGS; MODE CONTROL, AUTO.
      We've got a 1.4-degree deadband with a VERB 62
      will give us the needles to try to zero them in
@@ -17579,7 +17577,7 @@ CDR: Okay. Did you have any trouble controlling the
      vehicle, and what techniques did you use?
 
 [03:00:54:02]
-CC:  Briefly, to control pitch and roll, use the TTCA,
+CC:  Briefly, to control pitch and roll, use the [glossary:TTCA TTCA],
      as we've practiced; for yaw you can use the ACA.
      Over.
 
@@ -17901,7 +17899,7 @@ CC:  Roger. One correction. We think that the
 [03:01:16:10]
 CDR: We had - Okay. As soon as possible we'll get
      that star data ... we can get to maneuver
-     attitude by using TTCA.
+     attitude by using [glossary:TTCA TTCA].
 
 [03:01:16:23]
 CC:  Roger.
@@ -19333,7 +19331,7 @@ CC:  Good readback. Turning over to page 14, step 2,
      Over.
 
 [03:03:08:15]
-LMP: Okay. On page 14, a VERB 48, [glossary:DAP DAP] load, NOUN 46
+LMP: Okay. On page 14, a [glossary:VERB 48 VERB 48], [glossary:DAP DAP] load, NOUN 46
      changed to 31021. I assume you will give us any
      updated weights if we need any, and after the
      [glossary:NOUN 47 NOUN 47], a "[glossary:VERB 34 VERB 34], ENTER." So, I - you're
@@ -19577,14 +19575,14 @@ LMP: Okay, on the [glossary:DPS DPS] burn card, third line should
 [03:03:20:25]
 CC:  Okay. Good readback. Proceeding on down the
      page. "BALANCE COUPLE" switch, "BALANCE COUPLE
-     OFF." Okay, down to the TTCA - it's the last
-     line before minus 2 minutes - "TTCA COMMANDER
-     THROTTLE, MINIMUM; LMP TTCA to JETS." At minus
+     OFF." Okay, down to the [glossary:TTCA TTCA] - it's the last
+     line before minus 2 minutes - "[glossary:TTCA TTCA] COMMANDER
+     THROTTLE, MINIMUM; LMP [glossary:TTCA TTCA] to JETS." At minus
      2 minutes, scratch "400 plus 1." At minus
      1 minute, scratch "MASTER ARM, ON." At minus
      10 seconds, add "MANUAL ULLAGE." At plus
      5 seconds, scratch "DESCENT ENGINE COMMAND
-     OVERRIDE, ON;" add "TTCA, 40 percent." Okay,
+     OVERRIDE, ON;" add "[glossary:TTCA TTCA], 40 percent." Okay,
      the same comments apply about the manual start:
      "At the ignition time, if no start, manual START
      pushbutton, push; if still no start, DESCENT
@@ -19595,7 +19593,7 @@ CC:  Okay. Good readback. Proceeding on down the
 [03:03:21:54]
 LMP: Okay. The same comments. I'll start at the top
      again here. Okay. "BALANCE COUPLE" should be
-     changed to "OFF." Under TTCA, it should be
+     changed to "OFF." Under [glossary:TTCA TTCA], it should be
      "LMP TTCA" to "JET." Scratch "400 plus 1" at
      minus 2; scratch "MASTER ARM, ON" at minus 1.
      Add at minus 10 seconds "MANUAL ULLAGE"; add
@@ -19603,7 +19601,7 @@ LMP: Okay. The same comments. I'll start at the top
      start, START pushbutton, push; still no start,
      DESCENT ENGINE COMMAND OVERRIDE, ON." At the
      plus 5-second point, scratch "DESCENT ENGINE
-     COMMAND OVERRIDE, ON," and add "TTCA to
+     COMMAND OVERRIDE, ON," and add "[glossary:TTCA TTCA] to
      40 percent," and the same comment applies at
      engine stop to perform.
 
@@ -21961,8 +21959,8 @@ CC:  That's correct. Okay. Next. Mode - at - When
      AUTO. Key in [glossary:VERB 16 VERB 16] [glossary:NOUN 20 NOUN 20] to monitor rates;
      when less than 0.1 degree a second, rate in all -
      in each axis, then disable plus-X thrusters.
-     Okay. Next [glossary:VERB 25 VERB 25], NOUN 07, ENTER; 1257, ENTER;
-     252, ENTER; 1, ENTER; VERB 77, ENTER; VERB 48,
+     Okay. Next [glossary:VERB 25 VERB 25], [glossary:NOUN 07 NOUN 07], ENTER; 1257, ENTER;
+     252, ENTER; 1, ENTER; VERB 77, ENTER; [glossary:VERB 48 VERB 48],
      ENTER; put in the DAR 22110 and PROCEED; [glossary:VERB 34 VERB 34],
      ENTER; then [glossary:VERB 16 VERB 16], NOUN 20; and monitor rates.
      On rates less than 0.01 degrees per second in all
@@ -21979,9 +21977,9 @@ CDR: Okay, Vance. [glossary:PTC PTC] procedure: GUIDANCE CONTROL,
      MODE CONTROL, AUTO; 6: [glossary:VERB 16 VERB 16], [glossary:NOUN 20 NOUN 20], monitor
      rates; rates less that 1 degree per secend in
      each axis, disable, and I didn't hear that last
-     part. The next one was [glossary:VERB 25 VERB 25], NOUN 07, ENTER;
+     part. The next one was [glossary:VERB 25 VERB 25], [glossary:NOUN 07 NOUN 07], ENTER;
      1257, ENTER; 252, ENTER; 1, ENTER; VERB 77, ENTER;
-     VERB 48, ENTER; 22110, PROCEED; [glossary:VERB 34 VERB 34], ENTER;
+     [glossary:VERB 48 VERB 48], ENTER; 22110, PROCEED; [glossary:VERB 34 VERB 34], ENTER;
      [glossary:VERB 16 VERB 16], [glossary:NOUN 20 NOUN 20], ENTER; monitor rates. Rates less
      than 0.01 degrees per second in all axis. [glossary:VERB 76 VERB 76],
      ENTER; MODE CONTROL, ATT HOLD; then 30 clicks of
@@ -22005,10 +22003,10 @@ CDR: Rogr. Now, to maneuver to [glossary:PTC PTC] roll 0, pitch 90
      Yaw - whatever yaw we have in. Okay, Vance.
      In our initial maneuver to [glossary:PTC PTC] attitude, I am going
      to have to use - to display 16 20 and I'll have
-     to use the TTCA to get there.
+     to use the [glossary:TTCA TTCA] to get there.
 
 [03:08:05:01]
-CC:  Jim, Roger. Your use of the TC - TTCA and just a
+CC:  Jim, Roger. Your use of the TC - [glossary:TTCA TTCA] and just a
      reminder that in maneuvering that - that - that
      roll is in R<sub>3</sub> and yaw is in R<sub>1</sub>
 
@@ -22095,7 +22093,7 @@ LMP: In what fashion did you want us to disable those
 
 [03:08:11:33]
 CC:  Okay, Fred. We didn't explain that. The [glossary:VERB 25 VERB 25],
-     NOUN 07, ENTER sequence does that.
+     [glossary:NOUN 07 NOUN 07], ENTER sequence does that.
 
 [03:08:11:43]
 LMP: Okay. I didn't read the whole procedure. Jim
@@ -22304,12 +22302,12 @@ CDR: Well, Vance, I've been trying to use MINIMUM
      and yaw - the roll and pitch, rather. But, with
      the attitude control only in this configuration,
      I - I can't command these - the roll the way I
-     want to. So, I had to go to TTCA to get my roll
+     want to. So, I had to go to [glossary:TTCA TTCA] to get my roll
      to build up towards zero, it was going - decreasing
      towards 270. I really don't know what the combination 
      is in the attitude control, that you can get
      the control to pitch ard roll the way you want it
-     to. You've got to use the TTCA.
+     to. You've got to use the [glossary:TTCA TTCA].
 
 [03:08:29:00]
 CC:  Roger. Copy.
@@ -22813,13 +22811,13 @@ CDR: Go ahead.
 [03:09:18:10]
 CC:  Okay, Jim. Looks like your rates are damped
      sufficient. Recommend that you go ahead with
-     the [glossary:VERB 25 VERB 25], NOUN 07, ENTER bit on down through
+     the [glossary:VERB 25 VERB 25], [glossary:NOUN 07 NOUN 07], ENTER bit on down through
      the [glossary:VERB 34 VERB 34], ENTER, and then wish you'd stand
      by for us to look at it again before you go
      beyond that. Over.
 
 [03:09:18:36]
-CDR: Okay, Houston. I'll go through [glossary:VERB 25 VERB 25], NOUN 07,
+CDR: Okay, Houston. I'll go through [glossary:VERB 25 VERB 25], [glossary:NOUN 07 NOUN 07],
      down through [glossary:VERB 34 VERB 34] ENTER, and I '11 stand by.
 
 [03:09:18:47]
@@ -25771,7 +25769,7 @@ CC:  Okay, Jim. After you get that orientation to
      doing this, of course, in [glossary:AGS AGS] ATTITUDE HOLD -
      ATTITUDE HOLD. Put your YAW to MODE CONTROL and
      leave PITCH and ROLL in PULSE, therefore, controlling
-     your attitude with the TTCA. We don't
+     your attitude with the [glossary:TTCA TTCA]. We don't
      want to use the gimbal, so have ENGINE GIMBAL
      OFF. We'll make these burns at 10-percent
      thrust. We'll use a manual start and stop. For
@@ -25790,7 +25788,7 @@ CC: Okay. We'll perform the burn in GUIDANCE CONTROL
      Your ATTITUDE CONTROL switches will be ROLL to
      PULSE, PITCH to PULSE, and YAW to MODE CONTROL.
      So the [glossary:AGS AGS] will control your yaw and you will
-     use the TTCA to control pitch and roll. ENGINE
+     use the [glossary:TTCA TTCA] to control pitch and roll. ENGINE
      GIMBAL OFF; 10-percent thrust. Start and stop
      manual. For ullage, use the plus-X translational
      button; 10 seconds ullage. Over.
@@ -25799,7 +25797,7 @@ CC: Okay. We'll perform the burn in GUIDANCE CONTROL
 CDR: Okay. For the burn there will be go to GUIDANCE
      CONTROL [glossary:AGS AGS], MODE CONTROL ATT HOLD, ATTITUDE
      CONTROL switches will be ROLL PULSE, PITCH PULSE,
-     YAW MODE CONTROL. We'll use TTCA control for
+     YAW MODE CONTROL. We'll use [glossary:TTCA TTCA] control for
      pitch and roll. ENGINE GIMBAL will be OFF; we'll
      be using 10-percent thrust; we'll start and stop
      manually, the ... control ullage will be a PLUS-X
@@ -26016,7 +26014,7 @@ CDR: Okay, Jack. Let's just talk over how I'm going
      then control the roll. I don't see another way
      we can control the combination that we have here
      without using the TTCAs. Then we will also use
-     the TTCA during engine burn. Do you people concur with that technique?
+     the [glossary:TTCA TTCA] during engine burn. Do you people concur with that technique?
 
 [03:15:43:05]
 CC:  Jim, that sounds like the one that is best to
@@ -26035,7 +26033,7 @@ CC:  Jim, in that control mode, that sounds like the
      in there, and then [glossary:AGS AGS] will respond in yaw when
      you go to MODE CONTROL. That is, [glossary:AGS AGS] will control
      your yaw in MODE CONTROL and your pitch and
-     roll can be taken care of in PULSE with a TTCA.
+     roll can be taken care of in PULSE with a [glossary:TTCA TTCA].
      After you get in attitude, then, you'll have to
      re-do an [glossary:AGS AGS] body axis aline which is 400 plus
      5, then go back to 400 plus all zeros again.
@@ -29578,7 +29576,7 @@ CMP: That midcourse should be interesting. You know,
 
 [03:22:58:42]
 LMP: Manual [glossary:AGS AGS] ... [glossary:DPS DPS] burn. We're controlling ...
-     TTCA attitude. ...
+     [glossary:TTCA TTCA] attitude. ...
 
 [03:22:58:49]
 CMP: ... down under ...
@@ -31206,7 +31204,7 @@ CC:  Okay. Step 2: "BALANCE COUPLE, OFF; DEAD BAND,
      MINIMUM; ATTITUDE CONTROL: PITCH and ROLL to
      PULSE; YAW to DIRECT; MODE CONTROL: [glossary:AGS AGS], ATT
      HOLD; GUIDANCE CONTROL to ACS; damp rates; pitch
-     and roll with the TTCA, yaw with the ACA with the
+     and roll with the [glossary:TTCA TTCA], yaw with the ACA with the
      Earth in the front window." Over.
 
 [04:04:17:45]
@@ -31215,7 +31213,7 @@ CDR: Okay, let's see if I got it. Step 2 is "BALANCE
      PITCH and YAW at PULSE; YAW, DIRECT. MODE CONTROL 
      will be in [glossary:AGS AGS], ATT HOLD; GUIDANCE CONTROL
      will be in AGS; we'll damp the rates; pitch and
-     roll with the TTCA, and yaw with the ACA; and
+     roll with the [glossary:TTCA TTCA], and yaw with the ACA; and
      we'll probably have to have some reference point,
      so I have to try and stop on the Earth." Over.
 
@@ -31325,7 +31323,7 @@ CC:  Okay. First statement is a statement: "Verify
      [glossary:AGS AGS] in OPERATE for 5 minutes." Then we go to
      "[glossary:AGS AGS] address 400 plus 5, then 400 plus zero.
      ATTITUDE CONTROL: PITCH and ROLL to PULSE; YAW,
-     MODE CONTROL. Maneuver using TTCA pitch and roll."
+     MODE CONTROL. Maneuver using [glossary:TTCA TTCA] pitch and roll."
      The computer is controlling yaw, but you can override 
      with ACA. You with me? Over.
 
@@ -31429,7 +31427,7 @@ CC:  That's a Roger, Jim. What happens is, of course,
      attitude reference. You establish a new attitude
      reference, and it might not be the burn attitude
      since, at this point, we're controlling attitude
-     with the TTCA. Now, picking up with the "[glossary:VERB 37 VERB 37],
+     with the [glossary:TTCA TTCA]. Now, picking up with the "[glossary:VERB 37 VERB 37],
      ENTER," scratch. Scratch everything down to the
      "404 plus zero," and we want you to perform those
      [glossary:AGS AGS] steps with 404 down through 470. Over.
@@ -31470,7 +31468,7 @@ CDR: Okay. At 1 minute, "MASTER ARM," we scratch. At
 
 [04:04:33:56]
 CC:  That's affirm. Picking up at plus 5 seconds;
-     scratch the rest of the page. "TTCA, attitude
+     scratch the rest of the page. "[glossary:TTCA TTCA], attitude
      control; and MASTER ARM, OFF." Over.
 
 [04:04:34:14]
@@ -31491,7 +31489,7 @@ CC:  Okay. Turning to the next page and the last
      page, Jim, 34. Top of the page, "Monitor DELTA-V X
      via 470." Scratch next two lines, "When propellant
      quantity equals 37" and the "DESCENT HELIUM REG."
-     Scratch "TTCA commander, reduce to 10 percent."
+     Scratch "[glossary:TTCA TTCA] commander, reduce to 10 percent."
      Now we want you to add a line; "shut" - It's a
      shutdown criteria, "shutdown on burn time minus
      1 second." Over.
@@ -31576,13 +31574,13 @@ CDR: To reestablish [glossary:PTC PTC]. Go ahead.
 
 [04:04:39:33]
 CC:  Okay. First line, "ATTITUDE CONTROL, three to
-     PULSE"; line 2, "Roll with the TTCA until attitude
+     PULSE"; line 2, "Roll with the [glossary:TTCA TTCA] until attitude
      is roll, plus or minus 90; pitch, 0; yaw, 0."
      Over.
 
 [04:04:40:39]
 CDR: Okay. Step 1, "ATTITUDE CONTROL, three to PULSE";
-     2, "Roll with the TTCA ... pitch is 0 and yaw is
+     2, "Roll with the [glossary:TTCA TTCA] ... pitch is 0 and yaw is
      0," and I think that will be on the [glossary:AGS AGS] ball.
 
 [04:04:40:56]
@@ -31658,7 +31656,7 @@ CC:  That's affirmative, Jim. That's the one we gave
      that one as modified by - by us. This - we tried
      this [glossary:PTC PTC] under [glossary:AGS AGS] in the simulator and, of course,
      no slosh or anything, but it seemed to work pretty
-     good by hulling the rates using the TTCA in pitch
+     good by hulling the rates using the [glossary:TTCA TTCA] in pitch
      and roll and letting the ACS do it in yaw. You
      null the rates by looking at the error needles and
      just watching those, and when they don't - when
@@ -31674,7 +31672,7 @@ CDR: Okay. And I guess, Charlie, you have no - Do
      have to use the TTCA?
 
 [04:04:45:52]
-CC:  We feel like we have to use the TTCA. The AGS
+CC:  We feel like we have to use the [glossary:TTCA TTCA]. The AGS
      gains are not too good in pitch and roll in this
      configuration. It'll hold it in yaw but it won't
      in pitch and roll. Over.
@@ -31685,7 +31683,7 @@ CDR: Okay.
 [04:04:46:09]
 CC:  And you'll have - During the burn, of course,
      you'll be controlling pitch and roll via the
-     error needles with the TTCA also, and it's the
+     error needles with the [glossary:TTCA TTCA] also, and it's the
      little scheme that we've practiced in some of
      the SIMs. Over.
 
@@ -33943,14 +33941,14 @@ LMP: Okay. We're at 100 - Yes. 150 K, 4500 feet a
      second.
 
 [04:10:05:27]
-CC:  And, Aquarius, how much TTCA control did you have
+CC:  And, Aquarius, how much [glossary:TTCA TTCA] control did you have
      to do in the burn?
 
 [04:10:05:34]
 LMP: How much - What was that, Jack?
 
 [04:10:05:36]
-CC:  How much control of the TTCA did you have to do
+CC:  How much control of the [glossary:TTCA TTCA] did you have to do
      during the burn?
 
 [04:10:05:44]
@@ -37706,7 +37704,7 @@ CC:  Okay. Good thinking. We are - it's - There has
      authority, and so forth, we will get you more
      detailed word on that later; we are working it.
      It appears that using the ACA instead of the
-     TTCA after service module JETT will give you
+     [glossary:TTCA TTCA] after service module JETT will give you
      excellent attitude control authority, and that's
      what we recommend.
 
@@ -43620,7 +43618,7 @@ LMP: Okay. Steps 1 and 2 back in.
 
 [05:09:12:38]
 CC:  That's affirm. And underneath "Set EVENT TIMER,"
-     add the following: [glossary:VERB 25 VERB 25] NOUN 07, ENTER;
+     add the following: [glossary:VERB 25 VERB 25] [glossary:NOUN 07 NOUN 07], ENTER;
      1257, ENTER.
 
 [05:09:13:04]
@@ -43632,7 +43630,7 @@ CC:  Okay. If you got the 1257, ENTER, then 252,
 
 [05:09:13:18]
 LMP: Okay. After event, set EVENT TIMER, it's VERB 25
-     NOUN 07, ENTER; 1257, ENTER; 252 ENTER; ENTER.
+     [glossary:NOUN 07 NOUN 07], ENTER; 1257, ENTER; 252 ENTER; ENTER.
 
 [05:09:13:28]
 CC:  Roger. And this activates your upfiring jets.
@@ -43759,7 +43757,7 @@ CC:  Okay. Under 4 minutes, minus 4 minutes, add back in MODE CONTROL, both, to 
 LMP: Okay. MODE CONTROL, both, to ATT HOLD.
 
 [05:09:19:15]
-CC:  Okay. Two steps below that, add back in TTCA COMMANDER THROTTLE MIN [glossary:DPS DPS], and add in [glossary:DPS DPS].
+CC:  Okay. Two steps below that, add back in [glossary:TTCA TTCA] COMMANDER THROTTLE MIN [glossary:DPS DPS], and add in [glossary:DPS DPS].
 
 [05:09:19:36]
 LMP: Wait a minute.
@@ -43785,7 +43783,7 @@ CC: Well, we - We expect that, but we're remaining
      flexible.
 
 [05:09:20:11]
-LMP: (Laughter) Okay. Okay. I'll put in TTCA THROTTLE
+LMP: (Laughter) Okay. Okay. I'll put in [glossary:TTCA TTCA] THROTTLE
      MIN for [glossary:DPS DPS], JETS for [glossary:RCS RCS].
 
 [05:09:20:18]
@@ -44655,7 +44653,7 @@ CDR: Right.
 
 [05:14:02:47]
 CDR: Jack, I've gotten so used to flying attitude
-     with the TTCA, I won't be able to do it normally.
+     with the [glossary:TTCA TTCA], I won't be able to do it normally.
 
 [05:14:02:56]
 _page : 706
@@ -45979,7 +45977,7 @@ CDR: And I'm pitching up to the proper attitude.
 CC:  Okay. We're looking at it.
 
 [05:17:41:26]
-CDR: And it's again necessary to use the TTCA to pitch.
+CDR: And it's again necessary to use the [glossary:TTCA TTCA] to pitch.
 
 [05:17:41:30]
 CC:  Okay. Affirmative.
@@ -46161,7 +46159,7 @@ CC:  And, Jim; Houston. In particular, of course, we
 
 [05:18:06:16]
 CDR: Right on that. Joe, you realize that when I went
-     up to the [glossary:SM SM] SEP attitude, I had to use TTCA to
+     up to the [glossary:SM SM] SEP attitude, I had to use [glossary:TTCA TTCA] to
      do it.
 
 [05:18:06:25]

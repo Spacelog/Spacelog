@@ -795,6 +795,9 @@
         "TSB": {
             "description": "Temporary stowage bag"
         },
+        "TTCA": {
+            "description": "Thrust/Translation Controller Assembly"
+        },
         "TVC": {
             "description": "Thrust vector control"
         },
@@ -900,6 +903,9 @@
         "VERB 46": {
             "description": "Return IMU ENTRY"
         },
+        "VERB 48": {
+            "description": "Request DAP data load"
+        },
         "VERB 52": {
             "description": "Mark reject"
         },
@@ -938,6 +944,9 @@
         },
         "VERB 76": {
             "description": "Update state vector"
+        },
+        "NOUN 07": {
+            "description": "Set/reset values"
         },
         "NOUN 09": {
             "description": "Last three program alarms"
