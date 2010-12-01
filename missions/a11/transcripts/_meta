@@ -50,8 +50,10 @@
         },
         {
             "title": "Lunar Orbit",
-            "description": "The crew emerged from the far side of the Moon, and spent the day adjusting orbit, transmitting pictures of the proposed landing site, and viewing landspace features to act as navigation aids during the coming descent.",
-            "range": ["03:04:14:09", "04:03:31:42"]
+            "description": "The crew emerged from the far side of the Moon, and spent the day adjusting orbit, transmitting pictures of the proposed landing site, and viewing landscape features to act as navigation aids during the coming descent.",
+            "range": ["03:04:14:09", "04:03:31:42"],
+            "banner": "act4.jpg",
+            "homepage": "act4.jpg"
         },
         {
             "title": "Descent to the Moon",
@@ -82,7 +84,7 @@
             "homepage": "act8.jpg"
         },
         {
-            "title": "Re-entry and Splashdown",
+            "title": "Re-entry",
             "description": "Before entering the Earth’s atmosphere, the crew moved back into Columbia, the heat-resistant Command Module, jettisoned the Service Module, and then splashdowned safely in the Pacific Ocean. The crew then went into quarantine for three weeks, in case they had an alien disease.",
             "range": ["07:21:28:35", "08:03:18:19"],
             "banner": "act9.jpg",
