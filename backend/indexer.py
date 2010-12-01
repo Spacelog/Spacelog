@@ -146,6 +146,7 @@ class TranscriptIndexer(object):
         current_page_lines = 0
         last_act = None
         previous_log_line_id = None
+        previous_timestamp = None
         launch_time = int(self.redis_conn.hget("mission:%s" % self.mission_name, "utc_launch_time"))
         acts = list(Act.Query(self.redis_conn, self.mission_name))
         key_scenes = list(KeyScene.Query(self.redis_conn, self.mission_name))
@@ -156,6 +157,8 @@ class TranscriptIndexer(object):
         for chunk in self.parser.get_chunks():
             timestamp = chunk['timestamp']
             log_line_id = "%s:%i" % (self.transcript_name, timestamp)
+            if timestamp < previous_timestamp:
+                raise Exception, "%s should be after %s" % (seconds_to_timestamp(timestamp), seconds_to_timestamp(previous_timestamp))
             # See if there's transcript page info, and update it if so
             if chunk['meta'].get('_page', 0):
                 current_transcript_page = int(chunk["meta"]['_page'])
@@ -206,6 +209,7 @@ class TranscriptIndexer(object):
                     log_line_id,
                 )
             previous_log_line_id = log_line_id
+            previous_timestamp = timestamp
             # Also store the text
             text = ""
             for line in chunk['lines']:
