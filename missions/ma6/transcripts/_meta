@@ -104,13 +104,13 @@
           "role": "other",
           "name": "Communications Technician",
           "short_name": "Comm Tech",
-          "avatar": "blank_48.png"
+          "avatar": "person.png"
         },
         "S": {
           "role": "other",
           "name": "Surgeon",
           "short_name": "Flight Surgeon",
-          "avatar": "blank_48.png"
+          "avatar": "surgeon.png"
         }
 
     },
