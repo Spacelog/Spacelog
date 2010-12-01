@@ -1,0 +1,291 @@
+{
+    "name": "a11",
+    "featured": true,
+    "subdomains": ["apollo11", "a11"],
+    "copy": {
+        "title": "Apollo 11",
+        "upper_title": "Apollo",
+        "lower_title": "11",
+        "description": "The first manned mission to land on the moon.",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+            "Matthew Somerville"
+        ],
+        "about": "Apollo 11 doesn't really need any introduction. The trip where humans first landed on the moon.\n\nThis site allows you to explore transcripts of radio communications between the Apollo 11 crew and the NASA personnel back at Houston.",
+        "image_attributions": [
+            { "url": "http://www.flickr.com/photos/28634332@N05/4971286005/", "title": "Crescent Moon, Earth's Atmosphere", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" },
+            { "url": "http://www.flickr.com/photos/28634332@N05/4971276687/", "title": "Edge of the Earth", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" }
+        ]
+    },
+    "main_transcript": "a11/TEC",
+    "media_transcript": "a11/MEDIA",
+    "utc_launch_time": -17144880,
+    "acts" : [
+        {
+            "title": "Launch",
+            "description": "During takeoff the crew sat inside Columbia, Apollo 11's Command Module, on top of the Saturn V rocket. As fuel was burnt up, the first two stages of the Saturn V were jettisoned and fell back to Earth along with the abort tower.",
+            "range": ["00:00:00:00", "00:00:14:44"],
+            "banner": "act1.jpg",
+            "banner_class": "blue",
+            "orbital": "act1.png",
+            "illustration": "act1.gif",
+            "homepage": "act1.jpg"
+        },
+        {
+            "title": "Earth orbit",
+            "description": "When Apollo 11 reached Earth orbit, it was still attached to part of the Saturn V rocket (the S-IVB ‘ess-four-bee’ stage). Two hours later, the S-IVB's engine was restarted to propel the spacecraft out of orbit and onto a course towards the Moon.",
+            "range": ["00:00:14:44", "00:02:54:09"],
+            "banner": "act2.png",
+            "orbital": "act2.png",
+            "illustration": "act2.gif",
+            "homepage": "act2.jpg"
+        },
+        {
+            "title": "To the Moon",
+            "description": "The third Saturn V stage was jettisoned, Columbia docked with the lunar module, and the crew spent three days travelling to the Moon.",
+            "range": ["00:02:54:09", "03:04:14:09"],
+            "banner": "act3.png",
+            "orbital": "act3.png",
+            "homepage": "act3.jpg"
+        },
+        {
+            "title": "Lunar Orbit",
+            "description": "The crew emerged from the far side of the Moon, and spent the day adjusting orbit, transmitting pictures of the proposed landing site, and viewing landspace features to act as navigation aids during the coming descent.",
+            "range": ["03:04:14:09", "04:03:31:42"]
+        },
+        {
+            "title": "Descent to the Moon",
+            "description": "Apollo was now split into Columbia and Eagle - Columbia remained in orbit with Collins, whilst Eagle with Aldrin and Armstrong descended to the lunar surface. They landed successfully.",
+            "range": ["04:03:31:42", "04:06:47:37"]
+        },
+        {
+            "title": "On the Moon",
+            "description": "The two astronauts walked on the surface of the Moon, planted the US flag, collected rock samples, and took photos. They put all this on the LM, then went to sleep.",
+            "range": ["04:06:47:37", "05:00:59:04"]
+        },
+        {
+            "title": "Return to Moon Orbit",
+            "description": "The two crewmembers successfully rejoined Michael Collins aboard Columbia in lunar orbit, leaving behind a retroreflector, a plaque, and a memorial bag.",
+            "range": ["05:00:59:04", "05:13:49:44"]
+        },
+        {
+            "title": "Towards Earth",
+            "description": "After 30 lunar orbits and a trip to the surface, Apollo 11 made its way back home. The crew had a quiet trip, with TV broadcasts and preparation for re-entry.",
+            "range": ["05:13:49:44", "07:21:28:35"],
+            "banner": "act4.png",
+            "orbital": "act4.png",
+            "illustration": "act4.gif",
+            "homepage": "act4.jpg"
+        },
+        {
+            "title": "Re-entry and Splashdown",
+            "description": "Before entering the Earth’s atmosphere, the crew moved back into Columbia, the heat-resistant Command Module, jettisoned the Service Module, and then splashdowned safely in the Pacific Ocean. The crew then went into quarantine for three weeks, in case they had an alien disease.",
+            "range": ["07:21:28:35", "08:03:18:19"],
+            "banner": "act6.jpg",
+            "orbital": "act5.png",
+            "illustration": "act5.gif",
+            "homepage": "act6.jpg"
+        }
+    ],
+    "key_scenes" : [
+    ],
+    "homepage_quotes" : [
+        "04:06:46:04"
+    ],
+    "character_ordering": [
+    ],
+    "characters": {
+        "CC": {
+            "role": "mission-ops-title",
+            "name": "Capsule Communicator",
+            "short_name": "CapComm",
+            "shifts": [
+            ]
+        },
+        "F": {
+            "role": "mission-ops-title",
+            "name": "Flight Director",
+            "short_name": "Flight",
+            "shifts": [
+            ]
+        },
+        "CDR": {
+          "role": "astronaut",
+          "name": "Neil A. Armstrong",
+          "short_name": "Neil Armstrong (CDR)",
+          "mission_position": "Commander",
+          "stats": [
+          ]
+        },
+        "CDR (EAGLE)": {
+          "role": "astronaut",
+          "name": "Neil A. Armstrong, when in the Lunar Module.",
+          "short_name": "Neil Armstrong (CDR)",
+          "mission_position": "Commander"
+        },
+        "CDR (TRANQ)": {
+          "role": "astronaut",
+          "name": "Neil A. Armstrong, when on the Moon.",
+          "short_name": "Neil Armstrong (CDR)",
+          "mission_position": "Commander"
+        },
+        "CDR (EVA)": {
+          "role": "astronaut",
+          "name": "Neil A. Armstrong, when on EVA.",
+          "short_name": "Neil Armstrong (CDR)",
+          "mission_position": "Commander"
+        },
+        "LMP": {
+          "role": "astronaut",
+          "name": "Edward E. Aldrin, Jr.",
+          "short_name": "Buzz Aldrin (LMP)",
+          "mission_position": "Lunar Module Pilot",
+          "stats": [
+          ]
+        },
+        "LMP (TRANQ)": {
+          "role": "astronaut",
+          "name": "Edward E. Aldrin, Jr., when on the Moon",
+          "short_name": "Buzz Aldrin (LMP)",
+          "mission_position": "Lunar Module Pilot"
+        },
+        "CMP": {
+          "role": "astronaut",
+          "name": "Michael Collins",
+          "short_name": "Michael Collins (CMP)",
+          "mission_position": "Command Module Pilot",
+          "stats": [
+          ]
+        },
+        "CMP (COLUMBIA)": {
+          "role": "astronaut",
+          "name": "Michael Collins, when in Columbia",
+          "short_name": "Michael Collins (CMP)",
+          "mission_position": "Command Module Pilot"
+        },
+        "CHARLIE_DUKE": {
+          "role": "mission-ops",
+          "name": "Charlie Duke",
+          "short_name": "Charlie Duke (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "photo_width": 190,
+          "photo_height": 155
+        },
+        "RONALD_EVANS": {
+          "role": "mission-ops",
+          "name": "Ronald Evans",
+          "short_name": "Ronald Evans (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "photo_width": 190,
+          "photo_height": 155
+        },
+        "OWEN_GARRIOTT": {
+          "role": "mission-ops",
+          "name": "Owen K. Garriott",
+          "short_name": "Owen Garriott (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "photo_width": 190,
+          "photo_height": 155
+        },
+        "DON_LIND": {
+          "role": "mission-ops",
+          "name": "Don L. Lind",
+          "short_name": "Don Lind (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "photo_width": 190,
+          "photo_height": 155
+        },
+        "KEN_MATTINGLY": {
+          "role": "mission-ops",
+          "name": "Ken Mattingly",
+          "short_name": "Ken Mattingly (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "photo_width": 190,
+          "photo_height": 155
+        },
+        "BRUCE_MCCANDLESS": {
+          "role": "mission-ops",
+          "name": "Bruce McCandless II",
+          "short_name": "Bruce McCandless II (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "photo_width": 190,
+          "photo_height": 155
+        },
+        "HARRISON_SCHMITT": {
+          "role": "mission-ops",
+          "name": "Harrison Schmitt",
+          "short_name": "Harrison Schmitt (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "photo_width": 190,
+          "photo_height": 155
+        },
+        "N": {
+          "role": "other",
+          "name": "Noise of some kind",
+          "short_name": "Noise of some kind"
+        },
+        "SC": {
+          "role": "other",
+          "name": "Unidentified crew member",
+          "short_name": "Unidentified crew member",
+          "avatar": "SC_48.png"
+        },
+        "MS": {
+          "role": "other",
+          "name": "Multiple speakers",
+          "short_name": "Multiple speakers",
+          "avatar": "MS_48.png"
+        },
+        "CT": {
+          "role": "other",
+          "name": "Communications Technician",
+          "short_name": "CommTech"
+        },
+        "AB": {
+          "role": "other",
+          "name": "Airboss (Recovery aircraft)",
+          "short_name": "Airboss",
+          "avatar": "AB_48.png"
+        },
+        "HORNET": {
+          "role": "other",
+          "name": "USS Hornet",
+          "short_name": "USS Hornet",
+          "avatar": "IWO_48.png"
+        },
+        "R": {
+          "role": "other",
+          "name": "Recovery helicopter",
+          "short_name": "Recovery helicopter",
+          "avatar": "copters_48.png"
+        },
+        "LCC": {
+          "role": "other",
+          "name": "Launch Control Center",
+          "short_name": "Launch Control",
+          "avatar": "LCC_48.png"
+        }
+
+    },
+    "glossary": {},
+    "error_pages": {
+        "404": {
+            "title": "404 - Who stirred the tanks?",
+            "heading": "That's<br />no moon.",
+            "subheading": "404 - Page Not Found.",
+            "text": "Looks like we've lost a page.  Sorry about that.  Not your fault at all."
+        },
+        "500": {
+            "title": "500 Rodger, this is Houston, hold 1 please.",
+            "heading": "We blew it.",
+            "heading_quote": "01:04:00:18",
+            "subheading": "500 - Server Error.",
+            "text": "Roger Aquarius, we are aware of the problem and our engineers are working on a solution."
+        },
+        "no_search_results": {
+            "text": "Sorry about that. Incidentally, <a href=\"/people/#fred-haise-lmp\">Astronaut Fred Haise</a> once had the same problem:"
+        }
+    },
+    "special_searches": {
+    }
+}
