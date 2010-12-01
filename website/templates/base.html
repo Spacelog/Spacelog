@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ mission.title }} {% block title %}SET THE TITLE{% endblock %}</title>
+  <title>{% block full_title %}{% block title %}SET THE TITLE{% endblock %} &mdash; {{ mission.title }} on Spacelog{% endblock %}</title>
   <link rel="stylesheet" href="{{ STATIC_URL }}css/screen.css" media="screen">
 </head>
 <body class='{% block body-class %}{% endblock %}'>
