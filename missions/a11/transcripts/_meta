@@ -74,19 +74,19 @@
             "title": "Towards Earth",
             "description": "After 30 lunar orbits and a trip to the surface, Apollo 11 made its way back home. The crew had a quiet trip, with TV broadcasts and preparation for re-entry.",
             "range": ["05:13:49:44", "07:21:28:35"],
-            "banner": "act4.png",
-            "orbital": "act4.png",
-            "illustration": "act4.gif",
-            "homepage": "act4.jpg"
+            "banner": "act8.png",
+            "orbital": "act8.png",
+            "illustration": "act8.gif",
+            "homepage": "act8.jpg"
         },
         {
             "title": "Re-entry and Splashdown",
             "description": "Before entering the Earth’s atmosphere, the crew moved back into Columbia, the heat-resistant Command Module, jettisoned the Service Module, and then splashdowned safely in the Pacific Ocean. The crew then went into quarantine for three weeks, in case they had an alien disease.",
             "range": ["07:21:28:35", "08:03:18:19"],
-            "banner": "act6.jpg",
-            "orbital": "act5.png",
-            "illustration": "act5.gif",
-            "homepage": "act6.jpg"
+            "banner": "act9.jpg",
+            "orbital": "act9.png",
+            "illustration": "act9.gif",
+            "homepage": "act9.jpg"
         }
     ],
     "key_scenes" : [
