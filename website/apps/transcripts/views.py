@@ -42,7 +42,7 @@ class TranscriptView(JsonTemplateView):
         for log_line in log_lines:
             log_line.images = list(log_line.images())
             log_line.lines = [
-                (s, linkify(t, self.request))
+                (s, linkify(t.decode("utf8"), self.request))
                 for s, t in log_line.lines
             ]
             # If this is the first after the start time, add an anchor later
