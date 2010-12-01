@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 import redis
 import xappy
@@ -454,6 +455,7 @@ class MissionIndexer(object):
                 indexer.index()
 
     def index_meta(self):
+        print "Indexing _meta..."
         path = os.path.join(self.folder_path, "_meta")
         parser = MetaParser(path)
         indexer = MetaIndexer(self.redis_conn, self.mission_name, parser)
@@ -465,7 +467,11 @@ if __name__ == "__main__":
     redis_conn.flushdb()
     redis_conn.set("hold", "1")
     transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
-    for filename in os.listdir(transcript_dir):
+    if len(sys.argv)>1:
+        dirs = sys.argv[1:]
+    else:
+        dirs = os.listdir(transcript_dir)
+    for filename in dirs:
         path = os.path.join(transcript_dir, filename)
         if filename[0] not in "_." and os.path.isdir(path) and os.path.exists(os.path.join(path, "transcripts", "_meta")):
             print "Mission: %s" % filename
