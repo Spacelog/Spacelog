@@ -1,2 +1,2 @@
 from configs.settings import *
-STATIC_URL = 'http://cdn.spacelog.org/assets/'
+STATIC_URL = 'http://cdn.spacelog.org/assets/global/'
