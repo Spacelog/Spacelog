@@ -32,7 +32,12 @@
 
         refresh: function() {
             Artemis.replaceWithSpinner(this.el.find('blockquote').children(), true);
-            $.getJSON('/homepage-quote/', this.refreshCallback);
+            $.ajax({
+                url: '/homepage-quote/', 
+                success: this.refreshCallback,
+                cache: false,
+                dataType: 'json'
+            });
             return false;
         },
 
