@@ -1,9 +1,12 @@
 /* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*- */
 
-#content.homepage {
+body.homepage {
     background-color:       black;
     background-position:    top center;
     background-repeat:      no-repeat;
+}
+
+#content.homepage {
     padding-top:            40px;
     -cp-contain:            easy;
 }
