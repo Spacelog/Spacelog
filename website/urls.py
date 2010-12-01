@@ -26,11 +26,11 @@ urlpatterns = patterns('',
 
 if settings.DEBUG: # pragma: no cover
     urlpatterns += patterns('',
-        (r'^' + settings.P_STATIC_URL[1:] + 'missions/(?P<path>.*)$', 'django.views.static.serve', {
+        (r'^' + settings.STATIC_URL[1:] + 'missions/(?P<path>.*)$', 'django.views.static.serve', {
             'document_root': settings.MISSIONS_STATIC_ROOT
         }),
-        (r'^' + settings.P_STATIC_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
-            'document_root': settings.P_STATIC_ROOT
+        (r'^' + settings.STATIC_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
+            'document_root': settings.STATIC_ROOT
         }),
         # (r'^' + settings.MEDIA_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
         #     'document_root': settings.MEDIA_ROOT

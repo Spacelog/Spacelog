@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ mission.title }} {% block title %}SET THE TITLE{% endblock %}</title>
-  <link rel="stylesheet" href="/assets/css/screen.css" media="screen">
+  <title>{% block full_title %}{% block title %}SET THE TITLE{% endblock %} &mdash; {{ mission.title }} on Spacelog{% endblock %}</title>
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/screen.css" media="screen">
 </head>
 <body class='{% block body-class %}{% endblock %}'>
 
@@ -16,13 +16,13 @@
 {% block content %}{% endblock %}
 </div></div>
 
-<script type="text/javascript" src="/assets/js/jquery-1.4.4.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery-ui-1.8.6.just-animations.min.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.placeholder.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.cookie.js"></script>
-<script type="text/javascript" src="/assets/js/underscore-min.js"></script>
-<script type="text/javascript" src="/assets/js/backbone.js"></script>
-<script type="text/javascript" src="/assets/js/global.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-ui-1.8.6.just-animations.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.placeholder.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.cookie.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/underscore-min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/backbone.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/global.js"></script>
 {% block extra_js %}{% endblock %}
 <script type="text/javascript">
   var _gaq = _gaq || [];

@@ -155,7 +155,7 @@
     left:                   0;
     padding-right:          34px;
     background:             transparent
-                            url(/assets/img/base/original.png)
+                            url(../img/base/original.png)
                             no-repeat
                             100% 50%;
 }
@@ -194,25 +194,25 @@
 }
 #phases a[rel=prev] {
     background:             transparent
-                            url(/assets/img/base/scan_back.png)
+                            url(../img/base/scan_back.png)
                             no-repeat
                             0% 50%;
 }
 #phases a[rel=prev]:hover,
 #phases a[rel=prev]:focus,
 #phases a[rel=prev]:active {
-    background-image:       url(/assets/img/base/scan_back_hover.png);
+    background-image:       url(../img/base/scan_back_hover.png);
 }
 #phases a[rel=next] {
     background:             transparent
-                            url(/assets/img/base/scan_forward.png)
+                            url(../img/base/scan_forward.png)
                             no-repeat
                             100% 50%;
 }
 #phases a[rel=next]:hover,
 #phases a[rel=next]:focus,
 #phases a[rel=next]:active {
-    background-image:       url(/assets/img/base/scan_forward_hover.png);
+    background-image:       url(../img/base/scan_forward_hover.png);
 }
 #phases .prev,
 #phases .next {
@@ -220,10 +220,10 @@
     background-repeat:      no-repeat;
 }
 #phases .prev {
-    background-image:       url(/assets/img/base/scan_back_disabled.png);
+    background-image:       url(../img/base/scan_back_disabled.png);
 }
 #phases .next {
-    background-image:       url(/assets/img/base/scan_forward_disabled.png);
+    background-image:       url(../img/base/scan_forward_disabled.png);
 }
 #phases .next,
 #phases .prev,

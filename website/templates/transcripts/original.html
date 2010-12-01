@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Original Transcript - Page {{ page }}{% endblock %}
+{% block full_title %}Page {{ page }} of {{ mission.title }}&rsquo;s transcript on Spacelog{% endblock %}
 
 {% block body-class %}transcript-section{% endblock %}
 {% block content-class %}original-transcript{% endblock %}
@@ -11,7 +11,7 @@
         <a rel='prev' href="{% url original previous_page %}"><span>Previous</span></a>
     {% endif %}
 
-    <img src="/assets/missions/{{ mission.name }}/images/original/{{ mission.main_transcript_subname }}/{{ page }}.png" width="940">
+    <img src="{{ STATIC_URL }}missions/{{ mission.name }}/images/original/{{ mission.main_transcript_subname }}/{{ page }}.png" width="940">
 
     {% if next_page %}
         <a rel='next' href="{% url original next_page %}"><span>Next</span></a>

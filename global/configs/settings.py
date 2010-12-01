@@ -64,9 +64,9 @@ MEDIA_ROOT = ''
 MEDIA_URL = ''
 
 # FIXME - evil to get around a bug in static files
-P_STATIC_ROOT = os.path.join(SITE_ROOT, 'static')
+STATIC_ROOT = os.path.join(SITE_ROOT, 'static')
 MISSIONS_STATIC_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
-P_STATIC_URL  = '/assets/'
+STATIC_URL  = '/assets/'
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
@@ -92,6 +92,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     "django.core.context_processors.debug",
     "django.core.context_processors.i18n",
     "django.core.context_processors.media",
+    "homepage.context.static",
 )
 
 ROOT_URLCONF = 'urls'

@@ -4,6 +4,11 @@
 
 */
 
+body,
+html {
+    height:                 100%;
+}
+
 body {
     font-family:            "Helvetica Neue",
                             "Arial",
@@ -46,7 +51,7 @@ input.placeholder {
 .people,
 .phase {
     background:             #000
-                            url( /assets/img/base/sunrise.jpg )
+                            url( ../img/base/sunrise.jpg )
                             no-repeat
                             bottom center;
     color:                  #fff;
@@ -95,11 +100,11 @@ a.big-blue-button-thing,
 }
 @font-face {
     font-family:            'League Gothic';
-    src: url('/assets/fonts/league-gothic.eot');
+    src: url('../fonts/league-gothic.eot');
     src: local('://'),
-         url('/assets/fonts/league-gothic.svg#league_gothic') format('svg'),
-         url('/assets/fonts/league-gothic.woff') format('woff'),
-         url('/assets/fonts/league-gothic.otf') format('opentype');
+         url('../fonts/league-gothic.svg#league_gothic') format('svg'),
+         url('../fonts/league-gothic.woff') format('woff'),
+         url('../fonts/league-gothic.otf') format('opentype');
 }
 .league-gothic {
     font-family:            'League Gothic';

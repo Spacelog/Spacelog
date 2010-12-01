@@ -42,7 +42,7 @@ a:active {
 }
 #cta {
     background:             transparent
-                            url(/assets/img/ft-cta.png)
+                            url(../img/ft-cta.png)
                             no-repeat
                             left center;
     padding:                14px 0 0 27px;
@@ -59,11 +59,11 @@ a:active {
 /*! verbatim */
 @font-face {
     font-family:            'League Gothic';
-    src: url('/assets/fonts/league-gothic.eot');
+    src: url('../fonts/league-gothic.eot');
     src: local('://'),
-         url('/assets/fonts/league-gothic.svg#league_gothic') format('svg'),
-         url('/assets/fonts/league-gothic.woff') format('woff'),
-         url('/assets/fonts/league-gothic.otf') format('opentype');
+         url('../fonts/league-gothic.svg#league_gothic') format('svg'),
+         url('../fonts/league-gothic.woff') format('woff'),
+         url('../fonts/league-gothic.otf') format('opentype');
 }
 .league-gothic {
     font-family:            'League Gothic';

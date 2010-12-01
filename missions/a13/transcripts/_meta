@@ -448,13 +448,13 @@
           "role": "other",
           "name": "Swim 1",
           "short_name": "Swim 1",
-          "avatar": "blank_48.png"
+          "avatar": "person.png"
         },
         "S-2": {
           "role": "other",
           "name": "Swim 2",
           "short_name": "Swim 2",
-          "avatar": "blank_48.png"
+          "avatar": "person.png"
         },
         "LCC": {
           "role": "other",

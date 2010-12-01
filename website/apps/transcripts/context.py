@@ -5,3 +5,8 @@ def mission(request):
         "mission": request.mission,
         "PROJECT_HOME": settings.PROJECT_HOME,
     }
+
+def static(request):
+    return {
+        "STATIC_URL": settings.STATIC_URL,
+    }

@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{% if role %}{{ role|title }} {% endif %}People{% endblock %}
+{% block title %}{% if role %}{{ role|title }}{% else %}People{% endif %}{% endblock %}
 
 {% block body-class %}people-section{% endblock %}
 {% block content-class %}people{% endblock %}

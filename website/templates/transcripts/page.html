@@ -4,9 +4,9 @@
 {% load pauses %}
 {% load characters %}
 
-{% block title %}Transcript - Starting at {{ log_lines.0.timestamp|mission_time_format }}{% endblock %}
+{% block full_title %}{{ mission.title }} transcript starting at {{ log_lines.0.timestamp|mission_time_format }} on Spacelog{% endblock %}
 
-{% block extra_js %}<script type="text/javascript" src="/assets/js/page.js"></script>{% endblock %}
+{% block extra_js %}<script type="text/javascript" src="{{ STATIC_URL }}js/page.js"></script>{% endblock %}
 
 
 {% block content-class %}transcript {% if max_highlight_index > 0 %}with-highlight{% endif %}{% endblock %}
@@ -16,7 +16,7 @@
 {% if log_lines.0.first_in_act and log_lines.0.act.banner %}
   {% with log_lines.0.act as act %}
     <div id='crest' {% if act.banner_class %}class='{{ act.banner_class }}'{% endif %}><div class='wrapper'>
-    <p class='act-banner'><img class="act-banner" src="/assets/missions/{{ act.mission_name }}/images/banners/{{ act.banner }}"></p>
+        <p class='act-banner'><img class="act-banner" src="{{ STATIC_URL }}missions/{{ act.mission_name }}/images/banners/{{ act.banner }}"></p>
     </div></div>
   {% endwith %}
   {% else %}<div id="crest"></div>{% endif %}
@@ -38,7 +38,8 @@
       <span id="log-line-closest"></span>
     {% endif %}
     {% for speaker, text in log_line.lines %}
-    <div id="log-line-{{ log_line.timestamp }}" class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}{% if log_line.key_scene_number %} key-scene{% endif %}'>
+    <div id="log-line-{{ log_line.timestamp }}" class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}{% if log_line.key_scene_number %} key-scene{% endif %}'
+      data-transcript-page='{{ log_line.transcript_page }}'>
       <dt class='time'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
         <a href='{% selection_url log_line.timestamp %}'>
           <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}" data-range-advisory="{{ log_line.utc_time }} UTC ({{ log_line.utc_time|timesince }} ago)">
@@ -83,8 +84,8 @@
         {% if forloop.last %}
           {% for image in log_line.images %}
             <div class='image'>
-                <a href="/assets/missions/{{ mission.name }}/images/media/{{ image.filename }}">
-                    <img src="/assets/missions/{{ mission.name }}/images/media//{{ image.thumbnail_filename }}" />
+                <a href="{{ STATIC_URL }}missions/{{ mission.name }}/images/media/{{ image.filename }}">
+                    <img src="{{ STATIC_URL }}missions/{{ mission.name }}/images/media//{{ image.thumbnail_filename }}" />
               </a>
             </div>
             {% endfor %}
@@ -135,7 +136,7 @@
         {% endif %}
       </ul></nav>
       {% if current_act.orbital %}
-        <img class='orbital' src='/assets/missions/{{ mission.name }}/images/orbital/{{ current_act.orbital }}'>
+      <img class='orbital' src='{{ STATIC_URL }}missions/{{ mission.name }}/images/orbital/{{ current_act.orbital }}'>
       {% endif %}
     </div>
   </div>
