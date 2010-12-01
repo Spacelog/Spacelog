@@ -15,8 +15,11 @@ Artemis.LogLine = Backbone.Model.extend({
 
     getPageURL: function() {
         return '/page/'+this.getTimestamp()+'/#log-line-'+this.id;
-    }
+    },
 
+    getTranscriptPage: function() {
+        return this.view.el.attr('data-transcript-page');
+    }
 });
 
 Artemis.HighlightedLogLineCollection = Backbone.Collection.extend({
@@ -88,6 +91,8 @@ Artemis.LogLineView = Backbone.View.extend({
             if (this.model.collection.size() > 1) {
                 this.addRangeUI('contract-previous');
             }
+
+            Artemis.phasesView.setOriginalTranscriptPage(this.model.getTranscriptPage());
         }
         else {
             this.el.removeClass('first');
@@ -299,7 +304,7 @@ Artemis.TranscriptView = Backbone.View.extend({
     highlightedLines: new Artemis.HighlightedLogLineCollection(),
     
     initialize: function() {
-        _.bindAll(this, 'selectionClose', 'setOverlayHeight');
+        _.bindAll(this, 'selectionClose', 'setOverlayHeight', 'scrollWindow');
 
         if ($('#load-previous').size()) {
             this.loadPreviousButton = new Artemis.LoadMoreButtonView({
@@ -317,6 +322,7 @@ Artemis.TranscriptView = Backbone.View.extend({
         this.el.find('#transcript').css({'cursor': 'pointer'});
 
         this.bustPreventDefault(this.el.find('#transcript'));
+
     },
 
     gatherCurrentSelection: function() {
@@ -398,6 +404,20 @@ Artemis.TranscriptView = Backbone.View.extend({
         }, this));
     },
 
+    scrollWindow: function(e) {
+        if (this.highlightedLines.size() > 0) {
+            return true;
+        }
+
+        var target = $(window).scrollTop();
+        var visible = _.detect(
+                this.el.find('#transcript > div'),
+                function(el) { return el.offsetTop >= target; }
+            );
+
+        var logLine = new Artemis.LogLine({el: $(visible)});
+        Artemis.phasesView.setOriginalTranscriptPage(logLine.getTranscriptPage());
+
     bustPreventDefault: function(transcriptElement) {
         // Bust through the div's click event to allow all links to work apart from 
         // the time link
@@ -457,6 +477,10 @@ Artemis.PhasesView = Backbone.View.extend({
 
     setIsOpen: function(v) {
         $.cookie(this.cookieName, v, {path: '/'});
+    },
+
+    setOriginalTranscriptPage: function(page) {
+        this.el.find('.original a').attr('href', '/original/' + page + '/');
     }
 });
 
