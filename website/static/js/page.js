@@ -15,8 +15,11 @@ Artemis.LogLine = Backbone.Model.extend({
 
     getPageURL: function() {
         return '/page/'+this.getTimestamp()+'/#log-line-'+this.id;
-    }
+    },
 
+    getTranscriptPage: function() {
+        return this.view.el.attr('data-transcript-page');
+    }
 });
 
 Artemis.HighlightedLogLineCollection = Backbone.Collection.extend({
@@ -88,6 +91,8 @@ Artemis.LogLineView = Backbone.View.extend({
             if (this.model.collection.size() > 1) {
                 this.addRangeUI('contract-previous');
             }
+
+            Artemis.phasesView.setOriginalTranscriptPage(this.model.getTranscriptPage());
         }
         else {
             this.el.removeClass('first');
@@ -451,6 +456,10 @@ Artemis.PhasesView = Backbone.View.extend({
 
     setIsOpen: function(v) {
         $.cookie(this.cookieName, v, {path: '/'});
+    },
+
+    setOriginalTranscriptPage: function(page) {
+        this.el.find('.original a').attr('href', '/original/' + page + '/');
     }
 });
 
