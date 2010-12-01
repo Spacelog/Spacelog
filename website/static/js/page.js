@@ -204,14 +204,15 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
     loadMoreCallback: function(data) {
         var content = $(data.content);
         var crest = $(data.crest);
+        var topLogLine = $('#transcript div')[0];
         var transcriptTop = $('#transcript')[0].offsetTop;
+        var initialWindowTop  = $( window ).scrollTop();
         
         // We've hit the start of a new phase
         if (crest.children().size()) {
             // If we're going backwards, show the new crest
             if (this.isPrevious) {
                 $('#crest').replaceWith(data.crest);
-                
             }
             // Don't load anything if we're highlighted and reached the end of
             // a phase
@@ -223,6 +224,9 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
                 window.location = this.elLast.children('a').attr('href');
                 return;
             }
+        }
+        else if (this.isPrevious) {
+            $('#crest').html('');
         }
         
         // To start with, get rid of the spinner
@@ -244,16 +248,9 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
         
         // Insert new lines
         if (this.isPrevious) {
-            var topLogLine = $('#transcript').children()[0];
-            var initialWindowTop  = $( document ).scrollTop();
             
             $('#transcript').prepend( content.filter('#transcript').children() );
             
-            // Keep the topmost item in (almost the same place)
-            
-            $( window ).scrollTop(
-                topLogLine.offsetTop - transcriptTop + initialWindowTop
-            );
         }
         else {
             $('#transcript').append(content.filter('#transcript').children());
@@ -264,6 +261,18 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
 
         // Readjust height of overlay
         Artemis.transcriptView.setOverlayHeight();
+        
+        // Keep the topmost item in (almost the same place)
+        $( window ).scrollTop(
+            topLogLine.offsetTop - transcriptTop + initialWindowTop
+        );
+        // HACK: on detail pages, for some reason a redraw is needed before we
+        // get the right offsetTop for topLogLine.
+        setTimeout(function () {
+            $( window ).scrollTop(
+                topLogLine.offsetTop - transcriptTop + initialWindowTop
+            );
+        }, 0);
     },
 
     hide: function() {
