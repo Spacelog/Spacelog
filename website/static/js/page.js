@@ -302,7 +302,7 @@ Artemis.TranscriptView = Backbone.View.extend({
     highlightedLines: new Artemis.HighlightedLogLineCollection(),
     
     initialize: function() {
-        _.bindAll(this, 'selectionClose', 'setOverlayHeight');
+        _.bindAll(this, 'selectionClose', 'setOverlayHeight', 'scrollWindow');
 
         if ($('#load-previous').size()) {
             this.loadPreviousButton = new Artemis.LoadMoreButtonView({
@@ -319,6 +319,8 @@ Artemis.TranscriptView = Backbone.View.extend({
         this.overlay.click(this.selectionClose);
         this.el.find('#transcript').css({'cursor': 'pointer'});
         
+        $(window).scroll(this.scrollWindow);
+
         // Bust through the div's click event to allow all links to work apart from 
         // the time link
         this.el.find('#transcript > div').find('dt.speaker a, dd a').click(function(e) {
@@ -403,6 +405,21 @@ Artemis.TranscriptView = Backbone.View.extend({
         this.overlay.animate({'opacity': 0}, Artemis.animationTime, _.bind(function() {
             this.overlay.detach();
         }, this));
+    },
+
+    scrollWindow: function(e) {
+        if (this.highlightedLines.size() > 0) {
+            return true;
+        }
+
+        var target = $(window).scrollTop();
+        var visible = _.detect(
+                this.el.find('#transcript > div'),
+                function(el) { return el.offsetTop >= target; }
+            );
+
+        var logLine = new Artemis.LogLine({el: $(visible)});
+        Artemis.phasesView.setOriginalTranscriptPage(logLine.getTranscriptPage());
     }
 
 });
