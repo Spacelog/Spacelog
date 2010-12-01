@@ -1,14 +1,14 @@
 /* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*- */
 
-body.homepage {
+#content.homepage {
     background-color:       black;
     background-position:    top center;
     background-repeat:      no-repeat;
-}
-
-#content.homepage {
     padding-top:            40px;
-    -cp-contain:            easy;
+    overflow:               hidden;
+    min-height:             100%;
+    _zoom:                  1;
+    _height:                100%;
 }
 
 #content.homepage h1, #content.homepage h2 {
