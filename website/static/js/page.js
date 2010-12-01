@@ -321,6 +321,19 @@ Artemis.TranscriptView = Backbone.View.extend({
 
         this.overlay.click(this.selectionClose);
         this.el.find('#transcript').css({'cursor': 'pointer'});
+        
+        // Mark elements at the start of new source transcript pages
+        // This will give us fewer elements to look at in the window.onscroll handler
+        var currentPage = null;
+        this.el.find('#transcript > div').each(function() {
+          var page = $(this).attr('data-transcript-page');
+          if(page != currentPage) {
+            $(this).attr('data-new-transcript-page', true);
+            currentPage = page;
+          }
+        });
+
+        $(window).scroll(this.scrollWindow);
 
         this.bustPreventDefault(this.el.find('#transcript'));
 
@@ -412,7 +425,7 @@ Artemis.TranscriptView = Backbone.View.extend({
 
         var target = $(window).scrollTop();
         var visible = _.detect(
-                this.el.find('#transcript > div'),
+                this.el.find('#transcript > div[data-new-transcript-page]'),
                 function(el) { return el.offsetTop >= target; }
             );
 
