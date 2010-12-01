@@ -417,7 +417,7 @@ Artemis.TranscriptView = Backbone.View.extend({
 
         var logLine = new Artemis.LogLine({el: $(visible)});
         Artemis.phasesView.setOriginalTranscriptPage(logLine.getTranscriptPage());
-
+    },
     bustPreventDefault: function(transcriptElement) {
         // Bust through the div's click event to allow all links to work apart from 
         // the time link
