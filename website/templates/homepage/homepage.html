@@ -11,18 +11,7 @@
 <div class='crest'>
 <h1>{{ mission.upper_title }} <em>{{ mission.lower_title }}</em></h1>
 
-{% if quote %}
-<div id='homepage-quote'>
-  <blockquote>
-    <p>{{ quote.lines.0.1|linkify }}</p>
-  </blockquote>
-  <i>
-  <cite><a class='transcript' href="{% selection_url quote.timestamp %}">Read this moment</a></cite>
-  <span> or </span>
-  <a class='refresh' href='{% url homepage %}'>See another</a>
-  </i>
-</div>
-{% endif %}
+{% include "homepage/_quote.html" %}
 </div>
 
 <h2>Jump into the story</h2>
