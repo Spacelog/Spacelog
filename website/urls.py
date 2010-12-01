@@ -1,7 +1,7 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
 from transcripts.views import PageView, PhasesView, RangeView, ErrorView, OriginalView
-from homepage.views import HomepageView
+from homepage.views import HomepageView, HomepageQuoteView
 from search.views import SearchView
 from homepage.views import HomepageView, AboutView
 
@@ -9,6 +9,7 @@ tspatt = r'-?\d{2}:\d{2}:\d{2}:\d{2}'
 
 urlpatterns = patterns('',
     url(r'^$', HomepageView.as_view(), name="homepage"),
+    url(r'^homepage-quote/$', HomepageQuoteView.as_view()),
     url(r'^about/$', AboutView.as_view(), name="about"),
     url(r'^page/$', PageView.as_view(), name="view_page"),
     url(r'^page/(?P<start>' + tspatt + ')/$', PageView.as_view(), name="view_page"),
