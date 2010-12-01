@@ -356,6 +356,7 @@ Artemis.TranscriptView = Backbone.View.extend({
     },
 
     selectionClose: function(e) {
+        this.el.find('.range-ui').fadeOut(Artemis.animationTime);
         this.el.find('#range-advisory').hide('blind', Artemis.animationTime, _.bind(function() {
             this.highlightedLines.each(function(line) {
                 line.view.unHighlight();
