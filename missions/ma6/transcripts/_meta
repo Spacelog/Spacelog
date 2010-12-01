@@ -23,7 +23,7 @@
     "acts" : [
         {
             "title": "Launch",
-            "description": "Leaving the earth!",
+            "description": "After a over two hours of last-minute holds, Atlas LV-3B launched Friendship 7 and its pilot John Glenn towards Earth orbit.",
             "range": ["-00:00:00:20", "00:00:05:04"],
             "homepage": "phase1.jpg",
             "banner": "act1.jpg",
@@ -31,28 +31,28 @@
         },
         {
             "title": "1st Orbit",
-            "description": "Round one!",
+            "description": "Despite a problem during separation, the first orbit was smooth, although the automatic stabilisation system started exhibiting problems that meant Glenn had to take manual control to maintain attitude (orientation of the capsule).",
             "range": ["00:00:05:04", "00:01:32:50"],
             "homepage": "phase2.jpg",
             "banner": "act2.jpg"
         },
         {
             "title": "2nd Orbit",
-            "description": "Round two!",
+            "description": "During the second orbit, a flight controller noticed a sensor reading indicating that the heat shield was no longer locked in place, meaning that it was only being held against the capsule by the straps of the retro package, which would burn up during reentry.",
             "range": ["00:01:32:50", "00:03:07:03"],
             "homepage": "phase3.jpg",
             "banner": "act3.jpg"
         },
         {
             "title": "3rd Orbit",
-            "description": "Round three!",
+            "description": "On the final orbit, Glenn joked that his spaceflight should qualify him for regular flight pay; despite trying a number of approaches with the automatic systems he had repeatedly had to come back to the manual fly-by-wire controls.",
             "range": ["00:03:07:03", "00:04:32:39"],
             "homepage": "phase4.jpg",
             "banner": "act4.jpg"
         },
         {
             "title": "Reentry",
-            "description": "Safely back home.",
+            "description": "Although Mercury Control had been concerned about the heat shield sensor, and it was decided to retain the retropack through reentry to give added assurance that the heat shield would stay in place, reentry was successful. It was later discovered that the reading had been a sensor error.",
             "range": ["00:04:32:39", "00:05:05:11"],
             "homepage": "phase5.jpg",
             "banner": "act5.jpg"
