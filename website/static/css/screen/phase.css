@@ -34,7 +34,7 @@
 
 .phase .navigation li.selected {
   padding-bottom:         15px;
-  background:             url(/assets/img/phase/selected_arrow.png) 50% 100% no-repeat;
+  background:             url(../img/phase/selected_arrow.png) 50% 100% no-repeat;
 }
 .phase .navigation li.selected strong {
   color:                  #fff;

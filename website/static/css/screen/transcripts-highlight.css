@@ -76,7 +76,7 @@
     width:                  20px;
     height:                 20px;
     background:             transparent
-                            url(/assets/img/base/range_ui.png)
+                            url(../img/base/range_ui.png)
                             no-repeat;
 }
 #selection-close {

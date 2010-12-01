@@ -128,13 +128,13 @@
 }
 #homepage-quote i a.transcript {
     background:             rgba( 0, 48, 61, 0.5 )
-                            url(/assets/img/base/transcript-icon.png)
+                            url(../img/base/transcript-icon.png)
                             no-repeat
                             10px center;
 }
 #homepage-quote i a.refresh {
     background:             rgba( 0, 48, 61, 0.5 )
-                            url(/assets/img/base/refresh-icon.png)
+                            url(../img/base/refresh-icon.png)
                             no-repeat
                             10px center;
 }

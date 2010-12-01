@@ -1,6 +1,7 @@
 from django.template import Library
 from django.core.urlresolvers import reverse
 from django.template.defaultfilters import slugify
+from django.conf import settings
 
 register = Library()
 
@@ -13,12 +14,13 @@ def avatar_and_name(speaker, mission_name, timestamp=None):
         current_speaker = speaker
 
     detail = """
-      <img src='/assets/missions/%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48'>
+      <img src='%(STATIC_URL)smissions/%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48'>
       <span>%(short_name)s</span>
     """ % {
         "avatar": current_speaker.avatar,
         "short_name": current_speaker.short_name,
         "mission_name": mission_name,
+        "STATIC_URL": settings.STATIC_URL,
     }
 
     url = None
@@ -41,11 +43,12 @@ def avatar(speaker, mission_name, timestamp=None):
         current_speaker = speaker
 
     detail = """
-      <img src='/assets/missions/%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48' alt='%(short_name)s'>
+      <img src='%(STATIC_URL)smissions/%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48' alt='%(short_name)s'>
     """ % {
         "avatar": current_speaker.avatar,
         "short_name": current_speaker.short_name,
         "mission_name": mission_name,
+        "STATIC_URL": settings.STATIC_URL,
     }
 
     url = None

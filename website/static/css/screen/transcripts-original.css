@@ -22,11 +22,11 @@
 }
 .original-transcript a[rel=prev] {
     left:                   -85px;
-    background-image:       url(/assets/img/base/prev.png);
+    background-image:       url(../img/base/prev.png);
 }
 .original-transcript a[rel=next] {
     left:                   950px;
-    background-image:       url(/assets/img/base/next.png);
+    background-image:       url(../img/base/next.png);
 }
 .original-transcript a span {
     position:               absolute;
