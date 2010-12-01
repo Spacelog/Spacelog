@@ -141,6 +141,9 @@
         },
         "MCC": {
             "description": "Mercury Control Center"
+        },
+        "MAX Q": {
+            "description": "Maximum dynamic pressure, the point at which aerodynamic stress on a spacecraft in atmospheric flight is maximized"
         }
     }
 }
