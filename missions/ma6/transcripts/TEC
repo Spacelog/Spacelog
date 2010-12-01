@@ -688,7 +688,7 @@ P: Roger. Going back on [glossary:ASCS ASCS]. Yaw check okay. Can pick up yaw fa
 
 [00:00:28:26]
 CC: Seven, you are fading rapidly. I will broadcast this time in the blind for Area 1
-     Charlie, [time:00:00:32:12 [time:00:00:32:12 00 32 12]], [time:00:00:32:12 [time:00:00:32:12 00 32 12]].
+     Charlie, [time:00:00:32:12 00 32 12], [time:00:00:32:12 00 32 12].
 
 [00:00:28:40]
 _extra : ZANZIBAR (FIRST ORBIT)
@@ -1444,7 +1444,7 @@ CC: This is Canaveral Cap Com, testing the HF. G.m.t. 15 52 05, MARK.
      I did not read the capsule. Cape, out.
 
 [00:01:05:17]
-CC: Friendship Seven, this Kano. G.m.t. [time:00:15:53:02 15 53 02]. I did (Kano) not read your
+CC: Friendship Seven, this Kano. GMT 15 53 02. I did (Kano) not read your
      transmission. Kano, out.
 
 [00:01:05:32]
@@ -2122,14 +2122,14 @@ P: This is Friendship Seven broadcasting blind to Mercury Network on from just o
      the east coast over middle Atlantic, check completed at 15.
 
 [00:01:44:17]
-CC: (CNV) ... testing on HF G.m.t. [time:00:16:31:59 16 31 59] MARK. I read the capsule weak, but readable. Cape, out.
+CC: (CNV) ... testing on HF GMT 16 31 59 MARK. I read the capsule weak, but readable. Cape, out.
 
 [00:01:44:31]
 _extra : CANARY (SECOND ORBIT)
-CC: Friendship Seven, this is Bermuda Cap Com on HF. We did not read the capsule. G.m.t. [time:00:16:32:15 16 32 15].
+CC: Friendship Seven, this is Bermuda Cap Com on HF. We did not read the capsule. GMT 16 32 15.
 
 [00:01:44:41]
-CC: Friendship Seven, Friendship Seven, this is [glossary:CYI CYI]. The time now [time:00:16:32:26 16 32 26]. We
+CC: Friendship Seven, Friendship Seven, this is [glossary:CYI CYI]. The time now 16 32 26. We
      are reading you loud and clear; we are reading you loud and clear. [glossary:CYI CYI].
 
 [00:01:44:57]
@@ -2141,7 +2141,7 @@ P: This is Friendship Seven on UHF. As I went over recovery area that time, I
 CC: Friendship Seven, ... We do not read you, do not read you. Over.
 
 [00:01:45:17]
-CC: (KNO) Friendship Seven, this is Kano. At G.m.t. [time:00:16:33:00 16 33 00]. We do not. ... This is Kano. Out.
+CC: (KNO) Friendship Seven, this is Kano. At GMT 16 33 00. We do not. ... This is Kano. Out.
 
 [00:01:46:38]
 CT: Friendship Seven, Friendship Seven, this is [glossary:CYI CYI] Com Tech. Over.
