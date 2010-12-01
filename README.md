@@ -6,7 +6,7 @@ With the exception of the font and some icons (credited on the mission about pag
 
 # Getting involved without technical knowledge
 
-For small errors, it's probably easiest to just email them through to us at [team@spacelog.com](mail:team@spacelog.org).
+For small errors, it's probably easiest to just email them through to us at [spacelog@googlegroups.com](mail:spacelog@googlegroups.com).
 
 For anything larger, we'd rather you send us corrected files from the `missions` directory. Look in `transcript-file-format` for a description of how we lay out files. If you're transcribing a mission we don't have, you will find the example `_meta` and `TEC` files useful, since they are the main two files you'll need to create. If you can make both of them (or get as close as you can), and send them through to us along with a link to the original transcript PDF you used, we'll do the rest. (If you are gifted in design, we've included the source files for all the artwork we've created, which you could use as a basis for making things like orbital diagrams.)
 
