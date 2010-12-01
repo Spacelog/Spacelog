@@ -1,4 +1,5 @@
 from django.shortcuts import render_to_response
+from django.template import RequestContext
 from backend.api import Mission
 import redis
 
@@ -30,4 +31,5 @@ def homepage(request):
             'missions': missions,
             'missions_coming_soon': missions_coming_soon
         },
+        context_instance = RequestContext(request),
     )
