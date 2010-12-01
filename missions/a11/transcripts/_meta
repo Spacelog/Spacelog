@@ -64,9 +64,11 @@
             "range": ["04:06:47:37", "05:00:59:04"]
         },
         {
-            "title": "Return to Moon Orbit",
+            "title": "Return to Lunar Orbit",
             "description": "The two crewmembers successfully rejoined Michael Collins aboard Columbia in lunar orbit, leaving behind a retroreflector, a plaque, and a memorial bag.",
-            "range": ["05:00:59:04", "05:13:49:44"]
+            "range": ["05:00:59:04", "05:13:49:44"],
+            "banner": "act7.jpg",
+            "homepage": "act7.jpg"
         },
         {
             "title": "Towards Earth",
