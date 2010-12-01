@@ -4,7 +4,7 @@
 {% load pauses %}
 {% load characters %}
 
-{% block title %}Transcript - Starting at {{ log_lines.0.timestamp|mission_time_format }}{% endblock %}
+{% block full_title %}{{ mission.title }} transcript starting at {{ log_lines.0.timestamp|mission_time_format }} on Spacelog{% endblock %}
 
 {% block extra_js %}<script type="text/javascript" src="/assets/js/page.js"></script>{% endblock %}
 
