@@ -61,7 +61,9 @@
         {
             "title": "On the Moon",
             "description": "The two astronauts walked on the surface of the Moon, planted the US flag, collected rock samples, and took photos. They put all this on the LM, then went to sleep.",
-            "range": ["04:06:47:37", "05:00:59:04"]
+            "range": ["04:06:47:37", "05:00:59:04"],
+            "banner": "act6.jpg",
+            "homepage": "act6.jpg"
         },
         {
             "title": "Return to Lunar Orbit",
