@@ -245,11 +245,13 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
         if (Artemis.transcriptView.highlightedLines.size()) {
             this.el.children().hide();
         }
+
+        // Allow clicking of links in new content
+        Artemis.transcriptView.bustPreventDefault(content.filter('#transcript'));
         
         // Insert new lines
         if (this.isPrevious) {
-            
-            $('#transcript').prepend( content.filter('#transcript').children() );
+            $('#transcript').prepend(content.filter('#transcript').children());
             
         }
         else {
@@ -313,13 +315,8 @@ Artemis.TranscriptView = Backbone.View.extend({
 
         this.overlay.click(this.selectionClose);
         this.el.find('#transcript').css({'cursor': 'pointer'});
-        
-        // Bust through the div's click event to allow all links to work apart from 
-        // the time link
-        this.el.find('#transcript > div').find('dt.speaker a, dd a').click(function(e) {
-            e.stopImmediatePropagation();
-            return true;
-        });
+
+        this.bustPreventDefault(this.el.find('#transcript'));
     },
 
     gatherCurrentSelection: function() {
@@ -399,8 +396,16 @@ Artemis.TranscriptView = Backbone.View.extend({
         this.overlay.animate({'opacity': 0}, Artemis.animationTime, _.bind(function() {
             this.overlay.detach();
         }, this));
-    }
+    },
 
+    bustPreventDefault: function(transcriptElement) {
+        // Bust through the div's click event to allow all links to work apart from 
+        // the time link
+        transcriptElement.find('dt.speaker a, dd a').click(function(e) {
+            e.stopImmediatePropagation();
+            return true;
+        });
+    }
 });
 
 
