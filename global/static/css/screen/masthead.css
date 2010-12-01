@@ -2,59 +2,96 @@
 
 #masthead {
     background:             #232323;
-}
-#masthead .wrapper {
-    padding-top:            10px;
-    padding-bottom:         10px;
+    font-family:            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
+    line-height:            1.6;
+    text-transform:         uppercase;
     -cp-contain:            easy;
 }
 #masthead h1 {
     // style the text
     color:                  white;
-    font-family:            'League Gothic',
-                            'Helvetica Neue Condensed',
-                            'Arial',
-                            sans-serif;
-    font-size:              30px;
-    line-height:            0.95;
-    text-transform:         uppercase;
     
     // position in the grid
     float:                  left;
     margin-right:           20px;
     width:                  220px;
+    font-size:              24px;
 }
-#masthead h1 em {
+#masthead h1 a {
+    color:                  #fff;
+}
+#masthead h1 a.mission {
     color:                   #f8b334;
 }
 
 #masthead nav ul {
-    // position in the grid
     width:                  540px;
     margin-right:           20px;
     float:                  left;
+    font-size:              24px;
 }
 #masthead nav li {
     float:                  left;
 }
 #masthead li a {
-    color:                  #999;
+    color:                  #959595;
     text-decoration:        none;
-    margin-right:           20px;
+    margin-right:           30px;
     text-transform:         uppercase;
-    
-    // 16px to 30px is 1.875
-    line-height:            1.875;
+}
+#masthead li a:hover,
+#masthead li a:focus,
+body.transcript-section #masthead li.transcript-section a,
+body.phase-section #masthead li.phase-section a,
+body.people-section #masthead li.people-section a,
+body.glossary-section #masthead li.glossary-section a,
+body.about-section #masthead li.about-section a {
+    color:                  white;
 }
 
 #masthead form {
-    float:                  right;
+    float:                  left;
     width:                  140px;
+    position:               relative;
 }
 #masthead input {
-    background:             black;
+    position:               absolute;
+    top:                    8px;
+    background:             #fff;
     border:                 none;
-    -cp-border-radius:      5px;
+    -cp-border-radius:      10px;
     width:                  140px;
-    color:                  white;
+    font-weight:            normal;
+    font-size:              14px;
+    padding:                2px 1px;
+    text-indent:            8px;
+    font-family:            "Helvetica Neue",
+                            "Arial",
+                            sans-serif;
 }
+
+/*! verbatim */
+#masthead input {
+    -webkit-box-shadow:     inset rgba(0,0,0,0.5) 0 1px 2px;
+    -moz-box-shadow:        inset rgba(0,0,0,0.5) 0 1px 2px;
+    box-shadow:             inset rgba(0,0,0,0.5) 0 1px 2px;
+}
+
+#masthead {
+    -webkit-box-shadow:     #222 0 2px 4px;
+    -moz-box-shadow:        #222 0 2px 4px;
+    box-shadow:             #222 0 2px 4px;
+    /* HACK: Force shadow to overlay #content */
+    position: relative;
+}
+/* HACK: Wrap #masthead and hide overflow-x because Fx considers shadow part of width */
+#masthead-outer {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+}
+/* -- */
