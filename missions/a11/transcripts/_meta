@@ -58,7 +58,9 @@
         {
             "title": "Descent to the Moon",
             "description": "Apollo was now split into Columbia and Eagle - Columbia remained in orbit with Collins, whilst Eagle with Aldrin and Armstrong descended to the lunar surface. They landed successfully.",
-            "range": ["04:03:31:42", "04:06:47:37"]
+            "range": ["04:03:31:42", "04:06:47:37"],
+            "banner": "act5.jpg",
+            "homepage": "act5.jpg"
         },
         {
             "title": "On the Moon",
