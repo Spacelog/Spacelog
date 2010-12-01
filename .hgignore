@@ -1,0 +1,7 @@
+syntax: glob
+xappydb
+missions/*/images/*
+website/local_settings.py
+global/local_settings.py
+website/static/css/screen.css
+global/static/css/screen.css
