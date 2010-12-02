@@ -201,6 +201,7 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
         if (a.size()) {
             this.elLast = this.el.clone();
             $.getJSON(a.attr('href')+'?json', this.loadMoreCallback);
+            _gaq.push(['_trackPageview', a.attr('href')]);
             Artemis.replaceWithSpinner(a);
         }
         return false;
