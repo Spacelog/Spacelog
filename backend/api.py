@@ -503,6 +503,7 @@ class Mission(object):
         self.main_transcript = data['main_transcript']
         self.main_transcript_subname = data['main_transcript'].split("/", 1)[1]
         self.media_transcript = data['media_transcript']
+        self.incomplete = (data['incomplete'].lower() == "true")
 
 
     class Query(BaseQuery):

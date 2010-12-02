@@ -4,7 +4,10 @@ from backend.api import Mission
 import redis
 
 def homepage(request):
-    missions = list(Mission.Query(redis.Redis()))
+    missions = [
+        mission for mission in list(Mission.Query(redis.Redis()))
+        if not mission.incomplete
+    ]
     missions_coming_soon = [
         {
             'name': 'g7',
