@@ -101,12 +101,33 @@
         "04:06:46:04"
     ],
     "character_ordering": [
+        "CC",
+        "F",
+        "CHARLIE_DUKE",
+        "RONALD_EVANS",
+        "OWEN_GARRIOTT",
+        "DON_LIND",
+        "KEN_MATTINGLY",
+        "BRUCE_MCCANDLESS",
+        "HARRISON_SCHMITT",
+        "JIM_LOVELL",
+        "WILLIAM_ANDERS",
+        "FRED_HAISE",
+        "BILL_POGUE",
+        "JACK_SWIGERT",
+        "CLIFF_CHARLESWORTH",
+        "GENE_KRANZ",
+        "GLYNN_LUNNEY"
     ],
     "characters": {
         "CC": {
             "role": "mission-ops-title",
             "name": "Capsule Communicator",
             "short_name": "CapComm",
+            "bio": "Throughout the Apollo Space Program, the CAPCOM was another astronaut who was the main person to communicate with the crew, as it was considered that someone who had that training would be best able to clearly pass information back and forth. On Apollo 11, there were seven CAPCOMs operating in shifts.",
+            "photo": "capcom.jpg",
+            "photo_width": 205,
+            "photo_height": 138,
             "shifts": [
             ]
         },
@@ -114,6 +135,10 @@
             "role": "mission-ops-title",
             "name": "Flight Director",
             "short_name": "Flight",
+            "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. On Apollo 11, there were three FLIGHT teams operating in shifts, Green, White, and Black. Shift changes are occasionally noted in the transcript.",
+            "photo": "flight_director.jpg",
+            "photo_width": 205,
+            "photo_height": 154,
             "shifts": [
             ]
         },
@@ -122,54 +147,111 @@
           "name": "Neil A. Armstrong",
           "short_name": "Neil Armstrong (CDR)",
           "mission_position": "Commander",
+          "photo": "neil_armstrong.jpg",
+          "photo_width": 162,
+          "photo_height": 205,
           "stats": [
+            {
+                "value": 206,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 38,
+                "text": "age at launch"
+            }
           ]
         },
         "CDR (EAGLE)": {
-          "role": "astronaut",
-          "name": "Neil A. Armstrong, when in the Lunar Module.",
-          "short_name": "Neil Armstrong (CDR)",
-          "mission_position": "Commander"
+          "role": "other",
+          "shifts": [
+            ["CDR", "-00:01:00:00"]
+          ]
         },
         "CDR (TRANQ)": {
-          "role": "astronaut",
-          "name": "Neil A. Armstrong, when on the Moon.",
-          "short_name": "Neil Armstrong (CDR)",
-          "mission_position": "Commander"
+          "role": "other",
+          "shifts": [
+            ["CDR", "-00:01:00:00"]
+          ]
         },
         "CDR (EVA)": {
-          "role": "astronaut",
-          "name": "Neil A. Armstrong, when on EVA.",
-          "short_name": "Neil Armstrong (CDR)",
-          "mission_position": "Commander"
+          "role": "other",
+          "shifts": [
+            ["CDR", "-00:01:00:00"]
+          ]
         },
         "LMP": {
           "role": "astronaut",
           "name": "Edward E. Aldrin, Jr.",
           "short_name": "Buzz Aldrin (LMP)",
           "mission_position": "Lunar Module Pilot",
+          "photo": "buzz_aldrin.jpg",
+          "photo_width": 163,
+          "photo_height": 205,
           "stats": [
+            {
+                "value": 290,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 39,
+                "text": "age at launch"
+            }
           ]
         },
         "LMP (TRANQ)": {
-          "role": "astronaut",
-          "name": "Edward E. Aldrin, Jr., when on the Moon",
-          "short_name": "Buzz Aldrin (LMP)",
-          "mission_position": "Lunar Module Pilot"
+          "role": "other",
+          "shifts": [
+            ["LMP", "-00:01:00:00"]
+          ]
+        },
+        "LMP (EAGLE)": {
+          "role": "other",
+          "shifts": [
+            ["LMP", "-00:01:00:00"]
+          ]
+        },
+        "LMP (EVA)": {
+          "role": "other",
+          "shifts": [
+            ["LMP", "-00:01:00:00"]
+          ]
         },
         "CMP": {
           "role": "astronaut",
           "name": "Michael Collins",
           "short_name": "Michael Collins (CMP)",
           "mission_position": "Command Module Pilot",
+          "photo": "michael_collins.jpg",
+          "photo_width": 159,
+          "photo_height": 205,
           "stats": [
+            {
+                "value": 266,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 38,
+                "text": "age at launch"
+            }
           ]
         },
         "CMP (COLUMBIA)": {
-          "role": "astronaut",
-          "name": "Michael Collins, when in Columbia",
-          "short_name": "Michael Collins (CMP)",
-          "mission_position": "Command Module Pilot"
+          "role": "other",
+          "shifts": [
+            ["CMP", "-00:01:00:00"]
+          ]
         },
         "CHARLIE_DUKE": {
           "role": "mission-ops",
@@ -226,6 +308,54 @@
           "mission_position": "CAPCOM",
           "photo_width": 190,
           "photo_height": 155
+        },
+        "JIM_LOVELL": {
+          "role": "mission-ops",
+          "name": "James A. Lovell, Jr",
+          "short_name": "Jim Lovell",
+          "mission_position": "Backup crew"
+        },
+        "WILLIAM_ANDERS": {
+          "role": "mission-ops",
+          "name": "William A. Anders",
+          "short_name": "William Anders",
+          "mission_position": "Backup crew"
+        },
+        "FRED_HAISE": {
+          "role": "mission-ops",
+          "name": "Fred W. Haise, Jr",
+          "short_name": "Fred Haise",
+          "mission_position": "Backup crew"
+        },
+        "BILL_POGUE": {
+          "role": "mission-ops",
+          "name": "Bill Pogue",
+          "short_name": "Bill Pogue",
+          "mission_position": "Support"
+        },
+        "JACK_SWIGERT": {
+          "role": "mission-ops",
+          "name": "Jack Swigert",
+          "short_name": "Jack Swigert",
+          "mission_position": "Support"
+        },
+        "CLIFF_CHARLESWORTH": {
+          "role": "mission-ops",
+          "name": "Cliff Charlesworth",
+          "short_name": "Cliff Charlesworth",
+          "mission_position": "Flight Director"
+        },
+        "GENE_KRANZ": {
+          "role": "mission-ops",
+          "name": "Gene Kranz",
+          "short_name": "Gene Kranz",
+          "mission_position": "Flight Director"
+        },
+        "GLYNN_LUNNEY": {
+          "role": "mission-ops",
+          "name": "Glynn Lunney",
+          "short_name": "Glynn Lunney",
+          "mission_position": "Flight Director"
         },
         "N": {
           "role": "other",
