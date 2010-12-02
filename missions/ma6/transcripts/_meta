@@ -111,8 +111,13 @@
           "name": "Surgeon",
           "short_name": "Flight Surgeon",
           "avatar": "surgeon.png"
-        }
-
+        },
+        "R": {
+           "role": "other",
+           "name": "Recovery helicopter",
+           "short_name": "Recovery helicopter",
+           "avatar": "copters_48.png"
+         }
     },
     "glossary": {
         "ASCS": {
