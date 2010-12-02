@@ -270,6 +270,9 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
         // Readjust height of overlay
         Artemis.transcriptView.setOverlayHeight();
         
+        // Mark the page boundaries for the window onscroll handler
+        Artemis.transcriptView.markTranscriptPageBoundaries();
+
         // Keep the topmost item in (almost the same place)
         $( window ).scrollTop(
             topLogLine.offsetTop - transcriptTop + initialWindowTop
@@ -321,26 +324,29 @@ Artemis.TranscriptView = Backbone.View.extend({
 
         this.overlay.click(this.selectionClose);
         this.el.find('#transcript').css({'cursor': 'pointer'});
-        
-        // Mark elements at the end of source transcript pages
-        // This will give us fewer elements to look at in the window.onscroll handler
-        var logLineElements = this.el.find('#transcript > div'),
-            currentPage, i;
 
-        for(i = logLineElements.length - 1; i >= 0; i--) {
-            var ll = $(logLineElements[i]),
-                page = ll.attr('data-transcript-page');
-
-            if(page != currentPage) {
-                ll.attr('data-end-transcript-page', true);
-                currentPage = page;
-            }
-        }
-
+        this.markTranscriptPageBoundaries();
         $(window).scroll(this.scrollWindow);
 
         this.bustPreventDefault(this.el.find('#transcript'));
 
+    },
+
+    markTranscriptPageBoundaries: function() {
+      // Mark elements at the end of source transcript pages
+      // This will give us fewer elements to look at in the window.onscroll handler
+      var logLineElements = this.el.find('#transcript > div'),
+          currentPage, i;
+
+      for(i = logLineElements.length - 1; i >= 0; i--) {
+          var ll = $(logLineElements[i]),
+              page = ll.attr('data-transcript-page');
+
+          if(page != currentPage) {
+              ll.attr('data-end-transcript-page', true);
+              currentPage = page;
+          }
+      }
     },
 
     gatherCurrentSelection: function() {
