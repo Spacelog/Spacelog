@@ -1,6 +1,7 @@
 {
     "name": "a11",
     "featured": true,
+    "incomplete": true,
     "subdomains": ["apollo11", "a11"],
     "copy": {
         "title": "Apollo 11",
