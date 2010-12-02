@@ -10527,7 +10527,7 @@ CMP: Hey, it's off - it's off. They - they killed
      the bus completely now.
 
 [02:08:37:07]
-CC:  13, Houston. We'd like you to isolate your 02
+CC:  13, Houston. We'd like you to isolate your O<sub>2</sub>
      surge tank. Over.
 
 [02:08:37:19]
@@ -10647,7 +10647,7 @@ CDR: Okay. We'll start with display number 1.
 CMP: Okay, Jack. On MDC 1, there's nothing abnormal.
      All the rate indicators are zero. Ball number 2
      is frozen, of course; we lost MAIN B. I've got -
-     Ball number i appears to be working normally.
+     Ball number 1 appears to be working normally.
      Right now I'm sitting at roll 0, pitch 180, and
      yaw about 13 degrees. I'm going to try and hold
      0, 180, and 0.
@@ -10684,7 +10684,7 @@ LMP: Okay, Jack. Starting at the top. Okay. The
      CRYO TANKS; H<sub>2</sub> 1 is reading 230 and the same for
      2. Our O<sub>2</sub> CRYO TANK 1 is - looks like it's barely
      holding its own at 300. And, CRYO TANK 2 is
-     reading zip. Our quantities: H<sub>2</sub> i is reading 73,
+     reading zip. Our quantities: H<sub>2</sub> 1 is reading 73,
      2, 74. On the O<sub>2</sub> side, we're reading O<sub>2</sub> 1 at
      quantity, 76; O<sub>2</sub> pegged to full scale high. RAD
      TEMPs PRIMARY INLET, we're reading about 55; RAD
@@ -11074,7 +11074,7 @@ CC:  It's slowly going to zero, and we're starting to
 
 [02:09:24:20]
 CMP: Yes. That's what we're thinking about, too. You
-     want me to do a quick P527 It kind of looks
+     want me to do a quick [glossary:P52 P52]? It kind of looks
      like - We've been talking it over, and it kind
      of looks like we'd probably aline our plats -
      [glossary:LM LM] platform with our platform and then power down
@@ -11224,7 +11224,7 @@ LMP: Okay. In the [glossary:CSM CSM], on panel 5, we want CB LM
      ASCENT ECA CONTROL breaker OPEN.
 
 [02:09:38:58]
-CC:  That's a good readhack, Fred.
+CC:  That's a good readback, Fred.
 
 [02:09:39:14]
 CC:  And, 13, Houston. As a final effort here, we
@@ -11265,7 +11265,7 @@ LMP: And, Jack, I got [glossary:LM LM] power on.
 CMP: Okay. You still with us, Houston?
 
 [02:09:43:03]
-CMP: Okay, Houston. You read 137
+CMP: Okay, Houston. You read 13?
 
 [02:09:43:06]
 CC:  Reading you loud and clear, Jack. I've got a
@@ -11447,7 +11447,7 @@ CC:  And, 13, in the [glossary:CSM CSM], we want to verify that all
 
 [02:09:55:56]
 CMP: Okay. Tank 2 fans going off. Okay. That leaves
-     me with tank i fans on the tank i heaters on.
+     me with tank 1 fans on the tank 1 heaters on.
 
 [02:09:56:08]
 CC:  That's affirm.
@@ -11506,7 +11506,7 @@ CDR: Do it right. Take your time.
 [02:10:01:32]
 CC:  And, Aquarius, Houston. We'd like you to, on your
      alinement, can you continue right on through the
-     fine aline Activation 317 Go right on through step 7. Over.
+     fine aline Activation 31? Go right on through step 7. Over.
 
 [02:10:01:45]
 LMP: Okay. You want to go on 31 through step number 7,
@@ -11760,7 +11760,7 @@ LMP: I wonder how much that's going to bring this up,
 
 [02:10:17:28]
 CDR: Jack, while he's doing that, copy down what you
-     Just said again. I want to write it down.
+     just said again. I want to write it down.
 
 [02:10:17:36]
 CC:  Aquarius, we need to get your sublimator powered
@@ -19487,7 +19487,7 @@ CDR: I got it out there, but I can't get to see it
 LMP: Okay, on channel - on page 18, right on down the
      line, everything holds until after "ignition";
      "if no ignition, START puskbutton -push; still
-     no ignition, DESCENT EN3INE COMMAND OVERRIDE
+     no ignition, DESCENT ENGINE COMMAND OVERRIDE
      switch ON."
 
 [03:03:16:14]
