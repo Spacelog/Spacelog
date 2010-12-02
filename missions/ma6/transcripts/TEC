@@ -80,7 +80,7 @@ CC: Roger. Cabin pressure holding at 6.1.
 P: Roger. Have had some oscillations, but they seem to be damping out okay now.
 
 [00:00:01:56]
-P: Coming ap on two minutes, and fuel is 102-101 [percent], oxygen 78 102 [percent]. The g's are building to 6.
+P: Coming up on two minutes, and fuel is 102-101 [percent], oxygen 78 102 [percent]. The g's are building to 6.
 
 [00:00:02:07]
 CC: Roger. Reading you loud and clear. Flight path looked good. Pitch 25 [degrees] Standby for.
@@ -560,7 +560,7 @@ P: Say again, Kano. Over.
 CC: Reading on your exhaust temperature.
 
 [00:00:22:56]
-P: Roger. Steam temperatme is 59 [degrees]. Over.
+P: Roger. Steam temperature is 59 [degrees]. Over.
 
 [00:00:23:00]
 CC: Roger. Friendship Seven. We have TM solid. If you want, we will standby
@@ -683,8 +683,8 @@ CC: Roger. You want to stand by for retrosequence time, Area 1 Charlie?
 
 [00:00:28:01]
 P: Roger. Going back on [glossary:ASCS ASCS]. Yaw check okay. Can pick up yaw fairly well
-     in the scope. It's a little different display than I bad really anticipated, but
-     it chceks okay, and I can pick up yaw. I have to be about 5° or so in yaw before I really start picking it up. Over.
+     in the scope. It's a little different display than I had really anticipated, but
+     it checks okay, and I can pick up yaw. I have to be about 5° or so in yaw before I really start picking it up. Over.
 
 [00:00:28:26]
 CC: Seven, you are fading rapidly. I will broadcast this time in the blind for Area 1
@@ -797,7 +797,7 @@ P: Roger, this is Friendship Seven. Are you ready to copy panel rundown? Over.
 CC: Roger, Friendship Seven. This is Zanzibar CapCom. Proceed.
 
 [00:00:34:48]
-P: Ah, Roger, Zanzibar CapCom. Friensdhip Seven. All fuses remain same as
+P: Ah, Roger, Zanzibar CapCom. Friendship Seven. All fuses remain same as
      previously reported; have not changed any of them. Squib is armed. Auto
      Retrojettison is off. [glossary:ASCS ASCS] is on normal, auto, gyro normal. All "T" handles
      are in. Retro Delay is normal. The sequence panel is normal. Landing bag
@@ -881,14 +881,14 @@ CT: Hello, Friendship Seven. Friendship Seven, [glossary:IOS IOS] Com Tech. Over
 P: Hello, [glossary:IOS IOS] Com Tech, Friendship Seven. Go ahead.
 
 [00:00:39:28]
-CT: Friendship Seven, Friendship Seven. This is Indian Com Tech on HF UtIF.
+CT: Friendship Seven, Friendship Seven. This is Indian Com Tech on HF UHF.
      How do you read? Over.
 
 [00:00:39:36]
 P: [glossary:IOS IOS], this is Friendship Seven. Do you read? Over.
 
 [00:00:39:49]
-CT: Friendship Seven, Friendship Seven. This is Indian Com Tech on HF UHP.
+CT: Friendship Seven, Friendship Seven. This is Indian Com Tech on HF UHF.
      How- do you read? Over.
 
 [00:00:39:55]
@@ -941,7 +941,7 @@ P: Roger. This is Friendship Seven. My status is very good. I feel fine. Fuel is
      holding at 5.5. Over.
 
 [00:00:42:20]
-CC: Roger, understand, reading you loud and elear now. Over.
+CC: Roger, understand, reading you loud and clear now. Over.
 
 [00:00:42:23]
 P: Roger, loud and clear.
@@ -957,14 +957,14 @@ P: This is Friendship Seven. At this, MARK, at this present time, I still have s
 CC: Roger, under. ...
 
 [00:00:43:06]
-P: The sky above is absolutely black, completely black. I can see stars though np
+P: The sky above is absolutely black, completely black. I can see stars though up
      above. I do not have any of the constellations identified as yet. Over.
 
 [00:00:43:17]
 CC: Roger, understand Friendship Seven.
 
 [00:00:43:27]
-CC: Friendship Seven. Would you confirm you received retrosequenee time 1 Deha
+CC: Friendship Seven. Would you confirm you received retrosequence time 1 Delta
      from Zanzibar? Over.
 
 [00:00:43:34]
@@ -1129,7 +1129,7 @@ CC: Roger. Do you have any star or weather or landmark observations as yet? Over
 [00:00:50:29]
 P: Roger. I was just making some to the recorder. The only unusual thing I have
      noticed is a rather high, what would appear to be a haze layer up some 7 or 8
-     degrees above tiw horizon on the night side. The stars I can see through it as
+     degrees above the horizon on the night side. The stars I can see through it as
      they go down toward the real horizon, but it is a very visible single band or layer
      pretty well up above the normal horizon. Over.
 
@@ -1142,7 +1142,7 @@ P: This is Friendship Seven. I had a lot of cloud cover coming off of Africa. It
      is a lot of moonlight here that does reflect off what clouds there are. Over.
 
 [00:00:51:16]
-CC: Roger. You hnd an excellent cutoff, John. Your velocity was 8 feet per second low.
+CC: Roger. You had an excellent cutoff, John. Your velocity was 8 feet per second low.
      V over V<sub>R</sub>, 1.0002. Can you confirm your retrosequence I Easy, Foxtrot, and
      Hotel from Indian Ocean Ship? Over.
 
