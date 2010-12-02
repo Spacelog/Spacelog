@@ -322,16 +322,20 @@ Artemis.TranscriptView = Backbone.View.extend({
         this.overlay.click(this.selectionClose);
         this.el.find('#transcript').css({'cursor': 'pointer'});
         
-        // Mark elements at the start of new source transcript pages
+        // Mark elements at the end of source transcript pages
         // This will give us fewer elements to look at in the window.onscroll handler
-        var currentPage = null;
-        this.el.find('#transcript > div').each(function() {
-          var page = $(this).attr('data-transcript-page');
-          if(page != currentPage) {
-            $(this).attr('data-new-transcript-page', true);
-            currentPage = page;
-          }
-        });
+        var logLineElements = this.el.find('#transcript > div'),
+            currentPage, i;
+
+        for(i = logLineElements.length - 1; i >= 0; i--) {
+            var ll = $(logLineElements[i]),
+                page = ll.attr('data-transcript-page');
+
+            if(page != currentPage) {
+                ll.attr('data-end-transcript-page', true);
+                currentPage = page;
+            }
+        }
 
         $(window).scroll(this.scrollWindow);
 
@@ -425,12 +429,16 @@ Artemis.TranscriptView = Backbone.View.extend({
 
         var target = $(window).scrollTop();
         var visible = _.detect(
-                this.el.find('#transcript > div[data-new-transcript-page]'),
+                this.el.find('#transcript > div[data-end-transcript-page]'),
                 function(el) { return el.offsetTop >= target; }
             );
 
-        var logLine = new Artemis.LogLine({el: $(visible)});
-        Artemis.phasesView.setOriginalTranscriptPage(logLine.getTranscriptPage());
+        if(!visible) {
+            return;
+        }
+
+        var page = $(visible).attr('data-transcript-page');
+        Artemis.phasesView.setOriginalTranscriptPage(page);
     },
     bustPreventDefault: function(transcriptElement) {
         // Bust through the div's click event to allow all links to work apart from 
