@@ -130,6 +130,7 @@
             "photo": "capcom.jpg",
             "photo_width": 205,
             "photo_height": 138,
+            "avatar": "capcom_generic.png",
             "shifts": [
             ]
         },
@@ -152,6 +153,7 @@
           "photo": "neil_armstrong.jpg",
           "photo_width": 162,
           "photo_height": 205,
+          "avatar": "neil_armstrong.png",
           "stats": [
             {
                 "value": 206,
@@ -193,6 +195,7 @@
           "photo": "buzz_aldrin.jpg",
           "photo_width": 163,
           "photo_height": 205,
+          "avatar": "buzz_aldrin.png",
           "stats": [
             {
                 "value": 290,
@@ -234,6 +237,7 @@
           "photo": "michael_collins.jpg",
           "photo_width": 159,
           "photo_height": 205,
+          "avatar": "michael_collins.png",
           "stats": [
             {
                 "value": 266,
@@ -359,10 +363,17 @@
           "short_name": "Glynn Lunney",
           "mission_position": "Flight Director"
         },
+        "PRESIDENT NIXON": {
+          "role": "other",
+          "name": "President Nixon",
+          "short_name": "President Nixon",
+          "avatar": "nixon.png"
+        },
         "N": {
           "role": "other",
           "name": "Noise of some kind",
-          "short_name": "Noise of some kind"
+          "short_name": "Noise of some kind",
+          "avatar": "blank_48.png"
         },
         "SC": {
           "role": "other",
@@ -379,13 +390,8 @@
         "CT": {
           "role": "other",
           "name": "Communications Technician",
-          "short_name": "CommTech"
-        },
-        "AB": {
-          "role": "other",
-          "name": "Airboss (Recovery aircraft)",
-          "short_name": "Airboss",
-          "avatar": "AB_48.png"
+          "short_name": "CommTech",
+          "avatar": "person.png"
         },
         "HORNET": {
           "role": "other",
@@ -393,19 +399,12 @@
           "short_name": "USS Hornet",
           "avatar": "IWO_48.png"
         },
-        "R": {
+        "SWIM 1": {
           "role": "other",
-          "name": "Recovery helicopter",
-          "short_name": "Recovery helicopter",
-          "avatar": "copters_48.png"
-        },
-        "LCC": {
-          "role": "other",
-          "name": "Launch Control Center",
-          "short_name": "Launch Control",
-          "avatar": "LCC_48.png"
+          "name": "Swim 1",
+          "short_name": "Swimmer",
+          "avatar": "person.png"
         }
-
     },
     "glossary": {},
     "error_pages": {
