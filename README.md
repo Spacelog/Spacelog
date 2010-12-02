@@ -62,7 +62,7 @@ and here's one for a virtual machine (you'll need to change the dotted quad at t
 
 The project homepage will appear at [http://artemis:3000/](http://artemis:3000/), and the per-mission sites at [http://apollo13.artemis:8000/](http://apollo13.artemis:8000/) (which will show the Apollo 13 mission), [http://mercury6.artemis:8000/](http://mercury6.artemis:8000/) (Mercury-Atlas 6) and so on.
 
-Whenever you edit information about a mission, or add a new one, you need to run `make reindex` again.
+Whenever you edit information about a mission, or add a new one, you need to run `make reindex` again. If you get errors you may find the `lognag.pl` script in `mcshred/src` useful: just give it some transcript files and it'll tell you where it finds possible errors or weirdnesses. (For new missions, you'll probably have to add things into the valid speakers list at line 71.)
 
 ## Technical glossary
 
