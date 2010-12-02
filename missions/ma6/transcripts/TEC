@@ -847,7 +847,7 @@ CC: Roger, Friendship Seven. Are you ready to copy your Contingency Area 1 Delta
 P: Roger. Say 1 Delta.
 
 [00:00:37:30]
-CC: I Delta is [time:00:00:50:24 00 50 24]. Did you copy? Over.
+CC: 1 Delta is [time:00:00:50:24 00 50 24]. Did you copy? Over.
 
 [00:00:37:35]
 P: Roger. [time:00:00:50:24 00 50 24] for 1 Delta.
@@ -949,7 +949,7 @@ P: Roger, loud and clear.
 [00:00:42:31]
 P: This is Friendship Seven. At this, MARK, at this present time, I still have some
      clouds visible below me, the sunset was beautiful. It went down very rapidly.
-     I still have a brilliant blue band clear across the horizon almost covering lily
+     I still have a brilliant blue band clear across the horizon almost covering my
      whole window. The redness of the sunset I can still see through some of the
      clouds way over to the left of my course. Over.
 
@@ -985,7 +985,7 @@ CC: Roger. Let me know.
 P: All right, go ahead with retrotimes. Over.
 
 [00:00:43:57]
-CC: Roger. Area I Echo is one hour, 15 minutes, 42 seconds. I say again, one hour,
+CC: Roger. Area 1 Echo is one hour, 15 minutes, 42 seconds. I say again, one hour,
      15 minutes, 42 seconds. Over.
 
 [00:00:44:07]
@@ -1143,7 +1143,7 @@ P: This is Friendship Seven. I had a lot of cloud cover coming off of Africa. It
 
 [00:00:51:16]
 CC: Roger. You had an excellent cutoff, John. Your velocity was 8 feet per second low.
-     V over V<sub>R</sub>, 1.0002. Can you confirm your retrosequence I Easy, Foxtrot, and
+     V over V<sub>R</sub>, 1.0002. Can you confirm your retrosequence 1 Easy, Foxtrot, and
      Hotel from Indian Ocean Ship? Over.
 
 [00:00:51:29]
@@ -1332,7 +1332,7 @@ P: Roger. Panel rundown follows: The fuse switches on the left panel are all as
      Handles are in. The Retro Delay is normal, Cabin lights are on both. I have
      the red filters on, of course. The Telem low frequence is on. Rescue Aids is
      auto. All sequence panel items are normal except the Landing Bag to the 
-     centeroff position. Fuel is 90-100 [percent]. Attitude indications are 5 [degrees] right,
+     center-off position. Fuel is 90-100 [percent]. Attitude indications are 5 [degrees] right,
      3 [degrees] left, 36 [degrees] down. EPI is indicating fairly well, indicating
      almost over Woomera at present time. Time from launch on my mark will be
      58 plus 15. Standby-MARK. Retrograde time is still set at 04 plus 32 plus 28.
