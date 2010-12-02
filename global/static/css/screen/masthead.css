@@ -26,6 +26,29 @@
 #masthead h1 a.mission {
     color:                   #f8b334;
 }
+#masthead a.twitter {
+    background:             transparent
+                            url( ../img/bird.png )
+                            no-repeat
+                            0 0;
+    color:                  #5f5f5f;
+    float:                  right;
+    font-size:              24px;
+    line-height:            20px;
+    margin-top:             9px;
+    padding-left:           35px;
+}
+#masthead a.twitter span {
+    left:                   -999em;
+    position:               absolute;
+}
+#masthead a.twitter:hover,
+#masthead a.twitter:focus,
+#masthead a.twitter:active {
+    background-position:    0 -21px;
+    color:                  #797979;
+    text-decoration:        none;
+}
 
 #masthead nav ul {
     width:                  540px;

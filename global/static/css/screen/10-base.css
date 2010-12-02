@@ -36,9 +36,10 @@ a:active {
     zoom:                   1;
 }
 #attribution {
-    padding:                10px 0 14px;
+    clear:                  left;
     float:                  left;
     font-weight:            bold;
+    padding:                10px 0 14px;
 }
 #cta {
     background:             transparent
@@ -49,6 +50,18 @@ a:active {
 }
 #cta a {
     font-weight:            bold;
+}
+#cta,
+#cta-links,
+#cta-links li {
+    float:                  left;
+}
+#cta-links li {
+    margin-top:             14px;
+    padding:                0 6px;
+}
+#cta-links li + li {
+    border-left:            1px solid #fff;
 }
 #footer .credits {
     padding:                10px 0 14px;
