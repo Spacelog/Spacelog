@@ -1,11 +1,11 @@
 This is documentation for/a sample of the Transcript File format.
 
-The best file to look at, initially, is a13/TEC, which describes the format of
+The best file to look at, initially, is TEC, which describes the format of
 the Transcript Files.
 
 Other files of note:
 
-- a13/MEDIA: a sample ‘media stream’ Transcript File, detailing a wholly
+- MEDIA: a sample ‘media stream’ Transcript File, detailing a wholly
   non-textual stream
-- a13/_meta: A file describing non-stream specific (but limited to a13)
-  metadata, such as acts, key scenes, and glossary.
+- _meta: A file describing non-stream specific (but limited to the
+  mission) metadata, such as acts, key scenes, and glossary.
