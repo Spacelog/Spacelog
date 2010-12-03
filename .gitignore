@@ -5,6 +5,6 @@
 /website/static/css/screen.css
 /global/static/css/screen.css
 /missions/*/images/stats
-/missions/*/images/stats/
+/missions/*/images/original
 /xappydb
 ENV
