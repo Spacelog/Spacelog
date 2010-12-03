@@ -134,8 +134,7 @@
     left:                   -999em;
 }
 
-#transcript abbr,
-#transcript i {
+#transcript .jargon {
     border-bottom:          1px solid #999;
     cursor:                 help;
 }

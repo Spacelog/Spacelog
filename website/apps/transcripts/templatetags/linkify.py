@@ -28,7 +28,7 @@ def glossary_link(match, request):
     term = match.group(2)
 
     if title:
-        term = "<%(tag)s title='%(title)s'>%(text)s</%(tag)s>" % {
+        term = "<%(tag)s class='jargon' title='%(title)s'>%(text)s</%(tag)s>" % {
                     "tag":   tag,
                     "title": title,
                     "text":  match.group(1),
