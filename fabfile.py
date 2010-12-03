@@ -11,6 +11,8 @@ Use the setup action to build the bits you need.
 
 from fabric.api import *
 from fabric.contrib.files import exists
+import tempfile
+import os
 
 env.branch = "master"
 
@@ -170,6 +172,36 @@ def prepare_release(dirty=False):
                 'release': env.release
             }
         )
+    make_local_settings()
+
+def make_local_settings():
+    """
+    make a local_settings.py that changes the deployed URLs
+    for static files (both global and mission-specific) to use
+    env.release in its path.
+    
+    then put it up to the release on live
+    """
+    require('release', provided_by=[deploy])
+    # and 
+    (fd, fname) = tempfile.mkstemp()
+    os.write(fd, """
+# Override the default CDN URLs to use this release's timestamp
+#STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/website/'
+#MISSIONS_STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/website/missions/'
+""" % {
+        'release': env.release,
+    }
+    )
+    os.close(fd)
+    put(
+        fname,
+        '%(path)s/release/%(release)s/local_settings.py' % {
+            'path': env.path,
+            'release': env.release,
+        }
+    )
+    os.unlink(fname)
 
 def restart_webserver():
     "Restart the web server"
