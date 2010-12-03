@@ -56,7 +56,8 @@ Artemis.HighlightedLogLineCollection = Backbone.Collection.extend({
             out.push(last);
             out.push('/');
         }
-        out.push('#show-selection');
+        // console.log( this.first().id );
+        out.push('#log-line-' + this.first().id);
         return out.join('');
     }
 });

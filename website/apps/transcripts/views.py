@@ -146,7 +146,7 @@ class PageView(TranscriptView):
             'permalink': 'http://%s%s%s' % (
                 self.request.META['HTTP_HOST'],
                 self.request.path,
-                '#show-selection',
+                '#log-line-%s' % timestamp_to_seconds(start),
             )
         }
 

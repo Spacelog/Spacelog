@@ -40,4 +40,4 @@ def selection_url(start_seconds, end_seconds=None):
         url = reverse("view_range", kwargs={"start": mission_time(start_seconds)})
     else:
         url = reverse("view_range", kwargs={"start": mission_time(start_seconds), "end": mission_time(end_seconds)})
-    return '%s#show-selection' % url
+    return '%s#log-line-%i' % ( url, start_seconds )
