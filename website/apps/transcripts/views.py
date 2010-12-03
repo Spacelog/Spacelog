@@ -1,5 +1,6 @@
 from django.http import Http404, HttpResponseRedirect
 from django.views.generic import TemplateView
+from django.core.urlresolvers import reverse
 from website.apps.common.template import JsonTemplateView
 from backend.api import LogLine, Act
 from backend.util import timestamp_to_seconds
@@ -92,13 +93,20 @@ class PageView(TranscriptView):
     template_name = 'transcripts/page.html'
     
     def render_to_response(self, context):
-        # 302 to the start of the current page if we're not there
-        start = timestamp_to_seconds( context['start'] )
-        if start != context['log_lines'][0].timestamp:
+        # If we're on the first page, but have a timestamp,
+        # redirect to the bare page URL
+        if context['start'] \
+        and not context['log_lines'][0].previous():
+            return HttpResponseRedirect( reverse("view_page") )
+        # If we're on any other page and the timestamp doesn't match
+        # the timestamp of the first item, redirect to that item's timestamp
+        elif context['start'] \
+        and timestamp_to_seconds( context['start'] ) != context['log_lines'][0].timestamp:
             page_start_url = timestamp_to_url(
                 context['log_lines'][0].timestamp
             )
             return HttpResponseRedirect( page_start_url )
+        
         return super( PageView, self ).render_to_response( context )
     
     def get_context_data(self, start=None, end=None):
@@ -130,6 +138,11 @@ class PageView(TranscriptView):
         else:
             original_transcript_page = None
         
+        if start:
+            permalink_fragment = '#log-line-%s' % timestamp_to_seconds(start)
+        else:
+            permalink_fragment = '#log-line-%s' % log_lines[0].timestamp
+        
         return {
             'start' : start,
             'log_lines': log_lines,
@@ -146,7 +159,7 @@ class PageView(TranscriptView):
             'permalink': 'http://%s%s%s' % (
                 self.request.META['HTTP_HOST'],
                 self.request.path,
-                '#log-line-%s' % timestamp_to_seconds(start),
+                permalink_fragment,
             )
         }
 
