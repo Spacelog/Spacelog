@@ -19,6 +19,18 @@ Artemis.LogLine = Backbone.Model.extend({
 
     getTranscriptPage: function() {
         return this.view.el.attr('data-transcript-page');
+    },
+
+    getText: function() {
+        return this.view.el.find('dd').text().replace(/^\s+/, '').replace(/\s+$/, '');
+    },
+
+    getTweetableQuote: function() {
+        var tweetableQuote = this.getText();
+        if(tweetableQuote.length > 103) {
+          tweetableQuote = tweetableQuote.substring(0, 100) + '...';
+        }
+        return '"' + tweetableQuote + '"';
     }
 });
 
@@ -70,7 +82,10 @@ Artemis.LogLineView = Backbone.View.extend({
         'click dd #contract-next':    'contractNext'
     },
 
-    rangeAdvisoryTemplate: '<p id="range-advisory">Spoken on <%= time %><span>. </span><i>Link to this<span> transcript range is</span>:</i> <input type="text" name="" value="<%= permalink %>"></p>',
+    rangeAdvisoryTemplate: '<p id="range-advisory">\
+                            Spoken on <%= time %><span>. </span><i>Link to this<span> transcript range is</span>:</i> <input type="text" name="" value="<%= permalink %>">\
+                            <iframe allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" class="twitter-share-button twitter-count-horizontal" src="<%= twitter_iframe_url %>" title="Twitter For Websites: Tweet Button"></iframe>\
+                            </p>',
 
     highlight: function() {
         this.el.addClass('highlighted');
@@ -158,9 +173,14 @@ Artemis.LogLineView = Backbone.View.extend({
     },
     createRangeAdvisory: function() {
         if (!this.el.children('#range-advisory').length) {
+            var twitterURL = "http://platform.twitter.com/widgets/tweet_button.html?count=horizontal&amp;lang=en&amp;" +
+                             "text=" + encodeURIComponent( this.model.collection.first().getTweetableQuote() ) + "&amp;" +
+                             "url=" + encodeURIComponent( this.model.collection.getURL() );
+
             var rangeAdvisory = $(_.template(this.rangeAdvisoryTemplate, {
                 time: this.model.collection.first().view.el.find('time').data('range-advisory'),
-                permalink: this.model.collection.getURL()
+                permalink: this.model.collection.getURL(),
+                twitter_iframe_url: twitterURL
             }));
             // Select text in text field on focus
             rangeAdvisory.find('input').click(function() {
@@ -271,6 +291,9 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
         // Readjust height of overlay
         Artemis.transcriptView.setOverlayHeight();
         
+        // Mark the page boundaries for the window onscroll handler
+        Artemis.transcriptView.markTranscriptPageBoundaries();
+
         // Keep the topmost item in (almost the same place)
         $( window ).scrollTop(
             topLogLine.offsetTop - transcriptTop + initialWindowTop
@@ -306,7 +329,7 @@ Artemis.TranscriptView = Backbone.View.extend({
     highlightedLines: new Artemis.HighlightedLogLineCollection(),
     
     initialize: function() {
-        _.bindAll(this, 'selectionClose', 'setOverlayHeight', 'scrollWindow');
+        _.bindAll(this, 'selectionClose', 'setOverlayHeight', 'scrollWindow', 'keyDown');
 
         if ($('#load-previous').size()) {
             this.loadPreviousButton = new Artemis.LoadMoreButtonView({
@@ -323,8 +346,30 @@ Artemis.TranscriptView = Backbone.View.extend({
         this.overlay.click(this.selectionClose);
         this.el.find('#transcript').css({'cursor': 'pointer'});
 
+        this.markTranscriptPageBoundaries();
+        $(window).scroll(this.scrollWindow);
+
+        $('body').keydown(this.keyDown);
+
         this.bustPreventDefault(this.el.find('#transcript'));
 
+    },
+
+    markTranscriptPageBoundaries: function() {
+      // Mark elements at the end of source transcript pages
+      // This will give us fewer elements to look at in the window.onscroll handler
+      var logLineElements = this.el.find('#transcript > div'),
+          currentPage, i;
+
+      for(i = logLineElements.length - 1; i >= 0; i--) {
+          var ll = $(logLineElements[i]),
+              page = ll.attr('data-transcript-page');
+
+          if(page != currentPage) {
+              ll.attr('data-end-transcript-page', true);
+              currentPage = page;
+          }
+      }
     },
 
     gatherCurrentSelection: function() {
@@ -413,12 +458,16 @@ Artemis.TranscriptView = Backbone.View.extend({
 
         var target = $(window).scrollTop();
         var visible = _.detect(
-                this.el.find('#transcript > div'),
+                this.el.find('#transcript > div[data-end-transcript-page]'),
                 function(el) { return el.offsetTop >= target; }
             );
 
-        var logLine = new Artemis.LogLine({el: $(visible)});
-        Artemis.phasesView.setOriginalTranscriptPage(logLine.getTranscriptPage());
+        if(!visible) {
+            return;
+        }
+
+        var page = $(visible).attr('data-transcript-page');
+        Artemis.phasesView.setOriginalTranscriptPage(page);
     },
     bustPreventDefault: function(transcriptElement) {
         // Bust through the div's click event to allow all links to work apart from 
@@ -427,6 +476,15 @@ Artemis.TranscriptView = Backbone.View.extend({
             e.stopImmediatePropagation();
             return true;
         });
+    },
+    keyDown: function(e) {
+        if(e.keyCode === 27) {
+            this.selectionClose();
+            return false;
+        }
+        else {
+            return true;
+        }
     }
 });
 
@@ -482,7 +540,9 @@ Artemis.PhasesView = Backbone.View.extend({
     },
 
     setOriginalTranscriptPage: function(page) {
-        this.el.find('.original a').attr('href', '/original/' + page + '/');
+        this.el.find('.original a')
+          .attr('href', '/original/' + page + '/')
+          .attr('title', 'View original transcript, page ' + page);
     }
 });
 
