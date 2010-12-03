@@ -500,7 +500,7 @@
             "description": "Blunt end forward"
         },
         "CCGE": {
-            "description": "Cold cathode gag.s experiment"
+            "description": "Cold cathode gage experiment"
         },
         "CCIG": {
             "description": "Cold cathode ion gage"
