@@ -19,6 +19,18 @@ Artemis.LogLine = Backbone.Model.extend({
 
     getTranscriptPage: function() {
         return this.view.el.attr('data-transcript-page');
+    },
+
+    getText: function() {
+        return this.view.el.find('dd').text().replace(/^\s+/, '').replace(/\s+$/, '');
+    },
+
+    getTweetableQuote: function() {
+        var tweetableQuote = this.getText();
+        if(tweetableQuote.length > 103) {
+          tweetableQuote = tweetableQuote.substring(0, 100) + '...';
+        }
+        return '"' + tweetableQuote + '"';
     }
 });
 
@@ -69,7 +81,10 @@ Artemis.LogLineView = Backbone.View.extend({
         'click dd #contract-next':    'contractNext'
     },
 
-    rangeAdvisoryTemplate: '<p id="range-advisory">Spoken on <%= time %><span>. </span><i>Link to this<span> transcript range is</span>:</i> <input type="text" name="" value="<%= permalink %>"></p>',
+    rangeAdvisoryTemplate: '<p id="range-advisory">\
+                            Spoken on <%= time %><span>. </span><i>Link to this<span> transcript range is</span>:</i> <input type="text" name="" value="<%= permalink %>">\
+                            <iframe allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" class="twitter-share-button twitter-count-horizontal" src="<%= twitter_iframe_url %>" title="Twitter For Websites: Tweet Button"></iframe>\
+                            </p>',
 
     highlight: function() {
         this.el.addClass('highlighted');
@@ -157,9 +172,14 @@ Artemis.LogLineView = Backbone.View.extend({
     },
     createRangeAdvisory: function() {
         if (!this.el.children('#range-advisory').length) {
+            var twitterURL = "http://platform.twitter.com/widgets/tweet_button.html?count=horizontal&amp;lang=en&amp;" +
+                             "text=" + encodeURIComponent( this.model.collection.first().getTweetableQuote() ) + "&amp;" +
+                             "url=" + encodeURIComponent( this.model.collection.getURL() );
+
             var rangeAdvisory = $(_.template(this.rangeAdvisoryTemplate, {
                 time: this.model.collection.first().view.el.find('time').data('range-advisory'),
-                permalink: this.model.collection.getURL()
+                permalink: this.model.collection.getURL(),
+                twitter_iframe_url: twitterURL
             }));
             // Select text in text field on focus
             rangeAdvisory.find('input').click(function() {

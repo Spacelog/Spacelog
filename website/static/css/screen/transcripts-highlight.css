@@ -124,6 +124,14 @@
     color:                  #666;
     width:                  250px;
 }
+#range-advisory a,
+#range-advisory iframe {
+    float:                  right;
+}
+#range-advisory iframe {
+    width:                  110px;
+    height:                 20px;
+}
 #highlight-overlay {
     position:               absolute;
     top:                    38px;
