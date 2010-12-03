@@ -1488,11 +1488,11 @@ P: Roger, Canton. Friendship Seven repeating. First, do you have TM solid?
 CC: Friendship Seven, this is Canton. Affirmative, we do have TM solid.
 
 [00:01:11:07]
-P: Roger, message follows: Control fuel 90-100 [percent], oxygen 73-100 [perccntl,
+P: Roger, message follows: Control fuel 90-100 [percent], oxygen 73-100 [percent],
      amps 22, cabin pressure 5.5 and holding steady. Over.
 
 [00:01:11:21]
-CC: Ah, Roger, Friendship Seven. What control nmde are you ill the present time?
+CC: Ah, Roger, Friendship Seven. What control mode are you ill the present time?
      Over.
 
 [00:01:11:26]
@@ -1804,7 +1804,7 @@ CC: Friendship Seven, Guaymas. I said the, I have an indication of scope retract
      Your say your scope is out, though? Over.
 
 [00:01:30:26]
-P: That is affrmative.
+P: That is affirmative.
 
 [00:01:30:28]
 _extra : CALIFORNIA (FIRST ORBIT)
@@ -1972,7 +1972,7 @@ P: Roger. This is Friendship Seven, controlling manually on fly-by-wire, having 
 CC: Roger.
      22. 4 P Continuing with the report. No sequence panel lights showing. Only abnormal
      position. Landing bag is off. The EPI is indicating okay. Control fuel is 80
-     [percent] auto, 100 [percent] nmnual. Retrograde time set in is 04 plus 32 plus 28.
+     [percent] auto, 100 [percent] manual. Retrograde time set in is 04 plus 32 plus 28.
      Over.
 
 [00:01:38:00]
@@ -2190,7 +2190,7 @@ CC: Friendship Seven, Friendship Seven, Friendship Seven, this is Canary Cap Com
 
 [00:01:48:58]
 P: Hello, Canary Cap Com. Friendship Seven. I read you loud and clear. How
-     nle?
+     me?
 
 [00:01:49:02]
 CC: I read you loud and clear. I am instructed to ask you to correlate the actions of
@@ -2238,7 +2238,7 @@ P: Roger. Friendship Seven. Deep breath.
 CC: That's good.
 
 [00:01:50:52]
-P: This is Friendship beven. Have Cape Verde Islands in sight to my left. Over.
+P: This is Friendship Seven. Have Cape Verde Islands in sight to my left. Over.
 
 [00:01:50:59]
 CC: Roger, I understand.
@@ -2250,7 +2250,7 @@ CC: Friendship Seven, your medical status is excellent.
 P: Roger. Friendship Seven.
 
 [00:01:51:15]
-P: This is Friendship Seven. The sun coming through the wiudow is very warm
+P: This is Friendship Seven. The sun coming through the window is very warm
      where it hits the suit. I get quite a bit of heat from it.
 
 [00:01:51:23]
