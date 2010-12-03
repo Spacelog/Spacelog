@@ -328,7 +328,7 @@ Artemis.TranscriptView = Backbone.View.extend({
     highlightedLines: new Artemis.HighlightedLogLineCollection(),
     
     initialize: function() {
-        _.bindAll(this, 'selectionClose', 'setOverlayHeight', 'scrollWindow');
+        _.bindAll(this, 'selectionClose', 'setOverlayHeight', 'scrollWindow', 'keyDown');
 
         if ($('#load-previous').size()) {
             this.loadPreviousButton = new Artemis.LoadMoreButtonView({
@@ -347,6 +347,8 @@ Artemis.TranscriptView = Backbone.View.extend({
 
         this.markTranscriptPageBoundaries();
         $(window).scroll(this.scrollWindow);
+
+        $('body').keydown(this.keyDown);
 
         this.bustPreventDefault(this.el.find('#transcript'));
 
@@ -473,6 +475,15 @@ Artemis.TranscriptView = Backbone.View.extend({
             e.stopImmediatePropagation();
             return true;
         });
+    },
+    keyDown: function(e) {
+        if(e.keyCode === 27) {
+            this.selectionClose();
+            return false;
+        }
+        else {
+            return true;
+        }
     }
 });
 
