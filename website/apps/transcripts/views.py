@@ -166,25 +166,29 @@ class RangeView(PageView):
         
         start_line = context['first_highlighted_line']
         end_line   = start_line
+        # Find the last log_line in the current selection if we have a range
         if end:
             for log_line in context['log_lines']:
                 if end_line.timestamp <= log_line.timestamp <= end:
                     end_line = log_line
-                if log_line.timestamp == end:
+                elif end <= log_line.timestamp:
                     break
         
-        # Get the URL to 302 to
-        # NOTE: this covers start-only (if), end-only (elif), 
-        # /and/ start and end (elif)
+        # Get the URL we should redirect to
         page_start_url = None
         if start != start_line.timestamp and not end:
+            # We have an invalid start-time, but no end-time
             page_start_url = selection_url( start_line.timestamp )
-        elif end and end != end_line.timestamp:
+        elif (start != start_line.timestamp) \
+          or (end and end != end_line.timestamp):
+            # We have an invalid start/end time in a range
+            # Doesn't matter if start is valid or not: this will handle both
             page_start_url = selection_url(
                 start_line.timestamp,
                 end_line.timestamp
             )
         
+        # Redirect to the URL we found
         if page_start_url:
             return HttpResponseRedirect( page_start_url )
             
