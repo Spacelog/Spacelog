@@ -122,7 +122,10 @@
 }
 #range-advisory input {
     color:                  #666;
-    width:                  250px;
+    width:                  300px;
+    border:                 1px solid #a2a2a2;
+    background:             #e3e3e3;
+    padding:                1px;
 }
 #range-advisory a,
 #range-advisory iframe {
