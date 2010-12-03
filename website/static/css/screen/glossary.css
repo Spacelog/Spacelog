@@ -33,10 +33,22 @@
     font:                   18px Helvetica, Arial, sans-serif;
     font-weight:            bold;
     line-height:            24px;
+    padding:                0 3px;
+    margin-left:            -3px;
+}
+.glossary dt:target {
+    background:             #eee;
+    color:                  #333;
+    -cp-border-radius:      2px;
 }
 .glossary dd {
     font:                   18px Helvetica, Arial, sans-serif;
     line-height:            24px;
     margin-left:            240px;
     margin-bottom:          20px;
+}
+.glossary dd.extended {
+    font-size:              14px;
+    line-height:            1.3;
+    margin-top:             -15px;
 }

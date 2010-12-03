@@ -1,5 +1,5 @@
 {% load missions %}<h3>{% if not mission.coming_soon %}<a href="{{ mission.name|mission_url }}">{% endif %}
-        <img src="{{ STATIC_URL }}missions/{{ mission.name }}/images/badge.png" alt=""
+        <img src="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/badge.png" alt=""
       width="200" height="200">
   {{ mission.title }}
 {% if not mission.coming_soon %}</a>{% endif %}</h3>

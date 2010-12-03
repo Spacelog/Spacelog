@@ -5,6 +5,8 @@ PATH/releases -- unpacked versions (versioned by datetime of fabric invocation)
   also current & previous doing the obvious thing (as symlinks)
   within each, ENV a virtualenv just for that version
 PATH/archives -- tgz archives of versions
+
+Use the setup action to build the bits you need.
 """
 
 from fabric.api import *
@@ -54,12 +56,8 @@ def deploy(dirty=False):
     ponder_release()
 
     export_and_upload_tar_from_git()
-    if dirty:
-        copy_previous_virtualenv()
-        update_release_virtualenv()
-    else:
-        make_release_virtualenv()
-    prepare_release()
+    make_release_virtualenv()
+    prepare_release(dirty)
     switch_to(env.release)
     restart_webserver()
 
@@ -97,55 +95,19 @@ def ponder_release():
     import time
     env.release = time.strftime('%Y-%m-%dT%H.%M.%S')
 
-def export_and_upload_tar_from_svn():
-    "Create an archive from the current SVN repo"
-    export_from_svn()
-    make_tar()
-    upload_tar()
-    
-def export_from_svn():
-    require('release', provided_by=[deploy])
-    local('svn export %(svn_url)s %(release)s --username %(user)s --password %(password)s' % {
-        'svn_url': env.svn_url,
-        'release': env.release,
-        'user': env.svn_user,
-        'password': env.svn_password,
-    })
-
-def export_and_upload_tar_from_hg():
-    "Create an archive from the hg repo"
-    require('release', provided_by=[deploy])
-    export_from_hg()
-    make_tar()
-    upload_tar()
-    
-def export_from_hg():
-    require('release', provided_by=[deploy])
-    local('hg archive %(release)s' % {
-        'release': env.release,
-    })
-
 def export_and_upload_tar_from_git():
-    "Create an archive from the git remote."
+    "Create an archive from the git local repo."
     require('release', provided_by=[deploy])
     export_tgz_from_git()
     upload_tar()
 
 def export_tgz_from_git():
-    "Create an archive from the git remote."
+    "Create an archive from the git local repo."
     local("git archive --format=tar --prefix=%(release)s/ %(branch)s | gzip -c > %(release)s.tar.gz" % {
         'release': env.release,
         'branch': env.branch,
         }
     )
-
-def make_tar():
-    require('release', provided_by=[deploy])
-    local('tar -cf - %(release)s | gzip -c > %(release)s.tar.gz' % {
-            'release': env.release
-        }
-    )
-    local('rm -fr %s' % env.release)
 
 def upload_tar():
     require('release', provided_by=[deploy])
@@ -160,16 +122,6 @@ def make_release_virtualenv():
     require('release', provided_by=[deploy])
     new_release_virtualenv()
     update_release_virtualenv()
-
-def copy_previous_virtualenv():
-    "Copy a previous virtualenv, for when making a new one is too much of a PITA"
-    require('release', provided_by=[deploy])
-    run(
-        "cp -a %(path)s/releases/current/ENV %(path)s/releases/%(release)s/ENV" % {
-            'path': env.path,
-            'release': env.release,
-        }
-    )
     
 def new_release_virtualenv():
     "Create a new virtualenv, install pip, and upgrade setuptools"
@@ -195,17 +147,29 @@ def update_release_virtualenv():
         }
     )
 
-def prepare_release():
+def prepare_release(dirty=False):
     "Do any release-local build actions."
     require('release', provided_by=[deploy])
-    run(
-        "make -C %(path)s/releases/%(release)s/" % {
-            'environment': env.environment,
-            'path': env.path,
-            'project': env.django_project_name,
-            'release': env.release
-        }
-    )
+    if dirty:
+        # basically, don't reindex, but copy the xappydb from the
+        # currently-running deploy (in ../current)
+        run(
+            "make -C %(path)s/releases/%(release)s/ dirty" % {
+                'environment': env.environment,
+                'path': env.path,
+                'project': env.django_project_name,
+                'release': env.release
+            }
+        )
+    else:
+        run(
+            "make -C %(path)s/releases/%(release)s/" % {
+                'environment': env.environment,
+                'path': env.path,
+                'project': env.django_project_name,
+                'release': env.release
+            }
+        )
 
 def restart_webserver():
     "Restart the web server"

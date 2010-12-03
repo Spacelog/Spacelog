@@ -470,340 +470,452 @@
     },
     "glossary": {
         "AEA": {
-            "description": "Abort electronics assembly"
+            "description": "Abort electronics assembly",
+            "type": "abbreviation"
         },
         "AGS": {
-            "description": "Abort guidance system"
+            "description": "Abort guidance system",
+            "type": "abbreviation"
         },
         "ALSCC": {
-            "description": "Apollo lunar surface closeup camera"
+            "description": "Apollo lunar surface closeup camera",
+            "type": "abbreviation"
         },
         "ALSD": {
-            "description": "Apollo lunar surface drill"
+            "description": "Apollo lunar surface drill",
+            "type": "abbreviation"
         },
         "ALSEP": {
-            "description": "Apollo lunar surface experiments package"
+            "description": "Apollo lunar surface experiments package",
+            "type": "abbreviation"
         },
         "AOS": {
-            "description": "Acquisition of signal"
+            "description": "Acquisition of signal",
+            "type": "abbreviation"
         },
         "AOT": {
-            "description": "Alinement optical telescope"
+            "description": "Alinement optical telescope",
+            "type": "abbreviation"
         },
         "APS": {
-            "description": "Auxiliary propulsion system (S-IVB)/Ascent propulsion system (LM)"
+            "description": "Auxiliary propulsion system (S-IVB)/Ascent propulsion system (LM)",
+            "type": "abbreviation"
         },
         "ARS": {
-            "description": "Atmosphere revitalization system"
+            "description": "Atmosphere revitalization system",
+            "type": "abbreviation"
         },
         "BEF": {
-            "description": "Blunt end forward"
+            "description": "Blunt end forward",
+            "type": "abbreviation"
         },
         "CCGE": {
-            "description": "Cold cathode gag.s experiment"
+            "description": "Cold cathode gage experiment",
+            "type": "abbreviation"
         },
         "CCIG": {
-            "description": "Cold cathode ion gage"
+            "description": "Cold cathode ion gage",
+            "type": "abbreviation"
         },
         "CDH": {
-            "description": "Constant delta altitude (height)"
+            "description": "Constant delta altitude (height)",
+            "type": "abbreviation"
         },
         "CM": {
-            "description": "Command module"
+            "description": "Command module",
+            "type": "abbreviation"
         },
         "CMC": {
-            "description": "Command module computer"
+            "description": "Command module computer",
+            "type": "abbreviation"
         },
         "COI": {
-            "description": "Contingency Orbit Injection"
+            "description": "Contingency Orbit Injection",
+            "type": "abbreviation"
         },
         "COAS": {
-            "description": "Crew optical alinement sight"
+            "description": "Crew optical alinement sight",
+            "type": "abbreviation"
         },
         "CP": {
-            "description": "Control point"
+            "description": "Control point",
+            "type": "abbreviation"
         },
         "CPLEE": {
-            "description": "Charged particle lunar environment experiment"
+            "description": "Charged particle lunar environment experiment",
+            "type": "abbreviation"
         },
         "CSC": {
-            "description": "Contingency sample collection"
+            "description": "Contingency sample collection",
+            "type": "abbreviation"
         },
         "CSI": {
-            "description": "Coelliptic sequence initiation"
+            "description": "Coelliptic sequence initiation",
+            "type": "abbreviation"
         },
         "CSM": {
-            "description": "Command and service module"
+            "description": "Command and service module",
+            "type": "abbreviation"
         },
         "CWEA": {
-            "description": "Caution and warning electronics assembly"
+            "description": "Caution and warning electronics assembly",
+            "type": "abbreviation"
         },
         "DAC": {
-            "description": "Data acquisition camera"
+            "description": "Data acquisition camera",
+            "type": "abbreviation"
         },
         "DAP": {
-            "description": "Digital autopilot"
+            "description": "Digital autopilot",
+            "type": "abbreviation"
         },
         "DEDA": {
-            "description": "Data entry and display assembly"
+            "description": "Data entry and display assembly",
+            "type": "abbreviation"
         },
         "DET": {
-            "description": "Digital event timer"
+            "description": "Digital event timer",
+            "type": "abbreviation"
         },
         "DOI": {
-            "description": "Descent orbit insertion"
+            "description": "Descent orbit insertion",
+            "type": "abbreviation"
         },
         "DPS": {
-            "description": "Descent propulsion system"
+            "description": "Descent propulsion system",
+            "type": "abbreviation"
         },
         "DSE": {
-            "description": "Data storage equipment"
+            "description": "Data storage equipment",
+            "type": "abbreviation"
         },
         "DSEA": {
-            "description": "Data storage equipment assembly"
+            "description": "Data storage equipment assembly",
+            "type": "abbreviation"
         },
         "DSKY": {
-            "description": "Display and keyboard"
+            "description": "Display and keyboard",
+            "type": "abbreviation"
         },
         "DTO": {
-            "description": "Detailed test objective"
+            "description": "Detailed test objective",
+            "type": "abbreviation"
         },
         "ECS": {
-            "description": "Environmental control system"
+            "description": "Environmental control system",
+            "type": "abbreviation"
         },
         "EI": {
-            "description": "Entry interface"
+            "description": "Entry interface",
+            "type": "abbreviation"
         },
         "EMS": {
-            "description": "Entry monitor system"
+            "description": "Entry monitor system",
+            "type": "abbreviation"
         },
         "EMI": {
-            "description": "Extravehicular mobility unit"
+            "description": "Extravehicular mobility unit",
+            "type": "abbreviation"
         },
         "EPS": {
-            "description": "Electrical power system"
+            "description": "Electrical power system",
+            "type": "abbreviation"
         },
         "ETB": {
-            "description": "Equipment transfer bag"
+            "description": "Equipment transfer bag",
+            "type": "abbreviation"
         },
         "EVA": {
-            "description": "Extravehicular activity"
+            "description": "Extravehicular activity",
+            "type": "abbreviation"
         },
         "EVT": {
-            "description": "Extravehicular transfer"
+            "description": "Extravehicular transfer",
+            "type": "abbreviation"
         },
         "FDAI": {
-            "description": "Flight director attitude indicator"
+            "description": "Flight director attitude indicator",
+            "type": "abbreviation"
         },
         "GDC": {
-            "description": "Gyro display coupler"
+            "description": "Gyro display coupler",
+            "type": "abbreviation"
         },
         "GET": {
-            "description": "Ground elapsed time"
+            "description": "Ground elapsed time",
+            "type": "abbreviation"
         },
         "GETI": {
-            "description": "Ground elapsed time of ignition"
+            "description": "Ground elapsed time of ignition",
+            "type": "abbreviation"
         },
         "HFE": {
-            "description": "Heat flow experiment"
+            "description": "Heat flow experiment",
+            "type": "abbreviation"
         },
         "HGA": {
-            "description": "High gain antenna"
+            "description": "High gain antenna",
+            "type": "abbreviation"
         },
         "HTC": {
-            "description": "Handtool carrier"
+            "description": "Handtool carrier",
+            "type": "abbreviation"
         },
         "IMU": {
-            "description": "Inertial measurement unit"
+            "description": "Inertial measurement unit",
+            "type": "abbreviation"
         },
         "IP": {
-            "description": "Initial point"
+            "description": "Initial point",
+            "type": "abbreviation"
         },
         "ISA": {
-            "description": "Interim stowage assembly"
+            "description": "Interim stowage assembly",
+            "type": "abbreviation"
         },
         "IU": {
-            "description": "Instrument unit"
+            "description": "Instrument unit",
+            "type": "abbreviation"
         },
         "ICDU": {
-            "description": "Inertial Coupling Data Unit"
+            "description": "Inertial Coupling Data Unit",
+            "type": "abbreviation"
         },
         "IVT": {
-            "description": "Intravehicular transfer"
+            "description": "Intravehicular transfer",
+            "type": "abbreviation"
         },
         "LAD": {
-            "description": "Lunar atmosphere detector"
+            "description": "Lunar atmosphere detector",
+            "type": "abbreviation"
         },
         "LCG": {
-            "description": "Liquid cooled garment"
+            "description": "Liquid cooled garment",
+            "type": "abbreviation"
         },
         "LEB": {
-            "description": "Lower equipment bay"
+            "description": "Lower equipment bay",
+            "type": "abbreviation"
         },
         "LEC": {
-            "description": "Lunar equipment conveyor"
+            "description": "Lunar equipment conveyor",
+            "type": "abbreviation"
         },
         "LGC": {
-            "description": "Lunar module guidance computer"
+            "description": "Lunar module guidance computer",
+            "type": "abbreviation"
         },
         "LM": {
-            "description": "Lunar module"
+            "description": "Lunar module",
+            "type": "abbreviation"
         },
         "LOI": {
-            "description": "Lunar orbit insertion"
+            "description": "Lunar orbit insertion",
+            "type": "abbreviation"
         },
         "LOPC": {
-            "description": "Lunar orbit plane change"
+            "description": "Lunar orbit plane change",
+            "type": "abbreviation"
         },
         "LOS": {
-            "description": "Loss of signal/line of sight"
+            "description": "Loss of signal/line of sight",
+            "type": "abbreviation"
         },
         "LPD": {
-            "description": "Landing point designator"
+            "description": "Landing point designator",
+            "type": "abbreviation"
         },
         "LTC": {
-            "description": "Lunar topographic camera"
+            "description": "Lunar topographic camera",
+            "type": "abbreviation"
         },
         "MCC": {
-            "description": "Mission Control Center/midcourse correction"
+            "description": "Mission Control Center/midcourse correction",
+            "type": "abbreviation"
         },
         "MESA": {
-            "description": "Modular equipment stowage assembly"
+            "description": "Modular equipment stowage assembly",
+            "type": "abbreviation"
         },
         "MSFN": {
-            "description": "Manned Space Flight Network"
+            "description": "Manned Space Flight Network",
+            "type": "abbreviation"
         },
         "MTVC": {
-            "description": "Manual thrust vector control"
+            "description": "Manual thrust vector control",
+            "type": "abbreviation"
         },
         "OPS": {
-            "description": "Oxygen purge system"
+            "description": "Oxygen purge system",
+            "type": "abbreviation"
         },
         "ORDEAL": {
-            "description": "Orbital rate display earth and lunar"
+            "description": "Orbital rate display earth and lunar",
+            "type": "abbreviation"
         },
         "PDI": {
-            "description": "Powered descent initiation"
+            "description": "Powered descent initiation",
+            "type": "abbreviation"
         },
         "PGA": {
-            "description": "Pressure garment assembly"
+            "description": "Pressure garment assembly",
+            "type": "abbreviation"
         },
         "PGNCS": {
-            "description": "Primary guidance, navigation, and control system (CM)"
+            "description": "Primary guidance, navigation, and control system (CM)",
+            "type": "abbreviation"
         },
         "PGNS": {
-            "description": "Primary guidance and navigation system (LM)"
+            "description": "Primary guidance and navigation system (LM)",
+            "type": "abbreviation"
         },
         "PIPA": {
-            "description": "Pulsed integrating pendulous accelerometer"
+            "description": "Pulsed integrating pendulous accelerometer",
+            "type": "abbreviation"
         },
         "PLSS": {
-            "description": "Portable life support system"
+            "description": "Portable life support system",
+            "type": "abbreviation"
         },
         "PRD": {
-            "description": "Personal radiation dosimeter"
+            "description": "Personal radiation dosimeter",
+            "type": "abbreviation"
         },
         "PSE": {
-            "description": "Passive seismic experiment"
+            "description": "Passive seismic experiment",
+            "type": "abbreviation"
         },
         "PTC": {
-            "description": "Passive thermal control"
+            "description": "Passive thermal control",
+            "type": "abbreviation"
         },
         "RCS": {
-            "description": "Reaction control system"
+            "description": "Reaction control system",
+            "type": "abbreviation"
         },
         "RCU": {
-            "description": "Remote control unit"
+            "description": "Remote control unit",
+            "type": "abbreviation"
         },
         "REFSMMAT": {
-            "description": "Reference to stable member matrix"
+            "description": "Reference to stable member matrix",
+            "type": "abbreviation"
         },
         "RLS": {
-            "description": "Radius of landing site"
+            "description": "Radius of landing site",
+            "type": "abbreviation"
         },
         "RTG": {
-            "description": "Radioisotope thermoelectric generator"
+            "description": "Radioisotope thermoelectric generator",
+            "type": "abbreviation"
         },
         "SCE": {
-            "description": "Signal conditioning equipment"
+            "description": "Signal conditioning equipment",
+            "type": "abbreviation"
         },
         "SCS": {
-            "description": "Stabilization control system"
+            "description": "Stabilization control system",
+            "type": "abbreviation"
         },
         "SECO": {
-            "description": "Sustainer Engine Cut-Off"
+            "description": "Sustainer Engine Cut-Off",
+            "type": "abbreviation"
         },
         "SECS": {
-            "description": "Sequential events control system"
+            "description": "Sequential events control system",
+            "type": "abbreviation"
         },
         "SEF": {
-            "description": "Sharp end forward"
+            "description": "Sharp end forward",
+            "type": "abbreviation"
         },
         "SIDE": {
-            "description": "Suprathermal ion detector experiment"
+            "description": "Suprathermal ion detector experiment",
+            "type": "abbreviation"
         },
         "SLA": {
-            "description": "SM/LM adapter"
+            "description": "SM/LM adapter",
+            "type": "abbreviation"
         },
         "SM": {
-            "description": "Service module"
+            "description": "Service module",
+            "type": "abbreviation"
         },
         "SNAP": {
-            "description": "Systems for nuclear auxiliary power"
+            "description": "Systems for nuclear auxiliary power",
+            "type": "abbreviation"
         },
         "SPS": {
-            "description": "Service propulsion system"
+            "description": "Service propulsion system",
+            "type": "abbreviation"
         },
         "SRC": {
-            "description": "Sample return container"
+            "description": "Sample return container",
+            "type": "abbreviation"
         },
         "SWC": {
-            "description": "Solar wind composition"
+            "description": "Solar wind composition",
+            "type": "abbreviation"
         },
         "SWE": {
-            "description": "Solar wind experiment"
+            "description": "Solar wind experiment",
+            "type": "abbreviation"
         },
         "TEC": {
-            "description": "Transearth coast"
+            "description": "Transearth coast",
+            "type": "abbreviation"
         },
         "TEI": {
-            "description": "Transearth injection"
+            "description": "Transearth injection",
+            "type": "abbreviation"
         },
         "Tig": {
-            "description": "Time of ignition"
+            "description": "Time of ignition",
+            "type": "abbreviation"
         },
         "TLC": {
-            "description": "Translunar coast"
+            "description": "Translunar coast",
+            "type": "abbreviation"
         },
         "TLI": {
-            "description": "Translunar injection"
+            "description": "Translunar injection",
+            "type": "abbreviation"
         },
         "TPF": {
-            "description": "Terminal phase final"
+            "description": "Terminal phase final",
+            "type": "abbreviation"
         },
         "TPI": {
-            "description": "Terminal phase initiation"
+            "description": "Terminal phase initiation",
+            "type": "abbreviation"
         },
         "TSB": {
-            "description": "Temporary stowage bag"
+            "description": "Temporary stowage bag",
+            "type": "abbreviation"
         },
         "TTCA": {
-            "description": "Thrust/Translation Controller Assembly"
+            "description": "Thrust/Translation Controller Assembly",
+            "type": "abbreviation"
         },
         "TVC": {
-            "description": "Thrust vector control"
+            "description": "Thrust vector control",
+            "type": "abbreviation"
         },
         "UHT": {
-            "description": "Universal handtool"
+            "description": "Universal handtool",
+            "type": "abbreviation"
         },
         "MILA": {
-            "description": "Meritt Island Launch Area tracking station"
+            "description": "Meritt Island Launch Area tracking station",
+            "type": "abbreviation"
         },
         "S-IVB": {
-            "description": "Saturn V Third Stage"
+            "description": "Saturn V Third Stage",
+            "type": "abbreviation"
         },
         "FIDO": {
-            "description": "Flight Dynamics Officer"
+            "description": "Flight Dynamics Officer",
+            "type": "abbreviation"
         },
         "VERB 01": {
             "description": "Display contents of erasable memory location"

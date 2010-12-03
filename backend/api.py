@@ -452,8 +452,10 @@ class Glossary(object):
         if not data:
             raise ValueError("No such glossary item: %s" % self.id)
         self.description = data['description']
+        self.extended_description = data.get('extended_description', None)
         self.abbr        = data['abbr']
         self.key         = self.id
+        self.type        = data.get('type', 'jargon')
         self.times_mentioned = data['times_mentioned']
 
     def links(self):

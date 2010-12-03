@@ -8,7 +8,9 @@ webserver_port           ?= 8000
 global_port              ?= 8001
 PYTHON                   ?= python
 
-all: reindex productioncss
+all: reindex productioncss s3assets
+
+dirty: copyxapian productioncss s3assets
 
 reindex: $(indexer)
 	rm -rf xappydb
@@ -16,6 +18,10 @@ reindex: $(indexer)
 	$(PYTHON) -m backend.stats_porn
 
 productioncss:	$(website_screen_css) $(global_screen_css)
+
+# only use this in production, it'll explode entertainingly otherwhere
+copyxapian:
+	cp -a ../current/xappydb xappydb
 
 $(website_screen_css): $(website_source_screen_css)
 	cssprepare --optimise --extended-syntax \
@@ -41,3 +47,15 @@ devcss_global:
 
 thumbnails:
 	cd website/static/img/missions/a13/; $(PYTHON) resize.py
+
+# Rather than continually downloading off S3, it's not a bad idea to
+# pull the original-images.tar somewhere common. We choose two levels
+# up since in deployment that is above the level of the `releases`
+# directory, so feels about right.
+s3assets:
+ifeq ($(wildcard ../../original-images.tar), ../../original-images.tar)
+	ln -s ../../original-images.tar original-images.tar
+else
+	wget http://s3.amazonaws.com/spacelog/original-images.tar
+endif
+	tar xf original-images.tar

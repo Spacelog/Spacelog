@@ -20,7 +20,7 @@
 {% if log_lines.0.first_in_act and log_lines.0.act.banner %}
   {% with log_lines.0.act as act %}
     <div id='crest' {% if act.banner_class %}class='{{ act.banner_class }}'{% endif %}><div class='wrapper'>
-        <p class='act-banner'><img class="act-banner" src="{{ STATIC_URL }}missions/{{ act.mission_name }}/images/banners/{{ act.banner }}"></p>
+        <p class='act-banner'><img class="act-banner" src="{{ MISSIONS_STATIC_URL }}{{ act.mission_name }}/images/banners/{{ act.banner }}"></p>
     </div></div>
   {% endwith %}
   {% else %}<div id="crest"></div>{% endif %}
@@ -85,8 +85,8 @@
         {% if forloop.last %}
           {% for image in log_line.images %}
             <div class='image'>
-                <a href="{{ STATIC_URL }}missions/{{ mission.name }}/images/media/{{ image.filename }}">
-                    <img src="{{ STATIC_URL }}missions/{{ mission.name }}/images/media//{{ image.thumbnail_filename }}" />
+                <a href="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/media/{{ image.filename }}">
+                    <img src="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/media//{{ image.thumbnail_filename }}" />
               </a>
             </div>
             {% endfor %}
@@ -138,7 +138,7 @@
         {% endif %}
       </ul></nav>
       {% if current_act.orbital %}
-      <img class='orbital' src='{{ STATIC_URL }}missions/{{ mission.name }}/images/orbital/{{ current_act.orbital }}'>
+      <img class='orbital' src='{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/orbital/{{ current_act.orbital }}'>
       {% endif %}
     </div>
   </div>

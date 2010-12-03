@@ -121,5 +121,12 @@
 
     # Glossary: Used to populate the glossary page.
     "glossary": {
+        "AET": {
+            "description": "An Example Term",
+            # The extended_description can include links to other glossary terms
+            "extended_description": "Give more detail here.",
+            # Supported values are 'abbreviation' and 'jargon', if type is omitted 'jargon' is the default
+            "type": "abbreviation"
+        }
     }
 }
