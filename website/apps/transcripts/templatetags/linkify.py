@@ -31,7 +31,7 @@ def glossary_link(match, request):
 def linkify(text, request=None):
     # Typographize double quotes
     text = re.sub(r'"([^"]+)"', r'&ldquo;\1&rdquo;', text)
-    text = text.replace("'", "&apos;").replace('...', '&hellip;')
+    text = text.replace('...', '&hellip;')
     # Time links
     text = re.sub(
         r"\[time:([\d:]+) ([^\]]+)\]",
