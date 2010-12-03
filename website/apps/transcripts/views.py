@@ -4,7 +4,7 @@ from website.apps.common.template import JsonTemplateView
 from backend.api import LogLine, Act
 from backend.util import timestamp_to_seconds
 from transcripts.templatetags.linkify import linkify
-from transcripts.templatetags.missiontime import timestamp_to_url
+from transcripts.templatetags.missiontime import timestamp_to_url, selection_url
 
 class TranscriptView(JsonTemplateView):
     """
@@ -156,6 +156,39 @@ class RangeView(PageView):
     Shows records between two timestamps (may also include just
     showing a single record).
     """
+    
+    def render_to_response(self, context):
+        # 302 to the closest valid start time
+        start = context['selection_start_timestamp']
+        end = context['selection_end_timestamp']
+        if start == end:
+            end = None
+        
+        start_line = context['first_highlighted_line']
+        end_line   = start_line
+        if end:
+            for log_line in context['log_lines']:
+                if end_line.timestamp <= log_line.timestamp <= end:
+                    end_line = log_line
+                if log_line.timestamp == end:
+                    break
+        
+        # Get the URL to 302 to
+        # NOTE: this covers start-only (if), end-only (elif), 
+        # /and/ start and end (elif)
+        page_start_url = None
+        if start != start_line.timestamp and not end:
+            page_start_url = selection_url( start_line.timestamp )
+        elif end and end != end_line.timestamp:
+            page_start_url = selection_url(
+                start_line.timestamp,
+                end_line.timestamp
+            )
+        
+        if page_start_url:
+            return HttpResponseRedirect( page_start_url )
+            
+        return super( PageView, self ).render_to_response( context )
     
     def log_lines(self, start_page, end_page):
         log_lines, previous_link, next_link, highlight_index, discard = super(RangeView, self).log_lines(start_page, end_page)
