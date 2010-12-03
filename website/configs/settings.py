@@ -63,10 +63,14 @@ MEDIA_ROOT = ''
 # Examples: "http://media.lawrence.com", "http://example.com/media/"
 MEDIA_URL = ''
 
-# FIXME - evil to get around a bug in static files
 STATIC_ROOT = os.path.join(SITE_ROOT, 'static')
-MISSIONS_STATIC_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
 STATIC_URL = '/assets/'
+# in dev, these come from the same place; in live, they'll be in different
+# places on the CDN
+MISSIONS_STATIC_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
+MISSIONS_STATIC_URL = '/assets/missions/'
+MISSIONS_PNG_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
+MISSIONS_PNG_URL = '/assets/missions/'
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
