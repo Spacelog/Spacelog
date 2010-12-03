@@ -20,6 +20,7 @@ def glossary_link(match, request):
         else:
             title = gitem.description
             more_information = bool(gitem.extended_description)
+            tag = 'abbr' if gitem.type == 'abbreviation' else 'i'
     else:
         title = ""
         more_information = True
@@ -27,7 +28,11 @@ def glossary_link(match, request):
     term = match.group(2)
 
     if title:
-        term = "<abbr title='%s'>%s</abbr>" % (title, match.group(1))
+        term = "<%(tag)s title='%(title)s'>%(text)s</%(tag)s>" % {
+                    "tag":   tag,
+                    "title": title,
+                    "text":  match.group(1),
+                }
 
     if more_information:
         return "<a href='%s#%s'>%s</a>" % (

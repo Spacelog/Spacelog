@@ -455,6 +455,7 @@ class Glossary(object):
         self.extended_description = data.get('extended_description', None)
         self.abbr        = data['abbr']
         self.key         = self.id
+        self.type        = data.get('type', 'jargon')
         self.times_mentioned = data['times_mentioned']
 
     def links(self):
