@@ -7,7 +7,11 @@
 {% block full_title %}{{ mission.title }} transcript starting at {{ log_lines.0.timestamp|mission_time_format }} on Spacelog{% endblock %}
 
 {% block extra_head %}{% if max_highlight_index > 0 %}
+{% if log_lines.0.previous %}
 <link rel="canonical" href="{% timestamp_to_url log_lines.0.timestamp %}">
+{% else %}
+<link rel="canonical" href="{% url view_page %}">
+{% endif %}
 {% endif %}{% endblock %}
 
 {% block extra_js %}<script type="text/javascript" src="{{ STATIC_URL }}js/page.js"></script>{% endblock %}
