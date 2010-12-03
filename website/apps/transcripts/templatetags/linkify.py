@@ -16,16 +16,27 @@ def glossary_link(match, request):
             gitem = Glossary(request.redis_conn, request.mission.name, match.group(1))
         except ValueError:
             title = ""
+            more_information = True
         else:
             title = gitem.description
+            more_information = bool(gitem.extended_description)
     else:
         title = ""
-    return "<a href='%s#%s'><abbr title='%s'>%s</abbr></a>" % (
-        reverse("glossary"),
-        slugify(match.group(1)),
-        title,
-        match.group(2),
-    )
+        more_information = True
+
+    term = match.group(2)
+
+    if title:
+        term = "<abbr title='%s'>%s</abbr>" % (title, match.group(1))
+
+    if more_information:
+        return "<a href='%s#%s'>%s</a>" % (
+            reverse("glossary"),
+            slugify(match.group(1)),
+            term,
+        )
+    else:
+        return term
 
 @register.filter
 def linkify(text, request=None):

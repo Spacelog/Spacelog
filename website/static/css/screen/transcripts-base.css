@@ -134,6 +134,11 @@
     left:                   -999em;
 }
 
+#transcript abbr {
+    border-bottom:          1px solid #999;
+    cursor:                 help;
+}
+
 #phases {
     position:               fixed;
     bottom:                 0;
