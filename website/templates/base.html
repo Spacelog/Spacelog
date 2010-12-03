@@ -4,6 +4,7 @@
   <title>{% block full_title %}{% block title %}SET THE TITLE{% endblock %} &mdash; {{ mission.title }} on Spacelog{% endblock %}</title>
   <link rel="stylesheet" href="{{ STATIC_URL }}css/screen.css" media="screen">
   <link rel="shortcut icon" href="{{ STATIC_URL}}img/favicon.ico">
+  {% block extra_head %}{% endblock %}
   <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-19974863-1']);
