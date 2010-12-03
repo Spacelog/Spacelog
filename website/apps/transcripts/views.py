@@ -158,15 +158,18 @@ class RangeView(PageView):
     """
     
     def render_to_response(self, context):
-        # 302 to the closest valid start time
+        # Identify whether our start and end timestamps match real timestamps
+        # If not, redirect from the invalid-timestamped URL to the
+        # URL with timestamps matching loglines
         start = context['selection_start_timestamp']
         end = context['selection_end_timestamp']
         if start == end:
             end = None
         
         start_line = context['first_highlighted_line']
-        end_line   = start_line
+        
         # Find the last log_line in the current selection if we have a range
+        end_line = start_line
         if end:
             for log_line in context['log_lines']:
                 if end_line.timestamp <= log_line.timestamp <= end:
@@ -174,10 +177,13 @@ class RangeView(PageView):
                 elif end <= log_line.timestamp:
                     break
         
-        # Get the URL we should redirect to
+        # Get the URL we should redirect to (if any)
         page_start_url = None
-        if start != start_line.timestamp and not end:
-            # We have an invalid start-time, but no end-time
+        if (not end and start != start_line.timestamp) \
+        or (end and start != end and start_line.timestamp == end_line.timestamp):
+            # We have an individual start time only
+            # -or-
+            # We have start and end times that resolve to the same log_line
             page_start_url = selection_url( start_line.timestamp )
         elif (start != start_line.timestamp) \
           or (end and end != end_line.timestamp):
