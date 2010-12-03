@@ -393,7 +393,7 @@ class MetaIndexer(object):
     def index_glossary(self, meta):
         "Stores glossary information in redis"
         for identifier, data in meta['glossary'].items():
-            character_key = "%s:%s" % (self.mission_name, identifier)
+            term_key = "%s:%s" % (self.mission_name, identifier)
             
             # Add the ID to the list for this mission
             self.redis_conn.rpush("glossary:%s" % self.mission_name, identifier)
@@ -407,12 +407,12 @@ class MetaIndexer(object):
             data['times_mentioned'] = 0
             
             # Store the main data in a hash
-            self.redis_conn.hmset("glossary:%s" % character_key, data)
+            self.redis_conn.hmset("glossary:%s" % term_key, data)
 
             # Store the links in a list
             for i, link in enumerate(links):
-                link_id = "%s:%i" % (character_key, i)
-                self.redis_conn.rpush("glossary:%s:links" % character_key, link_id)
+                link_id = "%s:%i" % (term_key, i)
+                self.redis_conn.rpush("glossary:%s:links" % term_key, link_id)
                 self.redis_conn.hmset(
                     "glossary-link:%s" % link_id,
                     link,
