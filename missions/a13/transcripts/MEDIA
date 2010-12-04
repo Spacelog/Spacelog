@@ -31,6 +31,17 @@ _images: [
     }
     ]
 
+[02:07:14:56]
+_images: [
+    {
+        "filename" : "02_07_14_56.jpg",
+        "thumbnail_filename" : "02_07_14_56-thumb.jpg",
+        "caption"  : "Overall view of the Mission Operations Control Room in the Mission Control Center at the Manned Spacecraft Center, during the fourth television transmission from the Apollo 13 spacecraft while enroute to the Moon",
+        "source"   : "NASA",
+        "url"	   : "http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001608.html"
+    }
+    ]
+
 [03:08:37:51]
 _images: [
     {
@@ -41,6 +52,18 @@ _images: [
         "url"	   : ""
     }
     ]
+
+[03:13:09:04]
+_images: [
+    {
+        "filename" : "03_13_09_04.jpg",
+        "thumbnail_filename" : "03_13_09_04-thumb.jpg",
+        "caption"  : "Seismic reading taken at MSC recording impact of Apollo 13 S-IVB with surface",
+        "source"   : "NASA / JSC",
+        "url"	   : "http://images.jsc.nasa.gov/luceneweb/caption.jsp?datesearch=Go&from_day=1&from_month=1&from_year=1900&hitsperpage=5&pageno=414&photoId=S70-34985&searchpage=true&to_day=31&to_month=12&to_year=3000"
+    }
+    ]
+
 
 [03:19:10:16]
 _images: [
