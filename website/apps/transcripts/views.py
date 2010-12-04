@@ -106,6 +106,8 @@ class PageView(TranscriptView):
         first_log_line        = context['log_lines'][0]
         prior_log_line        = first_log_line.previous()
         
+        # NOTE: is_act_first_page will be false for first act:
+        #       that's handled by is_first_page
         is_first_page         = not prior_log_line
         is_act_first_page     = False
         if prior_log_line:
