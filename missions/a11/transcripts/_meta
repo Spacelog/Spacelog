@@ -130,7 +130,7 @@
             "photo": "capcom.jpg",
             "photo_width": 205,
             "photo_height": 138,
-            "avatar": "capcom_generic.png",
+            "avatar": "capcom_generic.jpg",
             "shifts": [
             ]
         },
@@ -264,6 +264,7 @@
           "name": "Charlie Duke",
           "short_name": "Charlie Duke (CAPCOM)",
           "mission_position": "CAPCOM",
+          "avatar": "charlie_duke.png",
           "photo_width": 190,
           "photo_height": 155
         },
