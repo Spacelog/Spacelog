@@ -1374,7 +1374,7 @@ CC: Friendship Seven, let's have another blood pressure check please. Over.
 P: Friendship Seven, Roger.
 
 [00:01:00:24]
-CC: Hellow, Friendship Seven, Woomera Cap Com. 150 volt inverter temperature
+CC: Hello, Friendship Seven, Woomera Cap Com. 150 volt inverter temperature
      reading 195 [degrees]; 250 inverter temperature reading 172 degrees.
 
 [00:01:00:34]
@@ -1440,7 +1440,7 @@ P: This is Friendship Seven. This is Friendship Seven, broadcasting in the blind
      the Mercury network. 1, 2, 3, 4, 5. This is Mercury Friendship Seven. Out.
 
 [00:01:04:16]
-CC: This is Canaveral Cap Com, testing the HF. G.m.t. 15 52 05, MARK.
+CC: This is Canaveral Cap Com, testing the HF. GMT 15 52 05, MARK.
      I did not read the capsule. Cape, out.
 
 [00:01:05:17]
@@ -1624,7 +1624,7 @@ CC: Friendship Seven, Friendship Seven. This is Guaymas Cap Com. You're little
 
 [00:01:21:08]
 P: This is Friendship Seven on HF. My status is excellent. Everything is going
-     according to plan. Control fuel is 90-100 [percent], oxygen is 72-101 ]percent],
+     according to plan. Control fuel is 90-100 [percent], oxygen is 72-101 [percent],
      amps 22. Over.
 
 [00:01:21:29]
@@ -1911,7 +1911,7 @@ CC: Friendship Seven, Cap Com. Would you give us the difficulty you've been havi
 P: Roger. This is Friendship Seven. I'm going on fly-by-wire so I can control more
      accurately. It just started as I got to Guaymas, and appears to be it drifts off
      in yaw, to the right at about 1° per second. It will go over to an attitude of
-     about 20°, and hold at that. and when it hits about a 20° point it then goes into
+     about 20°, and hold at that and when it hits about a 20° point it then goes into
      orientation mode and comes back to zero, and it was cycling back and forth in
      that mode. I am on fly-by-wire now and controlling manually. Over.
 
@@ -1948,7 +1948,7 @@ CC: Seven, this is Cape. The President will be talking to you and while he is ta
      I'll be sending Z and R cal.
 
 [00:01:36:05]
-P: Ah President.
+P: Ah - President.
 
 [00:01:36:07]
 CC: Go ahead, Mr. President.
@@ -1964,13 +1964,13 @@ P: Roger. This is Friendship Seven, controlling manually on fly-by-wire, having 
      trouble controlling. Very smooth and easy; controls very nicely. Fuses are
      still the same on the left panel. Squib is, Squib is armed. Auto Retrojettison
      is off. [glossary:ASCS ASCS] is fly-by-wire, auto, gyro normal. All fuel, all "T" handles are in,
-     Retro Delay is normal. 1 have beautiful view out the window of the coast at
-     present, time. Just departing. Can see the, way down across Florida. Cannot
+     Retro Delay is normal. I have beautiful view out the window of the coast at
+     present time. Just departing. Can see the, way down across Florida. Cannot
      quite see the Cape. yet.
 
 [00:01:37:35]
 CC: Roger.
-     22. 4 P Continuing with the report. No sequence panel lights showing. Only abnormal
+P:  Continuing with the report. No sequence panel lights showing. Only abnormal
      position. Landing bag is off. The EPI is indicating okay. Control fuel is 80
      [percent] auto, 100 [percent] manual. Retrograde time set in is 04 plus 32 plus 28.
      Over.
@@ -2017,7 +2017,8 @@ P: Go ahead, Bermuda.
 CC: Roger, we read you 5 by 5.
 
 [00:01:39:15]
-CC: (CNV) Seven, this is Cape. Go to Bermuda now.
+# Canaveral CC
+CC: Seven, this is Cape. Go to Bermuda now.
 
 [00:01:39:18]
 _page : 164
@@ -2097,7 +2098,7 @@ P: Hello, Bermuda Cap Com. Friendship Seven, HF. Do you receive me now? Over.
 CC: On HF. What are the results of the oculogyric test, please?
 
 [00:01:43:07]
-P: Results negative. Get no effect at all, no effect at all Over.
+P: Results negative. Get no effect at all, no effect at all. Over.
 
 [00:01:43:11]
 CC: Roger. Understand no effects from oculogyric. Thank you.
@@ -2115,14 +2116,15 @@ P: Roger, Bermuda. Loud and clear; how me?
 CC: Roger. We still are reading you loud and clear.
 
 [00:01:43:50]
-P: Roger. Friendship Seven getting ready for I plus 44 check.
+P: Roger. Friendship Seven getting ready for 1 plus 44 check.
 
 [00:01:44:01]
 P: This is Friendship Seven broadcasting blind to Mercury Network on from just off
      the east coast over middle Atlantic, check completed at 15.
 
 [00:01:44:17]
-CC: (CNV) ... testing on HF GMT 16 31 59 MARK. I read the capsule weak, but readable. Cape, out.
+# Canaveral CC
+CC: ... testing on HF GMT 16 31 59 MARK. I read the capsule weak, but readable. Cape, out.
 
 [00:01:44:31]
 _extra : CANARY (SECOND ORBIT)
@@ -2141,7 +2143,8 @@ P: This is Friendship Seven on UHF. As I went over recovery area that time, I
 CC: Friendship Seven, ... We do not read you, do not read you. Over.
 
 [00:01:45:17]
-CC: (KNO) Friendship Seven, this is Kano. At GMT 16 33 00. We do not. ... This is Kano. Out.
+# Kano CC
+CC: Friendship Seven, this is Kano. At GMT 16 33 00. We do not. ... This is Kano. Out.
 
 [00:01:46:38]
 CT: Friendship Seven, Friendship Seven, this is [glossary:CYI CYI] Com Tech. Over.
@@ -2218,12 +2221,12 @@ CC: Friendship Seven, Friendship Seven, this is Canary Cap Com. Please complete
 
 [00:01:50:06]
 P: This is Friendship Seven. My status is excellent. I have control of capsule ,m
-     fly-by-wire at, present time. Control fuel is 80-100 [percent]; oxygen, 69 100
+     fly-by-wire at present time. Control fuel is 80-100 [percent]; oxygen, 69-100
      [percent]; amps, 22. Over.
 
 [00:01:50:25]
 CC: Understand your auto fuel is 80 [percent], your manual fuel is 100 [percent], Main
-     O<sub>2</sub> is 69 percent, secondary O<sub>2</sub> is 100 [percent]. Over.
+     O<sub>2</sub> is 69 [percent], secondary O<sub>2</sub> is 100 [percent]. Over.
 
 [00:01:50:35]
 P: Roger. This is Friendship Seven.
@@ -2317,7 +2320,7 @@ P: This is Friendship Seven.
 CC: Friendship Seven, I read you.
 
 [00:01:53:30]
-CC: Friendship Seven, Friendship Seven, tiffs is ATS Cap Com. Over.
+CC: Friendship Seven, Friendship Seven, this is ATS Cap Com. Over.
 
 [00:01:53:34]
 P: Hello, ATS Cap Com. Loud and clear; how me?
@@ -2405,7 +2408,7 @@ CC: Friendship Seven, this is ATS Cap Com, suggest you. ... Over.
 P: This is Friendship Seven. I have a loose bolt floating around inside the periscope.
 
 [00:01:57:13]
-CC: Did not. read, did not read. Say again, say again.
+CC: Did not read, did not read. Say again, say again.
 
 [00:01:57:25]
 P: This is Friendship Seven, yawing back to orbit attitude. Over.
