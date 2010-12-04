@@ -157,7 +157,7 @@ class TranscriptIndexer(object):
         for chunk in self.parser.get_chunks():
             timestamp = chunk['timestamp']
             log_line_id = "%s:%i" % (self.transcript_name, timestamp)
-            if timestamp < previous_timestamp:
+            if timestamp <= previous_timestamp:
                 raise Exception, "%s should be after %s" % (seconds_to_timestamp(timestamp), seconds_to_timestamp(previous_timestamp))
             # See if there's transcript page info, and update it if so
             if chunk['meta'].get('_page', 0):
