@@ -29,7 +29,11 @@
 
   <div class='details'>
     <h1>{{ act.title }}</h1>
+    {% ifequal act.number 0 %}
+    <a class='league-gothic read-button' href="{% url view_page %}">Start reading</a>
+    {% else %}
     <a class='league-gothic read-button' href="{% timestamp_to_url act.start %}">Start reading</a>
+    {% endifequal %}
 
     <p class='description'>{{ act.description|linkify }}</p>
 

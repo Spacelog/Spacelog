@@ -130,7 +130,11 @@
         {% endif %}
         <ul>
         {% if previous_act %}
+          {% ifequal previous_act.number 0 %}
+          <li><a href='{% url view_page %}' rel='prev'><span>Previous</span></a></li>
+          {% else %}
           <li><a href='{% timestamp_to_url previous_act.start %}' rel='prev'><span>Previous</span></a></li>
+          {% endifequal %}
         {% else %}
           <li class='prev'><span>Previous</span></li>
         {% endif %}

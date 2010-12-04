@@ -93,18 +93,45 @@ class PageView(TranscriptView):
     template_name = 'transcripts/page.html'
     
     def render_to_response(self, context):
+        # Ensure that the request is always redirected to:
+        # - The first page (timestampless)
+        # - The timestamp for the start of an act
+        # - The timestamp for the start of an in-act page
+        # If the timestamp is already one of these, render as normal
+        
+        requested_start       = None
+        if context['start']:
+            requested_start   = timestamp_to_seconds( context['start'] )
+        current_act           = context['current_act']
+        first_log_line        = context['log_lines'][0]
+        prior_log_line        = first_log_line.previous()
+        
+        is_first_page         = not prior_log_line
+        is_act_first_page     = False
+        if prior_log_line:
+            is_act_first_page = prior_log_line.timestamp < current_act.start \
+                             <= first_log_line.timestamp
+        
+        page_start_url = None
         # If we're on the first page, but have a timestamp,
         # redirect to the bare page URL
-        if context['start'] \
-        and not context['log_lines'][0].previous():
-            return HttpResponseRedirect( reverse("view_page") )
+        if requested_start and is_first_page:
+            page_start_url = reverse("view_page")
+        # If we're on the first page of an act,
+        # but not on the act-start timestamp, redirect to that
+        elif is_act_first_page \
+        and requested_start != current_act.start:
+            page_start_url = timestamp_to_url( current_act.start )
         # If we're on any other page and the timestamp doesn't match
         # the timestamp of the first item, redirect to that item's timestamp
-        elif context['start'] \
-        and timestamp_to_seconds( context['start'] ) != context['log_lines'][0].timestamp:
+        elif requested_start and not is_act_first_page \
+        and requested_start != first_log_line.timestamp:
             page_start_url = timestamp_to_url(
-                context['log_lines'][0].timestamp
+                first_log_line.timestamp
             )
+        
+        # Redirect to the URL we found
+        if page_start_url:
             return HttpResponseRedirect( page_start_url )
         
         return super( PageView, self ).render_to_response( context )
