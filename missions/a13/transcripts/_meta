@@ -186,7 +186,7 @@
             "shifts": [
               ["JOE_KERWIN", "-00:01:00:00", "strictly, only Kerwin, Brand and Lousma were taking shifts (AFAICT), however other astronauts come on as CAPCOM in the original transcript, and we use the shift mechanism to display that properly"],
               ["VANCE_BRAND", "00:07:09:09"],
-              ["JACK_LOUSMA", "00:16:00:00", "uncertain since he doesn't appear in the transcript"],
+              ["JACK_LOUSMA", "00:16:00:00", "uncertain (and moot) since he doesn't appear in the transcript at this point"],
               ["JOE_KERWIN", "00:23:11:14"],
               ["VANCE_BRAND", "01:05:40:00"],
               ["JACK_LOUSMA", "01:13:07:15"],
