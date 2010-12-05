@@ -155,7 +155,7 @@ CDR: Inboard.
 CC:  Roger. We confirm inboard out.
 
 [00:00:05:44]
-CC:  13, Houston. Stand by for [glossary:S-IVB] to COI
+CC:  13, Houston. Stand by for [glossary:S-IVB] to [glossary:COI]
      capability.
 
 [00:00:05:48]
@@ -261,7 +261,7 @@ CDR: Mode IV. Roger. Staging.
 CC:  Roger. Staging.
 
 [00:00:10:00]
-CDR: And S-IV ignition, Houston.
+CDR: And [glossary:S-IV|S-IVB] ignition, Houston.
 
 [00:00:10:04]
 CC:  Roger that, Jim. Thrust looks good.
@@ -689,7 +689,7 @@ CC:  TLI: 2:26:05, 179, 108, 000, 5:47, 10416.9,
      time, 4 plus 01 plus 00. Over.
 
 [00:01:40:44]
-LMP: Okay. TLI: 2 plus 26 plus 05, 179, 108, 000,
+LMP: Okay. [glossary:TLI]: 2 plus 26 plus 05, 179, 108, 000,
      5 plus 47, 10416.9, 35587, 358, 139, 320, 302,
      319, 040, and ejection time, 4 plus 01 plus 00.
 
