@@ -31,8 +31,9 @@ _labels: {
     "stupid" : null # This label applies only to this log line.
     }
 # NNC contains a link to the speaker Jim (who is ID'd as CDR).
-# This fragment is of the form [type:key the link text].
-CMP: Okay. P11, [speaker:CDR Jim].
+# This fragment is of the form [type:key|the link text], or
+# just [type:key] if the link text is the key.
+CMP: Okay. [glossary:P11], Jim.
 
 [00:00:00:05]
 CDR: Yaw program.
@@ -51,4 +52,4 @@ _audio: [
 CMP: Clear the tower.
 CDR: Yaw complete.
      Roll program.
-     We'll be in orbit at [time:115800 32:10]. # This is a link to a time
+     We'll be in orbit at [time:115800|32:10]. # This is a link to a time
