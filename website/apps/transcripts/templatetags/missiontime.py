@@ -5,6 +5,8 @@ from backend.util import timestamp_to_seconds
 register = Library()
 
 def timestamp_components(seconds):
+    # FIXME: this is almost identical to backend.util.seconds_to_timestamp, so
+    # refactor
     "Takes a timestamp in seconds and returns a tuple of days, hours, minutes and seconds"
     days = seconds // 86400
     hours = seconds % 86400 // 3600
