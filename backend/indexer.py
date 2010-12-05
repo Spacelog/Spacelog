@@ -108,14 +108,14 @@ class TranscriptIndexer(object):
         doc.fields.append(xappy.Field("weight", weight))
         for line in lines:
             text = re.sub(
-                r"\[\w+:([^\]]+)\|([^\]]+)\]",
+                r"\[\w+:([^]]+)\|([^]]+)\]",
                 lambda m: m.group(2),
                 line['text'],
             )
             text = re.sub(
-                r"\[\w+:([^\]]+)\]",
+                r"\[\w+:([^]]+)\]",
                 lambda m: m.group(1),
-                line['text'],
+                text,
             )
             # FIXME: also strip tags from text!
             doc.fields.append(xappy.Field("text", text))
