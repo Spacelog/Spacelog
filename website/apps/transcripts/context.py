@@ -2,7 +2,7 @@ from django.conf import settings
 
 def mission(request):
     return {
-        "mission": request.mission,
+        "mission": getattr(request, 'mission', None),
         "PROJECT_HOME": settings.PROJECT_HOME,
     }
 
