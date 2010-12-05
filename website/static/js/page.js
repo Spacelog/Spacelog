@@ -234,7 +234,7 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
         var topLogLine = $('#transcript div')[0];
         var transcriptTop = $('#transcript')[0].offsetTop;
         var initialWindowTop  = $( window ).scrollTop();
-        
+
         // We've hit the start of a new phase
         if (crest.children().size()) {
             // If we're going backwards, show the new crest

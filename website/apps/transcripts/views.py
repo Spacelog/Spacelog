@@ -1,7 +1,7 @@
 from django.http import Http404, HttpResponseRedirect
 from django.views.generic import TemplateView
 from django.core.urlresolvers import reverse
-from website.apps.common.template import JsonTemplateView
+from website.apps.common.views import JsonTemplateView
 from backend.api import LogLine, Act
 from backend.util import timestamp_to_seconds
 from transcripts.templatetags.linkify import linkify
@@ -134,6 +134,8 @@ class PageView(TranscriptView):
         
         # Redirect to the URL we found
         if page_start_url:
+            if self.request.GET:
+                page_start_url += '?%s' % self.request.GET.urlencode()
             return HttpResponseRedirect( page_start_url )
         
         return super( PageView, self ).render_to_response( context )
