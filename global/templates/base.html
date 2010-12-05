@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
   <title>{% block title %}SET THE TITLE{% endblock %}</title>
   <link rel="stylesheet" href="{{ STATIC_URL }}css/screen.css" media="screen">
   <link rel="shortcut icon" href="{{ STATIC_URL}}img/favicon.ico">
   <meta name="description" content="Spacelog: a site for experiencing the Apollo, Mercury, and Gemini space missions through radio transcripts and photography.">
   <meta name="keywords" content="spacelog,space,spaceflight,spacecraft,orbit,apollo,mercury,gemini,mission,moon,radio,transcript,photographs,photography">
+  <meta property="og:title" content="Spacelog">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://spacelog.org/">
+  <meta property="og:image" content="{{ FIXED_STATIC_URL }}img/dfv-badge.png">
+  <meta property="og:site_name" content="Spacelog">
+  <!-- <meta property="og:description"
+        content="Spacelog: a site for experiencing the Apollo, Mercury, and Gemini space missions through radio transcripts and photography."> -->
+  <meta property="fb:admins" content="36916129">
   <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-19974863-3']);

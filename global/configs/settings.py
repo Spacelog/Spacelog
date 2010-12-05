@@ -65,6 +65,9 @@ MEDIA_URL = ''
 
 STATIC_ROOT = os.path.join(SITE_ROOT, 'static')
 STATIC_URL  = '/assets/'
+# FIXED_STATIC_URL doesn't change with varying deploys, so can be used for
+# things that need long-term URLs, like image references in the Open Graph.
+FIXED_STATIC_URL  = '/assets/'
 MISSIONS_STATIC_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
 MISSIONS_STATIC_URL = '/assets/missions/'
 
