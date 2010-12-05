@@ -196,7 +196,7 @@ def make_local_settings():
     os.close(fd)
     put(
         fname,
-        '%(path)s/release/%(release)s/local_settings.py' % {
+        '%(path)s/releases/%(release)s/local_settings.py' % {
             'path': env.path,
             'release': env.release,
         }
