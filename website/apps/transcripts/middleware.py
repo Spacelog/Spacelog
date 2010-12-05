@@ -1,6 +1,7 @@
 import redis
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
+from django.template import RequestContext
 from backend.api import Mission
 
 class MissionMiddleware(object):
@@ -25,7 +26,11 @@ class HoldingMiddleware(object):
             if request.path.startswith("/assets"):
                 request.holding = True
             else:
-                return render_to_response("holding.html", {})
+                return render_to_response(
+                    "holding.html",
+                    {},
+                    RequestContext(request),
+                )
         else:
             request.holding = False
 
