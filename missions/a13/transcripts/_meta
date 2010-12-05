@@ -210,6 +210,8 @@
               ["VANCE_BRAND", "04:01:14:26"],
               ["CHARLIE_DUKE", "04:04:01:12"],
               ["VANCE_BRAND", "04:04:50:08"],
+              ["DEKE_SLAYTON", "04:06:10:37", "identified by Swigert at 04:06:10:42, seems reasonable until 04:06:11:18"],
+              ["VANCE_BRAND", "04:06:11:50"],
               ["JACK_LOUSMA", "04:08:35:00"],
               ["CC", "04:16:26:34", "unknown CAPCOM until 04:16:49:07"],
               ["JOE_KERWIN", "04:17:13:64"],
