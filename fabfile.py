@@ -176,17 +176,18 @@ def prepare_release(dirty=False):
 
 def make_local_settings():
     """
-    make a local_settings.py that changes the deployed URLs
-    for static files (both global and mission-specific) to use
-    env.release in its path.
+    make local_settings.py for both global & website that change
+    the deployed URLs for static files (both global and mission-specific)
+    to use env.release in their paths.
     
     then put it up to the release on live
     """
     require('release', provided_by=[deploy])
-    # and 
+
     (fd, fname) = tempfile.mkstemp()
     os.write(fd, """
 # Override the default CDN URLs to use this release's timestamp
+# (website)
 STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/website/'
 MISSIONS_STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/website/missions/'
 """ % {
@@ -196,7 +197,27 @@ MISSIONS_STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/website/missio
     os.close(fd)
     put(
         fname,
-        '%(path)s/releases/%(release)s/local_settings.py' % {
+        '%(path)s/releases/%(release)s/website/local_settings.py' % {
+            'path': env.path,
+            'release': env.release,
+        }
+    )
+    os.unlink(fname)
+
+    (fd, fname) = tempfile.mkstemp()
+    os.write(fd, """
+# Override the default CDN URLs to use this release's timestamp
+# (global)
+STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/global/'
+MISSIONS_STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/website/missions/'
+""" % {
+        'release': env.release,
+    }
+    )
+    os.close(fd)
+    put(
+        fname,
+        '%(path)s/releases/%(release)s/global/local_settings.py' % {
             'path': env.path,
             'release': env.release,
         }
