@@ -21,7 +21,7 @@ urlpatterns = patterns('',
     url(r'^people/$', 'people.views.people', name="people"),
     url(r'^people/(?P<role>[-_\w]+)/$', 'people.views.people', name="people"),
     url(r'^glossary/$', 'glossary.views.glossary', name="glossary"),   
-    url(r'^original/(?P<page>\d+)/$', OriginalView.as_view(), name="original"),   
+    url(r'^original/(?P<page>-?\d+)/$', OriginalView.as_view(), name="original"),
 )
 
 if settings.DEBUG: # pragma: no cover
