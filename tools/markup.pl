@@ -96,7 +96,7 @@ sub markup {
       . "(?<!\\[$link:)("
       . join( '|', map { s{(.)}{$1(?:<[^>]+>)?}g; "($_)" } @tags )
       . ')(?![<\]])(?=[. ,]|$)';
-    map { $_->{text} =~ s/$regex/"[$link:".clean($1)." $1]"/eg; $_ } @lines;
+    map { $_->{text} =~ s/$regex/"[$link:".clean($1)."]"/eg; $_ } @lines;
 }
 
 # Cleanup links by removing <tags>
