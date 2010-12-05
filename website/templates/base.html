@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
   <title>{% block full_title %}{% block title %}SET THE TITLE{% endblock %} &mdash; {{ mission.title }} on Spacelog{% endblock %}</title>
   <link rel="stylesheet" href="{{ STATIC_URL }}css/screen.css" media="screen">
   <link rel="shortcut icon" href="{{ STATIC_URL}}img/favicon.ico">
   {% block extra_head %}{% endblock %}
+{% if mission %}
+  <meta name="description" content="{{ mission.title }}: {{ mission.description }}">
+  <meta property="og:title" content="{{ mission.title }}">
+  <meta property="og:type" content="space:manned_mission">
+  <meta property="og:url" content="http://{{ request.META.HTTP_HOST }}/">
+  <meta property="og:image" content="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
+  <meta property="og:site_name" content="Spacelog">
+  <!-- <meta property="og:description"
+        content="{{ mission.title|escape }}: {{ mission.description|escape }}"> -->
+  <meta property="fb:admins" content="36916129">
+{% endif %}
   <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-19974863-1']);

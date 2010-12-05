@@ -69,6 +69,9 @@ STATIC_URL = '/assets/'
 # places on the CDN
 MISSIONS_STATIC_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
 MISSIONS_STATIC_URL = '/assets/missions/'
+# FIXED_MISSIONS_STATIC_URL doesn't change with varying deploys, so can be used for
+# things that need long-term URLs, like image references in the Open Graph.
+FIXED_MISSIONS_STATIC_URL = '/assets/missions/'
 MISSIONS_PNG_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
 MISSIONS_PNG_URL = '/assets/missions/'
 
@@ -97,6 +100,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     "django.core.context_processors.debug",
     "django.core.context_processors.i18n",
     "django.core.context_processors.media",
+    "django.core.context_processors.request",
     "transcripts.context.mission",
     "transcripts.context.static",
 )
