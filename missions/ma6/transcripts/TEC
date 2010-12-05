@@ -2588,7 +2588,7 @@ P: Roger. This is Friendship Seven. Thirty-minute report follows: Head
      know if Canaveral wants me to reset that into the clock. Over.
 
 [00:02:06:45]
-P: To reset the correct, time on the clock. Over.
+P: To reset the correct time on the clock. Over.
 
 [00:02:06:50]
 CC: Standby one, Friendship Seven.
@@ -2653,6 +2653,7 @@ CC: [time:00:02:38:31 02 38 31]. Over
 P: [time:00:02:38:31 02 38 31], Roger.
 
 [00:02:10:20]
+# "comment an", should that be "comment on"? - jah
 CC: Friendship Seven, this is Zanzibar Cap Com. Please comment an reach accuracy
      and visual acuity. Over.
 
@@ -2964,7 +2965,7 @@ CC: Roger. How is your yaw thruster problem? Over.
 [00:02:25:32]
 P: This is Friendship Seven. I am getting some erratic indications in all axes. When
      I align everything on orbit attitude by the instruments I am considerably off
-     where I should be. I'm roiled some 20° to the right; I'm also yawed to the right
+     where I should be. I'm rolled some 20° to the right; I'm also yawed to the right
      a little bit. Over.
 
 [00:02:25:52]
@@ -3019,7 +3020,7 @@ CC: Do you have any, are you ready for Z and R Cal? Over.
 P: Affirmative, go ahead.
 
 [00:02:27:20]
-CC: Cal corning through.
+CC: Cal coming through.
 
 [00:02:27:26]
 _page : 171
@@ -3033,11 +3034,11 @@ P: Negative, I have no ill effects whatsoever. I don't even really notice it now
 CC: Fine.
 
 [00:02:27:38]
-P: I have the constellation of Orion tip here in the window now. I'm holding a
+P: I have the constellation of Orion up here in the window now. I'm holding a
      position on it.
 
 [00:02:27:45]
-CC: Roger, good. Your 150 VA is 200 [degrees]; your 250 VA is I90 [degrees]. Over.
+CC: Roger, good. Your 150 VA is 200 [degrees]; your 250 VA is 190 [degrees]. Over.
 
 [00:02:27:51]
 P: Roger.
@@ -3086,7 +3087,7 @@ CC: Friendship Seven, Woomera Cap Com. Do you read? Over.
 P: Go ahead, Woomera.
 
 [00:02:29:50]
-CC: The Cape advises :hat you conduct this horizon check and cage the gyros, before
+CC: The Cape advises that you conduct this horizon check and cage the gyros, before
      California.
 
 [00:02:29:58]
@@ -3099,7 +3100,7 @@ CC: Cape advises that you conduct this horizon check, and cage the gyros before 
 P: Roger, understand before California contact.
 
 [00:02:30:13]
-CC: Roger. Would like to confirm your control systems status, fly-by-wire Low yaw
+CC: Roger. Would like to confirm your control systems status, fly-by-wire low yaw
      right is inoperative.
 
 [00:02:30:20]
@@ -3112,7 +3113,7 @@ CC: Good in all axes. Over.
 P: That is affirmative
 
 [00:02:30:27]
-CC: Call you give status on your [glossary:ASCS ASCS] system? Over.
+CC: Can you give status on your [glossary:ASCS ASCS] system? Over.
 
 [00:02:30:30]
 P: This is Friendship Seven. [glossary:ASCS ASCS] started out operating, it would drop into 
@@ -3198,7 +3199,7 @@ CC: Roger, Friendship Seven. Aeromed would like to know whether you have
 
 [00:02:35:36]
 P: Negative, I have not done that recently. Will conduct that now as part of this
-     check. You had s blood pressure.
+     check. You had a blood pressure.
 
 [00:02:35:43]
 CC: You are fading now. Standby for Canton in a few minutes. This is Woomera
@@ -3282,7 +3283,7 @@ _page : 173
 P: Friendship Seven, I have no sensations at all from weightlessness except very
      pleasant. No ill effects at all, I'm not sick; feel fine. I have had no, no
      dizziness: I've run the head checks, the head movements and have no problem with
-     that. I've run the oculogyric cheek and have no problem with that. I haven't
+     that. I've run the oculogyric check and have no problem with that. I haven't
      been able to use much of the equipment this orbit, however. I've been mainly
      concerned with this control problem. Over.
 
@@ -3593,7 +3594,7 @@ P: Roger. I'll go back into orbit attitude, drifting toward it at present time. 
 CC: Good here.
 
 [00:02:59:43]
-P: Roger. Roll is 5 [degrees] left, yaw 3 [degrees] right, pitch -- 32 [degrees]. right now
+P: Roger. Roll is 5 [degrees] left, yaw 3 [degrees] right, pitch -- 32 [degrees], right now.
 
 [00:02:59:51]
 CC: Roger, have your readings.
