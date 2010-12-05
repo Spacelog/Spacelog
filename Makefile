@@ -20,7 +20,7 @@ build_statsporn:
 	$(PYTHON) -m backend.stats_porn
 
 copy_statsporn:
-	$(foreach d, $(wildcard ../current/missions/*/images/stats), cp -a $d `echo $d | sed 's#../current/##'`)
+	$(foreach d, $(wildcard ../current/missions/*/images/stats), cp -a $d `echo $d | sed 's#../current/##'`;)
 
 productioncss:	$(website_screen_css) $(global_screen_css)
 
