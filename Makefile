@@ -8,14 +8,19 @@ webserver_port           ?= 8000
 global_port              ?= 8001
 PYTHON                   ?= python
 
-all: reindex productioncss s3assets
+all: reindex productioncss s3assets build_statsporn
 
-dirty: copyxapian productioncss s3assets
+dirty: copyxapian productioncss s3assets copy_statsporn
 
 reindex: $(indexer)
 	rm -rf xappydb
 	$(PYTHON) -m backend.indexer
+
+build_statsporn:
 	$(PYTHON) -m backend.stats_porn
+
+copy_statsporn:
+	$(foreach d, $(wildcard ../current/missions/*/images/stats), cp -a $d `echo $d | sed 's#../current/##'`)
 
 productioncss:	$(website_screen_css) $(global_screen_css)
 
