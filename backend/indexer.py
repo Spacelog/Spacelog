@@ -7,6 +7,7 @@ try:
     import json
 except ImportError:
     import simplejson as json
+from django.utils.html import strip_tags
 
 from backend.parser import TranscriptParser, MetaParser
 from backend.api import Act, KeyScene, Character, Glossary, LogLine
@@ -117,7 +118,8 @@ class TranscriptIndexer(object):
                 lambda m: m.group(1),
                 text,
             )
-            # FIXME: also strip tags from text!
+            # also strip tags from text, because they're lame lame lame
+            text = strip_tags(text)
             doc.fields.append(xappy.Field("text", text))
             # grab the character to get some more text to index under speaker
             ch = self.characters.get(line['speaker'], None)
