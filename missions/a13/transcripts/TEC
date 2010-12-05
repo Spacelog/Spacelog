@@ -895,7 +895,7 @@ CMP: Thank you.
 [00:02:31:22]
 CC:  Apollo 13, Houston. We will be losing data from
      Carnarvon in about 1 minute. We'll probably have
-     voice through ARIA. Everything is honkey-dory,
+     voice through [glossary:ARIA]. Everything is honkey-dory,
      and we will be listening for you to tell us how
      the burn goes.
 
@@ -904,7 +904,7 @@ _extra : ARIA (REV 2)
 CDR: Okay, this is 13. We are standing by, too.
 
 [00:02:33:14]
-CC:  Apollo 13, Houston through ARIA. Just a COMM
+CC:  Apollo 13, Houston through [glossary:ARIA]. Just a COMM
      check. Over.
 
 [00:02:33:20]

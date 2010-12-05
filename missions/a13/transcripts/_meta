@@ -507,6 +507,10 @@
             "description": "Auxiliary propulsion system (S-IVB)/Ascent propulsion system (LM)",
             "type": "abbreviation"
         },
+        "ARIA": {
+            "description": "Apollo Range Instrumentation Aircraft",
+            "type": "abbreviation"
+        },
         "ARS": {
             "description": "Atmosphere revitalization system",
             "type": "abbreviation"
