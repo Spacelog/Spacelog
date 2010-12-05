@@ -1,5 +1,6 @@
 from django.template import Library
 from django.core.urlresolvers import reverse
+from backend.util import timestamp_to_seconds
 
 register = Library()
 
@@ -40,4 +41,6 @@ def selection_url(start_seconds, end_seconds=None):
         url = reverse("view_range", kwargs={"start": mission_time(start_seconds)})
     else:
         url = reverse("view_range", kwargs={"start": mission_time(start_seconds), "end": mission_time(end_seconds)})
+    if isinstance(start_seconds, basestring):
+        start_seconds = timestamp_to_seconds(start_seconds)
     return '%s#log-line-%i' % ( url, start_seconds )
