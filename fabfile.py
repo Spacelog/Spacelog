@@ -187,8 +187,8 @@ def make_local_settings():
     (fd, fname) = tempfile.mkstemp()
     os.write(fd, """
 # Override the default CDN URLs to use this release's timestamp
-#STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/website/'
-#MISSIONS_STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/website/missions/'
+STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/website/'
+MISSIONS_STATIC_URL = 'http://cdn.spacelog.org/%(release)s/assets/website/missions/'
 """ % {
         'release': env.release,
     }
