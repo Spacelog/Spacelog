@@ -261,7 +261,7 @@ CDR: Mode IV. Roger. Staging.
 CC:  Roger. Staging.
 
 [00:00:10:00]
-CDR: And [glossary:S-IV|S-IVB] ignition, Houston.
+CDR: And [glossary:S-IVB] ignition, Houston.
 
 [00:00:10:04]
 CC:  Roger that, Jim. Thrust looks good.
@@ -27401,7 +27401,7 @@ CMP: Okay. And that's exactly where I was. COMMAND
      SECONDARY FUEL PRESSURE, four, center, and
      CLOSED; EDS AUTO, OFF; COMMAND MODULE/[glossary:LM] FINAL
      SEP, two, off; COMMAND MODULE/SERVICE MODULE
-     SEP, two, down; S-IVB/[glossary:LM] SEP, off, down, guarded;
+     SEP, two, down; [glossary:S-IVB]/[glossary:LM] SEP, off, down, guarded;
      PROPELLANT DUMP to [glossary:RCS] COMMAND; 2 ENGINE OUT and
      LV RATES, OFF.
 
