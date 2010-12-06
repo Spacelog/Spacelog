@@ -8,7 +8,7 @@ webserver_port           ?= 8000
 global_port              ?= 8001
 PYTHON                   ?= python
 
-all: reindex productioncss s3assets build_statsporn
+all: reindex productioncss s3assets statsporn
 
 dirty: copyxapian productioncss s3assets copy_statsporn
 
@@ -16,7 +16,10 @@ reindex: $(indexer)
 	rm -rf xappydb
 	$(PYTHON) -m backend.indexer
 
-build_statsporn:
+# backwards compatibility
+build_statsporn: statsporn
+
+statsporn:
 	$(PYTHON) -m backend.stats_porn
 
 copy_statsporn:
