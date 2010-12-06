@@ -6,7 +6,7 @@ global_source_screen_css  = global/static/css/screen/*.css
 webserver_ip             ?= 0.0.0.0
 webserver_port           ?= 8000
 global_port              ?= 8001
-PYTHON                   ?= python
+PYTHON                   ?= ./ENV/bin/python
 
 all: reindex productioncss s3assets statsporn
 
