@@ -10,12 +10,6 @@ We hope you have fun with this -- we have!
 
 
 
-# A quick note about multiple transcripts
-
-For Mercury-Atlas 6, there is only one transcript available, that of the air-to-ground radio communications (John Glenn's mike was hot through the entire mission). For Apollo 13, there is a second transcript from the Command Module recording, but it cuts out very early into the mission, so we didn't consider it worth including.
-
-However for many other missions there are multiple transcripts. If you're adding missions to Spacelog, please keep these transcripts in different files. We don't yet have support to identify them distinctly, but if you move them all into one big file it'll be impossible for us ever to work on that!
-
 # Getting involved without technical knowledge
 
 ## Correcting minor errors
@@ -38,6 +32,12 @@ There are also some non-dialogue lines. These should all be intended by a single
 which happen at the start of a new page of the PDF. In this case they mean that it's the first page of the transcript of tape 2, and is page 9 of the complete transcript. We particularly need the page number so we can link back to the original typescript in the site.
 
 If you clean up the text version like this, and send it through to us, we can do the rest (although it may take us a bit of time). Since some of the missions are quite long (hundreds of pages of transcript), you may want to share the load between a group. Whether you do that or decide to go it alone, it'd be great if you could let us know at at [spacelog@googlegroups.com](mail:spacelog@googlegroups.com) what you're working on, so we can help you out, and make sure you don't duplicate others' effort.
+
+### A quick note about multiple transcripts
+
+For Mercury-Atlas 6, there is only one transcript available, that of the air-to-ground radio communications (John Glenn's mike was hot through the entire mission). For Apollo 13, there is a second transcript from the Command Module recording, but it cuts out very early into the mission, so we didn't consider it worth including.
+
+However for many other missions there are multiple transcripts. If you're adding missions to Spacelog, please keep these transcripts in different files. We don't yet have support to identify them distinctly, but if you move them all into one big file it'll be impossible for us ever to work on that!
 
 # Getting involved with technical knowledge
 
@@ -96,6 +96,10 @@ Whenever you edit information about a mission, or add a new one, you need to run
 You'll need to create a directory in `missions`. For Mercury-Redstone missions these should start `mr`, for Mercury-Atlas `ma`, for Gemini they start just `g` and for Apollo `a`. If anyone wants to do non-NASA missions, or Shuttle missions, then get in touch 
 
 Look in `transcript-file-format` for a description of how we lay out files. If you're transcribing a mission we don't have, you will find the example `_meta` and `TEC` files useful, since they are the main two files you'll need to create (if you're going to include more than just the air-to-ground transcription, you'll want to put that in `TEC`, the command module transcript in `CM`, and so on). If you can make them in that format (or get as close as you can), and send them through to us along with a link to the original transcript PDFs you used, we'll do the rest. (If you are gifted in design, the source files for all the artwork we've created is available, although we haven't yet put it online -- yell if you need it as a basis for making things like orbital diagrams.)
+
+### Multiple transcripts
+
+As noted above in the information for non-technical folk, if you clean up multiple different transcripts for a single mission (for instance you might do not only the TEC ("technical" ground-to-air) recording but also the CM and/or LM recordings), then please keep them in separate files rather than merging them.
 
 ## Technical glossary
 
