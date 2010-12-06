@@ -42,6 +42,61 @@ _images: [
     }
     ]
 
+[02:13:35:40]
+_images: [
+    {
+        "filename" : "02_13_35_40.jpg",
+        "thumbnail_filename" : "02_13_35_40-thumb.jpg",
+        "caption"  : "View of the Moon out a LM window.",
+        "source"   : "NASA / Scan by Kipp Teague.",
+        "url"	   : "http://www.hq.nasa.gov/alsj/a13/images13.html"
+    }
+    ]
+
+[02:23:30:00]
+_images: [
+    {
+        "filename" : "02_23_30_00.jpg",
+        "thumbnail_filename" : "02_23_30_00-thumb.jpg",
+        "caption"  : "View of Earth from Apollo 13.",
+        "source"   : "NASA / Scan by Kipp Teague.",
+        "url"	   : "http://www.hq.nasa.gov/alsj/a13/images13.html"
+    }
+    ]
+
+[03:05:15:00]
+_images: [
+    {
+        "filename" : "03_05_15_00.jpg",
+        "thumbnail_filename" : "03_05_15_00-thumb.jpg",
+        "caption"  : "View of the Moon out a LM window.",
+        "source"   : "NASA / Scan by Kipp Teague.",
+        "url"	   : "http://www.hq.nasa.gov/alsj/a13/images13.html"
+    }
+    ]
+
+[03:05:20:00]
+_images: [
+    {
+        "filename" : "03_05_20_00.jpg",
+        "thumbnail_filename" : "03_05_20_00-thumb.jpg",
+        "caption"  : "Oblique view of the lunar farside.",
+        "source"   : "NASA / Scan by Kipp Teague.",
+        "url"	   : "http://www.hq.nasa.gov/alsj/a13/images13.html"
+    }
+    ]
+
+[03:07:28:02]
+_images: [
+    {
+        "filename" : "03_07_28_02.jpg",
+        "thumbnail_filename" : "03_07_28_02-thumb.jpg",
+        "caption"  : "View thru the LM rendezvous window of the Moon beyond the Command Module.",
+        "source"   : "NASA / Scan by Kipp Teague.",
+        "url"	   : "http://www.hq.nasa.gov/alsj/a13/images13.html"
+    }
+    ]
+
 [03:08:37:51]
 _images: [
     {
