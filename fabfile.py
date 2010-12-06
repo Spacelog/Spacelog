@@ -58,7 +58,10 @@ def deploy(dirty=False):
     ponder_release()
 
     export_and_upload_tar_from_git()
-    make_release_virtualenv()
+    if dirty:
+        copy_previous_virtualenv()
+    else:
+        make_release_virtualenv()
     prepare_release(dirty)
     switch_to(env.release)
     restart_webserver()
@@ -118,6 +121,16 @@ def upload_tar():
     put('%s.tar.gz' % env.release, '%s/archives/' % env.path)
     run('cd %s/releases && gzip -dc ../archives/%s.tar.gz | tar xf -' % (env.path, env.release))
     local('rm %s.tar.gz' % env.release)
+
+def copy_previous_virtualenv():
+    "Copy a previous virtualenv, for when making a new one is too much of a PITA"
+    require('release', provided_by=[deploy])
+    run(
+        "cp -a %(path)s/releases/current/ENV %(path)s/releases/%(release)s/ENV" % {
+            'path': env.path,
+            'release': env.release,
+        }
+    )
 
 def make_release_virtualenv():
     "Make a virtualenv and install the required packages into it"
