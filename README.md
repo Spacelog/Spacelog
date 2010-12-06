@@ -93,7 +93,7 @@ Whenever you edit information about a mission, or add a new one, you need to run
 
 ## Adding a new mission
 
-You'll need to create a directory in `missions`. For Mercury-Redstone missions these should start `mr`, for Mercury-Atlas `ma`, for Gemini they start just `g` and for Apollo `a`. If anyone wants to do non-NASA missions, or Shuttle missions, then get in touch 
+You'll need to create a directory in `missions`. For Mercury-Redstone missions these should start `mr`, for Mercury-Atlas `ma`, for Gemini they start just `g` and for Apollo `a`. If anyone wants to do non-NASA missions, or Shuttle missions, then get in touch and we'll figure out a naming convention.
 
 Look in `transcript-file-format` for a description of how we lay out files. If you're transcribing a mission we don't have, you will find the example `_meta` and `TEC` files useful, since they are the main two files you'll need to create (if you're going to include more than just the air-to-ground transcription, you'll want to put that in `TEC`, the command module transcript in `CM`, and so on). If you can make them in that format (or get as close as you can), and send them through to us along with a link to the original transcript PDFs you used, we'll do the rest. (If you are gifted in design, the source files for all the artwork we've created is available, although we haven't yet put it online -- yell if you need it as a basis for making things like orbital diagrams.)
 
