@@ -3861,7 +3861,7 @@ P: Roger.
 CC: R Cal.
 
 [00:03:10:20]
-CC: Cai off.
+CC: Cal off.
 
 [00:03:10:21]
 _extra : BERMUDA (THIRD ORBIT)
@@ -4291,7 +4291,7 @@ CT: Friendship Seven, Friendship Seven, this is Zanzibar Com Tech transmitting
 
 [00:03:32:24]
 P: Roger. Friendship Seven. I receive you rather garbled, also. My condition
-     is good. Fuel 5, correetion, fuel 64-48 [percent]; oxygen 52-92 [percent]. Over.
+     is good. Fuel 5, correction, fuel 64-48 [percent]; oxygen 52-92 [percent]. Over.
 
 [00:03:32:44]
 CC: (ATS) Friendship Seven, this is ATS Cap Com. I'm reading you very clear, very clear. Could you give me the reason for the errors in your attitudes, please?
@@ -4399,7 +4399,7 @@ P: This is Friendship Seven at 3 plus 42. We should be just about over Johannesb
      I cannot see anything of southern Africa on this pass. Over.
 
 [00:03:43:06]
-CC: Zauzibar Cap Com. Do you read? Over.
+CC: Zanzibar Cap Com. Do you read? Over.
 
 [00:03:43:12]
 P: Roger, Zanzibar. I'm reading you weak but readable.
@@ -4470,7 +4470,7 @@ CC: Friendship Seven, this is Indian Cap Com. What is your control mode? Over.
 
 [00:03:48:19]
 P: This is Friendship Seven. I'm on [glossary:ASCS|ASCS] but it is operating very erratically. I'm
-     backing it up with manual at the present thne. I'm trying to get it set up so it
+     backing it up with manual at the present time. I'm trying to get it set up so it
      will be in a decent [glossary:ASCS|ASCS] attitude for retrofire. Over.
 
 [00:03:48:33]
@@ -4582,7 +4582,7 @@ P: Roger.
 
 [00:03:52:18]
 P: This is Friendship Seven. Checking different control modes on fly-by-wire. I
-     have no iow thrust to the right. Over.
+     have no low thrust to the right. Over.
 
 [00:03:52:27]
 CC: Roger, understand no low thrust to the right.
@@ -4612,7 +4612,7 @@ CC: Friendship Seven, this is Indian Cap Com. Are you able to see anything? Over
 _extra : MUCHEA (THIRD ORBIT)
 P: This is Friendship Seven. Affirmative. I have Orion right in the middle of the
      window at present time and makes a good one to hold attitude on. I have, I
-     am using it as horizon reference'at the moment.
+     am using it as horizon reference at the moment.
 
 [00:03:55:05]
 CT: Friendship Seven, this is Muchea Com Tech. How do you read? Over.
@@ -4676,7 +4676,7 @@ P: Hello, Muchea Cap Com, Muchea Cap Com. Over.
 CC: How me? Over.
 
 [00:03:58:01]
-CC: Friendship Seven, Muchea Cap Cmn. How now? Over.
+CC: Friendship Seven, Muchea Cap Com. How now? Over.
 
 [00:03:58:04]
 P: Muchea Cap Com: Friendship Seven. Loud and clear. How me?
@@ -4712,7 +4712,7 @@ CC: Roger, understand no low right thruster on fly-by-wire.
 P: That is affirmative. Got it?
 
 [00:03:59:06]
-CC: We would like to send you a Z and R Cai sometime during your 30-minute
+CC: We would like to send you a Z and R Cal sometime during your 30-minute
      report. ...
 
 [00:03:59:11]
