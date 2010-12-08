@@ -104,9 +104,17 @@
         <a title="Tweet this transcript range" href="http://twitter.com/share?url={{ permalink|urlencode:'' }}&amp;text={{ first_highlighted_line.lines.0.1|truncatewords:15|urlencode }}">Tweet</a>
       </p>
       {% endif %}
+      {% if log_line.following_silence > 3600 and max_highlight_index and log_l
+         <dd class='extended-pause'>No contact for {% pause_length log_line.fol
+      {% endif %}
       </div>
       {% if log_line.following_silence > 3600 %}
-        <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}</dd>
+        {% if max_highlight_index and log_line.highlight_index == max_highlight
+         <dd class='extended-pause'>No contact for {% pause_length log_line.fol
+        {% endif %}
+        {% if not max_highlight_index %}
+         <dd class='extended-pause'>No contact for {% pause_length log_line.fol
+        {% endif %}
       {% endif %}
     {% endfor %}
   {% endfor %}
