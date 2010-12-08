@@ -479,678 +479,678 @@
     },
     "glossary": {
         "AEA": {
-            "description": "Abort electronics assembly",
+            "summary": "Abort electronics assembly",
             "type": "abbreviation"
         },
         "AGS": {
-            "description": "Abort guidance system",
+            "summary": "Abort guidance system",
             "type": "abbreviation"
         },
         "ALSCC": {
-            "description": "Apollo lunar surface closeup camera",
+            "summary": "Apollo lunar surface closeup camera",
             "type": "abbreviation"
         },
         "ALSD": {
-            "description": "Apollo lunar surface drill",
+            "summary": "Apollo lunar surface drill",
             "type": "abbreviation"
         },
         "ALSEP": {
-            "description": "Apollo lunar surface experiments package",
+            "summary": "Apollo lunar surface experiments package",
             "type": "abbreviation"
         },
         "AOS": {
-            "description": "Acquisition of signal",
+            "summary": "Acquisition of signal",
             "type": "abbreviation"
         },
         "AOT": {
-            "description": "Alinement optical telescope",
+            "summary": "Alinement optical telescope",
             "type": "abbreviation"
         },
         "APS": {
-            "description": "Auxiliary propulsion system (S-IVB)/Ascent propulsion system (LM)",
+            "summary": "Auxiliary propulsion system (S-IVB)/Ascent propulsion system (LM)",
             "type": "abbreviation"
         },
         "ARIA": {
-            "description": "Apollo Range Instrumentation Aircraft",
+            "summary": "Apollo Range Instrumentation Aircraft",
             "type": "abbreviation"
         },
         "ARS": {
-            "description": "Atmosphere revitalization system",
+            "summary": "Atmosphere revitalization system",
             "type": "abbreviation"
         },
         "BEF": {
-            "description": "Blunt end forward",
+            "summary": "Blunt end forward",
             "type": "abbreviation"
         },
         "CCGE": {
-            "description": "Cold cathode gage experiment",
+            "summary": "Cold cathode gage experiment",
             "type": "abbreviation"
         },
         "CCIG": {
-            "description": "Cold cathode ion gage",
+            "summary": "Cold cathode ion gage",
             "type": "abbreviation"
         },
         "CDH": {
-            "description": "Constant delta altitude (height)",
+            "summary": "Constant delta altitude (height)",
             "type": "abbreviation"
         },
         "CM": {
-            "description": "Command module",
+            "summary": "Command module",
             "type": "abbreviation"
         },
         "CMC": {
-            "description": "Command module computer",
+            "summary": "Command module computer",
             "type": "abbreviation"
         },
         "COI": {
-            "description": "Contingency Orbit Injection",
+            "summary": "Contingency Orbit Injection",
             "type": "abbreviation"
         },
         "COAS": {
-            "description": "Crew optical alinement sight",
+            "summary": "Crew optical alinement sight",
             "type": "abbreviation"
         },
         "CP": {
-            "description": "Control point",
+            "summary": "Control point",
             "type": "abbreviation"
         },
         "CPLEE": {
-            "description": "Charged particle lunar environment experiment",
+            "summary": "Charged particle lunar environment experiment",
             "type": "abbreviation"
         },
         "CSC": {
-            "description": "Contingency sample collection",
+            "summary": "Contingency sample collection",
             "type": "abbreviation"
         },
         "CSI": {
-            "description": "Coelliptic sequence initiation",
+            "summary": "Coelliptic sequence initiation",
             "type": "abbreviation"
         },
         "CSM": {
-            "description": "Command and service module",
+            "summary": "Command and service module",
             "type": "abbreviation"
         },
         "CWEA": {
-            "description": "Caution and warning electronics assembly",
+            "summary": "Caution and warning electronics assembly",
             "type": "abbreviation"
         },
         "DAC": {
-            "description": "Data acquisition camera",
+            "summary": "Data acquisition camera",
             "type": "abbreviation"
         },
         "DAP": {
-            "description": "Digital autopilot",
+            "summary": "Digital autopilot",
             "type": "abbreviation"
         },
         "DEDA": {
-            "description": "Data entry and display assembly",
+            "summary": "Data entry and display assembly",
             "type": "abbreviation"
         },
         "DET": {
-            "description": "Digital event timer",
+            "summary": "Digital event timer",
             "type": "abbreviation"
         },
         "DOI": {
-            "description": "Descent orbit insertion",
+            "summary": "Descent orbit insertion",
             "type": "abbreviation"
         },
         "DPS": {
-            "description": "Descent propulsion system",
+            "summary": "Descent propulsion system",
             "type": "abbreviation"
         },
         "DSE": {
-            "description": "Data storage equipment",
+            "summary": "Data storage equipment",
             "type": "abbreviation"
         },
         "DSEA": {
-            "description": "Data storage equipment assembly",
+            "summary": "Data storage equipment assembly",
             "type": "abbreviation"
         },
         "DSKY": {
-            "description": "Display and keyboard",
+            "summary": "Display and keyboard",
             "type": "abbreviation"
         },
         "DTO": {
-            "description": "Detailed test objective",
+            "summary": "Detailed test objective",
             "type": "abbreviation"
         },
         "ECS": {
-            "description": "Environmental control system",
+            "summary": "Environmental control system",
             "type": "abbreviation"
         },
         "EI": {
-            "description": "Entry interface",
+            "summary": "Entry interface",
             "type": "abbreviation"
         },
         "EMS": {
-            "description": "Entry monitor system",
+            "summary": "Entry monitor system",
             "type": "abbreviation"
         },
         "EMI": {
-            "description": "Extravehicular mobility unit",
+            "summary": "Extravehicular mobility unit",
             "type": "abbreviation"
         },
         "EPS": {
-            "description": "Electrical power system",
+            "summary": "Electrical power system",
             "type": "abbreviation"
         },
         "ETB": {
-            "description": "Equipment transfer bag",
+            "summary": "Equipment transfer bag",
             "type": "abbreviation"
         },
         "EVA": {
-            "description": "Extravehicular activity",
+            "summary": "Extravehicular activity",
             "type": "abbreviation"
         },
         "EVT": {
-            "description": "Extravehicular transfer",
+            "summary": "Extravehicular transfer",
             "type": "abbreviation"
         },
         "FDAI": {
-            "description": "Flight director attitude indicator",
+            "summary": "Flight director attitude indicator",
             "type": "abbreviation"
         },
         "GDC": {
-            "description": "Gyro display coupler",
+            "summary": "Gyro display coupler",
             "type": "abbreviation"
         },
         "GET": {
-            "description": "Ground elapsed time",
+            "summary": "Ground elapsed time",
             "type": "abbreviation"
         },
         "GETI": {
-            "description": "Ground elapsed time of ignition",
+            "summary": "Ground elapsed time of ignition",
             "type": "abbreviation"
         },
         "HFE": {
-            "description": "Heat flow experiment",
+            "summary": "Heat flow experiment",
             "type": "abbreviation"
         },
         "HGA": {
-            "description": "High gain antenna",
+            "summary": "High gain antenna",
             "type": "abbreviation"
         },
         "HTC": {
-            "description": "Handtool carrier",
+            "summary": "Handtool carrier",
             "type": "abbreviation"
         },
         "IMU": {
-            "description": "Inertial measurement unit",
+            "summary": "Inertial measurement unit",
             "type": "abbreviation"
         },
         "IP": {
-            "description": "Initial point",
+            "summary": "Initial point",
             "type": "abbreviation"
         },
         "ISA": {
-            "description": "Interim stowage assembly",
+            "summary": "Interim stowage assembly",
             "type": "abbreviation"
         },
         "IU": {
-            "description": "Instrument unit",
+            "summary": "Instrument unit",
             "type": "abbreviation"
         },
         "ICDU": {
-            "description": "Inertial Coupling Data Unit",
+            "summary": "Inertial Coupling Data Unit",
             "type": "abbreviation"
         },
         "IVT": {
-            "description": "Intravehicular transfer",
+            "summary": "Intravehicular transfer",
             "type": "abbreviation"
         },
         "LAD": {
-            "description": "Lunar atmosphere detector",
+            "summary": "Lunar atmosphere detector",
             "type": "abbreviation"
         },
         "LCG": {
-            "description": "Liquid cooled garment",
+            "summary": "Liquid cooled garment",
             "type": "abbreviation"
         },
         "LEB": {
-            "description": "Lower equipment bay",
+            "summary": "Lower equipment bay",
             "type": "abbreviation"
         },
         "LEC": {
-            "description": "Lunar equipment conveyor",
+            "summary": "Lunar equipment conveyor",
             "type": "abbreviation"
         },
         "LGC": {
-            "description": "Lunar module guidance computer",
+            "summary": "Lunar module guidance computer",
             "type": "abbreviation"
         },
         "LM": {
-            "description": "Lunar module",
+            "summary": "Lunar module",
             "type": "abbreviation"
         },
         "LOI": {
-            "description": "Lunar orbit insertion",
+            "summary": "Lunar orbit insertion",
             "type": "abbreviation"
         },
         "LOPC": {
-            "description": "Lunar orbit plane change",
+            "summary": "Lunar orbit plane change",
             "type": "abbreviation"
         },
         "LOS": {
-            "description": "Loss of signal/line of sight",
+            "summary": "Loss of signal/line of sight",
             "type": "abbreviation"
         },
         "LPD": {
-            "description": "Landing point designator",
+            "summary": "Landing point designator",
             "type": "abbreviation"
         },
         "LTC": {
-            "description": "Lunar topographic camera",
+            "summary": "Lunar topographic camera",
             "type": "abbreviation"
         },
         "MCC": {
-            "description": "Mission Control Center/midcourse correction",
+            "summary": "Mission Control Center/midcourse correction",
             "type": "abbreviation"
         },
         "MESA": {
-            "description": "Modular equipment stowage assembly",
+            "summary": "Modular equipment stowage assembly",
             "type": "abbreviation"
         },
         "MSFN": {
-            "description": "Manned Space Flight Network",
+            "summary": "Manned Space Flight Network",
             "type": "abbreviation"
         },
         "MTVC": {
-            "description": "Manual thrust vector control",
+            "summary": "Manual thrust vector control",
             "type": "abbreviation"
         },
         "OPS": {
-            "description": "Oxygen purge system",
+            "summary": "Oxygen purge system",
             "type": "abbreviation"
         },
         "ORDEAL": {
-            "description": "Orbital rate display earth and lunar",
+            "summary": "Orbital rate display earth and lunar",
             "type": "abbreviation"
         },
         "PDI": {
-            "description": "Powered descent initiation",
+            "summary": "Powered descent initiation",
             "type": "abbreviation"
         },
         "PGA": {
-            "description": "Pressure garment assembly",
+            "summary": "Pressure garment assembly",
             "type": "abbreviation"
         },
         "PGNCS": {
-            "description": "Primary guidance, navigation, and control system (CM)",
+            "summary": "Primary guidance, navigation, and control system (CM)",
             "type": "abbreviation"
         },
         "PGNS": {
-            "description": "Primary guidance and navigation system (LM)",
+            "summary": "Primary guidance and navigation system (LM)",
             "type": "abbreviation"
         },
         "PIPA": {
-            "description": "Pulsed integrating pendulous accelerometer",
+            "summary": "Pulsed integrating pendulous accelerometer",
             "type": "abbreviation"
         },
         "PLSS": {
-            "description": "Portable life support system",
+            "summary": "Portable life support system",
             "type": "abbreviation"
         },
         "PRD": {
-            "description": "Personal radiation dosimeter",
+            "summary": "Personal radiation dosimeter",
             "type": "abbreviation"
         },
         "PSE": {
-            "description": "Passive seismic experiment",
+            "summary": "Passive seismic experiment",
             "type": "abbreviation"
         },
         "PTC": {
-            "description": "Passive thermal control",
+            "summary": "Passive thermal control",
             "type": "abbreviation"
         },
         "RCS": {
-            "description": "Reaction control system",
+            "summary": "Reaction control system",
             "type": "abbreviation"
         },
         "RCU": {
-            "description": "Remote control unit",
+            "summary": "Remote control unit",
             "type": "abbreviation"
         },
         "REFSMMAT": {
-            "description": "Reference to stable member matrix",
+            "summary": "Reference to stable member matrix",
             "type": "abbreviation"
         },
         "RLS": {
-            "description": "Radius of landing site",
+            "summary": "Radius of landing site",
             "type": "abbreviation"
         },
         "RTG": {
-            "description": "Radioisotope thermoelectric generator",
+            "summary": "Radioisotope thermoelectric generator",
             "type": "abbreviation"
         },
         "SCE": {
-            "description": "Signal conditioning equipment",
+            "summary": "Signal conditioning equipment",
             "type": "abbreviation"
         },
         "SCS": {
-            "description": "Stabilization control system",
+            "summary": "Stabilization control system",
             "type": "abbreviation"
         },
         "SECO": {
-            "description": "Sustainer Engine Cut-Off",
+            "summary": "Sustainer Engine Cut-Off",
             "type": "abbreviation"
         },
         "SECS": {
-            "description": "Sequential events control system",
+            "summary": "Sequential events control system",
             "type": "abbreviation"
         },
         "SEF": {
-            "description": "Sharp end forward",
+            "summary": "Sharp end forward",
             "type": "abbreviation"
         },
         "SIDE": {
-            "description": "Suprathermal ion detector experiment",
+            "summary": "Suprathermal ion detector experiment",
             "type": "abbreviation"
         },
         "SLA": {
-            "description": "SM/LM adapter",
+            "summary": "SM/LM adapter",
             "type": "abbreviation"
         },
         "SM": {
-            "description": "Service module",
+            "summary": "Service module",
             "type": "abbreviation"
         },
         "SNAP": {
-            "description": "Systems for nuclear auxiliary power",
+            "summary": "Systems for nuclear auxiliary power",
             "type": "abbreviation"
         },
         "SPS": {
-            "description": "Service propulsion system",
+            "summary": "Service propulsion system",
             "type": "abbreviation"
         },
         "SRC": {
-            "description": "Sample return container",
+            "summary": "Sample return container",
             "type": "abbreviation"
         },
         "SWC": {
-            "description": "Solar wind composition",
+            "summary": "Solar wind composition",
             "type": "abbreviation"
         },
         "SWE": {
-            "description": "Solar wind experiment",
+            "summary": "Solar wind experiment",
             "type": "abbreviation"
         },
         "TEC": {
-            "description": "Transearth coast",
+            "summary": "Transearth coast",
             "type": "abbreviation"
         },
         "TEI": {
-            "description": "Transearth injection",
+            "summary": "Transearth injection",
             "type": "abbreviation"
         },
         "Tig": {
-            "description": "Time of ignition",
+            "summary": "Time of ignition",
             "type": "abbreviation"
         },
         "TLC": {
-            "description": "Translunar coast",
+            "summary": "Translunar coast",
             "type": "abbreviation"
         },
         "TLI": {
-            "description": "Translunar injection",
+            "summary": "Translunar injection",
             "type": "abbreviation"
         },
         "TPF": {
-            "description": "Terminal phase final",
+            "summary": "Terminal phase final",
             "type": "abbreviation"
         },
         "TPI": {
-            "description": "Terminal phase initiation",
+            "summary": "Terminal phase initiation",
             "type": "abbreviation"
         },
         "TSB": {
-            "description": "Temporary stowage bag",
+            "summary": "Temporary stowage bag",
             "type": "abbreviation"
         },
         "TTCA": {
-            "description": "Thrust/Translation Controller Assembly",
+            "summary": "Thrust/Translation Controller Assembly",
             "type": "abbreviation"
         },
         "TVC": {
-            "description": "Thrust vector control",
+            "summary": "Thrust vector control",
             "type": "abbreviation"
         },
         "UHT": {
-            "description": "Universal handtool",
+            "summary": "Universal handtool",
             "type": "abbreviation"
         },
         "MILA": {
-            "description": "Meritt Island Launch Area tracking station",
+            "summary": "Meritt Island Launch Area tracking station",
             "type": "abbreviation"
         },
         "S-IVB": {
-            "description": "Saturn V Third Stage",
+            "summary": "Saturn V Third Stage",
             "type": "abbreviation"
         },
         "FIDO": {
-            "description": "Flight Dynamics Officer",
+            "summary": "Flight Dynamics Officer",
             "type": "abbreviation"
         },
         "VERB 01": {
-            "description": "Display contents of erasable memory location"
+            "summary": "Display contents of erasable memory location"
         },
         "VERB 03": {
-            "description": "Display register 1"
+            "summary": "Display register 1"
         },
         "VERB 04": {
-            "description": "Display register 1 and 2"
+            "summary": "Display register 1 and 2"
         },
         "VERB 05": {
-            "description": "Display register 1, 2 and 3"
+            "summary": "Display register 1, 2 and 3"
         },
         "VERB 06": {
-            "description": "Display data in decimal"
+            "summary": "Display data in decimal"
         },
         "VERB 07": {
-            "description": "Display double-precision data"
+            "summary": "Display double-precision data"
         },
         "VERB 11": {
-            "description": "Monitor register 1"
+            "summary": "Monitor register 1"
         },
         "VERB 12": {
-            "description": "Monitor register 2"
+            "summary": "Monitor register 2"
         },
         "VERB 13": {
-            "description": "Monitor register 3"
+            "summary": "Monitor register 3"
         },
         "VERB 14": {
-            "description": "Monitor register 1 and 2"
+            "summary": "Monitor register 1 and 2"
         },
         "VERB 15": {
-            "description": "Monitor register 1, 2 and 3"
+            "summary": "Monitor register 1, 2 and 3"
         },
         "VERB 16": {
-            "description": "Monitor data in decimal"
+            "summary": "Monitor data in decimal"
         },
         "VERB 17": {
-            "description": "Monitor double-precision data"
+            "summary": "Monitor double-precision data"
         },
         "VERB 21": {
-            "description": "Load register 1"
+            "summary": "Load register 1"
         },
         "VERB 22": {
-            "description": "Load register 2"
+            "summary": "Load register 2"
         },
         "VERB 23": {
-            "description": "Load register 3"
+            "summary": "Load register 3"
         },
         "VERB 24": {
-            "description": "Load register 1 and 2"
+            "summary": "Load register 1 and 2"
         },
         "VERB 25": {
-            "description": "Load register 1, 2 and 3"
+            "summary": "Load register 1, 2 and 3"
         },
         "VERB 31": {
-            "description": "Bank display"
+            "summary": "Bank display"
         },
         "VERB 33": {
-            "description": "Proceed without data"
+            "summary": "Proceed without data"
         },
         "VERB 34": {
-            "description": "Terminate"
+            "summary": "Terminate"
         },
         "VERB 36": {
-            "description": "Fresh start"
+            "summary": "Fresh start"
         },
         "VERB 37": {
-            "description": "Change major mode to"
+            "summary": "Change major mode to"
         },
         "VERB 40": {
-            "description": "Zero CDU registers"
+            "summary": "Zero CDU registers"
         },
         "VERB 41": {
-            "description": "Coarse align IMU"
+            "summary": "Coarse align IMU"
         },
         "VERB 42": {
-            "description": "Fine align IMU"
+            "summary": "Fine align IMU"
         },
         "VERB 43": {
-            "description": "Lock IMU"
+            "summary": "Lock IMU"
         },
         "VERB 44": {
-            "description": "Set IMU to ATTITUDE CONTROL"
+            "summary": "Set IMU to ATTITUDE CONTROL"
         },
         "VERB 45": {
-            "description": "Set IMU ENTRY"
+            "summary": "Set IMU ENTRY"
         },
         "VERB 46": {
-            "description": "Return IMU ENTRY"
+            "summary": "Return IMU ENTRY"
         },
         "VERB 48": {
-            "description": "Request DAP data load"
+            "summary": "Request DAP data load"
         },
         "VERB 52": {
-            "description": "Mark reject"
+            "summary": "Mark reject"
         },
         "VERB 53": {
-            "description": "Free"
+            "summary": "Free"
         },
         "VERB 54": {
-            "description": "Pulse torque gyros"
+            "summary": "Pulse torque gyros"
         },
         "VERB 55": {
-            "description": "Align time"
+            "summary": "Align time"
         },
         "VERB 56": {
-            "description": "Perform bank sum"
+            "summary": "Perform bank sum"
         },
         "VERB 64": {
-            "description": "Calculate orbital parameters"
+            "summary": "Calculate orbital parameters"
         },
         "VERB 65": {
-            "description": "Calculate time of arrival at longitude"
+            "summary": "Calculate time of arrival at longitude"
         },
         "VERB 66": {
-            "description": "Calculate latitude and longitude at specified time"
+            "summary": "Calculate latitude and longitude at specified time"
         },
         "VERB 67": {
-            "description": "Calculate maximum declination and time of arrival"
+            "summary": "Calculate maximum declination and time of arrival"
         },
         "VERB 73": {
-            "description": "Return to Earth aim point update"
+            "summary": "Return to Earth aim point update"
         },
         "VERB 74": {
-            "description": "Orbit change aim point update"
+            "summary": "Orbit change aim point update"
         },
         "VERB 75": {
-            "description": "Manual lift-off"
+            "summary": "Manual lift-off"
         },
         "VERB 76": {
-            "description": "Update state vector"
+            "summary": "Update state vector"
         },
         "NOUN 07": {
-            "description": "Set/reset values"
+            "summary": "Set/reset values"
         },
         "NOUN 09": {
-            "description": "Last three program alarms"
+            "summary": "Last three program alarms"
         },
         "NOUN 14": {
-            "description": "Desired Delta-V"
+            "summary": "Desired Delta-V"
         },
         "NOUN 20": {
-            "description": "ICDUs"
+            "summary": "ICDUs"
         },
         "NOUN 21": {
-            "description": "PIPA (accelerometer) values"
+            "summary": "PIPA (accelerometer) values"
         },
         "NOUN 23": {
-            "description": "Number of passes, time to burn, burn delta-V."
+            "summary": "Number of passes, time to burn, burn delta-V."
         },
         "NOUN 25": {
-            "description": "Perform checklist action"
+            "summary": "Perform checklist action"
         },
         "NOUN 29": {
-            "description": "Launch azimuth"
+            "summary": "Launch azimuth"
         },
         "NOUN 33": {
-            "description": "Time of ignition"
+            "summary": "Time of ignition"
         },
         "NOUN 34": {
-            "description": "Time of next program event"
+            "summary": "Time of next program event"
         },
         "NOUN 44": {
-            "description": "Height (nautical miles)"
+            "summary": "Height (nautical miles)"
         },
         "NOUN 47": {
-            "description": "Command and Service Module weight (lbs)"
+            "summary": "Command and Service Module weight (lbs)"
         },
         "NOUN 48": {
-            "description": "Pitch and yaw trim"
+            "summary": "Pitch and yaw trim"
         },
         "NOUN 62": {
-            "description": "Velocity information during launch and landing"
+            "summary": "Velocity information during launch and landing"
         },
         "NOUN 81": {
-            "description": "Change in velocity (fps)"
+            "summary": "Change in velocity (fps)"
         },
         "P00": {
-            "description": "Idle"
+            "summary": "Idle"
         },
         "P11": {
-            "description": "Launch control"
+            "summary": "Launch control"
         },
         "P22": {
-            "description": "Ground track determination"
+            "summary": "Ground track determination"
         },
         "P22": {
-            "description": "Optics update"
+            "summary": "Optics update"
         },
         "P23": {
-            "description": "Cislunar navigation"
+            "summary": "Cislunar navigation"
         },
         "P27": {
-            "description": "CMC update"
+            "summary": "CMC update"
         },
         "P30": {
-            "description": "External Delta-V"
+            "summary": "External Delta-V"
         },
         "P33": {
-            "description": "Corrective combination maneuvre (NCC)"
+            "summary": "Corrective combination maneuvre (NCC)"
         },
         "P37": {
-            "description": "Rendezvous final phase"
+            "summary": "Rendezvous final phase"
         },
        "P40": {
-            "description": "SPS thrusting"
+            "summary": "SPS thrusting"
         },
         "P41": {
-            "description": "RCS thrusting"
+            "summary": "RCS thrusting"
         },
        "P47": {
-            "description": "Thrust monitor"
+            "summary": "Thrust monitor"
         },
         "P51": {
-            "description": "Read guidance platform orientation"
+            "summary": "Read guidance platform orientation"
         },
         "P52": {
-            "description": "Guidance platform realignment"
+            "summary": "Guidance platform realignment"
         },
         "P61": {
-            "description": "Entry preparation"
+            "summary": "Entry preparation"
         }
     },
     "error_pages": {

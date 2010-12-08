@@ -414,6 +414,13 @@ class MetaIndexer(object):
             data['abbr'] = identifier
             data['times_mentioned'] = 0
             
+            if data.has_key('summary') and data.has_key('description'):
+                data['extended_description'] = data['description']
+                data['description'] = data['summary']
+                del data['summary']
+            else:
+                data['description'] = data.get('summary', data['description'])
+            
             # Store the main data in a hash
             self.redis_conn.hmset("glossary:%s" % term_key, data)
 

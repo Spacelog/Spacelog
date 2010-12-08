@@ -127,44 +127,44 @@
     },
     "glossary": {
         "ASCS": {
-            "description": "Automatic Stabilization and Control System",
+            "summary": "Automatic Stabilization and Control System",
             "type": "abbreviation"
         },
         "FBW": {
-            "description": "Fly By Wire",
+            "summary": "Fly By Wire",
             "type": "abbreviation"
         }, 
         "MP": {
-            "description": "Manual Proportional",
+            "summary": "Manual Proportional",
             "type": "abbreviation"
         }, 
         "RSCS": {
-            "description": "Rate Stabilization and Control System",
+            "summary": "Rate Stabilization and Control System",
             "type": "abbreviation"
         }, 
         "BECO": {
-            "description": "Booster Engine Cut-Off",
+            "summary": "Booster Engine Cut-Off",
             "type": "abbreviation"
         }, 
         "SECO": {
-            "description": "Sustainer Engine Cut-Off",
+            "summary": "Sustainer Engine Cut-Off",
             "type": "abbreviation"
         },
         "IOS": {
-            "description": "Indian Ocean Ship",
+            "summary": "Indian Ocean Ship",
             "type": "abbreviation"
         },
         "CYI": {
-            "description": "Canary Islands",
+            "summary": "Canary Islands",
             "type": "abbreviation"
         },
         "MCC": {
-            "description": "Mercury Control Center",
+            "summary": "Mercury Control Center",
             "type": "abbreviation"
         },
         "MAX Q": {
-            "description": "Maximum dynamic pressure",
-            "extended_description": "The point at which aerodynamic stress on a spacecraft in atmospheric flight is maximized."
+            "summary": "Maximum dynamic pressure",
+            "description": "The point at which aerodynamic stress on a spacecraft in atmospheric flight is maximized."
         }
     }
 }
