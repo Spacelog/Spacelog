@@ -36,6 +36,7 @@
         # Image attributions for the about page. None means that there are no copyright
         # images used that are mission-specific (eg in phase images or orbital diagrams).
         "image_attributions": [
+            { "url": "http://...", "title": "Name of photo", "attrib": "Name of photographer", "license": "CC By-NC" }
         ],
         "call_signs": "When only the CSM (Command and Service Module pairing) is manned, its call sign is Apollo 13. When both the Control and Lunar Modules are manned, the CM's call sign is Odyssey, and the LM's call sign is Aquarius. The call sign for <a href='/people/#capcom'>CAPCOM</a> is Houston."
     },
