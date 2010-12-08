@@ -29,6 +29,9 @@
             { "url": "http://www.flickr.com/photos/28634332@N05/4971286005/", "title": "Crescent Moon, Earth's Atmosphere", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" },
             { "url": "http://www.flickr.com/photos/28634332@N05/4971276687/", "title": "Edge of the Earth", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" },
             { "url": "http://www.flickr.com/photos/28634332@N05/4089570162/", "title": "International Space Station Over Earth", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" }
+        ],
+        "transcript_attributions": [
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/apollo13.htm", "title": "Apollo 13 Technical Air-to-Ground Voice Transcription" }
         ]
     },
     "main_transcript": "a13/TEC",

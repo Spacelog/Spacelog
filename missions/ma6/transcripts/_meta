@@ -18,6 +18,9 @@
         "about": "The second important moment in America's entry to the space race, Mercury-Atlas 6 saw pilot John Glenn perform three orbits of the Earth in a five hour flight, becoming the third man in space after Russians Yuri Gagarin and Gherman Titov the previous year.\n\nThis site allows you to explore transcripts of radio communications between John Glenn aboard Friendship 7 and the NASA personnel at monitoring stations around the world, along with photographs taken both from the ground and by Glenn in space.",
         "image_attributions": [
         ],
+        "transcript_attributions": [
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/mercury.htm", "title": "Mercury-Atlas 6 Results of the First United States Orbital Space Flight" }
+        ],
         "call_signs": "The Mercury capsule's callsign through the mission is Friendship 7; the CAPCOMs' call signs are location-dependent; for instance, &ldquo;Muchea Cap Com&rdquo; is Gordon Cooper."
     },
     "main_transcript": "ma6/TEC",

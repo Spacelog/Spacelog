@@ -67,6 +67,14 @@ Each line starts with a timestamp, in Ground Elapsed Time, which is the time (in
     </div>
     <div id='colophon'>
       <h2>Colophon</h2>
+      {% if mission.copy.transcript_attributions %}
+          <h3>Original transcripts</h3>
+          <ul>
+              {% for transcript in mission.copy.transcript_attributions %}
+                  <li><a href='{{ transcript.url }}'>{{ transcript.title }}</a></li>
+              {% endfor %}
+          </ul>
+      {% endif %}
       <h3>Typeface</h3>
       <p><a href='http://kernest.com/league-gothic'>League Gothic</a></p>
       <h3>Icons</h3>
