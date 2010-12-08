@@ -419,7 +419,7 @@ class MetaIndexer(object):
                 data['description'] = data['summary']
                 del data['summary']
             else:
-                data['description'] = data.get('summary', data['description'])
+                data['description'] = data.get('summary') or data['description']
             
             # Store the main data in a hash
             self.redis_conn.hmset("glossary:%s" % term_key, data)
