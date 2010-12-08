@@ -55,7 +55,7 @@ For any changes you make (fixed, new missions, or even new website features), yo
 
  * python (and pip)
  * redis (often packages as `python-redis`; we need Redis 2.0 or later)
- * imagemagick (for stats images on the phase pages)
+ * imagemagick and optipng (for stats images on the phase pages)
  * Xapian and its python bindings (the search engine library we use; often packaged as `python-xapian`)
  * `CSS::Prepare` (a perl library for managing CSS; `sudo cpanm -f CSS::Prepare`; if you don't have `cpanm` there are [straightforward installation instructions](http://search.cpan.org/~miyagawa/App-cpanminus-1.1004/lib/App/cpanminus.pm#INSTALLATION) available)
  * various python modules (run `pip install -r requirements.txt`)
