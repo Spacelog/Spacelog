@@ -3,10 +3,12 @@ website_screen_css        = website/static/css/screen.css
 website_source_screen_css = website/static/css/screen/*.css
 global_screen_css         = global/static/css/screen.css
 global_source_screen_css  = global/static/css/screen/*.css
-webserver_ip             ?= 0.0.0.0
-webserver_port           ?= 8000
-global_port              ?= 8001
 PYTHON                   ?= ./ENV/bin/python
+
+# Dev Django runserver variables
+dev_webserver_ip         ?= 0.0.0.0
+dev_webserver_port       ?= 8000
+dev_global_port          ?= 8001
 
 all: reindex productioncss s3assets statsporn
 
@@ -40,14 +42,14 @@ $(global_screen_css): $(global_source_screen_css)
 		$(global_source_screen_css) > $(global_screen_css)
 
 devserver:
-	$(PYTHON) -m website.manage runserver $(webserver_ip):$(webserver_port)
+	$(PYTHON) -m website.manage runserver $(dev_webserver_ip):$(dev_webserver_port)
 
 devcss:
 	cssprepare --optimise --extended-syntax \
 		--pipe $(website_screen_css) $(website_source_screen_css)
 
 devserver_global:
-	$(PYTHON) -m global.manage runserver $(webserver_ip):$(global_port)
+	$(PYTHON) -m global.manage runserver $(dev_webserver_ip):$(dev_global_port)
 
 devcss_global:
 	cssprepare --optimise --extended-syntax \
