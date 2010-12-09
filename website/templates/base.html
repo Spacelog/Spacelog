@@ -20,12 +20,14 @@
   <meta property="og:url foaf:homepage" content="http://{{ request.META.HTTP_HOST }}/">
   <meta property="og:image" content="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
   <link property="foaf:depiction" href="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
-  {# foaf:depiction and og:image are being repeated as separate properties because the Open Graph Protocol
+  {% comment %}
+      foaf:depiction and og:image are being repeated as separate properties because the Open Graph Protocol
       is misusing RDFa slightly: in RDFa, the content attribute is used to represent literals (strings basically).
       if you want to use a URI reference as the object, RDFa says you should use the href attribute.
       one could combine all these together into one uber-element that has property, rel, content and href
       but authors might not understand this in the same way.
-      see https://github.com/tommorris/Spacelog/commit/2850e1c71b94a92834cd27022c3dcee792e6787d #}
+      see https://github.com/tommorris/Spacelog/commit/2850e1c71b94a92834cd27022c3dcee792e6787d
+  {% endcomment %}
   <meta property="og:site_name" content="Spacelog">
   <!-- <meta property="og:description"
         content="{{ mission.title|escape }}: {{ mission.description|escape }}"> -->
