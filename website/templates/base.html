@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:og="http://opengraphprotocol.org/schema/"
-      xmlns:fb="http://www.facebook.com/2008/fbml">
+      xmlns:fb="http://www.facebook.com/2008/fbml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:dbo="http://dbpedia.org/ontology/abstract"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:space="http://spacelog.org/ns/">
 <head>
   <title>{% block full_title %}{% block title %}SET THE TITLE{% endblock %} &mdash; {{ mission.title }} on Spacelog{% endblock %}</title>
   <link rel="stylesheet" href="{{ STATIC_URL }}css/screen.css" media="screen">
@@ -9,12 +14,14 @@
   {% block extra_head %}{% endblock %}
 {% if mission %}
   <meta name="description" content="{{ mission.title }}: {{ mission.description }}">
-  <meta property="og:title" content="{{ mission.title }}">
-  <meta property="og:type" content="space:manned_mission">
-  <meta property="og:url" content="http://{{ request.META.HTTP_HOST }}/">
+  <meta property="og:title dc:title" content="{{ mission.title }}">
+  <meta property="og:type" content="space:MannedMission">
+  <link rel="rdfs:type" resource="http://spacelog.org/ns/MannedMission">
+  <meta property="og:url foaf:homepage" content="http://{{ request.META.HTTP_HOST }}/">
   <meta property="og:image" content="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
+  <link property="foaf:depiction" href="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
   <meta property="og:site_name" content="Spacelog">
-  <!-- <meta property="og:description"
+  <!-- <meta property="og:description dbo:abstract"
         content="{{ mission.title|escape }}: {{ mission.description|escape }}"> -->
   <meta property="fb:admins" content="36916129">
 {% endif %}
