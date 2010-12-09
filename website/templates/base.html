@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:og="http://opengraphprotocol.org/schema/"
-      xmlns:fb="http://www.facebook.com/2008/fbml">
+      xmlns:fb="http://www.facebook.com/2008/fbml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:dbo="http://dbpedia.org/ontology/abstract"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:space="http://spacelog.org/ns/">
 <head>
   <title>{% block full_title %}{% block title %}SET THE TITLE{% endblock %} &mdash; {{ mission.title }} on Spacelog{% endblock %}</title>
   <link rel="stylesheet" href="{{ STATIC_URL }}css/screen.css" media="screen">
   <link rel="shortcut icon" href="{{ STATIC_URL}}img/favicon.ico">
   {% block extra_head %}{% endblock %}
 {% if mission %}
-  <meta name="description" content="{{ mission.title }}: {{ mission.description }}">
-  <meta property="og:title" content="{{ mission.title }}">
-  <meta property="og:type" content="space:manned_mission">
-  <meta property="og:url" content="http://{{ request.META.HTTP_HOST }}/">
+  <meta name="description" property="og:description dbo:abstract" content="{{ mission.title }}: {{ mission.description }}">
+  <meta property="og:title dc:title" content="{{ mission.title }}">
+  <meta property="og:type" content="space:MannedMission">
+  <link rel="rdfs:type" resource="http://spacelog.org/ns/MannedMission">
+  <meta property="og:url foaf:homepage" content="http://{{ request.META.HTTP_HOST }}/">
   <meta property="og:image" content="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
+  <link property="foaf:depiction" href="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
+  {# foaf:depiction and og:image are being repeated as separate properties because the Open Graph Protocol
+      is misusing RDFa slightly: in RDFa, the content attribute is used to represent literals (strings basically).
+      if you want to use a URI reference as the object, RDFa says you should use the href attribute.
+      one could combine all these together into one uber-element that has property, rel, content and href
+      but authors might not understand this in the same way.
+      see https://github.com/tommorris/Spacelog/commit/2850e1c71b94a92834cd27022c3dcee792e6787d #}
   <meta property="og:site_name" content="Spacelog">
   <!-- <meta property="og:description"
         content="{{ mission.title|escape }}: {{ mission.description|escape }}"> -->
