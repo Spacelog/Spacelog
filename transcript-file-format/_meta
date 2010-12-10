@@ -124,6 +124,12 @@
     },
 
     # Glossary: Used to populate the glossary page.
+    
+    # A list of shared glossary files
+    # These should be in missions/shared/glossary and use the same format as the mission specific glossary below
+    "shared_glossaries": [ "apollo" ],
+    
+    # Mission specific glossary terms
     "glossary": {
         "AET": {
             "summary": "An Example Term",

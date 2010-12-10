@@ -399,8 +399,28 @@ class MetaIndexer(object):
             self.redis_conn.hmset(character_key, data)
 
     def index_glossary(self, meta):
-        "Stores glossary information in redis"
-        for identifier, data in meta['glossary'].items():
+        """
+        Stores glossary information in redis.
+        Terms from the mission's shared glossary file(s) will be overridden by terms
+        from the mission's own _meta file.
+        """
+        
+        glossary_terms = {}
+        
+        # Load any shared glossary files and add their contents
+        # to glossary_terms
+        shared_glossary_files       = meta.get('shared_glossaries', [])
+        shared_glossary_files_path  = os.path.join(os.path.dirname( __file__ ), '..', 'missions', 'shared', 'glossary')
+        
+        for filename in shared_glossary_files:
+            with open(os.path.join(shared_glossary_files_path, filename)) as fh:
+                glossary_terms.update(json.load(fh))
+        
+        # Add the mission specific glossary terms
+        glossary_terms.update(meta.get('glossary', {}))
+        
+        # Add all the glossary terms to redis
+        for identifier, data in glossary_terms.items():
             term_key = "%s:%s" % (self.mission_name, identifier)
             
             # Add the ID to the list for this mission
