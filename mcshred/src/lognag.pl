@@ -190,12 +190,15 @@ sub process {
 
     my $cleandata = '';
     open( FILE, "<$file" ) || die("Unable to open $file: $!");
+	my $lineno = 0;
     while ( my $line = <FILE> ) {
         my @fail;
         my @words    = split( ' ', $line, $log_timestamp_elements + 2 );
         my $logscore = 0;
         my $fix      = 0;
         my $txt      = $line;
+
+		$lineno += 1;
 
         if ( $line =~ /Speakers:\s+(.*)/ ) {
             setup_valid_speakers($1);
@@ -347,7 +350,7 @@ sub process {
         @fail = grep ( /^$report_fail/, @fail ) if $report_fail;
         if (@fail) {
             ++$badfiles{$file};
-            print "$file: (@fail) $line";
+            print "$file:$lineno: (@fail) $line";
         }
         else {
             $cleandata .= $line;
