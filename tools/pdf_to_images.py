@@ -2,12 +2,28 @@
 import os
 import subprocess
 import sys
+import tempfile
 
-OPTIMISE_IMAGES = True
 ORIGINALS_WIDTH = 770
 ABOUT_PAGE      = 1
 ABOUT_WIDTH     = 270
 
+requires = {
+    'ImageMagick': 'convert',
+    'OptiPNG'    : 'optipng',
+}
+
+unmet_requirements = []
+for name, command in requires.iteritems():
+    tf = tempfile.TemporaryFile()
+    try:
+        subprocess.call( command, stdin=None, stdout=tf, stderr=tf )
+    except OSError:
+        unmet_requirements += [ '%s (%s)' % ( name, command ) ]
+
+if unmet_requirements:
+    print >>sys.stderr, 'Unmet requirements: %s' % ', '.join( unmet_requirements )
+    sys.exit(1)
 
 if len(sys.argv) < 2:
     print >>sys.stderr, "Usage: python pdf_to_images.py [pdf file]"
@@ -23,17 +39,30 @@ page = 1
 
 def generate_image( image_name, page, resize_dimensions=None ):
     png_file = os.path.join(output_dir, '%s.png' % image_name)
-
+    
+    # Convert and resize in two passes to get the smallest filesize
     print "Converting page %s to %s..." % ( page, png_file )
     exit_code = subprocess.call([
         'convert', 
         '-density', '300', 
-        '-resize', resize_dimensions,
         u'%s[%s]' % (pdf_file, page-1), # zero indexed pages
         png_file,
     ])
     
-    if OPTIMISE_IMAGES:
+    if not exit_code:
+        print "Resizing %s..." % png_file
+        # HACK: Assumes that the input image is black and white,
+        #       and 16 colors will suffice for antialiasing
+        exit_code = subprocess.call([
+            'convert', 
+            '-colorspace', 'Gray',
+            '-resize', resize_dimensions,
+            '-colors', '16',
+            png_file,
+            png_file,
+        ])
+        
+    if not exit_code:
         # This usually takes many times longer than the extract
         print "Optimising %s..." % png_file
         optimise_exit_code = subprocess.call([
