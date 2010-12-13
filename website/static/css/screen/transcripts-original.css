@@ -7,8 +7,14 @@
 .original-transcript .wrapper {
     position:               relative;
 }
+.original-transcript img {
+    display:                block;
+    float:                  left;
+    margin:                 0 85px;
+}
 .original-transcript a {
     display:                block;
+    float:                  left;
     position:               absolute;
     top:                    100px;
     width:                  75px;
@@ -21,11 +27,11 @@
     background-position:    0 -54px;
 }
 .original-transcript a[rel=prev] {
-    left:                   -85px;
+    left:                   0;
     background-image:       url(../img/base/prev.png);
 }
 .original-transcript a[rel=next] {
-    left:                   950px;
+    right:                  0;
     background-image:       url(../img/base/next.png);
 }
 .original-transcript a span {
