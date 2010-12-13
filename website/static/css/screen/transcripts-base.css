@@ -286,7 +286,8 @@ p.load-more a {
 
 p.act-banner {
     height:                 200px;
-    margin:                 0 -40px;
+    margin:                 0 -34px 0 -41px;
+    overflow:               hidden;
 }
 
 /*! verbatim */
