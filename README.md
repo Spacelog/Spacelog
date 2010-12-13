@@ -24,7 +24,7 @@ If you [download the PDFs from NASA](http://www.jsc.nasa.gov/history/mission_tra
 
 However some of the lines will have errors (from the small, such as `O` instead of `0`, to the large such as entire lines being completely garbled). If you go back to the PDF, you can usually quite easily figure out what was originally typed out but which the automatic OCR didn't get right.
 
-There are also some non-dialogue lines. These should all be intended by a single tab; the most important ones are:
+There are also some non-dialogue lines. These should all be indented by a single tab; the most important ones are:
 
         TAPE 2/1
         PAGE 9
