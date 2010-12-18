@@ -22,7 +22,8 @@
             "Andrew Godwin",
             "Tim Hatch",
             "Steve Marshall",
-            "Matthew Ogle"
+            "Matthew Ogle",
+	    "Jeremy Weatherford"
         ],
         "about": "When Apollo 13 launched from Kennedy Space Centre in Florida on Saturday 11th April 1970, no one involved could have anticipated that the mission would be anything but a smooth third Moon landing. The journey would instead revolve around an explosion in the Service Module that turned it into one of the most famous of not only the Apollo program but of human space exploration in the 20th century.\n\nThis site allows you to explore transcripts of radio communications between the Apollo 13 crew and the NASA personnel back at Houston. Included with the transcripts are photographs taken both from the ground and by the crew in space, as well as other information about the mission, the problems that occurred, and the measures that were taken, both on ground and in the Command and Lunar Modules that made up the crew areas of Apollo 13.",
         "image_attributions": [
@@ -168,6 +169,7 @@
         "VANCE_BRAND",
         "JACK_LOUSMA",
         "JOE_KERWIN",
+	"JOHN_YOUNG",
         "CHARLIE_DUKE",
         "KEN_MATTINGLY",
         "DEKE_SLAYTON",
@@ -185,6 +187,9 @@
             "avatar": "capcom_generic.png",
             "shifts": [
               ["JOE_KERWIN", "-00:01:00:00", "strictly, only Kerwin, Brand and Lousma were taking shifts (AFAICT), however other astronauts come on as CAPCOM in the original transcript, and we use the shift mechanism to display that properly"],
+	      ["JOHN_YOUNG", "00:04:39:01", "identified by PAO transcript"],
+	      ["JOE_KERWIN", "00:04:50:45"],
+
               ["VANCE_BRAND", "00:07:09:09"],
               ["JACK_LOUSMA", "00:16:00:00", "uncertain (and moot) since he doesn't appear in the transcript at this point"],
               ["JOE_KERWIN", "00:23:11:14"],
@@ -197,8 +202,8 @@
               ["CC", "02:03:07:02", "unknown CAPCOM"],
               ["VANCE_BRAND", "02:04:07:42"],
               ["CC", "02:05:34:32", "unknown CAPCOM until 02:06:06:20 ???"],
-              ["CC", "02:06:06:20", "unknown CAPCOM denies being Jack"],
-              ["JACK_LOUSMA", "02:06:24:15"],
+	      ["JOHN_YOUNG", "02:05:54:41", "identified by PAO transcript"],
+              ["JACK_LOUSMA", "02:06:26:40"],
               ["JOE_KERWIN", "02:16:38:23"],
               ["CHARLIE_DUKE", "03:00:28:47"],
               ["VANCE_BRAND", "03:01:09:03"],
@@ -216,7 +221,7 @@
               ["VANCE_BRAND", "04:06:11:50"],
               ["JACK_LOUSMA", "04:08:35:00"],
               ["CC", "04:16:26:34", "unknown CAPCOM until 04:16:49:07"],
-              ["JOE_KERWIN", "04:17:13:55"],
+              ["JOE_KERWIN", "04:17:13:46"],
               ["VANCE_BRAND", "05:00:55:13"],
               ["KEN_MATTINGLY", "05:06:14:43"],
               ["VANCE_BRAND", "05:07:58:19"],
@@ -253,7 +258,7 @@
               ["F", "05:08:12:02"],
               ["DEKE_SLAYTON", "05:12:52:14", "until 05:12:54:19"],
               ["F", "05:12:54:20"],
-              ["DEKE_SLAYTON", "05:17:47:38", "until 05:17:47:49"],
+              ["DEKE_SLAYTON", "05:15:47:38", "until 05:17:47:49"],
               ["F", "05:17:47:50"]
             ]
         },
@@ -389,6 +394,14 @@
           "photo_width": 190,
           "photo_height": 155,
           "avatar": "joe_kerwin.jpg"
+        },
+        "JOHN_YOUNG": {
+          "role": "mission-ops",
+          "name": "John Watts Young",
+          "short_name": "John Young (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "bio": "A naval fighter pilot and test pilot, John was the first person to fly the CSM solo as the CMP on Apollo 10.  He also served as commander on Apollo 16 and later flew two Space Shuttle missions.",
+          "avatar": "SC_48.png"
         },
         "TOM_STAFFORD": {
           "role": "mission-ops",
@@ -557,6 +570,9 @@
             "description": "Control point",
             "type": "abbreviation"
         },
+	"CPCB": {
+	    "description": "Crew Procedures Control Board"
+	},
         "CPLEE": {
             "description": "Charged particle lunar environment experiment",
             "type": "abbreviation"
@@ -933,6 +949,31 @@
             "description": "Flight Dynamics Officer",
             "type": "abbreviation"
         },
+	"EECOM": {
+	    "description": "Electrical, Environmental and Consumables Manager",
+	    "type": "abbreviation"
+	},
+	"TELMU": {
+	    "Telemetry, Electrical, EVA Mobility Unit Officer (LM's EECOM)",
+	    "type": "abbreviation"
+	},
+	"INCO": {
+	    "description": "Integrated Communications Officer",
+	    "type": "abbreviation"
+	},
+	"GUIDO": {
+	    "description": "Guidance Officer",
+	    "type": "abbreviation"
+	},
+	"GNC": {
+	    "description": "Guidance, Navigation, and Controls System Engineer",
+	    "type": "abbreviation"
+	},
+	"BMAG": {
+	    "description": "Body Mounted Attitude Gyroscope",
+	    "type": "abbreviation"
+	},
+
         "VERB 01": {
             "description": "Display contents of erasable memory location"
         },
@@ -1015,16 +1056,19 @@
             "description": "Lock IMU"
         },
         "VERB 44": {
-            "description": "Set IMU to ATTITUDE CONTROL"
+            "description": "Terminate Rendezvous Radar Continuous Designate"
         },
         "VERB 45": {
             "description": "Set IMU ENTRY"
         },
         "VERB 46": {
-            "description": "Return IMU ENTRY"
+            "description": "Establish G&C Control"
         },
         "VERB 48": {
             "description": "Request DAP data load"
+        },
+        "VERB 49": {
+            "description": "Request Crew Defined Maneuver routine"
         },
         "VERB 52": {
             "description": "Mark reject"
@@ -1036,34 +1080,49 @@
             "description": "Pulse torque gyros"
         },
         "VERB 55": {
-            "description": "Align time"
+            "description": "Increment LGC time (decimal)"
         },
         "VERB 56": {
             "description": "Perform bank sum"
         },
+        "VERB 62": {
+            "description": "Display total attitude errors with respect to new ICDU angles"
+        },
         "VERB 64": {
-            "description": "Calculate orbital parameters"
+            "description": "Request S-Band Antenna Routine"
         },
         "VERB 65": {
-            "description": "Calculate time of arrival at longitude"
+            "description": "Disable U and V jet firings during DPS burns"
         },
         "VERB 66": {
-            "description": "Calculate latitude and longitude at specified time"
+            "description": "Move state vector to other vehicle"
         },
         "VERB 67": {
             "description": "Calculate maximum declination and time of arrival"
+        },
+        "VERB 69": {
+            "description": "Cause restart"
         },
         "VERB 73": {
             "description": "Return to Earth aim point update"
         },
         "VERB 74": {
-            "description": "Orbit change aim point update"
+            "description": "Initialize erasable dump via downlink"
         },
         "VERB 75": {
             "description": "Manual lift-off"
         },
         "VERB 76": {
-            "description": "Update state vector"
+            "description": "Minimum Impulse Command mode"
+        },
+        "VERB 77": {
+            "description": "Rate Command and Attitude Hold mode"
+        },
+        "VERB 79": {
+            "description": "Request Lunar Landmark Selection Routine (CSM)"
+        },
+        "VERB 96": {
+            "description": "Terminate integration and go to P00"
         },
         "NOUN 07": {
             "description": "Set/reset values"
@@ -1074,16 +1133,25 @@
         "NOUN 14": {
             "description": "Desired Delta-V"
         },
+        "NOUN 17": {
+            "description": "Astronaut total attitude"
+        },
         "NOUN 20": {
             "description": "ICDUs"
         },
         "NOUN 21": {
             "description": "PIPA (accelerometer) values"
         },
+        "NOUN 22": {
+            "description": "New ICDU angles"
+        },
         "NOUN 23": {
             "description": "Number of passes, time to burn, burn delta-V."
         },
         "NOUN 25": {
+            "description": "Perform checklist action"
+        },
+        "NOUN 26": {
             "description": "Perform checklist action"
         },
         "NOUN 29": {
@@ -1098,17 +1166,50 @@
         "NOUN 44": {
             "description": "Height (nautical miles)"
         },
+        "NOUN 46": {
+            "description": "Autopilot configuration"
+        },
         "NOUN 47": {
-            "description": "Command and Service Module weight (lbs)"
+            "description": "Vehicle weights"
         },
         "NOUN 48": {
-            "description": "Pitch and yaw trim"
+            "description": "Gimbal pitch and roll trim"
+        },
+        "NOUN 60": {
+            "description": "Forward velocity (LM)"
+        },
+        "NOUN 61": {
+            "description": "Impact latitude/longitude"
         },
         "NOUN 62": {
             "description": "Velocity information during launch and landing"
         },
+        "NOUN 63": {
+            "description": "Absolute velocity (LM)"
+        },
+        "NOUN 65": {
+            "description": "Sampled AGC time"
+        },
+        "NOUN 67": {
+            "description": "Range to target (CSM)"
+        },
+        "NOUN 70": {
+            "description": "AOT detent and star code"
+        },
+        "NOUN 72": {
+            "description": "Rendezvous radar shaft and trunnion (LM)"
+        },
         "NOUN 81": {
-            "description": "Change in velocity (fps)"
+            "description": "Delta V: Change in velocity (fps)"
+        },
+        "NOUN 88": {
+            "description": "Half-unit sun or planet vector"
+        },
+        "NOUN 91": {
+            "description": "OCDU shaft and trunnion (CSM)"
+        },
+        "NOUN 93": {
+            "description": "Delta gyro angles"
         },
         "P00": {
             "description": "Idle"
