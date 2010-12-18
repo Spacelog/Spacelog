@@ -401,7 +401,10 @@
           "short_name": "John Young (CAPCOM)",
           "mission_position": "CAPCOM",
           "bio": "A naval fighter pilot and test pilot, John was the first person to fly the CSM solo as the CMP on Apollo 10.  He also served as commander on Apollo 16 and later flew two Space Shuttle missions.",
-          "avatar": "SC_48.png"
+          "photo": "capcom.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "capcom_generic.png",
         },
         "TOM_STAFFORD": {
           "role": "mission-ops",
@@ -571,7 +574,8 @@
             "type": "abbreviation"
         },
 	"CPCB": {
-	    "description": "Crew Procedures Control Board"
+	    "description": "Crew Procedures Control Board",
+	    "type": "abbreviation"
 	},
         "CPLEE": {
             "description": "Charged particle lunar environment experiment",
