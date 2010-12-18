@@ -977,7 +977,6 @@
 	    "description": "Body Mounted Attitude Gyroscope",
 	    "type": "abbreviation"
 	},
-
         "VERB 01": {
             "description": "Display contents of erasable memory location"
         },
@@ -1153,9 +1152,6 @@
             "description": "Number of passes, time to burn, burn delta-V."
         },
         "NOUN 25": {
-            "description": "Perform checklist action"
-        },
-        "NOUN 26": {
             "description": "Perform checklist action"
         },
         "NOUN 29": {

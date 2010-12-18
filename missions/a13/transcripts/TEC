@@ -1163,7 +1163,7 @@ _tape : Tape 3/2
 LMP: Affirmed.
 
 [00:03:12:17]
-CC:  13, Houston. Recommend RATE 2 on the [glossary: [glossary: BMAG]]s.
+CC:  13, Houston. Recommend RATE 2 on the [glossary:BMAG]s.
 
 [00:03:12:23]
 LMP: Thank you.
@@ -1721,7 +1721,7 @@ CC:  Yes, yes. More like that. That's nice. It's
 CC:  Oh, that's very nice, very nice.
 
 [00:04:13:55]
-CMP: Okay, Joe. Is [glossary: EECOM] monitoring the O<sub>2</sub> FLOW HIGH
+CMP: Okay, Joe. Is [glossary:EECOM] monitoring the O<sub>2</sub> FLOW HIGH
      light again? We haven't yet started the venting
      yet.
 
@@ -2055,7 +2055,7 @@ CMP: Go ahead, Jim.
 [00:05:54:50]
 CC:  Roger. We'd like to have the ATTITUDE SET switch
      back to [glossary:GDC], if you're finished with your aline.
-     It gives [glossary: GNC] down here a telemetry problem.
+     It gives [glossary:GNC] down here a telemetry problem.
 
 [00:05:55:01]
 CMP: Yes; okay.
@@ -2704,7 +2704,7 @@ CC:  Okay, thank you. We'll let you know if anything
      isn't okay. I'm sure it's good now.
 
 [00:09:27:15]
-LMP: Tell [glossary: GNC] and [glossary: GUIDO] thanks a lot for keeping good
+LMP: Tell [glossary:GNC] and [glossary:GUIDO] thanks a lot for keeping good
      track of me, there.
 
 [00:09:27:21]
@@ -2724,7 +2724,7 @@ LMP: Yes. That would be fine, Vance.
 CC:  Okay.
 
 [00:09:28:06]
-CC:  And, 13, Houston. [glossary: GUIDO] says the bits are reset -
+CC:  And, 13, Houston. [glossary:GUIDO] says the bits are reset -
      rather, are set.
 
 [00:09:28:13]
@@ -3448,13 +3448,13 @@ CC:  Roger. Go ahead.
 CMP: Okay, Vance. I understand you're ready.
 
 [00:12:19:26]
-CC:  Negative, [glossary: GUIDO] isn't quite ready yet.
+CC:  Negative, [glossary:GUIDO] isn't quite ready yet.
 
 [00:12:19:32]
 CMP: Okay. I thought I heard you call us.
 
 [00:12:19:37]
-CC:  But we're ready now, Jack, so [glossary: GUIDO] says he's
+CC:  But we're ready now, Jack, so [glossary:GUIDO] says he's
      ready to take it.
 
 [00:12:19:46]
@@ -3574,7 +3574,7 @@ CC:  Yes.
 LMP: And we're starting to charge battery A, Houston.
 
 [00:23:15:44]
-CC:  Roger on battery A, Fred. [glossary: EECOM] says battery B
+CC:  Roger on battery A, Fred. [glossary:EECOM] says battery B
      looks real good.
 
 [00:23:15:51]
@@ -3675,7 +3675,7 @@ CMP: Yes, Joe. We did, and it kind of looked like we
 _extra : END OF TAPE
 _page : 64
 _tape : Tape 15/3
-CC:  Okay. [glossary: EECOM] told me that might happen, and
+CC:  Okay. [glossary:EECOM] told me that might happen, and
      he was right.
 
 [00:23:21:54]
@@ -3936,7 +3936,7 @@ CC:  Okay. Some truck lines are being struck in the
      Midwest, and the school teachers have walked off
      the job in Minneapolis. Today's favorite pasttime
      across the - Uh oh; have you guys completed your
-     [glossary: INCO]me tax?
+     income tax?
 
 [01:00:18:28]
 _page : 69
@@ -3992,7 +3992,7 @@ CC:  We'll see what we can do, Jack. We'll get with
 CDR: Outstanding.
 
 [01:00:20:06]
-CDR: Houston, this is 13. Is it true that Jack's [glossary: INCO]me tax return was going to be used to buy the
+CDR: Houston, this is 13. Is it true that Jack's income tax return was going to be used to buy the
      ascent fuel for the LM?
 
 [01:00:20:18]
@@ -4799,7 +4799,7 @@ CMP: Okay. Real fine.
 
 [01:05:30:36]
 CC:  And the last item's for Jack. Jack, the preliminary indications are that you can get a
-     60-day extension on your - filing your [glossary: INCO]me tax
+     60-day extension on your - filing your income tax
      if you're out of the country.
 
 [01:05:30:54]
@@ -4999,7 +4999,7 @@ CC:  Right. We see the nozzle of the quad, but it's
      dark and it's not easy to see.
 
 [01:06:18:28]
-CC:  13, Houston. [glossary: INCO] suggests you try AVERAGE if
+CC:  13, Houston. [glossary:INCO] suggests you try AVERAGE if
      you're in PEAK to see if that gives us a better
      picture.
 
@@ -5258,7 +5258,7 @@ CDR: DIRECT, two, OFF.
 CMP: DIRECT, two, OFF.
 
 [01:06:35:15]
-CDR: [glossary: [glossary: BMAG]]s, three, ATT 1/RATE 2.
+CDR: [glossary:BMAG]s, three, ATT 1/RATE 2.
 
 [01:06:35:20]
 CMP: ATT 1/RATE 2.
@@ -5375,7 +5375,7 @@ CMP: No [glossary:MTVC].
 CDR: Okay.
 
 [01:06:36:34]
-CMP: [glossary: [glossary: BMAG]]s MODE, RATE 2.
+CMP: [glossary:BMAG]s MODE, RATE 2.
 
 [01:06:36:36]
 CDR: ROTATIONAL HAND CONTROL POWER, two, NORMAL, AC/DC.
@@ -5390,14 +5390,14 @@ CDR: RATE 2, MAIN A/MAIN B.
 CMP: B.
 
 [01:06:36:42]
-CDR: Okay. [glossary: [glossary: BMAG]]s, you got three, RATE 2? Okay, we'll
+CDR: Okay. [glossary:BMAG]s, you got three, RATE 2? Okay, we'll
      proceed for final trim.
 
 [01:06:36:54]
 CMP: MAG's where we are.
 
 [01:06:36:55]
-CDR: Okay. [glossary: [glossary: BMAG]] MODEs, three, ATT 1/RATE 2.
+CDR: Okay. [glossary:BMAG] MODEs, three, ATT 1/RATE 2.
 
 [01:06:36:58]
 CMP: ATT 1/RATE 2.
@@ -5606,7 +5606,7 @@ CMP: Two OFF.
 LMP: RATE 2.
 
 [01:06:41:52]
-CMP: [glossary: [glossary: BMAG]]s, RATE 2.
+CMP: [glossary:BMAG]s, RATE 2.
 
 [01:06:41:53]
 LMP: I'm already in low bit rate.
@@ -6257,7 +6257,7 @@ CC:  Okay. The second one, at 32 hours looking at
 [01:07:57:50]
 CMP: Okay, Vance. What we'll do is, when we get to
      attitude, we'll disable the quads and do like we
-     did last night; we'll let [glossary: GUIDO] and you people
+     did last night; we'll let [glossary:GUIDO] and you people
      down there tell us when you think we are stable
      enough; then we'll do all this work with the DAC
      on the sextant, first; and then when we get that
@@ -7228,7 +7228,7 @@ CC:  Yes. Big Brother is watching.
 CC:  13 - -
 
 [01:09:52:51]
-CMP: I can just see [glossary: EECOM] telling [glossary:FIDO].
+CMP: I can just see [glossary:EECOM] telling [glossary:FIDO].
 
 [01:09:53:03]
 CC:  Yes. You really have to watch that pair, all
@@ -7576,7 +7576,7 @@ CC:  Stand by 1 on the E-memory dump, Jack. I think
 CMP: Okay.
 
 [01:12:47:12]
-CC:  And [glossary: EECOM] says that as soon as you stir your
+CC:  And [glossary:EECOM] says that as soon as you stir your
      cryos, request you go back to AUTO on that one
      tank.
 
@@ -8229,7 +8229,7 @@ CMP: Okay, Joe. I've started into [glossary:P52] here. I've
 
 [02:01:01:47]
 CC:  Okay. Roger that, Jack. We're looking at it,
-     and I'll give you a mark as soon as [glossary: GNC] is happy.
+     and I'll give you a mark as soon as [glossary:GNC] is happy.
 
 [02:01:01:55]
 CMP: Okay. Real fine.
@@ -8343,7 +8343,7 @@ CMP: Okay. At the time we entered it there, we were
      on the roll angle.
 
 [02:01:43:40]
-CC:  Okay. Let me have [glossary: GNC] comment on that. I suspect that the roll angles we gave you were calculated for exactly 90 degrees pitch, and you're
+CC:  Okay. Let me have [glossary:GNC] comment on that. I suspect that the roll angles we gave you were calculated for exactly 90 degrees pitch, and you're
      probably wobbling enough that they're not exactly
      correct.
 
@@ -8440,7 +8440,7 @@ CDR: I'll buy that 100 percent.
 
 [02:01:51:37]
 CC:  Okay. Good deal. One other detail
-     for you, Jack; [glossary: GNC] tells us that the OPTICS
+     for you, Jack; [glossary:GNC] tells us that the OPTICS
      jitter is very similar to what we had on
      Apollo 12. It's no problem, but when you're not
      using the OPTICS, we recommend that you turn the
@@ -8554,7 +8554,7 @@ CC:  Jim, Houston. Did you read that last?
 LMP: Okay, Joe. I 'm on OMNI C now. How do you read?
 
 [02:02:30:47]
-CC:  13, Houston. You're loud and clear now. [glossary: INCO]
+CC:  13, Houston. You're loud and clear now. [glossary:INCO]
      tells me he's having a little problem at Goldstone
      and wants me to stand by for a minute.
 
@@ -8578,7 +8578,7 @@ LMP: And the last thing we heard, Joe, was that the
 
 [02:02:31:56]
 CC:  Okay. That's the last thing I passed up. And
-     while we're waiting for [glossary: INCO] to decide here, let
+     while we're waiting for [glossary:INCO] to decide here, let
      me continue. The deadband that is considered
      acceptable is between 660 and 770 psi. In other
      words, any rise time that'll give you one - a
@@ -8610,7 +8610,7 @@ LMP: Okay. How do you read on OMNI C, now?
 
 [02:02:33:48]
 CC:  Okay. You're loud and clear on OMNI C. Stand by
-     1 while we get [glossary: INCO] synced up.
+     1 while we get [glossary:INCO] synced up.
 
 [02:02:34:00]
 LMP: Okay. The rest of your update was that it's okay
@@ -8693,7 +8693,7 @@ CC:  13, Houston. Loud and clear. What OMNI you on
 
 [02:02:40:28]
 LMP: I'm going to stay OMNI B, if you all want to take
-     command back and you can let [glossary: INCO] jockey them
+     command back and you can let [glossary:INCO] jockey them
      around between B and D. And how many steps we
      got, so I know whether to write big or small here,
      Joe?
@@ -8874,7 +8874,7 @@ CDR: Go ahead, Houston.
 
 [02:03:07:08]
 CC:  Roger, 13. Because of the O<sub>2</sub> tank 2 quantity
-     sensor drop out, [glossary: EECOM] wants to keep a little
+     sensor drop out, [glossary:EECOM] wants to keep a little
      closer track of the cryo quantities, and he's
      going to be asking you to stir all the cryo tanks
      at slightly more frequent intervals than had been
@@ -8934,7 +8934,7 @@ CDR: I said I'd like to invite you to the horse races
      with me.
 
 [02:04:08:41]
-CC:  Right. We'll - We'll send [glossary: EECOM].
+CC:  Right. We'll - We'll send [glossary:EECOM].
 
 [02:04:16:55]
 LMP: Well, it's time for a little grits again here, Vance.
@@ -10128,7 +10128,7 @@ CDR: Okay. And we're looking at our S - SERVICE
      MODULE [glossary:RCS] HELIUM 1. We have - B is barber poled
      and D is barber poled, HELIUM 2, D is barber
      pole, and SECONDARY PROPELLANTS, I have A and C
-     barber pole. [glossary: [glossary: BMAG]] temperatures?
+     barber pole. [glossary:BMAG] temperatures?
 
 [02:07:58:07]
 LMP: Okay, AC 2 is showing zip. I'm going to try to
@@ -10366,10 +10366,10 @@ CC:  Stand by 1, Fred.
 [02:08:22:15]
 CMP: Okay, Jack, and on this page 1-5, we proceeded
      right down the list, all the way down; we're
-     right now at [glossary: BMAG] number 2 is in WARM UP.
+     right now at [glossary:BMAG] number 2 is in WARM UP.
 
 [02:08:22:26]
-CC:  Roger. We copy [glossary: BMAG] 2 in WARM UP. We'll follow
+CC:  Roger. We copy [glossary:BMAG] 2 in WARM UP. We'll follow
      you through.
 
 [02:08:22:31]
@@ -10465,11 +10465,11 @@ CC:  Affirmative.
 
 [02:08:33:37]
 CC:  13, this is Houston. We'd like to power down
-     just a little bit more, so let's get [glossary: BMAG] 2 OFF;
+     just a little bit more, so let's get [glossary:BMAG] 2 OFF;
      and make sure your lights are down. Over.
 
 [02:08:33:49]
-CDR: Okay. The lights are down, and [glossary: BMAG] 2's going
+CDR: Okay. The lights are down, and [glossary:BMAG] 2's going
      from STANDBY to OFF.
 
 [02:08:34:27]
@@ -10623,18 +10623,18 @@ CMP: I'm still getting some rates in negative pitch,
 CC:  Roger.
 
 [02:08:46:28]
-CC:  And, 13, we'd like to verify that both [glossary: BMAG]s are
+CC:  And, 13, we'd like to verify that both [glossary:BMAG]s are
      off, please.
 
 [02:08:46:35]
-CMP: Negative. We just have one [glossary: BMAG]. [glossary: BMAG] number 1
+CMP: Negative. We just have one [glossary:BMAG]. [glossary:BMAG] number 1
      is still on.
 
 [02:08:46:43]
-CC:  Okay, Jack. Let's take [glossary: BMAG] 1 off.
+CC:  Okay, Jack. Let's take [glossary:BMAG] 1 off.
 
 [02:08:46:50]
-CMP: Okay. [glossary: BMAG] number 1 off now.
+CMP: Okay. [glossary:BMAG] number 1 off now.
 
 [02:08:48:06]
 CC:  13, this is Houston. We'd like you to give us a
@@ -10886,10 +10886,10 @@ CMP: All right. Okay. Do you want some readings from
      the systems test meter regarding fuel cells?
 
 [02:09:09:45]
-CC:  Stand by 1 on that, Jack. Let me ask the [glossary: EECOM].
+CC:  Stand by 1 on that, Jack. Let me ask the [glossary:EECOM].
 
 [02:09:09:46]
-CMP: We've got some [glossary: INCO]mpatibilities here.
+CMP: We've got some incompatibilities here.
 
 [02:09:10:03]
 CC:  Okay, 13. We'd like to have you give us those
@@ -11048,7 +11048,7 @@ LMP: Okay.
 [02:09:20:55]
 CMP: Okay, Jack. When we got the loud bang, we got
      also a restart. Did you copy that? Is - does
-     [glossary: GUIDO] want anything, a [glossary:VERB 74] or anything done
+     [glossary:GUIDO] want anything, a [glossary:VERB 74] or anything done
      with the CMC?
 
 [02:09:21:06]
@@ -16231,7 +16231,7 @@ CDR: The noise we're experiencing is similar to what
      we had sometime before when you switched stations.
 
 [02:18:18:56]
-CC:  Roger, Jim. [glossary: INCO] is checking into what we can do
+CC:  Roger, Jim. [glossary:INCO] is checking into what we can do
      about the noise. It may be a problem with the
      new site.
 
@@ -26530,7 +26530,7 @@ CMP: Okay, Joe. ...
 
 [03:18:22:33]
 CC:  Okay, Jack. Did anybody ever tell you that you
-     got a 60-day extension on your [glossary: INCO]me tax. Over.
+     got a 60-day extension on your income tax. Over.
 
 [03:18:22:42]
 CMP: Yes. I think - I think somebody said that when
@@ -27249,7 +27249,7 @@ CMP: Okay.
 
 [03:19:55:39]
 CC: Okay. The next two are unchanged. And we
-     want the 3 [glossary: BMAG] switches in RATE 2. Over.
+     want the 3 [glossary:BMAG] switches in RATE 2. Over.
 
 [03:19:55:54]
 CMP: Okay.
@@ -27282,12 +27282,12 @@ CMP: [glossary:EMS] FUNCTION, OFF; MODE, STANDBY; GTA, down;
      THC POWER, OFF; ROTATION CONTROL POWER NORMAL,
      two, OFF; ROTATION CONTROL POWER DIRECT, two,
      OFF; SPACECRAFT CONTROL, SCS; [glossary:CMC] MODE, FREE;
-     [glossary: BMAG], ROLL, PITCH, YAW ...
+     [glossary:BMAG], ROLL, PITCH, YAW ...
 
 [03:19:57:25]
 CC:  Jack, Houston. You are not coming through. And
      request you talk a little more directly into the
-     mike. I've got the [glossary: BMAG]S in RATE 2. And start
+     mike. I've got the [glossary:BMAG]S in RATE 2. And start
      from there. Over.
 
 [03:19:57:39]
@@ -27668,12 +27668,12 @@ CMP: Okay. I'll read back. SUIT COMPRESSOR 1 and 2, OFF;
 [03:20:15:39]
 CC:  Okay, Jack. That's correct. Go to page 1-7. SCS
      ELECTRONICS POWER, OFF; [glossary:SCS] SIGNAL CONDITIONER/DRIVER
-     BIAS 1 and 2, OFF; and [glossary: BMAG] POWER, both, OFF;
+     BIAS 1 and 2, OFF; and [glossary:BMAG] POWER, both, OFF;
      and DIRECT O<sub>2</sub> valve to close. Over.
 
 [03:20:16:08]
 CMP: Okay. [glossary:SCS] ELECTRONICS POWER, OFF; both SIGNAL
-     CONDITIONER/DRIVER BIAS POWER, OFF; [glossary: BMAG] POWER,
+     CONDITIONER/DRIVER BIAS POWER, OFF; [glossary:BMAG] POWER,
      two of them OFF; DIRECT O<sub>2</sub> to close.
 
 [03:20:16:21]
@@ -27966,7 +27966,7 @@ CMP: Okay. LIGHTING: FLOOD, MAIN A; LIGHTING:
      closed.
 
 [03:20:28:59]
-CC:  Roger, Jack. [glossary: EECOM] tells me that's all one
+CC:  Roger, Jack. [glossary:EECOM] tells me that's all one
      circuit breaker, and the next one is LIGHTING:
      NUMERICS/INTEGRAL, [glossary:LEB] AC2, LMDC-AC1, and
      RMDC-AC1 to closed, and that's one circuit
@@ -28031,7 +28031,7 @@ CMP: Okay. All closed except. Okay. I'm ready to
      copy.
 
 [03:20:32:50]
-CC:  Wait 1 minute. Yes, [glossary: EECOM] caught me; I said
+CC:  Wait 1 minute. Yes, [glossary:EECOM] caught me; I said
      that wrong. We want you to change the word
      "Closed" to "Open," and then scratch out the
      ones that are there.
@@ -29572,7 +29572,7 @@ LMP: Okay. I got a copy of the ... K ...
 CMP: Is that right?
 
 [03:22:58:26]
-LMP: [glossary: EECOM].
+LMP: [glossary:EECOM].
 
 [03:22:58:35]
 CMP: That midcourse should be interesting. You know,
@@ -36515,7 +36515,7 @@ LMP: I got ...
 
 [04:17:20:46]
 CC:  I'm afraid I didn't copy that, Fred, and while
-     I was listening, [glossary: EECOM] told me that he'd like
+     I was listening, [glossary:EECOM] told me that he'd like
      another battery charge ... readout.
 
 [04:17:22:31]
@@ -36557,7 +36557,7 @@ LMP: Okay. The volts, Joe, are 38.9 and the amps are 1.9.
 
 [04:17:25:01]
 CC:  Okay. Copy that, Fred. Thank you very much;
-     38.9 and 1.9. And [glossary: EECOM] is simply making as
+     38.9 and 1.9. And [glossary:EECOM] is simply making as
      smooth a plot as he can to verify the amount of
      amps we're putting back into the battery. That's
      why he wants it at half-hour intervals. If
@@ -36783,7 +36783,7 @@ CMP: Just now. I just got you back.
 [04:18:56:16]
 CC:  Okay. We had a handover, but that was about a
      half an hour ago, and I didn't call you on it.
-     Let me check with [glossary: INCO] and see if he thinks
+     Let me check with [glossary:INCO] and see if he thinks
      everything's okay. Your COMM sounds just as
      good as it's ever been.
 
@@ -38956,7 +38956,7 @@ CC:  Okay.
 CMP: Okay, Vance. Volts 39.4, amps 1.25.
 
 [05:03:45:38]
-CC:  Okay. [glossary: EECOM]'s got it duly recorded.
+CC:  Okay. [glossary:EECOM]'s got it duly recorded.
 
 [05:03:45:45]
 CMP: Is John Aaron on?
@@ -39135,7 +39135,7 @@ CMP: Vance, you won't believe this, but Fred-o says
      it's 39.4 and 1.245.
 
 [05:04:20:19]
-CC:  Okay. Our [glossary: EECOM] is recording those numbers.
+CC:  Okay. Our [glossary:EECOM] is recording those numbers.
      Charlie Dumas, this time.
 
 [05:04:20:27]
@@ -39446,7 +39446,7 @@ CMP: Okay, Vance. I'm on and ready to copy.
 
 [05:05:27:54]
 CC:  Okay, Jack. Wait 1. We want to get one into
-     the hands of FLIGHT and [glossary: EECOM], and it'll take
+     the hands of FLIGHT and [glossary:EECOM], and it'll take
      about a minute or 2. Sorry to wake you up for
      this, but take about a minute, and then we'll
      read it up to you.
@@ -41273,10 +41273,10 @@ CC:  That's correct. Okay, then we'll finish going
      of the hatch integrity check and tunnel vent
      procedures with you. The next thing I want to
      read off is the [glossary:EI] minus 1 plus 20. We'll go to
-     panel 7: [glossary: BMAG] number 1 POWER to WARM UP.
+     panel 7: [glossary:BMAG] number 1 POWER to WARM UP.
 
 [05:07:19:11]
-CMP: [glossary: BMAG] number 1 POWER to WARM UP.
+CMP: [glossary:BMAG] number 1 POWER to WARM UP.
 
 [05:07:19:15]
 CC:  That's correct. Then at [glossary:EI] minus 1 plus 10, we'll
@@ -41522,11 +41522,11 @@ CMP: Yes, that's that one at 17 minutes prior. Okay.
 CC:  Okay, and we're just getting it in a little
      closer. Okay, the next item on the check - checklist 
      here is an [glossary:EI] minus 40; we're going
-     to panel 7, and it's [glossary: BMAG] NUMBER 2 POWER to
+     to panel 7, and it's [glossary:BMAG] NUMBER 2 POWER to
      WARM UP.
 
 [05:07:30:49]
-CMP: Okay, panel 7: [glossary: BMAG] NUMBER 2 POWER to WARM UP.
+CMP: Okay, panel 7: [glossary:BMAG] NUMBER 2 POWER to WARM UP.
 
 [05:07:30:52]
 CC:  That's correct. Now, I'd like to verify the
@@ -41575,7 +41575,7 @@ CC:  All right. Now we're at [glossary:EI] minus 30. SEQUENTIAL,
 CMP: [glossary:EI] minus 30; SEQ, LOGIC, two, ON.
 
 [05:07:33:01]
-CC:  Okay, in panel 7: the [glossary: BMAG] number 2 POWER to ON.
+CC:  Okay, in panel 7: the [glossary:BMAG] number 2 POWER to ON.
 
 [05:07:33:13]
 CMP: Okay, we - you only gave that 10 minutes for the
@@ -42156,12 +42156,12 @@ CC:  Okay. Under the [glossary:SCS] powerup, the first line
      BIAS POWER" lists "Two to AC 1." We are
      going to make that just one of them; make it
      "SIGNAL CONDITION/DRIVER BIAS POWER, one, to
-     AC 1." The "[glossary: BMAG] POWER," which is the third
-     line from the bottom, says "[glossary: BMAG] POWER, two, ON;"
+     AC 1." The "[glossary:BMAG] POWER," which is the third
+     line from the bottom, says "[glossary:BMAG] POWER, two, ON;"
      we are going to make that just one. We'll bring
      up number 1, and we'll make "[glossary:FDAI] POWER, number 1" and the last line "AUTO [glossary:RCS] SELECT, 16,
      enable," you can strike that off and replace it
-     with "[glossary: BMAG] MODE, three of them, to RATE 1." You
+     with "[glossary:BMAG] MODE, three of them, to RATE 1." You
      want to try reading that back?
 
 [05:07:56:58]
@@ -42169,9 +42169,9 @@ CMP: Okay. Delete "AUTO [glossary:RCS] SELECT, 16, OFF." Change
      "CB LOGIC POWER" to "LOGIC THRUST POWER - CBS
      CS LOGIC THRUST, four, to closed." Delete
      "DELTA-V CG," coming down here "SIGNAL
-     CONDITIONER/DRIVER BIAS POWER, one, AC 1; [glossary: BMAG]
-     POWER, 1, to ON," and it's the number 1 [glossary: BMAG].
-     "[glossary:FDAI] POWER to 1; [glossary: BMAG] MODE, three, to RATE 1,"
+     CONDITIONER/DRIVER BIAS POWER, one, AC 1; [glossary:BMAG]
+     POWER, 1, to ON," and it's the number 1 [glossary:BMAG].
+     "[glossary:FDAI] POWER to 1; [glossary:BMAG] MODE, three, to RATE 1,"
      deleting the "AUTO [glossary:RCS] SELECT, 16, to enable."
 
 [05:07:57:34]
@@ -46481,7 +46481,7 @@ CC:  Aquarius, Houston. Over.
 CDR: Go ahead.
 
 [05:18:31:00]
-CC:  Okay. [glossary: EECOM] is looking at that battery amperage
+CC:  Okay. [glossary:EECOM] is looking at that battery amperage
      that you gave us awhile ago. He'd like to see
      it about a half an amp to an amp lower. Like
      you to ask Jack to just check the circuit breakers
@@ -47951,21 +47951,21 @@ CC:  Okay.
 
 [05:21:18:25]
 CC:  Okay, Odyssey; Houston. We're ready for you to
-     bring the [glossary: BMAG]s ON and WARM UP and all other things
+     bring the [glossary:BMAG]s ON and WARM UP and all other things
      being equal, we'd like you to go through the LM
      JETT at - on the checklist you've got. And that
-     is [glossary: BMAG]s 1 - -
+     is [glossary:BMAG]s 1 - -
 
 [05:21:18:38]
 CMP: Okay. Will do.
 
 [05:21:18:40]
-CC:  - - 1. That's [glossary: BMAG] 1 now, as you know.
+CC:  - - 1. That's [glossary:BMAG] 1 now, as you know.
 
 [05:21:18:45]
 _page : 756
 _tape : Tape 94/10
-CMP: Yes, [glossary: BMAG] 1 is in WARM UP.
+CMP: Yes, [glossary:BMAG] 1 is in WARM UP.
 
 [05:21:18:47]
 CMP: Okay, Houston. Do you have a command module
@@ -48006,14 +48006,14 @@ CC:  Go ahead.
 
 [05:21:22:29]
 CC:  Okay, Jack. That [glossary:FDAI] POWER, OFF, is to stop
-     momentary gliches as you bring up the [glossary: BMAG] to
+     momentary gliches as you bring up the [glossary:BMAG] to
      put it on, and you turn right around and put the
      [glossary:FDAI] POWER right back on 1.
 
 [05:21:22:44]
-CMP: Okay. And I don't have the [glossary: BMAG] TEMP light
+CMP: Okay. And I don't have the [glossary:BMAG] TEMP light
      out yet. Do you want me to go ahead and put
-     the [glossary: BMAG] ON with the TEMP light still ON?
+     the [glossary:BMAG] ON with the TEMP light still ON?
 
 [05:21:22:50]
 CC:  That's affirm. We can go ahead and you'll have
@@ -48210,7 +48210,7 @@ CDR: Okay. Fine; thank you, Joe. How does the LM
 CC: All I've heard was that it's that the cabin
      was holding pressure. I haven't heard anything
      more. And, Odyssey, we're ready for you to warm
-     up the [glossary: BMAG] number 2's at your discretion and 
+     up the [glossary:BMAG] number 2's at your discretion and 
      we're curious whether the Moon check attitude
      is good. Over.
 
