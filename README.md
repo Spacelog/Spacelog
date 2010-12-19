@@ -67,6 +67,10 @@ The easiest way to grab the python modules may be to build a `virtualenv` in the
 
 then use `ENV/bin/python` where normally you'd use just `python`. (If it's recent enough, `virtualenv` may install a script to "activate" its copy of python in your shell, which you run as `source ENV/bin/activate`, or `ENV/Scripts/activate.bat` on Windows.)
 
+#### A word of caution
+
+Currently we are tracking the trunk of Django, because we both use upcoming 1.3 features and need a bugfix not yet available in an alpha release. This does mean that occasionally the latest version is broken; we will move away from this situation as soon as possible.
+
 ### Hosts setup
 
 To make it possible to work with multiple missions, you need edit `/etc/hosts` to include an alias `artemis`, plus aliases of the form `<mission>.artemis`, such as `apollo13.artemis` and `mercury6.artemis`; these all need to point to `localhost` (or to your virtual machine, if that's how you develop things). For instance, here's an `/etc/hosts` entry using `localhost` (put this in addition to the `localhost` line already in there):
