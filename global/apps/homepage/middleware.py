@@ -11,7 +11,11 @@ class HoldingMiddleware(object):
             if request.path.startswith("/assets"):
                 request.holding = True
             else:
-                response = render_to_response("holding.html", {})
+                response = render_to_response(
+                    "holding.html",
+                    {},
+                    RequestContext(request),
+                )
                 response.status_code = 503
                 return response
         else:
