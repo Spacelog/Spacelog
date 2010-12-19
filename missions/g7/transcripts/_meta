@@ -1,0 +1,13 @@
+{
+    "name": "g7",
+    "featured": true,
+    "incomplete": true,
+    "subdomains": ["gemini7", "g7"],
+    "utc_launch_time": 0,
+    "copy": {
+        "title": "Gemini 7",
+        "upper_title": "Gemini",
+        "lower_title": "7",
+        "description": "One half of the first orbital rendezvous."
+    }
+}

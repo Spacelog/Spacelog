@@ -17,7 +17,7 @@
   </ul>
   {% endif %}
   <p>
-    {{ person.bio }}
+    {{ person.bio|default:"" }}
   </p>
   
   {% if person.quotable_log_line %}

@@ -1,3 +1,5 @@
+import os.path
+from django.conf import settings
 from django.http import Http404, HttpResponseRedirect
 from django.views.generic import TemplateView
 from django.core.urlresolvers import reverse
@@ -338,8 +340,9 @@ class OriginalView(TemplateView):
 
     def get_context_data(self, page):
         page = int(page)
+        image_dir = os.path.join(settings.MISSIONS_STATIC_ROOT, self.request.mission.name, "images", "original", self.request.mission.main_transcript_subname)
         return {
             "page": page,
-            "next_page": page + 1,
-            "previous_page": page - 1 if page > 1 else None
+            "next_page": page + 1 if os.path.exists(os.path.join(image_dir, '%d.png' % (page+1))) else None,
+            "previous_page": page - 1 if os.path.exists(os.path.join(image_dir, '%d.png' % (page-1))) else None,
         }

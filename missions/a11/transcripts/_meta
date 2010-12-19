@@ -1,0 +1,446 @@
+{
+    "name": "a11",
+    "featured": true,
+    "incomplete": true,
+    "subdomains": ["apollo11", "a11"],
+    "copy": {
+        "title": "Apollo 11",
+        "upper_title": "Apollo",
+        "lower_title": "11",
+        "description": "The first manned mission to land on the moon.",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+            "Matthew Somerville"
+        ],
+        "about": "Apollo 11 doesn't really need any introduction. The trip where humans first landed on the moon.\n\nThis site allows you to explore transcripts of radio communications between the Apollo 11 crew and the NASA personnel back at Houston.",
+        "image_attributions": [
+            { "url": "http://www.flickr.com/photos/28634332@N05/4971286005/", "title": "Crescent Moon, Earth's Atmosphere", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" },
+            { "url": "http://www.flickr.com/photos/28634332@N05/4971276687/", "title": "Edge of the Earth", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" }
+        ]
+    },
+    "main_transcript": "a11/TEC",
+    "media_transcript": "a11/MEDIA",
+    "utc_launch_time": -17144880,
+    "acts" : [
+        {
+            "title": "Launch",
+            "description": "During takeoff the crew sat inside Columbia, Apollo 11's Command Module, on top of the Saturn V rocket. As fuel was burnt up, the first two stages of the Saturn V were jettisoned and fell back to Earth along with the abort tower.",
+            "range": ["00:00:00:00", "00:00:14:44"],
+            "banner": "act1.jpg",
+            "banner_class": "blue",
+            "orbital": "act1.png",
+            "illustration": "act1.gif",
+            "homepage": "act1.jpg"
+        },
+        {
+            "title": "Earth orbit",
+            "description": "When Apollo 11 reached Earth orbit, it was still attached to part of the Saturn V rocket (the S-IVB ‘ess-four-bee’ stage). Two hours later, the S-IVB's engine was restarted to propel the spacecraft out of orbit and onto a course towards the Moon.",
+            "range": ["00:00:14:44", "00:02:54:09"],
+            "banner": "act2.jpg",
+            "orbital": "act2.png",
+            "illustration": "act2.gif",
+            "homepage": "act2.jpg"
+        },
+        {
+            "title": "To the Moon",
+            "description": "The third Saturn V stage was jettisoned, Columbia docked with the lunar module, and the crew spent three days travelling to the Moon.",
+            "range": ["00:02:54:09", "03:04:15:47"],
+            "banner": "act3.jpg",
+            "orbital": "act3.png",
+            "homepage": "act3.jpg"
+        },
+        {
+            "title": "Lunar Orbit",
+            "description": "The crew emerged from the far side of the Moon, and spent the day adjusting orbit, transmitting pictures of the proposed landing site, and viewing landscape features to act as navigation aids during the coming descent.",
+            "range": ["03:04:15:47", "04:04:17:05"],
+            "banner": "act4.jpg",
+            "homepage": "act4.jpg"
+        },
+        {
+            "title": "Descent to the Moon",
+            "description": "Apollo was now split into Columbia and Eagle - Columbia remained in orbit with Collins, whilst Eagle with Aldrin and Armstrong descended to the lunar surface. Unexpected speed and program alarms close to the surface caused concern, but these were allayed by quick decision making on the ground by Steve Bales and Jack Garman. They landed successfully.",
+            "range": ["04:04:17:06", "04:06:47:37"],
+            "banner": "act5.jpg",
+            "homepage": "act5.jpg"
+        },
+        {
+            "title": "On the Moon",
+            "description": "The two astronauts walked on the surface of the Moon, planted the US flag, collected rock samples, and took photos. They put all this on the LM, then went to sleep.",
+            "range": ["04:06:47:37", "05:00:59:04"],
+            "banner": "act6.jpg",
+            "homepage": "act6.jpg"
+        },
+        {
+            "title": "Return to Lunar Orbit",
+            "description": "The two crewmembers successfully rejoined Michael Collins aboard Columbia in lunar orbit, leaving behind a retroreflector, a plaque, and a memorial bag.",
+            "range": ["05:00:59:04", "05:13:49:44"],
+            "banner": "act7.jpg",
+            "homepage": "act7.jpg"
+        },
+        {
+            "title": "Towards Earth",
+            "description": "After 30 lunar orbits and a trip to the surface, Apollo 11 made its way back home. The crew had a quiet trip, with TV broadcasts and preparation for re-entry.",
+            "range": ["05:13:49:44", "07:21:28:35"],
+            "banner": "act8.jpg",
+            "orbital": "act8.png",
+            "illustration": "act8.gif",
+            "homepage": "act8.jpg"
+        },
+        {
+            "title": "Splashdown",
+            "description": "Before entering the Earth’s atmosphere, the crew moved back into Columbia, the heat-resistant Command Module, jettisoned the Service Module, and then splashdowned safely in the Pacific Ocean. The crew then went into quarantine for three weeks, in case they had an alien disease.",
+            "range": ["07:21:28:35", "08:03:18:19"],
+            "banner": "act9.jpg",
+            "orbital": "act9.png",
+            "illustration": "act9.gif",
+            "homepage": "act9.jpg"
+        }
+    ],
+    "key_scenes" : [
+      {
+        "title": "The Eagle touches down on the lunar surface",
+        "range": [ "04:06:45:40", "04:06:46:06" ]
+      },
+      {
+        "title": "One small step",
+        "range": [ "04:13:23:38", "04:13:24:48" ]
+      },
+      {
+        "title": "President Nixon speaks to Neil and Buzz on the Moon",
+        "range": [ "04:14:16:09", "04:14:18:21" ]
+      },
+      {
+        "title": "The Eagle lifts off from the Moon",
+        "range": [ "05:04:20:58", "05:04:29:17" ]
+      },
+      {
+        "title": "Eagle meets up with Columbia in lunar orbit",
+        "range": [ "05:07:57:34", "05:08:03:30" ]
+      },
+
+    ],
+    "homepage_quotes" : [
+        "04:13:24:48",
+        "04:06:46:04",
+        "04:06:46:06",
+        "04:06:57:04",
+        "04:07:05:32"
+    ],
+    "character_ordering": [
+        "CC",
+        "F",
+        "CHARLIE_DUKE",
+        "RONALD_EVANS",
+        "OWEN_GARRIOTT",
+        "BRUCE_MCCANDLESS",
+        "CHUCK_LEWIS"
+    ],
+    "characters": {
+        "CC": {
+            "role": "mission-ops-title",
+            "name": "Capsule Communicator",
+            "short_name": "CapCom",
+            "bio": "Throughout the Apollo Space Program, the CAPCOM was another astronaut who was the main person to communicate with the crew, as it was considered that someone who had that training would be best able to clearly pass information back and forth. On Apollo 11, there were four CAPCOMs operating in shifts.",
+            "photo": "capcom.jpg",
+            "photo_width": 205,
+            "photo_height": 138,
+            "avatar": "capcom_generic.jpg",
+            "shifts": [
+                ["BRUCE_MCCANDLESS", "00:00:00:00"],
+                ["CHARLIE_DUKE", "00:06:09:17"],
+                ["RONALD_EVANS", "00:14:25:00", "From PAO, shift change in progress. Ronald Evans doesn't say anything"],
+                ["BRUCE_MCCANDLESS", "00:22:50:15"],
+                ["JIM_LOVELL", "01:01:11:14", "Self-identified in 01:01:11:39"],
+                ["BRUCE_MCCANDLESS", "01:01:13:36", "Previous conversation ends"],
+                ["JIM_LOVELL", "01:03:14:55", "Conversation continues until identification at 01:03:17:09"],
+                ["BRUCE_MCCANDLESS", "01:03:35:59", "Due to pause here, assuming pass back to McCandless"],
+                ["CHARLIE_DUKE", "01:06:51:14"],
+                ["RONALD_EVANS", "01:14:26:00", "From PAO. Again, he says nothing - see comment by McCandless at 02:00:10:56 :)"],
+                ["BRUCE_MCCANDLESS", "01:22:58:00", "From PAO"],
+                ["CC", "02:06:00:00", "Bruce mentioned just before"],
+                ["CHARLIE_DUKE", "02:06:46:56", "From PAO and mention of Charlie at 02:06:47:14"],
+                ["OWEN_GARRIOTT", "02:09:17:48", "Mention of Owen at 02:09:18:41"],
+                ["CHARLIE_DUKE", "02:09:28:15", "Mention of Charlie at 02:09:28:23"],
+                ["RONALD_EVANS", "02:14:29:00", "From PAO"],
+                ["BRUCE_MCCANDLESS", "02:23:00:00", "From PAO"],
+                ["CC", "03:00:29:46", "Reference to 'Bruce and Fred Show' at 03:00:38:51 and by PAO - this news was read by two people in turn"],
+                ["BRUCE_MCCANDLESS", "03:00:39:17"],
+                ["CHARLIE_DUKE", "03:05:48:00", "Shift change from PAO"],
+                ["OWEN_GARRIOTT", "03:12:28:00", "From PAO"],
+                ["RONALD_EVANS", "03:21:29:00", "From PAO, though shift started earlier, I assume"],
+                ["CHARLIE_DUKE", "03:23:34:00", "From PAO, shift change"],
+                ["CC", "04:08:39:09", "Duke says White Team going off, not sure when next starts. Owen Garriott should be some of next"],
+                ["BRUCE_MCCANDLESS", "04:10:39:19", "Reference to Bruce, though I think he's been there since start of EVA at 04:10:11:12"],
+                ["OWEN_GARRIOTT", "04:18:33:52"],
+                ["RONALD_EVANS", "05:00:59:04", "From subsequent line"],
+                ["JIM_LOVELL", "05:03:07:52", "From subsequent line"],
+                ["RONALD_EVANS", "05:03:12:55", "Hands it back to Ronald"],
+                ["CHARLIE_DUKE", "05:09:13:00", "From PAO, shift change"],
+                ["DEKE_SLAYTON", "05:16:52:45", "Identifies as 'the original capcom', confirmed in Deke's auto-biog"],
+                ["CHARLIE_DUKE", "05:16:54:13", "Flips back to Duke"],
+                ["OWEN_GARRIOTT", "05:18:01:52", "From Charlie at 05:17:47:18 and PAO"],
+                ["BRUCE_MCCANDLESS", "06:02:02:00", "From PAO, shift change"],
+                ["CHARLIE_DUKE", "06:09:45:42"],
+                ["RONALD_EVANS", "06:17:29:00", "From PAO, shift change"],
+                ["OWEN_GARRIOTT", "07:01:28:00", "From PAO and first communication name"],
+                ["BRUCE_MCCANDLESS", "07:06:26:30"],
+                ["CHUCK_LEWIS", "07:13:26:55", "Following conversation makes it clear"],
+                ["CHARLIE_DUKE", "07:13:35:55"],
+                ["RONALD_EVANS", "07:20:28:00", "From PAO and name used at 07:22:22:28"],
+                ["JIM_LOVELL", "08:01:02:32", "Self-indentified"],
+                ["RONALD_EVANS", "08:01:03:12", "Seems to be a continuing conversation"]
+            ]
+        },
+
+        "F": {
+            "role": "mission-ops-title",
+            "name": "Flight Director",
+            "short_name": "Flight",
+            "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. On Apollo 11, there were three FLIGHT teams operating in shifts, Green, White, and Black. Shift changes are occasionally noted in the transcript.",
+            "photo": "flight_director.jpg",
+            "photo_width": 205,
+            "photo_height": 154,
+            "shifts": [
+            ]
+        },
+        "CDR": {
+          "role": "astronaut",
+          "name": "Neil A. Armstrong",
+          "short_name": "Neil Armstrong (CDR)",
+          "mission_position": "Commander",
+          "photo": "neil_armstrong.jpg",
+          "photo_width": 162,
+          "photo_height": 205,
+          "avatar": "armstrong.jpg",
+          "stats": [
+            {
+                "value": 206,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 38,
+                "text": "age at launch"
+            }
+          ]
+        },
+        "CDR (EAGLE)": {
+          "role": "other",
+          "shifts": [
+            ["CDR", "-00:01:00:00"]
+          ]
+        },
+        "CDR (TRANQ)": {
+          "role": "other",
+          "shifts": [
+            ["CDR", "-00:01:00:00"]
+          ]
+        },
+        "CDR (EVA)": {
+          "role": "other",
+          "shifts": [
+            ["CDR", "-00:01:00:00"]
+          ]
+        },
+        "LMP": {
+          "role": "astronaut",
+          "name": "Edward E. Aldrin, Jr.",
+          "short_name": "Buzz Aldrin (LMP)",
+          "mission_position": "Lunar Module Pilot",
+          "photo": "buzz_aldrin.jpg",
+          "photo_width": 163,
+          "photo_height": 205,
+          "avatar": "aldrin.jpg",
+          "stats": [
+            {
+                "value": 290,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 39,
+                "text": "age at launch"
+            }
+          ]
+        },
+        "LMP (TRANQ)": {
+          "role": "other",
+          "shifts": [
+            ["LMP", "-00:01:00:00"]
+          ]
+        },
+        "LMP (EAGLE)": {
+          "role": "other",
+          "shifts": [
+            ["LMP", "-00:01:00:00"]
+          ]
+        },
+        "LMP (EVA)": {
+          "role": "other",
+          "shifts": [
+            ["LMP", "-00:01:00:00"]
+          ]
+        },
+        "CMP": {
+          "role": "astronaut",
+          "name": "Michael Collins",
+          "short_name": "Michael Collins (CMP)",
+          "mission_position": "Command Module Pilot",
+          "photo": "michael_collins.jpg",
+          "photo_width": 159,
+          "photo_height": 205,
+          "avatar": "collins.jpg",
+          "stats": [
+            {
+                "value": 266,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 38,
+                "text": "age at launch"
+            }
+          ]
+        },
+        "CMP (COLUMBIA)": {
+          "role": "other",
+          "shifts": [
+            ["CMP", "-00:01:00:00"]
+          ]
+        },
+        "CHARLIE_DUKE": {
+          "role": "mission-ops",
+          "name": "Charlie Duke",
+          "short_name": "Charlie Duke (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "bio": "An interceptor pilot before joining the NASA astronaut program in 1966, Charlie Duke was CAPCOM for Apollo 10's lunar landing rehearsal, and then Apollo 11's most famous moment. He went on to serve as backup Lunar Module Pilot for Apollo 13, and was later prime LMP for Apollo 16, with a record lunar stay of 71 hours 41 minutes along with commander John Young.",
+          "avatar": "charlie_duke.png",
+          "photo": "charlie_duke.jpg",
+          "photo_width": 190,
+          "photo_height": 155
+        },
+        "RONALD_EVANS": {
+          "role": "mission-ops",
+          "name": "Ronald Evans",
+          "short_name": "Ronald Evans (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "photo_width": 190,
+          "photo_height": 155,
+          "photo": "evans.jpg",
+          "bio": "Having served on the support crew of Apollo 7, and as a CAPCOM for Apollo 11, Ronald Evans would go on to be backup CMP for Apollo 14 before flying on Apollo 17, the last manned mission to the moon in the Apollo program, and subsequently working on both the Apollo-Soyuz Test Project and the Shuttle flight program.",
+          "avatar": "evans.jpg"        
+        },
+        "OWEN_GARRIOTT": {
+          "role": "mission-ops",
+          "name": "Owen K. Garriott",
+          "short_name": "Owen Garriott (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "photo_width": 190,
+          "photo_height": 155,
+          "photo": "garriott.jpg",
+          "bio": "One of NASA's first scientist-astronauts, Owen Garriott would go on to fly on Skylab 3, setting a new world record for space flight duration; and on Spacelab-1 aboard Shuttle mission STS-9. He went on to play a substantial role in the development of the US Laboratory for the International Space Station.",
+          "avatar": "garriott.jpg"
+        },
+        "BRUCE_MCCANDLESS": {
+          "role": "mission-ops",
+          "name": "Bruce McCandless II",
+          "short_name": "Bruce McCandless (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "photo_width": 190,
+          "photo_height": 155,
+          "bio": "A former fighter pilot and flight instructor in the US Navy, Bruce McCandless II went on to be backup pilot on the first manned Skylab mission, and later served on two Shuttle mission crews, including STS-41-B where he made the first untethered free flight, using the Manned Maneuvering Unit which he helped develop.",
+          "avatar": "mccandless.jpg",
+          "photo": "mccandless.jpg"
+        },
+        "JIM_LOVELL": {
+          "role": "mission-ops",
+          "name": "James A. Lovell, Jr",
+          "short_name": "Jim Lovell",
+          "mission_position": "Backup commander",
+          "avatar": "lovell.jpg",
+          "photo_width": 190,
+          "photo_height": 155,
+          "bio":"Having joined along with Neil Armstrong, Jim Lovell was already one of NASA's most experienced astronauts, having flown on Geminis 7 and 12, the latter with Buzz Aldrin. In the Apollo program, he was Command Module Pilot of Apollo 8 which performed the first lunar orbit, and would go on to be commander of the ill-fated Apollo 13."
+        },
+        "DEKE_SLAYTON": {
+          "role": "mission-ops",
+          "name": "Donald Kent (Deke) Slayton",
+          "short_name": "Deke Slayton",
+          "mission_position": "Director of Flight Crew Operations",
+          "bio": "A member of the first NASA group of astronauts, assembled in 1959 for the Mercury Program, Slayton didn't fly until the Apollo-Soyuz Test Project in 1975 (at which time he was the oldest person to fly in space). From 1963 until 1972 he served as Director of Flight Crew Operations, and after Apollo-Soyuz was Head of the Shuttle Approach & Landing Tests Program.",
+          "photo": "deke_slayton.jpg",
+          "photo_width": 190,
+          "photo_height": 155,
+          "avatar": "deke_slayton.jpg"
+        },
+        "CHUCK_LEWIS": {
+          "role": "flight",
+          "name": "Chuck Lewis",
+          "short_name": "Chuck Lewis",
+          "mission_position": "Assistant Flight Director",
+          "avatar": "F_48.png"
+        },
+        "PRESIDENT NIXON": {
+          "role": "other",
+          "name": "President Nixon",
+          "short_name": "President Nixon",
+          "bio": "Richard Nixon is not a crook.",
+          "avatar": "nixon.png"
+        },
+        "N": {
+          "role": "other",
+          "name": "Noise of some kind",
+          "short_name": "Noise of some kind",
+          "avatar": "blank_48.png"
+        },
+        "SC": {
+          "role": "other",
+          "name": "Unidentified crew member",
+          "short_name": "Unidentified crew member",
+          "avatar": "SC_48.png"
+        },
+        "MS": {
+          "role": "other",
+          "name": "Multiple speakers",
+          "short_name": "Multiple speakers",
+          "avatar": "MS_48.png"
+        },
+        "CT": {
+          "role": "other",
+          "name": "Communications Technician",
+          "short_name": "CommTech",
+          "avatar": "person.png"
+        },
+        "HORNET": {
+          "role": "other",
+          "name": "USS Hornet",
+          "short_name": "USS Hornet",
+          "avatar": "IWO_48.png"
+        },
+        "SWIM 1": {
+          "role": "other",
+          "name": "Swim 1",
+          "short_name": "Swimmer",
+          "avatar": "person.png"
+        }
+    },
+    "glossary": {},
+    "shared_glossaries": ["apollo"],
+    "error_pages": {
+        "no_search_results": {
+            "text": "Sorry about that. Incidentally, <a href=\"/people/#michael-collins-cmp\">Astronaut Michael Collins</a> once had the same problem:",
+            "classic_moment_quote": "06:16:04:54"
+        }
+    },
+    "special_searches": {
+    }
+}

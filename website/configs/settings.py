@@ -115,9 +115,10 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
-    'transcripts',
-    'search',
     'django.contrib.humanize',
+    'common',
+    'search',
+    'transcripts',
 )
 
 PROJECT_HOME = "http://spacelog.org/"

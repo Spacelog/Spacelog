@@ -1,3 +1,4 @@
+from __future__ import with_statement
 import os
 import sys
 import re
@@ -45,6 +46,10 @@ class TranscriptIndexer(object):
             xappy.FieldActions.INDEX_EXACT,
             # search_by_default=False,
             # allow_field_specific=False,
+        )
+        search_db.add_field_action(
+            "transcript",
+            xappy.FieldActions.INDEX_EXACT,
         )
         # don't think we need STORE_CONTENT actions any more
         search_db.add_field_action(
@@ -107,6 +112,7 @@ class TranscriptIndexer(object):
         doc = xappy.UnprocessedDocument()
         doc.fields.append(xappy.Field("mission", mission))
         doc.fields.append(xappy.Field("weight", weight))
+        doc.fields.append(xappy.Field("transcript", self.transcript_name))
         for line in lines:
             text = re.sub(
                 r"\[\w+:([^]]+)\|([^]]+)\]",
@@ -146,6 +152,7 @@ class TranscriptIndexer(object):
         current_page_lines = 0
         last_act = None
         previous_log_line_id = None
+        previous_timestamp = None
         launch_time = int(self.redis_conn.hget("mission:%s" % self.mission_name, "utc_launch_time"))
         acts = list(Act.Query(self.redis_conn, self.mission_name))
         key_scenes = list(KeyScene.Query(self.redis_conn, self.mission_name))
@@ -156,6 +163,8 @@ class TranscriptIndexer(object):
         for chunk in self.parser.get_chunks():
             timestamp = chunk['timestamp']
             log_line_id = "%s:%i" % (self.transcript_name, timestamp)
+            if timestamp <= previous_timestamp:
+                raise Exception, "%s should be after %s" % (seconds_to_timestamp(timestamp), seconds_to_timestamp(previous_timestamp))
             # See if there's transcript page info, and update it if so
             if chunk['meta'].get('_page', 0):
                 current_transcript_page = int(chunk["meta"]['_page'])
@@ -206,6 +215,7 @@ class TranscriptIndexer(object):
                     log_line_id,
                 )
             previous_log_line_id = log_line_id
+            previous_timestamp = timestamp
             # Also store the text
             text = ""
             for line in chunk['lines']:
@@ -309,8 +319,8 @@ class MetaIndexer(object):
                 "utc_launch_time": meta['utc_launch_time'],
                 "featured": meta.get('featured', False),
                 "incomplete": meta.get('incomplete', False),
-                "main_transcript": meta['main_transcript'],
-                "media_transcript": meta['media_transcript'],
+                "main_transcript": meta.get('main_transcript', None),
+                "media_transcript": meta.get('media_transcript', None),
             }
         )
         copy = meta.get("copy", {})
@@ -362,7 +372,7 @@ class MetaIndexer(object):
                 "character-ordering:%s" % self.mission_name,
                 identifier,
             )
-        for identifier, data in meta['characters'].items():
+        for identifier, data in meta.get('characters', {}).items():
             mission_key   = "characters:%s" % self.mission_name
             character_key = "%s:%s" % (mission_key, identifier)
             

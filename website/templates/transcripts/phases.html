@@ -37,7 +37,9 @@
 
     <p class='description'>{{ act.description|linkify }}</p>
 
+    {% if act.has_stats or act.key_scenes %}
     <h2>Activity</h2>
+    {% endif %}
     {% if act.has_stats %}
       <div class='frequency'>
         <p>
