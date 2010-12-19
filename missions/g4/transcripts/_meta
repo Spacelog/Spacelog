@@ -6,20 +6,23 @@
         "title": "Gemini 4",
         "upper_title": "Gemini",
         "lower_title": "4",
-        "description": "",
-        "glossary_introduction": "",
+        "description": "The 1965 Gemini mission that made Ed White the first American to perform a spacewalk.",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "cleaners": [
-            "Greg Roodt",
+            "Greg Roodt"
         ],
         "about": "",
         "image_attributions": [
         ],
         "transcript_attributions": [
-            { "url": "http://www.jsc.nasa.gov/history/mission_trans/gemini4.htm", "title": "Gemini IV Composite Air-to-Ground and Onboard Voice Tape Transcription" }
+            { 
+                "url": "http://www.jsc.nasa.gov/history/mission_trans/gemini4.htm", 
+                "title": "Gemini IV Composite Air-to-Ground and Onboard Voice Tape Transcription"
+            }
         ],
         "call_signs": ""
     },
-    "main_transcript": "",
+    "main_transcript": "g4/TEC",
     "media_transcript": "",
     "utc_launch_time": -144492241,
     "acts" : [
@@ -45,7 +48,7 @@
           "name": "James Alton McDivitt",
           "short_name": "James McDivitt",
           "bio": "",
-          "photo": "",
+          "photo": "james_mcdivitt.jpg",
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "",
@@ -56,7 +59,7 @@
           "name": "Edward Higgins White, II",
           "short_name": "Edward White",
           "bio": "",
-          "photo": "",
+          "photo": "edward_white.jpg",
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "",
