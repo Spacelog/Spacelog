@@ -318,8 +318,8 @@ class MetaIndexer(object):
                 "utc_launch_time": meta['utc_launch_time'],
                 "featured": meta.get('featured', False),
                 "incomplete": meta.get('incomplete', False),
-                "main_transcript": meta['main_transcript'],
-                "media_transcript": meta['media_transcript'],
+                "main_transcript": meta.get('main_transcript', None),
+                "media_transcript": meta.get('media_transcript', None),
             }
         )
         copy = meta.get("copy", {})
@@ -371,7 +371,7 @@ class MetaIndexer(object):
                 "character-ordering:%s" % self.mission_name,
                 identifier,
             )
-        for identifier, data in meta['characters'].items():
+        for identifier, data in meta.get('characters', {}).items():
             mission_key   = "characters:%s" % self.mission_name
             character_key = "%s:%s" % (mission_key, identifier)
             
