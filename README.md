@@ -69,9 +69,9 @@ then use `ENV/bin/python` where normally you'd use just `python`. (If it's recen
 
 ### Hosts setup
 
-To make it possible to work with multiple missions, you need edit `/etc/hosts` to include an alias `artemis`, plus aliases of the form `<mission>.artemis`, such as `apollo13.artemis` and `mercury6.artemis`; these all need to point to `localhost` (or to your virtual machine, if that's how you develop things). For instance, here's an `/etc/hosts` entry using `localhost` (replace the `localhost` line already in there):
+To make it possible to work with multiple missions, you need edit `/etc/hosts` to include an alias `artemis`, plus aliases of the form `<mission>.artemis`, such as `apollo13.artemis` and `mercury6.artemis`; these all need to point to `localhost` (or to your virtual machine, if that's how you develop things). For instance, here's an `/etc/hosts` entry using `localhost` (put this in addition to the `localhost` line already in there):
   
-    127.0.0.1	localhost apollo13.artemis mercury6.artemis artemis
+    127.0.0.1		apollo13.artemis mercury6.artemis artemis
 
 and here's one for a virtual machine (you'll need to change the dotted quad at the start of the line):
   
