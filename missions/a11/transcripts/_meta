@@ -117,11 +117,7 @@
         "WILLIAM_ANDERS",
         "FRED_HAISE",
         "BILL_POGUE",
-        "JACK_SWIGERT",
-        "CLIFF_CHARLESWORTH",
-        "GENE_KRANZ",
-        "GLYNN_LUNNEY",
-        "CHUCK_LEWIS"
+        "JACK_SWIGERT"
     ],
     "characters": {
         "CC": {
@@ -357,30 +353,6 @@
           "name": "Jack Swigert",
           "short_name": "Jack Swigert",
           "mission_position": "Support"
-        },
-        "CLIFF_CHARLESWORTH": {
-          "role": "mission-ops",
-          "name": "Cliff Charlesworth",
-          "short_name": "Cliff Charlesworth",
-          "mission_position": "Flight Director"
-        },
-        "GENE_KRANZ": {
-          "role": "mission-ops",
-          "name": "Gene Kranz",
-          "short_name": "Gene Kranz",
-          "mission_position": "Flight Director"
-        },
-        "GLYNN_LUNNEY": {
-          "role": "mission-ops",
-          "name": "Glynn Lunney",
-          "short_name": "Glynn Lunney",
-          "mission_position": "Flight Director"
-        },
-        "CHUCK_LEWIS": {
-            "role": "mission-ops",
-            "name": "Chuck Lewis",
-            "short_name": "Chuck Lewis",
-            "mission_position": "Assistant Flight Director"
         },
         "PRESIDENT NIXON": {
           "role": "other",
