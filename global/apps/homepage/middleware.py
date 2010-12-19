@@ -1,5 +1,6 @@
 import redis
 from django.shortcuts import render_to_response
+from django.template import RequestContext
 
 class HoldingMiddleware(object):
     """
