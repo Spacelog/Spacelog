@@ -981,7 +981,7 @@ CMP: Roger, Houston. Apollo 11. Go ahead.
 CC: Roger. Could you give us comments on how the transposition and docking went? Over.
 
 [00:03:38:07]
-CMP: I thought it went pretty well, Houston, although I expect I used more gas than I've been using in the simulator. The turnaround maneuver - I went PITCH ACEL COMMAND and started to pitch up, and then when I put MANUAL, ATTITUDE PITCH back to RATE COMMAND for some reason it - it stopped its pitch rate, and I had to go back to ACCEL COMMAND and hit what I thought was an extra PROCEED on the DSKY. During the course of that, we drifted slightly further away from the S IVB than I expected. I expected to be out about 66 feet. My guess would be I was around 100 or so; and therefore, I expect I used a bit more coming back in. But, except for using a little more gas - And I'd be interested in your numbers on that - everything went nominally.
+CMP: I thought it went pretty well, Houston, although I expect I used more gas than I've been using in the simulator. The turnaround maneuver - I went PITCH ACCEL COMMAND and started to pitch up, and then when I put MANUAL, ATTITUDE PITCH back to RATE COMMAND for some reason it - it stopped its pitch rate, and I had to go back to ACCEL COMMAND and hit what I thought was an extra PROCEED on the DSKY. During the course of that, we drifted slightly further away from the S IVB than I expected. I expected to be out about 66 feet. My guess would be I was around 100 or so; and therefore, I expect I used a bit more coming back in. But, except for using a little more gas - And I'd be interested in your numbers on that - everything went nominally.
 
 [00:03:38:53]
 CC: This is Houston. Roger. We copy.
@@ -993,7 +993,7 @@ CMP: Houston, Apollo 11. Over.
 CC: Go ahead, 11.
 
 [00:03:43:50]
-CMP: Roger. We're working on the pressurization of the LM now, and working off the decal with CSM-LM pressure equalization. And we're down to step 13, where we're waiting for the cabin pressure to be 5, or it should be roughly 5, before we turn the REPRESS package O2 valve to FILL. Instead of 5, we're running about 4.4. Over.
+CMP: Roger. We're working on the pressurization of the LM now, and working off the decal with CSM-LM pressure equalization. And we're down to step 13, where we're waiting for the cabin pressure to be 5, or it should be roughly 5, before we turn the REPRESS package O<sub>2</sub> valve to FILL. Instead of 5, we're running about 4.4. Over.
 _page : 21
 _tape : Tape 3/4
 
@@ -1001,7 +1001,7 @@ _tape : Tape 3/4
 CC: Roger. Stand by a second.
 
 [00:03:44:55]
-CMP: And Houston, Apollo 11. We did put the REPRESS package O2 valve to FILL momentarily there at step 13, and we have filled the bottles back up partially. What's the pressure reading in there, Neil?
+CMP: And Houston, Apollo 11. We did put the REPRESS package O<sub>2</sub> valve to FILL momentarily there at step 13, and we have filled the bottles back up partially. What's the pressure reading in there, Neil?
 
 [00:03:45:17]
 CMP: We have about 450 psi now in the three 1-pound bottles.
@@ -1028,7 +1028,7 @@ CC: Apollo 11, this is Houston. Go ahead.
 LMP: Roger. LM looks to be in pretty fine shape from about all we can see from here.
 
 [00:03:48:43]
-CC: Okay. In reference to your question on this step 13 on the decal, I understand that you have used up the contents of the REPRESS O2 package and at that time, instead of being up to 5 psi, you were reading 4.4. Is that correct?
+CC: Okay. In reference to your question on this step 13 on the decal, I understand that you have used up the contents of the REPRESS O<sub>2</sub> package and at that time, instead of being up to 5 psi, you were reading 4.4. Is that correct?
 
 [00:03:49:07]
 CMP: Okay. 4.4. Yes sir.
@@ -1066,7 +1066,7 @@ CDR: Roger, And it's coming out.
 CC: Roger. Out,
 
 [00:03:50:50]
-CDR: It's a haze. It's going by toward our minus-X direction, and several small particles are moving along with it. The actual velocity is fairly high - at least it appears to be high. And we've got an O2 high - it's a little high right now.
+CDR: It's a haze. It's going by toward our minus-X direction, and several small particles are moving along with it. The actual velocity is fairly high - at least it appears to be high. And we've got an O<sub>2</sub> high - it's a little high right now.
 
 [00:03:51:13]
 CC: Houston. Roger. Out.
@@ -1160,13 +1160,13 @@ CDR: Houston, we are SEP. We have a CRYO PRESS light.
 CC: Roger. Copy. CRY0 PRESS light.
 
 [00:04:17:46]
-CC: Roger, 11. We reconmend you turn the O2 fans on manually and ensure that the O2 heaters are in the AUTOMATIC position.
+CC: Roger, 11. We reconmend you turn the O<sub>2</sub> fans on manually and ensure that the O<sub>2</sub> heaters are in the AUTOMATIC position.
 
 [00:04:17:57]
-CDR: Roger. O2 heaters are ON, and we're going to cycle the O2 fans now.
+CDR: Roger. O<sub>2</sub> heaters are ON, and we're going to cycle the O<sub>2</sub> fans now.
 
 [00:04:18:02]
-CC: Roger. O2 heaters to AUTO, or you can watch them in the ON position, and O2 fans manual ON.
+CC: Roger. O<sub>2</sub> heaters to AUTO, or you can watch them in the ON position, and O<sub>2</sub> fans manual ON.
 
 [00:04:28:16]
 CC: Apollo 11, this ls Houston. Over.
@@ -1410,7 +1410,7 @@ CC: 11, Houston. We have a recommended configuration for your CRY0 switches to e
 SC: ...
 
 [00:05:14:59]
-CC: Okay. You're coming in very weakly there. We're recommending O2 tank 1 heater OFF, O2 tank 2 heater to AUTO, O2 tanks 1 and 2 fans both OFF, H2 tank 1 heaters to AUTO, and H2 tank 1 heaters to AUTO, and H2 tank 2 heaters to OFF. Over.
+CC: Okay. You're coming in very weakly there. We're recommending O<sub>2</sub> tank 1 heater OFF, O<sub>2</sub> tank 2 heater to AUTO, O<sub>2</sub> tanks 1 and 2 fans both OFF, H2 tank 1 heaters to AUTO, and H2 tank 1 heaters to AUTO, and H2 tank 2 heaters to OFF. Over.
 
 [00:05:15:33]
 LMP: Roger. We have that except the last one was H2 fans to OFF. Is that affirmative?
@@ -1678,7 +1678,7 @@ CC: Go ahead, 11. Over.
 LMP: Hey, maybe you better call Lou and tell him we might be a little bit late for dinner.
 
 [00:06:25:51]
-CC: Okay. Sure will. We'd like for you to turn on - the fan on in O2 tank number 2, Buzz. And, 11, did you - on your optics calibrations, did you proceed or recall the program? Over.
+CC: Okay. Sure will. We'd like for you to turn on - the fan on in O<sub>2</sub> tank number 2, Buzz. And, 11, did you - on your optics calibrations, did you proceed or recall the program? Over.
 
 [00:06:26:08]
 LMP: We recalled the program.
@@ -1687,7 +1687,7 @@ LMP: We recalled the program.
 CC: Roger.
 
 [00:06:26:13]
-LMP: And O2 fan number 2 is on.
+LMP: And O<sub>2</sub> fan number 2 is on.
 
 [00:06:26:15]
 CC: Roger.
@@ -2366,7 +2366,7 @@ _tape : Tape 7/3
 CC: Roger, Buzz. Copy. Looks like there's a good view out there then.
 
 [00:10:06:00]
-CC: And, Apollo 11, Houston. We'd like you to keep the O2 fan on. It will give you an ECS configuration prior to sleep. Over.
+CC: And, Apollo 11, Houston. We'd like you to keep the O<sub>2</sub> fan on. It will give you an ECS configuration prior to sleep. Over.
 
 [00:10:06:14]
 LMP: Okay. Thanks.
@@ -2434,7 +2434,7 @@ CDR: Okay. It'll take us about 5 minutes to get rigged.
 CC: Roger.
 
 [00:10:26:31]
-CC: Apollo 11, Houston. Could you verify the reading on your O2 flow indicator? Over.
+CC: Apollo 11, Houston. Could you verify the reading on your O<sub>2</sub> flow indicator? Over.
 
 [00:10:26:45]
 LMP: We're still on 0.2. We just inadvertently touched the RAPID REPRESS button. That made a temporary glitch in the flow.
@@ -2446,7 +2446,7 @@ CC: Roger. During that glitch there, did it go almost a peg high? Over.
 LMP: I'd believe that.
 
 [00:10:27:14]
-CC: Apollo 11, Houston. Could you tell us if the O2 flow indicator was pegged high prior to closing the waste storage vent valve? Over.
+CC: Apollo 11, Houston. Could you tell us if the O<sub>2</sub> flow indicator was pegged high prior to closing the waste storage vent valve? Over.
 
 [00:10:27:26]
 LMP: No, it was not.
@@ -2663,7 +2663,7 @@ CC: Roger. 027 44 5363, minus 165 073 14 037 44 8016, minus 165 072 46; GETI 046
 LMP: Roger. 027 44 5363, minus 165 073 14 037 44 8016, minus 165 072 46 046 44 6141, minus 165 097 03 055 44 8209, minus 165 096 42. Over.
 
 [00:11:01:34]
-CC: Roger, 11. That was a good readback. That was the block data scheduled for 12 hours. We'd like to just say that on a flight plan update here, just to remind you of some things, and you can do them at your convenience amd then go to sleep early if you'd like. We don't have anything else planned, but we'd like to just remind you on the filter change, the O2 fuel cell purge. And we'd like a LM/CM DELTA-P and accomplish the presleep checklist.
+CC: Roger, 11. That was a good readback. That was the block data scheduled for 12 hours. We'd like to just say that on a flight plan update here, just to remind you of some things, and you can do them at your convenience amd then go to sleep early if you'd like. We don't have anything else planned, but we'd like to just remind you on the filter change, the O<sub>2</sub> fuel cell purge. And we'd like a LM/CM DELTA-P and accomplish the presleep checklist.
 
 [00:11:02:34]
 CDR: Okay. We've completed the filter change, and we'll get started on the fuel cell purge, and stand by for the LM/CM DELTA-P.
@@ -2683,13 +2683,13 @@ _tape : Tape 8/2
 CC: Copy. 0.5. Out.
 
 [00:11:03:20]
-CC: Hello, Apollo 11. Houston. We've just decided to delete the O2 fuel cell purge. Over.
+CC: Hello, Apollo 11. Houston. We've just decided to delete the O<sub>2</sub> fuel cell purge. Over.
 
 [00:11:03:56]
-CDR: Roger. Delete the O2 fuel cell purge.
+CDR: Roger. Delete the O<sub>2</sub> fuel cell purge.
 
 [00:11:06:21]
-CC: Hello, Apollo 11. Houston. We've been noting some funnies on the O2 flow indicator transducer. We've kind of got a suspicion that the transducer - We expected to see an O2 flow pegged high with the waste stowage vent to VENT. It was not. We also noted some funny indications when you closed the waste stowage vent valve. We're going to continue to take a look at this through the night, and we'll be with you in the morning with an assessment of the problem. Also, we'd like to ask specifically, when you place the waste stowage vent valve to VENT, does the detent - correction - Does the arrow line up with the detent? Over.
+CC: Hello, Apollo 11. Houston. We've been noting some funnies on the O<sub>2</sub> flow indicator transducer. We've kind of got a suspicion that the transducer - We expected to see an O<sub>2</sub> flow pegged high with the waste stowage vent to VENT. It was not. We also noted some funny indications when you closed the waste stowage vent valve. We're going to continue to take a look at this through the night, and we'll be with you in the morning with an assessment of the problem. Also, we'd like to ask specifically, when you place the waste stowage vent valve to VENT, does the detent - correction - Does the arrow line up with the detent? Over.
 
 [00:11:07:18]
 CMP: Stand by one, Charlie. We'll give you something on the detent.
@@ -2853,7 +2853,7 @@ CC: Okay. Beautiful. Did you copy the attitudes for the P52 and the waste-water 
 CMP: Roger. Okay. We note the battery charge as soon as we get around to it, and the attitude for the P52 optics CAL: roll 330.5, pitch 086.3, and yaw all zeros. The attitude for the P23 as in the flight plan is okay; and I copy your battery charge. Crew status report as follows. Sleep CDR 7, CMP 7, LMP 5.5. And we've completed the postsleep checklist. Standing by for a consumable update. Over.
 
 [00:23:00:04]
-CC: Roger. We're requesting a waste-water dump at GET 25 30 down to a nominal 25 percent, and here we go with the consumables update. At GET of 22 hours, RCS total is minus 3.5 percent. Alfa minus 3.5 percent, Bravo minus 1.5 percent, Charlie minus 5.0 percent, minus 4.0 percent, H2 minus 2 pounds, O2 minus 4 pounds. Over.
+CC: Roger. We're requesting a waste-water dump at GET 25 30 down to a nominal 25 percent, and here we go with the consumables update. At GET of 22 hours, RCS total is minus 3.5 percent. Alfa minus 3.5 percent, Bravo minus 1.5 percent, Charlie minus 5.0 percent, minus 4.0 percent, H2 minus 2 pounds, O<sub>2</sub> minus 4 pounds. Over.
 
 [00:23:00:59]
 CMP: Okay. Stand by.
@@ -2993,7 +2993,7 @@ CMP: Houston, Apollo 11. Over.
 CC: Go ahead, 11.
 
 [01:00:11:03]
-CMP: Roger. I'm getting ready to do an O2 Fuel cell purge. Do you have any particulars on this? And I assume you want these one at a time, or can I triple up? Over.
+CMP: Roger. I'm getting ready to do an O<sub>2</sub> Fuel cell purge. Do you have any particulars on this? And I assume you want these one at a time, or can I triple up? Over.
 
 [01:00:11:13]
 CC: We'd like them one at a time, and stand by. I don't think we have any sequence. You can do them in any order you want.
@@ -3034,7 +3034,7 @@ CC: 11, Houston. After you've completed P52, we'd like to uplink you a new state
 CDR: Okay.
 
 [01:00:17:22]
-CMP: Houston, are you observing the higher O2 flow on fuel cell 3?
+CMP: Houston, are you observing the higher O<sub>2</sub> flow on fuel cell 3?
 
 [01:00:17:34]
 CDR: Houston, Apollo 11. It's triggered the MASTER ALARM three times, now. There goes number 4. It goes up to about 1.4, then oscillates back down to about 1.1. Over.
@@ -3052,7 +3052,7 @@ CC: Roger. Give us ACCEPT, please.
 CMP: Roger. Done.
 
 [01:00:18:41]
-CC: 11, Houston. On your O2 flow, fuel cell 3: apparently it was flowing a little higher than the other two during purge, but the flow rate is acceptable. Over.
+CC: 11, Houston. On your O<sub>2</sub> flow, fuel cell 3: apparently it was flowing a little higher than the other two during purge, but the flow rate is acceptable. Over.
 
 [01:00:18:56]
 CMP: Roger, It seems to be flowing a little bit more, and actually putting out more current than the other two, also. Over.
@@ -3128,7 +3128,7 @@ CMP: Not yet.
 CC: Okay.
 
 [01:00:30:54]
-CC: 11, Houston. Over the past 2 hours we have seen a slight continuing increase in partial pressure Of CO2. Have you in fact changed the CO2 canister yet this morning? We don't need to do it right now; we'd just like to confirm it on our instrumentation - is in good shape. Over.
+CC: 11, Houston. Over the past 2 hours we have seen a slight continuing increase in partial pressure Of CO<sub>2</sub>. Have you in fact changed the CO<sub>2</sub> canister yet this morning? We don't need to do it right now; we'd just like to confirm it on our instrumentation - is in good shape. Over.
 
 [01:00:31:13]
 CMP: No. We haven't changed any canisters this morning.
@@ -3549,7 +3549,7 @@ CC: Okay. We have another input here, 11, that the MILA data was recognizable as
 CMP: Okay.
 
 [01:02:55:55]
-CC: And for our information, we've been watching a PCO2 again. Did you change a lithium hydroxide canister this morning? Over.
+CC: And for our information, we've been watching a PCO<sub>2</sub> again. Did you change a lithium hydroxide canister this morning? Over.
 
 [01:02:56:08]
 CDR: Yes. We did, and we've been seeing 1.7 percent in the spacecraft ever since.
@@ -3605,7 +3605,7 @@ CC: Everything else in the CRYO system remains the same.
 CDR: 0kay.
 
 [01:03:06:56]
-CMP: Okay. We have O2 heater tank 1 off.
+CMP: Okay. We have O<sub>2</sub> heater tank 1 off.
 
 [01:03:07:01]
 CC: Houston. Roger. Out.
@@ -3614,7 +3614,7 @@ CC: Houston. Roger. Out.
 CMP: How is EECOMM today? Is he happy with all those good things?
 
 [01:03:07:14]
-CC: Oh, EECOMM is happy, and after you get PTC set up, we've got a little procedure from EEC0MM here to check out the O2 flow and the O2 flow sensor in your cabin enrichment. Over.
+CC: Oh, EECOMM is happy, and after you get PTC set up, we've got a little procedure from EEC0MM here to check out the O<sub>2</sub> flow and the O<sub>2</sub> flow sensor in your cabin enrichment. Over.
 
 [01:03:07:29]
 CMP: Okay.
@@ -3864,7 +3864,7 @@ CC: Apollo 11, this is Houston. Over.
 CDR: Go ahead, Houston.
 
 [01:03:47:29]
-CC: Roger. If you're free for a couple of minutes, we have a procedure here that will let us verify the O2 flow transducer and at the same time get some more of our cabin enrichment out of the way. Over.
+CC: Roger. If you're free for a couple of minutes, we have a procedure here that will let us verify the O<sub>2</sub> flow transducer and at the same time get some more of our cabin enrichment out of the way. Over.
 
 [01:03:47:46]
 CDR: Stand by.
@@ -3873,7 +3873,7 @@ CDR: Stand by.
 CDR: Go ahead, Houston. We're ready to copy.
 
 [01:03:48:41]
-CC: Roger. The primary purpose of this is, as I mentioned, to let us check out your O2 flow transducer. However, we still need about 2 hours' worth of cabin enrichment, so we'd like to keep the vent that we're going to set up going for this purpose. Okay. We want you to install the cabin vent quick disconnect which you'll find in compartment R-6, that is Romeo 6, on the urine connector on panel 251. When this is completed, verify that the waste stowage vent valve is closed, and then open or position the waste management overboard drain to the DUMP position. Over.
+CC: Roger. The primary purpose of this is, as I mentioned, to let us check out your O<sub>2</sub> flow transducer. However, we still need about 2 hours' worth of cabin enrichment, so we'd like to keep the vent that we're going to set up going for this purpose. Okay. We want you to install the cabin vent quick disconnect which you'll find in compartment R-6, that is Romeo 6, on the urine connector on panel 251. When this is completed, verify that the waste stowage vent valve is closed, and then open or position the waste management overboard drain to the DUMP position. Over.
 
 [01:03:49:40]
 CDR: Okay. Understand that. Install the cabin quick disconnect out of R-6 on the 251 urine connector and verify that the waste dump valve is closed, and say again the last part.
@@ -3885,7 +3885,7 @@ CC: Roger. And then put the waste management overboard drain valve into the DUMP
 CDR: Roger. Put the waste management overboard drain valve to the DUMP position.
 
 [01:03:50:20]
-CC: Right. That's the one down on panel 251 also. And we'll watch your O2 flow on telemetry down here.
+CC: Right. That's the one down on panel 251 also. And we'll watch your O<sub>2</sub> flow on telemetry down here.
 
 [01:03:52:49]
 CDR: Okay, Houston. That configuration is set up.
@@ -3894,7 +3894,7 @@ CDR: Okay, Houston. That configuration is set up.
 CC: 11, this is Houston. Say again, please.
 
 [01:03:53:02]
-CDR: You do have the O2 flow transducer checkout setup accomplished.
+CDR: You do have the O<sub>2</sub> flow transducer checkout setup accomplished.
 _page : 89
 _tape : Tape 18/10
 
@@ -3905,7 +3905,7 @@ CC: Okay. Understand you have opened the drain valve at this time.
 CDR: That's ... It's in DUMP.
 
 [01:03:53:15]
-CC: Roger. We're not getting telemetry data from you right due to low signal strength. There it comes back. I expect it'll probably take us anywhere from 15 minutes to half an hour to see an increase in O2 flow due to the size of the cabin and of course of the small size of the drain. Over.
+CC: Roger. We're not getting telemetry data from you right due to low signal strength. There it comes back. I expect it'll probably take us anywhere from 15 minutes to half an hour to see an increase in O<sub>2</sub> flow due to the size of the cabin and of course of the small size of the drain. Over.
 
 [01:03:53:36]
 CDR: Roger.
@@ -3952,7 +3952,7 @@ CC: Okay. One thing that we did miss in the dropout in the noise here is your LM
 LMP: Okay. The LM/CM DELTA-P is 0.98.
 
 [01:04:37:10]
-CC: Roger. 0.98, and what have you been reading for O2 flow on your onboard gage? Over.
+CC: Roger. 0.98, and what have you been reading for O<sub>2</sub> flow on your onboard gage? Over.
 
 [01:04:37:23]
 LMP: Well, right now, after we put that gadget in, we've got it back to 0.35. Before that, we were reading on scale level. I think ours is relatively correct, at least when time comes for the water accumulator to kick in at 10 seconds, it goes on up to about 0.75, 0.8, something like that.
@@ -4066,7 +4066,7 @@ _tape : Tape 20/1
 CDR: Go ahead, Houston.
 
 [01:05:58:23]
-CC: 11, this is Houston. As a result of our venting through the waste management drain, we've concluded that your O2 flow rate sensor is, in fact, malfunctioning. I mentioned when you talked us through the cyclic water accumulator dump that even though it was moving, probably indicating a higher flow rate, it didn't seem to be indicating a flow rate that is high enough; and based on that and the flow that we're getting right now, we've concluded that the transducer is malfunctioning. We'd like to continue the O2 flow for about another hour, shutting it off at about 31 hours GET, to get the O2 concentration in the vehicles up to - in the vehicles up to where it will be acceptable for LM checkout. Over.
+CC: 11, this is Houston. As a result of our venting through the waste management drain, we've concluded that your O<sub>2</sub> flow rate sensor is, in fact, malfunctioning. I mentioned when you talked us through the cyclic water accumulator dump that even though it was moving, probably indicating a higher flow rate, it didn't seem to be indicating a flow rate that is high enough; and based on that and the flow that we're getting right now, we've concluded that the transducer is malfunctioning. We'd like to continue the O<sub>2</sub> flow for about another hour, shutting it off at about 31 hours GET, to get the O<sub>2</sub> concentration in the vehicles up to - in the vehicles up to where it will be acceptable for LM checkout. Over.
 
 [01:05:59:27]
 CDR: Okay. Does it look to you like it just has a bias on it?
@@ -4402,13 +4402,13 @@ _tape : Tape 20/7
 CC: Roger.
 
 [01:07:07:20]
-CC: Hello, Apollo 11. Houston. We'd like you to terminate the O2 purge if you have not done so already, and the TV camera people say that the lines are inherent in the camera, Buzz; and it's something that we expected. Over.
+CC: Hello, Apollo 11. Houston. We'd like you to terminate the O<sub>2</sub> purge if you have not done so already, and the TV camera people say that the lines are inherent in the camera, Buzz; and it's something that we expected. Over.
 
 [01:07:07:41]
-LMP: Roger. Understand about the camera. Say again about the O2 purge.
+LMP: Roger. Understand about the camera. Say again about the O<sub>2</sub> purge.
 
 [01:07:07:44]
-CC: Roger. We can terminate the O2 purge at this time. Over.
+CC: Roger. We can terminate the O<sub>2</sub> purge at this time. Over.
 
 [01:07:07:50]
 LMP: Oh, okay. Fine. Will do.
@@ -5244,7 +5244,7 @@ _page : 119
 _tape : Tape 23/2
 
 [01:10:36:43]
-CMP: Houston, Apollo 11. How do we stand on this O2 fuel cell purge? You want to go ahead and do that as scheduled in the flight plan?
+CMP: Houston, Apollo 11. How do we stand on this O<sub>2</sub> fuel cell purge? You want to go ahead and do that as scheduled in the flight plan?
 
 [01:10:36:51]
 CC: Stand by, 11. Over.
@@ -5253,7 +5253,7 @@ CC: Stand by, 11. Over.
 CMP: Okay.
 
 [01:10:36:58]
-CC: 11, Houston. You can commence the O2 fuel cell purge now if you'd like. Over.
+CC: 11, Houston. You can commence the O<sub>2</sub> fuel cell purge now if you'd like. Over.
 
 [01:10:37:04]
 CMP: Okay. Fine.
@@ -5676,7 +5676,7 @@ CC: Roger. Copy 1.1.
 CC: Hello, Apollo 11. Houston. Please verify that four CRYO heaters AUTO, the four fans off. Over.
 
 [01:12:08:07]
-LMP: Okay. We have been holding the O2 heater number 1 in the OFF position. I believe that was your last instruction. All the other heaters are AUTO and all fans are off. Over.
+LMP: Okay. We have been holding the O<sub>2</sub> heater number 1 in the OFF position. I believe that was your last instruction. All the other heaters are AUTO and all fans are off. Over.
 
 [01:12:08:22]
 CC: Roger. Stand by.
@@ -6025,13 +6025,13 @@ LMP: - - How do your read? Over.
 CC: Roger. We're reading you loud and clear.
 
 [02:01:41:24]
-LMP: Roger. You're coming back a little scratchy. It,looks like our O2 flow transducer's gotten a good bit worse. I just looked at it at the last water accumulator cycling, and it just barely registered - barely crept up above 0.2. Over.
+LMP: Roger. You're coming back a little scratchy. It,looks like our O<sub>2</sub> flow transducer's gotten a good bit worse. I just looked at it at the last water accumulator cycling, and it just barely registered - barely crept up above 0.2. Over.
 
 [02:01:41:45]
 CC: Roger.
 
 [02:01:42:40]
-CC: 11, this is Houston. At the time of your cyclic accumulator stroking, we were on low-bit-rate data, and consequently not receiving the O2 flow parameter. We expect that what you're seeing is probably nominal. That is, it's probably what we would expect from a transducer that's malfunctioning probably in this fashion, and it's just going to keep on getting worse like that. Nothing to worry about. We'll monitor things on the ground here. Over.
+CC: 11, this is Houston. At the time of your cyclic accumulator stroking, we were on low-bit-rate data, and consequently not receiving the O<sub>2</sub> flow parameter. We expect that what you're seeing is probably nominal. That is, it's probably what we would expect from a transducer that's malfunctioning probably in this fashion, and it's just going to keep on getting worse like that. Nothing to worry about. We'll monitor things on the ground here. Over.
 
 [02:01:43:17]
 LMP: Okay. It does look like it's gradually degrading to about zilch.
@@ -6378,7 +6378,7 @@ CC: Roger, Mike. You're five-by now on the high gain. We're right between the 0M
 CMP: Okay, fine.
 
 [02:06:52:35]
-CMP: Houston, we're going to open the DIRECT O2 valve and start pumping up the cabin.
+CMP: Houston, we're going to open the DIRECT O<sub>2</sub> valve and start pumping up the cabin.
 
 [02:06:52:40]
 CC: Roger. Copy.
@@ -6387,7 +6387,7 @@ CC: Roger. Copy.
 CC: Apollo 11, Houston. We're going to hand over to Goldstone for uplink in about 2 minutes. We might have a momentary dropout of COMM. Over.
 
 [02:06:53:16]
-CMP: Alright. Can you hear our master alarm in the background? That's O2 FLOW HIGH coming through this amplifier.
+CMP: Alright. Can you hear our master alarm in the background? That's O<sub>2</sub> FLOW HIGH coming through this amplifier.
 _page : 151
 _tape : Tape 35/6
 
@@ -6410,7 +6410,7 @@ CC: Roger. Copy. Thank you.
 CMP: Makes you almost glad to get master alarms.
 
 [02:06:55:01]
-CMP: Houston, Apollo 11. As a matter of curiosity, our O2 flow meter is pegged FULL-SCALE HIGH.
+CMP: Houston, Apollo 11. As a matter of curiosity, our O<sub>2</sub> flow meter is pegged FULL-SCALE HIGH.
 
 [02:06:55:08]
 CC: Roger, 11. We copy that here. Over.
@@ -6425,13 +6425,13 @@ CMP: Boy, that transducer's working somewhat.
 CC: Roger.
 
 [02:06:55:51]
-CC: 11, Houston. We'd like to try to attempt to correlate your O2 flow in transducer with the flow valve that you've got open. How far - How far open would you say you have the REPRESS O2? 0ver. Correction, the DIRECT O2.
+CC: 11, Houston. We'd like to try to attempt to correlate your O<sub>2</sub> flow in transducer with the flow valve that you've got open. How far - How far open would you say you have the REPRESS O<sub>2</sub>? 0ver. Correction, the DIRECT O<sub>2</sub>.
 
 [02:06:56:10]
 CMP: Stand by, Charlie.
 
 [02:06:56:19]
-CMP: Okay, Charlie. It's not open very far. It's hard to give you a good reading without shunting it again, but the arrow is at about the one o'clock position. Now I reduce the flow, and I'll let it stabilize here. Right now our onboard reading is about 0.4, and that's with the arrow in the O2 valve at the two o'clock position. Would you rather have comparisons of O2 flow readings or would you rather have valve position comparisons?
+CMP: Okay, Charlie. It's not open very far. It's hard to give you a good reading without shunting it again, but the arrow is at about the one o'clock position. Now I reduce the flow, and I'll let it stabilize here. Right now our onboard reading is about 0.4, and that's with the arrow in the O<sub>2</sub> valve at the two o'clock position. Would you rather have comparisons of O<sub>2</sub> flow readings or would you rather have valve position comparisons?
 
 [02:06:56:48]
 CC: Roger. Stand by.
@@ -6478,7 +6478,7 @@ CC: Mike, that's good - good enough. We're satisfied now. Over.
 CMP: Okay.
 
 [02:07:02:02]
-CMP: Houston, Apollo 11. We've terminated direct O2, our cabin pressure is 57, and, as a matter of curiosity, when we turn the DIRECT O2 valve OFF, we get a master alarm just like they did in the spacecraft testing.
+CMP: Houston, Apollo 11. We've terminated direct O<sub>2</sub>, our cabin pressure is 57, and, as a matter of curiosity, when we turn the DIRECT O<sub>2</sub> valve OFF, we get a master alarm just like they did in the spacecraft testing.
 _page : 153
 _tape : Tape 36/1
 
@@ -7052,7 +7052,7 @@ _tape : Tape 36/11
 CC: We can even see the barber pole on the talkbacks.
 
 [02:08:02:24]
-CC: We can read the markings on the instruments for the glycol pressure, quantity, PCO2. You can even read the scale on the eight ball. Over.
+CC: We can read the markings on the instruments for the glycol pressure, quantity, PCO<sub>2</sub>. You can even read the scale on the eight ball. Over.
 
 [02:08:02:58]
 CC: 11, Houston. We see the cross-feed barber pole, and we have the Velcro patches back up to the RCS systems now. We can see the markings on the meters, green and red bands, in limits.
@@ -8317,10 +8317,10 @@ LMP: Good morning again, Houston. Apollo 11.
 CC: Roger 11. Good morning. When you - -
 
 [02:23:03:48]
-LMP: Would you like the O2 purge this morning?
+LMP: Would you like the O<sub>2</sub> purge this morning?
 
 [02:23:03:52]
-CC: Yes indeed. O2 fuel cell purge at 71 hours, and when you feel like copying, I've got a flight plan update containing - I guess that and some other items for you.
+CC: Yes indeed. O<sub>2</sub> fuel cell purge at 71 hours, and when you feel like copying, I've got a flight plan update containing - I guess that and some other items for you.
 
 [02:23:04:08]
 CDR: Okay. Stand by.
@@ -8329,10 +8329,10 @@ CDR: Okay. Stand by.
 LMP: Houston, Apollo 11. Go ahead with the flight plan update.
 
 [02:23:07:05]
-CC: Roger, 11. This is Houston. At approximately 71 hours to 72 hours, we have you down for an eat period which I imagine is probably in progress already. 71 hours: O2 fuel cell purge; 72 hours GET: CO2 filter change number 6, secondary radiator flow check. And we'll send you up a P37 block data on a 2 hour pass, pericynthion pass, return mode abort. At 73 hours 00 minutes: stop PTC at approximately 0 degrees roll. That is, when you're ccming up on 0 degrees roll angle around 73 hours, we'd like you to stop PTC. And perform a P52 option 3 remaining in the PTC REFSMMAT for a drift check. 73 hours, 20 minutes: we'll give you a P27 update to the landing site REFSMMAT, LOI 1 state vector, and target load. 73 hours 30 minutes: maneuver to 000 roll, pitch, and yaw; high gain antenna angles will be pitch 0, yaw 335; and perform a P52 option 1 using the new landing site REFSMMAT. Resume the nominal flight plan at 74 hours GET. Over.
+CC: Roger, 11. This is Houston. At approximately 71 hours to 72 hours, we have you down for an eat period which I imagine is probably in progress already. 71 hours: O<sub>2</sub> fuel cell purge; 72 hours GET: CO<sub>2</sub> filter change number 6, secondary radiator flow check. And we'll send you up a P37 block data on a 2 hour pass, pericynthion pass, return mode abort. At 73 hours 00 minutes: stop PTC at approximately 0 degrees roll. That is, when you're ccming up on 0 degrees roll angle around 73 hours, we'd like you to stop PTC. And perform a P52 option 3 remaining in the PTC REFSMMAT for a drift check. 73 hours, 20 minutes: we'll give you a P27 update to the landing site REFSMMAT, LOI 1 state vector, and target load. 73 hours 30 minutes: maneuver to 000 roll, pitch, and yaw; high gain antenna angles will be pitch 0, yaw 335; and perform a P52 option 1 using the new landing site REFSMMAT. Resume the nominal flight plan at 74 hours GET. Over.
 
 [02:23:09:08]
-LMP: Okay. We'll get started on the fuel cell purge while we're eating. CO2 canister change number 6; secondary radiator flow check; copy some pads. Also at 72 hours, stop PTC 0 roll at 73; do a P52 option 3; we'll get your uplink REFSMMAT for the landing site; and at 000 - let's see, now was this with the old REFSMMAT or the new REFSMMAT?
+LMP: Okay. We'll get started on the fuel cell purge while we're eating. CO<sub>2</sub> canister change number 6; secondary radiator flow check; copy some pads. Also at 72 hours, stop PTC 0 roll at 73; do a P52 option 3; we'll get your uplink REFSMMAT for the landing site; and at 000 - let's see, now was this with the old REFSMMAT or the new REFSMMAT?
 
 [02:23:09:45]
 CC: This is with the - -
@@ -8382,7 +8382,7 @@ CC: I say I have one for you.
 CMP: Okay. We're ready to copy that consumable update.
 
 [02:23:13:59]
-CC: Roger. As of GET 68 00, RCS total minus 4.5 percent, corresponding to approximately minus 53 pounds. Alfa minus 6.0 percent, minus 1.0 percent, minus 7.0 percent, minus 3.0 percent; H2 total, minus 1.2 pounds; O2 total, plus 10 pounds. Over.
+CC: Roger. As of GET 68 00, RCS total minus 4.5 percent, corresponding to approximately minus 53 pounds. Alfa minus 6.0 percent, minus 1.0 percent, minus 7.0 percent, minus 3.0 percent; H2 total, minus 1.2 pounds; O<sub>2</sub> total, plus 10 pounds. Over.
 
 [02:23:14:49]
 CMP: Roger. And our readouts on board are Alfa is 82, Bravo is 84, Cocoa is 84, and Delta is 87.
@@ -8391,7 +8391,7 @@ CMP: Roger. And our readouts on board are Alfa is 82, Bravo is 84, Cocoa is 84, 
 CC: Houston. Roger. Out.
 
 [02:23:15:14]
-CMP: And you want us to cycle the O2 and H2 fans, I imagine?
+CMP: And you want us to cycle the O<sub>2</sub> and H2 fans, I imagine?
 _page : 198
 _tape : Tape 46/3
 
@@ -10926,7 +10926,7 @@ _page : 256
 _tape : Tape 54/6
 
 [03:12:34:17]
-CMP: Okay. How about the O2 fuel cell purge? You want that now?
+CMP: Okay. How about the O<sub>2</sub> fuel cell purge? You want that now?
 
 [03:12:34:22]
 CC: I'll have to stand by just a moment.
@@ -10938,7 +10938,7 @@ LMP: Okay. And then the other one is, we're still charging battery A.
 CC: 11, Houston. We would like to delay the fuel cell purge until the backside of the Moon, and you go ahead and - should terminate your battery charge at this time. Over.
 
 [03:12:35:43]
-LMP: Okay. Understand. I knew we had another O2 and H2 purge coming up in the morning; I wasn't sure whether you wanted to go through with this one or not. I'll wait until the next side and then do it.
+LMP: Okay. Understand. I knew we had another O<sub>2</sub> and H2 purge coming up in the morning; I wasn't sure whether you wanted to go through with this one or not. I'll wait until the next side and then do it.
 
 [03:12:35:53]
 CC: That's fine, Buzz.
@@ -10947,10 +10947,10 @@ CC: That's fine, Buzz.
 LMP: Terminate battery charging now.
 
 [03:12:35:56]
-CC: That's right, and one other systems item here - in order to balance your CRYO tanks, would you get your O2 tank 1 and your H 2 tank 2 heaters off? Over.
+CC: That's right, and one other systems item here - in order to balance your CRYO tanks, would you get your O<sub>2</sub> tank 1 and your H 2 tank 2 heaters off? Over.
 
 [03:12:36:16]
-CMP: Okay. I have O2 tank heater 1 off, and H2 tank heater 2 off.
+CMP: Okay. I have O<sub>2</sub> tank heater 1 off, and H2 tank heater 2 off.
 
 [03:12:36:25]
 CC: That's right, Mike, and we believe you have your quad Bravo and quad Charlie turned off in your DAP at this time, and a 5 degree deadband. We'd prefer a 10 degree deadband for your sleep period overnight here. Over.
@@ -10959,7 +10959,7 @@ CC: That's right, Mike, and we believe you have your quad Bravo and quad Charlie
 CMP: Okay.
 
 [03:12:36:47]
-CC: One other item relative to a malfunction procedure. It's unlikely that you'll have to worry about this tomorrow, but in your malfunction list under docking on page F11 9, there is a malfunction procedure for a high O2 flow rate at the top of - under tunnel at the top of page 11 9. We would like to have you not use that malfunction procedure should you encounter the high O2 flow rate, and instead, check back with Houston for a revised procedure should you find that situation. Over.
+CC: One other item relative to a malfunction procedure. It's unlikely that you'll have to worry about this tomorrow, but in your malfunction list under docking on page F11 9, there is a malfunction procedure for a high O<sub>2</sub> flow rate at the top of - under tunnel at the top of page 11 9. We would like to have you not use that malfunction procedure should you encounter the high O<sub>2</sub> flow rate, and instead, check back with Houston for a revised procedure should you find that situation. Over.
 
 
 [03:12:37:38]
@@ -10971,7 +10971,7 @@ _tape : Tape 54/7
 CC: 11, Houston. Roger. That just about takes care of all the items we have here on the ground before time to hit the sack, and I guess you will have a presleep check for us before you go to bed.
 
 [03:12:38:06]
-LMP: Roger. We're in the midst of cycling the O2 and H2 fans now.
+LMP: Roger. We're in the midst of cycling the O<sub>2</sub> and H2 fans now.
 
 [03:12:38:11]
 CC: Roger.
@@ -11138,7 +11138,7 @@ CC: 11, Houston. Understand. And on another subject, request you zero your optic
 LMP: Roger. Zeroed.
 
 [03:13:27:46]
-CC: Apollo 11, Houston. Can you confirm that you have changed the CO2 filter as per flight plan in the last hour? Over?
+CC: Apollo 11, Houston. Can you confirm that you have changed the CO<sub>2</sub> filter as per flight plan in the last hour? Over?
 
 [03:13:28:01]
 CMP: No. We're still eating. We're about to do it. We'll let you know.
@@ -15614,10 +15614,10 @@ CC: Roger. Are you reading Tranquility Base now?
 CDR (TRANQ): Okay. You've got an O and a P.
 
 [04:12:12:06]
-LMP (TRANQ): What is your O2 quantity, by the way?
+LMP (TRANQ): What is your O<sub>2</sub> quantity, by the way?
 
 [04:12:12:11]
-CDR (TRANQ): O2 quantity is about 91.
+CDR (TRANQ): O<sub>2</sub> quantity is about 91.
 
 [04:12:12:15]
 LMP (TRANQ): I've got 92.
@@ -15679,7 +15679,7 @@ LMP (TRANQ): I got one.
 CDR (TRANQ): Got it?
 
 [04:12:13:28]
-CDR (TRANQ): Okay. One antenna is out. Verify PLSS O2 bottle pressure greater than 85. ***
+CDR (TRANQ): Okay. One antenna is out. Verify PLSS O<sub>2</sub> bottle pressure greater than 85. ***
 
 [04:12:13:33]
 LMP (TRANQ): It is.
@@ -15888,7 +15888,7 @@ CDR (TRANQ): Okay. Disconnect LM hoses.
 LMP (TRANQ): Okay.
 
 [04:12:25:50]
-CDR (TRANQ): Connect OPS O2 hose to right hand PGA blue connector and lock.
+CDR (TRANQ): Connect OPS O<sub>2</sub> hose to right hand PGA blue connector and lock.
 
 [04:12:25:54]
 LMP (TRANQ): Let me do that for you.
@@ -17636,7 +17636,7 @@ _tape : Tape 71/17
 LMP (EVA): And, Houston? Buzz here. I'm showing 3.78 psi, 63 percent, no flags, adequate, slight warming *** fingered.
 
 [04:14:42:01]
-CDR (EVA): Roger. And Neil has 66 percent O2, no flags, minimum cooling, and the suit pressure is 382.
+CDR (EVA): Roger. And Neil has 66 percent O<sub>2</sub>, no flags, minimum cooling, and the suit pressure is 382.
 
 [04:14:42:14]
 CC: Houston. Roger. Out.
@@ -18193,7 +18193,7 @@ CDR (EVA): Okay. Stand by a second.
 CC: Neil, this is Houston. Request an EMU check. Over.
 
 [04:15:32:09]
-CDR (EVA): Roger. Got 3.8 and I got 54 on the O2 and no flags, and my flow is in N.
+CDR (EVA): Roger. Got 3.8 and I got 54 on the O<sub>2</sub> and no flags, and my flow is in N.
 
 [04:15:33:46]
 CC: Neil and Buzz, for your information, your consumables remain in good shape. Out.
@@ -18729,7 +18729,7 @@ CC: Columbia, this is Houston. Over.
 CMP (COLUMBIA): Go ahead.
 
 [04:17:12:05]
-CC: Roger, Mike. Couple of quick flight plan update here. First off, we'd like to get an O2 fuel cell purge at time 113 30. You - Are you copying? Over.
+CC: Roger, Mike. Couple of quick flight plan update here. First off, we'd like to get an O<sub>2</sub> fuel cell purge at time 113 30. You - Are you copying? Over.
 
 [04:17:12:23]
 CMP (COLUMBIA): Roger. And copy.
@@ -19978,7 +19978,7 @@ CC: And, Tranquility, I have a LM consumables update for you.
 CDR (TRANQ): Roger. Ready to copy.
 
 [05:03:14:55]
-CC: Okay. At 123 plus 00, RCS Alfa 78 - 78 percent PQMD, Bravo is 76 percent PQMD, descent O2 is 62 percent - 62 percent. Descent ampere hours are 590, 590 remaining, ascent ampere hours are 574, 574 remaining. Over.
+CC: Okay. At 123 plus 00, RCS Alfa 78 - 78 percent PQMD, Bravo is 76 percent PQMD, descent O<sub>2</sub> is 62 percent - 62 percent. Descent ampere hours are 590, 590 remaining, ascent ampere hours are 574, 574 remaining. Over.
 
 [05:03:15:41]
 CDR (TRANQ): Roger. Copy. Sounds very good. Thank you.
@@ -21061,7 +21061,7 @@ _tape : Tape 81/4
 LMP (EAGLE): Roger. Copy. Thank you.
 
 [05:06:11:31]
-CDR (EAGLE): And, Houston, Eagle. Got an ECS light - a CO2 light. Partial pressure's reading about one half millimeter.
+CDR (EAGLE): And, Houston, Eagle. Got an ECS light - a CO<sub>2</sub> light. Partial pressure's reading about one half millimeter.
 
 [05:06:11:42]
 CC: Eagle and Columbia, Houston. Roger. We copy.
@@ -21297,7 +21297,7 @@ CC: Eagle, Houston.
 LMP (EAGLE): Go ahead.
 
 [05:06:51:32]
-CC: Roger. I'd better clarify that cabin mode a little bit there. What we mean is you go ahead and stay in the cabin mode. Helmets and gloves on are your option. And we really have no concern with the CO2. Over.
+CC: Roger. I'd better clarify that cabin mode a little bit there. What we mean is you go ahead and stay in the cabin mode. Helmets and gloves on are your option. And we really have no concern with the CO<sub>2</sub>. Over.
 
 [05:06:51:52]
 LMP (EAGLE): Roger. Understand.
@@ -21491,7 +21491,7 @@ CC: Apollo 11, Houston. Go.
 CMP: Roger. I'm supposed to adjust the oxygen flow in this thing to six tenths of a pound per hour, but being as how this transducer is not working right, could you give me an updated number?
 
 [05:08:05:55]
-CC: Affirmative. You want to go ahead and adjust your O2 flow until it just goes off the peg, and then crank the direct O2 valve back down about 5 degrees. Over.
+CC: Affirmative. You want to go ahead and adjust your O<sub>2</sub> flow until it just goes off the peg, and then crank the direct O<sub>2</sub> valve back down about 5 degrees. Over.
 
 [05:08:06:14]
 CMP: Boy, you were really waiting for that one, weren't you? Okay, Ron. Thank you.
@@ -21591,7 +21591,7 @@ LMP: Okay. Any particular attitude you would like the PGNS in when we do that?
 LMP: No. We're not getting any. Could you give us some course align gimbal angles to move the PGNS to, and then we will align the AGS to the PGNS. Over.
 
 [05:08:30:58]
-CC: Roger. Eagle. We concur. Stand by on the gimbal angles. And also, Eagle, while we've got the command module direct O2 on there, there's a possibility that your cabin relief might relieve if we get up around cabin pressure of about 5.4 or 5.5.
+CC: Roger. Eagle. We concur. Stand by on the gimbal angles. And also, Eagle, while we've got the command module direct O<sub>2</sub> on there, there's a possibility that your cabin relief might relieve if we get up around cabin pressure of about 5.4 or 5.5.
 
 [05:08:31:24]
 LMP: Roger.
@@ -21709,7 +21709,7 @@ CC: Columbia, Houston.
 CMP: Columbia. Go ahead.
 
 [05:08:45:15]
-CC: Roger, Mike. You want to tweak the O2 flow up just a bit there?
+CC: Roger, Mike. You want to tweak the O<sub>2</sub> flow up just a bit there?
 
 [05:08:45:22]
 CMP: Okay. Coming up. Houston, do you have any preferences as to what you want us to do with the probe? Over.
@@ -21818,10 +21818,10 @@ CC: Roger, Eagle. Correction - Roger, Columbia. We copy. You guys are speedy; yo
 CDR: What are they?
 
 [05:09:51:26]
-CC: Oh, it was just - We wanted you to close the CO2 sensor breaker and give us an RCS onboard readout out of Eagle, but that's all. Columbia, Houston. We've got a state vector for you if you'll give us P00 in ACCEPT. Over.
+CC: Oh, it was just - We wanted you to close the CO<sub>2</sub> sensor breaker and give us an RCS onboard readout out of Eagle, but that's all. Columbia, Houston. We've got a state vector for you if you'll give us P00 in ACCEPT. Over.
 
 [05:09:51:54]
-CDR: Buzz says the CO2 sensor circuit breaker is IN
+CDR: Buzz says the CO<sub>2</sub> sensor circuit breaker is IN
 
 [05:09:51:58]
 CC: Roger. Thank you very much.
@@ -21885,7 +21885,7 @@ CMP: Yes, I see. Ron was going to give me a P30 PAD and the flight plan says P47
 CC: Roger. Beautiful. We've got the load. If you'll give us P00 and ACCEPT, we'll send you a load up. Stand by.
 
 [05:09:58:41]
-CC: Columbia, Houston. We'd like you to terminate direct O2 flow, and stand by on your P00 and ACCEPT. We'll have to generate a new load due to the moveup on time. Over.
+CC: Columbia, Houston. We'd like you to terminate direct O<sub>2</sub> flow, and stand by on your P00 and ACCEPT. We'll have to generate a new load due to the moveup on time. Over.
 
 [05:09:58:56]
 CMP: Roger.
@@ -22320,7 +22320,7 @@ CMP: Roger. *** fuel cell purge ...
 CC: Say again. You're breaking up.
 
 [05:13:50:18]
-CMP: Roger. The O2 fuel cell purge is complete.
+CMP: Roger. The O<sub>2</sub> fuel cell purge is complete.
 
 [05:13:50:22]
 CC: Roger. Copy.
@@ -22682,7 +22682,7 @@ _page : 510
 _tape : Tape 88/3
 
 [05:16:54:13]
-CC: Hello, Apollo 11. Houston. We'd like you to turn off O2 tank number 1 heaters. Over.
+CC: Hello, Apollo 11. Houston. We'd like you to turn off O<sub>2</sub> tank number 1 heaters. Over.
 
 [05:16:54:27]
 CMP: It's off. Thank you.
@@ -22986,10 +22986,10 @@ CC: Roger. 88 and 8.5. When you're ready, we've got a small flight plan update f
 LMP: Houston, we're ready to copy.
 
 [06:03:48:16]
-CC: Roger. At about 148 hours, if you've not already done so, a CO2 filter change, and the H2 purge line heater on 20 minutes before the O2 and H2 purge. At 148 hours, we'd like you to initiate a charge on battery Alfa instead of at 151 hours, and leave the charge on until we notify you further. At 150 hours GET, waste water dump to 10 percent. We do plan to burn midcourse correction 5. It will be an RCS burn about 5 feet per second at about the nominal time in the flight plan. Over.
+CC: Roger. At about 148 hours, if you've not already done so, a CO<sub>2</sub> filter change, and the H2 purge line heater on 20 minutes before the O<sub>2</sub> and H2 purge. At 148 hours, we'd like you to initiate a charge on battery Alfa instead of at 151 hours, and leave the charge on until we notify you further. At 150 hours GET, waste water dump to 10 percent. We do plan to burn midcourse correction 5. It will be an RCS burn about 5 feet per second at about the nominal time in the flight plan. Over.
 
 [06:03:49:24]
-LMP: Roger. Understand. We'll be accomplishing the filter change shortly, the purge line heater is on ***, O2 and H2 purge shortly, and at 148 will initiate a charge on battery A until you notify us further. At 150 hours, waste water dump to 10 percent. And we're looking forward to midcourse correction 5 at about 5 feet per second at the nominal time. Over.
+LMP: Roger. Understand. We'll be accomplishing the filter change shortly, the purge line heater is on ***, O<sub>2</sub> and H2 purge shortly, and at 148 will initiate a charge on battery A until you notify us further. At 150 hours, waste water dump to 10 percent. And we're looking forward to midcourse correction 5 at about 5 feet per second at the nominal time. Over.
 
 [06:03:49:52]
 CC: Roger. I've got your consumables update, if you're ready to copy.
@@ -22998,7 +22998,7 @@ CC: Roger. I've got your consumables update, if you're ready to copy.
 LMP: Copy.
 
 [06:03:50:04]
-CC: Okay. At GET of 147 plus 00, RCS total minus 2.0 percent, which is about minus 14 pounds. Alfa minus 12.0, Bravo plus 10.0, minus 3.0, minus 2.0. Hydrogen total minus 1.5 pounds, O2 total plus 20 pounds. Over.
+CC: Okay. At GET of 147 plus 00, RCS total minus 2.0 percent, which is about minus 14 pounds. Alfa minus 12.0, Bravo plus 10.0, minus 3.0, minus 2.0. Hydrogen total minus 1.5 pounds, O<sub>2</sub> total plus 20 pounds. Over.
 
 [06:03:50:50]
 LMP: Roger. I copy, and our onboard readouts: Alfa, *** 2 percent, Bravo 54 percent, Cocoa's 64 percent, Delta 61 percent. Over.
@@ -23198,7 +23198,7 @@ CC: Apollo 11, this is Houston. Over.
 CMP: Roger. Go ahead, Houston.
 
 [06:05:03:20]
-CC: Roger. If Neil has a free minute, we've got a question or two regarding the CO2 partial pressure and water in the suit loop discrepancies noted yesterday. Over.
+CC: Roger. If Neil has a free minute, we've got a question or two regarding the CO<sub>2</sub> partial pressure and water in the suit loop discrepancies noted yesterday. Over.
 
 [06:05:03:33]
 CDR: Go ahead.
@@ -23222,7 +23222,7 @@ CC: Roger. Did you call it to us when you first noticed it, or was it sometime a
 CDR: I'd guess it might have been probably 20 minutes after I noticed it that I mentioned it to you.
 
 [06:05:04:44]
-CC: Roger. Was this noticing the water accompanied by erratic CO2 partial pressure readings, or was that a separate problem? Over.
+CC: Roger. Was this noticing the water accompanied by erratic CO<sub>2</sub> partial pressure readings, or was that a separate problem? Over.
 
 [06:05:04:57]
 CDR: Well, the water problem evidenced itself before we noted any erratic motions of the PC02 gage.
@@ -23230,10 +23230,10 @@ _page : 529
 _tape : Tape 96/4
 
 [06:05:05:06]
-CC: Roger. And what was the relative sequence on selecting water separator number 2 and the secondary CO2 canister; that is, did you go to the secondary water separator first and then the secondary CO2? Over.
+CC: Roger. And what was the relative sequence on selecting water separator number 2 and the secondary CO<sub>2</sub> canister; that is, did you go to the secondary water separator first and then the secondary CO<sub>2</sub>? Over.
 
 [06:05:05:27]
-LMP: I believe we went to secondary CO2 first.
+LMP: I believe we went to secondary CO<sub>2</sub> first.
 
 [06:05:05:33]
 CDR: Secondary hydroxide - lithium hydroxide.
@@ -23260,13 +23260,13 @@ CMP: No. I don't believe we did that at all, Bruce.
 CC: Okay, 11. Thank you. That sums up our questions for now, and we'll crank these back into the engineering pipeline and see what we can come up with.
 
 [06:05:06:51]
-LMP: Okay. Are you satisfied that the CO2 circuit breaker was in on jettison? Over.
+LMP: Okay. Are you satisfied that the CO<sub>2</sub> circuit breaker was in on jettison? Over.
 
 [06:05:07:00]
 CC: Say again, please?
 
 [06:05:07:04]
-LMP: Roger. On LM jettison, are you satisfied that the CO2 circuit breaker was in? Over.
+LMP: Roger. On LM jettison, are you satisfied that the CO<sub>2</sub> circuit breaker was in? Over.
 _page : 530
 _tape : Tape 96/5
 
@@ -24021,7 +24021,7 @@ CC: Roger. We see that. Thank you much, Mike.
 CMP: Houston, Apollo 11. Could you get a little summary of the evening news for us?
 
 [06:12:07:26]
-CC: Yes, sir. We'll have it for you momentarily. Also, a little flight plan update, Mike. If you - On page 3 113, you can delete the O2 fuel cell purge. Over.
+CC: Yes, sir. We'll have it for you momentarily. Also, a little flight plan update, Mike. If you - On page 3 113, you can delete the O<sub>2</sub> fuel cell purge. Over.
 
 [06:12:07:38]
 CMP: Will do.
@@ -24105,7 +24105,7 @@ CMP: Roger. We'll do some work on that and let you know, Charlie.
 CC: Thank you, sir.
 
 [06:12:14:44]
-CC: And, Apollo 11, Houston. Would you please place O2 tank 1 heater to AUTO? Over.
+CC: And, Apollo 11, Houston. Would you please place O<sub>2</sub> tank 1 heater to AUTO? Over.
 
 [06:12:14:55]
 CMP: AUTO it is.
@@ -24321,7 +24321,7 @@ CC: Boy, that's super.
 CMP: The unit's on that furlong per fortnight.
 
 [06:13:59:04]
-CC: Roger. We copy that. EECOMM says if you keep that up, you're going to have to change your CO2 canister.
+CC: Roger. We copy that. EECOMM says if you keep that up, you're going to have to change your CO<sub>2</sub> canister.
 
 [06:13:59:15]
 CMP: You were going to make me do that in another 45 minutes anyway.
@@ -25153,13 +25153,13 @@ CC: Okay. On page 6 1 of the entry out checklist down toward the bottom after "M
 CMP: Okay. We've got 6 1 out. Go ahead.
 
 [07:07:09:00]
-CC: Okay. Down at the bottom, you've got "10,000 feet MAIN PARACHUTE DEPLOY, MAIN DEPLOY pushbutton, PUSH within 1 second." And after that step, we'd like you insert "SURGE TANK O2 valve, OFF; REPRESS PACKAGE valve, OFF; and DIRECT O2 valve, OPEN." Do you copy?
+CC: Okay. Down at the bottom, you've got "10,000 feet MAIN PARACHUTE DEPLOY, MAIN DEPLOY pushbutton, PUSH within 1 second." And after that step, we'd like you insert "SURGE TANK O<sub>2</sub> valve, OFF; REPRESS PACKAGE valve, OFF; and DIRECT O<sub>2</sub> valve, OPEN." Do you copy?
 
 [07:07:09:49]
-CMP: Okay. Down at the bottom, after "MAIN DEPLOY pushbutton, PUSH; SURGE TANK O2, OFF; and REPRESS PACKAGE VALVE, OFF, DIRECT O2, ON" Over.
+CMP: Okay. Down at the bottom, after "MAIN DEPLOY pushbutton, PUSH; SURGE TANK O<sub>2</sub>, OFF; and REPRESS PACKAGE VALVE, OFF, DIRECT O<sub>2</sub>, ON" Over.
 
 [07:07:10:04]
-CC: Roger. And then down at the very botton of page 6 2 where you see "DIRECT O2, OFF VERIFY," delete that step completely. Over.
+CC: Roger. And then down at the very botton of page 6 2 where you see "DIRECT O<sub>2</sub>, OFF VERIFY," delete that step completely. Over.
 _page : 585
 _tape : Tape 113/2
 
@@ -25170,7 +25170,7 @@ CMP: Roger.
 CC: And for record purposes, this will be "Change Lima." Over.
 
 [07:07:10:30]
-CMP: Okay. We've got it. How far open do you want this the DIRECT O2 valve to be opened at this point? I guess you want it - just leave it open from that point on?
+CMP: Okay. We've got it. How far open do you want this the DIRECT O<sub>2</sub> valve to be opened at this point? I guess you want it - just leave it open from that point on?
 
 [07:07:10:46]
 CC: Roger. It should go all the way open, and you can just leave it on from that point on. The intent is to completely depressurize the oxygen manifold. Over.
@@ -25802,7 +25802,7 @@ CC: Apollo 11, Houston. Some of the general last minute updates here. On the ent
 CMP: Roger. Infinity.
 
 [07:13:57:42]
-CC: Hello, Apollo 11. Houston. We're ready to put you to bed and say good night, if you give us your crew status report and verify that you changed out the CO2 canister a moment ago. Over.
+CC: Hello, Apollo 11. Houston. We're ready to put you to bed and say good night, if you give us your crew status report and verify that you changed out the CO<sub>2</sub> canister a moment ago. Over.
 
 [07:13:57:55]
 CDR: Stand by.
