@@ -46,6 +46,10 @@ class TranscriptIndexer(object):
             # search_by_default=False,
             # allow_field_specific=False,
         )
+        search_db.add_field_action(
+            "transcript",
+            xappy.FieldActions.INDEX_EXACT,
+        )
         # don't think we need STORE_CONTENT actions any more
         search_db.add_field_action(
             "speaker",
@@ -107,6 +111,7 @@ class TranscriptIndexer(object):
         doc = xappy.UnprocessedDocument()
         doc.fields.append(xappy.Field("mission", mission))
         doc.fields.append(xappy.Field("weight", weight))
+        doc.fields.append(xappy.Field("transcript", self.transcript_name))
         for line in lines:
             text = re.sub(
                 r"\[\w+:([^]]+)\|([^]]+)\]",

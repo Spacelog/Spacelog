@@ -56,7 +56,10 @@ class SearchView(TemplateView):
         )
         query=db.query_filter(
             query,
-            db.query_field("mission", self.request.mission.name),
+            db.query_composite(db.OP_AND, [
+                db.query_field("mission", self.request.mission.name),
+                db.query_field("transcript", "%s/TEC" % self.request.mission.name),
+            ])
         )
         results = db.search(
             query=query,
