@@ -113,11 +113,7 @@
         "RONALD_EVANS",
         "OWEN_GARRIOTT",
         "BRUCE_MCCANDLESS",
-        "JIM_LOVELL",
-        "WILLIAM_ANDERS",
-        "FRED_HAISE",
-        "BILL_POGUE",
-        "JACK_SWIGERT"
+        "CHUCK_LEWIS"
     ],
     "characters": {
         "CC": {
@@ -296,7 +292,9 @@
           "name": "Charlie Duke",
           "short_name": "Charlie Duke (CAPCOM)",
           "mission_position": "CAPCOM",
+          "bio": "An interceptor pilot before joining the NASA astronaut program in 1966, Charlie Duke was CAPCOM for Apollo 10's lunar landing rehearsal, and then Apollo 11's most famous moment. He went on to serve as backup Lunar Module Pilot for Apollo 13, and was later prime LMP for Apollo 16, with a record lunar stay of 71 hours 41 minutes along with commander John Young.",
           "avatar": "charlie_duke.png",
+          "photo": "charlie_duke.jpg",
           "photo_width": 190,
           "photo_height": 155
         },
@@ -306,7 +304,8 @@
           "short_name": "Ronald Evans (CAPCOM)",
           "mission_position": "CAPCOM",
           "photo_width": 190,
-          "photo_height": 155
+          "photo_height": 155,
+          "bio": "Having served on the support crew of Apollo 7, and as a CAPCOM for Apollo 11, Ronald Evans would go on to be backup CMP for Apollo 14 before flying on Apollo 17, the last manned mission to the moon in the Apollo program, and subsequently working on both the Apollo-Soyuz Test Project and the Shuttle flight program."
         },
         "OWEN_GARRIOTT": {
           "role": "mission-ops",
@@ -314,50 +313,30 @@
           "short_name": "Owen Garriott (CAPCOM)",
           "mission_position": "CAPCOM",
           "photo_width": 190,
-          "photo_height": 155
+          "photo_height": 155,
+          "bio": "One of NASA's first scientist-astronauts, Owen Garriott would go on to fly on Skylab 3, setting a new world record for space flight duration; and on Spacelab-1 aboard Shuttle mission STS-9. He went on to play a substantial role in the development of the US Laboratory for the International Space Station."
         },
         "BRUCE_MCCANDLESS": {
           "role": "mission-ops",
           "name": "Bruce McCandless II",
-          "short_name": "Bruce McCandless II (CAPCOM)",
+          "short_name": "Bruce McCandless (CAPCOM)",
           "mission_position": "CAPCOM",
           "photo_width": 190,
-          "photo_height": 155
+          "photo_height": 155,
+          "bio": "A former fighter pilot and flight instructor in the US Navy, Bruce McCandless II went on to be backup pilot on the first manned Skylab mission, and later served on two Shuttle mission crews, including STS-41-B where he made the first untethered free flight, using the Manned Maneuvering Unit which he helped develop."
         },
-        "JIM_LOVELL": {
-          "role": "mission-ops",
-          "name": "James A. Lovell, Jr",
-          "short_name": "Jim Lovell",
-          "mission_position": "Backup crew"
-        },
-        "WILLIAM_ANDERS": {
-          "role": "mission-ops",
-          "name": "William A. Anders",
-          "short_name": "William Anders",
-          "mission_position": "Backup crew"
-        },
-        "FRED_HAISE": {
-          "role": "mission-ops",
-          "name": "Fred W. Haise, Jr",
-          "short_name": "Fred Haise",
-          "mission_position": "Backup crew"
-        },
-        "BILL_POGUE": {
-          "role": "mission-ops",
-          "name": "Bill Pogue",
-          "short_name": "Bill Pogue",
-          "mission_position": "Support"
-        },
-        "JACK_SWIGERT": {
-          "role": "mission-ops",
-          "name": "Jack Swigert",
-          "short_name": "Jack Swigert",
-          "mission_position": "Support"
+        "CHUCK_LEWIS": {
+          "role": "flight",
+          "name": "Chuck Lewis",
+          "short_name": "Chuck Lewis",
+          "mission_position": "Assistant Flight Director",
+          "avatar": "F_48.png"
         },
         "PRESIDENT NIXON": {
           "role": "other",
           "name": "President Nixon",
           "short_name": "President Nixon",
+          "bio": "Richard Nixon is not a crook.",
           "avatar": "nixon.png"
         },
         "N": {
