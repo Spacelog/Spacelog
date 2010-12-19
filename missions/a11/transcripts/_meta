@@ -87,7 +87,7 @@
             "homepage": "act8.jpg"
         },
         {
-            "title": "Re-entry",
+            "title": "Splashdown",
             "description": "Before entering the Earth’s atmosphere, the crew moved back into Columbia, the heat-resistant Command Module, jettisoned the Service Module, and then splashdowned safely in the Pacific Ocean. The crew then went into quarantine for three weeks, in case they had an alien disease.",
             "range": ["07:21:28:35", "08:03:18:19"],
             "banner": "act9.jpg",
@@ -105,7 +105,9 @@
     "homepage_quotes" : [
         "04:13:24:48",
         "04:06:46:04",
-        "04:06:46:06"
+        "04:06:46:06",
+        "04:06:57:04",
+        "04:07:05:32"
     ],
     "character_ordering": [
         "CC",
@@ -131,6 +133,10 @@
                 ["CHARLIE_DUKE", "00:06:09:17"],
                 ["RONALD_EVANS", "00:14:25:00", "From PAO, shift change in progress. Ronald Evans doesn't say anything"],
                 ["BRUCE_MCCANDLESS", "00:22:50:15"],
+                ["JIM_LOVELL", "01:01:11:14", "Self-identified in 01:01:11:39"],
+                ["BRUCE_MCCANDLESS", "01:01:13:36", "Previous conversation ends"],
+                ["JIM_LOVELL", "01:03:14:55", "Conversation continues until identification at 01:03:17:09"],
+                ["BRUCE_MCCANDLESS", "01:03:35:59", "Due to pause here, assuming pass back to McCandless"],
                 ["CHARLIE_DUKE", "01:06:51:14"],
                 ["RONALD_EVANS", "01:14:26:00", "From PAO. Again, he says nothing - see comment by McCandless at 02:00:10:56 :)"],
                 ["BRUCE_MCCANDLESS", "01:22:58:00", "From PAO"],
@@ -150,7 +156,11 @@
                 ["BRUCE_MCCANDLESS", "04:10:39:19", "Reference to Bruce, though I think he's been there since start of EVA at 04:10:11:12"],
                 ["OWEN_GARRIOTT", "04:18:33:52"],
                 ["RONALD_EVANS", "05:00:59:04", "From subsequent line"],
+                ["JIM_LOVELL", "05:03:07:52", "From subsequent line"],
+                ["RONALD_EVANS", "05:03:12:55", "Hands it back to Ronald"],
                 ["CHARLIE_DUKE", "05:09:13:00", "From PAO, shift change"],
+                ["DEKE_SLAYTON", "05:16:52:45", "Identifies as 'the original capcom', confirmed in Deke's auto-biog"],
+                ["CHARLIE_DUKE", "05:16:54:13", "Flips back to Duke"],
                 ["OWEN_GARRIOTT", "05:18:01:52", "From Charlie at 05:17:47:18 and PAO"],
                 ["BRUCE_MCCANDLESS", "06:02:02:00", "From PAO, shift change"],
                 ["CHARLIE_DUKE", "06:09:45:42"],
@@ -159,7 +169,9 @@
                 ["BRUCE_MCCANDLESS", "07:06:26:30"],
                 ["CHUCK_LEWIS", "07:13:26:55", "Following conversation makes it clear"],
                 ["CHARLIE_DUKE", "07:13:35:55"],
-                ["RONALD_EVANS", "07:20:28:00", "From PAO and name used at 07:22:22:28"]
+                ["RONALD_EVANS", "07:20:28:00", "From PAO and name used at 07:22:22:28"],
+                ["JIM_LOVELL", "08:01:02:32", "Self-indentified"],
+                ["RONALD_EVANS", "08:01:03:12", "Seems to be a continuing conversation"]
             ]
         },
 
@@ -306,6 +318,7 @@
           "mission_position": "CAPCOM",
           "photo_width": 190,
           "photo_height": 155,
+          "photo": "evans.jpg",
           "bio": "Having served on the support crew of Apollo 7, and as a CAPCOM for Apollo 11, Ronald Evans would go on to be backup CMP for Apollo 14 before flying on Apollo 17, the last manned mission to the moon in the Apollo program, and subsequently working on both the Apollo-Soyuz Test Project and the Shuttle flight program.",
           "avatar": "evans.jpg"        
         },
@@ -316,6 +329,7 @@
           "mission_position": "CAPCOM",
           "photo_width": 190,
           "photo_height": 155,
+          "photo": "garriott.jpg",
           "bio": "One of NASA's first scientist-astronauts, Owen Garriott would go on to fly on Skylab 3, setting a new world record for space flight duration; and on Spacelab-1 aboard Shuttle mission STS-9. He went on to play a substantial role in the development of the US Laboratory for the International Space Station.",
           "avatar": "garriott.jpg"
         },
@@ -327,27 +341,29 @@
           "photo_width": 190,
           "photo_height": 155,
           "bio": "A former fighter pilot and flight instructor in the US Navy, Bruce McCandless II went on to be backup pilot on the first manned Skylab mission, and later served on two Shuttle mission crews, including STS-41-B where he made the first untethered free flight, using the Manned Maneuvering Unit which he helped develop.",
-          "avatar": "mccandless.jpg"
+          "avatar": "mccandless.jpg",
+          "photo": "mccandless.jpg"
         },
         "JIM_LOVELL": {
           "role": "mission-ops",
           "name": "James A. Lovell, Jr",
           "short_name": "Jim Lovell",
-          "mission_position": "Backup crew",
-          "avatar": "lovell.jpg"
+          "mission_position": "Backup commander",
+          "avatar": "lovell.jpg",
+          "photo_width": 190,
+          "photo_height": 155,
+          "bio":"Having joined along with Neil Armstrong, Jim Lovell was already one of NASA's most experienced astronauts, having flown on Geminis 7 and 12, the latter with Buzz Aldrin. In the Apollo program, he was Command Module Pilot of Apollo 8 which performed the first lunar orbit, and would go on to be commander of the ill-fated Apollo 13."
         },
-        "WILLIAM_ANDERS": {
+        "DEKE_SLAYTON": {
           "role": "mission-ops",
-          "name": "William A. Anders",
-          "short_name": "William Anders",
-          "mission_position": "Backup crew"
-        },
-        "FRED_HAISE": {
-          "role": "mission-ops",
-          "name": "Fred W. Haise, Jr",
-          "short_name": "Fred Haise",
-          "mission_position": "Backup crew",
-          "avatar": "haise.jpg"
+          "name": "Donald Kent (Deke) Slayton",
+          "short_name": "Deke Slayton",
+          "mission_position": "Director of Flight Crew Operations",
+          "bio": "A member of the first NASA group of astronauts, assembled in 1959 for the Mercury Program, Slayton didn't fly until the Apollo-Soyuz Test Project in 1975 (at which time he was the oldest person to fly in space). From 1963 until 1972 he served as Director of Flight Crew Operations, and after Apollo-Soyuz was Head of the Shuttle Approach & Landing Tests Program.",
+          "photo": "deke_slayton.jpg",
+          "photo_width": 190,
+          "photo_height": 155,
+          "avatar": "deke_slayton.jpg"
         },
         "CHUCK_LEWIS": {
           "role": "flight",
