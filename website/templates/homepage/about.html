@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load missiontime %}
+{% load nbspify %}
 
 {% block title %}About this site{% endblock %}
 {% block body-class %}about-section{% endblock %}
@@ -50,18 +51,18 @@ Each line starts with a timestamp, in Ground Elapsed Time, which is the time (in
       </ul>
       <h3>Development</h3>
       <ul>
-        <li><a href='http://rnalexander.wordpress.com/'>Ryan Alexander</a></li><!-- FLIGHT
-         --><li><a href='http://tartarus.org/james/'>James Aylett</a></li><!-- CAPCOM
-         --><li><a href='http://georgebrock.com/'>George Brocklehurst</a></li><!-- Engineering
-         --><li><a href='http://www.absd.org/'>David Brownlee</a></li><!-- Guidance
-         --><li><a href='http://benfirshman.com/'>Ben Firshman</a></li><!-- FLIGHT
-         --><li><a href='http://marknormanfrancis.com/'>Mark Norman Francis</a></li><!-- Mission Director
-         --><li><a href='http://www.aeracode.org/'>Andrew Godwin</a></li><!-- Engineering
-          --><li><a href='http://nascentguruism.com/'>Steve Marshall</a></li><!-- FLIGHT -->
+        <li><a href='http://rnalexander.wordpress.com/'>Ryan&nbsp;Alexander</a></li><!-- FLIGHT
+         --><li><a href='http://tartarus.org/james/'>James&nbsp;Aylett</a></li><!-- CAPCOM
+         --><li><a href='http://georgebrock.com/'>George&nbsp;Brocklehurst</a></li><!-- Engineering
+         --><li><a href='http://www.absd.org/'>David&nbsp;Brownlee</a></li><!-- Guidance
+         --><li><a href='http://benfirshman.com/'>Ben&nbsp;Firshman</a></li><!-- FLIGHT
+         --><li><a href='http://marknormanfrancis.com/'>Mark&nbsp;Norman&nbsp;Francis</a></li><!-- Mission Director
+         --><li><a href='http://www.aeracode.org/'>Andrew&nbsp;Godwin</a></li><!-- Engineering
+          --><li><a href='http://nascentguruism.com/'>Steve&nbsp;Marshall</a></li><!-- FLIGHT -->
       </ul>
       <h3>Data cleanup</h3>
       <ul>
-        {% for leon in mission.copy.cleaners %}<li>{{ leon }}</li>{% endfor %}
+        {% for leon in mission.copy.cleaners %}<li>{{ leon|nbspify }}</li>{% endfor %}
       </ul>
       <p>A <a href='http://devfort.com/'>/dev/fort</a> production; our work is available under the <a href='http://creativecommons.org/publicdomain/zero/1.0/'>CC-0</a> licence.</p>
     </div>
