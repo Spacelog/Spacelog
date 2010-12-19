@@ -98,9 +98,26 @@
     ],
     "key_scenes" : [
       {
-        "title": "The Eagle touches down on the lunar surface.",
+        "title": "The Eagle touches down on the lunar surface",
         "range": [ "04:06:45:40", "04:06:46:06" ]
-      }
+      },
+      {
+        "title": "One small step",
+        "range": [ "04:13:23:38", "04:13:24:48" ]
+      },
+      {
+        "title": "President Nixon speaks to Neil and Buzz on the Moon",
+        "range": [ "04:14:16:09", "04:14:18:21" ]
+      },
+      {
+        "title": "The Eagle lifts off from the Moon",
+        "range": [ "05:04:20:58", "05:04:29:17" ]
+      },
+      {
+        "title": "Eagle meets up with Columbia in lunar orbit",
+        "range": [ "05:07:57:34", "05:08:03:30" ]
+      },
+
     ],
     "homepage_quotes" : [
         "04:13:24:48",
