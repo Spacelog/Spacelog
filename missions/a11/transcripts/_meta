@@ -44,7 +44,7 @@
         {
             "title": "To the Moon",
             "description": "The third Saturn V stage was jettisoned, Columbia docked with the lunar module, and the crew spent three days travelling to the Moon.",
-            "range": ["00:02:54:09", "03:04:15:46"],
+            "range": ["00:02:54:09", "03:04:15:47"],
             "banner": "act3.jpg",
             "orbital": "act3.png",
             "homepage": "act3.jpg"
@@ -104,7 +104,8 @@
     ],
     "homepage_quotes" : [
         "04:13:24:48",
-        "04:06:46:04"
+        "04:06:46:04",
+        "04:06:46:06"
     ],
     "character_ordering": [
         "CC",
@@ -181,7 +182,7 @@
           "photo": "neil_armstrong.jpg",
           "photo_width": 162,
           "photo_height": 205,
-          "avatar": "neil_armstrong.png",
+          "avatar": "armstrong.jpg",
           "stats": [
             {
                 "value": 206,
@@ -223,7 +224,7 @@
           "photo": "buzz_aldrin.jpg",
           "photo_width": 163,
           "photo_height": 205,
-          "avatar": "buzz_aldrin.png",
+          "avatar": "aldrin.jpg",
           "stats": [
             {
                 "value": 290,
@@ -265,7 +266,7 @@
           "photo": "michael_collins.jpg",
           "photo_width": 159,
           "photo_height": 205,
-          "avatar": "michael_collins.png",
+          "avatar": "collins.jpg",
           "stats": [
             {
                 "value": 266,
@@ -305,7 +306,8 @@
           "mission_position": "CAPCOM",
           "photo_width": 190,
           "photo_height": 155,
-          "bio": "Having served on the support crew of Apollo 7, and as a CAPCOM for Apollo 11, Ronald Evans would go on to be backup CMP for Apollo 14 before flying on Apollo 17, the last manned mission to the moon in the Apollo program, and subsequently working on both the Apollo-Soyuz Test Project and the Shuttle flight program."
+          "bio": "Having served on the support crew of Apollo 7, and as a CAPCOM for Apollo 11, Ronald Evans would go on to be backup CMP for Apollo 14 before flying on Apollo 17, the last manned mission to the moon in the Apollo program, and subsequently working on both the Apollo-Soyuz Test Project and the Shuttle flight program.",
+          "avatar": "evans.jpg"        
         },
         "OWEN_GARRIOTT": {
           "role": "mission-ops",
@@ -314,7 +316,8 @@
           "mission_position": "CAPCOM",
           "photo_width": 190,
           "photo_height": 155,
-          "bio": "One of NASA's first scientist-astronauts, Owen Garriott would go on to fly on Skylab 3, setting a new world record for space flight duration; and on Spacelab-1 aboard Shuttle mission STS-9. He went on to play a substantial role in the development of the US Laboratory for the International Space Station."
+          "bio": "One of NASA's first scientist-astronauts, Owen Garriott would go on to fly on Skylab 3, setting a new world record for space flight duration; and on Spacelab-1 aboard Shuttle mission STS-9. He went on to play a substantial role in the development of the US Laboratory for the International Space Station.",
+          "avatar": "garriott.jpg"
         },
         "BRUCE_MCCANDLESS": {
           "role": "mission-ops",
@@ -323,7 +326,28 @@
           "mission_position": "CAPCOM",
           "photo_width": 190,
           "photo_height": 155,
-          "bio": "A former fighter pilot and flight instructor in the US Navy, Bruce McCandless II went on to be backup pilot on the first manned Skylab mission, and later served on two Shuttle mission crews, including STS-41-B where he made the first untethered free flight, using the Manned Maneuvering Unit which he helped develop."
+          "bio": "A former fighter pilot and flight instructor in the US Navy, Bruce McCandless II went on to be backup pilot on the first manned Skylab mission, and later served on two Shuttle mission crews, including STS-41-B where he made the first untethered free flight, using the Manned Maneuvering Unit which he helped develop.",
+          "avatar": "mccandless.jpg"
+        },
+        "JIM_LOVELL": {
+          "role": "mission-ops",
+          "name": "James A. Lovell, Jr",
+          "short_name": "Jim Lovell",
+          "mission_position": "Backup crew",
+          "avatar": "lovell.jpg"
+        },
+        "WILLIAM_ANDERS": {
+          "role": "mission-ops",
+          "name": "William A. Anders",
+          "short_name": "William Anders",
+          "mission_position": "Backup crew"
+        },
+        "FRED_HAISE": {
+          "role": "mission-ops",
+          "name": "Fred W. Haise, Jr",
+          "short_name": "Fred Haise",
+          "mission_position": "Backup crew",
+          "avatar": "haise.jpg"
         },
         "CHUCK_LEWIS": {
           "role": "flight",
