@@ -109,3 +109,31 @@ Page 2
 04 18 19 26 CC We would like to look at a couple more DELTA-V
 tests on the EMS, and the general consensus is that we don't think there is any particular problem.
 
+Tape 75 
+Page 3 
+We'd like to go ahead and take a look at what 
+you get by running four or five more DELTA-V tests. 
+And prior to that, we'd ‘like to run one of these 
+null bias tests; and since we don't have any way 
+of monitoring any of this stuff on the downlink, 
+I'd like to have you tell us each step when you 
+turn the switch and different orders and things 
+like that. 
+04 18 20 08 CDR Okay. 
+04 18 20 41 CDR Alright. I'll run a test. 
+04 18 20 48 CC Okay. The first thing we want is this null bias, 
+100 seconds. 
+04 18 20 CDR You stand by, and I'll do a null bias for 100 seconds. 
+Do you want me to put DELTA-V in AUTOMATIC and let 
+it alone for 100 seconds?
+04 18 21 02 CC That is affirmed. 
+04 18 21 22 CDR Going to DELTA-V; going to AUTO - 
+04 18 21 25 CDR Now.
+04 18 21 27 CC Roger. 
+04 18 21 45 CDR Went to one-tenth and back to zero. 
+04 18 21 50 CC Understand; plus one-tenth and back to zero. 
+04 18 21 56 CDR One-tenth, now it's a minus one-tenth and back to 
+zero; no, it'snot zero yet; wait a minute. 
+04 18 22 29 CDR Now it's up some, minus 4; 0.4, that is. 
+CC Roger. 
+CDR Minus 25.
