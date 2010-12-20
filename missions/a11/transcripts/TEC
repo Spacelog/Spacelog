@@ -3432,7 +3432,7 @@ LMP: Houston, Apollo 11. How do you read me now on OMNI A?
 CC: Roger. Loud and clear, 11.
 
 [01:02:12:26]
-LMP: Okay. We'll stay on 0MNI A for a while, then.
+LMP: Okay. We'll stay on OMNI A for a while, then.
 
 [01:02:12:30]
 CC: Okay. I got all your readback except the value for trunnion. If it's 242, confirm, please.
@@ -3626,7 +3626,7 @@ CMP: It'll be a while, Bruce. We're just now arriving in PTC attitude, and we're
 CC: Roger. We copy. He'll be here.
 
 [01:03:13:03]
-CMP: Houston, Apollo 11. Are you going to take control of the 0MNI's now and switch us between B and D?
+CMP: Houston, Apollo 11. Are you going to take control of the OMNI's now and switch us between B and D?
 _page : 83
 _tape : Tape 18/4
 
@@ -3676,7 +3676,7 @@ CC: I understand, I had trouble on 12 with him, too.
 LMP: Say again what you'd like.
 
 [01:03:15:44]
-CC: Okay, The S-band antenna OMNI A switch to Bravo which you have now, and S-band antenna OMNI to the 0MNI position, and the high-gain track to the MANUAL position, and the pitch and yaw angles are minus 50 for pitch and yaw is 270.
+CC: Okay, The S-band antenna OMNI A switch to Bravo which you have now, and S-band antenna OMNI to the OMNI position, and the high-gain track to the MANUAL position, and the pitch and yaw angles are minus 50 for pitch and yaw is 270.
 
 [01:03:16:10]
 LMP: Minus 50 and 270.
@@ -4391,7 +4391,7 @@ LMP: Okay. Understand. It's not our monitor. It must be the transmitter or the s
 CC: Roger. I guess so, Buzz. We'll have them look into it, and see if they can suggest anything.
 
 [01:07:05:12]
-CC: Hello, Apollo 11. Houston. We've lost our command interface with Goldstone. We'd like you to switch to 0MNI Delta. Over.
+CC: Hello, Apollo 11. Houston. We've lost our command interface with Goldstone. We'd like you to switch to OMNI Delta. Over.
 
 [01:07:05:24]
 LMP: Roger. Going to Delta.
@@ -4432,7 +4432,7 @@ CC: Roger. Affirmative. Everything's looking really good to us. Over.
 CMP: Okay. Same here.
 
 [01:07:14:23]
-CMP: Charlie, how far out can you pick up TV off the 0MNI?
+CMP: Charlie, how far out can you pick up TV off the OMNI?
 
 [01:07:14:27]
 CC: Stand by.
@@ -5632,7 +5632,7 @@ _tape : Tape 23/9
 CC: Hello, Apollo 11. Houston. How do you read now? Over.
 
 [01:12:04:07]
-LMP: Roger. I'm reading you loud and clear. I'm not sure I got all those. I've got S-band OMNI B, 0MNI, track to MANUAL, and beam wide, pitch - you'd better say that again, and yaw 270. Over.
+LMP: Roger. I'm reading you loud and clear. I'm not sure I got all those. I've got S-band OMNI B, OMNI, track to MANUAL, and beam wide, pitch - you'd better say that again, and yaw 270. Over.
 
 [01:12:04:26]
 CC: Roger, Buzz. I broke up at pitch minus 50 at beam wide. Over.
@@ -6372,7 +6372,7 @@ CC: 11, how do you read me? Over.
 CMP: Read you loud and clear, Charlie. We just switched to HIGH GAIN, and we stopped PTC at roll 263, pitch 90, yaw 0. How do you read?
 
 [02:06:52:03]
-CC: Roger, Mike. You're five-by now on the high gain. We're right between the 0MNI antennas and pretty horrible COMM on the OMNI's. We got you five-by on the high gain, and we copy the PTC stoppage. Over.
+CC: Roger, Mike. You're five-by now on the high gain. We're right between the OMNI antennas and pretty horrible COMM on the OMNI's. We got you five-by on the high gain, and we copy the PTC stoppage. Over.
 
 [02:06:52:18]
 CMP: Okay, fine.
@@ -7794,10 +7794,10 @@ CC: Hello, Apollo 11. Houston. We've got some switch positions for you for the h
 LMP: Okay. Go ahead.
 
 [02:10:19:35]
-CC: Roger, Buzz. Select Bravo, 0MNI, HIGH-GAIN TRACK to MANUAL; BEAM, WIDE. Over.
+CC: Roger, Buzz. Select Bravo, OMNI, HIGH-GAIN TRACK to MANUAL; BEAM, WIDE. Over.
 
 [02:10:19:48]
-LMP: Okay. Bravo, 0MNI; TRACK, MANUAL; and BEAM, WIDE.
+LMP: Okay. Bravo, OMNI; TRACK, MANUAL; and BEAM, WIDE.
 
 [02:10:19:53]
 CC: Roger. And your high-gain angles are minus 50 on the pitch, 270 on the yaw. Over.
@@ -8396,7 +8396,7 @@ _page : 198
 _tape : Tape 46/3
 
 [02:23:15:24]
-CC: 11, this is tlouston. Affirmative. Over.
+CC: 11, this is Houston. Affirmative. Over.
 
 [02:23:15:31]
 CMP: Okay.
@@ -8585,7 +8585,7 @@ CC: Apollo 11, this is Houston. How do you read? Over.
 CDR: Okay. We went to HIGH GAIN. Looks like you had a little trouble getting signal strength there.
 
 [03:00:14:49]
-CC: Roger. We missed an 0MNI switch there. Over.
+CC: Roger. We missed an OMNI switch there. Over.
 
 [03:00:14:55]
 CDR: All right. On the secondary loop check when we went to FLOW on the secondary radiators, the quantity dropped from 40 percent down to 36 in the first 10 seconds and then stabilized at 36 for the remainder of the 30 seconds.
@@ -8669,7 +8669,7 @@ CC: Apollo 11, this is Houston. Over.
 CDR: Go ahead.
 
 [03:00:27:25]
-CC: Roger. We'd like you to switch to 0MNI Delta as we show you approximately at the scan limit of the high gain antenna. Now we will then command 0MNI Delta down here after you advise us you've switched, and then you can select Bravo on board and we will be back in the OMNI antenna commanding business. Over.
+CC: Roger. We'd like you to switch to OMNI Delta as we show you approximately at the scan limit of the high gain antenna. Now we will then command OMNI Delta down here after you advise us you've switched, and then you can select Bravo on board and we will be back in the OMNI antenna commanding business. Over.
 
 [03:00:27:46]
 CDR: Okay. We're going to Delta now.
@@ -8741,7 +8741,7 @@ CC: In the American League, Detroit beat Cleveland 4 to nothing; New York trounc
 CC: Okay. In golf world, Tommy Jacobs, an infrequent competitor in recent years, took the lead in the Philadelphia Golf Classic yesterday. His second round score was 139.
 
 [03:00:34:02]
-CC: You might be interested in knowing, since you are already on the way, that a Houston astrologer, Ruby Graham, says that all the signs are right for your trip to the Moon. She says that Neil is clever, Mike has good judgment, and Buzz can work out intricate problems. She also says Neil tends to see the world through rose colored glasses, but he is always ready to help the afflicted or distressed. Neil, you are also suppose to have "intuition that enables you to interpret life with feeling." Buzz is to be very sociable and cannot bear to be alone in addition to having excellent critical ability. Since she didn't know at what hour Mike was born, she has decided that he either has the same attributes as Neil or he is inventive with an unconventional attitude that might seem eccentric to the unimaginative.
+CC: You might be interested in knowing, since you are already on the way, that a Houston astrologer, Ruby Graham, says that all the signs are right for your trip to the Moon. She says that Neil is clever, Mike has good judgment, and Buzz can work out intricate problems. She also says Neil tends to see the world through rose colored glasses, but he is always ready to help the afflicted or distressed. Neil, you are also supposed to have "intuition that enables you to interpret life with feeling." Buzz is to be very sociable and cannot bear to be alone in addition to having excellent critical ability. Since she didn't know at what hour Mike was born, she has decided that he either has the same attributes as Neil or he is inventive with an unconventional attitude that might seem eccentric to the unimaginative.
 
 [03:00:34:56]
 CC: And last but not - -
@@ -8944,7 +8944,7 @@ CC: Say again, 11.
 CDR: One of these days, we could bring the whole MOCH along, and then that'll save a lot of antenna switching.
 
 [03:01:18:34]
-CC: That's Jolly.
+CC: That's jolly.
 
 [03:01:20:21]
 CC: Apollo 11, this is Houston. Over.
@@ -9080,7 +9080,7 @@ CDR: Houston, Apollo 11.
 CC: Go ahead, 11.
 
 [03:02:35:20]
-CDR: Apparently this is not a very good 0MNI attitude for you. We're ready to start our PTC check.
+CDR: Apparently this is not a very good OMNI attitude for you. We're ready to start our PTC check.
 
 [03:02:35:52]
 CC: 11, this is Houston. We're ready, except that we'd like to get the high gain antenna prior to this test. Over.
@@ -9468,7 +9468,7 @@ CC: Roger. You'll be crossing 45 west at 77 04 10 or about 40 seconds from now. 
 LMP: Okay.
 
 [03:05:04:50]
-CC: Apollo 11, when we lose the S-band, we'd like to get 0MNI Charlie from you. And update my last, that 77 04 was the time when Aristarchus should become visible over your horizon. 77 12 is point of closest approach south of it. Over.
+CC: Apollo 11, when we lose the S-band, we'd like to get OMNI Charlie from you. And update my last, that 77 04 was the time when Aristarchus should become visible over your horizon. 77 12 is point of closest approach south of it. Over.
 
 
 [03:05:05:14]
@@ -12006,7 +12006,7 @@ CMP: Thank you.
 CC: Eagle, Houston. We'd like you to go to the OMNI antenna, and next AOS, we'd like you to be in forward. Over.
 
 [04:01:30:06]
-LMP: Roger. Going to - which 0MNI do you want now, aft?
+LMP: Roger. Going to - which OMNI do you want now, aft?
 
 [04:01:30:20]
 CC: Eagle, Houston. We'd like aft now and forward at AOS. Over.
@@ -12035,7 +12035,7 @@ CC: Columbia, Houston. Over.
 CC: Eagle, Houston. No voice. Will you verify forward OMNI? Over.
 
 [04:02:21:58]
-CC: Columbia, Houston. We have no voice with Eagle. Would you please verify that Eagle is on forward 0MNI. Over.
+CC: Columbia, Houston. We have no voice with Eagle. Would you please verify that Eagle is on forward OMNI. Over.
 
 [04:02:22:36]
 CC: Columbia, Houston. Over.
@@ -13053,7 +13053,7 @@ _tape : Tape 65/7
 CMP (COLUMBIA): Roger.
 
 [04:05:14:09]
-CC: Columbia, Houston. We've lost data with Eagle. Will you please have him select aft 0MNI? Over.
+CC: Columbia, Houston. We've lost data with Eagle. Will you please have him select aft OMNI? Over.
 
 [04:05:14:22]
 CMP (COLUMBIA): Eagle, this is Columbia. Houston would like you to select aft OMNI.
@@ -14551,7 +14551,7 @@ CC: Columbia, Houston. We're reading you about three by. Over.
 CMP (COLUMBIA): Roger. I'm on OMNI Charlie. How's it going?
 
 [04:08:15:13]
-CC: Roger. Understand. 0MNI Charlie. Mike, be advised we have an update for you on the P22 for the LM. We estimate he landed about 4 miles downrange. Your T1 times are updated and your T2, if you're ready to copy. Over.
+CC: Roger. Understand. OMNI Charlie. Mike, be advised we have an update for you on the P22 for the LM. We estimate he landed about 4 miles downrange. Your T1 times are updated and your T2, if you're ready to copy. Over.
 
 [04:08:15:33]
 CMP (COLUMBIA): Ready to copy.
@@ -15180,10 +15180,10 @@ _page : 346
 _tape : Tape 69/3
 
 [04:10:50:46]
-CC: Roger. Reading you loud with background noise. Understand that's 0MNI Delta or 0MNI Bravo? Over.
+CC: Roger. Reading you loud with background noise. Understand that's OMNI Delta or OMNI Bravo? Over.
 
 [04:10:50:56]
-CMP (COLUMBIA): 0MNI Delta and you were cut out. I never got your coordinates on estimated LM position. Over.
+CMP (COLUMBIA): OMNI Delta and you were cut out. I never got your coordinates on estimated LM position. Over.
 
 [04:10:51:04]
 CC: Columbia, this is Houston. Estimated LM position is latitude plus 0.799, longitude over 2 plus 11.730. On your chart we would place it - Stand by on the charts and readback on the latitude and longitude.
@@ -16115,7 +16115,7 @@ LMP (TRANQ): I'll fix the gloves. Locked.
 CC: Columbia, this is Houston. Do you read? Over.
 
 [04:12:44:21]
-CMP (COLUMBIA): Columbia reads you loud and clear on 0MNI C - Charlie.
+CMP (COLUMBIA): Columbia reads you loud and clear on OMNI C - Charlie.
 
 [04:12:44:25]
 CC: Roger. Columbia, I have LOS and AOS times for you this pass with MSFN. LOS 109 plus 21 plus 12. A0S coming around on the corner 110 07 35. Over.
@@ -16474,7 +16474,7 @@ LMP (TRANQ): Yes.
 CC: Columbia, this is Houston. We show you nearing high gain antenna scan limits. When you lose lock on us, we request OMNI Delta. OMNI Delta when you lose lock. Over.
 
 [04:13:12:52]
-CMP (COLUMBIA): Roger. 0MNI Delta.
+CMP (COLUMBIA): Roger. OMNI Delta.
 
 [04:13:13:22]
 CDR (TRANQ): Okay. My window's cleared. I'm going to go to turn my cooling up a little bit.
@@ -20142,7 +20142,7 @@ CC: Tranquility Base, Houston. Recommend 334, and that should just keep it out o
 LMP (TRANQ): Okay.
 
 [05:03:55:19]
-CMP (COLUMBIA): Houston, Columbia on 0MNI D Delta. Over.
+CMP (COLUMBIA): Houston, Columbia on OMNI D Delta. Over.
 
 [05:03:55:23]
 CC: Columbia, Houston. Roger. Loud and clear. And if you would like to take it down, we have the latest position of Tranquility Base. Over.
@@ -23552,7 +23552,7 @@ _tape : Tape 98/2
 CC: Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read, attempt acquisition on an OMNI antenna. Attempt acquisition using an OMNI antenna. Over.
 
 [06:08:20:14]
-CC: Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read, attempt contact using OMNI antenna, using an 0MNI antenna. This is Houston. Out.
+CC: Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read, attempt contact using OMNI antenna, using an OMNI antenna. This is Houston. Out.
 
 [06:08:35:08]
 CC: Apollo 11, Apollo 11, this is Houston broadcasting in the blind. If you read us, attempt acquisition using an OMNI antenna. Attempt acquisition using an OMNI antenna. This is Houston. Out.
@@ -24547,7 +24547,7 @@ _page : 562
 _tape : Tape 103/2
 
 [06:15:57:04]
-CC: Roger. Very good readback, Buzz, and for your communication setup for tonight's sleep, we'd like 0MNI to OMNI. Stand by.
+CC: Roger. Very good readback, Buzz, and for your communication setup for tonight's sleep, we'd like OMNI to OMNI. Stand by.
 
 [06:15:58:51]
 CC: Apollo 11, Houston. If you didn't copy that, Buzz, it was a good readback on the PAD. We've got a clock update for you that we'll have to you as soon as we can get it out to the site. We're in the process of handing over to Honeysuckle, and it will be a couple of minutes. Over.
@@ -24718,7 +24718,7 @@ CC: 11, Houston. Your P52 looks good here on the ground, and we are now estimati
 CDR: Understand 171 40, approximately, 40 percent.
 
 [07:03:22:14]
-CC: 11, Houston. We'd like to advance the time on that water dump to about 171 plus 30 just after we reacquire on the next 0MNI, and - as I mentioned, it'll be down to 45 percent - is the new quantity. Also, we're standing by for your CM RCS ejector temperature readout. Over.
+CC: 11, Houston. We'd like to advance the time on that water dump to about 171 plus 30 just after we reacquire on the next OMNI, and - as I mentioned, it'll be down to 45 percent - is the new quantity. Also, we're standing by for your CM RCS ejector temperature readout. Over.
 _page : 573
 _tape : Tape 110/4
 
