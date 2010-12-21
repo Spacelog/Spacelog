@@ -12,8 +12,9 @@ use Getopt::Long;
 my $help;
 my @lines;
 my $glossary;
+my $shared_path = '.';
 
-if (   !GetOptions( 'help|h' => \$help, )
+if (   !GetOptions( 'help|h' => \$help, 'shared_glossaries|s=s' => \$shared_path )
     || $help
     || !@ARGV )
 {
@@ -36,7 +37,7 @@ foreach my $dir (@ARGV) {
 }
 exit;
 
-sub load_meta {
+sub load_json {
     my ($file) = @_;
     my $fh = new IO::File;
     $fh->open( '<' . $file ) || die "Unable to load $file: $!";
@@ -47,7 +48,24 @@ sub load_meta {
 
     my $json = JSON->new->allow_nonref;
     my $meta = $json->decode($json_text);
+    return $meta;
+}
+
+sub load_meta {
+    my ($file) = @_;
+    my $meta = load_json($file);
     $glossary = $meta->{glossary};
+    load_shared_glossaries(@{$meta->{shared_glossaries}}) if $meta->{shared_glossaries};
+}
+
+sub load_shared_glossaries {
+    my (@glossary_names) = @_;
+    foreach my $glossary_addition (@glossary_names) {
+        my $json = load_json("$shared_path/$glossary_addition");
+        foreach my $term (keys %$json) {
+            $glossary->{$term} ||= $json->{$term};
+        }
+    }
 }
 
 sub load_transcript {
