@@ -1,5 +1,5 @@
-Tape 74
-Page 5
+    Tape 74
+    Page 5
 04 16 12 07 CC Okay.
 04 16 12 12 CDR Do you want me to take the pitch yaw out of RATE COMMAND, right?
 04 16 12 20 CC That's affirmative. You just put it MINIMUM IMPULSE, and then we'll watch it.
@@ -11,8 +11,8 @@ Page 5
 04 16 13 25 CC Roger.
 04 16 13 26 CDR The midcourse correction number 6 right now looks like zero, and midcourse correction number 7 is approximately 2 feet per second.
 
-Tape 74
-Page 6
+    Tape 74
+    Page 6
 04 16 13 38 CDR Okay, Jim. Now we've got on the checklist to initiate cabin coldsoak. This involves evaporating, and I don't think we want to do that.
 04 16 13 48 CC Okay. Now we talked that over with FIDO, and at 12 hours out, everyone seems to think that we don't need to do it there. But in close, it doesn't seem to have any effect on the trajectory, and what's been suggested if you'd like - we can do over the entry checklist and just kind of walk through it on the air with all the people on the console. Right now, you have the term that will be performing the entry session with you so we can go over the checklist and run down any questions that you might have. That's up to you.
 04 16 14 44 CDR That's fine. Let's do that. I've got one right here. I'm lonesome anyway.
@@ -21,8 +21,8 @@ Page 6
 04 16 22 28 CDR Go ahead.
 04 16 22 29 CC Okay. We've drifted off now about 25 degrees in pitch. I'd like to have you take it back and set up the PTC plane again at pitch of 10 and yaw 45 and set up the PTC under control, and turn your pitch back to minimum impulse. And give us a mark when you have done that, and we'll time the drift rates down here.
 
-Tape 74
-Page 7
+    Tape 74
+    Page 7
 04 16 22 56 CDR Okay.
 04 16 25 01 CDR Okay, Ken. I've got them all damped out about as low as I can get them.
 04 16 25 05 CC Okay. Fine.
@@ -42,8 +42,8 @@ Page 7
 04 16 27 38 CDR Ken, be sure and call me if you see the gimbal angles start to get near gimbal are or anything. I'm a little drowsy still. I don't want to end up with another null attitude, like one is enough.
 04 16 27 50 CC Roger. Will do.
 
-Tape 74
-Page 8
+    Tape 74
+    Page 8
 04 16 42 57 CC Apollo 8, Houston.
 04 16 43 00 CDR Go ahead, Ken. 
 04 16 43 01 CC Okay. Would you reinitialize the PTC attitude, and let's try that one more time.
@@ -66,8 +66,8 @@ Page 8
 04 16 46 37 CC Yes, sir.
 04 16 46 51 CC And, Frank, we are going over the checklist right now, and I'll get back with you on the entry checklist in a few minutes.
 
-Tape 74
-Page 9
+    Tape 74
+    Page 9
 04 16 46 58 CDR Okay, Ken. I think it is a pretty good one; that's one thing we have practiced a lot. But we might as well let everybody know what we're doing.
 04 16 47 07 CC Roger.
 04 16 47 43 CDR Ken, while we are just killing time here, there are a couple of anomolies we've noticed. The booties, you know, for the inflight coveralls; mine have frayed very badly, and I had to take them off. Also, we had one Y adapter with an open in it, and the lightweight headsets were kind of useless.
@@ -76,8 +76,8 @@ Page 9
 04 16 48 22 CC Okay.
 04 16 48 30 CDR But these Snoopy hats are pretty comfortable. We have worn them the whole time.
 
-Tape 75
-Page 1
+    Tape 75
+    Page 1
 04 16 51 58 CDR Ken, one thing we are going to do on these suits, we're going to Stow them one under each seat, the way North American suggested.
 04 16 52 06 CC Roger. And you'll be putting the helmets in the food stowage.
 04 16 52 16 CDR Yes, I think we'll put the helmets in the food stowage; and any stuff we have to take out of there, we'll just stick in a suit.
@@ -92,8 +92,8 @@ Page 1
 04 16 54 39 CC Okay. We'll put in a kit for some small waves.
 04 16 54 47 CDR Tell Jerry Hammack if the waves get high, it's his fault.
 
-Tape 75
-Page 2
+    Tape 75
+    Page 2
 04 17 09 51 CC Apollo 8, Houston.
 04 17 09 55 CDR Go ahead.
 04 17 09 56 CC Okay. Why don't you drive it back over to the PTC attitude and put it back in ATTITUDE HOLD for the roll, and we're going back in and review the DTO requirement. You have about the same results, it looks like, on a cursory analysis all three times. So we're going to take another look and see if there is any reason to do it again. If so, we'll call you. You can go ahead and put it back in ATTITUDE HOLD now.
@@ -106,34 +106,105 @@ Page 2
 04 17 45 29 CC Roger. We will watch them.
 04 18 19 19 CC Apollo 8, Houston.
 04 18 19 24 CDR Go ahead.
-04 18 19 26 CC We would like to look at a couple more DELTA-V
-tests on the EMS, and the general consensus is that we don't think there is any particular problem.
+04 18 19 26 CC We would like to look at a couple more DELTA-V tests on the EMS, and the general consensus is that we don't think there is any particular problem.
 
-Tape 75 
-Page 3 
-We'd like to go ahead and take a look at what 
-you get by running four or five more DELTA-V tests. 
-And prior to that, we'd ‘like to run one of these 
-null bias tests; and since we don't have any way 
-of monitoring any of this stuff on the downlink, 
-I'd like to have you tell us each step when you 
-turn the switch and different orders and things 
-like that. 
+    Tape 75 
+    Page 3 
+We'd like to go ahead and take a look at what you get by running four or five more DELTA-V tests. And prior to that, we'd like to run one of these null bias tests; and since we don't have any way of monitoring any of this stuff on the downlink, I'd like to have you tell us each step when you turn the switch and different orders and things like that. 
 04 18 20 08 CDR Okay. 
 04 18 20 41 CDR Alright. I'll run a test. 
-04 18 20 48 CC Okay. The first thing we want is this null bias, 
-100 seconds. 
-04 18 20 CDR You stand by, and I'll do a null bias for 100 seconds. 
-Do you want me to put DELTA-V in AUTOMATIC and let 
-it alone for 100 seconds?
+04 18 20 48 CC Okay. The first thing we want is this null bias, 100 seconds. 
+04 18 20 CDR You stand by, and I'll do a null bias for 100 seconds. Do you want me to put DELTA-V in AUTOMATIC and let it alone for 100 seconds?
 04 18 21 02 CC That is affirmed. 
 04 18 21 22 CDR Going to DELTA-V; going to AUTO - 
 04 18 21 25 CDR Now.
 04 18 21 27 CC Roger. 
 04 18 21 45 CDR Went to one-tenth and back to zero. 
 04 18 21 50 CC Understand; plus one-tenth and back to zero. 
-04 18 21 56 CDR One-tenth, now it's a minus one-tenth and back to 
-zero; no, it'snot zero yet; wait a minute. 
+04 18 21 56 CDR One-tenth, now it's a minus one-tenth and back to zero; no, it's not zero yet; wait a minute. 
 04 18 22 29 CDR Now it's up some, minus 4; 0.4, that is. 
-CC Roger. 
-CDR Minus 25.
+04 18 22 33 CC Roger. 
+04 18 22 44 CDR Minus 25.
+
+    Tape 75 
+    Page 4 
+04 18 22 46 CC Roger. 
+04 18 22 53 CDR Minus 26. 
+04 18 23 06 CDR Minus 0.7, and there is 100 seconds; minus 0.7 at 100 seconds. 
+04 18 23 12 CC Roger. 
+04 18 23 17 CDR Now what do you want? 
+04 18 23 19 CC Okay. If we go back to mode, switch to stand by and FUNCTION switch OFF. 
+04 18 23 36 CDR Roger. 
+04 18 23 37 CC Okay. Now we'd like to do a couple of DELTA-V self-tests. 
+04 18 23 38 CDR Okay. 71586.8. 
+04 18 23 43 CC Roger. 
+
+    Tape 76 
+    Page 1 
+04 18 24 46 CDR Say you're going AUTOMATIC? 
+04 18 24 48 CC Roger. 
+04 18 24 51 CDR Going to a DELTA-V test now. Counting down. 
+04 18 26 04 CC Apollo 8, Houston. 
+04 18 27 14 CC Apollo 8, Houston. 
+04 18 28 47 CDR You back, Ken?
+04 18 28 49 CC Apollo 8, this is Houston. 
+04 18 28 53 CDR Roger. Read you. 
+04 18 28 55 CC Okay. We got caught in a station handover there. I didn't copy anything after you said you were putting it to DELTA-V test. 
+04 18 29 06 CDR I ran - I ran three tests during that handover. Two over minus 19.6 - two of them are minus 19.8; and one of them, minus 19.6. 
+04 18 29 17 CC Okay. That sounds real fine. 
+04 18 29 22 CDR Roger. 
+04 18 29 24 CC Okay. The other thing that - sometime prior to entry - and we're going to be looking at it - is the normal entry test pattern, and it's called out presently in the checklist as something we do around an hour. And we'd like to check if you can read the number on the scroll that is up now so we can see where we are in the test test pattern sequence. We're considering taking a look at one of these test patterns before we get into an hour so we can have more time to 
+
+    Tape 76 
+    Page 2 
+think about it in the event that there should be something anomalous in it. 
+04 18 30 02 CDR Why don't we do it right now? We're on number 8. 
+04 18 30 06 CC Okay. Understand; that's number 8, right? 
+04 18 30 12 CDR Roger. It takes an awful long time to run them over there anyway. It won't hurt to do one. 
+04 18 30 18 CC Okay. If you'll stand by just a second; we're checking to see where we stand in the sequence of events for on pattern 8. 
+04 18 32 58 CDR Hey, Ken.
+04 18 32 59 CC Yes, sir. 
+04 18 33 03 CDR Another little thing about this EMS: you know, we had it set up when we separated from the booster - - 
+04 18 33 05 CC Roger. 
+04 18 33 10 CDR -- and the shock of the separation - the shock of the pyre's blowing in separation knocked it up to 100 and something.
+04 18 33 21 CC Understand. Knocked it up to 100. 
+04 18 33 26 CDR Roger. 
+04 18 33 27 CC Was the pyro separation enough that the - you felt a sensable g in the bird?
+04 18 33 35 CDR Roger. Let's just say there wasn't any question we were separating.
+04 18 33 43 CC Roger. Understand. 
+04 18 34 00 CDR While you are checking the scroll, find out which entry pattern I should be using this bird in.
+
+    Tape 76 
+    Page 3 
+04 18 34 06 CC Okay. Will do. 
+04 18 39 39 CC Apollo 8, Houston. 
+04 18 39 44 CDR Go ahead. 
+04 18 39 46 CC Okay. While we are verifying that scroll position - they are talking it over in the back room about that now - I vould like to go ahead and run down the checklist with you for entry. 
+04 18 40 00 CDR Go ahead. 
+04 18 40 02 CC Okay. Looking on entry 1: the second item there is the 12-hour Kelvin cold soak, and in discussions I here and preflight, I think it is agreed that we don't want to do the cold soak there. So we are going to delete that step 2. And what it amounts to is, I think we do want to do a cold soak, and we certainly want to exercise the water boilers prior to entry in order to insure that we don't have one that is dried out, in the same manner that we had one dried out prior to LOI. And we are vorking on some procedures for that, and we'll have to come back to you with those a little bit later, and we will try to do it sometime when Bill's on the line so that everybody can get in on the loop at the same time. We would like to add a step between 8 and 9, or as part of step 8. This is all on page E-1, where we turn the VHF to Simplex A at minus 4 hours and 35 minutes. Now this will be beyond two-way VHF range, but it will make sure
+
+    Tape 76 
+    Page 4 
+that we do have it on at the time when we pick it up. We were able to get out to 20 000 miles with a downlink, and we are checking on the uplink signal. So if we put it on at this point, we know we have it on well in advance of any time we might be able to get into the VHF. 
+04 18 41 36 CDR Okay. 
+04 18 41 43 CC Okay. I guess maybe I have that backwards. They copy - you folks copied the VHF out to 20 KM. We're checking on the - on the downlink into that now. But in any event, this 4 hours and 35 minutes will get it well in advance of that. 
+04 18 42 03 CDR Roger. 
+04 18 42 40 CC Okay, 8. We just got an answer back on the test patterns. We thought it was - We had 25 test patterns which are allocated to ground test, and these are the ones we've been looking at. Then there are five more that are allocated to flight, and the only difference in these patterns is that the flight patterns have instructions actually written on them; so if we are looking at test pattern 8, that means that we're still working on the ones that were allocated to the ground test, so there was no problem there. And I'll get you a number for which pattern we should be using for entry; working on that one right now. So we would like to go ahead and run through these.
+
+    Tape 76 
+    Page 5 
+04 18 43 21 CDR I don't mean the - - 
+04 18 43 23 CC Say again, Frank. 
+04 18 43 25 CDR I don't mean the test pattern. I say, I don't mean the test pattern. We asked them to put the supercircular on the number, the first place on the scroll; I'm sure they did. I'm sure it's the first pattern, but I just wanted to make sure that's right. 
+04 18 43 38 CC Roger. That's why we are trying to verify. So - - 
+04 18 43 43 CDR You want me to run through a test pattern?  
+04 18 43 45 CC Yes, sir. If you would, please. And if you'd tell us each step as you go through it. 
+04 18 44 42 CDR Okay. Going through step 1; EMS test 1: wait 5 seconds. There's 5 seconds. Going AUTO. Okay- Indicator lights are all OFF; the range is zero, zero. Now I'm gonna slew the hairline over the notch. Okay. And now we go in EMS test 2. 
+04 18 44 45 CC Roger. 
+04 18 44 52 CDR Got the 0.05g light; all others are out. 
+04 18 44 55 CC Roger. 
+04 18 44 58 CDR Go on test 3: far side lower light on 10 seconds; going to set the range counter to 58. Okay. Set at 58; going to test 4.
+04 18 45 34 CC Roger. 
+04 18 45 50 CDR Beautiful. It's perfect. It's right in the corridor. It comes down and stops at zero, zero.
+
+
