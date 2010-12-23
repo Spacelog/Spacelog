@@ -75,6 +75,10 @@
         "summary": "Control point",
         "type": "abbreviation"
     },
+    "CPCB": {
+    "summary": "Crew Procedures Control Board",
+    "type": "abbreviation"
+    },
     "CPLEE": {
         "summary": "Charged particle lunar environment experiment",
         "type": "abbreviation"
@@ -451,6 +455,30 @@
         "summary": "Flight Dynamics Officer",
         "type": "abbreviation"
     },
+    "EECOM": {
+        "summary": "Electrical, Environmental and Consumables Manager",
+        "type": "abbreviation"
+    },
+    "TELMU": {
+        "summary": "Telemetry, Electrical, EVA Mobility Unit Officer (LM's EECOM)",
+        "type": "abbreviation"
+    },
+    "INCO": {
+        "summary": "Integrated Communications Officer",
+        "type": "abbreviation"
+    },
+    "GUIDO": {
+        "summary": "Guidance Officer",
+        "type": "abbreviation"
+    },
+    "GNC": {
+        "summary": "Guidance, Navigation, and Controls System Engineer",
+        "type": "abbreviation"
+    },
+    "BMAG": {
+        "summary": "Body Mounted Attitude Gyroscope",
+        "type": "abbreviation"
+    },
     "VERB 01": {
         "summary": "Display contents of erasable memory location"
     },
@@ -533,16 +561,19 @@
         "summary": "Lock IMU"
     },
     "VERB 44": {
-        "summary": "Set IMU to ATTITUDE CONTROL"
+        "summary": "Terminate Rendezvous Radar Continuous Designate"
     },
     "VERB 45": {
         "summary": "Set IMU ENTRY"
     },
     "VERB 46": {
-        "summary": "Return IMU ENTRY"
+        "summary": "Establish G&C Control"
     },
     "VERB 48": {
         "summary": "Request DAP data load"
+    },
+    "VERB 49": {
+        "summary": "Request Crew Defined Maneuver routine"
     },
     "VERB 52": {
         "summary": "Mark reject"
@@ -554,34 +585,49 @@
         "summary": "Pulse torque gyros"
     },
     "VERB 55": {
-        "summary": "Align time"
+        "summary": "Increment LGC time (decimal)"
     },
     "VERB 56": {
         "summary": "Perform bank sum"
     },
+    "VERB 62": {
+        "summary": "Display total attitude errors with respect to new ICDU angles"
+    },
     "VERB 64": {
-        "summary": "Calculate orbital parameters"
+        "summary": "Request S-Band Antenna Routine"
     },
     "VERB 65": {
-        "summary": "Calculate time of arrival at longitude"
+        "summary": "Disable U and V jet firings during DPS burns"
     },
     "VERB 66": {
-        "summary": "Calculate latitude and longitude at specified time"
+        "summary": "Move state vector to other vehicle"
     },
     "VERB 67": {
         "summary": "Calculate maximum declination and time of arrival"
+    },
+    "VERB 69": {
+        "summary": "Cause restart"
     },
     "VERB 73": {
         "summary": "Return to Earth aim point update"
     },
     "VERB 74": {
-        "summary": "Orbit change aim point update"
+        "summary": "Initialize erasable dump via downlink"
     },
     "VERB 75": {
         "summary": "Manual lift-off"
     },
     "VERB 76": {
-        "summary": "Update state vector"
+        "summary": "Minimum Impulse Command mode"
+    },
+    "VERB 77": {
+        "summary": "Rate Command and Attitude Hold mode"
+    },
+    "VERB 79": {
+        "summary": "Request Lunar Landmark Selection Routine (CSM)"
+    },
+    "VERB 96": {
+        "summary": "Terminate integration and go to P00"
     },
     "NOUN 07": {
         "summary": "Set/reset values"
@@ -592,11 +638,17 @@
     "NOUN 14": {
         "summary": "Desired Delta-V"
     },
+    "NOUN 17": {
+        "summary": "Astronaut total attitude"
+    },
     "NOUN 20": {
         "summary": "ICDUs"
     },
     "NOUN 21": {
         "summary": "PIPA (accelerometer) values"
+    },
+    "NOUN 22": {
+        "summary": "New ICDU angles"
     },
     "NOUN 23": {
         "summary": "Number of passes, time to burn, burn delta-V."
@@ -616,17 +668,50 @@
     "NOUN 44": {
         "summary": "Height (nautical miles)"
     },
+    "NOUN 46": {
+        "summary": "Autopilot configuration"
+    },
     "NOUN 47": {
-        "summary": "Command and Service Module weight (lbs)"
+        "summary": "Vehicle weights"
     },
     "NOUN 48": {
-        "summary": "Pitch and yaw trim"
+        "summary": "Gimbal pitch and roll trim"
+    },
+    "NOUN 60": {
+        "summary": "Forward velocity (LM)"
+    },
+    "NOUN 61": {
+        "summary": "Impact latitude/longitude"
     },
     "NOUN 62": {
         "summary": "Velocity information during launch and landing"
     },
+    "NOUN 63": {
+        "summary": "Absolute velocity (LM)"
+    },
+    "NOUN 65": {
+        "summary": "Sampled AGC time"
+    },
+    "NOUN 67": {
+        "summary": "Range to target (CSM)"
+    },
+    "NOUN 70": {
+        "summary": "AOT detent and star code"
+    },
+    "NOUN 72": {
+        "summary": "Rendezvous radar shaft and trunnion (LM)"
+    },
     "NOUN 81": {
-        "summary": "Change in velocity (fps)"
+        "summary": "Delta V: Change in velocity (fps)"
+    },
+    "NOUN 88": {
+        "summary": "Half-unit sun or planet vector"
+    },
+    "NOUN 91": {
+        "summary": "OCDU shaft and trunnion (CSM)"
+    },
+    "NOUN 93": {
+        "summary": "Delta gyro angles"
     },
     "P00": {
         "summary": "Idle"
@@ -655,13 +740,13 @@
     "P37": {
         "summary": "Rendezvous final phase"
     },
-   "P40": {
+    "P40": {
         "summary": "SPS thrusting"
     },
     "P41": {
         "summary": "RCS thrusting"
     },
-   "P47": {
+    "P47": {
         "summary": "Thrust monitor"
     },
     "P51": {

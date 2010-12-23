@@ -405,7 +405,7 @@ CC:  I'm ready for them, Jack.
 
 [00:00:52:35]
 CMP: Okay. Use NOUN 26; stars 26 and 33. The star
-     angle difference was all balls. NOUN 93:
+     angle difference was all balls. [glossary:NOUN 93]:
      minus 067, minus all balls, plus 0.162. The
      time of torquing was 45 minutes 35 seconds.
 
@@ -593,7 +593,7 @@ CDR: Yes, I think you'd better.
 _extra : MILA(REV2)
 CC:  Okay. [glossary:TLI] plus 90: SPS/G&N, 63825, minus 1.54,
      plus 1.32, [time:00:04:06:45|004:06:45.53], minus 0491.7,
-     plus 0000.1 , plus 6634.0, 180, 228, 001; N/A;
+     plus 0000.1, plus 6634.0, 180, 228, 001; N/A;
      plus 0017.9, 6652.2, 7:37, 6626.5, 26, 155.4,
      15.7; Zeta Sagittarius; up, 08.0; right 2.1;
      minus 22.81, minus 025.00, 1140.7, 34087,
@@ -1041,7 +1041,7 @@ CC:  We see the booster doing all the right things,
      and [glossary:FIDO] says your trajectory looks good, and it
      looks like we'll stick with a pretty close to
      nominal midcourse, too. We'll have some numbers
-     for you later
+     for you later.
 
 [00:02:58:02]
 CDR: Okay. And we concur. The [glossary:S-IVB] is maneuvering
@@ -1075,7 +1075,7 @@ CC:  Apollo 13, Houston. You are GO for T&D.
 CDR: Okay, Joe. Thank you.
 
 [00:03:01:44]
-CC:  And, 13, Houston. Check your NOUN 17 for
+CC:  And, 13, Houston. Check your [glossary:NOUN 17] for
      extraction pitch attitude. It should be
      319 degrees. Over.
 
@@ -1163,7 +1163,7 @@ _tape : Tape 3/2
 LMP: Affirmed.
 
 [00:03:12:17]
-CC:  13, Houston. Recommend RATE 2 on the BMAGs.
+CC:  13, Houston. Recommend RATE 2 on the [glossary:BMAG]s.
 
 [00:03:12:23]
 LMP: Thank you.
@@ -1627,7 +1627,7 @@ CDR: How much time do you have, Houston? Can you
      wait, or do you want to do it right now?
 
 [00:04:05:09]
-CC:  Ne can wait if you want us to, Jim.
+CC:  We can wait if you want us to, Jim.
 
 [00:04:05:11]
 CDR: Why don't you wait just a little bit.
@@ -1721,7 +1721,7 @@ CC:  Yes, yes. More like that. That's nice. It's
 CC:  Oh, that's very nice, very nice.
 
 [00:04:13:55]
-CMP: Okay, Joe. Is EECOMM monitoring the O<sub>2</sub> FLOW HIGH
+CMP: Okay, Joe. Is [glossary:EECOM] monitoring the O<sub>2</sub> FLOW HIGH
      light again? We haven't yet started the venting
      yet.
 
@@ -2055,7 +2055,7 @@ CMP: Go ahead, Jim.
 [00:05:54:50]
 CC:  Roger. We'd like to have the ATTITUDE SET switch
      back to [glossary:GDC], if you're finished with your aline.
-     It gives G&C down here a telemetry problem.
+     It gives [glossary:GNC] down here a telemetry problem.
 
 [00:05:55:01]
 CMP: Yes; okay.
@@ -2450,7 +2450,7 @@ CMP: Okay. Our checklist has "all jets" scratched out,
      we'll do is - we'll reestablish this thing and
      come down to that step 7, and we'll enable all
      jets. That means enable quads A and B. Is that
-     right ?
+     right?
 
 [00:08:09:42]
 CC:  That's affirm. You'll have A, B, C, and D enabled for step 7.
@@ -2678,7 +2678,7 @@ CC:  Yes. Actually slower or faster, either one, I
      thing to have that happen.
 
 [00:09:26:19]
-LMP: Okay. And s Houston, stand by for a mark on
+LMP: Okay. And, Houston, stand by for a mark on
      another picture.
 
 [00:09:26:24]
@@ -2704,7 +2704,7 @@ CC:  Okay, thank you. We'll let you know if anything
      isn't okay. I'm sure it's good now.
 
 [00:09:27:15]
-LMP: Tell G&C and GUIDO thanks a lot for keeping good
+LMP: Tell [glossary:GNC] and [glossary:GUIDO] thanks a lot for keeping good
      track of me, there.
 
 [00:09:27:21]
@@ -2724,7 +2724,7 @@ LMP: Yes. That would be fine, Vance.
 CC:  Okay.
 
 [00:09:28:06]
-CC:  And, 13, Houston. GUIDO says the bits are reset -
+CC:  And, 13, Houston. [glossary:GUIDO] says the bits are reset -
      rather, are set.
 
 [00:09:28:13]
@@ -3448,13 +3448,13 @@ CC:  Roger. Go ahead.
 CMP: Okay, Vance. I understand you're ready.
 
 [00:12:19:26]
-CC:  Negative, GUIDO isn't quite ready yet.
+CC:  Negative, [glossary:GUIDO] isn't quite ready yet.
 
 [00:12:19:32]
 CMP: Okay. I thought I heard you call us.
 
 [00:12:19:37]
-CC:  But we're ready now, Jack, so GUIDO says he's
+CC:  But we're ready now, Jack, so [glossary:GUIDO] says he's
      ready to take it.
 
 [00:12:19:46]
@@ -3574,7 +3574,7 @@ CC:  Yes.
 LMP: And we're starting to charge battery A, Houston.
 
 [00:23:15:44]
-CC:  Roger on battery A, Fred. EECOMM says battery B
+CC:  Roger on battery A, Fred. [glossary:EECOM] says battery B
      looks real good.
 
 [00:23:15:51]
@@ -3675,7 +3675,7 @@ CMP: Yes, Joe. We did, and it kind of looked like we
 _extra : END OF TAPE
 _page : 64
 _tape : Tape 15/3
-CC:  Okay. EECOMM told me that might happen, and
+CC:  Okay. [glossary:EECOM] told me that might happen, and
      he was right.
 
 [00:23:21:54]
@@ -3788,7 +3788,7 @@ CC:  Okay. At 23 hours the total [glossary:RCS] is 1121, quad A
 
 [00:23:27:07]
 CMP: Okay, Joe. We got all those, and how do we compare them with where we should be in the time
-     Sine?
+     line?
 
 [00:23:27:15]
 CC:  As I understand it, Jack, you're running slightly
@@ -4999,7 +4999,7 @@ CC:  Right. We see the nozzle of the quad, but it's
      dark and it's not easy to see.
 
 [01:06:18:28]
-CC:  13, Houston. INCO suggests you try AVERAGE if
+CC:  13, Houston. [glossary:INCO] suggests you try AVERAGE if
      you're in PEAK to see if that gives us a better
      picture.
 
@@ -5020,7 +5020,7 @@ LMP: Okay, Vance. I cranked the focus down a little
 
 [01:06:20:17]
 CC:  It's coming in about the same, Fred, and you're
-     a little weak now on the COMM..
+     a little weak now on the COMM.
 
 [01:06:20:32]
 CC:  We could see when you went back to PEAK.
@@ -5258,7 +5258,7 @@ CDR: DIRECT, two, OFF.
 CMP: DIRECT, two, OFF.
 
 [01:06:35:15]
-CDR: BMAGs, three, ATT 1/RATE 2.
+CDR: [glossary:BMAG]s, three, ATT 1/RATE 2.
 
 [01:06:35:20]
 CMP: ATT 1/RATE 2.
@@ -5375,7 +5375,7 @@ CMP: No [glossary:MTVC].
 CDR: Okay.
 
 [01:06:36:34]
-CMP: BMAGs MODE, RATE 2.
+CMP: [glossary:BMAG]s MODE, RATE 2.
 
 [01:06:36:36]
 CDR: ROTATIONAL HAND CONTROL POWER, two, NORMAL, AC/DC.
@@ -5390,14 +5390,14 @@ CDR: RATE 2, MAIN A/MAIN B.
 CMP: B.
 
 [01:06:36:42]
-CDR: Okay. BMAGs, you got three, RATE 2? Okay, we'll
+CDR: Okay. [glossary:BMAG]s, you got three, RATE 2? Okay, we'll
      proceed for final trim.
 
 [01:06:36:54]
 CMP: MAG's where we are.
 
 [01:06:36:55]
-CDR: Okay. BMAG MODEs, three, ATT 1/RATE 2.
+CDR: Okay. [glossary:BMAG] MODEs, three, ATT 1/RATE 2.
 
 [01:06:36:58]
 CMP: ATT 1/RATE 2.
@@ -5511,7 +5511,7 @@ CDR: Standing by for ENTER ENABLE.
 
 [01:06:40:46]
 _comment : "Actually attributed to LMP/CMP"
-LMP: ENTER ENABLE
+LMP: ENTER ENABLE.
 
 [01:06:40:51]
 LMP: Two balls.
@@ -5606,7 +5606,7 @@ CMP: Two OFF.
 LMP: RATE 2.
 
 [01:06:41:52]
-CMP: BMAGs, RATE 2.
+CMP: [glossary:BMAG]s, RATE 2.
 
 [01:06:41:53]
 LMP: I'm already in low bit rate.
@@ -6060,7 +6060,7 @@ CC:  Okay. Time 32 hours 00 minutes [glossary:GET]. Instructions
      black-and-white film, right? That's the dim-light
      film. Take three photos, one each at 5-, 20-, and
      60-seconds' time exposure. Use AUTO optics.
-     NOUN 88 values are R<sub>1</sub> plus 34717, R<sub>2</sub> minus 08028;
+     [glossary:NOUN 88] values are R<sub>1</sub> plus 34717, R<sub>2</sub> minus 08028;
      R<sub>3</sub> plus 35075. Take three photos one each at 5-,
      20-, and 60-second time exposure using manual
      optics. Shaft will be 000.8 degrees, trunnion
@@ -6087,7 +6087,7 @@ LMP: Okay. The time is - The event will be at [time:01:08:00:00|32:00];
      the magazine G, very high-speed black and white
      film. Then, we're to take three photos, one each
      at 5-, 20-, and 60-seconds' time exposure using
-     audio - AUTO optics. Our NOUN 88 values R<sub>1</sub>
+     audio - AUTO optics. Our [glossary:NOUN 88] values R<sub>1</sub>
      plus 34717, R<sub>2</sub> minus 08028, R<sub>3</sub> plus 35075. Thence,
      three more photos, one each at 5-, 20-, 60-seconds'
      time exposure using manual optics. Shaft 0.8 degrees, trunnion 12.5 degrees. And we're to take
@@ -6165,7 +6165,7 @@ CMP: Go ahead.
 
 [01:07:36:50]
 CC:  On the [glossary:P33], just like to verify that you changed
-     the NOUN 88 values for this last star. It looks
+     the [glossary:NOUN 88] values for this last star. It looks
      like they haven't been changed. Over.
 
 [01:07:37:06]
@@ -6184,7 +6184,7 @@ CC:  Stand by 1.
 
 [01:07:38:09]
 CDR: We think you're right, Vance. It looks like they
-     used the same set of NOUN 88 for both stars by
+     used the same set of [glossary:NOUN 88] for both stars by
      mistake.
 
 [01:07:38:16]
@@ -6257,7 +6257,7 @@ CC:  Okay. The second one, at 32 hours looking at
 [01:07:57:50]
 CMP: Okay, Vance. What we'll do is, when we get to
      attitude, we'll disable the quads and do like we
-     did last night; we'll let GUIDO and you people
+     did last night; we'll let [glossary:GUIDO] and you people
      down there tell us when you think we are stable
      enough; then we'll do all this work with the DAC
      on the sextant, first; and then when we get that
@@ -6323,7 +6323,7 @@ CMP: Okay.
 
 [01:08:04:26]
 CMP: Okay, Vance, let us know when you're through with
-     the [glossary:DSKY] so we can load NOUN 88?
+     the [glossary:DSKY] so we can load [glossary:NOUN 88]?
 
 [01:08:04:40]
 CC:  Roger. We'll let you know, Jack.
@@ -6358,7 +6358,7 @@ CC:  Okay, we copy that. We got some discussion.
 CMP: Okay, Vance, it isn't - we're not looking into the
      Sun - what we are getting is a large reflection
      from the Sun behind us off the LM; and it is -
-     it is coming on that quad i there, and that quad
+     it is coming on that quad 1 there, and that quad
      is reflecting back into the sextant.
 
 [01:08:13:54]
@@ -6485,7 +6485,7 @@ CC:  Okay. First, turn to page 12. On the right-hand
      until you get to the very bottom of the page
      where you have "Acquisition [glossary:MSFN] OMNI D" and
      that should remain in. Also, leave in "Remove
-     window shades ," which is about the third line
+     window shades," which is about the third line
      down from where you start.
 
 [01:08:48:37]
@@ -6526,7 +6526,7 @@ CMP: Okay. Got it.
 [01:08:50:13]
 CC:  Okay. Now, next, at about 105:05, there's a
      "[glossary:VERB 48]." That should be moved up to 105, and
-     below that, the "VERB 49 maneuver" should be
+     below that, the "[glossary:VERB 49] maneuver" should be
      moved up, too.
 
 [01:08:50:42]
@@ -6575,7 +6575,7 @@ CMP: Okay. Got it.
 CC:  Okay, next page, 16. This is a continuation of
      the same solar-corona thing. On the right-hand
      side of the page, starting just above 107:40
-     with "VERB 49, maneuver to solar-corona attitude,"
+     with "[glossary:VERB 49], maneuver to solar-corona attitude,"
      from there on down to 107:55 just beneath "Replace
      dark slide," all of this is in an optional category. So you just might line off - -
 
@@ -6613,7 +6613,7 @@ CMP: Okay.
 
 [01:08:54:35]
 CC:  Beneath that, scratch out "Spacecraft control
-     dash [glossary:CMC] AUTO verify." Scratch out the "VERB 79"
+     dash [glossary:CMC] AUTO verify." Scratch out the "[glossary:VERB 79]"
      and all in parentheses after that, like the
      "Minus 00507," et cetera. And beneath that,
      scratch out "PRO to start pitch rate." In parentheses, "0, 230 slash 018, 0."
@@ -6641,7 +6641,7 @@ CC:  On the right-hand half of the page, cross out
 CMP: All right. Got it.
 
 [01:08:56:09]
-CC:  And beneath that, cross out "VERB 49, maneuver
+CC:  And beneath that, cross out "[glossary:VERB 49], maneuver
      to track attitude" by the "'C' 0, 353, 0" and
      the "HU,SCF."
 
@@ -6672,7 +6672,7 @@ _tape : Tape 22/4
 CMP: Okay.
 
 [01:08:57:49]
-CC:  Okay. On the right-hand side, from the "VERB 49,
+CC:  Okay. On the right-hand side, from the "[glossary:VERB 49],
      maneuver to earthshine attitude," down through
      everything up to "[glossary:MSFN] uplink," this is optional.
      This is "Earthshine optional."
@@ -6710,7 +6710,7 @@ CMP: Okay, go ahead, Vance.
 CC:  Okay. At about 114:10, everything under "Altitude
      set equals 60 miles" should have the comment
      "Solar corona, optional," and on that first line
-     of that optional where it says "VERB 49, maneuver
+     of that optional where it says "[glossary:VERB 49], maneuver
      to solar corona and limb brightening attitude,"
      cross out "And limb brightening attitude."
 
@@ -6858,7 +6858,7 @@ CC:  Going down to 127:11, cross out "Verify [glossary:DSE] ON."
 CMP: All right.
 
 [01:09:07:36]
-CC:  Beneath that, cross out "Continue visual observations,'' and cross out "Stop observations." And
+CC:  Beneath that, cross out "Continue visual observations," and cross out "Stop observations." And
      beneath that, cross out "Photo target 56 on
      track f:8, 250, infinity, 5," et cetera, to the
      end of that line. Cross out the "5.6" beneath
@@ -6894,7 +6894,7 @@ CC:  Okay. Going to page 34.
 CMP: Okay.
 
 [01:09:09:31]
-CC:  About - on the left-hand side about almost halfway down beneath the "VERB 49, maneuver to TOPO
+CC:  About - on the left-hand side about almost halfway down beneath the "[glossary:VERB 49], maneuver to TOPO
      target 54A," make the comment "Target 54A is
      optional."
 
@@ -7228,7 +7228,7 @@ CC:  Yes. Big Brother is watching.
 CC:  13 - -
 
 [01:09:52:51]
-CMP: I can just see EECOM telling [glossary:FIDO].
+CMP: I can just see [glossary:EECOM] telling [glossary:FIDO].
 
 [01:09:53:03]
 CC:  Yes. You really have to watch that pair, all
@@ -7576,7 +7576,7 @@ CC:  Stand by 1 on the E-memory dump, Jack. I think
 CMP: Okay.
 
 [01:12:47:12]
-CC:  And EECOMM says that as soon as you stir your
+CC:  And [glossary:EECOM] says that as soon as you stir your
      cryos, request you go back to AUTO on that one
      tank.
 
@@ -7648,7 +7648,7 @@ CC:  Okay, Jim. If we need you, we'll send a crew
      tonight on the BIOMED. Is that you?
 
 [01:13:12:03]
-CDR: Yes. I'll he on the BIOMED.
+CDR: Yes. I'll be on the BIOMED.
 
 [01:13:12:09]
 CC:  Okay. We copy, and you're spoiling my good
@@ -7807,7 +7807,7 @@ CC:  So it's no problem. You're above nominal on all
      your consumables. On the H<sub>2</sub> tank problem, we
      have a procedure that we'd like you to carry out
      which is simply turning the H<sub>2</sub> tank 2 heaters
-     to OFF at this time s and we want to see whether
+     to OFF at this time, and we want to see whether
      that won't solve the problem of the tank pressure
      setting off caution and warning. We want to look
      at it that way for a few hours.
@@ -7901,7 +7901,7 @@ CC:  Okay. I've got some details on the flight plan
      minute. Okay. Then you - we want to move the
      battery charge up 3 hours to about [time:02:04:30:00|52:30]. And
      we want to move the - moving the [glossary:LM] tunnel vent
-     valve to [glossary:LM]/[glossary:CM] DELTA-P up B hours to [time:02:04:45:00|52:45], and
+     valve to [glossary:LM]/[glossary:CM] DELTA-P up 3 hours to [time:02:04:45:00|52:45], and
      at that point you can simply go to the 57-hour
      point in the flight plan and change your number
      from 57 hours to 54 hours and start through that.
@@ -8094,7 +8094,7 @@ CC:  Okay, Jack. What they'd like you to do on this
      [glossary:P52], they'd like you to just observe the shaft
      readout, and see if the jitter occurs on your
      direct readout there, and also they'd like you
-     to briefly call up a [glossary:VERB 16], NOUN 91 so we
+     to briefly call up a [glossary:VERB 16], [glossary:NOUN 91] so we
      can look at the shaft and trunnion angles.
 
 [01:23:58:11]
@@ -8229,7 +8229,7 @@ CMP: Okay, Joe. I've started into [glossary:P52] here. I've
 
 [02:01:01:47]
 CC:  Okay. Roger that, Jack. We're looking at it,
-     and I'll give you a mark as soon as G&C is happy.
+     and I'll give you a mark as soon as [glossary:GNC] is happy.
 
 [02:01:01:55]
 CMP: Okay. Real fine.
@@ -8343,7 +8343,7 @@ CMP: Okay. At the time we entered it there, we were
      on the roll angle.
 
 [02:01:43:40]
-CC:  Okay. Let me have G&C comment on that. I suspect that the roll angles we gave you were calculated for exactly 90 degrees pitch, and you're
+CC:  Okay. Let me have [glossary:GNC] comment on that. I suspect that the roll angles we gave you were calculated for exactly 90 degrees pitch, and you're
      probably wobbling enough that they're not exactly
      correct.
 
@@ -8430,7 +8430,7 @@ CC:  Okay. That's the configuration we want you in,
      get about a 3-percent unbalance over the next
      10 hours; and prior to sleep, we'll call you to
      reverse the configuration again. Now the only
-     disadvantage here is that, during tile day, you
+     disadvantage here is that, during the day, you
      will probably get a few CAUTION AND WARNINGS,
      and we just figured it would be better to get
      them now than while you were sacked out. Over.
@@ -8440,7 +8440,7 @@ CDR: I'll buy that 100 percent.
 
 [02:01:51:37]
 CC:  Okay. Good deal. One other detail
-     for you, Jack; G&C tells us that the OPTICS
+     for you, Jack; [glossary:GNC] tells us that the OPTICS
      jitter is very similar to what we had on
      Apollo 12. It's no problem, but when you're not
      using the OPTICS, we recommend that you turn the
@@ -8554,7 +8554,7 @@ CC:  Jim, Houston. Did you read that last?
 LMP: Okay, Joe. I 'm on OMNI C now. How do you read?
 
 [02:02:30:47]
-CC:  13, Houston. You're loud and clear now. INCO
+CC:  13, Houston. You're loud and clear now. [glossary:INCO]
      tells me he's having a little problem at Goldstone
      and wants me to stand by for a minute.
 
@@ -8569,7 +8569,7 @@ CC:  You're still loud and clear on - on D, Fred.
      Stand by 1.
 
 [02:02:31:14]
-LMP: Okay. i'll put her back to OMNI B if you all
+LMP: Okay. I'll put her back to OMNI B if you all
      want to take command again?
 
 [02:02:31:49]
@@ -8578,7 +8578,7 @@ LMP: And the last thing we heard, Joe, was that the
 
 [02:02:31:56]
 CC:  Okay. That's the last thing I passed up. And
-     while we're waiting for INCO to decide here, let
+     while we're waiting for [glossary:INCO] to decide here, let
      me continue. The deadband that is considered
      acceptable is between 660 and 770 psi. In other
      words, any rise time that'll give you one - a
@@ -8610,7 +8610,7 @@ LMP: Okay. How do you read on OMNI C, now?
 
 [02:02:33:48]
 CC:  Okay. You're loud and clear on OMNI C. Stand by
-     1 while we get INCO synced up.
+     1 while we get [glossary:INCO] synced up.
 
 [02:02:34:00]
 LMP: Okay. The rest of your update was that it's okay
@@ -8659,7 +8659,7 @@ CC:  Okay. Step 6, "Transfer to [glossary:LM] power (floodlights
 [02:02:37:08]
 LMP: Okay, Joe. I've created a new page here called
      TLC-1A, item 6, Transfer to [glossary:LM] power and the usual
-     check that the floodlight's blank and that I 'ye
+     check that the floodlight's blank and that I've
      got the CAUTION WARNING POWER light ON; I get a
      [glossary:GET] from Jack, and I will pass that on down to
      you. Item 7, CIRCUIT BREAKER [glossary:EPS] TRANSLUNAR BUS
@@ -8693,7 +8693,7 @@ CC:  13, Houston. Loud and clear. What OMNI you on
 
 [02:02:40:28]
 LMP: I'm going to stay OMNI B, if you all want to take
-     command back and you can let INCO jockey them
+     command back and you can let [glossary:INCO] jockey them
      around between B and D. And how many steps we
      got, so I know whether to write big or small here,
      Joe?
@@ -8818,7 +8818,7 @@ LMP: Stand by. I've got to find some more blank paper.
 [02:02:49:01]
 _page : 147
 _tape : Tape 33/6
-CC:  Yes. This is going to be, page TLC-3, but it's
+CC:  Yes. This is going to be page TLC-3, but it's
      very short.
 
 [02:02:49:25]
@@ -8836,9 +8836,9 @@ LMP: All right. Go ahead.
 [02:02:50:26]
 CC:  Roger. We'll hold off on that. It was a short
      three-step procedure which said, "Repeat activation pages 
-     1, 1A, and 2, "but there was another
+     1, 1A, and 2," but there was another
      step in it that nobody understands. So, essentially what 
-     we'd recommend in that ease would be
+     we'd recommend in that case would be
      that you would repeat the procedure that we just
      passed up for reading the SUPERCRIT pressure. If
      we need to, we'll clarify it later on. And that's
@@ -8874,7 +8874,7 @@ CDR: Go ahead, Houston.
 
 [02:03:07:08]
 CC:  Roger, 13. Because of the O<sub>2</sub> tank 2 quantity
-     sensor drop out, EECOM wants to keep a little
+     sensor drop out, [glossary:EECOM] wants to keep a little
      closer track of the cryo quantities, and he's
      going to be asking you to stir all the cryo tanks
      at slightly more frequent intervals than had been
@@ -8934,7 +8934,7 @@ CDR: I said I'd like to invite you to the horse races
      with me.
 
 [02:04:08:41]
-CC:  Right. We'll - We'll send EECOMM.
+CC:  Right. We'll - We'll send [glossary:EECOM].
 
 [02:04:16:55]
 LMP: Well, it's time for a little grits again here, Vance.
@@ -9530,7 +9530,7 @@ CDR: Roger, Houston. What we plan to do for you
      you a little bit of the landing vehicle, and
      your TV operator is now resting on the center
      couch, looking at Fred Haise, whose head is now
-     Just about at the beginning of the tunnel, and
+     just about at the beginning of the tunnel, and
      his back is against the lower-equipment-bay
      optical area. And Fred will now transport himself into the tunnel, and into the spaceship
      Aquarius.
@@ -9595,7 +9595,7 @@ _page : 160
 _tape : Tape 36/6
 CC:  Roger, Fred. We see it. The picture's coming
      through real good, and your description is good.
-     We see Jim's got the camera oriented the way wa
+     We see Jim's got the camera oriented the way we
      like to look at it. So, keep talking.
 
 [02:07:20:05]
@@ -9666,7 +9666,7 @@ LMP: Okay, what I have out now, Jack, is LEVVA, which
      now you can see one other MOD here too, Jack,
      which I hadn't really seen myself before. I
      guess on 12, Pete and A1 had commented about
-     the - commented about having trouble with sunlight in the eyes, so on our LEWAs they put on
+     the - commented about having trouble with sunlight in the eyes, so on our LEVVAs they put on
      a new center section which you can pull down
      and use sort of like a baseball cap.
 
@@ -9713,8 +9713,8 @@ CC:  Okay. And we're getting a good picture of the
 _page : 162
 CMP: Hey, Jack, one question on the command module
      here. Do I - I have the [glossary:DAP] right now wide deadband. 
-     Do you want me to begin setting up nar
-     deadband and nulling the rates to start [glossary:PTC]
+     Do you want me to begin setting up narrow
+     deadband and nulling the rates to start [glossary:PTC] again?
 
 [02:07:26:47]
 CC:  Stand by, Jack.
@@ -9728,7 +9728,7 @@ LMP: What I'm fishing out now, Jack, is another new
 CDR: What Fred is opening up - is a drink bag
      that we place inside of our neckring that will
      allow us to drink while we are on the lunar surface. 
-     They - Pete and A1 - did not have that on
+     They - Pete and Al - did not have that on
      Apollo 12 and they, consequently, got very
      thirsty. But we hope to alleviate that situation
      by having our own little bag of water which, with
@@ -9802,10 +9802,11 @@ CDR: Jack, we can't center it up any more, because
      rest of that blackness you see is really space.
 
 [02:07:32:11]
+_comment : "D-10 corrected to detent from original transcript"
 LMP: Okay. We'll try another one, and it's a little
      better centered. In fact, the only other one we
      have that shows the whole picture. We're in the
-     forward D-10 of the [glossary:AOT] now, position 2, and you
+     forward detent of the [glossary:AOT] now, position 2, and you
      should be seeing something familiar like a radar
      antenna.
 
@@ -9878,7 +9879,7 @@ LMP: And for the benefit of those that may wonder
 CDR: And now while Fred's taking his hammock down and
      restowing it, I might give you some idea of what
      sort of confusion of attitudes since there is no
-     up or down, and I 'm situated on top of the ascent
+     up or down, and I'm situated on top of the ascent
      engine just at the entrance to the tunnel. I'll
      reverse the camera 180 degrees and go from Fred,
      look through the tunnel again back at Odyssey,
@@ -10127,7 +10128,7 @@ CDR: Okay. And we're looking at our S - SERVICE
      MODULE [glossary:RCS] HELIUM 1. We have - B is barber poled
      and D is barber poled, HELIUM 2, D is barber
      pole, and SECONDARY PROPELLANTS, I have A and C
-     barber pole. BMAG temperatures?
+     barber pole. [glossary:BMAG] temperatures?
 
 [02:07:58:07]
 LMP: Okay, AC 2 is showing zip. I'm going to try to
@@ -10172,7 +10173,7 @@ LMP: Okay, Houston. Are you still reading 13?
 [02:08:03:20]
 _page : 169
 _tape : Tape 36/15
-CC:  That's affirmative. We're reading you. We're,
+CC:  That's affirmative. We're reading you. We're
      trying to come up with some good ideas here for you.
 
 [02:08:03:29]
@@ -10202,7 +10203,7 @@ CC:  13, Houston. We'd like you to verify couple of
      pressure on fuel cell 1. We need the oxygen pressure on fuel cell 2.
 
 [02:08:05:46]
-LMP: Okay. Nitrogen on 1 and oxygen on 2. Is that correct ?
+LMP: Okay. Nitrogen on 1 and oxygen on 2. Is that correct?
 
 [02:08:05:50]
 CC:  Negative. Oxygen on 3.
@@ -10365,10 +10366,10 @@ CC:  Stand by 1, Fred.
 [02:08:22:15]
 CMP: Okay, Jack, and on this page 1-5, we proceeded
      right down the list, all the way down; we're
-     right now at BMAG number 2 is in WARM UP.
+     right now at [glossary:BMAG] number 2 is in WARM UP.
 
 [02:08:22:26]
-CC:  Roger. We copy BMAG 2 in WARM UP. We'll follow
+CC:  Roger. We copy [glossary:BMAG] 2 in WARM UP. We'll follow
      you through.
 
 [02:08:22:31]
@@ -10464,11 +10465,11 @@ CC:  Affirmative.
 
 [02:08:33:37]
 CC:  13, this is Houston. We'd like to power down
-     just a little bit more, so let's get BMAG 2 OFF;
+     just a little bit more, so let's get [glossary:BMAG] 2 OFF;
      and make sure your lights are down. Over.
 
 [02:08:33:49]
-CDR: Okay. The lights are down, and BMAG 2's going
+CDR: Okay. The lights are down, and [glossary:BMAG] 2's going
      from STANDBY to OFF.
 
 [02:08:34:27]
@@ -10622,18 +10623,18 @@ CMP: I'm still getting some rates in negative pitch,
 CC:  Roger.
 
 [02:08:46:28]
-CC:  And, 13, we'd like to verify that both BMAGs are
+CC:  And, 13, we'd like to verify that both [glossary:BMAG]s are
      off, please.
 
 [02:08:46:35]
-CMP: Negative. We just have one BMAG. BMAG number 1
+CMP: Negative. We just have one [glossary:BMAG]. [glossary:BMAG] number 1
      is still on.
 
 [02:08:46:43]
-CC:  Okay, Jack. Let's take BMAG i off.
+CC:  Okay, Jack. Let's take [glossary:BMAG] 1 off.
 
 [02:08:46:50]
-CMP: Okay. BMAG number 1 off now.
+CMP: Okay. [glossary:BMAG] number 1 off now.
 
 [02:08:48:06]
 CC:  13, this is Houston. We'd like you to give us a
@@ -10821,7 +10822,7 @@ CDR: Okay. Fuel cell 3 REACs off, Houston.
 CC:  Roger, Jim. Thank you.
 
 [02:09:01:54]
-CMP: Okay, Jack. Step 2, special subroutine I for the
+CMP: Okay, Jack. Step 2, special subroutine 1 for the
      fuel cell procedure, has been completed.
 
 [02:09:02:01]
@@ -10885,7 +10886,7 @@ CMP: All right. Okay. Do you want some readings from
      the systems test meter regarding fuel cells?
 
 [02:09:09:45]
-CC:  Stand by 1 on that, Jack. Let me ask the EECOM.
+CC:  Stand by 1 on that, Jack. Let me ask the [glossary:EECOM].
 
 [02:09:09:46]
 CMP: We've got some incompatibilities here.
@@ -10900,9 +10901,10 @@ _tape : Tape 39/2
 CDR: Okay. 1 and 3 coming up.
 
 [02:09:10:14]
+_comment : "seems like last reading should be 2-B, not 2-D as shown in original transcript -- not changed"
 LMP: Okay. Jack, 1-A is reading, lower scale, 0; 1-B
      is reading. 3.45. Okay. You only want fuel cells
-     1 and 3. Okay. Ignore that, 1-B reading. 1-C is
+     1 and 3. Okay. Ignore that 1-B reading. 1-C is
      reading 3.4. Now, 1-D is reading 2.4. 2-D is reading 0.25.
 
 [02:09:11:09]
@@ -10944,7 +10946,7 @@ CC:  13, Houston. We're going to have to have you go
 
 [02:09:15:24]
 CMP: Okay. Well, what bus configuration - What main
-     bus do you want powered.?
+     bus do you want powered?
 
 [02:09:15:36]
 CC:  Okay, Jack. We want you to leave the bus configuration as it is. Fuel cell 2 on MAIN A, and
@@ -11046,7 +11048,7 @@ LMP: Okay.
 [02:09:20:55]
 CMP: Okay, Jack. When we got the loud bang, we got
      also a restart. Did you copy that? Is - does
-     GUIDO want anything, a [glossary:VERB 74] or anything done
+     [glossary:GUIDO] want anything, a [glossary:VERB 74] or anything done
      with the CMC?
 
 [02:09:21:06]
@@ -11139,7 +11141,7 @@ CC:  13, Houston. We see the PROP ISOL valve on RCS
 
 [02:09:32:30]
 CDR: You want to isolate the AUTO [glossary:RCS] features in
-     quad Charlie ?
+     quad Charlie?
 
 [02:09:32:33]
 CC:  Affirmative.
@@ -11294,7 +11296,7 @@ CC:  It's just four lines. Go to Activation 1, do
      do step 1. Do you copy?
 
 [02:09:43:54]
-CDR: Okay. Is that Activation 17 Do step 3. Is
+CDR: Okay. Is that Activation 1? Do step 3. Is
      that correct?
 
 [02:09:43:59]
@@ -11336,7 +11338,7 @@ CDR: DEMAND REGs to CABIN. Roger.
 
 [02:09:45:31]
 CDR: Jack, was that Activation 1, step 3 only,
-     or all of Activation 17
+     or all of Activation 1?
 
 [02:09:45:38]
 CC:  That's go all the way down to step 3, Jim.
@@ -11683,7 +11685,7 @@ CC:  Okay, Jim. I think I'm reading Jack, now. But
 [02:10:14:19]
 CMP: That's just about 80 - in fact, 82 hours out of
      the two primary cartridges. That's two guys.
-     is what LC8 got. That would be 88 hours. We got
+     44 is what LC8 got. That would be 88 hours. We got
      a secondary. You're right. We're listening.
 
 [02:10:14:41]
@@ -12355,9 +12357,10 @@ LMP: Okay. Jim's going to be in trouble in our present
 CDR: Wait 1.
 
 [02:10:48:29]
+_comment : "correct typo in original transcript, last word now instead of not"
 LMP: What have you got? How much you got left in
      battery A? Okay. I wish I knew what the hell
-     they were thinking right not ... - -
+     they were thinking right now ... - -
 
 [02:10:48:51]
 CDR: They're talking about powering down and doing
@@ -12593,7 +12596,7 @@ LMP: Okay. Go ahead.
 
 [02:11:01:57]
 CC:  Okay. The purpose is a pericynthion plus 2 hours
-     [glossary:DPS] abort. NOUN 33: [time:03:07:25:26|079:25:26.48]; plus 1633.0,
+     [glossary:DPS] abort. [glossary:NOUN 33]: [time:03:07:25:26|079:25:26.48]; plus 1633.0,
      minus 0014.5, minus 0751.5; apogee not applicable,
      perigee is plus 0020.5; 1797.7, 8:35, 268, 264,
      plus 16410, minus 00145, minus 07338. [glossary:COAS] is
@@ -13198,7 +13201,7 @@ CC:  Okay, Fred. You're loud and clear.
 LMP: I wish you were.
 
 [02:12:02:30]
-CC:  Fred, go to DESCENT O<sub>2</sub>
+CC:  Fred, go to DESCENT O<sub>2</sub>.
 
 [02:12:02:35]
 LMP: DESCENT O<sub>2</sub>. Roger.
@@ -13855,7 +13858,7 @@ CDR: That's affirm.
 
 [02:12:53:09]
 CC:  Okay. Here we go. The purpose is midcourse
-     correction for free return. NOUN 33: [time:02:13:29:42|061:29:42.84];
+     correction for free return. [glossary:NOUN 33]: [time:02:13:29:42|061:29:42.84];
      minus 0021.3, plus 0004.1, minus 0031.2; HA and
      HP are NA; DELTA-V 0038.0; 031, 120, 298,
      minus 00213, plus 00041, minus 00312; [glossary:COAS] NA.
@@ -13865,12 +13868,12 @@ CC:  Okay. Here we go. The purpose is midcourse
      ullage will be two jets for 10 seconds.
 
 [02:12:54:57]
-LMP: Okay, Jack, we have a [glossary:P30] maneuver pad, a midcourse for free return. NOUN 33: [time:02:13:29:42|061:29:42.84];
+LMP: Okay, Jack, we have a [glossary:P30] maneuver pad, a midcourse for free return. [glossary:NOUN 33]: [time:02:13:29:42|061:29:42.84];
      minus 0021.3, plus 004.1, minus 0031.2; HA and
      HP N/A; DELTA-V<sub>R</sub> 0038.0; 031, 120, 298;
      minus 00213, plus 00041, minus 00312. [glossary:COAS] N/A;
      GDA angles; pitch 5.86, roll 6.75; [glossary:DPS] throttle
-     5 seconds at 10 percent; burn the rest at 40 percent. And we need a two-Jet, 10-second ullage.
+     5 seconds at 10 percent; burn the rest at 40 percent. And we need a two-jet, 10-second ullage.
 
 [02:12:56:02]
 _page : 225
@@ -15017,7 +15020,7 @@ CC:  That's affirmative, Jim. And then we're going to
 CDR: Okay.
 
 [02:15:29:02]
-CC:  And you'll need VERB 77 with ATT HOLD when you get
+CC:  And you'll need [glossary:VERB 77] with ATT HOLD when you get
      there.
 
 [02:15:29:08]
@@ -15278,7 +15281,7 @@ CC:  Aquarius, we're finished with the uplink. The
 
 [02:15:52:18]
 CDR: Okay. We've opened up the UPDATA LINK, and we've
-     gone OFF of DATA, and I've get 16 20 in the
+     gone OFF of DATA, and I've got 16 20 in the
      computer.
 
 [02:15:52:28]
@@ -15376,7 +15379,7 @@ CC:  And, Aquarius, Houston. We're starting to think
 [02:16:03:43]
 CDR: Roger. We're thinking of that too, and one
      problem is that the COMM is connected securely
-     to the hose, so we've got to get the COMM.cable
+     to the hose, so we've got to get the COMM cable
      off somehow to get that - So we'll still have
      COMM down here in the [glossary:LM] and you have the hose
      up there.
@@ -15870,7 +15873,7 @@ CC:  Houston, Aquarius. Did you call?
 
 [02:17:19:38]
 CDR: Negative, Houston. We did not call. How you
-     reading us ?
+     reading us?
 
 [02:17:19:42]
 CMP: Get up front and turn that antenna ...
@@ -16190,7 +16193,7 @@ CDR: Whenever I enable SQUELCH, I lose you. Over.
 CC:  Roger. Stand by. You are much better down link.
 
 [02:18:12:01]
-LMP: Look at NOUN 65.
+LMP: Look at [glossary:NOUN 65].
 
 [02:18:12:04]
 CDR: Okay.
@@ -16228,7 +16231,7 @@ CDR: The noise we're experiencing is similar to what
      we had sometime before when you switched stations.
 
 [02:18:18:56]
-CC:  Roger, Jim. INCO is checking into what we can do
+CC:  Roger, Jim. [glossary:INCO] is checking into what we can do
      about the noise. It may be a problem with the
      new site.
 
@@ -16277,7 +16280,7 @@ CDR: Go ahead.
 [02:18:36:21]
 CC:  We are going to try to improve the COMM and
      telemetry by temporarily breaking lock and reacquiring. You may hear some noise in your
-     heads et.
+     headset.
 
 [02:18:36:33]
 CDR: Okay. Couldn't be any more noise than we're
@@ -16337,7 +16340,7 @@ CDR: Go ahead, Houston.
 CC:  Okay, Jim. In order to save on an amp or 2 of
      power here, we'd like you to go to the DOWN
      VOICE BACKUP COMM configuration, which is pulling
-     the power amd circuit breaker and going to DOWN
+     the power and circuit breaker and going to DOWN
      VOICE BACKUP. If we get into a COMM problem, all
      you have to do is reverse that configuration, and
      it should be good again. Over.
@@ -16682,7 +16685,7 @@ CMP: What they're going to do is ... power Aquarius
 [02:20:40:38]
 CDR: Oh, well, we've got to have something to ...
      Besides, we can get rid of the [glossary:LM] ... decide
-     then what they' ll do.
+     then what they'll do.
 
 [02:20:40:51]
 CMP: My guess is what they'll do - Well, I guess,
@@ -16865,6 +16868,7 @@ CC:  Aquarius, Houston. Over.
 CDR: Go ahead.
 
 [02:21:20:05]
+_comment : "percise: in original transcript, typo or phonetic spelling?"
 CC:  Okay, we don't have a percise time for the
      starting of that procedure yet; we are working
      on it real hard. It won't be for several hours;
@@ -17266,7 +17270,7 @@ LMP: Okay. Let me see if I'm with you. We call up
 [03:00:32:24]
 CC:  That's affirmative; and after that, you PRO
      on that, and you come up with a flashing 0688,
-     and we'll have to load NOUN 88. And if you're
+     and we'll have to load [glossary:NOUN 88]. And if you're
      ready to copy, I have the Sun half-unit vectors
      at 74 hours [glossary:GET]. Over.
 
@@ -17288,7 +17292,7 @@ LMP: Okay. We PRO on - after entering the 200. We'll
 [03:00:33:48]
 CC:  Roger. That's good, Fred-o. And that'll bring
      you to step 8, and you get a flashing 5018 when
-     you PRO on the NOUN 88. Okay. At 5018, we want
+     you PRO on the [glossary:NOUN 88]. Okay. At 5018, we want
      to do an AUTO maneuver to - to the attitude, so
      just do the - the PRO with the GUIDANCE CONTROL,
      PNGS; MODE CONTROL, PNGS, AUTO; and we'll take
@@ -17296,7 +17300,7 @@ CC:  Roger. That's good, Fred-o. And that'll bring
      at attitude for the Sun check. Now, we're being
      a 1.4-degree deadband in this program in a
      docked configuration; so, to help you out, you
-     could call VERB 62 to get your needles - and it -
+     could call [glossary:VERB 62] to get your needles - and it -
      when the needles go through zero or null out
      and - in that deadband - then you take a look
      in the [glossary:AOT] and see how close the Sun is. And
@@ -17305,11 +17309,11 @@ CC:  Roger. That's good, Fred-o. And that'll bring
 [03:00:34:52]
 _page : 279
 _tape : Tape 48/3
-LMP: Okay. So we PRO on the NOUN 88, and we end up
+LMP: Okay. So we PRO on the [glossary:NOUN 88], and we end up
      with a flashing 5018; and you want an AUTO
      maneuver here rather than using the [glossary:TTCA], so we
      PRO with GUIDANCE, PNGS; MODE CONTROL, AUTO.
-     We've got a 1.4-degree deadband with a VERB 62
+     We've got a 1.4-degree deadband with a [glossary:VERB 62]
      will give us the needles to try to zero them in
      and, at that time I look through the [glossary:AOT] and, if
      it's like Apollo 11 Sun check, all we've got to
@@ -17333,7 +17337,7 @@ CC:  Roger. Stand by.
 
 [03:00:37:39]
 CC:  Aquarius, Houston. Fred-o, on that - to pass that
-     check, the Sun is at - will septend an arc of
+     check, the Sun is at - will subtend an arc of
      one-half degree in the [glossary:AOT], so you can be two
      diameters off and still pass the check. Over.
 
@@ -17358,7 +17362,7 @@ LMP: Okay. 31120.
 _page : 280
 _tape : Tape 48/4
 CC:  Roger. Now, if we pass that check, you can
-     Just terminate [glossary:P52] right there, and we'll give
+     just terminate [glossary:P52] right there, and we'll give
      you an attitude to go to a burn attitude, and
      from this we can get a star check. If you don't
      pass, we'd like you to do an alinement at 75 hours.
@@ -17453,14 +17457,14 @@ CC:  Stand by.
 _page : 282
 _tape : Tape 49/1
 CC:  Aquarius, Houston. On those 5018 angles we had
-     at 74 hours, Fred, that was based on a VERB 49
+     at 74 hours, Fred, that was based on a [glossary:VERB 49]
      to this attitude, and they will be incorrect for
-     for the two axis maneuvers, so you can just
+     the two axis maneuvers, so you can just
      scratch them. Over.
 
 [03:00:45:47]
 LMP: Okay. You're saying the angles you gave me for
-     the 5018, that was for a VERB 49, so they won't
+     the 5018, that was for a [glossary:VERB 49], so they won't
      be good for the 5018, and we should scratch them.
 
 [03:00:45:56]
@@ -17485,11 +17489,11 @@ LMP: Roger. I'm right up with you at step 6. Go
      ahead.
 
 [03:00:47:29]
-CC:  Okay, Fred. Good show. Step 6: [glossary:VERB 41] NOUN 72
+CC:  Okay, Fred. Good show. Step 6: [glossary:VERB 41] [glossary:NOUN 72]
      ENTER, plus all balls, plus 28300. Step 7:
-     Monitor movement with [glossary:VERB 16] NOUN 72. Step 8:
+     Monitor movement with [glossary:VERB 16] [glossary:NOUN 72]. Step 8:
      CB 11 RENDEZVOUS RADAR 2, open. Are you with
-     me ? Over.
+     me? Over.
 
 [03:00:48:13]
 LMP: Stand by 1.
@@ -17534,7 +17538,7 @@ LMP: Okay. Let's see if I got it all. For rendezvous
      RADAR 2 closed, both breakers. Then we are to
      pull the RENDEZVOUS RADAR RELEASE handle. On
      panel 3, we then want RENDEZVOUS RADAR to [glossary:LGC].
-     A [glossary:VERB 41] NOUN 72 ENTER with plus all zips,
+     A [glossary:VERB 41] [glossary:NOUN 72] ENTER with plus all zips,
      plus 28300 in registers 1 and 2. GO on that.
      Then we monitor movement with the 16 72. After
      it gets parked, CB 11 RENDEZVOUS RADAR 2 open,
@@ -17548,7 +17552,7 @@ LMP: Okay. Let's see if I got it all. For rendezvous
 
 [03:00:52:54]
 CC:  Good readback, Aquarius. We'll - To get those
-     needles on the VERB 62, we got to power up the
+     needles on the [glossary:VERB 62], we got to power up the
      commander's [glossary:FDAI]. We'll have that procedure for
      you shortly. Over.
 
@@ -17834,7 +17838,7 @@ LMP: Okay. Panel 3, check the [glossary:LGC].
 CDR: [glossary:LGC].
 
 [03:01:13:37]
-LMP: Okay. Give me a [glossary:VERB 41] NOUN 72.
+LMP: Okay. Give me a [glossary:VERB 41] [glossary:NOUN 72].
 
 [03:01:13:40]
 CDR: Still going good, right?
@@ -18005,7 +18009,7 @@ CC:  Go ahead, Jim.
 [03:01:26:13]
 CDR: Just want to get a time check with you. When
      do you want us to start powering up the ball?
-     We just got to out [glossary:PTC] attitude.
+     We just got to our [glossary:PTC] attitude.
 
 [03:01:26:21]
 CC:  Understand you'd like to know when to power
@@ -18062,7 +18066,7 @@ LMP: Okay. [glossary:SPS] ... - -
 CDR: If we don't keep working, we'll never develop it.
 
 [03:01:32:29]
-LMP: ... now, Power up your FDI.
+LMP: ... now, Power up your FDAI.
 
 [03:01:32:31]
 _page : 291
@@ -18082,7 +18086,7 @@ LMP: ... GASTA.
 CDR: Okay.
 
 [03:01:32:47]
-LMP: And COMMANDER FDI.
+LMP: And COMMANDER FDAI.
 
 [03:01:32:49]
 CDR: Okay.
@@ -18110,7 +18114,7 @@ LMP: Okay. ... ...
 [03:01:34:04]
 LMP: Okay ... on this ... vector. Okay, R<sub>1</sub> plus 45498
      ... Okay, plus 190 ..., plus 08256. Okay, now
-     we show zips ... Okay. VERB 62 ENTER. Okay.
+     we show zips ... Okay. [glossary:VERB 62] ENTER. Okay.
      ... and the main ... in AUTO ... ...
 
 [03:01:36:09]
@@ -18244,7 +18248,7 @@ CDR: Okay. Tell me what that technique is to get the
 [03:01:42:48]
 LMP: They'll have to give you AC again and you punch
      in your breaker -Well, let's see - I've still
-     got H<sub>P</sub> on for the FDIs, so you're in business
+     got H<sub>P</sub> on for the FDAIs, so you're in business
      now. All you need is the lamp breaker, the AC
      BUS A [glossary:AOT] lamp breaker, that is.
 
@@ -18389,14 +18393,14 @@ CDR: Okay. Seventy-four hours.
 
 [03:01:49:14]
 LMP: Yes. We're not there yet, really. I've got
-     ll minutes to check ... out.
+     11 minutes to check ... out.
 
 [03:01:50:05]
 LMP: Yes. Bring your ... down.
 
 [03:01:50:57]
 LMP: Get set. Keep ... It's better in here. Slow
-     nOW ...
+     now ...
 
 [03:01:51:31]
 CC:  Apollo 13, Houston.
@@ -18406,7 +18410,7 @@ CDR: Go ahead.
 
 [03:01:51:38]
 CC:  Jim, in a moment we will have an attitude for you
-     to go to, and recommend that you keep your FDI up
+     to go to, and recommend that you keep your FDAI up
      while maneuvering to that attitude. After you
      get there, then we will have you widen the deadband
      and eventually go into a [glossary:PTC] about the burn
@@ -18418,7 +18422,7 @@ CDR: You were cut off slightly, Vance.
 [03:01:52:08]
 CC:  Roger. We will have an attitude for you to
      maneuver to in a moment. And you should leave
-     your FDI up for that. The attitude is as follows
+     your FDAI up for that. The attitude is as follows
      if you are ready to copy. Over.
 
 [03:01:52:26]
@@ -18433,23 +18437,23 @@ CC:  Okay. This is [glossary:FDAI] attitudes for the maneuver.
 
 [03:01:52:59]
 CDR: Let's not read that in the R<sub>1</sub>, R<sub>2</sub>. I don't want
-     VERB 69 twice. I want VERB 49, 58g's so I can
+     [glossary:VERB 69] twice. I want [glossary:VERB 49], 58g's so I can
      fly the needle.
 
 [03:01:53:18]
 _page : 296
 _tape : Tape 49/15
-CC:  Jim. Those are not VERB 49 angles. Those are
+CC:  Jim. Those are not [glossary:VERB 49] angles. Those are
      strictly [glossary:FDAI] attitudes. Over.
 
 [03:01:53:30]
 CDR: Okay. I understand, Vance. It's much easier if
      the ball is up to fly the needles; that gives me
-     a drift of VERB 49, 58g maneuver. We could fly
+     a drift of [glossary:VERB 49], 58g maneuver. We could fly
      that manually.
 
 [03:01:53:50]
-CC:  Stand by. We'll try to get you a VERB 49 angle.
+CC:  Stand by. We'll try to get you a [glossary:VERB 49] angle.
 
 [03:01:54:06]
 LMP: Flying on maneuvers.
@@ -18474,7 +18478,7 @@ LMP: And, Vance, which - What hack you got now on GET?
 
 [03:01:56:33]
 CC:  Okay. Stand by on that, Fred. First, let me
-     read up your VERB 49 attitude, if you are really
+     read up your [glossary:VERB 49] attitude, if you are ready
      to copy.
 
 [03:01:56:45]
@@ -18487,7 +18491,7 @@ CC:  Okay. Yaw 27100, pitch 35500, roll 33000. Over.
 CDR: Ask him if you keep it in AUTO maneuver there.
 
 [03:01:57:09]
-LMP: Okay. VERB 49, yaw plus 27100, pitch plus 35500,
+LMP: Okay. [glossary:VERB 49], yaw plus 27100, pitch plus 35500,
      roll plus 33000. And do you think it's cheaper
      to manually make that maneuver or take the 0.2-degree 
      range and go in AUTO maneuver?
@@ -18504,7 +18508,7 @@ CC:  Okay. I understand you want [glossary:GET] of the burn.
      Stand by 1.
 
 [03:01:58:10]
-LMP: That's negative, Vance. What is you clock reading right now?
+LMP: That's negative, Vance. What is your clock reading right now?
 
 [03:01:58:14]
 _page : 297
@@ -18518,7 +18522,7 @@ LMP: Okay. I think we will make one last check there
      we leave this attitude.
 
 [03:01:58:36]
-CC:  Okay. And I 'm going to calculate in the 2 seconds
+CC:  Okay. And I'm going to calculate in the 2 seconds
      in giving you the time hack coming up on
      [time:03:01:59:00|73:59:00] when I give the mark. Okay. Stand by.
 
@@ -18593,7 +18597,7 @@ CDR: And, Houston, I see that this maneuver gives us
 CC:  This is Houston. Please repeat.
 
 [03:02:02:55]
-CDR: Houston, did you give us VERB 49 in yaw, pitch,
+CDR: Houston, did you give us [glossary:VERB 49] in yaw, pitch,
      and roll, or register 1, 2, and 3?
 
 [03:02:03:03]
@@ -18637,7 +18641,7 @@ CDR: I agree with you. Okay. 5018, it's there, and
      5018, and that's what it will be. Okay.
 
 [03:02:05:32]
-CC:  That's right. That's VERB 49.
+CC:  That's right. That's [glossary:VERB 49].
 
 [03:02:05:46]
 CMP: There are 25. 25, ENTER.
@@ -18690,7 +18694,7 @@ CDR: Yes.
 CDR: I don't understand why we got that.
 
 [03:02:10:30]
-CC:  Apollo 13, Houston. It looks like VERB 49
+CC:  Apollo 13, Houston. It looks like [glossary:VERB 49]
      maneuver will just take you right through there.
      You're going to have to go around it. Over.
 
@@ -18764,7 +18768,7 @@ CC:  Okay. Stand by 1. Let us look at it.
 
 [03:02:14:31]
 LMP: - - angles you gave us, Vance, aren't correlating
-     the VERB 49 numbers.
+     the [glossary:VERB 49] numbers.
 
 [03:02:14:38]
 CC:  Okay. We'll check into it.
@@ -18796,8 +18800,8 @@ CC:  As soon as you open up to that, I'll explain it.
 LMP: Okay. Go ahead, Vance.
 
 [03:02:16:42]
-CC:  Okay. Under VERB 49, crew-defined maneuver, the
-     flashing 0622 are the aagles that we gave you
+CC:  Okay. Under [glossary:VERB 49], crew-defined maneuver, the
+     flashing 0622 are the angles that we gave you
      that were loaded. The flashing 5018 actually
      represents [glossary:FDAI] angles, and so what you read on
      5018 should - -
@@ -18808,7 +18812,7 @@ _tape : Tape 49/20
 LMP: Right. I understand.
 
 [03:02:17:06]
-CC:  - - should not correspond with NOUN 22.
+CC:  - - should not correspond with [glossary:NOUN 22].
 
 [03:02:17:13]
 LMP: Yes. We appreciate that, Vance. It's just
@@ -18972,12 +18976,12 @@ CC:  Okay, that's affirm. You'll be doing the PTC
      in yaw, and we'll give you a call at each time
      you change yaw - yaw attitude. Aside from that,
      request low bit rate off; then DOWN VOICE BACKUP
-     OFF; then POWER AMPL OFF; and then FDA OFF.
+     OFF; then POWER AMPL OFF; and then FDAI OFF.
 
 [03:02:33:42]
 LMP: Okay, Vance. On the power down, we go low bit
      rate; DOWN VOICE BACKUP, we'll pull the POWER
-     AMPL breaker; and we'll power down the FDI and
+     AMPL breaker; and we'll power down the FDAI and
      the AC.
 
 [03:02:33:55]
@@ -19155,19 +19159,19 @@ CC:  Okay. That will be on CB(16), Fred-o, but
      it's INVERTER 2 OPEN. Okay, on the Mission
      Timer Activation. Do step 1, correction,
      lines 1 and 2. Omit "set mission timer on CSM
-     mark" and insert a [glossary:VERB 16], NOUN 65, set mission
+     mark" and insert a [glossary:VERB 16], [glossary:NOUN 65], set mission
      timer. Over.
 
 [03:02:57:04]
 LMP: Okay. We'll do the Mission Timer Activation
-     except we'll set it on [glossary:VERB 16], NOUN 65.
+     except we'll set it on [glossary:VERB 16], [glossary:NOUN 65].
 
 [03:02:57:11]
 CC:  Okay. Proceeding on to step, correction, page 3,
      [glossary:CWEA] checkout. Step 1, perform step 1. Warning
      lights will be ASCENT PRESS, CES AC, and CES DC.
      Under the caution lights, we may have a heater
-     light. And that' s all. Okay, perform - under
+     light. And that's all. Okay, perform - under
      the circuit breaker 16 - -
 
 [03:02:57:46]
@@ -19202,7 +19206,7 @@ LMP: Okay, Houston. Coming in loud and clear. I got
 
 [03:02:58:32]
 CC:  Okay, good. The component light, we won't have
-     the H<sub>2</sub>0 SEP. Okay, on CB(16) right under that,
+     the H<sub>2</sub>O SEP. Okay, on CB(16) right under that,
      "HEATER DISPLAY, CLOSE," you can scratch that
      out. Perform all of step 2 and perform step 4
      with the following changes. On panel 11, under
@@ -19271,7 +19275,7 @@ CC:  Roger, Fred. Good readback. Starting with
      under COMM: DISPLAY, OPEN; VHF A TRANSMITTER,
      OPEN; VHF B RECEIVER, OPEN; S-BAND ANTENNA,
      OPEN. Fourth row, under HEATERS: DISPLAY,
-     OPEN; under EPS: INVERTER 2, OPEN. And that 's
+     OPEN; under EPS: INVERTER 2, OPEN. And that's
      it. Readback. Over.
 
 [03:03:04:52]
@@ -19308,8 +19312,8 @@ CC:  Okay Fred-o. On page 12, we want the MSFN
      we'll let you know when we want to uplink. Okay.
      Under "[glossary:AGS] Activation and Self Test," perform
      the entire procedure. On page 13, under "AGS
-     Aline," do step 1; under "[glossary:DAP] Set, Gimbal/
-     Throttle Test," do step 1 with the following
+     Aline," do step 1; under "[glossary:DAP] Set, Gimbal/Throttle
+     Test," do step 1 with the following
      change. Under "THROTTLE CONTROL," we want it
      "AUTO." Over.
 
@@ -19326,12 +19330,12 @@ LMP: Okay. I'll catch up here. On page 12, you'll
 
 [03:03:07:43]
 CC:  Good readback. Turning over to page 14, step 2,
-     we want you to change the [glossary:DAP] NOUN 46 to 31021.
+     we want you to change the [glossary:DAP] [glossary:NOUN 46] to 31021.
      Then after the [glossary:NOUN 47], insert "[glossary:VERB 34], ENTER."
      Over.
 
 [03:03:08:15]
-LMP: Okay. On page 14, a [glossary:VERB 48], [glossary:DAP] load, NOUN 46
+LMP: Okay. On page 14, a [glossary:VERB 48], [glossary:DAP] load, [glossary:NOUN 46]
      changed to 31021. I assume you will give us any
      updated weights if we need any, and after the
      [glossary:NOUN 47], a "[glossary:VERB 34], ENTER." So, I - you're
@@ -19486,7 +19490,7 @@ CDR: I got it out there, but I can't get to see it
 [03:03:15:58]
 LMP: Okay, on channel - on page 18, right on down the
      line, everything holds until after "ignition";
-     "if no ignition, START puskbutton -push; still
+     "if no ignition, START pushbutton - push; still
      no ignition, DESCENT ENGINE COMMAND OVERRIDE
      switch ON."
 
@@ -19517,7 +19521,8 @@ CC:  That's negative. At this - this burn, we're
      We will verify that for you. Okay. One other
      statement: "At Engine Cutoff, if manual start,
      then at 30 feet per second to go, throttle to
-     40 percent. At DELTA-V equals zero, stop push-button, push." Over.
+     40 percent. At DELTA-V equals zero, stop pushbutton,
+     push." Over.
 
 [03:03:18:11]
 LMP: Okay, Charlie. If a manual start, that was
@@ -19611,7 +19616,7 @@ CDR: We really don't use this card at that time.
 [03:03:22:42]
 _page : 314
 _tape : Tape 50/13
-CC:  Roger, Fred-o,. Now we aren't - also at minus
+CC:  Roger, Fred-o. Now we aren't - also at minus
      30 seconds, we aren't looking at an [glossary:AGS] burn so
      you can scratch "ABORT pushbutton, push," and at
      DELTA-V equal to zero, scratch "ABORT pushbutton,
@@ -19774,7 +19779,7 @@ LMP: Okay. I'm ready to copy a [glossary:P30], a PC plus 2.
 
 [03:03:28:49]
 CC:  Okay. Okay, this is a preliminary [glossary:P30] LM
-     maneuver PC plus 2. Starting NOUN 33:
+     maneuver PC plus 2. Starting [glossary:NOUN 33]:
      [time:03:07:27:40|079:27:40.07]; plus 0819.2, minus 0020.0,
      minus 0218.9; NA; plus 0020.9, 0848.2; 420,
      274, 082; plus 0820.3, minus 0020.0, minus 0215.0.
@@ -19826,7 +19831,7 @@ CDR: What kind of a maneuver pad do you want, Vance?
 [03:03:33:54]
 CC:  This is a [glossary:CSM] maneuver pad for - to monitor
      PC plus 2. And it's going to be mainly blank
-     except I want to give you your NOUN 61 latitude
+     except I want to give you your [glossary:NOUN 61] latitude
      and longitude range to go for the [glossary:EMS] and that
      sort of thing.
 
@@ -19836,11 +19841,11 @@ LMP: Okay, go ahead.
 [03:03:34:18]
 CC:  Okay, at the top, purpose is monitor PC plus 2;
      everything is blank until you get down to
-     NOUN 61. Latitude as follows: minus 21.47,
+     [glossary:NOUN 61]. Latitude as follows: minus 21.47,
      minus 165.00; 1166.0, 36291, [time:05:22:39:20|142:39:20]. Over.
 
 [03:03:35:07]
-LMP: Okay, monitor PC plus 2 pad. NOUN 81: minus
+LMP: Okay, monitor PC plus 2 pad. [glossary:NOUN 81]: minus
      21.47, minus 165.00; 1166.0, 36291, [time:05:22:39:20|142:39:20].
 
 [03:03:35:28]
@@ -19856,7 +19861,7 @@ LMP: Okay, go ahead.
 [03:03:35:50]
 CC:  Okay, circuit breaker panel 11 UPDATA LINK,
      CLOSE; PRIMARY POWER AMPL, panel 16, CLOSE;
-     VOICE FUNCTION to VOICE; RANGE - HANGING FUNCTION
+     VOICE FUNCTION to VOICE; RANGE - RANGING FUNCTION
      to RANGING; TM bit rate, HI; and then [glossary:P00] and
      DATA.
 
@@ -20392,7 +20397,6 @@ CMP: Wait a minute, [...] holding insertion attitude.
 
 [03:04:28:38]
 LMP: Yes, we're not at the [glossary:Tig|T<sub>ig</sub>] attitude.
-     lg
 
 [03:04:28:40]
 CMP: Oh.
@@ -20451,7 +20455,7 @@ CC:  Okay. Okay. First of all, general philosophy
      after switching inverters. Are you with me?
 
 [03:04:32:52]
-LMP: Roger
+LMP: Roger.
 
 [03:04:32:54]
 _page : 326
@@ -20573,7 +20577,7 @@ CDR: What?
 
 [03:04:40:39]
 LMP: Okay. One word is that the - In an optimum
-     fashion there, going through that 2-hour activation generally took somewhere from about an hour
+     fashion there, going through that 2-hour activation generally took sonewhere from about an hour
      and 15 to an hour 20.
 
 [03:04:40:56]
@@ -20632,7 +20636,7 @@ LMP: Okay. [glossary:LOS] at [time:03:05:08:35|77:08:35], [glossary:AOS] at [tim
 [03:04:44:13]
 CC:  Roger. We'll get back with you on the powerup
      time and, if you're ready to copy, have angles
-     to load into NOUN 22 for your VERB 49 maneuver
+     to load into [glossary:NOUN 22] for your [glossary:VERB 49] maneuver
      to burn attitude. Over.
 
 [03:04:44:35]
@@ -20650,7 +20654,7 @@ CC:  Okay. R<sub>1</sub> plus 27210, R<sub>2</sub> plus 35570, R<sub>3</sub> plu
 [03:04:45:47]
 _page : 329
 _tape : Tape 51/10
-LMP: Okay. VERB 49, register 1, plus 27218; register 2, plus 35570; register 3, plus 33010; and
+LMP: Okay. [glossary:VERB 49], register 1, plus 27218; register 2, plus 35570; register 3, plus 33010; and
      to get the narrow deadband back we want a
      [glossary:VERB 21], NOUN 01, ENTER, 3011, ENTER, 200 ENTER.
 
@@ -20734,7 +20738,7 @@ CDR: Go ahead, Houston.
 
 [03:04:50:08]
 CC:  Jim, we recommend you go ahead and make your
-     VERB 49 maneuver, but just stay there in VERB 49
+     [glossary:VERB 49] maneuver, but just stay there in VERB 49
      and don't go ahead to narrow the deadband just
      yet. And, when you're in that attitude, why,
      of course, then you can make your star check.
@@ -20743,8 +20747,8 @@ CC:  Jim, we recommend you go ahead and make your
      fine with us.
 
 [03:04:50:40]
-CDR: Okay. At this time, I'll start my VERB 49
-     maneuver, but will not narrow the deadhand, and
+CDR: Okay. At this time, I'll start my [glossary:VERB 49]
+     maneuver, but will not narrow the deadband, and
      we will take a look at Nunki. Okay, Vance.
 
 [03:04:50:52]
@@ -20797,7 +20801,7 @@ CDR: Yes. I can just barely see it. I see Antares
      much better.
 
 [03:04:54:37]
-CDR: Why is the wide deadhand on? Stand by. Is -
+CDR: Why is the wide deadband on? Stand by. Is -
      Is Scorpio moving down?
 
 [03:04:55:20]
@@ -20939,7 +20943,7 @@ _tape : Tape 52/1
 CDR: Good morning, Houston. How do you read?
 
 [03:05:34:37]
-CC:  Aquarius, Houston. Ovar.
+CC:  Aquarius, Houston. Over.
 
 [03:05:34:42]
 CDR: Stand by for [glossary:AOS].
@@ -20964,7 +20968,7 @@ CMP: Okay. I read you loud and clear, ...
 CC:  Roger.
 
 [03:05:38:34]
-LMP: Jacks why don't you get the other ...
+LMP: Jack, why don't you get the other ...
 
 [03:05:39:23]
 CDR: Well, go this way.
@@ -21152,7 +21156,7 @@ CDR: Okay. Go ahead with the ...
 [03:05:55:24]
 _page : 336
 _tape : Tape 52/4
-CC:  Okay. This is [glossary:P30], IN maneuver pad, PC
+CC:  Okay. This is [glossary:P30], LM maneuver pad, PC
      plus 2 hours, starting with [glossary:NOUN 33], [time:03:07:27:38|079:27:38.30],
      plus 0833.0, minus 0050.9, minus 0213.9, N/A,
      plus 0020.5, 0861.5, 4:24, 272, 081, and the
@@ -21209,7 +21213,7 @@ CMP: Okay. Go ahead.
 
 [03:06:00:58]
 CC:  Okay, Fred-o. This is maneuver pad monitor PC
-     plus 2 hours; all N/A until you get to NOUN 61,
+     plus 2 hours; all N/A until you get to [glossary:NOUN 61],
      latitude minus 21.65, minus 165.00, 1163.5,
      36292, [time:05:22:39:22|142:39:22]. Over.
 
@@ -21220,7 +21224,7 @@ CMP: Monitor plane change plus 2; [glossary:NOUN 81] minus 21.65
      minus 165.00, 1163.5, 36292, [time:05:22:39:22|142:39:22].
 
 [03:06:02:06]
-CC:  Roger. That was starting with NOUN 61, and that's
+CC:  Roger. That was starting with [glossary:NOUN 61], and that's
      correct.
 
 [03:06:02:25]
@@ -21397,7 +21401,7 @@ CDR: Go ahead, Houston.
 
 [03:06:36:16]
 CC:  Jim, just a bit of information, if for any reason
-     you had to slip [glossary:Tig|T<sub>ig</sub>] , our people here feel it
+     you had to slip [glossary:Tig|T<sub>ig</sub>], our people here feel it
      wouldn't do much harm if you slipped it up to
      30 minutes. The procedure, of course as you
      know, is not to PRO on the flashing 99 and we
@@ -21487,7 +21491,7 @@ CC:  According to calculations - calculations, you
 CDR: Okay, Houston. I concur. I'm looking at 14 on the
      [glossary:LPD] and the angle is just about centered. It's
      south of Crisium, but its - The line is just
-     slightly to the north cf center.
+     slightly to the north of center.
 
 [03:07:08:08]
 CC:  Okay, Jim. That sounds very good. We see that
@@ -21572,7 +21576,7 @@ CC:  Aquarius, you're GO at 3 minutes.
 CDR: Aquarius. Roger.
 
 [03:07:31:46]
-CC:  Don't forget DESCENT RFG 1, off; 10 seconds to go.
+CC:  Don't forget DESCENT REG 1, off; 10 seconds to go.
 
 [03:07:32:05]
 CDR: SHUTDOWN.
@@ -21686,8 +21690,8 @@ CDR: Go ahead, Houston.
 [03:07:42:26]
 CC:  Okay. We're ready to give you the procedure
      which will power you down a good bit, and
-     after the [glossary:PTC] is goings maybe we can give you
-     further information, ire you ready to copy?
+     after the [glossary:PTC] is going, maybe we can give you
+     further information, are you ready to copy?
      Starting at the middle of the page, power 5.
 
 [03:07:42:48]
@@ -21716,7 +21720,7 @@ CC:  Okay. After number 1, first line, cross out
 
 [03:07:44:48]
 LMP: Okay. On power 5, emergency powerdown. Item 1,
-     first line, I scratch the "And VItF-A." Second
+     first line, I scratch the "And VHF-A." Second
      line "SIMPLEX operation." Third line, I replace
      the second prime which is the POWER AMP with an
      "OFF," and the last word in that line is "OFF,"
@@ -21730,17 +21734,17 @@ LMP: Okay. On power 5, emergency powerdown. Item 1,
 [03:07:45:31]
 CC:  Okay. Power 6. Okay. Power 6 refers to panel 11.
      You should go per the chart with the exception of
-     those breakers that I :all out. First line is
+     those breakers that I call out. First line is
      okay. Or, let's say, first row. Second row,
      QUAD 4, TCA, closed; QUAD 3, TCA, closed; QUAD 2,
-     TCA, closed; and QUAD L, TCA, closed. The rest
+     TCA, closed; and QUAD 1, TCA, closed. The rest
      of that row is okay. Row 3, about halfway over,
      ATCA (PGNS), closed. Okay. The rest of that
      line is okay. Fourth line, HEATER - stand by.
      Okay. That line is all okay with the exception
      of the last three circuit breakers, Fred, under
      [glossary:PGNS], which is [glossary:LGC] [glossary:DSKY], [glossary:IMU] STANDBY, IMU
-     OPERATE. Those three should be closea, at least
+     OPERATE. Those three should be closed, at least
      for the time being. And finally, the fifth line;
      it's okay as is. And would you give me a readback on that?
 
@@ -21930,11 +21934,11 @@ LMP: And one other question, Houston. You really want
      for good now, huh?
 
 [03:07:57:33]
-CDR: Houston, I'm standing by to copy the [glossary:PTC] procedures
+CDR: Houston, I'm standing by to copy the [glossary:PTC] procedures.
 
 [03:07:57:39]
 CC:  Okay. I'll get back with you on your question
-     in a minute, Fred. New, here comes the PTC
+     in a minute, Fred. Now, here comes the PTC
      procedure. Step 1, GUIDANCE CONTROL to PGNS;
      two MODE CONTROL, ATT HOLD; [glossary:VERB 76], ENTER;
      maneuver to [glossary:PTC] attitude; and that incidentally
@@ -21960,8 +21964,8 @@ CC:  That's correct. Okay. Next. Mode - at - When
      when less than 0.1 degree a second, rate in all -
      in each axis, then disable plus-X thrusters.
      Okay. Next [glossary:VERB 25], [glossary:NOUN 07], ENTER; 1257, ENTER;
-     252, ENTER; 1, ENTER; VERB 77, ENTER; [glossary:VERB 48],
-     ENTER; put in the DAR 22110 and PROCEED; [glossary:VERB 34],
+     252, ENTER; 1, ENTER; [glossary:VERB 77], ENTER; [glossary:VERB 48],
+     ENTER; put in the DAP 22110 and PROCEED; [glossary:VERB 34],
      ENTER; then [glossary:VERB 16], NOUN 20; and monitor rates.
      On rates less than 0.01 degrees per second in all
      axis: [glossary:VERB 76], ENTER; MODE CONTROL, ATT HOLD;
@@ -21978,7 +21982,7 @@ CDR: Okay, Vance. [glossary:PTC] procedure: GUIDANCE CONTROL,
      rates; rates less that 1 degree per second in
      each axis, disable, and I didn't hear that last
      part. The next one was [glossary:VERB 25], [glossary:NOUN 07], ENTER;
-     1257, ENTER; 252, ENTER; 1, ENTER; VERB 77, ENTER;
+     1257, ENTER; 252, ENTER; 1, ENTER; [glossary:VERB 77], ENTER;
      [glossary:VERB 48], ENTER; 22110, PROCEED; [glossary:VERB 34], ENTER;
      [glossary:VERB 16], [glossary:NOUN 20], ENTER; monitor rates. Rates less
      than 0.01 degrees per second in all axis. [glossary:VERB 76],
@@ -21988,17 +21992,17 @@ CDR: Okay, Vance. [glossary:PTC] procedure: GUIDANCE CONTROL,
 [03:08:03:04]
 CC:  Roger. That's correct, Jim. To - to answer your
      questions and correct one point, yaw should be 
-     your present yaw, whatever it is, an
+     your present yaw, whatever it is, and that's up
      with roll 0, pitch 90, present yaw. The other
      thing is, you said disable and you didn't hear
-     the rest. That's disable plus-X thrusters. And.
+     the rest. That's disable plus-X thrusters. And,
      finally, near the end, the 22110 referred to
      [glossary:DAP] loading.
 
 [03:08:03:48]
 _page : 349
 _tape : Tape 53/9
-CDR: Rogr. Now, to maneuver to [glossary:PTC] roll 0, pitch 90
+CDR: Roger. Now, to maneuver to [glossary:PTC] roll 0, pitch 90
      and yaw in - and pitch in here, roll is here.
      Yaw - whatever yaw we have in. Okay, Vance.
      In our initial maneuver to [glossary:PTC] attitude, I am going
@@ -22008,7 +22012,7 @@ CDR: Rogr. Now, to maneuver to [glossary:PTC] roll 0, pitch 90
 [03:08:05:01]
 CC:  Jim, Roger. Your use of the TC - [glossary:TTCA] and just a
      reminder that in maneuvering that - that - that
-     roll is in R<sub>3</sub> and yaw is in R<sub>1</sub>
+     roll is in R<sub>3</sub> and yaw is in R<sub>1</sub>.
 
 [03:08:05:17]
 CDR: That's affirm. And I'm going to take out roll
@@ -22020,7 +22024,7 @@ CC:  Okay.
 
 [03:08:06:07]
 CDR: Okay. GUIDANCE CONTROL, PGNS; MODE CONTROL to
-     ATT HOLD. [glossary:VERB 73] clears. Okay. We've got to
+     ATT HOLD. VERB 73 clears. Okay. We've got to
      get that out. ...  it stopped moving.
 
 [03:08:06:54]
@@ -22033,7 +22037,7 @@ CDR: ... the battery. ...
 CDR: Do you know what the plus-X thrusters are?
 
 [03:08:08:41]
-CDR: Yes, okay. I just wanted to make sure you do.. I
+CDR: Yes, okay. I just wanted to make sure you do. I
      got them over here.
 
 [03:08:08:55]
@@ -22156,7 +22160,7 @@ CDR: Well, you can see where - -
 LMP: You almost can see - -
 
 [03:08:19:57]
-CDR: - - See Ptolemaeus, Althonsus - There's Herschel
+CDR: - - See Ptolemaeus, Althonsus - There's Herschel.
 
 [03:08:20:13]
 LMP: Yes, you can barely see it in the corner there.
@@ -22172,17 +22176,17 @@ CC:  Okay. Just some info. We're working up a procedure
      for you to use to - to use command module
      LiOH canisters to connect to your hoses - the
      outlet hoses in the [glossary:LM] so that, as time passes
-     in the mission, you car continue scrubbing the.
+     in the mission, you can continue scrubbing the
      [glossary:LM] atmosphere. And this whole thing requires
      modifying a kit so that you can attach the hose
-     modifying a LiOH canister, so you can attach the,
+     modifying a LiOH canister, so you can attach the
      hose to it. So, sometime in the future, we will
      be coming up to you with that procedure. Second
      point - Second point in, we're standing by to
      watch your maneuver for the [glossary:PTC] procedure. Over.
 
 [03:08:21:16]
-CDR: Okay. I'm in process row, Vance, of maneuvering
+CDR: Okay. I'm in process now, Vance, of maneuvering
      to zero yaw, 90-degree pitch, using MINIMUM IMPULSE.
 
 [03:08:21:25]
@@ -22278,7 +22282,7 @@ LMP: I'm glad, too.
 [03:08:26:00]
 _page : 353
 _tape : Tape 53/13
-CDR: i don't know what caused it.
+CDR: I don't know what caused it.
 
 [03:08:27:36]
 CDR: Here we still have 67-percent fuel level. I wonder
@@ -22306,7 +22310,7 @@ CDR: Well, Vance, I've been trying to use MINIMUM
      to build up towards zero, it was going - decreasing
      towards 270. I really don't know what the combination 
      is in the attitude control, that you can get
-     the control to pitch ard roll the way you want it
+     the control to pitch and roll the way you want it
      to. You've got to use the [glossary:TTCA].
 
 [03:08:29:00]
@@ -22318,7 +22322,7 @@ CDR: I now have both pitch and yaw - or pitch and roll
      through 23 degrees in pitch, and I'm going up
      past 321 degrees in roll. And I am letting go
      that direction and when I get there, 90 in pitch
-     and zero in roll, I'll go to AUTO and dump the
+     and zero in roll, I'll go to AUTO and damp the
      rates.
 
 [03:08:30:00]
@@ -22383,7 +22387,7 @@ CDR: Jack, we might have to have you rig up this CO<sub>2</sub>
 CC:  Go ahead. Houston. Over.
 
 [03:08:33:43]
-CMP: Oh! We'ye got a long ways to go.
+CMP: Oh! We've got a long ways to go.
 
 [03:08:33:47]
 CDR: Go ahead.
@@ -22439,7 +22443,7 @@ CC:  Okay, Jim. Since the first recommendation on
      how to maneuver [glossary:PTC] didn't work out, we have
      another one. And you might try this. Put yaw
      at zero, then start the roll, and the pitch
-     after that,
+     after that.
 
 [03:08:37:27]
 LMP: Vance, do you read?
@@ -22466,7 +22470,7 @@ CC:  That's affirm. We have a lengthy procedure here;
      is plugged up. As it turns out, the flow is
      rather U-shaped through the cartridge, Fred. It,
      if you plug up the bottom, it comes in one side
-     of the top and goes out the other,
+     of the top and goes out the other.
 
 [03:08:38:45]
 LMP: Okay. (Sigh) Hold on a minute. Let - Let us go
@@ -22538,7 +22542,7 @@ CC:  Roger. ...
 LMP: Okay.
 
 [03:08:43:53]
-CDR: They're ... off. They can't stop pitch,
+CDR: They're ... off. They can't stop pitch.
 
 [03:08:43:57]
 LMP: ...
@@ -22707,7 +22711,7 @@ CC:  Stand by.
 CDR: I'm trying to talk to them.
 
 [03:09:03:09]
-CC:  Stand by a minute, Jim. The pitch is tile
+CC:  Stand by a minute, Jim. The pitch is the
      important thing, but - but stand by 1.
 
 [03:09:03:19]
@@ -22747,7 +22751,7 @@ CC:  Okay, Jim. Would you stable your - stabilize
      and go ATT HOLD. Over.
 
 [03:09:10:29]
-CDR: Okay. Will do. I 'm now at 103 degrees -
+CDR: Okay. Will do. I'm now at 103 degrees -
      106 degrees pitch, and 2.5 degrees roll.
 
 [03:09:10:36]
@@ -22818,7 +22822,7 @@ CC:  Okay, Jim. Looks like your rates are damped
 
 [03:09:18:36]
 CDR: Okay, Houston. I'll go through [glossary:VERB 25], [glossary:NOUN 07],
-     down through [glossary:VERB 34] ENTER, and I '11 stand by.
+     down through [glossary:VERB 34] ENTER, and I'll stand by.
 
 [03:09:18:47]
 CC:  Right-o.
@@ -22911,7 +22915,7 @@ CDR: Right. I don't think we're doing any.
 
 [03:09:27:52]
 CC: No. No, I don't think so, but I just wanted 
-     to make sure you were aware of it - i thought you were.
+     to make sure you were aware of it - I thought you were.
 
 [03:09:28:03]
 CDR: We're saving all the water we can.
@@ -23005,7 +23009,7 @@ LMP: ... up ...
 [03:09:35:50]
 CC:  Okay, Jim. Your rates are once again looking
      good so we can continue on with the rest of this
-     procedure. Request you go ahead with the VERB 76
+     procedure. Request you go ahead with the [glossary:VERB 76]
      ENTER, and MODE CONTROL, to ATT HOLD, and then the
      last step, 30 clicks yaw right.
 
@@ -23138,7 +23142,7 @@ CDR: The [glossary:RCS] ... attitude.
 
 [03:09:44:29]
 LMP: ... ought to come up the side. Then, you got us
-     in the right plane, Jim.. We're in the right
+     in the right plane, Jim. We're in the right
      plane. We're pointed off and we'll swerve on
      again with the Earth, Moon, and Sun.
 
@@ -23185,7 +23189,7 @@ _page : 366
 CDR: We're ready for you.
 
 [03:09:46:06]
-LMP: Put that away and get some status paper here..
+LMP: Put that away and get some status paper here.
 
 [03:09:46:11]
 CDR: Go ahead, Vance.
@@ -23195,7 +23199,7 @@ CC:  Okay. First, midcourse correction will probably
      be at [glossary:GET] 104 hours, and all we look for is a
      4- to 6-feet-per-second DELTA-V. Okay. That's
      the first item. Now, I will give you a rundown
-     on consumables. Okay. In the [glossary:LM], you hlave 1498 -
+     on consumables. Okay. In the [glossary:LM], you have 1498 -
      that is 1 4 9 8 amp-hours remaining. That means
      over 61 hours you'd - That would average out to
      24.5 amps. We expect that, after powerdown, that
@@ -23229,7 +23233,7 @@ CC:  Okay. And after you power down, we expect that
      speak here of water available, this does not include 
      [glossary:CSM] water and [glossary:PLSS] water, so that's add
      on. Okay, next, LiOH. Using the [glossary:CSM] cans, you
-     will have 16 cans at 12 hours per cam to give
+     will have 16 cans at 12 hours per can to give
      you 1 9 2, or 192 hours, of LiOH. And, in the
      [glossary:LM], using its cans, you have 44 hours remaining.
 
@@ -23263,7 +23267,7 @@ CC:  Okay. And just a question. It would be interesting
      main B bus is good. If he has any idea of how,
      if whether it's good or not, this would influence 
      our steps in the future; for example, we
-     might want to try to test main B to see ii' it is,
+     might want to try to test main B to see if it is,
      in fact, good so that we'd know how to set switches
      for entry.
 
@@ -23352,7 +23356,7 @@ CMP: Okay. We lost lock there. We switched OMNIs.
      Just for my own - kind of to get my thoughts in
      order, I'd kind of hear what - I'd like to hear
      what kind of entry you're planning. [glossary:EMS] or PGNS
-     or what ?
+     or what?
 
 [03:09:56:02]
 CC:  Okay. [glossary:PGNS] entry is being planned, and people
@@ -23434,7 +23438,7 @@ LMP: I will.
 
 [03:09:58:49]
 CMP: You wouldn't believe it, but I'm now in command
-     of the [glossary:LM]. Okay. Vance, I 'm probably the only
+     of the [glossary:LM]. Okay. Vance, I'm probably the only
      CMP that's ever witnessed a [glossary:DPS] burn sitting on
      the ascent engine head.
 
@@ -23582,7 +23586,7 @@ _tape : Tape 55/1
 CDR: Okay.
 
 [03:10:05:36]
-CC:  Okay. On row 14,under HEATERS [glossary:RCS] SYSTEM A/B-1:
+CC:  Okay. On row 14, under HEATERS [glossary:RCS] SYSTEM A/B-1:
      open QUAD 1 through 4; under [glossary:ECS], the only change
      is - under GLYCOL PUMP close AUTO TRANSFER; under
      COMM, the only change is: open VHF A RECEIVER,
@@ -23591,7 +23595,7 @@ CC:  Okay. On row 14,under HEATERS [glossary:RCS] SYSTEM A/B-1:
      breaker, so we can have heaters. Read back.
 
 [03:10:06:30]
-CDR: Okay. On row 4, we're going to open all four off
+CDR: Okay. On row 4, we're going to open all four of
      the heaters - the [glossary:RCS] SYSTEM A and B - the first
      four circuit breakers. We're going to close the
      AUTO TRANSFER. We're going to open the VHF A
@@ -23721,7 +23725,7 @@ CDR: Okay. The four [glossary:RCS] HEATERS will be closed;
      to be open?
 
 [03:10:13:33]
-CC:  Negative. We have thc, LIGHTING breakers all
+CC:  Negative. We have the, LIGHTING breakers all
      closed. Control the lighting with the switches
      and rheostats. Over.
 
@@ -23864,7 +23868,7 @@ CMP: No.
 CDR: Okay. We'll do it right there.
 
 [03:10:24:11]
-CDR: Okay. And i'm closing the HEATERS on panel 4,
+CDR: Okay. And I'm closing the HEATERS on panel 4,
      QUAD 1 through 4, OFF.
 
 [03:10:24:23]
@@ -23909,7 +23913,7 @@ _page : 377
 _tape : Tape 55/6
 CC: That's affirmed, Jim. We have you up to 10.6
      now, and we're willing to go a little higher on
-     that. We have another cartridge ami we have a
+     that. We have another cartridge and we have a
      procedure for making the command module cartridges
      up. We'll pass that on later.
 
@@ -24009,7 +24013,7 @@ CC:  - - all of our analysis is based on powerdown to
 CMP: That sounds good.
 
 [03:10:38:12]
-CMP: Jack , I thought you were going to get the sleep
+CMP: Jack, I thought you were going to get the sleep
      shift where there wasn't any excitement?
 
 [03:10:38:18]
@@ -24038,7 +24042,7 @@ CMP: As I just - Yes, are you ready to take over?
 
 [03:10:40:28]
 CMP: It came out here. I caught it. Okay. Now, are
-     you getting squared, I'll give you the CONM
+     you getting squared, I'll give you the COMM
      here.
 
 [03:10:40:42]
@@ -24091,7 +24095,7 @@ CC:  Okay, Fred, I can't hear you any more on account
      about COMM. UPLINK SQUELCH, off. You'll take
      care of the antennas because we can't see your
      attitude. We'll give you a voice check when
-     come up. it'll take us 3 to 5 minutes to come
+     come up. It'll take us 3 to 5 minutes to come
      up. And to make it astronaut-proof, when you
      see the Earth, use a forward antenna; when you
      see the Moon, use the aft one.
@@ -24121,7 +24125,7 @@ LMP: And, Jack, you still up?
 CC:  Still here, Fred.
 
 [03:10:47:32]
-LMP: Okay, when I was upstairs, just a minute ago, 1
+LMP: Okay, when I was upstairs, just a minute ago, I
      noticed what appeared to be some new venting
      from down the service module way. I noticed
      that out window 1, and also saw one chunk of
@@ -24325,9 +24329,9 @@ LMP: Okay. Jack's got the one with the 250-millimeter
      lens on it. That's the standard EL. And I have
      a surface camera out that I've been shooting
      hundreds of Earth/Moon pictures with, camera 1.
-     ad we also have the Reseau upstairs that's
+     And we also have the Reseau upstairs that's
      pretty handy. The command module DC camera.
-     so you can about - -
+     So you can about - -
 
 [03:10:58:00]
 CC: Okay. I copy that - -
@@ -24337,7 +24341,7 @@ LMP: - - take your choice, because - -
 
 [03:10:58:04]
 CC: I copy the 250 millimeter, the Reseau is available, 
-     but I didn't get what other one is;.
+     but I didn't get what other one is.
 
 [03:10:58:14]
 LMP: Okay. I got my Hasselblad surface camera down
@@ -24761,7 +24765,7 @@ LMP: That's affirm.
 [03:12:22:52]
 CC:  And, Fred, we're doing a little better on our
      water than we had anticipated. Our numbers
-     were designed for 3.5 pounds per houri we're
+     were designed for 3.5 pounds per hour; we're
      using about 3.0, and expect to go a little bit
      less.
 
@@ -24896,7 +24900,7 @@ LMP: Yes. You're right.
 
 [03:12:43:28]
 LMP: Okay. The center of the Moon new is about
-     minus 2 degrees DELTA-V.
+     minus 2 degrees LPD.
 
 [03:12:43:35]
 CC:  Minus 2 degrees, center of the Moon.
@@ -24924,7 +24928,7 @@ CC:  No. That's the bearded one.
 LMP: Oh! Okay.
 
 [03:12:46:15]
-LMP: Iley, tell Charlie that I'll be back down there
+LMP: Hey, tell Charlie that I'll be back down there
      personally to thank him for this baby.
 
 [03:12:46:28]
@@ -24997,7 +25001,7 @@ CC:  Gee, I'm sorry, Fred. We're just not reading you
 LMP: Okay.
 
 [03:12:59:29]
-CC:  Let's try it now. If you can speak up, the 
+CC:  Let's try it now. If you can speak up, the
      background noise has gone down a little bit.
 
 [03:12:59:37]
@@ -25144,7 +25148,7 @@ CC:  Fred-o, would say the checkpoint over which
      you're right now?
 
 [03:13:15:56]
-LMP: Okay. And incidentally, the DELTA-V on the
+LMP: Okay. And incidentally, the LPD on the
      Moon was zero, so it's coming back down. The
      point looks like we're just about straight over
      is around Censorinus and the point between it
@@ -25211,7 +25215,7 @@ CC:  Fred, I'm having a hard time reading you, but I
      think you're giving me a [glossary:LPD] angle.
 
 [03:13:37:12]
-LMP: Roger. That's it s Jack. The Moon is about 42.
+LMP: Roger. That's it, Jack. The Moon is about 42.
 
 [03:13:37:16]
 CC:  You say the Moon is at 22?
@@ -25487,7 +25491,7 @@ CC:  Well, there is a lot of background noise, and
 CDR: Okay, Jack. I'm kind of curious the amount of
      perturbations our [glossary:PTC] attitude is taking. I
      notice that we are getting off attitude, and I'm
-     Just kind of curious how far we can let this go.
+     just kind of curious how far we can let this go.
 
 [03:14:32:03]
 CC:  We were tracking the attitudes with Fred earlier
@@ -25604,7 +25608,7 @@ CDR: And, Houston ... As we ... No! ... has an angle
 CC:  Okay. We read 24, Jim.
 
 [03:14:46:09]
-CDR: That's affirm,
+CDR: That's affirm.
 
 [03:14:53:46]
 CDR: Jack, ... the [glossary:LPD] on the Moon now is 22 degrees.
@@ -25615,7 +25619,7 @@ CC:  Okay. I'm reading you better, Jim. Say again,
 
 [03:14:53:57]
 CDR: Roger. The [glossary:LPD] now on the Moon is 22 degrees.
-     i missed the Earth last time. I'll get it this
+     I missed the Earth last time. I'll get it this
      time.
 
 [03:14:54:04]
@@ -25811,7 +25815,7 @@ CC:  That's affirmative, Jim. After you get oriented
      aline which is - an [glossary:AGS] body-axis aline which is
      400 plus 5. When you get ENTER, this will bring
      ball up to 000, and I want to confirm that you -
-     that you said ENGINE GIMBAL OFF. 0-F-F. Over.
+     that you said ENGINE GIMBAL OFF. O-F-F. Over.
 
 [03:15:15:52]
 CDR: Roger. Confirm that ENGINE GIMBAL will be off.
@@ -25907,7 +25911,7 @@ CC:  Okay, Jim. The latitude is minus 021.62; I have
 CDR: Roger, Jack. The latitude is minus 21.62;
      longitude is minus 165.37, and this goes in
      conjunction with that midcourse 7 pad you gave
-     US.
+     us.
 
 [03:15:24:02]
 CC:  That's affirmative. That means no maneuvers
@@ -25922,7 +25926,7 @@ CDR: Roger. ...
 CC:  And, Jim, on the - Setting up the [glossary:AGS], right
      after you do the 400 plus 5, you should do a
      400 plus all balls. And one other point we
-     want to clarify is that we know that youtre sure
+     want to clarify is that we know that you're sure
      that this burn will be made with the plus X-axis
      pointing at the Sun to make the entry angle
      steeper. You got it?
@@ -26205,7 +26209,7 @@ CC:  Go ahead.
 
 [03:16:30:42]
 CDR: What's our course of action to set up [glossary:PTC] after
-     this midcourse at 1077
+     this midcourse at 107?
 
 [03:16:30:51]
 CC:  We thought you'd ask that.
@@ -26213,7 +26217,7 @@ CC:  We thought you'd ask that.
 [03:16:31:06]
 CC:  The only thing we can try to do, Jim, is to get
      the thing up manually and see what happens.
-     Thcre must be a better answer than that - -
+     There must be a better answer than that - -
 
 [03:16:31:17]
 CDR: Okay.
@@ -26335,7 +26339,7 @@ CDR: Okay. That's good. Let me - Let me wait until
 
 [03:17:07:54]
 CC:  Okay. Your choice on that. As soon as Jack gets
-     up, i'd suggest we go ahead and break up these
+     up, I'd suggest we go ahead and break up these
      lithium hydroxide canisters and make a couple of
      them. Jack could work on that. It's going to
      take four sets of hands, I think.
@@ -26444,7 +26448,7 @@ CC:  Okay. I think the equipment you'll need will be
      we're going to use the bags from the LCGs, and
      one - one [glossary:LM] cue card - one of those cardboard
      cue cards which you will cut off about an inch
-     and a half out from the ring. Now, i think that's
+     and a half out from the ring. Now, I think that's
      all we'll need. Over.
 
 [03:18:10:03]
@@ -26529,14 +26533,14 @@ CC:  Okay, Jack. Did anybody ever tell you that you
      got a 60-day extension on your income tax. Over.
 
 [03:18:22:42]
-CC:  Yes. I think - I think somebody said that when
+CMP: Yes. I think - I think somebody said that when
      you are out of your country, you get a 60-day
      extension.
 
 [03:18:22:50]
 CC:  Okay; right. Okay. I'm ready to start into
      the procedure. When you answer me back, speak
-     up - speak wp into the microphone, because our
+     up - speak up into the microphone, because our
      downlink is pretty noisy. The first thing we
      want you to do, and we'll do this on one canister,
      and then let you go ahead and repeat it on
@@ -26851,7 +26855,7 @@ CC:  Okay; real fine. Now there's probably a couple
      the strips from the sides of the canister outside
      the bag around the bottom of the canister and
      back up the other side, and when you do this,
-     just as you did on the top, make them go outward
+     just as you did on the top, make them go outboard
      of the hole and in between the screens. Over.
 
 [03:18:53:42]
@@ -26977,7 +26981,7 @@ CMP: Okay. Our do-it-yourself lithium hydroxide
 _page : 427
 _tape : Tape 62/4
 CC:  Okay, Jack. I concur. I think it'll work, too.
-     There's one step that i omitted, which you can
+     There's one step that I omitted, which you can
      do now quite conveniently, and it's this. Where
      you stuff the towel in the bypass hole on the
      bottom, we recommend that you cut a few short
@@ -27086,7 +27090,7 @@ CMP: Go ahead.
 [03:19:21:11]
 CC:  Roger, Jack; Tom here. Just thought I would pass
      on to you and Jim that got a little data priority
-     going today, and going to convene to CPCB and
+     going today, and going to convene to [glossary:CPCB] and
      we'll have you all kinds of good procedures for
      later on. Over.
 
@@ -27111,7 +27115,7 @@ CMP: That's exactly what he did. Tom said you had
      you to sleep.
 
 [03:19:22:13]
-CMP: Okay. Let's get, this tape around the outside.
+CMP: Okay. Let's get this tape around the outside.
 
 [03:19:25:47]
 CMP: Kind of looks like the Earth has gotten kind of
@@ -27123,7 +27127,7 @@ CMP: Kind of looks like the Earth has gotten kind of
 CMP: Okay. Now we got to get two strips ... tight.
 
 [03:19:36:52]
-CMP: Tom said the CPCB is getting ...
+CMP: Tom said the [glossary:CPCB] is getting ...
 
 [03:19:37:01]
 CDR: ... he's never been through a command module
@@ -27245,14 +27249,14 @@ CMP: Okay.
 
 [03:19:55:39]
 CC: Okay. The next two are unchanged. And we
-     want the 3 BMAG switches in RATE 2. Over.
+     want the 3 [glossary:BMAG] switches in RATE 2. Over.
 
 [03:19:55:54]
 CMP: Okay.
 
 [03:19:55:57]
 CC: Okay. The next one, two, three, four, five, six,
-     seven, elght are unchanged, and we get down to
+     seven, eight are unchanged, and we get down to
      the ELS AUTO switch which we want in MANUAL.
      Over.
 
@@ -27278,12 +27282,12 @@ CMP: [glossary:EMS] FUNCTION, OFF; MODE, STANDBY; GTA, down;
      THC POWER, OFF; ROTATION CONTROL POWER NORMAL,
      two, OFF; ROTATION CONTROL POWER DIRECT, two,
      OFF; SPACECRAFT CONTROL, SCS; [glossary:CMC] MODE, FREE;
-     BMAG, ROLL, PITCH, YAW ...
+     [glossary:BMAG], ROLL, PITCH, YAW ...
 
 [03:19:57:25]
 CC:  Jack, Houston. You are not coming through. And
      request you talk a little more directly into the
-     mike. I've got the BMAGS in RATE 2. And start
+     mike. I've got the [glossary:BMAG]S in RATE 2. And start
      from there. Over.
 
 [03:19:57:39]
@@ -27363,8 +27367,8 @@ CMP: Alpha/Pc to Pc; LAUNCH VEHICLE [glossary:SPS] INDICATOR to
      GPI; [glossary:TVC] GIMBAL DRIVE PITCH and YAW to AUTO;
      EVENT TIMER RESET, up; EVENT TIMER START to
      STOP; EVENT TIMER MINUTES, SECONDS to center;
-     POSTLANDING VENT valve, push; PROBE EXTEND/
-     RELEASE to OFF; EXTEND/RELEASE talkbacks, two of
+     POSTLANDING VENT valve, push; PROBE EXTEND/RELEASE
+     to OFF; EXTEND/RELEASE talkbacks, two of
      them, gray; DOCK PROBE RETRACT, PRIMARY and
      SECONDARY, off; extend RUNNING LIGHTS/EVA
      LIGHTS, OFF; extend RUNNING LIGHTS - RENDEZVOUS
@@ -27375,7 +27379,7 @@ CMP: Alpha/Pc to Pc; LAUNCH VEHICLE [glossary:SPS] INDICATOR to
      to BLOCK; COMMAND MODULE [glossary:RCS] PRESSUREs, off;
      SERVICE MODULE [glossary:RCS] INDICATOR, PROPELLANT QUANTITY;
      SERVICE MODULE [glossary:RCS] Helium 2, four, center;
-     HELIUM 2, four, talkhacks, gray; SERVICE MODULE
+     HELIUM 2, four, talkbacks, gray; SERVICE MODULE
      [glossary:RCS] HEATERS, four, OFF; SERVICE MODULE [glossary:RCS] PROPELLANT, four, center, on, up; SERVICE MODULE
      PROPELLANT talkback, four, gray, and four,
      barber pole; [glossary:RCS] COMMAND, center; [glossary:RCS] TRANSFER,
@@ -27415,8 +27419,8 @@ CMP: Okay.
 
 [03:20:03:42]
 CC:  Okay. The next one, two, three, four, five, six,
-     seven are the same, and then we get CAUTION/
-     WARNING NORMAL to ACK, CAUTION/WARNING [glossary:CSM] to [glossary:CM],
+     seven are the same, and then we get CAUTION/WARNING
+     NORMAL to ACK, CAUTION/WARNING [glossary:CSM] to [glossary:CM],
      and CAUTION/WARNING POWER to OFF. Over.
 
 [03:20:04:05]
@@ -27515,7 +27519,7 @@ CMP: Okay. I've just got to switch OMNIs. Okay.
      Reading the changes, Joe, on pages 1-4, FUEL CELL
      HEATERs three, OFF, coming down to FUEL CELL 1
      MAIN BUS A center - MAIN BUS A to OFF; MAIN BUS -
-     FUEL, CELL 2 to MAIN BUS A, OFF; FUEL CELL 3 to
+     FUEL CELL 2 to MAIN BUS A, OFF; FUEL CELL 3 to
      MAIN BUS A, talkback, gray; MAIN BUS A RESET to
      OFF; FUEL CELL, 1 to MAIN BUS B talkback, gray;
      FUEL CELL 2 to MAIN BUS B talkback, gray; FUEL
@@ -27663,13 +27667,13 @@ CMP: Okay. I'll read back. SUIT COMPRESSOR 1 and 2, OFF;
 
 [03:20:15:39]
 CC:  Okay, Jack. That's correct. Go to page 1-7. SCS
-     ELECTRONICS POWER, OFF; [glossary:SCS] SIGNAL CONDITIONER/
-     DRIVER BIAS 1 and 2, OFF; and BMAG POWER, both, OFF;
+     ELECTRONICS POWER, OFF; [glossary:SCS] SIGNAL CONDITIONER/DRIVER
+     BIAS 1 and 2, OFF; and [glossary:BMAG] POWER, both, OFF;
      and DIRECT O<sub>2</sub> valve to close. Over.
 
 [03:20:16:08]
 CMP: Okay. [glossary:SCS] ELECTRONICS POWER, OFF; both SIGNAL
-     CONDITIONER/DRIVER BIAS POWER, OFF; BMAG POWER,
+     CONDITIONER/DRIVER BIAS POWER, OFF; [glossary:BMAG] POWER,
      two of them OFF; DIRECT O<sub>2</sub> to close.
 
 [03:20:16:21]
@@ -27761,7 +27765,7 @@ CMP: Okay. Okay. They're sitting at OFF right now.
 
 [03:20:20:57]
 CC: Okay. Then we go down to interior NUMERIC
-     LIGHTING-LIGHTING, OFF: INTERIOR INTEGRAL LIGHTING, OFF; and INTERIOR FLOOD LIGHTING, OFF. Over.
+     LIGHTING-LIGHTING, OFF; INTERIOR INTEGRAL LIGHTING, OFF; and INTERIOR FLOOD LIGHTING, OFF. Over.
 
 [03:20:21:13]
 CMP: Okay.
@@ -27912,8 +27916,8 @@ CMP: Okay. Let me read it back here. ... order ...
      POWER, OFF. NUMERICS LIGHTING, FLOOD LIGHTING,
      and INTEGRAL LIGHTING, three of them, OFF.
      Panel 101, URINE DUMP HEATERS, URINE DUMP to
-     OFF, WASTE H<sub>2</sub>0 to OFF. Panel 122, CONDITION
-     LAMPS, OFF. Panel 201, FOOD WARNER, OFF.
+     OFF, WASTE H<sub>2</sub>O to OFF. Panel 122, CONDITION
+     LAMPS, OFF. Panel 201, FOOD WARMER, OFF.
      Panel 225, add additions that I read: S-BAND
      TRANSMITTER [glossary:DSE], GROUP 1; FLIGHT BUS, MAIN A
      and MAIN B, CET, two to open.
@@ -27942,19 +27946,19 @@ _tape : Tape 63/4
 CMP: Let's go.
 
 [03:20:28:00]
-CC:  Okay. On panel 226, we want all open accept;
+CC:  Okay. On panel 226, we want all open except;
      so change word "Closed" to "Open" and then
      scratch out the next three lines because we want
      them open, too. Over.
 
 [03:20:28:18]
-CMP: Okay. All open accept and you're going to give
+CMP: Okay. All open except and you're going to give
      the ones you want open.
 
 [03:20:28:24]
 CC:  Right. I'll give you the opens now. We want
-     LIGHTING: FLOOD, MAIN A, MAIN B, and FLIGHT/
-     POSTLANDING, closed.
+     LIGHTING: FLOOD, MAIN A, MAIN B, and FLIGHT/POSTLANDING,
+     closed.
 
 [03:20:28:51]
 CMP: Okay. LIGHTING: FLOOD, MAIN A; LIGHTING:
@@ -27962,10 +27966,10 @@ CMP: Okay. LIGHTING: FLOOD, MAIN A; LIGHTING:
      closed.
 
 [03:20:28:59]
-CC:  Roger, Jack. EECOM tells me that's all one
+CC:  Roger, Jack. [glossary:EECOM] tells me that's all one
      circuit breaker, and the next one is LIGHTING:
      NUMERICS/INTEGRAL, [glossary:LEB] AC2, LMDC-AC1, and
-     R MDC-ACI to closed, and that's one circuit
+     RMDC-AC1 to closed, and that's one circuit
      breaker also.
 
 [03:20:29:26]
@@ -27989,8 +27993,8 @@ CC:  Okay. On the 226 circuit breakers that I read
      involved and they're all - they're the first
      six from the left on the bottom row of the panel.
      They're under LIGHTING. We want the three FLOOD
-     circuit breakers out and the three NUMERIC/
-     INTEGRAL circuit breakers - I don't mean out, I
+     circuit breakers out and the three NUMERIC/INTEGRAL
+     circuit breakers - I don't mean out, I
      mean closed. Those six closed and the rest open.
      Over.
 
@@ -28019,15 +28023,15 @@ CC:  That's affirmative. Okay. On panel 250 - -
 CMP: - - panel 229.
 
 [03:20:32:29]
-CC:  - - we want all closed accept, and then scratch
+CC:  - - we want all closed except, and then scratch
      out all the ones that are there.
 
 [03:20:32:40]
-CMP: Okay. All closed accept. Okay. I'm ready to
+CMP: Okay. All closed except. Okay. I'm ready to
      copy.
 
 [03:20:32:50]
-CC:  Wait 1 minute. Yes, EECOM caught me; I said
+CC:  Wait 1 minute. Yes, [glossary:EECOM] caught me; I said
      that wrong. We want you to change the word
      "Closed" to "Open," and then scratch out the
      ones that are there.
@@ -28131,8 +28135,8 @@ CC:  That's affirmative. Panel 350, no change.
      OFF, and RELIEF valve, OFF. Over.
 
 [03:20:37:17]
-CMP: Okay. MAIN REG valve, two, to CLOSED. WATER/
-     GLYCOL TANK PRESSURE REG and RELIEF valves, both
+CMP: Okay. MAIN REG valve, two, to CLOSED. WATER/GLYCOL
+     TANK PRESSURE REG and RELIEF valves, both
      OFF.
 
 [03:20:37:27]
@@ -28551,7 +28555,7 @@ CC:  Okay. Let me get a go, and I think it's time
 
 [03:21:24:08]
 LMP:  Okay. We went to 15 on the primary last night
-     before 1 changed it and - -
+     before I changed it and - -
 
 [03:21:24:16]
 CC: Roger that, Fred. We wanted to - -
@@ -28699,7 +28703,7 @@ LMP: No. That's still in works. I just wanted to
 [03:21:46:29]
 CC:  Okay. We appreciate your appreciating it. We're
      just having a ball down here working on all kinds
-     of new procedures, Fred. The CPCB is in session,
+     of new procedures, Fred. The [glossary:CPCB] is in session,
      and we expect to have your entry procedures out
      here by Saturday or Sunday at the very latest.
 
@@ -28831,7 +28835,7 @@ CMP: Both hoses in the - up into the command module?
 
 [03:21:57:03]
 CC:  Oh, you can use your judgment on that, Jack.
-     We'd like at least one, arid the recommendation
+     We'd like at least one, and the recommendation
      that I got was to put them both up in the tunnel.
 
 [03:21:57:15]
@@ -28918,7 +28922,7 @@ CC:  Roger, Jack. That completes that procedure, and
      TIE switches. We want to do this for two reasons:
      first of all, we want it absolutely verified that
      there are no loads on the main buses, that we've
-     got everything off that the buses look good;
+     got everything off and that the buses look good;
      and the second thing we want to do is to power
      the bus - the main buses, with the BUS TIE motor
      switches, and then depower them by pulling the
@@ -29044,7 +29048,7 @@ CMP: Okay. ...
 [03:22:07:46]
 _page : 459
 _tape : Tape 64/5
-CC:  Okay, Jack; Houston. We're in had COMM again;
+CC:  Okay, Jack; Houston. We're in bad COMM again;
      let's wait a minute.
 
 [03:22:08:03]
@@ -29513,7 +29517,7 @@ LMP: Okay. Okay. And the other thing is, we've
 [03:22:55:39]
 CC:  Okay. Copy that, Fred. On the O<sub>2</sub> flow thing,
      we clearly saw the DEMAND REGULATOR go to OFF
-     and back to CABIN. TEL, MU [?] thinks that it's
+     and back to CABIN. [glossary:TELMU] thinks that it's
      no big thing that you've seen a little change
      in flow due to the different resistance we've
      got in the circuit.
@@ -29568,7 +29572,7 @@ LMP: Okay. I got a copy of the ... K ...
 CMP: Is that right?
 
 [03:22:58:26]
-LMP: EECOM.
+LMP: [glossary:EECOM].
 
 [03:22:58:35]
 CMP: That midcourse should be interesting. You know,
@@ -29817,12 +29821,12 @@ CC:  That's correct. On panel 5, CB [glossary:EPS] SENSOR SIGNAL
 CMP: [glossary:EPS] SENSOR SIGNAL MAIN B closed on panel 5.
 
 [03:23:17:16]
-CC:  That's correct. Next step, panel 250: CB BAT B
+CC:  That's correct. Next step, panel 250: CB BAT C
      POWER ENTRY/POSTLANDING; closed. Over.
 
 [03:23:17:40]
-CMP: Okay. On panel 250: CB BAT B POWER ENTRY/
-     POSTLANDING, closed.
+CMP: Okay. On panel 250: CB BAT B POWER ENTRY/POSTLANDING,
+     closed.
 
 [03:23:17:50]
 CC: That's Charlie. Verify MAIN BUS voltage; then,
@@ -29840,14 +29844,14 @@ CC:  Okay. That's correct. Then go back to 275, CB
      275, close CB MAIN B BAT BUS B. Over.
 
 [03:23:19:07]
-CMP: Okay, Joe. How are you reading on the AFF OMNI.
+CMP: Okay, Joe. How are you reading on the AFT OMNI.
 
 [03:23:19:11]
 CC:  You're okay now. Go ahead.
 
 [03:23:19:15]
-CMP: Okay. After putting the BATTERY B POWER ENTRY/
-     POSTLANDING on, then I want to push the - on
+CMP: Okay. After putting the BATTERY B POWER ENTRY/POSTLANDING
+     on, then I want to push the - on
      panel 275 MAIN B to BAT BUS B in, huh?
 
 [03:23:19:38]
@@ -30681,7 +30685,7 @@ CC:  One other point. The philosophy of timing this
 _page : 485
 _tape : Tape 67/3
 CDR: Okay. Understand. Philosophy on the midcourse
-     in doing it prior to venting of the SHe tank,
+     is doing it prior to venting of the SHe tank,
      which means we'll be doing this around 105 hours,
      I suppose, or [time:04:09:30:00|105:30] and so I'll have control of
      the spacecraft if it should give us some perturbation.
@@ -31102,6 +31106,7 @@ CC:  Under LIGHTING; FLOOD, open; TRACK, open. Under
      ED LOGIC - Correction, under ED: LOGIC, open.
      Under STAB/CONTROL: DESCENT ENGINE OVERRIDE,
      open. Under ECS: SUIT FLOW CONTROL, open. Under
+     row 3, COMM: DISPLAY, open; VHF A TRANSMITTER,
      open; VHF B RECEIVER, open. Under ECS: DISPLAY,
      that's crew option. Last row, under EPS: INVERTER 
      2, open. Over.
@@ -31144,7 +31149,7 @@ CDR: Roger. Under warning, we'll have ASCENT PRESSURE
 [04:04:13:27]
 CC:  Affirmative. Under "VHF/S-band Activation and
      Checkout," scratch step 1. Under step 2, change
-     "DOWN VOICE BACKUP" to VOICE." Scratch step 3.
+     "DOWN VOICE BACKUP" to VOICE. Scratch step 3.
      Under "[glossary:PGNS] turn on," scratch entire procedure.
      Under "[glossary:DAP] Set/Gimbal Drive," scratch entire procedure. 
      Over.
@@ -31332,7 +31337,7 @@ CDR: Okay, Charlie. I'm with you so far.
 
 [04:04:25:11]
 CC:  Okay, Jim. "When in attitude, ACA out of detent
-     to zero error needle. Then set VENT TIMER," and
+     to zero error needle. Then set EVENT TIMER," and
      we'll give you a countdown on that when you get
      to that step. Over.
 
@@ -31351,7 +31356,7 @@ CC:  Roger. Now, that - the burn attitude will be
      attitude; and you can check that via the Sun which
      will be in the [glossary:AOT] detent 2. Should lie right
      along the cursor at the top. We'll have some
-     more words oon that for you momentarily. Now,
+     more words on that for you momentarily. Now,
      I'd like to go on to page 31 if you're ready.
      Over.
 
@@ -31486,7 +31491,7 @@ CDR: That's affirm. That's the only thing I have.
 
 [04:04:34:32]
 CC:  Okay. Turning to the next page and the last
-     page, Jim, 34. Top of the page, "Monitor DELTA-V X
+     page, Jim, 34. Top of the page, "Monitor DELTA-V<sub>X</sub>
      via 470." Scratch next two lines, "When propellant
      quantity equals 37" and the "DESCENT HELIUM REG."
      Scratch "[glossary:TTCA] commander, reduce to 10 percent."
@@ -31505,7 +31510,7 @@ CC:  That's affirmative. We'll give you the pad, be
      coming up here from [glossary:FIDO] in a couple of hours,
      I guess, when we stabilize out on our tracking.
      The reason for - If you're ready to copy out a
-     couple of more steps, and then I '11 explain the
+     couple of more steps, and then I'll explain the
      reason we want to shut down on this burn time
      minus 1 second. Picking up on "When DELTA-V<sub>X</sub> - -
 
@@ -31513,7 +31518,7 @@ CC:  That's affirmative. We'll give you the pad, be
 CDR: Okay.
 
 [04:04:36:10]
-CC:  - - When DELTA-V<sub>X</sub> equal to the final DELTA-V<sub>X</sub>,"
+CC:  "- - When DELTA-V<sub>X</sub> equal to the final DELTA-V<sub>X</sub>,"
      scratch that line. Scratch "ATTITUDE CONTROL:
      YAW, to PULSE." Add - Correction, scratch "Damp
      excessive rates via [glossary:LM] Y, Z translation" and add
@@ -31656,7 +31661,7 @@ CC:  That's affirmative, Jim. That's the one we gave
      that one as modified by - by us. This - we tried
      this [glossary:PTC] under [glossary:AGS] in the simulator and, of course,
      no slosh or anything, but it seemed to work pretty
-     good by hulling the rates using the [glossary:TTCA] in pitch
+     good by nulling the rates using the [glossary:TTCA] in pitch
      and roll and letting the ACS do it in yaw. You
      null the rates by looking at the error needles and
      just watching those, and when they don't - when
@@ -31831,7 +31836,7 @@ CC:  That's affirm.
 
 [04:05:02:27]
 CDR: Okay. The CROSS TIE BALANCE LOAD circuit breakers
-     is in now, Vance. Now you want us to put battery 2 back on. is that affirm?
+     is in now, Vance. Now you want us to put battery 2 back on. Is that affirm?
 
 [04:05:02:34]
 CC:  Did you say it was in, or did you pull it out?
@@ -31953,7 +31958,7 @@ CC:  Okay. Panel 4: TELCOMM, GROUP 1, to AC1.
      CHARGE - or to B, CHARGE; INVERTER CONTROL, 2;
      INVERTER CONTROL, 1; [glossary:EPS] SENSOR SIGNAL, AC1; EPS
      SENSOR SIGNAL MAIN B; [glossary:EPS] SENSOR UNIT, AC BUS 1;
-     WASTE/POTABLE WATER, MAIN B; INSTRUCTS, ESS,
+     WASTE/POTABLE WATER, MAIN B; INSTRUMENTS, ESS,
      MAIN B; that's ESSENTIAL, MAIN B. Are you with
      me?
 
@@ -31974,8 +31979,8 @@ CMP: Okay, sounds good. Because I don't know where I -
      CONTROL/HEATERS, MAIN B; BAT RELAY BUS, BAT B;
      BAT CHARGER, BAT B; INVERTER CONTROL, 2; INVERTER
      CONTROL, 1; [glossary:EPS] SENSOR SIGNAL, AC1; [glossary:EPS] SENSOR
-     SIGNAL, MAIN B; [glossary:EPS] SENSOR UNIT, AC1; WASTE/
-     POTABLE H<sub>2</sub>0, MAIN B; INSTRUMENTATION, ESSENTIAL,
+     SIGNAL, MAIN B; [glossary:EPS] SENSOR UNIT, AC1; WASTE/POTABLE
+     H<sub>2</sub>O, MAIN B; INSTRUMENTATION, ESSENTIAL,
      MAIN B.
 
 [04:05:12:41]
@@ -32002,7 +32007,7 @@ CC:  Okay. Next, panel 3: TRANSPONDER, PRIMARY;
      AMPL, HIGH; MODE, VOICE, to OFF; POWER, [glossary:SCE], to
      NORMAL; PMP to NORMAL; S-BAND ANTENNA, OMNI D,
      that's Delta. Okay, why don't you read that
-     one back ?
+     one back?
 
 [04:05:14:16]
 _page : 506
@@ -32085,9 +32090,9 @@ CC:  Okay, now back to panel 250. CB BAT Bravo POWER
 
 [04:05:20:48]
 CMP: Okay, Vance. The following steps are sequence
-     critical. Panel 250: CB BAT B POWER ENTRY/
-     POSTLANDING, closed. That's BAT Baker. MDC 3, AC
-     INVERTER 2, to MAIN B; AC INVERTER 2, AC1, on. :...
+     critical. Panel 250: CB BAT B POWER ENTRY/POSTLANDING,
+     closed. That's BAT Baker. MDC 3, AC
+     INVERTER 2, to MAIN B; AC INVERTER 2, AC1, on. ...
 
 [04:05:21:27]
 CC:  How do you read now, Jack?
@@ -32121,7 +32126,7 @@ CMP: Okay, that's good. I got it.
 [04:05:22:44]
 CC:  Okay. Now, when you're in this configuration,
      the following onboard readouts are required.
-     Panel 3: BAT C voltage, PYRO BAT A voltsge,
+     Panel 3: BAT C voltage, PYRO BAT A voltage,
      PYRO BAT B voltage, [glossary:SPS] HELIUM PRESSURE. And
      the following readouts on panel 101: [glossary:CM] RCS
      injector temperatures, those are positions
@@ -32209,10 +32214,10 @@ CC:  Okay, Jack. What I just gave you now on the
 _page : 509
 _tape : Tape 68/20
 CMP: Okay, now here's - to accent, here's the
-     sequence-critical sets: POWER AMFL, OFF;
+     sequence-critical sets: POWER AMPL, OFF;
      TRANSPONDER OFF; AC INVERTER, 2, OFF; and the
-     last one on panel 250, CB BAT Baker POWER ENTRY/
-     POSTLANDING, open; and then hit the steps in
+     last one on panel 250, CB BAT Baker POWER ENTRY/POSTLANDING,
+     open; and then hit the steps in
      reverse order that you gave them to me, and back
      out, like then I would start on MDC 3 UP TELEMETRY,
      OFF - to OFF; and then AC INVERTER - AC1 BUS 1 to
@@ -32322,7 +32327,7 @@ CMP: Okay, now I won't - I won't have any voice with
      you, so - Is that right? You don't want me to
      get connected up - you want me to just take these
      readings and come back and tell you what I have,
-     huh ?
+     huh?
 
 [04:05:36:17]
 CC:  That's affirm. There'll be no voice. And - -
@@ -32333,7 +32338,7 @@ CMP: Okay. Okay. In work.
 [04:05:36:27]
 _page : 511
 _tape : Tape 68/22
-CC:  I we presume though, that there'll be somebody in the [glossary:LM] that we can call if we have to
+CC:  I - we presume, though, that there'll be somebody in the [glossary:LM] that we can call if we have to
      get word to you.
 
 [04:05:36:35]
@@ -32390,7 +32395,7 @@ CC:  Okay. Thank you.
 CDR: And, you want that in work, now?
 
 [04:05:39:14]
-CC:  That's affirm,
+CC:  That's affirm.
 
 [04:05:39:17]
 CDR: Okay.
@@ -32403,7 +32408,7 @@ CC:  Loud and clear, Jim.
 
 [04:05:39:57]
 CDR: Okay. I have a question for you, Houston, if
-     you have time,
+     you have time.
 
 [04:05:40:00]
 CC:  Sure, go ahead.
@@ -33349,7 +33354,7 @@ LMP: Okay. I'll try to squeeze them in there, Jack.
 LMP: Go ahead.
 
 [04:08:39:11]
-CC:  Okay. It's N/A all the way down to NOUN 61.
+CC:  Okay. It's N/A all the way down to [glossary:NOUN 61].
      Your latitude is minus 21 - -
 
 [04:08:39:20]
@@ -33649,7 +33654,7 @@ CC:  Okay. Looks good. Nice work.
 LMP: Let's hope it was.
 
 [04:09:20:23]
-CC:  Okay, Aquarius. Wetre ready to follow you
+CC:  Okay, Aquarius. We're ready to follow you
      through on setting up [glossary:PTC] and powerdown.
      Your choice.
 
@@ -34446,7 +34451,7 @@ CC:  Can you hear or feel anything?
 
 [04:12:54:54]
 CDR: No, I sure can't, but I think it changed our -
-     it changed out [glossary:PTC]. Let me check and see what
+     it changed our [glossary:PTC]. Let me check and see what
      the drift is.
 
 [04:12:55:09]
@@ -34467,7 +34472,7 @@ CC: We're thinking about them right now. Did you
      say it yawed some?
 
 [04:12:56:08]
-CDR: Yes, I was in a right yaw and now I'm in a left,
+CDR: Yes, I was in a right yaw and now I'm in a left
      yaw; at a much faster rate than the one we put
      in [glossary:PTC].
 
@@ -34742,7 +34747,7 @@ _extra : END OF TAPE
 CC: Okay, Jim. Since the antenna switch is kind of
      annoying, we've talked them into buying only
      half of the data. If it gets too troublesome
-     for you to switch antennas, why, just leave ii
+     for you to switch antennas, why, just leave it
      on one antenna and we'll listen to you half of
      the time.
 
@@ -35142,7 +35147,7 @@ CC:  Jim, I didn't copy your last question due to
      background noise.
 
 [04:14:41:29]
-CDR: Okay. Once - Once you get the [glossary:AOS] ball alined
+CDR: Okay. Once - Once you get the [glossary:AGS] ball alined
      ... command module ...
 
 [04:14:41:49]
@@ -35204,7 +35209,7 @@ CDR: Right.
 CDR: Houston, Aquarius.
 
 [04:14:48:16]
-CC:  Go ahoad.
+CC:  Go ahead.
 
 [04:14:48:19]
 CDR: I understand that one of your reasons for a
@@ -35325,7 +35330,7 @@ CC:  Okay, The second step was in the [glossary:LM] circuit
 
 [04:14:55:17]
 CMP: ... Jack ... Hey, Jack; I have for step 3, I
-     have BAT 5 and BAT 6 NORMAL FEED,on. You just
+     have BAT 5 and BAT 6 NORMAL FEED, on. You just
      want BAT 6?
 
 [04:14:55:30]
@@ -35334,8 +35339,8 @@ CC:  That's affirmative. Just BAT 6, Jack. And the
      BATTERY 1, 2, 3, and 4. Just add BATs 2 and 4.
      All four descent BATs. And then the next two
      lines about waiting 30 minutes, cross that out.
-     And the next line about BATTERIES 2 and 4 OFF/
-     RESET, cross that out, too.
+     And the next line about BATTERIES 2 and 4 OFF/RESET,
+     cross that out, too.
 
 [04:14:56:09]
 CC:  And, Jack, the - -
@@ -35513,22 +35518,22 @@ CC: Okay. On panel 250, circuit breaker BAT A,
 [04:15:08:28]
 _page : 563
 _tape : Tape 75/3
-CMP: Okay, Jack. 1'11 read back those steps you
+CMP: Okay, Jack. I'll read back those steps you
      gave me so far. Panel 250 CB BAT A, POWER
      ENTRY/POSTLANDING, close, panel 275, CB 
      INVERTER POWER 2, MAIN B, close; panel 5, CB BAT
-     RELAY BUS, RAT A, close; CB [glossary:EPS] SENSOR UNIT,
+     RELAY BUS, BAT A, close; CB [glossary:EPS] SENSOR UNIT,
      AC BUS 2, close; CB [glossary:EPS] SENSOR SIGNAL, AC2,
      close, CB BAT CHARGER, MAIN B, close.
 
 [04:15:09:06]
-CC:  Okay. Good readback, Jack. Tile only one is
-     number I - number 4. I didn't get your 
+CC:  Okay. Good readback, Jack. The only one is
+     number 1 - number 4. I didn't get your 
      readback, but it's [glossary:EPS] SENSOR UNIT AC BUS 2, close.
      You got that?
 
 [04:15:09:22]
-CMP: Yes. I read that back CB [glossary:EPS] SENSOR UIJIT, close.
+CMP: Yes. I read that back CB [glossary:EPS] SENSOR UNIT, close.
 
 [04:15:09:30]
 CC:  Okay. To continue - to continue on - the same
@@ -35543,7 +35548,7 @@ CC:  Okay. To continue - to continue on - the same
 [04:15:10:51]
 CMP: Okay, Jack. CB BAT CHARGER to AC POWER, close.
      Stand by. Okay. I had to get a light here.
-     CB BAR CHARGER, BAR A CHARGE, close; CB INVERTER
+     CB BAT CHARGER, BAT A CHARGE, close; CB INVERTER
      CONTROL 2, close; CB INVERTER CONTROL 3, close;
      the two switches, MAIN BUS TIE, BAT A/C, OFF;
      and the second one, BAT CHARGER TO AC2.
@@ -35611,13 +35616,13 @@ CMP: Jack, about how many amperes of [glossary:LM] power will
      this 15 hours ...?
 
 [04:15:15:21]
-CC:  Stand by. We'll get it; for you - -
+CC:  Stand by. We'll get it for you - -
 
 [04:15:15:22]
 CMP: How many, Jack?
 
 [04:15:15:26]
-CMP: Okay. Re got it. He got the question.
+CMP: Okay. He got it. He got the question.
 
 [04:15:15:49]
 CC:  Okay, Jack. That's going to take 120 amp-hours
@@ -35639,7 +35644,7 @@ LMP: Okay, Jack. One question here. If we have any
      problems setting up this [glossary:LM] power to the [glossary:CSM],
      is the quickest way to get out of it, return to
      the normal configuration, as it is for me to
-     just switch the IM POWER to [glossary:CSM] to RESET then OFF?
+     just switch the LM POWER to [glossary:CSM] to RESET then OFF?
 
 [04:15:16:57]
 CC:  Stand by 1.
@@ -35655,19 +35660,19 @@ CC:  Okay. Let us talk it over for a minute, Jack.
 [04:15:17:16]
 CMP: Okay. Real fine. And while you guys are 
      talking it over, you might read back - have you got
-     the procedure for reversing this? I'll copy that..
+     the procedure for reversing this? I'll copy that.
 
 [04:15:20:00]
 CMP: Okay, Jack. Are you with me?
 
 [04:15:20:03]
-CC:  Yes. We' re still here, Jack. What we want to
+CC:  Yes. We're still here, Jack. What we want to
      do is follow you through on this, so we're going
      to get high bit rate to do it. In answer to
      your question, to undo this procedure quickly,
      in the event a problem develops, be sure that
      you don't touch the 124 POWER switch because it's
-     got a RESET position. But the way to undo it;
+     got a RESET position. But the way to undo it
      is go into the [glossary:CSM] and on panel 5 open two
      circuit breakers. And they're some of the first
      ones we read to you. Open [glossary:LM] POWER-1 MAIN B,
@@ -35689,7 +35694,7 @@ CC:  Okay. And before you go ahead with this, let's
 
 [04:15:21:31]
 CMP: Okay. I understand you want high bit rate on
-     the IM or [glossary:CSM] just before we start this?
+     the LM or [glossary:CSM] just before we start this?
 
 [04:15:21:40]
 _page : 566
@@ -35720,7 +35725,7 @@ CC: Okay. First you want to reverse the battery
      switch BATTERY CHARGE, off; AC INVERTER 2, off;
      panel 5, MAIN BUS TIE BAT Alfa Charlie, on, up;
      panel 250, circuit breaker BAT Alfa, POWER
-     ENTRY, and POSTLANDING. open. Read back.
+     ENTRY, and POSTLANDING, open. Read back.
 
 [04:15:23:59]
 CMP: Okay, Jack. On panel 3, BATTERY CHARGER, off,
@@ -35781,7 +35786,7 @@ CMP: Houston, 13.
 CC: Go ahead.
 
 [04:15:33:27]
-CMP: One thing i guess you probably
+CMP: One thing I guess you probably
      all have considered it, but what heavy things
      can we store down there where the SRCs normally
      go to help increase our L over D?
@@ -35798,7 +35803,7 @@ CMP: Yes. They go down in the [glossary:LEB] underneath the
      things - We could probably put some cameras,
      television cameras, things like that that normally 
      pretty heavy down there in - that, in our
-     [glossary:SRC]. No, we can't, put the in our [glossary:SRC], but we
+     [glossary:SRC]. No, we can't put the in our [glossary:SRC], but we
      could put them in that container down there
      which would help decrease our L over D. 
      Anything else you can think of would be greatly
@@ -35900,8 +35905,8 @@ CC:  Okay. On panel 16 circuit breaker, [glossary:EPS], BAT FEED
 [04:15:40:20]
 CMP: Okay. On the [glossary:LM] side of the house is on panel 16.
      CB [glossary:EPS] BAT FEED TIES, two, open; BATTERY 1, HIGH
-     VOLTAGE, OFF/RESET; BATTERY 2, LOW VOLTAGE, OFF/
-     RESET then ON; BATTERY 2, HIGH VOLTAGE, OFF/RESET
+     VOLTAGE, OFF/RESET; BATTERY 2, LOW VOLTAGE, OFF/RESET
+     then ON; BATTERY 2, HIGH VOLTAGE, OFF/RESET
      then ON; BATTERY 1, HIGH VOLTAGE, ON. Panel 16,
      CB BAT FEED TIES, two closed.
 
@@ -35929,7 +35934,7 @@ CMP: Okay. I think I'll go back and try to undamp up
      module?
 
 [04:15:41:43]
-CC:  We're discussing-two items, but we don't have them
+CC:  We're discussing two items, but we don't have them
      ready right now.
 
 [04:15:41:56]
@@ -35943,7 +35948,7 @@ CMP: Okay, Jack. Just for curiosity's sake, does FIDO
 
 [04:15:43:21]
 CC:  Okay, Aquarius. Our tracking data shows that since
-     the helium dump, our entry angle bas not changed
+     the helium dump, our entry angle has not changed
      from its value of 6.24 and somebody calculated
      that if we had a propulsive vent, that helium could
      roughly, at the maximum, only impart a DELTA-V of
@@ -35966,7 +35971,7 @@ CMP: Your 6.24 sounds good.
 CDR: I'm still awake, I guess.
 
 [04:15:44:22]
-CMP: They said that it would be a while because they warn
+CMP: They said that it would be a while because they want
      to get high bit rate. They don't want to put high bit rate. ...
 
 [04:15:46:40]
@@ -36013,7 +36018,7 @@ CDR: ...
 [04:15:50:27]
 _page : 571
 _tape : Tape 75 /11
-CC: Aquarius, low do you read?
+CC: Aquarius, how do you read?
 
 [04:15:50:32]
 CDR: Loud and clear.
@@ -36058,7 +36063,7 @@ CC:  Okay. I read you until after turn off BAT 6 -
 [04:15:55:03]
 LMP: Okay, the question is "Only one ASCENT BATTERY BAT 6
      on the line," immediately followed by turning off
-     four DECENT BATs. Is that correct?
+     four DESCENT BATs. Is that correct?
 
 [04:15:55:18]
 CC:  That's affirmative, Fred. That question has been
@@ -36165,7 +36170,7 @@ CC:  You're out there at 134000, coming in at about
 LMP: Very good.
 
 [04:16:10:04]
-CC:  The SUPERCRIT tank went off at about 19:37, just
+CC:  The SUPERCRIT tank went off at about 1937, just
      about like expected.
 
 [04:16:10:11]
@@ -36322,7 +36327,7 @@ LMP: Okay. ... point ...
 CC:  Fred-o, I didn't copy the last. Say again the voltage, please.
 
 [04:16:26:17]
-LMP: Okay, and the voltage is 34.6 - 34.6 amps, slightly
+LMP: Okay, and the voltage is 34.6 - 34.6, amps, slightly
      less than 2.5.
 
 [04:16:26:26]
@@ -36510,7 +36515,7 @@ LMP: I got ...
 
 [04:17:20:46]
 CC:  I'm afraid I didn't copy that, Fred, and while
-     I was listening, EECOM told me that he'd like
+     I was listening, [glossary:EECOM] told me that he'd like
      another battery charge ... readout.
 
 [04:17:22:31]
@@ -36529,7 +36534,7 @@ CC:  It's not time-critical, Fred, but if you have
      do it. Incidentally, you probably know this,
      but the next several hours are going to be
      pretty quiet from our point of view. We're
-     working on the entry procedures and should he
+     working on the entry procedures and should be
      ready to read them up to you in about 8 hours;
      and between now and then there's not an awful
      lot going to be going on, so you guys could be
@@ -36552,7 +36557,7 @@ LMP: Okay. The volts, Joe, are 38.9 and the amps are 1.9.
 
 [04:17:25:01]
 CC:  Okay. Copy that, Fred. Thank you very much;
-     38.9 and 1.9. And EECOM is simply making as
+     38.9 and 1.9. And [glossary:EECOM] is simply making as
      smooth a plot as he can to verify the amount of
      amps we're putting back into the battery. That's
      why he wants it at half-hour intervals. If
@@ -36560,7 +36565,7 @@ CC:  Okay. Copy that, Fred. Thank you very much;
      your rest cycle or so, give us a call. Over.
 
 [04:17:25:34]
-LMP: Okay..
+LMP: Okay.
 
 [04:17:25:55]
 LMP: Yes. Jim's sleeping now, and Jack and I are
@@ -36592,7 +36597,7 @@ CC:  Hey; okay, Fred. We suspected that you'd
      which is real good.
 
 [04:17:39:10]
-LMP: Okay. You might run that by the CPCB and see
+LMP: Okay. You might run that by the [glossary:CPCB] and see
      if they approve our in-house ...
 
 [04:17:39:17]
@@ -36610,7 +36615,7 @@ _tape : Tape 76/5
 LMP: Go ahead, Joe.
 
 [04:17:40:28]
-CC:  Roger. We're convening the CPCB on that change,
+CC:  Roger. We're convening the [glossary:CPCB] on that change,
      Fred, but FLIGHT has given you an interim go-ahead. Over.
 
 [04:17:40:38]
@@ -36620,7 +36625,7 @@ LMP: Okay.
 LMP: And, how do you read now?
 
 [04:17:55:55]
-CC:  Not too had, Fred.
+CC:  Not too bad, Fred.
 
 [04:17:55:59]
 LMP: Okay. We've got both canisters completed now.
@@ -36778,7 +36783,7 @@ CMP: Just now. I just got you back.
 [04:18:56:16]
 CC:  Okay. We had a handover, but that was about a
      half an hour ago, and I didn't call you on it.
-     Let me check with INCO and see if he thinks
+     Let me check with [glossary:INCO] and see if he thinks
      everything's okay. Your COMM sounds just as
      good as it's ever been.
 
@@ -36925,7 +36930,7 @@ CC:  Okay, Jim. It's about time, at your convenience,
      module. For your information, we put 6 amp-hours
      back in the battery already and we've got about
      14 to go. It's looking real good, and I also
-     Just got the word that the entry weather tomorrow
+     just got the word that the entry weather tomorrow
      is looking better all the time. Really looks
      great.
 
@@ -37259,7 +37264,7 @@ CC:  Yes.
 CDR: We're a little reluctant to break out the suits.
 
 [04:22:28:18]
-CC:  Yes, that's understandable, You can always use
+CC:  Yes, that's understandable. You can always use
      them if you have to. I guess it's pretty hard
      to get extra coveralls on, huh?
 
@@ -37316,7 +37321,7 @@ CDR: And, Joe, just a reminder; now that you mention
 CC:  Roger that, Jim. We are trying to get the
      procedures finished and up to you as quickly
      as we can. They exist. What's going on now
-     is the guys are running them in the CMS/LES,
+     is the guys are running them in the CMS/LMS,
      integrate, to make darn sure that the attitudes
      are correct and the time line is nice and relaxed 
      and all that good stuff. And they won't
@@ -37373,7 +37378,7 @@ CC:  Go ahead, Aquarius.
 CDR: Another note of interest to the crew systems
      people - Tell them that they don't have to
      bother putting the refrigerator onboard. I
-     Just brought out some hot dogs, and they're
+     just brought out some hot dogs, and they're
      practically frozen.
 
 [04:22:57:05]
@@ -37525,12 +37530,12 @@ CC:  Okay, and you're real good. It's a - It's a
      can enter the checklist where possible to - to
      perform functions, and the time line will simply
      refer you to the checklist when that's appropriate.
-     Okay ?
+     Okay?
 
 [05:00:23:32]
 _page : 596
 _tape : Tape 81/2
-CDR: Okay. bounds good. You're going to give me an
+CDR: Okay. Sounds good. You're going to give me an
      overall time line now, I take it; is that right?
 
 [05:00:23:36]
@@ -37556,7 +37561,7 @@ CC:  That's affirm. I'm going to first of all just
      we have that, we'll perform MCC-7, which looks
      like, now, about a 2-foot-per-second burn or
      about 15 seconds of [glossary:RCS]. And I'm told that it's
-     dovn to 1-1/2 now, so it's comfortably within
+     down to 1-1/2 now, so it's comfortably within
      the [glossary:RCS] margin. Okay. When we do that, we'll
      immediately start the maneuver to the service
      module jettison attitude, which will be in plane
@@ -37651,10 +37656,10 @@ CC:  Okay, Jim. I didn't want to talk about that
      it down finally. Over.
 
 [05:00:30:38]
-CDR: Okay. Understand. second question: when we
+CDR: Okay. Understand. Second question: when we
      finish MCC-7, that maneuver to [glossary:SM] JETT attitude
      will be angles given to us, by you, using the
-     [glossary:AGS] aline ball, right.?
+     [glossary:AGS] aline ball, right?
 
 [05:00:30:52]
 CC:  That's affirmative. Once we get that [glossary:AGS] alined
@@ -37743,7 +37748,7 @@ CDR: Okay.
 CC:  While we are on that subject, Jim, I want to
      mention one thing to Jack. As I said, this CSM
      alinement procedure we are going to recommend is
-     a Moon/Sun, and there are Sim filters stowed;
+     a Moon/Sun, and there are Sun filters stowed;
      they are stowed in compartment R-1; however,
      they are for the telescope only, of course, not
      the sextant. One is for the long eye-relief
@@ -37768,7 +37773,7 @@ CC:  Okay, Jim. We are laying for you on that one;
      feelings are - Of course, it is up to you, but
      as we see the pros and cons, you just put your
      finger on the pro. We do a hatch integrity
-     check shortly before RI minus 1 hours, and if we
+     check shortly before EI minus 1 hours, and if we
      bust it, you would have a hard time scrambling
      into the suits. On the other hand, the disadvantages of wearing the suits are that they might
      slow you down considerably, not even counting the
@@ -38686,7 +38691,7 @@ LMP: Now you see why we call it the refrigerator.
 [05:03:12:35]
 CC:  Yes, it's kind of a cold winter day up there,
      isn't it? Is it snowing in the command module
-     yet ?
+     yet?
 
 [05:03:12:50]
 LMP: Is it what, Vance?
@@ -38871,7 +38876,10 @@ CMP: Okay. I'll be standing by.
 CC:  One other thing, Jack - You still with me?
 
 [05:03:30:43]
-CMP: Yes, go ahead. The stowage people have tried
+CMP: Yes, go ahead.
+
+[05:03:30:49]
+CC:  The stowage people have tried
      out this black-and-white TV camera into B-6 idea
      and they say even with the lens off, they can't
      get it in. So, I still recommend that it be
@@ -38948,7 +38956,7 @@ CC:  Okay.
 CMP: Okay, Vance. Volts 39.4, amps 1.25.
 
 [05:03:45:38]
-CC:  Okay. EECOM's got it duly recorded.
+CC:  Okay. [glossary:EECOM]'s got it duly recorded.
 
 [05:03:45:45]
 CMP: Is John Aaron on?
@@ -39127,7 +39135,7 @@ CMP: Vance, you won't believe this, but Fred-o says
      it's 39.4 and 1.245.
 
 [05:04:20:19]
-CC:  Okay. Our EECOM is recording those numbers.
+CC:  Okay. Our [glossary:EECOM] is recording those numbers.
      Charlie Dumas, this time.
 
 [05:04:20:27]
@@ -39217,7 +39225,7 @@ CC:  And that's all for that one.
 
 [05:04:42:04]
 CDR: Okay, Vance. Let me see if I have it here. For
-     the [glossary:LM], want to mse the 70-millimeter DC
+     the [glossary:LM], want to use the 70-millimeter DC
      Hasselblad 80-millimeter lens in A-13, using
      3400 black-and-white film MAGs R or S. Prepare
      to take camera to the [glossary:LM], and the setting would
@@ -39438,7 +39446,7 @@ CMP: Okay, Vance. I'm on and ready to copy.
 
 [05:05:27:54]
 CC:  Okay, Jack. Wait 1. We want to get one into
-     the hands of FLIGHT and EECOM, and it'll take
+     the hands of FLIGHT and [glossary:EECOM], and it'll take
      about a minute or 2. Sorry to wake you up for
      this, but take about a minute, and then we'll
      read it up to you.
@@ -39515,7 +39523,7 @@ _page : 628
 _tape : Tape 84/4
 CMP: I got - I was trying to copy it as you were
      reading it, Vance. The [glossary:LM] pads are service
-     module jettison attitude, Moon viewing attitude
+     module jettison attitude, Moon viewing attitude,
      Sun viewing attitude, and [glossary:LM] jettison attitude.
      Is that correct?
 
@@ -39601,7 +39609,7 @@ CC:  Jack, probably - probably the thing to do is to
      give you all of the checklist, and it will
      include things like this. Then we'll have a
      big question and answer session afterwards, if
-     that' s okay by you.
+     that's okay by you.
 
 [05:05:44:24]
 CMP: Okay. That sounds good.
@@ -39914,7 +39922,7 @@ CMP: Okay. Panel 5; FLOODLIGHTS; you want the rheostat on. Panel 100, FLOODLIGHT
 
 [05:06:17:14]
 CC:  That's affirmative. Okay. On panel 8: circuit
-     breakers NS, MAIN A and MAIN B, that's two,
+     breakers EMS, MAIN A and MAIN B, that's two,
      open.
 
 [05:06:17:47]
@@ -40046,7 +40054,7 @@ CC:  Okay. I'm sorry, Jack. Would you read that
 
 [05:06:24:03]
 CMP: Okay. On panel 5: CB CENTRAL INSTRUMENTATION
-     POWER, MAIN B, closed,
+     POWER, MAIN B, closed.
 
 [05:06:24:10]
 CC:  Okay. That's correct. PRIMARY EVAPORATE WATER
@@ -40075,7 +40083,7 @@ CC:  And, Jack, can you give us a readout on BAT B
 
 [05:06:25:14]
 CMP: Okay, Ken. That was the PRIMARY and SECONDARY
-     H<sub>2</sub>0 CONTROL valves to AUTO on 382.
+     H<sub>2</sub>O CONTROL valves to AUTO on 382.
 
 [05:06:25:20]
 CC:  That's affirmative, and did you copy about the
@@ -40296,7 +40304,7 @@ CC:  That's affirm. On panel 8: SEQUENTIAL, PYRO
      ARM, two to ARM.
 
 [05:06:36:37]
-CMP: Okay. Panel 8: set FYRO ARM, two, to ARM. Do
+CMP: Okay. Panel 8: set PYRO ARM, two, to ARM. Do
      I get a [glossary:MSFN] GO for that?
 
 [05:06:36:43]
@@ -40342,7 +40350,7 @@ CC: Okay. And following this, we take SEQUENTIAL,
 CMP: Okay. LOGIC, two, to OFF.
 
 [05:06:38:48]
-CC:  I'm sorry, Jack. I'1] have to ask you to repeat
+CC:  I'm sorry, Jack. I'll have to ask you to repeat
      that.
 
 [05:06:38:58]
@@ -40354,7 +40362,7 @@ CMP: Okay. Panel 8: SEQ LOGIC, two, to OFF. Are
 [05:06:39:08]
 CC:  That's affirm. The reason we're turning the
      logic off, Jack, is a power savings. So we'll
-     be turning them off, and I'll ge getting them
+     be turning them off, and I'll be getting them
      back on when we go to get off of the LM; and
      then turn them back off, then we'll be turning
      them on prior to entry. Just so you know what's
@@ -40589,7 +40597,7 @@ CC:  Roger.
 CMP: Okay. Could you repeat that, please?
 
 [05:06:49:38]
-CC:  Okay. On panel 5: circuit breakers EFS SENSOR
+CC:  Okay. On panel 5: circuit breakers EPS SENSOR
      SIGNAL, AC 1 and 2, closed.
 
 [05:06:49:56]
@@ -40605,8 +40613,8 @@ CMP: Okay. CBS - CB [glossary:EPS] SENSOR UNIT, AC 1 and AC 2,
      closed.
 
 [05:06:50:29]
-CC:  That's correct. And circuit breaker CAUTION/
-     WARNING, MAIN A, closed.
+CC:  That's correct. And circuit breaker CAUTION/WARNING,
+     MAIN A, closed.
 
 [05:06:50:41]
 CMP: CB CAUTION/WARNING, MAIN A, closed.
@@ -40751,10 +40759,10 @@ CC:  That's correct. Okay, now the ground is going
      That's a - that's a time that you need to be
      configured to accept up telemetry. And what
      they're going to give you on a [glossary:P27] update will
-     by a clock increment, a state vector; they'll
-     give you a VERB 66; they'll give you two
+     be a clock increment, a state vector; they'll
+     give you a [glossary:VERB 66]; they'll give you two
      REFSMMATs, there'll be an actual and a preferred;
-     and the entry target load. Now, if you'd like.
+     and the entry target load. Now, if you'd like
      to copy those, I can take it a little slower.
 
 [05:06:58:13]
@@ -40801,7 +40809,7 @@ CC:  That's correct. And the next thing you will
      have the computer.
 
 [05:07:00:10]
-CMP: Okay. Set it from the, CHC, huh?
+CMP: Okay. Set it from the CMC, huh?
 
 [05:07:00:13]
 CC:  That's affirm. Okay. Now, we are getting
@@ -40847,15 +40855,15 @@ CC: Okay. Basically, that is correct. Let me just
      Moon. Now, this set of angles will agree with
      the [glossary:REFSMMAT] that you have in as a nominal
      [glossary:REFSMMAT] in you [glossary:CMC]. You can coarse aline to that,
-     set a drift flag and EEFSMMAT flag, and you'll
+     set a drift flag and REFSMMAT flag, and you'll
      have a good platform and we'll be within a
      couple of degrees of a good alinement. And, if
      we have to, we could break off at this point and
      go ahead with an entry; however, in an attempt
      to get a good platform, we are going to have you
      then do a [glossary:P52] option 1, and what you are going to
-     find in the option 1 slots in the entry [glossary:REFSMMAT].
-     You'll come up with the NOUN 22 values, and we
+     find in the option 1 slots is the entry [glossary:REFSMMAT].
+     You'll come up with the [glossary:NOUN 22] values, and we
      intend to go ahead and coarse aline the ball to
      the entry [glossary:REFSMMAT] attitude, and then we'll go
      ahead and take marks through a normal P52
@@ -40873,7 +40881,7 @@ CMP: Okay. Well, let me ask a question. The LM
      right? With the planet option?
 
 [05:07:03:29]
-CC:  The first thing we arc going to do is to coarse
+CC:  The first thing we are going to do is to coarse
      aline the platform and get it inertial, based on
      the [glossary:REFSMMAT] that you have in the present slot
      inside the [glossary:CMC]. We'll then go - and do a [glossary:P52],
@@ -41017,7 +41025,7 @@ CMP: Okay, another volts and amps coming up.
 [05:07:08:40]
 CC:  All right. Thank you. And this left us in P52
      with two marks, and we'll go ahead and torque
-     the NOUN 93s.
+     the [glossary:NOUN 93]s.
 
 [05:07:09:03]
 CMP: Okay. ... torque the NOUN 93s, after the two
@@ -41120,13 +41128,13 @@ CMP: Okay. Closeout and hatch installation at EI
 
 [05:07:12:35]
 CC:  That's right, Jack, and we're going to close the
-     IM hatch, and we'll make the dump valve in the
+     LM hatch, and we'll make the dump valve in the
      [glossary:LM] hatch closed.
 
 [05:07:12:51]
 _page : 653
 _tape : Tape 85/16
-CMP: Understand you're going to close tile dump valve,
+CMP: Understand you're going to close the dump valve,
      now on the [glossary:LM] hatch, right?
 
 [05:07:12:56]
@@ -41174,7 +41182,7 @@ CMP: Okay. Does it make any difference if we
 
 [05:07:14:41]
 CC:  That's right. No sweat. John Aaron's just
-     saying that they may he hot. He's checking on
+     saying that they may be hot. He's checking on
      it, so how about holding a decision on that and
      let me come back to you?
 
@@ -41265,10 +41273,10 @@ CC:  That's correct. Okay, then we'll finish going
      of the hatch integrity check and tunnel vent
      procedures with you. The next thing I want to
      read off is the [glossary:EI] minus 1 plus 20. We'll go to
-     panel 7: BMAG number 1 POWER to WARM UP.
+     panel 7: [glossary:BMAG] number 1 POWER to WARM UP.
 
 [05:07:19:11]
-CMP: BMAG number 1 POWER to WARM UP.
+CMP: [glossary:BMAG] number 1 POWER to WARM UP.
 
 [05:07:19:15]
 CC:  That's correct. Then at [glossary:EI] minus 1 plus 10, we'll
@@ -41399,7 +41407,7 @@ _page : 657
 _tape : Tape 85/20
 CC:  Okay. And as soon as you've gotten yourself all
      set up with a good control mode, you want to
-     maneuver Lo the entry attitude.
+     maneuver to the entry attitude.
 
 [05:07:25:45]
 CMP: Maneuver to entry attitude per the pad.
@@ -41424,7 +41432,7 @@ CMP: Okay. Say again why, Ken. I didn't understand
 [05:07:26:31]
 CC:  Okay, this is just a precaution, Jack. If we
      park the optics with a 90-degree shaft angle,
-     that will line up the slit's so it gives you the
+     that will line up the slits so it gives you the
      best airflow over that part of the heat shield
      and avoids a hot spot. If you don't remember
      it, I don't think it makes much difference. It's
@@ -41485,7 +41493,7 @@ CC:  Okay, Jack. You remember everybody in the past
      Moon. This is an inertial attitude; it won't
      be changing, and you'll put the 36-degree window
      line on the Moon, and then just sit there and
-     watch it. And just pr or to [glossary:EI], the Earth will
+     watch it. And just prior to [glossary:EI], the Earth will
      come up and occult it, and you will then have a
      good horizon check. And I have some times, and
      I'll give you that later. And if you just look
@@ -41514,11 +41522,11 @@ CMP: Yes, that's that one at 17 minutes prior. Okay.
 CC:  Okay, and we're just getting it in a little
      closer. Okay, the next item on the check - checklist 
      here is an [glossary:EI] minus 40; we're going
-     to panel 7, and it's BMAG NUMBER 2 POWER to
+     to panel 7, and it's [glossary:BMAG] NUMBER 2 POWER to
      WARM UP.
 
 [05:07:30:49]
-CMP: Okay, panel 7: BMAG NUMBER 2 POWER to WARM UP.
+CMP: Okay, panel 7: [glossary:BMAG] NUMBER 2 POWER to WARM UP.
 
 [05:07:30:52]
 CC:  That's correct. Now, I'd like to verify the
@@ -41531,11 +41539,11 @@ CMP: Verify SURGE TANK and REPRESS PACKAGE are ON.
 
 [05:07:31:16]
 CC: That's correct. On panel 5: circuit breaker
-     ENVIRONMENTAL - CONTROL SYSTEM; WASTE WATER/
-     URINE DUMP HEATER, two of them, closed.
+     ENVIRONMENTAL - CONTROL SYSTEM; WASTE WATER/URINE
+     DUMP HEATER, two of them, closed.
 
 [05:07:31:44]
-CMP: Panel 5: CB [glossary:ECS], WASTE H<sub>2</sub>0/URINE DUMP HEATERS,
+CMP: Panel 5: CB [glossary:ECS], WASTE H<sub>2</sub>O/URINE DUMP HEATERS,
      two, to close.
 
 [05:07:31:51]
@@ -41567,7 +41575,7 @@ CC:  All right. Now we're at [glossary:EI] minus 30. SEQUENTIAL,
 CMP: [glossary:EI] minus 30; SEQ, LOGIC, two, ON.
 
 [05:07:33:01]
-CC:  Okay, in panel 7: the BMAG number 2 POWER to ON.
+CC:  Okay, in panel 7: the [glossary:BMAG] number 2 POWER to ON.
 
 [05:07:33:13]
 CMP: Okay, we - you only gave that 10 minutes for the
@@ -41641,7 +41649,7 @@ CC:  Okay, Jack. Now that's the - those are the
      they just are pieces of the entry
      checklist which will correspond to what I've
      written - already read to you. And I'm ready to
-     to on that whenever you are. And Vance tells me
+     go on that whenever you are. And Vance tells me
      you can get into the descent water for drinking
      now.
 
@@ -41666,7 +41674,7 @@ CMP: Jim would like to know whether the descent water
 _page : 661
 _tape : Tape 85/24
 CC: Okay, Jack. Looks like we're going to go on
-     the ascent tanks and [time:05:08:30:00|128:30]. And it looks like - -
+     the ascent tanks at [time:05:08:30:00|128:30]. And it looks like - -
 
 [05:07:36:29]
 CMP: Okay, understand. We are going - -
@@ -41796,7 +41804,7 @@ CC:  Okay. On the top of the next page where it says
      don't plan to use the secondary evaporators unless 
      the primary fails. On line 35 on page 1-5,
      next to "Command module [glossary:RCS] preheat," the time
-     is not "Minus 06:30."
+     is now "Minus 06:30."
 
 [05:07:41:14]
 _page : 663
@@ -42033,11 +42041,11 @@ CMP: Yes. Go ahead.
 
 [05:07:50:24]
 CC:  Okay. On - These are just cleanup items, Jack.
-     On page 2-3, it lists now you separate, from the
+     On page 2-3, it lists how you separate, from the
      CM/[glossary:SM] SEP and all that, so, obviously, if we're
      on step 5 at 43 minutes down - that's all deleted.
      And that gets deleted all the way over onto
-     page 2-4, up to the line where it says "15 minutes.'' And at that point, we pick back up and
+     page 2-4, up to the line where it says "15 minutes." And at that point, we pick back up and
      everything. From 15 minutes down is valid.
 
 [05:07:51:07]
@@ -42110,16 +42118,16 @@ CC:  Okay. Under [glossary:CMC] powerup, line - or step 2 says
      use this, Jack, is going to be when you've just
      brought the computer up and it has a state vector
      in it that's way back many, many hours ago. So
-     we want to do a VERB 96, ENTER to stop the integration to keep it from just sitting there
+     we want to do a [glossary:VERB 96], ENTER to stop the integration to keep it from just sitting there
      ambling along. And when the ground gives you a
-     new state vector, why then we can go through P00
+     new state vector, why then we can go through [glossary:P00]
      and we'll be back in business.
 
 [05:07:54:43]
 _page : 668
 _tape : Tape 85/31
 CMP: Okay. You want me to go to [glossary:VERB 37], ENTER; 00,
-     ENTER; and then do a VERB 96?
+     ENTER; and then do a [glossary:VERB 96]?
 
 [05:07:54:55]
 CC: When you come up, I guess you're going to - once
@@ -42144,16 +42152,16 @@ CC:  Okay. Under the [glossary:SCS] powerup, the first line
      it says "Circuit breaker [glossary:SCS] LOGIC POWER," that's
      really "LOGIC BUS, four of them, to closed."
      The DELTA-V CG is not important since we are not
-     burning the engine. The "SIGNAL CONDITIONER/
-     DRIVER BIAS POWER" lists "Two to AC 1." We are
+     burning the engine. The "SIGNAL CONDITIONER/DRIVER
+     BIAS POWER" lists "Two to AC 1." We are
      going to make that just one of them; make it
      "SIGNAL CONDITION/DRIVER BIAS POWER, one, to
-     AC 1." The "BMAG POWER," which is the third
-     line from the bottom, says "BMAG POWER, two, ON;"
+     AC 1." The "[glossary:BMAG] POWER," which is the third
+     line from the bottom, says "[glossary:BMAG] POWER, two, ON;"
      we are going to make that just one. We'll bring
      up number 1, and we'll make "[glossary:FDAI] POWER, number 1" and the last line "AUTO [glossary:RCS] SELECT, 16,
      enable," you can strike that off and replace it
-     with "BMAG MODE, three of them, to RATE 1." You
+     with "[glossary:BMAG] MODE, three of them, to RATE 1." You
      want to try reading that back?
 
 [05:07:56:58]
@@ -42161,9 +42169,9 @@ CMP: Okay. Delete "AUTO [glossary:RCS] SELECT, 16, OFF." Change
      "CB LOGIC POWER" to "LOGIC THRUST POWER - CBS
      CS LOGIC THRUST, four, to closed." Delete
      "DELTA-V CG," coming down here "SIGNAL
-     CONDITIONER/DRIVER BIAS POWER, one, AC 1; BMAG
-     POWER, 1, to ON," and it's the number 1 BMAG.
-     "[glossary:FDAI] POWER to 1; BMAG MODE, three, to RATE 1,"
+     CONDITIONER/DRIVER BIAS POWER, one, AC 1; [glossary:BMAG]
+     POWER, 1, to ON," and it's the number 1 [glossary:BMAG].
+     "[glossary:FDAI] POWER to 1; [glossary:BMAG] MODE, three, to RATE 1,"
      deleting the "AUTO [glossary:RCS] SELECT, 16, to enable."
 
 [05:07:57:34]
@@ -42411,7 +42419,7 @@ CMP: Okay, Vance. I'm here, and you have something in
 CC:  That's right. Refer to S/2-6. This - Really
      what we're talking about, Jack, is the hatch
      integrity check decal. And I think it'll be
-     easiest, if .you'll open to S/2-6 and I explain
+     easiest, if you'll open to S/2-6 and I explain
      it to you.
 
 [05:08:09:41]
@@ -42450,7 +42458,7 @@ CC:  That's affirm. And now, we have an addition to
      COMM's bad. How do you read?
 
 [05:08:11:14]
-CMP: Roger. loud and clear.
+CMP: Roger. Loud and clear.
 
 [05:08:11:16]
 CC:  Okay. We want you to vent - tunnel vent until,
@@ -42490,8 +42498,8 @@ CC:  Okay, then, Jack. Continuing on, everything's
 [05:08:12:50]
 _page : 674
 _tape : Tape 86/4
-CMP: Okay. Delete tile section that says "Before un
-     docking only" down to where it says "TUNNEL VENT
+CMP: Okay. Delete the section that says "Before un-docking
+     only" down to where it says "TUNNEL VENT
      VALVE to TUNNEL VENT."
 
 [05:08:12:57]
@@ -42642,7 +42650,7 @@ CC:  Okay, Fred-o. Okay. This is "Entry, [glossary:LM] PREP."
      Starts [glossary:EI] minus 6 hours. At that time, you power
      up the ACS. I think I'll give you a line at a
      time and, when I hear you say okay on that, I'll
-     to to the next. That sound reasonable?
+     go to the next. That sound reasonable?
 
 [05:08:27:11]
 LMP: Okay. I'll go hot mike briefly.
@@ -42844,7 +42852,7 @@ _tape : Tape 86/9
 CC:  It's clear.
 
 [05:08:36:40]
-LMP: Okay. The master title, "Entry, LP PREP, [glossary:EI] minus
+LMP: Okay. The master title, "Entry, LM PREP, [glossary:EI] minus
      6 hours." First, BAT 5 NORMAL FEED, ON; second,
      use modified [glossary:LM] DPS/[glossary:RCS], 30-minute activation checklist. Next, is at [glossary:TEI] minus 5 hours, MCC-7, if
      required. Now, we have a [glossary:LM] preentry procedure.
@@ -42863,7 +42871,7 @@ CC:  That's correct so far, Fred-o.
 [05:08:37:59]
 LMP: Okay. At [glossary:EI] minus 4-1/2 hours, configure for SM
      SEP. First, BALANCE COUPLE, ON. Secondly, zero
-     the counters in AGS; 4C4, 405, 406, plus 0; read
+     the counters in AGS; 404, 405, 406, plus 0; read
      out 470. Thirdly, translate plus-X to 0.5 foot
      per second. Fourth, CM/[glossary:SM] SEP. Fifth, after SEP,
      null 470 to 0. Sixth, ATTITUDE CONTROL, three,
@@ -43217,7 +43225,7 @@ LMP: REPRESS VALVE, close.
 CC:  SUIT FAN, OFF.
 
 [05:08:58:41]
-LMP: Now many more steps, Vance?
+LMP: How many more steps, Vance?
 
 [05:08:58:43]
 CC:  Two after this, Fred-o.
@@ -43529,7 +43537,7 @@ CC:  Yes. I agree. But we decided just in case we
 CDR: Okay, Tom.
 
 [05:09:10:05]
-F:   Hey, would you like to have - -
+CC:  Hey, would you like to have - -
 
 [05:09:10:06]
 CDR: Good night.
@@ -43609,7 +43617,7 @@ LMP: Okay.
 
 [05:09:12:17]
 CC:  Okay. Under "[glossary:PGNS] turn-on," add in steps 1 and 2
-     again, which are NO ATTITUDE light off, VERB 96
+     again, which are NO ATTITUDE light off, [glossary:VERB 96]
      ENTER, and set EVENT TIMER.
 
 [05:09:12:35]
@@ -43628,7 +43636,7 @@ CC:  Okay. If you got the 1257, ENTER, then 252,
      ENTER and ENTER.
 
 [05:09:13:18]
-LMP: Okay. After event, set EVENT TIMER, it's VERB 25
+LMP: Okay. After event, set EVENT TIMER, it's [glossary:VERB 25]
      [glossary:NOUN 07], ENTER; 1257, ENTER; 252 ENTER; ENTER.
 
 [05:09:13:28]
@@ -43925,7 +43933,7 @@ LMP: We wouldn't forget it.
 CC: Okay, Fred-o. That's - That's the changes. Not
      quite as extensive as the [glossary:CSM] had, but still pretty
      long. Any comments or questions to the house
-     here ?
+     here?
 
 [05:09:32:02]
 LMP: No, it looks pretty good to me, Vance.
@@ -44161,8 +44169,8 @@ CMP: We'll - we'll take it easy, but I - and we'll
      try to sleep, but it's just awful cold.
 
 [05:12:38:33]
-CC:  Present data indicates that you're entry angle
-     is minus 6.03 degrees, Your DELTA-V at the
+CC:  Present data indicates that your entry angle
+     is minus 6.03 degrees. Your DELTA-V at the
      midcourse is going to 2.8 feet a second.
 
 [05:12:38:45]
@@ -44246,7 +44254,7 @@ LMP: Which step number is that?
 
 [05:12:46:03]
 LMP: The confusing thing is, Jack, where they told
-     me to wait for [glossary:MSFN] GC before proceeding was
+     me to wait for [glossary:MSFN] GO before proceeding was
      that BAT 2 LOW VOLTS OFF/RESET, then ON.
 
 [05:12:46:12]
@@ -44254,7 +44262,7 @@ CC:  Okay. That's still affirmative. We'll give you
      a go after waiting 5 seconds, and then down from
      there just a few steps, after you have opened
      the ASCENT ECA CONTROL breakers on panel 16, at that point, the
-     umbilical is now powered, and it's okay to disconnect them should
+     umbilical is not powered, and it's okay to disconnect them should
      you care to do so.
 
 [05:12:46:35]
@@ -44288,7 +44296,7 @@ LMP: Roger.
 [05:12:48:23]
 CC:  Fred-o, we've got one more change we'd like to
      give you to clarify a question that Jack asked
-     earlier. At [glossary:EI] minus 02'30 - -
+     earlier. At [glossary:EI] minus 02:30 - -
 
 [05:12:48:35]
 LMP: Okay. Hold on a minute, Jack. I meant to call
@@ -44341,7 +44349,7 @@ CDR: Okay, Jack. This is Jim. I just want to make
      sending them up.
 
 [05:12:51:57]
-CC:  Roger. We won't. The chairman of the CPCB is
+CC:  Roger. We won't. The chairman of the [glossary:CPCB] is
      still active, and one thing we're trying to do
      is to save you all the time we can between EI
      minus 02:30 and 1 hour.
@@ -44393,7 +44401,7 @@ F: Wish we could figure a way to get a hot cup of
      good about now, wouldn't it?
 
 [05:12:53:46]
-CDR: Yes, it sure Would. You don't realize how cold
+CDR: Yes, it sure would. You don't realize how cold
      this thing becomes when it's in a [glossary:PTC] mode that's
      slowing down, and I just clocked the cycles on
      my ... And it's about 11 to 12 minutes now, and
@@ -44406,7 +44414,7 @@ F: Hang in there. It won't be long now.
 
 [05:12:54:19]
 CDR: Yes. That's right. As a matter of fact, doing
-     this alignment on the Earth this time will be
+     this alinement on the Earth this time will be
      like making a landing with a fogged-up windshield.
 
 [05:13:21:53]
@@ -44837,7 +44845,7 @@ LMP: Are you talking about ball theta angles?
 
 [05:14:43:59]
 CC:  Negative. I was - I was reporting the code for
-     NOUN 70.
+     [glossary:NOUN 70].
 
 [05:14:44:07]
 _page : 709
@@ -44848,7 +44856,7 @@ F: They're in the computer, Fred.
 LMP: Oh, okay.
 
 [05:14:49:06]
-CDR: Okay , Houston. We have the Sun marks and I'll
+CDR: Okay, Houston. We have the Sun marks and I'll
      start up at pitch now to go over and pick up
      the Moon.
 
@@ -44992,7 +45000,7 @@ CC:  Looks to us like you've got her alined, Jim, so
 
 [05:15:16:33]
 CDR: Yes. I'm pretty confident that the platform's
-     fairly descent.
+     fairly decent.
 
 [05:15:17:38]
 CC:  Aquarius, Houston. We need an E MOD [glossary:VERB 74],
@@ -45028,7 +45036,7 @@ CC:  Aquarius, Houston. We're considering doing the
      in [glossary:AGS].
 
 [05:15:32:52]
-CDR: No. [glossary:PGNS] is Fine with me. I just aline myself
+CDR: No. [glossary:PGNS] is fine with me. I just aline myself
      up with the old ball again. So I've got you
      foresighted again, but any way you want to do it.
 
@@ -45084,7 +45092,7 @@ CDR: Okay. So, we'll be going to the service module
      coarse aline, and -
 
 [05:15:40:54]
-CDR: Then you want - You want Jack then to do a P527
+CDR: Then you want - You want Jack then to do a P52?
 
 [05:15:41:20]
 CC:  The way we'll do that in our time line Jim, is
@@ -45137,13 +45145,13 @@ _page : 714
 _tape : Tape 91/1
 CMP: Okay. I just wanted to talk over with you, it
      looks like we've had some changes in the flight
-     plan here, due to Jim's. [glossary:P52]. Do you have - Can
+     plan here, due to Jim's [glossary:P52]. Do you have - Can
      you talk over with me what your plans are?
 
 [05:15:45:50]
 CC:  Roger, Jack. Since we've got the [glossary:PGNS] up, we
      plan to use that information to give the [glossary:CMC] a
-     dock coarse alone, and then we're in the service
+     dock coarse aline, and then we're in the service
      module jettison attitude, we'll wait until it
      comes time to power up the [glossary:CMC], and we'll get
      the [glossary:CMC] a dock coarse aline, and we'll pick some
@@ -45177,11 +45185,11 @@ CDR: I don't think there's many LMs that have seen it
      Cone Crater.
 
 [05:15:47:38]
-CC:  You're going the wrong way, son.
+F:  You're going the wrong way, son.
 
 [05:15:48:29]
 CMP: Okay, Jack. It looks - just looking over what I
-     may expect here, it locks like I'm just going to
+     may expect here, it looks like I'm just going to
      get three angles to do a [glossary:VERB 41] [glossary:NOUN 20], right?
 
 [05:15:48:45]
@@ -45335,7 +45343,7 @@ _tape : Tape 91/4
 CC: Okay, Jim.
 
 [05:16:11:14]
-LMP: Okay. That last Joe was execute at tile [glossary:GET] at
+LMP: Okay. That last Joe was execute at the [glossary:GET] at
      [time:05:18:10:00|138:10:00] which is [glossary:EI] minus 4-1/2 hours; execute
      a push of 0.5 feet per second, four-jet ullage;
      then execute [glossary:SM] SEP followed by a pull of 0.5 feet
@@ -45451,7 +45459,7 @@ CC:  Go ahead, Aquarius.
 
 [05:16:19:01]
 CDR: Okay. I just want to clarify one thing on the
-     [glossary:LM|LM] SEP pad. It appears to me that in my configuration, I could probably use a VERB 49 loading in
+     [glossary:LM|LM] SEP pad. It appears to me that in my configuration, I could probably use a [glossary:VERB 49] loading in
      622, yaw, pitch, and roll, in that order; and then
      being able to fly out at 5018 in roll, pitch, and
      yaw. Is that correct?
@@ -45492,11 +45500,11 @@ CC:  That's affirmative.
 CC:  Aquarius, Houston.
 
 [05:16:21:45]
-LMP: Co ahead, Joe.
+LMP: Go ahead, Joe.
 
 [05:16:21:46]
 CC:  Roger. The word we have is that you can't make
-     a VERB 49 maneuver to the [glossary:LM|LM] jettison attitude
+     a [glossary:VERB 49] maneuver to the [glossary:LM|LM] jettison attitude
      because those are [glossary:FDAI|FDAI] angles we gave you, they
      don't correspond to the gimbal angles for the
      load; it'll have to be a manual maneuver. Over.
@@ -45545,13 +45553,13 @@ CC: Okay.
 
 [05:16:42:58]
 CDR: He's been looking at them, but they haven't been
-     coming up, no far.
+     coming up, so far.
 
 [05:16:43:02]
 CC:  We copy.
 
 [05:16:43:23]
-CDR: Do you see a current now: Houston?
+CDR: Do you see a current now, Houston?
 
 [05:16:43:28]
 CC: Stand by 1 on that, Jim. That's affirmative, Jim;
@@ -46241,7 +46249,7 @@ CDR: Okay.
 
 [05:18:12:58]
 CC:  And, Jim, when you have leisure to copy, I have
-     your NOUN 46 and [glossary:NOUN 47] [glossary:DAP] data load numbers.
+     your [glossary:NOUN 46] and [glossary:NOUN 47] [glossary:DAP] data load numbers.
 
 [05:18:13:08]
 CDR: Okay. Go ahead.
@@ -46364,7 +46372,7 @@ _page : 732
 _tape : Tape 92/9
 CMP: Okay. Doing a [glossary:VERB 37], ENTER; 06, ENTER does
      bring up the three balls 62 display, but I can't
-     PROCEED on it on either [glossary:DSKY] and a VERB 33
+     PROCEED on it on either [glossary:DSKY] and a [glossary:VERB 33]
      doesn't work either.
 
 [05:18:19:55]
@@ -46473,7 +46481,7 @@ CC:  Aquarius, Houston. Over.
 CDR: Go ahead.
 
 [05:18:31:00]
-CC:  Okay. EECOM is looking at that battery amperage
+CC:  Okay. [glossary:EECOM] is looking at that battery amperage
      that you gave us awhile ago. He'd like to see
      it about a half an amp to an amp lower. Like
      you to ask Jack to just check the circuit breakers
@@ -46565,7 +46573,7 @@ _page : 735
 _tape : Tape 92/12
 CC:  Say, Jim, as something to try, you might have
      Jack turn off the RING 1's AUTO coils, which
-     are probably on MAIN A. Rave him turn those
+     are probably on MAIN A. Have him turn those
      off and take a look at the readings.
 
 [05:18:38:13]
@@ -46580,7 +46588,7 @@ CC:  Roger that, Jim. What's his amperage? Did he
      read that off?
 
 [05:18:39:29]
-CDR: I guess. Re says it's down in the mud; it's
+CDR: I guess. He says it's down in the mud; it's
      less than 2 amps.
 
 [05:18:39:32]
@@ -46905,7 +46913,7 @@ CC:  I'll verify it, Jim. I'm sure it's okay.
 
 [05:19:16:47]
 CC:  Okay, Aquarius; Houston. With the present amount
-     of power you've got in the I24, which is over
+     of power you've got in the LM, which is over
      500 amp-hours, and the rate you're using them,
      we figure you've got almost 12 hours of power left.
 
@@ -47127,7 +47135,7 @@ CDR: Okay. The command module angles will be: ROLL,
      298.95; PITCH, 271.30; and YAW, 000.20.
 
 [05:19:52:21]
-CC:  That's affirmative, and that's for his VERB 41
+CC:  That's affirmative, and that's for his [glossary:VERB 41]
      [glossary:NOUN 20] when he gets there.
 
 [05:20:00:50]
@@ -47177,7 +47185,7 @@ CC: Okay. You're GO to start powering up the command
      module.
 
 [05:20:09:56]
-CDR: Right-o. We're staring now.
+CDR: Right-o. We're starting now.
 
 [05:20:09:58]
 CC:  Okay.
@@ -47267,7 +47275,7 @@ CDR: I'll doublecheck. They're hearing you.
 CC:  Okay. Good deal. I don't hear them, yet.
 
 [05:20:22:01]
-CDR: Are you ready for an E-MEMORY dump, VERB 74?
+CDR: Are you ready for an E-MEMORY dump, [glossary:VERB 74]?
 
 [05:20:22:07]
 CC:  Stand by for just 1 minute, Jim.
@@ -47708,7 +47716,7 @@ CC:  Roger that. Just stay out of gimbal lock and
 CC:  Odyssey, Houston. Request OMNI Charlie.
 
 [05:20:59:10]
-CMP: Okay. Going OMNI Char!ie.
+CMP: Okay. Going OMNI Charlie.
 
 [05:20:59:11]
 CC:  Thank you.
@@ -47861,7 +47869,7 @@ CC:  Okay.
 CMP: Okay, Houston. We've got an O<sub>2</sub> FLOW HIGH.
 
 [05:21:12:47]
-CC:  Okay s Jack, are you -
+CC:  Okay, Jack, are you -
 
 [05:21:12:53]
 CMP: Well, we might be pressurizing a lot of the system
@@ -47943,21 +47951,21 @@ CC:  Okay.
 
 [05:21:18:25]
 CC:  Okay, Odyssey; Houston. We're ready for you to
-     bring the BMAGs ON and WARM UP and all other things
+     bring the [glossary:BMAG]s ON and WARM UP and all other things
      being equal, we'd like you to go through the LM
      JETT at - on the checklist you've got. And that
-     is BMAGs 1 - -
+     is [glossary:BMAG]s 1 - -
 
 [05:21:18:38]
 CMP: Okay. Will do.
 
 [05:21:18:40]
-CC:  - - 1. That's BMAG 1 now, as you know.
+CC:  - - 1. That's [glossary:BMAG] 1 now, as you know.
 
 [05:21:18:45]
 _page : 756
 _tape : Tape 94/10
-CMP: Yes, BMAG 1 is in WARM UP.
+CMP: Yes, [glossary:BMAG] 1 is in WARM UP.
 
 [05:21:18:47]
 CMP: Okay, Houston. Do you have a command module
@@ -47998,14 +48006,14 @@ CC:  Go ahead.
 
 [05:21:22:29]
 CC:  Okay, Jack. That [glossary:FDAI] POWER, OFF, is to stop
-     momentary gliches as you bring up the BMAG to
-     put it on, and you turn right around and put tile
+     momentary gliches as you bring up the [glossary:BMAG] to
+     put it on, and you turn right around and put the
      [glossary:FDAI] POWER right back on 1.
 
 [05:21:22:44]
-CMP: Okay. And I don't have the BMAG TEMP light
+CMP: Okay. And I don't have the [glossary:BMAG] TEMP light
      out yet. Do you want me to go ahead and put
-     the BMAG ON with the TEMP light still ON?
+     the [glossary:BMAG] ON with the TEMP light still ON?
 
 [05:21:22:50]
 CC:  That's affirm. We can go ahead and you'll have
@@ -48163,11 +48171,10 @@ CDR: Okay. Entry pad as follows: Mid-PAC, 000152,
 CC:  Okay, Jim. That's a tiny hair shallower than
      we had you before, but it's based on solid tracking, 
      and it still is lift vector up comfortably.
-     Tare 94/13
 
 [05:21:51:06]
 _page : 759
-_tape : 
+_tape : 94/13
 CDR: Roger. We never did bring that angle up, did
      we?
 
@@ -48203,7 +48210,7 @@ CDR: Okay. Fine; thank you, Joe. How does the LM
 CC: All I've heard was that it's that the cabin
      was holding pressure. I haven't heard anything
      more. And, Odyssey, we're ready for you to warm
-     up the BMAG number 2's at your discretion and 
+     up the [glossary:BMAG] number 2's at your discretion and 
      we're curious whether the Moon check attitude
      is good. Over.
 
@@ -48298,11 +48305,11 @@ CC: Roger.
 
 [05:22:20:21]
 CMP: Okay, Joe. Are you watching - you and FIDO
-     taking a look at our NOUN 60 here?
+     taking a look at our [glossary:NOUN 60] here?
 
 [05:22:20:26]
 CC: That's affirmative. Hold it just a second; we
-     are looked at 6.13 and 4.80. I'll get a check
+     are looking at 6.13 and 4.80. I'll get a check
      on that.
 
 [05:22:20:37]
@@ -48317,7 +48324,7 @@ CMP: Okay.
 [05:22:21:21]
 _page : 762
 _tape : Tape 95/3
-CC: Jack, Houston. Your NOUN 63 looks good to us.
+CC: Jack, Houston. Your [glossary:NOUN 63] looks good to us.
 
 [05:22:21:25]
 CMP: Okay.
@@ -48480,7 +48487,7 @@ CC:  We're looking at the weather on TV and it looks
      just as advertised; real good.
 
 [05:22:48:53]
-CC: Odyssey, Houston standing by for your NOUN 67 when
+CC: Odyssey, Houston standing by for your [glossary:NOUN 67] when
      you get it. Over.
 
 [05:22:49:17]
@@ -48574,7 +48581,7 @@ S-2: - - 2 is on station.
 P-1: Photo 1's on station. Photo 1 observes splashdown at this time.
 
 [05:22:54:48]
-IWO: 1 ... pickup ... !
+IWO: 1 ... pickup ...
 
 [05:22:54:49]
 S-1: Roger.
