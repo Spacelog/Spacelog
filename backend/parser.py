@@ -125,6 +125,6 @@ class MetaParser(TranscriptParser):
         try:
             with open(self.path) as fh:
                 return json.load(fh)
-        except ValueError as e:
+        except ValueError, e:
             raise ValueError("JSON decode error in file %s: %s" % (self.path, e))
         return json.load(fh)
