@@ -87,7 +87,8 @@ Make sure `redis-server` is running, then run `make reindex` in the checkout dir
 
 You then need to have three other servers running on top of redis:
 
- * `make devcss` will run `CSS::Prepare` in development mode, so changes to CSS files will be reflected automatically; if using a `virtualenv`, `PYTHON=ENV/bin/python make devcss` should do the trick
+ * `make devcss` will run `CSS::Prepare` in development mode, so changes to CSS files will be reflected automatically; if not using a `virtualenv`, `PYTHON=python make devcss` should do the trick
+ * `make devcss_global` will run `CSS::Prepare` for the project homepage
  * `python website/manage.py runserver 0.0.0.0:8000` will run the mission-specific websites
  * `python global/manage.py runserver 0.0.0.0:3000` will run the project homepage
 
