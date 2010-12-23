@@ -420,7 +420,7 @@ Page 8
                               Australia, and Hawaii.
 05 01 06 50    CDR            Brother. He had better take some No Doze with him.
 05 01 06 53    CMP            I tried to talk Frank into the same trip.
-05 01 07 21    LMP            You can give him a weather report from Apollo 6.
+05 01 07 21    LMP            You can give him a weather report from Apollo 8.
                               The South Pole was really clobbered or at least
                               it was the other day.
 05 01 07 24    CC             Roger.
@@ -800,12 +800,12 @@ Page 3
                               got on me in Gemini VII is also good for Frank
                               on Apollo 8.
 05 04 14 33    CC             Roger. He heard that.
-05 04 19 25    LMP            Houston, Apollo 8. - -
+05 04 19 25    CMP            Houston, Apollo 8. - -
 05 04 19 28    CC             Apollo 8, Houston.
-05 04 19 31    LMP            Do you see that PROGRAM ALARM we got when we
+05 04 19 31    CMP            Do you see that PROGRAM ALARM we got when we
                               went through P37, 1302?
 05 04 19 35    CC             Affirmative.
-05 04 19 39    LMP            I'll run through it again and see what happens
+05 04 19 39    CMP            I'll run through it again and see what happens
                               here.
 05 04 19 41    CC             Roger. We're monitoring.
 05 04 21 33    CC             Apollo 8, Houston.
@@ -1266,7 +1266,7 @@ Page 9
                               screen now, and the earth is off on the left side
                               of our screen.
 05 08 03 40    CC             Real fine. That's good. Hold it right there.
-05 08 03 56    CMP           What we're thinking about right now, Jerry, is
+05 08 03 56    CMP            What we're thinking about right now, Jerry, is
                               hitting that wedge angle, about 2 degrees their
                               limit. When we come back, the earth looks pretty
                               small right from here.
@@ -1286,7 +1286,7 @@ Page 10
                               seeing right here.
 05 08 04 50    CC             Roger, Bill. We'll sure be glad to get you
                               back, too.
-05 08 04 59    CDR            This-is Frank Borman. We've enjoyed the
+05 08 04 59    CDR            This is Frank Borman. We've enjoyed the
                               television shows, and we'd like you to stay tuned in
                               in the future because there'll be flights and
                               rendezvous and earth orbit, and then, of course,
