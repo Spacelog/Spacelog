@@ -122,5 +122,9 @@ class TranscriptParser(object):
 class MetaParser(TranscriptParser):
     
     def get_meta(self):
-        with open(self.path) as fh:
-            return json.load(fh)
+        try:
+            with open(self.path) as fh:
+                return json.load(fh)
+        except ValueError as e:
+            raise ValueError("JSON decode error in file %s: %s" % (self.path, e))
+        return json.load(fh)
