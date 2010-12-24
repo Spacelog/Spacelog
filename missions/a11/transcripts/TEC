@@ -542,7 +542,7 @@ CMP: Roger. Ready to copy TLI PAD.
 CC: Roger. TLI: 23514 179 071 001, burn time 547 104356 35575. Roll for SEP 357 107 041, 301 287 319. TLI 10-minute abort pitch, 223. Read back. Over.
 
 [00:01:45:23]
-CMP: Roger. TLI PAD: 23514 179 071 001 547 104356 35575 357 107 041 301 287 319. TLI 1O-minute abort pitch, 223. Over.
+CMP: Roger. TLI PAD: 23514 179 071 001 547 104356 35575 357 107 041 301 287 319. TLI 10-minute abort pitch, 223. Over.
 
 [00:01:46:03]
 CC: Apollo 11, this is Houston. Roger. Would you read back DELTA-VC prime again? You were cut out by some noise.
@@ -15060,7 +15060,7 @@ CC: Tranquility, this is Houston. We need a second set of PRD readings so that w
 CDR (TRANQ): Okay. Stand by.
 
 [04:10:23:30]
-CDR (TRANQ): CDR is reading 11O14.
+CDR (TRANQ): CDR is reading 11014.
 
 [04:10:23:44]
 LMP (TRANQ): LMP is reading 09017 and three quarters.
