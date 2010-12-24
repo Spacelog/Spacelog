@@ -522,7 +522,7 @@ CC: Apollo 11, this Houston. You are GO for RYRO ARM.
 CDR: Roger. Thank you.
 
 [00:01:43:57]
-CC: Apollo 11, this is Houston. If you will give us P00 in A<font color="0000FF">CC</font><br>EPT, we have a state vector update for you.
+CC: Apollo 11, this is Houston. If you will give us P00 in ACCEPT, we have a state vector update for you.
 
 [00:01:44:04]
 CDR: Roger.
@@ -1157,7 +1157,7 @@ CDR: Thank you.
 CDR: Houston, we are SEP. We have a CRYO PRESS light.
 
 [00:04:17:18]
-CC: Roger. Copy. CRY0 PRESS light.
+CC: Roger. Copy. CRYO PRESS light.
 
 [00:04:17:46]
 CC: Roger, 11. We reconmend you turn the O<sub>2</sub> fans on manually and ensure that the O<sub>2</sub> heaters are in the AUTOMATIC position.
@@ -1384,7 +1384,7 @@ CC: Apollo 11, this is Houston. Over.
 CDR: Go ahead.
 
 [00:05:13:05]
-CC: Roger. If you'll give us A<font color="0000FF">CC</font><br>EPT and stay in P00, we'll set your trunnion bias to zero. And, I have a plan for balancing your oxygen CRYO's. Over.
+CC: Roger. If you'll give us ACCEPT and stay in P00, we'll set your trunnion bias to zero. And, I have a plan for balancing your oxygen CRYO's. Over.
 
 [00:05:13:19]
 CDR: You got it.
@@ -1404,7 +1404,7 @@ _tape : Tape 4/5
 LMP: Roger.
 
 [00:05:14:46]
-CC: 11, Houston. We have a recommended configuration for your CRY0 switches to even up the load between oxygen tanks 1 and 2. Over.
+CC: 11, Houston. We have a recommended configuration for your CRYO switches to even up the load between oxygen tanks 1 and 2. Over.
 
 [00:05:14:55]
 SC: ...
@@ -1693,7 +1693,7 @@ LMP: And O<sub>2</sub> fan number 2 is on.
 CC: Roger.
 
 [00:06:26:42]
-LMP: Houston, Apollo 11. I've got a CRY0 pressure light and a MASTER ALARM. It's reset.
+LMP: Houston, Apollo 11. I've got a CRYO pressure light and a MASTER ALARM. It's reset.
 
 [00:06:26:51]
 CC: Roger. We expected that. That's why we had you turn the fan on. We were getting pretty close to the caution and warning limits. We were trying to prevent that.
@@ -2158,7 +2158,7 @@ CC: Seems so to me. Our procedures people are working on this, and we'll be back
 CMP: Thank you, sir.
 
 [00:08:11:00]
-CC: Hello, Apollo 11. Houston. We'd like you to go P00 in A<font color="0000FF">CC</font><br>EPT. We'll have a PTC REFSMMAT for you momentarily. Over.
+CC: Hello, Apollo 11. Houston. We'd like you to go P00 in ACCEPT. We'll have a PTC REFSMMAT for you momentarily. Over.
 _page : 44
 _tape : Tape 6/4
 
@@ -2605,12 +2605,12 @@ CC: Looks like they're hogging the window.
 CDR: You're right.
 
 [00:10:46:58]
-CC: Hello, Apollo 11. Houston. On your CRY0's, we'd like at this time for you to place all four CRYO heaters to AUTO and turn off all four CRY0 fans. Over.
+CC: Hello, Apollo 11. Houston. On your CRYO's, we'd like at this time for you to place all four CRYO heaters to AUTO and turn off all four CRYO fans. Over.
 _page : 53
 _tape : Tape 7/8
 
 [00:10:47:15]
-LMP: Okay. All four CRY0 heaters are AUTO. And all four CRYO fans are off . ...
+LMP: Okay. All four CRYO heaters are AUTO. And all four CRYO fans are off . ...
 
 [00:10:47:25]
 CC: Roger. That's going to be your sleep configuration.
@@ -2812,7 +2812,7 @@ LMP: Stand by.
 LMP: Okay. Page F 9-8. Go ahead.
 
 [00:22:53:40]
-CC: Okay. Right now it reads, "To exit G&N PTC," then you've got a pen-and-ink change that says, "AUTO RCS SELECT, 12 MAIN A and B." And you come down to the printed step 1. We'd like to take and move the "AUTO RCS SELECT, 12 MAIN A and B" down to be the second step, so the procedure would read, "Step 1, MANUAL ATTITUDE 3, A<font color="0000FF">CC</font><br>EL COMMAND; Step 2 AUTO RCS SELECT, 12 MAIN A B." Step 3 would be, "Verify DAP load," and so on. Over.
+CC: Okay. Right now it reads, "To exit G&N PTC," then you've got a pen-and-ink change that says, "AUTO RCS SELECT, 12 MAIN A and B." And you come down to the printed step 1. We'd like to take and move the "AUTO RCS SELECT, 12 MAIN A and B" down to be the second step, so the procedure would read, "Step 1, MANUAL ATTITUDE 3, ACCEL COMMAND; Step 2 AUTO RCS SELECT, 12 MAIN A B." Step 3 would be, "Verify DAP load," and so on. Over.
 
 [00:22:54:16]
 LMP: Roger. I copy. Is that AUTO RCS SELECT, 12 MAIN A, MAIN B to be the ...
@@ -3352,7 +3352,7 @@ CC: 11, this is Houston. Over.
 LMP: Go ahead.
 
 [01:01:59:43]
-CC: Roger. If you can give us A<font color="0000FF">CC</font><br>EPT, we'll send you up a state vector and a target load for the maneuver.
+CC: Roger. If you can give us ACCEPT, we'll send you up a state vector and a target load for the maneuver.
 
 [01:01:59:52]
 LMP: Okay. Give us 1 minute to check the P23 damage.
@@ -4246,7 +4246,7 @@ CC: Well, they will spring into action here momentarily. Stand by.
 CC: Hello, 11. We see your heart beating.
 
 [01:06:52:18]
-CMP: Okay, Well - look at the <font color="0000FF">CDR</font><br>'s and the <font color="0000FF">CMP</font><br>'s and see if they go up any. We're all running in place up here. You wouldn't believe it.
+CMP: Okay, Well - look at the CDR's and the CMP's and see if they go up any. We're all running in place up here. You wouldn't believe it.
 
 [01:06:52:26]
 CC: I'd like to see that sight. Why don't you give us a TV picture of that one.
@@ -6834,7 +6834,7 @@ _tape : Tape 36/7
 LMP: How's the Sun coming in? How's the Sun coming in from this direction going to affect what you can see?
 
 [02:07:43:44]
-CC: It made it really super. The lighting is excellent in the - in the LM right now. We can make out the AOT, the ISA, and the left-hand window - there's a little glare off of that, but the <font color="0000FF">LMP</font><br> side the - with the shade down it's really excellent. Over.
+CC: It made it really super. The lighting is excellent in the - in the LM right now. We can make out the AOT, the ISA, and the left-hand window - there's a little glare off of that, but the LMP side the - with the shade down it's really excellent. Over.
 
 [02:07:44:08]
 LMP: Well, let's - I'm turned around, why I took the shade off my side first.
@@ -8502,7 +8502,7 @@ CC: Apollo 11, Houston. Over.
 CMP: Go ahead, Houston.
 
 [02:23:39:25]
-CC: Roger. We'd like to do a little CRYO tank balancing. So, if you could position the oxygen tank number 1 heater switch to OFF and hydrogen tank 2 heater switch to OFF leaving all the rest of the CRY0 switches the same, we'll let it run that way for a few hours. Over.
+CC: Roger. We'd like to do a little CRYO tank balancing. So, if you could position the oxygen tank number 1 heater switch to OFF and hydrogen tank 2 heater switch to OFF leaving all the rest of the CRYO switches the same, we'll let it run that way for a few hours. Over.
 
 [02:23:39:48]
 CMP: Okay. Stand by one on those switches. We'll get them in a minute.
@@ -9329,7 +9329,7 @@ _page : 219
 _tape : Tape 49/4
 
 [03:04:35:56]
-CC: Okay. Just roughly, it looks like you are about 120 miles or 13O miles right now - make that 127 miles.
+CC: Okay. Just roughly, it looks like you are about 120 miles or 130 miles right now - make that 127 miles.
 
 [03:04:37:12]
 CDR: We're approaching PDI point now. Over.
@@ -9389,13 +9389,13 @@ CMP: Did somebody in the background - do they accuse us of being compromisers? H
 CDR: And landing site is well into the dark here. I don't think we're going to be able to see anything of the landing site this early.
 
 [03:04:43:42]
-CC: Apollo 11, this is Houston. When you have a free minute, could you give us your onboard readout of N2 tank Bravo, please. And we'd like to make sure you understand that ever since you stopped thrusting with the SPS, the temperature in this tank has remained steady. Over. Make that the pressure has remained steady.
+CC: Apollo 11, this is Houston. When you have a free minute, could you give us your onboard readout of N<sub>2</sub> tank Bravo, please. And we'd like to make sure you understand that ever since you stopped thrusting with the SPS, the temperature in this tank has remained steady. Over. Make that the pressure has remained steady.
 
 [03:04:44:07]
 CMP: Roger. We understand tank pressure has stayed steady. Thank you.
 
 [03:04:44:12]
-LMP: Roger. We're showing the N2 tank pressure and the tank Bravo to he 1960, something like that, and Alfa is, oh, about 2250. Over.
+LMP: Roger. We're showing the N<sub>2</sub> tank pressure and the tank Bravo to he 1960, something like that, and Alfa is, oh, about 2250. Over.
 
 [03:04:44:34]
 CC: Roger. We show 2249 in Alfa and 1946 down here.
@@ -9723,7 +9723,7 @@ CC: Roger. And for your information, we show you at an altitude of about 92 mile
 LMP: Okay.
 
 [03:06:28:22]
-CMP: Houston, Apollo 11. Could you observe a difference in the N2 pressures before LOI? It seems to me as though the two were not equal on the ... B tank was a little low on pressure. Over.
+CMP: Houston, Apollo 11. Could you observe a difference in the N<sub>2</sub> pressures before LOI? It seems to me as though the two were not equal on the ... B tank was a little low on pressure. Over.
 
 [03:06:28:57]
 CMP: I'm flying it in SPS minimum impulse, Houston, and it's rather difficult to keep it on a constant data. The LM wants to wander up and down. I'm not sure if it's in response to MASCONN's or what, but I can get it completely stabilized in DATA and let it alone, and in another couple of minutes it will have developed its own rate.
@@ -11631,13 +11631,13 @@ CC: Roger. Thank you much. We're in good shape now. Over.
 CMP: Okay.
 
 [04:00:46:19]
-LMP: Houston, Eagle. Can you tell me if you're picking up BIOMED on the <font color="0000FF">CDR</font><br> now? Over.
+LMP: Houston, Eagle. Can you tell me if you're picking up BIOMED on the CDR now? Over.
 
 [04:00:46:26]
 CC: Stand by.
 
 [04:00:46:44]
-CC: Eagle, Houston. We're not getting any BIOMED from the <font color="0000FF">CDR</font><br> now. Over.
+CC: Eagle, Houston. We're not getting any BIOMED from the CDR now. Over.
 
 [04:00:46:53]
 LMP: Roger. Understand.
@@ -18700,7 +18700,7 @@ CDR (TRANQ): Houston, Tranquility Base. The CDR's PRD reads 11014.
 CC: Roger. 11014 for the CDR.
 
 [04:17:00:01]
-LMP (TRANQ): Roger. <font color="0000FF">LMP</font><br> reads 09018. Over.
+LMP (TRANQ): Roger. LMP reads 09018. Over.
 _page : 418
 _tape : Tape 73/3
 
@@ -19496,7 +19496,7 @@ CMP (COLUMBIA): Roger. Stars 25 and 42; angle difference 5 balls; NOUN 93, plus 
 CC: Columbia, Houston. We copy. Thank you.
 
 [05:02:01:26]
-CMP (COLUMBIA): And CRY0 stir complete.
+CMP (COLUMBIA): And CRYO stir complete.
 
 [05:02:01:29]
 CC: Roger. Thank you, Columbia.
@@ -24176,7 +24176,7 @@ CDR: Charlie, what we suggest here is, before we start that, turn our two suit p
 CC: Roger. That's a good suggestion, Neil. We concur. Over.
 
 [06:12:26:23]
-LMP: Okay, Charlie. We're transmitting, and let's see if you get any EKG signal on the <font color="0000FF">CDR</font><br> at this point.
+LMP: Okay, Charlie. We're transmitting, and let's see if you get any EKG signal on the CDR at this point.
 
 [06:12:26:32]
 CC: Roger. Stand by.
@@ -25727,7 +25727,7 @@ CMP: Okay. L2 is as shown. L3 is as shown; there is about half the food remainin
 CC: Roger.
 
 [07:13:36:36]
-CMP: Where it says - where it says "And note," the <font color="0000FF">CMP</font><br> PGA is located in the L shaped bag with the other two PGA's. The LM shield was jettisoned with the - Correction, the CMP's helmet shield was jettisoned with the LM, and his helmet and gloves, instead of being in the sleep restraint, are in the hatch bags.
+CMP: Where it says - where it says "And note," the CMP PGA is located in the L shaped bag with the other two PGA's. The LM shield was jettisoned with the - Correction, the CMP's helmet shield was jettisoned with the LM, and his helmet and gloves, instead of being in the sleep restraint, are in the hatch bags.
 _page : 600
 _tape : Tape 117/2
 
