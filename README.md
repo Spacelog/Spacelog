@@ -85,10 +85,10 @@ and here's one for a virtual machine (you'll need to change the dotted quad at t
 
 Make sure `redis-server` is running, then run `make reindex` in the checkout directory (it will take care of the virtualenv for you; if you're not using one, use `PYTHON=python make reindex` instead), which will import all the mission data into redis. You may also want to do `make s3assets` to pull down the PNGs of the original transcript pages, and `make statsporn` to build the graphs for the phases page of how much was said at different times (and, in case we've added more graphs but haven't updated this, *other things* :-).
 
-You then need to have four other servers running on top of redis:
+You then need to have some other servers running on top of redis:
 
- * `make devcss` will run `CSS::Prepare` in development mode, so changes to CSS files will be reflected automatically; if using a `virtualenv`, `PYTHON=ENV/bin/python make devcss` should do the trick
- * `make devcss_global` will do the same for the project homepage
+ * `make devcss` will run `CSS::Prepare` in development mode, so changes to CSS files will be reflected automatically; if not using a `virtualenv`, `PYTHON=python make devcss` should do the trick
+ * `make devcss_global` will run `CSS::Prepare` for the project homepage
  * `python website/manage.py runserver 0.0.0.0:8000` will run the mission-specific websites
  * `python global/manage.py runserver 0.0.0.0:3000` will run the project homepage
 
