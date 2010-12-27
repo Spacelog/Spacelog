@@ -1,0 +1,1442 @@
+ Tape 75 
+ Page 3 
+ We'd like to go ahead and take a look at what 
+ you get by running four or five more DELTA-V tests. 
+ And prior to that, we'd ‘like to run one of these 
+ null bias tests; and since we don't have any uay 
+ of monitoring any of this stuff on the downlink, 
+ I'd like to have you tell us each step when you 
+ turn the switch and different orders and things 
+ like that. 
+ 04 18 20 08 CDR Okay. 
+ 04 18 20 41 CDR Alright. I'll run a test. 
+ 04 18 20 48 CC Okay. The first thing we want is this null bias, 
+ 100 secocds. 
+ 0 04 20 
+ 18 54 CDR You stand by, and I'll do a null bia.s for 100 seconds. 
+ Do you want me to put DELTA-V in AUTOMATIC and let 
+ it alone for 100 seconds? 
+ 04 18 21 02 CC That is affirmed. 
+ 04 18 21 22 CDR Going to DELTA-V; going to AUTO - 
+ 04 18 21 25 CDR Pow. 
+ 04 18 21 27 CC Roger. 
+ 04 18 21 45 CDR Went to one-tenth and back to zero. 
+ 04 18 21 50 CC Understand; plus one-tenth and back to zero. 
+ 04 18 21 56 CDR One-tenth, now it's a minus one-tenth and back to 
+ zero; no, it'& not zero yet; wait a minute. 
+ / -. 04 18 22 29 CDR Now it's up s3me, minus 4; 0.4, that is. 
+ CC Roger. 
+ CDR Minus 25. 
+ (Go6S 1) 
+ NET Tape 75 
+ Page 4 
+ 04 18 22 46 CC Roger. 
+ 04 18 22 53 CDR Minus 26. 
+ 04 18 23 06 CDR Minus 0.7, and there is 100 seconds; minus 0.7 at 
+ 100 seconds. 
+ 04 18 23 I.2 CC Roger. 
+ 0418 23 1-f CDR Now what do you want? 
+ 04 18 23 19 CC Okay. If we go back to mode, switch to stand by 
+ and F'UNCTION switch OFF. 
+ 04 18 23 36 CDR Roger. 
+ 04 18 2-a 
+ a 37 CC okay. Now we'd like to do a couple of DELTA-V 
+ self-tests. 
+ - 04 18 23 38 CDR Okay. 71586.8. 
+ oh 18 
+c) * 
+ . 23 43 CC Roger. 
+ END OF TAPE 
+C)I 
+ i- 
+ . 
+ . . r-- 
+ I:: 
+ I,.! 
+ APOLLO 8 AIR-M-GROUND VOICE TRANSCRIPTION 
+(GossmT1) Tape 76 
+ Page 1 
+04 18 2446 CDR Say you're going AUTOMATIC? 
+04 18 24 48 CC Roger. 
+04 18 24 51 CDR Going to a DELTA-V test now. Counting down. 
+04 18 26 04 CC Apollo 8, Houston. 
+04 18 27 14 CC Apollo 8, Houston. 
+04 18 28 47 CDR You back, Ken? . 
+04 1.8 28 49 CC Apollo 8, this is Houston. 
+04 18 28 53 CDR Roger. Read you. 
+04 18 28 55 CC Okay. We got caught in a station handover there. 
+ I didn't copy anything after you said you were 
+ putting it to DELTA-V test. 
+04 18 29 06 CDR I ran - I ran three tests during that handover. 
+ TWO over minus lg.6 - two of them are minus 19.8; 
+ and one of them, minus 19.6. 
+04 18 a 17 CC Okay. That sounds real fine. 
+04 18 a 22 C!DR Roger. 
+04 18 29 24 CC Okay. The other thing that - sometime prior to 
+ entry - and we're going to be looking at it - is 
+ the normal entry test pattern, and it's called 
+ cxlt presently in the checklist as something we 
+ do around an hour. And we'd like to check i; 
+ you can read the number on the scroll that is I 
+ up now so we can see where we are in the test 
+ test pattern sequence. We're considering taking 
+ a look at one of these test patterns before we 
+ get into an hour so we can have more time to 
+ i 
+ / 
+ 1 
+ r- 
+ - ~-- 
+ f 
+(GOSS NET 1) Tape 76 
+ Page 2 
+ think about it in the event that there should 
+ be something anomalous in it. 
+04 18 30 02 CUR Why don't we do it right now? We're on number 8. 
+04 18 30 06 CC Okay. Understand; that's number 8, right? 
+04 18 30 12 CDR Roger. It takes an awful long time to run them 
+ over there anyway. It won't hurt to do one. 
+04 18 30 18 CC Okay. If you'll stand by just a second; we're 
+ checking to see where we stand in the sequence 
+ of events for on pattern 8. 
+04 18 32 58 CDR Hey, Ken. I 
+04 18 32 59 CC Yes, sir. 
+04 18 33 03 CDR Another little thing about this EMS: you know, 
+ we had it set up when we separated from the 
+ \ 
+ booster - - 
+04 18 33 05 C> Roger. 
+04 18 33 10 CDR -- and the shock of the separation - the shock 
+ of the pyre's blowing in separation knocked it 
+ up to 100 and something. . 
+04 18 33 21 CC Understand. knocked it up 50 100. 
+04 18 33 26 CDR Roger. 
+04 18 33 27 CC Was the pyro separation enough that the - you 
+ felt a sensable g in the bird? ! 
+04 18 33 35 CUR Roger. Let's just say there wasn't any question 
+ we were separating. I 
+04 18 33 43 CC Roger. Understand. 
+04 18 34 oo CDR While you are checking the scroll, find out which I 
+ entry pattern I should be using this bird in. 
+ ~_ - : , 
+ I 
+ - 
+ (GOSS NET 1) Tape 76 
+ Page 3 
+04 18 34 06 CC - Okay. Will do. 
+04 18 3 39 CC Apollo 8, Houston. 
+04 18 39 44 ODR Go ahead. 
+04 18 39 46 CC Okay. While we are verifying that scroll posi- 
+ tion - they are talking it over in the back room 
+ about that now - I vould like to go ahead and run 
+ down the checklist with you for entry. 
+04 18 40 00 ODR Go ahead. 
+04 18 40 02 I CC okay. Looking on entry 1: the second item there 
+ is the l2-hour Kelvin cold soak, and in discussions I 
+ ! 
+ here and preflight, I think it is agreed that we 
+ don't want to do the cold soak there. So we are 
+ going to delete that step 2. And what it amounts 
+ to is, I think we do want to do a cold soak, and 
+ ve certainly want to exercise the water boilers 
+ prior to entry in order to insure that we don't . I 
+ have one that is dried out, in the same manner 
+ that we had one dried out prior to LOI. And we 
+ are vorking on some procedures for that, and we'll 
+ have to come back to you with those a little bit 
+ later, and we will try to do it sometime when Rill's 
+ on the line so that everybody can get in on the loop 
+ : at the same time. We would li:ie to add a step be- 
+ tween 8 and 9, or as part of step 8. This is all 
+ on page E-l, where ve turn the VRP to Simplex A 
+ at minus 4 hours and 35 minutes. Now this will 
+ be beyond two-way VKF range, but it will make sure 
+ I 
+ . 
+ i -- 
+ . 
+ l 
+Y 
+ _--.__ 
+ (Goss BET 1 1 Tape 76 
+ Page 4 
+ that we do have it on at the time when we pick 
+ it up. We were able to get out to 20 000 miles 
+ with a downlink, and we are checking on the up- 
+ link signsl. So if we put it on at this point, 
+ ve knov we have it on well in. advance of any time 
+ we might be able to get into the VHF. 
+ 04 18 41 36 CDR Okay. 
+ 04 18 41 43 ' CC Okay. I guess maybe I have that backwards. They 
+ COPY - you folks copied the VHF out to 20 KM. 
+ We're checking on the - on the downlink into that 
+ now. Rut in any event, this 4 hours and 35 min- 
+ utes will get it well in advance of that. 
+ 04 18 42 03 CDR Roger. 
+ 04 18 42 40 CC Oksy, 8. We just got an answer back on the test 
+ patterns. We thought it was - We had 25 test pat- 
+ terns vhich are allocated to ground tesL, and these 
+ are the ones we've been looking at. Then there are 
+ five more that are allocated to flight, and the 
+ only difference in these patterns is that the flight 
+ patterns have instructions actually written on them; 
+ so if we are looking at test pattern 8, that means 
+ that we're still working on the ones that were al- 
+ located to the ground test, so there was no problem 
+ there. And I'll get you a number for which pattern 
+ we should be using for entry; working on that one 
+ right now. So.we would like to go ahead and run 
+ -' '7. 
+ through these. *:- 
+ a..- 
+ I 
+ . 
+ Tape 76 
+ C) 
+ \ -.. 
+ (GOSS m 1) 
+ Page 5 
+ 04 18 43 21 cm I don't mean the - - 
+ 04 18 43 23 CC Se;r again, Frank. 
+ 04 18 43 25 CDR I don't mean the test pattern. I say, I don't 
+ mean the test pattern. We asked them to put 
+ the supercircular on the number, the first place 
+ on the scroll; I'm sure they did. I'm sure it's 
+ the first pattern, but I just wanted to make 
+ sure that's right. 
+ 04 18 43 38 CC Roger. That's why we arti trying to verify. So - - 
+ 04 18 43 43 CDR You want me to run through a test pattern? 
+. 
+ 04 18 43 45 CC Yes, sir. If you wonld, please. And if you'd 
+ tell us each step as you go through it. 
+ 0 04 18 44 42 CDR Okay. Going through step 1; EL5 test 1: wait 
+ 5 seconds. There's 5 seconds. CZng AUTO. Okay- 
+ Indicator lights are all OFF; the range is zero, 
+ zero. Bow I'm gonna slew the hairline over the 
+ notch. Okay. And now we go in EMS test 2. 
+ 04 18 44 45 CC Roger. 
+ 04 18 44 52 CDR Got the 0.05~ light; all others are out. 
+ 04 18 44 55 CC Roger. 
+ 04 18 44 58 CDR Go on test 3: far side lower light on 10 seconds; 
+ going to set the range counter to 58. Okay. Set 
+ at.58; going to test 4. 
+ . 
+ 04 18 45 34 CC Roger. 
+ ( ‘; 04 18 45 50 CDR Beautiful. It's perfect. It's right in the cor- 
+ ridor. It comes down aa stops at zero, zero. 
+ - 
+ ^ . 
+ (Goss m 1) Tape 76 
+ Page 6 
+ 04 18 45 55 CC Very good. 
+ 04 18 46 04 CDR Co in test 5: perfect again. okay. NOWI go 
+ to range set, 
+ 04 18 46 34 CC Okay. 
+j :. 
+ 04 18 46 39 CDR In STANDBY. 
+ 04 18 46 43 CC Okay. 
+ 04 18 46 45 CDR Okay. That was perfect. 
+ 04 18 46 47 CC Real fine. 
+ 04 18 47 02 CC Okay, Apollo 8. I'd like to run one more null 
+ bias and looks like we will have exercised every- 
+ thing we can get to. 
+ 04 18 47 13 CDR Okay. DELTA-V AUTO, all zeros. 
+ 0 04 18 48 21 CDR Minus 2. 
+ 04 18 48 24 CC Roger. Understand minus 2. Alright. Is that 
+ minus 2 or minus two-tenths? 
+ 04 18 48 39 CDR Two-tenths, three-tenths now. 
+ 04 18 48 42 CC Okay. Real good. That looks like we - - 
+ 04 18 48 44 CDE It looks like we had a lot of noise on the cir- 
+ cuit for a while there, Jim. 
+ 04 18 48 50 CC Yes, we did, too; all those electronic glitches 
+ I guess. 
+ 04 18 48 59 CDR Okay. One hundred seconds. it's plus - minus 
+ four-tenths. 
+ 04 18 4g 02 CC Okay. Real fine. That looks like that's about 
+ all of the functions that'we can chsck, and 
+ looks like everything is just down ;he line. 
+ :- 
+ . 
+ (OO-SSNET 1) Tape 76 
+ -9 
+ Page 7 
+’ 04 18 49 15 CDR Roger. 
+ 04 18 49 19 CC Okay. We still owe you confirmation that you 
+ can expect your high speed scroll to be the first 
+ pattern you come to, and I'll let you know as 
+ soon as they come in with an answer on it. 
+ 04 18 49 32 CDR Cksy . 
+ 04 18 49 32 CC I'd like to go ahead and finish going through 
+ the entry book if you're ready. 
+ 04 18 49 37 CDR Roger. 
+ 04 18 4g 43 CC Okay. Ue've reviewed most of the book up here, 
+ and we will have to-come back and suggest a way 
+ that we can check out the wate: boiler prior to 
+ getting reentry area. We've revier..d all of the 
+ last minutes changes that were put in - pen and 
+ ink type things - and they're all looking good. 
+ On page E-7, like to add a couple of items. 
+ 04 18 50 15 CDR what's that? 
+ 04 18 50 16 CC Okay. On step 34 under final stowage, which is 
+ a sort of c&-h-all area, there's a steE that 
+ says secondary glycol to radiator that bypass 
+ verify. While we are do-wn in this area, we 
+ would like to go to panel 382, the water control 
+ panel, and set up the evaporator water control 
+ valve both primary and secondary to AUTO. Now 
+ this is something we would have done had we done 
+ the cold soak at minus 12 hours, but since we 
+ I-- 
+ . 
+ -- 
+ .- - 
+,d-- 
+c) r (Gossmr11 Tape 76 
+ Page 8 
+ , 
+ ._-. ' 
+ veren't doing it there, we would like to go 
+ ahead and make sure we have these in AUTO, and 
+ this will enable automatic controls from the 
+ panel. 
+ 04 18 51 02 CDR Can we just make this part of the procedure 
+ when we test out the water boilers beforehand? 
+ 04 18 51 08 CC Yes, sir. If we get that checked out earlier, 
+ -re can just ieave them in AUTO. 
+ 04 18 51 13 CDR I'd rather do that. 
+ 04 18 51 15 : CC Okay. I'm just going to make a note here, and 
+ ve can do it the other way, too. The other 
+ .-. item that Kas pen-and-inked in - - 
+(J 04 18 51 23 CDR ... 
+ 04 18 51 27 CC You may already have this down as step 35. It 
+ says UP TELRMEIRY to BLOCK, VERIFY, and there's 
+ a step right after that that says RX? command 
+ module heaters to circuit breakers CLOSED. 
+ 04 18 51 43 CDR Roger. 
+ -- 
+ 04 18 51 48 CC Okay. 
+ 04 18 51 49 CDR I have that. 
+ 04 18 51.50 CC Okay. I guess that one was sent up to you this 
+ : afternoon. And when you LUII the Fage over to 
+ R-8, it shows the EMS entry check being run at { 
+ minus sn hour, and you know that it's a short 
+t -- ‘< test. There is really no reason to wait for an 
+ / 
+ hour; we might as well go ahead an2 do that as 
+ _ 
+ I 
+ :-. 
+ -- 
+ : 
+ : : 
+ i : 
+ I 
+ ‘tl 
+ (Goss 1) 
+ rml! Tape 76 
+ Page 9 
+Cl 
+ soon as you get through with step 35 on page E-7 
+ because we're coming up on a pretty busy period. 
+ 04 18 52 19 CLIR I say that's fine; we'll do that. 
+ 04 18 52 37 CDR Houston, are you still there? 
+ 04 18 52 39 CC Roger. We got a discussion going; be right 
+ back. 
+ 04 18 53 50 CC Okay, Apollo 8. On page E-9 - - 
+ 04 18 53 57 CDR okay. 
+ 04 18 53 58 CC - - at the top of the page, you have step 38, 
+ and right underneath that, prior to step 39, we 
+ . 
+ want to have a primary glycol loop uctivation. 
+- What ve are doing is to get the glycol evapora- 
+C.-j tor water switch to AUTO and the glycol evap- 
+ orator steam pressure switched to AUTO. This 
+ vill get your prinary water boiler on the line 
+ prior to entry, or at least it'll enable it. 
+ 04 18 54 35 CDR Okay. Tell IIE what to write in, Ken. 
+ 04 18 54 37 CC Okay. It's glycol 'evaporator water to AUTO. 
+ 34 18 55 43 CC Apollo 8, iiouston. Are you there? 
+ 04 18 55 55 CDR Clycol evaporator water switch to ALPTO. 
+ 04 18 55 59 CC Okay. And the second switch is the glycol evap- 
+ orator steam pressure to AUTO. 
+ 04 18 56 18 CDR Okay. 
+ 04 18 56 25 CC Okay. That takes care of getting the primary 
+i *.-’ vater boiler enabled, and it's my understanding 
+ that ve vere going to make the actual entry vith 
+ __- 
+ ^ I 
+ 3 
+ Tape 76 
+ Page 10 
+ both the primary and the secondary water boilers 
+ on the line. 
+ 04 18 56 40 CDR I'm not reading you now, Houston. 
+ 04 18 56 44 CC Roger. How now? 
+ 04 18 56 48 CDR Loud and clear. 
+ 04 18 56 49 CC Okay. There's some question from reading the 
+ checklist. It is my understanding that both 
+ the primary and the secondary water boilers 
+ vill be OR for the actual entry, and don't find 
+ a place in the checklist where it's actually 
+- turned on. So we'd like to get confirmation 
+c., 
+ on that, and we'll make sure that we have all 
+ the proper switching to put in the checklist. 
+ 04 18 57 16 CDR Okay. 
+ 04 18 57 23 CC A.iri,$lt . Still on page E-9 and under step 39 
+ at the bottom of the pyro circuit check, there's 
+ a step that says panel 8, all circuit breakers 
+ CLOSED except and then it lists five that are 
+ printed, one that was pen-and-inked before 
+ launch. It says EDS power circuit breakers 3 
+ OPEN, and to be complete, we ought to add the 
+ RCS heater circuit breakers. There's two of 
+ those, and they should also be OPEN. 
+ 11 
+ 04 18 58 06 CDR Okay. 
+ 04 18 58 CC Alright. The rest of these pages look good; 
+ I'm coming over through the graphs. hd on 
+ page E-11 - - 
+ . 
+ I 
+ . 
+ (Gossl0n1) Tape 76 
+ Page 11 
+ 04 18 58 48 CDR Roger. I'm with you. 
+ 04 18 58 50 CC Okay. On step 5 on E-11, there's - the first 
+ . subtitle there is Relmets and Gloves, and the 
+ items that follow beneath that are affected by 
+ whether you wear suits or come in shirt sleeves, 
+ but they do have to be accomplished. And the 
+ suit return air valves would actually be OPEN 
+ for a shirt-sleeve entry. And you should have 
+ a line penciled in of optics power to OFF between 
+ an emergency cabin pressure valve and the time 
+ . when the CMP moves to.the couch. 
+0-. \ 04 18 59 26 CDR Right. 
+ - 04.18 5928 CC Okay. And the step shows the tape recorder to 
+ REWIND at minus 30. Now that's an onboard step 
+ rather than a ground step, just to verify that. 
+ 04 18 59 48 CDR Okay. iI 
+ ’ 04 18 59 50 CC Okay. Under step 6, almost at the bottom - in 
+ 'I 
+ fact, it's three lines from the bottom of 
+ step 6 - there's a section that says secondary 
+ coolant loop evaporator to RESET, and should 
+ be a note that that's 58 seconds if you hold 
+ it in RESET prior to moving the pump OFF. 
+ 04 19 00 12 CDR That's it; that's in it. 
+0 - 04 19 00 15 CC Okay. Okay. The next torment is on page E-13. 
+ ‘I_ 04 19 00 34 CDR Okay. I'm there. 
+ 04 19 00 36 CC Alright. This is a general conmen'; that refers 
+ to any time you're working around P62 or when‘ 
+ --/ -_I 
+ I 
+ .- 
+ _.. 
+ . 
+ . 
+ Tape 76 
+0 (GosSNETl) 
+ you're going between ~62 and ~63, 
+ Page 12 
+ and you should 
+ be careful not to call an extended VERB during ' 
+ this time. . This is here in the program notes, 
+ and it is just a reminder. What will happen 
+ if we get into an extended VERB such as an 83 
+ or an 82? We may get hung-up in ~62 2nd have 
+ to recycle through it in order to get the 63, 
+ and neither of these displays are normally 
+ used, and it's just a good practice. And we're 
+ just trying to remind you that we don't want to 
+ call an extended VERB while we're in P62. 
+.- 04 19 01 22 CDR Okay. Neither do we. That's right. 
+ 04 19 01 24 CC Okay. 
+ -04 19 01 41 CC Okay. In going through the rest of it, we 
+ I didn't find any other things to make comments 
+ on. You have all the latest corrections in 
+ your checklist. 
+ 04 19 01 51 CDR Roger. The main thing, that is to come up with 
+ a way to determine that the boiler - water 
+ boiler is not dry and make sure that Bill gets 
+ it activated at TMS 7. 
+ 04 19 02 03 CC 'Phst is correct, and we will talk to you some 
+ more about that next time we catch both you 
+ and Bill up. 
+ \ 
+ /’ 04 19 02 10 CDR Righto. 
+ 04 19 06 41 CDR Ken, this is Frank. I am going to be off the 
+ headset for about 5 minutes here. 
+ f. 
+ . - 
+ I (GOSSHET 1) 
+ 04 19 06 44 
+ 04 19 06 50 
+ CC 
+ CDR 
+ Okay. 
+ a systems 
+ Fine. 
+ Fine. 
+ rundown 
+ When you come back, 
+ for you. 
+ I will 
+ Tape 76 
+ Page 13 
+ have 
+ 04 19 17 I.2 CDR Houston, Apollo 8. 
+ 04 19 17 16 CC Okay. Loud and clear. 
+ 04 19 17 20 CDR Back with you. 
+ 04 19 1-f 22 CC Okay. I've got a few good words for you. The 
+ erasable memory has been taken completely apart 
+ and looked at, and it looks like it's all okay. 
+ Your PO1 didn't have any effect. The one thing 
+ thacmight be questionable is if you used a 
+ -- VERB 67 when you get to the NOUN 99 display, 
+ .c., you may find 
+ what you're going 
+ that one to be unrelia')le, 
+ to get there is the - that's 
+ and 
+ m. error display for the W-matrix. And it's 
+ something you probably won't be usjng again 
+ . anyhow; and if the occasion arises, we can 
+ update that one, but it's not a normally used 
+ display and everything else, all the operational 
+ functions, are good. 
+ 04 19 18 1~ CDR Very good. 
+ 04 19 18 .lg Gc okay. As of 114 hours , your batteries - you 
+ had battery A vith 39.32 amp-hours, battery B 
+ had 35.21, and battery C 38.46. Your cryo 
+ _. 
+ i 
+ I 
+ /. ‘,. quantities remaining at SSP were the same 
+ .L 1 
+ I 
+ ve gave you the last time, 18~ pounds of oxygen 
+ per tank and 11 pounds of hydrogen per,tank. At 
+ i-- 
+‘, 
+ _. 
+ _--- 
+ (GOSS NEJ! 1) Tape 76 
+ 0 present, the service module RCS, using 
+ Page 14 
+ the 
+ computer values for the quantities, you have 
+ quad A vith 45 percent, Bravo with 50, Charlie 
+ with 58, and Delta at 48. What we plan to do 
+ with the secondary tanks is to go ahead and 
+ turn them on at 37 percent actual, and in the 
+ event of lost COMMor something like that, 
+ recommend that you.use 50 percent onboard 
+ gaging as being the time to turn the secondary 
+ propellants on. However, as long as'we can 
+ use our own calculations, why, we might as 
+ - well leave them tied up. We probably won't 
+ c-1 ’ get into the seconday propellants prior to 
+ entry anyhow. 
+ 04 19 19 41 CDR Roger. 
+ 04 19 19 42 CC Okay. A couple of items I want to check up 
+ On: I'd like to confirm that the hatch Dog 
+ will be taken off while you're on the chutes 
+ if you can. If not, you're going to do that in 
+ the water. Is that affirm? 
+ CDR ... 
+ I 
+ CC Okay. iiow we've got a little better sign 1. 
+ Like to confirm that the hatch clamps on the 
+ I 
+ side hatch will be taken off either on the 
+ \ chutes or in the water, whichever you can get 
+ (..- ..I 
+ to. Is that affirm? 
+I 
+ I 
+ - I 
+ i- 
+ Tape 76 
+ Page 15 
+ CDR Roger. That's affirm. As a matter of fact, 
+ we didn't even put - didn't even put them on. 
+ 04 19 20 45 CC Okay. Do you plan to put them on for an entry? 
+ 04 19 20 50 CDR I don't think so. If's held pretty well so 
+ far. I don't think - everybody tells me it 
+ wouldn't help much anyway. 
+ 04 19 21 58 CC Okay. And we realize we never did find out 
+ what happened to the Mae West. Did you leave 
+ it blown up, or did you dump it? 
+ 04 19 21 09 CDR We dumped it. 
+ 04 19 21 12 CC Okay. Who was the lucky guy? 
+ 04 19 21 17 OR The same gu,, that tried to launch us this after- 
+c ‘j. 
+ / noon again. 
+ 04 19 21 23 CC Okay. And just as a gee whiz item:you're now 
+ a 137 915 o-t, and you've only accelerated the 
+ 4883. You might check to make sure you don't 
+ have a speed brake hanging. 
+ 04 19 21 41 CDR Dh-oh. 
+ 04 19 21 44 CC Those are nominal values. 
+ 04 19 21 50 CDR Roger. 137 000 miles out, huh? 
+ c4 19 21 55 CC That's affirm. 
+ 04 lg 33 18 LMP Rouston, Apollo 8. Over. 
+ 04 19 33 20 CC Loud and clear. 
+ 04 19 33 27 LMP Good morning, or good afternoon, or whatever 
+ ‘j’ it is. The JOD is back at the CON; CDR went 
+.c -’ 
+ back to bed. 
+ . I 
+ \-. --. 
+ . 
+ . 
+ .-- 
+ : - 
+ -. (Goss m 1) Tape 76 
+ C) 04 19 33 32 CC Okay. 
+ Page 16 
+. / 
+ 04 19 33 44 CC Looks like all the junior guys have the midwatch. 
+ 04 19 33 49 Lw I know what you mean. I had a little sleep earlier, 
+ so I am pretty well rested and want to make sure 
+ Frank gets a good snooze here prior to entry. This 
+ might be a good time to try out your background 
+ music, and see if you have any better luck. 
+ -04 19 34 16 CC Okay. We'll try that a little later. 
+ 04 19 37 48 CC Apollo 8, Houston. 
+ .04 19 38 43 CC Apollo 8, Houston. 
+ 04 19 38 49 LMP Go ahead, Houston. 
+ 04 19 38 51 CC Okay. I guess we should start off with a little 
+ 0 dialogue about sleep. How much did you have? 
+ 04 19 39 03 LMP Well, let's see; whenever it was I told you I went 
+ to bed last ni@t till now. Just a second and 
+ let me check the flight plan. 
+ 04 19 40 48 LMP dave you got it logged in when it was I asked for 
+ that last Seconal? 
+ 04 19 40 57 CC Okay. I guess we can figure that out for ourselves, 
+ can't we? 
+ 04 19 41 02 LMP Yes. Why don't you let me know. I have.kind of 
+ lost track of time it was when I went to bed. But 
+ it was about - I went to sleep about 15 minutes after 
+ that and woke up about 10 minutes ago. Good sleep. 
+ 04 13 41 12 CC Okay. So I see it is now 142 hours. 
+ 04 19 41 27 LMP What do you think I em, 3ip van Winkle? 
+ (GOsSIEIl) Tape 76 
+ Page 17 
+ 04 19 41 30 CC Just trying to find out how soundly you really 
+ slept. I guess you are not that sleepy. 
+ 04 19 41 36 LMP . . . but not that. 
+ 04 19 41 40 CC Okay. It's really about 4 hours, Bill. 
+ 04 19 41 50 LMP Okay. Good. 
+ 04 19 42 39 CC Apollo 8, Houston. Have you got somebody under 
+ the left couch, or could you get down to the 
+ vater control panel? 
+ 04 19 42 49 LMP I can get dovn there. Frank hasn:t quite gone 
+ to sleep yet. 
+ ,I. 04 19 42 52 CC Uell, what we were thinking about doing was boiling 
+0 a little out of the secondary evaporator to check 
+ it out, just as a component check, something we 
+ need to do; but if there's somebody down there in 
+ the vay, why, we can do that some other time. 
+ : 04 19 43 17 LMP Well, if it boils, we are going to know it before - 
+ it won't take long to find out it won't boil. 
+ There's not a heck of a lot we can do about it, so 
+ v?ly don't we wait until someone else wakes up here, 
+ Frank wakes up again. How will that be? 
+ 04 19 43 27 CC Yes. That would be fine. There is something you 
+ can do; you can reservice it. And it is kind of 
+ a tediousprocess, and that's t5e reason vhy we just 
+ ‘\ : vant to kind of keep our eyes on it so we will have 
+ i 
+ c- 
+ some idea prior to entry if we can count on having 
+ two loops or one. Which kind of leads us into 
+ ‘L- -- 
+ - 
+ ! 
+ Tape 76 
+ Page 18 
+ another question we are trying to pin down, two 
+ questions, in fact. Number one, we would like 
+ to verify that you do plan to use both primary 
+ and secondary boilers during the actual entry, 
+ end we are also looking for a way of checking the 
+ primary boiler to make sure it isn't dried out prior 
+ , 
+ to entry. And that is turning into a little more 
+ of a challenge than you might suspect. If you 
+ have any thoughts on that subject, we can go over 
+ that. 
+04 19 44 21 r&P The answer to the question is yes, we do plan to 
+ use both. Before we get into the water boiler 
+ pump though, CDR would like to take a Seconal also; 
+ make sure he can get off to sleep here. 
+04 19 44 !I1 CC Okay. That's a GO. 
+04 lg 44 46 LMP Okay. On the water boiler: it's interesting Linat 
+ .I get my own - I was going to say anytime you have 
+ your mike keyed, I can hear myself talk with about 
+ a 2-second time delay. With respect to the primary 
+ and secondary boiler checks, I thirJc that is a good 
+ idea to make sure we got them both prior to entry 
+ and have the reservicing procedures handy. 
+04 19 45 39 CC Roger, Bill. You know the secondary - well, in fact, 
+ both reservicing procedures are available in a 
+ malfunction book, and sort of the problem with check- 
+ ing out the primary boiler is finding a way to 
+ make it boil on the way in, 
+ I 
+ L . -- 
+ r- 
+ i 
+ p. 
+ I 
+ / 
+ Tape 76 
+ Page19 
+ 04 19 46 03 w Yes. Just a second, I got another little chore 
+ going here. 
+ 04 lg 46 39 LMP Roger. It looks like the only way we'll be able 
+ . 
+ to do it would be to shut off the radiators. 
+ 04 lg 46 48 CC We were looking for a little more docile way to 
+ do that. 
+ 04 19 46 55. L&P Roger; That way would be agreeable to me too, 
+ a little more docile way, but they shouldn't 
+ freeze up if we did it quickly. 
+ 04 19 47 08 CC Roger. We are talking over several things, you 
+ know, like putting the ten-pin valve to KANUAL 
+ or partially closing it or some of these different 
+ ideas, and something you can think about whiie 
+ you are laying there with nothing else to do. 
+ 04 19 47 26 LMe Yes. We noticed that it had gotten warmer in 
+ the cockpit coming back than it was going out. And 
+ I remember going out when we manually positioned 
+ the ten-pin valve, but we had pretty good control 
+ over the glycol evap outlet temperature. So possibly 
+ that would be the thing to attack first rather than 
+ the radiators. 
+ 04.19 47 49 CC Okay. We've got the back room boys looking at it. 
+' 04 19 47 5-7 IN? I guess if we do pick a time, though, we cught to 
+ pick a time that if something did go haywire, we 
+ could afford to boil . . . the rest of the way in, 
+ but still leave us enought time to fix - rig up the 
+ evap service if it didn't work. 
+ ^ I 
+ _- .’ 
+ (Goss NET’ 
+ 1) Tape 76 
+ Page 20 
+ . 
+ 04 19 48 12 CC That's affirm, and we're factoring in things 
+ like trajectory considerations and all that sort 
+ of thing, too. 
+ 04 lg 48 22 Lm Right. I think that the second derivative of 
+ the water boiler versus time plot will give us 
+ the optimum time to do it. 
+ . 
+ 04 19 48 45 CC EECOM's copying that. 
+ 04 lg 48 52 CC There's also speculation you have a chart on 
+ board that gives that information. 
+-- 04 19 49 02 LKe Well, if I don't, I'm sure those guys can ship 
+c1 
+ one up. They've shipped up some other pretty 
+ good ones. 
+ 04 lg 4g 08 CC It's also been suggested that if you don't have 
+ the chart it's on the tape recorder. 
+ 04 19 49 18 LMP Well, if I don't have a chart, 1'11 put it on t.he 
+ tape recorder. 
+ 04 19 49 27 LMP Okay. I think, unless you guys got some more 
+ comments along these lines, maybe we ought to 
+ give these guys a chance to get to sleep, and 
+ I'll recline here for a while. If you've got 
+ something to brief me on, veli, go ahead; but 
+ I'd like to keep my answers to yes's and no's 
+.. and whatever else you think you really need. 
+0 04 19 49 51 CC Okay. 
+ every 
+ Pine, 
+ 30 minutes, 
+ Bill, and I'll 
+ just 
+ check with 
+ to make sure we still 
+ you like 
+ have 
+ voice contact. 
+ --- 
+ s 
+ . - _--- 
+ .._ (CosSRETl 1 Tape 76 
+ 0 04 19 50 02 IMP Okay. I've got some log writing 
+ Page 21 
+ to do and whatnot. 
+ So keep an eye on the systems and the gimbal angles, 
+ and we'll be all right. 
+ 04 19 50 11 CC Okay. 
+ : 
+ 04 19 52 17 rJ4P And, Ken, if your EECOM man wants to play the 
+ OMNI-switch game, we're on Dog - Bravo at this 
+ time, actually on Bravo but a$.0 configured for 
+ D's - correction, we are on D and also configured 
+ for Bravo. If you want to switch, we'll go ahead. 
+ 04 19 52 43 CC Okay, we'll give that a try, and we are cranking 
+ up some Packground music for you. 
+ 04 19 52 55 IMP Okay. 'Ihe last time they did that, it sounded 
+ like they were running at the wrong speed on the 
+ 0 
+ tape, but we're a little closer now. Maybe it'll 
+ be a little better. 
+ 04 19 53 02 CC Wouid you also believe Doppler shift? 
+ 04 19 53 14 LI@ Might be another way to range. 
+ 04 19 53 25 LbP PrGably it was Doppler shift; we're heading 
+ back out again, 
+ 04 19 53 38 CC books like we can use your humming for backup 
+ ranging in case everything else fails. 
+ 04 19 53 46 w Roger. 
+ 04 19 54 15 CC Apollo 8, Houston. You don't need to answer 
+ this transmission, but doctors observe that it 
+ looks like your - some of your sensors may be 
+ : 
+ working loose, 'so you might just kind of push on 
+ them and see if they are in place. 
+ . 
+. 
+ I 
+ (Gossm1! Tane 76 
+ Page 22 
+ 04 19 5b 56 LMP That do any good? 
+ 04 19 55 03 CC Looks like it is one of your sternals, Bili. 
+ 04 19 55 21 CC Apollo 8. We can't handle the OWN1 switching 
+ for about thirty more minutes, till we get back 
+ to an 85-foot disk, so you will have to watch 
+ the antenna store for a few more minutes. 
+ 04 lg 56 05 LMP Okay. I don't see any loose sensor - the upper, 
+ upper ... 
+ 04 19 56 18 IMP Are you trying to call, Houston? 
+ 04 19 56 21 CC No, I didn't. It sounded like you were getting 
+ an echo, and I checked, and I hadn't held the 
+ key down at the time either. 
+ 04 19 56 2-f LMP Okay. I don't see any loose sensors, but the 
+ upper sternal is beginning to irritate a little 
+ bit, but not badly; and possibly there is some- 
+ thing going on there. 
+ 04 19 56 43 CC Okay. And did you copy about the antenna? 
+ 04 lg 56 4g LMP They really disappoint me, but I'll keep that 
+ in mind. 
+ ENDOFTAPE 
+ --- - 
+ APOUO 8 AIR-TO-GROUND VOICE TRANSCRIPTION 
+ : ,* 
+*- Tape 77 
+ (GOSS NET 1) 
+ Page1 
+0 04 20 02.02 (Start music) 
+ 04 20 02 28 CC. ~~0110 8, Houston. I'd like to make a voice 
+ check vith you. 
+ 04 20 03 01 CC Apollo 8, Houston. Radio check. 
+ 04 20 03 32 CC Apollo 8, Houston. Radio check. 
+ 04 20 04 13 CC Apollo 8, Houston. Radio check. 
+ 04 20 05 12 CC Apollo 8, Houston. Radio check. 
+ 04 20 05 46 (End music) 
+ 04 20 05 50 CC Apcllo 8, Houston. Radio check. 
+ 04 20 06 37’ CC Apollo 8, Houston in the blind now. We're 
+ not receiving down-voice. We have data, and 
+ it appears it's probably a ground problem. 
+cl 04 20 07 12 CC Apollo 8, Houston. 
+ 04 20 07 17 LMP Roger, Houston. Read you loud and clear. 
+ 04 20 07 19 CC Okay. I got you that time. I take it you were 
+ able to copy us with the music? Is that affirm? 
+ 04 20 07 28 LMP Ivas able to copy you all the time, Ken, but 
+ I cculd only hear the music when you were trying 
+ . to tmsmit. And I wondered if you noticed 
+ cycling on my suit power switch vhen you - 
+ vhen ~011 called me. I am hearing an echo now. 
+ 04 20 07 47 CC Roger. I copy your echo. And what switch were . 
+ you cycling? 
+ 04 20 07 57 LMP I was cycling the suit power which turns off 
+ the BIONZD periodically. I figured +&t would 
+ wake the doctors up. 
+ . I 
+ I- 
+ . ._ -^.- ,“. ‘. 
+ . 
+(GOSS ml! 1) * Tape 77 
+ Page 2 
+ . 
+04 20 08 10 It appears that we have more than one con- 
+ munications problem. 
+04 20 08 17 Roger. 
+04 20 11 25 Calm it. (Laughter) 
+04 20 11 36 You are cutting out, Houston. 
+04 20 11 40 Oh, that was sn inadvertent cut-in. 
+04 20 11 45 Okay. 
+04 20 18 34 You need the high gain, Houston, or will the 
+ OMNI's be okay? 
+04 20 1.8 50 8, Houston. That's negative. The 0!4iVI is 
+ okay. 
+04 20 18 56 Roger. Be advised that about 50 - I am hearing 
+ these ethos quite a bit of the time, and if 
+ you are trying to play music, T am not hearing 
+ . 
+ it. 
+04 20 19 06 Roger. We understand, and we are not trying 
+ to play music right now. 
+04 20 19 15 Okay. who is this, CCFM TECH? 
+04 20 19 22 Ken is only human. This is his substitute; 
+ this is Flight Director. 
+04 20 19 32 Oh, I didn't recognize your voice there. 
+04 20 19 36 I don't get to talk often. 
+04 20 19 37 Who is substituting for you now, Flight? 
+04 20 19 43 DFD. 
+04 20 lg 46 Okay. Things are looking pretty good from 
+ here. How about down there? 
+04 20 19 55 It couldn't be better. 
+ e 
+ . 
+ Tape 
+ 77 
+ Page 
+ 3 
+ I&P You guys are doing a great job. I really 
+ appreciate it. 
+ 04 20 23 23 CC Apollo 8, Houston. Going to be handling over 
+ sites at 25. I will make a voice clteck with 
+ you when we come up on the new site, and the 
+ ground says thank you for your kind words. 
+ 04 20 23 38 IMP Okay. We will be standing by. 
+ 04 20 25 36 CC Apollo 8, Houston through Honeysuckle. 
+ 04 20 25 42 IalP Roger, Houston. Loud and clear. 
+ 04 20 25 43 CC Okay, Bill, and our BIOMED data still looks 
+ a little bit 'squirrelly. How about checking 
+ the blue signal conditioner on your BIOMED 
+ harness. You have one connector, should be 
+ the center package, has a blue connector on 
+ it. You kind of check that, and I don't 
+ know if you have changed the BIOMBD harness 
+ leads recently; if you have, this might have . 
+ caused our problem. 
+ 04 20 26 18 LW Roger. I was just cracking open some acorns 
+ here for breakfast. Let me put them down, and 
+ I will check my BILKED leads. 
+ 04 20 26 25 CC There is no rush on it. 
+ 04 20 28 21 LMP Everything seems shipshape. 
+ 04 20 49 26 CC Apollo 8, Houston. 
+ 34 20 49 58 CC Apollo 8, Houston. 
+ 04 20 50 02 LMP Go, Houston. 
+ I- 
+ - 
+,, 
+ - 
+ ' (CCSSNEIl) Tape 77 
+ Page 4 
+ 04 20 50 05 CC Okay, Bill. We're ready to try this music 
+c 
+ on a different kind,of latch-up this time. 
+ What I'd like to do in order to make sure 
+ that we maintain voice CCMMis when you get 
+ it if you would, give us a call and tell us 
+ you have the music and any comment about its 
+ relative volume or anything like that. And 
+ if I get your call, then I'll call you back 
+ and tell you. And what will happen is when 
+ I go to talk to you we'll drop the music 
+ link. And we can go ahead and take over the 
+ switching of the antennas if you like. 
+ 04 20 50 49 LMP okay. I'm in Bravo Dog switch configuration, 
+ and go ahead with the music. Be advised last 
+ time the fidelity was low, and the volume was 
+ too high. 
+ 04 20 51 02 CC Okay. And if you'll give us the same kind of 
+ comment, hopefully not the same comment but 
+ the same type of evaluation when you pick it 
+ up this time. 
+ 04 20 51 15 ‘LMP Play it a little bit, and we'll talk about it. 
+ 04 20 51 54 (*gin music) 
+ 04 20 52 15 Lm I can barely, barely hear it. 
+ 04 20 53 21 J&P Needs to be just a hair louder. 
+ .u4 20 53 37 LAMP That's good. 
+ . 
+ . (GGSSNRTl) Tape 77 
+ Page 5 
+ c 04 20 53 49 LMP 'Ihat will keep me awake. 
+ 04 20 54 03 LMP Maybe you ought to crank if. back down a little 
+ bit. 
+ 04 20 54 16 LMP Great. 
+ 04 20 54 52 (Fnd music) 
+ 04 20 54 53 CC Apollo 8, Houston. How was that? 
+ 04 20 54 58 LMP That's real good for background level type, 
+ Ken. Maybe you can do some logging in here 
+ so that's real nice at that level; maybe for 
+ anything else it could be a little bit louder, 
+ but that's good for now. 
+ 04 20 55 10 CC okay * That‘s about the MAX volume we can 
+ take down here; so if you want to talk to us, 
+ you may have to call us once or twice. You're 
+ 0 
+ just barely equaling it. 
+ 04 20 55 24 LIMP okay. Try it again, and 1'11 give you a little 
+ louder call; I've been trying to keep it 
+ quiet. 
+ 04 20 55 30 CC Oh, yes, that's all right. Don't - I was 
+ aware yoti were calling; I.just didn't make out 
+ what you said. And from now on, any time you 
+ . 
+ call, we'll drop the music, and I'll talk to 
+ you. 
+ . 
+ 04 20 55 42 LMP Roger. Don't hesitate for me a bit. 
+-_ - 
+ . 
+_---.-.-. 
+ . (GOSS NET11 . Tape 77 
+ Page 6 
+ j 
+ 0 04 20 55 46 CC Right. 
+ 04 20 56 oo CC And, Bill, we're going to have to wait until 
+ we get around to Bravo before we start switch- 
+ ing. Our margin is still a little bit low. 
+ 04 20 56 10 IMP Okay. I'll just go ahead and switch it and 
+ save you all that trouble. 
+ 04 20 56 14 CC Ckay. Thank you. 0~ midnight DVA show's 
+ back on the air. 
+ 04 20 56 20 J&P Roger. 
+ 04 20 56 25 (Begin music) 
+ 04 20 57 11 L&P Really great now. 
+ 04 21 14 57 CC Apollo 8, Houston. Check your yaw gimbal angle. 
+ 04 21 14 58 (End music) 
+ 0 64 2i is 04 LMP You must have been reading my mind. 
+ 04 21 15 07 CC No, th\? DSKY's. 
+ 04 21 15 13 IMP Oh, okay. 
+ 04 21 15 21 Ltw When you go to high gain, would you tell me? 
+ 04 21 15 46 LMP Houston, Apollo 8. 
+ 04 21 15 53 CC Go ahead, Apollo 8. 
+ 04 21 15 56 LMP Ken, do you want me to use the high gain wher, 
+ we come around, or is the OMNI sufficient? It 
+ doesn't matter to me. 
+ 04 21 16 07 CC Okay. The OMNI is doing fine. I was just 
+ watching your middle gimbal angle there; it 'vzs 
+ getting a little far out. 
+ s 
+ - 
+ Tape 77 
+ Page 7 
+u 04 21 16 17 LIMP Oh, okay. 
+ thought 
+ I thought 
+ you said 
+ you - I was, too. 
+ check the DSKY, and I thought 
+ I 
+ you were talking about the hi& gain antenna. 
+ 04 21 16 23 CC No, I'm sorry. I was just watching your middle 
+ gimbal. 
+ 04 2116 25 LMP Yes, this thing really slops around in deadband, 
+ but it's really nice flying otherwise. 
+ 04 2116 40 CC Glad to hear that. 
+ 04 21 16 47 INEJ All I have used the while trip is pulse. 
+ 04 2116 54 CC You just woke the doctor up. You said pulse, 
+ and he came alive. And he'd like to know if 
+ you did in fact, check out the BIOMED harness. 
+ 04 21 17 07 LNP Yes, I tightened down all the plugs and checked 
+c; all the leads, and everything lookeu in order. 
+ And when the other fellows wake up, if you 
+ remind me, why, I'll give it a more thorough 
+ going over. 
+ oi 2117 55 CC Okay, X11. It's been suggested that they would 
+ like to see you try switching the two leads, 
+ you know, a yellow and a blue one, and just go 
+ ahead and switch them, and they'll sacrifice 
+ their pneumogram because they'd rather have the 
+ EKG. 
+ 04 21 18 25 La& Do they need it now, or can they wait until 
+ somebody else wakes up? 
+ - -- 
+ Tape 77 
+ Page a 
+ 04 2118 35 (x: I guess we can wait, Bill. Is that a hard 
+ thing to get to? 
+ 04 21 18 43 LMFJ You have to take your pants off and about 
+ everything else - stand by. 
+ 04 21 22 07 Row's that, Houston? 
+ 04 21 22 13 Okay. Stand by, Bill. We'll take a look at 
+ it. 
+ 04 21 22 30 Houston, Apollo 8. 
+ 04 21 22 33 Roger. Read you. We're looking at data now. 
+ (Laughter) 
+ 04 21 22 40 I suppose you'll tell me my heart has quit 
+. 
+ beating. 
+ 04 21 22 44 We couldn't argue with you. That doesn't help 
+ at all. That's pretty bad. 
+ 04 21 23 12 Is the pneumogram IO-GO for entry? 
+ 04 21 23 17 Roger. 
+ d, 21 23 24 0ne thiug you might be interested in: we 
+ listened to that low speed information that 
+ you taped on the first couple of REX's that 
+ we thought was going to be unusable. And it 
+ must have been a grocnd problem because it's 
+ c0ming in loud and clear now. 
+ 04 21 23 41 Hey, that's great. I was just writing a long 
+ dissertation on why we have problems and can't 
+ use that l?SE in low bit rate. So that's real 
+ good. 
+ .- 
+ c-- 
+ : 
+ / E 
+ li E 
+ L--. 
+ Tape 77 
+ Page 9 
+ 04 21 23 55 CC Yes, it's coming in loud and clear. Pretty 
+ interesting. 
+ 04 21 24 00 LMP Let me tell you, it was a hectic revolution. 
+ 04 21 25 13 LMP If you've got the music going, I'm not hearing 
+ it, Ken. 
+ 04 21 25 17 - CC No, I vas waiting to see what we did on that 
+ before I started it up again. 
+ 04 21 25 23 LMP Okay. If they could hold off here for a couple 
+ of hours, if they have anything at all, just 
+ tell them,I'm alive, why, I'll give my real 
+ good going over here when I get done. I might 
+ even make a statement to the world that I haven't 
+ noticed that their little amplifiers had gotten 
+ hot. 
+ 04 21 25 41 CC You say it did get hot? 
+ 04 21 25 46 LMe NC, I hadn't even Goticed it until I started 
+ changing the lead. 
+ 04 21 25 49 CC Oh, okay.. Okay. I'm going to crank the music 
+ up agein then. 
+ 04 21 25 56 LMP Okay. Have they got anything at all down there? . 
+ 04 21 26 00 CC Well, we're on low bit rate right now, so it'll 
+ be a few minutes before we get a chance to take 
+ another look at it. We'll let you know if you 
+ get sick. 
+' 04 21 26 07 LMP Oh, well, ue csn hold off for a little while. 
+ 04 21 26 13 CC Roger. 
+ i-. 
+ . (GossKElr1) Tape 77 * 
+n 
+ , 
+ Page 10 
+ 04 21 27 02 LMP I can't hear it, but it sounds like something 
+ I'd rather not hear anyway. 
+ ENDOFTAPE 
+ . 
+ . 
+ * 
+ / 
+ -- : 
+ I 
+ APOLIB 8 AIR-M-GROUND VOICE TRANSCRIPTION 
+ ,. .. 
+ /' (lxSSNE?rl) Tape 78 
+." 
+ Page 1 
+ (_.j 
+ . 04 22 17 19 (End of music) 
+ 04 22 17 40 IMe Houston, Apollo a. 
+ 04 22 17 43 CC Hello, Apollo a. We interrupt this program of 
+ music to bring you the late evening status report. 
+ 04 22 17 50 LMP Good. What's up? 
+ 04 zz 17 56 CC Okay. We are getting ready to have a shift turn- 
+ over, and I vanted to go over a few items before 
+ I ao: On the midcourse correction nunber 6: right 
+ now, that looks like it is at most 0.3 a foot per 
+ second, so there will be no burn for midcourse 
+ number 6. Midcourse number 7 is a little larger, 
+ and we'll make a decision on that later. Your 
+ weather in landing site still reported as being good 
+ and the forecast to be --bout 2000 scattered and 
+ I2 000 broken, about the same numbers they gave 
+ Prank earlier. Visibility vi11 be about 10 miles, 
+ wave height about 4 feet. And I guess there is some 
+ scattered thundershowers, like less than 5 percent, 
+ that you should worry about. And they're 10 to 
+ 30 percent maybe at 2000, broken as opposed to 
+ scattered; so it looks pretty fair. We have got 
+ a-- 
+ 04 22 19 12 IMP Just my kind of weather. 
+ 04 22 19 14 CC Roger. Got a couple of flight plan things to 
+ consider. Now number 1 at 119:30: we have got a 
+ /I P52 IMJ realignment which we need to slip in ahead 
+ -. -__..- 
+ . 
+ Tape 78 
+ Page 2 
+ of the P23 sightings, and that will be an option 3 
+ !SEFSMAT. 
+ 04 22.19 40 LMP Roger. 
+ 04 22 19 45 CC Okay. Some of the folks in sitting back and 
+ looking at the TV business have some ideas about 
+ . 
+ things they would like to see tried with the filters. 
+ And I would like to read you what they have here 
+ and let you think about it; and in the next 10 hours, 
+ you can decide whether or not you think it is worth 
+ the effort. Basically, they would like to try using 
+ . 
+ a vhole different series of filters - - 
+ 04 22 21 04 LAP Okay, Ken. I got something to write on. Was that 
+ c- .P52 at 18:30 or 19:30? 
+ 04 22 21 11 CC l.l9:30. 
+ 04 22 '21 15 IMP Okay. I'm ready to copy on !FV. 
+ 04 22 21 31 CC okay * Before you copy, let me read it all through 
+ to you here so you vi11 get the feel for what it 
+ is ve are talking about. The title of this little 
+ epistle is "TV and Film Photography Correlation 
+ %periment," and what they want to do is mount 
+ the TV camera with the telephoto lens on a bracket. 
+ in the rendezvous window and take a TV picture 
+ of the earth through the red and blu+ filters, 
+ lminute per filter; that means red and blue 
+ filters individually. Then they would like to 
+ C! take a TV picture cf the earth through through 
+ the red, in this case, the 25 Alfa filter combined 
+r 
+ 4 
+ i-- 
+ -. 
+ Tape 78 
+ Page 3 
+ vith the polarizing filter. Rotate the polarizing I 
+ filter through 360-degree increments, again 1 minute I 
+ per position. Then they'd like to take a TV picture 
+ of the moon vith the polarizing filter at 360-degree 
+ I moon-rotation increments and again, : minute per 
+ position. And to go with this, we would like 5; 
+ have Hasselblad pictures. 
+ 04 22 22 44 LMP One minute. 
+ 04 22 22 45 CC Okay. I am standing by. 
+ 04 22 22 49 IMP Are those - when you were talking aboc-t'pictures 
+ through the polarizing filter, is that the TV pictures 
+*. through the polarizing filter? 
+ 04 22 22 55 CC That's affirmative. All above was 'TJ. 
+ c 
+ 04 22 22 59 IMP okay. Now the only thing - the only problem here 
+ is it's darn near impossible to aim that television 
+ camera ; the field of view is so narrow that it 
+ took three men and a boy ug here to get the thing 
+ pointed in the right direction. And we tried using 
+ cheving gum for a sight and everything else, and 
+ let me tell you that the odds of getting that thing 
+ in the earth is pretty smali. 
+ : 04 22 23 25 CC Okay. I think we weren't too clever in our ground 
+ callup as to how to point the spacecraft. For one 
+ thing I think we can do that a lot better next time 
+ now that we have stumbled through it once. I agree \ 
+ 1 
+ with you - - r 
+ --. .. ._. --i-- 
+ i-: 
+ (ooss mm 1) Tape 78 
+ Page 4 
+C) . 
+ . 04 22 23 41 r.MP It's not the spacecraft; it's not the spacecraft 
+ that's hard to point, it's the camera. The bracket 
+ has sufficient slump in it that it can take the 
+ . 
+ camera out of field of view when configured thrcllgh 
+ the window. And it took a lot of microadjustments 
+ with a lot of coaching from the ground to get the 
+ thing in, and it was a real tough job. So I think 
+ you ought to take all this in mind; if you could 
+ possibly use the wide angle, you might be better off. 
+ 04 22 24 14 CC Okay. I understand what you are saying now. I'-1 
+ run that back by the TV guys and see what they have 
+ . 
+ to say about that. In conjunction with the above, 
+CJ they wanted to take some Hasselblad pictures of the 
+ earth through the rendezvous window with the red 
+ and blue filter and black and white film, and then 
+ again through the polarizing filter, and this,is ail 
+ going to be used in order to try and correlate the 
+ !l!V and the regular film photography. So if you think 
+ .. it is a worthwhile thing, and you would like to give 
+ it a try, I'll run this by Jack and the TV cats and 
+ see if they would like.to get something out of it 
+ vith the wide angle, and we can talk about it a little 
+ later. 
+ 04 22 25 05 rm Okay. Another thing to keep in mind is that we 
+ haven't si-en the moon - we didn't see a11 the uay 
+ out ) and we rarely see it going back. Ue have seen 
+ it once since we left, but we have uar.euvered the 
+ , 
+ L-- 
+ . 
+(GoSSmzTl) Tape 78 
+ Page 5 
+ wrong way from a sighting attitude to the shortest 
+ way to mc; and to go from an earth view to a lunar 
+ view will take quite a bit of time and some RCS. 
+ So you might keep that in mind, too. 
+04 22 25 35 CC okay. I just wanted you to .be aware of this and 
+ think about it and what its implications to the 
+ flight plan might be, and I'll run this wide angle 
+ and comment about the moon back by and see which 
+ sections they think would be most appropriate. 
+ okay. On the EMS scroll, Frank wanted us to verify 
+ the order that he could expect to see the entry 
+ profile, and the first profile that comes up is 
+ labelled "Nonexit Number 2" and that is the short- 
+ range high-speed entry. The second thing that will 
+ come up is entitled "The 3500 Mile" irhich i; also 
+ high-speed entry, but it is the one you wo'lld use 
+ in event we go to the longer entry rznges. Then 
+ the third profile will be "Nonexit Entry Number 1," 
+ and it will be followed by a forth 3509 rile. SO 
+ you have four entry profiles. Numbers 1 and 3, as 
+ you come to them, are the short ranges, and numbers 2 
+ and 4 are the long-range scrolls. On coldsoak, 
+ I think we talked about what we're going to do there, 
+ but somewhere inside of about an hour, ~'11 want 
+ to get into the coldsoak business. lie certainly 
+ don't want to do it at 12. Talking to the trajectory 
+ people - vhat they thought about water boiling - 
+ - 
+ I 
+ -- 
+ c : 
+ 1 
+ 1 
+ : 
+ ! ’ 
+ t-: 
+ . 
+ h 
+ I 
+ . 4 
+ (Goss NET 1) Tape 78 
+ page 6 
+'0 
+ something to keep in mind is the fact that they 
+ do see your water dumps and water boiling on your 
+ trajectory plot. It seems to be that it's a func- 
+ tion of their computational scheme rather than a 
+ function of the fact that the trajectory is being 
+ perturbed that much. So it looks like one time that 
+ we're going to consider, if we're going to do some 
+ of this water boiling, we may do it just prior to 
+ the midcourse after all the tracking is settied 
+ down and they know what the midcourse correction 
+ . 
+ trill be. Then in that period just prior to the 
+ midcourse we can do it, and they'll pick up their 
+ 0 tracking agair following the midcourse correction. 
+ So if someone proposes that the - - It is probably 
+ nice to know that we are not throwing away our 
+ data at the most important time, that it is a func- 
+ tion of the computer program rather than so much 
+ a function of your trajectory being changed. 
+ 04 22 28 04 IMP Let me ask you one thing then. Do you want a 
+ coldsoak sone',ime prior to the midcourse correction 
+ . for 1 hour. Is that what you're trying to tell me? 
+ 0422.2812 . CC Not really. I think we are looking at that prior 
+ to the midcourse correction as being the time 
+ when we would like to check out the water boilers. 
+ The coldsoak does involve some water boiler, too, 
+ but that's going to be done right before entry vhcn 
+ these things are not going to be very sensitive, 
+ . 
+ . 
+ i 
+ (Goss mm i) Tape 78 
+ Page 7 
+ and if we don't do it in 12 hours, it is not 
+ real clear where the coldsoak takes place or 
+ where you turn on the secondary water boiler. 
+ In looking through the eniry checklist tonight, 
+ we didn't find a place for that. 
+04 22 28 48 IalP Okay. Is it really clear that you need the cold 
+ soak? Ue kind of figured on sometime prior to 
+ SEP bringing up the secondary J3VAP, and also 
+ having the primary at that point sometime prior 
+ to that date on your suggestion. 
+04 22 29 06 CC Okay. We're talking about doing that like an hour 
+ prior to SEP; but in the pre-SRP check, one of the 
+ things we power down was the secondary loop. And 
+ they won't need to turn it back. 
+04 22 29 21 L24P Ye do that to save - - 
+04 22 2g 22 CC Right. We're doing that to keep our power profile 
+ where we want it. And then we're going to be turn- 
+ ing it back on sometime prior to entry. And the time 
+ to turn it on in entry, of course, isn't specifiec' 
+ because as you turn it on, the voltages show that 
+ they can hack it. 
+04 22 29 41 CD2 Hopetilly. right after separation. 
+04-22 29 43 CC That sounds like a real good place. Okay- I’m 
+ sure we're going to discuss that one a 1itLle bit 
+ more, Bill. But right now those are the kind of 
+ things we're talking about doing. Ad on the 
+ high gain, there is still a lot of discussion about 
+ .r--- 
+ j f 
+ !; E 
+ L’ 
+ Tape 78 
+ Page 8 
+ as to what - exactly what we saw and what it 
+ means. And I think it is a little too early to 
+ tell you anything about that one. 
+ . 
+ 04 22 30 11 IMP Roger. I think it's got X-ray eyes. 
+ 04 22 30 17 CC That's as good as some of the explanetions. 
+ 04 22 +o 26 IlP Yes, I think that's what they hashed out CC the 
+ ground, Ken. 
+ 04 22 30 29 CC Okay. I think we all agree that we don't uant 
+ to try experimenting with it if we really don't 
+ know what it is we're looking at. 
+ 04 22 30 39 IMP Roger. I've written down some numbers here that 
+ I hope will be helpful. 
+ 15 04 22 30 43 CC Okay. Fine. 
+ 04 22 30 46 IMP And I'll give them to you in the debriefing. 
+ 04 22 30 49. CC Real fine. 
+ 04 -32 30 52 IMP I don't think it's any great big deal, because 
+ the antenna switching is not hard at all and the 
+ -a. is required to work; if it doesn't work as 
+ advertised, at least it works in a reasonable 
+ manner. 
+ 04 22 31 26 CC Okay. And we're looking at 120 hours for,the next 
+ water dump, Bill. 
+ 04 22 33 41 IMP Ken, is it my imagination, or do you have the 
+ music running? 
+ 04 22 33 45 CC I'm sorry; say again. 
+i- 04 22 33 49 Im Is it my imagination, or do you have the music 
+ running? 
+ - 
+ - -r- 
+ , 
+ ‘- 
+ -- 
+ . 
+(Goss NET 1) Tape 78 
+ Page 9 
+04 22 33 54 CC I think it's your imagination. 
+04 22 33 59 IMP Uh-oh. Don't let the doctors hear that. 
+04 22 34 01 CC It's too late; he already heard you: 
+04 22 34 06 r.m I must be getting that detached feeling. 
+04 22 36 49 IMP Apollo 8, Houston. 
+04 22 36 51 CC Go ahead, 8. 
+04 22 36 55 Lt@ Roger. Just to make sure the urge to get red 
+ and blue filter shots of the moon haven't crept 
+ into this TV test. We have got red and blue 
+ filter shots of the moon, 50 you need not vorry 
+ about that. 
+04 22 37 12 CC okay. ‘I don't think that would throw it away. I 
+ think we're trying to come up with something definitive 
+ so that postflight will have some real good data 
+ to compare with what we do on the ground for futl*re 
+ vork. I would like to have you go over and take a 
+ look at the battery Charlie, please. 
+04 22 37 35 IMP I'm on my way. 
+04 22 38 08 ?x.P Okay. Ratter-y Charlie, that's about 36.8 volts. 
+ 04 22 38 13 CC C'+, 26.8. Thank you. 
+ 04 22 38 19 IMP Roger. 
+ 04 22 3t 20 IKP Also with respect to the 'I'! test, I would think 
+ that we could probably get a pretty good handle 
+ on the operation just by taking red and blus and 
+ polarizing shots of the earth independent of the 
+ TV, but within the same time frame or at about the 
+ same range we had the TV last time. 
