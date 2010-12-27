@@ -1,21 +1,21 @@
 Tape 84 
 Page 14 
-05 08 26 38    CC             Apollo 8, Houston. We're replaying your trle-
-                              vision pictures now. We can see the Chilean
+05 08 26 38    CC             Apollo 8, Houston. We're replaying your
+                              television pictures now. We can see the Chilean
                               coast and Florida.
 05 08 26 45    CDR            Very good.
 05 08 26 48    LMP            That's a pretty good little television camera,
                               isn't it?
-05 08 26 50    CC             It sure is. With the right filters on it., it's
+05 08 26 50    CC             It sure is. With the right filters on it, it's
                               great. That was a Schmitt input.
 05 08 27 05    CMP            He must be a Jack of all trades.
 05 08 27 10    CC             Beautiful.
-05 08 30 01    CDR            Houston, Apollo 8,
+05 08 30 01    CDR            Houston, Apollo 8.
 05 08 30 03    CC             Apollo 8, Houston. Go.
 05 08 30 06    CDR            Bill would like to ask the friendly Flight
                               Surgeon's permission to take a Seconal so he
                               can sleep.
-05 08 30 17    CC             Roger. Copy. -
+05 08 30 17    CC             Roger. Copy.
 05 08 30 31    CC             Apollo 8, Houston. That's a "yes."
 05 08 30 36    CDR            Thank you.
 05 08 32 37    CC             Apollo 8, Houston.
@@ -25,7 +25,6 @@ Page 14
                               check now at any time at his convenience, and
                               if we don't happen to be able to monitor it
                               with high bit rate, just let us know when you
- : 
                               did it.
 Tape 84 
 Page 15 
@@ -43,12 +42,12 @@ Page 1
 05 08 48 11    CC             Howdy.
 05 08 48 14    LMP            Okay. Somebody said something about checking
                               out the evaporator - evaporators. What do you
-                              want .io do?
+                              want to do?
 05 08 48 20    CC             Roger. Before we get too far along, we'd like
-                              to see, essentially with the secondary evaporx-
-                              tor check, what we got on the redundant compo-
-                              nents check.
-05 08 48 31    LMP            Okay. Stand by. ,
+                              to see, essentially with the secondary 
+                              evaporator check, what we got on the redundant 
+                              components check.
+05 08 48 31    LMP            Okay. Stand by.
 05 08 48 33    CC             Roger. EECOM says to be sure and let it go for
                               at least 5 minutes.
 05 08 48 39    LMP            Roger. Now you want to check out the primary
@@ -70,46 +69,36 @@ Page 2
 05 08 53 42    CC             Apollo 8, Houston. Go.
 05 08 53 48    LMP            Alright. What do you have in mind here in the
                               way of activating the secondary loop prior to
-                              separation? It looks like if we do,have a cabin
+                              separation? It looks like if we do have a cabin
                               fan problem, we won't be able to do a full-blown
                               coldsoak. Is there anything that we can do that'11
                               do any good?
-05 08 54 05    CC             Veil, right now, Bill, in the checklist, we're
-                              shoving this activation at about minus 1 hour.
+05 08 54 05    CC             Well, right now, Bill, in the checklist, we're
+                              showing this activation at about minus 1 hour.
                               Let me check with EECOM for R minute and see if
                               they got any more words considering the cabin
                               fan situation.
 05 08 54 19    LMP            Roger.
 05 08 54 59    CC             Apollo 8, Houston. Looks like a good time. One
-                              hour before SEF' - entry interface would be fine.
+                              hour before SEP - entry interface would be fine.
 05 08 55 10    LMP            Okay. It won't do any good, then, to fool around
                               with these cabin temp valves. ...
 05 08 55 21    CC             Bill, stand by. You're - got a lot of background
                               noise.
 05 08 55 39    CC             Go ahead now, Bill.
-05 08 55 40    LMP            Read me nou, Jerry?
+05 08 55 40    LMP            Read me now, Jerry?
 05 08 55 41    CC             Loud and clear.
-05 08 55 45    LMP            Okay.
-                              that
-                              This
-                              you've
-                              coldsoak
-                              got a cabin
-                              is built
-                              heat
-                              around
-                              exchanger,
-                              the premise
-                              in my
+05 08 55 45    LMP            Okay. This coldsoak is built around the premise
+                              that you've got a cabin heat exchanger, in my
 Tape 85 
 Page 3 
-                              viev; and if you haven't got a cabin heat ex-
-                              changer, I'm wondering just what you can do.
+                              view; and if you haven't got a cabin heat 
+                              exchanger, I'm wondering just what you can do.
 05 08 56 02    CC             He's thinking.
 05 08 56 28    CC             Apollo 8, Houston. We think it'll still do a
                               little bit of good so we'd just as soon go through
                               with it.
-05 08 56 39 Okay. Even bypassing the suit heat exchanger and 
+05 08 56 39    LMP            Okay. Even bypassing the suit heat exchanger and 
                               that part of it too, huh?
 05 08 56 44    CC             That's affirmative.
 05 08 56 48    LMP            Okay.
@@ -120,95 +109,92 @@ Page 3
 05 09 08 01    LMP            Houston, Apollo 8. Over.
 05 09 08 04    CC             Apollo 8, Houston.
 05 09 08 13    CC             Apollo 8, Houston. Go.
-05 09 08 16    LMP            Hey, Jerry. when do you want to crank up .the VW,
-05 09 08 26    CC             Roger. VRF Simplex - well, we had that on the
-                              checklist f'cr about minus 4 hours.
+05 09 08 16    LMP            Hey, Jerry. when do you want to crank up the VHF,
+                              anyway?
+05 09 08 26    CC             Roger. VHF Simplex - well, we had that on the
+                              checklist for about minus 4 hours.
 05 09 08 37    LMP            Okay. We wanted - we wanted to put it out prior
                               to MAX range, don't you think? Get an idea of
-                              vhen ve're picking it up?
-05 09 08 50    CC             Roger.
+                              when we're picking it up?
+05 09 08 50    CC             Roger. Stand by, Bill. They're talking about
                               it.
-                              Stand by,
-                              Bill. They're talking about
 Tape 85 
 Page 4 
 05 09 12 44    CC             Apollo 8, Houston.
-05 09 12 47    CDR            Co ahead.
+05 09 12 47    CDR            Go ahead.
 05 09 12 48    CC             Roger. Entry interface minus 4 hours is just
                               about right for the VHF. That is about - oh,
-                              142 GFII.
+                              142 GET.
 05 09 13 03    CDR            Roger. Thank you.
-05 09 13 11 CC !I!he next voice you hear will be that of the smil- 
-                              ing Irishman.
+05 09 13 11    CC             The next voice you hear will be that of the  
+                              smiling Irishman.
 05 09 13 20    CMP            Outstanding.
 05 09 22 39    CC             Apollo 8, Houston. Over.
 05 09 22 42    CMP            Go ahead.
 05 09 22 43    CC             Good morning, James.
-05 09 22 46    CMP            Oh, it's Michael Collins, is it? Good'morning to
+05 09 22 46    CMP            Oh, it's Michael Collins, is it? Good morning to
                               you.
-05 09 22 50    CC             Righto. And we're looking at your pitch CDU read-
-                              out down here and looks to us like you are about
+05 09 22 50    CC             Righto. And we're looking at your pitch CDU 
+                              readout down here and looks to us like you are about
                               25 degrees off the 180 for your PTC, and we were
-                              just vondering how come?
-05 09 23 03    CMP            We've been looking at that, too. It keeps wander-
-                              ing off in pitch for some reason more than yaw.
+                              just wondering how come?
+05 09 23 03    CMP            We've been looking at that, too. It keeps 
+                              wandering off in pitch for some reason more than yaw.
                               I was just about ready to go back to it again. I
                               had to go back one time, and I was just seeing
                               hov far she would drift. I thought it would drift
-                              out a ways and.come back by itself, but it is not
-05 09 23 18 CC 
-                              doing
- -Okay. 
-                              it.
+                              out a ways and come back by itself, but it is not
+                              doing it.
+05 09 23 18    CC             Okay.
 05 09 23 21    CMP            We'll get back there.
 Tape 85 
 Page 5 
 05 09 32 11    CDR            Houston, Apollo 8. We're in the process of doing
                               the trunnion bias check; then we will go to P23.
-05 09 32 20    CC             Roger. mank you, Frank.
-05 09 33 07 Houston, Apollo 8. 
+05 09 32 20    CC             Roger. Thank you, Frank.
+05 09 33 07    CDR            Houston, Apollo 8. 
 05 09 33 11    CC             Apollo 8, Houston. Go.
-05 09 33 13    CDR            We like to have the PIG attitude to comply with
+05 09 33 13    CDR            We like to have the PTC attitude to comply with
                               P23 requirement.
 05 09 33 23    CC             Roger, Frank. Stand by.
 05 09 34 09    CC             Apollo 8, Houston.
 05 09 34 12    CDR            GO ahead.
-05 09 34 13    CC             Any time you vart to start on those P23's is
+05 09 34 13    CC             Any time you want to start on those P23's is
                               just fine.
 05 09 34 18    CDR            Okay. I was just checking. I just wanted to
-                              know how our thermal control was going hcfore
+                              know how our thermal control was going before
                               we left.
 05 09 35 15    CC             Apollo 8, Houston. Over.
 05 09 35 18    CDR            Go ahead, Houston. Apollo 8.
-05 09 35 20    CC             Your temperatures are looking good,.Frank. There
+05 09 35 20    CC             Your temperatures are looking good, Frank. There
                               is still a differential temperature between quads,
-                              but nothing that vould cause us in the slightest
+                              but nothing that would cause us in the slightest
                               to worry about doing P23.
 05 09 35 31    CDR            Roger. Understand.
 05 09 47 22    CC             Apollo 8, Houston. Over.
-05 09 47 27    CNP            Go ahead.
+05 09 47 27    CMP            Go ahead.
 05 09 47 28    CC             Roger, Jim. We've been looking at these stars
                               that we gave you this time for P23. It looks
 Tape 85 
 Page 6 
-                              like tue second star, number 11, has a trunnion
+                              like the second star, number 11, has a trunnion
                               angle right out to the limit, about 49.7 degrees.
                               And we're thinking it might be a good idea to
-                              switch you over to star 1, which has a much smal-
-                              ler trunnion angle. What do you think? Star 1
+                              switch you over to star 1, which has a much 
+                              smaller trunnion angle. What do you think? Star 1
                               is Alpheratz.
 05 09 47 54    CMP            Fine with me; I would just as soon take star 1.
 05 09 47 58    CC             Okay. That will be then in place of star 11,
-                              star 1, and in place cf lunar far horizon, lunar
-                              near horizon; aa it remains two sets. Over.
+                              star 1, and in place of lunar far horizon, lunar
+                              near horizon; and it remains two sets. Over.
 05 09 48 12    CMP            Roger. Star 1, lunar near horizon, two sets.
 05 09 48 15    CC             Thank you.
 05 10 13 24    CC             Apollo 8, Houston. Over.
 05 10 13 55    CC             Apollo 8, Houston. Over.
 05 10 13 59    CDR            Go ahead, Houston. Apollo 8.
-05 10 14 01    CC             Roger. Fine. Old golden fingers there is get-
-                              ting so swift we missed some marks on the down-
-                              link. I wonder - if you hand recorded them,
+05 10 14 01    CC             Roger. Fine. Old golden fingers there is 
+                              getting so swift we missed some marks on the 
+                              downlink. I wonder - if you hand recorded them,
                               could you read us your three marks - trunnion
                               angles, your three trunnion angles on star 2
                               and the last four trunnion angles on star 1.
@@ -219,7 +205,7 @@ Page 6
 05 10 14 38    CDR            That ought to be a good one.
 Tape 85 
 Page 7 
-05 10 14 40    CC             That is a g00a one.. That's loud and clear.
+05 10 14 40    CC             That is a good one. That's loud and clear.
 05 10 14 43    CDR            Okay. Star 2 trunnion angle, first one 05245,
                               second one 05243, next one 05241; last 4 trun-
                               nion angles 04133, 04133, 04132, 04132.
@@ -447,7 +433,7 @@ Page 4
 05 12 34 45    CC             Roger, Jim. In your computer, we'd like to do
                               an erasable memory dump again, like we did the
                               other day, and the reason we'd like to do it is,
-                              vhen you did that I?37 about 8 hours ago, and you
+                              when you did that I?37 about 8 hours ago, and you
                               remember you put that EI time for TIG and got
                               that P00 do thing; we'd like to - We don't
                               think there's anything in the world wrong with
@@ -811,7 +797,7 @@ Page 1
                               present entry PAD is good. We'll be updating
                               your landing points at the same time that you would
                               have gotten MCC 7, and I'd like to have a crew
-                              status report from you vhen it's convenient.
+                              status report from you when it's convenient.
 Tape 92 
 Page 2 
 05 20 36 38    CDR            Okay, Ken. I understand. If we would lose COMX,
@@ -1277,7 +1263,7 @@ Page 2
 06 01 02 09    CDR            Go ahead.
 06 01 02 16    CMP            Go ahead, Houston.
 06 01 02 19    CC             Okay, Apollo 8. If you will go to P00 and ACCEPT,
-                              we vould like to update your LM and CSX state
+                              we would like to update your LM and CSX state
                               vectors. Over.
 Tape 95 
 Page 3 
