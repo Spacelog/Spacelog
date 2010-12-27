@@ -72,8 +72,8 @@ MISSIONS_STATIC_URL = '/assets/missions/'
 # FIXED_MISSIONS_STATIC_URL doesn't change with varying deploys, so can be used for
 # things that need long-term URLs, like image references in the Open Graph.
 FIXED_MISSIONS_STATIC_URL = '/assets/missions/'
-MISSIONS_PNG_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
-MISSIONS_PNG_URL = '/assets/missions/'
+MISSIONS_IMAGE_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
+MISSIONS_IMAGE_URL = '/assets/missions/'
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.

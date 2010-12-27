@@ -98,11 +98,15 @@
     ],
     "key_scenes" : [
       {
+        "title": "Eagle has computer problems during its descent",
+        "range": [ "04:06:42:17", "04:06:42:58" ]
+      },
+      {
         "title": "The Eagle touches down on the lunar surface",
         "range": [ "04:06:45:40", "04:06:46:06" ]
       },
       {
-        "title": "One small step",
+        "title": "One small step...",
         "range": [ "04:13:23:38", "04:13:24:48" ]
       },
       {
@@ -120,6 +124,7 @@
 
     ],
     "homepage_quotes" : [
+        "00:04:53:28",
         "04:13:24:48",
         "04:06:46:04",
         "04:06:46:06",
