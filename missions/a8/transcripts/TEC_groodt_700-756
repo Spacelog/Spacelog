@@ -160,7 +160,7 @@ Page 3
 
                                       changer,               I'm wondering                 just     what you can do.
 05 08 56 02 CC     He's      thinking.
-05 08 56 28 CC     A@10             8, Houston.                 We think              it'll           still       do a
+05 08 56 28 CC     Apollo             8, Houston.                 We think              it'll           still       do a
 
                                       little           bit         of good so we'd                 just           as soon go through
 
@@ -270,7 +270,7 @@ Page 5
                            to worry          about      doing        P23.
 05 09 35 31 CDR    Roger.           Understand.
 05 09 47 22 CC     Apollo      8, Houston.               Over.
-05 09 47 27 CNP    GO ahead.                  -~
+05 09 47 27 CNP    Go ahead.
 05 09 47 28 CC     Roger,      Jim.          We've been looking                 at these        stars
                            that     we gave you this                  time     for     P23.     It     looks
 
@@ -295,11 +295,11 @@ Page 6
                                  star     1, and in place                       cf      lunar       far     horizon,          lunar
 
                                  near horizon;                    aa it         remains            two sets.           Over.
-05 09 48 12 QXP   Roger.            Star      1, lunar                near horizon,            two sets.
+05 09 48 12 CMP   Roger.            Star      1, lunar                near horizon,            two sets.
 05 09 48 15 CC    Thank you.
 05 10 13 24 CC    Apollo           8, Houston.                  Over.
 05 10 13 55 CC    Apollo           8, Houston.                  Over.
-05 10 13 59 CDR   00 shead,           Houston.                  Apollo         8.
+05 10 13 59 CDR   Go ahead,           Houston.                  Apollo         8.
 05 10 14 01 CC    Roger.            Fine.           Old golden                fingers        there      is get-
 
                                  ting     so swift            we missed                 some marks on the down-
@@ -314,9 +314,9 @@ Page 6
 
                                  Over.
 05 10 14 30 CDR   Do you read me still,                               Mike?
-05 10 14 32 CC    Stsnd by.                We'=       not reading                   you good enough,                     so
+05 10 14 32 CC    Stand by.                We're       not reading                   you good enough,                     so
 
-                                 ve'll      uait          until      you get a better                       OMRI.
+                                 we'll      wait          until      you get a better                       OMNI.
 05 10 14 38 CDR   That     ought           to be a good one.
 
 
@@ -404,7 +404,7 @@ Page 2
 
                                  lent,      and boy,           we are really            thankful                  for         it
 
-                                 because          reading         ail     these      updates             would be
+                                 because          reading         all     these      updates             would be
 
                                  baa news with              bad CGMM, as you know.
 05 10 19 48 CDR    Right.
@@ -419,7 +419,7 @@ Page 2
 05 10 20 00 w      NO.       He is disregarding                     anything              I can do.
 
                                  We're       coming in anyway.
-05 10 20 13 'cc     I suspect           he is right            on that         point.
+05 10 20 13 CC     I suspect           he is right            on that         point.
 05 10 20 18 CMP    Well,      back to the drawing                     board.
 05 10 20 21 CDR    As usual,           we are all            a little         pooped.                   I've           got
 
@@ -437,7 +437,7 @@ Page 2
 
 Tape 86
 Page 3
-05 10 56 40 CC         Apollo       8, Rouston.
+05 10 56 40 CC         Apollo       8, Houston.
 05 10 56 43 CDR        Co aheed,          Houston.             Apollo                 8.
 05 10 56 45 CC         Roger,       Frank.         If     you get                   a chance to,              we'd
               
@@ -454,7 +454,7 @@ Page 3
                                               attitudes          should        read         zero pitch                  and 45 degrees
 
                                              yaw.        Over.
-05 10 57 14 CDR        Zero pitch           and $5 degrees                          at 2-104.
+05 10 57 14 CDR        Zero pitch           and 45 degrees                          at 2-104.
 05 10 57 17 CC         Roger.
 
                                               those
@@ -468,7 +468,7 @@ Page 3
 05 10 58 10 CC         Yes.        That's        affirmative,                        Frank.        Zero pitch,
 
                                                45 degrees          yaw.
-05 10 58 15 CDR        m PRD now reads                   2.85.
+05 10 58 15 CDR        My PRD now reads                   2.85.
 05 10 58 21 CC          2.85.
 05 11 33 39 CC          Apollo         8, Houston.               Radio               check.        Over.
 05 11 33 45 IXP     This      is 8.          Loud and clear.                              How us?
@@ -490,17 +490,16 @@ Page 3
 Tape 86
 Page 4
 
-                            Roger.        Stand by.
-05 11 34 12 CBlP   1%~ the only               person         up, and my PRD is reading
-
+05 11 34 03 CMP                        Roger.        Stand by.
+05 11 34 12 CMP   I'm the only               person         up, and my PRD is reading
                             0.15.
 05 11 34 18 CC     Roger.        I understand;                     0.15.
-05 11 34 22 ace    And I'll        bet        that        Bill's       is still          reading       0.64.
+05 11 34 22 CMP    And I'll        bet        that        Bill's       is still          reading       0.64.
 05 11 34 27 CC     That's       okay;         don't        bother          him with       it.       He's
 
                             asleep.
-05 11 34 48 a4P    Okay.        Co ahead with                  your        flight       plan    change.
-05 11 35 11 afP    Houston,        Apollo            8.       Go ahead with              your      flight
+05 11 34 48 CMP    Okay.        Co ahead with                  your        flight       plan    change.
+05 11 35 11 CMP    Houston,        Apollo            8.       Go ahead with              your      flight
 
                             plan      change.
 05 11 35 14 CC      Okay,Jim.             Cn page 2-107,                      we're     recommending
@@ -515,11 +514,11 @@ Page 4
 
                              M that         same page,                we'd      like         to delete      the
 
-                             begin         cabin        cold        ~oak.~           Over.
+                             "begin         cabin        cold        soak."           Over.
 05 11 35 44 CMP    Righto.            Will      delete            the "begin          cabin     cold
 
-                              soak,”       and we'll               delete       the P52.
-05 11 35 49 CC     Okay.         'Ibank you.
+                              soak,"       and we'll               delete       the P52.
+05 11 35 49 CC     Okay.         Thank you.
 
 
 
@@ -534,9 +533,9 @@ Page 1
 
                                                  together               now.
 05 12 05 13 CMP     Roger.
-05 12 06 06 CC      Apollo               8, this         is Eouston.                Would you please
+05 12 06 06 CC      Apollo               8, this         is Houston.                Would you please
 
-                                                 go to PO0 and ACCEPT, Jim,                                  and we'll        send you a
+                                                 go to P00 and ACCEPT, Jim,                                  and we'll        send you a
 
                                                p27.
 05 12 06 27 CMP     We're           ready         for     you.
@@ -616,10 +615,10 @@ Page 3
                        not applicable,                not applicable,                  14445 5799.
 
                        Are you with               me?
-05 12 16 17 CC    1% with             you.
+05 12 16 17 CC    I'm with          you.
 05 12 16 20 CMP   Minus       00014,          plus     all      zeros,      p lus    00001 000 304
 
-                       000, not applicable,                        plus     00191 00014 004 OOOl4
+                       000, not applicable,                        plus     00191 00014 004 00014
 
                        45 0459 225 Shaula,                        up 236 000, plus            0813,
 
@@ -650,10 +649,10 @@ Page 3
                         up 165, right                34 up.           Remarks:           use nonexit      EX
 
                         pattern.             Over.
-05 12 21 09 Right,        Mike.          Stand by.
+05 12 21 09 CMP Right,        Mike.          Stand by.
 05 12 21 13 CMP    Entry       as follows:                   mid-Pacific,           357 152 359
 
-                        146 2913 268, @US 0813, minus 165 03 068 36221
+                        146 2913 268, plus 0813, minus 165 03 068 36221
 
 
 Tape 87
@@ -674,7 +673,7 @@ Page 4
 
                                    to drogue            deploy,       do we?
 05 12 23 19 CC     Roger.          That's         - that's       true.
-05 12 34 41 CC     Apollo         8, Iiouston.          Over.
+05 12 34 41 CC     Apollo         8, Houston.          Over.
 05 12 34 43 cr4P   Go ahead,            Houston.
 05 12 34 45 CC     Roger,         Jim.       In your         computer,       we'd like         to do
 
@@ -686,7 +685,7 @@ Page 4
 
                                    remember you put that                      EI time      for      TIG and got
 
-                                   that      PO0 do thing;             we'd like          to - We don't
+                                   that      P00 do thing;             we'd like          to - We don't
 
                                    think         there's      anything         in the world           wrong with
 
@@ -761,9 +760,8 @@ Page 6
 
                                             HOWLS it        going        up there?
 05 13 07 04 LMP   Real great.
-05 13 07 44 CC    ~~0110      a, Houston.                   How about          giving        us a count-
-
-                                            down to PRD reading.                           Over?
+05 13 07 44 CC    Apollo      8, Houston.                   How about          giving        us a
+                                            countdown to PRD reading.                           Over?
 05 13 07 52 LMP   Just     mine?
 05 13 07 55 CC    Just     on you,          Bill.           We got the other                  two while
 
@@ -806,19 +804,19 @@ Page 7
 Tape 88
 Page 1
 05 13 49 11 CC      Apollo         8, Houston.                Radio           check.            Over.
-05 13 49 16 LM!?    Loud and clear.
+05 13 49 16 LMP    Loud and clear.
 05 13 49 19 CC      Roger.             Thanks,        Bill.
 05 14 36 50 CC      Apollo         a, Houston.
 05 14 37 04 CC      Apollo         8, Houston.                Over.
-05 14 37 26 CC       Apollo        8, this        is Houston.                   Over.                   -
-05 14 37 59 CC       ~~0110 8, this                is t-:>;;tcn.                 Over.
-05 14 38 02 lx?      Roger,        Mike.         How do you read?
+05 14 37 26 CC       Apollo        8, this        is Houston.                   Over.
+05 14 37 59 CC       Apollo 8, this                is Houston.                 Over.
+05 14 38 02 LMP      Roger,        Mike.         How do you read?
 05 14 38 04 CC       I read you loud                  and clear               not,      Bill.           i w.w-n't
 
                             hearing           here     for     a couple              of calls.             Row do you
 
                             read       me?
-05 14 38 09 Im       I had my hands full;                           I was putting                something
+05 14 38 09 LMP       I had my hands full;                           I was putting                something
 
                             aown.             I read you fine.
 05 14 38 20 CC       Okay.         Understand.                 If     it'll          be any help              to you
@@ -847,9 +845,8 @@ Page 1
 Tape 88
 Page 2
 05 14 39 07 CC         Can you see it             all         right?
-05 14 39 09 LMP        Yes,    I think          so.        There's     a star     out there           any-
-
-                                              way.
+05 14 39 09 LMP        Yes,    I think          so.        There's     a star     out there
+                                             anyway.
 05 14 40 58 LMP        Houston,       Apollo          8.       Do you read?
 05 14 40 59 CC         Go ahead,        Bill.
 05 14 41 02 LMP        Actually,        Mike,         it's       so easy to do it            with     the
@@ -858,21 +855,20 @@ Page 2
 
                                               it's    hardly      worth             the trouble      to scootch            way up
 
-                                              in the seat          to look            out the COAS, sr,d it's                enough
+                                              in the seat          to look            out the COAS, and it's                enough
 
                                               light       in the cockpit                where the star          really       isn't
 
                                               too easy to see.                      So I'm kind      of inclined            to use
 
-                                              the 'IFB technique                    here where you can see the                     rest
+                                              the OFR technique                    here where you can see the                     rest
 
                                               of the instrument                     panel.
-05 14 41 27 CC         Ql=Y.
+05 14 41 27 CC         Okay.
 05 14 41 41 LMP        I thought        you were an all-weather                     pilot.
 05 14 41 44 CC         Well    now, you just                  caused Flight       down here           to
-
-                                              get a nGot Yan on CAP COMMand FAO.
-05 14 41 59 I.&P       Give you a little                     yarning   next     time.
+                                              get a "Got Ya" on CAP COMM and FAO.
+05 14 41 59 LMP       Give you a little                     warning   next     time.
 
 
 
@@ -881,7 +877,7 @@ Tape 89
 Page 1
 05 15 07 08 CC       Apollo      8, Houston.                   Could you give             us a better
 
-                                        0MN1, please?
+                                        OMN1, please?
 05 15 07 26 CC      Apollo       8, Houston.                  We will    be changing                 the
 
                                         antennas        in 3 minutes.                  You can expect                a
@@ -1017,7 +1013,7 @@ Page 1
 05 18 19 59 CC     Yes,      that's         what I figured.
 05 18 21 28 CC     Apollo          8, Houston.             We will           be changing        antennas
 
-                                           in about           2-l/2     minutes;            you can expect           a COMM
+                                           in about           2-1/2     minutes;            you can expect           a COMM
 
                                            glitch.
 05 18 21 36 LMP    Roger.           What are you changing                       to?
@@ -1029,7 +1025,7 @@ Page 1
 05 19 08 24 LMP    Go ahead,             Houston.
 05 19 08 26 CC     Roger,          Apollo      8.        Ycur Green Team will                be signing
 
-                                           off       in a few minutes,                 and beEore             we do, Charlesworth
+                                           off       in a few minutes,                 and before             we do, Charlesworth
 
                                            and the rest               of us would             like      to say we have
 
@@ -1042,29 +1038,23 @@ Page 1
 
 Tape 91
 Page 2
-05 19 08 45 Well,     nice        words there.                 We will
-                                                                                                         
-
-                                                                                                 be seeing        you,
-
+05 19 08 45 CC Well,     nice        words there. We will be seeing you,
                                  Bill.
-05 19 08 47 Okay, Mike.              We will          see you,         Buddy.        Tell    old
+05 19 08 47 LMP Okay, Mike.              We will          see you,         Buddy.        Tell    old
 
                                  Cliff     adios         for     me, too.
-05 19 08 57 Sure will.
-05 19 19 04 Apollo          8, Houston.
-05 19 19 11 Go ahead,            Houston.
-05 19 19 13 Apollo          8, we'd        like     to have you,            before      you get
+05 19 08 57 CC Sure will.
+05 19 19 04 CC Apollo          8, Houston.
+05 19 19 11 LMP Go ahead,            Houston.
+05 19 19 13 CC Apollo          8, we'd        like     to have you,            before      you get
 
-                                 in a P52 going                 here,      we'd      like      to have you sear:?
+                                 in a P52 going                 here,      we'd      like      to have you rezero
 
-                                 the optics             and read us the mechauicai                        CDli’s.
-                                 We're     trying             to collect        a little          data    for    trm;bfe-
+                                 the optics             and read us the mechanical                        CDU's.
+                                 We're     trying             to collect        a little          data    for    
 
-                                 shooting         .
-
-                                 Roger.           Stand by.
-05 19 19 29 LMP
+                                 trouble shooting.
+05 19 19 29 LMP Roger.           Stand by.
 05 19 19 31 CC    Thank you.
 05 19 19 45 LMP   What's          the trouble            you are trying                to troubleshoot?
 05 19 19 51 CC    This      goes back to some of the                           problems      we had
@@ -1105,11 +1095,11 @@ Page 3
                                      Okay,      stand        by one.
 05 19 22 17 CMP       Trunnion             mechanical            CDU looks         like   it's     reading
 
-                                     about     l/100.
+                                     about     1/100.
 05 19 22 25 CC        Roger.
 05 19 22 52 CMP       And the shaft                mechanical              CDU looks      like     it     is reading
 
-                                     about      h/l00        below         zero,      which would be about                    364.
+                                     about      4/100        below         zero,      which would be about                    364.
                                      Yes.
 05 19 23 12 CC        Understand, Jim.  That      is 4/100 below zero     on
                                      that     shaft; is that affirm?                                
@@ -1177,7 +1167,7 @@ Page 5
 
 Tape 92
 Page 1
-05 20 28 11 CDR      Rouston,               Apollo         8.
+05 20 28 11 CDR      Houston,               Apollo         8.
 05 20 28 14 CC      Go ahead.
 05 20 28 17 CDR      Ken, on this                   maneuver,           MC 7, are you going                                           to -
 
@@ -1192,8 +1182,8 @@ Page 1
 
                                            a maneuver                   burn     at all.
 05 20 28 46 CDR      You say we may not even have another                                                        one now?
-05 20 28 48 CC       *t's                right.
-05 20 29 04 CDR      okay.               You're          the boss.
+05 20 28 48 CC       That's                right.
+05 20 29 04 CDR      Okay.               You're          the boss.
 05 20 31 03 CC       Apollo              8, Houston.
 05 20 32 57 CC      Apollo               8, Houston.
 05 20 33 11 CC       Apollo              8, Houston.              Could           YOUtry another                           OMNI?
@@ -1202,11 +1192,11 @@ Page 1
                                                                                                                                                         .
 05 20 35 47 CC       Apollo              8, Houston.
 05 20 35 50 CDR      Go ahead,                Houston.           Apollo            8.
-05 20 35 52 CC       okay.               Read you loud               and clear                     now.          Just      wanted
+05 20 35 52 CC       Okay.               Read you loud               and clear                     now.          Just      wanted
 
                                            to remind                you that           in the event                       of a loss              of
 
-                                           COMM, ve don't                       want you to burn KC                                 7.         Your
+                                           COMM, we don't                       want you to burn KC                                 7.         Your
 
                                            present              entry          PAD is good.                 We'll               be updating
 
@@ -1236,8 +1226,7 @@ Page 2
                           starting           the       initial          stowage,          and we all        feel     very
 
                           Well.
-05 20 37 12 CC   Okay.                                                                                              I
-                                                                                                                            ‘,
+05 20 37 12 CC   Okay.
 05 20 37 17 CC    Okay.         And we'd            like        to - guess we need a PRD
 
                           reading        from you.                 And we'll           be needing          one in
@@ -1268,11 +1257,9 @@ Page 1
 05 21 34 29 CDR          Roger.
 05 21 41 31 CC            Apollo       8, Houston.
 05 21 41 34 CDR           Go ahead,           Houston.                Apollo        8.
-05 21 41 37 CC            okay.        I've        got some weather                      and recovery               force
-
-                                                       status       ma a couple of last                           minute          items        to run
-
-                                                       a0m any time it is convenient                                     for      you.
+05 21 41 37 CC            Okay.        I've        got some weather                      and recovery               force
+                                                       status       and a couple of last minute items to run
+                                                       down any time it is convenient for      you.
 05 21 41 47 CDR           Alright.            It's      convenient               right        now,        any     time.
 05 21 41 50 CC            okay.        For the mid-Pacific,                          the general                 condition
 
@@ -1282,7 +1269,7 @@ Page 1
 
                                                        wave heights                4 feet,          altimeter            2974.           Sunrise
 
-                                                       will       be 17:lO          Zulu,          and first            light      16:49 Zulu.
+                                                       will       be 17:10          Zulu,          and first            light      16:49 Zulu.
                                                        The recovery                forces:            ship       will      be Yorktown;                the
 
                                                        aircraft          will       be Airboss               number 1 and 2, and
@@ -1321,7 +1308,7 @@ Page 2
 05 21 44 32 ODR   Thank you.
 05 21 44 38 ODR   Would        you say again                the daylight             time,        please,
                   sunrise, and first light.
-05 21 44 44 CC    Okay. Sunrise is 17:lO        Zulu,     and first              light
+05 21 44 44 CC    Okay. Sunrise is 17:10        Zulu,     and first              light
                   is 16:49 Zulu.
 05 21 45 01 CDR   Thank you.
 05 21 46 05 CC    okay.              Looking         over     the weather            I gave you was -
@@ -1382,7 +1369,6 @@ Page 3
 
                                         got.
 05 21 48 52 CDR     Just      a minute,              I'll       give    you that;  I forgot.   Bill
-                                                                                                                __   .---
                                          Anders got about 5 hours,                            and Jim Love11 got abo&
 
 
@@ -1391,7 +1377,7 @@ Page 3
 
                                         with      the mockup on the preentry                               preparations,                          and
 
-                         ve noticed          that         in the LMP's              checklist
+                         we noticed          that         in the LMP's              checklist
 
 Tape 93
 Page 4
@@ -1404,7 +1390,7 @@ Page 4
 05 21 49 47 CDR    Roger.          That's      what we do.
 05 21 49 51 CC    Okay.       And on - go ahead.
 05 21 50 01 CDR   Go ahead.           We agree             that's      what we do.
-05 21 50 04 CC    okay.       On page E-7 of the                      entry      checklist         and under
+05 21 50 04 CC    Okay.       On page E-7 of the                      entry      checklist         and under
 
                          step     34, as long               as you have panel                382 open,          that's
 
@@ -1420,33 +1406,20 @@ Page 4
 
                          ready      to transfer              the RCS to the               command module
 
-                         position,          if     ycu want to avoid                   having      the engines
+                         position,          if     you want to avoid                   having      the engines
 
                          fire     as a result               of attitude             correction,          you might
 
                          want to take              the manual attitude                    switches        to
 
-                         ACCF.L COIMMAND MINIMAL LMPULSE.
-                                       or                                                       And again       on
-
+                         ACCEL COMMAND or MINIMAL IMPULSE. And again       on
                          E-9 Alfa          at step          41 Bravo,          if    you want to go back
 
                          to attitude              hold,      bring         your manual attitude
-05 21 51 13 CDR
-                          switches
-
-                         What was that
-                                          back to RATE.
-
-                                                     last        step?
-05 21 51 15 CC     Step     41 Bravo on page-E-9                      Alfa.        It's      if   j";     Iz._iA-
-
-                          to use either              MINIMAL LMPULSE or ACCEL COMIGXND
-                                                                                     of
-
-
-
-                                        
+                         switches back to RATE.
+05 21 51 13 CDR  What was that last        step?
+05 21 51 15 CC     Step     41 Bravo on page-E-9                      Alfa.        It's      if   you decide
+                          to use either              MINIMAL IMPULSE or ACCEL COMMAND of
 
 Tape 93
 Page 5           
@@ -1460,8 +1433,8 @@ Page 5
 
                                         whta we did,               used MJMMJM LMPULSE.
 05 21 51 47 CC    okay.          Real       fine.
-05 22 00 51 CDR   Houston,          Apll0           a.
-05 22 00 54 CC    GO ahead,            a.
+05 22 00 51 CDR   Houston,          Apollo           8.
+05 22 00 54 CC    Go ahead,            8.
 05 22 01 07 CC    Apollo         8, Apollo           8.      CO ahead.
 05 22 01 11 CDR   I'd     like      to confirm             one item        on the PAD message,
 
@@ -1522,7 +1495,7 @@ Page 6
                                          optional           test.          Over.
 05 22 21 16 CDR    That's       vhat       we thought,                 Ken.         Gosh, if         that's
 
-                                         been vorking               perfectly            for    6 days,                I don%       see
+                                         been working               perfectly            for    6 days,                I don't       see
 
                                           any reason           to     test      it.
 05 22 21 24 CC     I agree.
@@ -1696,7 +1669,7 @@ Page 4
 05 23 19 08 CC    Yes,         sir.                            .
 05 23 20 06 CC    Apollo          a,    Houston.
 05 23 20 09 LMP   Go ahead,             Houston.
-05 23 20 11 CC    Okay, Apollo                     a.         We would like            to update              your         L&l
+05 23 20 11 CC    Okay, Apollo                     8.         We would like            to update              your         LM
 
                                    state         vector,                 CSM state        vector,         and target                 point.
 
@@ -1742,17 +1715,17 @@ Page 5
 
                               Sirius,         secondary           Rigel,     roll     308, pitch     209,
 
-                              yaw 357; this               entry     will     not involve      ~65.     Over.
-05 23 40 25 CMP       Houston,          Apollo      8.      Entry     PAD as follows:          mid-
+                              yaw 357; this               entry     will     not involve      P65.     Over.
+05 23 40 25 CMP       Houston,          Apollo      8.      Entry     PAD as follows:          
 
-                              Pacific,          357 152 359 146 2930 269                   plus 0613 minus
-                          .   16503 ~65 36221 645 12122 36301 14646 14 0028,
+                              mid-Pacific,          357 152 359 146 2930 269                   plus 0613 minus
+                          .   16503 065 36221 645 12122 36301 14646 14 0028,
 
                               next      block     not applicable,               400 0212 0025 0334
 
                               0814 16059 312, Zeta Persei,                           up 165, right      35 up,
 
-                              -use nonexit          ENS pattern,             backup     alignment;      Sirius,
+                              use nonexit          ENS pattern,             backup     alignment;      Sirius,
 
                               Rigel,      roll      308, pitch             209, yaw 357, and ue won't
 
@@ -1791,7 +1764,7 @@ Page 6
 06 00 01 10 CC     Jim,     did you mean you could                            visually          see it?
 06 00 01 14 CMP    Yes, we're          - oh, stand by,                    Ken.         Bill      just     dumped
 
-                          urine,      so that           might        have been urine                   ve were seeing.
+                          urine,      so that           might        have been urine                   we were seeing.
 06 00 01 45 CMP    Bill     just     shut the potable                     inlet,         Ken.
 06 00 01 48 CC     Okay.       Thank you.
 06 00 04 44 Houston,         Apollo        8.
@@ -1903,22 +1876,19 @@ Page 2
 06 00 57 00 CC    Apollo         8, Apollo            8, go ahead.
 06 00 57 05 LMP   Roger.          We have completed                the checklist           down to
 
-                            the    l-hour       point,           and we'll        stand    by for      1 hour.
+                            the    1-hour       point,           and we'll        stand    by for      1 hour.
 06 00 57 14 CC    Roger.
 06 00 57 44 CC    Apollo         8, Apollo            8, Houston.
 06 00 57 49 CDR   Go ahead,         Houston.
 06 00 57 52 CC    Just     for     information,               did you folks        end up having
 
                             to use any command module RCS heaters?
-06 00 57 59 CDR   Negative.           All           our indicators           are pegged      either     iv, 9)   1”
-                                                                                                                     /     i
+06 00 57 59 CDR   Negative.           All           our indicators           are pegged      either 
                             high     or at 5 volt.
-                                                                                                                                .
-06 00 58 06 CC    okays          Thank you.
+06 00 58 06 CC    Okay.          Thank you.
 06 00 58 28 CT    Carnarvon,          network              GOSS conference        voice      check.
-                                                                     .1_7
                             How do you read?
-06 00 58 36 CT    Betwork,         Carnarvon.                Read you weak but            clear.
+06 00 58 36 CT    Network,         Carnarvon.                Read you weak but            clear.
 06 00 58 41 CT    Roger,         Carnarvon.                I read you loud        and clear.
 06 00 58 44 CT    You are loud                 and clear       new.      Thank you.
 06 00 58 57 CC    Apollo         8, Houston.                Stand by for        hand over          to
@@ -1973,7 +1943,7 @@ Page 3
 
                                                EMS pattern;              Sirius        and Rigel,         roll      308, pitch          209,
 
-                                               yaw 357, no ~65 involved.                          Over.
+                                               yaw 357, no P65 involved.                          Over.
 06 01 14 11 CMP   Roger,      Houston.           Rntry        PAD as follows:                   mid-Pacific,
 
                                                357 152 359 146 2913 267, plus                             0813, minus 16503
@@ -1985,7 +1955,7 @@ Page 4
                                                0210 0025 0335 0816 160590 312, Zeta Persei,
                              up 165, right                34, up.        Use nonexit               EMS pattern;
 
-                             Sirius,        Rigel,           308, 209, 357, no ~65.
+                             Sirius,        Rigel,           308, 209, 357, no P65.
 06 01 15 11 CC     That's        correct,           Apollo        8.
 06 01 15 46 CC     Apollo        8, Houston.               You are clear             to initiate
 
@@ -2109,10 +2079,9 @@ Tape 96
 Page 1
 06 02 26 54 CMP     Houston,      Apollo      8.         Confirm            GO for         PYRO ARM.
 06 02 26 57 CC     Apollo     8, Apollo       8, Houston.                      You are GO for
-
-                                         Em0 ARM.
+                                         PYRO ARM.
                                                                                                                                                   I
-06 02 27 13 CC     Apollo     8, Apollo       8.             You we          GO for        PYRC ARM.
+06 02 27 13 CC     Apollo     8, Apollo       8.             You we          GO for        PYRO ARM.
 
                                          Everything       is looking                good.
 06 02 27 18 LMP    Roger.       Everything              is looking             good here,               Ken.
@@ -2151,13 +2120,12 @@ Page 2
 06 02 45 20 CDR      Roger.
 06 02 48 44 CDR      Good point too.
 06 02 49 15 CC       Apollo        8, Houston.                  Radio       check.
-06 02 49 43 CC       Apollo        8, Houston through                       Hunt
-                                                                                                  A--=-                     Over-
+06 02 49 43 CC       Apollo        8, Houston through                       Huntsville. Over.
 06 02 51 32 CC       Apollo        8, Apollo           8, this            is Houston             through
 
-                                            ARIA.         say again,              8.
+                                            ARIA.         Say again,              8.
 06 02 51 47 CDR      Houston,           Apollo        8.        Over.
-06 02 51 50 CC       Co ahead,           Apollo        8.        Read you broken                      and loud.
+06 02 51 50 CC       Go ahead,           Apollo        8.        Read you broken                      and loud.
 
 06 02 51 51 CDR      We've got a real                  fireball.                  It's     'looking       good.
 06 02 51 56 CC       Outstanding!
