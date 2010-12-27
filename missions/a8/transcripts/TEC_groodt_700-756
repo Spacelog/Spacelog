@@ -927,48 +927,47 @@ Page 5
 05 21 51 35    CC             Okay, fine. And - -
 05 21 51 39    CDR            I didn't put all those control configurations
                               changes on the checklist, but that's exactly
-                              whta we did, used MJMMJM LMPULSE.
+                              what we did, used MINIMUM IMPULSE.
 05 21 51 47    CC             okay. Real fine.
 05 22 00 51    CDR            Houston, Apollo 8.
 05 22 00 54    CC             Go ahead, 8.
-05 22 01 07    CC             Apollo 8, Apollo 8. CO ahead.
+05 22 01 07    CC             Apollo 8, Apollo 8. Go ahead.
 05 22 01 11    CDR            I'd like to confirm one item on the PAD message,
                               please.
 05 22 01 15    CC             Roger.
 05 22 01 17    CDR            Time to retro-drogues, reference you last time
                               to drogues, please.
 05 22 01 28    CC             Okay. 1'11 check that one out.
-05 22 01 31    CDR            And also, Ken, we are going to turn on our VHP
-                              now ) about k hours before entry.
-05 22 01 37    CC             Real fine. Thank you. 1'11 let you know when
+05 22 01 31    CDR            And also, Ken, we are going to turn on our VHF
+                              now, about 4 hours before entry.
+05 22 01 37    CC             Real fine. Thank you. I'11 let you know when
                               we pick it up.
 05 22 01 41    CDR            A Simplex.
 05 22 01 42    CC             Affirm.
-05 22 17 33    CC             Apollo a, Houston.
+05 22 17 33    CC             Apollo 8, Houston.
 05 22 17 35    CDR            Go ahead, Houston.
 05 22 17 37    CC             Okay. We have checked into your drogue time,
                               and the number of 08:16 on your entry PAD is
-                              correct. lie'11 be giving you an updated
 Tape 93 
 Page 6 
-                              entry
+                              correct. We'11 be giving you an updated entry
                               PAD on the scheduled time of 143:30. At the same
                               time, ve'll be giving you an update of your state
-                              vectors for the IM and CSM. The midcourse correc-
-                              tion number 7 was less than seven-tenths foot per
+                              vectors for the LM and CSM. The midcourse 
+                              correction number 7 was less than seven-tenths foot per
                               second, and we will not execute it. You have a
                               P52 scheduled at 143:30 which is not required.
                               It's your option. However, if you decide to delete
                               the P52, the CMC self-check and DSKY condition
                               light test are still requirements. Over.
  . 
-05 22 18 32    CDR            what do you mean, they are still requirements?
+05 22 18 32    CDR            What do you mean, they are still requirements?
                               We weren't planning to do the CMC self-test.
 05 22 20 53    CDR            On that DSKY check . ..
 05 22 21 07    CC             Apollo 8, Houston. That's my mistake on CMC
                               self-check and DSKY condition light. That's an
                               optional test. Over.
-05 22 21 16    CDR            That's vhat we thought, Ken. Gosh, if that's
+05 22 21 16    CDR            That's what we thought, Ken. Gosh, if that's
                               been working perfectly for 6 days, I don't see
                               any reason to test it.
 05 22 21 24    CC             I agree.
@@ -978,15 +977,15 @@ Page 6
 05 22 21 44    CMP            Good.
 Tape 94 
 Page 1 
-05 22 51 28    LMP            Houston, Apollo a. Over.
-05 22 51 31    CC             Go ahead, Apollo a.
-05 22 51 45    CC             Apollo a, go ahead.
+05 22 51 28    LMP            Houston, Apollo 8. Over.
+05 22 51 31    CC             Go ahead, Apollo 8.
+05 22 51 45    CC             Apollo 8, go ahead.
 05 22 51 49    LMP            I am just - It is my understanding that we are to
-                              bring up the secondary loop at 1 hour prior to SE?,
+                              bring up the secondary loop at 1 hour prior to SEP,
                               isn't that right?
 05 22 51 54    CC             That is affirmative, about page Echo 9.
 05 22 52 10    LMP            Okay.
-05 22 52 16    CC             And Bill, . . . suggested if we have the water
+05 22 52 16    CC             And Bill, ... suggested if we have the water
                               boiler going on the primary loop, that you - you
                               might wait about 5 minutes or so before you initiate
                               the secondary loop.
@@ -996,8 +995,8 @@ Page 1
                               give you a check to see if it had a chance to dry
                               out or not.
 05 22 53 04    LMP            Oh, I am with you. Okay.
-05 22 53 09    CC             And for your information, we already have a ,..*Z
-                              dovrilink. It's poor quality, but we do have
+05 22 53 09    CC             And for your information, we already have a VHF
+                              downlink. It's poor quality, but we do have
                               contact.
 05 22 53 22    LMP            Okay. We haven't turned anything over to VHF yet.
 05 22 53 25    CC             Okay.
@@ -1007,18 +1006,18 @@ Page 1
 Tape 94 
 Page 2 
 05 22 53 36    LMP            Roger.
-05 22 56 59    CDR            Houston, Apollo a. Over.
-05 22 57 01    CC             GO ahead, Apbllo 8.
+05 22 56 59    CDR            Houston, Apollo 8. Over.
+05 22 57 01    CC             Go ahead, Apollo 8.
 05 22 57 14    CC             Apollo 8, Houston. Go ahead.
 05 22 57 17    LMP            Ken, we got two things going here which make this
                               suit heat exchanger flow a little different. One
                               of them is we are not doing a coldsoak, and the
-                              other one is we are powering down thz secondary
-                              loop prior to SEP. An; I wonder if it is a good
+                              other one is we are powering down the secondary
+                              loop prior to SEP. And I wonder if it is a good
                               idea to have the suit heat exchanger only on a
- . secondary loop in that case. And plus the fact 
+                              secondary loop in that case. And plus the fact 
                               that we haven't got any cabin heat exchanger.
-05 22 57 45    CC             I dm't think that vas the intent, Bill. What
+05 22 57 45    CC             I don't think that vas the intent, Bill. What
                               they had in mind, we have the suit heat exchanger
                               on both loops; and if they got too cold, you could
                               use the panel switching to shut down the primary .
@@ -1027,7 +1026,7 @@ Page 2
                               heat exchanger. I recognize that we are going to
                               be shutting down the secondary heat exchanger
                               pre-SEP and then turning it back on prior to entry,
-                              but the idea was to have both primary- and secondary
+                              but the idea was to have both primary and secondary
                               loops on the suit heat exchanger simultaneously.
 05 22 58 24    LMP            Yes, my checklist doesn't reflect that. I think
                               that's a good idea because we are a little suspect
@@ -1035,37 +1034,29 @@ Page 2
 Tape 94 
 Page 3 
 05 22 58 31    CC             Roger.
-05 23 01 54    LMP            Houston, Apollo 8. .Over.
-05 23 01 58    CC             00 ahead, a.
-05 23 02 08    CC             Apollo 8, Apollo 8. Co ahead.
+05 23 01 54    LMP            Houston, Apollo 8. Over.
+05 23 01 58    CC             Go ahead, 8.
+05 23 02 08    CC             Apollo 8, Apollo 8. Go ahead.
 05 23 02 12    LMP            Roger. What's Rod's estimate of our postseparation
                               main bus voltage?
-05 23 12 41    CC             Apollo a, Houston. We will be making a handover
-                              frorr, Carnarvon to Honeysuckle at 15.
+05 23 12 41    CC             Apollo 8, Houston. We will be making a handover
+                              from, Carnarvon to Honeysuckle at 15.
 05 23 12 50    CDR            Roger.
 05 23 16 16    LMP            Houston, Apollo 8. Over.
 05 23 16 19    CC             Apollo 8, go ahead.
-05 23 16 24    LMP            I am still
-                              activating
-                              a little
-                              the secondary
-                              bit confused
-                              loop.
-                              on that
-                              You indicated
- - on this 
-                              in-
-                              activating it at 1 hour or 5 minutes after the
+05 23 16 24    LMP            I am still a little bit confused on that- on this
+                              activating the secondary loop. You indicated
+                              inactivating it at 1 hour or 5 minutes after the
                               primary evaporator comes on the line. My checklist
                               shows that the primary evaporator probably won't
                               come on the line until we bypass the radiators.
                               Have you got something else in mind I don't
-                              IUDW about?
+                              know about?
 05 23 16 56    CC             Okay, Bill. We passed up an update some time back
                               on page E-9 step 38 right at the beginning, and
                               you have got a final GET drift check. And between
                               there and the step 39 where it says terminate CM
-                              RCS preheat, that was the place WC wanted to activate
+                              RCS preheat, that was the place we wanted to activate
                               the primary loop by putting the glycol evaporator
                               water switch to AUTO and the glycol evaporator
                               steam pressure to AUTO.
@@ -1077,11 +1068,11 @@ Page 4
                               sometime, and we anticipate that it will be warm
                               enough to make it boil. That is the reason it's
                               suggested if it is boiling, that you wait. If it
-                              isn't , go ahead and turn on the secondary loop.
+                              isn't, go ahead and turn on the secondary loop.
 05 23 18 04    LMP            Okay. Well, that's where I was confused. I am
                               waking up. Thank you.
-05 23 19 08    CC             Yes, sir. .
-05 23 20 06    CC             Apollo a, Houston.
+05 23 19 08    CC             Yes, sir.
+05 23 20 06    CC             Apollo 8, Houston.
 05 23 20 09    LMP            Go ahead, Houston.
 05 23 20 11    CC             Okay, Apollo 8. We would like to update your LM
                               state vector, CSM state vector, and target point.
@@ -1091,12 +1082,11 @@ Page 4
 05 23 29 20    CC             Apollo 8, Houston.
 05 23 29 22    CDR            Go ahead, Houston. Apollo 8.
 05 23 29 25    CC             Okay. The loads are in and verified, and the
-                              computer'is yours.
-05 23 29 29    LMP            Okay. .
+                              computer is yours.
+05 23 29 29    LMP            Okay.
 05 23 29 30    CC             You can take it back to BLOCK, and for Bill's
                               information, latest guess from the main bus post-SEP
                               voltage to 27.5
-                              f
 05 23 29 41    LMP            Guess! You mean the EECOM's are guessing? !
 Tape 94 
 Page 5 
@@ -1118,12 +1108,13 @@ Page 5
                               Sirius, secondary Rigel, roll 308, pitch 209,
                               yaw 357; this entry will not involve P65. Over.
 05 23 40 25    CMP            Houston, Apollo 8. Entry PAD as follows:
-                              mid-Pacific, 357 152 359 146 2930 269 plus 0613 minus
- . 16503 065 36221 645 12122 36301 14646 14 0028, 
+                              mid-Pacific, 357 152 359 146 2930 269 plus 0813 minus
+                              16503 065 36221 645 12122 36301 14646 14 0028, 
                               next block not applicable, 400 0212 0025 0334
                               0814 16059 312, Zeta Persei, up 165, right 35 up,
-                              use nonexit ENS pattern, backup alignment; Sirius,
-                              Rigel, roll 308, pitch 209, yaw 357, and ue won't
+                              use nonexit EMS pattern, backup alignment; Sirius,
+                              Rigel, roll 308, pitch 209, yaw 357, and we won't
+                              need P65.
 Tape 94 
 Page 6 
 05 23 41 37    CC             Okay, Apollo 8. I would like to verify sextant
@@ -1149,20 +1140,20 @@ Page 6
                               urine, so that might have been urine we were seeing.
 06 00 01 45    CMP            Bill just shut the potable inlet, Ken.
 06 00 01 48    CC             Okay. Thank you.
-06 00 04 44 Houston, Apollo 8. 
+06 00 04 44    CMP            Houston, Apollo 8. 
 06 00 04 47    CC             Go ahead, 8.
 06 00 04 58    CC             Apollo 8, Apollo 8, go ahead.
 Tape 94 
 Page 7 
-06 00 05 01    CMP            Roger, Houston. We're still showing about 52 per-
-                              cent, and we bad our switch on waste so we don't
+06 00 05 01    CMP            Roger, Houston. We're still showing about 52 
+                              percent, and we had our switch on waste so we don't
                               know whether it dropped from a higher value or not.
                               Has yours been stabilized now?
 06 00 05 15    CC             That's affirmative; ours has stabilized now. It
                               was reading full just a few minutes ago.
 06 00 05 25    CMP            Roger. I don't think - we can't account for any
                               sudden drop in water.
-06 00 05 31    CC             Okay. We looked i.n the malfunction procedures, and
+06 00 05 31    CC             Okay. We looked in the malfunction procedures, and
                               number 28 doesn't reveal anything very startling.
 06 00 05 42    CMP            Bill is looking there now.
 06 00 08 53    LMP            Houston, Apollo 8. Over.
@@ -1171,14 +1162,14 @@ Page 7
                               you to box 6, but I don't really think that's the
                               problem because the waste tank quantity hasn't
                               changed any. Over.
-06 00 09 11    CC             Okay. I concur. We're vatching the ssme thing.
+06 00 09 11    CC             Okay. I concur. We're watching the same thing.
 06 00 09 15    LMP            Look, we don't care about the potable tank, but
                               we do about the waste tank, so just in case there
-                              is a problem scmewhere, I'm going to shut the potable
+                              is a problem somewhere, I'm going to shut the potable
                               tank off and leave the waste tank inlet valve open.
                               How does that sound to you?
-06 00 09 29    CC             Stand by-. Okay, 8. We concur.
-06 00 09 37    LMP            If I see any vater floating around, I'll give you
+06 00 09 29    CC             Stand by. Okay, 8. We concur.
+06 00 09 37    LMP            If I see any water floating around, I'll give you
                               another call.
 Tape 94 
 Page 8 
@@ -1186,7 +1177,7 @@ Page 8
 06 00 18 30    CC             Apollo 8, Houston. Radio check.
 06 00 18 47    CC             Apollo 8, Apollo 8. Radio check.
 06 00 18 51    CMP            Read you loud and clear.
-06 00 18 53    CC             Roger. We had a momentary loss of CCMMon the
+06 00 18 53    CC             Roger. We had a momentary loss of COMM on the
                               ground then. Read you loud and clear.
 Tape 95 
 Page 1 
@@ -1210,9 +1201,8 @@ Page 1
                               angles now?
 06 00 32 03    CDR            Houston, how do you read? Apollo 8.
 06 00 32 06    CC             Read you loud and clear, Apollo 8, and we're
-                              I
-                              checking on the FTC problem now.
-06 00 32 19    CC             Apollo 8: Houston. You are cleared with entry
+                              checking on the PTC problem now.
+06 00 32 19    CC             Apollo 8, Houston. You are cleared with entry
                               attitude at this time.
 06 00 32 23    CDR            Okay. Fine. Thank you.
 06 00 46 22    CC             Houston voice. Go to voice 925.
@@ -1235,16 +1225,15 @@ Page 2
                               How do you read?
 06 00 58 36    CT             Network, Carnarvon. Read you weak but clear.
 06 00 58 41    CT             Roger, Carnarvon. I read you loud and clear.
-06 00 58 44    CT             You are loud and clear new. Thank you.
+06 00 58 44    CT             You are loud and clear now. Thank you.
 06 00 58 57    CC             Apollo 8, Houston. Stand by for hand over to
                               Carnarvon.
 06 00 59 02    CDR            Roger.
 06 01 02 05    CC             Apollo 8, Houston.
- . 
 06 01 02 09    CDR            Go ahead.
 06 01 02 16    CMP            Go ahead, Houston.
 06 01 02 19    CC             Okay, Apollo 8. If you will go to P00 and ACCEPT,
-                              we would like to update your LM and CSX state
+                              we would like to update your LM and CSM state
                               vectors. Over.
 Tape 95 
 Page 3 
@@ -1260,7 +1249,7 @@ Page 3
 06 01 11 00    CC             Okay. Two fast items: number one, it has been
                               suggested that since Marezine takes some time to
                               take effect, you might consider whether you would
-                              be interested in taking some.now. And I have an
+                              be interested in taking some now. And I have an
                               entry PAD which has some very small updates to
                               go on it if you would like to copy that.
 06 01 11 22    CDR            Okay. Stand by. Let me get out the entry PAD.
@@ -1268,11 +1257,11 @@ Page 3
 06 01 11 42    CC             Okay. We are still going to the mid-Pacific,
                               357 152 359 146 2913 267, plus 0813, minus 16503
                               066 36221 647 12166 36301 14646 13 0028, the next
-                              block is November Alfa, V. 400 0210 0025 0335 0816
-                              160590 312; Zeta Persei, up 165, right 34, up nonrxit
+                              block is November Alfa, V0 400 0210 0025 0335 0816
+                              160590 312; Zeta Persei, up 165, right 34, up nonexit
                               EMS pattern; Sirius and Rigel, roll 308, pitch 209,
                               yaw 357, no P65 involved. Over.
-06 01 14 11    CMP            Roger, Houston. Rntry PAD as follows: mid-Pacific,
+06 01 14 11    CMP            Roger, Houston. Entry PAD as follows: mid-Pacific,
                               357 152 359 146 2913 267, plus 0813, minus 16503
                               066 36221 647 12166 36301 14646 13 0028, NA, 400
 Tape 95 
@@ -1284,12 +1273,12 @@ Page 4
 06 01 15 46    CC             Apollo 8, Houston. You are clear to initiate
                               cabin coldsoak at your discretion. Over.
 06 01 15 52    CMP            Roger, Houston. We're starting that now.
-06 01 19 44 CC . . . your mike is stuck. 
+06 01 19 44    CC             ... your mike is stuck. 
 06 01 19 46    CDR            You have a hot mike, Houston.
 06 01 19 49    CC             Roger.
 06 01 23 13    LMP            Houston, Apollo 8. Over.
 06 01 23 17    CC             Go ahead, 8.
-06 01 23 19    LMP            okay. It doesn't appear that we are going to
+06 01 23 19    LMP            Okay. It doesn't appear that we are going to
                               be able to trigger the primary evaps, so I'm
                               going to go ahead and start up the secondary loop.
 06 01 23 34    CC             Okay, Apollo 8. We concur.
@@ -1297,8 +1286,8 @@ Page 4
 06 01 26 46    CC             Go ahead, 8.
 06 01 26 58    CC             Apollo 8, Apollo 8, go ahead.
 06 01 27 01    CDR            Roger. Since we're going as smoothly as we are
-                              here - ve've got good COMM- let's start this
-                              pyre circuit check about 10 minutes early. What
+                              here - we've got good COMM - let's start this
+                              pyro circuit check about 10 minutes early. What
                               do you say?
 06 01 27 25    CC             Apollo 8, Apollo 8. We can conduct the pyro check
                               just any time.
@@ -1310,7 +1299,7 @@ Page 5
 06 01 27 38    CDR            We'll give you a call when we're ready.
 06 01 27 40    CC             Roger.
 06 01 27 58    CDR            Houston, we are ready to proceed with the pyro
-                              circuit check. .
+                              circuit check.
 06 01 28 04    CC             Roger. Go ahead.
 06 01 31 07    CDR            MSFN, are you monitoring the sequential test now?
 06 01 31 15    CDR            Houston, Apollo 8.
@@ -1334,54 +1323,53 @@ Page 5
 06 01 42 06    CC             Roger. I'll give you a count in just a second.
 Tape 95 
 Page 6 
-06 01 42 30    CC             Apollo 8, Houston. Simultaneous VRF and S-band.
+06 01 42 30    CC             Apollo 8, Houston. Simultaneous VHF and S-band.
                               Over.
 06 01 42 37    CDR            Roger. I'm not reading you on VHF.
 06 01 42 40    CC             Roger. Stand by one.
-06 01 43 31    CC             Apollo 8, Houston. Simultaneous VRF and S-ban3.
+06 01 43 31    CC             Apollo 8, Houston. Simultaneous VHF and S-band.
                               Do you verify that you are on the left hand VHF
                               antenna? Over.
 06 01 43 48    LMP            We can verify the antenna, but we can't verify
-                              reading you on S-band or on VI-IF.
+                              reading you on S-band or on VHF.
 06 01 43 54    CC             Okay. We are receiving some downlink, although
                               it is considered to be poor quality.
 06 01 51 34    CC             Apollo 8, Houston. We'd like to try the right
- ?RF antenna, if you have time. 
+                              VHF antenna, if you have time. 
 06 01 51 45    LMP            We're - we're on right, Ken.
-06 01 51 48    CC             okay. This is a simultaneous VRF and S-band
+06 01 51 48    CC             Okay. This is a simultaneous VHF and S-band
                               transmission: one, two, three, four, five. How
                               do you read on VHF? Over.
 06 01 51 59    CDR            Read you loud and clear.
 06 01 52 03    CC             Understand that's on VHF. Is that affirm?
 06 01 52 18    CDR            Houston, this is Apollo 8. I answered your call
-                              oxlvm. Did you receive?
-06 01 52 22    CC             okay. It's not piped back here. MOKR'11 have
+                              on VHF. Did you receive?
+06 01 52 22    CC             Okay. It's not piped back here. MOKR'll have
                               to check and see if they have it on the ground
                               station.
 06 01 52 28    CDR            You were loud and clear, Ken.
-06 01 52 30    CC             Roger. Thank y-ou.
+06 01 52 30    CC             Roger. Thank you.
 Tape 95 
 Page 7 
 06 01 52 37    CC             Okay, Apollo 8. We receive you loud and clear
-                              on VHF through Carnsrvon.
-06 01 52 45 Roger. 
-06 01 57 21 Apollo 8, Houston. Stand by for handover from 
-                              Csxnarvon to Guam on the hour. We should have
+                              on VHF through Carnarvon.
+06 01 52 45    CDR            Roger. 
+06 01 57 21    CC             Apollo 8, Houston. Stand by for handover from 
+                              Carnarvon to Guam on the hour. We should have
                               continuous contact except for the blackout period
                               beginning at 146:51.
-06 01 57 36 Roger. 
+06 01 57 36    CDR            Roger. 
 Tape 96 
 Page 1 
 06 02 26 54    CMP            Houston, Apollo 8. Confirm GO for PYRO ARM.
 06 02 26 57    CC             Apollo 8, Apollo 8, Houston. You are GO for
                               PYRO ARM.
-                              I
-06 02 27 13    CC             Apollo 8, Apollo 8. You we GO for PYRO ARM.
+06 02 27 13    CC             Apollo 8, Apollo 8. You are GO for PYRO ARM.
                               Everything is looking good.
 06 02 27 18    LMP            Roger. Everything is looking good here, Ken.
 06 02 29 10    CC             Apollo 8, Apollo 8. It appears that your primary
                               evaporator may have dried out. If you get a chance,
-                              go ahead and give it a try to reservice.. Over.
+                              go ahead and give it a try to reservice. Over.
 06 02 31 28    CC             Apollo 8, Apollo 8. Ground data indicates the
                               primary evaporator may have dried out. If you
                               have a chance, you might try reservicing. Over.
@@ -1422,13 +1410,13 @@ Page 2
 06 02 54 04    CDR            Stand by.
 06 02 54 08    CMP            Roger. DSKY reading plus four balls 7, plus
                               two balls 812, minus 16522.
-06 02 56 13 CDR . . . This is Apollo 8. Over. 
-06 02 59 53 R3 The spacecraft is down to 1000. 
+06 02 56 13    CDR            ... This is Apollo 8. Over. 
+06 02 59 53    R3             The spacecraft is down to 1000. 
 06 02 59 58    YORK           Be ready for code 3.
-06 03 01 40 R3 Yorktown, Rec 3. At this time, the command module 
+06 03 01 40    R3             Yorktown, Rec 3. At this time, the command module 
                               is in the water. Over.
 Tape 96 
 Page 3 
 06 03 01 44    YORK           Roger.
-06 93 02 03    YORK           Recovery 3 reports splashdown time was 51 and 55
+06 03 02 03    YORK           Recovery 3 reports splashdown time was 51 and 50
                               seconds, and rescue is underway.
