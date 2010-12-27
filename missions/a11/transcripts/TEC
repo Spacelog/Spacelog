@@ -516,7 +516,7 @@ CC: Apollo 11, this is Houston. Go ahead and we'll watch you on TM.
 CDR: Okay. Sequence logic, two of them. Sequence logic 1 and 2 coming up and ON.
 
 [00:01:43:36]
-CC: Apollo 11, this Houston. You are GO for RYRO ARM.
+CC: Apollo 11, this Houston. You are GO for PYRO ARM.
 
 [00:01:43:40]
 CDR: Roger. Thank you.
@@ -630,7 +630,7 @@ CT: Roger, Tananarive. Are you receiving CAP COMM's voice, and are you uplinking
 CT: Negative.
 
 [00:02:10:41]
-CT: Roger. Monitor again and I'll tell CAP C0MM to make one more transmission.
+CT: Roger. Monitor again and I'll tell CAP COMM to make one more transmission.
 
 [00:02:10:51]
 CT: Roger.
@@ -1290,7 +1290,7 @@ CMP: Roger. Go ahead, Houston. Apollo 11.
 CC: Roger. We're going to go ahead and enable the S IVB for the slingshot maneuver. The LOX dump will start about 12 minutes from now. Over.
 
 [00:04:49:49]
-CMP: 0kay, LOX dump about - I guess that'll make it about 01, huh?
+CMP: Okay, LOX dump about - I guess that'll make it about 01, huh?
 
 [00:04:49:57]
 CC: Right. I'll try to give you a little closer update as we approach it.
@@ -1410,10 +1410,10 @@ CC: 11, Houston. We have a recommended configuration for your CRYO switches to e
 SC: ...
 
 [00:05:14:59]
-CC: Okay. You're coming in very weakly there. We're recommending O<sub>2</sub> tank 1 heater OFF, O<sub>2</sub> tank 2 heater to AUTO, O<sub>2</sub> tanks 1 and 2 fans both OFF, H2 tank 1 heaters to AUTO, and H2 tank 1 heaters to AUTO, and H2 tank 2 heaters to OFF. Over.
+CC: Okay. You're coming in very weakly there. We're recommending O<sub>2</sub> tank 1 heater OFF, O<sub>2</sub> tank 2 heater to AUTO, O<sub>2</sub> tanks 1 and 2 fans both OFF, H<sub>2</sub> tank 1 heaters to AUTO, and H<sub>2</sub> tank 1 heaters to AUTO, and H<sub>2</sub> tank 2 heaters to OFF. Over.
 
 [00:05:15:33]
-LMP: Roger. We have that except the last one was H2 fans to OFF. Is that affirmative?
+LMP: Roger. We have that except the last one was H<sub>2</sub> fans to OFF. Is that affirmative?
 
 [00:05:15:49]
 CDR: We have - The configuration we have now is - Hydrogen heaters: we got 1 AUTO, 2 OFF. Oxygen heaters: 1 OFF, 2 AUTO. And we have all the fans OFF.
@@ -2853,7 +2853,7 @@ CC: Okay. Beautiful. Did you copy the attitudes for the P52 and the waste-water 
 CMP: Roger. Okay. We note the battery charge as soon as we get around to it, and the attitude for the P52 optics CAL: roll 330.5, pitch 086.3, and yaw all zeros. The attitude for the P23 as in the flight plan is okay; and I copy your battery charge. Crew status report as follows. Sleep CDR 7, CMP 7, LMP 5.5. And we've completed the postsleep checklist. Standing by for a consumable update. Over.
 
 [00:23:00:04]
-CC: Roger. We're requesting a waste-water dump at GET 25 30 down to a nominal 25 percent, and here we go with the consumables update. At GET of 22 hours, RCS total is minus 3.5 percent. Alfa minus 3.5 percent, Bravo minus 1.5 percent, Charlie minus 5.0 percent, minus 4.0 percent, H2 minus 2 pounds, O<sub>2</sub> minus 4 pounds. Over.
+CC: Roger. We're requesting a waste-water dump at GET 25 30 down to a nominal 25 percent, and here we go with the consumables update. At GET of 22 hours, RCS total is minus 3.5 percent. Alfa minus 3.5 percent, Bravo minus 1.5 percent, Charlie minus 5.0 percent, minus 4.0 percent, H<sub>2</sub> minus 2 pounds, O<sub>2</sub> minus 4 pounds. Over.
 
 [00:23:00:59]
 CMP: Okay. Stand by.
@@ -3540,7 +3540,7 @@ CMP: Did you get any usable pictures out of MILA on that first pass?
 CC: Not that we've seen. We had word on the voice loop that MILA reported that they had gotten a minute's worth of TV signal, and Goldstone reported that they had gotten about a minute's worth of modulation but that they weren't able to get anything off of it.
 
 [01:02:55:35]
-CMP: 0kay. Thanks.
+CMP: Okay. Thanks.
 
 [01:02:55:40]
 CC: Okay. We have another input here, 11, that the MILA data was recognizable as a picture, but we don't have any evaluation as to the quality of the picture. Over.
@@ -3602,7 +3602,7 @@ CDR: Okay. Stand by.
 CC: Everything else in the CRYO system remains the same.
 
 [01:03:06:39]
-CDR: 0kay.
+CDR: Okay.
 
 [01:03:06:56]
 CMP: Okay. We have O<sub>2</sub> heater tank 1 off.
@@ -3614,7 +3614,7 @@ CC: Houston. Roger. Out.
 CMP: How is EECOMM today? Is he happy with all those good things?
 
 [01:03:07:14]
-CC: Oh, EECOMM is happy, and after you get PTC set up, we've got a little procedure from EEC0MM here to check out the O<sub>2</sub> flow and the O<sub>2</sub> flow sensor in your cabin enrichment. Over.
+CC: Oh, EECOMM is happy, and after you get PTC set up, we've got a little procedure from EECOMM here to check out the O<sub>2</sub> flow and the O<sub>2</sub> flow sensor in your cabin enrichment. Over.
 
 [01:03:07:29]
 CMP: Okay.
@@ -4131,7 +4131,7 @@ CDR: Ask them if they can read the numbers.
 CC: Okay. Stand by.
 
 [01:06:30:24]
-CC: Goldstone, this is Houston CAP C0MM. Over.
+CC: Goldstone, this is Houston CAP COMM. Over.
 
 [01:06:30:42]
 CT: Houston CAP COMM, Goldstone M&O. Go ahead.
@@ -4267,7 +4267,7 @@ CMP: Yes. I don't know if it's a vibration or what it is, but it makes the pitch
 CC: Roger. Goldstoners say they see you running there, Mike.
 
 [01:06:53:29]
-CMP: 0kay.
+CMP: Okay.
 
 [01:06:53:31]
 CDR: Ask him what he's running from.
@@ -4352,7 +4352,7 @@ CC: I'm not talking to them directly. Stand by, Buzz. Let me see how they descri
 CC: Goldstone M&0, Houston CAP COMM. Could you put the TV guy on the loop, please?
 
 [01:07:00:19]
-CT: CAP C0MM, Goldstone. Roger.
+CT: CAP COMM, Goldstone. Roger.
 
 [01:07:01:01]
 CT: Houston CAP COMM, Goldstone M&0 NET 1.
@@ -4970,7 +4970,7 @@ CMP: He's disappearing up into the tunnel, of course, as he would going into the
 CC: Roger. We 'can see portions of the LEB now. The systems test meter panel, in the lower part of the picture, or we did have it, anyway.
 
 [01:10:16:09]
-CMP: 0kay. And directly behind his head are our optical instruments, the sextant and the telescope that we use to take sightings with.
+CMP: Okay. And directly behind his head are our optical instruments, the sextant and the telescope that we use to take sightings with.
 
 [01:10:16:19]
 CC: Roger. Copy. And we see the DSKY flashing with a 651. In fact, we can read registers 1 and 2 quite clearly.
@@ -5609,7 +5609,7 @@ CC: Roger, Mike. We're working on that one right now. We're coming up with the s
 CMP: Thank you.
 
 [01:12:02:24]
-CC: 11, Houston. We're handing over C0MM to Goldstone. Over. Correction, from Goldstone to Honeysuckle. Over.
+CC: 11, Houston. We're handing over COMM to Goldstone. Over. Correction, from Goldstone to Honeysuckle. Over.
 
 [01:12:02:32]
 CMP: Okay.
@@ -6130,7 +6130,7 @@ CC: Apollo 11, this is Houston. Affirmative. We request hydrogen and an oxygen f
 LMP: Okay. Any preference which first?
 
 [02:04:00:22]
-CC: Negative. As long as you've got the H2 purge line heaters on.
+CC: Negative. As long as you've got the H<sub>2</sub> purge line heaters on.
 
 [02:04:00:29]
 LMP: Okay. I'll go get - Go ahead with the hydrogen then.
@@ -8382,7 +8382,7 @@ CC: I say I have one for you.
 CMP: Okay. We're ready to copy that consumable update.
 
 [02:23:13:59]
-CC: Roger. As of GET 68 00, RCS total minus 4.5 percent, corresponding to approximately minus 53 pounds. Alfa minus 6.0 percent, minus 1.0 percent, minus 7.0 percent, minus 3.0 percent; H2 total, minus 1.2 pounds; O<sub>2</sub> total, plus 10 pounds. Over.
+CC: Roger. As of GET 68 00, RCS total minus 4.5 percent, corresponding to approximately minus 53 pounds. Alfa minus 6.0 percent, minus 1.0 percent, minus 7.0 percent, minus 3.0 percent; H<sub>2</sub> total, minus 1.2 pounds; O<sub>2</sub> total, plus 10 pounds. Over.
 
 [02:23:14:49]
 CMP: Roger. And our readouts on board are Alfa is 82, Bravo is 84, Cocoa is 84, and Delta is 87.
@@ -8391,7 +8391,7 @@ CMP: Roger. And our readouts on board are Alfa is 82, Bravo is 84, Cocoa is 84, 
 CC: Houston. Roger. Out.
 
 [02:23:15:14]
-CMP: And you want us to cycle the O<sub>2</sub> and H2 fans, I imagine?
+CMP: And you want us to cycle the O<sub>2</sub> and H<sub>2</sub> fans, I imagine?
 _page : 198
 _tape : Tape 46/3
 
@@ -10576,7 +10576,7 @@ CDR: Okay. We are on page activation 12 and 13, step 4, and verify descent talkb
 CC: Roger. Stand by.
 
 [03:11:04:13]
-CC: Apollo 11, Houston. We would like you to take the low voltage taps OFF; RESET, then 0N. Over.
+CC: Apollo 11, Houston. We would like you to take the low voltage taps OFF; RESET, then ON. Over.
 
 [03:11:04:22]
 CDR: Stand by. We got it. We just had one circuit breaker out of position.
@@ -10938,7 +10938,7 @@ LMP: Okay. And then the other one is, we're still charging battery A.
 CC: 11, Houston. We would like to delay the fuel cell purge until the backside of the Moon, and you go ahead and - should terminate your battery charge at this time. Over.
 
 [03:12:35:43]
-LMP: Okay. Understand. I knew we had another O<sub>2</sub> and H2 purge coming up in the morning; I wasn't sure whether you wanted to go through with this one or not. I'll wait until the next side and then do it.
+LMP: Okay. Understand. I knew we had another O<sub>2</sub> and H<sub>2</sub> purge coming up in the morning; I wasn't sure whether you wanted to go through with this one or not. I'll wait until the next side and then do it.
 
 [03:12:35:53]
 CC: That's fine, Buzz.
@@ -10950,7 +10950,7 @@ LMP: Terminate battery charging now.
 CC: That's right, and one other systems item here - in order to balance your CRYO tanks, would you get your O<sub>2</sub> tank 1 and your H 2 tank 2 heaters off? Over.
 
 [03:12:36:16]
-CMP: Okay. I have O<sub>2</sub> tank heater 1 off, and H2 tank heater 2 off.
+CMP: Okay. I have O<sub>2</sub> tank heater 1 off, and H<sub>2</sub> tank heater 2 off.
 
 [03:12:36:25]
 CC: That's right, Mike, and we believe you have your quad Bravo and quad Charlie turned off in your DAP at this time, and a 5 degree deadband. We'd prefer a 10 degree deadband for your sleep period overnight here. Over.
@@ -10971,7 +10971,7 @@ _tape : Tape 54/7
 CC: 11, Houston. Roger. That just about takes care of all the items we have here on the ground before time to hit the sack, and I guess you will have a presleep check for us before you go to bed.
 
 [03:12:38:06]
-LMP: Roger. We're in the midst of cycling the O<sub>2</sub> and H2 fans now.
+LMP: Roger. We're in the midst of cycling the O<sub>2</sub> and H<sub>2</sub> fans now.
 
 [03:12:38:11]
 CC: Roger.
@@ -11313,7 +11313,7 @@ CC: Apollo 11, Houston. Readback correct. Your consumables update?
 CMP: Yes. Go ahead.
 
 [03:22:56:37]
-CC: Roger. GET 91 plus 30, minus 7 percent; Alfa minus 8, Bravo minus 2.5, Charlie minus 10, Delta minus 6.5. H2 total, minus 2 pounds; oxygen total, plus 9 pounds. Over.
+CC: Roger. GET 91 plus 30, minus 7 percent; Alfa minus 8, Bravo minus 2.5, Charlie minus 10, Delta minus 6.5. H<sub>2</sub> total, minus 2 pounds; oxygen total, plus 9 pounds. Over.
 
 [03:22:57:18]
 CMP: Okay. Thank you. And on board, we're reading for quad Alfa 75 percent, Bravo 78, Charlie 78, and Delta 77 percent.
@@ -13353,7 +13353,7 @@ CC: Mark.
 CC: 3 30 until ignition.
 
 [04:06:29:38]
-LMP (EAGLE): Roger. Copy. Thrust translation - four jets - Balance couple - ON. TTCA throttle - MINIMUM. Throttle - AUTO CDR. Prop button - RESET. Prop button. Okay. ABORT/ABORT STAGE - RESET. ATT CONTROL - three of them to MODE CONTROL. 0kay, MODE CONTROL is set. AGS is reading 400 plus 1. Standing by for ...
+LMP (EAGLE): Roger. Copy. Thrust translation - four jets - Balance couple - ON. TTCA throttle - MINIMUM. Throttle - AUTO CDR. Prop button - RESET. Prop button. Okay. ABORT/ABORT STAGE - RESET. ATT CONTROL - three of them to MODE CONTROL. Okay, MODE CONTROL is set. AGS is reading 400 plus 1. Standing by for ...
 
 [04:06:30:45]
 LMP (EAGLE): Hit VERB 77?
@@ -15213,7 +15213,7 @@ CMP (COLUMBIA): Affirmative. When's hatch open time in GET estinated?
 CC: Roger. Somewhere around 108 hours. We'll have an update for you on that a little later.
 
 [04:10:53:52]
-CMP (COLUMBIA): 0kay. I haven't heard a word from those guys, and I thought I'd be hearing them through your S band relay.
+CMP (COLUMBIA): Okay. I haven't heard a word from those guys, and I thought I'd be hearing them through your S band relay.
 
 [04:10:53:57]
 CC: Roger. They're on about page Surface 27 in the checklist, proceeding in good time.
@@ -15644,7 +15644,7 @@ LMP (TRANQ): Okay.
 CDR (TRANQ): I'm in A.
 
 [04:12:12:51]
-LMP (TRANQ): 0kay. How do you read me?
+LMP (TRANQ): Okay. How do you read me?
 
 [04:12:12:53]
 CDR (TRANQ): I read you.
@@ -15817,7 +15817,7 @@ LMP (TRANQ): We'll have to pull that one out. ***
 LMP (TRANQ): Now wait a minute.
 
 [04:12:22:54]
-CC: Columbia, this is Houston. Your LM line of sight C0MM acquisition with the Tranquility Base is 108 plus 29. LOS is 108 plus 42. Over.
+CC: Columbia, this is Houston. Your LM line of sight COMM acquisition with the Tranquility Base is 108 plus 29. LOS is 108 plus 42. Over.
 
 [04:12:23:11]
 LMP (TRANQ): Suit circuits relief valve to AUTO.
@@ -16394,7 +16394,7 @@ CDR (TRANQ): I don't guess I hear that.
 CC: Neil, this is Houston. What's your status on hatch opening? Over.
 
 [04:13:06:22]
-CDR (TRANQ): Everything is GO here. Me're just waiting for the cabin pressure to bleed so - to blow enough pressure to open the hatch. It's about 0.1 on our gage now.
+CDR (TRANQ): Everything is GO here. We're just waiting for the cabin pressure to bleed so - to blow enough pressure to open the hatch. It's about 0.1 on our gage now.
 
 [04:13:06:48]
 LMP (TRANQ): Sure hate to tug on that thing. Alternative would be to open *** too.
@@ -16933,7 +16933,7 @@ LMP (EVA): Okay. Now I think I'll do the same ***
 CDR (EVA): A little more. About another inch.
 
 [04:13:43:05]
-CDR (EVA): THERE YOU GOT IT.
+CDR (EVA): There you got it.
 
 [04:13:43:08]
 CDR (EVA): That's a good step. About a 3-footer.
@@ -17689,7 +17689,7 @@ LMP (EVA): Nice paint job.
 LMP (EVA): I get a picture of the plus Y strut taken from near the descent stage, and I think we'll be able to see a little bit better what the thermal effects are. Seem to be quite minimal.
 
 [04:14:48:48]
-LMP (EVA): There's one picture taken in the right rear of the spacecraft looking at the skirt of the descent stage, shows a quite darkening of the surface color, a rather minimal amount of radiating or etching away or erosion of the surface. 0n descent, both of us remarked that we could see a large amount of very fine dust particles moving out. It was reported beforehand that we would probably see an upgassing from the surface after actual engine shutdown, but as I recall, I was unable to confirm that.
+LMP (EVA): There's one picture taken in the right rear of the spacecraft looking at the skirt of the descent stage, shows a quite darkening of the surface color, a rather minimal amount of radiating or etching away or erosion of the surface. On descent, both of us remarked that we could see a large amount of very fine dust particles moving out. It was reported beforehand that we would probably see an upgassing from the surface after actual engine shutdown, but as I recall, I was unable to confirm that.
 
 [04:14:50:26]
 LMP (EVA): This is too big an angle, Neil.
@@ -22709,7 +22709,7 @@ CMP: Okay. VERB 49 maneuver to that attitude is in progress.
 CC: Roger.
 
 [05:16:56:14]
-CDR: Houston, crew status report. Radiation: CDR 11017, CMP 10019,LMP 09020. No medication.
+CDR: Houston, crew status report. Radiation: CDR 11017, CMP 10019, LMP 09020. No medication.
 
 [05:16:56:29]
 CC: Say again, please, Neil. We - you were breaking up. We missed that. Over.
@@ -22986,10 +22986,10 @@ CC: Roger. 88 and 8.5. When you're ready, we've got a small flight plan update f
 LMP: Houston, we're ready to copy.
 
 [06:03:48:16]
-CC: Roger. At about 148 hours, if you've not already done so, a CO<sub>2</sub> filter change, and the H2 purge line heater on 20 minutes before the O<sub>2</sub> and H2 purge. At 148 hours, we'd like you to initiate a charge on battery Alfa instead of at 151 hours, and leave the charge on until we notify you further. At 150 hours GET, waste water dump to 10 percent. We do plan to burn midcourse correction 5. It will be an RCS burn about 5 feet per second at about the nominal time in the flight plan. Over.
+CC: Roger. At about 148 hours, if you've not already done so, a CO<sub>2</sub> filter change, and the H<sub>2</sub> purge line heater on 20 minutes before the O<sub>2</sub> and H<sub>2</sub> purge. At 148 hours, we'd like you to initiate a charge on battery Alfa instead of at 151 hours, and leave the charge on until we notify you further. At 150 hours GET, waste water dump to 10 percent. We do plan to burn midcourse correction 5. It will be an RCS burn about 5 feet per second at about the nominal time in the flight plan. Over.
 
 [06:03:49:24]
-LMP: Roger. Understand. We'll be accomplishing the filter change shortly, the purge line heater is on ***, O<sub>2</sub> and H2 purge shortly, and at 148 will initiate a charge on battery A until you notify us further. At 150 hours, waste water dump to 10 percent. And we're looking forward to midcourse correction 5 at about 5 feet per second at the nominal time. Over.
+LMP: Roger. Understand. We'll be accomplishing the filter change shortly, the purge line heater is on ***, O<sub>2</sub> and H<sub>2</sub> purge shortly, and at 148 will initiate a charge on battery A until you notify us further. At 150 hours, waste water dump to 10 percent. And we're looking forward to midcourse correction 5 at about 5 feet per second at the nominal time. Over.
 
 [06:03:49:52]
 CC: Roger. I've got your consumables update, if you're ready to copy.
@@ -25925,7 +25925,7 @@ CC: Apollo 11, Houston. Roger. We copy. And I have your consumables update, if y
 CDR: Go ahead.
 
 [07:22:32:01]
-CC: Roger. GET 189 plus 00: RCS total minus 1 percent; Alfa minus 11; Bravo plus 10; Charlie minus 1; Delta minus 1; H2 total minus 0.76 pounds; oxygen total plus 17.6 pounds. Over.
+CC: Roger. GET 189 plus 00: RCS total minus 1 percent; Alfa minus 11; Bravo plus 10; Charlie minus 1; Delta minus 1; H<sub>2</sub> total minus 0.76 pounds; oxygen total plus 17.6 pounds. Over.
 
 [07:22:32:41]
 CDR: Okay. It doesn't look like we're going to be able to get quite back on the flight plan.
@@ -26558,7 +26558,7 @@ CC: ...
 CC: 11, Houston. Recommend negative on that. That will put us in low bit rate.
 
 [08:03:02:12]
-LMP: 0kay. I already put it to COMMAND RESET, but I still have barber pole on the tape. And now my switch is high bit rate.
+LMP: Okay. I already put it to COMMAND RESET, but I still have barber pole on the tape. And now my switch is high bit rate.
 
 [08:03:02:22]
 CC: Okay. That will be fine. On 225, there, if you can reach it, Buzz, the last two circuit breakers in the second row from the bottom, punch those in.
