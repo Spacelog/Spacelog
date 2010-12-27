@@ -1,0 +1,2719 @@
+                            NASA Program                Gemini       Working          Paper        No.   5035
+
+
+
+
+;,,_.   .. _         COMPOSITE              AIR-TO-GROI.             rND AND ONBOARD                         VOICE
+
+          i                TAPE         TRANSCRIPTION                   OF       THE       GT-4      MISSION         (u)
+                                                        ·            /1
+  NOTICE:This documentmay be exempt from                                      [!0',./ :    : c:.
+  public disclosureunder the Freedomof Infor-
+  mation Act (5 U,S,C,552), Requestsfor its re-
+  leaseto personsC,,'-;" e the U.S. Government
+                    ......                                       _'l'4r'$,_;g ........
+                                                                          '__' ...,_c_
+                                                                          .....                ' -:z._p-,g
+  should be han.';:?._ 13f'2.2. prcvisicns of
+                      t,nclerthe
+  NASAPclicv D!.'..'. 'z                                  IP 4           , =O_ ....           ['.':.C;
+
+
+
+                                                                                              ]
+                                                          lgraded at 3-year
+                                                          ,rvals; declassified
+                                                          :r 12 years
+                                                  I
+
+
+                                           CLASSIFIED       DOCUMENT-TITLE            UNCLASSIFIED
+
+                      Thi_ mate{iai cqetainsliniorrmatior_affecti_g           the pxa.
+                                                                                     ttonal d exfense of _ Unite_t_States/'_
+                      wltlti$_ thefmean)_tg of/the _pion,_/t       law_,ITitle/ll_,    U.S.J_._ Secs.f/9_  an(J/79_, _       L
+                      trabifiatsst_n    o_ [revFla_iorV'_f w_fic_ m/an,/ m;dmel to az{ uJ_aut.h_fizedtdoeT'son
+                      prolli 'tl_    yb__hw.%./ I,,./    k..../  _       -'_J       _           _
+
+                                                  DISTRIBUTION       AND REFERENCING
+
+                      This paper ia not suitable for general     distribution or referencing.    It may be reIerenced
+                      only m other working correspondence           and documents   by participating   organizations.
+
+
+
+
+                    NATIONAL            AERONAUTICS                  AND       SPACE         ADMINISTRATION
+                                         MANNED             SPACECRAFT                    CENTER
+                                                        HOUSTON,              TEXAS
+
+                                                            August      31,      1965
+ NASA PROGRAM     GEMINI     WORKING     PAPER   No. 9035
+
+
+
+
+  COMPOSITE     f, R-TO-GBO%U_
+                 I                 AND ONBOARD       VOICE
+
+ TAPE TRANSCRIPTION          OF THE CT-4 MISSION
+
+
+
+
+   Prepared   by:     Mission     Training       Section
+
+
+
+
+           Authorized        for Distribution:
+
+
+
+
+As sistan J_i re DtnraldorK'
+                           _lgh_t °Crew' Oper at ion s
+
+
+
+
+NATIONAL   AERONAUTICS       AND SPACE     _NISTRATION
+
+           MANNED     SPACECRAFT       CENTER
+
+                    HOUSTON,     TEXAS
+
+                    August    31, 1965
+                            CAPE KENNEDY
+
+
+
+                lO, 9, 8, 7, 6, 5, 4, 3, 2_ i
+
+
+           CC   IGNITIONJ
+
+
+
+00 00 00   CC   Bolts.      LI_T-0FFI
+
+00 O0 02    C   Counting,       we're   on our way, Buddy.
+
+00 0009     C   Roll.
+O0 00 20   CC   Gemini    4, did you get your roll?
+
+00 O0 20    C   Roger.      Roll   complete.           Pitch.
+
+00 O0 24   CC   Roger.      Roll   is complete.           Did you get your      pitch?
+
+O0 O0 26    C   Pitch.      Roger.      Booster        pressures    are good,   Ed.
+
+00 O0 27   CC   Roger.
+
+00 O0 28    P   Roger.      Systems     are all good over here.
+
+00 O0 30    C   Swell.      Boy that      sun is bright.
+
+00 00 35    P   Hight.
+00 O0 44   CC   It w_11     be 50 seconds         on mark,       GT-4.
+
+O0 O0 5O   CC   MARKJ
+
+00 O0 51    C   Mode     II delayed.
+
+00 00 56    P   Cabin     is holding      at    5.5.
+
+00 O1 05   CC   Okay,     you're   looking%good          here.
+
+00 01 15    P   Cabin     is hold--
+00 C1 18   CC   Say again,       Gemin_    4.
+
+OO O1 31   CC   Gemini 4.   It will be 1:40 on my mark,                  and we are
+                not reading you very clearly.   1:40--
+
+00 O1 40   CC   MARK:
+
+O0 01 44   CC   Gemini     4.    Do you read Cape           CAP COM?
+
+OO O1 51   CC   Gemini     4, Gemini      4.     Do you read Cape CAP COM?
+2
+
+
+
+O0 02 10   CC   Gemini     4, Houston        CAP COM_
+
+O0 02 12    C   Gemini     4 is GO for staging.
+
+00 02 14   CC   Roger,     read you loud           and clear.        You look okay.
+00 02 25    P   Update     received.
+
+00 02 27   CC   Roger     on your     update.
+
+00 02 34    C   Good     staging.
+
+00 02 36   CC   Roger.      We confirm        good       staging.
+
+00 02 50    C   Guidance       initiated.
+
+00 02 52   CC   Roger,     guidance        initiated.
+
+00 03 04    C   The errors         have    come    in.     They're    Just right   on
+                nwl1 now.
+
+00 03 08   CC   Say again,         Gemini.
+
+O0 03 l0    C   I say,     our errors        have come       into a null.
+
+00 03 13   CC   Roger.
+
+O0 03 15    C   Just like       they are supposed            to.
+
+00 03 17   CC   Yes.     Everything         is going       great.
+
+00 04 01   CC   Gemini     4, Houston        gives       you a GO.
+
+00 04 04    C   Roger.      Looks     great       up here.
+
+O0 04 24   CC   Gemini     4, Houston        gives       you a GO.
+00 04 27    C   Roger.      We're     GO.
+
+O0 04 29   CC   Roger.
+
+O0 05 O0   CC   Coming     up on 0.8.         I'll give you a _rk           (V_R      = 0.8)
+
+O0 05 08   CC   MARK2      O. 8.
+
+00 05 10    C   Mode    III.
+
+00 05 34    C   SECO.
+
+O0 05 36   CC   Roger,     SECO.
+
+00 05 49   CC   Gemini     4, you're        GO.
+O0 05 54    C   Roger    ....
+
+00 05 57   CC   Gemini 4, this            is Houston      CAP COM.     You're   GO.
+                Do you read?
+
+O0 06 O0    C   Roger,     I read you.
+
+00 06 18   CC   Gemini 4, try your UHF-2, and give                    us your   IVI
+                readings as soon as you can.
+  00 06 34        CC   Gemini 4, Houston CAP CO_
+   00 06 36        C   Hello there, Houston.         GeminJ 4 here, ho_ do you
+                       read?
+
+   OO 06 39       CC   I read you a little bit garbled.                Give me your IVI
+                       readings.
+
+   00 06 43        C   Roger.   I have 20 forward, ll right, 2 down.
+   O0 06 48       CC   Roger.   20 forward, 11 right, and 2 down.
+
+   00 07 07       CC   Gemini 4, are you on UHF-2 now?
+   O0 07 09        C   ...turning around.    Affirmative on UHF-2 nc_Tand ...
+   OO 07 12       CC   Roger.
+   00 07 14        C   Okay. I got the old second stage.                   It's spinning
+                       away and looks T_etty.
+
+   O0 07 18       CC   Roger.   You say, it's spinning away?
+   O0 07 21        C   Roger.   It's starting to tumble a little.
+    00 07 23      CC   Roger.
+    O0 07 54      CC   Roger.   Gemini 4, I have a new i alpha time for you.
+    oo o7 38       c   Okay.
+    O0 07 39      CC   It's 14:05.
+    O0 07 46       P   Understand, i alpha 14:05.
+    O0 07 49      CC   Roger.
+    OO 07 56      CC   Gemini 4, your orbit is 87 by 153-
+    ooo8oo         C   ....
+    OO 08 02      CC   Roger.
+     OO 08 14     CC   Hey, Jim.     How fast is that booster tumbling?
+     OO 08 18      C   I can't give you that.....             going around.
+     O0 08 23     CC   Is it just slowly rotating?
+     O0 08 25      C   Roger, it's slowly rotating.
+     OO 08 27     CC   Roger, okay.
+     O0 08 28      C   It doesn't look big.
+     00 09 OO     CC   We'll lose you in about 30 seconds, Jim.
+     OO O9 O2      C   Okay.
+     OO 09 05     CC   How do you like that?
+
+
+
+
+· '--; ........                                ,,,       "-    I   i   -      "l   i']   '-I"   '   ='
+O0 09 15    C   Before I leave you, let me tell you the lights are
+                working.
+
+O0 09 18   CC   The what's working?
+O0 09 20    C   The lights on the booster are z_lashing.
+00 09 22   CC   Okay.
+O0 09 24    C   ... lot better off.
+O0 ll 08    P   Okay, 2-C is 24, 6; 2-B is 24, 5-5; 2-A is 24, 6;
+                1-C is 24, 12; 1-B is 24, 3_l;1-A is 24, 7- Con-
+                trol is 26, 5; S-2 is 27; S-1 is 27; Main is 23.
+
+
+                         CANARY ISLAND8
+
+
+00 14 22   CC   Gemini 4, Canary CAP COM.
+O0 14 25    C   Hello, Canary.    Gemini 4.
+O0 14 25   CC   Roger. Give me your quantity switch to READ for
+                15 seconds.
+
+O0 14 36   CC   Your status green from here.
+O0 14 37    C   Roger, thank you.
+O0 14 44   CC   Stand by to copy G.m.t., LO, apogee, and perigee.
+O0 14 49    C   Roger.
+00 14 50   CC   15 15 59.    152 by 87.
+00 14 58    C   152 by 87.   Roger.
+00 15 O0   CC   Roger.   Standing by for your air to ground check.
+O0 15 04    C   Roger. We're on UHF-2 at this time. Give you a
+                count l, 2, 5, 4, 5....  HF antenna at this time.
+O0 15 12   CC   Say it again.    Which antenna?
+O0 15 1_    C   We are not going to extend the HF antenna.
+O0 15 17   CC   Roger, we understand. Shift to UHF number l_ and
+                give me a count, please.
+O0 15 35   CC   Gemini 4, Canary CAP COM.     Shift to UHF number i and
+                give me a aount, please.
+O0 15 42    P   Gemini 4, am transmitting UHF number 1.     1, 2, 3, 4,
+                5- % 4, 3, 2, l, Gemt_i 1.
+O0 15 49   CC   Roger, Canary CAP COM_    Read you loud and moderate
+                background noise.
+O0 15 53   C    Roger, I understand.
+00 16 O0   CC   Gemini 4, Canary CAP COM.        Be advised switch radia-
+                tor to FLOW at 40:00.
+
+00 16 06    P   Roger, radiator to FLOW at 4D:00.
+O0 16 48   CC   Gemini, Canary.       Stand by to copy new 3-1 data.
+
+00 16 51    P   Roger.     Standing by.
+00 16 53   CC   167.     3+35.    16 48 34·   2+18.   8+47.
+O0 17 08   CC   GETRC 01 32 35-
+00 17 22    P   Roger, Gemini 4. Would say again the first three
+                quantities, please?
+00 17 25   CC   Roger.  I say again. AV 167. 3+35.
+                GETRC O1 32 35. Read switch OFF, please.
+
+OO 17 46    P   Roger. New quantities 3-1:         167.   3+35.   14 48 7,.
+                2+18. 8+47. O1 32 35-
+00 18 03   CC   Negative.        G_'_RCis 16 48 34.
+O0 18 12    P   Roger, 16 48 34.
+O0 l_ 15   CC   Roger.     How far are you from the launch vehicle?
+00 18 19    P   Roger. Right now we're alining the platform and
+                it's going below our lower left, and we'll be going
+                down after it in a moment. We're after it right
+                now.
+
+00 18 27    P   We presently don't have it in sight; we aline the
+                platform.
+OO 18 31    C   I have it sighted this time. It's directly below
+                me about 400 or 500 feet. I'm going to thrust
+                dowll ....
+
+00 18 37    P   Roger. We have it below us right now, exactly be-
+                low us at about 400 to 500 feet. The light is
+                coming through quite clearly.
+O0 18 44   CC   Roger.
+O0 18 48    P   We're passing over a big desert now.
+O0 18 59   _C   Canary, Gemini 4. Be advised there isn't enough
+                time to get a good platform aline there. I don't
+                want this thing to get too far from me.
+00 19 09   CC   Roger, I understand.
+O0 24 11   CC   Gemini 4, Houston CAP C0_
+O0 31 09   CC   Gemini 4, Houston CAP CON standing by.
+        00 31 21              CC   Gemini 4, Houston CAP COM standing b_
+        00 31 45              CC   Gemini 4, Houston CAP C0M standing by.
+        00 S2 04              CC   Gemini 4, Houston CAP COM.
+        00 32 59              CC   Gemini 4, Houston CAP COM.
+        00 41 54               P   Radiator is going to FLOW at 41.         Elapsed time of
+                                   41.
+
+
+                                              CARNARVON
+
+
+        OO 43 41              CC   Gemini 4, Carnarvon CAP COM.
+        O0 43 42               C   Hello, Carnarvon.     Gemini 4.
+        OO 43 44              CC   Roger.   Give me your status.
+        O0 43 45               C   Roger, we're GO.    Everything looks great.
+        OO 43 49              CC   Roger, Gemini 4. You look good here on the ground.
+                                   Can you give me your battery readouts, please?
+        00 43 53               P   Roger, stand by.    Here they come.
+        O0 44 20              CC   Gemini 4, you can turn your radiator, --correction,
+                                   your secondary pump off. Your evaporators are nor-
+                                   mal. Your radiator looks good.
+        00 44 27               P   Roger. Evaporators NORMAL, and secondary pump A OFF.
+                                   Understand radiator looks good.
+        O0 44 33              CC   Okay. Give me about l0 seconds on your Quantity
+                                   Read Switch.
+
+        00 44 37               P   Roger.   Coming on.
+        OO 44 39              CC   Roger.
+        O0 44 50              CC   I'm standing by for your battery readouts.
+        O0 44 59              CC   While you're doing that, can the Command Pilot give
+                                   me a little information on the booster, the distance,
+                                   what you have to do to get that close to see it, and
+                                   how's the light working?
+
+        O0 45 07               C   Roger. The light's working fine. I can't tell ex-
+                                   actly how far it is though, I guess I'm probably a
+                                   half a mile or so. The booster started tumbling
+                                   right after we came off of it. I tried to dump the
+                                   rates down, and I got them down till it looked like
+                                   one-quarter degree per second but as soon as we got
+                                   off I got around to see it, it was tumbling.
+
+
+
+
+I   I        I     _   ....           I                   --   ;_'- *-- _   ,-_-     - ill    I   Ir
+00 45 25     CC       Okay.     How much AV did you use before                     y_u got there?
+
+O0 45 28      C       I got about          30 ft/sec         showing     on my window      there.
+
+00 45 32     CC       Okay.
+
+O0 45 34      C       The booster fell away quite rapidly and got below
+                      us like there was _ considerable difference in our
+                      velocity,       and I let the thing                get too far from        me.
+
+O0 45 44     CC       All right.  Can you give me the battery readout?
+                      If they look good I can give you a GO for 3-4.
+                      .... and we're standing by for a blood pressure from
+                      the Pilot.
+
+O0 46 40      C       Carnarvon,           this   is Gemini        4.      I see lights     of a town
+                      below me.
+
+00 46 44     CC       Okay.     3,2,1-
+
+O0 46 48     CC       MARK:
+
+O0 46 52     CC       Did you get that time hack?
+
+O0 46 55      P       Roger,    got that time hack,                 and am standing        by    for the
+                      AVup.
+
+O0 46 58     CC       Go ahead.
+
+OO 46 59      P       Roger.         1.     1-A and 2-B are 24, and they all                    look
+                      good.
+
+O0 47 03     CC       Roger.
+
+O0 47 04      P       ...  1-A is 6. 1-B is 10.                         1-C is ll.   2-A is 6.
+                      6-B is 5, and 2-6 is 6.
+
+00 47 13     CC       Okay.         Showing       24 on 2-A, B and C also?
+
+O0 47 16      P       Roger.         I'm getting           24 on all my adapter         batteries.
+
+00 47 19     CC       Okay.         Your    readings        are good.
+
+O0 47   22    P       ...     All     checks       out     good.
+
+00 47 23     CC       Okay.         Giving     you a CO for 3-4, changing                 your TlR time.
+
+O0 47 32     CC       And I'm giving              you a new load.
+
+O0 47 55      p       We got the update                  coming    in.
+
+ O0 47 37    CC       Okay, I've got the load ready, you got the new TR
+                      time.   We're standing by for that Pilot's blood
+                      pressure.    You ready to copy youm update time?
+
+ OO 47 42         P   Roger,        I copy the update              time,    ... the blood       pressure.
+
+ 00 47 47    CC       Okay.         2-1.       170.       3+40.     O1 32 39-     2+18.      8+32.
+                      Over.
+O0 47 54      P   Roger.  We're coming up on the booster now, and you
+                  can see the daylight starting to break.     The lights
+                  are quite visible, and I estimate that we're probably
+                  in the _ricinity of three-quarters   of a mile from the
+                  booster at the time now.    The lights are very easy
+                  to see, and the horizon is quite easily defined at
+                  this time.   We've unstowed the Contarex, the }Tassel-
+                  blad, the 16-mm and the blood pressure cuff.     We're
+                  both finding that there is not as much velcro as we'd
+                  like to have in the spacecraft.    We feel like we need
+                  more storage of loose items.    Same thing that John
+                  and Gus found.
+
+CO 48 lO      P   Roger.      Say a_ain       the first       foul- quantities,            please.
+
+O0 48 13     CC   I say, what      you want      repeated?
+
+OO 48 15      P   Roger,     the first       four quantities.
+
+OO 48 17     CC   2-1:      170.   3+40.       O1 32 39-        Over.
+
+OO 48 36      P   Roger.      Would    you say them       with a little             more    pause
+                  between     them,    please.
+
+OO 48 39     CC   Does   he want      to try them again?
+
+O0 48 kl      P   Would you say them with           more pause            between     the,...
+                  I ...
+
+OO 48 49     CC   2-1:      170.   3+40.       O1 32 39.        2+18.        8+32.     Over.
+
+OO 49 O1      C   This is Jim here.  And I'm having a lot of difficulty
+                  telling how far out I am from the booster.   I can see
+                  the two lights flash occasionally, and that's the
+                  only thing that tells me where I am at all - as far'
+                  as distance with respect to the booster.   I didn't
+                  get the time to aline my platform well before I went
+                  into ...
+
+OO 49 12      P   Roger.   Understand,  I read you.                  l:      170.     3+40.
+                  O1 32 34 , 2+18.   _+30.
+
+O0 49 24     CC   On your GETRC        that's    O1 32 39.           Over.     9-
+
+OO 49 25      C   Hello,     Carnarvon.        Gemini    4.
+
+O0 49 30      P   O1 32 39.
+
+O0 49 3©      C   Roger.      We're    GO.     Everything       looks      great.
+
+O0 49 32     CC   Roger, that's        affirmative.           Your    orbit    is about       86.8
+                  by 150.6.
+
+O0   49 37    C   Roger.      Stand by.        They're    coming.
+O0 49 38     P    Roger.     86.8       by 150.6.     Sounds        good.
+
+O0 49 42    CC    Roger.     We need        that blood      pressure        on the Pilot.
+
+O0 49 44     P    Roger,     that will be coming            up next.
+
+O0 49 55     C    I'_a going       to    ... a little      bit more     ...
+
+O0 49 45    CC    And I'll need           your accelerometer          bias.
+
+O0 49 50     P    You'll     have       to stand by    for the accelerometer             bias.
+
+O0 49 52     P    Hand me the           ... book,   will     you,    Jim?
+
+00 49 54     C    The data book.
+
+O0 49 55     P    Yes.      I just       can't    keep the booster          in sight    and    ...
+
+O0 49 38    CC    Okay.      You    can give       it to Guaymas.
+
+00 50 O0     C    I'm afraid        you'll       have to wait       for another    orbit       or
+                  two.
+
+00 50 O1    CC    All righty.
+
+O0 50 06     C    Your     light    is on in case you're             going    to read    it.
+
+00 5o o7     c    Huh?
+O0 50 08     C    Your     lights       are on.
+
+O0 50 09     P    Yes.
+
+OO 50 18     C    Roger.   Evaporator NORMAL and Secondary                      Pump A OFF.
+                  Understand   everything looks good.
+
+OO 50 28     C    Roger.      Coming       ON.
+
+0o 50 29    cc    .....
+O0 50 37     P    Blood pressure           is coming     in.
+
+00 50 39    CC    Roger.
+
+00 50 52     P    Roger.
+
+O0 51 O1     p    Why don't        you do that,       Jim?
+
+O0 51 02     C    Roger.   The light's working fine.  I can't tell
+                  exactly how far up I am from it.   I guess I am
+                  probably around a half a mile or so.   The booster
+                  started tumbling as we came off of it.    I started
+                  to damp the rates down_ and I got them down to what
+                   looked like a quarter degree per second, but as
+                   soon as we came off and I got around to see it, it
+                   was tumbling.
+
+ O0 51 22    CC    .....
+lO
+
+
+
+O0 91 25   C    I've got about 30 ft/sec showing on my windows here.
+                The booster fell away quite rapidly and got below us
+                like there was a considerable  difference in our ve-
+                locities_    and I've been struggling           here   to not let
+                the thing    get too far from me.
+
+00 51 45   CC   .....
+
+O0 52 06    P   Roger.   Your adapter battery readouts are coming at
+                you.   They all are reading 24, 1-A through 1-C on
+                voltage.   The amperes are 6 on i-A, 10 on i-B, 11 on
+                l-C, 6 on 2-A, 5 on 2-B, 6 on 2-C.    The RCS rings
+                look good.
+
+O0 52 28   CC   .....
+
+O0 52 36    P   Roger.
+
+O0 52 48    C   Carnarvon, this is Gemini          4.     I'm seeimg    the lights
+                of the town below me.
+
+0o 52 53   cc   .....
+oo 53 oo   cc   MARK'
+O0 53 O1    P   Roger.     Got your   time hack.
+
+O0 58 56    P   We .had a ring in one of ol_r books come loose. It
+                looks like that would be pretty bad if they all got
+                loose - if they all came out of the card.
+
+O0 59 08    P   _y fingertip lights are right on my first                knuckle
+                and it is making a sore spot on my center                right
+                finger.
+
+O1 l0 38   CC   Gemini   4, Houston     CAP COM standing        by.
+
+O1 10 51   CC   Gemini   4, Houston     CAP COM.
+O1 ll 06   CC   Gemini   4, Houston     CAP COM.
+
+01 ll 14    C   Go ahead,    Houston_    Gemini    4.
+
+O1 11 16   CC   Roger, Gemini 4.        Houston CAP COM standing          by.      I
+                read you slightly       garbled.
+
+O1 11 22    C   This is Gemini    4_ Houston.
+                . ....
+
+
+
+O1 ll 27   CC   Standing    by.
+
+O1 14 25    P   It has a pretty       good tumble       rate.   I'll try to time
+                it here.
+O1 14 37    P    Makes about one complete revolution in about 8 sec-
+                 onds.   It's tumbling end over end. It looks like
+                 now we're out a little further than we were before.
+                 We've slipped out a little bit.    I'd estimate            it's
+                 out about a mile and a half or maybe a little              more.
+                 It was really quite a view when we first saw              it
+                 down there.   It looked like almost one of the             artist's
+                 conceptions,       lc was so vividly     clear.
+
+01 20 58    P    Right now, we're in nose-to-the-ground   type attitude,
+                 such that I don't believe the ground stations are
+                 able to read us. We have heard several calls cut in
+                 and out for us. We're going to stay in this attitude
+                 though for a while to keep the booster in sight.     It
+                 doesn't appear that we're making too much l_rogress
+                 in closing with the booster right now.    It looks like
+                 it's staying out about the same distance as it was
+                 before.   During the night sight when the booster was
+                 below us, it appeared that there was -1most a sky
+                 full of stars.   There was so much of the venting
+                 coming off the booster and into the sky.    In fact,
+                 I commented on it that they looked like they were
+                 stars.   When you look closely at the booster at that
+                 time, you could see the fuel -- actually the white
+                 vapors coming out of the aft end of the booster, and
+                 I guess that was spreading the little fireflies all
+                 around.   It was to such an extent though, it covered
+                 the whole visible area in front of us.
+
+
+                                GUAYMAS
+
+
+
+O1 27 57     P   Hello,   Guay_s.      This   is Gemini   4.
+
+O1 27 59    CC   Gemini   4, Guaymas    CAP COM.
+O1 28 OO     _   R_ger, Guaymas.  We still have the booster.  We're
+                 out quite a ways from it now, and it's taking a little
+                 more fuel than we had anticipated.  We've got 61 in
+                 the fore and aft window in the aft direction, 37 left
+                 and 36 up at the present time.  We appear right now
+                 to be just about holding our own with it.  Of course,
+                 we should as we progress here.  We should start to
+                 close with it_ but it's out further than we had hoped
+                 to let it get right now.
+
+O1 28 24    CC   Roger,   I copy.
+
+O1 2P_ 25    C   Is there any way of giving me a quick             check   on what
+                 my orbit is? This thing is way below              me.
+12
+
+
+O1 28 31    CC   Say again.
+
+01 28 32     C   I said the booster is way below me.  Could                       )_u tell
+                 me my present orbit?  As soon as possible.
+
+01 28 43    CC   Roger,    we're     working     on it.
+
+01 28 50    CC   Gemini 4, we'll update you with the orbit calcula-
+                 tions some time after the pass over the States.
+
+O1 28 56     P   Roger, I understand.   And           be advised our cabin pres-
+                 sure seems to be holding            Just a hair below 5.   It
+                 stabilized down initially            at 5.5_ decreased  _o 5-25,
+                 and then went back up to            5.5, and it's now dowu a
+                 little below 5.
+
+O1 29 15    CC   Roger.     We copy.
+
+01 29 16     P   All right, you might            get a confirmation          for me      on
+                 that on the ground.
+
+01 29 18    CC   Roger.      We're working        on it.        Put your    Quantity     Read
+                 Switch     to READ.
+
+01 29 23     P   Roger.      It's going        to READ.
+
+01 29 54     C   Guaymas, this is Gemini 4. We're going to have to
+                 get a resolution right away whether you want me to
+                 really make a major effort to close this last thing
+                 or to save fuel.
+
+O1 29 44     C   Guaymas,     do you read        Gemini    4?
+01 29 46    CC   Roger, we copy.   We suggest              you    stand by.        We want
+                 to save the fuel.
+
+O1 29 51     C   Okay.      I guess    it probably        expended       about    100 ft/seq.
+
+O1 29 56    ?C   You expended        t00 ft/sec?
+
+O1 30 O1     C   Yes,     that's   just a rough      guess.
+
+O1 30 02    CC   Roger.      We're    finished     with    the _ntity            Read,
+                 Gemini     4.
+
+01 30 12     C   Roger.
+
+O1 3 © 15   CC   Place the Quantity            Read Switch       to --
+01 30 16     C   It's off.
+
+01 3 © 51   CC   Gemini 4, Guaymas         CAP CO_   Flight advises they like
+                 to save the fuel.          You'll be advised over the Cape.
+
+O1 31 O1     C   Well_ I Just can't wait till I get to the Cape.   I
+                 guess we're Just going to have to watch it go away.
+                 I've retrograded enough to help bring me down but I
+                 don't want to get down to wherever it's going.
+                                                                                      13
+
+
+01 31 ll   CC   Roger.
+
+01 31 13   CC   Okay.     I guess    we'll    scrub       it.
+
+01 51 16    C   Okay.  Can you give          me a tag on my orbit           as quick
+                as you can?
+
+O1 31 18   CC   We're    working    on it.
+
+01 33 00   CC   Gemini    4, Houston       CAP CONL
+
+01 33 02    C   Go ahead    Houston,       Gemini    4.
+
+01 33 0h   CC   Jim, we've estimated you've used about                    50 percent
+                of your 0A_  capability at this time.
+
+01 33 l0    C   Roger.  I think we ought to knock it off, Gus.   It
+                keeps falling, it's probably three or four miles
+                away, and we Just can't close on it.
+
+01 33 16   CC   Right, knock       off.     No more rendezvous          with    the
+                booster.
+
+O1 53 20    C   Okay.     Roger.
+
+01 33 22   CC   Okay.     We're    giving    you a GO for your          EVA at this
+                time.
+
+0L 33 25    C   Okay.  I would       like to know          what' kind    of an orbit
+                I'm in now.
+
+01 33 30   CC   We're working on it, but you may not get it until
+                we get to Canary.
+
+01 33 34    C   Okay.
+
+01 33 36   CC   Okay.  I want to give you your 5-1, 3-4,                    4-4 times
+                so tell me when you're ready to copy.
+
+01 33 44    C   Stand by 1.
+
+01 35 45   CC   Roger.
+
+01 33 48    C   Okay.   Be advised I'm going to let the booster go
+                and not track it anymore.    I'm going to aline the
+                platform and start conserving fuel.
+
+01 34 01    P   Go ahead.     This     is Gemini      4.
+
+01 34 05    P   Gemini    4 is ready       to copy.
+01 34 30   CC   Gemini    4, Houston.
+
+01 34 35    P   Go ahead    Houston.        Gem_nl    4 is ready        to copy.
+
+01 34 37   CC   Roger.   3-1:  ltl.          3+42.  18 19 03.  2+23.               8+42.
+                Ilo you want to read         those back to me?
+
+01 35 01    P   Roger.     3-1:     171.     3+42.        18 19 03.     2+23.      8+42.
+01 35 ±0    CC       R_er.      3-4.     Tell    me when     you're       ready.
+
+01 35 16     P       ReudM    v_ _a.     Just     keep   shooting.
+
+0l 35 18    CC       120.     2+3_.     19+34.      3+41.        9+47 ·
+
+01 35 33     P       R_ger.     3-4 is 120.         2+36.        19 34 39.      3+41'     8+47.
+
+01 3P 42    CC       Roger.     4-4:     134.      2+55.     21 08 03.         2+47.     8+30.
+
+O1 36 00     p       Roger.     4-4 is 134.         2+55-        21 08 09.      2+46.      8+30.
+
+01 36 09    CC       Negative     on the GMTRC.          That     is 21 08 03 .
+
+01 36 l?     P       Roger.      21 08 03 .
+
+01 36 20    CC       Roger.     All the rest        is correct.
+
+O1 36 23    CC       I have     your   onboard     map update.
+
+01 36 27     P       Roger'.
+
+01 36 30    CC       Ascending        node 157 West.        G.m.t.        of ascending     node    is
+                     16:34 ·
+
+01 36 41     p       Roger,     I understand.        Ascending        node 157 West;
+                     G.m.t.     16: 34.
+
+01 36 47    CC       R_ger.   Could you give me some idea of what                        your
+                     attitudes were over Carnarvon and Canton?
+
+01 36 52     P       Roger.  We were nose-down tracking the booster and
+                     I'm afraid that our attitudes were not so that we
+                     could read with good reception on those stations.
+
+01 37 05    CC       Roger.
+
+01 37 06     p       They read        us to some    extent.         Did they       get the blood
+                     pressure?
+
+ 01 37 ll   CC       They didn't get a very good one, but you're going to
+                     give another one around here some place, aren't you?
+
+ 01 37 15        p   Roger.   Be advised the gun is out and stowed and
+                     assembled and we've got out cameras and we'll be
+                      going after       the equipment.
+
+ 01 37 22   CC        Roger.
+
+
+                                        BERMUDA
+
+
+
+ O1 38 15    CC       Gemini    4, Houston.
+
+ Oi 38 17        C    Go ahead Houston,           Gemini    4.
+
+ 01 38 20    CC       Would    you go to PPWL&UNCH on your computer.  You
+                      might    give me your IVI readouts before you do.
+                                                                        15
+01 38 24    C   Roger.   They were 20 aft and 76 up.
+01 38 31   CC   Roger.   Are you in PRk_.AUNCNnow?
+01 38 32    C   Roger.   In PRELAUNCH now.
+01 38 39    C   I'm alining the platform.
+01 38 40   CC   Roger.
+01 39 l0   CC   Gemini, we esttmate you still have about 200 feet AV
+                left.
+
+01 39 16    C   Roger.   That's what I've got.
+01 39 17   CC   Roger.
+01 39 27    C   CAP COM. Can you give us a G.m.t. time hack?        I
+                missed it before.
+
+01 39 33   CC   Roger.   I'll give you a G.m.t. at 16 56 00.
+01 39 38    P   Roger.
+01 39 55    P   CAP COM.    I'd like a hack at 16 56
+01 40 O1   CC   Roger.     It will be 3 more seconds.
+
+01 40 05   CC   MARK'
+01 40 07   CC   That was 16 56 04.
+01 40 l0    P   Roger.
+01 40 ll   CC   We have a new hack on your orbit.       It's 89.9 over
+                158.6.
+01 40 19    C   Roger.
+01 40 58   CC   Can you go to READ momentarily?
+01 41 01    C   We're READ.     Roger.
+
+01 4]_03   CC   Roger.
+01 42 15    C   Houston CAP COM, Gemini 4.
+01 42 18   CC   Gemini 4, go ahead.
+01 42 20    C   Roger. Do you want me to keep my platform and com-
+                puter up?
+01 42 26   CC   Turn off your READ switch now if you're reading.
+O1 42 30    C   Okay. I understand you got the reading.       Would you
+                advise me on the computer and IMU_
+
+O1 42 38    C   I see no reason for it.
+01 42 41   CC   Keep your platform powered up, Jimmy boy.
+O1 42 43    C   Okay.
+         16                          0
+         01 42 58            CC          Hey, Jim.        We   estimate        you have 207 left           in your
+                                         OAMS.
+
+         O1 43 02                C       i_ ',_.
+
+         O1 43 07            CC          Okay.     We'd    like       to have -- are you still             reading?
+
+         O1 43 10                C       Roger.     Still      reading        you.
+
+         01 43 1i            CC          We'd like to get a blood                pressure      on Ed over the
+                                         _'anaries.
+
+         O1 43 15                C       He's unstowing             stuff    right    now so you may have               to
+                                         wait a second.
+
+         O1 43 20            CC          Okay.     We want it over the Canaries.                       You got a
+                                         little    time yet.
+
+         01 43 26                C       Roger.     We'll          be over there       at 1: 49, right?
+
+         O1 43 39            CC          Might be there             a little    sooner    than     that,       I think.
+
+         O1 43 41                C       Okay.
+
+         O1 43 47                C       What    was my G.m.t.          at lift-off,        CAP COM?
+
+         01 43 53            CC          G.m.t.    at lift-off          was 15 15 59.
+
+         01 43 59                C       Roger.
+
+         01 44 03            CC          Have you checked             your    cabin    seal?
+         01 44 ll                C       Roger.  Our cabin is holding                    at about      4. 9.       What
+                                         else do you want to check?
+
+         O1 44 17            CC          Check     your water         seal.
+
+         01 44 19                C       Water     seal.       Roger.
+
+
+                                                     CANARY         ISLANDS
+
+
+
+         01 49 26            CC          Gemini     4, Canary         CAP COM.
+
+         01 49 28                C       Go ahead     Canary,         Gemini     4.
+
+         01 49 30            CC          Give me your Read Switch ON - correction,                             your
+                                         Quantity Switch to READ for l0 seconds.
+
+         01 49 35                C       Quantity     Switch         is in READ.
+          01 49 37           CC          Roger.      We have         your     secondary    Pump    B on.           Have you
+                                         turned     it on?
+
+          01 49 44               C       Roger.  We have.              Ed's     trying    to get the stuff              out
+                                         .... It's coming             off.
+
+
+
+
+II   I               -   -   -               I                 I                 -'            I   I           I    I        II   I
+                                                                   17
+
+
+O1 50 03   CC   Inflate the - - have the Pilot inflate his blood
+                pressure cuff.
+O1 90 l0    C   Can you stand by one, please.
+01 50 13   CC   Roger.
+01 50 29   CC   Cryo gage switch OFF.
+01 50 33    C   It's OFF.
+O1 50 41   CO   Flight advises if you're too busy we'll disregard the
+                blood pressure.
+
+01 50 45    C   I wish you would.
+01 51 50   CC   Gemini 4, Canary CAP CO_   Request you turn your com-
+                puter OFF, leave the platform powered up.
+01 51 56    C   Roger ... computer's OFF at this time.
+01 53 36   CC   Gemini 4, Canary CAP CO_      Is your water seal OPEN?
+O1 53 42    C   Gemini 4.    Negative.   Our water seal is not OPEN.
+O1 53 44   CC   Roger.
+01 54 03   CC   Gemini 4, Canary CAP C0_   Your Water Seal Valve is
+                to be OPEN when you start your pressl_rizationand
+                repress.
+01 54 15    C   You want the Water Seal Valve OPEN when we start the
+                pressurization.  Is that correct?
+01 54 20   CC   Roger.   When you start pressurization and the repress.
+O1 54 24    C   Roger.
+O1 54 32    C   Be advised we got the cable out.
+O1 54 34   CC   Say again.
+01 54 56    C   We just got the cable out'
+O1 54 42    P   It was a wrestling match, but I won.
+O1 56 05    p   Be advised that W_aitehad his left glove off fur
+                stowage purposes. I_ve had it off for approximately
+                15 minutes. This is the standard face-plate OPEN
+                position.
+
+
+                               KANO
+
+
+
+O1 57 28    C   Go ahead, Kano.
+O1 57 31    C   Ksno, Gemini 4 here.     Go ahead.
+    18              W¸
+
+    O1 57 36   CC   Gemini     4, this        is Houston        CAP COM.
+
+    01 57 39    C   Ka_io, Gemini        4.
+
+    O1 97 41   CC   Gemini     4, Houston           CAP COM.
+
+    01 57 44   CC   Gemini     4, this        is Kano.
+
+    O1 57 46    C   Roger, Kano,         Gemini       4.    I read you loud and clear.
+                    How me?
+
+    O1 57 53   CC   Gemini     4, how do you read Houston?
+    01 97 56    C   I read     -- I read Houston            loud and clear.
+
+    01 98 l0    C   Houston,        Gemini     4.     How do you read me?
+
+    01 58 12   CC   Gemini     h, Houston           CAP COM.      Over.
+
+    01 58 42   CC   Gemini     4, Houston           CAP COM.      Over.
+
+    O1 58 49   CC   Gemini     4, Houston           CA2P COM.     Over.
+
+    01 58 59   CC   Gemini     4, Houston           CAP COMh      Over.
+
+    O1 59 17   CC   Gemini     4, Houston           CAP COM.      Over
+
+    01 59 28   CC   Gemini     4, Housto n CAP COM.               Over.
+
+    01 59 41   CC   Gemini     4, Houston           CAP COM_      Over.
+
+    01 59 56   CC   Gemini     4, Houston           CAP COM_      Over.
+
+    01 59 58    C   .... Houston,         Gemini       4.   How do you read?
+
+    02 00 00   CC   I read you loud and clear_ Jim.   For your attitudes
+                    for EVA go ahead with the same attitudes you had
+                    planned.  That's BEF and 180 ° in roll.  That should
+                    be the best for photographic  purposes.
+
+    02 O0 14    C   Roger.
+
+    02 00 16   CC   And to get pictures of the spacecraft,                      your best   bet
+                    would be to move out forward.
+
+    02 O0 22    C   Say again.
+
+    02 00 24   CC   Your best sun angle for getting a picture of the
+                    spacecraft would be to move out forward from the
+                    spacecraft.
+
+    02 00 30    C   Roger.  He'll         move       out forward     and we'll    be BEF up-
+                    side down.
+
+    02 00 34   CC   Roger.
+
+    02 00 40    C   Boy,     is it crowded           in here,     Gus.
+    02 00 4P   CC   I'll bet.
+
+    02 00 54   CC   Hey,     Jim.
+
+
+
+
+I        I      I                    I                II                 II]-     II           I   II I
+                                                                                                     19
+
+
+          02 00 99       CC   Jim,    this    is Houston.
+
+          02 O1 09       CC   Gemini     4, Houston.
+
+          02 O1 31       CC   Gemini     4, this   i_ Houston.
+
+          02 O1 47       CC   Gemini     4, this is Houston.
+
+          02 01 50        C   Go ahead,      Houston.       This is Gemini       4.
+
+          02 O1 94       CC   Hey, Jim.  You don't have to go upside                      down if you
+                              don't want to.  You can go to whatever                      position is
+                              best for you.
+
+          02 02 02       CC   We have     no constraint       on your attitude.
+
+          02 02 18       CC   Gemini     4, Houston.
+
+          02 03 45        P   At this time we are passing over quite a series of
+                              thunderstorm cells, off at our ... Can you see it
+                              out there? ... it should be about your i o 'clock
+                              .°.e.
+
+
+
+           02 04 37       C   No,     I can't   see it,      Maybe      .....
+
+           02 04 46       P   Oh, those must be fireflies               again'   Are you in the
+                              light over there?
+
+           02 04 50       C   Yes,     I'm in the light.
+
+           02 04 51       P   How does       that happen?      I'm in night       over here.
+
+           02 04 55       C   We're    going    sideways.
+
+           02 04 57       C   Act,,al ly, we're     going    around       to blunt-end-forward.
+
+           02 05 00       P   _]1 right.   A very interesting thing -- Jim's got full
+                              daylight out his window, and I have full night out
+                              of mine.   We're grad_,ally yawing around to blunt-end-
+                              forward, mnd it looks like the reflection of the sun
+                              on these fireflies causes them to glow very brightly.
+                              That was the type of stars that we saw on our first
+                              dark side.
+
+           02 05 29       P   It seems very strange for me to look out Jim's side
+                              and see daylight and look out my side and it's just
+                              pitch black.
+
+           02 07 59       P   We've got       an object out in front of us.    It's not
+                              flashing       like it 's the booster.  It appears that it 's
+                              that type       of an object unless it's picking up some
+                              glow from       the sun.   It appears a very bright, bright
+                              object.
+
+
+
+
+.....   ,i ....   ,-'-                              a           --,/,     -       i   ,    ....   Il '-   ' I_   '--I_'   I
+2O
+
+
+02 _   3©    P   We st_ll have the booster at ... it was the booster.
+                 I c_n see the lights flashing _:_ it now. it's just
+                 passing on the horizon.  Just as it goes               to darkness,
+                 the reflection of the sun on the booster               causes a
+                 very bright image.          That's the object I had seen
+                 earlier.   It seems        like we're still in fair close
+                 proximity of the booster,   it looks like              it's out
+                 in the neighborhood  of 2 or 3 miles.
+
+
+                                CARNARVON
+
+
+
+02 24 22    CC   Gemini   4, Carnarvon       CAP COM.
+
+02 24 24     C   Go ahead,   Carnarvon.        Gemini    4.
+
+02 24 26    CC   Roger.   Will you give me a - - correction,  will you
+                 start pumping up your blood pressure.    I don't have
+                 any T/M as yet.   Are you in real time in that
+                 position?
+
+02 24 34     C   Stand by.
+
+02 24 38     C   Negative.    We're in COMMAND.           Let me give       you a real-
+                 time hack   position.
+
+02 24 42    CC   Roger.
+
+02 24 47     C   Ed is off the comm. right         now.       He's trying    to get
+                 his umbilical hooked up.
+
+02 24 50    CC   Okay.    We need    a blood    pressure      immediately     from the
+                 Co_nd     Pilot.
+
+02 24 57     C   Well, stand by one.  Listen, you might advise Flight
+                 by way of land lines that we're running late on this
+                 thing.  There's a lot to do and we're having trouble
+                 keeping track of all this stuff.
+
+02 25 09    CC   Okay.
+
+02 29 12     C   I'll get the blood         pressure    as soon as I can get
+                 around to it.
+
+02 25 33    CC   Give me the      switch    position    on your C-band      beacon.
+
+02 25 37     C   Roger.    It's    COMMAND.
+
+02 25 40     C   Do you want      it back    on CONTIIUJOUS?
+02 29 42    CC   Affirmative.       Back on CONTINUOUS.
+
+02 25 45     C   Do you want      them both    on or just the reentry         one?
+02 25 48     C   Just the capsule.
+                                                  '¢ :i
+
+                                                                                                  21
+
+
+
+              02 23 _1    C    Okay.   The adapters on. As soon as I get the blood
+                               pressure I'll give you a call.
+
+              02 25 56   CC    Okay.
+
+              02 26 35   CC    Full-scale     on your blood    pressure.
+              02 26 48   CC    Can give the Quantity        Read   Switch    for about
+                               10 seconds?
+
+              02 26 50    C    Roger.   I don't     think   you got a good blood         pressure.
+                               The bulb popped      off.
+
+              02 26 53   CC    Okay.
+
+              02 27 l0   CC-   Gemini 4, you are GO for EVA and decompression.    Dis-
+                               regard the blood pressure unless you've got a few
+                               minutes and then try and get it for us.   We'd appre-
+. . _..   o                    ciate it.
+
+              02 27 17    C    We don't     have any time at allY'          We're   really   pressed
+                               here:
+
+              02 27 21   CC    Okay.
+
+              02 27 29   CC    Okay.  After your first repressurization  when you're
+                               about 12 to 15 minutes, we want you to go to BYPASS
+                               and return to FLOW after you repressurize  again.
+
+              02 27 57    C    Al] right.   You want us to go to BYPASS             before   we    go
+                               to repressurize.   Right?
+
+              02 27 41   CC    That 'll be after      your first    repressurization.
+
+              02 27 45    C    Say again.
+
+              02 27 47   CC    Okay.   Between your first and second repressuriza-
+                               tion, in that wait period, we want you to put your
+                               radiator to BYPASS and then to FLOW after you re-
+                               pressurize  the second time.
+
+              02 27 55    C    Roger.
+              02 28 28   CC    Okay.    We're   done with your Quantity         Read.
+
+              02 28 30    C    Roger.
+              02 28 44   CC    Okay.   We're not going to say anything to you on the
+                               ground.    If you need anything we'll wait.
+
+              02 28 46    C    Okay.   Listen, has Hoaston been advised yet that we're
+                               running a little late and we might not be ready at
+                               Hawaii.
+
+              02 28 55   CC    Okay.
+22                                                i
+02 29 09   CC   Ok::.y. Houston advised i:h:_tit'you are unable to
+                make it, take your exral/lat.[_ aad we'll pick it up
+
+
+02 29 16    C   Roger.    Understand     that.
+
+02 29 18   CC   Ail right.
+
+02 29 21    C   That's   what we want     to get clear.
+
+02 29 23   CC   Roger.
+
+02 29 37   CC   Okay.  You don't have to acknowledge t_is -- you're
+                in a 89.2 by 155 orbit and it's a 4.8 day lifetime.
+
+02 29 41    C   Roger.
+
+02 29 52   CC   Turn   your Right    Secondary     02 OPEN,    your    Left   Secon-
+
+                &sry   0 2 CLOSED.
+
+02 30 07   CC   Houston advises you can use any attitude                you want
+                for the Extravehicular Activity.
+
+02 33 52    P   There was no velcro put on the outdoor                16-mm   camera.
+                We sure could have used it.
+
+02 44 21   CC   Gemini   4, Houston     CAP COM.
+
+02 44 34   CC   Gemini   4, Houston     CAP COM.
+
+02 44 43   CC   Gemini   4, Houston     CAP COM.
+
+02 44 53   CC   Gemini   4, Houston     CAP COM.
+02 45 10   CC   Gemini   4, Houston     CAP COM.
+
+02 45 19   CC   Gemini   4, Houston     CAP COM.
+
+02 45 35   CC   Gemini   4, Houston     CAP COM.
+02 45 43   CC   Gemini   4, Houston     CAP COM.
+02 46 O0   CC   Gemini   4, Houston     CAP COM.
+
+02 46 16   CC   Gemini   4, this     is Canton    COM TECH.     Do you    read?
+
+02 46 33   CC   Gemini   4, this     is Canton C0M TECH.        Do you read?
+
+02 46 39    P   Go ahead,    Canton.     Gemini    4.
+02 46 41   CC   Gemini   4, this     is Canton.     Stand    by for Houston.
+
+02 46 46   CC   Gemini   4, Houston     CAP COM.        Do you read?
+
+02 47 10   CC   Gemini   4, this     is Canton    COM TECH.
+
+02 47 17    P   Gemini   4, go ahead.
+
+02 47 19   CC   Roger.  Houston asks your status             and asks    if there's
+                any change in your Flight P]an.
+                                                                                             25
+
+
+02 47 23      P   There is no change and we're G0 on EVA.   We have
+                  the ... cameras, the gun, all the equipment assem-
+                  bled, we're complt_ting the final suit ... checks,
+                  and I believe we'Ll be ready to go.
+02 47 37     CC   Roger.
+
+02 50 28     CC   Gemini     4, Hawaii       CAP COM.
+
+02 50 36     CC   Gemini     4, Hawaii       CAP COM.        Do you copy?
+
+02 50 38      C   Roger,     Hawaii.      Gemini       4.    I'm reading         you loud and
+                  clear.
+
+02 50 40     CC   Roger.      What    is your       status?
+
+02 50 42      C   3 ,and by 1.
+
+
+                                     HAWAII
+
+
+
+02 50 52      C   Hawaii,     Gemini    4.
+
+02 50 53     CC   Go ahead,     Gemini       4.
+
+02 50 54      C   Next     pass around.           Z don't    think    we want        to try it.
+02 50 56     CC   Roger.     Understand        -- neut pass         around.
+
+02 51 02     CC   Roger.     Gemini    4.      We're    happy       with   that.
+
+02 51 33     CC   Gemini    4, Hawaii       CAP CO_
+
+02 51 36      C   Stand by one.
+
+02 51 39      C   C'-_y, go ahead      Hawaii.
+
+02 51 41     CC   Roger.  Flight advises go back on normal suit cir-
+                  cuit until next rev. Then go back over Carnarvon.
+
+02 51 50      C   Roger.  That's       what we're           doing    right    now.     We   just
+                  couldn't quite       hack it.
+
+02 _l 52     CC   Roger.     Understand.
+
+02 53 47     CC   Gemini    4, Hawa_        CAP CO_         Standing       by.
+
+02   53 50    C   Roger.     We're getting back              into sort of a semi-
+                  normal    configuration here.               f_ything you need?
+02 53 57     CC   We have    nothing     for you.           I will    check with       Houston.
+
+02 54 00      C   Roger.
+
+02 54 23     CC   Gemini    4, Hawaii.
+02 54 25      C   Go Hawaii,    Gemini        4.
+24
+
+
+
+02 54 26       CC   Be advised      you'll probably bring up your computer
+                    over Texas      and they will give you a 4-4 load.
+
+02 54 53        C   Okay.    Very    good.
+
+02 54 55       CC   That's   all we have       for you.
+
+02 54 37        C   Thank you.       We'll   talk to you in about      an hour    and
+                    a half.
+
+02 54 41       CC   Roger.    Hawaii    out.
+
+02 57 05        C   Jim McDivitt.  Right now it's about T* 3 hours.
+                    When we came off the booster at SECO, we had rates
+                    of around half a degree a second.    I tried to damp
+                    them out and finally came off around SECO + 30 sec-
+                    onds.   It seemed that as we came off we might have
+                    come off with some other rates.   What do you think,
+                    Ed?
+
+02 57 36        P   Yes, we did.  I wasn't watching           as we   came   off, but
+                    it felt like we did come off.
+
+02 57 41        C   Yes, at spacecraft separation.  It seems to me we
+                    came off with some rates, the direction of which
+                    I couldn't really tell, but ...
+
+02 57 48        P   Felt like    we went     this way to me.
+
+02 57 51        C   Yes.
+
+02 57 52        P   We didn't    get a linear      type   forward   separation.
+
+02 57 56        C   Yes.
+
+02 57 58        C   As we got turned around, we came right on around,
+                    and found ourselves about 300 or 400 feet from the
+                    booster.  I guess that was about right, wouldn't
+                    you say?
+
+02   .58 08     P   Yes.
+
+02 58 lO        C   I thrusted toward the booster about 5 ft/see.    My
+                    separation burn was around the neighborhood   of 6 or
+                    7 seconds.   I thrusted at the booster for about
+                    5 or 6 ft/sec and then watched it as we were sepa-
+                    rating from it.    I thrusted about another 5 ft/sec.
+                    Looked like we started closing --we started closing
+                    from off to the side and at about 600 to 700 feet, I
+                    guess.   If you think any of these numbers are wrong
+                    just call out.
+
+02   59   50    P   No.
+                                                                          25
+
+
+        02 Q9 53   C    And then it looked like all apparent motion had
+                        stopped and we were probably closing. So I turned
+                        the spacecraft around and made an attempt to aline
+                        the platform. In the meantime.,the booster started
+                        dropping down below us at a rather obvious rate.
+                        So I gave up trying to aline the platform to line
+                        up and thrust down toward the booster, and I retro-
+                        fired slightly to slow down with it. Once again,
+                        it looked like our rates were stopped. But by now
+                        we had drifted out to about 1000 feet or so. We
+                        then tracked the booster across Africa pointing
+                        down at it all the way. We got in to sunset pretty
+                        quick and at s_mset I guess we were at about
+                        1200 feet, Ed?
+        02 59 _9   CC   Gemini 4, Houston CAP COM.
+        03 00 O0    P   Yes, we were in fairly close.
+        03 00 02    C   We were at 1200 feet and closing slightly.
+        03 00 09   CC   Gemini 4, Houston CAP COM.
+        05 O0 09    P   I'I1 get them.
+        03 O0 10    C   Go ahead, Houston.   Gemini 4.
+        03 00 15    C   As we went into nighttime we were .....
+        05 O0 17    C   Go ahead, Houston.   Gemini 4.
+        03 00 19   CC   Roger. Jim, you're going to be live as you make
+                        your pass across the States this time.
+        (WatchTimed)
+        03 00 24    C   Okay.   Anything in particular you wanted me to say? '
+        03 00 31   CC   Suit yourself.
+        O3 00 33    C   Okay.
+        05 00 39   CC   Hey, Jim. Could you give me an idea of ho-_much
+                        you --what was the ratio of your thruster use, how
+                        much you used your aft firing, and how much you used
+                        your forward firing thrusters back early in the
+                        Flight Plan?
+        03 O0 50    C   Yes. I'll give you percentage. I used the top
+                        thrusters down for about l0 or 15 seconds, I guess.
+                        I used the aft firing ones almost the entire time
+                        aside from that.
+
+        05 O1 13   CC   Roger. I copy. Ten or 15 seconds on the down, al-
+                        most all the rest of it on the aft.
+
+
+
+
+I   I      I
+      26
+
+
+      03 O1 18               C        Eight or 10 seconds              on the forward            firing         ones,   but
+                                      that's about all.
+
+      03 O1 21              CC        Roger.
+
+      (End of Watch          Timing)
+
+      O 3 O1 29               C       I might add that we have seen the booster.  It con-
+                                      tinues to circle around with us, but it's just too
+                                      far off to go get.
+
+      03 O1 33              CC        Roger.      Hey, would you check your                     ACQ aid         circuit
+                                      breaker     and make sure it's ON.
+
+      03 01 37                C       Make    sure that         it's OFF?
+
+      03 O1 38              CC         It's ON.
+
+      03 01 41                C       Okay.       It's OFF at this             time.      It's coming            back   ON.
+
+      03 O1 44              CC        Okay.       It's coming          ON.
+
+      03 O1 47                C        Negative.         It's coming          ON.
+
+      03 O1 49              CC        Roger.       ON.
+      03 O1 51                C        Righto.
+
+      03 02 09              CC         Hey,   Jim, you do have               your computer         ON, don't         you?
+
+      03 02 13                C        Negative.   I don't             have     it ON.        Do you want         it ON
+                                       at this time?
+
+      03 02 15              CC         Roger.      Turn       it ON.     We're        going    to give you a 4-4
+                                       time.
+
+      03 02 18                C        Okay.  I thought we were going                     to get         it later.
+                                       I'll turn it ON at this time.
+
+      03 02 23               CC        At PR_.&UNCH           Mode.
+
+          03 02 26            C        Roger.      PRw_AUNCH.
+
+          03 02 43           CC        Computer     light       is on.        We're     ready.
+
+          03 02 46           CC        Say again_        Jim.
+
+          03 02 47                C    I say, my computer              light     is on.        We're      ready.
+
+          03 02 49           CC        Roger.
+
+          03 03 04           CC        I think you did a smart                  thing back       there.
+
+          03 03 08                C    Yes, Gus.   It would have been a short                            flight      if we'd
+                                       kept chasing that mother around.
+
+          03 03 12           CC        Yes.  Sounds like you've been                     awfnlly         busy    the first
+                                       couple of orbits_ you know.
+
+
+
+
+-ii   i        ---E ...........               '           I                  ' Iii_            I _1
+                                                                                                  ....           1      "      I I   --
+                                                                                                                                                  27
+
+
+             03 03 17          C              It would have been impossible.                                   We wm_ld         never            have
+                                              done the EVA at all.
+
+             03 03 29          C              We're finally getting                         a change          to look      out here,               Gus,
+                                              and it's really nice.
+
+             03 04 16         CC              Hey, Jim.  Jim, this                        is Houston.            Hey,      Gemini           4,
+                                              Houston CAP COM_
+
+             03 04 24          C              Go ahead,                 Houston.         Gemini        4.
+
+             03 04 26         CC              How about                 describfng the way the                  cockpit         is laid            out
+                                              now, with                 all of your gear out?
+
+             03 04 35          C              Okay.  Well, we've got to the                                  get-out position here,
+                                              and when we finally called it                                  quits it was obvious
+                                              that we weren't going to make                                  it at that time with-
+                                              out really rushing.  I didn't                                  want to do that.
+
+             03 04 44         CC              Roger.
+
+             03 04 46           C             Ed has most of the equipment on him right now.    I've
+                                              got the gun and the camera and the hatch fitting, the
+                                              fitting to tie the two suit hoses together.   Ed has
+                                              all the ocher paraphernalia  on him right now, but he's
+                                              on the suit circuit.   He's got the Repress valve OFF
+                                              and we're Just about all set to go.   I think when we
+                                              get about over Africa we're going to go through the
+                                              checklist again, and when we get to Carnarvon we'll
+                                              be all set.
+
+             03 05 22         CC              Roger.          Have         you taken         any pictures            yet?
+
+             03 05 25           C             No.  As a matter                      of fact,       we really         haven't          had time
+                                              to do much.
+
+             03 05 28         CC              You haven't                 had any time yet,                  have you?
+
+             03 05 30           C                 It's a nice             spacecraft         though,          Gus.
+
+             03 05 35         CC              Good.  Do you have                        the Shut-off           valve       on the           chest-
+                                              pack CLOSED?
+
+             03 05 40           C             Roger.           It is.
+
+             03 05 41         CC                  Okay.
+
+             03 05 44            C                Okay, did we get an update                           then?
+
+             03 05 57         CC                  Roger.       It got in okay.
+
+             05 06 21         CC                  Gemini      4.         Gemini         4, Houston.
+
+             03 06 35         CC                  Gemini      4, Houston.
+
+             03 06 45         CC                  Gemini      4, Houston.
+
+             03 07 l0         CC                  Gemini      4, Houston                CAP COM.
+
+
+
+
+I   -'   i              I I   .... ---   I'   '           I        --       '   I --'              I    If             I    _   I i   -II    I            T
+03 07 13    C   Go ahead,    Houston.           Gemini    4.   Do you read now?
+
+03 07 19   CC   Roger, I lost you there for a minute.   Say, you
+                never did start to decompress, did you?
+
+03 07 22    C   Say again.
+
+03 07 24   CC   Did you ever       start    decompressing?
+
+03 07 26    C   Negative.        We never       started    decompressing.
+
+03 07 28   CC   Roger,   understand.
+
+03 07 48    C   Houston CAP COM, this             is Gemini       4.     Looks    like we're
+                over Texas now, huh?
+
+03 07 93   CC   You   say you're     coming       right    over    Big T?
+
+03 07 56    C   Roger    .....
+
+03 07 58   CO   See any of it?
+
+03 07 99    C   Sure can.        We're    coming    over the Gulf          right       now.
+
+03 08 05   CC   Right over G_I_, huh?              Has your weather             been    good
+                around the orbit?
+
+03 08 10    C   Frankly, we haven't             really    had time to look             out too
+                much .....
+
+03 08 17   CC   Roger.     Can you       still    see the booster?
+
+03 0_ 19    C   I don't even       kn_     where    it is right          now,    Gus.
+
+03 08 21   CC   Roger.
+
+03 O_ 23    C   We saw it just as we went into darkness.                          We    stayed
+                with it all through the darkness .....
+
+03 08 51   CC   You're   getting     awi_lly       garbled.
+
+03 08 33    C   Roger.   I say again.  We            saw it when we were in the
+                darkness, but we haven't             seen it since we came back
+                out into the light.
+
+03 08 39   CC   Roger,   understand.            You saw it on the dark             side.
+
+03 09 08   CC   Gemini   4, Houston        CAP COM_
+
+03 09 l0    C   Go ahead,    Houston.           Gemini    4.
+
+03 09 ll   CC   Roger.     We just       switched    remote.           Is Ed still       there?
+03 09 16    C   Yes, he doesn't          like    to talk,      I guess.
+
+03 09 21    P   I'm sitting       here    enjoying       the view.
+
+03 09 24   CC   Roger.   Do you get pretty               heated    up getting          all that
+                gear ou?
+
+03 09 27    P   I got ... we got pretty warm.
+                                                                                              29
+
+
+03 09 30    CC       How     do you feel now?
+
+03 09 31     P       Fine.
+
+03 09 32    CC       Good.
+
+03 09 51    CC       You guys had any water             to drink       yet?
+
+03 09 53     C       Negative.
+
+03 l0 04    CC       Hey, Jim, we figure the booster ought to be about
+                     32 miles ahead of you and 5 miles below you at this
+                     time.
+
+03 l0 l0     C       Thirty-two       ahead    and 5 below.
+
+03 l0 12    CC       Roger.
+
+03 l0 29     P       We've got quite a good view of the whole                        state    of
+                     Florida, and we're passing over it now.
+
+03 10 34    CC        You've    got Florida      in sight,      huh?
+
+03 l0 35     p       _te can see it from the top to the bottom.
+
+03 l0 39    CC       Very     good.
+
+03 10 43     P        In fact, we're lookfng            right down at the Cape               now.
+                      You can see the launch            complexes down there.                It's
+                      quite clear.
+
+03 I1 06    CC        Hey,    Jim.    Gemini    4.
+
+03 11 Il     C        Go ahead.
+
+03 Il 14    CC        We'd like for you to turn your cabin heat exchanger
+                      ON until you get ready to decompress.  And the fan.
+
+03 11 20     C        Roger.      We're not getting           hot if that's       what   you're.
+                      worried     about.
+
+03 11 26    CC        Cabin    temperature      is getting       up a i       tie.
+
+03 11 28     C        Okay.
+
+03 Il 44     C        Houston     CAP COM,     Gemini    4.
+
+05 12 46    CC        Go ahead.
+
+03 12 51    CC        This     is Houston.      Go ahead.
+
+03 12 52     C        Roger.      How about     turning       the computer        OFF again?
+
+03 12 57    CC        AffiL_uative, turn        it OFF.        Don't     forget    to drink
+                      some water now.
+
+03 13 06     C        Yes.      Can we turn the computer             OFF?
+
+03 13 08    CC        Roger.      Turn   the computer         OFF.
+
+ 03 13 28        C    Houston.        Gemtui   4, do you read?
+03 13 30   CC   Roger,   we read you.     Go ahead.
+
+03 13 32    C   Roger.    How about    turning    the computer       OFF?
+
+03 13 34   CC   Roger,   turn   OFF the computer.'
+
+o3 13 37    c   Okay:
+03 15 54   CC   Gemini   4, Houston    CAP COM.
+
+03 15 55    C   Go ahead,   Houston.     Gemini     4.
+
+03 15 56   CC   Hey, your cabin temperature  came down               l0° since
+                you turned your heat exchanger ON.
+
+03 16 02    C   Roger.
+
+03 16 29   CC   Gemini   4, Houston.
+
+03 16 33    C   Go ahead,   Houston.     Gemini     4.
+
+03 16 34   CC   As you cone over Ascension I want to try to give you
+                a check there.   The air-ground  remote hasn't worked
+                too wel'i today but we sure would like to get that
+                one up.
+
+03 16 41    C   Roger, we'll     be waiting.
+
+03 16 44   CC   Roger.
+
+03 16 45    C   Would Mou advise,      we've     both    had a drink,    and     I had
+                10 swa] lows.
+
+03 16 51   CC   Roger.
+
+03 27 42    P   We've got another sighting on the booster.  It looks
+                like it's Just about horizontal with us and right
+                straight out in front of ut.
+
+03 27 48    C   Sm_l]-end-forward.
+
+03 27 49    P   We are going small-end-forward             and it looks        like   it's
+                very close to our orbit.
+
+03 27 58    C   And it's at about       3:28 elapsed       time.
+
+03 29 48    P   The lights on the booster          are still       blinking.      I can
+                see them at this time.
+
+03 34 00    C   We're just at 3+24 right now.    Just going into dark-
+                ness.   The sunlight has been shining on the nose of
+                the spacecraft with small-end-forward,    just about.
+                Actually, we're 300 left of being straight ahead,
+                sma1 ]-end-forward.   And the way the sun was shining
+                on the edge of the booster .... spacecraft was
+                causing a reflection,   just like someone had a mirror
+                there and was shining it straight ahead.
+                                                                    51
+
+
+03 34 34    P   Yes, that's what ..... that last time, Jim.
+03 34 41    C   A bunch of thunderstorms out on the horizon.
+03 34 51    C   Okay. We get to Carnarvon at 3:58. That's when
+                we're going to get our GO. We start our depres-
+                surization right there. What we're going to do is
+                that we're going to open the Repress, tighten your
+                helmet, .....
+05 55 17    P   We've got one thing left to do in the steps.     We've
+                got to take these off, Jim.
+03 35 20    C   Take what off?
+05 35 P_l   P   The suit pressure lines and put them on the inter-
+                connect.
+
+03 55 25    C   Yes, that's not yet though .....
+03 35 28    P   Do you have the interconnect over there handy?
+03 35 R9    C   Yes, I've got it right here.
+05 35 50    P   Okay.
+05 55 51    C   This is in the egress.
+03 35 51    P   A]I right.
+03 35 32    C   When we start at Carnarvon.
+03 35 34    C   Open the Repress Valve. Okay, this is what we're
+                going to do. Helmet tied on?
+03 55 38    P   Yes.
+03 55 40    C   Right Suit Flow Control OFF?
+05 35 45    P   Right.
+03 35 46    C   Disconnect inlet and outlet ECS hoses.   Remove your
+                interconnect.
+
+03 36 14    C   0kay_ let's see. Remove the interconnect. Inter-
+                connect the two ECS hoses ... by your elbow.
+03 56 24    P   Okay.
+
+05 56 24    C   Pack Primry     02 OPEN.
+03 36 28    P   Roger.
+03 36 29    C   Not yet.
+05 36 30    P   No.
+05 56 53    C   EVA k_mergencyShut off OPEN.
+05 36 36    P   Roger.     Check the FLOW.
+32
+
+
+
+03 36 37   C   Check    the emergency       FLOW    and then back      to CLOSED.
+
+03 36 38   P   Roger.
+
+03 36 40   C   Recheck    your    suit,    your pack,      and tether.
+
+03 36 42   P   Roger.
+
+03 36 43   C   Recheck your face-plate  closed and locked.  Helmet
+               locked, gloves on, inlet-outlet  "Y", and ECS hoses
+               free.  And then I'll have a Command Pilot Suit Check,
+               which I've already done ..... on to check the flow.
+               Hatch lock OPEN.   Then you've got your other things
+               to check.  When we actm,Ally start the Depressuriza-
+               tion Mode, Cabin Vent valve go to 2 psi, then we
+               close the vent valve.   Then we install both blood
+               pressure pump plugs, which I don't seem to be able
+               to find.
+
+03 38 09   C   Gee,    I don't even       have    one on mY suit.
+
+03 38 07   P   I don't    have    one eitherl       Jim.
+
+03 38 l_   C   Swell.
+
+03 38 18   P   Aw, baloney.
+
+03 38 23   P   I sure don't       see one.
+
+03 38 30   C   Nope,    I don't    have    one.
+
+03 38 31   P   I don't    either,    ,,nless it's up under           mY cover.
+03 58 42   C   No, you don't       have    one, Ed.'
+
+03 38 4_   P   The hole's    not big       enough    but still   you ought       to
+               have one.
+
+03 38 50   C   Right.
+
+03 39 O0   P   Neither of our suits          have the blood      pressure    cuff     -
+               blood pressure plug
+
+03 39 07   P   And we just had a very             pretty   moonset.
+
+03 39 O0   C   Just a cas,,-1 con_ent here.  We looked out and
+               thought we saw the horizon.   It turned out, it was
+               obviously air glow.   We could see the stars well be-
+               low its edge.
+
+05 49 l0   C   We'll talk about       this       some more   later    when we get
+               more time.
+                                                                                                             33
+
+
+     03 50 07     P    We noticed the old familiar pulsing in the suits
+                       when we had the RECIRC closed all the way down and
+                       our dampers that time were open full in both suits.
+                       It was the same type of a pulsation that occurred
+                       in altitude chamber and which was, I believe, du_
+                       plicated in the testing.
+
+     02 90 33     P    Cabin pressure seems to hold around 4.8 to 9.0,
+                       right on the bottom.  Also, our Left Secondary Oxy-
+                       gen is pretty high, looks like it's up around 5400.
+                       Been that way ever since we started.
+
+
+                                          CARNARVON
+
+
+
+      03 97 34    CC   Gemini       4, Carnarvon           CAP C0_
+
+      03 57 36     C   Go ahead,          Carnarvon.         Gemini      4.       How do you read?
+
+      03 57 38    CC   Loud and clear.  Will you turn you cabin                                fan OFF,
+                       heat exchanger f1_11 _arm?
+
+      03 97 4_     C   Carnarvon,          Gemini     4.
+
+      03 97 46    CC   Gemini       4, Carnarvon           CAP COM.
+
+      03 97 90    CC   Gemini       4, Carnarvon           CAP COM.          Over.
+
+      03 97 59     C   He11 o, Carnarvon.              Hello_       Carnarvon.            Gemini      4.
+
+      03 58 O1    CC   Gemini       4, Carnarvon           CAP C0_
+
+      03 58 04     C   Roger,       Carnarvon.         Gemini       4.       How do you read?
+
+      03 98 07    CC   Loud      and clear.         How me?         Over.
+
+      03 58 08     C   Loud      and clear.
+
+      03 98 l0    CC   Roger.    Will you turn your                  dabin        fan OFF.          Heat
+                       exchanger    full warm3
+
+      05 58 19     C   Roger.
+
+      03 58 18    CC   Rcger.        We'd       like a blood        pressure           from   the Command
+                       Pilot.
+
+      03 98 30     P   The cabin fan does give a noticeable squeal when
+                       it's on.  I notice now that the fan is off.  I
+                       notice a definite decrease.
+
+      03_ 58 3_   CC   What's       your    status     on EVA?
+      03 98 37     C   The       status    is GO for EVA.
+
+
+
+
+·   ,.....                   ,             .-                IIII        ----i-   i'          -II      I I    I-i   I
+        34
+
+
+        03 58 39           CC       Okay.   You're GO for EVA from here.    Stand by for
+                                    decompression  -- correction, depressurization.   Can
+                                    you give us a blood pressure?    On the Command Pilot?
+
+        03 58 43            C       The    status       is GO for EVA.
+
+        03 58 45            P       The cabin appears to be venting at about 5.3.                            Just
+                                    heard the vent valve going .... for Eee Vaa.
+
+        03 58 49            C       Roger.  I'm going              to try to give you a blood            pressure
+                                    right now.
+
+        03 58 51           CC       All    right.
+
+        03 59 15           CC       Okay.        Keep    coming,      it's coming    up.
+
+        03 59 24           CC       You are. up to full-scale.
+
+        03 59 37           CC       Can you give me about               l0 seconds    on your      Quantity
+                                    Read switch, please?
+
+        03 59 57            P       _ntity            Read   is ON.
+
+        03 59 58           CC       Roger.
+        04 00 08            P       Quantity          Read is OFF.
+
+        04 O0 l0           CC       Roger.
+
+        04 00 16           CC       Okay.        We    got a good blood       pressure     from you.
+
+        04 O0 19           CC       Your    Right       Secondary      02 should    be OPEN and your
+
+                                    Left    Secondary            02 should be CLOSED.
+
+        04 00 26            P       That    is affirmative.  That's the configuration.                            The
+                                    left    is CLOSED; the right is OPEN.
+
+        04 00 31            C       We have       a GO to start          decompression,        is that   right?.
+
+        04 00 34           CC       That's       affirmative          for decompression        and a GO for
+                                    EVA.
+
+        04 00 37            C       Roger .....         call again       near Hawaii.
+        04 00 41           CC       Roger.        Very good.
+         04 01 02          CC       We'd     like for you to turn your Quantity Switch                       to
+                                    READ     from now on until the end of the EVA.
+
+         04 01 07          CC       Okay.         I got      it on.
+         04 O1 l0          CC       I'll be standing by here                on the ground        and keep the
+                                    conversation  down.
+
+         04 O1 13               C   Roger.
+
+         04 O7 21               P   Okay.
+
+         04 07 24               C   Hatch        lock OPEN.
+
+
+
+
+I   I        i .........                     I               I             i,            I I             I     II       --
+                                                                                     55
+
+
+04 07 29/   P   Hatch locks       are OPEN.
+
+04 07 30    C   Okay.
+
+04 07 33    C   Don your     other   thermal       gloves.      I guess   you got one
+                of them.
+
+04 07 38    P   The thermal       gloves    didn't    work    out too bad_    Jim.
+04 07 42    C   Yes.     Okay.    We're    going    to vent     the cabin now.
+
+04 07 43    P   Yes.
+
+04 07 45    C   Two psi.   Did you get that, ..... Ed?  We're going
+                to close vent valve and we're going to check those
+                blood pressure readings that we have.     We're going
+                to check the suits for leaks at 2 psi.     Check yours
+                to make sure that suit .... one.    Okay?
+
+04 08 00    P   Ready    to go.
+04 08 09    C   Hear    the valve?
+
+04 08 l0    P   Roger.
+04 08 12    C   Carnarvon,       do you still       read Gemini     4?
+04 08 22    C   Are we .....
+
+04 l0 45    P   Okay.
+
+04 l0 48    P   I hear it -- I'll keep mine...where do you...oh,                     you
+                want mine?  A]] right_ I'm sorry_ Jim.
+
+04 l0 50    P   All right.
+
+04 10 53    C   Okay.
+
+04 l0 55    P   Roger, we're in a vacuum now and the right                   suit is .
+                holding at 4 and the flow is satisfactory.                    I'm not
+                overly warn_
+
+04 ll 02    C   Okay.  We've got the cabin vent valve open ......
+                cabin at zero.  Time to unlock the hatch.
+
+04 ll l0    P   Roger.     Time    to unlock       the hatch.
+04 lll2     C   .....
+
+04 ll 17    P   Well_ the thing about          it_ I've got to do something
+                with the cabin .....
+
+O4 ll 21    P   Okay.
+04 ll 24    C   What are we going          to do with    ..... ?
+
+04 ll 26    P   Hold    on to it, cause       I can't    .....     it.
+04 ll 29    C   .....
+56
+
+
+04 11 50   C   What's the matter?    Isn't it working?
+O4 11 53   P   Uh huh.
+04 11 55   p   ..... work up here.
+04 12 02   C   ..... unlocked .....
+
+04 12 05   P   Yes, I know they're _mlocked.
+04 12 07   P   I'Il look again.
+04 19 09   P   That's why I had these gloves m_de this way so I
+               could take them off.
+
+04 12 12   C   Right.
+04 12 17   C   ..... you're staying up with it, buddy.
+O4 12 19   P   What?
+04 12 24   P   That's up.
+04 12 26   C   Say again.
+04 12 28   P   They're both on UP.
+04 12 31   C   Okay.
+04 12 45   C   Now you have .....
+04 12 55   P   I know it.
+04 13 07   P   Three cycles.
+04 13 08   C   Okay, let me stand by for a minute here and get the
+               ..... controls.
+
+04 13 29   P   ..... to LOCK so we can get on it.    Okay now, that's
+               working.
+04 13 53   C   Take it easy, Ed ......
+04 14 09   C   Woke up?
+04 14 ll   P   Yes, just wait a minute.
+04 14 14   C   Yes, but listen, don't you ..... Stand by one, Ed.
+04 14 18   P   Are they doing anything?
+           C   -----
+
+
+
+04 14 19   P   Are they moving?
+04 14 22   C   No, they're not moving a bit.
+04 14 24   C   Think we're .....
+
+04 14 32   P   Hold these a minute, will you?
+                                                                                     37
+
+
+04 14 36   C   Just take it easy.            If we don't       make    it this   time,
+               we'll make it next           time.
+
+04 14 38   P   Roger.         Next time around.
+04 14 41   C   Or tomorrow.
+
+04 14 43   C   You can't        see too well with       that visor       on either_
+               can you?
+
+04 14 56   P   They're    both     on UNLOCK.
+
+04 15 l0   C   .....
+
+04 15 17   P   Are they        moving,    Jtm?
+
+04 15 19   C   Stand by.         I can't    see .....
+
+04 15 27   C   Negative,        it looks    like they're       not moving    at all.
+
+04 15 43   P   Looks    like     that    thing, isn't moving.
+
+04 15 45   P   I'll    take     it easy a minute.
+
+04 15 48   C   Yes, no        sweat.
+
+04 16 08   C   You know, it's a good thing              we can't       get it open
+               and not close.
+
+04 16 l0   P   Yes.
+
+04 16 15   C   Let's     not leave       it OFF.
+
+04 16 17   P   I'm on LOCK        now.
+
+04 16 24   C   Where 're you going?
+
+04 16 33   P   This     is the fi _c       time    it's ever failed       this way.
+
+04 16 36   C   Sure     is.
+
+04 16 39   C   No it isn't either.               It failed   that way up at
+               McDonnell.
+
+04 16 42   P   So that        it wouldn't    move    at all?
+
+04 16 43   C   Yes.
+
+04 16 45   P   So it was        just free swiveling.
+
+04 16 48   C   Yes_ it -- I know what             the trouble    is.     It's a spring
+               pushing it back.
+
+04 17 O0   C   I think        it w_ll be all right.
+
+04 17 0_   C   Let me go to MANUAL           and .....
+
+04 17 30   P   I got it, Jim.
+
+04 17 31   C   Wait a second.
+
+04 17 33   P   Okay.
+3_
+
+
+04 17 36     P   You got it?
+04 17 37     C   Yes, I got it.
+04 17 39     P   All right.
+04 17 40     C   Okay, now make sure you get that mother back on.
+04 17 43     P   Back in LOCK_
+04 37 44     C   All the way?
+04 17 45     P   Yes.
+04 17 48     C   Okay.    You got it LOCKED, U_vz_L_<ED
+                                                      all the way then?
+04 17 50 .   P   Yes, I do, JiM
+04 17 53     P   They're all back in LOCK now?
+04 17 56     P   Okay.    I'm gotng to take it easy now.
+04 18 OO     C   Yes, do that. Now, I want to get the spacecraft
+                 right-side up and leave that last .....
+04 18 04     P   What a viewl     By golly.   You can see the black sky
+                 up above.
+04 18 lO     C   Okay, Just a second.     Let me get the spacecraft
+                 where I want it.
+
+04 18 12     P   A11 right.
+04 18 17     P   Door's a little harder to move than I thought.
+04 18 21     P   Yes.
+04 18 28     P   It sure is clear and crystal smooth.
+04 18 33     P   Are we on VOX, Jim?
+04 18 36     C   Something Just fe]1 out.
+04 18 38     P   It was a bolt.
+04 18 41     C   No, it was a big white thing.
+04 18 43     P   It's my ..... it's adrift probably, huh?
+04 18 44     C   What?
+
+04 18 45     P   It's my lanyard.
+04 18 48     C   No, I thought I saw it floating away .....
+04 18 51     C   Oh, yes.     You can.....
+04 19 OO     P   Okay, my visor's down.
+04 19 12     C   Okay, take it easy.
+ 04 19 14    P   Right.
+            /
+
+04 19 19    /   C   .....
+
+'' -2 _         i   2':::
+                        gJing       3ut there       t_ install         t!.e :'_neI_s, ii:',.
+
+04 19 36        C   Okay.
+
+04 19 41        P   The    sun's    very bright          back   this way.
+
+OL 19 43        C   Is it?
+
+04 19 45        P   Yes.
+
+04 19 46        C   ..... your        visor.
+
+04 19 48        P   Got my visor         down.
+
+04 19 50        C   Your    foot.
+
+04 19 52        P   Huh?
+
+04 19 55        C   You're     going      to have    to watch      your    foot.
+
+04 19 57        P   Okay.
+04 20 O0        P   You    see,    I have       to turn all around         to do this,     Jim.
+
+04 20 0'2       C   Yes,     I know.
+04 20 04        C   Just    move    it all over the equipment                  there.
+
+04 20 05        P   All    right.
+
+04 20 17        P   I can see your thrusters                firing.
+04 20 24        P   We're    taking       some pictures         now.
+
+04 20 36        P   Am    I clobbering          the switches,      Jim?
+
+04 20 38        C   Yes,    you're       really    all over      'em, Ed.
+
+04 20 41        P   Okay.      Hand      me the umbilical         guard.
+
+04 20 45        C   Take     it easy now.          You sound      like    you're    pulsing.
+
+04 20 49        P   No,    I'm in good          shape.
+
+04 20 50        C   Listen,       hold    it.     Hold it.       Hold    it.
+
+04 20 55        P   You got it through?
+
+04 20 56        C   No, hold       on.
+04 21 00        P   Roger.        Got plenty       of time.       Boy!     Oh, boy_     Oh, boy!
+
+04 21 02        C   Pretty     neat,      huh?
+
+04 21 03        P   Yes,     it's somethir_)
+04 21 05        C   Think we're T/M ..... Here, I got one of your                        gloves
+                    ..... I got both of your gloves.
+
+04 21 0/9       P   Yes,     I don't      even need them         right    now.
+               40
+
+
+
+              04 21 17     C   Okay .....       the T/M.      _:ey're           calling        back     now.
+
+              04 21 29     P   7,_ '01_? T -,
+                                         ,_.,n_v, says,                     : !:.? s          'e work    o_, _n
+                                                                                                          _.
+                               space.         It isn't     very much,          but i'm doin E something.
+              04 21 33     C   Pretty     black    out there,          isn't          it?
+              04 21 56     P   Yes.
+              04 21 38     P   Okay,     I turned     the camera          off,         so I would        save        it.
+              04 21 47     P   Oh, I just knocked            it off the mount.
+
+              04 21 48     C   Did you?
+
+              04 21 50     P   Yes,     I'll go back       and get         it.
+
+              0'4 21 99    C   Tell me.         How do you llke this glass?
+
+              04 21 57     P   That's     fine.
+
+              04 22 02     P   You know, I'm kinda glad                 I got the visor                 on    .....
+                               for the work I'm doing.
+
+              04 22 07     C   Pretty     bright?
+
+              04 22 09     P   Well,     I'm looking       right       into it.
+
+              04 22 17     C   Your     Jiggling    around    actually                moves    the spacecraft.
+              04 22 19     P   Does     it?     I can see it pulsing.
+
+              04 22 29     P   Okay.      I'm going       to feed the umbilical                   out.
+
+              04 22 31     C   Okay.  Be careful you don't                     trip         some of the switches.
+                               Let me give it to you.
+
+              04 22 37     P   Okay.      Feed    her out slow.
+
+              04 22 43     C   Okay.      I 'ye got .....
+
+              04 22 48     P   A]I     right.
+             04 22 55      c   .....                                                                                              ·
+
+                                                  HAWAII
+
+
+
+             04 23 03     CC   Gemini     4, Hawaii       CAP COM.
+
+             04 23 14      C   Hawaii,     do you read Gemini               4?
+             04 23 17     CC   Gemini     4, Hawaii.
+
+             04 23 19      C   Hello, Hawaii.            Hello,    Hawaii.              Gemini    4.     How do
+                               you read?
+
+             04 23 22     CC   Roger.  Read you loud and clear.                             Can you give           us
+                               a status on your decompression?
+
+
+
+
+- '   '   - ........                                               i   ii i .......         F I              ii ...... i-]---'i
+                                                                                                41
+
+
+
+ 04 23 24        C    We're going to put you on RECORD                   so the whole         world
+                      can hear this later on.
+
+ 04 23 26        P   All    right.
+
+ 04 23 28        C    Hawaii,    Gemini      4.     Do you read?
+
+ 04 23 30        C   You're on RECORD.   We're on CONTINUOUS                      INTERP_0NE-
+                     PL_H TO TALK.   Still on UHF.
+
+04 25 30    CC       Gemini 4, Hawaii             CAP COM.     Read     you loud and clear.
+                     How me?
+
+04 23 5P         C   Very     good,   Ed.        Very good.
+
+04 25 58    CC       Gemini     4, Hawaii         CAP C0_      Do you read?
+
+04 25 59     C       Stand by       one.
+
+04 24 40    CC       Gemini 4, Hawaii CAP COM_  Read you loud                        and clear.
+                     What is your status on decompression?
+
+04 24 46     C       Hello,     Hawaii,     Hello,     Hawaii.        Gemini   4.     Do you
+                     read?
+
+04 24 51    CC       Gemini 4, Hawaii            CAP COM.     Read     you loud      and   clear.
+                     How n_?
+
+04 24 54     C       Loucl and clear. We're               on VOX.      I guess      you aren't
+                     getting us on VOX.
+
+04 24 57    CC       Roger.      We just now received            you.     What      is your
+                     status     on decompression?
+
+04 25 02     C       Got the outside 60-mm            camera mounted,          and he's
+                     getting the gun ready            right now.
+
+04 25 09    CC       Roger.   I understand.               Can you give     us a reading         on
+                     emergency 02 ?
+
+04 25 16    CC       Did you copy,         Gemini    4?
+
+04 2_ 18     C       Roger.     You mean the emergency               02 in Ed's      bottle?
+04 25 21    CC       Affirmtive.
+04 25 22     C       This   one's     full and      .....
+
+04 25 25     P       It's 34 right         now     (3400 psi)
+
+04 25 26     C       It's 34 right         now.
+
+04 25 30     C       Say something.
+
+04 25 31     P       It's 34 right now.             Hasn't    changed    a step.       How do
+                     you read?
+
+04 25 36    CC       Roger.     Read you loud and clear               Pilot.     How me?
+_.2
+
+
+
+04 25 36    P   Outside    the spacecraft,          as a _      _r    of fact.
+
+04 25 42   CC   Roger.     Understand.
+
+04 26 07    C   Roger.   He has the hatch            open.     i{e's standing            in
+                the seat.
+
+04 26 11   CC   Roger.  Understand.   Houston will give                     you a GO or
+                NO GO to exit spacecraft over Guaymas.                       Did you
+                copy?
+04 26 26   CC   Gemini    4, Hawaii       CAP COM.
+
+04 26 28    C   Go ahead,       Hawaii,    Gemini    4.
+
+O4 26 30   CC   Roger.  Did you copy my last?   Houston will give
+                you GO-NO GO to exit spacecraft over Guaymas.
+
+04 26 36    C   Roger.     Everything       looks    good    here.     What    do you
+                think?
+
+           CC   We're    happy    with    it.
+
+04 26 42   CC   Everything       looks    good   on the ground,        Gemini       4.
+
+04 26 46    C   Very    good.
+
+04 27 19    C   Our ECS is still good.              It's reading still 50 per-
+                cent.  Looks like we're             not even using any.
+
+04 27 26   CC   We   concur     on the grolmd.
+
+04 27 31    C   When he's moving around out there,                   he's    really      rock-
+                ing the spacecraft around.
+
+04 27 35   CC   Roger.     Understand.
+
+04 28 ll   CC   Gemini    4, Hawaii       CAP COM.
+
+04 28 13    C   Go ahead,       Hawaii.     Gemini    4.
+
+04 28 14   CC   Roger.  We just had word from Houston.  We're ready
+                to have you get out whenever you're ready.   Give l_z
+                a mark when you egress the spacecraft.
+
+04 28 25    C   Okay.     We've    got our GO now.           Is that    right?
+04 28 26   CC   Affirmative.
+
+o4 28 27    c   Okay.
+
+04 28 39   CC   Be sure and give us a mark when                he eggresses.
+04 28 43    C   Okay.     We're    still    doing    a little    work       right    here.
+
+04 28 45   CC   Roger.     Understand.
+
+04 29 14    P   All right.
+                                                                                      43
+
+
+04 29 21     C   You're    in RECORD and CONTINUOUS INTERPHONE-P_H                    TO
+                 TALK.     I'm on UIIF. How are you doing?
+
+04 29 24     P   I'm in good      shape.
+
+04 29 25     C   Okay    .....
+
+04 29 28    CC   Gemini    4, Hawaii      CAP COM.     What   is your      status   now?
+
+04 29 30     C   Roger.  We're about ready to start getting out.
+                 Ed just got one of h_s gloves back on. He'll put
+                 another one on and then he'll be ready to go.
+
+04 29 33     P   I'm not going      to carry      it, Jim.       I don't   need     it.
+
+04 29 38     C   You're    not going      to carry     it?
+
+04 29 40     C   Okay.  We're      all set, Ed, right         now.    Ready    to go
+                 out slowly.
+
+04 29 41    CC   Can you repeat,         Gemini   4?
+
+04 29 43     P   Yes.
+
+04 29 44     C   Listen, do you want me to get the spacecraft                     in any
+                 other attitude or does this look okay?
+
+04 29 48     P   Looks    okay,   Jim.
+04 29 50     C   Okay.     I'll tell you when.
+
+04 29 50    CC   Gemini 4, Hawaii         CAP COM.     Can you repeat        your    last
+                 transmission?
+
+04 29 52     P   I'm ready.
+
+04 29 53     C   Okay, stand by one.  I want to get my timer set.
+                 I'll give you a GO in just about 2 minutes - or less.
+
+04 29 59    CC   Gemini    4, Hawaii      CAP COM.      Do you    copy?
+
+04 3 © O0    P   I'm going to have to let the camera                 run out because
+                 it's too hard to work.
+
+04 30 02     C   Okay,    just a second.
+
+04 30 06     P   Ready.
+
+04 50 07     C   Okay, go ahead.
+
+04 30 ll    CC   Gemini    4, Hawaii      CAP COM.      Do you copy?
+04 3 © 19    P   Okay.     I'm separating         from the spacecraft.
+
+04 30 21     C   Okay.  He's separated            from the spacecraft        at this
+                 time, Hawaii.
+
+o4 3o 25     c   .....
+04 30 26     P   Okay.     My feet are out.
+44
+
+
+04 30 27   C    Okay.     His feet are out.
+
+04 30 29   P    I think I'm dragging a little              bit,      so I don't     _ant
+                to fire the gun yet.
+
+o4 30 33   c    .....
+04 30 36   P    Okay.     I 'm out.
+
+04 30 38   C    Okay.     He's   out.     He's    floating     free.
+
+04 30 48   P    Okay.     I put a little         roll   in, took      it right    out.
+
+04 30 50   C    Very good.
+
+04 51 00   P    Am   I in your view,       Jimbo?
+
+04 51 02   C    Well,    you know      I can't    see .....
+
+04 51 04   P    Don't    sweat   it.     I'll come to you.
+
+04 31 12   C    0opsl  There      goes your       glove.     Well,     we'll   Just let
+                it go.
+
+04 31 14   P    A11 right.
+
+04 31 19   ?    Okay.   I rolled off and I'm rolling to the right now.
+                Under my own influence.   There goes a -- looks like
+                a thermal glove, Jim.
+
+04 31 26   C    It is, Ed.
+
+04 31 28   P    All right.  Now, I've come above                the    spacecraft     and
+                I'm under my own control.
+
+04 31 4_   P    It really     looks     funny    to see my glove        out there,        Jim.
+
+04 31 48   C    Does    it?
+
+04 31 50   P    Yes.     Okay,   I'd better       get over.        Okay,   I'm coming
+                over.
+
+
+04 32 00   C    Okay.     Stand by.
+
+04 32 02   P    See me yet?
+
+04 32 04   C    No, sure don't.
+
+04 32 05   P    Huh?
+04 32 07    P   Oh, there you are.          I can spin around           now.
+
+04 32 12    C   Okay.  Just _ second.             You're     right    in front,     Ed.
+                You look beautiful.
+
+04 32 16    P   I feel like a million dollars.   Ali right we'll                      pitch
+                up and yaw left.   I'm coming back to you.
+
+04 32 16   CC   Gemini    4, Houston      CAP COM.
+
+04 32 24    C   Stand by.        I get the swizzle         stick     out of here.
+                                                                                       45
+
+
+04 32 25   CC   Gemini    _, Houston       CAP COM.
+
+04 32 31    P   Okay.     I put in a little          bit too much pitch           there.
+
+04 32 36    P   The gun works       real great,       Jim.
+
+04 32 38    C   Let me get over where             I can see you, Ed.
+
+04 32 40    P   Take    it easy now.        You're    in a vacuum.
+
+04 32 40   CC   Gemini    4, Houston       CAP COM.
+
+04 32 42    C   Hal Ha?     No, I want       to get the spacecraft            on the
+                horizon.
+
+04 32 47    P   A]]    right.
+
+04 32 50    P   Okay.     I'll    come    in and take a look            at you now.
+
+04 32 92    C   Wait a second.           Let me take       your    picture.
+
+04 32 52   CC   Gemini    4, Houston       CAP CO_L
+
+04 32 55    P   Just a minute       -- just a minute.
+
+04 33 04    P   This    gun is very       good.
+
+04 33 07    C   Is it?
+
+04 33 08   CC   Gemini    4, Gemini       4, Houston       CAP COM.
+
+04 33 09    P   Yes.   I've got me upside            down.        Now   I see my glove
+                is departing.
+
+04 33 14   CC   Gemini    4, Houston       CAP COM_
+
+04 33 16    P   Okay.     Ik_n't fire the thrusters.
+
+04 33 16    C   Okay.     Don't.        I'm going    on.     Who's      calling
+                Gemini    4?
+
+04 53 20   CC   Houston    CAP COM.        Has he eggressed?
+
+04 33 24    C   He's out, Gus and it's really nifty.    Listen, our
+                VOX doesn't work very well, and I don't seem to
+                read anybody.   You will have to relay.   The gun
+                works swell.  He's been able to maneuver al] over --
+                out front,       back    under    the nose, and he's back           out
+                again.
+
+04 33 34   CC   Say again.
+
+04 35 35    C   ..... work very well, but I don't think he can read
+                anybody.   So I'll have to relay.  The gun works
+                swell.   He's been able to maneuver all over -- out
+                front, back       under    the nose,       and he's back      out again.
+
+04 33 45   CC   That 's great !
+
+04 33 45    c   Fa?
+_6
+
+
+O0 33 46     P       Yes.
+
+04 33 48     C       Let me try VOX again.              Say something.
+
+04 33 52     P       Hello,    Gus.     How do you read,          CAP C0_
+
+04 33 56     C       Hey, Gus,     do you read?
+
+04 33 58    CC       I read    you now, Ed.
+
+04 34 00     C       It's not really         working_     Ed.
+
+04 34 02     P       All. right.
+
+04 34 04     C       Okay.     Listen,       I still    can't    see you out there.
+
+04 34 05    CC       It's working.           Keep    talking.
+
+04 34 07     p       All right.        I've drifted off to the side.   I think
+                     we're going       to have ..... I'm taking pictures now,
+                     Jim.
+
+04 34 ll    CC       Gemini    4, it's working.           Keep    talking.
+
+04 34 ll     C       Okay.
+
+04 34 15     C       Make that        flag look pretty.
+
+04 34 19     P       Yes.
+
+04 34 21     P       Okay.     I'm right by the stub antenna                now.
+
+04 34 24    CC       Gemini    4, keep talking.            It's working.
+
+04 34 24     C       Okay.  Let me get some ..... to you, Ed.  I ought
+                     to be getting some tremendous pictures of you.   Let
+                     me try again with the Hasselblad.
+
+04 34 30    CC       Gemini    4, Houston       CAP COM.
+
+04 34 31     P       Okay.      I think      I've exhausted        my air now.
+
+04 34 33     C       Okay.
+
+04 34 36     C       Stay     right there.
+
+04 34 40     p       I had very good          control     with    it.    I just needed
+                     more air.
+
+ 04 34 45    C       Okay.   Stand by.          Let me take a couple          of pictures,
+                     ole buddy.
+
+ 04 34 48    p       All     right.
+ 04 34 52   CC       Gemini     4, Houston          CAP COM.
+
+ 04 34 54        C   Go shead,        Gus.
+
+ 04 34 58   CC       Tell him to keep talking.                  We're   receiving   Ed
+                     through your VOX.
+0_ 3_ O0   P    Ara you reading       me, CAP COM?
+
+Oh 3_ O1   P    ..... Gus?
+
+04 35 02   C    Okay.     We're   going    to VOX now.
+
+04 35 04   C    Okay,    Ed.   They're     receiving       you.
+
+04 35 07   P    Okay.
+
+04 35 09   C    Tell    them   what you think.
+
+04 35 10   P    That's right, CAP COM, it's very easy to maneuver
+                with the gun.  The only problem I have is that I
+                haven't got enough fuel.   I've exhausted the fuel
+                now and I was able to maneuver myself around the
+                front of the spaeecraft_  back_ and maneuver right
+                up to the top of the adapter.   Just about .....
+                came back into Jim's view.   The only thing I wish
+                is that I had more.   This is the greatest experi-
+                ence I've ..... it's just tremendous!    Right now
+                I'm standing on my head, and I'm looking right down,
+                and it looks like we're coming up on the coast of
+                California.   I'm going into a slow rotation to the
+                right.   There is absolutely no disorientation as-
+                sociated with it.
+
+04 35 _2   C    One _hing about it, when Ed gets out there and
+                starts wiggling around_ it sure .makes the space-
+                craft tough to control.
+
+04 36 02    P   I feel    just about      like   a .....     _:ormmercial.
+
+04 36 03   CC   Is he taking      pictures?
+
+04 36 11   CC   Take    some   pictures.
+
+04 36 12    P   Okay.     I'm going      to work     on getting      some pictures,
+                Jim.
+
+04 36 14    C   Okay.     Get out in front         where    I can see you again.
+
+04 36 16    P   Yes.
+
+04 36 18    C   I've    only got about       three    on the Hasselblad.
+
+04 36 20    P   Okay.
+
+04 36 22    C   W%ere    are you?
+
+04 36 24    P   Right out in front now.   I don't                 have the control
+                I had any more withou,t that gun.
+
+04 36 28    C   Yes,    I noticed   that.
+
+04 36 31    p   On the tether.
+
+04 36 31   CC   You've    got about       _ minutes.
+
