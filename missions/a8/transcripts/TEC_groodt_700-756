@@ -207,11 +207,11 @@ Tape 85
 Page 7 
 05 10 14 40    CC             That is a good one. That's loud and clear.
 05 10 14 43    CDR            Okay. Star 2 trunnion angle, first one 05245,
-                              second one 05243, next one 05241; last 4 trun-
-                              nion angles 04133, 04133, 04132, 04132.
+                              second one 05243, next one 05241; last 4 
+                              trunnion angles 04133, 04133, 04132, 04132.
 05 10 15 07    CC             Thank you kindly.
 05 10 15 25    CDR            Can you give me some idea on the updates from
-                              the midcourse that we migh-c need, and all that
+                              the midcourse that we might need, and all that
                               good stuff, Mike?
 05 10 15 30    CC             Yes, sure can, Frank. Stand by.
 Tape 86 
@@ -220,56 +220,52 @@ Page 1
 05 10 17 58    CDR            Go ahead, Mike.
 05 10 18 00    CC             Okay. We're predicting at the nominal time of
                               your next midcourse, which is entry interface
-                              mims 2 hours - we're predicting 1.4 foot per
-                              second burn vhich changes your gamma at entry
+                              minus 2 hours - we're predicting 1.4 foot per
+                              second burn which changes your gamma at entry
                               interface by a tenth of a degree. Right now
-                              uith no further maneuvers, your gamma is
-                              minus 6.39degrees. aa we're going to steepen
+                              with no further maneuvers, your gamma is
+                              minus 6.39 degrees. aa we're going to steepen
                               it up very slightly to hit the center of the
                               target line, and it will be after the maneuver
                               minus 6.51. over.
 05 10 18 35    CDR            Very good.
 05 10 18 38    CC             Anything else you want like that?
-05 10 18 42    CDR            NO. I just wondered - we hadn't heard whether
+05 10 18 42    CDR            No. I just wondered - we hadn't heard whether
                               we were going to do it or not and so on.
 05 10 18 48    CC             Roger.
 05 10 18 52    CDR            When we get the PAD data, we'll get it all out
                               here.
 05 10 18 58    CC             Yes. We'll be sending the PAD data up to you
- .in about another 2 hours, Frank; about 132 hours 
+                              in about another 2 hours, Frank; about 132 hours 
                               GET.
 05 10 19 06    CDR            Okay. We - this will be the last set of star
                               sightings we do now nominally, and even if we
-                              lose CCMM, we'll just come on in with what we got.
+                              lose COMM, we'll just come on in with what we got.
 05 10 19 19    CC             Okay, Frank.
 Tape 86 
 Page 2 
-                              CDR Incidentally, that COMMhas been fantastic.
-                              I don't knov how you've heard us, but boy, it's
-                              just like you are next door even in lunar dis-
-                              tances.
-05 10 19 31    CC             Yes. It has really been great with rare excep-
-                              tions when you are on a bad OMRI right before
-                              you switch. Then we get an awful lot of back-
-                              ground noise, but in general, it has been excel-
-                              lent, and boy, we are really thankful for it
+05 10 19 22    CDR            Incidentally, that COMM has been fantastic.
+                              I don't know how you've heard us, but boy, it's
+                              just like you are next door even in lunar
+                              distances.
+05 10 19 31    CC             Yes. It has really been great with rare 
+                              exceptions when you are on a bad OMNI right before
+                              you switch. Then we get an awful lot of 
+                              background noise, but in general, it has been 
+                              excellent, and boy, we are really thankful for it
                               because reading all these updates would be
-                              baa news with bad CGMM, as you know.
+                              bad news with bad COMM, as you know.
 05 10 19 48    CDR            Right.
-05 10 19 50 a4P Say, Mike, 
-                              Captain
-                              have you noticed
-                              has in his navigator?
-                              the confidence the
+05 10 19 50    CMP            Say, Mike, have you noticed the confidence the
+                              Captain has in his navigator?
 05 10 19 56    CC             He hasn't called you Goldfinger yet.
-05 10 20 00 w NO. He is disregarding anything I can do. 
+05 10 20 00    CMP            NO. He is disregarding anything I can do. 
                               We're coming in anyway.
 05 10 20 13    CC             I suspect he is right on that point.
 05 10 20 18    CMP            Well, back to the drawing board.
 05 10 20 21    CDR            As usual, we are all a little pooped. I've got
                               Bill sleeping now, and then Jim and I will
                               swap just as soon as we get through with these
- . 
                               stars.
 05 10 20 30    CC             Well, you're sounding real good, and you are
                               doing good work.
@@ -277,22 +273,19 @@ Page 2
 Tape 86 
 Page 3 
 05 10 56 40    CC             Apollo 8, Houston.
-05 10 56 43    CDR            Co aheed, Houston. Apollo 8.
+05 10 56 43    CDR            Go ahead, Houston. Apollo 8.
 05 10 56 45    CC             Roger, Frank. If you get a chance to, we'd
-                              like for you to read us down your trunnion cali-
-                              bration number. We missed that one on the down-
-                              link, and we have an update for your passive
-                              thermal control attitude;
+                              like for you to read us down your trunnion 
+                              calibration number. We missed that one on the 
+                              downlink, and we have an update for your passive
+                              thermal control attitude.
 05 10 56 56    CDR            Okay. The trunnion calibrations were all zeros.
-05 10 57 00    CC             Roger. Thank you, end on page 2-104 the PTC
+05 10 57 00    CC             Roger. Thank you, and on page 2-104 the PTC
                               attitudes should read zero pitch and 45 degrees
                               yaw. Over.
 05 10 57 14    CDR            Zero pitch and 45 degrees at 2-104.
-05 10 57 17    CC             Roger.
-                              those
-                              And we'd like
-                              of you who are up and around.
-                              some PRD readings for
+05 10 57 17    CC             Roger. And we'd like some PRD readings for
+                              those of you who are up and around.
 05 10 57 57    CDR            Zero pitch, 45 yaw, it is?
 05 10 58 01    CC             Roger. Thank you.
 05 10 58 07    CDR            I'm asking. I wasn't sure I copied it right.
@@ -301,14 +294,10 @@ Page 3
 05 10 58 15    CDR            My PRD now reads 2.85.
 05 10 58 21    CC             2.85.
 05 11 33 39    CC             Apollo 8, Houston. Radio check. Over.
-05 11 33 45    IXP            This is 8. Loud and clear. How us?
+05 11 33 45    CMP            This is 8. Loud and clear. How us?
 05 11 33 47    CC             Roger. You're loud and clear, Jim. We'd like
-                              to get your
-                              and a flight
-                              PRD reading
-                              plan change we're
-                              while we've got you up
-                              suggesting on
+                              to get your PRD reading while we've got you up
+                              and a flight plan change we're suggesting on
                               page 2-107 when'you're ready to copy.
 Tape 86 
 Page 4 
@@ -319,16 +308,16 @@ Page 4
 05 11 34 22    CMP            And I'll bet that Bill's is still reading 0.64.
 05 11 34 27    CC             That's okay; don't bother him with it. He's
                               asleep.
-05 11 34 48    CMP            Okay. Co ahead with your flight plan change.
+05 11 34 48    CMP            Okay. Go ahead with your flight plan change.
 05 11 35 11    CMP            Houston, Apollo 8. Go ahead with your flight
                               plan change.
-05 11 35 14    CC             Okay,Jim. Cn page 2-107, we're recommending
+05 11 35 14    CC             Okay,Jim. On page 2-107, we're recommending
                               that you delete that P52 and just-stay in PTC
                               attitude. Your platform is real good, and we
                               don't feel that alignment's necessary. One is
                               coming up again at 139 hours anyway. And also,
-                              M that same page, we'd like to delete the
- "begin cabin cold soak." Over. 
+                              on that same page, we'd like to delete the
+                              "begin cabin cold soak." Over. 
 05 11 35 44    CMP            Righto. Will delete the "begin cabin cold
                               soak," and we'll delete the P52.
 05 11 35 49    CC             Okay. Thank you.
@@ -336,19 +325,19 @@ Tape 87
 Page 1 
 05 12 04 57    CMP            Houston, Apollo 8. Over.
 05 12 04 59    CC             Roger, Apollo 8. This is Houston. Over.
-05 12 05 03 cm Roger. Mike. Are you still planning to send 
+05 12 05 03    CMP            Roger. Mike. Are you still planning to send 
                               up these updates at 132 hours?
 05 12 05 08    CC             Yes; affirmative, Jim. We're getting them
                               together now.
 05 12 05 13    CMP            Roger.
 05 12 06 06    CC             Apollo 8, this is Houston. Would you please
                               go to P00 and ACCEPT, Jim, and we'll send you a
-                              p27.
+                              P27.
 05 12 06 27    CMP            We're ready for you.
-05 12 06 29    CC             Okay. Sending up a state vector to IM slot.
-05 12 06 35 cm 'Roger. 
+05 12 06 29    CC             Okay. Sending up a state vector to LM slot.
+05 12 06 35    CMP            Roger. 
 05 12 10 03    CC             Apollo 8, this is Houston. Over.
-05 12 10 07 cm Go ahead, Ho&on. 
+05 12 10 07    CMP            Go ahead, Houston. 
 05 12 10 08    CC             Roger, Jim. You can go back to BLOCK; we got
                               the P27 in and verified. It was a state vector
                               update to the LM slot, and I'm standing by for
@@ -357,19 +346,19 @@ Page 1
 05 12 10 27    CMP            Roger. Stand by.
 05 12 10 50    CMP            Go ahead with midcourse number 7.
 05 12 10 52    CC             Okay. Midcourse correction number 7, RCS/G&N:
-                              31600, not applicable, not applicable, 14445 5793,
-                              minus 00014, plus five zeros, p lus 00001. A-e
+                              31600, not applicable, not applicable, 14445 5799,
+                              minus 00014, plus five zeros, plus 00001. Are
                               you with me so far? Over.
-05 12 11 49 Roger. With you. 
+05 12 11 49    CMP            Roger. With you. 
 Tape 87 
 Page 2 
 05 12 11 51    CC             Good. 000 304 000, not applicable, 000 191
                               00014 004 00014 450 - -
-05 12 12 38 mP Hey, Mike, hold it. Hold it, Mike. 
+05 12 12 38    CMP            Hey, Mike, hold it. Hold it, Mike. 
 05 12 12 39    CC             Okay. Holding.
-05 12 12 45 You said not applicable for HA and HP; I startej. 
+05 12 12 45    CMP            You said not applicable for HA and HP; I started 
                               to copy it down, and then I didn't get the right
-                              number sequence. Did you skip down to what, VT:
+                              number sequence. Did you skip down to what, VT?
 05 12 13 04    CC             No. Let's go back to apogee is not applicable,
                               and then I just started reading the numbers
                               again. From there, I've got a perigee and
@@ -381,10 +370,10 @@ Page 2
 05 12 13 22    CC             Okay. Going back to apogee, not applicable;
                               perigee, plus 00191. And you weren't hearing
                               things; it was my mistake. Over.
-05 12 13 39 Roger. 
+05 12 13 39    CMP            Roger. 
 05 12 13 43    CC             Okay. Picking up with DELTA-VT 00014 004 00014
                               45 0459 225, Shaula, up 236 000, plus 0813
-                              minus 16503 12202 36301. 146 4641; north set of
+                              minus 16503 12202 36301 146 4641; north set of
                               stars, Sirius and Rigel, roll 308, pitch 209,
                               yaw 357; remarks: perigee in P30 equals plus
                               22.2 nautical miles. Over.
@@ -394,24 +383,24 @@ Page 3
                               not applicable, not applicable, 14445 5799.
                               Are you with me?
 05 12 16 17    CC             I'm with you.
-05 12 16 20    CMP            Minus 00014, plus all zeros, p lus 00001 000 304
+05 12 16 20    CMP            Minus 00014, plus all zeros, plus 00001 000 304
                               000, not applicable, plus 00191 00014 004 00014
                               45 0459 225 Shaula, up 236 000, plus 0813,
                               minus 16503 12202 36301 146 4641, Sirius, Rigel,
                               308 209 357, HP, and P30 is 22.2 nautical miles.
 05 12 17 24    CC             That's all carrect, Jim, and I have the entry
                               PAD at your convenience.
-05 12 17 32    CMF            Roger. Stand by one.
+05 12 17 32    CMP            Roger. Stand by one.
 05 12 17 50    CMP            Ready to copy. Mike.
 05 12 17 52    CC             Okay. Entry PAD: area mid-Pacific, 357 152 359
                               146 29 13 268, plus 0813, minus 16503 068 36221
                               651 12202 36301 146 46 13 0028, not applicable
                               four times, in other words, DL MAX, DL MIN,
-                              VI, MAX, and VL MIN - all not applicable.
+                              VL MAX, and VL MIN - all not applicable.
                               Starting with TO: 400 0207 0025 0333 0816 16
                               0590 312. And your vortex star is Zeta Persei,
                               which is half way between Mirfak and Aldebaran,
-                              up 165, right 34 up. Remarks: use nonexit EX
+                              up 165, right 34 up. Remarks: use nonexit EMS
                               pattern. Over.
 05 12 21 09    CMP            Right, Mike. Stand by.
 05 12 21 13    CMP            Entry as follows: mid-Pacific, 357 152 359
@@ -419,34 +408,34 @@ Page 3
 Tape 87 
 Page 4 
                               651 12202 36301 146 4613 0028, NA 4 times,
-                              vith TO 400 0207 0025 0333 0816 16 0590 312,
-                              Zeta Persei, up 165, right 31i, up. And remarks:
+                              with TO 400 0207 0025 0333 0816 16 0590 312,
+                              Zeta Persei, up 165, right 34, up. And remarks:
                               use nonexit EMS pattern. And Zeta Persei is
                               between Mirfak and Aldebaran, and Frank can never
                               find it anyway.
 05 12 22 25    CC             Okay. That's all correct.
-05 12 23 13    CKP            We certainly don't waste much time getting down
+05 12 23 13    CMP            We certainly don't waste much time getting down
                               to drogue deploy, do we?
 05 12 23 19    CC             Roger. That's - that's true.
 05 12 34 41    CC             Apollo 8, Houston. Over.
-05 12 34 43 cr4P Go ahead, Houston. 
+05 12 34 43    CMP            Go ahead, Houston. 
 05 12 34 45    CC             Roger, Jim. In your computer, we'd like to do
                               an erasable memory dump again, like we did the
                               other day, and the reason we'd like to do it is,
-                              when you did that I?37 about 8 hours ago, and you
+                              when you did that P37 about 8 hours ago, and you
                               remember you put that EI time for TIG and got
                               that P00 do thing; we'd like to - We don't
                               think there's anything in the world wrong with
                               it. We think everything is just perfect inside
                               the computer, but we'd like to do an erasable
-                              dump as ue did the other day; go through it
-                              bit by bit. Give us something to do down here. .
+                              dump as we did the other day; go through it
+                              bit by bit. Give us something to do down here.
                               Over.
-05 12 35 23 ace Okay. Any time. 
+05 12 35 23    CMP            Okay. Any time. 
 Tape 87 
 Page 5 
 05 12 35 26    CC             And I have the procedures for you when you're
-                              ready to copy. I
+                              ready to copy.
 05 12 35 32    CMP            Go ahead.
  . 
 05 12 35 33    CC             Okay. VERB 01 NOUN 01 ENTER, 333.ENTER, and
@@ -455,7 +444,7 @@ Page 5
                               give you procedures for getting it to 10 000.
                               If it is 10 000 as we expect, then VERB 74
                               ENTER, and that will do the dump. Over.
-05 12 36 10    CMFJ           Roger. When do you want it?
+05 12 36 10    CMP            Roger. When do you want it?
 05 12 36 22    CC             And, Apollo 8, you can do the first part of
                               that now at your convenience to verify that
                               register 1 is reading 10 000, but would you
@@ -466,11 +455,11 @@ Page 5
                               switch OMNI antennas, please?
 05 12 38 50    CC             Thank you, sir.
 05 12 38 57    CC             That works pretty well, doesn't it?
-05 12 39 01 cm Not bad. I was amazed at the communication 
+05 12 39 01    CMP            Not bad. I was amazed at the communication 
                               at the moon, too.
 05 12 39 13    CC             Apollo 8, Houston. We're configured for the
-                              dump. VERB 74 ENTF.R at your convenience.
-05 12 39 19 Roger. 
+                              dump. VERB 74 ENTER at your convenience.
+05 12 39 19    CMP            Roger. 
 05 12 40 34    CC             Apollo 8, Houston. The dump is complete, and
                               it's your computer. Thank you.
 Tape 87 
@@ -482,7 +471,7 @@ Page 6
 05 13 06 56    LMP            Good morning, Mike. We had a little change of
                               the guard here.
 05 13 07 00    CC             You sound real bright eyed and bushy tailed.
-                              HOWLS it going up there?
+                              How's it going up there?
 05 13 07 04    LMP            Real great.
 05 13 07 44    CC             Apollo 8, Houston. How about giving us a
                               countdown to PRD reading. Over?
@@ -494,50 +483,48 @@ Page 6
                               at 0.64.
 05 13 08 10    CC             Okay. Thank you.
 05 13 11 38    CC             Apollo 8, Houston. Over.
-05 13 11 45    CC             Roger, Bill. On your PTC attitude, we're re-
-                              questing a pitch angle zero, and we're showing
-                              you about 2i' degrees pitch and increasing. Over.
-05 13 11 56 Lw Roger. I've been trying to work it down to 
+05 13 11 45    CC             Roger, Bill. On your PTC attitude, we're 
+                              requesting a pitch angle zero, and we're showing
+                              you about 27 degrees pitch and increasing. Over.
+05 13 11 56    LMP            Roger. I've been trying to work it down to 
                               ENTER again,
 05 13 12 00    CC             They're letting you drive, after all?
 05 13 12 06    LMP            I have to every now and then just to square
                               this thing away.
-                              I'll status here before
 Tape 87 
 Page 7 
-                              05 13 13 Mike, just give you my
+05 13 13 28    CMP            Mike, I'll just give you my status here before
                               the rest of them go to sleep; had about 3 hours
                               sleep, another meal, and everybody's doing fine.
-                              m
 05 13 13 41    CC             Roger, Bill. Thank you.
 Tape 88 
 Page 1 
 05 13 49 11    CC             Apollo 8, Houston. Radio check. Over.
 05 13 49 16    LMP            Loud and clear.
 05 13 49 19    CC             Roger. Thanks, Bill.
-05 14 36 50    CC             Apollo a, Houston.
+05 14 36 50    CC             Apollo 8, Houston.
 05 14 37 04    CC             Apollo 8, Houston. Over.
 05 14 37 26    CC             Apollo 8, this is Houston. Over.
 05 14 37 59    CC             Apollo 8, this is Houston. Over.
 05 14 38 02    LMP            Roger, Mike. How do you read?
-05 14 38 04    CC             I read you loud and clear not, Bill. i w.w-n't
-                              hearing here for a couple of calls. Row do you
+05 14 38 04    CC             I read you loud and clear not, Bill. I wasn't
+                              hearing here for a couple of calls. How do you
                               read me?
 05 14 38 09    LMP            I had my hands full; I was putting something
-                              aown. I read you fine.
+                              down. I read you fine.
 05 14 38 20    CC             Okay. Understand. If it'll be any help to you
                               in your PTC driving, we've computed that as you
-                              look out plus X in the COAS or just out the win-
-                              dow, you should be pointed right at Acrux when
+                              look out plus X in the COAS or just out the 
+                              window, you should be pointed right at Acrux when
                               you're in a perfect PTC attitude. We don't know
-                              if that's a help to you or not, but ue thought
-                              you might enjoy trying an alternate mode of keep
-                              ing the attitude under control.
-05 14 38 40 I.MP Okay. From my present position, we're going to 
+                              if that's a help to you or not, but we thought
+                              you might enjoy trying an alternate mode of 
+                              keeping the attitude under control.
+05 14 38 40    LMP            Okay. From my present position, we're going to 
                               have to move Acrux a little bit.
-05 14 38 50    CC             Well, whatever you think. We just thought yod
+05 14 38 50    CC             Well, whatever you think. We just thought you
                               might appreciate knowing.
-05 14 39 03 LMi I'll give it a try, Mike. 
+05 14 39 03    LMP            I'll give it a try, Mike. 
 Tape 88 
 Page 2 
 05 14 39 07    CC             Can you see it all right?
@@ -551,7 +538,7 @@ Page 2
                               in the seat to look out the COAS, and it's enough
                               light in the cockpit where the star really isn't
                               too easy to see. So I'm kind of inclined to use
-                              the OFR technique here where you can see the rest
+                              the IFR technique here where you can see the rest
                               of the instrument panel.
 05 14 41 27    CC             Okay.
 05 14 41 41    LMP            I thought you were an all-weather pilot.
@@ -561,31 +548,31 @@ Page 2
 Tape 89 
 Page 1 
 05 15 07 08    CC             Apollo 8, Houston. Could you give us a better
-                              OMN1, please?
+                              OMNI, please?
 05 15 07 26    CC             Apollo 8, Houston. We will be changing the
                               antennas in 3 minutes. You can expect a
-                              COMMglitch. Over.
+                              COMM glitch. Over.
 05 15 07 34    LMP            Okay, Mike.
-05 15 21 10    CC             Apollo 8, Houston. Can you switch us to OSEU'I
+05 15 21 10    CC             Apollo 8, Houston. Can you switch us to OMNI
                               Charlie, please.
 05 15 21 24    CC             Thank you, sir.
-05 15 21 28 I.&P De nada. 
+05 15 21 28    LMP            De nada. 
 05 16 01 21    LMP            Houston, Apollo 8.
-05 16 01 30 I&P Houston, Apollo 8. Are you still there? 
-05 16 01 33    CC             Apollo 8, this is Houston. Co ahead. Over.
+05 16 01 30    LMP            Houston, Apollo 8. Are you still there? 
+05 16 01 33    CC             Apollo 8, this is Houston. Go ahead. Over.
 05 16 01 38    LMP            I was just seeing if you were still there,
                               Mike. The Old Grey Eagle is taking over the
                               show from here.
 05 16 01 47    CC             Which one of them?
-05 16 01 53 IJdP Old Super Chief. 
+05 16 01 53    LMP            Old Super Chief. 
 05 16 03 18    CC             Apollo 8, Houston. Over.
-05 16 03 23    UP             Go ahead, Houston.
+05 16 03 23    LMP            Go ahead, Houston.
 05 16 03 25    CC             Roger, Bill. We had an erasable memory dump
                               a few hours back. I think it was while you
-                              vere asleep, but anyway we've checked the com-
-                              puter's erasable memory bit by bit, and every-
-                              thing agrees 100 percent. Over.
-05 16 03 40    LMP            Mighty iine. Glad to hear it, Mike. Thank you. I
+                              were asleep, but anyway we've checked the 
+                              computer's erasable memory bit by bit, and 
+                              everything agrees 100 percent. Over.
+05 16 03 40    LMP            Mighty fine. Glad to hear it, Mike. Thank you.
 Tape 89 
 Page 2 
 05 16 03 44    CC             Roger. Are you going to brief Frank on your
@@ -600,22 +587,22 @@ Page 1
 05 16 34 23    CC             Apollo 8, Houston. Orer.
 05 16 34 38    CC             Apollo 8, this is Houston. Over.
 05 16 34 42    CDR            Go ahead, Michael.
-05 16 34 43    CC             Roger. We are going to switch our ground anten-
-                              nas in about a minute and a half. You can expect
+05 16 34 43    CC             Roger. We are going to switch our ground 
+                              antennas in about a minute and a half. You can expect
                               a COMM glitch then.
 05 16 34 51    CDR            Thank you.
-05 16 35 47 CDR ..., Mike. 
+05 16 35 47    CDR            ..., Mike. 
 05 16 37 09    CC             Apollo 8, this is Houston through Carnarvon.
                               Were you calling a minute ago, Frank?
 05 16 37 17    CDR            Y'all in Australia, do you hear us?
-05 16 37 21    CC             Yes, we are-reading you loud and clear new.
+05 16 37 21    CC             Yes, we are reading you loud and clear now.
 05 16 38 03    CDR            Carnarvon, how do you read? Apollo 8.
 05 16 38 06    CC             Apollo 8, this is Houston. Reading you loud and
                               clear through Carnarvon.
 05 16 38 54    CDR            Hello, Houston.
 05 16 38 57    CC             Go ahead, Frank.
 05 16 38 59    CDR            We are just listening to all the guys around the
-                              RET.
+                              NET.
 05 16 39 02    CC             Can you hear them?
 05 16 39 05    CDR            I could that time, all the way from Carnarvon
                               to Texas.
@@ -631,15 +618,15 @@ Page 2
 05 17 11 48    CDR            Houston, Apollo 8.
 05 17 11 56    CC             Apollo 8, this is Houston. Over.
 05 17 12 09    CC             Apollo 8, this is Houston. Over.
-05 17 12 13    CDR            Rave you noticed how long I've stayed locked in
-                              this FTC mode?
+05 17 12 13    CDR            Have you noticed how long I've stayed locked in
+                              this PTC mode?
 05 17 12 34    CC             Just about an hour and a quarter looks to us
                               like, Frank.
 05 17 12 38    CDR            I haven't even touched the hand control here for
-                              about 20 minutes, and it just hasn't moved out-
-                              side that zero; I've never see it like this be-
-                              fore.
-05 17 12 55 Be sure and have your troops give me a call if 
+                              about 20 minutes, and it just hasn't moved 
+                              outside that zero; I've never see it like this 
+                              before.
+05 17 12 55    CDR            Be sure and have your troops give me a call if 
                               it gets close to gimbal lock, will you? I'm
                               snoozing a little bit now and then up here.
 05 17 13 01    CC             Yes, we sure will, Frank.
@@ -648,16 +635,15 @@ Page 2
                               be good guys.
 Tape 91 
 Page 1 
-05 18 18 46    CC             Apollo Houston.
-                              8,
+05 18 18 46    CC             Apollo 8, Houston.
 05 18 19 12    CC             Apollo 8, this is Houston. Over.
-05 18 19 27    LW             Houston, Apollo 8.
-05 18 19 30    CC             Roger.. Just a check on the radio, and if it's
+05 18 19 27    LMP            Houston, Apollo 8.
+05 18 19 30    CC             Roger. Just a check on the radio, and if it's
                               practical, BIOMED switch left, please.
 05 18 19 38    LMP            Okay, Mike. We had a crew change in the watch
                               again.
 05 18 19 44    CC             Well, that was quick. Did you decide you didn't
-                              rant to sleep after all?
+                              want to sleep after all?
 05 18 19 52    LMP            Well, it wasn't my decision.
 05 18 19 59    CC             Yes, that's what I figured.
 05 18 21 28    CC             Apollo 8, Houston. We will be changing antennas
@@ -674,8 +660,9 @@ Page 1
                               and the rest of us would like to say we have
                               enjoyed it and look forward to seeing you back
                               in Houston. Over.
-05 19 08 40 I&P We have sure enjoyed it, too, troops, and you 
+05 19 08 40    LMP            We have sure enjoyed it, too, troops, and you 
                               guys have really done a good job. We really do
+                              appreciate it.
 Tape 91 
 Page 2 
 05 19 08 45    CC             Well, nice words there. We will be seeing you,
@@ -689,12 +676,12 @@ Page 2
                               in a P52 going here, we'd like to have you rezero
                               the optics and read us the mechanical CDU's.
                               We're trying to collect a little data for
-                              trouble shooting.
+                              troubleshooting.
 05 19 19 29    LMP            Roger. Stand by.
 05 19 19 31    CC             Thank you.
 05 19 19 45    LMP            What's the trouble you are trying to troubleshoot?
 05 19 19 51    CC             This goes back to some of the problems we had
-                              prior to MI; trying to see if the softwear
+                              prior to LOI; trying to see if the software
                               readouts we're getting down here compare with the
                               mechanical readouts. It's not a current problem
                               as far as we know.
@@ -702,21 +689,15 @@ Page 2
 05 19 21 27    CC             Apollo 8, Houston.
 05 19 21 31    LMP            Go ahead, Houston.
 05 19 21 33    CC             Okay. Why don't you just read me the mechanical
-                              CDU's there
-                              like you're
-                              now, and then
-                              clear
-                              it
-                              to go ahead with
-                              looks From the ground
-                              the P52.
+                              CDU's there now, and then it looks from the ground
+                              like you're clear to go ahead with the P52.
 Tape 91 
 Page 3 
 05 19 21 44    LMP            Okay. We'll get the navigator squared away here
                               in just a minute.
 05 19 21 51    CMP            Good morning, Captain.
 05 19 21 53    CC             Good morning, sir.
-05 19 21 57 m This will be a piece of stew out of a deep sleep. 
+05 19 21 57    CMP            This will be a piece of stew out of a deep sleep. 
                               Okay, stand by one.
 05 19 22 17    CMP            Trunnion mechanical CDU looks like it's reading
                               about 1/100.
@@ -728,7 +709,7 @@ Page 3
                               that shaft; is that affirm?
 05 19 23 17    CMP            Yes. Stand by one. About 35996 on the shaft.
 05 19 23 27    CC             Okay. Thank you. You can go ahead with P52 now.
-05 19 23 35 cm Okay. 
+05 19 23 35    CMP Okay. 
 05 19 25 36    LMP            I always said he did better in his sleep.
 05 19 26 28    CC             Apollo 8, Houston.
 05 19 26 32    LMP            Go ahead, Houston.
@@ -741,7 +722,7 @@ Page 3
 Tape 91 
 Page 4 
 05 19 28 34    LMP            Go ahead.
-05 19 28 36    CC             Okay. We've got a new FTC attitude. For the
+05 19 28 36    CC             Okay. We've got a new PTC attitude. For the
                               pitch 180, and the yaw 315.
 05 19 28 45    LMP            Roger. Yaw 315.
 05 19 28 48    CC             Roger. And pitch 180.
@@ -756,7 +737,7 @@ Page 4
                               are getting right down, according to the calculated
                               numbers, next to where we ought to be activating
                               them. The numbers you are reading are going to
-                              be a little bit high, but.the computer data on
+                              be a little bit high, but the computer data on
                               the ground shows that you have about 134 pounds
                               in Bravo and Delta, and about 130 pounds is where
                               you ought to be on the secondary.
@@ -773,34 +754,33 @@ Tape 92
 Page 1 
 05 20 28 11    CDR            Houston, Apollo 8.
 05 20 28 14    CC             Go ahead.
-05 20 28 17    CDR            Ken, on this maneuver, MC 7, are you going to -
+05 20 28 17    CDR            Ken, on this maneuver, MCC 7, are you going to -
                               are we going to burn the PAD data that we got
-                              sometime ago, or is there n few maneuver coming
-                              UPS or what's going on in that regard?
+                              some time ago, or is there a new maneuver coming
+                              up, or what's going on in that regard?
 05 20 28 35    CC             Okay, Apollo 8. If required, we'll give you a
-                              neu one. Right now, we are looking at not making
+                              new one. Right now, we are looking at not making
                               a maneuver burn at all.
 05 20 28 46    CDR            You say we may not even have another one now?
 05 20 28 48    CC             That's right.
 05 20 29 04    CDR            Okay. You're the boss.
 05 20 31 03    CC             Apollo 8, Houston.
 05 20 32 57    CC             Apollo 8, Houston.
-05 20 33 11    CC             Apollo 8, Houston. Could YOUtry another OMNI?
+05 20 33 11    CC             Apollo 8, Houston. Could you try another OMNI?
 05 20 33 37    CC             Apollo 8, Houston. Try another CMRI, please.
 05 20 34 22    CC             Apollo 8, Houston.
- . 
 05 20 35 47    CC             Apollo 8, Houston.
 05 20 35 50    CDR            Go ahead, Houston. Apollo 8.
 05 20 35 52    CC             Okay. Read you loud and clear now. Just wanted
                               to remind you that in the event of a loss of
-                              COMM, we don't want you to burn KC 7. Your
+                              COMM, we don't want you to burn MCC 7. Your
                               present entry PAD is good. We'll be updating
                               your landing points at the same time that you would
                               have gotten MCC 7, and I'd like to have a crew
                               status report from you when it's convenient.
 Tape 92 
 Page 2 
-05 20 36 38    CDR            Okay, Ken. I understand. If we would lose COMX,
+05 20 36 38    CDR            Okay, Ken. I understand. If we would lose COMM,
                               you do not want us to burn MCC 7, just go ahead
                               and use the entry PAD you've given us?
 05 20 36 46    CC             That's affirmative. You'll be within 0.06 degrees
@@ -809,7 +789,7 @@ Page 2
                               real good rest last night, and everybody is in
                               good shape. Jim is just waking up, and Bill is
                               starting the initial stowage, and we all feel very
-                              Well.
+                              well.
 05 20 37 12    CC             Okay.
 05 20 37 17    CC             Okay. And we'd like to - guess we need a PRD
                               reading from you. And we'll be needing one in
@@ -818,9 +798,9 @@ Page 2
 05 20 45 20    CDR            Houston, Apollo 8.
 05 20 45 24    CC             Go ahead, 8.
 05 20 45 41    CC             Apollo 8, Apollo 8, Houston. Go ahead.
-05 20 45 45    CDR            Roger. could you give us cur range - correction,
+05 20 45 45    CDR            Roger. could you give us our range - correction,
                               our velocity and range from the earth now?
-05 20 45 50    CC             stand by.
+05 20 45 50    CC             Stand by.
 05 20 46 59    CC             Apollo 8, Apollo 8, Houston. At time 51, your
                               velocity will be 9526, altitude 42946. Over.
 05 20 47 14    CDR            Thank you.
@@ -828,8 +808,8 @@ Tape 93
 Page 1 
 05 21 33 43    CC             Apollo 8, Houston. You call?
 05 21 34 17    CC             Apollo 8, Apollo 8. Did you call?
-05 21 34 22    CDR            Regative, this is Apollo 8. We did not call you.
-05 21 34 25    CC             okay. Thank you.
+05 21 34 22    CDR            Negative, this is Apollo 8. We did not call you.
+05 21 34 25    CC             Okay. Thank you.
 05 21 34 29    CDR            Roger.
 05 21 41 31    CC             Apollo 8, Houston.
 05 21 41 34    CDR            Go ahead, Houston. Apollo 8.
@@ -837,7 +817,7 @@ Page 1
                               status and a couple of last minute items to run
                               down any time it is convenient for you.
 05 21 41 47    CDR            Alright. It's convenient right now, any time.
-05 21 41 50    CC             okay. For the mid-Pacific, the general condition
+05 21 41 50    CC             Okay. For the mid-Pacific, the general condition
                               is good. You can expect cloud bases 2000 foot
                               scattered, visibility 10 miles, wind 070 at 12,
                               wave heights 4 feet, altimeter 2974. Sunrise
@@ -851,32 +831,32 @@ Page 1
                               are SH3 Alfas, and they go with the Yorktown, so
                               they are at the target point. All of them have
                               swimmers aboard. If the recovery aircraft do not
-                              hear from the spacecraft; they will go ahcad and
+                              hear from the spacecraft; they will go ahead and
 Tape 93 
 Page 2 
-                              put svimmers in the water, and if you are in good
+                              put swimmers in the water, and if you are in good
                               shape and give them a call, then they will hold
                               off on dropping swimmers until sunrise.
 05 21 43 45    CDR            Roger. Say again the sunrise and first light
                               time for me, would you, please?
 05 21 43 53    CC             I say again, 8.
-05 21 44 23    CC             Apollo 8, Houston. Rotice the rather large
+05 21 44 23    CC             Apollo 8, Houston. Notice the rather large
                               middle gimbal angle. Over.
-05 21 44 32    ODR            Thank you.
-05 21 44 38    ODR            Would you say again the daylight time, please,
+05 21 44 32    CDR            Thank you.
+05 21 44 38    CDR            Would you say again the daylight time, please,
                               sunrise, and first light.
 05 21 44 44    CC             Okay. Sunrise is 17:10 Zulu, and first light
                               is 16:49 Zulu.
 05 21 45 01    CDR            Thank you.
-05 21 46 05    CC             okay. Looking over the weather I gave you was -
+05 21 46 05    CC             Okay. Looking over the weather I gave you was -
                               the 2000 foot scattered at the target point may
                               have a 6000 foot broken layer above that. At the
                               MAX lift point, you will have about the same thing,
                               and altimeter is the same down the range. As you
                               go further to the east, the weather should improve
-                              slightly; there is no problem uith thunderstorms
+                              slightly; there is no problem with thunderstorms
                               or rain showers in any of your recovery area.
-05 21 46 42    CDR            Very good; thank YQU.
+05 21 46 42    CDR            Very good; thank you.
 05 21 46 51    CC             The items that we still need will be a PRD reading
                               as late as you can do it conveniently prior to
                               a final stowage. And we don't have any numbers
@@ -887,10 +867,10 @@ Page 3
                               all four quads. And I have about five comments
                               on the entry checklist procedures to verify.
 05 21 47 24    CDR            It was activated on all four quads; that's correct.
-                              Cur final stowage is completed. We'll read out
+                              Our final stowage is completed. We'll read out
                               the PRD's for you now.
 05 21 47 35    CC             Alright. Thank you.
-05 21 47 40    CDR            The LMP's reads 0;64; I believe it's been that
+05 21 47 40    CDR            The LMP's reads 0.64; I believe it's been that
                               way throughout the flight. The CMP's reads 0.11,
                               that's 1.11.
 05 21 47 58    CC             Roger.
@@ -900,29 +880,30 @@ Page 3
 05 21 48 11    CDR            And the one I ended up with reads 3.10.
 05 21 48 18    CC             Okay. Thank you.
 05 21 48 37    CDR            Okay. Go ahead, Ken. What else do you want to
-                              talk'about?
-05 21 48 41    CC             okay. To make everybody happy, we can use an
+                              talk about?
+05 21 48 41    CC             Okay. To make everybody happy, we can use an
                               estimate of the number of hours sleep the people
                               got.
 05 21 48 52    CDR            Just a minute, I'll give you that; I forgot. Bill
-                              Anders got about 5 hours, and Jim Love11 got abo&
+                              Anders got about 5 hours, and Jim Love11 got about
                               five, and I got about five and a half or six.
-05 21 49 09    CC             Sounds good. Okay. We vent through a? exercise
+05 21 49 09    CC             Sounds good. Okay. We went through an exercise
                               with the mockup on the preentry preparations, and
-                              we noticed that in the LMP's checklist
+                              
 Tape 93 
-Page 4 
+Page 4
+                              we noticed that in the LMP's checklist on page S-12,
                               when you go to top off the repress bottles, I believe
                               it is a misprint; it should read the PLSS fill valve
                               rather than the REPRESS valve, and we should be
-                              going to the FILL position as opposed to going to OZ.
+                              going to the FILL position as opposed to going to ON.
 05 21 49 47    CDR            Roger. That's what we do.
 05 21 49 51    CC             Okay. And on - go ahead.
 05 21 50 01    CDR            Go ahead. We agree that's what we do.
 05 21 50 04    CC             Okay. On page E-7 of the entry checklist and under
                               step 34, as long as you have panel 382 open, that's
-                              a convenient time to go ahead and have the evapora-
-                              tor water controls, both primary and secondary, to
+                              a convenient time to go ahead and have the 
+                              evaporator water controls, both primary and secondary, to
                               AUTO, and the suit heat exchanger for the secondary
                               glycol to FLOW.
 05 21 50 27    CDR            Those items are already accomplished.
