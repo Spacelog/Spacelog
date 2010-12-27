@@ -10,9 +10,9 @@ dev_webserver_ip         ?= 0.0.0.0
 dev_webserver_port       ?= 8000
 dev_global_port          ?= 8001
 
-all: reindex productioncss s3assets statsporn
+all: reindex productioncss statsporn
 
-dirty: copyxapian productioncss s3assets copy_statsporn
+dirty: copyxapian productioncss copy_statsporn
 
 reindex: $(indexer)
 	rm -rf xappydb
@@ -57,15 +57,3 @@ devcss_global:
 
 thumbnails:
 	cd website/static/img/missions/a13/; $(PYTHON) resize.py
-
-# Rather than continually downloading off S3, it's not a bad idea to
-# pull the original-images.tar somewhere common. We choose two levels
-# up since in deployment that is above the level of the `releases`
-# directory, so feels about right.
-s3assets:
-ifeq ($(wildcard ../../original-images.tar), ../../original-images.tar)
-	ln -s ../../original-images.tar original-images.tar
-else
-	wget http://s3.amazonaws.com/spacelog/original-images.tar
-endif
-	tar xf original-images.tar

@@ -340,9 +340,10 @@ class OriginalView(TemplateView):
 
     def get_context_data(self, page):
         page = int(page)
-        image_dir = os.path.join(settings.MISSIONS_STATIC_ROOT, self.request.mission.name, "images", "original", self.request.mission.main_transcript_subname)
+        # FIXME: You can scroll off the end of the transcript, but we
+        # don't have the .png files locally to check that now.
         return {
             "page": page,
-            "next_page": page + 1 if os.path.exists(os.path.join(image_dir, '%d.png' % (page+1))) else None,
-            "previous_page": page - 1 if os.path.exists(os.path.join(image_dir, '%d.png' % (page-1))) else None,
+            "next_page": page + 1,
+            "previous_page": page - 1 if page > 1 else None,
         }

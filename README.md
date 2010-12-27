@@ -98,6 +98,15 @@ The project homepage will appear at [http://artemis:3000/](http://artemis:3000/)
 
 Whenever you edit information about a mission, or add a new one, you need to run `make reindex` again. If you get errors you may find the `lognag.pl` script in `mcshred/src` useful: just give it some transcript files and it'll tell you where it finds possible errors or weirdnesses. (For new missions, you'll probably have to add things into the valid speakers list at line 71.)
 
+## External Source Images
+
+We make use of external source images (which we haven't created ourselves) in the form of:
+
+* .pngs of transcript PDF pages
+* Original NASA photographs
+
+For reasons of size these aren't stored in git, they're stored in the spacelog Amazon S3 bucket (served by Cloudfront on http://media.spacelog.org). By default, our settings point you to this host. If you want to test adding your own images, you can change the MISSIONS\_IMAGE\_URL in `website/configs/settings.py` to serve them locally. File a github ticket if you need images uploaded to S3.
+
 ## Adding a new mission
 
 You'll need to create a directory in `missions`. For Mercury-Redstone missions these should start `mr`, for Mercury-Atlas `ma`, for Gemini they start just `g` and for Apollo `a`. If anyone wants to do non-NASA missions, or Shuttle missions, then get in touch and we'll figure out a naming convention.
@@ -126,12 +135,6 @@ From this we generate a number of higher-level pieces which are used in the webs
  * ACT -- an editorially defined range that represents a segment of the mission, which may for instance reference orbital mechanics (in the websites these are referred to as phases)
  * KEY SCENE -- an editorially defined point in the transcript where an important event or exchange starts
  * STREAM -- a collection of related content arranged on a timeline
-
-## Original transcript pages
-
-The system has the capability to display the original scanned NASA transcripts, but these files aren't included in the repository for reasons of size. These images are only required for displaying the original transcript pages.
-
-[This tarball](http://s3.amazonaws.com/spacelog/original-images.tar) contains these files. Place it in the repository root and untar it, and it'll put these files in the right places.
 
 ## Code layout
 
