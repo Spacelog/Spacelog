@@ -122,7 +122,10 @@ class LogLine(object):
         return LogLine.Query(self.redis_conn, self.mission_name).first_after(self.act().start).timestamp == self.timestamp
 
     def first_in_key_scene(self):
-        return LogLine.Query(self.redis_conn, self.mission_name).first_after(self.key_scene().start).timestamp == self.timestamp
+        if self.key_scene():
+            return LogLine.Query(self.redis_conn, self.mission_name).first_after(self.key_scene().start).timestamp == self.timestamp
+        else:
+            return False
 
     def images(self):
         "Returns any images associated with this LogLine."
