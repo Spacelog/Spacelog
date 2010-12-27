@@ -2,3 +2,4 @@
 # Django>=1.3
 -e svn+http://code.djangoproject.com/svn/django/trunk@14849#egg=Django
 redis
+boto
