@@ -11,7 +11,7 @@
         <a rel='prev' href="{% url original previous_page %}"><span>Previous</span></a>
     {% endif %}
 
-    <img src="{{ MISSIONS_PNG_URL }}{{ mission.name }}/images/original/{{ mission.main_transcript_subname }}/{{ page }}.png" width="770">
+    <img src="{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/original/{{ mission.main_transcript_subname }}/{{ page }}.png" width="770">
 
     {% if next_page != None %}
         <a rel='next' href="{% url original next_page %}"><span>Next</span></a>
