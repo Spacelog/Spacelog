@@ -2171,12 +2171,12 @@ sunset picture of the ...
 59 23 12 P Right.
 
 Page 259
-59 25 1:, _ ,li_ _u's% ._:a'a.n,other satellite. !:_'!.as':'::_escrlbed
-it t, 'n'_ >'_,'as he did the ?,the:-_::e. ':":'is w_s at
-i4: J_i- ._'5..ta ._..._. '_, riEht. Csrrc": tha% to 02:_7
-Or },Q.
-59 25 50 P This :}ne was 5 lot farther away than the one intended
-for us. }_.etried to get a pict_u_ of it.
+59 23 14 P Jim just saw another satellite. He hasn't described
+ it to us yet as he did the other one. This was at
+ 14:37. That wasn't right. Correct that to 02:37
+ or 38.
+59 23 50 P This one was a lot farther away than the one intended
+ for us. He tried to get a picture of it.
 59 23 55 P Did you get a picture?
 59 24 00 P Yes, he took a picture of it with the 4-power telescopic
 lens.
@@ -2241,21 +2241,17 @@ You got that one?
 59 29 19 CC Roger.
 59 29 17 CC Okay. For your PIA and CLA update' Area 40-5:
 this is a split burn. 96 forward, 120 aft. 1+34.
-2+30. O_ 38 10. 2+96. 8+92. Area 41-DELTA: 83.
-1+41. 06 30 09. 8+58. 15+O1. Area 42-2: 90.
-1+92. _ 06 26. 6+52. 11+59. How's it going?
+2+30. O_ 38 10. 2+96. 8+92. Area 41-DELTA: 83. 1+41. 06 30 09. 8+58. 15+O1. Area 42-2: 90. 1+92. _ 06 26. 6+52. 11+59. How's it going?
 59 30 33 P I'm _oing pretty good. Your 41-D, you were garbled.
 I c¢o_ldn't read that but I got the rest of it, though.
-59 30 38 CC Let me go back and pick up 41-DELTA: _V 83. l+41.
-06 30 09. 8+_8. 15+O1. Did you get it that time?
+59 30 38 CC Let me go back and pick up 41-DELTA: _V 83. l+41. 06 30 09. 8+58. 15+O1. Did you get it that time?
 
 Page 261
-59 31 0'4 P N ', i b! 'ked _u: aga:':: _n tb_t _ne. fur out.
-59 51 (_ CC Roger. I'll say again. 41-DELTA: _3- _0:_.
-$k53. 19+01.
-59 31 28 CC (L) ahead.
-59 31 37 CC You can turn you_ computer OFF.
-P *..e.
+59 31 04 P No, I blocked out again on that one. Out out.
+59 31 09 CC Roger. I'll say again. 41-DELTA: 83. 30:09. 8+58. 15+01.
+59 31 28 CC Go ahead.
+59 31 37 CC You can turn your computer OFF.
+P ...
 59 51 47 CC Gemini 4, CSQ. You can tu_-n you_- computer OFF.
 P ...
 59 31 51 CC Roger.
@@ -2269,7 +2265,7 @@ Section ROSE KNOT VICTOR
 59 58 58 CC Roger. We have a valid temperature on the Pilot.
 Go ahead with the blood pressure.
 59 59 02 C RKV, Ge:mini 4.
-59 59 _5 CC Gemini 4, RKV. Did you copy?
+59 59 05 CC Gemini 4, RKV. Did you copy?
 59 59 40 CC Gemini 4, RKV, We have not received your blood
 pressure as yet.
 59 59 45 C RKV, Gemini 4.
@@ -2286,20 +2282,20 @@ a _-rk when you're ready for your exercise.
 60 01 05 P RKV, Gemini 4.
 
 Page 262
-60 01 '_ S Ge.mini L, RKV.
-60 O] 10 P Are you getting the oral temperature urd the blood
-pressure?
+60 01 09 S Gemini 4, RKV.
+60 O1 10 P Are you getting the oral temperature and the blood
+ pressure?
 60 01 19 S We have the oral temp and we have the blood pressure.
-60 OL 23 S Gemini 4.
+60 01 23 S Gemini 4.
 60 01 25 S Gemini 4, we have the oral temp and the blood
 pressure.
-bO 01 34 S Do you copy?
+6O 01 34 S Do you copy?
 60 01 4_ P RKV, Gemini 4.
 60 01 49 S Gemini 4, RKV. Do you read?
 60 31 )2 P RKV, Gemini 4 is reading you 5 square.
 60 01 56 S Roger. We have the temp and the blood pressure.
 Give us a mark when you start your exercise.
-600211 _ l_iLEEI
+60 02 11 P MARK!
 60 03 12 S Gemini 4, RKV Surgeon. We're waiting your blood
 pressure.
 60 03 16 P Roger, coming at you.
@@ -2324,10 +2320,10 @@ zipper is no longer effective in the container.
 
 Page 263
 60 24 17 P Position 4.
-P Position _).
+P Position 5.
 60 26 14 P Position 6, complete for test, D-8, for the 4th run
 and completed at 05:41.
-60 26 5P CC Gemini 4, Gemini 4, Houston CAP COM. Over.
+60 26 52 CC Gemini 4, Gemini 4, Houston CAP COM. Over.
 60 27 07 CC Gemini 4, Gemini 4, Houston CAP C0_t Over.
 60 27 14 P ... 4.
 50 27 20 CC Gemini 4, this is Houston. We are not reading.
@@ -2357,7 +2353,7 @@ for about 15 seconds.
 60 59 40 CC After we finish with the Aero-Med Pass, we want to
 pass up some more of the CLA and PLA data. We have
 a good oral temp on the Pilot. Stand by for Surgeon.
-60 59 _2 S Gemini Pilot, this is Surgeon.
+60 59 52 S Gemini Pilot, this is Surgeon.
 61 00 00 S Gemini, this is Surgeon.
 
 Page 264
