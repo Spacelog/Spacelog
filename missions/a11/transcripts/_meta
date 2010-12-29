@@ -73,14 +73,14 @@
         {
             "title": "Return to Lunar Orbit",
             "description": "The two crewmembers successfully rejoined Michael Collins aboard Columbia in lunar orbit, leaving behind a retroreflector, a plaque, and a memorial bag.",
-            "range": ["05:00:59:04", "05:13:49:44"],
+            "range": ["05:00:59:04", "05:15:35:14"],
             "banner": "act7.jpg",
             "homepage": "act7.jpg"
         },
         {
             "title": "Towards Earth",
             "description": "After 30 lunar orbits and a trip to the surface, Apollo 11 made its way back home. The crew had a quiet trip, with TV broadcasts and preparation for re-entry.",
-            "range": ["05:13:49:44", "07:21:28:35"],
+            "range": ["05:15:35:14", "07:21:28:35"],
             "banner": "act8.jpg",
             "orbital": "act8.png",
             "illustration": "act8.gif",
@@ -107,7 +107,7 @@
       },
       {
         "title": "One small step...",
-        "range": [ "04:13:23:38", "04:13:24:48" ]
+        "range": [ "04:13:23:38", "04:13:24:49" ]
       },
       {
         "title": "President Nixon speaks to Neil and Buzz on the Moon",
