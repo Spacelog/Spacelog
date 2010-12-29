@@ -1,0 +1,202 @@
+{
+    "name": "g4",
+    "featured": false,
+    "subdomains": ["gemini4", "g4"],
+    "copy": {
+        "title": "Gemini 4",
+        "upper_title": "Gemini",
+        "lower_title": "4",
+        "description": "The 1965 Gemini mission that made Ed White the first American to perform a spacewalk.",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+            "Greg Roodt",
+	    "Jeremy Weatherford"
+        ],
+        "about": "",
+        "image_attributions": [
+        ],
+        "transcript_attributions": [
+            { 
+                "url": "http://www.jsc.nasa.gov/history/mission_trans/gemini4.htm", 
+                "title": "Gemini IV Composite Air-to-Ground and Onboard Voice Tape Transcription"
+            }
+        ],
+        "call_signs": ""
+    },
+    "main_transcript": "g4/TEC",
+    "media_transcript": "",
+    "utc_launch_time": -144492241,
+    "acts" : [
+    ],
+    "key_scenes" : [
+    ],
+    "homepage_quotes": [
+    ],
+    "characters": {
+        "CC": {
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
+            "name": "Capsule Communicator",
+            "short_name": "CAPCOM",
+            "bio": "",
+            "photo": "capcom.jpg",
+            "photo_width": 190,
+            "photo_height": 205,
+            "avatar": "capcom_generic.jpg"
+        },
+        "C": {
+          "role": "astronaut",
+          "name": "James Alton McDivitt",
+          "short_name": "James McDivitt",
+          "bio": "",
+          "photo": "james_mcdivitt.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "",
+          "quotable_log_line_id": ""
+        },
+        "P": {
+          "role": "astronaut",
+          "name": "Edward Higgins White, II",
+          "short_name": "Edward White",
+          "bio": "",
+          "photo": "edward_white.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "",
+          "quotable_log_line_id": ""
+        },
+        "S": {
+          "role": "other",
+          "name": "Surgeon",
+          "short_name": "Flight Surgeon",
+          "avatar": "surgeon.png"
+        }
+    },
+    "glossary": {
+        "ACME": {
+            "description": "Attitude Control and Maneuver Electronics",
+            "type": "abbreviation"
+        },
+        "ACQ AID": {
+            "description": "beacon used to help tracking stations lock on to the capsule"
+        },
+        "AOS": {
+            "description": "Acquisition of Signal",
+            "type": "abbreviation"
+        },
+        "BEF": {
+            "description": "Blunt End Forward",
+            "type": "abbreviation"
+        },
+        "CLA": {
+            "description": "Contingency Landing Area",
+            "type": "abbreviation"
+        },
+        "DCS": {
+            "description": "Digital Command System",
+            "type": "abbreviation"
+        },
+        "ECS": {
+            "description": "Environmental Control System",
+            "type": "abbreviation"
+        },
+        "GETRC": {
+            "description": "Ground Elapsed Time something something",
+            "type": "abbreviation"
+        },
+        "GMTRC": {
+            "description": "Greenwich Mean Time Retrofire Computed",
+            "type": "abbreviation"
+        },
+        "GT": {
+            "description": "4 Gemini-Titan 4",
+            "type": "abbreviation"
+        },
+        "HF": {
+            "description": "High Frequency",
+            "type": "abbreviation"
+        },
+        "HF": {
+            "description": "DF High Frequency Direction Finding",
+            "type": "abbreviation"
+        },
+        "IGS": {
+            "description": "Inertial Guidance System",
+            "type": "abbreviation"
+        },
+        "IMU": {
+            "description": "Inertial Measuring Unit",
+            "type": "abbreviation"
+        },
+        "IVI": {
+            "description": "Incremental Velocity Indicator",
+            "type": "abbreviation"
+        },
+        "LOS": {
+            "description": "Loss of Signal",
+            "type": "abbreviation"
+        },
+        "MCC": {
+            "description": "Mission Control Center",
+            "type": "abbreviation"
+        },
+        "OAMS": {
+            "description": "Orbit Attitude and Maneuvering System",
+            "type": "abbreviation"
+        },
+        "PLA": {
+            "description": "Planned Landing Area",
+            "type": "abbreviation"
+        },
+        "RCS": {
+            "description": "Reaction Control System",
+            "type": "abbreviation"
+        },
+        "SECO": {
+            "description": "Sustainer Engine Cut Off",
+            "type": "abbreviation"
+        },
+        "T/M": {
+            "description": "Telemetry",
+            "type": "abbreviation"
+        },
+        "TR": {
+            "description": "Time until Retrograde",
+            "type": "abbreviation"
+        },
+        "TX": {
+            "description": "Time until equipment reset",
+            "type": "abbreviation"
+        },
+        "UHF": {
+           "description": "Ultra High Frequency",
+           "type": "abbreviation"
+        },
+        "UTD": {
+           "description": "Urine Transfer Device",
+           "type": "abbreviation"
+        },
+        "D-8": {
+           "description": "dosimeters measuring radiation in the spacecraft environment"
+        },
+        "S-5": {
+           "description": "synoptic terrain photography"
+        },
+        "S-6": {
+           "description": "synoptic weather photography"
+        },
+        "D-9": {
+           "description": "sextant navigation tests"
+        },
+        "MSC-1": {
+           "description": "electrostatic charge measurement experiment"
+        },
+        "MSC-2": {
+           "description": "proton-electron spectrometer experiment"
+        },
+        "MSC-3": {
+           "description": "tri-axis magnetometer experiment"
+        }
+    }
+}
