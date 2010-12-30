@@ -2283,16 +2283,16 @@ a _-rk when you're ready for your exercise.
 
 Page 262
 60 01 09 S Gemini 4, RKV.
-60 O1 10 P Are you getting the oral temperature and the blood
+60 01 10 P Are you getting the oral temperature and the blood
  pressure?
 60 01 19 S We have the oral temp and we have the blood pressure.
 60 01 23 S Gemini 4.
 60 01 25 S Gemini 4, we have the oral temp and the blood
 pressure.
-6O 01 34 S Do you copy?
-60 01 4_ P RKV, Gemini 4.
+60 01 34 S Do you copy?
+60 01 45 P RKV, Gemini 4.
 60 01 49 S Gemini 4, RKV. Do you read?
-60 31 )2 P RKV, Gemini 4 is reading you 5 square.
+60 31 52 P RKV, Gemini 4 is reading you 5 square.
 60 01 56 S Roger. We have the temp and the blood pressure.
 Give us a mark when you start your exercise.
 60 02 11 P MARK!
@@ -2401,18 +2401,16 @@ Section CANTON
 61 10 01 P Go ahead, Houston CAP COM. Gemini 4.
 61 10 03 CC Roger. Stand by to copy some more updates.
 61 10 06 P Go ahead, Houston. Gemini 4.
-61 lO 11 CC Gemini 4, are you ready to copy CLA and PLA update?
+61 10 11 CC Gemini 4, are you ready to copy CLA and PLA update?
 Over.
 61 10 24 P Hello, Houston CAP CO_ Gemini 4.
 61 10 29 CC Gemini 4, this is Houston CAP C0_t Are you ready
 to copy CIA update?
 61 10 42 P Houston CAP COM, Gemini 4. Ready to go on the
 update.
-61 10 48 CC Roger. I'll read again 41 Delta, 41 Delta: 83.
-1+41. 06 30 09. 8+58. i_M)i. Ad_se if you copy.
+61 10 48 CC Roger. I'll read again 41 Delta, 41 Delta: 83. 1+41. 06 30 09. 8+58. 15+01. Advise if you copy.
 61 11 18 P Roger. 41 copied.
-61 i1 21 CC Roger ... 43-2: 101. 2+06. 09 40 59. 5+14.
-10+36. I:J:-2:114. 2+22. 11 15 26. 3+51. 9+13.
+61 11 21 CC Roger ... 43-2: 101. 2+06. 09 40 59. 5+14. 10+36. I:J:-2:114. 2+22. 11 15 26. 3+51. 9+13.
 Did you copy those last two?
 61 12 19 P Say again 44 dash 2. Say again Delta V. Then retro
 command.
@@ -2450,19 +2448,16 @@ a short check and make the final check at Ascension.
 61 33 52 P Roger, HF check at 05:15. A final check at Ascension.
 61 34 06 CC That's affirmative.
 61 34 11 CC Did you get 40 Delta PIA update?
-61 34 16 P Affirmative. 40 Delta PLA update. 84. 1+47.
-04 57 16. 10+O7.
+61 34 16 P Affirmative. 40 Delta PLA update. 84. 1+47. 04 57 16. 10+O7.
 61 34 23 CC Roger, I have a 41 for you.
-61 34 27 CC Roger, it's a split Delta V 46 ... 120 120. 1+8.
-2+30. 07 20 2L 7+50.
+61 34 27 CC Roger, it's a split Delta V 46 ... 120 120. 1+8. 2+30. 07 20 2L 7+50.
 61 35 04 P Roger, you faded out on the GMPRC ... Say again,
 please.
 61 35 08 CC The GMI_C 07 20 21.
 61 35 14 P Say again the first.
 61 35 17 CC Roger. 07 hours 20 minutes 21 seconds.
 61 35 24 P Roger. Got you. 07 20 24 7+50.
-61 35 29 CC Roger. 42 Bravo Split AV. 40. 120. 1+07. 2+30.
-08 50 48. 8+36. 43 Bravo Split AV. 27. 120.
+61 35 29 CC Roger. 42 Bravo Split AV. 40. 120. 1+07. 2+30. 08 50 48. 8+36. 43 Bravo Split AV. 27. 120.
 o+45. 2+3o. 1o 22 59. lo+0z.
 61 36 17 P Roger, got 43 Bravo, but did not get the info before,
 did not get any of the information before it.
@@ -2487,9 +2482,8 @@ on that time for the HF voice check. It is at
 62 00 28 P Go ahead, Houston. Gemtnt 4.
 62 00 51 CC Gemini 4, reading you loud and clear at Eano. I
 have a D-9 update for you.
-62 00 59 P Roger, go ahead.
-62 CO 41 CC Roger. It's revolution 41. The start time is
-06 01 44.
+62 00 39 P Roger, go ahead.
+62 00 41 CC Roger. It's revolution 41. The start time is 06 01 44.
 62 01 03 P Roger, I understand. Revolution 41. 06 01 J_J_,
 D-9 and in what notch?
 62 01 11 CC Say again your last.
@@ -2503,7 +2497,7 @@ Rev 41. Over.
 Run no. 2, Run no. 2. Over.
 62 03 28 CC Gemini 4, this is Houston. I say again, Run no. 2,
 Run no. 2.
-62 03 3_ P Roger, understand. Run no. 2.
+62 03 35 P Roger, understand. Run no. 2.
 
 Page 268
 62 03 38 CC Roger, that's all.
@@ -2523,7 +2517,7 @@ to copy?
 63 07 05 C Roger, we wtll be in the middle of Experiment D~9
 right now. Can you hold them or ... late transmissions
 on the time schedule?
-65 08 h)_ CC Gemlni 4, RKV CAP CO_L RKV is standing by. If
+65 08 44 CC Gemlni 4, RKV CAP CO_L RKV is standing by. If
 you get through with your D-9 Experiment in time,
 give me a call. We have about 5 1/2 minutes left
 of this pass.
@@ -2618,7 +2612,7 @@ Landmark.
 Section CANARY
 
 65 01 56 CC Gemini 4, Canary CAP COM.
-6D 02 00 P Go ahead, Canary.
+65 02 00 P Go ahead, Canary.
 65 02 02 CC Roger. Your systems look good. We're ready for
 your Aero-Meal Pass 1. Meet my Surgeon on UHF.
 65 02 10 CC Gemini 4, Canary Surgeon.
@@ -2627,13 +2621,13 @@ Page 271
 65 02 12 P Go ahead, Canary. Gemini 4.
 65 02 14 S Request that Pilot pump up blood press_Lre cuff.
 65 02 27 S Cuff is full-scale.
-6_ 03 12 S Blood pressure is received. Start exercise on your
+65 03 12 S Blood pressure is received. Start exercise on your
 mark.
 65 03 16 P MARK!
-69 03 46 S Cuff is full-scale.
-69 04 58 S Blood pressure is received. Request your food,
+65 03 46 S Cuff is full-scale.
+65 04 58 S Blood pressure is received. Request your food,
 water, and rest status.
-69 04 47 P Roger. I had -- I'm eating at the present time.
+65 04 47 P Roger. I had -- I'm eating at the present time.
 Meal 2 of the third day. I've had 6 swallows ofwater.
 I had 4 good hours of sleep out of the last
 5 when I had my sleep cycle.
@@ -2642,7 +2636,7 @@ rest cycle.
 65 05 08 P Affirmative.
 65 05 09 S Very good. This is Canary Surgeon returning you to
 Canary CAP CO_
-6_ 05 16 CC Canary CAP COM_ We have nothing more. We'll stand
+65 05 16 CC Canary CAP COM_ We have nothing more. We'll stand
 by for you.
 65 05 20 P Roger. I'm in the process now of an Apollo Lan_-_rk.
 
@@ -2650,8 +2644,8 @@ Section ROSE KNOT VICTOR
 
 66 14 94 CC Gemini 4, Gemini 4, RKV CAP C0_
 66 15 18 CC Gemini 4, Gemini 4, RKV CAP COM_
-66 1_ 30 CC Gemtni 4, Gemini 4, RKV CAP COM_
-66 19 43 P RKV, Gemini 4. Go ahead.
+66 15 30 CC Gemtni 4, Gemini 4, RKV CAP COM_
+66 15 43 P RKV, Gemini 4. Go ahead.
 66 15 46 CC Roger, the Surgeon has some questions for you.
 66 15 53 S Gemtni 4, Gemt ni 4, RK? Surgeon. Over.
 66 16 04 S Gemini 4, Gemini 4, RKV Surgeon. (hnar.
@@ -2685,7 +2679,7 @@ period. When do you plan to go to sleep, Ed?
 66 17 58 P Roger, go ahead.
 66 18 01 S The Pilot is scheduled for a sleep period. When do
 you plan to sleep?
-66 18 i1 S Gemini 4, Rk_ Surgeon. The question _ _ when does the
+66 18 11 S Gemini 4, Rk_ Surgeon. The question _ _ when does the
 Pilot plan to sleep? ..Over.
 66 18 18 C Roger. We're discussing that_ either right away or
 right after the _C-10 Experiment which will be right
@@ -2712,7 +2706,7 @@ But this is Ed's first one.
 
 Section TEXAS
 
-66 24 _l CC Gemtui 4, Gemini 4, Houston CAP CO_ Over.
+66 24 31 CC Gemtui 4, Gemini 4, Houston CAP CO_ Over.
 66 24 47 CC Gemtni 4, Gemini 4, Houston CAP C0_t Over.
 66 24 52 C Roger, this is Gemini 4.
 66 24 54 CC Roger, Jtm. I've got some significant weather for
@@ -2740,28 +2734,28 @@ your _antity Read Switch ON for about 10 seconds?
 plan on powering up the Platform at 67:40
 
 Page 274
-elapsed ti.,._o. T'::a+ 's !_?+,'._" e]'::,-_-! . :,-,, :'::- a?i_r, x~
-llm_te!y 2 h_urs. We'll _v_ ,, :-,-,.-!.-,-i }.'ill-;' _]_:n
-for you shortly.
-66 27 3-I C Okay, we'll t_wer up the platf, q_ ,t , 7:,,0.
+ elapsed time. Thats 67+40 elapsed time for 
+ approximately 2 hours. We'll have a revised Flight Plan
+ for you shortly.
+66 27 11 C Okay, we'll power up the platform at 07:40.
 66 27 14 CC Yeah.
 66 27 20 CC What it'll amount to, we'll f_l]._w the FlIfht Plan,
 but we'll have to revise it in ter:_::,;f succes._tw:
 order, some of the items.
 66 27 27 C Okay.
-66 27 _.1 C Did you say the direction we're _upposed to look for
-these eddy clouds?
-66 27 3_ CC Roger. You can turn your Quantity Read OFF now.
-for eddy clouds around the Canaries and ,V_ieir_
-Island. Location approximately 200 miles south and
-300 .tiles nor_.h of spececraft pooitlo,..
+66 27 31 C Did you say the direction we're supposed to look for
+ these eddy clouds?
+66 27 35 CC Roger. You can turn your Quantity Read OFF now.
+ Look for eddy clouds around the Canaries and Madeira
+ Island. Location approximately 200 miles south and
+ 300 miles north of spececraft position.
 66 28 03 CC Th_tt timu i_ .iusL about the time ,,F Canary's acquisition.
 66 28 07 C Roger. But I know what you are talking about. Roger.
 66 28 11 CC Okay.
 66 29 10 CC Gemini 4, Houston. Can you give us any idea of
 whether you've got some of your gear stored. We're
 concerned about CG. Over.
-66 29 _6 C It looks like we're going to end up with ECM on the
+66 29 36 C It looks like we're going to end up with ECM on the
 floor, and we're going to have the cabl_= in Ed's
 lap. And we're going to have the gun stowed in the
 center food box where it was. We're going to have
@@ -2779,24 +2773,22 @@ ready to copy.
 66 35 52 C Okay, we're ready.
 
 Page 275
-46-1: !l,. 2+2Q. 14 12 47. _+_?'. i_,55. 47-1:
-Fore _nd aft firing thrusters. <_ _::d 120. O+1l_
-and 2+30. lQ 4c _6. 3+17. 8+57. _-1: Fore and
-aft thrusters. 24 and 120. 0+40 _d 2_O, correction
-2+50. 17 20 19. 2+42. 8+43. 49-4: 111.
-2+21. 20 06 48. 4+11. 9+_6. 44 BRAVO: Fore and
-aft firing thrusters 14 and 120. O+2_ and 2+_O.
-n 55 47. 11+1o ... 5: 12o. 2+30. 13 29 13.
-11+42. 46 BRAVO: 94. 1. 19 08 39. 11+30.
-47 BRAVO: 85. 1+48. 16 42 59- 10_56. %8 ESAVO:
-82. 1+45. 18 15 36. 10+O5. And that's a11.
-Did you copy?
-66 _9 59 C Affirmative, I copied.
-66 _O 55 CC Gemini 4, Cana71f CAP CO_
+66 35 54 Roger. 46-1: 101. 2+08. 12 37. 5+56. 10+33. 46-1: 114. 2+25 14 12 47. 4+05. 6+33. 47-1:
+ Fore and aft firing thrusters. <_ _::d 120. O+1l_
+ and 2+30. lQ 4c _6. 3+17. 8+57. _-1: Fore and
+ aft thrusters. 24 and 120. 0+40 _d 2_O, correction 2+50. 17 20 19. 2+42. 8+43. 49-4: 111. 2+21. 20 06 48. 4+11. 9+_6. 44 BRAVO: Fore and
+ aft firing thrusters 14 and 120. O+2_ and 2+_O.
+ n 55 47. 11+1o ... 5: 12o. 2+30. 13 29 13.
+ 11+42. 46 BRAVO: 94. 1. 19 08 39. 11+30.
+ 47 BRAVO: 85. 1+48. 16 42 59- 10_56. %8 ESAVO:
+ 82. 1+45. 18 15 36. 10+O5. And that's a11.
+ Did you copy?
+66 39 59 C Affirmative, I copied.
+66 40 53 CC Gemini 4, Cana71f CAP CO_
 66 40 56 P Go ahead, Cans my.
 66 40 57 CC Are your RCS heaters on?
 66 41 01 P N_gat_ve, they are not.
-66 41 OR CC Roger.
+66 41 02 CC Roger.
 66 41 11 C Canary, Gemini 4.
 66 41 14 CC Go ahead.
 66 41 16 CC Gemini 4, Canary. Go ahead.
@@ -2818,36 +2810,29 @@ P '_t next time.
 C Okay, that happened last time -
 
 Page 276
-? i::'7_:X_,:.
-'' 90 30 C Yeah. X w t',,_' w_. (r w '_! ... .. . -. i '_.L:- !'
-will be 'i L,t ,_:::_ert!:,_:::_..:.:.. '-i _' u?,. 7L,-
-first time. we l,,._ked:'_r (>_-a,r, - f Jo _:_ir.'_::.d
-A!ex;:ndr'l_, we f,_und ?h:_t, [' '. . :;i,t,_ :_ wh!]_.
-I ne'_er did really _ee the ':!r"!eil. i .:;st s':w
-the area. I gue$_ed lC I p_;Int.,.,'li,e ,-::mez_t t'Ight,
-I'd have r_picture :)l'C_![r_. p!t '} is time I r%_--
-tually picked u:) the r:frfie!d. :k;.,_teh.i:l_:with
-Alexandria. I think if you are _-,oingto take a
-picture of somet'dng like that, ib might be worthwhile
-to pass ov;r it one time, t_.ke ._.good look at
-it and take the pictures next time arothnd.
-67 06 18 w The rubber - 'ne rubber outside the prophylactic
-on the exerc_ser broke.
+P In Texas.
+66 50 30 C Yeah. (Illegible) with
+Alexandria. I think if you are going to take a
+picture of something like that, it might be worthwhile
+to pass over it one time, take a good look at
+it and take the pictures next time around.
+67 06 18 P The rubber - the rubber outside the prophylactic
+on the exerciser broke.
 
 Section CARNARVON
 
 67 10 24 CC T/M solid at Carnarvon.
-6" 10 27 CC Gemini h, Carnarvnn CAP COM.
-J7 11 01 CC Gemini 4, Carn_rvon Ct_ COM.
+67 10 27 CC Gemini h, Carnarvnn CAP COM.
+67 11 01 CC Gemini 4, Carn_rvon Ct_ COM.
 67 11 18 C Hello Carnarvon, Gemini 4.
-67 11 2_1 CC Roger. You're looking good here on the ground.
+67 11 21 CC Roger. You're looking good here on the ground.
 How are you up there?
 67 11 22 C Everything is fine.
 67 11 25 CC Okay, I've got a little info for you. Got a pencil'
 and paper?
 67 11 27 C Stand by just a second.
 67 11 45 C Okay. Go ahead.
-67 11 43_ CC They wom!d like for you to power up and aline your
+67 11 43 CC They wom!d like for you to power up and aline your
 platform at 10 50 00. They would also like for you
 to turn on Experiment 5_SC-1 at that time.
 67 12 05 C Okay, MSC-1 ON at 10:50 and I'm to power up and
@@ -2858,8 +2843,7 @@ alinement.
 67 12 18 C Okay, we're supposed to do MSC-iO at that time.
 
 Page 277
-67 12 _ C Car:.ar__,:;, I'm :-t re:_dlng yin:. W:::- i s':pi>ssed Lo
-dc: .'_3C n,-,. ! and :._C m_. !0, . r .'ust St;C-!O?
+(Illegible)
 67 12 45 CC MSC-1 will go 9.'{at that ti,,._e,at:d you're to do
 M_C-iO if it doesn't interfere.
 67 12 51 C Roger, okay. We'll do that.
@@ -2956,7 +2940,7 @@ that another one of our satellites?
 67 50 39 C See it right in front of us, that bright star ...
 P No.
 67 51 01 P That looks almost like a normal sunrise, doesn't it?
-67 51 o5 c That's what it is.
+67 51 05 c That's what it is.
 67 51 06 P Well, you know, that's not what you expected it to
 be. I -- I don't have the lens on right.
 67 51 25 P It's coming up on 4 mfnutes now.
@@ -2972,12 +2956,12 @@ C Wish we had some lights in here.
 out like he said. I remember he said ...
 
 Page 280
-67 '2 37 C _ .:_.!::g :;: ,r: *he 'ime.
-67 S,2 44 P Yes.
+67 52 37 C Coming up on the time.
+67 52 44 P Yes.
 67 52 47 C MARK!
-67 _5 O) P Got that on the onboard voice tape'.'
+67 53 03 P Got that on the onboard voice tape?
 67 53 06 C Yes.
-67 5) 11 C 753 at 05 - 11:O 9 - Sun right on the horizon. We
+67 53 11 C 753 at 05 - 11:O 9 - Sun right on the horizon. We
 haven't had .vrachsuccess with the photo-event indicator
 on the Hasselblad. We have it. Puts the
 shutters in the -what do they call that thing?
@@ -3009,12 +2993,12 @@ Check.
 67 59 46 CC Roger, standing by.
 
 Page 281
-'_7 59 '_1 C Platform Attitude M_lf'_mcthm light came on at
+67 59 51 C Platform Attitude M_lf'_mcthm light came on at
 11:15 - 11:15.
 67 99 94 P The attitude of the sun was about I_ above *..he
 nose. Four series were taken and -
 68 00 08 C Okay, go ahead with the rest of your G.m.t. 's.
-68 00 I1 CC Roger. Time 12 19 00 Horizon Scanner Moonset Check.
+68 00 11 CC Roger. Time 12 19 00 Horizon Scanner Moonset Check.
 68 00 27 C Okay. 12:19 Horizon Scanner Moonset Check
 68 00 31 CC Roger. You got the previous one, 14 94 00 Horizon
 Scanner Sunset Check'".
@@ -3030,8 +3014,8 @@ Night Check.
 68 01 29 CC Roger. /2 99 00 Horizon Scanner Track Check.
 68 01 42 C Roger. Horizon Scanner Track Check at 12:99.
 68 01 47 CC Roger, and at 13 14 00 one Attitude Thruster Check.
-68 OR 05 C Say again 13: 14.
-68 OR 07 CC Roger, that's One Attitude Thruster Check.
+68 02 05 C Say again 13: 14.
+68 02 07 CC Roger, that's One Attitude Thruster Check.
 68 02 39 CC Did you get that last one, Jim?
 68 02 91 CC Gemini 4, this is Houston.
 68 03 16 CC Gemini 4, Gemini 4, Houston CAP COM_ Over.
@@ -3047,7 +3031,7 @@ with lt_ so the series from now on wt11 be
 marked on the event.
 
 Page 282
-t)8 04 01 CC Gemini !_,':!oust_>n. C,,tLldy,,u give t,.._ the approximate
+68 04 01 CC Gemini !_,':!oust_>n. C,,tLldy,,u give t,.._ the approximate
 time you conr_?nced platform alinement?
 68 08 35 P The timer, I think, hangs up to magazine. Somehow,
 I don't know -- for the _% series we're going back
@@ -3085,11 +3069,12 @@ ever since we took off.
 68 11 47 CC That's affirmative.
 
 Page 283
-(2},11 52 CC }:ve:'yth[:_.i_- ::s g._,,ifr>m here.
-_23 15 06 C We're takin_ the 6 set here. Fhotographs at 11:2%.
-(_ 15 57 P You rolling it enough?
+68 11 52 CC }:ve:'yth[:_.i_- ::s g._,,ifr>m here.
+68 11 55 C Okay, same here.
+68 13 06 C We're takin_ the 6 set here. Fhotographs at 11:2%.
+68 13 37 P You rolling it enough?
 68 14 08 P Supposed to go right into darkness, isn't it?
-(_ 14 10 C Yes ... those guys told me to aline that platform
+68 14 10 C Yes ... those guys told me to aline that platform
 ... you wait, I'll bet we don't get that
 platform up in time ...
 68 14 55 P You know what we're supposed to be looking for on
@@ -3100,7 +3085,7 @@ the sunset?
 68 45 15 C Go ahead Carnarvon, Gemini 4.
 68 43 18 CC Roger. Look_,_g good hel_ on the ground. How are
 you doing?
-68 43 2<) C Fine.
+68 43 20 C Fine.
 68 43 22 CC Okay. Have you finished up with your horizon scanner
 on sunset?
 68 43 26 C Negative, I'm not.
@@ -3123,7 +3108,7 @@ see is thunderstorms.
 
 Page 284
 68 44 04 C Wow!
-6_ 44 05 CC They need it.
+68 44 05 CC They need it.
 68 44 09 C Did you get it all today?
 68 44 11 CC Say again.
 68 44 18 C I got the platform all powered up, and it seems to
@@ -3158,16 +3143,16 @@ guess it wasn't too much trouble.
 68 50 21 CC Go ahead.
 
 Page 285
-(.:J 50 22_' C ! .;ee s,_me lights shini:_ on tLe ,:___uds f:'_: t,el3_
+68 50 22 C I see some lights shini:_ on tLe ,:___uds f:'_: t,el3_
 me ':t Z4is ti._e.
-(X3'jO 25 CC ;.iL!right. That should be Melbourne.
-68 _0 26 C Okay. Very good. Tell them I thank them for !i6htlng
+68 50 23 CC All right. That should be Melbourne.
+68 50 26 C Okay. Very good. Tell them I thank them for lighting
 the night for me.
-68 'jO 28 CC Okay, v_ry good. They'll appreciate that.
-68 50 51 C Tell them the next time though, to get those clouds
+68 50 28 CC Okay, very good. They'll appreciate that.
+68 50 31 C Tell them the next time though, to get those clouds
 out of the way so I can see the city and not Just
 the clo,!d_.
-68 50 54 CC That's the same way I feel, I'm all miffed[
+68 50 34 CC That's the same way I feel, I'm all miffed[
 
 Section TEXAS
 
@@ -3189,15 +3174,14 @@ you a call at AOS. Over.
 69 28 10 CC Roger. And we're interested in the cabin h,_m_dity.
 Is there any noticeable water in the cabin? Over.
 69 28 17 P Negative. We were just talking about that a few
-minutes ago. The h,,m_dity is staying low_ about
-60 to 63 percent, and there is no noticeable moisture.
+minutes ago. The h,,m_dity is staying low_ about 60 to 63 percent, and there is no noticeable moisture.
 We've been doing a great deal of operations
 with face-platee open and gloves off.
 69 28 32 CC Understand. Face-plates open and gloves off.
 
 Page 286
-(9 28 34 P Afflrm_t!_.
-o9 28 )7 CC Roger. We wo_ld like to know how .much colored
+69 28 34 P Afflrm_t!_.
+69 28 37 CC Roger. We wo_ld like to know how .much colored
 film remains. Just an est_.w_te - for the Hasselblad
 camera and the 16-mm camera. Over.
 69 28 46 P Broke up. Say again.
@@ -3229,7 +3213,7 @@ in 2 days.
 69 30 27 CC Have at it, flight-time hogsl
 69 30 31 C Too bad this isn't next month; I have my requirements
 in a2 eady.
-69 30 3_ CC Hey, you .know I knew that White was a time hog, Jim,
+69 30 35 CC Hey, you .know I knew that White was a time hog, Jim,
 but I always thought you were a 5D-minute mission
 man.
 
