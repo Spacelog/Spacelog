@@ -3218,18 +3218,18 @@ but I always thought you were a 5D-minute mission
 man.
 
 Page 287
-,., 30 Li _ Y u're .maki:4,7 ._ stay up here ,_:tll we !ur:, _ut the
+69 30 41 C Y u're .maki:4,7 ._ stay up here ,_:tll we !ur:, _ut the
 fuel.
-69 )O '.L CC Right.
-69 )0 4_ P I do::'t ever land with them f_,11.
-69 30 _0 C ... and we shoot GCA's when we come back.
+69 30 44 CC Right.
+69 30 46 P I do::'t ever land with them f_,11.
+69 30 50 C ... and we shoot GCA's when we come back.
 69 50 51 CC Right. Everythtmg's just real good _own here. I
 saw both of your wives yesterday. Everything's in
 good shape.
 69 30 58 C Okay.
 69 31 02 CC We're thinking of extending the mission about a week.
-69 51 04 C Better send some more foodl
-69 _1 10 CC Okay. Frsnk maid he we,,1.1be on his way up as soon
+69 31 04 C Better send some more foodl
+69 31 10 CC Okay. Frsnk maid he we,,1.1be on his way up as soon
 as he can make it.
 69 31 29 C Houston, Gemini 4. Nherc am I?
 69 31 35 CC Say again, Gemtni 4.
@@ -3246,31 +3246,31 @@ going up and down. Ithtnk that's a pretty good
 average n,,mber right now.
 69 32 21 P The OA_ source temperature is 70, pressure is 19OO.
 69 32 30 CC Roger. We got 55 percent, 70, and 1900.
-69 52 35 C That's afflictive.
+69 32 35 C That's afflictive.
 69 33 56 CC Gemtni 4, this is Houston.
-69 54 00 C Go ahead, Houston.
-69 54 01 CC Roger. It looks l_ke you've used about l_ pounds at
+69 34 00 C Go ahead, Houston.
+69 34 01 CC Roger. It looks l_ke you've used about l_ pounds at
 a first guess --OA_.
 69 54 08 C I've used how much?
 69 54 11 CC A first cut at it, Jim, looks like about 15 pounds
 so far.
 
 Page 288
-',9 5:' 1( C I';_ ._sed !> .>ut of 107
-'_,9 54 20 CC Yes, i_/ out 3f !0 a-,_i!able for these checks.
-4:9 .%4 25 C No, we lnaven't used that ._uch at all,
-69 59 15 CC Gemini, this is Houston. That's Just a rough guess
+69 34 16 C I';_ ._sed !> .>ut of 107
+69 34 20 CC Yes, i_/ out 3f !0 a-,_i!able for these checks.
+69 34 25 C No, we lnaven't used that ._uch at all,
+69 35 13 CC Gemini, this is Houston. That's Just a rough guess
 on the OAMS usaEe. We'll get a better cut at it
 after Canaries. You're still looking good.
-69 59 24 C Okay. I got a question. This check that we are
+69 39 24 C Okay. I got a question. This check that we are
 supposed to perform at 13:lb which is a One Attitude
 Thruster Check. Is that the Attitude Thruster Failure
 Check?
-69 55 53 CC Okay. Stand by one.
-69 55 53 CC That's affirmative, Jim. That's a One Attitude
+69 35 33 CC Okay. Stand by one.
+69 35 33 CC That's affirmative, Jim. That's a One Attitude
 Thruster Failure Check.
 69 35 58 C Okay.
-69 _6 54 CC Gemini 4, this is Houston. You really sound great,
+69 36 54 CC Gemini 4, this is Houston. You really sound great,
 and we ,11 see you later tonight.
 69 57 01 C 0kee-dokee.
 
@@ -3279,7 +3279,7 @@ Section CANARY ISLANDS
 69 42 56 CC Gemini 4, Canary CAP COM_
 69 45 08 CC Gemini 4, Canary CAP COM_
 69 43 18 C Canary, Gemini 4. Do you read?
-69 43 Zl CC Roger. We have T/M AcquiJition on you now.
+69 43 21 CC Roger. We have T/M AcquiJition on you now.
 69 43 24 C Okay. I'll go ahead with that thruster check.
 69 43 50 C All set?
 69 43 32 CC Roger.
@@ -3292,7 +3292,7 @@ we didn't get any break lock on the scanner.
 Page 289
 Section CARNARVON
 
-70 16 98 CC Gemini 4, Carnarvon CAP COM.
+70 16 58 CC Gemini 4, Carnarvon CAP COM.
 70 17 14 c Gemini4.
 70 17 16 CC All right. How're you doing?
 70 17 21 CC Looking good down here. How are you looking up
@@ -3302,11 +3302,11 @@ there?
 70 17 40 CC' Loud and clear. How are you going?
 70 17 41 C Fine. How are you doing?
 70 17 42 C_ A little tired. You're looking real good down here.
-70 17 }!1! C Of course. Everything going along okay up here.
+70 17 44 C Of course. Everything going along okay up here.
 Be advised we turned off our computer and powered
 down the _ at 13:20.
 70 17 54 CC Roger, did you have our computer on ... checks?
-70 17 _8 C Yes, we did.
+70 17 58 C Yes, we did.
 70 18 02 CO Okay, very good. I'll -_ke a _k_licalPass Type 1
 on the Pilot at Texas at 14 13 15.
 70 18 14 C Say, listen. Ed hasn't been to sleep yet. He's
@@ -3330,7 +3330,7 @@ Page 290
 70 19 54 CC Stand by for Surgeon.
 70 19 56 S This is the Carnarvon Surgeon. Take your exercise
 on your mark.
-7O 2O O2 C MARK_
+70 20 02 C MARK_
 70 20 48 S The blood pressure looks good, Pilot.
 70 20 50 c Okay.
 70 20 58 S Could we have some more info_m_tion on your food and
@@ -3361,11 +3361,11 @@ up.
 70 22 13 P I'll be asleep.
 70 22 38 CC ... Gemini 4.
 70 22 44 C Stand by one.
-70 2° 48 C We're pointing straight down.
+70 22 48 C We're pointing straight down.
 
 Page 291
 70 22 49 CC Say again.
-70 22 _1 C We're pointing straight down.
+70 22 51 C We're pointing straight down.
 70 22 53 C Roger. Got that.
 70 57 37 CC Gemini 4, Gemini 4, this is Houston CAP CO_ Over.
 70 57 52 CC Gemini 4, Gemini 4, this is Houston CAP CO_ Over.
@@ -3374,7 +3374,7 @@ Page 291
 have a critical tape dump over Canaveral in approxi-
 -_tely 4 mtnutes.
 70 58 08 C What was that?
-70 _8 11 CC Roger_ a critical tape dump over Canaveral in about
+70 58 11 CC Roger_ a critical tape dump over Canaveral in about
 4 m_nutes.
 70 58 20 CC _ey, Gemini _. We'd like your Quantity Read Switch
 ON and I,"_ te]] you when to turn it OFF.
@@ -3390,13 +3390,13 @@ when I pass over Canaveral?
 70 58 52 C Hello there, how are you?
 70 58 54 CC Just fine. After a ling night's sleepl
 70 58 58 C Affir-_tive. We've had a lot of short night's sleep.
-70 _9 03 C I'm getting along fine, ...
-70 _9 07 CC You're do4ng a great job. Jim, we took a hack on
+70 59 03 C I'm getting along fine, ...
+70 59 07 CC You're do4ng a great job. Jim, we took a hack on
 your aecelerometer bias down here and it --while
 your pl_tform was powered up --and it looks good
 to us.
 70 59 18 C Okay, thank yom
-70 _9 20 CC Roger, and I'd like to advise you that any MSC-IO
+70 59 20 CC Roger, and I'd like to advise you that any MSC-IO
 ftlma that you have left over, you can use for targets
 of opportunity at your own option.
 
@@ -3438,7 +3438,7 @@ Section CANARY ISLANDS
 71 16 46 CC Roger, we have you still powered ...
 
 Page 293
-71 17 _.0 C You have what?
+71 17 50 C You have what?
 71 16 52 CC We have you ...
 71 16 54 C That's affirmative. I'm looking for some blood
 ... around here.
@@ -3446,13 +3446,13 @@ Page 293
 71 17 00 C You know where they are? I don't seem to be able
 to find the_
 71 17 27 CC That's northeast of it.
-71 17 3o c Okay.
+71 17 30 c Okay.
 71 17 57 CC Gem4ni 4, Canary CAP CO_
 71 17 59 C Go ahead.
-71 IS 02 CC Flight says he doesn't worry about the ACME power.
-71 18 O_ C Okay, I'll turn it off as soon as I get over Africa.
+71 18 02 CC Flight says he doesn't worry about the ACME power.
+71 18 04 C Okay, I'll turn it off as soon as I get over Africa.
 I don't see those clo,]8_floating around any place.
-71 18 l l CC Roger.
+71 18 11 CC Roger.
 71 18 30 C I'm approaching Africa. I'm going to turn it off
 nOW.
 71 18 34 CC Roger.
@@ -3509,13 +3509,13 @@ a Type i Medical Pass over Guaymas.
 went over you. Was tint next time or this time?
 71 53 21 CC It must have been for the next time. Hold on. I'll
 see what they are talking about.
-71 53 2_ C Okay. I'm pointing down at the ground again ...
+71 53 25 C Okay. I'm pointing down at the ground again ...
 
 Page 295
-Ti 53 45 C I _ve my ?/M ...
-71 93 47 CC Okay, we have good T/SL Hold up a second. I want
+71 53 45 C I _ve my ?/M ...
+71 53 47 CC Okay, we have good T/SL Hold up a second. I want
 to talk to Flight.
-71--93 50 C Okay ... with T/M_
+71 53 50 C Okay ... with T/M_
 71 54 01 CC Okay. We are in good shape now, Gemini.
 71 54 03 c O_ay.
 
@@ -3530,9 +3530,9 @@ oral temp.
 72 29 58 S Gemini 4, your cuff is full-scale.
 72 30 39 S Gemini 4, your blood pressure is received. Start
 exercise on your mark.
-7E 30 50 S Gemini 4, Ouaymas Surgeon. Do you read?
+72 30 50 S Gemini 4, Ouaymas Surgeon. Do you read?
 72 50 52 C Roger. Do you read?
-72 3O _4 S Roger, Gemini 4. Start your exercise on your mark.
+72 30 54 S Roger, Gemini 4. Start your exercise on your mark.
 We have received your blood pressure.
 72 30 59 C Roger.
 72 31 01 C NARKI
@@ -3560,7 +3560,7 @@ so I probably won't be going again for 6 or 7-
 on in about 10 seconds.
 72 35 01 CC Okay. Go ahead and turn your T/M switch to COMMAND
 and your Quantity Read Switch ON, also.
-72 35 o8 c Okay.
+72 35 08 c Okay.
 72 35 31 CC Gemini 4, Houston CAP CO_
 72 35 32 C Go ahead.
 72 35 33 CC I've got quite a bit of information to pass up to
@@ -3622,11 +3622,11 @@ to track this as close as possible and to get some
 pictures using the 16-mm camera with 75-_m lenses
 with a nominal lens setting.
 72 39 32 C Roger. Wi11 do.
-72 39 3 4 CC Do you want me to repeat any of that?
+72 39 34 CC Do you want me to repeat any of that?
 72 39 36 C Negative. Apollo no. 2 at 17: 19. 16 miles north
 of track. Pitch is down about 3 O° and use the 75-mm
 lenses at that time.
-72 39 4_ CC Roger, and really have at it and track it close.
+72 39 45 CC Roger, and really have at it and track it close.
 Use your reticle.
 72 39 48 C Okay.
 
@@ -3690,7 +3690,7 @@ _mning 72 and 7_, the wet bulbs between 60 and 64.
 The relative h_,mtdity stands pretty close to around
 60 percent.
 72 43 08 CC Ve_ good.
-72 43 lO C Yes. And there is no visible moisture. And there
+72 43 10 C Yes. And there is no visible moisture. And there
 isn't any moisture around that blotting paper. Unfortunately,
 you covered up the walls so that I
 can't take the temperature, but the worst temperature
@@ -3719,14 +3719,14 @@ Section CARNARVON
 the ground. We are standing by if you have anything
 you need.
 73 25 13 C Roger, Carnarvon. This is Gemini 4. We're happy.
-73 2_ 17 CC Okay, we'll Just let you alo, _.and continue on.
+73 25 17 CC Okay, we'll Just let you alo, _.and continue on.
 75 25 20 C Roger, thBnk you. Hey, Ed ...
 73 25 26 C _rnarvon, Gemini 4, ha_ it stopped raining yet?
 73 25 29 CC Oh, let me take a look outeide ... He's sticking
 his head out the window -wait a second.
 73 23 49 c okay.
-7_ 26 03 CC It has stopped raining_ a little bit wet though -
-73 26 o5 c Verygood.
+73 26 03 CC It has stopped raining_ a little bit wet though -
+73 26 05 c Verygood.
 73 26 17 C There sure have been some w41_ thunder clouds over
 Australia here in the last couple of days.
 73 25 22 CC That's affirmative. We've had about 3 inches of
@@ -3754,36 +3754,36 @@ At 23+16+O2. 2+42. 8+45. Then without burn
 25+10+17. 7+05. 14+17.
 74 10 19 C Okay, got 'em.
 74 10 21 CC Okay. W_ll you turn your computer ON?
-74 lO 47 CC Jim, did you get your computer ON?
+74 10 47 CC Jim, did you get your computer ON?
 74 10 49 C Roger, I Just got it ON about a couple of seconds
 ago.
 74 10 50 CC Okay, fine. Hey, Jim, we've decided not to do an
 orbit adjust. So you just make one burn prior to
 retroflre.
-74 1l 00 C O_ay. How big is it going to be?
-74 I1 02 CC It'll be about 130 ft/sec.
+74 11 00 C O_ay. How big is it going to be?
+74 11 02 CC It'll be about 130 ft/sec.
 74 11 04 C Okay. What's my orbit right now?
 74 11 09 CC Say again.
-74 1l lO C What's my current orbit?
-7_ 3_l 12 CC Stand by, I'll get it for you. This means that we
+74 11 10 C What's my current orbit?
+74 11 12 CC Stand by, I'll get it for you. This means that we
 have some extra fuel to play with. So we're in the
 process now of working in some other tracking tasks,
 and some other things into your Flight Plan that
 we'll be passing up to you as you go along.
 74 11 24 C Very good.
-74 3_127 CC So we're going to do a little bit more controlling.
+74 11 27 CC So we're going to do a little bit more controlling.
 74 11 30 CC Your orbit right now is 86.3 by 141.6 Staying up
 very, very well.
-74 i1 39 C Roger.
-74 I1 42 CC Hey, did you do a Main Battery Check on the last
+74 11 39 C Roger.
+74 11 42 CC Hey, did you do a Main Battery Check on the last
 orbit?
-7_$I1 46 C I don't know if Ed did one or not; I'll do one.
+74 11 46 C I don't know if Ed did one or not; I'll do one.
 Do you want it right now?
 74 11 50 CC Well, can you do it? We can wait a little While until
 Ed wakes up if you want.
-74 i1 55 C No, he's going to be asleep for awhile. I'll try to
+74 11 55 C No, he's going to be asleep for awhile. I'll try to
 do it.
-74 12.01 CC Do you want me to read the news to you, while you're
+74 12 01 CC Do you want me to read the news to you, while you're
 trying to do that?
 
 Page 302
@@ -3826,21 +3826,21 @@ Center?
 74 14 00 F Really great, J_m.
 
 Page 303
-_4 14 19 CC Hey, Jim --
-74 lk 26 CC Gemini 4, CAP C0¥_
+74 14 19 CC Hey, Jim --
+74 14 26 CC Gemini 4, CAP C0¥_
 74 15 03 CC Gemini 4.
 74 15 13 F Gemini 4, Houston Flight.
 74 15 41 F Gemini 4, Houston Flight.
-74 15 /4'4 C Hel]o Houston Flight, Gemini 4.
-74 15 /4-5 F We're real pleased with the way the Control Center
+74 15 44 C Hel]o Houston Flight, Gemini 4.
+74 15 45 F We're real pleased with the way the Control Center
 is working down here, Jim. The guys have done a
 great job and deserve a lot of credit. A tremendous
 flight !
-74 15 .56 C Roger, thank you. Glad to see it's all working out.
+74 15 56 C Roger, thank you. Glad to see it's all working out.
 74 16 00 F Roger.
 74 16 12 CC Gemini 4, CAP COM. Do you want to turn off your
 computer?
-74 16 ].6 C Roger. Already have, Gus.
+74 16 16 C Roger. Already have, Gus.
 74 16 17 CC Okay.
 
 Section CARNARVON
@@ -3854,7 +3854,7 @@ want to write something down.
 74 58 35 CC Okay. Get a long piece of paper. I've got a series
 of updates for you.
 58 58 c Okay, ...
-74 58 .54 C Okay, I've got my ..._ but before that I want to
+74 58 54 C Okay, I've got my ..._ but before that I want to
 tel] you that my batteries all checked out over the
 States. Just after I left the States, I did a
 Battery Check and they all looked normal.
@@ -3873,14 +3873,11 @@ Page 304
 75 00 23 CC 54-3: 55 f_rward, 83 aft. 1+31. 1+45. 03 40 13.
 2+46. 8+39.
 75 00 48 C Okay.
-75 00 50 CC 49-DELTA: 55 forward, 99 aft. 1+31. 2+05.
-19 13 14. 9+09.
-75 Ol 12 c Okay.
-75 01 14 CC 50-DELTA: 55 forward, 85 aft. 1+31. 1+48.
-20 46 06. 10+36.
-75 Ol 35 c O y.
-75 01 37 CC 51-Dk_.TA: 55 forward, 73 aft. 1+31. 1+32.
-22 19 00. 11+31.
+75 00 50 CC 49-DELTA: 55 forward, 99 aft. 1+31. 2+05. 19 13 14. 9+09.
+75 01 12 c Okay.
+75 01 14 CC 50-DELTA: 55 forward, 85 aft. 1+31. 1+48. 20 46 06. 10+36.
+75 01 35 c O y.
+75 01 37 CC 51-Dk_.TA: 55 forward, 73 aft. 1+31. 1+32. 22 19 00. 11+31.
 75 01 58 C Okay.
 75 01 59 CC 52-r_.LTA: 115. 2+25. 23 52 37. 11+44.
 75 02 17 C Okay.
@@ -3896,12 +3893,12 @@ get that later.
 75 03 00 CC Did you get them all?
 75 03 02 C Got them all.
 75 03 03 CC Okay.
-75 03 0_ C You're getting pretty proficient at that.
+75 03 05 C You're getting pretty proficient at that.
 75 03 07 CC I've got a lot of wind.
 
 Page 305
 75 03 11 C You said it, not me.
-7_ 03 14 CC I did it again.
+75 03 14 CC I did it again.
 75 03 58 CC We'd like to know if your partner's been sleeping
 straight through.
 75 04 02 C I think so. Every once in a while he opens his
@@ -3916,7 +3913,7 @@ Ed's side and I don't want to bother him.
 
 Section GUAYMAS
 
-7_ 36 06 CC Gemini 4, Guaymas CAP CON4
+75 36 06 CC Gemini 4, Guaymas CAP CON4
 75 36 17 C Go ahead Guaymas, Gemini 4.
 75 36 19 CC Roger. All systems are green. We've got a change
 time for your D-9 Experiment, Run 4.
@@ -3928,7 +3925,7 @@ time for your D-9 Experiment, Run 4.
 75 42 34 CC Gemini 4, Houston CAP C0_
 75 42 41 C Go ahead, Houston, Gemtnl 4.
 75 42 44 CC Hey, Jim, w_11 you turn your computer ON?
-7_ 42 47 C Roger.
+75 42 47 C Roger.
 75 42 48 CC Okay. I've got another experiment to pass up to
 you here.
 75 42 54 C Okay. Just a m_nute.
@@ -3983,7 +3980,7 @@ Page 307
 That one where we take all those stars.
 75 45 50 CC Didn't you do it?
 75 45 54 CC Didn't you do the Apollo one?
-75 45 _6 C Noj we haven't done that one yet.
+75 45 56 C Noj we haven't done that one yet.
 75 45 58 CC Okay, we'll schedule it in for you.
 75 46 02 C Okay.
 75 46 05 CC Okay, Jim. Would you press on your external lead.
@@ -3995,7 +3992,7 @@ know about?
 75 46 26 C Yes, we have the suit-hands at 2. We'll turn them
 back to 2.
 75 46 30 CC That 's okay.
-7_ 46 32 C Hey, I st111 have my Malfunction L_gbt and my Corn
+75 46 32 C Hey, I st111 have my Malfunction L_gbt and my Corn
 purer Light on, but the switch OFF.
 75 46 55 CC We show a computer ON and no Malfunction Light.
 What's your status now with the computer?
