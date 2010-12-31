@@ -1,0 +1,2816 @@
+Tape 50
+Page 8
+03 02 50 42 CC Roger. I think they understand.
+03 02 51 57 CDR Houston, how do you read? Apollo 8.
+03 02 52 02 CC Apollo 8, Houston. Over.
+03 02 52 07 CDR Roger. Go ahead.
+03 02 52 09 CC Roger. Frank, we'd like to know about the water
+ chlorination. Have you - when was the last time
+ you chlorinated the water? Over.
+03 02 52 16 CDR About an hour and a half ago; we've already done it.
+03 02 52 22 CC Roger. We copy you an hour and a half ago.
+ Affirmative?
+03 02 52 28 CDR Roger. You know we wouldn't forget that.
+03 02 52 36 CC Roger.
+03 02 52 40 CDR Jim spilled a little, and it smelled like a
+ bucket of Clorox about an hour ago.
+03 02 52 51 CC Apollo 8, Houston. Say again.
+03 02 52 57 CDR I said Jim inadvertently spilled some of that
+ chlorine, and it smelled like a bucket of
+ Clorox in here for a little while.
+03 02 53 06 CC Roger. Understand.
+END OF TAPE
+
+Tape 51
+Page 9
+03 02 58 40 CC Apollo 8, Houston. Over.
+03 02 58 50 CDR Go ahead, Houston. Apollo 8.
+03 02 58 52 CC Roger. We have two and a half minutes to LOS,
+ and all systems are looking good. Everything is
+ looking just fine down here, Frank.
+03 02 59 02 CDR Thank you.
+03 02 59 06 CC We'll have some more information on the TV on
+ the next rev. We're not planning any big change
+ in the time, just to extend them a little bit, I
+ think, closer to the terminator.
+03 02 59 21 CDR Just give us the time, will you, because we just
+ want to know when it is. I'd like to get the
+ terminator if we could, and we've got a little
+ message, and that's it.
+03 02 59 29 CC Roger. We'll do that the next time you come
+ around.
+03 02 59 32 CDR Thank you. Okay. And have the EECOM guys keep
+ a sharp watch on our systems. Old Anders is so
+ busy fooling around with these pictures that -
+ not much else is getting done.
+03 02 59 47 CC Roger. The EECOM is doing that.
+
+Comment 03 03 30 xx BEGIN LUNAR REV 4
+03 03 49 30 CC Apollo 8, this is Houston. Over.
+03 03 50 08 CC Apollo 8, this is Houston. Over.
+03 03 50 26 CC Apollo 8, this is Houston. Over.
+03 03 50 33 CDR Go ahead, Houston. Apollo 8 here.
+
+Tape 51
+Page 2
+03 03 50 36 CC Roger. We have been having a little antenna
+ problem on the ground here. We are reading you
+ now with a lot of noise in the background. How me?
+03 03 50 46 CDR Loud and clear, Michael.
+03 03 50 59 CC Roger. Frank, we are still trying to get a little
+ bit better COMM here. Stand by; you're unreadable.
+03 03 52 26 CC Apollo 8, this is Houston. Over.
+03 03 52 30 CDR Loud and clear, Houston. Apollo 8.
+03 03 52 32 CC I understand you are reading us loud and clear;
+ we are barely reading you. Would you go to P00 in
+ ACCEPT, please? We are going to send you a P27 update.
+03.03 52 45 CDR Roger. Going to P00 and to ACCEPT, Houston.
+03 03 53 47 CDR We are in P00 and ACCEPT.
+03 03 53 51 CC Apollo 8, Houston. You are not readable. We are
+ going to delay the P27 until we get a little bit
+ better lock on you.
+03 03 54 11 CC As long as you're reading me okay, Frank, I'll
+ bring you up to date on a couple of things. The
+ P27 which we will be sending you is a state vector
+ update going to the LM slot, and we'd like to -
+ as per plan - to transfer that to the CSM slot by
+ a VERB 47 ENTER, and we would like to just remind
+ you that prior to doing your VERB 47 ENTER manually
+ select P00 and wait for the computer activity light
+ to go out. Did you copy? Over.
+
+Tape 51
+Page 3
+03 03 54 49 CDR Roger. Roger. We copy.
+03 03 54 57 CC Okay, Frank. Are you still reading me loud and
+ clear? Over.
+03 03 55 03 CDR Roger. Loud and clear.
+03 03 55 05 CC Alright. I'll go ahead with a map update when
+ you're ready to copy.
+03 03 55 17 CDR Okay. Can you hold off a minute?
+03 03 56 17 CC Apollo 8, this is Houston. How are you reading
+ now?
+03 03 56 34 CDR Go ahead, Houston. This is Apollo 8.
+03 03 57 04 CC Apollo 8, this is Houston with a map update.
+ Are you ready to copy?
+03 03 57 12 CDR Just a minute, Mike.
+03 03 57 20 CC Roger. Apollo 8, Houston. Your map update for
+ REV 4/5: LOS 76:59:59, sunrise 77:09:06, prime
+ meridian 77:15:47, AOS 77:45:50, sunset 78:22:03;
+ IP-1 position time for control point 2, 77:29:42;
+ IP-1 time closest approach for target B-1, 78:10:25.
+ Over.
+03 03 58 23 CDR We'll have to get that data later on.
+03 03 58 31 CC We'll try it again later, Frank.
+03 03 58 38 CDR Thank you.
+03 04 03 14 CC Apollo 8, this is Houston. Over.
+03 04 03 23 LMP Do you want to take this NAV sighting?
+03 04 06 12 CC Apollo 8, this is Houston. Over.
+03 04 06 17 LMP Roger, Houston. How do you read?
+
+Tape 51
+Page 4
+03 04 06 19 CC Reading you a lot better, Bill. How are you
+ reading me?
+03 04 06 25 LMP I'm reading you five - loud and clear, and you
+ copying our low bit data to record these tracking
+ passes? Over.
+03 04 06 35 CC That is affirmative. We are getting low bit data
+ now.
+03 04 06 41 LMP okay. I've played - run the tape recorder back
+ to the beginning. We have quite a bit of high
+ bit, so all you'll have to do is start recording
+ when you are ready.
+03 04 06 55 CC Roger. Stand by one, Bill.
+03 04 07 27 CC Apollo 8, Houston. Stand by one on the tape
+ recorder dump. We would like you to look at your
+ steam pressure. We think that the primary evaporator
+ may have dried out, and if the steam pressure
+ shows off-scale low, would you please close the
+ back pressure valve and reservice the evaporator?
+ Over.
+03 04 07 50 CDR Roger.
+03 04 08 49 CC Apollo 8, Houston. We are ready to send you the
+ P27 LM state vector update when you are ready.
+ Over.
+03 04 08 58 CDR You will have to wait until this tracking exercise
+ is over with, Mike.
+03 04 09 02 CC Roger. Thank you.
+
+Tape 51
+Page 5
+03 04 18 09 LMP Apollo 8.
+03 04 18 14 CC Apollo 8, this is Houston. Were you calling?
+ Over.
+03 04 18 19 LMP Roger. You can go ahead now and give you computer
+ and get the updates, and let's get going on the
+ PAD messages.
+03 04 18 26 CC Roger.
+03 04 18 36 LMP It is in P00 and ACCEPT.
+03 04 18 44 LMP Okay, Houston. Are you ready to talk about the
+ water boiler problem?
+03 04 18 49 CC Roger. We copy you in P00 and ACCEPT, and we
+ are sending you a P27 LM state vector. On the
+ water boiler, it looks to us like the evaporator
+ has been reserviced. How does it look to you?
+ Over.
+03 04 19 06 LMP Roger. I reserviced it, put it to AUTO - H<sub>2</sub>O
+ flow to AUTO; and the steam pressure went to
+ zero again. So I tried reservicing it the second
+ time for 1 minute, and again no results. I'm in
+ the present process of closing the back pressure
+ valve manually. Over.
+03 04 19 25 CC Roger. Understand you tried to reservice it twice,
+ both times steam pressure has gone to zero, and
+ now you are closing the back pressure valve manually.
+03 04 19 36 LMP Roger. Each time I have reserviced it, the steam
+ pressure came up to about 0.07 to 0.1; but as soon
+
+Tape 51
+Page 6
+ as the steam and water were put to AUTO, the
+ steam pressure went right back down again.
+03 04 20 01 CC Roger. We copy, and we are reading you loud
+ and clear now, Bill. On your map update, did
+ you copy that that I gave you previously?
+03 04 20 13 CMP Negative. We have not copied it yet.
+03 04 20 14 LMP Negative.
+03 04 20 17 CC Okay. I have it for you again when you are
+ ready to copy.
+03 04 20 24 CMP Ready to copy.
+03 04 20 26 CC This is a map update for REV's 4/5: LOS 76:59:59,
+ sunrise 77:09:06, prime meridian 77:15:47, AOS
+ 77:45:50, sunset 78:22:03; remarks: IP-1, acquisition
+ time for CP2 is 77:29:42, IP-1 time
+ closest approach for target B-1 78:10:25. Over.
+03 04 21 27 CDR Roger. LOS 76:59:59, sunrise 77:09:06, 77:45:47,
+ 77:45:50, 78:22:03; IP-1, CP2 77:29:42, IP-1 TCA
+ for B-1 78:10:25.
+03 04 21 52 CC That's right, and the prime meridian time is
+ 77:15:47, and you got your computer back. We've
+ got a good P27 update.
+03 04 22 04 CDR Okay. We will go to P00 and TRANSFER.
+03 04 22 07 CC Roger.
+03 04 22 45 CDR Houston, do you have a TEI 5 for us?
+03 04 22 48 CC We are working on it now, Frank. Have it for you
+ momentarily.
+
+Tape 51
+Page 7
+03 04 22 56 CDR Roger.
+03 04 23 27 CC Apollo 8. Houston.
+03 04 23 32 LMP Go.
+03 04 23 33 CC Roger. On your back pressure valve, we would like
+ to know how long after you closed the back pressure
+ valve the first time - how long it was from the time
+ you closed it until the time you started the reservicing?
+ We would like for you to wait about 15 minutes
+ to prevent any ice from forming due to flash freezing.
+ Over.
+03 04 23 59 LMP Okay. I started immediately to reservice it.
+03 04 24 17 CC Apollo 8, Houston. We show that you closed it this
+ last time about 4 minutes ago, so we would like you
+ to wait another 15 minutes and then try to reservice
+ it again at that time and then go to AUTO. Over.
+03 04 24 41 LMP Roger.
+03 04 24 43 CC Roger. Thank you. The TEI 4 PAD which you have
+ is still valid. We will have a TEI 5 PAD for you
+ shortly.
+03 04 24 55 LMP Roger. Be advised we are presently in steam pressure
+ MANUAL, and we're in H<sub>2</sub>O flow AUTO, and are now in
+ H<sub>2</sub>O flow OFF, as of about 5 seconds ago.
+03 04 25 15 CC Roger. We copy that, Bill. And we confirm that's a
+ good configuration.
+03 04 25 28 LMP Right now, I've got the H<sub>2</sub> flow OFF. Do we stay
+ that way?
+
+Tape 51
+Page 8
+03 04 25 32 CC Affirmative.
+03 04 25 45 CC Apollo 8, Houston. On your television update,
+ we propose that you start the TV at the flight
+ plan time of 85 hours 37 minutes and simply
+ extend the stop time a few minutes. You're
+ currently scheduled to stop at 86 hours, and we
+ would like to keep it going until the terminator,
+ which should be approximately 86:14. Over.
+03 04 26 11 CDR Roger.
+03 04 26 27 CC Frank, I know you are busy up there. We've got
+ the daily news for you whenever and if ever you'd
+ like to hear it. ..
+03 04 26 38 CDR I'll give you a call.
+03 04 27 46 CC Apollo 8, this is Houston.
+03 04 27 51 CDR Go ahead.
+03 04 27 53 CC I have the TEI 5 PAD for you whenever you are
+ ready to copy.
+03 04 28 05 CDR Okay. Go ahead.
+03 04 28 07 CC Okay. TEI 5, SPS/G&N: 47 correction - 45701, minus
+ 043, plus 116 079:21:26.03. Are you with me so far?
+03 04 28 41 CDR Roger.
+03 04 28 43 CC Plus 31171, minus 00767, minus 00214 180 017 001,
+ not applicable, plus 00188 31181 259 31003. Are
+ you with me? Over.
+03 04 29 44 CDR Roger.
+END OF TAPE
+
+Tape 52
+Page 1
+03 04 29 47 CC Roger. 40 2711 398 033, down 043, left 23,
+ plus 0832 minus 16500 12956 36208 146:39:44;
+ north set of stars remain Sirius and Rigel;
+ roll, pitch, and yaw remain same angles: 129
+ 155 010, ullage remains two quads for 20 seconds,
+ quads B and D; horizon on 4-degree line at
+ TIG minus 3 minutes. Over.
+03 04 31 14 CDR Roger. Here we go: TEI 5, SPS/G&N 45701,
+ minus 043, plus 116 079:21:26.03, plus 31171,
+ minus 00767, minus 00214 180 017 001, NA, plus
+ 00188 31181 259 31003 40 2711 398 033, down 043,
+ left 23, plus 0832, minus 16500, plus 12956
+ 36208 146:39:44. Set stars are the same;
+ ullage - we'd like - do you have any objection
+ to using four quads for 15 seconds?
+03 04 32 23 CC No objection to four-quad ullage, Apollo 8.
+03 04 32 28 CDR Okay. We'd like to just go ahead and use four
+ quads all times, unless we get a lot shorter
+ on fuel than we are now.
+03 04 32 34 CC Understand.
+03 04 32 39 CDR And is that 15 seconds?
+03 04 32 42 CC Affirmative: 15 seconds, four quads.
+03 04 32 49 CC Apollo 8 - -
+03 04 32 50 CDR Thank you, and horizon is 4 degrees at minus - -
+03 04 32 54 CC That readback is correct, Frank, and we'd like
+ to advise that the voice quality on that high
+ bit rate is excellent. Over.
+
+Tape 52
+Page 2
+03 04 33 04 CDR Thank you. Mike, it's four quads for 15 seconds.
+ Is that right?
+03 04 33 12 CC That is affirmative, Apollo 8: four quads for
+ 15 seconds.
+03 04 33 18 CDR Thank you.
+03 04 33 45 CC Apollo 8, Houston.
+03 04 33 50 CDR Go ahead, Houston. Apollo 8.
+03 04 33 53 CC Roger for Bill. He can go ahead and do his
+ standard reservice on the water now. It's
+ looking good.
+03 04 36 05 CDR Okay. You want us to reservice it now?
+03 04 36 07 CC That's affirmative, and upon completion, go
+ back to AUTO.
+03 04 36 19 LMP Roger.
+03 04 40 21 CC Apollo 8, Houston.
+03 04 40 27 CDR Go ahead, Houston.
+03 04 40 28 CC Roger. We are still dumping your tapes. The
+ voice quality on high bit is coming through
+ superb, and you are GO for the next rev. And
+ we would like to get a brief status report on
+ your rest between 60 hours and LOI 1, just to
+ fill in some information for us.
+03 04 40 56 CDR We only got a couple hours rest.
+03 04 40 58 CC Okay.
+03 04 41 06 CDR We're tired right now, but we will have to wait
+ until TEI before we get back to the regular cycle.
+
+Tape 52
+Page 3
+03 04 41 12 CC Alright. I suspect you're right.
+03 04 41 17 LMP Okay, Houston. The water boiler has been reserviced,
+ back pressure valve CLOSED for 1 minute, 
+ water ON for 2, and it's now steam pressure
+ AUTO, H<sub>2</sub>O flow AUTO.
+03 04 41 30 CC Roger. We copy, Bill.
+03 04 41 56 LMP If we have a problem, a similar problem, again
+ on the back side in the sunlight, might be a
+ good idea to crank the secondary loop until
+ we have AOS. What do you think about that?
+03 04 42 11 CC Stand by one, Bill.
+03 04 43 17 CC Apollo 8, Houston.
+03 04 43 23 CMP Go ahead, Houston. Apollo 8.
+03 04 43 25 CC Roger, Jim. In regard to your evaporator, we
+ feel that if you do have a similar problem
+ next time on the back side in sunlight, check
+ the evaporator outlet temperature, and if it
+ gets above 60, we concur that it would be a
+ good idea to bring up the secondary loop. Over.
+03 04 43 47 CMP Roger.
+03 04 44 17 CC Apollo 8, Houston. When we say bring up the
+ secondary loop, we mean bring up the evaporator
+ only on the secondary loop. Copy?
+03 04 44 28 CDR Roger.
+03 04 44 29 CMP Roger.
+
+Tape 52
+Page 4
+03 04 49 51 LMP Houston, Apollo 8. We got time for a little
+ news?
+03 04 49 56 CC Apollo 3, this is Houston. Over.
+03 04 50 02 LMP I say how about a little bit of that news you
+ promised?
+03 04 50 05 CC Roger. We got the Interstellar Times here, the
+ December 24 edition. Your TV program was a big
+ success. It was viewed this morning by most of
+ the nations of your neighboring planet; the earth.
+ It was carried live all over Europe, including
+ even Moscow and East Berlin, also in Japan and
+ all of North and Central America and parts of
+ South America. We don't know yet how extensive
+ the coverage was in Africa. Are you copying me
+ all right? Over.
+03 04 50 38 CDR You are loud and clear.
+03 04 50 38 CC Good. San Diego welcomed home today the Pueblo
+ crew in a big ceremony. They had a pretty rough
+ time of it in the Korean prison. Christmas
+ cease-fire is in effect in Viet Nam, with only
+ sporadic outbreaks of fighting. And if you
+ haven't done your Christmas shopping by now,
+ you better forget it.
+03 04 51 02 LMP Thank you.
+03 04 51 04 CC A couple of Oilers made the All-Star team,
+ Webster and Farr.
+
+Tape 52
+Page 5
+03 04 51 14 LMP Roger.
+03 04 51 22 CC And that's about all our news. How about your
+ news?
+03 04 51 28 CDR Well, we'll be looking forward to a big burn
+ here shortly.
+03 04 51 34 CC Roger.
+03 04 51 39 CMP Mike, I think I can say it without contradiction,
+ it's been a mighty long dry spell up here.
+03 04 51 48 CC I guess you can say anything you like without
+ contradiction.
+03 04 51 56 CDR When can we dump water, Houston?
+03 04 52 00 CC Say again, Frank.
+03 04 52 04 CDR When can we dump water?
+03 04 52 06 CC Stand by.
+03 04 53 32 CC Apollo 8, Houston.
+03 04 53 38 CDR Go, Houston.
+03 04 53 39 CC We will get you the number after a while on your
+ water dump. It looks like the quantity isn't
+ increasing very slightly, and we're considering
+ not only the quantity in regard to the dump,
+ but also its effects on the trajectory relative
+ to TEI and so forth, but we will have a good
+ answer for you shortly.
+03 04 54 00 CDR We are not just thinking about the waste water
+ tank: we're thinking about some other kind of
+
+Tape 52
+Page 6
+ water that has to get dumped out of the spacecraft,
+ slightly used water.
+03 04 54 11 CC Roger. We understand.
+03 04 56 30 CC Apollo 8, Houston.
+03 04 56 35 CDR Go ahead.
+03 04 56 36 CC Roger. We have about three and a half minutes
+ to LOS. We give you back the DSE under your
+ control, and in regard to your water dump, we
+ are tentatively predicting a waste water tank
+ dump at about 80 hours GET and any other dumps
+ are at your discretion, any time you would like
+ to make them.
+03 04 57 00 CDR Thank you.
+03 04 57 08 CC People listening to the high bit rate down here
+ say it's like sitting in your living room listening
+ to good hi-fi.
+03 04 57 21 CDR Sounds like a good idea.
+03 04 58 03 CC Apollo 8, Houston. Coming up on 2 minutes to
+ LOS. We got a good reservice on the primary
+ evaporator, and everything is still looking
+ very good down here.
+03 04 58 16 CDR Okay. Thank you.
+03 04 59 12 CC Apollo 8, Houston. One minute to LOS. Are you
+ still reading us loud and clear?
+03 04 59 18 CDR Loud and clear. Loud and clear.
+
+Tape 52
+Page 7
+03 04 59 20 CC Okay, fine. We've been noticing a little bit
+ of increase in our background noise as you
+ approach backside.
+03 04 59 30 CDR Roger. We had to go off the high gain. That's
+ why.
+03 04 59 35 CC Roger.
+03 04 59 44 CC Have a good backside; we'll see you next time
+ around.
+03 04 59 49 CDR Okay, Mike.
+
+Comment 03 05 29 XX BEGIN LUNAR REV 5
+03 05 46 48 CC Apollo 8, this is Houston. Over.
+03 05 47 05 LMP Houston, Apollo 8. Go ahead.
+03 05 47 07 CC Roger. Read you loud and clear. Welcome back.
+03 05 47 13 LMP Roger. Looks like the evaporator - looks like
+ the evaporator is holding okay, or at least it
+ is trying to. It dropped the temperature down
+ to about 32, and now it's come back up again
+ and stabilized at about 42 degrees.
+03 05 47 31 CC Roger. Copy you, Bill.
+03 05 48 41 CMP Houston, Apollo 8.
+03 05 48 44 CC Apollo 8, Houston.
+03 05 48 50 CMP Roger. Houston, this is Apollo 8. What we are
+ doing on the control point tracking - I managed
+ to look for a CP-1 at the same time we were trying
+ to do a CP-2 on this rev. I picked up two
+
+Tape 52
+Page 8
+ marks which are just as small, but more easily
+ recognizable, than the ones that were given to
+ me. I know that I can repeat the process and
+ pick the same small point on the next rev. Now
+ I can try to look for the control points that
+ are written down, but I think that I have better
+ control over the ones that we have.
+03 05 49 29 CC Roger, Jim. Understand. We'll check that for
+ you.
+03 05 49 34 CMP Roger. One more point: the control point times
+ which you have given me are a little bit off,
+ and I can notice by comparing these maps that
+ these maps are not too well aligned either.
+03 05 49 47 CC Roger. These two small points that you can
+ repeat your marks on: will you be able to
+ identify those precisely on a map? Over.
+03 05 50 00 CMP That's affirmative; that is why I picked them.
+ They are both - they're both very prominent
+ features, and they are both very small craters
+ about the same size as the ones we are looking
+ for, but I can pinpoint them on a map.
+03 05 50 13 CC Roger.
+03 05 50 48 CMP Houston, Apollo 8.
+03 05 50 49 CC Apollo 8, Houston. Over.
+03 05 50 54 CMP Roger. One more comment: as it offered a
+ lot of controversy at data priority meetings,
+
+Tape 52
+Page 9
+ it looks like 10 degrees pitch up is the best
+ attitude to obtain the horizon so that you can
+ follow the landmark down through the scanning
+ telescope. If you pitch down any more, full
+ up trunnion will not get the horizon, and the
+ horizon is a great help in leading yourself
+ into the control point.
+03 05 51 28 CC Roger. Understand.
+03 05 52 40 CC Apollo 8, Houston.
+03 05 52 45 CMP Go ahead.
+03 05 52 47 CC Jim, we concur with your use of the two small
+ craters which you can repeatedly mark on and
+ find on the map; and also if you will give us
+ your new latitudes and longitudes, we can compute
+ for you a time of closest approach to those
+ points with the spacecraft 10 degrees pitched-up.
+ Over.
+03 05 53 12 CMP Roger, Houston. CP-1 latitude minus 606269,
+ longitude over 2, minus 78954, altitude plus
+ 00152; for CP-2 latitude minus 09638, longitude
+ over 2, plus 81691, altitude minus 00007. I
+ tried to get CP-3 at the same pass, but I let
+ it go by to get set up for this first track at
+ the landing site.
+
+Tape 52
+Page 10
+03 05 54 05 CC Roger, Houston. CP-1: would you say again the
+ latitude, and on CP-2, say again the longitude
+ CP-2, please?
+03 05 54 15 CMP Roger. CP-1 latitude minus 06269; that is the
+ latitude; and for longitude over 2 for CP-2,
+ plus 81691.
+03 05 54 34 CC Okay. We copied them. Thank you.
+03 05 54 43 CMP And it appears that resolve medium is a very
+ good combination to track.
+03 05 54 53 CC Roger. I understand. Resolve medium.
+03 05 54 59 CMP And it appears so far, Houston, that no spacecraft
+ pitch motion is required to get five marks
+ on the target in plenty of time.
+03 05 55 10 CC Roger. I understand you require no spacecraft
+ motion to get five marks.
+END OF TAPE
+
+Tape 53
+Page 1
+03 06 04 15 CC Apollo 8, Houston.
+03 06 04 20 CMP Go ahead.
+03 06 04 21 CMP Go ahead, Houston.
+03 06 04 23 CC Roger. I am about 15 minutes early with the TEI
+ fix update and the map update. I will have them
+ here whenever it's convenient for you to copy.
+03 06 04 36 LMP Okay. Just a little bit, Mike.
+03 06 13 28 CC Apollo 8, Houston.
+03 06 13 35 CMP Go ahead.
+03 06 13 37 CC Roger. We would like to ask you to stop using
+ AUTO OPTICS on the pseudo landing site. It's
+ necessary that we send you up a P27 to update
+ the RLS values stored in the computer. Over.
+03 06 13 54 CMP Roger. I found ... I went to MANUAL OPTICS on B-1.
+03 06 14 01 CC Roger. Understand.
+03 06 16 44 CC Apollo 8, Houston. Over.
+03 06 16 49 CDR Go ahead, Houston.
+03 06 16 51 CC Roger. If you.would go to P00 and ACCEPT, please,
+ we are going to send you a P27 load which will update
+ an RLS value which will be followed by a procedural
+ change, Jim, we will give you later; and
+ AUTO OPTICS should be working shortly.
+03 06 17 12 CMP Roger. Or I could use no landmark AUTO OPTICS instead
+ of the code.
+03 06 17 31 CC Apollo 8, Houston. We are also sending you up a
+ state vector update at the same time.
+
+Tape 53
+Page 2
+03 06 17 39 CMP Okay. We will be expecting that.
+03 06 18 14 CC Apollo 8, Houston. We're taking the DSE for a
+ dump. Over.
+03 06 18 31 CC Apollo 8, Houston. Over.
+03 06 18 36 CMP Go ahead, Houston.
+03 06 18 38 CC Roger. We would like to take Bill's DSE for a
+ dump. Over.
+03 06 18 44 CMP Roger. Go ahead.
+03 06 18 46 CC Thank you.
+03 06 24 33 LMP Houston, Apollo 8. We're ready for the - your
+ updates, your PAD's.
+03 06 24 38 CC Apollo 8, Houston. Roger. I have updates, a
+ map update for REV 5/6, and TEI 6 update.
+ Which would you like first?
+03 06 24 51 LMP okay. I've got the map update page now. Why
+ don't you give me that one?
+03 06 24 55 CC Okay. Map update for REV 5/6. LOS 78:58:49,
+ sunrise 79:08:07, prime meridian 79:14:30, AOS
+ 79:44:36, sunset 80:21:05; IP-1, time of closest
+ approach to target B-1 80:09:00. Now your two
+ new control points that Jim gave us: control
+ point number 1, acquisition 79:10:32, control
+ point number 2, acquisition 79:23:14. Over.
+03 06 26 16 LMP Roger. Copy. Ready for the TEI.
+03 06 26 26 CC Okay, Bill. Before we read the big TEI update
+ here, I'd like to give Jim briefly a procedure
+
+Tape 53
+Page 3
+ for P22. When he comes to NOUN 89, we request
+ that he do a VERB 34 ENTER. Do not proceed, and
+ by so doing then, he will not incorporate the
+ lat and longitude from his mark, and he will not
+ change the reference value of the landing site,
+ and we will solve this AUTO OPTICS problem. Over.
+03 06 27 08 LMP Let me see if I have this correct, Mike. When
+ flashing 0689 comes up with the latitude and
+ longitude information, I will not proceed but
+ will go to VERB 34 and terminate. Is that correct?
+03 06 27 24 CC Yes, that is affirmative. Do a VERB 34 ENTER
+ instead of a PROCEED. And that will -
+03 06 27 34 CMP Alright. Is this technique true -
+03 06 27 45 CMP Houston, is this technique true for both the
+ node control point AUTO OPTICS on P25?
+03 06 27 52 CC Stand by one, Jim.
+03 06 27 54 CMP And the LM ...
+03 06 28 09 CC That is affirmative, Apollo 8. That is always
+ true.
+03 06 28 16 CMP Okay. Roger. True for the code AUTO OPTICS and
+ no landmark. I'll proceed instead of going on - 
+ or I'll use 34 instead proceeding on 89.
+
+03 06 28 25 CC Roger. Thank you, Jim, and I have the TEI 6 hour
+when you are ready - or TEI number 6.
+03 06 28 45 CDR Go ahead.
+
+Tape 53
+Page 4
+03 06 28 52 LMP Ready to copy.
+03 06 28 54 CC Roger. I'm glad you are ready to copy TEI number
+ 6. I've got one last comment for Jim before
+ you do so. The VERB 89 - or correction - the
+ NOUN 89 we are talking about is the one that he
+ gets after marking. There are two NOUN 89's, one
+ prior to marking and one after, and our procedure
+ references NOUN 89 after marking. Over.
+03 06 29 21 CMP Roger. Understand.
+03 06 29 24 CC Thank you, and, Bill, you still ready to copy?
+03 06 29 29 LMP Ready to copy, Mike.
+03 06 29 31 CC TEI 6, SPS/G&N: 45701, minus 040, plus 157. Are
+ you with me so far?
+03 06 29 56 LMP Roger.
+03 06 29 57 CC 081 21 24 43, plus 31776, minus 00823, minus
+ 01365 180 016 001, not applicable, plus 00188.
+ Are you still with me? Over.
+03 06 31 56 LMP That's Roger.
+03 06 31 57 CC Good. 31816 302 31624 40 2699 396 033, down 054,
+ left 21, plus 0810 control minus 16500 12968
+ 36222 146 42 04; GDC align remains the same;
+ Sirius and Rigel, roll 129, pitch 155, yaw 010,
+ ullage four quads for 15 seconds; horizon on
+ 6-degree line at TIG minus 3 minutes. Over.
+03 06 32 46 LMP Roger, Houston. TEI 6, SPS/G&N: 45701, minus
+ 040, plus 157 018 21 2443, plus 31776, minus 00823,
+
+Tape 53
+Page 5
+ minus 01365 180 016 001, NA, plus 00188 31816 302
+ 3624 40 2699. Are you with me?
+03 06 33 39 CC Yes, I'm with you, Bill.
+03 06 33 44 LMP 396 033, down 054, left 21, plus 08 10 minus
+ 16500 12968 36222 146 42 04; same GDC align;
+ Sirius and Rigel, 129 155 010, four jet, 15 seconds,
+ horizon 6 degrees, TIG minus 3. Over.
+03 06 34 27 CC Roger, Bill. On your ignition time, GETI is
+ 81 hours, 081. Over.
+03 06 34 39 LMP Roger. Got it, 081.
+03 06 34 42 CC Thank you, sir.
+03 06 34 46 LMP Thank you, Michael. As a matter of interest,
+ these side windows are so hazy that when the sun
+ shines on them, they just about - they are real
+ poor for any visual observation or photography - 
+ heads-up.
+03 06 35 04 CC Roger. Understand.
+03 06 36 33 CC Apollo 8, Houston. Over.
+03 06 36 36 CMP Go ahead, Houston.
+03 06 36 37 CC Roger. The last state vector updates we sent you,
+ Jim, was to the LM slots, and you will have to
+ transfer that over to the CSM slots using VERB 47
+ ENTER. Over.
+03 06 36 52 CMP Roger. Will do.
+03 06 36 54 CC Thank you.
+03 06 38 16 CC Apollo 8, Houston.
+
+Tape 53
+Page 6
+03 06 38 21 CMP Go ahead, Houston.
+03 06 38 23 CC Roger. Bill has got his tape recorder back, and
+ we noticed during that last dump, it was all in
+ low bit rate. We wonder whether that was intentional
+ or not? Over.
+03 06 38 42 LMP Roger. We didn't have much to say; we couldn't
+ see out of the windows very well, Mike.
+03 06 38 47 CC Roger. Understand.
+03 06 38 53 LMP It was really too bad.
+03 06 40 31 CC Apollo 8, Houston. - -
+03 06 40 38 LMP Go ahead - -
+03 06 40 39 CC Roger, Bill. This next time around into the sunlight,
+ we do not expect any problem with the primary
+ evaporator. If it does start drying out, we
+ think it is best just to close the back pressure
+ valve, and there is no need to activate the secondary
+ boiler. Over.
+03 06 41 02 LMP Okay. I guess the 6O-degree limit will still hold
+ then.
+03 06 41 12 CC Stand by.
+03 06 41 40 CC Apollo 3, Houston. We are suggesting you disregard
+ the 60 degree limit, and let it go ahead and
+ rise up above 60. There is no need to activate
+ the secondary. Over.
+03 06 41 54 LMP Okay. We just don't want to boil our IMU.
+03 06 41 57 CC Roger. Understand then. Apollo 8, you are GO for
+ the next lunar orbit REV.
+
+Tape 53
+Page 7
+03 06 42 06 LMP Roger, Houston.
+03 06 42 11 CMP Roger, Houston. I'll read the book this time.
+03 06 42 14 CC Roger.
+03 06 54 08 CC Apollo 8, Houston. Over.
+03 06 54 13 CMP Go ahead, Houston. Apollo 8 - -
+03 06 54 16 CC Roger. We have about 4-1/2 minutes left before
+ we have LOS; we'd like your last PRD readout.
+ Over.
+03 06 54 29 CMP Stand by. The commander is asleep; we'll get
+ his when he wakes up. The LMP is still 6 ...
+ 0.64, C is 9, CMP is 0.09.
+03 06 55 07 CC Roger. copy 0.64, 0.09. Thank you.
+03 06 58 04 CC Apollo 8, Houston. About 40 seconds to LOS,
+ and everything's looking good down here.
+03 06 58 14 CMP Roger. Houston. We will give it another try
+ here.
+03 06 58 19 CC Roger.
+END OF TAPE
+
+Tape 54
+Page 1
+Comment 03 07 28 xx BEGIN LUNAR REV 6
+03 07 45 36 CC Apollo 8, this is Houston. Over.
+03 07 46 32 CC Apollo 8, this is Houston. Over.
+03 07 47 16 CC Apollo 8, this is Houston. Over.
+03 07 48 43 CC Apollo 8, this is Houston. Over.
+03 07 51 56 CC Apollo 8, this is Houston. Over.
+03 07 52 05 LMP Houston, Apollo 8. Over.
+03 07 52 07 CC Reading you very weak but - a lot of background
+ noise. Welcome back around. How are you reading us?
+03 07 52 18 LMP Reading you fine.
+03 07 52 20 CC Okay.
+03 07 55 43 CMP Houston, Apollo 6.
+03 07 55 45 CC Apollo 8, Houston. Go ahead.
+03 07 55 51 CMP Roger, Houston. A few words on our optics tracking
+ system. I used AUTO OPTICS for control points 1 and
+ 2 on the backside, and they worked beautifully,
+ tracked both the targets for me. And I went to the
+ control point 3 as designated in our orbital control
+ book to see the latitude and longitude that was given
+ to me and used AUTO OPTICS to track that particular
+ coordinate system, and it was very close to the actual
+ tracking plot. I picked the mark there where
+ I did a final marking and recorded latitude and longitude.
+ I'm now about to come up on the landing site
+ and using AUTO OPTICS in the coded input to see how
+ that works.
+
+Tape 54
+Page 2
+03 07 56 57 CC Roger, Apollo 8.
+03 07 59 28 CC Apollo 8, Houston.
+03 07 59 34 LMP Go ahead.
+03 07 59 35 CC Roger. We know you're busy so we are not going
+ to bother you. We are watching your progress
+ on the DSKY. You are looking good; all your
+ systems are looking good, and we have maneuver
+ PAD's for you any time at your convenience.
+03 07 59 52 LMP Roger. We will take them when we are doing the
+ P52, if that's okay.
+03 07 59 56 CC That is just fine.
+03 08 56 CMP Mike, Apollo 8.
+03 08 07 58 CC Apollo 8, go ahead.
+03 08 08 03 CMP Mike, there are an awful lot of objects down on
+ the landing site. It would just warm up Jack
+ Schmidt's heart. The AUTO OPTICS are tracking
+ perfectly on the target, and the two high peaks
+ stand out beautifully. I have a beautiful view
+ of it. The first I've seen just barely beneath
+ the vertical now, and the second one coming up -
+ It's just a grand view!
+03 08 08 28 CC Roger, Jim. Glad to hear it. Jack's listening.
+03 08 09 45 LMP Jack, the information - The triangles that we see
+ now are from the first IP, second IP, and the B-1
+ are just right, I think, for landing conditions.
+ The shadows aren't too deep for you to get confused.
+
+Tape 54
+Page 3
+ but the land has texture to it, and there are
+ enough shadows there to make everything stand out.
+03 08 10 01 LMP If Jack's listening, tell him that the optical may
+ be doing all right, but the eyeball is having a
+ little trouble looking through all this smear on
+ the windows.
+03 08 10 25 CC Roger. Understand the optics are doing better than
+ the eyeballs. How about the cameras?
+03 08 10 33 LMP We always have the same smear to look through. The
+ rendezvous windows are okay, but they're so small
+ and looking in the wrong directions here so far.
+03 08 10 42 CC Roger.
+03 08 10 43 LMP I think the vertical stereo will be okay.
+03 08 11 10 LMP It certainly looks like we're picking the more interesting
+ places on the moon to land in. The backside
+ looks like a sand pile my kids have been
+ playing in for a long time. It's all beat up, no
+ definition. Just a lot of bumps and holes.
+03 08 11 27 CMP I'm looking at 2P-2 right now, Houston, and it's
+ a great spot.
+03 08 11 33 LMP The area we're over right now gives some hint of
+ possible volcanic, though I really can't eyeball
+ it at the moment to pin that down. There are some
+ craters and buildups that just definitely suggest
+ volcanic activity.
+03 08 11 52 CC Roger. Understand, Bill, and understand Jim thinks
+ the old 2P-2 is a winner.
+
+Tape 54
+Page 4
+03 08 12 06 LMP Yes, that backside doesn't look good at all.
+03 08 12 10 CC Roger.
+03 08 12 15 LMP That's relatively speaking, of course.
+03 08 12 18 CC Of course.
+03 08 18 52 CC Apollo 8, Houston.
+03 08 18 53 CMP This is Apollo 8.
+03 08 18 56 CC Roger, Jim. We have you on the high-gain antenna.
+ We'd like you to take the DSE and dump it over.
+03 08 19 05 CMP Roger, Houston. Are you going to use our computer
+ to update our state vector?
+03 08 19 34 CC That's affirmative, Jim. We'd like to - stand by
+ one, and I'll tell you when to go to P00 and ACCEPT.
+03 08 19 45 CMP Roger. Then I'll work my 52 around your ...
+03 08 20 05 CC Jim, would you please go to P00 in ACCEPT, and
+ we'll send you a P27 and run a state vector update.
+03 08 20 12 CMP Roger. You have P00 in ACCEPT.
+03 08 20 16 CC Thank you.
+03 08 20 36 CMP Houston, this is Apollo 8. We have a little piece
+ of useful information if you're interested in deliberating over it.
+03 08 20 46 CC Go ahead. Say again.
+03 08 20 51 CMP Roger. Our first control point is very near the
+ terminator, and as the optics were tracking it, I
+ had occasion to watch the sun come up. And at
+ about 2 minutes before sunrise, you get - the limb
+ begins to brighten up into sort of a fine white
+
+Tape 54
+Page 5
+ haze, a fine glow completely over
+ the space just behind the limb.
+03 08 21 23 CC Roger. I understand. About 2 minutes before the
+ sun comes up, you get a fine white haze radiating
+ out from behind the limb. How far out does it extend?
+03 08 21 34 CMP It goes up quite a ways. It takes a fan shape,
+ unlike the sunrise on earth where the atmosphere
+ affects it. This just sort of is a complete haze
+ all over the local area. It's concentrated at the
+ exact spot where the sun comes up at ignition and
+ then goes away from the sun spots. Very interesting.
+03 08 21 54 CC Thank you, Jim. Thank you.
+03 08 22 36 CC Apollo 8, Houston. We're standing by with your map
+ and TEI 7 updates.
+03 08 22 48 CMP Stand by.
+03 08 22 54 CC Apollo 8, Houston. You can go back to BLOCK with
+ your computer.
+03 08 23 02 CMP Roger.
+03 08 23 31 LMP Okay, Mike. We're ready for the map update and
+ then the TEI.
+03 08 23 38 CC Okay. When you get your - before you get your map
+ book out, the Houston COMM TECHS have got a little
+ word for an old ex-CAP COMM. They say they consider
+ you in NONREMOTE. Over.
+03 08 23 54 LMP Not permanently, I hope.
+
+Tape 54
+Page 6
+03 08 23 59 CC Okay. Your map update for REV 6/7: LOS 80:57:24,
+ sunrise 81:06:57, prime meridian 81:13:02. Are
+ you with me?
+03 08 24 29 LMP You cut out after the prime meridian. I got it,
+ but not AOS.
+03 08 24 33 CC AOS 81:43:05, sunset 82:13:54. Remarks: IP-1
+ TCA for B-1 82:07:39, and now I've got four more
+ times for you which - acquisition times for when
+ various things come over the horizon. Over.
+03 08 25-09 LMP Roger. Go ahead.
+03 08 25 12 CC Okay. Control point 1, acquisition time 81:09:05;
+ control point 2, acquisition time 81:21:48; control
+ point 3, acquisition time 81:43:17. B-1 acquisition
+ time 82:03:54. And I say again all those ACQ times
+ are when they first come over the horizon. Over.
+03 08 25 54 LMP Roger. Copy, Houston. In about 2 seconds, I'll
+ be ready for the TEI.
+03 08 26 01 CC Alright.
+03 08 26 13 LMP I'm ready.
+03 08 26 16 CC TEI 7, SPS/G&N - stand by one, Bill.
+03 08 26 55 LMP Just a matter of general interest, Houston: everybody
+ is feeling good, and the CDR is taking a
+ snooze.
+03 08 27 01 CC Roger. Glad to hear it. We were just talking about
+ a water dump down here. We've got one coming up,
+ and it looks like on this REV prior to the time
+
+Tape 54
+Page 7
+ around LOS or just prior to LOS, would be a convenient
+ time to do it. Do you concur?
+03 08 27 20 LMP Okay. We will. Down to 25 percent again?
+03 08 27 24 CC That's affirmative, and we'd also be interested
+ in any comments about what these various dumps
+ have done to your optics, if anything, and how
+ long the effects last after a dump.
+03 08 27 38 LMP Don't seem to have done anything to the optics,
+ but they've definitely got in some of the windows.
+ There are a few little chunks of ice
+ on window number 1, which is nearest the vent,
+ and also on window number 5 a little bit; windows
+ 2 and 4 remain amazingly clear.
+03 08 28 11 CC Roger. Thank you, Bill, and I'm ready to resume
+ the PAD when you are.
+03 08 28 19 LMP Okay. Press on with the weight.
+03 08 28 22 CC Alright. Weight 45701, minus 040, plus 157 083
+ 18 2080, plus 32346, minus 01168, plus 05730. Are
+ you with me so far? Over.
+03 08 29 28 CC Apollo 8, Houston. Over.
+03 08 29 33 LMP Go ahead, Mike.
+03 08 29 35 CC Roger. I got down through DELTA-V, minus X,
+ minus Y, and minus Z. Did you copy those? Over.
+03 08 29 44 LMP No, I didn't read a word. I'm still waiting for
+ the weight.
+03 08 29 49 CC Roger. Let's go back to the weight: 45701,
+ minus 040, plus 157. Are you with me? Over.
+
+Tape 54
+Page 8
+03 08 30 09 LMP Sounds good.
+03 08 30 11 CC Okay. GETI 083 18 2080, plus 32346, minus 01168,
+ plus 4 - correction, plus 05730. Are you with
+ me? Over.
+03 08 30 52 LMP Roger.
+03 08 30 53 CC Thank you. 179 009 001, not applicable, plus
+ 00187 32870 307 32676 42 0880 253 033, down 121,
+ left 27, plus 0790 minus 16500 129 73 36238 146
+ 4414; same north set Sirius and Rigel, roll 129,
+ pitch 155, yaw 010, four quads for 15 seconds,
+ horizon on the 2-degree mark at T ignition. Over.
+03 08 32 53 LMP Roger. TEI 7 SPS/G&N: 45701, minus 040, plus
+ 157 08318 2080, plus 32346, minus 01168, plus
+ 05730 179 9 - correction, 009 001, NA. Are you
+ with me?
+03 08 33 28 CC Yes, I'm with you, Bill.
+03 08 33 32 LMP Plus 00187 32870 307 32676 32 - correction,
+ 420880 253033, down 121, left 27, plus 0790, minus
+ 16500 12973 36238 146 44 14; same north set
+ Sirius and Rigel, 129 155 010; four-jet, 15
+ seconds, 2 degrees, now horizon and peak.
+03 08 34 26 CC That's all correct.
+03 08 39 12 CC Apollo 8, Houston. Over.
+03 08 39 18 LMP Go ahead, Houston.
+03 08 39 20 CC Roger. You got your DSE back, and you are GO
+ for the next lunar orbit. Over.
+
+Tape 54
+Page 9
+03 08 39 27 LMP Roger. How far did you want us to dump that
+ water?
+03 08 39 34 CC Twenty-five percent, please, Bill.
+03 08 39 44 LMP Roger. Twenty-five percent.
+03 08 40 52 CMP Houston, Apollo 8.
+03 08 41 07 CC Apollo 8, this is Houston. Over.
+03 08 41 13 CMP Are you receiving our tracking data?
+03 08 41 24 CC That's affirmative, Jim. We are receiving.
+03 08 41 29 CMP Okay. Thank you.
+03 08 41 33 CC And also, Jim, we are - That last P27 we sent
+ was for the LM state vector only, and it will
+ require a VERB 47 ENTER to transfer to the CSM
+ slot. Over.
+03 08 41 48 CMP Roger. Will do.
+03 08 41 49 CC Thank you.
+03 08 45 39 LMP Okay. We're dumping the waste tank now, Houston.
+03 08 45 44 CC Roger, Bill.
+03 08 52 57 CC Apollo 8, Houston. Over.
+03 08 53 02 LMP Go ahead, Houston.
+03 08 53 04 CC Roger. We've got 4 minutes til LOS, and everything
+ is looking good down here.
+03 08 53 13 LMP Roger. How much longer do you think we have to go
+ into battery charge there, Mike?
+03 08 53 19 CC I'll find out for you.
+03 08 53 26 LMP If you can wake up the EECOM, why don't you
+ have him ask the back room?
+
+Tape 54
+Page 10
+03 08 53 33 CC Oh, you really know how to hurt a guy.
+03 08 53 41 CC Apollo 8, Houston. We estimate the charge will
+ be complete in another 45 minutes. Over.
+03 08 53 51 LMP Okay. Thank you very much.
+03 08 55 59 CC Apollo 8, Houston. One minute til LOS, and
+ standing by.
+03 08 56 05 LMP okay. See you on the other side, Mike.
+03 08 56 09 CC Looking forward to it.
+03 08 56 21 LMP Me, too.
+END OF TAPE
+
+Tape 55
+Page 1
+
+Comment 03 09 27 XX BEGIN LUNAR REV 7
+03 09 43 58 CC Apollo 8, this is Houston. over.
+03 09 44 34 CC Apollo 8, this is Houston. Over.
+03 09 44 47 CDR Houston, Apollo 8.
+03 09 44 49 CC Roger, Frank. Good morning. You're loud and
+ clear, how me?
+03 09 44 54 CDR Loud and clear.
+03 09 44 58 CC Welcome back.
+03 09 45 04 CDR Thank you.
+03 09 46 51 CC Apollo 8, Houston. Over.
+03 09 46 58 CDR Go ahead, Houston.
+03 09 46 59 CC Roger. We have a request that Jim space his
+ marks, his five marks out a bit more slowly.
+ If possible, we would like to get a couple of
+ them past the zenith. We're getting five of
+ them with rather rapid spacing, and from the
+ geometry viewpoint, it would be better if you'd
+ slow them down a little bit and lengthened them
+ out so as to include a couple of them past the
+ zenith. Over.
+03 09 47 29 CDR Roger. We understand.
+03 09 47 39 CDR Houston, Apollo 8. That last set of marks
+ are invalid. Disregard what Jim drew the last
+ time.
+03 09 47 48 CC Roger. Understand the last set of marks are
+ invalid. Over.
+
+Tape 55
+Page 2
+03 09 47 54 CMP Roger. If you would correlate ... the last
+ set.
+03 09 48 03 CC We have an awful lot of background noise, Jim.
+ Could you say again, please?
+03 09 48 12 CMP Roger. I'm coming up on control point 3. I
+ tried to stick another control point in between
+ 2 and 3. It didn't do it, so I just took out
+ our program, marked it down on the program.
+03 09 48 25 CC Roger. Understand you are coming up on 3.
+03 09 52 03 CC Apollo 8, Houston.
+03 09 52 07 CDR Go ahead, Houston. Apollo 8.
+03 09 52 09 CC Roger. On Jim's marks, we'd like to get spacing
+ of approximately 30, 30 seconds between each
+ mark. The last ones we are copying roughly
+ 15 seconds between marks, and we would like to
+ stretch it out even further if that is okay with
+ you.
+03 09 52 31 CDR Alright.
+03 10 02 18 CMP Houston, Apollo 8.
+03 10 02 22 CC Apollo 8, Houston. Over.
+03 10 02 27 CMP Roger, Mike. I find that tracking is much easier
+ using the sextant than the scanning telescope.
+ You have finer control, and at these orbital
+ speeds, resolved to medium seem to be the best
+ combination.
+
+Tape 55
+Page 3
+03 10 02 46 CC Roger, Jim. I copy that it's easier for you to
+ use the sextant than the scanning telescope. It
+ gives you finer control, and say again after that.
+03 10 03 05 CC Apollo 8, Houston. Do you read?
+03 10 03 09 CMP Roger. Did you copy?
+03 10 03 12 CC Roger. I copy that it's - tracking is easier
+ using the sextant than the scanning telescope;
+ it gives you finer control, and say again after
+ that. Over.
+03 10 03 26 CMP And the combination of resolved and medium is
+ perhaps the best combination of - combination
+ of - speed low is too low; we can't catch up with
+ the target.
+03 10 03 39 CC Roger. Understand that the best combination is
+ resolved and medium. Low is just too low.
+03 10 03 49 CMP Roger.
+03 10 13 33 CMP Houston, Apollo 8.
+03 10 13 36 CC Apollo 8, Houston. Over.
+03 10 13 41 CMP Roger. I'm not too sure what happened that time,
+ Mike. I was marking on the landing sites, using
+ the code, and I kept getting a large trunnion
+ for AUTO OPTICS. And I could see the target, or
+ landing site was coming up, so I just went manually
+ and marked and got the - the latitude and longitude
+ were quite different from the nominal.
+03 10 14 14 CC Roger. We copy that, Jim.
+
+Tape 55
+Page 4
+03 10 17 20 CC Apollo 8, Houston.
+03 10 17 24 CDR Go ahead, Houston. Apollo 8.
+03 10 17 26 CC Roger. We're checking into Jim's remarks on his
+ P22; and in the meantime, I have your maneuver
+ PAD's and map updates, at your convenience. Over.
+03 10 17 41 CDR Roger.
+03 10 18 12 CMP Go ahead with your data, Mike.
+03 10 18 14 CC okay. And before that, we'd like to take the DSE
+ away from you, please, for a while.
+03 10 18 28 CMP All yours.
+03 10 18 30 CC Thank you, and we'd like you to go to P00 and
+ ACCEPT. We have a P27 state vector update for
+ you.
+03 10 18 42 CMP There's P00, and I'm going to ACCEPT.
+03 10 18 46 CC Thank you.
+03 10 18 48 CMP All yours.
+03 10 18 55 CC Which would you like first, the map update or
+ the TEI 8?
+03 10 19 02 CMP The map would be fine.
+03 10 19 07 CC Okay. Map update: LOS 82:55:54, sunrise 83:05:49,
+ prime meridian 83:11:38, AOS 83:41:43, sunset
+ 84:18:45; remarks: control point 1 acquisition
+ 83:07:39, control point 2 acquisition 83:20:21,
+ control point 3 ACQ 83:41:51, B-1 acquisition
+ 84:02:28. Over.
+
+Tape 55
+Page 5
+03 10 20 05 CMP Roger. 82:55:54, 83:05:49, 83:11:38, 83:41:43,
+ 84:18:45. CP-1 83:07:39, CP-2 83:20:21, CP-3 83:41:51,
+ B-1 81:02:28.
+03 10 20 29 CC That's affirmative.
+03 10 20 52 CC Understand - -
+03 10 20 53 CMP - - for the TEI PAD.
+03 10 20 56 CC Roger. The TEI 8 PAD, SPS/G&N: 45701, minus
+ 040, plus 157 085:18:19.04. Are you with me so
+ far? Over.
+03 10 21 31 CMP Roger.
+03 10 21 33 CC Okay. Plus 3195, minus 01267, plus 04716 179 008
+ 001, not applicable, plus 00187 33552 311 33355
+ 42 0909 252. Are you still with me? Over.
+03 10 22 40 CMP Roger.
+03 10 22 43 CC Okay. Picking up with the boresight star, it's
+ old Dzuba who is the center star in the head of
+ Scorpio; he's down 060, left 42, plus 0773, minus
+ 16500 12982 36256 146:46:18. North set stars
+ remain Sirius, Rigel, roll 129, pitch 155, yaw 010;
+ four-quad ullage of 15 seconds, horizon on a
+ 4-degree line at TIG, and requesting you zero the
+ optics. Over.
+03 10 24 03 CDR Roger. Going to ZERO OPTICS.
+03 10 24 14 CDR Are you through with the computer now, Mike?
+03 10 24 17 CC It's your computer; P27 LM state vector in and
+ verified.
+
+Tape 55
+Page 6
+03 10 24 26 CMP Roger. We're going to put it in the CSM slot.
+03 10 24 30 CC Roger. That's affirmative.
+03 10 24 38 CDR Okay. TEI 8, SPS/G&N: 45701, minus 040, plus 157
+ 085 18 1904, plus 33195, minus 01267, plus 04716
+ 179 008 001, NA, plus 00187 33552 311 33355 42
+ 09090 252, Dzuba down 060, left 4.2, plus 0773,
+ minus 16500 12982 36256 146 46 18; Sirius, Rigel,
+ 1.29 155 010, four-quad, 15 seconds, horizon 4 degrees
+ at TIG.
+03 10 25 36 CC You keep good books; that's all correct.
+03 10 25 42 CDR Thank you.
+03 10 26 44 CC Apollo 8, Houston.
+03 10 26 50 CDR Go ahead, Houston.
+03 10 26 52 CC Roger. Some time back, we noted evidence of a
+ restart in the computer and wondered if you had
+ any remarks about it. Over.
+03 10 27 00 CDR I know it. Jim got screwed up on one of those
+ programs. He's getting kind of tired here, and
+ we got a RESTART and a couple of PROGRAM ALARMS.
+ I don't know what he did.
+03 10 27 12 CC Roger, Frank. The main point is the computer
+ is looking fine to us, now.
+03 10 27 20 CDR That's good.
+03 10 27 23 CMP Houston, don't believe all you hear up here.
+03 10 27 28 CC No, we have a filter, Jim, for that.
+03 10 27 34 CDR Thank you.
+
+Tape 55
+Page 7
+03 10 28 32 CC Apollo 8, Houston.
+03 10 28 37 CDR
+03 10 28 39 CC Roger. In some of Jim's previous comments about
+ the limb brightness as the sun was about to come
+ up has sparked a lot of interest down here. And
+ we'd like to ask him if he gets a chance to notice
+ again or perhaps he can recall, whether there were any
+ changes in the appearance of the stars. Such as,
+ did he notice any twinkling while this was taking
+ place, and did he notice any narrow limb brightening
+ within 10 to 20 seconds prior to the sun's rising?
+ Over.
+03 10 29 14 LMP He'll be with you - he's doing a P52 now.
+03 10 29 17 CC Okay.
+03 10 30 08 CMP Houston, my comments concerning the sunrise was
+ the comments above the terrain. There appeared
+ what might be called diagonal light or light due
+ to the haze or something like that. As the sun
+ came above or before the sun came above the limb,
+ definite rays could be seen coming from the other
+ side. It was a uniform haze emanating from the
+ center spot where the sun was going to rise, and
+ this was something which I didn't expect.
+03 10 30 42 CC Roger, Jim. Understand. We copied that and just
+ curious, and if you see it again whether you notice
+ any stars twinkling or any additional information.
+
+Tape 55
+Page 8
+03 10 30 55 CMP Will do. Won't have a chance until control point 1.
+03 10 31 06 LMP Actually, he doesn't want to pass out too much of
+ that information. He wants to save it and write
+ a paper when he gets back, Mike.
+03 10 31 12 CC Right. In German, probably, huh?
+03 10 35 57 CDR Houston, Apollo 8.
+03 10 35 59 CC Apollo 8, Houston.
+03 10 36 04 CDR Okay. What time is that TV, Mike, 85:37?
+03 10 36 08 CC 85:37 to terminator, which is probably like 86:14.
+03 10 36 20 CDR okay. Well, I don't know if we can go that long
+ with it, and I'm going to scrub all the other
+ experiments, the converging stereo or other
+ photography, and we are a little bit tired; I
+ want to use that last bit to really make sure we're
+ right for TEI.
+03 10 36 38 CC Roger, I understand, Frank.
+03 10 36 42 CC A couple of miscellaneous items for you: we'd
+ like for you to discontinue charging battery B at
+ this time; we'd also like to get a cryo stir,
+ 2 minutes on all four; and your UP TELEMETRY IU
+ switch, put to BLOCK, please, and you are GO for
+ the next lunar orbit.
+03 10 37 08 CDR Thank you.
+03 10 37 10 CC Roger.
+03 10 40 10 CDR Houston, Apollo 8.
+03 10 40 14 CC Apollo 8, Houston. Go ahead, Frank.
+
+Tape 55
+Page 9
+03 10 40 18 CDR Roger. I want to scrub these control
+ point sightings on this next REV, too, and let Jim
+ take a rest.
+03 10 40 25 CC Roger. I understand.
+03 10 40 30 CC I understand you want to scrub control points 1,
+ 2, and 3 on the next REV and the converging
+ stereo on the following REV.
+03 10 40 42 CDR That's right. We're getting too tired.
+03 10 40 44 CC Okay, Frank.
+03 10 41 39 CC Apollo 8, Houston.
+03 10 41 41 CDR Go ahead.
+03 10 41 44 CC This REV coming up we would like to clarify
+ whether you intend to scrub control points 1, 2,
+ and 3, only, and do the pseudo landing site; or
+ whether you also intend to scrub the pseudo landing
+ site marks. Over.
+03 10 42 01 CDR We're scrubbing everything. I'll stay up and try
+ and keep the spacecraft vertical and take some
+ automatic pictures, but I want Jim and Bill to
+ get some rest.
+03 10 42 10 CC Roger. Understand.
+END OF TAPE
+
+Tape 56
+Page 1
+03 10 51 42 CC Apollo 8, Houston. Four minutes to LOS. You
+ have control of the DSE now, and all your systems
+ are looking good.
+03 10 51 53 CDR Thank you very much, Mike.
+03 10 51 55 CC You bet.
+03 10 52 03 CDR Lovell is snoring already.
+03 10 52 06 CC Yes, we can hear him down here.
+03 10 54 35 CC Apollo 8, Houston.
+03 10 54 39 CDR Go ahead.
+03 10 54 41 CC We have 1 minute to LOS, Frank. You can terminate
+ stirring up your cryos any time, and we agree
+ with all your flight plan changes. Have
+ a beautiful backside, and we will see you next
+ time out.
+03 10 54 57 CDR Thank you.
+03 10 54 59 CC Roger.
+
+Comment 03 11 26 XX BEGIN LUNAR REV 8
+03 11 42 18 CDR Houston, Apollo 8.
+03 11 42 21 CC Apollo 8, loud and clear.
+03 11 42 24 CDR Roger.
+03 11 53 44 CC Apollo 8, Houston.
+03 11 53 49 CDR Go ahead, Houston. Apollo 8.
+03 11 53 51 CC Roger, Apollo 8. Couple of notes for you: on
+ the P52 you are coming up to on this REV, we've
+ looked at your state vectors and all your information.
+ The platform looks good, and it appears
+
+Tape 56
+Page 2
+ that it is your option if you would like to
+ by-pass this P52, your platform will still be
+ good at the following TEI pass. And we would
+ like to have your PRD reading, and I guess we
+ are behind the sleep summary. Over.
+03 11 54 28 CDR Okay. Jim and Bill are both resting now. I
+ had about 3 or 4 hours earlier today.
+03 11 54 41 CC Roger. COPY.
+03 11 54 47 CDR This PRD now reads 144.
+03 11 54 50 CC copy, 144. And we have an update ready to go
+ into your computer for the state vector if
+ you want to go to P00 and ACCEPT.
+03 11 55 07 CDR P00 and ACCEPT.
+03 11 55 09 CC Thank you.
+03 11 59 52 CDR Jerry, I'm standing by to copy the TEI 9 PAD.
+03 12 00 14 CC Okay, Apollo 8. We have completed with the
+ computer. You can use the VERB 47 to transfer,
+ and I have the TEI 9 PAD.
+03 12 00 26 CDR That's Ken isn't it? Just a minute, and I'll
+ take care of it.
+03 12 00 30 CC Roger.
+03 12 01 08 CMP Okay. I went to P00 and then VERB 47, and I'm
+ ready to copy.
+03 12 01 12 CC Okay. Do you have it in BLOCK?
+03 12 01 17 CDR Say again.
+03 12 01 18 CC I say, do you have the UP TELEMETRY in BLOCK?
+03 12 01 24 CDR Roger.
+
+Tape 56
+Page 3
+03 12 01 26 CDR Okay. This PAD is a TEI 9, SPS/G&N: 45597,
+ minus 040, plus 157 087:19:18.20, plus 34188,
+ minus 01353, plus 00780 180 008 001, November
+ Alfa, plus 00187 34223 313 34021 42 0898 253
+ 033, down 131, left 28, plus 0758, minus 16500
+ 12987 36277 146:48:16; primary star Sirius,
+ secondary Rigel, 129 155 010; four quads,
+ 15 second, ullage, horizons on 1.2-degree
+ window line at T minus 3; use high speed procedure
+ with minus Mike Alfa. After looking at
+ the burn information from your previous SPS
+ burns, it appears that the engine performance
+ should give us a 3-second burn time, longer
+ than what you have on the PAD. The PAD number
+ should correspond with what you get out of the
+ computer. So we have not factored this into
+ the past data; however, you can anticipate the
+ engine for a normal DELTA-V to give you a
+ 3 second - 3.7-second burn in excess of the
+ computed times. Over.
+03 12 05 52 CDR Roger. Thank you.
+03 12 06 02 CDR TEI 9, SPS/G&N: 45597, minus 040, plus 157
+ 087:19:18.20, plus 34188, minus 01353, plus 00780
+ 180 008 001, NA, plus 00187 34223 313 34021 42
+ 0898 253 033, down 131, left 28, plus 0758,
+ minus 16500 12987, plus - or 36277 146:48:16;
+
+Tape 56
+Page 4
+ and that's Sirius and Rigel 129 155 010, four
+ jet, 15 seconds, 1.2 degrees on the window at
+ T minus 3, high speed minus MA, engine 3.7 seconds
+ longer than given.
+03 12 07 11 CC That's affirmative, Apollo 8. And when you get
+ around to it, if you would like for us to dump
+ your tape, we can do that when you get on the
+ high gain.
+03 12 07 25 CDR Roger.
+03 12 08 06 CDR Okay. Should have it on the high gain now,
+ Houston.
+03 12 08 10 CC Roger. And we're going to go ahead and dump the
+ tape.
+03 12 08 20 CDR Roger.
+03 12 08 42 CDR Ken, will we get the real TEI PAD the next time
+ around now?
+03 12 09 04 CC Apollo 8, we'll have one for you the next time
+ around, and we'll update it if necessary on the
+ following REV.
+03 12 09 14 CDR Okay.
+03 12 11 34 CDR Houston, Apollo 8.
+03 12 11 36 CC Go ahead.
+03 12 11 40 CDR Do you have any idea why quad B seems so much
+ lower in quantity than the other three quads?
+03 12 11 47 CC Stand by.
+
+Tape 56
+Page 5
+03 12 15 48 CC Apollo 8, Houston.
+03 12 15 52 CDR Go ahead.
+03 12 15 54 CC Okay. It looks to us like, although we're
+ reading out the same thing you are on the quad
+ quantity, using the computer program and all of
+ the correction factors that are in there, it
+ looks like all four of your quads are very close.
+ In pounds, it looks like you have, for example,
+ 193 pounds in quad A and 189 in B, 200 in C,
+ and 190 in Delta. And the difference that you
+ read on the gage is attributed to the fact that
+ you don't have all of the correction factors in
+ there. This ground calculation has an accuracy
+ of about plus or minus 6 percent, and the best
+ you can do on board, even using your chart, is
+ plus or minus 10 percent. Over.
+03 12 16 44 CDR Thank you.
+END OF TAPE
+
+Tape 57
+Page 1
+03 12 24 35 CC Apollo 8, Houston. The tape recorder is back
+ to you.
+03 12 24 42 CDR Thank you.
+03 12 26 54 CC Apollo 8, Houston.
+03 12 27 00 CDR Go ahead.
+03 12 27 02 CC Okay. We've just finished looking at all your
+ systems and all the trajectory information, and
+ you have a GO for another REV.
+03 12 27 13 CDR Thank you.
+03 12 27 41 CDR I understand we're GO for REV 9.
+03 12 27 47 CC That's affirmative, 8.
+03 12 29 01 CDR How's the weather down there, Ken?
+03 12 29 03 CC It's really beautiful; loud and clear and just
+ right in temperature.
+03 12 29 12 CDR How about the recovery area?
+03 12 29 14 CC That's looking real good.
+03 12 29 19 CDR Very good.
+03 12 29 24 CC Yes. They told us that there is a beautiful moon
+ out there.
+03 12 29 32 CDR Now I was just saying that there's a beautiful
+ earth out there.
+03 12 29 36 CC It depends on your point of view.
+03 12 29 40 CDR Yes.
+03 12 29 54 CC If you're looking for things to do up there, Frank,
+ you might hit that BIOMED switch over to the left
+ position.
+
+Tape 57
+Page 2
+03 12 30 02 CDR Okay.
+03 12 30 42 CDR Are you ready?
+03 12 30 44 CC All set.
+03 12 30 46 CDR Five, four, three - say again.
+03 12 30 53 CC We've got the computers waiting.
+03 12 30 55 CDR Ken, are you ready? Five, four, three, two, one.
+03 12 31 00 CDR MARK.
+03 12 34 07 CDR Houston, Apollo 8. How do you read?
+03 12 34 09 CC I'm reading you weak but clear, Frank.
+03 12 34 16 CC How about this antenna? Is that any better?
+03 12 34 18 CC It's a little louder.
+03 12 34 26 CDR Okay.
+03 12 39 45 CDR Hey, Ken; how did you pull duty on Christmas Eve?
+ It happens to bachelors every time, doesn't it?
+03 12 39 52 CC I wouldn't be anywhere else tonight.
+03 12 42 08 CDR Ken, how's the ... tracking on this lunar orbit
+ coming out?
+03 12 42 27 CC Okay. Frank, it's looking like it's coming right
+ down the pike. It's doing just what it is supposed
+ to, and apparently, all our computer programs
+ have got the right numbers in them because
+ they're predicting where you're going.
+03 12 42 42 CDR Have they covered any of these anomalies due to
+ high spots?
+03 12 42 48 CC Roger. They're detectable, but they're not changing,
+ things enough to be anything more than - of
+ interest.
+
+Tape 57
+Page 3
+03 12 42 58 CDR Fine. Hope they are as good with the corridor
+ as they were with the LOI. That was beautiful.
+03 12 43 03 CC It sure was. That's - that is textbook all the
+ way.
+03 12 44 24 CC Apollo 8, Houston.
+03 12 44 29 CDR Go ahead.
+03 12 44 31 CC Okay. We're about - inside 10 minutes till LOS.
+ We'll be picking you up again at 85:40, and we'll
+ have all of the TV types' information standing by.
+ In the event that the situation develops again,
+ for pointing accuracies, if I see anything that
+ looks like a terminator or anything of that nature,
+ I'm going to call the dark side of it 12 o'clock,
+ and use that as a reference system, and we'll try
+ that. If that doesn't dope out any problems with
+ camera pointing, why I may try - call for a plus
+ pitch, and then I'll just correct what I see to
+ account for it.
+03 12 45 16 CDR Roger. We're not going to use the telephoto lens.
+ I don't believe we'll be able to get a picture of
+ the earth. It's going to have to be the terminator,
+ the lunar surface. I'm looking at the earth right
+ now; and we won't see it again during that period.
+03 12 45 31 CC Okay. Real fine then. And next time around, why,
+ we'll take an extra special look at all of the
+ parameters; we'll have our TEI PAD for you. And
+
+Tape 57
+Page 4
+ we'll use the last REV for a real good hack on
+ all systems. I'll give you a rundown by system
+ of all things we see and where they stand.
+03 12 45 55 CDR Okay. Fine.
+03 12 50 15 CC Apollo 8, Houston. We're approaching 4 minutes
+ to LOS. All systems are GO.
+03 12 50 25 CDR Roger. Thank you.
+
+Comment 03 13 25 XX BEGIN LUNAR REV 9
+03 13 42 56 LMP Houston.
+03 13 42 58 CC Loud and clear and an initial look at your systems
+ are good.
+03 13 42 59 LMP Houston, Apollo 8. Over.
+03 13 43 03 CC We've got a picture, Apollo 8.
+03 13 43 07 LMP Roger. We've got the T - Roger. We've got the
+ TV ...
+03 13 43 13 LMP How does the picture look, Houston?
+03 13 43 16 CC Loud and clear.
+03 13 43 21 LMP The TV look okay?
+03 13 43 23 CC That's very good.
+03 13 43 28 CMP Welcome from the moon, Houston.
+03 13 43 33 CC Thank you.
+03 13 44 00 LMP Houston, you're seeing a view of the earth taken
+ below the lunar horizon. We're going to follow a
+ track until the terminator, where we will turn the
+ spacecraft and give you a view of the long shadowed
+
+Tape 57
+Page 5
+ terrain at the terminator, which should come in
+ quite well in the TV.
+03 13 44 26 CC Roger.
+03 13 44 28 LMP We don't know whether you can see it from the TV
+ screen, but the moon is nothing but a milky white -
+ completely void. We're changing the cameras to the
+ other window now.
+03 13 44 58 CDR This is Apollo 8, coming to you live from the moon.
+ We've had to switch the TV cameras now. We showed
+ you first a view of earth as we've been watching it
+ for the past 16 hours. Now we're switching so that
+ we can show you the moon that we've been flying
+ over at 60 miles altitude for the last 16 hours.
+ Bill Anders, Jim Lovell, and myself have spent the
+ day before Christmas up here doing experiments,
+ taking pictures, and firing our spacecraft engines
+ to maneuver around. What we will do now is follow
+ the trail that we've been following all day and
+ take you on through to a lunar sunset. The moon
+ is a different thing to each one of us. I think
+ that each one of us - each one carries his own impression
+ of what he's seen today. I know my own
+ impression is that it's a vast, lonely, forbidding-type
+ existence, or expanse of nothing, that looks
+ rather like clouds and clouds of pumice stone, and
+ it certainly would not appear to be a very inviting
+
+Tape 57
+Page 6
+ place to live or work. Jim, what have you thought
+ most about?
+03 13 46 23 CMP Well, Frank, my thoughts are very similar. The
+ vast loneliness up here of the moon is awe inspiring,
+ and it makes you realize just what you
+ have back there on earth. The earth from here
+ is a grand oasis in the big vastness of space.
+03 13 46 41 CDR Bill, what do you think?
+03 13 46 44 LMP I think the thing that impressed me the most was
+ the lunar sunrises and sunsets. These in particular
+ bring out the stark nature of the terrain,
+ and the long shadows really bring out the relief
+ that is here and hard to see at this very bright
+ surface that we're going over right now.
+03 13 47 05 CDR You're describe - that's not color, Bill. Describe
+ some of the physical features of what
+ you're showing the people.
+03 13 47 17 CC Apollo 8, Houston. We're not receiving a picture
+ now. Over.
+03 13 47 24 LMP We're now coming on to Smyth's Sea, a small mare
+ region covered with a dark, level material. There
+ is a fresh, bright, impact crater on the edge
+ towards us and a mountain range on the other side.
+ These mountains are the Pyrenees.
+03 13 47 48 CC Apollo 8, we're not receiving modulation on the
+ signal; we do have SYNC.
+03 13 47 58 CDR Are you reading us? Apollo, Houston.
+
+Tape 57
+Page 7
+03 13 48 02 CC Apollo 8, we're reading you loud and clear, but
+ no picture. We have no modulation.
+03 13 48 07 CMP Roger. We understand. Take a look now.
+03 13 48 09 LMP How about now? Apollo.
+03 13 48 12 CC Loud and clear. Good picture.
+03 13 48 28 LMP What you're seeing has been cross - Smyth's Sea
+ are the craters Castner and Gilbert, and what
+ we've noticed especially, that you cannot see
+ from the earth, are the small bright impact
+ craters that dominate the lunar surface.
+03 13 49 03 LMP The horizon here is very, very stark. The sky
+ is pitch black, and the earth - or the moon,
+ rather, excuse me - is quite light; and the contrast
+ between the sky and the moon is a vivid,
+ dark line. Coming into the view of the camera
+ now are some interesting old double ring craters,
+ some interesting features that are quite common
+ in the mare region and have been filled by some
+ material the same consistency of the maria and
+ the same color. Here are three or four of these
+ interesting features. Further on the horizon you
+ see the ... The mountains coming up now are heavily
+ impacted with numerous craters whose central
+ peaks you can see in many of the larger ones.
+03 13 50 08 CMP Actually, I think the best way to describe this
+ area is a vastness of black and white, absolutely
+ no color.
+
+Tape 57
+Page 8
+03 13 50 22 LMP The sky up here is also rather forbidding, foreboding
+ expanse of blackness, with no stars visible
+ when we're flying over the moon in daylight.
+03 13 50 52 LMP You can see by the numerous craters that this
+ planet has been bombarded through the eons with
+ numerous small asteroids and meteoroids pockmarking
+ the surface every square inch.
+03 13 51 11 CMP And one of the amazing features of the surface
+ is the roundness that most of the craters - seems
+ that most of them have a round mound type of appearance
+ instead of sharp, jagged rocks.
+03 13 51 23 LMP Only the newest feature is of any sharp definition
+ to them, and eventually they get eroded down by
+ the constant bombardment of small meteorites.
+03 13 51 45 LMP How is the picture now, Houston? Houston, are
+ you reading us?
+03 13 51 54 CC Loud and clear, and the picture looks real fine.
+03 13 52 00 LMP Thank you.
+03 13 52 04 LMP Can you see the two large craters just to the
+ right of our track, Houston?
+03 13 52 15 CC That's affirmative.
+03 13 52 51 LMP The very bright features you see are the new impact
+ craters, and the longer a crater has been
+ on the surface of the moon, why, the more mottled
+ and subdued it becomes. Some of the - -
+03 13 53 25 CC Apollo 8, we've apparently lost your voice; the
+ picture is still good.
+
+Tape 57
+Page 9
+03 13 53 32 LMP Roger.
+03 13 53 37 CMP Houston, we're passing over an area that's just
+ east of the Smyth's Sea now, in checking our
+ charts. Smyth's Sea is coming up in a few minutes.
+03 13 53 51 CC Roger.
+03 13 54 12 CC Apollo 8, if you go to P00 and ACCEPT, we'll uplink
+ some information.
+03 13 54 43 LMP We are now coming up towards the terminator, and
+ I hope soon that we'll be able to show you the
+ varying contrast of white as we go into the darkness.
+ Houston, we're in P00, and you have the
+ computer.
+03 13 54 58 CC Thank you.
+03 13 55 16 LMP We're now approaching a series of small impact
+ craters. There is a dark area between us and
+ them which could possibly be an old lava flow.
+03 13 55 58 LMP You can see the large mountains on the horizon
+ now ahead of the spacecraft to the north of our
+ track.
+03 13 56 25 LMP The intensity of the sun's reflection in this
+ area makes it difficult for us to distinguish
+ the features we see on the surface, and I suppose
+ it's even harder on the television, but as we approach
+ the terminator and the shadows become longer,
+ you'll see a marked change.
+
+Tape 57
+Page 10
+03 13 57 00 LMP There is a very dark crater in the filling material
+ in this valley in front of us now. It is rather
+ unusual in that it is sharply defined, yet it's
+ dark all over its interior walls, whereas most
+ new-looking craters are of very bright interior.
+03 13 57 38 LMP Small impact crater in front of us now in the little
+ mare well defined, quite new, and another one
+ approaching. The spacecraft is facing North.
+ From our track, we are going sideways to our left.
+03 13 58 11 LMP You are now seeing the Sea of Crises coming over
+ the horizon.
+END OF TAPE
+
+Tape 58
+Page 1
+03 13 58 37 LMP We believe the crater, the large dark crater
+ between the spacecraft and the Sea of Crises
+ is Condorcet Crater. The Sea of Crises is
+ amazingly smooth as far as the horizon and
+ past this rather rough mountainous region in
+ front of the spacecraft.
+03 13 59 10 CC Apollo 8, we are through with the computer.
+ You can go back to BLOCK, and it looks like
+ we are getting a lot of reflection off your
+ window now.
+03 13 59 25 LMP Roger. We'll switch windows; How does that
+ look now, Ken?
+03 13 59 41 CC That's real fine.
+03 14 00 26 CC Apollo 8, can you tell us which window you
+ are looking out? And there is a large crater,
+ looks like it is sticking up in the upper right
+ hand corner of our picture. Can you identify
+ that one?
+03 14 00 43 LMP Roger. We are just about to lose our lock; that
+ is why we are slowing up a little bit. We see
+ the Sea of Crises in front of us now. We are
+ looking out the left hand rendezvous window.
+03 14 01 28 LMP Houston, how are you reading us now?
+03 14 01 30 CC Loud and clear.
+03 14 01 34 LMP The crater you see on the horizon is the Sea of
+ Crises. How are you reading us, Houston?
+
+Tape 58
+Page 2
+03 14 01 47 CC Loud and clear, Apollo 8, and we have a picture
+ that is good.
+03 14 01 51 LMP Right.
+03 14 01 53 LMP Roger. We are getting a lot of static. The
+ Sea of Crises is in front of us on the horizon,
+ and the dark crater Picard can be seen in the
+ middle. We are now breaking the moon's sunrise
+ or the spacecraft's sunset. This is an area that
+ the sun has just recently come up on the moon.
+ The mare we are over now has a mottled look about
+ it, but not very heavily cratered, so it must be
+ relatively new. This is the Sea of Fertility,
+ and we're coming upon a large crater, the delta
+ rim variety; has a strange circular cracked
+ pattern around the middle of it. The crater that
+ you see now is about 30 or 40 miles across.
+03 14 03 51 LMP How is your picture quality, Houston?
+03 14 03 55 CC This is phenomenal.
+03 14 04 00 LMP There is an interesting rill directly in front of
+ the spacecraft now, running along the edge of
+ a small mountain; rather sinuous shape with right-angle
+ turns.
+03 14 04 30 LMP This area just to the west of the Sea of Crises is
+ called the Marsh of Sleep and to the west of that
+ the Sea of Tranquility.
+03 14 04 40 LMP Can you see the fracture patterns going across the
+ mare in front of us now, Houston?
+
+Tape 58
+Page 3
+03 14 04 47 CC That doesn't quite stand out.
+03 14 04 53 LMP Roger. The series of cracks or faults across
+ the middle of the mare: they drop down in about
+ three steps to the south. The parallel fault
+ pattern to the north has a drop down in the
+ center. I hope all of you back down on earth
+ can see what we mean when we say that it is
+ a rather foreboding horizon, a very rather dark
+ and unappetizing looking place. We are now going
+ over - approaching one of our future landing
+ sites selected in this smooth region to - called
+ the Sea of Tranquility - smooth in order to make
+ it easy for the initial landing attempts in order
+ to preclude the having to dodge mountains. Now
+ you can see the long shadows of the lunar sunrise.
+ We are now approaching the lunar sunrise, and for
+ all the people back on earth, the crew of Apollo 8
+ has a message that we would like to send to you.
+03 14 06 56 LMP In the beginning, God created the Heaven and the
+ Earth.  And the Earth was without form and void,
+ and darkness was upon the face of the deep. And
+ the spirit of God moved upon the face of the waters,
+ and God said, "let there be light." And there was
+ light. And God saw the light and that it was good,
+ and God divided the light from the darkness.
+03 14 07 29 CMP And God called the light Day, and the darkness he
+ called Night. And the evening and the morning
+
+Tape 58
+Page 4
+ were the first day.  And God said, "let there be
+ a firmament in the midst of the waters. And let
+ it divide the waters from the waters."  And God
+ made the firmament and divided the waters which
+ were under the firmament from the waters which
+ were above the firmament. And it was so. And
+ God called the firmament Heaven. And the evening
+ and the morning were the second day.
+03 14 08 07 CDR And God said, "let the waters under the Heavens
+ be gathered together into one place. And let
+ the dry land appear." And it was so. And God
+ called the dry land Earth. And the gathering
+ together of the waters called the seas. And
+ God saw that it was good. And from the crew of
+ Apollo 8, we close with good night, good luck,
+ a Merry Christmas and God bless all of you - all
+ of you on the good Earth.
+03 14 09 46 CDR Houston, how do you read? Apollo 8.
+03 14 09 48 CC Loud and clear, Apollo 8. And thank you for
+ a very good show. We have a maneuver PAD for
+ you when you are ready to copy.
+03 14 10 00 CDR Houston, Apollo 8.
+03 14 10 02 CC Apollo 8, read you loud and clear.
+03 14 10 07 CDR Roger. Are we off the air now?
+03 14 10 21 CC That's affirmative, Apollo 8. You are.
+03 14 10 26 CDR Did you read everything that we had to say there?
+
+Tape 58
+Page 5
+03 14 10 29 CC Loud and clear. Thank you for a real
+ good show.
+03 14 10 34 CDR Okay. Now, Ken, we'd like to get all squared
+ away for TEI here. Can you give us some good
+ words like you promised?
+03 14 10 41 CC Yes, sir. I have a maneuver PAD. I think we
+ would like to start by dumping the tape. If
+ we can have that, I have your TEI 10 maneuver
+ PAD, and then we will run through a systems
+ brief.
+03 14 10 59 CDR I understand this is a maneuver PAD that we
+ will use for TEI. Is that correct?
+03 14 11 11 LMP And you got the tape, Houston.
+03 14 11 13 CC Thank you.
+03 14 11 18 CMP Ready to copy, Ken.
+03 14 11 20 CC Roger. TEI 10, SPS/G&N: 45597, minus 040, plus
+ 157 089:19:15.64, plus 35189, minus 01513, minus
+ 00346 180 007 000, November Alfa plus 00186 35223 38 35019 42 0928 253, boresight star
+ Scorpii Delta (another name for it is Dzuba)
+ down 071, left 45, plus 0748 minus 16500 12995
+ 36300 146:50:05; primary star Sirius, secondary,
+ Rigel, 129 155 010; four quads, 15 second,
+ ullage; horizon on the 2.9 window line at T
+ minus 3; use high-speed procedure with minus
+ Mike Alfa. Over.
+
+Tape 58
+Page 6
+03 14 14 40 CMP Okay. TEI PAD as follows: SPS/G&N: 45597,
+ minus 040, plus 157 089:19:15.64, plus 35189,
+ minus 01513, minus 00346 180 007 000, not
+ applicable, plus 00186 35223 318 35019 42 0928
+ 253, Scorpii Delta (Dzuba), down 071, left 45,
+ plus 0748 minus 16500 12995 36300 146:50:05;
+ Sirius, Rigel, 129 155 010; four quads, 15 seconds,
+ 2.9-degree window line at TIG minus 3,
+ high-speed procedure minus MA.
+03 14 16 09 CC That's correct, Apollo 8.
+03 14 16 17 CDR Ken, this is Frank. I want to - - I want to
+ make one thing certain. This the load that
+ we are to use to burn with, right? This is
+ not just a PAD data for 10 abort?
+03 14 16 32 CC Okay, Apollo 8. We will update this PAD prior
+ to the burn.
+03 14 16 40 CDR Oh, you will? Okay.
+03 14 16 42 CC Yes, sir.
+03 14 16 46 CDR Say again.
+03 14 19 39 CC Apollo 8, Houston.
+03 14 19 44 CDR Go ahead, Houston. Apollo 8.
+03 14 19 46 CC Roger. I am reading you with a lot of background
+ noise. Can you read me clearly?
+03 14 19 54 CDR Roger.
+03 14 19 55 CC Okay. I am going to give you a quick summary
+ of systems. Basically, all systems are good. In
+
+Tape 58
+Page 7
+ respect to your return trajectory, we can still
+ get to the mid-Pacific line at 146 hours by
+ waiting as late as the thirteenth REV. After
+ 138 seconds of the burn, you are on your way
+ home. The weather in the recovery area looks
+ good. Apollo 8, did you call?
+03 14 20 43 CDR Continue, Houston.
+03 14 21 05 CC Apollo 8, Houston. Could we have the high gain
+ for a little bit longer?
+03 14 21 12 CDR We broke scan on it, Ken.
+03 14 21 15 CC Okay. You are coming in loud and clear now.
+ Did you copy my trajectory information?
+03 14 21 20 CDR We are on OMNI B now.
+03 14 21 23 CC Roger. That is fine.
+03 14 21 24 CDR Say again, please. Go ahead. We are 130 -
+ Will you say again, please?
+03 14 21 29 CC Wilco, Apollo 8. First, if you can spare, we
+ would like to have the high gain to complete
+ the dump.
+03 14 21 54 CDR Stand by. We will try to get it for you.
+03 14 21 56 CC Roger.
+03 14 22 17 CDR In a couple of minutes there, Houston.
+03 14 22 19 CC Roger. Thank you.
+03 14 22 47 CC Okay, Apollo 8. While we are - -
+03 14 22 57 CC Apollo 8, while we are waiting for the high gain,
+ I will continue the trajectory summary. We can
+
+Tape 58
+Page 8
+ still get back to the mid-Pacific line in 146 hours
+ from the thirteenth REV, and you are on your way
+ after 138 seconds of the burn. That's 138 seconds,
+ gets you clear of the butterfly region. We
+ recommend not trying preignitions or restarts after
+ 20 seconds. If you go beyond 20 seconds, this may
+ get the trajectory beyond the correction - RCS correction
+ capability to a free return. The weather
+ in recovery area is good. We have an AOS following
+ TEI of 89 plus 28 plus 39 and an AOS without
+ TEI of 89 plus 37 plus 24. During the burn, you
+ may notice a slight change in chamber pressure and
+ tank pressures due to the fuel exhaustion in the
+ storage tank and going to the sump tank. This may
+ occur somewhere around 2 to 5 seconds into the
+ burn. It'll be a small change in pressures in both
+ systems. Going down the systems, all systems are
+ GO. In ECS, we want to stop water boiling after
+ TEI for trajectory purposes. Your water dump
+ situation looks good; you should be good to greater
+ than 105 hours. We'll try to hold off the water
+ dump until after MCC 5. In the EPS, we'd like to
+ stir the cryos prior to TLI - correction TEI. The
+ next purge on the fuel cells will occur at approximately
+ 92 hours, and that will be both hydrogen
+ and oxygen. Your battery status: battery A 34.9,
+ battery B 39.1, and Charlie 38.5. We have the
+
+Tape 58
+Page 9
+ single tank cryo capability. SPS: looking at
+ the performance on the previous burns, you can
+ anticipate a normal burn taking approximately
+ 3.7 seconds in excess of the computed values.
+ Engine performance looks nominal, and all parameters
+ have been steady. RCS looks good; all
+ four quads according to the computer programs
+ have approximately the same capacity. You have
+ a good REFSMMAT to take you through TEI. We'll
+ have a post TEI PTC attitude for you in a few
+ minutes. and that just about wraps up what we
+ have on systems. Over.
+03 14 26 43 CDR Roger. Thank you, Houston. We appreciate the
+ summary. We're trying to get high gain.
+03 14 26 49 CC Roger,
+03 14 26 53 CMP I think we have it.
+03 14 26 54 CDR You do have the high gain. Now, Ken, as I
+ understand it, if it shuts down after 20 seconds of burn, you
+ don't want us to try to re-light it. Is that what you said?
+03 14 27 04 CC Stand by.
+03 14 27 12 CC Apollo 8, the intent was do not delay ignitions
+ beyond 20 seconds. Over.
+03 14 27 21 CDR Oh, do not delay ignition beyond 20 seconds
+ Roger.
+03 14 27 24 CC That's affirm.
+
+Tape 58
+Page 10
+03 14 27 27 CDR Okay. You want me to start it on tank A and
+ then switch to B again like we did on our LOI,
+ right?
+03 14 27 39 CC That's affirmative.
+03 14 27 43 CDR Okay.
+03 14 27 47 CDR Did you put in this PAD for us? Should P30 and
+ 40 be in our computer now?
+03 14 28 19 CC Apollo 8, that's negative. We had not uplinked
+ this PAD. We'll put this one in on the next pass.
+03 14 28 26 CDR Okay. Roger.
+03 14 33 28 CC Apollo 8, Houston. You have a GO for this REV.
+03 14 33 34 CMP Roger, Houston.
+03 14 38 29 CC Apollo 8, Houston. We have completed the tape
+ dump, and the recorder is yours.
+03 14 38 35 CDR Thank you.
+03 14 43 03 LMP Houston, how do you read? Apollo 8 on OMNI C.
+03 14 43 06 CC Loud and clear.
+03 14 43 10 LMP Thank you.
+03 14 44 27 CC Apollo 8, Houston. We're 5 minutes to LOS;
+ we'll have AOS Honeysuckle at 87:38:42.
+03 14 44 42 CMP Roger.
+03 14 52 14 CC Apollo 8, everything looks good going over the hill.
+03 14 52 21 CDR Roger, Ken. Thanks a lot. We'll see you around
+ the next pass. Just have our TEI update for us
+ when you're ready. Okay?
+03 14 52 28 CC Roger.
+END OF TAPE
+
+Tape 59
+Page 1
+Comment 03 15 24 XX BEGIN LUNAR REV 10
+03 15 39 47 CDR Houston, Apollo 8.
+03 15 39 49 CC Loud and clear, Apollo 8.
+03 15 39 53 CDR Okay. You want the computer?
+03 15 40 36 CC Apollo 8, we would like to have the high gain,
+ and when we get that, well, we will start a dump,
+ and we will start your updates.
+03 15 40 44 CDR Okay. How about reading us the PAD, and we will
+ try to get you the high gain.
+03 15 40 57 CDR Ken, read us off the PAD in case you can't get
+ the dump in; we can still do it.
+03 15 41 01 CC Roger. I have got them right here.
+03 15 41 19 CC Okay, Apollo 8. The first PAD I have is TEI 10.
+03 15 41 26 CDR Go ahead.
+03 15 41 28 CC Alright. TEI 10, SPS/G&N: 45597, minus 040,
+ plus 157 089:19:15.67, plus 35186, minus 01512,
+ minus 00520 180 007 000, November Alfa, plus
+ 00186 35223 318 35018 42 0924 253; Scorpii Delta,
+ down 069, left 45, plus 0748, minus 16500 12994
+ 36300 146:50:05; primary star Sirius, secondary
+ Rigel, 129 155 010; four quads, 15 seconds, ullage;
+ horizon on 3.2-degree window line at T
+ minus 3; use high-speed procedure with minus
+ Mike Alfa. Over.
+03 15 44 23 CDR Stand by 1 second.
+03 15 44 33 CDR You got the high gain now, Ken.
+
+Tape 59
+Page 2
+03 15 44 36 CC Roger.
+03 15 44 38 CMP Houston, Apollo 8. How do you read?
+03 15 44 40 CC Loud and clear.
+03 15 44 44 CC Apollo 8, we would like to - -
+03 15 44 45 CMP - - TEI 10.
+03 15 44 50 CC Apollo 8, we would like to have you go to P00
+ and ACCEPT and we would like to take the recorder
+ at this time; then I will copy your PAD.
+03 15 45 00 CMP You have got P00 and ACCEPT, and you have the
+ recorder.
+03 15 45 06 CC Thank you, Jim.
+03 15 45 13 CMP All set for the maneuver.
+03 15 45 14 CC Go ahead.
+03 15 45 18 CMP TEI 10, SPS/G&N: 45597, minus 040, plus 157
+ 089:19:15.67, plus 35186, minus 01512, minus 00520
+ 180 007 000, not applicable, plus 00186 35223
+ 318 35018 42 0924 253; Scorpii Delta, down 069,
+ left 45, plus 0748, minus 16500 12994 36300 146:50:05;
+ Sirius, Rigel, 129 155 010; four-quad,
+ ullage, 15 seconds; horizon on the 3.2-degree
+ mark is T minus 3; high-speed procedure minus MA.
+03 15 46 46 CC That is correct, Apollo 8. Would like to confirm
+ the hours on GETI, 089.
+03 15 46 57 CMP Roger. 089.
+03 15 47 03 CC Alright, Apollo 8. I have TEI 11 PAD;
+03 15 47 15 CDR We are ready; go ahead.
+
+Tape 59
+Page 3
+03 15 47 17 CC Roger. TEI 11, SPS/G&N: 45597, 0 - correction -
+ that's minus 040, plus 157 091:18:12.24, plus 36325,
+ minus 01727, plus 01428 180 003 000, November
+ Alfa, plus 00186 36394 323 36186 42 0995 254;
+ Scorpii Delta, down 103, left 48, plus 0742,
+ minus 16500 13005 36327 146:51:44; Sirius and
+ Rigel, 129 155 010, four quads, 15 seconds;
+ horizon on 2.9-degree line at T minus 2; high-speed
+ procedure with minus Mike Alfa. Over.
+03 15 49 47 CMP Roger, Houston. TEI minus 11, SPS/G&N: 45597,
+ minus 040, plus 157 091:18:12.24, plus 36325,
+ minus 01727, plus 01428 180 003 000, not applicable,
+ plus 00186 36394 323 36186 42 0995 254;
+ Scorpii Delta, down 103, left 48, plus 0742, minus
+ 16500 13005 36327 146:51:44; Sirius, Rigel, 129 155
+ 010; four quads, 15 seconds, 2.9-degree window mark
+ at T minus 2; high-speed procedure minus MA.
+03 15 51 15 CC That's correct, Apollo 8.
+03 15 51 25 LMP Houston, could you give me the SPS helium tank
+ temperature at about 87:20, please?
+03 15 51 42 CC Okay. Stand by one.
+03 15 51 47 LMP Roger.
+03 15 54 10 CC Apollo 8, Houston. Our loads are in and verified;
+ the computer is yours.
+03 15 54 18 CMP Roger.
+03 15 54 35 CMP Houston, Apollo 8.
+
+Tape 59
+Page 4
+03 15 54 46 CC Apollo 8, Houston. At 87:48, we're reading
+ 84 degrees, and at LOS we had 80. We'll take
+ a look at the tape and see if we can find out
+ what we had on the backside.
+03 15 55 03 LMP Okay. I would kind of like to know what I might
+ expect at ignition here at TEI.
+03 15 55 11 CC Roger. We'll take that off the tape.
+03 15 55 19 CMP Houston; this is 8. I take it you have loaded
+ both state vectors; is that correct?
+03 15 55 24 CC That's affirmative.
+03 15 55 28 CMP Roger.
+03 15 55 33 CC We loaded your CSM and LM NAV and external
+ DELTA-V, in that order.
+03 15 55 43 CMP Roger.
+03 16 03 28 CC Apollo 8, Houston.
+03 16 03 33 CDR Go ahead, Houston. Apollo 8.
+03 16 03 36 CC Okay, Apollo 8. We've reviewed all your systems.
+ You have a GO for TEI. One of the things we
+ would like to do as soon as you come out on the
+ other side is a P23. We are checking into your
+ helium pressures now. We're going to correlate
+ not only the last REV but the previous REV for
+ the same location, and we will have that number
+ for you in a little bit.
+03 16 04 03 CDR Okay.
+03 16 09 47 CC Apollo 8, Houston. The tape recorder is yours.
+ I have your PTC attitude.
+
+Tape 59
+Page 5
+03 16 09 55 CDR Roger. Go ahead.
+03 16 09 58 CC Okay. PTC attitude vi11 be pitch 10, yaw 45.
+ This begins at 92 hours. Over.
+03 16 10 11 CDR Is that pitch 10 and yaw 45?
+03 16 10 14 CC Affirmative. And looks like that will go with
+ the entry REFSMMAT; begins at 92 hours.
+03 16 10 24 CDR Thank you.
+03 16 10 31 CC Apollo 8, would you put your UP TELEMETRY to
+ BLOCK, please?
+03 16 10 40 CMP In BLOCK.
+03 16 14 49 CC Apollo 8, Houston.
+03 16 14 54 CDR Go ahead.
+03 16 14 56 CC Okay. On the helium tank TEMP's: that's not
+ recorded on low bit rate, and looking over our
+ tape dumps, most of this stuff we have on the
+ backside there is low bit rate. So we won't
+ be able to give you an exact number, but looking
+ at what we have every time we go out of
+ sight and come back over the hill, it looks
+ like you can expect about 82 to 84 degrees as
+ a nominal temperature.
+03 16 15 22 CDR Thank you.
+03 16 28 28 CC Apollo 8, Houston. We'd like to have the tape
+ recorder for about 5 minutes for one last look.
+03 16 28 35 CMP Roger, Houston. You're getting it.
+
+Tape 59
+Page 6
+03 16 28 38 CC Thank you. And I guess we still have a cryo stir
+ ahead of us, and we've checked your triple bias,
+ and there's no change.
+03 16 28 52 LMP Roger. And we're stirring cryos right now.
+03 16 28 56 CC Thank you.
+03 16 31 20 CDR Ken, are you through with the tape recorder?
+03 16 31 23 CC Stand by one.
+03 16 31 28 CDR We're on a maneuver to burn attitude, and it's
+ going to make us lose the high gain.
+03 16 31 57 CC Apollo 8, the tape recorder is yours. We have
+ your double umbra update, 89:07:15.87.
+03 16 32 11 CDR Roger. Copy.
+03 16 32 13 CC Roger. And no change on your AOS time.
+03 16 32 20 CDR Say that again, will you, Ken?
+03 16 32 22 CC There's no change on your AOS time.
+03 16 32 28 CDR Now what was it?
+03 16 32 31 CC Okay. With TEI, 89:28:39.
+03 16 32 40 CDR Thank you.
+03 16 32 42 CC Roger.
+03 16 47 37 CC Apollo 8, Houston. We have 3 minutes to LOS;
+ all systems are GO.
+03 16 48 06 CC Apollo 8, Apollo 8, this is Houston. Three
+ minutes LOS; all systems are GO. Over.
+03 16 49 16 CDR Roger. Thank you, Houston. Apollo 8.
+03 16 50 55 CC All systems are GO. Apollo 8.
+03 16 51 01 CDR Thank you.
+END OF TAPE
+
+Tape 60
+Page 1
+Comment 03 17 15 XX TEI MANEUVER
+03 17 31 12 CC Apollo 8, Houston.
+03 17 31 30 CC Apollo 8, Houston.
+03 17 31 58 CC Apollo 8, Houston.
+03 17 32 50 CC Apollo 8, Houston.
+03 17 33 38 CC Apollo 8, Houston.
+03 17 34 16 CMP Houston, Apollo 8. Over.
+03 17 34 19 CC Hello, Apollo 8. Loud and clear.
+03 17 34 25 CMP Roger. Please be informed there is a Santa Claus.
+03 17 34 31 CC That's affirmative. You are the best ones to
+ know.
+03 17 34 37 CMP That burn status report: it burned on time; burn
+ time 2 minutes 23 seconds, seven-tenths VG<sub>X</sub>.
+ Attitude nominal, residuals minus five-tenths
+ VG<sub>X</sub> plus four-tenths VG<sub>X</sub> - of minus O VG<sub>Z</sub>.
+ DELTA-V<sub>C</sub> minus 26.4.
+03 17 35 14 CC Roger.
+03 17 35 19 CC Apollo FLIGHT has -
+03 17 35 23 CC Apollo 8, reconfirm your burn time, please.
+03 17 35 30 CMP Roger. We had 2 minutes 23 seconds. Our -
+ wait one. Change that to read 3 minutes 23 seconds
+03 17 35 43 CC Thank you.
+03 17 36 33 CMP This gives the sensation that you are climbing,
+ Ken.
+
+Tape 60
+Page 2
+03 17 36 35 CC Say again, Apollo 8.
+03 17 36 41 CMP I say that this gives the sensation that you are
+ climbing.
+03 17 36 47 CC Roger.
+03 17 36 53 CDR What's next on the docket?
+03 17 36 56 CC High-gain antenna.
+03 17 37 10 CC Apollo 8, at the first convenient moment, we'd
+ like to have the high-gain antenna.
+03 17 37 19 CDR You've got it; you're on the high gain.
+03 17 37 25 CC Roger.
+03 17 39 50 CC Apollo 8, Houston. We do not have any data on
+ the ground yet; the voice is very good.
+03 17 40 01 CDR Roger.
+03 17 41 44 CC Apollo 8, Houston. We'd like to try to have you
+ manually acquire on the high gain.
+03 17 41 55 CDR Okay.
+03 17 41 57 CC This will take a wide beam width.
+03 17 42 01 CDR Wide beam width. Roger.
+03 17 43 06 CDR Houston, Apollo 8, We've manually acquired in
+ wide beam.
+03 17 43 10 CC Roger. Reading you loud and clear. Initial
+ tracking indicates a 4 foot per second at 8 hours
+ will put you on target.
+03 17 43 22 CDR Four foot per second at 8 hours.
+03 17 43 25 CC Correction, that's 15 hours.
+03 17 43 27 CDR Roger. Roger.
+
+Tape 60
+Page 3
+03 17 43 43 CC Apollo 8, we have data; we'd like to have the
+ tape recorder.
+03 17 43 50 CDR You can have it.
+03 17 43 52 CC Thank you.
+03 17 45 11 CDR Houston, Apollo 8.
+03 17 45 12 CC Go ahead, Apollo 8.
+03 17 45 17 CMP Roger. Do you wish me to reinitialize the W-matrix
+ at this time?
+03 17 45 26 CC Affirmative, Apollo 8.
+03 17 45 31 CDR Roger. And that - -
+03 17 45 43 LMP Houston, Apollo 8. Which battery do you want us
+ to start charging?
+03 17 45 52 CC Okay. We'd like to start on battery Alfa.
+03 17 45 57 LMP Battery Alfa. Okay.
+03 17 46 08 CC Apollo 8, would you go to NARROW BEAM on the
+ high gain?
+03 17 46 17 CDR Just a minute.
+03 17 46 27 CDR We're on NARROW BEAM.
+03 17 46 29 CC Roger. Sounds real good now.
+03 17 51 33 CC Apollo 8, Houston.
+03 17 51 38 LMP Go ahead, Houston. Apollo 8.
+03 17 51 40 CC Okay. If you'll go to P00 and ACCEPT, we'll
+ update the REFSMMAT, and I have some backup GDC
+ angles for the new entry REFSMMAT.
+03 17 51 51 LMP Roger. Understand; P00 and ACCEPT, and you'll
+ give us the new REFSMMAT.
+
+Tape 60
+Page 4
+03 17 51 57 CC Affirm.
+03 17 52 52 LMP Okay. Houston, you have the ACCEPT.
+03 17 52 57 CC Roger. Your backup GDC alignment: roll 308,
+ pitch 209, yaw 357. Over.
+03 17 53 13 LMP Roger. Alright. What set of stars?
+03 17 53 15 CC That's on Sirius and Rigel.
+03 17 53 27 LMP Understand; roll 308, pitch 209, yaw 357.
+03 17 53 31 CC That's affirmative, Apollo 8.
+03 17 54 06 CC Good morning, Apollo 8; Deke here. I just would
+ like to wish you all a very Merry Christmas on
+ behalf of everyone in the Control Center, and
+ I'm sure everyone around the world. None of
+ us ever expected to have a better Christmas present
+ than this one. Hope you get a good night's sleep
+ from here on and enjoy your Christmas dinner
+ tomorrow; and look forward to seeing you in Hawaii
+ on the twenty-eighth.
+03 17 54 30 CDR Okay, leader. We'll see you there. That was a
+ very, very nice ride, that last one; this engine
+ is the smoothest one.
+03 17 54 38 CC Yes, we gathered that; an outstanding job all the
+ way around.
+03 17 54 46 CDR Thank everybody on the ground for us. It's pretty
+ clear we wouldn't be anywhere if we didn't have
+ them doing it or helping us out here.
+03 17 54 52 CC We concur that.
+03 17 54 53 CMP I concur, too.
+
+Tape 60
+Page 5
+03 17 55 01 LMP Even Mr. Kraft does something right once in a
+ while.
+03 17 55 07 CC He got tired of waiting for you to talk and went
+ home.
+03 17 55 12 LMP Okay.
+03 17 57 01 CC Apollo 8, Houston.
+03 17 57 06 CDR Go ahead, Houston.
+03 17 57 07 CC Okay. The computer is yours, and I guess we have
+ an IMU alignment and a P23 on the schedule.
+03 17 57 17 CDR Okay. Thank you. Do an IMU alignment coming up.
+ See them in black.
+03 17 57 25 CC Roger.
+03 17 59 01 CC Apollo 8, Houston. We would like to have you cycle
+ your ZERO OPTICS switch prior to beginning P52.
+03 17 59 11 CDR Roger. We are going to see if we can find some
+ stars here before we do this P52.
+03 17 59 18 CC Roger. And got a couple of words for you. Jack's
+ been watching you since LOI, and he has a few words
+ he wants to give you.
+03 17 59 30 CDR Go ahead.
+03 17 59 31 CC Typhoid Jack here, and we have got some good words
+ here that originated at the Cape with a bunch of
+ friends of yours. And it's sort of in a paraphrase
+ of a poem that you probably are familiar with. Do
+ you read me, Apollo 8?
+03 17 59 50 CDR You are loud and clear, Jack.
+
+
+Tape 60
+Page 6
+03 17 59 53 CC Okay. "'Twas the night before Christmas and way
+ out in space, the Apollo 8 crew had just won the
+ moon race. The headsets were hung by the consoles
+ with care in hopes that Chris Kraft soon would be
+ there. Frank Borman was nestled all snug in his
+ bed, while visions of REFSMMAT's danced in his
+ head; and Jim Lovell, in his couch, and Anders,
+ in the bay, were racking their brains over a computer
+ display. When out of the DSKY, there arose
+ such a clatter, Frank sprang from his bed to see
+ what was the matter. Away to the sextant he flew
+ like a flash to make sure they weren't going to
+ crash. The light on the breast of the moon's
+ jagged crust gave a luster of green cheese to the
+ gray lunar dust. When what to his wondering eyes
+ should appear, but a Burma Shave sign saying 'Kilroy
+ was here.' (Laughter) But Frank was no fool; he
+ knew pretty quick that they had been first; this
+ must be a trick. More rapid than rockets, his
+ curses they came. He turned to his crewmen and
+ called them a name. Now Lovell, now Anders, now
+ don't think I'd fall for an old joke you've written
+ up on the wall. They spoke not a word, but grinning
+ like elves, and laughed at their joke in spite of
+ themselves. Frank sprang to his couch, to the
+
+Tape 60
+Page 7
+ ship gave a thrust, and away they all flew past
+ the gray lunar dust. But we heard them explain
+ ere they flew around the moon: Merry Christmas
+ to earth; we will be back there real soon."
+ Great job, gang.
+03 18 01 30 CDR Thank you very much. That was a very good poem;
+ but in order to win the race, you have got to
+ end up on the carriers.
+03 18 01 38 CC We will see you there.
+03 18 01 40 CMP Hey, Jack. You really got Bill trained. (Laughter)
+03 18 01 44 LMP Okay.
+03 18 01 45 CC I certainly hope so.
+03 18 01 47 CC You did pretty well, Jim.
+03 18 01 52 CC You must have talked on the way out there.
+ (Laughter)
+03 18 07 21 CDR Houston, this is Apollo 8.
+03 18 07 24 CC Go ahead.
+03 18 07 28 CDR Roger.. We got an alignment with your new REFSMMAT
+ now. What's on the program here? You want us in
+ P23 and then what?
+03 18 07 40 CC Looks like some sleep is coming up.
+03 18 07 46 CDR That's what I wanted you to say. We used up
+ the gimbal angles of 10 and 45 with the - this
+ REFSMMAT, right?
+03 18 07 54 CC Affirmative.
+03 18 07 58 CDR Okay.
+
+Tape 60
+Page 8
+03 18 13 56 CC Apollo 8, Houston.
+03 18 14 00 CDR Go ahead, Houston. Apollo 8.
+03 18 14 03 CC Roger. Notice that you are starting on your P23
+ which is the last scheduled activity. Initial
+ tracking looks like the initial midcourse may be
+ less than the 4 foot per second on the first guess.
+ And we have looked at your burn data, and it's
+ all just as smooth as you said; everything on
+ there looked real nominal. Systems now look good;
+ looks like in PTC attitude, we should be able to
+ switch OMNI's for you, if you would like to do that.
+ We were having good success with predicting on the
+ way out where to switch the antennas, and if it
+ will help you any, we can do that on the way back
+ in.
+03 18 14 48 CDR That would be nice if you could do it, but we will
+ keep one man in the shop to watch the gimbal angles;
+ but if you could switch the OMNI's, it would sure
+ save us a lot of problems.
+03 18 14 58 CC Okay. We will do that. When you get in the PTC
+ attitude, we will let you know when we take the
+ command on the antenna switching.
+03 18 15 10 CDR Okay. Just be careful what you do with the tape
+ recorder. Bill's a little sensitive about that.
+03 18 15 25 CC Roger. We were listening to the tape dumps, and
+ it looks like Bill gets a happy new year after all.
+
+Tape 60
+Page 9
+03 18 15 35 CDR A happy new year? How come, Jack - an, in a
+ joke?
+03 18 15 40 CC No, we got that off of his tape dump; he and Jim
+ were discussing that one.
+03 18 15 48 CDR Oh, yes. That's right.
+03 18 35 16 CDR Houston, are you getting all this data from P23?
+03 18 35 39 CDR Houston, Apollo 8.
+03 18 35 40 CC Go ahead, Apollo 8.
+03 18 35 44 CDR I wanted to know if you're getting the data from
+ P23?
+03 18 35 47 CC That's affirmative.
+03 18 35 51 CDR Okay.
+END OF TAPE
+
+Tape 61
+Page 1
+03 18 50 18 CC Eureka!
+03 19 09 55 CDR Houston, Apollo 8.
+03 19 09 56 CC Go ahead, Apollo 8.
+03 19 10 14 CDR Houston, Apollo 8.
+03 19 10 16 CC Go ahead, Apollo 8.
+03 19 10 22 CDR Ken, we've about run out of gas here on this
+ next set of stars. Would you ask your people
+ to be especially alert there watching the
+ systems tonight?
+03 19 10 31 CC Sure will, Frank.
+03 19 10 36 CDR Okay. It's maneuver to pitch 10 and yaw 45.
+03 19 10 41 CC Roger. I have - let's see, we've got a hydrogen
+ purge line here that ought to come on about
+ 91:40 and an oxygen-hydrogen fuel cell purge
+ for 92 hours.
+03 19 10 59 CDR Okay. Will you call us about those, please?
+03 19 11 02 CC I sure will. And, let's see, we just wanted
+ to let you know we've got a real good battery
+ charge going here this time. Looks like - it
+ looks just like the ones in the back, and I'd
+ like to get a battery C voltage before you shut
+ down, and a sleep report on what you did in - -
+03 19 11 22 CDR Okay.
+03 19 11 23 CC - - lunar orbit and your plans for the next
+ couple of hours.
+03 19 11 29 CDR Okay.
+03 19 11 47 CDR Thirty-seven volts on battery C.
+
+Tape 61
+Page 2
+03 19 11 50 CC Roger. Thirty-seven volts.
+03 19 11 52 CDR That looks good.
+03 19 11 59 CDR We all only got about 2 hours sleep today MAX,
+ Ken. We're going now - Bill's going to stay up
+ awhile, and Jim and I are going to sack out,
+ and we're going to try to rotate short sleep
+ cycles till we can get back to the normal one.
+03 19 12 12 CC Roger, sounds like a good idea. And EECOM
+ on the ground tells us that the flying EECOM is to go
+ ahead and put his hydrogen purge line heater
+ on, and we'll get ready for a fuel cell.
+03 19 12 27 CDR Thank you. He can't turn on his radio. There
+ he goes.
+03 19 12 44 CDR I hope it won't disappoint anybody too much
+ if we knock off those last two stars, but Jim
+ is just in a daze, and so am I.
+03 19 12 50 CC Roger. No sweat.
+03 19 12 55 CDR Thank you.
+03 19 13 19 CC Apollo 8. One of the things we'd like to have
+ before you shut down also is VERB 64 so we can
+ watch the pointing angles.
+03 19 13 30 CDR Roger.
+03 19 13 35 CC Hey, Frank, you might be interested; they are
+ having some trouble with the medics' P-2.
+03 19 13 45 CDR What?
+03 19 13 48 LMP The medics can't clean out their P-2.
+
+Tape 61
+Page 3
+03 19 14 01 CDR Oh, is that right? It's been so busy.
+03 19 14 02 CC Oh, yeah. It's worn the thing out at the
+ bearings. (Laughter)
+03 19 14 33 CDR Hey, Ken, tell the people if you see anything
+ getting close to the gimbal lock to be sure and
+ whistle, too, will you?
+03 19 14 40 CC We sure will, Frank. You will want to make sure
+ one of you keeps your COMM carrier on.
+03 19 14 43 CDR We'll keep one man with a headset on.
+03 19 14 50 CDR That's right. We'll keep one man with a COMM
+ carrier on.
+03 19 19 39 CC Apollo 8. You have got some big yaw angle there.
+03 19 19 55 CC Apollo 8, Houston.
+03 19 20 04 CC Apollo 8, Houston.
+03 19 20 11 CC Apollo 8, Apollo 8, Houston.
+03 19 20 23 CC Apollo 8, Houston.
+03 19 20 41 CC Apollo 8, Houston.
+03 19 21 46 CC Apollo 8, Houston.
+03 19 22 17 CC Apollo 8, Houston.
+03 19 24 56 CC Apollo 8, Houston.
+03 19 28 16 CC Apollo 8, Houston. Copy that you are now in
+ PTC attitude, and we're watching your gimbal
+ angle. We apparently do not have a downlink
+ voice, but the data is good.
+03 19 28 53 LMP Houston, Apollo 8. Over.
+03 19 28 55 CC Loud and clear, 8.
+
+Tape 61
+Page 4
+03 19 29 07 LMP Okay. We're establishing PTC. We took one
+ last look at the moon and on our way back.
+03 19 29 13 CC Roger.
+03 19 32 17 CC Apollo 8, Houston.
+03 19 32 23 LMP Go ahead, Houston.
+03 19 32 25 CC Okay. In order for us to handle the antenna
+ switching, I guess we'd like to have the AUX
+ tape switched to OFF, and the tape FORWARD
+ switch OFF; and we'll be switching between
+ OMNI's Bravo and Delta.
+03 19 33 01 LMP Between what and what?
+03 19 33 05 CC Okay. We are going to be switching between
+ OMNI's Bravo and Delta.
+03 19 33 14 LMP Okay.
+03 19 33 17 CC Alright. And I'm gonna - you bug me when you
+ get over 50 degrees of yaw, so I'll probably
+ be watching that number pretty closely. We'd
+ like to have the BIOMED switched to the right
+ position. Okay. And for your own information:
+ the fuel we show in the different quads I have
+ here if you would like to copy it.
+03 19 34 07 LMP Stand by.
+03 19 35 50 LMP Okay. Ready to copy.
+03 19 35 54 CC Okay. I'll give you the percentage on Alfa 60,
+ Bravo 57, Charlie ...
+
+
+Tape 61
+Page 5
+03 19 36 11 LMP Wait a minute. It asks for present time, and
+ I can't plot that fast, Ken.
+03 19 36 15 CC Okay. I'm sorry. Alfa is 60.
+03 19 36 22 LMP For what time?
+03 19 36 26 CC 91:36.
+03 19 36 35 LMP Okay. stand by.
+03 19 36 44 LMP Okay. What's Bravo?
+03 19 36 46 CC Okay. That's 57.
+03 19 36 59 LMP Okay.
+03 19 37 00 CC Charlie 62.
+03 19 37 19 LMP Okay.
+03 19 37 20 CC And Delta 57.33842.
+03 19 37 33 LMP That's a coincidence.
+ That's just what I worked out on Lovell's slide rule.
+03 19 37 46 LMP How are we doing on the cryos?
+03 19 37 52 CC Oh, you've got some pretty good numbers on
+ that that I sent up yesterday, and you had
+ about 160 hours. Well, I'll check that out,
+ but you were fat on cryo. I've got some SPS
+ DELTA-V. You've got 33:20. You fly the service
+ module RCS through the DAP. You have 142; and
+ through SCS, it's 121.
+03 19 38 43 LMP Roger.
+03 19 39 55 CC Apollo 8, Houston. We can't monitor on low
+ bit rate whether you started your fuel cell
+ purge. If you haven't, we can still go ahead
+
+Tape 61
+Page 6
+ and start now; and if you can, keep us posted
+ as you go through it.
+03 19 40 08 LMP Roger. You want an O<sub>2</sub> and an H<sub>2</sub> purge, Ken?
+03 19 40 12 CC That's affirmative.
+03 19 40 18 LMP You shall have it.
+03 19 40 19 CC Thank you.
+03 19 51 59 CC Apollo 8, Houston - -
+03 19 52 05 LMP Go ahead.
+03 19 52 07 CC It looks like you may be in OMNI Alfa. Can
+ you confirm that we're set up to switch between
+ Bravo and Delta?
+03 19 52 29 LMP You are now.
+03 19 52 31 CC Okay. Thank you very much. And you are in the
+ fuel cell purge?
+03 19 52 39 LMP It's complete.
+03 19 52 41 CC Okay. Understand the purge is complete. Thank
+ you. And in reference to your cryo, it looks
+ like we'll have 180 pounds in each oxygen tank
+ at SEP and 11 pounds in each hydrogen tank.
+ And you're well above the single tank capability.
+03 19 53 16 LMP Okay. Thank you.
+END OF TAPE
+
+Tape 62
+Page 1
+03 20 22 22 CC Apollo 8, Houston in the blind. Select OMNI Charlie.
+ Over.
+03 20 24 29 CC Apollo 8, Houston. Apollo 8, Houston in the blind.
+ We've lost all data on you and request you select
+ us a good OMNI antenna; try Charlie. Over.
+03 20 28 09 CC Apollo 8, Houston in the blind. Your yaw is
+ 42 degrees. Recommend you set pitch and yaw to
+ ATTITUDE HOLD for PTC. Over.
+03 20 29 58 CC Apollo 8, Apollo 8, this is Houston in the blind.
+ Switch to antenna Alfa. Over. Antenna Alfa.
+03 20 32 56 CC Apollo 8, Apollo 8, Houston in the blind. Select
+ antenna Alfa, antenna Alfa. Over.
+03 20 35 13 CC Apollo 8, Houston. Over.
+03 20 35 34 CC Apollo 8, Houston. Over.
+03 20 37 37 CC Apollo 8, Houston. Over.
+03 20 37 56 CC Apollo 8, Houston. Over.
+03 20 39 04 CC Apollo 8, Houston. Over.
+03 20 39 22 CC Apollo 8, Houston. Over.
+03 20 41 24 CC Apollo 8, Apollo 8, this is Houston, Houston. Over.
+03 20 41 45 CC Apollo 8, Apollo 8, this is Houston, Houston. Over.
+03 20 42 24 CC Apollo 8, Apollo 8, Houston, Houston. Over.
+03 20 43 20 CC Apollo 8, Houston. Over.
+03 20 52 46 CC Apollo 8, Houston. Over.
+03 20 53 22 CC Apollo 8, Apollo 8, this is Houston, Houston. Over.
+03 20 53 38 CC Apollo 8, Apollo 8, this is Houston, Houston. Over.
+03 20 54 01 CC Apollo 8, Apollo 8, this is Houston, Houston. Over.
+
+Tape 62
+Page 2
+03 20 55 27 CC Apollo 8, Apollo 8, this is Houston, Houston. Over.
+03 20 57 28 LMP Houston, Apollo 8.
+03 20 57 30 CC Apollo 8, this is Houston. How do you read?
+03 20 57 36 LMP I read you loud and clear; my COMM here must have
+ come unconnected.
+03 20 57 42 CC Roger, Bill. We lost data on you for 15 minutes
+ and voice COMM for about 45 and were beginning
+ to get a little itchy. Is your PTC set up for rate
+ command attitude hold?
+03 20 58 05 LMP Roger. Pitch and roll is in PTC.
+03 20 58 09 CC Roger.
+03 20 58 18 CC Apollo 8, Houston. Set up OMNI Charlie. Over.
+03 20 59 01 LMP Roger. OMNI Charlie.
+03 20 59 04 CC Roger.
+03 20 59 26 CC Apollo 8, Houston. We're showing yaw 54.5. Over.
+03 20 59 41 LMP Roger. It's been deadband right around there the
+ whole time.
+03 21 00 38 LMP You can take command P00, also, if you want to.
+ You might have to use it again.
+03 21 00 44 CC Apollo 8, Houston. Say again.
+03 21 00 59 CC Apollo 8, Apollo 8, Houston. Say again.
+03 21 01 08 LMP You can take over command P00; you might have to use
+ it again.
+03 21 01 14 CC Roger, Bill.
+03 21 01 23 LMP I'm trying to be quiet so the other guys can sleep,
+ Jerry.
+
+Tape 62
+Page 3
+03 21 01 28 CC Roger, Bill.
+03 21 06 24 CC Apollo 8, Apollo 8, Houston. Over.
+03 21 06 33 LMP Roger.
+03 21 06 36 CC Apollo 8, this is Houston.
+03 21 06 39 LMP Go ahead.
+03 21 06 40 CC Switch to OMNI Bravo, and we'll try the Bravo-Delta
+ switching again. Over.
+03 21 06 53 LMP You got it.
+03 21 20 58 LMP You blew it.
+03 21 22 00 LMP We're on OMNI E now, Houston.
+03 21 22 03 CC Roger, Bill.
+03 21 22 09 LMP Looks like B couldn't quite hack it; I'll put it back
+ there in a minute.
+03 21 22 12 CC Roger.
+03 21 22 18 LMP Houston, if your EECOM's need any more help, just
+ tell them to give me a call.
+03 21 22 23 CC Roger.
+03 21 30 57 LMP We're going on OMNI Bravo now, Houston.
+03 21 31 05 CC Apollo 8, Houston. Say again.
+03 21 31 11 LMP OMNI Bravo.
+03 21 31 12 CC Roger. OMNI Bravo.
+03 21 32 58 CC Apollo 8, Houston. Looks like we're getting pretty
+ far off in both pitch and yaw. Showing about
+ 50 degrees in pitch; and about 25 in yaw.
+03 21 33 13 LMP Roger. I get that.
+END OF TAPE
+
+Tape 63
+Page1
+03 22 13 05 CC Apollo 8, this is Houston. All systems looking
+ good. Over.
+03 22 13 15 LMP Apollo 8. Roger.
+03 22 53 20 CC Apollo 8, Houston.
+03 22 54 10 CC Apollo 8, Houston. Over.
+03 22 54 16 LMP Go ahead, Houston.
+03 22 54 18 CC Apollo 8, this is Houston. Your systems are
+ all looking good. Got a flight plan update
+ for you: at time 96, you can delete P52. Your
+ drift rates are real small.
+03 22 54 36 LMP Roger. And I'd like to do the chlorination at
+ about 95:30 if I could.
+03 22 54 43 CC Roger. Understand; chlorination: 95:30. Okay?
+03 22 55 41 LMP Houston, we're on OMNI C and going to Bravo now -
+ correction, Dog.
+03 22 55 50 CC Roger. Understand; going Delta.
+03 22 55 59 LMP We're on Charlie now.
+03 22 56 03 CC Roger. Understand you're on Charlie.
+ Break. Verify your UP TLM switch at COMMAND
+ RESET is at NORMAL. Over.
+03 22 56 16 LMP Roger. It's in NORMAL. I've had the COMMAND
+ RESET since we broke lock there, and I have to
+ get back and control the OMNI's, so why don't
+ you go command it over to Dog. Then give it
+ back, and I'll set the other one on Bravo.
+03 22 56 30 CC Roger.
+
+Tape 63
+Page 2
+03 22 56 56 CC Apollo 8, Houston. We have you on Delta; you
+ can go to Bravo. Break. Give us a call when
+ you've finished your chlorination. Over.
+03 22 57 06 LMP Okay. Everybody seems to be stirring around
+ so we'll probably do it on time.
+03 22 57 11 CC Okay.
+03 22 59 26 LMP Houston, and the other two space aces are up
+ now, and LMP's going to hit the pad and like
+ to take a Seconal prior.
+03 22 59 36 CC Apollo 8, Houston. Roger. Permission granted,
+ Bill. Have a good sleep.
+03 22 59 44 LMP Thank you.
+03 22 59 51 CC Apollo 8, Houston. Looks like you need about
+ 3 more hours on that battery A charging. Over.
+03 23 00 00 LMP Okay. Well, my cohorts can handle it.
+03 23 00 04 CC Roger.
+03 23 00 34 CC Apollo 8, Houston. Can we get a crew status
+ report on Bill before he goes to sleep?
+03 23 00 44 LMP He's feeling fine; a little sleepy.
+03 23 00 55 CC Roger.
+03 23 00 56 LMP And had a meal about - had a meal about 2 hours
+ ago; drinking lots of water.
+03 23 01 05 CC Roger, Bill. Thanks.
+03 23 01 10 LMP Okay.
+03 23 01 12 CC Good night.
+
+Tape 63
+Page 3
+03 23 01 18 LMP Good night. Wish everybody a Merry Christmas
+ for me.
+03 23 01 21 CC Sure will, Bill. Same to you.
+03 23 01 38 LMP Thanks.
+03 23 01 48 CC Make sure Bill hangs up his stocking before he
+ goes to bed.
+03 23 01 58 LMP I've got it right next to my teddy bear.
+03 23 05 34 CDR Houston, Apollo 8.
+03 23 05 36 CC Apollo 8, Houston. Go.
+03 23 05 41 CDR Roger. We're up on all the jobs; Bill's going
+ to sleep; he's already down.
+03 23 05 46 CC Roger, Frank. Good morning.
+03 23 05 51 CDR Good morning.
+03 23 09 56 CC Apollo 8, this is Houston. I have a little
+ feature news and sports news for you if you'd
+ like to hear it.
+03 23 10 40 CC Apollo 8, Houston.
+03 23 10 44 CDR Go ahead, Houston. Apollo 8.
+03 23 10 47 CC Roger, Frank. I have some feature page and
+ sports page news if you'd like it.
+03 23 10 54 CDR Roger.
+03 23 10 56 CC Roger. First of all, Frank, the guys down here
+ on the consoles want to spread their appreciation
+ for a beautiful television job done.
+03 23 11 10 CDR Thank you.
+
+Tape 63
+Page 4
+03 23 11 12 CC Roger. We'll start out with the sports news.
+ Los Angeles Dodger pitcher, Sandy Koufax, and
+ Ann Widmark, 23-year-old daughter of actor Richard
+ Widmark, plan to marry some time in the near
+ future. Koufax said Tuesday that no date for the
+ wedding was set, but he and Miss Widmark have
+ been dating for some time. At Springfield, - -
+03 23 11 40 CMP ...
+03 23 11 44 CC Say again.
+03 23 11 49 CMP Morning. How do you read?
+03 23 11 51 CC Good morning, Jim.
+03 23 11 55 CC Let's see. In Springfield, Missouri, Mickey Owen,
+ the old-time catcher for the Brooklyn Dodgers who
+ made the record books by dropping a third strike
+ that led the New York Yankees to a victory over
+ the Dodgers in the '41 World Series, decided that
+ he would be remembered by more than just his
+ sports record. Forty-five boys and girls have
+ been the recipients of ponies that he offered.
+ These youngsters were requested to send letters
+ in telling him how they would care for a pony.
+ When the letters poured in, he added five ponies
+ to the 20 he already offered; and other donors
+ pitched in 20 more. And said Mickey Owen, "I
+ thought I'd have about 45 letters, but I ended
+
+Tape 63
+Page 5
+ up with about 900." Now on the feature page:
+ Wellington, New Zealand, about fifty men sat
+ down to the traditional turkey and cranberry
+ sauce at the South Pole today, but the Christmas
+ had an Oriental flavor, as well. It included
+ Sukiyaki cooked by members of a Japanese party
+ who are crossing the Antarctic continent and
+ stopped for the day with the U.S. Navy Polar
+ base. In San Diego, California, the crewmen
+ of the captured intelligence ship Pueblo donated
+ their first paychecks to the workers at San
+ Diego's Balboa Naval Hospital. They had all been
+ given twenty dollars each, and - when they
+ landed in San Diego - and they felt that this
+ was a good demonstration of their feelings for
+ those who had done so much to make their welcome
+ here.
+03 23 14 11 CC Apollo 8, Houston. We read your antenna change.
+ Are you still reading us?
+03 23 14 18 CDR Roger. This is Apollo 8, Houston.
+03 23 14 20 CC Roger.
+03 23 14 21 CDR We just now changed antennas, or you must have.
+03 23 14 24 CC Okay.
+03 23 14 26 CDR You lost ...
+03 23 14 30 CC In Reno, Nevada. Oh, that's affirmative, Frank.
+ We changed the antennas from here.
+
+Tape 63
+Page 6
+03 23 14 41 CDR Thank you.
+03 23 14 43 CC In Reno, Nevada, because there is no fireplace
+ in his home, ... a little boy wrote Santa Claus
+ in care of the local newspaper and suggested,
+ "would you please use the front door. You will
+ have to kick the bottom a little bit because
+ it sticks." In Little Rock, Arkansas, babies
+ born at St. Vincent Infirmary during the week
+ before Christmas and through Christmas Day are
+ being released to their mothers at discharge
+ time in huge red Christmas stockings. Here is
+ one in ecumenical cooperation. In Indio,
+ California, the Chief of Police was armed
+ Christmas Day with a prayer book. Rabbi Phillip
+ H. Weinburg has taken over as Chief for a day
+ so the real Police Chief, Homer Hunt, a Methodist
+ could spend the holiday with his family. This
+ is the third straight Christmas the Rabbi has
+ filled in for Hunt. The previous 6 years,
+ Rabbi Weinburg did the same for the Roman
+ Catholic Police Chief of Reno, Nevada.
+03 23 16 00 CC Prom the Associated Press, Americans watch
+ Pope Paul celebrate Christmas Mass in Italy,
+ and Europeans viewed a Christmas greeting from
+ Apollo 8 via the most powerful communications
+ satellite yet sent aloft. The news of Pope Paul
