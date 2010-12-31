@@ -4015,9 +4015,9 @@ switch OFF?
 75 48 25 CC Hey, we still show that the computer is on.
 
 Page 308
-_ 48 30 C You say that you still sb,)w th:,t,t:h_- mpJt,eris on?
-'_ 4,9 32 CC T_t's what we show b(_re.
-7.5 48 34 C Okay.
+75 48 30 C You say that you still sb,)w th:,t,t:h_- mpJt,eris on?
+75 48 32 CC T_t's what we show b(_re.
+75 48 34 C Okay.
 75 48 36 CC Cycle it one time, Jim.
 75 48 41 C Yes_ I cycled it a bunch of times already.
 75 48 42 CC Say again.
@@ -4032,7 +4032,7 @@ switches over there.
 75 49 17 CC All right, switch it back ON.
 75 49 40 C Grissom.
 75 49 41 CC Go ahead, Jim.
-7_ 49 43 C What mode am I in now?
+75 49 43 C What mode am I in now?
 75 49 45 CC You're in Catch-Up.
 75 49 46 C Is that what it shows down there?
 75 49 49 CC It shows you're in Catch-Up and ON. That's correct?
@@ -4087,7 +4087,7 @@ ACME.
 Switch ON and your AC Power Switch in AC_.
 
 Page 310
-76 04 J_O CC Gemini 4, this is Houston CAP COM. If y_,u're t_nsmitting,
+76 04 40 CC Gemini 4, this is Houston CAP COM. If y_,u're t_nsmitting,
 we're not receiving, but we'd like for you
 to leave your Computer Switch ON, your AC Power
 Switch in ACME.
@@ -4097,7 +4097,7 @@ in ACME.
 76 06 45 C ... Gemini 4, say again please.
 76 06 50 CC Gemtni, Houston CAP COM here. Say again.
 76 06 55 C ... Gemini, HoUSton. C,mnini 4.
-7_ 07 00 CC Gemini 4, this is Houston CAP CONk We would like
+76 07 00 CC Gemini 4, this is Houston CAP CONk We would like
 for you to leave your Computer Switch ON and your
 AC Power Switch in ACME. Do you read?
 76 07 20 CC Gemini 4, Houston CAP CO_ Leave your Computer
@@ -4126,7 +4126,7 @@ position.
 
 Page 311
 76 35 39 C _,__rnarvon, how do y?u re?vd C_mini 4?
-76 3_ 41 CC Read you lo_ud and clear, i_ow _r_
+76 35 41 CC Read you lo_ud and clear, i_ow _r_
 76 35 46 CC Go ahead Gemini 4. Read y_ loud and _lear.
 76 35 54 C Carnarvon_ Gemini 4.
 76 35 56 CC Gemini 4, Carnarvon. Go.
@@ -4144,8 +4144,8 @@ Page 311
 to the OFF position over the mainland.
 76 37 08 C Roger. I vent to the 0_F position and nothing
 happened.
-76 37 II CC Did you get a M_lfunction Light?
-76 37 1R C What?
+76 37 11 CC Did you get a M_lfunction Light?
+76 37 12 C What?
 76 37 14 CC Did you get a M_lfunction Light?
 76 37 15 C No, I didn't. I got a Malfunction Light when I
 turned the AC power from IGS to ACME.
@@ -4194,14 +4194,14 @@ copy? Over.
 time: 20 2_ 03. Did you copy? Over.
 77 00 50 C Roger. I think you said we are critical TM dump
 over Gu_ymas at 20:25.
-77 00 _6 CC Roger, roger.
-77 O100 C Who am I talking to?
+77 00 56 CC Roger, roger.
+77 01 00 C Who am I talking to?
 77 01 03 CC This is Hawaii.
 77 01 04 C Roger, Hawaii. Can you tell ?e how I'm doing on my
 electrical power.
 
 Page 313
-77 Oi 09 CC Ro_er. Stand by.
+77 01 09 CC Ro_er. Stand by.
 77 01 17 CC Roger. Flight reports that you are doing great.
 77 01 22 C Above or below the predicted?
 77 01 31 CC You have_not used as much as predicted and should
@@ -4223,7 +4223,7 @@ Section CALIFORNIA
 AC Power Switch back to IGS and your Computer
 Switch ON, and we'd like for you to watch for a
 rise in the amperage to make sure it comes on.
-77 o9 c_ c Okay.
+77 09 06 Okay.
 77 09 07 CC And we want you to leave this ON till you've just
 about finished your pass over here. We want to
 cheek the computer memory.
@@ -4263,7 +4263,7 @@ DUMP-TI_?
 77 12 52 CC Affirmative.
 77 12 54 C Okay. We can't co_nd anything on. Is that right?
 77 12 59 CC I got it now, Gemini 4.
-77 13 Ol c Okay.
+77 13 01 c Okay.
 77 13 23 CC Gemini 4, Houston CAP C0_
 77 13 28 CC G_mtni 4, Houston CAP C0_
 77 13 30 C Go ahead Houston, Gemini 4.
@@ -4274,8 +4274,8 @@ turns off your Me1 light. Over on your left panel.
 77 14 06 CC Gemini 4, Houston CAP CO_
 
 Page 315
-77 1_ 20 CC Gemini 4, Houston CAP CORt
-77, 14 38 CC Gemini 4, Houston CAP CORC
+77 14 20 CC Gemini 4, Houston CAP CORt
+77 14 38 CC Gemini 4, Houston CAP CORC
 77 14 40 C Go ahead Houston, Gemini 4. I'm readir_ you loud
 and clear.
 77 14 42 CC Roger. Turn off your Indicator Light Test Circuit
@@ -4317,17 +4317,17 @@ to ACME. Leave your Computer Switch ON.
 77 17 49 C Leave the Computer Switch ON. Okay.
 77 17 52 CC We'll work on it. We'll give you an answer when we
 get one.
-77 17 _6 C Okay. Be advised that when we got to ACME the ...
+77 17 56 C Okay. Be advised that when we got to ACME the ...
 for just a short tt_, very dimly. Then it goes out.
 77 18 05 CC Say that again.
-7718 o7 c ...
+77 18 07 c ...
 Comment: Voice tape from pass at Tananarive during this period is not available at this time. Tananarive COM TECH reported to Houston CAP COM at 77 54 27 that he had contacted Gemini 4 and the crew had placed the Tape Playback Switch to COMMAND and the T/M Switch to COMMAND. No other report from Tananarive.
 
 Section COASTAL SENTRY QUEBEC
 
 78 22 09 CC Gemini 4, CSQ. Be advised we do not have a valid
 oral teml_ on the Comm_nd Pilot.
-78 22 _Y2 CC Are you prepared for the Aero-Med Data Pass this
+78 22 22 CC Are you prepared for the Aero-Med Data Pass this
 station?
 78 22 41 CC Gemtni 4, CSQ. Do you copy?
 78 22 56 CC Gemini 4, CSQ. Do you copy?
@@ -4344,7 +4344,7 @@ give us the blood pressure.
 78 24 00 CC Turn the Quantity Read Switch OFF.
 
 Page 317
-78 24 3_ CC Gemini 4 Pilot, CSQ. Do you copy?
+78 24 35 CC Gemini 4 Pilot, CSQ. Do you copy?
 78 24 42 P Go ahead. This is the Pilot.
 78 24 44 CC Roger. What is the status on your main batteries?
 78 24 48 P Roger.
@@ -4391,9 +4391,9 @@ try to ...
 78 27 37 C I've had about 10 gulps - 10 gulps in the last
 3 hours.
 78 27 45 CC Roger. Copy.
-78 27 _0 CC Okay. I have some flight plan items for you when
+78 27 50 CC Okay. I have some flight plan items for you when
 you're prepared to copy.
-78 27 99 P Roger. Go ahead.
+78 27 55 P Roger. Go ahead.
 78 27 57 CT Roger. Experiment MSC-2 and -3 ON and OFF are prescheduled
 times.
 78 28 07 P Roger. Do you have our ... on that?
@@ -4407,7 +4407,7 @@ Say again, please.
 
 Section HAWAII
 
-78 33 lO CC Gemini 4, Hawaii CAd_ CO_
+78 33 10 CC Gemini 4, Hawaii CAd_ CO_
 78 33 13 C Hello Hawaii, .Gemini 4.
 78 33 19 CC Roger. I would like to complete your Flight Plan
 update. I'd like to confirm you got Item 2, MSC-2
@@ -4457,12 +4457,12 @@ the seat.
 78 45 06 CC Rog.
 
 Page 320
-78 4_ 08 C We're going to put the gun back in our center food
+78 45 08 C We're going to put the gun back in our center food
 box.
 78 45 14 CC Roger.
 78 45 16 C We're ready to put the fl]m in the center food box.
 78 45 20 CC Say again?
-78 45 2_1 C We're going to put the film --the camera f_lm --
+78 45 21 C We're going to put the film --the camera f_lm --
 78 45 25 CC Roger.
 78 45 27 C We're gofng to put the campras in the left-hand food
 box.
@@ -4473,12 +4473,12 @@ box.
 78 45 38 C And all the refuse is going in the right-band food
 box.
 78 45 43 CC Roger.
-78 45 }ill C And I think that takes care of it.
+78 45 44 C And I think that takes care of it.
 78 45 48 CC Roger. We got it.
 78 45 49 C Okay. The refuse that doesn't fit in the right-hand
 food box wll 1 go either in the left-hand food box or
 the side-wall boxes where we've got the fi]m-
-78 ;45 58 CC Roger.
+78 45 58 CC Roger.
 78 46 02 C The sleeves off Ed's suit and extra thick garment c_
 one of my legs will be stowed in my foot well on the
 left side.
@@ -4545,7 +4545,7 @@ run down at this time.
 80 01 05 CC Roger. All systems look good on the ground here.
 That's all we have unless you have something else
 to report.
-80 01 I1 C Report. A negative on the sighting of tropical
+80 01 11 C Report. A negative on the sighting of tropical
 storm Victoria ... as when we passed over we were
 a little bit west of it, and there wasn't a good
 picture.
@@ -4592,7 +4592,7 @@ while. Continue attempting to reset during this Rev.
 80 28 42 P Roger. W_ 11 do.
 80 28 52 CC All your systems look good here on the ground. We'll
 stand by for the rest of this pass.
-80 28 _8 P Roger. They're all good up here, also.
+80 28 58 P Roger. They're all good up here, also.
 80 29 02 CC Roger.
 
 Section COASTAL SENTRY Q_BEC
@@ -4613,7 +4613,7 @@ you later.
 81 30 39 CC Be advised also that you have a critical tape dump
 over Hawaii, and also a _dical Pass.
 81 30 48 P Roger, I understand.
-81 30 DO CC That's in about 7 or 8 minutes.
+81 30 50 CC That's in about 7 or 8 minutes.
 81 30 53 P Roger.
 81 30 59 CC Also, we have the new computations on your orbit.
 Perigee 85.3 and apogee 139, with a 3-day lifetime.
@@ -4627,7 +4627,7 @@ about 15 seconds.
 81 32 09 C _,antity OFF.
 81 32 20 CC A]1 systems look GO down here.
 81 32 21 C They're all GO up here, too.
-81 3£ 23 CC Roger.
+81 32 23 CC Roger.
 81 33 40 CC Gemini 4, CSQ. That's all we have. We're standing
 by.
 81 53 43 C Roger CSQ. Thank you very much.
@@ -4712,7 +4712,7 @@ the ground. Is that correct?
 UN ...
 82 02 08 CC Roger.
 82 02 10 P Do you have any ...
-82 07_ 12 CC Say again.
+82 07 12 CC Say again.
 82 02 16 P Do you have any ...
 82 02 28 CC Do not understand. Say again, please.
 82 02 31 P Roger. Hawaii was trying to give me some type of
@@ -4758,21 +4758,21 @@ left.
 left.
 
 Page 328
-:'2 3S --7 = i-:::_eZ:C'''7. Fr.:_k:.y :.
-'2 7:;i0 ;' _:27;,'lis is ']emi:.i--.
-iSi} J_j 0]-- {_C _-e.'P.!:ll'-_ rjr..
-92 0_ 23 P Roger. Locks like the whole ...
-_,_ _ 7,_ _ .,_oge_,t':' l_:._,:__n We saw you i'_-i:.gthe __ ,_ss.
+82 05 47 P Roger RKV. Thank you.
+82 08 10 P RKV, this is Gemini 4.
+82 08 21 CC Gemini 4, RKV.
+82 08 23 P Roger. Looks like the whole ...
+82 08 20 CC Roger, thank you. We saw you during the last pass.
 
 Section COASTAL SENTRY QUEBEC
 
-85 Ce 45 CC Ge_ini 4, CSQ CAP COM Be advised if you':'e +,
+83 02 45 CC Ge_ini 4, CSQ CAP COM Be advised if you':'e +,
 lng Pegasus, do not exceed 4? pitch. Yo,i'v_ got a
 critical tape dump. If you are tracking Pegasus,
 please go to critical tape dump attitude.
-85 03 11 CC Please advise.
-83 03 2_ CC Gemini 4, CSQ. Do you copy?
-85 03 36 CC Gemini 4, CSQ. Do you copy?
+83 03 11 CC Please advise.
+83 03 25 CC Gemini 4, CSQ. Do you copy?
+83 03 36 CC Gemini 4, CSQ. Do you copy?
 83 03 59 C CSQ, Gemini 4.
 83 03 41 CC Y_-e you tracking Pegasus?
 83 03 43 C Trying to find it.T
@@ -4783,10 +4783,10 @@ in attitude, which do you want me to do?
 83 05 53 CC Don't exceed 45° pitch. We want this tape dump.
 83 03 57 C Roger, understand, Art. To track data at this pass,
 I've got to get up to 90.
-8} 04 O} CC Okay. We want the tape dump, so omit Pegasus.
+83 04 03 CC Okay. We want the tape dump, so omit Pegasus.
 83 04 08 C Roger.
 83 04 09 CC Let me know when you're in attitude.
-83 04 i1 C Roger.
+83 04 11 C Roger.
 83 04 22 C Gemini 4 is in attitude.
 83 04 24 CC Roger.
 83 04 30 CC I have an Orbital ,_p u!xlate for you.
@@ -4794,19 +4794,19 @@ I've got to get up to 90.
 go back to track it.
 
 Page 329
-::304 58 CC R,:_er. We will do.
-_3 05 _') CC Gemini 4, CSQ. Had you spotted Pegasus?
+83 04 38 CC R,:_er. We will do.
+83 05 00 CC Gemini 4, CSQ. Had you spotted Pegasus?
 83 05 07 C Negative. I'm trying to.
 83 05 11 C As soon as I get my tape 6,_mpedI'!! get back up.
-83 09 1_ CC Roger, will do.
+83 09 16 CC Roger, will do.
 83 05 18 CC Okay, yo'r _p update: ascending node Rev 93.
 longitude 3_ Frostat 01 hours 91 minutes.
 83 09 32 C Roger, understand. 53rd Rev, longitude 35° East
 at 01:51.
-83 O9 39 CC Roger. Would you reset your M_lfunction Light?
-85 09 42 C Roger. I have tried to reset it quite a few times
+83 09 39 CC Roger. Would you reset your M_lfunction Light?
+83 09 42 C Roger. I have tried to reset it quite a few times
 and it hmsn't been successful.
-8'_05 48 CC Roger. I also have some CIA ProdPLA updates for you.
+83 05 48 CC Roger. I also have some CIA ProdPLA updates for you.
 Are you preparedto copy?
 83 06 02 CC I'll give you Just one and l_t RKV pass the rest and
 give you a chance to go back to track.
@@ -4814,7 +4814,7 @@ give you a chance to go back to track.
 83 06 11 CC Roger. 54-DELTA: 86. 01+49. 03 02 14. 10+36.
 P Roger, got it.
 83 08 03 CC Okay. Go ahead, Gemini 4. Resume_track to Pe_su_
-85 08 i1 CC Gemini 4, eSQ. You copy?.
+85 08 11 CC Gemini 4, eSQ. You copy?.
 85 08 18 CC Gemini 4, CSQ. Do you copy?
 84 36 57 CC Gemini 4, CSQ. Do you copy?
 04 37 02 P Roger, CSQ. Gemini reads you five square.
@@ -4830,30 +4830,24 @@ Area 55-3: split burn, 55 aft, 109 forward. 1+31.
 13+39. Got that oue?
 
 Page 330
-. .--'- _... - - ::'/-J.Z+}Z.
-G_3 27 3_:'- 7 +22. Do you copy'.
-;_'-"' 3]' _--"_'_ P Roger.
-:_4 5;' 27 CC Roger. Area p7-2: 86. 1+4). i:7 42 92. 7+12.
-fl.-a2, p_3-2: 94. 1+59. 09-_' 42. P+_7- 10+41.
-_r, T Area Do-BP_VO. split burn, 55 fo_ard, 51 aft.
-1+31. 1+54. 10 00 10. 9+03. A:'e_ 55-2: 104.
-2+12. 10 50 54. 1k_26. 9+45. Do you copy?
-:34 40 55 P Roger.
+(Illegible)
+84 39 25 P Roger.
+84 39 27 CC Roger. Area 57-2: 86. 1+49. 07 42 92. 7+12. 11+52. 58-2: 94. 1+59. 09 16 42. 5+49. 10+41. Area 58-BRAVO: split burn, 55 forward, 51 aft. 1+31. 1+54. 10 00 10. 9+03. Area 55-2: 104. 2+12. 10 50 54. 4+26. 9+45. Do you copy?
+84 40 55 P Roger.
 84 40 56 CC Roger. We're reading 960 on your primary 02 pressure,
 you might watch that.
 84 41 00 P Roger, I'll try to hold that. Could you give me
 55-DELTA again? You were a little garbled.
-84 41 04 CC Roger, first reading. 55-DELTA: 82. 1+44.
-04 54 lO. 9+57-
-84 41 20 P Roger, then the next one was 55-3[
-51; 41 24 CC The last ,.ne: _,_-DEDTA. _5-DELTA. Do you copy?
-C_mini _,' CSQ. Did you copy _h_._+_'
+84 41 04 CC Roger, first reading. 55-DELTA: 82. 1+44. 04 34 10. 9+57.
+84 41 20 P Roger, then the next one was 55-3:
+84 41 24 CC The last one: 55-DELTA. 55-DELTA. Do you copy?
+Gemini 4, CSQ. Did you copy that?
 
 Section TEXAS
 
 84 43 16 P The light-weight headsets are not co.m=_ortab!e to
 wear. They have a good generating mark to them.
-84 5_(_lk_ CC Gemini 4, Houston CAP COM. Over.
+84 46 46 CC Gemini 4, Houston CAP COM. Over.
 84 47 01 C Go ahead Houston, Gemini 4.
 84 47 04 CC Gemini 4, this is Houston. We would like information
 on what D-9 has been accomplished.
@@ -4900,22 +4894,22 @@ Flight Plan and still keep our gage in accuracy past
 there. Try to be as judicious as possible with it
 nOW.
 84 50 13 C In Horizon Scanners with Pulse only.
-84 _0 21 CC I didn't copy that.
-84 92 31 CC Gemini 4, Houston CAP C0RL Over.
-84 92 47 CC Gemini 4, Houston CAP COM. If you read, give me
+84 50 21 CC I didn't copy that.
+84 52 31 CC Gemini 4, Houston CAP C0RL Over.
+84 52 47 CC Gemini 4, Houston CAP COM. If you read, give me
 your latest relative humidity.
 
 Page 332
-_'. 53 0_; C ![ rotc,:;,Cemin d k Tke ?_t.:_'_: u::idivy reading is
+84 53 04 C ![ rotc,:;,Cemin d k Tke ?_t.:_'_: u::idivy reading is
 7/ &:'Y h-: . .,e'_:_Ib.
-44 93 il CC Say again your wet b_lb.
+84 53 11 CC Say again your wet b_lb.
 84 53 14 C 62, 62.
 84 53 16 CC Roger; 79 dry, 62 wet. We'll compute it, thank you.
 84 53 20 C Still staying around 62, 63 percent.
-84 93 23 CC Roger.
-84 93 26 C We've been going with gloves off and visor open,
+84 53 23 CC Roger.
+84 53 26 C We've been going with gloves off and visor open,
 now, for the last day or so.
-84 93 34 CC Understand that. Are you trying to get about one
+84 53 34 CC Understand that. Are you trying to get about one
 reading per Rev and put it in your log?
 84 53 41 C We're keeping them up as the experiments display.
 84 53 46 CC Okay_ thank you. Houston out.
@@ -4931,12 +4925,12 @@ malfunction during this pass. Would like to ha,_
 you depress it and hold it for 5 seconds. Give me
 a mark at the beginning and the end.
 85 11 10 P Roger, will do. MARK!
-8_ 11 18 p MARK_
+85 11 18 p MARK_
 85 11 23 CC Roger. Thank you.
-8511 2_ CC W_IiF_e_and_fng by on t_e _ext_ss _or_
+85 11 28 CC W_IiF_e_and_fng by on t_e _ext_ss _or_
 Type i on the Command Pilot if he is awake. The
 time of that will be approximately 05 hours 58 minutes.
-8_ 11 42 P Roger, 05:58-
+85 11 42 P Roger, 05:58-
 85 11 57 P Did you get my mark?
 85 12 00 CC Gemini 4, RKV.
 
@@ -4956,7 +4950,7 @@ this one?
 89 13 09 P Roger. I'll start a temperature for you and then
 work on a blood pressure.
 85 13 13 CC Roger.
-85 1) 25 S You're l%,ll-scale.
+85 13 25 S You're l%,ll-scale.
 85 14 02 S That's a good blood pressure, give your exercises.
 85 14 16 P MARK[
 85 14 41 S You're f,,ll-scale.
@@ -4966,7 +4960,7 @@ your report?
 6 swallows of water, and I'll be going to bed here
 probably in the next hour or two ... since last
 report.
-85 15 _ S !L_! Surgeon_ Roger. Good report, thank you.
+85 15 38 S !L_! Surgeon_ Roger. Good report, thank you.
 85 15 40 P Roger. See you next Rev.
 
 Section TEXAS
