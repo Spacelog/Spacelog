@@ -1,5 +1,4 @@
 Comment pre-shredded p1-199
-Comment needs subscripts applied: O2, TX, TR, VR (lognag doesn't like them so I haven't done them yet)
 Comment unreadable portions marked with *
 
 Page 3
@@ -53,7 +52,7 @@ null now.
 00 04 27 C Roger. We're GO.
 00 04 29 CC Roger.
 
-Comment V/VR = 0.8, or 80% of target velocity
+Comment V/V<sub>R</sub> = 0.8, or 80% of target velocity
 00 05 00 CC Coming up on 0.8. I'll give you a mark.
 00 05 08 CC MARK! 0.8.
 00 05 10 C Mode III.
@@ -798,8 +797,8 @@ on the next pass.
 02 29 37 CC Okay. You don't have to acknowledge this - you're
 in a 89.2 by 155 orbit and it's a 4.8 day lifetime.
 02 29 41 C Roger.
-02 29 52 CC Turn your Right Secondary O2 OPEN, your Left Secondary
-O2 CLOSED.
+02 29 52 CC Turn your Right Secondary O<sub>2</sub> OPEN, your Left Secondary
+O<sub>2</sub> CLOSED.
 02 30 07 CC Houston advises you can use any attitude you want
 for the Extravehicular Activity.
 02 33 52 P There was no velcro put on the outdoor 16-mm camera.
@@ -1160,7 +1159,7 @@ interconnect.
 03 36 14 C Okay, let's see. Remove the interconnect. Interconnect
 the two ECS hoses ... by your elbow.
 03 36 24 P Okay.
-03 36 24 C Pack Primary O2 OPEN.
+03 36 24 C Pack Primary O<sub>2</sub> OPEN.
 03 36 28 P Roger.
 03 36 29 C Not yet.
 03 36 30 P No.
@@ -1259,8 +1258,8 @@ Read switch, please?
 04 00 08 P Quantity Read is OFF.
 04 00 10 CC Roger.
 04 00 16 CC Okay. We got a good blood pressure from you.
-04 00 19 CC Your Right Secondary O2 should be OPEN and your
-Left Secondary O2 should be CLOSED.
+04 00 19 CC Your Right Secondary O<sub>2</sub> should be OPEN and your
+Left Secondary O<sub>2</sub> should be CLOSED.
 04 00 26 P That is affirmative. That's the configuration. The
 left is CLOSED; the right is OPEN.
 04 00 31 C We have a GO to start decompression, is that right?.
@@ -1514,9 +1513,9 @@ status on decompression?
 04 25 02 C Got the outside 60-mm camera mounted, and he's
 getting the gun ready right now.
 04 25 09 CC Roger. I understand. Can you give us a reading on
-emergency O2?
+emergency O<sub>2</sub>?
 04 25 16 CC Did you copy, Gemini 4?
-04 25 18 C Roger. You mean the emergency O2 in Ed's bottle?
+04 25 18 C Roger. You mean the emergency O<sub>2</sub> in Ed's bottle?
 04 25 21 CC Affirmative.
 04 25 22 C This one's full and ...
 Comment (3400 psi)
@@ -1823,9 +1822,9 @@ to dampen out my travel on the lanyard.
 if I can drift into some good picture-taking position.
 04 41 16 C Okay. Here, let me control the spacecraft ...
 04 41 33 C Just for your information Ed, we're only down to
-48 percent on our O2.
+48 percent on our O<sub>2</sub>.
 04 41 38 P Okay.
-04 41 40 C ECS O2 pressure is about 830, so it's staying right
+04 41 40 C ECS O<sub>2</sub> pressure is about 830, so it's staying right
 up there.
 
 Page 52
@@ -1950,7 +1949,7 @@ Page 55
 come on in.
 04 46 55 C How are you doing there?
 04 46 56 P I'm doing great.
-04 46 57 C Good. ECS O2 ... is back in order.
+04 46 57 C Good. ECS O<sub>2</sub> ... is back in order.
 04 46 59 P All right.
 04 47 00 C Lots of pressure ... 47 pounds ...
 04 47 05 P Roger.
@@ -2517,9 +2516,9 @@ G.m.t. of the node is 21 39 00.
 node.
 06 13 45 CC Roger. It's 132° East.
 06 13 50 C Roger. 132° East and 21 39 00.
-06 13 55 CC That's affirmative and would you put your ECS O2
+06 13 55 CC That's affirmative and would you put your ECS O<sub>2</sub>
 switch to OFF.
-06 14 05 C Which ECS O2 switch to OFF?.
+06 14 05 C Which ECS O<sub>2</sub> switch to OFF?.
 06 14 10 CC All right, that's the heater switch. Your waste
 valve Off. Your EVA bottle empty and ZIP GUN
 empty.
@@ -2643,9 +2642,9 @@ the umbilical onto the suit ECS circuit.
 06 23 55 C Houston CAP COM, this is Gemini 4.
 06 24 04 C Houston CAP COM, Gemini 4.
 06 24 05 CC Go ahead Gemini 4.
-06 24 07 C I never did understand what ECS O2 switch you
+06 24 07 C I never did understand what ECS O<sub>2</sub> switch you
 wanted me to turn off.
-06 24 12 CC Roger. It's the ECS O2 heater switch. Heater
+06 24 12 CC Roger. It's the ECS O<sub>2</sub> heater switch. Heater
 switch.
 
 Page 74
@@ -3020,7 +3019,7 @@ dump, also.
 15 seconds.
 07 24 03 CC What is your status for 18-1?
 07 24 06 C 18-1 is fine. We've got both RCS rings, two left
-secondary O2 bottles.
+secondary O<sub>2</sub> bottles.
 07 24 14 CC Roger. Are you going to Main batteries?
 07 24 17 C Roger. Stand by one.
 07 24 31 CC We have you GO on the ground here. Have you unstowed
@@ -3324,7 +3323,7 @@ time.
 09 36 06 C RKV, say all after MSC-2 and -3.
 09 36 10 CC Roger. Voice update recovery areas during RKV pass
 02:17.
-09 36 21 C Okay ... RKV pass O2:17.
+09 36 21 C Okay ... RKV pass 02:17.
 09 36 28 CC Affirmative. Affirmative.
 
 Section HAWAII
@@ -3351,11 +3350,11 @@ minimum fuel. While you are rolling, perform
 another voice check on REENTRY.
 10 41 20 C Roger, stand by. I've got to get my ac power ON.
 10 41 27 CC Roger. Also would like for you to build up cabin
-pressure to 5.4 psi using O2 High Rate.
+pressure to 5.4 psi using O<sub>2</sub> High Rate.
 10 41 38 C Roger, you want us to build cabin up to 5.4 using
-O2 High Rate?
+O<sub>2</sub> High Rate?
 10 41 43 CC Affirm.
-10 41 44 C About 5.3. I'm going to O2 High Rate now.
+10 41 44 C About 5.3. I'm going to O<sub>2</sub> High Rate now.
 10 42 09 CC Gemini 4, Hawaii CAP COM.
 10 42 11 C Go ahead Hawaii CAP.
 10 42 12 CC Can you position your Real Time T/M Switch to REAL-TIME
@@ -3654,11 +3653,11 @@ Section ROSE KNOT VICTOR
 
 12 37 22 CC Gemini 4, RKV CAP COM.
 12 37 39 P Roger RKV, Gemini 4.
-12 37 41 CC Roger. Request that you monitor primary O2 source
-pressure, and go to O2 High Rate to hold source pressure
+12 37 41 CC Roger. Request that you monitor primary O<sub>2</sub> source
+pressure, and go to O<sub>2</sub> High Rate to hold source pressure
 between 930 and 960 psi. Do you copy?
-12 38 00 P Roger, understand go to O2 High Rate to control the
-O2 source between 930 and 960 psi.
+12 38 00 P Roger, understand go to O<sub>2</sub> High Rate to control the
+O<sub>2</sub> source between 930 and 960 psi.
 12 39 25 CC Gemini 4, RKV CAP COM.
 12 39 27 P Roger. Go ahead RKV, Gemini 4.
 12 39 30 CC Roger. I have a 9-3 update for you.
@@ -3807,8 +3806,8 @@ get the last two ...
 9+08.
 13 42 48 CC Roger, you got it.
 13 42 51 P Roger.
-13 43 01 P Be advised, my O2 pressure is holding just a little
-past 960. I'm not going to O2 High Rate at this time
+13 43 01 P Be advised, my O<sub>2</sub> pressure is holding just a little
+past 960. I'm not going to O<sub>2</sub> High Rate at this time
 because the Command Pilot is sleeping pretty well and
 I'll let him sleep.
 
@@ -3971,19 +3970,19 @@ Page 107
 14 32 11 CC Ed, this is Houston CAP COM. I can't read you -
 can't understand what you're talking about. Apparently
 you can read me. We're concerned about your
-O2 source pressure. Did you say it was 973? 973?
+O<sub>2</sub> source pressure. Did you say it was 973? 973?
 14 32 34 CC Gemini 4, this is Houston CAP COM. We're concerned
-about your O2 source pressure getting to the limit.
+about your O<sub>2</sub> source pressure getting to the limit.
 Over.
-14 32 43 P Roger. Be advised the O2 is at ...
+14 32 43 P Roger. Be advised the O<sub>2</sub> is at ...
 14 33 05 P Houston CAP COM, Gemini 4.
 14 33 09 CC Go Gemini 4. Houston CAP COM.
-14 33 11 P Roger. Be advised the O2 is at about 970 at the
+14 33 11 P Roger. Be advised the O<sub>2</sub> is at about 970 at the
 present time.
 14 33 24 CC Gemini 4, Houston CAP COM, Say again your last,
 please. Say again.
-14 33 30 P ... O2 ...
-14 33 45 CC Gemini 4, Houston CAP COM. Understand your O2 source
+14 33 30 P ... O<sub>2</sub> ...
+14 33 45 CC Gemini 4, Houston CAP COM. Understand your O<sub>2</sub> source
 pressure is holding at 970. Is that affirm?
 14 33 56 P ...
 14 34 15 CC Gemini 4, Houston CAP COM. You are unreadable,
@@ -4345,7 +4344,7 @@ please?
 19 52 01 C Okay, we've got it.
 19 52 14 CC Have you completed your M-3 exercise experiment?
 19 52 20 C That's just a medical pass.
-19 52 25 CC All right. I'd like to read out this Primary O2
+19 52 25 CC All right. I'd like to read out this Primary O<sub>2</sub>
 pressure and quantity from you, please.
 19 52 36 C Roger, primary - primary 02 pressure is 970 psi.
 Quantity is about 39 1/2 percent.
@@ -4666,7 +4665,7 @@ Section CANARY
 look green.
 
 Page 125
-22 26 45 P Roger. They look good from up here also. The O2
+22 26 45 P Roger. They look good from up here also. The O<sub>2</sub>
 is staying down around 940, 947.
 22 28 37 CC Gemini 4, Canary CAP COM. LOS-1. Do you have anything
 for us?
@@ -4888,7 +4887,7 @@ at the stars.
 24 33 39 P I say, I can't see down toward Australia, this time
 - she's oriented up toward the stars - I've got
 your update.
-24 33 47 CC Roger. I gave you a TX.
+24 33 47 CC Roger. I gave you a T<sub>X</sub>.
 24 33 49 P Roger.
 24 34 01 CC You said the Command Pilot is asleep. He doesn't
 happen to have that oral probe in his mouth, does
@@ -4906,16 +4905,16 @@ Section CANTON
 24 54 14 CC Gemini 4, Houston CAP COM, Houston CAP COM.
 24 54 54 CC Gemini 4, Houston CAP COM.
 24 54 57 P Go ahead Houston, Gemini 4.
-24 55 01 CC Roger, Ed. Will you go to O2 High Rate and bring
+24 55 01 CC Roger, Ed. Will you go to O<sub>2</sub> High Rate and bring
 your cabin pressure back up - if you haven't already
 done so?
 24 55 23 CC Gemini 4, Houston. Did you read that?
 24 55 35 P Hello Houston CAP COM, Gemini 4.
 24 55 39 CC Gemini 4, Houston CAP COM. If you read, use your
-O2 High Rate to bring your cabin pressure back up.
+O<sub>2</sub> High Rate to bring your cabin pressure back up.
 24 56 36 CC Gemini 4, Houston CAP COM.
 24 56 39 P ... Gemini 4.
-24 56 44 CC Roger. Use your O2 High Rate to bring your cabin
+24 56 44 CC Roger. Use your O<sub>2</sub> High Rate to bring your cabin
 pressure, if you haven't done so.
 24 56 51 P Roger. It's going up now. It's been holding in
 that vicinity, though, for some time.
@@ -5595,11 +5594,11 @@ didn't come on at the end of the roll. We were
 running at the end of the roll when I noticed it,
 so we might have lost the tape dump between the
 last tape, 8, and the present tape, 6.
-28 38 36 P The O2 pressure gage is unsatisfactory in many respects.
+28 38 36 P The O<sub>2</sub> pressure gage is unsatisfactory in many respects.
 Not only does it not have enough scale,
 but, in our case now the ... is set down low
 enough so that it is setting in the normal operating
-range. We're causing it to go to O2 High Rate all
+range. We're causing it to go to O<sub>2</sub> High Rate all
 the time to bring it down.
 28 38 55 C Actually it's not the gage itself. It's the fact
 that the vent pressure is set lower ...
@@ -6075,7 +6074,7 @@ turn off your Quantity Read Switch?
 Page 163
 31 26 07 C Roger. The adapter batteries are all reading 2 on
 the amps and 24 volts. The RCS rings are holding
-up well. The Secondary O2 bottles are holding up
+up well. The Secondary O<sub>2</sub> bottles are holding up
 well. The main batteries are reading 9 and about
 22.5 to 23 volts. The control bus is *, S2 at 26,
 S2 is 26, and the main is 23.5.
@@ -6506,9 +6505,9 @@ Type 1 Medical Pass on the Command Pilot.
 a while back.
 34 16 00 CC Roger. Gemini 4, Houston will advise you over Hawaii.
 34 16 05 C Roger, understand.
-34 17 06 CC Gemini 4, CSQ. Would you verify that the ECS O2
+34 17 06 CC Gemini 4, CSQ. Would you verify that the ECS O<sub>2</sub>
 heater switch is OFF?
-34 17 14 C Roger, that's affirmative. The ECS O2 heater switch
+34 17 14 C Roger, that's affirmative. The ECS O<sub>2</sub> heater switch
 is OFF and has been OFF.
 
 Section HAWAII
@@ -6604,10 +6603,10 @@ would prefer to remain in a free-drift mode at this
 time.
 34 48 23 CC Roger. Flight says that's okay.
 34 48 26 P Roger. Thank you.
-34 48 27 CC Okay. We'd also like to get a Primary O2 read.
+34 48 27 CC Okay. We'd also like to get a Primary O<sub>2</sub> read.
 Would you cycle it ON, please?
 34 48 32 P Roger. Coming ON.
-34 48 46 CC When was the last time that you had Primary O2 read?
+34 48 46 CC When was the last time that you had Primary O<sub>2</sub> read?
 34 48 52 P It was probably while I was asleep.
 
 Page 177
