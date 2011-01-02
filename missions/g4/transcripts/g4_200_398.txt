@@ -142,10 +142,10 @@ need anyt_hing.
 45 48 06 CC Gemini 4, Gemini 4. This is Houston CAP COM. Over.
 45 48 28 CC Gemini 4, Gemini 4. Houston CAW COM. Over.
 45 48 48 CC Gemini 4, Gemini 4. Houston CAP COM. Over.
-2O2
-45 48 53 P Houston CD2 COM, Gemini 4.
+
 
 Page 204
+45 48 53 P Houston CD2 COM, Gemini 4.
 45 48 56 S Roger. We are receiving your oral temp. We would
 like your Quantity Read Switch ON throughout the
 States pass. Over.
@@ -165,10 +165,10 @@ from Canaries at 09:06 Zulu.
 meal. I 'ye had approximately 6 swallows of water.
 I've also had a good use of the defecation bag, and
 everything is in good shape.
-45 49 53 CC Gemini 4, Houston CAP CO_ Put your Quantity Read
+45 52 53 CC Gemini 4, Houston CAP CO_ Put your Quantity Read
 Switch ON and leave it ON until I tell you. Over.
 45 53 01 P Roger. Will do.
-45 52 03 CC Roger. I b_ve some Flight Plan updates. Are you
+45 53 03 CC Roger. I b_ve some Flight Plan updates. Are you
 ready to copy?
 45 53 19 CC C_mini 4, Houston CAP C0_ Are you ready to copy
 Flight Plan updates? Over.
@@ -205,7 +205,7 @@ Beacon OFF when there are no UHF transmissions.
 do you want me to turn OFF the ACQ Aid with the
 circuit breaker?
 45 56 28 CC Roger. Use the circuit breaker.
-45 56 50 C Okay.
+45 56 30 C Okay.
 45 56 38 CC Gemini 4, Houston. We'd like a repeat of your food
 and water report.
 45 56 42 C From the Pilot, or do you want to do one from me?
@@ -218,12 +218,12 @@ water. I had a successful yes on defecation bag.
 are we? What station are we passing over right now?
 45 57 28 CC Roger. We have you Bermuda right now. You just
 passed through Texas and Canaveral (Kennedy).
-45 57 52 C Roger.
-45 57 54 CC Good morning, Jim. How do you feel?
+45 57 32 C Roger.
+45 57 34 CC Good morning, Jim. How do you feel?
 
 Page 206
-45 37 37 C Oh, pretty good.
-45 97 39 CC Sound great.
+45 57 37 C Oh, pretty good.
+45 57 39 CC Sound great.
 45 57 41 C Thank you. How are you?
 45 57 44 CC Had a good night's sleep.
 45 57 47 C I got a little more sleep this time than I have in
@@ -252,7 +252,7 @@ Quantity Read Switch OFF.
 Section CANARY ISLANDS
 
 46 05 29 CC Gemini 4, Canary CAP COM.
-46 09 31 C Go ahead, Canary, Gemini 4.
+46 05 31 C Go ahead, Canary, Gemini 4.
 46 05 34 CC Roger. Request that you use the Cabin Recheck Valve
 instead of 02 High Rate. Also, be advised that
 Houston says do not relieve through the cabin if you
@@ -403,7 +403,7 @@ in my view.
 47 03 19 C Yes ...
 47 03 21 P I can't possibly - I can't get this down underneath
 far enough. There, hold on.
-47 05 31 C ...
+47 03 31 C ...
 
 Page 211
 47 03 48 P Way up too high for me.
@@ -552,7 +552,7 @@ light.
 Page 215
 47 19 47 C Heck, I guess t_t what we're saying is that ...
 D-9 cannot be done in the daylight.
-48 20 02 P I concur.
+47 20 02 P I concur.
 47 20 07 P Right now, there doesn't seem to be a way for us to
 find any stars in the daylight.
 47 20 07 C No, it sure doesn't. There's no way you can see
@@ -583,7 +583,7 @@ bottom. I can see the bottom, and I can't see a
 single star, not a single star.
 47 23 39 C Go ahead, Houston. C_emtni4.
 47 23 40 CC Roger, are you busy with D-97
-47 25 45 C No, I think it Just drew to a close. We Just can't
+47 23 45 C No, I think it Just drew to a close. We Just can't
 see the stars in the daylight, and we can't carry on
 the daylight portion of it. We'll wait till we get
 back to the nighttime and do a little bit more with
@@ -647,16 +647,16 @@ but that's all cleared up now.
 47 28 32 C Hey, Gus. Can you get me a G.m.t. hack?
 47 28 35 CC Roger. I'll give it to you at 14 45 00. In about
 20 seconds.
-47 28 41 C Roger. 14 45 ..._.
+47 28 41 C Roger. 14 45 .....
 47 28 50 CC Ten seconds to go.
 47 28 57 CC 14 45 00 on my mark.
-47 29 00 CC MARKI
+47 29 00 CC MARK!
 47 29 02 C Roger, 14 45 00.
-4 _ ..°910 CC Any complaints?
+47 29 10 CC Any complaints?
 47 29 13 C No, except this thing isn't very big.
 47 29 46 CC On your next pass over the States we_l] have the
 latest news for you.
-47 29 38 C Okay, very good.
+47 29 58 C Okay, very good.
 47 30 43 C Ed and I were just co_nenting that the weightlessness
 gives you a light-headed feeling, a heady
 feeling.
@@ -763,8 +763,8 @@ can through it.
 we're looking at stars with small-end-forward and
 as yet, I don't see any. It's under my ...
 47 56 11 P ...
-47 96 33 C I think it does too, Ed.
-47 96 38 C Okay, now half of what I see is light and the other
+47 56 33 C I think it does too, Ed.
+47 56 38 C Okay, now half of what I see is light and the other
 half is dark. So we're going a little bit sideways
 to the small-end-forward, but Ed's side is in the
 dark completely, I believe. Isn't it, Ed?
@@ -877,7 +877,7 @@ was looking at is probably Vega.
 .e.e.
 48 11 28 P I have 16° and 55 minutes. The second one is ...
 48 12 16 C Yes, couldn't you?
-48 12 58 c ...
+48 12 38 C ...
 48 12 40 P Okay, 19° and 29 minutes.
 
 Section CARNARVON
@@ -1022,7 +1022,7 @@ can pick out some stars.
 able to pick out any stars on the daylight side.
 48 55 15 CC Okay. Then we'd like to know what filters were
 satisfactory on the sextant.
-48 54 24 C Okay. We have some notes on that. Listen, I th_k
+48 55 24 C Okay. We have some notes on that. Listen, I th_k
 on the 33rd Rev, if at _11 possiblej I'd like to take
 those ... shots across the Southwestern United
 States on Rev. 5.
@@ -1078,7 +1078,7 @@ Page 229
 48 57 38 CC You have a valid load, and you can turn your computer
 off now. That gives you a TR time of 36-4 in
 the computer.
-48 97 50 C Very good.
+48 57 50 C Very good.
 
 Section CAPE KENNEDY
 
@@ -1095,9 +1095,9 @@ would be Pegasus, from what we note here.
 48 58 40 P The batteries were 9 and 22.5.
 48 58 44 CC Roger. 9 and 22.9-
 48 58 47 P All the rest of the electrical readings are up.
-48 58 90 CC Say again.
-48 58 91 P The rest of the electrical readings are normal.
-48 58 93 CC Okay. Fine.
+48 58 50 CC Say again.
+48 58 51 P The rest of the electrical readings are normal.
+48 58 53 CC Okay. Fine.
 48 59 06 CC Next time you bleed down your primary oxygen pressure,
 bring it all the way down to about 800 psi.
 We can't find much else that we can do about the
@@ -1231,7 +1231,7 @@ Section CARNARVON
 
 49 46 26 CC Gemini 4, Carnarvon CAP COM. If you read, insert
 the oral temp ... Command Pilot's mouth.
-49 48 10 CC You need not acknowledge, but you look good here on
+49 47 10 CC You need not acknowledge, but you look good here on
 the ground.
 49 47 17 CC We're receiving your oral temp.
 49 47 40 CC Pump a little further on your blood pressure.
@@ -1297,7 +1297,7 @@ East. Did you copy? Over.
 That,/. you.
 50 13 39 CC Roger. Hawaii CAP COM standing by.
 50 13 42 C Roger.
-70 20 22 P We're going to run our first real S-6 now, rather
+50 20 22 P We're going to run our first real S-6 now, rather
 S-5, which wtll be a series of 35 photographs on
 the 32nd Rev, coming over the Western part of the
 United States. They wtll be done at 5-second
@@ -1327,12 +1327,12 @@ We ran off about 39 or 36 pictures.
 Page 236
 Section BERMUDA
 
-90 35 37 CC Gemini 4, Houston CAP COM_
+50 35 37 CC Gemini 4, Houston CAP COM_
 50 35 47 CC Gemini 4, Houston CAP CO_
 50 35 49 C Roger, Gemini 4. Go ahead with your update.
-50 55 53 CC Roger. It's 40 feet. Did you get the last one I
+50 35 53 CC Roger. It's 40 feet. Did you get the last one I
 gave you?
-_0 35 _8 C Negative, I never got _6-4.
+50 35 58 C Negative, I never got 36-4.
 50 36 01 CC Okay. 36-4: 40 ft/sec forward. That's l+_-V6.
 120 ft/sec aft at 2+31. At 23 38 08. 2+48. 8+43.
 50 36 33 C Roger. Was that 2+48 and 8+43?
@@ -1376,7 +1376,7 @@ on your onboard tape?
 down to 800. It's up to -we're reading it at 960.
 50 38 23 O Okay. I've got 950. We'll bring it on down.
 50 38 25 CC Okay.
-50 58 32 C Gus, on this -what's on the Voice Tape Recorder -
+50 38 32 C Gus, on this -what's on the Voice Tape Recorder -
 they say we were turning it on and off. So we don't
 have it a11.
 50 38 40 CC Say again.
@@ -1499,9 +1499,9 @@ more flight planning.
 51 26 52 P Roger.
 51 26 56 C It's a streamlined capsule.
 51 26 58 CC Say again.
-91 27 00 C It's a streamlined capsule.
+51 27 00 C It's a streamlined capsule.
 51 27 01 CC The fellow sitting next to you is streamlined.
-91 27 04 C Roger.
+51 27 04 C Roger.
 51 27 12 P And I say this is a streamlined capsule.
 51 27 15 CC Roger.
 51 27 30 CC Your boss says it's incredible.
@@ -1510,7 +1510,7 @@ more flight planning.
 51 46 18 CC Gemini 4, Hawaii CAP C05t
 51 46 43 CC Gemini 4, F_waii CAP COM_ Do you copy?
 51 46 47 C Roger, Hawaii. Gemini 4. I read you.
-51 46 90 CC Roger. We would like to request you take a cabin
+51 46 50 CC Roger. We would like to request you take a cabin
 humidity reading, and a hatch temperature reading.
 
 Page 241
@@ -1579,7 +1579,7 @@ Project and we'll be back up with you.
 52 02 1, P I never saw it over here. Look here ...
 52 02 29 C ...
 52 02 34 P I can't believe we missed ...
-52 02 56 C No, neither can I. We sure have ...
+52 02 36 C No, neither can I. We sure have ...
 52 02 41 P This looks like the area coming up on us now, Jim.
 There's the Big Bend. I believe we're passed it,
 Jim.
@@ -1599,7 +1599,7 @@ down there.
 52 03 41 CC Gemini 4, Gemini 4, this is Houston CAP CO_ Do
 you read?
 52 03 43 P Roger, stand by, please.
-52 05 50 P All right ... but not too ...
+52 03 50 P All right ... but not too ...
 52 03 53 c ...
 52 04 18 CC Gemini 4, this is Houston CAP C0_ Do you read?
 52 11 18 CC Gemtni 4, Houston CAP CO]_
@@ -1694,7 +1694,7 @@ gone.
 52 31 43 C How about the green filter?
 
 Page 246
-52 32 45 P Right r _w, i:tb _f them. I thi::? it's su_:_;a dark
+52 31 45 P Right r _w, i:tb _f them. I thi::? it's su_:_;a dark
 night.
 52 31 53 P The green filter I ha'_ cut out. m_st of the airglow.
 52 31 57 P It leaves :ne a little tiny band. And it's pretty
@@ -1716,7 +1716,7 @@ much, is it'_.
 52 33 40 P The star went out the top of the ...
 52 33 48 C The star went out the top. I couldn't hold it anymore
 52 33 50 C CKay, you want me to do the next one then?
-52 35 53 P NO, let me try one more hack at it.
+52 33 53 P NO, let me try one more hack at it.
 52 33 57 C That will hold, maybe ... a little better.
 52 34 02 P We found out that the filters aren't too good.
 52 34 05 C Yes, I planned on playing a lot around with the
@@ -1732,13 +1732,13 @@ and stuff.
 Page 247
 52 37 05 C What?
 52 37 36 C Got them yet?
-52 57 40 C What?
-52 57 42 C Okay, what was that question again? I can't hear
+52 37 40 C What?
+52 37 42 C Okay, what was that question again? I can't hear
 very well.
-52 58 55 C Gus?
+52 38 55 C Gus?
 52 38 58 C Okay, go ah,sd ... :Pnat is it? Now tell me what
 they are.
-52 59 12 C Tell me what they are, ncw.
+52 39 12 C Tell me what they are, ncw.
 52 39 17 C Okay, start with the third reading.
 52 39 37 C 11:27. What?
 52 40 00 C Is it okay for you?
@@ -1795,13 +1795,13 @@ moon is setting and the airglow layer and the
 52 49 31 C What are you talking about? Is that what it was?
 Did you get the reading?
 52 49 49 C ... Centauri, ... Go)
-52 40 57 C Any star we could find would be a good deal.
+52 49 57 C Any star we could find would be a good deal.
 52 50 02 C Ready to yaw around to the right?
 
 Page 249
 52 50 15 C Dk:ty. Rigil Kenta_l is one __,*_' __..e..-... -- which one
 is Rigil Kentauri?
-52 90 55 C ... get away an attitude.
+52 50 35 C ... get away an attitude.
 52 50 40 C The one farthest away. Rigil Kentauri ...
 52 50 50 C Golly. How do they expect ...
 52 51 45 C What?
@@ -1810,9 +1810,9 @@ then?
 52 52 51 C ...
 52 53 04 C _nat? --Well, I think when we finish the flight
 work ...
-52 55 24 C Are there any known stars out there close to the
+52 53 24 C Are there any known stars out there close to the
 horizon?
-52 55 31 C Yes ...
+52 53 31 C Yes ...
 52 53 38 C Are there any stars close to the horizon?
 52 54 43 C The green filter is the best?
 52 57 49 CC Gemini 4, CRO.
@@ -1821,7 +1821,7 @@ horizon?
 52 58 12 CC Gemini 4, CR0. Do you read? It liiks like we're
 losing some power leads. Will you push them down
 on your chest. Push them down.
-52 58 50 CC And if you read, give me ... from the cryogenic
+52 58 30 CC And if you read, give me ... from the cryogenic
 gage ... Quantity Read Switch.
 52 58 38 CC Roger. Got that.
 52 58 59 CC Okay. Standing wave looks much better now.
@@ -1831,8 +1831,8 @@ I noticed you were going through some pretty big
 gyrations ...
 53 01 14 C Yes, because you're left ...
 53 01 20 C If you got time, we've got one more ... for you.
-55 05 09 c ...
-52 03 14 C The blue filter cuts the whole horizon out.
+53 03 09 C ...
+53 03 14 C The blue filter cuts the whole horizon out.
 53 03 22 C The blue filter.
 
 Page 250
@@ -1842,8 +1842,8 @@ Page 250
 53 04 33 C Got a battery ... Got another ...
 53 04 58 C Right, Ed?
 53 05 13 C Ed, turn the ACME power supply off.
-93 06 25 C Ed, do you have the Blood Pressure Bulb?
-53 06 50 P Got Gemini? No.
+53 06 25 C Ed, do you have the Blood Pressure Bulb?
+53 06 30 P Got Gemini? No.
 53 06 38 P ... testers on.
 53 11 45 CC Gemini 4, CSQ CAP COM_ Do you copy?
 53 11 52 CC We have a good oral count. We have a good oral
@@ -1960,33 +1960,33 @@ OAMS source pressure, temperature, and your quantity
 gmge.
 53 32 24 C The OAMS source temperature is 60° and the pressure
 is a little below 2000.
-53 32 53 CC Roger. What about the quantity?
+53 32 33 CC Roger. What about the quantity?
 53 32 39 C Quantity is reading out 60 1/2 percent.
-53 52 45 CC Roger. W_nen are one of you going to sleep?
-53 32 50 c ...
-55 32 53 CC Say again.
-53 52 55 C It will be about 4 ...
-55 59 58 CC You're cutting out.
+53 32 45 CC Roger. W_nen are one of you going to sleep?
+53 32 50 C ...
+53 32 53 CC Say again.
+53 32 55 C It will be about 4 ...
+53 32 58 CC You're cutting out.
 53 33 12 CC Gemini 4, hold your switch down a little bit longer.
 You're cutting out.
-55 53 20 C Roger.
+53 33 20 C Roger.
 53 33 28 CC We are only getting your first word, Jim.
-53 53 32 C Okay?
-55 35 38 CC I can't say that's okay.
+53 33 32 C Okay?
+53 33 38 CC I can't say that's okay.
 53 33 42 C Okay?
 53 33 45 CC Okay. That came through good.
 53 33 55 CC Have you really decided who's going to go to sleep
 first?
-53 55 58 C Yes, Ed is.
+53 33 58 C Yes, Ed is.
 53 34 00 CC Ed is. Ok_'y. Ar:d about when will he go to sleep?
-53 54 05 C About another 50 minutes.
+53 34 05 C About another 50 minutes.
 53 34 07 CC Okay. That's fine.
-55 35 58 CC Hey, Jim, did you see that tropical storm off
+53 35 38 CC Hey, Jim, did you see that tropical storm off
 California?
 53 35 45 C Yes, I did.
 53 35 46 CC It's a full-blown tropical storn they tell me now.
 53 35 49 C We_l, there were a lot of clouds ...
-53 55 53 CC Did you log IFR?
+53 35 53 CC Did you log IFR?
 53 35 56 C ...
 53 35 58 CC You're cutting out again.
 
