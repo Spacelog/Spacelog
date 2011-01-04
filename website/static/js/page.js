@@ -540,6 +540,7 @@ Artemis.PhasesView = Backbone.View.extend({
     },
 
     setOriginalTranscriptPage: function(page) {
+        if(typeof page === "undefined") { return; }
         this.el.find('.original a')
           .attr('href', '/original/' + page + '/')
           .attr('title', 'View original transcript, page ' + page);
