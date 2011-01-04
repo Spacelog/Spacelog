@@ -84,7 +84,7 @@ sub load_transcript {
         elsif ( $line =~ /(^_\w+)\s*:\s*(.*)/ ) {
             $entry->{$1} = $2;
         }
-        elsif ( $line =~ /^([A-Z-?\d*]+): (.*)/ ) {
+        elsif ( $line =~ /^([A-Z-?\d* ()\/]+): (.*)/ ) {
 
             # Expand multiple speaker:text entries to separate logs lines
             if ( $entry->{speaker} ) {
