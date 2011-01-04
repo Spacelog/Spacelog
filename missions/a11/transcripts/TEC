@@ -893,7 +893,7 @@ CC: Apollo 11, this is Houston. How do you read?
 CC: Apollo 11, this is Houston. How do you read? Over.
 
 [00:03:26:47]
-CC: Apollo 11, Apollo 11, this is Houston. Do you read? 0ver.
+CC: Apollo 11, Apollo 11, this is Houston. Do you read? Over.
 
 [00:03:27:54]
 CC: Apollo 11, this is Houston. Radio check. Over.
@@ -1037,7 +1037,7 @@ CC: Okay. And you want to know if you can go ahead and use additional oxygen to 
 [00:03:49:20]
 _page : 22
 _tape : Tape 3/5
-CMP: Yes. We think it's within normal tolrarances, Bruce. We just wanted to get your concurrence before we press on with this procedure.
+CMP: Yes. We think it's within normal tolerances, Bruce. We just wanted to get your concurrence before we press on with this procedure.
 
 [00:03:49:33]
 CC: Roger, Apollo 11. Go ahead.
@@ -1140,7 +1140,7 @@ CC: Go ahead with the logic.
 CDR: Okay. Mark logic 1 and 2 armed.
 
 [00:04:13:59]
-CC: Roger. We show the logic arm, and you're GO for PYR0 arm.
+CC: Roger. We show the logic arm, and you're GO for PYRO arm.
 
 [00:04:16:38]
 CDR: Houston, we're ready for [glossary:LM] ejection.
@@ -1158,7 +1158,7 @@ CDR: Houston, we are SEP. We have a CRYO PRESS light.
 CC: Roger. Copy. CRYO PRESS light.
 
 [00:04:17:46]
-CC: Roger, 11. We reconmend you turn the O<sub>2</sub> fans on manually and ensure that the O<sub>2</sub> heaters are in the AUTOMATIC position.
+CC: Roger, 11. We recommend you turn the O<sub>2</sub> fans on manually and ensure that the O<sub>2</sub> heaters are in the AUTOMATIC position.
 
 [00:04:17:57]
 CDR: Roger. O<sub>2</sub> heaters are ON, and we're going to cycle the O<sub>2</sub> fans now.
@@ -1950,7 +1950,7 @@ CMP: Okay. Because there's quite a difference between the gimbal angles you have
 CC: Stand by.
 
 [00:07:35:31]
-LMP: Houston, Apollo 11.LMP is back on the line.
+LMP: Houston, Apollo 11. LMP is back on the line.
 
 [00:07:35:36]
 CC: Roger. Copy.
@@ -2143,7 +2143,7 @@ CC: Apollo 11, Houston. We'd like to accept this one and give us two more and th
 CMP: Okay.
 
 [00:08:08:25]
-CC: Apollo 11, Houston. We see your termination on [glossary:P23]. Thank you very much. Mike, we'll have a - We're trying to work up a story here for you; we'll be with you momentarily on an explanation of what' s happening. 0ver.
+CC: Apollo 11, Houston. We see your termination on [glossary:P23]. Thank you very much. Mike, we'll have a - We're trying to work up a story here for you; we'll be with you momentarily on an explanation of what's happening. Over.
 
 [00:08:08:38]
 CMP: Okay, Charlie. It just appears to me that you have to have a reticle tangent to the horizon at the point at which you mark or else you're not at the substellar point; you're off laterally, and therefore you're measuring a larger trunnion angle than you should.
@@ -2469,7 +2469,7 @@ _tape : Tape 7/5
 CC: Roger. We've got a good signal there. Thank you much.
 
 [00:10:32:24]
-CDR: Okay, Houston. We are sending picture of Earth down right now, so you can - Let us know if they're receiving at Coldstone.
+CDR: Okay, Houston. We are sending picture of Earth down right now, so you can - Let us know if they're receiving at Goldstone.
 
 [00:10:32:36]
 CC: Roger, 11. Goldstone is receiving the TV. Stand by. We'll let you know on the quality. Over.
@@ -2736,7 +2736,7 @@ CDR: Houston, Apollo 11. The battery charging is complete, and the crew status r
 CC: Roger. Copy, 11. Thank you much. We'd like to ask one question. Have you tried the gas separator on the water? How is that working? Over.
 
 [00:11:18:45]
-CDR: Yes. Mike's got a couple of comments cn that.
+CDR: Yes. Mike's got a couple of comments on that.
 
 [00:11:18:49]
 CMP: It's working good so far, Charlie. We've got one installed on the water gun and the other one installed on the spigot down in the [glossary:LEB], and we - mention one problem with them is that they leak at the junction between the food bag and the water filter. However, with that exception, they seem to be working pretty good. We were getting some gas through initially, and I think that was just getting the system purged out to begin with; and the last tubeful we poured was almost free of bubbles. Over.
@@ -3309,7 +3309,7 @@ CMP: Stand by.
 CMP: Roger, Houston. Apollo 11, ready to copy [glossary:MCC] 2.
 
 [01:01:49:20]
-CC: Apollo 11, this is Houston. Mideourse correetion number 2. SPS/G&N 63059, plus 097, minus 020, [glossary:GET] ignition 02644 5792, plus 00118, minus 00003, plus 00177, roll 277 355 015, [glossary:NOUN 44] BLOCK is NA, DELTA-VT 00213 003 00168, sextant star 30 2082 370. The rest of the PAD is NA. [glossary:GDC] align: Vega and Deneb. Roll align 007 144 068. No ullage. [glossary:LM] weight: 33302. For your information, your heads will be pointed roughly towards the Earth on this burn. Read back. Over.
+CC: Apollo 11, this is Houston. Midcourse correction number 2. SPS/G&N 63059, plus 097, minus 020, [glossary:GET] ignition 02644 5792, plus 00118, minus 00003, plus 00177, roll 277 355 015, [glossary:NOUN 44] BLOCK is NA, DELTA-VT 00213 003 00168, sextant star 30 2082 370. The rest of the PAD is NA. [glossary:GDC] align: Vega and Deneb. Roll align 007 144 068. No ullage. [glossary:LM] weight: 33302. For your information, your heads will be pointed roughly towards the Earth on this burn. Read back. Over.
 
 [01:01:51:12]
 _page : 77
@@ -3958,7 +3958,7 @@ CC: This is Houston. Roger. Out.
 CC: And, 11, this is Houston. A little more information based on our analysis of your last [glossary:SPS] burn: it looks like you got a good solid burn there. We show 94 psi chamber pressure and it looks like the [glossary:SPS] is definitely GO. Over.
 
 [01:04:39:06]
-LMP: Good to heer it.
+LMP: Good to hear it.
 
 [01:04:39:08]
 CC: Roger. We thought you'd feel that way about it.
@@ -4023,7 +4023,7 @@ CC: Apollo 11, this is Houston. Over.
 CDR: Go ahead, Houston.
 
 [01:05:32:14]
-CC: Roger, 11. We've been watching your activity on the [glossary:DSKY] there, and by selecting another major program with a [glossary:VERB 37] ENTER and all that, we show you collapsing the deadband in [glossary:PTC] and having driven the [glossary:CMC] rate from 0.3 degrees per second down to 0 degrees per second, although of course, with all the AUTO [glossary:RCS] coils shut off, you're not firing any thrusters. 0ver.
+CC: Roger, 11. We've been watching your activity on the [glossary:DSKY] there, and by selecting another major program with a [glossary:VERB 37] ENTER and all that, we show you collapsing the deadband in [glossary:PTC] and having driven the [glossary:CMC] rate from 0.3 degrees per second down to 0 degrees per second, although of course, with all the AUTO [glossary:RCS] coils shut off, you're not firing any thrusters. Over.
 
 [01:05:32:54]
 _page : 92
@@ -4046,7 +4046,7 @@ CDR: And, Houston, we're just looking at you out our window here. Looks like the
 CC: Roger. Our report from outside says that it's raining out here, and looks like you've got a pretty good eye for the weather there.
 
 [01:05:34:09]
-CDR: Yes. Well, it looks like it ought to clear up pretty soon from our viewpoint. The western edge of the weather isn't wery far west of you.
+CDR: Yes. Well, it looks like it ought to clear up pretty soon from our viewpoint. The western edge of the weather isn't very far west of you.
 
 [01:05:34:20]
 CC: Okay.
@@ -4449,7 +4449,7 @@ CMP: Okay.
 CC: Hello, Apollo 11. Houston. We got some [glossary:PIPA] biases and general drift updates for you if you give us [glossary:P00] and ACCEPT. Over.
 
 [01:07:19:01]
-CDR: Okay, Charlie. Stant by one.
+CDR: Okay, Charlie. Stand by one.
 
 [01:07:19:04]
 CC: Roger, 11. The - -
@@ -5029,7 +5029,7 @@ CC: 11, Roger. Good view of Buzz, there.
 LMP: When it gets pretty hard doing it that way, we just roll over and do it the other way.
 
 [01:10:21:30]
-CC: Roger. We copy. We couldn't figure out whether that was a chinup or a pushup. just take your choice, I guess.
+CC: Roger. We copy. We couldn't figure out whether that was a chinup or a pushup. Just take your choice, I guess.
 
 [01:10:22:05]
 CMP: Well, it looks like it's probably almost your dinner time down there, Earth. We'll show you our food cabinet here in a second.
@@ -5217,7 +5217,7 @@ CDR: Roger. We copy, and as we pan back out to the distance at which we see the 
 CC: Roger, Apollo 11. Thank you much for the show. It's a real good half hour. Appreciate it. Thank you very much. Out.
 
 [01:10:35:22]
-CMP: Okay. That's it, Cnarlie.
+CMP: Okay. That's it, Charlie.
 
 [01:10:35:24]
 CC: 11, Houston. We appreciate the show. Thank you very much. Over.
@@ -5849,7 +5849,7 @@ LMP: Okay. I copy those, and I'll give you our percentages now: Alpha 82, Bravo 
 CC: This is Houston. We copy your percentages, and do you have a crew status report on sleep For us?
 
 [02:00:21:24]
-LMP: Roger. And in descending oeder 8, 9, and 8. Over.
+LMP: Roger. And in descending order 8, 9, and 8. Over.
 
 [02:00:21:30]
 CC: Houston. Roger. Out.
@@ -6319,10 +6319,10 @@ _tape : Tape 35/5
 CC: Hello, Apollo 11. Houston. Over.
 
 [02:06:44:46]
-CMP: Stand by, Charlie. Yes, we'r going to come out of [glossary:PTC] here at 263 roll and then do [glossary:VERB 49] to thc recommended attitude.
+CMP: Stand by, Charlie. Yes, we're going to come out of [glossary:PTC] here at 263 roll and then do [glossary:VERB 49] to thc recommended attitude.
 
 [02:06:44:58]
-CC: That sounds fine to us. Ovcr.
+CC: That sounds fine to us. Over.
 
 [02:06:46:56]
 CC: Hello, Apollo 11. Houston. Before you open the pressure equalization valve, we'd like the LM/[glossary:CM] DELTA-P. Over.
@@ -6411,7 +6411,7 @@ CMP: Boy, that transducer's working somewhat.
 CC: Roger.
 
 [02:06:55:51]
-CC: 11, Houston. We'd like to try to attempt to correlate your O<sub>2</sub> flow in transducer with the flow valve that you've got open. How far - How far open would you say you have the REPRESS O<sub>2</sub>? 0ver. Correction, the DIRECT O<sub>2</sub>.
+CC: 11, Houston. We'd like to try to attempt to correlate your O<sub>2</sub> flow in transducer with the flow valve that you've got open. How far - How far open would you say you have the REPRESS O<sub>2</sub>? Over. Correction, the DIRECT O<sub>2</sub>.
 
 [02:06:56:10]
 CMP: Stand by, Charlie.
@@ -6673,7 +6673,7 @@ LMP: I'm standing 6 feet from it, Charlie, and you can read it better than I can
 CC: Roger.
 
 [02:07:33:08]
-CC: That's a real good view of the [glossary:LM] hatch handle there, 11. 0ver.
+CC: That's a real good view of the [glossary:LM] hatch handle there, 11. Over.
 
 [02:07:33:16]
 CDR: Roger.
@@ -7743,7 +7743,7 @@ CDR: Stand by.
 CDR: Okay, Houston. 11's ready to copy.
 
 [02:10:11:48]
-CC: Roger, 11. If you'll turn to page F2-22. 0ver
+CC: Roger, 11. If you'll turn to page F2-22. Over
 
 [02:10:12:27]
 CDR: Okay. I have F2-22.
@@ -8312,7 +8312,7 @@ CDR: Okay. Stand by.
 LMP: Houston, Apollo 11. Go ahead with the flight plan update.
 
 [02:23:07:05]
-CC: Roger, 11. This is Houston. At approximately 71 hours to 72 hours, we have you down for an eat period which I imagine is probably in progress already. 71 hours: O<sub>2</sub> fuel cell purge; 72 hours GET: CO<sub>2</sub> filter change number 6, secondary radiator flow check. And we'll send you up a [glossary:P37] block data on a 2 hour pass, pericynthion pass, return mode abort. At 73 hours 00 minutes: stop [glossary:PTC] at approximately 0 degrees roll. That is, when you're ccming up on 0 degrees roll angle around 73 hours, we'd like you to stop [glossary:PTC]. And perform a [glossary:P52] option 3 remaining in the [glossary:PTC] [glossary:REFSMMAT] for a drift check. 73 hours, 20 minutes: we'll give you a [glossary:P27] update to the landing site [glossary:REFSMMAT], [glossary:LOI] 1 state vector, and target load. 73 hours 30 minutes: maneuver to 000 roll, pitch, and yaw; high gain antenna angles will be pitch 0, yaw 335; and perform a [glossary:P52] option 1 using the new landing site [glossary:REFSMMAT]. Resume the nominal flight plan at 74 hours [glossary:GET]. Over.
+CC: Roger, 11. This is Houston. At approximately 71 hours to 72 hours, we have you down for an eat period which I imagine is probably in progress already. 71 hours: O<sub>2</sub> fuel cell purge; 72 hours GET: CO<sub>2</sub> filter change number 6, secondary radiator flow check. And we'll send you up a [glossary:P37] block data on a 2 hour pass, pericynthion pass, return mode abort. At 73 hours 00 minutes: stop [glossary:PTC] at approximately 0 degrees roll. That is, when you're coming up on 0 degrees roll angle around 73 hours, we'd like you to stop [glossary:PTC]. And perform a [glossary:P52] option 3 remaining in the [glossary:PTC] [glossary:REFSMMAT] for a drift check. 73 hours, 20 minutes: we'll give you a [glossary:P27] update to the landing site [glossary:REFSMMAT], [glossary:LOI] 1 state vector, and target load. 73 hours 30 minutes: maneuver to 000 roll, pitch, and yaw; high gain antenna angles will be pitch 0, yaw 335; and perform a [glossary:P52] option 1 using the new landing site [glossary:REFSMMAT]. Resume the nominal flight plan at 74 hours [glossary:GET]. Over.
 
 [02:23:09:08]
 LMP: Okay. We'll get started on the fuel cell purge while we're eating. CO<sub>2</sub> canister change number 6; secondary radiator flow check; copy some pads. Also at 72 hours, stop [glossary:PTC] 0 roll at 73; do a [glossary:P52] option 3; we'll get your uplink [glossary:REFSMMAT] for the landing site; and at 000 - let's see, now was this with the old [glossary:REFSMMAT] or the new REFSMMAT?
@@ -10152,7 +10152,7 @@ CC: Apollo 11, this is Houston. Over.
 LMP: Go ahead, Houston.
 
 [03:07:21:58]
-CC: Roger. During the [glossary:LOI] 1 burn, your erngine burned a little bit more propellant than we predicted, and consequently, we'd like to update - or send you a new [glossary:TEI] 4 PAD. Over.
+CC: Roger. During the [glossary:LOI] 1 burn, your engine burned a little bit more propellant than we predicted, and consequently, we'd like to update - or send you a new [glossary:TEI] 4 PAD. Over.
 
 [03:07:22:19]
 LMP: Okay.
@@ -10358,7 +10358,7 @@ CC: Roger.
 CC: Hello, Apollo 11. Houston. We're wondering if you've started into the [glossary:LM] yet. Over.
 
 [03:09:23:06]
-CDR: We have the [glossary:CSM] hatch out, the drogue and probe removed and stowed, and we're just abeut ready to open the [glossary:LM] hatch now.
+CDR: We have the [glossary:CSM] hatch out, the drogue and probe removed and stowed, and we're just about ready to open the [glossary:LM] hatch now.
 
 [03:09:23:16]
 CC: Roger. Thank you much, Neil. We'll be standing by.
@@ -11065,7 +11065,7 @@ LMP: Roger. We'll do that.
 CC: 11, Houston. It looks like we're locked back up again with no delay. How does it look on board? Over.
 
 [03:13:13:37]
-LMP: Roger. The signal strength dropped very rapidly to zero; and the pitch and yaw, in about 3 secconds, moved toward 40 degrees pitch and 240 degrees yaw. Right now, they're sitting on about 15 degrees pitch and about 265 degrees yaw. So they didn't move very far, about 30 degrees apiece; and then they picked right back on up again. Over.
+LMP: Roger. The signal strength dropped very rapidly to zero; and the pitch and yaw, in about 3 seconds, moved toward 40 degrees pitch and 240 degrees yaw. Right now, they're sitting on about 15 degrees pitch and about 265 degrees yaw. So they didn't move very far, about 30 degrees apiece; and then they picked right back on up again. Over.
 
 [03:13:14:19]
 CC: Roger. Some of "The Luckiest People" in the background there. We copied your pitch and yaw angles.
@@ -12184,7 +12184,7 @@ _tape : Tape 63/7
 CC: Stand by.
 
 [04:02:44:40]
-CC: Eagle, Houston. You can go ahead with your [glossary:RCS] pressurizaLion, but we would like to hold off on [glossary:RCS] checkout until we get the high bit rate. Over.
+CC: Eagle, Houston. You can go ahead with your [glossary:RCS] pressurization, but we would like to hold off on [glossary:RCS] checkout until we get the high bit rate. Over.
 
 [04:02:44:52]
 LMP: Roger.
@@ -12328,7 +12328,7 @@ LMP: And, Eagle, here. I have read out address in the [glossary:AGS] 404, 405 an
 CC: Roger. Copy.
 
 [04:02:57:23]
-CC: Eagle, Housten. Over.
+CC: Eagle, Houston. Over.
 
 [04:02:57:28]
 LMP: Go ahead.
@@ -12611,7 +12611,7 @@ _tape : Tape 64/6
 CMP: Okay.
 
 [04:03:28:24]
-CC: And, Eagle, Houston. We'd like you te select aft OMNI now. It will be good for both [glossary:LOS] and [glossary:AOS]. Over.
+CC: And, Eagle, Houston. We'd like you to select aft OMNI now. It will be good for both [glossary:LOS] and [glossary:AOS]. Over.
 
 [04:03:28:33]
 LMP: Roger. Going to aft OMNI.
@@ -14183,7 +14183,7 @@ CC: Tranquility, Houston. If you haven't done so, you can release the fuel vent 
 CDR (TRANQ): Roger.
 
 [04:07:20:52]
-CC: Tranquility, Houston. We have indication that we've frozen up the descent fuel helium heat exchanger, and there's some fuel trapped in the line between there and the valvs; and the pressure we're looking at is increasing there. Over.
+CC: Tranquility, Houston. We have indication that we've frozen up the descent fuel helium heat exchanger, and there's some fuel trapped in the line between there and the valves; and the pressure we're looking at is increasing there. Over.
 
 [04:07:21:10]
 CDR (TRANQ): Roger. Understand.
@@ -14377,7 +14377,7 @@ CC: 103 53 - correction, 54.
 CDR (TRANQ): Roger.
 
 [04:07:54:14]
-CC: Hello, Tranquility. Houston. We have the [glossary:LM] ascent PAD. If'you're ready to go. Over.
+CC: Hello, Tranquility. Houston. We have the [glossary:LM] ascent PAD. If you're ready to go. Over.
 
 [04:07:54:28]
 LMP (TRANQ): Stand by.
@@ -14468,7 +14468,7 @@ CC: Stand by, and we'll check.
 CC: Tranquility, Houston. Do you still hear it now? Over.
 
 [04:08:05:59]
-LMP (TRANQ): I still hear it. it sounds like somebody banging chairs around in the back room.
+LMP (TRANQ): I still hear it. It sounds like somebody banging chairs around in the back room.
 
 [04:08:06:05]
 CC: Roger. That's a VOGAA that you hear for the [glossary:CSM] to keep the noise down on the loop. Maybe we got a [glossary:MSFN] relay or something. Stand by.
@@ -14873,7 +14873,7 @@ CC: Roger, Columbia. You're sounding much better now.
 [04:09:09:57]
 _page : 340
 _tape : Tape 68/2
-CC: Columbla, Houston. Request [glossary:P00] in ACCEPT, and we'll uplink another state vector. Over.
+CC: Columbia, Houston. Request [glossary:P00] in ACCEPT, and we'll uplink another state vector. Over.
 
 [04:09:10:08]
 CMP (COLUMBIA): Roger. Going [glossary:P00] in ACCEPT.
@@ -15035,7 +15035,7 @@ CC: Tranquility, this is Houston. We copy your readings, Out.
 CMP (COLUMBIA): Houston, Columbia. How do you read on OMNI D, Dog?
 
 [04:10:29:30]
-CC: Columbia, this is Hounton. We're reading you loud with background noise on OMNI D. Over.
+CC: Columbia, this is Houston. We're reading you loud with background noise on OMNI D. Over.
 
 [04:10:29:41]
 CMP (COLUMBIA): Okay. I'll stay on D here for a while. I'm about to go into ...
@@ -15061,7 +15061,7 @@ CC: Stand by.
 CC: Columbia, this is Houston. The best we can do on topo features is to advise you to look to the west of the irregularly shaped crater, and then work on down to the southwest of it. Over.
 
 [04:10:38:05]
-CC: Columbia, Houston. Another possibility is the southern rim of the southern of the two oldlooking craters. Over.
+CC: Columbia, Houston. Another possibility is the southern rim of the southern of the two old looking craters. Over.
 
 [04:10:38:42]
 CMP (COLUMBIA): Roger, Houston. Columbia ... I kept my eyes glued to the sextant that time hoping I'd get a flash of reflected light off the [glossary:LM], but I wasn't able to see any of my scan areas that you suggested.
@@ -15170,7 +15170,7 @@ CC: Roger. There's not much going on at the present time, Columbia. I'll see wha
 CC: Columbia, this is Houston. Are you aware that Eagle plans the [glossary:EVA] about 4 hours early? Over.
 
 [04:10:53:33]
-CMP (COLUMBIA): Affirmative. When's hatch open time in [glossary:GET] estinated?
+CMP (COLUMBIA): Affirmative. When's hatch open time in [glossary:GET] estimated?
 
 [04:10:53:39]
 CC: Roger. Somewhere around 108 hours. We'll have an update for you on that a little later.
@@ -15267,13 +15267,13 @@ CC: Roger.
 CMP (COLUMBIA): Okay. What you are saying is, if you look at the cat's paw, then that's just about, oh - his middle finger, a little bit - one to two o'clock from his middle finger. Is that right?
 
 [04:11:07:16]
-CC: Roger. About one to two o'clock from the middle finger if you are using 12 o'clock being to the west. 0ver.
+CC: Roger. About one to two o'clock from the middle finger if you are using 12 o'clock being to the west. Over.
 
 [04:11:07:29]
 CMP (COLUMBIA): That must be the way the cat's faced. Okay. I'm with you.
 
 [04:11:07:33]
-CC: Okay. And I got [glossary:LOS] amd A0S times for you.
+CC: Okay. And I got [glossary:LOS] and [glossary:AOS] times for you.
 
 [04:11:07:40]
 CMP (COLUMBIA): Go ahead.
@@ -15282,7 +15282,7 @@ CMP (COLUMBIA): Go ahead.
 CMP (COLUMBIA): Go ahead, Houston.
 
 [04:11:07:50]
-CC: Roger. Your [glossary:LOS] at 107 plus 23 plus 03. A0S at 108 plus 09 plus 06. The next pass for [glossary:COAS] tracking: your time of closest approach is 108 35 28. That's 3 miles south of track. Over.
+CC: Roger. Your [glossary:LOS] at 107 plus 23 plus 03. AOS at 108 plus 09 plus 06. The next pass for [glossary:COAS] tracking: your time of closest approach is 108 35 28. That's 3 miles south of track. Over.
 
 [04:11:08:28]
 _page : 349
@@ -15545,7 +15545,7 @@ LMP (TRANQ): All right, [glossary:RCU] PTT to MAIN.
 CMP (COLUMBIA): - - time is 107 30 38. Over.
 
 [04:12:11:32]
-CC: Columbia, this is Houston. Copy star sngle difference of 4 balls 1; [glossary:NOUN 93], plus 00057 - -
+CC: Columbia, this is Houston. Copy star angle difference of 4 balls 1; [glossary:NOUN 93], plus 00057 - -
 
 [04:12:11:42]
 LMP (TRANQ): [glossary:PLSS] mode switch to B.
@@ -16706,7 +16706,7 @@ LMP (EVA): Okay. Don't hold it quite so tight.
 CDR (EVA): Okay.
 
 [04:13:28:17]
-CDR (EVA): Looking up at the [glossary:LM], I'm standing directly in tne shadow now looking up at Buzz in the window. And I can see everything quite clearly. The light is sufficiently bright backlighted into the front of the [glossary:LM], that everything is very clearly visible,
+CDR (EVA): Looking up at the [glossary:LM], I'm standing directly in the shadow now looking up at Buzz in the window. And I can see everything quite clearly. The light is sufficiently bright backlighted into the front of the [glossary:LM], that everything is very clearly visible,
 
 [04:13:28:55]
 LMP (EVA): Okay. I'm going to be changing the ***
@@ -17047,7 +17047,7 @@ LMP (EVA): No. I'll get it. No, you take this TV on out.
 CDR (EVA): Watch the [glossary:LEC], there.
 
 [04:13:53:53]
-LMP (EVA): Now I'm afreid these ... materials are going to get dusty ***
+LMP (EVA): Now I'm afraid these ... materials are going to get dusty ***
 
 [04:13:54:07]
 LMP (EVA): The surface material is powdery. *** How good your lens is, but if you can *** smudges ... very much like a very finely powdered carbon, but it's very pretty looking.
@@ -17629,7 +17629,7 @@ CC: Neil and Buzz, this is Houston. To clarify my last, your consumables are in 
 CDR (EVA): Roger. I understand that.
 
 [04:14:46:36]
-CDR (EVA): I don't note any abnormalities in the [glossary:LM]. The pods seem to be in good shape. The primary and secondary struts are in good shape. Atennas are all in place. There's no evidence of problem underneath the [glossary:LM] due to engine exhaust or drainage of any kind.
+CDR (EVA): I don't note any abnormalities in the [glossary:LM]. The pods seem to be in good shape. The primary and secondary struts are in good shape. Antennas are all in place. There's no evidence of problem underneath the [glossary:LM] due to engine exhaust or drainage of any kind.
 
 [04:14:47:17]
 CC: Roger. Out.
@@ -18931,7 +18931,7 @@ _tape : Tape 74/2
 CC: Roger.
 
 [04:18:26:53]
-CC: Columbia, Colunbia, this is Houston. Over.
+CC: Columbia, Columbia, this is Houston. Over.
 
 [04:18:27:00]
 CMP (COLUMBIA): Go ahead, Houston.
@@ -19343,7 +19343,7 @@ CC: Roger. Okay. Let's skip on over to Surface 59.
 CDR (TRANQ): Okay.
 
 [05:01:44:51]
-CC: Okay. This is going to be for one last vent on the [glossary:DPS] tank there, so at the top of the page just after [glossary:EPS] INVERTER 1, CLOSE, add - Okay, after [glossary:EPS] INVERTER 1, CLOSE, add PROP DESCENT HELIUM REG/VENT CLOSE, and then after STABILIZATION/CONTROL AELD, CLOSE, add PROP DISPLAYS/ENGINE 0VERRIDE/LOGIC, CLOSE. Over.
+CC: Okay. This is going to be for one last vent on the [glossary:DPS] tank there, so at the top of the page just after [glossary:EPS] INVERTER 1, CLOSE, add - Okay, after [glossary:EPS] INVERTER 1, CLOSE, add PROP DESCENT HELIUM REG/VENT CLOSE, and then after STABILIZATION/CONTROL AELD, CLOSE, add PROP DISPLAYS/ENGINE OVERRIDE/LOGIC, CLOSE. Over.
 
 [05:01:46:02]
 CDR (TRANQ): Roger. Copy. These are two circuit breakers, right?
@@ -19670,7 +19670,7 @@ CMP (COLUMBIA): Yes sir. Keep it that way.
 CMP (COLUMBIA): Columbia is coming up on a [glossary:VERB 45] ENTER to reset the surface flag.
 
 [05:02:32:15]
-CC: Columbia, Houston. Negative. Stand by on the VErB 45.
+CC: Columbia, Houston. Negative. Stand by on the VERB 45.
 
 [05:02:32:22]
 _page : 445
@@ -19907,7 +19907,7 @@ CDR (TRANQ): We had a lot of help down there, Jim.
 [05:03:10:32]
 _page : 450
 _tape : Tape 79/10
-CDR (TRANQ): And, Houston, Tranquility Base is going to give you a few comments with regard to the geology question of last night. We are landed in a relatively smooth crater field of elongate secondary - circular secondary craters, most of which have rims irrespective of their - raised rims irrespective of their size. That's'not universally true. There are - There are a few of the smaller craters around which do not have a discernable rim. The ground mass throughout the area is a very fine sand to a silt. I'd say the thing that would be most like it on Earth is powdered graphite. Immersed in this ground mass are a wide variety of rock shapes, sizes, textures, rounded and angular, many with varying consistencies. As I said, I've seen plain - what looked to be plain basalt and vesicular basalt. Others with no crystals, some with small white phenocrysts, maybe one to less than 5 percent. And the bould - we are in a boulder field where the boulders range generally up to 2 feet with a few larger than that. Now, some of the boulders are lying on top of the surface, some are partially exposed, and some are just barely exposed. And in our traverse around on the surface and particularly working with the scoop, we've run into boulders below the surface - it was probably buried under several inches of the ground mass.
+CDR (TRANQ): And, Houston, Tranquility Base is going to give you a few comments with regard to the geology question of last night. We are landed in a relatively smooth crater field of elongate secondary - circular secondary craters, most of which have rims irrespective of their - raised rims irrespective of their size. That's not universally true. There are - There are a few of the smaller craters around which do not have a discernable rim. The ground mass throughout the area is a very fine sand to a silt. I'd say the thing that would be most like it on Earth is powdered graphite. Immersed in this ground mass are a wide variety of rock shapes, sizes, textures, rounded and angular, many with varying consistencies. As I said, I've seen plain - what looked to be plain basalt and vesicular basalt. Others with no crystals, some with small white phenocrysts, maybe one to less than 5 percent. And the bould - we are in a boulder field where the boulders range generally up to 2 feet with a few larger than that. Now, some of the boulders are lying on top of the surface, some are partially exposed, and some are just barely exposed. And in our traverse around on the surface and particularly working with the scoop, we've run into boulders below the surface - it was probably buried under several inches of the ground mass.
 
 [05:03:12:55]
 CC: Tranquility, Houston. Roger. Very fine description.
@@ -20218,7 +20218,7 @@ CC: Roger. We confirm that. Try it again.
 LMP (TRANQ): Okay. We'll go to number 2 this time.
 
 [05:04:06:15]
-CC: Roger. we concur.
+CC: Roger. We concur.
 
 [05:04:06:24]
 LMP (TRANQ): Roger. No problem.
@@ -21804,7 +21804,7 @@ _tape : Tape 83/6
 CDR: Houston, the hatch passes its integrity check. I'm going to go to [glossary:LM] tunnel VENT now, and leave it there.
 
 [05:09:54:51]
-CC: Roger, Colualbia. We copy. That's good, and we'd like a readout on the TEP of about the time you - that Eagle selected the secondary loop. Over.
+CC: Roger, Columbia. We copy. That's good, and we'd like a readout on the TEP of about the time you - that Eagle selected the secondary loop. Over.
 
 [05:09:55:05]
 CDR: Stand by.
@@ -22248,7 +22248,7 @@ CC: Roger. Coming at you. [glossary:TEI] 30, SPS/G&N: 36691; minus 061, plus 067
 CMP: Roger. We have a [glossary:TEI] 30, SPS/G&N: 36691, minus 061, plus 067 135 23 4149; plus 32020, plus 06713, minus 02773 181 054 013; NA, plus 00230, plus 32833 228 32625, 24 1510 355; NA three times, plus 1103, minus 17237 11806 36275 195 04 52. Deneb and Vega 242 172 012, two jet ullage, 16 seconds; horizon 11 degree line at TIG minus 2 minutes; sextant star visible after 134 50. Over.
 
 [05:12:25:58]
-CC: Roger, Mike. Good readbaek. Out.
+CC: Roger, Mike. Good readback. Out.
 
 [05:12:53:02]
 _page : 501
@@ -23314,7 +23314,7 @@ CMP: Roger. We're in [glossary:PTC] attitude and would you please give us a call
 CC: Roger. Stand by.
 
 [06:06:56:41]
-CC: Apollo 11, this is Houston. We're going to hand over from Madrid to Goldstone at 151 hours even. If you should lose lock on the high gain at this time, you may reaequire at pitch minus 45, yaw 270. Break. We're still watching your rates. Over.
+CC: Apollo 11, this is Houston. We're going to hand over from Madrid to Goldstone at 151 hours even. If you should lose lock on the high gain at this time, you may require at pitch minus 45, yaw 270. Break. We're still watching your rates. Over.
 
 [06:06:57:05]
 _page : 532
@@ -23546,7 +23546,7 @@ CC: Roger.
 CMP: Nice to sit here and watch the Earth getting larger and larger and the Moon smaller and smaller.
 
 [06:08:48:37]
-CC: Roger. We'll give you a call when your rates have damped down sufficiently, and we're unable at the present time to predict what rate you should have seen at your last attempt to initiate [glossary:PTC]. We saw about 2 1/2 degrees per second. 0ver.
+CC: Roger. We'll give you a call when your rates have damped down sufficiently, and we're unable at the present time to predict what rate you should have seen at your last attempt to initiate [glossary:PTC]. We saw about 2 1/2 degrees per second. Over.
 
 [06:08:48:57]
 CMP: Yes. I believe that.
@@ -23581,7 +23581,7 @@ CC: Apollo 11, this is Houston. Over.
 CMP: Go ahead, Houston.
 
 [06:09:33:35]
-CC: Okay, 11. We are about ready to start [glossary:PTC]. I would like to give you some high gain antenna angles, though. We'd like to operate in the REACQ mode, and do you plan on spinning up in the positive or negative direction? 0ver.
+CC: Okay, 11. We are about ready to start [glossary:PTC]. I would like to give you some high gain antenna angles, though. We'd like to operate in the REACQ mode, and do you plan on spinning up in the positive or negative direction? Over.
 
 [06:09:33:52]
 CMP: We can do it either way. I had planned the positive.
@@ -23971,7 +23971,7 @@ CC: Yes, sir. We'll have it for you momentarily. Also, a little flight plan upda
 CMP: Will do.
 
 [06:12:07:45]
-CC: There is a flurry of activity in the PA0 site for the evening news.
+CC: There is a flurry of activity in the PAO site for the evening news.
 
 [06:12:07:52]
 CMP: Bully.
@@ -23980,7 +23980,7 @@ CMP: Bully.
 CMP: How's the weather down there? You got any rain?
 
 [06:12:08:05]
-CC: Roger. We've been having a little bit, thunderstorm type, the last couple of days. We had a pretty good rain today, smd it's been overcast. A slow storm system's been moving through the area in the last couple of days, and primarily evening and afternoon thundershowers.
+CC: Roger. We've been having a little bit, thunderstorm type, the last couple of days. We had a pretty good rain today, and it's been overcast. A slow storm system's been moving through the area in the last couple of days, and primarily evening and afternoon thundershowers.
 
 [06:12:08:26]
 CMP: Roger. We were watching a few clouds in your area through the monocular along the Texas Gulf Coast this afternoon, and we also noticed there were clouds over Baja California, which is a little bit unusual.
@@ -24018,10 +24018,10 @@ CC: Roger.
 CMP: In the rain.
 
 [06:12:09:43]
-CC: Touch&eacute;.
+CC: Touché.
 
 [06:12:10:01]
-LMP: Hey, Charlie, what's the preliminary outlook for the weather in our recovery are%?
+LMP: Hey, Charlie, what's the preliminary outlook for the weather in our recovery area?
 
 [06:12:10:05]
 CC: Stand by Buzz. It looks pretty good as far as I could tell. We got the - along the tropical convergence line there, there's a few clouds shown on the weather map I'm looking at here, but nothing of significance. Right now - Stand by. Let's see, right now in the mid - yes, at the MPL - we've got 3000 scattered, visibility 10, waves height 3 feet, is the present weather. I don't think there's anything forecast to be of significance. There are a couple of - FLIGHT just informed me that what I just gave you was the forecast. are a couple of tropical storms in the - well, not in the area of landing but in the Pacific. A storm called Claudia which is north - correction - about east of Hawaii. It's going northwest and dissipating. And there's one called Viola, which is out over Guam, and so they aren't any factor at all. It looks like it's going to be real nice for recovery.
@@ -24317,7 +24317,7 @@ CC: For your info, we got you - It looks like about 150,000 out now.
 MS: ...
 
 [06:14:04:33]
-CMP: It's getting appreciably larger now. It's looklng more like the world.
+CMP: It's getting appreciably larger now. It's looking more like the world.
 
 [06:14:04:38]
 CC: Roger. I'm looking at the right side of the screen this time.
@@ -24786,7 +24786,7 @@ CC: And rain clouds are over the MSC area at the moment. It began raining here j
 CDR: Thank you very much, Owen. I think my yard could use some water.
 
 [07:05:39:23]
-CC: That's very true. I've forgotten exactly how many days it did go, Buzz, but something like 30 days without rain; and we can aprreciate the rain we're getting right now.
+CC: That's very true. I've forgotten exactly how many days it did go, Buzz, but something like 30 days without rain; and we can appreciate the rain we're getting right now.
 
 [07:05:39:34]
 _page : 578
@@ -24803,7 +24803,7 @@ LMP: Well, he'll tell you. He's got a new mower.
 CC: Roger.
 
 [07:05:40:04]
-CMP: Hey, ask my chinch bugs how they're toing?
+CMP: Hey, ask my chinch bugs how they're doing?
 
 [07:05:40:07]
 CC: Well, I'm not sure about your's. I can let you know about my own, and the report isn't very good.
@@ -24856,7 +24856,7 @@ CMP: Houston, Apollo 11. We've been doing a little flight planning for Apollo 12
 CC: Roger. Go ahead.
 
 [07:05:52:57]
-CMP: We're trying to calculate how much spagetti and meatballs we can get on board for Al Bean.
+CMP: We're trying to calculate how much spaghetti and meatballs we can get on board for Al Bean.
 
 [07:05:53:05]
 CC: I'm not sure the spacecraft will take that much extra weight. Have you made any estimates?
@@ -24918,7 +24918,7 @@ CC: Roger, 11. Perhaps the 3 degrees per second just isn't that much of a bother
 LMP: Well, he's really trying to explain why he can't get all zeros.
 
 [07:06:02:20]
-CMP: I think Buzz is probably right. As a matter of fact, one time I made a mark which I thought was a little bit in error, but I tho thought, "Well heck. I'll go ahead and see how it works out anyway," and I got five zeros that time. And when I have thought everything was exactly precisely on, I have consistently been getting 0.01.
+CMP: I think Buzz is probably right. As a matter of fact, one time I made a mark which I thought was a little bit in error, but I thought, "Well heck. I'll go ahead and see how it works out anyway," and I got five zeros that time. And when I have thought everything was exactly precisely on, I have consistently been getting 0.01.
 
 [07:06:02:52]
 _page : 581
@@ -25041,7 +25041,7 @@ CMP: He always used to make me sit at the console through the back side passes, 
 CC: Well, the word we have here is - that was because whenever you came back, you had to be retrained.
 
 [07:06:44:50]
-CMP: Touch&eacute;.
+CMP: Touché.
 
 [07:06:51:08]
 CMP: Houston, Apollo 11. Out of curiosity, on those 70 mm cameras, we figure we exposed around 300 in the [glossary:LM] and around a thousand in the command module; and both cameras - or all the 70 mm cameras worked just fine.
@@ -25099,7 +25099,7 @@ CMP: Okay. Down at the bottom, after "MAIN DEPLOY pushbutton, PUSH; SURGE TANK O
 [07:07:10:04]
 _page : 585
 _tape : Tape 113/2
-CC: Roger. And then down at the very botton of page 6 2 where you see "DIRECT O<sub>2</sub>, OFF VERIFY," delete that step completely. Over.
+CC: Roger. And then down at the very bottom of page 6 2 where you see "DIRECT O<sub>2</sub>, OFF VERIFY," delete that step completely. Over.
 
 [07:07:10:20]
 CMP: Roger.
@@ -25261,7 +25261,7 @@ CDR: We're glad to hear that.
 CC: Okay, 11. You're back on, with Mike in the middle of the screen there.
 
 [07:09:34:44]
-CMP: Roger. This trip of ours to the Moon may have looked, to you, simple or easy. I'd like to assure you that has not been the case. The Saturn V rocket which put us into orbit is an incredibly complicated piece of machinery, every piece of which worked flawlessly. This computer up above my head has a 38,000 word vocabulary, each word of which has been very carefullly chosen to be of the utmost value to us, the crew. This switch which I have in my hand now, has over 300 counterparts in the command module alone, this one single switch design. In addition to that, there are myriads of circuit breakers, levers, rods, and other associated controls. The [glossary:SPS] engine, our large rocket engine on the aft end of our service module, must have performed flawlessly, or we would have been stranded in lunar orbit. The parachutes up above my head must work perfectly tomorrow or we will plummet into the ocean. We have always had confidence that all this equipment will work, and work properly, and we continue to have confidence that it will do so for the remainder of the flight. All this is possible only through the blood, sweat, and tears of a number of people. First, the American workmen who put these pieces of machinery together in the factory. Second, the painstaking work done by the various test teams during the assembly and retest after assembly. And finally, the people at the Manned Spacecraft Center, both in management, in mission planning, in flight control, and last, but not least, in crew training. This operation is somewhat like the periscope of a submarine. All you see is the three of us, but beneath the surface are thousands and thousands of others, and to all those, I would like to say, thank you very much.
+CMP: Roger. This trip of ours to the Moon may have looked, to you, simple or easy. I'd like to assure you that has not been the case. The Saturn V rocket which put us into orbit is an incredibly complicated piece of machinery, every piece of which worked flawlessly. This computer up above my head has a 38,000 word vocabulary, each word of which has been very carefully chosen to be of the utmost value to us, the crew. This switch which I have in my hand now, has over 300 counterparts in the command module alone, this one single switch design. In addition to that, there are myriads of circuit breakers, levers, rods, and other associated controls. The [glossary:SPS] engine, our large rocket engine on the aft end of our service module, must have performed flawlessly, or we would have been stranded in lunar orbit. The parachutes up above my head must work perfectly tomorrow or we will plummet into the ocean. We have always had confidence that all this equipment will work, and work properly, and we continue to have confidence that it will do so for the remainder of the flight. All this is possible only through the blood, sweat, and tears of a number of people. First, the American workmen who put these pieces of machinery together in the factory. Second, the painstaking work done by the various test teams during the assembly and retest after assembly. And finally, the people at the Manned Spacecraft Center, both in management, in mission planning, in flight control, and last, but not least, in crew training. This operation is somewhat like the periscope of a submarine. All you see is the three of us, but beneath the surface are thousands and thousands of others, and to all those, I would like to say, thank you very much.
 
 [07:09:37:52]
 _page : 589
@@ -25333,7 +25333,7 @@ CC: This is Houston. That plan sounds fine with us, Neil.
 CDR: Okay.
 
 [07:09:56:30]
-CC: And lastly, we would like to know if your stowage configuration for entry is going to conform to the nominal. The RETRO's down here are anxious to get an accurate c.g. computed for you, and in particular, where the LEVVA's are being stowed. Over.
+CC: And lastly, we would like to know if your stowage configuration for entry is going to conform to the nominal. The RETRO's down here are anxious to get an accurate e.g. computed for you, and in particular, where the LEVVA's are being stowed. Over.
 
 [07:09:56:53]
 _page : 592
@@ -25602,7 +25602,7 @@ CDR: Okay, Bruce. Good night. Thank you.
 CC: Roger. Good night.
 
 [07:12:42:36]
-CMP: Thank you very much, Bruce. It's been a pleasute working with you.
+CMP: Thank you very much, Bruce. It's been a pleasure working with you.
 
 [07:12:42:38]
 CC: Have a nice trip down.
@@ -25722,7 +25722,7 @@ CC: 11, Houston. Our recommendation on the gear you got in the helmet bag - corr
 CMP: Yes. We'll look at it, Charlie, and let you know.
 
 [07:13:42:06]
-CC: Roger. And I got a couple of other things, Mike. We need to terminate battery B charge at this time, and also, the weather is clobbering in at our targeted landing point due to scattered thunderstorms. We don't want to tangle with one of those, so we are going to move the - your aim point uprange. Correction, it will be downrange, to target for 1500 nautical mile entry so we can guarantee uplift control. The new coordinates are 13 degrees, 19 minutes north, 169 10 minutes west. The weather in that area is super. We got 2000 scattered, 8000 scattered with 10 miles visibility and 6 foot seas and the Hornet is sitting in great position to get to that targeted positton. Over.
+CC: Roger. And I got a couple of other things, Mike. We need to terminate battery B charge at this time, and also, the weather is clobbering in at our targeted landing point due to scattered thunderstorms. We don't want to tangle with one of those, so we are going to move the - your aim point uprange. Correction, it will be downrange, to target for 1500 nautical mile entry so we can guarantee uplift control. The new coordinates are 13 degrees, 19 minutes north, 169 10 minutes west. The weather in that area is super. We got 2000 scattered, 8000 scattered with 10 miles visibility and 6 foot seas and the Hornet is sitting in great position to get to that targeted position. Over.
 
 [07:13:43:21]
 _page : 602
@@ -25938,7 +25938,7 @@ CC: Apollo 11, Houston.
 LMP: Go ahead.
 
 [07:22:58:22]
-CC: Roger, 11. We don't have to worry about it any more. The altimeter out there is now standard, 29.92; but basically what it means is that if I give you a plus 10 feet, for instance, that means that you will hit the water with the ailtimeter reading 10 feet. Over.
+CC: Roger, 11. We don't have to worry about it any more. The altimeter out there is now standard, 29.92; but basically what it means is that if I give you a plus 10 feet, for instance, that means that you will hit the water with the altimeter reading 10 feet. Over.
 
 [07:22:58:41]
 CMP: All right.
@@ -25985,7 +25985,7 @@ CC: Okay. If you'll dig out your entry checklist there on page E6 1, I'll update
 LMP: Okay. Go ahead.
 
 [07:23:51:14]
-CC: Okay. On page E6 1, your RRT is 07 20, your 50K is 08 16; 40K is 08 30; your 24K is 09 02; and your 10K is 09 51. 0wer.
+CC: Okay. On page E6 1, your RRT is 07 20, your 50K is 08 16; 40K is 08 30; your 24K is 09 02; and your 10K is 09 51. Over.
 
 [07:23:52:06]
 LMP: Okay. RRT, 07 20, 50 000, 08 16. That's - 07 20 is - is the time of steam pressure peg from RRT; and 40 000, 08 30; 24 000, 09 02; 10 000, 09 51.
@@ -26181,7 +26181,7 @@ _tape : Tape 124/4
 CC: Apollo 11, Houston. Recommend antenna Bravo. Over.
 
 [08:01:41:08]
-CC: Apollo 11, Houston. Recomend antenna Bravo, or at least a better one. Over.
+CC: Apollo 11, Houston. Recommend antenna Bravo, or at least a better one. Over.
 
 [08:01:47:35]
 CC: Apollo 11, Houston.
