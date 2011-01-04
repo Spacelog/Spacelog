@@ -109,6 +109,8 @@
     margin-bottom:          20px;
     text-transform:         uppercase;
     text-align:             center;
+    width:                  220px;
+    overflow:               visible;
 }
 
 #content.homepage li a,
