@@ -270,7 +270,7 @@ _tape : Tape 1/5
 CC: Houston. Roger. Out.
 
 [00:00:22:41]
-CC: Apollo 11, this is Houston. One minute to [glossary:LOS] Canary; A0S at Tananarive 37 04 in VHF Simplex Alfa. Over.
+CC: Apollo 11, this is Houston. One minute to [glossary:LOS] Canary; [glossary:AOS] at Tananarive 37 04 in VHF Simplex Alfa. Over.
 
 [00:00:23:08]
 CC: Apollo 11, this is Houston. Coming up on [glossary:LOS] Canary; [glossary:AOS] Tananarive at 37 04, Simplex Alfa. Houston. Out.
@@ -837,7 +837,7 @@ CC: Apollo 11, Apollo 11, this is Houston. Over.
 CDR: Hello, Houston. Hello, Houston. This is Apollo 11. I'm reading you loud and clear. Go ahead. Over.
 
 [00:03:09:37]
-CC: Roger, 11. This is Houston. We had to shift stations. We weren't reading you through Goldstone. We show PYR0 bus A armed and PYRO bus B not armed at the present time. Over.
+CC: Roger, 11. This is Houston. We had to shift stations. We weren't reading you through Goldstone. We show PYRO bus A armed and PYRO bus B not armed at the present time. Over.
 
 [00:03:09:50]
 CDR: That's affirmative, Houston. That's affirmative.
@@ -979,7 +979,7 @@ CMP: Roger, Houston. Apollo 11. Go ahead.
 CC: Roger. Could you give us comments on how the transposition and docking went? Over.
 
 [00:03:38:07]
-CMP: I thought it went pretty well, Houston, although I expect I used more gas than I've been using in the simulator. The turnaround maneuver - I went PITCH ACCEL COMMAND and started to pitch up, and then when I put MANUAL, ATTITUDE PITCH back to RATE COMMAND for some reason it - it stopped its pitch rate, and I had to go back to ACCEL COMMAND and hit what I thought was an extra PROCEED on the [glossary:DSKY]. During the course of that, we drifted slightly further away from the S IVB than I expected. I expected to be out about 66 feet. My guess would be I was around 100 or so; and therefore, I expect I used a bit more coming back in. But, except for using a little more gas - And I'd be interested in your numbers on that - everything went nominally.
+CMP: I thought it went pretty well, Houston, although I expect I used more gas than I've been using in the simulator. The turnaround maneuver - I went PITCH ACCEL COMMAND and started to pitch up, and then when I put MANUAL ATTITUDE PITCH back to RATE COMMAND for some reason it - it stopped its pitch rate, and I had to go back to ACCEL COMMAND and hit what I thought was an extra PROCEED on the [glossary:DSKY]. During the course of that, we drifted slightly further away from the [glossary:S-IVB] than I expected. I expected to be out about 66 feet. My guess would be I was around 100 or so; and therefore, I expect I used a bit more coming back in. But, except for using a little more gas - And I'd be interested in your numbers on that - everything went nominally.
 
 [00:03:38:53]
 CC: This is Houston. Roger. We copy.
@@ -1170,7 +1170,7 @@ CC: Roger. O<sub>2</sub> heaters to AUTO, or you can watch them in the ON positi
 CC: Apollo 11, this ls Houston. Over.
 
 [00:04:28:21]
-CMP: Houston, Apollo ll.
+CMP: Houston, Apollo 11.
 
 [00:04:28:23]
 CC: Roger. In reference to your question on [glossary:RCS] usage: it looks like you are about 18, maybe 20 pounds below nominal at the present time. No problem at all. Over.
@@ -1255,7 +1255,7 @@ CC: Roger. We confirm that it is OFF.
 CDR: Yes. We do likewise.
 
 [00:04:45:33]
-CMP: Houston, Apollo 11. We're starting our maneuver to observe the S IVB slingshot.
+CMP: Houston, Apollo 11. We're starting our maneuver to observe the [glossary:S-IVB] slingshot.
 
 [00:04:45:39]
 CC: Roger, 11. We've got an updated attitude for you on the slingshot observation.
@@ -1285,7 +1285,7 @@ CC: Apollo 11, this is Houston. Over.
 CMP: Roger. Go ahead, Houston. Apollo 11.
 
 [00:04:49:38]
-CC: Roger. We're going to go ahead and enable the S IVB for the slingshot maneuver. The LOX dump will start about 12 minutes from now. Over.
+CC: Roger. We're going to go ahead and enable the [glossary:S-IVB] for the slingshot maneuver. The LOX dump will start about 12 minutes from now. Over.
 
 [00:04:49:49]
 CMP: Okay, LOX dump about - I guess that'll make it about 01, huh?
@@ -1326,7 +1326,7 @@ CMP: I didn't have much outside my window.
 CC: We'll get you into the [glossary:PTC] one of these days, and you take turns looking.
 
 [00:04:57:35]
-CMP: Houston, Apollo 11. We've completed our maneuver to, observe the slingshot attitude, but we don't see anything - no Earth and no S IVB.
+CMP: Houston, Apollo 11. We've completed our maneuver to, observe the slingshot attitude, but we don't see anything - no Earth and no [glossary:S-IVB].
 
 [00:04:57:48]
 CC: Roger. Stand by. In [glossary:GET] I have a LOX dump start time for you. It's supposed to start at 5 plus 03 plus 07, and stop at 5 plus 04 plus 55. Ullage burn starts at 5 plus 37 plus 47, stops at 5 plus 42 plus 27. Over.
@@ -1391,7 +1391,7 @@ CDR: You got it.
 CC: Roger.
 
 [00:05:13:26]
-LMP: Houston, Apollo 11. We've got the - what appears to be the S IVB in sight - at - oh, I'd estimate a couple of miles away. It's at our number 5 window and the dump appears to be coming out of two radially opposite directions from the S IVB.
+LMP: Houston, Apollo 11. We've got the - what appears to be the [glossary:S-IVB] in sight - at - oh, I'd estimate a couple of miles away. It's at our number 5 window and the dump appears to be coming out of two radially opposite directions from the [glossary:S-IVB].
 
 [00:05:13:51]
 _page : 29
@@ -1426,7 +1426,7 @@ CC: 11, this is Houston. We've completed the trunnion zero bias setting. You can
 CDR: Roger that. Thank you.
 
 [00:05:19:21]
-CC: 11, this is Houston. With this maneuvering to observe the slingshot, I guess we missed copying your LM/[glossary:CM] DELTA-P reading. Over.
+CC: 11, this is Houston. With this maneuvering to observe the slingshot, I guess we missed copying your [glossary:LM]/[glossary:CM] DELTA-P reading. Over.
 
 [00:05:19:33]
 CMP: Stand by. We'll give you a ...
@@ -1600,7 +1600,7 @@ CC: Roger, 11 This is TLI-plus-11-hours. [glossary:P37] format: 01344 4793, minu
 LMP: Roger. 01344 4793, minus 165 04923. Over.
 
 [00:05:46:07]
-CC: This is,Houston. Readback correct. Out.
+CC: This is Houston. Readback correct. Out.
 
 [00:05:58:35]
 CDR: Houston, Apollo 11.
@@ -2254,7 +2254,7 @@ CC: Roger, 11. Read you about four-by. How me? Over.
 CMP: You're loud and clear, Charlie. We pitched down some to get a better COMM attitude.
 
 [00:09:22:51]
-CC: Roger. Did you copy our recommendation on proceeding with the [glossary:P52], Mike? 0ver.
+CC: Roger. Did you copy our recommendation on proceeding with the [glossary:P52], Mike? Over.
 
 [00:09:22:58]
 CMP: Negative. We didn't. I've got that in work. I'm starting on [glossary:P52].
@@ -2393,7 +2393,7 @@ CMP: Waste storage vent valves closed.
 CC: Copy.
 
 [00:10:08:51]
-CC: Hello, Apollo ll. Houston. We'd like - The rates are looking pretty good right now on the [glossary:PTC], but we'd like you to continue holding. Over.
+CC: Hello, Apollo 11. Houston. We'd like - The rates are looking pretty good right now on the [glossary:PTC], but we'd like you to continue holding. Over.
 
 [00:10:09:01]
 CMP: Okay. Fine.
@@ -2660,10 +2660,10 @@ CC: Roger. 027 44 5363, minus 165 073 14 037 44 8016, minus 165 072 46; [glossar
 LMP: Roger. 027 44 5363, minus 165 073 14 037 44 8016, minus 165 072 46 046 44 6141, minus 165 097 03 055 44 8209, minus 165 096 42. Over.
 
 [00:11:01:34]
-CC: Roger, 11. That was a good readback. That was the block data scheduled for 12 hours. We'd like to just say that on a flight plan update here, just to remind you of some things, and you can do them at your convenience amd then go to sleep early if you'd like. We don't have anything else planned, but we'd like to just remind you on the filter change, the O<sub>2</sub> fuel cell purge. And we'd like a LM/[glossary:CM] DELTA-P and accomplish the presleep checklist.
+CC: Roger, 11. That was a good readback. That was the block data scheduled for 12 hours. We'd like to just say that on a flight plan update here, just to remind you of some things, and you can do them at your convenience amd then go to sleep early if you'd like. We don't have anything else planned, but we'd like to just remind you on the filter change, the O<sub>2</sub> fuel cell purge. And we'd like a [glossary:LM]/[glossary:CM] DELTA-P and accomplish the presleep checklist.
 
 [00:11:02:34]
-CDR: Okay. We've completed the filter change, and we'll get started on the fuel cell purge, and stand by for the LM/[glossary:CM] DELTA-P.
+CDR: Okay. We've completed the filter change, and we'll get started on the fuel cell purge, and stand by for the [glossary:LM]/[glossary:CM] DELTA-P.
 
 [00:11:02:42]
 CC: Roger, 11. Would you hold off on the fuel cell purge? EECOMM is saying we might not have to do that. Over.
@@ -2674,7 +2674,7 @@ CDR: Okay.
 [00:11:03:05]
 _page : 55
 _tape : Tape 8/2
-CMP: Charlie, the LM/[glossary:CM] DELTA-P is 0.5.
+CMP: Charlie, the [glossary:LM]/[glossary:CM] DELTA-P is 0.5.
 
 [00:11:03:17]
 CC: Copy. 0.5. Out.
@@ -3205,7 +3205,7 @@ SC: ...
 [01:01:06:54]
 _page : 75
 _tape : Tape 17/1
-CC: 11, this is Houston. While you're maneuvering, could we get a LM/[glossary:CM] DELTA-P reading from you? Over.
+CC: 11, this is Houston. While you're maneuvering, could we get a /[glossary:CM] DELTA-P reading from you? Over.
 
 [01:01:07:01]
 CMP: Roger. Just a tad under 1, Bruce, 0.95.
@@ -3940,10 +3940,10 @@ CC: Apollo 11, this is Houston. Negative. We had a command computer at the Madri
 LMP: Okay. You've got it.
 
 [01:04:36:39]
-CC: Okay. One thing that we did miss in the dropout in the noise here is your LM/[glossary:CM] DELTA-P reading for about 28 hours [glossary:GET]. Over.
+CC: Okay. One thing that we did miss in the dropout in the noise here is your [glossary:LM]/[glossary:CM] DELTA-P reading for about 28 hours [glossary:GET]. Over.
 
 [01:04:37:05]
-LMP: Okay. The LM/[glossary:CM] DELTA-P is 0.98.
+LMP: Okay. The [glossary:LM]/[glossary:CM] DELTA-P is 0.98.
 
 [01:04:37:10]
 CC: Roger. 0.98, and what have you been reading for O<sub>2</sub> flow on your onboard gage? Over.
@@ -5655,7 +5655,7 @@ CC: Roger, we copy. Radiation 11005, 10006, 09007; no medication; 37.1, 37.1, 37
 [01:12:06:51]
 _page : 127
 _tape : Tape 24/1
-LMP: That's affirmative. And you want a LM/[glossary:CM] DELTA-V? It's 1.1.
+LMP: That's affirmative. And you want a [glossary:LM]/[glossary:CM] DELTA-V? It's 1.1.
 
 [01:12:06:56]
 CC: Roger. Copy 1.1.
@@ -6325,7 +6325,7 @@ CMP: Stand by, Charlie. Yes, we're going to come out of [glossary:PTC] here at 2
 CC: That sounds fine to us. Over.
 
 [02:06:46:56]
-CC: Hello, Apollo 11. Houston. Before you open the pressure equalization valve, we'd like the LM/[glossary:CM] DELTA-P. Over.
+CC: Hello, Apollo 11. Houston. Before you open the pressure equalization valve, we'd like the [glossary:LM]/[glossary:CM] DELTA-P. Over.
 
 [02:06:47:06]
 CMP: Okay. Let me check it again. It was about 155.
@@ -8030,10 +8030,10 @@ CC: Roger, 11. We copy for the radiations. And, we're considering - this [glossa
 CDR: Okay.
 
 [02:11:47:46]
-CC: Apollo 11, Houston. Would you give us the LM/[glossary:CM] DELTA-P reading? Over.
+CC: Apollo 11, Houston. Would you give us the [glossary:LM]/[glossary:CM] DELTA-P reading? Over.
 
 [02:11:48:45]
-CC: Hello, Apollo 11. Houston. We switched the antennas on you again. Would you please give us the LM/[glossary:CM] DELTA-P reading? Over.
+CC: Hello, Apollo 11. Houston. We switched the antennas on you again. Would you please give us the [glossary:LM]/[glossary:CM] DELTA-P reading? Over.
 
 [02:11:49:43]
 CC: Hello, Apollo 11. Houston. Over.
@@ -8042,7 +8042,7 @@ CC: Hello, Apollo 11. Houston. Over.
 CDR: Go ahead. 11 here.
 
 [02:11:49:50]
-CC: Roger. We switched antennas on you, there, moments ago, Neil. Could you please give us the LM/[glossary:CM] DELTA-P reading? Over.
+CC: Roger. We switched antennas on you, there, moments ago, Neil. Could you please give us the [glossary:LM]/[glossary:CM] DELTA-P reading? Over.
 
 [02:11:50:00]
 CDR: It's less than 0.1.
@@ -8836,7 +8836,7 @@ CDR: Go ahead.
 CC: [glossary:LOI] 1, [glossary:SPS] G&N: 62710, plus 098, minus 019, [glossary:GET] ignition 075 49 4965, minus 28897, minus 03944, minus 00686. Roll 358, pitch 226, 347; 01692, plus 00610; 29173 602 29108; sextant star 31 1066 358. Remainder of the PAD is NA. [glossary:GDC] align Vega and Deneb 243 183 012. No ullage. The horizon will be visible just below the upper edge of the hatch window 2 minutes prior to the [glossary:LOI] burn. It will not be visible in the rendezvous window on the left hand side. [glossary:LOS] at 75 hours 41 minutes 23 seconds. [glossary:AOS] at 76 15 29. [glossary:AOS] without the [glossary:LOI] burn 76 05 30. The values which you would see on NOUN 42 prior to [glossary:LOI] burn are HA plus 431.3, HP minus 128.2. Readback. Over.
 
 [03:00:53:54]
-CDR: Roger. [glossary:LOI] 1, [glossary:SPS] G&N: 62710, plus 098, minus 019, 075 49 4965, minus 28897, minus 03944, minus 00686; 358 226 347; 01692, plus 00610; 29173 602 29108; 31 106.6 358. [glossary:GDC] align Vega and Deneb 243 183 012. No ullage. Horizon in the hatch window 2 minutes before TIG. A0S with an [glossary:LOI] 76 15 29. [glossary:AOS] without an [glossary:LOI] 76 05 30. HA before the burn 431.3, HP minus 128.2. Say again [glossary:LOS] time.
+CDR: Roger. [glossary:LOI] 1, [glossary:SPS] G&N: 62710, plus 098, minus 019, 075 49 4965, minus 28897, minus 03944, minus 00686; 358 226 347; 01692, plus 00610; 29173 602 29108; 31 106.6 358. [glossary:GDC] align Vega and Deneb 243 183 012. No ullage. Horizon in the hatch window 2 minutes before TIG. [glossary:AOS] with an [glossary:LOI] 76 15 29. [glossary:AOS] without an [glossary:LOI] 76 05 30. HA before the burn 431.3, HP minus 128.2. Say again [glossary:LOS] time.
 
 [03:00:55:47]
 CC: Roger. [glossary:LOS] time 75 41 23. Over.
@@ -10273,7 +10273,7 @@ CDR: Okay. We're showing about 5.2 right now.
 CC: Roger.
 
 [03:08:38:40]
-CDR: And, Charlie, the LM/[glossary:CM] DELTA-P is just over 1 pound right now.
+CDR: And, Charlie, the [glossary:LM]/[glossary:CM] DELTA-P is just over 1 pound right now.
 
 [03:08:38:44]
 CC: Copy. Out.
@@ -10719,7 +10719,7 @@ CC: Eagle, Houston. Everybody's happy as a clam with this mode. We'd like to sta
 LMP: Roger. Understand. I'm checking out camera number 4 now.
 
 [03:11:19:26]
-CC: Eagle, Houston. Say again what you're checking out? 0ver.
+CC: Eagle, Houston. Say again what you're checking out? Over.
 
 [03:11:19:35]
 LMP: Roger, Houston. Eagle has checked out both 70 millimeter cameras and both 16 millimeter cameras, and all work fine. Over.
@@ -10828,7 +10828,7 @@ CC: Roger, 11. And we'd like you to do a waste water dump at 84 hours down to 25
 CMP: Roger. I understand. Waste water dump to 25 percent at 84 hours.
 
 [03:11:32:10]
-CC: Roger. And, Mike, we'll have [glossary:LOS] in about 11 minutes at 83 44. A0S is 84 30, and prior to - or at [glossary:LOS], we would like you to go - Configure the S band for high gain track to REACQ, high gain beam to NARROW, and let's try that to see if we can get an automatic REACQ at the next [glossary:AOS]. Over.
+CC: Roger. And, Mike, we'll have [glossary:LOS] in about 11 minutes at 83 44. [glossary:AOS] is 84 30, and prior to - or at [glossary:LOS], we would like you to go - Configure the S band for high gain track to REACQ, high gain beam to NARROW, and let's try that to see if we can get an automatic REACQ at the next [glossary:AOS]. Over.
 
 [03:11:32:43]
 CMP: Good idea.
@@ -11114,7 +11114,7 @@ CMP: No. We're still eating. We're about to do it. We'll let you know.
 [03:13:28:04]
 _page : 262
 _tape : Tape 55/4
-CC: Roger, 11. And we've got about 14 minutes until [glossary:LOS]. A0S is 86 30, an hour away. We're wondering whether or not you plan to have one man up at that time or would you all like to be asleep inside the next hour? Over.
+CC: Roger, 11. And we've got about 14 minutes until [glossary:LOS]. [glossary:AOS] is 86 30, an hour away. We're wondering whether or not you plan to have one man up at that time or would you all like to be asleep inside the next hour? Over.
 
 [03:13:28:25]
 CMP: Somebody will be up.
@@ -11129,7 +11129,7 @@ CMP: Okay. We'll do that. We haven't chlorinated the water yet, and we haven't c
 CC: Roger, Mike. Thank you.
 
 [03:13:40:07]
-CC: Apollo 11, Houston. We have [glossary:LOS] coming up in 2 minutes now, and A0S will be at 86 plus 28 plus 15. Over.
+CC: Apollo 11, Houston. We have [glossary:LOS] coming up in 2 minutes now, and [glossary:AOS] will be at 86 plus 28 plus 15. Over.
 
 [03:13:40:20]
 CDR: We'll see you on the other side, Houston.
@@ -11931,7 +11931,7 @@ CC: Roger. They're correct. You can torque. Over.
 [04:01:27:43]
 _page : 282
 _tape : Tape 63/2
-CC: Apollo 11, Houston. We have about 4 minutes [glossary:LOS]. That makes A0S 98 18. Over.
+CC: Apollo 11, Houston. We have about 4 minutes [glossary:LOS]. That makes [glossary:AOS] 98 18. Over.
 
 [04:01:27:54]
 CDR: Eagle. Roger.
@@ -13032,7 +13032,7 @@ CC: That's affirmative, Eagle. Reading you five by.
 CMP (COLUMBIA): Roger.
 
 [04:05:16:17]
-CC: Columbia, Houston. We'll have [glossary:LOS] at 101 28. A0S for you 102 15. Over.
+CC: Columbia, Houston. We'll have [glossary:LOS] at 101 28. [glossary:AOS] for you 102 15. Over.
 
 [04:05:16:30]
 CMP (COLUMBIA): Thank you.
@@ -16080,7 +16080,7 @@ CMP (COLUMBIA): Columbia reads you loud and clear on OMNI C - Charlie.
 [04:12:44:25]
 _page : 366
 _tape : Tape 70/13
-CC: Roger. Columbia, I have [glossary:LOS] and [glossary:AOS] times for you this pass with [glossary:MSFN]. [glossary:LOS] 109 plus 21 plus 12. A0S coming around on the corner 110 07 35. Over.
+CC: Roger. Columbia, I have [glossary:LOS] and [glossary:AOS] times for you this pass with [glossary:MSFN]. [glossary:LOS] 109 plus 21 plus 12. [glossary:AOS] coming around on the corner 110 07 35. Over.
 
 [04:12:44:52]
 CMP (COLUMBIA): Thank you. That's fine.
