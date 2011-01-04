@@ -42,9 +42,9 @@
 
   <dl id='transcript'>
   {% for log_line in log_lines %}
-    {% for speaker, text in log_line.lines %}
     <div id="log-line-{{ log_line.timestamp }}" class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}{% if log_line.key_scene_number %} key-scene{% endif %}'
       {% if log_line.transcript_page %}data-transcript-page='{{ log_line.transcript_page }}'{% endif %}>
+    {% for speaker, text in log_line.lines %}
       <dt class='time'{% if log_line.pre_highlight %} id='show-selection'{% endif %}>
         <a href='{% selection_url log_line.timestamp %}'>
           <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}" data-range-advisory="{{ log_line.utc_time }} UTC ({{ log_line.utc_time|timesince }} ago)">
@@ -96,28 +96,28 @@
             {% endfor %}
         {% endif %}
       </dd>
-      {% if log_line.highlight_index == max_highlight_index %}
-      <p id='range-advisory'>
-        Spoken on {{ first_highlighted_line.utc_time }} UTC ({{ first_highlighted_line.utc_time|timesince }} ago)<span>. </span>
-        <i>Link to this<span> transcript range is</span>:</i>
-        <input type="text" name="" value="{{ permalink }}">
-        <a title="Tweet this transcript range" href="http://twitter.com/share?url={{ permalink|urlencode:'' }}&amp;text={{ first_highlighted_line.lines.0.1|truncatewords:15|urlencode }}">Tweet</a>
-      </p>
-      {% endif %}
-      {% if log_line.following_silence > 3600 and max_highlight_index %}
-         <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}
-      {% endif %}
-      </div>
-      {% if log_line.following_silence > 3600 %}
-        {% if max_highlight_index and log_line.highlight_index == max_highlight_index %}
-         <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}
-        {% endif %}
-        {% if not max_highlight_index %}
-         <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
+    {% endfor %}{# speaker, text #}
+    {% if log_line.highlight_index == max_highlight_index %}
+    <p id='range-advisory'>
+    Spoken on {{ first_highlighted_line.utc_time }} UTC ({{ first_highlighted_line.utc_time|timesince }} ago)<span>. </span>
+    <i>Link to this<span> transcript range is</span>:</i>
+    <input type="text" name="" value="{{ permalink }}">
+    <a title="Tweet this transcript range" href="http://twitter.com/share?url={{ permalink|urlencode:'' }}&amp;text={{ first_highlighted_line.lines.0.1|truncatewords:15|urlencode }}">Tweet</a>
+    </p>
+    {% endif %}
+    {% if log_line.following_silence > 3600 and max_highlight_index %}
+     <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}
+    {% endif %}
+    </div>
+    {% if log_line.following_silence > 3600 %}
+    {% if max_highlight_index and log_line.highlight_index == max_highlight_index %}
+     <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}
+    {% endif %}
+    {% if not max_highlight_index %}
+     <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}
+    {% endif %}
+    {% endif %}
+  {% endfor %}{# log_line #}
   </dl>
 
   <div class='nav after'>
