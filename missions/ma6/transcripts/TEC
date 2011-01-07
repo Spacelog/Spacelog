@@ -256,7 +256,7 @@ P: Roger. As soon as we get done with this transmission. I understand am I clear
 P: Roger. Starting controls check.
 
 [00:00:08:01]
-P: Starting controls cheek.
+P: Starting controls check.
 
 [00:00:08:09]
 CC: Your attitudes look okay here.
@@ -4138,7 +4138,7 @@ P: This is Friendship Seven. Negative. I have felt perfectly normal during the
      whole flight. I feel fine. Over.
 
 [00:03:23:32]
-S: Very good. Back lo Cap Com.
+S: Very good. Back to Cap Com.
 
 [00:03:23:41]
 CC: Friendship Seven, Friendship Seven, do you want your inverter temperatures at
@@ -4763,7 +4763,7 @@ CC: Are you going to start down on this procedure, or this 30-minute stuff?
 [00:04:00:15]
 P: Yes, all the fuse switches are still in the same position, Gordo. I haven't changed
      any of those. Squib is armed, Auto Retrojettison is off. I am on fly-by-wire,
-     auto, and gyro normal. All "W" handles are in. The sequence panel is normal
+     auto, and gyro normal. All "T" handles are in. The sequence panel is normal
      except for Landing Bag in the off position. The attitude indicator has been
      rather erratic, they drift very rapidly sometimes. Especially when I maneuver
      myself and then come back onto [glossary:ASCS|ASCS]. It seems they have been thrown way
@@ -4922,7 +4922,7 @@ P: This is Friendship Seven. Turned around, yawed 180 [degrees] to see the sunri
 
 [00:04:14:04]
 _extra : CANTON (THIRD ORBIT)
-P: They do not seen, to be coming from the capsule at all. There are too many of them.
+P: They do not seem to be coming from the capsule at all. There are too many of them.
      They're all spread out all over the place; it looks like they're some of them might
      be miles away.
 
@@ -5587,7 +5587,7 @@ P: Say again.
 CC: Standby.
 
 [00:04:41:51]
-P: This is Friendship Seven. Going to fly-by-adre. I'm down to about 15 percent on
+P: This is Friendship Seven. Going to fly-by-wire. I'm down to about 15 percent on
      manual.
 
 [00:04:41:58]
