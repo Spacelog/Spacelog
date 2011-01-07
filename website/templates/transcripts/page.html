@@ -106,15 +106,15 @@
     </p>
     {% endif %}
     {% if log_line.following_silence > 3600 and max_highlight_index %}
-     <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}
+     <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}</dd>
     {% endif %}
     </div>
     {% if log_line.following_silence > 3600 %}
     {% if max_highlight_index and log_line.highlight_index == max_highlight_index %}
-     <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}
+     <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}</dd>
     {% endif %}
     {% if not max_highlight_index %}
-     <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}
+     <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}</dd>
     {% endif %}
     {% endif %}
   {% endfor %}{# log_line #}
