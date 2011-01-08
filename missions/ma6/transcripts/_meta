@@ -164,6 +164,10 @@
             "summary": "Mercury Control Center",
             "type": "abbreviation"
         },
+        "Drogue": {
+            "summary": "Drogue parachute",
+            "description": "A parachute fired before the main parachute, to gain control of the spacecraft after re-entry, providing stability and slowing descent."
+        },
         "MAX Q": {
             "summary": "Maximum dynamic pressure",
             "description": "The point at which aerodynamic stress on a spacecraft in atmospheric flight is maximized."
