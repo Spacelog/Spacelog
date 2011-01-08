@@ -2995,7 +2995,7 @@ Check.
 Page 281
 67 59 51 C Platform Attitude M_lf'_mcthm light came on at
 11:15 - 11:15.
-67 99 94 P The attitude of the sun was about I_ above *..he
+67 59 54 P The attitude of the sun was about I_ above *..he
 nose. Four series were taken and -
 68 00 08 C Okay, go ahead with the rest of your G.m.t. 's.
 68 00 11 CC Roger. Time 12 19 00 Horizon Scanner Moonset Check.
@@ -3006,7 +3006,7 @@ Scanner Sunset Check'".
 6800 42 CC 'Roger. The first one was 11:54, and the second one
 was 12: 19.
 68 00 48 C Roger. I've got that.
-68 00 90 CC Okay, the next one is IR 22 CO Apollo Yaw Orientation
+68 00 50 CC Okay, the next one is IR 22 CO Apollo Yaw Orientation
 Night Check.
 68 01 06 C Okay, 12:22 Apollo Yaw Orientation Night Check.
 68 01 10 CC Roger, 12 58 00 Horizon Scanner Thruster Check.
@@ -3017,7 +3017,7 @@ Night Check.
 68 02 05 C Say again 13: 14.
 68 02 07 CC Roger, that's One Attitude Thruster Check.
 68 02 39 CC Did you get that last one, Jim?
-68 02 91 CC Gemini 4, this is Houston.
+68 02 51 CC Gemini 4, this is Houston.
 68 03 16 CC Gemini 4, Gemini 4, Houston CAP COM_ Over.
 68 03 18 C Go ahead Houston, Gemini 4.
 680 3 22 CC Roger, did you get that One Attitude Ttnmster Check?
@@ -3082,7 +3082,7 @@ the sunset?
 68 14 58 C I'm ... right now.
 68 15 42 C How can you do this and take pictures?
 68 42 58 CC Gemini 4, Carnarvou CAP CO_
-68 45 15 C Go ahead Carnarvon, Gemini 4.
+68 43 15 C Go ahead Carnarvon, Gemini 4.
 68 43 18 CC Roger. Look_,_g good hel_ on the ground. How are
 you doing?
 68 43 20 C Fine.
@@ -3097,12 +3097,12 @@ can see the lights of Melbourne. That'll be about
 a little to the right of you -- just about underneath
 you -- just slightly down.
 68 43 48 C Okay. To the north.
-68 45 49 CC Negati_e, to the south.
-68 45 52 C To the south. Okay.
-68 45 54 CC I don't know whether you would see it. It's mining
+68 43 49 CC Negati_e, to the south.
+68 43 52 C To the south. Okay.
+68 43 54 CC I don't know whether you would see it. It's mining
 here real bad. I don't know whether the weather is
 clear over Me3bourne or not.
-68 45 56 C Okay. Yes, everytime I go over Australia _11 I ever
+68 43 56 C Okay. Yes, everytime I go over Australia _11 I ever
 see is thunderstorms.
 68 44 02 CC Had 3 inches today.
 
@@ -3163,8 +3163,8 @@ Section TEXAS
 Over.
 69 27 19 CC Gemini 4, Gemini 4, Houston CAP COM. Over.
 69 27 29 P Co ahead Houston, C_mini 4.
-69 27 52 CC Roger, Gemini 4. How are your Horizon Checks coming?
-69 27 57 P We're coming on pretty well. We've got - the Horizon
+69 27 32 CC Roger, Gemini 4. How are your Horizon Checks coming?
+69 27 37 P We're coming on pretty well. We've got - the Horizon
 Scan Thruster and the Track Check left to do.
 69 27 51 CC Roger. I would like to remind you that the Horizon
 Scan Thruster Check should not be commenced until
@@ -3223,7 +3223,7 @@ fuel.
 69 30 44 CC Right.
 69 30 46 P I do::'t ever land with them f_,11.
 69 30 50 C ... and we shoot GCA's when we come back.
-69 50 51 CC Right. Everythtmg's just real good _own here. I
+69 30 51 CC Right. Everythtmg's just real good _own here. I
 saw both of your wives yesterday. Everything's in
 good shape.
 69 30 58 C Okay.
@@ -3251,8 +3251,8 @@ average n,,mber right now.
 69 34 00 C Go ahead, Houston.
 69 34 01 CC Roger. It looks l_ke you've used about l_ pounds at
 a first guess --OA_.
-69 54 08 C I've used how much?
-69 54 11 CC A first cut at it, Jim, looks like about 15 pounds
+69 34 08 C I've used how much?
+69 34 11 CC A first cut at it, Jim, looks like about 15 pounds
 so far.
 
 Page 288
@@ -3262,7 +3262,7 @@ Page 288
 69 35 13 CC Gemini, this is Houston. That's Just a rough guess
 on the OAMS usaEe. We'll get a better cut at it
 after Canaries. You're still looking good.
-69 39 24 C Okay. I got a question. This check that we are
+69 35 24 C Okay. I got a question. This check that we are
 supposed to perform at 13:lb which is a One Attitude
 Thruster Check. Is that the Attitude Thruster Failure
 Check?
@@ -3272,16 +3272,16 @@ Thruster Failure Check.
 69 35 58 C Okay.
 69 36 54 CC Gemini 4, this is Houston. You really sound great,
 and we ,11 see you later tonight.
-69 57 01 C 0kee-dokee.
+69 37 01 C 0kee-dokee.
 
 Section CANARY ISLANDS
 
 69 42 56 CC Gemini 4, Canary CAP COM_
-69 45 08 CC Gemini 4, Canary CAP COM_
+69 43 08 CC Gemini 4, Canary CAP COM_
 69 43 18 C Canary, Gemini 4. Do you read?
 69 43 21 CC Roger. We have T/M AcquiJition on you now.
 69 43 24 C Okay. I'll go ahead with that thruster check.
-69 43 50 C All set?
+69 43 30 C All set?
 69 43 32 CC Roger.
 69 45 42 C Okay. We didn't get any break lock on that.
 69 45 46 CC Say again.
@@ -3344,7 +3344,7 @@ the last report.
 70 21 28 S Okay, have you had a chanr,e to sleep at all since
 your last Aero-MealPass?
 70 21 34 P No, I don't believ_ so.
-70 21 56 S Okay, that is all we need at this time -
+70 21 36 S Okay, that is all we need at this time -
 70 21 40 P ... another 15-minute nap, as a matter of fact.
 70 21 41 P What was that again?
 70 21 43 P I caught about a 15-minute nap but have been pretty
@@ -3438,7 +3438,7 @@ Section CANARY ISLANDS
 71 16 46 CC Roger, we have you still powered ...
 
 Page 293
-71 17 50 C You have what?
+71 16 50 C You have what?
 71 16 52 CC We have you ...
 71 16 54 C That's affirmative. I'm looking for some blood
 ... around here.
@@ -3470,20 +3470,20 @@ half an hour ago and he'll be sleeping pi-obablyfor
 another 5 or 6 hours.
 71 51 59 CC Okay, we got a couple of things for you that we want
 you to do.
-715202 c Okay.
+71 52 02 C Okay.
 71 52 05 CC Guaymas acquisition time 15 44 55.
 
 Page 294
-71 52 13 C Stand by, let .mefind my data book.
+71 52 13 C Stand by, let me find my data book.
 71 52 16 CC Okay, reach up and grab it.
-71 51 00 CC Gemini 4, Carnarvon CAP COM_
+71 51 00 CC Gemini 4, Carnarvon CAP COM.
 71 51 40 C Hello Carnarvon, hello Carnarvon, Gemini 4.
 71 51 42 CC Gemini 4, Carnar-,on. You are loud and clear.
 How me?
 71 51 45 C Loud and clear.
 71 51 47 CC Okay. You're looking good here on the ground. How
 are you doing?
-71 51 90 C We are doing fine. Ed went to sleep about half an
+71 51 50 C We are doing fine. Ed went to sleep about half an
 hour ago and he w_ll be sleeping, oh, m_ybe for
 another - at least 5 or 6 hours.
 71 52 00 CC Okay. Got a couple of things for you they want you
@@ -3505,7 +3505,7 @@ put your oral temp probe in your mouth. They want
 a Type i Medical Pass over Guaymas.
 71 53 12 C Okay. Type 1 over Guaymas.
 71 53 14 CC Okay.
-71 55 16 C They told me they wanted me right-side-up when I
+71 53 16 C They told me they wanted me right-side-up when I
 went over you. Was tint next time or this time?
 71 53 21 CC It must have been for the next time. Hold on. I'll
 see what they are talking about.
@@ -3531,12 +3531,12 @@ oral temp.
 72 30 39 S Gemini 4, your blood pressure is received. Start
 exercise on your mark.
 72 30 50 S Gemini 4, Ouaymas Surgeon. Do you read?
-72 50 52 C Roger. Do you read?
+72 30 52 C Roger. Do you read?
 72 30 54 S Roger, Gemini 4. Start your exercise on your mark.
 We have received your blood pressure.
 72 30 59 C Roger.
 72 31 01 C NARKI
-72 51 55 S Your cuff is f_:]3-scale.
+72 31 55 S Your cuff is f_:]3-scale.
 72 32 20 S Gemini 4, your blood pressure is received. We are
 standing by for your first water and sleep report.
 72 32 28 C Roger. I Just finished up Meal A of Day 3. Ed has
@@ -3551,7 +3551,7 @@ Page 296
 72 32 52 C That's right. Now, I've been asleep for about 2 or
 3 hours. Ed's going to sleep for about 5 or 6 here,
 so I probably won't be going again for 6 or 7-
-72 35 02 S Roger, understand. Surgeon out.
+72 33 02 S Roger, understand. Surgeon out.
 72 33 04 C Roger.
 72 34 31 CC Gemini 4, Houston CAP C0_
 72 34 37 C Go ahead, Houston. Gemini 4.
@@ -3572,7 +3572,7 @@ Tell me as soon as you are ready to copy.
 8+55. Continue 48-1 time without burn. 17 14 37.
 7+41. 14+29.
 72 36 33 C Got it.
-72 56 34 CC Okay. Now I've got quite a bit of information to
+72 36 34 CC Okay. Now I've got quite a bit of information to
 pass up to you here. We would like for the Pilot,
 who is asleep, to leave his face-plate open and his
 gloves off. And then we would like for the Pilot
@@ -3592,7 +3592,7 @@ When we sleep we generally close the visor and put
 
 Page 297
 72 37 44 CC Roger.
-92 37 47 C The humidity stays do_m around _0 percent.
+72 37 47 C The humidity stays do_m around _0 percent.
 72 37 52 CC Roger. Okay, Jim, we decided tt_t you've got a little
 bit of fuel left that we can play with here in the
 Flight Plan. We would like for you to go to the
@@ -3656,7 +3656,7 @@ Section BERMUDA
 Quantity Read OFF and the computer OFF?
 72 41 30 C Yes. I'm getting them now.
 72 41 32 CC Okay.
-72 41 25 CC Okay, now Flight would like to know if you are going
+72 41 35 CC Okay, now Flight would like to know if you are going
 to try sleeping with your helmet off. Try sleeping
 with your face-plate open, I'm sorry.
 72 41 49 C I don't know. The sun really gets in your eyes, Gus.
@@ -3704,7 +3704,7 @@ at the end of the first day. I wasn't sure I was
 going to be able to hack it. But they Pave cleared
 up now. I think our little problem was taken care
 of by the suit heat exchanger.
-72 43 98 CC Okay. You don't have any problem at all now with
+72 43 58 CC Okay. You don't have any problem at all now with
 them?
 72 44 01 C No problem at all. Though it was really bad between
 about 18 and 36 hours.
@@ -3720,16 +3720,16 @@ the ground. We are standing by if you have anything
 you need.
 73 25 13 C Roger, Carnarvon. This is Gemini 4. We're happy.
 73 25 17 CC Okay, we'll Just let you alo, _.and continue on.
-75 25 20 C Roger, thBnk you. Hey, Ed ...
-73 25 26 C _rnarvon, Gemini 4, ha_ it stopped raining yet?
+73 25 20 C Roger, thBnk you. Hey, Ed ...
+73 25 26 C Carnarvon, Gemini 4, ha_ it stopped raining yet?
 73 25 29 CC Oh, let me take a look outeide ... He's sticking
 his head out the window -wait a second.
-73 23 49 c okay.
+73 25 49 C Okay.
 73 26 03 CC It has stopped raining_ a little bit wet though -
 73 26 05 c Verygood.
 73 26 17 C There sure have been some w41_ thunder clouds over
 Australia here in the last couple of days.
-73 25 22 CC That's affirmative. We've had about 3 inches of
+73 26 22 CC That's affirmative. We've had about 3 inches of
 rain today. People around here can re-1ly use it
 for their sheep. This is the dry time of the year.
 73 26 31 C Roger.
@@ -3811,7 +3811,7 @@ a bm_dred years or so.
 going on. Then, there's a nice story about Chris
 and the Control Center and your flight team and
 your families in the Chronicle this morning.
-74 15 22 C Very good.
+74 13 22 C Very good.
 74 13 25 CC And then, the last item, the Cards final]y beat the
 Astros yesterday, 4-3. Took them 12 inntngs to do
 it. That's about it.
