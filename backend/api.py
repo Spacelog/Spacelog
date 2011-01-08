@@ -446,7 +446,7 @@ class Glossary(object):
         self.redis_conn   = redis_conn
         self.mission_name = mission_name
         self.identifier   = identifier
-        self.id           = "%s:%s" % (self.mission_name, identifier)
+        self.id           = "%s:%s" % (self.mission_name, identifier.lower())
         self._load()
 
     def _load(self):
