@@ -5020,13 +5020,13 @@ that Rev SD?
 further clarification.
 85 39 34 CC Gemini 4, this is Houston. That is not Apollo, it's
 Just straight D-9.
-85 59 39 C Ail right, D-9.
+85 39 39 C Ail right, D-9.
 85 39 41 CC And that's all I have from Houston. Standing by.
 85 39 45 C ...
 
 Section ROSE KNOT VICTOR
 
-86 45 23 CC Gemini 4, Gemini 4, Gemini 4, this is RKV CAP COM.
+86 43 23 CC Gemini 4, Gemini 4, Gemini 4, this is RKV CAP COM.
 86 43 30 P Go ahead RKV, Gemini 4.
 86 43 32 CC Roger. We have a valid temperature. Would you pump
 up your blood pressure?
@@ -5080,7 +5080,7 @@ no. 16, at a G.m.t. of 08 hours 11 minutes. Yaw
 12° , pitch 30° , use 16-mm camera. Rev _8, sequence
 12, G.n_t. 09 hours 36 minutes, yaw 3°
 pitch 30° , use 16-mm camera. Do you copy?
-87 17 47 C Roger. Rev 57, Sequence 16, 08:ll, yaw 12c , pitch
+88 17 47 C Roger. Rev 57, Sequence 16, 08:ll, yaw 12c , pitch
 300 , 16-mm camera. Rev 58, sequence 12, 09:36,
 yaw 3° , pitch 30, using 16-mm camera.
 
@@ -5128,7 +5128,7 @@ t¥_t computer.
 88 21 47 C We can't insert anything in the M's ...
 
 Page 338
-88 22 58 CC Okay. We understand.
+88 21 58 CC Okay. We understand.
 88 22 01 C ... on the second test.
 88 22 32 CC Gemini 4, on this insertion of the M's, you are
 to do that man_,ally. Is this the way you've been
@@ -5159,7 +5159,7 @@ started- pressed the Start Comp.
 88 39 43 C That's affirmative.
 88 39 48 CC Roger, here is your map update when you are ready.
 88 39 51 C Okay, go ahead.
-88 39 93 CC It's on Rev _6, longitude at 33° West, at G.m.t.
+88 39 53 CC It's on Rev _6, longitude at 33° West, at G.m.t.
 06 17oo.
 88 40 05 C Roger. Thank you.
 88 40 20 C I tell you, C_nary, I think that computer died when
@@ -5241,7 +5241,7 @@ going to do about that.
 90 02 56 CC Yes, we've been holding on to that for a while and
 thought we'd surprise you. Here's Jim.
 90 03 01 CC Gemini 4, this is Shakey here.
-90 05 05 C Hello Shakey here, how are you?
+90 03 05 C Hello Shakey here, how are you?
 90 03 06 CC Fine. Listen, what are your feelings on a rolling
 reentry versus the 900 bank angle? We're recomm-ndlng
 a rolling here.
@@ -5343,7 +5343,7 @@ Section CARNARVON
 are you doing?
 90 47 33 C Everything is fine up here.
 90 47 35 CC Okay, roger.
-90 47 59 C Say, I finally saw Australia in the daylight.
+90 47 39 C Say, I finally saw Australia in the daylight.
 90 47 41 CC Can you see the ground?
 90 47 43 C Yes. I can see the ground now, and I can see the
 ..,..
@@ -5361,7 +5361,7 @@ along here and I'll tell you.
 90 51 15 CC Are you doing a little rolling?
 90 51 18 C Roger, I am.
 90 51 20 CC Okay.
-91 52 31 CC Gemini 4, Gemini 4, Houston C_3 CO_ Over.
+91 32 31 CC Gemini 4, Gemini 4, Houston C_3 CO_ Over.
 
 Page 344
 91 32 59 CC Gemini 4, Gemini 4, Houston CAP COM. Over.
@@ -5468,9 +5468,9 @@ then let you back it up.
 Section TEXAS
 
 93 02 28 CC Gemini 4, Gemini 4, Houston CAP CO_. Over.
-93 05 47 CO Gemini 4, Gemini 4, Houston CAP OOM_
+93 03 47 CO Gemini 4, Gemini 4, Houston CAP OOM_
 93 04 13 P Go ahead Houston, Gemini 4.
-95 04 19 CC Roger, G_mtui 4. How are you doing, Ed?
+93 04 19 CC Roger, G_mtui 4. How are you doing, Ed?
 
 Page 347
 93 04 21 P Pretty good. Had a good night's sleep and ...
@@ -5478,7 +5478,7 @@ water.
 93 04 25 CC Roger. We're discussing this reentry profile and
 we'll get you the final data up just as soon as we
 come up with a final answer.
-95 04 36 P Roger, sounds good.
+93 04 36 P Roger, sounds good.
 93 04 38 CC It looks like now, however, we're going to Dower up
 your platfo_-mabout 45 m_nutes earlier than the
 Flight Plan ca11_ for. It'll be an elapsed time of
@@ -5518,7 +5518,7 @@ C-band Beacon to the CONTINUOUS position.
 93 53 26 CC Roger. Want you to leave it in that position for
 the remainder of the flight.
 93 53 30 P Roger, understand.
-93 55 32 CO Okay. I've got a map update for you if you are
+93 53 32 CO Okay. I've got a map update for you if you are
 ready to copy.
 93 53 36 P Wait one mtnute, please.
 93 53 44 P Go ahead with the update.
@@ -5552,7 +5552,7 @@ and we'd like a propellant q,]antityreadout.
 two suit fans on?
 94 35 36 P We had two suit fans on for about the last 2 hours.
 94 35 39 CC Roger, understand. Two suit fans.
-94 55 42 P We're to one now.
+94 35 42 P We're to one now.
 94 35 44 CC Roger, you're back to one. And what time did the
 Conm_nd Pilot wake?
 94 35 47 P Oh, about 15 minutes ago.
@@ -5594,7 +5594,7 @@ going to work. Why don't we turn it off?
 94 39 09 CC Gemini 4, Houston. We'd like to go ahead and leave
 it on. Won't go into detail.
 94 39 15 C Okay.
-94 59 16 CC Roger. And the weather looks very, very good in the
+94 39 16 CC Roger. And the weather looks very, very good in the
 recovery area.
 94 39 20 C Okay. Don't forget, I want to be recovered in a
 hurry!
@@ -5745,8 +5745,8 @@ velocity.
 96 11 18 CC On your checklist, when you pulled your drogue pins,
 did you lin,11your seat pins also?
 96 11 25 C Roger. We weren't there yet. We'll get them, though.
-96 11 54 CC Do you have everything stowed?
-96 11 56 C Yes. We 'ye got everything stowed as well as we can
+96 11 34 CC Do you have everything stowed?
+96 11 36 C Yes. We 'ye got everything stowed as well as we can
 stow it.
 96 11 38 CC Okay. The weather in your recovery area is scattered
 clouds, you've got 10 knots of wind and 4-foot waves.
@@ -5824,7 +5824,7 @@ Y',u ought to be up here hOWl
 96 16 30 P I'm going to run the tape continuous from now on.
 Let's put another one in here. I got one in there
 now and one later.
-96 16 55 C I 'm not going ...
+96 16 35 C I 'm not going ...
 96 16 38 P I'm all squamed away over here.
 96 16 40 C C_t your seat pin out?
 96 16 50 C I ne_r put it in.
