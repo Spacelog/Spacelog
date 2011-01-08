@@ -11310,7 +11310,8 @@ CDR: Activation 11, omit step 1, do the rest. Is that
 CC:  That's affirmative.
 
 [02:09:44:12]
-CDR: Do Activation 1 and Activation 13, step 1.
+CDR: Do Activation 12 and Activation 13, step 1.
+_comment: "PDF transcript says 'Do Activation 1 and...' which we believe is obviously wrong, but should check audio when it becomes available."
 
 [02:09:44:14]
 CC:  That's all correct.
