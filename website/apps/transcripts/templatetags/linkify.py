@@ -27,26 +27,26 @@ def glossary_link(match, request):
 
     try:
         # full syntax [glossary:term|display]
-        term = match.group(2)
+        display = match.group(2)
     except IndexError:
         # abbreviated syntax [glossary:term]
-        term = match.group(1)
+        display = match.group(1)
 
     if title:
-        term = "<%(tag)s class='jargon' title='%(title)s'>%(text)s</%(tag)s>" % {
-                    "tag":   tag,
-                    "title": title,
-                    "text":  term,
-                }
+        display = "<%(tag)s class='jargon' title='%(title)s'>%(text)s</%(tag)s>" % {
+            "tag":   tag,
+            "title": title,
+            "text":  display,
+        }
 
     if more_information:
         return "<a href='%s#%s'>%s</a>" % (
             reverse("glossary"),
             slugify(match.group(1)),
-            term,
+            display,
         )
     else:
-        return term
+        return display
 
 def time_link(match):
     try:
