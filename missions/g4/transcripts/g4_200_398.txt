@@ -1,4 +1,4 @@
-Speakers: C P CC S
+Speakers: C P CC S F
 Page 200
 42 38 43 P Roger, be advised ... the Command Pilot has started
 the sleep cycle and I just finished ...
@@ -83,7 +83,7 @@ we'd like an onboard mass quantity readout_, please.
 44 18 43 P Roger. The Quantity Switch is ON. Repeat your last
 request. You were coming garbled.
 44 18 48 CC Roger. We'd like an onboard quantity readout, please.
-44 18 54 p Ro_er. A,, onboarfi qllantity rea_,,ut. I'm getting
+44 18 54 P Ro_er. A,, onboarfi qllantity rea_,,ut. I'm getting
 3 0 1/2 percent.
 44 19 06 CC Roger, understand. You said 50 1/2 percent. Is
 that correct?
@@ -280,13 +280,13 @@ off ... thruster.
 46 06 41 P Okay,
 46 06 50 P Cabin temperature comes ON at --I put it ON already.
 46 06 53 C I don't know ...
-46 06 58 c ...
+46 06 58 C ...
 46 07 05 CC Gemini 4. Canary CAP COM.
 46 07 05 C Go ahead.
 46 07 07 CC Roger. The reason for using the Repress was to
 avoid turning off your fans and to cut down on your
 noise level in your cabin.
-46 07 17 c Okay.
+46 07 17 C Okay.
 46 07 20 CC They meant do not relieve overboard if you can avoid
 it.
 46 07 26 C Oh. don't ... they don't want to vent the ECS 02
@@ -371,28 +371,28 @@ Plan.
 470043 C ...
 
 Page 210
-47 00 55 p That's the Corona Borealis that should be coming up.
+47 00 55 P That's the Corona Borealis that should be coming up.
 47 00 55 C Yes, that's the one ...
 47 00 57 P Yes.
 47 01 09 P Is it coming in your side?
 47 01 09 C Yes ...
 47 01 21 P Yes, that's right. We're y_wed around to the right.
 47 01 36 C Yes, how's the horizon look?
-47 01 41 p My horizon's real good.
-47 01 48 p Just coming in.
+47 01 41 P My horizon's real good.
+47 01 48 P Just coming in.
 47 01 51 P T_igh? ... up?
 47 01 52 C Straight up above.
-47 01 55 p Okay. Stand by.
+47 01 55 P Okay. Stand by.
 47 01 56 C Yes, I know. I don't know how they expect us to
 sight ...
 47 02 02 P Shucks.
 47 02 07 P It's an awfully high one to give us.
 47 02 12 P ...
-47 02 15 c ...
+47 02 15 C ...
 47 02 17 C Okay, now you ought to be able to see something
 without any trouble.
 47 02 26 P The sky?
-47 02 36 p ... come on, yet.
+47 02 36 P ... come on, yet.
 47 02 38 C ... Southern Cross ... star chart. We ought to
 be able to see that.
 47 02 48 P ...
@@ -417,14 +417,14 @@ of the Southern Cross.
 47 04 26 P Yes, I saw it go across the very top of my wind_.
 Is that where it was on yours?
 47 04 38 C Right now, you're not even seeing ...
-47 04 43 p Okay, now I think it's coming where I can see it.
+47 04 43 P Okay, now I think it's coming where I can see it.
 47 04 57 C You've got to hav_ a whole segment ...
 47 05 07 C I can take a sighting on it now ...
 47 05 14 P Yes, I got a sighting from it.
 47 05 16 C Did you?
-47 05 17 p Yes.
+47 05 17 P Yes.
 47 05 52 C ...
-47 05 52 p Roll to the right.
+47 05 52 P Roll to the right.
 47 05 52 C ...
 47 05 57 P Huh?
 47 05 57 C ...
@@ -485,26 +485,26 @@ got it pitched this way and roll it back in there
 or I won't see anything.
 47 13 16 P I guess it's not.
 47 13 21 C See any stars?
-47 13 26 p A_few stars - okay. Yaw more to the right.
-47 13 26 p Okay. The stars are back out again.
+47 13 26 P A_few stars - okay. Yaw more to the right.
+47 13 26 P Okay. The stars are back out again.
 47 13 38 C No, I didn't expect ...
-47 13 52 p What I have to do is keep my window shaded all of
+47 13 52 P What I have to do is keep my window shaded all of
 the time.
 47 13 55 C Yes.
 47 13 55 P Out of the sun and then I can see.
 47 13 58 C Oh yes, I can see stars.
-47 14 07 p ... of the stars in ... 178, that's pretty good
+47 14 07 P ... of the stars in ... 178, that's pretty good
 e e . . .
-47 14 14 c ...
+47 14 14 C ...
 47 14 24 P I haven't got any horizon pictures..
-47 14 24 c ...
+47 14 24 C ...
 47 14 31 P No, what I see now ...
-47 14 38 p What I wanted to try to do ... Are you dark over
+47 14 38 P What I wanted to try to do ... Are you dark over
 there?
 47 14 45 P ...
 47 14 57 C ...
 47 15 15 P I don't see the stars. Do you?
-47 15 26 p ... one time.
+47 15 26 P ... one time.
 47 15 31 P I'm supposed to have the proper attitude.
 47 15 40 P I can roll back over now, though.
 47 15 48 P ...
@@ -524,7 +524,7 @@ Page 214
 47 17 52 P They're Just not there.
 47 17 55 C Okay, let me try it...
 47 18 02 P Okay.
-47 18 04 c ... the recorder OFF.
+47 18 04 C ... the recorder OFF.
 47 18 04 C ... the recorder OFF.
 47 18 16 C ...
 47 18 16 P ...
@@ -558,7 +558,7 @@ find any stars in the daylight.
 47 20 07 C No, it sure doesn't. There's no way you can see
 them.
 47 20 10 P There is certainly no way to do it after ...
-47 20 19 p Okay.
+47 20 19 P Okay.
 47 20 28 C ... a long window. A window that has a long ...
 off the window where you can look straight off the
 ce.ce
@@ -703,7 +703,7 @@ the rate ove__ the last few hours. It looks like my
 ragged plot is still going to come out about what
 it looked like it would right after we got ...
 47 40 23 CC Houston concurs.
-47 40 25 c Okay.
+47 40 25 C Okay.
 47 44 55 P Aw, shoot.
 47 44 55 C I'm just going to come around to Sm_ll-End-Forward,
 kill off my yaw, get in the attitude that I'd be in
@@ -727,7 +727,7 @@ attitude pitch, 0 attitude pitch.
 47 46 45 C ...
 47 46 47 C ... yawed way off.
 47 47 04 C Let's see. What else did the Flight Plan ...
-47 47 09 c ...
+47 47 09 C ...
 47 48 07 C How does the roll look to you now, Ed?
 47 48 09 P Okay.
 47 48 11 C How about pitch?
@@ -742,7 +742,7 @@ around ... to the left ... you tell me when
 we get to ...
 47 49 04 P ...
 47 49 06 C Stand by. Yes, we do.
-47 49 16 C. Okay, I'd say they're right there...
+47 49 16 C Okay, I'd say they're right there...
 
 Page 220
 47 49 18 P Yes, I'd say we're within a couple of degrees.
@@ -848,10 +848,10 @@ was ...
 48 03 28 C ... they're going to rise.
 48 03 28 P HuH?
 48 03 28 C They're going to rise. Use Leo.
-48 03 40 p ... bank in.
+48 03 40 P ... bank in.
 48 03 47 C Okay.
 48 03 50 C How high up is it?
-48 03 52 ? ...
+48 03 52 P ...
 48 04 04 C Okay. Well, let's run a series of Leo. Is Regulus
 up yet?
 
@@ -859,20 +859,20 @@ Page 223
 48 04 26 C I'm going to stop my event time, since we're not
 using it.
 48 08 45 P ...
-48 08 47 c 06:50.
+48 08 47 C 06:50.
 48 08 50 P 6° 30 minutes.
-48 08 54 c _
+48 08 54 C _
 48 09 14 C 4° , 55 1/2.
 48 09 30 P MARKI
 480940 c 8°, 45.
 48 10 04 P Are you ...
-48 10 07 c ...
+48 10 07 C ...
 48 10 09 P Let me get ...
 48 10 16 C Go ahead.
 48 10 28 C Hey, Altair is up there. Let's see, this thing I
 was looking at is probably Vega.
 48 10 35 C It was Vega.
-48 10 42 c ...
+48 10 42 C ...
 48 10 52 P On Altair and I'll use a green filter, no filter
 .e.e.
 48 11 28 P I have 16° and 55 minutes. The second one is ...
@@ -884,7 +884,7 @@ Section CARNARVON
 
 48 12 50 CC Gemini 4, Carnarvon CAP CONL
 48 12 54 C Go ahead, Carnarvon. Gemini 4.
-48 13 06 ? ...
+48 13 06 P ...
 48 13 15 CC Gemini 4, Carnarvon CAP COM.
 48 13 16 C Go ahead, Carnarvon. Gemini 4.
 48 13 20 C Go ahead, Carnarvon. Gemini 4.
@@ -947,9 +947,9 @@ Ed.
 If we need one or two pulses we'll do it.
 48 17 35 P Okay.
 48 17 49 P Okay, there's Deneb. I'll start a series with Deneb.
-48 18 01 p Altair's perfect and has no ... around it.
+48 18 01 P Altair's perfect and has no ... around it.
 48 18 06 C Yes.
-48 18 11 p ... and maybe I can hold it better that way.
+48 18 11 P ... and maybe I can hold it better that way.
 48 18 16 C Okay.
 48 18 30 P I'm ... right to the top of the row. 18:33 ...
 48 19 04 C Okay, why don't we knock off the ...
@@ -1056,7 +1056,7 @@ a big play.
 48 56 49 C Okay.
 48 56 51 CC Things in Vietnam have quieted down, and not too
 much going on over there right now.
-48 56 57 c okay.
+48 56 57 C okay.
 48 56 59 CC The Oilers are going to play in the Rice Stadium
 instead of the Domed Stadium.
 48 57 03 C They are!
@@ -1311,7 +1311,7 @@ I do for you?
 50 24 33 CC Well, you go ahead. I'll get you to give me a call
 when you get done, and I'll pass up this other information
 to yau.
-50 24 41 c Okay.
+50 24 41 C Okay.
 
 Section TEXAS
 
@@ -1374,7 +1374,7 @@ on your onboard tape?
 50 38 11 CC Okay. Good.
 50 38 17 CC Hey, we'd like you to bring your Primary 02 pressure
 down to 800. It's up to -we're reading it at 960.
-50 38 23 O Okay. I've got 950. We'll bring it on down.
+50 38 23 C Okay. I've got 950. We'll bring it on down.
 50 38 25 CC Okay.
 50 38 32 C Gus, on this -what's on the Voice Tape Recorder -
 they say we were turning it on and off. So we don't
@@ -1514,7 +1514,7 @@ more flight planning.
 humidity reading, and a hatch temperature reading.
 
 Page 241
-51 47 05 c Roger. Say that again, you're oscillating.
+51 47 05 C Roger. Say that again, you're oscillating.
 51 47 09 CC Roger, request a cabin humidity reading and a
 hatch temperature reading.
 51 47 18 C Okay, _e Just finished doing that a little while
@@ -1600,7 +1600,7 @@ down there.
 you read?
 52 03 43 P Roger, stand by, please.
 52 03 50 P All right ... but not too ...
-52 03 53 c ...
+52 03 53 C ...
 52 04 18 CC Gemini 4, this is Houston CAP C0_ Do you read?
 52 11 18 CC Gemtni 4, Houston CAP CO]_
 52 11 37 CC C_mini 4, Houston CAP COM_
@@ -1624,7 +1624,7 @@ the horizon changes between sunset and s,,n_ise.
 52 25 17 P ...
 
 Page 244
-52 25 18 c ...
+52 25 18 C ...
 52 25 20 P Man, I can't see anything now.
 52 25 33 CC Gemini 4, Houston CAP CORL
 52 25 40 CC Gemini 4, Houston CAP COM.
@@ -1684,7 +1684,7 @@ haven't got down to the horizon yet.
 52 30 41 C Hey, am I down. too low? I've got a lot of horizon
 in my window.
 52 30 43 P No, I think that pitch is right.
-52 31 09 c ...
+52 31 09 C ...
 52 31 18 P Okay, I'm ready to start taking a measurement here
 in a minute.
 52 31 26 P Okay, when I put the blue filter on, the horizon is
@@ -1778,7 +1778,7 @@ Page 248
 52 44 43 C ...
 52 44 57 C Hello.
 52 45 07 C Want me to pitch down?
-52 45 55 c _u_
+52 45 55 C _u_
 52 46 05 P Yaw to the left.
 52 46 47 C Boy, there's a nice horizon out there now. The
 moon is setting and the airglow layer and the
@@ -1816,9 +1816,9 @@ horizon?
 52 53 38 C Are there any stars close to the horizon?
 52 54 43 C The green filter is the best?
 52 57 49 CC Gemini 4, CRO.
-52 57 49 _C Gemini 4, CRO CAP COM.
-52 58 02 {_.C Gemini 4, CRO CAP COM.
-52 58 12 CC Gemini 4, CR0. Do you read? It liiks like we're
+52 57 49 CC Gemini 4, CRO CAP COM.
+52 58 02 CC Gemini 4, CRO CAP COM.
+52 58 12 CC Gemini 4, CRO. Do you read? It liiks like we're
 losing some power leads. Will you push them down
 on your chest. Push them down.
 52 58 30 CC And if you read, give me ... from the cryogenic
@@ -2092,7 +2092,7 @@ filter setting. Did you copy? Over.
 experiment?
 54 55 48 CC This is D-9, run 2. Use scheduled filter settings.
 Did you copy? Over.
-54 55 57 Car:'t t_.__, _ the Fil_,_ is going to be asleep.
+54 55 57 C Can'tell, but the Pilot is going to be asleep.
 54 56 05 CC Roger, understand. Pilot will be asleep during this
 period.
 54 56 09 C That's affirmative.
@@ -2508,9 +2508,9 @@ fuel on that one?
 
 Section ROSE KNOT VICTOR
 
-63 06 33 CC Gemtni 4, Gem_l 4, this is REV CAP COM.
-63 06 44 CO Gemini 4, Gemini 4, REV CAP C0_
-63 06 49 C Go ahead, RKV. Ge,..int4.
+63 06 33 CC Gemini 4, Gemini 4, this is REV CAP COM.
+63 06 44 CC Gemini 4, Gemini 4, REV CAP COM.
+63 06 49 C Go ahead, RKV. Gemini 4.
 63 06 52 CC Roger, Gemini 4. I have an Apollo update plus
 several other updates for you Are you prepared
 to copy?
@@ -2773,7 +2773,7 @@ ready to copy.
 66 35 52 C Okay, we're ready.
 
 Page 275
-66 35 54 Roger. 46-1: 101. 2+08. 12 37. 5+56. 10+33. 46-1: 114. 2+25 14 12 47. 4+05. 6+33. 47-1:
+66 35 54 CC Roger. 46-1: 101. 2+08. 12 37. 5+56. 10+33. 46-1: 114. 2+25 14 12 47. 4+05. 6+33. 47-1:
  Fore and aft firing thrusters. <_ _::d 120. O+1l_
  and 2+30. lQ 4c _6. 3+17. 8+57. _-1: Fore and
  aft thrusters. 24 and 120. 0+40 _d 2_O, correction 2+50. 17 20 19. 2+42. 8+43. 49-4: 111. 2+21. 20 06 48. 4+11. 9+_6. 44 BRAVO: Fore and
@@ -2940,7 +2940,7 @@ that another one of our satellites?
 67 50 39 C See it right in front of us, that bright star ...
 P No.
 67 51 01 P That looks almost like a normal sunrise, doesn't it?
-67 51 05 c That's what it is.
+67 51 05 C That's what it is.
 67 51 06 P Well, you know, that's not what you expected it to
 be. I -- I don't have the lens on right.
 67 51 25 P It's coming up on 4 mfnutes now.
@@ -3039,10 +3039,10 @@ and try the event indicator.
 
 Section CANARY ISLANDS
 
-68 09 43 CC Gemini 4, Canary CAP C0_t
-68 10 01 CC Gemini 4, Canary CAP C0_t
+68 09 43 CC Gemini 4, Canary CAP COM
+68 10 01 CC Gemini 4, Canary CAP COM
 68 10 04 C Go ahead, Canary. Gemini 4.
-68 10 07 gC Roger, I have the rest of your Flight Plan changes.
+68 10 07 CC Roger, I have the rest of your Flight Plan changes.
 68 10 10 C Okay, go ahead.
 68 10 19 CC Roger. At G. m.t. 13 14 00 Olde Attitude Thruster
 Check.
@@ -3200,7 +3200,7 @@ and a little under two magazines of 16-mm left.
 69 29 59 CC Are you two ready to come home yet?
 69 30 06 C I'm sure getting tired of looking at his ugly face.
 He needs a shave.
-69 30 10 _C We're getting tired of hearing that silly voice, too,
+69 30 10 CC We're getting tired of hearing that silly voice, too,
 McDivitt.
 69 30 12 C Hello, Frankle.
 69 30 15 CC How are you doing?
@@ -3293,21 +3293,21 @@ Page 289
 Section CARNARVON
 
 70 16 58 CC Gemini 4, Carnarvon CAP COM.
-70 17 14 c Gemini4.
+70 17 14 C Gemini4.
 70 17 16 CC All right. How're you doing?
 70 17 21 CC Looking good down here. How are you looking up
 there?
-70 17 36 CC G_mlni 4, Carnarvon. How do you read?
+70 17 36 CC Gemini 4, Carnarvon. How do you read?
 70 17 37 C Very good, Carnarvon. How do you read?
-70 17 40 CC' Loud and clear. How are you going?
+70 17 40 CC Loud and clear. How are you going?
 70 17 41 C Fine. How are you doing?
-70 17 42 C_ A little tired. You're looking real good down here.
+70 17 42 CC A little tired. You're looking real good down here.
 70 17 44 C Of course. Everything going along okay up here.
 Be advised we turned off our computer and powered
 down the _ at 13:20.
 70 17 54 CC Roger, did you have our computer on ... checks?
 70 17 58 C Yes, we did.
-70 18 02 CO Okay, very good. I'll -_ke a _k_licalPass Type 1
+70 18 02 CC Okay, very good. I'll -_ke a _k_licalPass Type 1
 on the Pilot at Texas at 14 13 15.
 70 18 14 C Say, listen. Ed hasn't been to sleep yet. He's
 just about to go to sleep and I think it would be
@@ -3332,7 +3332,7 @@ Page 290
 on your mark.
 70 20 02 C MARK_
 70 20 48 S The blood pressure looks good, Pilot.
-70 20 50 c Okay.
+70 20 50 C Okay.
 70 20 58 S Could we have some more info_m_tion on your food and
 water?
 70 21 04 C Is the temperature good?
@@ -3446,7 +3446,7 @@ Page 293
 71 17 00 C You know where they are? I don't seem to be able
 to find the_
 71 17 27 CC That's northeast of it.
-71 17 30 c Okay.
+71 17 30 C Okay.
 71 17 57 CC Gem4ni 4, Canary CAP CO_
 71 17 59 C Go ahead.
 71 18 02 CC Flight says he doesn't worry about the ACME power.
@@ -3517,7 +3517,7 @@ Page 295
 to talk to Flight.
 71 53 50 C Okay ... with T/M_
 71 54 01 CC Okay. We are in good shape now, Gemini.
-71 54 03 c O_ay.
+71 54 03 C O_ay.
 
 Section GUAYMAS
 
@@ -3560,7 +3560,7 @@ so I probably won't be going again for 6 or 7-
 on in about 10 seconds.
 72 35 01 CC Okay. Go ahead and turn your T/M switch to COMMAND
 and your Quantity Read Switch ON, also.
-72 35 08 c Okay.
+72 35 08 C Okay.
 72 35 31 CC Gemini 4, Houston CAP CO_
 72 35 32 C Go ahead.
 72 35 33 CC I've got quite a bit of information to pass up to
@@ -3684,7 +3684,7 @@ and I only had mine closed when I was sleeping.
 72 42 44 CC Okay. Well, go ahead and do what we asked as near
 as you can and give us those wet and dry bulbs so
 we can get a good spot on this thing.
-72 42 54 0 OWay. I have been r_mning them right along and our
+72 42 54 C Okay. I have been running them right along and our
 temperatures are r,_,nnfngabout ' the dry bulbs are
 _mning 72 and 7_, the wet bulbs between 60 and 64.
 The relative h_,mtdity stands pretty close to around
@@ -3726,7 +3726,7 @@ you need.
 his head out the window -wait a second.
 73 25 49 C Okay.
 73 26 03 CC It has stopped raining_ a little bit wet though -
-73 26 05 c Verygood.
+73 26 05 C Verygood.
 73 26 17 C There sure have been some w41_ thunder clouds over
 Australia here in the last couple of days.
 73 26 22 CC That's affirmative. We've had about 3 inches of
@@ -3787,7 +3787,7 @@ do it.
 trying to do that?
 
 Page 302
-74 12 08 c I tell you what, why don't I wait and get it at
+74 12 08 C I tell you what, why don't I wait and get it at
 Canaries. How about that?
 74 12 12 CC Yes, that's a good idea.
 74 12 13 C All right, I'll do it while I'm crossing the ocean.
@@ -3869,14 +3869,14 @@ Page 304
 74 59 56 C Okay.
 74 59 57 CC 53-3: 55 forward, 71 aft. 1+31. 1+30. 02 07 19.
 3+17. 9+00.
-75 00 22 c Okay.
+75 00 22 C Okay.
 75 00 23 CC 54-3: 55 f_rward, 83 aft. 1+31. 1+45. 03 40 13.
 2+46. 8+39.
 75 00 48 C Okay.
 75 00 50 CC 49-DELTA: 55 forward, 99 aft. 1+31. 2+05. 19 13 14. 9+09.
-75 01 12 c Okay.
+75 01 12 C Okay.
 75 01 14 CC 50-DELTA: 55 forward, 85 aft. 1+31. 1+48. 20 46 06. 10+36.
-75 01 35 c O y.
+75 01 35 C O y.
 75 01 37 CC 51-Dk_.TA: 55 forward, 73 aft. 1+31. 1+32. 22 19 00. 11+31.
 75 01 58 C Okay.
 75 01 59 CC 52-r_.LTA: 115. 2+25. 23 52 37. 11+44.
@@ -4011,7 +4011,7 @@ the switch OFF.
 switch OFF?
 75 48 02 C That's affirmative.
 75 48 18 CC Hey ...
-75 48 23 c what?
+75 48 23 C what?
 75 48 25 CC Hey, we still show that the computer is on.
 
 Page 308
@@ -4209,7 +4209,7 @@ be well ahead. You're fat by approximately 160.
 77 01 48 C Roger. 'UnderstandI've got 160 amps more than we
 had planned.
 77 01 54 CC Tb_t's affirmative.
-77 01 55 c Okay.
+77 01 55 C Okay.
 77 02 02 C Have they got my computer figured out yet?
 77 02 07 CC Negative on that, G_nini 4. They're working on it
 at the present time.
@@ -4223,7 +4223,7 @@ Section CALIFORNIA
 AC Power Switch back to IGS and your Computer
 Switch ON, and we'd like for you to watch for a
 rise in the amperage to make sure it comes on.
-77 09 06 Okay.
+77 09 06 C Okay.
 77 09 07 CC And we want you to leave this ON till you've just
 about finished your pass over here. We want to
 cheek the computer memory.
@@ -4249,7 +4249,7 @@ by co,,_,_nd?
 _l_function Light out on my computer now.
 77 11 00 CC Roger.
 77 11 19 CC Gemini 4, we're still not receiving dump.
-77 11 23 O Okay. I've got the tape playback in CONTINIX)US.
+77 11 23 C Okay. I've got the tape playback in CONTINIX)US.
 77 11 35 CC Still no mod-l_tiont Gemt_i 4.
 77 11 38 C Okay. Stand by.
 77 12 09 C Guaymas, Gemini 4. Ail the switches and circuit
@@ -4263,7 +4263,7 @@ DUMP-TI_?
 77 12 52 CC Affirmative.
 77 12 54 C Okay. We can't co_nd anything on. Is that right?
 77 12 59 CC I got it now, Gemini 4.
-77 13 01 c Okay.
+77 13 01 C Okay.
 77 13 23 CC Gemini 4, Houston CAP C0_
 77 13 28 CC G_mtni 4, Houston CAP C0_
 77 13 30 C Go ahead Houston, Gemini 4.
@@ -4283,7 +4283,7 @@ Breaker over on your left circuit breaker panel.
 77 14 49 C Roger, I already have Gus, and it doesn't tutu off
 the light.
 77 14 52 CC Still doesn't do any good?
-77 14 54 c Nope.
+77 14 54 C Nope.
 77 14 56 CC Will you turn your _,a-tity Read ON for 10 seconds'_
 77 15 35 CC Jim, we show that the memory is okay, but we're
 showing about the same thing that you aze otherwise.
@@ -4303,7 +4303,7 @@ Computer Operate Switch, I still have the M_I function
 Light on.
 77 16 56 CC Roger. How about going to Catch-Up and hitting
 START COMP.
-77 17 06 c Okay.
+77 17 06 C Okay.
 77 17 12 CC And nothing happens when you hit your RESET button,
 huh?
 77 17 14 C Yes, the light goes out and then comes back on in
@@ -4320,7 +4320,7 @@ get one.
 77 17 56 C Okay. Be advised that when we got to ACME the ...
 for just a short tt_, very dimly. Then it goes out.
 77 18 05 CC Say that again.
-77 18 07 c ...
+77 18 07 C ...
 Comment: Voice tape from pass at Tananarive during this period is not available at this time. Tananarive COM TECH reported to Houston CAP COM at 77 54 27 that he had contacted Gemini 4 and the crew had placed the Tape Playback Switch to COMMAND and the T/M Switch to COMMAND. No other report from Tananarive.
 
 Section COASTAL SENTRY QUEBEC
@@ -4360,7 +4360,7 @@ to update your TR clock with the 63-1 TR.
 78 25 38 P Roger. I read my battery readout back to you as
 9 and 22.5.
 78 25 44 CC Roger. Got that.
-78 25 47 p An_ the adapters are _11 reading around 2 and
+78 25 47 P An_ the adapters are _11 reading around 2 and
 241/2.
 78 25 54 CC You say amps reading 2 and voltage 22.57
 78 25 58 P Roger. About 2 1/2.
@@ -4394,7 +4394,7 @@ try to ...
 78 27 50 CC Okay. I have some flight plan items for you when
 you're prepared to copy.
 78 27 55 P Roger. Go ahead.
-78 27 57 CT Roger. Experiment MSC-2 and -3 ON and OFF are prescheduled
+78 27 57 CC Roger. Experiment MSC-2 and -3 ON and OFF are prescheduled
 times.
 78 28 07 P Roger. Do you have our ... on that?
 78 28 09 CC Roger. The MBC-2 and -3 small-end-forward start at
@@ -4488,7 +4488,7 @@ left side.
 78 46 17 C It's pretty deep. I can just barely see out of the
 window.
 78 46 21 CC We'll see you tomorrow.
-78 46 23 c Okay.
+78 46 23 C Okay.
 78 46 37 CC Gemini 4, Flight would like to know how much that
 refuse weighs.
 78 46 43 C About 3000 pounds l
@@ -4550,9 +4550,9 @@ storm Victoria ... as when we passed over we were
 a little bit west of it, and there wasn't a good
 picture.
 80 01 25 CC Roger, understand.
-80 01 27 p ... the Command Pilot.
+80 01 27 P ... the Command Pilot.
 80 01 33 CC Say again about Command Pilot.
-80 01 36 p Command Pilot is retiring for the evening.
+80 01 36 P Command Pilot is retiring for the evening.
 80 01 39 CC Roger.
 80 01 41 C Good night.
 80 01 43 CC Roger.
@@ -4569,7 +4569,7 @@ procedure that was given you over CSQ on your
 computer.
 
 Page 323
-80 09 32 p That's affirmative. The procedure was given to me
+80 09 32 P That's affirmative. The procedure was given to me
 10 minutes ago. I have 10 more minutes to wait until
 I try to reset.
 80 09 44 CC Roger, Gemfui 4. We heard that.
@@ -4617,7 +4617,7 @@ over Hawaii, and also a _dical Pass.
 81 30 53 P Roger.
 81 30 59 CC Also, we have the new computations on your orbit.
 Perigee 85.3 and apogee 139, with a 3-day lifetime.
-81 31 15 p ... Roger, understand. 85 by 139.
+81 31 15 P ... Roger, understand. 85 by 139.
 81 31 20 CC Roger.
 81 31 35 CC Gemini 4, give us your _,_utity Read Switch for
 about 15 seconds.
@@ -4650,7 +4650,7 @@ to Houston. So let's try it once more.
 81 40 08 S _,ll-scale.
 81 40 32 S We have a valid blood pressure. Standing by for
 exercise on your mark.
-81 40 42 p MARKI
+81 40 42 P MARKI
 81 41 51 S Gemini 4, Hawaii Surgeon. Be advised we had telemetry
 dropout, and may ha,_ missed your second blood
 pressure. Have you transmitted yet?
@@ -4673,7 +4673,7 @@ CAP COM.
 you when you're ready to copy.
 81 43 31 CC Gemini 4, Hawaii CAP CON,
 81 43 40 CC 4, Hawaii CAPCON,
-81 43 44 p Go ahead Hawaii, Gemini 4.
+81 43 44 P Go ahead Hawaii, Gemini 4.
 81 43 46 CC Roger. I ham a D-9 update for you whenever you're
 ready to copy.
 81 43 51 P Roger, ready to go.
@@ -4724,7 +4724,7 @@ that the computer will come on before long.
 82 03 00 P Say again, please.
 82 03 02 CC Roger. Would you turn. the secondary loop OFF again,
 please.
-82 03 08 p Secondary loop OFF.
+82 03 08 P Secondary loop OFF.
 82 03 11 CC Roger.
 82 03 12 CC I have a Pegasus update for you.
 82 03 14 P Roger. Ready to copy.
@@ -4922,7 +4922,7 @@ malfunction during this pass. Would like to ha,_
 you depress it and hold it for 5 seconds. Give me
 a mark at the beginning and the end.
 85 11 10 P Roger, will do. MARK!
-85 11 18 p MARK_
+85 11 18 P MARK_
 85 11 23 CC Roger. Thank you.
 85 11 28 CC W_IiF_e_and_fng by on t_e _ext_ss _or_
 Type i on the Command Pilot if he is awake. The
@@ -5141,7 +5141,7 @@ see if there's any change in the M windows as you
 run through the test.
 88 23 21 C Okay.
 88 23 57 (LOS)
-88 24 09 C ... gotng through the test.
+88 24 09 C ... going through the test.
 
 Section CANARY ISLANDS
 
@@ -5295,7 +5295,7 @@ Page 342
  want the final one.
 90 05 49 CC Roger, tLat'!l come up Just as it has been comtr_
 up _nd you'll get them at Canary.
-90 05 50 c Okay.
+90 05 50 C Okay.
 90 05 56 CC Hey, listen, are you feeling pretty tired now, or
 are you pretty good?
 90 06 00 C No, I'm pretty -- I'm pretty sleepy and tired ,_nd I
@@ -5312,7 +5312,7 @@ the splash area.
 90 12 00 CC Gemin i 4, Canary CAP CO_
 90 12 20 C Hello Canary, Gemini 4.
 90 12 23 CC Roger. I have ten re,to updates for you.
-90 12 30 c Okay. Go.
+90 12 30 C Okay. Go.
 90 12 32 CC 60-1: 92- 1+57. 12 12 54. 6+00. 10+51. 60 --
 correction --61-1: 104. 2+11. 13 48 06. 4+23.
 9+40. 62-1: 113. 2+25. 15 22 05. 3+16. 10+48.'
@@ -5323,7 +5323,7 @@ D9-BRAVO: 105. 2+15. 11 32 44. 10+48. 60-BRAVO:
 And that's it. Do you have it?
 90 12 44 C Roger. Got them.
 90 12 50 CC You're still looking good and we're standing by.
-90 12 52 c Okay.
+90 12 52 C Okay.
 90 15 55 C Canaries, Gemini 4 here again.
 90 16 00 CC Go ahead.
 
@@ -5352,7 +5352,7 @@ coast?
 90 47 50 C Well, let's see. I don't know which way I'm pointlng
 right now. I_oks quite good along the Coast.
 90 48 00 CC How much gr_and can you see?
-90 48 05 c ...
+90 48 05 C ...
 90 48 25 C I'm in a bad attitude right now. Let me just fire
 along here and I'll tell you.
 90 48 30 CC Roger.
@@ -5414,7 +5414,7 @@ to get a blood pressure.
 temperature probe in your mouth while you're doing
 the blood pressure?
 92 21 32 P Roger, will do.
-92 21 52 s ...
+92 21 52 S ...
 92 22 32 S Roger, Gemini 4. We have now a blood pressure.
 Ready for the exercise on your mark.
 92 22 39 P MARK!
@@ -5456,8 +5456,8 @@ I have.
 ,_l retro with holdup.
 92 25 17 CC Affirm.
 92 25 18 P Roger.
-92 25 31 CO Okay. That'll be a 0AMS burn with automatic countdown
-at TR, backup with a m_n,,alretrofire. That']l
+92 25 31 CC Okay. That'll be a OAMS burn with automatic countdown
+at TR, backup with a manual retrofire. That'll
 be a rolling reentry.
 92 25 44 P Roger. I thought we were going to make a manual TR.
 92 25 51 CC Well, your clock seems to be working real fine, I
@@ -5467,10 +5467,10 @@ then let you back it up.
 
 Section TEXAS
 
-93 02 28 CC Gemini 4, Gemini 4, Houston CAP CO_. Over.
-93 03 47 CO Gemini 4, Gemini 4, Houston CAP OOM_
+93 02 28 CC Gemini 4, Gemini 4, Houston CAP COM. Over.
+93 03 47 CC Gemini 4, Gemini 4, Houston CAP COM.
 93 04 13 P Go ahead Houston, Gemini 4.
-93 04 19 CC Roger, G_mtui 4. How are you doing, Ed?
+93 04 19 CC Roger, Gemin 4. How are you doing, Ed?
 
 Page 347
 93 04 21 P Pretty good. Had a good night's sleep and ...
@@ -5512,17 +5512,17 @@ Section CARNARVON
 Page 348
 93 53 11 CC Roger, we'd like you to take and place your Reentry
 C-band Beacon to the CONTINUOUS position.
-93 53 17 ? Roger. We have the C-band going to CONTINUOUS.
+93 53 17 P Roger. We have the C-band going to CONTINUOUS.
 93 53 19 CC Roger. Your Antenna Selector to _B_I_RY position.
 93 53 23 P Roger. Antenna Select to B ._'_ITRY.
 93 53 26 CC Roger. Want you to leave it in that position for
 the remainder of the flight.
 93 53 30 P Roger, understand.
-93 53 32 CO Okay. I've got a map update for you if you are
+93 53 32 CC Okay. I've got a map update for you if you are
 ready to copy.
-93 53 36 P Wait one mtnute, please.
+93 53 36 P Wait one minute, please.
 93 53 44 P Go ahead with the update.
-93 53 46 C0 Rev 62: longitude 168° East, and a G.m.t. of 16 35 00.
+93 53 46 CC Rev 62: longitude 168° East, and a G.m.t. of 16 35 00.
 93 54 01 P Roger. Run 62, 168° East and 16 35 00.
 93 54 07 CC Roger.
 93 54 17 P I was looking for you on that pass ...
@@ -5615,9 +5615,9 @@ oops, stand by.
 That's what the "cops" was for.
 94 41 10 CC Oh, you had us shook up for a m_nute. Don't do that,
 you're giving us heart attacks down here.
-94 41 18 C 0h, come on, John, it must have been a long night.
+94 41 18 C Oh, come on, John, it must have been a long night.
 If I were you, I'd be looking for a little excitement.
-94 41 22 CO Hey, J_m-
+94 41 22 CC Hey, J_m-
 94 41 25 C Yes, go ahead.
 
 Page 351
@@ -5633,13 +5633,13 @@ way to get there.
 94 43 15 CC Gemini 4, this is Houston.
 9443 18 c co.
 94 43 19 CC Roger, on your 63-1 update do you have any use for
-the 0_MS _V? We were Just going to pass the _.
-94 43 24 C Yeah, send the _ - will be fine. I also want it
-without 0AMS.
-94 43 29 CO Roger, it'lL be there.
-94 43 32 C Okay. A_ we'll probably - if we have a short 0AMS
+the OAMS V? We were Just going to pass the T.
+94 43 24 C Yeah, send the T - will be fine. I also want it
+without OAMS.
+94 43 29 CC Roger, it'll be there.
+94 43 32 C Okay. A_ we'll probably - if we have a short OAMS
 burn we're going to correct our retrofire time Just
-like we would if we had a short 0AMS burn otherwise.
+like we would if we had a short OAMS burn otherwise.
 94 43 43 CC Roger. That's good.
 
 Section CANARY ISLANDS
@@ -5687,7 +5687,7 @@ Section TEXAS
 time?
 96 07 34 C Stand by Just a second.
 96 07 36 CC Roger.
-96 07 38 o o_, go _.
+96 07 38 C Okay, go ahead.
 96 07 40 CC Okay. Your time to burn is 2 minutes 40 seconds,
 at 3.656 03.. Time to 400 K is 2 minutes 38 seconds.
 96 08 00 P Say it again. The only thing I got was 2 minutes
@@ -5796,7 +5796,7 @@ Carrier, then. Surgeon out.
 96 14 18 C Okay. When are you comtng on, Chuck?
 96 14 20 CC Th_s_fternoon, Jin_ Hope to be there shortly after
 you are.
-96 14 26 c Okay.
+96 14 26 C Okay.
 96 14 37 CC Is there anything else we can do for you, or is there
 anything else that you waut, Jim?
 96 14 41 C Yes, my computer.
@@ -5806,7 +5806,7 @@ anything else that you waut, Jim?
 96 15 13 C You're unbeatable, Chris. I Just unplugged it.
 96 15 16 CC Roger.
 96 15 42 CC Hey, _lm?
-96 15 43 c Yes.
+96 15 43 C Yes.
 96 15 47 CC John Just wanted to remind you that the toughest
 part c_mes after you get back to the Statea.
 96 15 50 C I've been restt_ my arm-
@@ -5873,19 +5873,19 @@ down here.
 96 19 02 CC Roger.
 96 19 05 C 20 seconds.
 96 19 09 C _Jake that 32.
-96 19 11 CO Okay.
-96 19 22 CC 15 35 _2_ my mark.
-96 19 28 CC _k_K!
-96 19 30 C Rogcr. thank you.
+96 19 11 CC Okay.
+96 19 22 CC 15 35 32 my mark.
+96 19 28 CC MARK!
+96 19 30 C Roger. thank you.
 96 19 50 C Ed, will you get this for me, please?
 96 19 52 P Yes sir ...
-96 19 54 P Do _u w_nt them t__ght?
+96 19 54 P Do you want them tight?
 
 Page 358
 96 20 02 C Just like they are. No, they are all right now.
-96 20 04 ? Oh_
-96 20 06 C Just p_Oq them down.
-96 20 16 P Cot an extra one here.
+96 20 04 P Oh!
+96 20 06 C Just pull them down.
+96 20 16 P Got an extra one here.
 96 20 18 C Okay. Thank you.
 96 20 28 C Where is my other glove?
 96 20 33 P You didn't stow it, did you?
@@ -5906,7 +5906,7 @@ otherwise.
 96 23 30 C Ed, Just flick it. We'll be on our backs.
 96 23 35 P That's why ...
 96 23 36 P Give me that gun, Jim.
-96 23 39 c Why?
+96 23 39 C Why?
 96 23 40 P I'll put it in its bag.
 96 23 42 C I can make it all right, I think.
 96 23 47 P Well, Why don't you Just put it right in here.
@@ -5939,7 +5939,7 @@ really doing the checklist.
 96 25 40 P You got your helmet tied on tight so in case you
 coul_ntt pressurize. Got your sttttall squared
 away so it ...
-96 25 50 c ...
+96 25 50 C ...
 96 25 54 P Yes.
 96 25 56 P 16 it checkfng right?
 96 25 59 P Only tht_k I lack is this th_ng across my knees.
@@ -5960,7 +5960,7 @@ Page 360
 96 27 46 C Yes.
 96 27 47 P Well, I've just got to multiply it by two, Jim,
 and a second short.
-96 27 52 c o_y.
+96 27 52 C o_y.
 96 27 53 P Or Just take a second short and multiply it by two,
 and that ...
 96 27 59 C I mean turn the light ... Are the gyros on?
@@ -5979,7 +5979,7 @@ we 'll ...
 96 29 26 P That's on the checklist, isn't it?
 962929 C Yes.
 96 29 30 P Go ahead.
-96 29 32 p _11 right.
+96 29 32 P _11 right.
 96 29 40 C Okay. Let me finish going over the egress.
 96 29 47 C And I splash curtain install, neck dam install,
 Cabin Air Recirc handle UP. Left Snorkel handle UP,
@@ -6044,7 +6044,7 @@ No skips.
 96 33 39 C With FDI.
 96 33 40 P MDU power is OFF.
 96 33 45 P Attitude Indicator, with FDI.
-96 33 47 c WithFDL
+96 33 47 C WithFDL
 96 33 49 P Computer Power, ON?
 96 33 52 C Computer Power's ON.
 96 33 54 P Yes.
@@ -6071,7 +6071,7 @@ Page 363
 96 34 22 P Yes. Secondary O2, OPEN.
 96 34 23 C My Secondary O2 is OPEN.
 96 34 26 P You're sure ...
-96 34 27 c ...
+96 34 27 C ...
 96 34 30 P Okay, I'm putttng the new tape in.
 96 34 33 C We're going to run out before we get there.
 96 34 40 P Okay. I'll hold this and put it in later.
@@ -6132,7 +6132,7 @@ A --a little under 2500. B is about 2350.
 96 38 37 C Seems like we don't have much left all of a sudden,
 though, doesn't it?
 96 38 45 P _vent Timer in STANDBY.
-96 38 48 c STAmmY.
+96 38 48 C STAmmY.
 96 38 52 P All set for 36.
 
 Page 365
@@ -6153,7 +6153,7 @@ Audio~HF.
 96 51 35 P What do you think of the night retro?
 96 51 40 C It's for the birds.
 96 51 47 P It's not a bad horizon though.
-49 c No.
+96 51 49 C No.
 96 51 54 P If you had a little moon, you'd be all right.
 96 52 00 C I guess you could get down. Hal Ha!
 96 52 21 C My gloves don't feel right.
@@ -6163,7 +6163,7 @@ wonder --if I bend them-
 96 52 30 P Are you sure you haven't got this too tight?
 96 52 32 C No, it was really bad before I tightened that up.
 96 52 40 P You might go through a few ... gyrations.
-96 52 52 C_- Ok_ We :re_go!__ to-g_ t_EAGE now.
+96 52 52 C Okay. We're going to go to CAGE now.
 96 52 54 P Yes.
 96 53 30 C Okay. What do we do at TR-30 seconds?
 96 53 34 P We checklist then.
@@ -6172,7 +6172,7 @@ Carnarvon. Then go through and aline the platform
 again. Get your Contro!_er and stuff out.
 
 Page 366
-96 54 41 c ... pick up early. I don't want to get seasick.
+96 54 41 C ... pick up early. I don't want to get seasick.
 96 54 45 P I don't either.
 96 54 47 C Hey, you got a couple up there you probably ought to
 get out of there.
@@ -6205,7 +6205,7 @@ awfully short.
 96 56 34 P Yes.
 96 56 35 P You sure you're looking at the right one?
 96 56 37 P Positive.
-96 56 40 c okay.
+96 56 40 C okay.
 96 56 49 P We've had lot of them read up to us that short.
 
 Page 367
@@ -6258,10 +6258,10 @@ anM Just used pitch.
 
 Section CARNARVON
 
-97 00 03 CC Gemini4, Carn.rvonCAP COM.
-97 00 04 C Roger, Carnmrvon, Ge_nl 4. We're reading you loud
+97 00 03 CC Gemini4, Carnarvon CAP COM.
+97 00 04 C Roger, Carnarvon, Gemini 4. We're reading you loud
 and clear.
-97 00 07 00 Roger. Read you loud and clear. How are you doing
+97 00 07 CC Roger. Read you loud and clear. How are you doing
 with your Pre-Retro Checklist?
 97 00 09 C The Pre-Retro Checklist is complete.
 97 00 12 CC Roger. I would like to give you a_U. m._. %fraehadk
@@ -6352,7 +6352,7 @@ AT_ITUIE on there, Jim?
 97 05 06 C Yes, I'm alining the platform. Go ahead.
 97 05 08 P Okay.
 97 05 11 C The Attitude Control, tw_.qE.
-97 05 12 c PTr[.qE.
+97 05 12 C PTr[.qE.
 
 Page 371
 97 05 15 P Null FDI's to aline platform.
@@ -6364,7 +6364,7 @@ Page 371
 0AME Power Switch? M_NEUVER and ASWrITUI]E is in
 A_IT:JEE.
 97 05 30 P It's in A_I/"JEE and you'll get it at the mtnus 1_.
-97 05 35 c Okay.
+97 05 35 C Okay.
 97 05 54 P Okay. We're good now un%il m/nuB 99.
 97 05 56 C All righty. What happens at minus 22?
 97 06 01 P Platform blunt-end-for_. Attitude Control, 1_,
@@ -6465,13 +6465,9 @@ got to have something on over there for me to do
 that, though.
 
 Page 374
-97 13 32 C I've got *
-Remem_.'e,-"we've azw'C.s h_,,! t:'zz* :.::._' ':' :,:' :_:-d.e:-.
-97 13 38 P Yes. -'%_','-
-97 13 40 r Let's :,ut '_'_' i".e'_:- ?,_'er thi::_: ' - - "-,' you '_
-do.
-97 13 42 C Oke.y.
-97 13 56 P 0k_y. I'll hit Indicate Retro Attitude, Sections 1
+(Illegible)
+97 13 42 C Okay.
+97 13 56 P Okay. I'll hit Indicate Retro Attitude, Sections 1
 and 2 Power Control-OFF. Then you hav_ some things:
 Platform-ORBIT RATE, FDR-PIATFORM, _DM-RATE, FDI
 Scale,High. Verify Rate Gyros-PR_2_ARY. I'v_ already
@@ -6506,7 +6502,7 @@ minus 10 seconds. I go to the AUTO RETRO and I'll
 Page 375
 97 15 45 P I'1! .r_n_al!y fire. We're not golr_ to use auto
 retros, _re we?
-97 15 49 c No.
+97 15 49 C No.
 97 15 50 P No, we are too.
 97 15 51 C They can still _ - I don't know whether they got
 the load in or not. Did he say they had the load
@@ -6586,7 +6582,7 @@ Page 377
 97 21 01 P 5+23. Correction.
 97 21 02 C 5+23. Okay.
 97 21 03 P And ends at 9+21.
-97 21 04 c okay.
+97 21 04 C okay.
 97 21 06 P 50 K and drogue is 10+55.
 97 21 11 C Okay.
 97 21 13 P Main chute at 12+33.
@@ -6619,7 +6615,7 @@ frenzy. !_a! !"a!
 97 23 04 C I don't k-_.ow.
 97 23 18 C Come on now. Let's not be burpir_.
 97 23 21 P I'm thinking about the food.
-97 23 23 c Hal Hal
+97 23 23 C Hal Hal
 97 23 25 C Ah, the sun's coming up.
 97 23 28 P Okay. I'll recheck all the switches again.
 97 23 30 C Very good, old boy.
@@ -6686,7 +6682,7 @@ Attitude-RATE COMMAND. You're in PULSE.
 97 26 23 P % 180_ O.
 
 Page 380
-97 26 24 c 0, 18o, 0.
+97 26 24 C 0, 18o, 0.
 97 26 27 P You're in.good shape.
 97 26 30 P You'll burn at !5 34 01, counting on your timer,
 and we'li get a countdown, ! guess.
@@ -6697,7 +6693,7 @@ and we'li get a countdown, ! guess.
 97 26 44 P Okay.
 97 26 49 C Okay, I'll tell you w._n we've got a mlnute.
 97 26 54 C Thirteen on my mark.
-97 26 59 c MARK
+97 26 59 C MARK
 97 27 01 P Right.
 97 27 13 C Okay, you ready?
 97 27 16 P I'm ready.
@@ -6792,11 +6788,11 @@ more whose that is.
 
 Page 383
 97 33 56 P Right.
-97 34 01 C see _ ... e :.i:.gs f!_a',ir:g _i ' ' ' '
-97 34 03 Yes.
-97 34 06 P Hey! I .-.vt'..".. them going the other way the other
+97 34 01 C I see little things floating along with us Ed.
+97 34 03 C Yes.
+97 34 06 P Hey! I noticed them going the other way the other
 night.
-97 34 08 C Yes, so did i. They were going fo_-ward.
+97 34 08 C Yes, so did I. They were going forward.
 97 34 10 P I was small-end-forward, and they were going fo,-'_ard.
 97 34 14 C Okay, 5:44.
 97 34 15 P Right.
@@ -6820,7 +6816,7 @@ Sections l, 2, 3, ... are all ... We're on the
 Main Batteries. And the buses ... all look good.
 Platform, ORBIT RATE.
 97 35 37 C ORBIT RATE.
-97 35 39 p FDR, PLATFORM_
+97 35 39 P FDR, PLATFORM_
 97 35 40 C PLATFORM-
 97 35 42 P FDM, RATE.
 97 35 44 C RATE.
@@ -6841,8 +6837,8 @@ Page 384
 97 36 22 C Yes, it is.
 97 36 23 P Okay, we've got all the lights on.
 97 36 30 C Hey, Ed, does t_hat go off?
-97 36 32 o No, it doesn't. It goes off later on. I don't see
-why we lea_e it on though, do you?
+97 36 32 P No, it doesn't. It goes off later on. I don't see
+why we leave it on though, do you?
 97 36 37 C No.
 97 36 39 P Scanners, OFF.
 97 36 42 P T_ans --HF is OFF now, and I'm on RECORD and have
@@ -6894,7 +6890,7 @@ about it.
 97 39 27 P Arm your squibs.
 
 Page 386
-97 39 30 c 1,2,3,4.
+97 39 30 C 1,2,3,4.
 97 39 32 P I think that thing's countir_ a little early, Jim.
 97 39 35 C Okay.
 97 39 37 P I'm going to fire it by manually.
@@ -6944,9 +6940,9 @@ is on LOW. You want it on LOW or HIGH, Jim?
 Bcauner is OFF. Roll Rate gyros are all ON. Tighten
 and lock restraint harnesses. Hatch pawls in
 neutral.
-97 41 37 ? We're not in neutral, check yours.
+97 41 37 P We're not in neutral, check yours.
 97 41 42 C Mine are in neutral.
-97 41 44 P Mine were in LOOKj where they should have been.
+97 41 44 P Mine were in LOCK where they should have been.
 97 41 46 P Okay, Cabin Fan ON. ECS 02 heater is OFF. Platform,
 FREE ... thruster is OFF. Check and
 lock restraint harness. Hatch pawls should be
@@ -7017,7 +7013,7 @@ Sinclair and of the airplanes are Inkspots.
 One thousand, get the High Altitude Drogue.
 97 44 49 P That' s affi_tlve.
 97 45 01 P Feeling great, how about you?
-97 45 03 c Okay.
+97 45 03 C Okay.
 97 45 05 CC It looks like it may be 11 or 12 miles short, JiM
 Very good.
 97 45 08 C Okay. I'm sold.
@@ -7087,7 +7083,7 @@ lot.
 97 48 33 C Five.
 97 48 37 P They're red hot, Jim.
 97 48 39 C Yes.
-97 48 42 c s_.
+97 48 42 C s_.
 97 48 48 C Seven.
 97 48 52 P You can take, old buddy.
 97 48 54 C You're right, it is. Isn't it? ...
@@ -7157,7 +7153,7 @@ Page 393
 97 51 40 P Yes.
 97 51 43 C I guess I should get our D-ring out, shouldn't I?
 97 51 45 P Huh? Right.
-97 51 49 c Okay,16 000.
+97 51 49 C Okay,16 000.
 97 51 51 P Okay, I'm in a position to eject, if necessary.
 97 51 52 C Okay, Ed. Let's hope we don't have to.
 97 51 58 C Roger, Cape Control. We're Just about ready to put
@@ -7292,7 +7288,7 @@ No leaks.
 97 57 02 C Yes.
 
 Page 397
-97 57 13 c Oh, are our sea dye markers out?
+97 57 13 C Oh, are our sea dye markers out?
 97 57 15 C Let's see. You got the Rescue Beacon ON?
 97 57 16 P Yes. I put that on right away.
 97 57 20 C Put it on with the light if they're ti_t close.
