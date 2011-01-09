@@ -26287,7 +26287,7 @@ CC: Roger, 11. Houston. You're loud. The standard VHF noise, though, makes you r
 LMP: Roger. Understand. Thank you.
 
 [08:02:13:19]
-CC: Apollo 11, Houston. Backup S band now, and we're standing by for command module [glossary:RCS] aetivation.
+CC: Apollo 11, Houston. Backup S band now, and we're standing by for command module [glossary:RCS] activation.
 
 [08:02:13:27]
 LMP: Okay. We're just about there.
@@ -26535,7 +26535,7 @@ CC: Apollo 11, Houston. Stand by for your miss distance. Over.
 CC: Apollo 11, Houston. Standing by for your [glossary:DSKY] reading. Over.
 
 [08:03:12:09]
-CC: DROGUES.
+CC: Drogues.
 
 [08:03:12:22]
 CC: Apollo 11, Houston. Your [glossary:DSKY] reading, please. Over.
@@ -26618,5 +26618,5 @@ CDR: ... 300 feet.
 SWIM 1: Roger. You're looking real good.
 
 [08:03:18:18]
-SWIM 1: SPLASHDOWN!
+SWIM 1: Splashdown!
 
