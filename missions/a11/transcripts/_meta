@@ -10,7 +10,11 @@
         "description": "The first manned mission to land on the moon.",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "cleaners": [
-            "Matthew Somerville"
+            "George Brocklehurst",
+            "Russ Garrett",
+            "Matthew Somerville",
+            "Jeff Venverloh",
+            "Sophie Welles"
         ],
         "about": "Apollo 11 doesn't really need any introduction. The trip where humans first landed on the moon.\n\nThis site allows you to explore transcripts of radio communications between the Apollo 11 crew and the NASA personnel back at Houston.",
         "image_attributions": [
@@ -47,6 +51,7 @@
             "range": ["00:02:54:09", "03:04:15:47"],
             "banner": "act3.jpg",
             "orbital": "act3.png",
+            "illustration": "act3.gif",
             "homepage": "act3.jpg"
         },
         {
@@ -54,6 +59,8 @@
             "description": "The crew emerged from the far side of the Moon, and spent the day adjusting orbit, transmitting pictures of the proposed landing site, and viewing landscape features to act as navigation aids during the coming descent.",
             "range": ["03:04:15:47", "04:04:17:05"],
             "banner": "act4.jpg",
+            "orbital": "act4.png",
+            "illustration": "act4.gif",
             "homepage": "act4.jpg"
         },
         {
@@ -61,6 +68,8 @@
             "description": "Apollo was now split into Columbia and Eagle - Columbia remained in orbit with Collins, whilst Eagle with Aldrin and Armstrong descended to the lunar surface. Unexpected speed and program alarms close to the surface caused concern, but these were allayed by quick decision making on the ground by Steve Bales and Jack Garman. They landed successfully.",
             "range": ["04:04:17:06", "04:06:47:37"],
             "banner": "act5.jpg",
+            "orbital": "act5.png",
+            "illustration": "act5.gif",
             "homepage": "act5.jpg"
         },
         {
@@ -68,6 +77,8 @@
             "description": "The two astronauts walked on the surface of the Moon, planted the US flag, collected rock samples, and took photos. They put all this on the LM, then went to sleep.",
             "range": ["04:06:47:37", "05:00:59:04"],
             "banner": "act6.jpg",
+            "orbital": "act6.png",
+            "illustration": "act6.gif",
             "homepage": "act6.jpg"
         },
         {
@@ -75,6 +86,8 @@
             "description": "The two crewmembers successfully rejoined Michael Collins aboard Columbia in lunar orbit, leaving behind a retroreflector, a plaque, and a memorial bag.",
             "range": ["05:00:59:04", "05:15:35:14"],
             "banner": "act7.jpg",
+            "orbital": "act7.png",
+            "illustration": "act7.gif",
             "homepage": "act7.jpg"
         },
         {
@@ -125,6 +138,8 @@
     ],
     "homepage_quotes" : [
         "00:04:53:28",
+        "00:05:20:31",
+        "00:06:09:17",
         "04:13:24:48",
         "04:06:46:04",
         "04:06:46:06",

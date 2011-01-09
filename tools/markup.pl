@@ -18,10 +18,10 @@ if (   !GetOptions( 'help|h' => \$help, 'shared_glossaries|s=s' => \$shared_path
     || $help
     || !@ARGV )
 {
-    print "Usage: markup.pl [dir/file]
+    print "Usage: markup.pl [--shared_glossaries=file] [dir/file]
                       --help : This help
 eg:
-   tools/markup.pl missions/ma6/transcripts/TEC
+   tools/markup.pl --shared_glossaries=missions/shared/glossary/ missions/ma6/transcripts/TEC
 
 markup will attenmpt to automatically markup glossary references
 in a processed TEC transcript. If given a file it will read from
@@ -84,7 +84,7 @@ sub load_transcript {
         elsif ( $line =~ /(^_\w+)\s*:\s*(.*)/ ) {
             $entry->{$1} = $2;
         }
-        elsif ( $line =~ /^([A-Z-?\d*]+): (.*)/ ) {
+        elsif ( $line =~ /^([A-Z-?\d* ()\/]+): (.*)/ ) {
 
             # Expand multiple speaker:text entries to separate logs lines
             if ( $entry->{speaker} ) {

@@ -431,7 +431,7 @@ class MetaIndexer(object):
         
         # Add all the glossary terms to redis
         for identifier, data in glossary_terms.items():
-            term_key = "%s:%s" % (self.mission_name, identifier)
+            term_key = "%s:%s" % (self.mission_name, identifier.lower())
             
             # Add the ID to the list for this mission
             self.redis_conn.rpush("glossary:%s" % self.mission_name, identifier)

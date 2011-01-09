@@ -54,16 +54,6 @@
 #transcript .highlighted.key-scene.last {
     -cp-border-bottom-right-radius: 0;
 }
-#content.with-highlight #transcript .highlighted.last dd {
-    border-bottom-width:            0;
-}
-
-
-#content.with-highlight #transcript dd.last {
-    -cp-border-bottom-left-radius:  5px;
-    -cp-border-bottom-right-radius: 5px;
-    border-bottom:                  none;
-}
 
 .range-ui span {
     position:               absolute;
@@ -106,7 +96,6 @@
 }
 
 #range-advisory {
-    border-top:             1px solid #999;
     padding-top:            10px;
     padding-bottom:         40px;
     color:                  #666;
