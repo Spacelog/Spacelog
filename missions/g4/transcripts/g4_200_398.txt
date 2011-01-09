@@ -6003,7 +6003,7 @@ water.
 96 30 41 P I agree.
 96 30 47 C Can I give you a band there?
 96 30 48 P No, go ahead. I'm Just checking.
-96 30 92 C Okay. Let me --I'll go through the --no, Illl wait
+96 30 52 C Okay. Let me --I'll go through the --no, Illl wait
 for you.
 96 30 59 P If you're waiting, maybe --no, ...
 96 31 02 C Okay.
@@ -6013,7 +6013,7 @@ for you.
 96 31 26 P I go with them off most of the time anyhow.
 96 31 30 C Almost got it, Ed.
 96 31 33 C Which one?
-96 31 39 P The middle one.
+96 31 35 P The middle one.
 96 31 36 C The tight one?
 96 31 38 P The middle.
 96 31 40 C We've only got two.
@@ -6034,33 +6034,33 @@ Page 362
 96 32 50 C Okay, here. Stow this away, and we'll go through
 the Preretro Checklist and we'll do it for real.
 No skips.
-93 33 02 P No skipping ...
+96 33 02 P No skipping ...
 96 33 21 C I wonder how ... Ha I Hal
 96 33 25 P Okay. AC Power, IGS. It's on.
 96 33 30 P ... for the Pilot.
-96 55 35 P ACME Bias Power, on PRIMARY.
-96 35 55 P Attitude Light Switch breaker is ON.
-96 35 38 P Attitude Indicator With FDI.
+96 33 33 P ACME Bias Power, on PRIMARY.
+96 33 35 P Attitude Light Switch breaker is ON.
+96 33 38 P Attitude Indicator With FDI.
 96 33 39 C With FDI.
 96 33 40 P MDU power is OFF.
 96 33 45 P Attitude Indicator, with FDI.
 96 33 47 c WithFDL
 96 33 49 P Computer Power, ON?
 96 33 52 C Computer Power's ON.
-96 55 54 P Yes.
-96 35 55 P Oh, computer to CATCH-UP.
+96 33 54 P Yes.
+96 33 55 P Oh, computer to CATCH-UP.
 96 33 56 C No, Just leave it in PRRT_IUNCH.
 96 33 57 P Okay. Platform alining. It's alined, isn't it?
 96 33 58 C It's already alined.
-96 53 59 P Scanner's PRIMARY.
-96 54 00 c
+96 33 59 P Scanner's PRIMARY.
+96 34 00 C PRIMARY.
 96 34 01 P Rate Gyros, PRIMARY.
-96 54 02 c PRnma¥.
-96 54 03 P Equipment stowed?
-96 34 05 C Sbc_ed as best a_ can be...
-96 54 06 P Stowage vents are open. Drogue pins are out.
+96 34 02 C PRIMARY.
+96 34 03 P Equipment stowed?
+96 34 05 C Stowed as best as can be...
+96 34 06 P Stowage vents are open. Drogue pins are out.
 96 34 11 C Stowage vents are open and drogue pins are out.
-96 54 15 P Rog. Survival lanyard. Yours connected. Mine
+96 34 13 P Rog. Survival lanyard. Yours connected. Mine
 connected. All right, then. MY harness and lap
 belt.
 96 34 18 C That's your harness and your belt, aren't they?
@@ -6068,15 +6068,15 @@ belt.
 Page 363
 96 34 19 P Yes.
 96 34 21 C Got your shoulder harness now?
-96 34 22 P Yes. Secondary 02, OPEN.
-96 34 23 C MY Secondary 02 is OPEN.
+96 34 22 P Yes. Secondary O2, OPEN.
+96 34 23 C My Secondary O2 is OPEN.
 96 34 26 P You're sure ...
 96 34 27 c ...
 96 34 30 P Okay, I'm putttng the new tape in.
 96 34 33 C We're going to run out before we get there.
 96 34 40 P Okay. I'll hold this and put it in later.
 96 34 45 P Okay. Elbow support on your side. Unstowed.
-96 54 49 C Yes.
+96 34 49 C Yes.
 96 34 54 P Sequence Lights Test --A_ER --GRk_ - then RED.
 96 34 58 C ... okay.
 96 34 59 P Verify all your Circuit Breakers are CI_. You're
@@ -6086,12 +6086,12 @@ still fooling with that TR-9.
 Indicator, with FDI.
 96 35 13 C With FDL
 96 35 16 P Retro Power, ARM_
-96 36 18 C Retro Power's ARM_
+96 35 18 C Retro Power's ARM_
 96 35 21 P Retro Power RCS, I_H.
 96 35 25 P Got them all. Good.
 96 35 28 C Retro Power, OFF.
-96 55 30 P Retro Power, SAFE. 0AMS Power, OFF.
-96 35 55 P Attitude Control RATE CO_WAND.
+96 35 30 P Retro Power, SAFE. 0AMS Power, OFF.
+96 35 35 P Attitude Control RATE CO_WAND.
 96 35 37 C RATE C0_9_ND.
 96 35 40 P Test rings A and B.
 96 35 45 C They're firing, aren'T they?
@@ -6177,7 +6177,7 @@ Page 366
 96 54 47 C Hey, you got a couple up there you probably ought to
 get out of there.
 96 54 49 P Okay.
-96 74 51 C You all right?
+96 54 51 C You all right?
 96 54 57 P Start your burn. It's 16 44 01.
 96 54 59 C 16 44 O1. All right.
 96 55 01 P Retro time 16 56 01 or mtuus 12.
@@ -6197,7 +6197,7 @@ a minute.
 from 30 when I've got 30 seconds to go. Tell me
 30 seconds, 20 seconds, 10 seconds, 5, 4, 3, 2, 1. .
 96 56 09 P That's e_ctly what I said. That's good.
-95 56 11 C I Just wanted to make sure that that's what you said.
+96 56 11 C I Just wanted to make sure that that's what you said.
 96 56 13 P Right.okay.
 96 56 15 C After so many clocks that we've been talking about.
 96 56 28 C How long is it to RET? To 400 K7 2+38? Seems
@@ -6243,7 +6243,7 @@ retrofire.
 one.
 96 59 20 C Yes, and I'm going to fly roll gyros in all three?
 96 59 23 P Right, and I'll be watching when --
-95 59 26 C You knock off the roll if it looks as though I need
+96 59 26 C You knock off the roll if it looks as though I need
 it.
 
 Page 368
@@ -6258,7 +6258,7 @@ anM Just used pitch.
 
 Section CARNARVON
 
-97 00 05 CC Gemini4, Carn.rvonCAP COM.
+97 00 03 CC Gemini4, Carn.rvonCAP COM.
 97 00 04 C Roger, Carnmrvon, Ge_nl 4. We're reading you loud
 and clear.
 97 00 07 00 Roger. Read you loud and clear. How are you doing
@@ -6297,7 +6297,7 @@ maneuver 16 50 40.
 97 01 47 P Well, what we need --
 97 01 49 CC ...
 97 01 54 C Did you want anything else?
-97 01 97 C Okay, roger. Could you give me the time to start
+97 01 57 C Okay, roger. Could you give me the time to start
 rolling 400 000 feet?
 97 02 03 CC Okay. With maneuver 2+38. Without maneuver 7+03.
 97 02 16 C Roger. Thank you.
@@ -6320,7 +6320,7 @@ leave that for them.
 
 Page 370
 97 03 31 CC )kay, i:. _ :ut 30 set,ads i'!I give ;,'.:u a .'_'=._dowm.
-97 03 92 CC 5, ', 3,2, i. :._'d-_:.:l
+97 03 52 CC 5, ', 3,2, i. :._'d-_:.:l
 97 03 59 C Roger. Co'_mti:,gdown.
 97 04 01 CC Okay. Very gox!.
 97 04 06 P Okay. Got your Event Timer counting down..
@@ -6343,8 +6343,8 @@ No sweat. Al1 right, we completed that.
 97 04 42 P Okay. Check operation of aft firing thrusters.
 Spacecraft is 0-80-0. OAMS Power, A/'PITU.]_.
 97 04 49 C Yes.
-97 04 92 P Attitude Control, HORIZON SCAN.
-97 04 94 C I'm alining. Go ahead.
+97 04 52 P Attitude Control, HORIZON SCAN.
+97 04 54 C I'm alining. Go ahead.
 97 04 56 P FDR, PLATFORM_ FDM, AT_ITUI_.
 97 05 01 C Right.
 97 05 03 P Platform blunt-end-forwal_l. Are you sure you want
@@ -6363,7 +6363,7 @@ Page 371
 97 05 25 C WT.ere did we end u_ with _he (lAMS Power, Mmu_euv_r,
 0AME Power Switch? M_NEUVER and ASWrITUI]E is in
 A_IT:JEE.
-97 05 50 P It's in A_I/"JEE and you'll get it at the mtnus 1_.
+97 05 30 P It's in A_I/"JEE and you'll get it at the mtnus 1_.
 97 05 35 c Okay.
 97 05 54 P Okay. We're good now un%il m/nuB 99.
 97 05 56 C All righty. What happens at minus 22?
@@ -6496,10 +6496,10 @@ ADAPT. OAMB) k_,W_I_P_ICand ADAPT.
 97 15 11 P No. We want to listen carefully so we can tell our
 good buddies about it.
 97 15 13 C Roger.
-97 19 16 ? Okay, at minus 30 you will arm the squibs-up and at
+97 15 16 P Okay, at minus 30 you will arm the squibs-up and at
 minus 10 seconds. I go to the AUTO RETRO and I'll
---no, we won'e even use that.
-97 15 37 C No. We'll do it, though --
+-no, we won't even use that.
+97 15 37 C No. We'll do it, though -
 97 15 39 P Let the ...
 97 15 42 C Okay.
 
@@ -6511,9 +6511,9 @@ retros, _re we?
 97 15 51 C They can still _ - I don't know whether they got
 the load in or not. Did he say they had the load
 in?
-97 19 54 P Yes.
+97 15 54 P Yes.
 97 15 56 C TRS will fire the_-
-97 19 58 P TRS is working all right.
+97 15 58 P TRS is working all right.
 97 16 00 C Okay. Ne-said that.
 97 16 01 P I'll delay that a little bit. Hat Hal
 97 16 04 C Yes. Delay it t_11 about 5. Eow about that?
@@ -6532,7 +6532,7 @@ Okay, I'll have that.
 97 16 44 P Report to Guaym_s n_,mbersof retros, _ readings,
 estimated --alI you're going to have to do is report
 the hr,tuberand the attitude.
-97 16 92 C Good.
+97 16 52 C Good.
 97 16 56 P Okay. After retros, ES sensor-(_F. We have a RET
 checklist to go through. Do you want me to go
 through that now?
@@ -6546,10 +6546,10 @@ Page 376
 97 17 22 C No. I'm golr_zt,. lea*._it Dn :iA:?E.
 97 17 25 P ATTiTUEE or CO_-?- ' You going :_ lea_ it on
 PLATFOR_
-97 17 50 C PI_TFORM or COMPL_LR. Yes, I'll leave it on PLATFORM.
-97 17 52 P Yes. Right.
-97 17 57 P You're going to leav_ it on RATE too, aren't you?
-97 17 58 C Yes.
+97 17 30 C PI_TFORM or COMPL_LR. Yes, I'll leave it on PLATFORM.
+97 17 32 P Yes. Right.
+97 17 37 P You're going to leav_ it on RATE too, aren't you?
+97 17 38 C Yes.
 97 17 40 P The FDI will be on LOW.
 97 17 43 C Okay.
 97 17 44 P The attitude control - you going to use Rate Com_d
@@ -6582,7 +6582,7 @@ Page 377
 97 20 47 P _?: ti,_eto 400 000 K will be 2+38.
 97 20 54 C Right.
 97 20 56 P Blackout will commence at 2+38.
-97 20 39 C Blackout at 2:23.
+97 20 59 C Blackout at 2:23.
 97 21 01 P 5+23. Correction.
 97 21 02 C 5+23. Okay.
 97 21 03 P And ends at 9+21.
@@ -6617,7 +6617,7 @@ Page 378
 97 23 01 C Wonder if Paul Haney bas the crowd worked up to a
 frenzy. !_a! !"a!
 97 23 04 C I don't k-_.ow.
-97 25 18 C Come on now. Let's not be burpir_.
+97 23 18 C Come on now. Let's not be burpir_.
 97 23 21 P I'm thinking about the food.
 97 23 23 c Hal Hal
 97 23 25 C Ah, the sun's coming up.
@@ -6650,8 +6650,8 @@ the gantry is going down.
 97 24 59 C 15 minutes from now.
 
 Page 379
-. j 25 Ol P Okay. We'v_ got 3 .minutestill our burn.
-97 29 97 C Start givd._ a TR-13 checkllst at 14.
+97 25 01 P Okay. We've got 3 minutes till our burn.
+97 25 07 C Start givd._ a TR-13 checkllst at 14.
 97 25 10 P Okay.
 97 25 13 P Start Comp. You don't need to do that.
 97 25 16 C You've got another minute.
@@ -6691,7 +6691,7 @@ Page 380
 97 26 30 P You'll burn at !5 34 01, counting on your timer,
 and we'li get a countdown, ! guess.
 97 26 38 P I'll still giv_ you some talk.
-97 26 59 C Right.
+97 26 39 C Right.
 97 26 40 P Unless they're bothering us so I can't.
 97 26 42 C No, he said they're going to stand by for my mark.
 97 26 44 P Okay.
@@ -6721,13 +6721,13 @@ and we'li get a countdown, ! guess.
 
 Page 381
 97 29 54 P You're coming - you're coming up on 2 r_:l.ates.
-97 29 96 P .MARK!
+97 29 56 P .MARK!
 97 30 02 C Got 10 percent of fuel left.
 97 30 04 P Roger.
 97 30 06 P You're coming up on 30 seconds.
 97 30 16 CC We're standing by for your mark, Gemini 4.
-97 50 18 C Roger.
-97 50 20 P 20 seconds.
+97 30 18 C Roger.
+97 30 20 P 20 seconds.
 97 30 28 P 10 seconds.
 97 30 32 P 5,4,3,2,1,0
 97 30 37 C MARKI
@@ -6737,8 +6737,8 @@ Page 381
 your firing?
 97 30 45 C They were within about a degree.
 97 30 48 CC Roger. Roger.
-97 50 50 P Okay, IVI... OAMB fire attitude.
-97 50 52 C OAMB fire attitude.
+97 30 50 P Okay, IVI... OAMB fire attitude.
+97 30 52 C OAMB fire attitude.
 97 30 54 P Maneuver control is STOW.
 97 30 55 CC You looked good here on the ground.
 97 30 56 C Stow.
@@ -6773,8 +6773,8 @@ retrofire.
 do there is ORBIT RATE.,platform FDM RATE, FDI scale
 HIGH. Go to RATE COMMAND. ACME. OAMS OFF. And go
 to minus 30.
-97 52 46 C Right.
-97 52 48 P Now I'm going to ask for Retro Power A_ right after
+97 32 46 C Right.
+97 32 48 P Now I'm going to ask for Retro Power A_ right after
 minus 5.
 97 32 52 C Okay.
 97 33 18 C I don't know why I'm dcing all this in the Platform
@@ -6782,7 +6782,7 @@ Alining mode. It's not really good.
 97 33 23 P Let's see. You've got a minute and 30 seconds to
 minuc 5, right?
 97 33 26 C Yes, on my mark. MARKI
-97 55 29 P Okay, I'm half a second from you. I think I can't
+97 33 29 P Okay, I'm half a second from you. I think I can't
 sweat that.
 97 33 32 C You can't have everything, Ed.
 97 33 39 P Well, we got somebody's 0AMS retro. I'm not sure any
@@ -6806,24 +6806,24 @@ right up here, and then give me RETRO POWER.
 97 34 30 C You want me to give you a mark7
 97 34 35 P No, I've got mine right here. I'll get from that
 ... We're coming up on ...
-97 54 42 C 15. MARK!
+97 34 42 C 15. MARK!
 97 34 44 P Right.
-97 34 99 C Okay, we'll be right on time RETR0 POWER ...
+97 34 59 C Okay, we'll be right on time RETR0 POWER ...
 97 35 01 P Okay.
-97 95 03 C Is AR_
-97 39 06 P Retro Power is ARM. My Greenwich watch has stopped.
+97 35 03 C Is AR_
+97 35 06 P Retro Power is ARM. My Greenwich watch has stopped.
 The m_in batteries are coming on. Verify RCS propellant
 A and B are ON.
-97 39 13 C Rog.
+97 35 13 C Rog.
 97 35 18 P Indicate - indicate Retro Attitude has been PUSP[ED.
 Sections l, 2, 3, ... are all ... We're on the
 Main Batteries. And the buses ... all look good.
 Platform, ORBIT RATE.
 97 35 37 C ORBIT RATE.
-97 39 39 p FDR, PLATFORM_
-97 39 40 C PLATFORM-
+97 35 39 p FDR, PLATFORM_
+97 35 40 C PLATFORM-
 97 35 42 P FDM, RATE.
-97 53 44 C RATE.
+97 35 44 C RATE.
 97 35 46 P FDI Scale, HIGH.
 
 Page 384
@@ -6838,13 +6838,13 @@ Page 384
 97 36 11 P You want to report a minus 5 complete, Jim?
 97 36 12 C Minus 5 checklist is complete.
 97 36 20 P Kind of bright, isn't it?
-97 35 22 C Yes, it is.
+97 36 22 C Yes, it is.
 97 36 23 P Okay, we've got all the lights on.
-97 36 50 C Hey, Ed, does t_hat go off?
+97 36 30 C Hey, Ed, does t_hat go off?
 97 36 32 o No, it doesn't. It goes off later on. I don't see
 why we lea_e it on though, do you?
 97 36 37 C No.
-97 36 59 P Scanners, OFF.
+97 36 39 P Scanners, OFF.
 97 36 42 P T_ans --HF is OFF now, and I'm on RECORD and have
 been on RECORD.
 97 36 54 P Okay, I'm going to reverify the checklist. I'll be
@@ -6855,7 +6855,7 @@ standing by on your Roll Gyro.
 97 37 18 C Those mothers really fire, don't they?
 97 37 20 P Yes, they really Jerk you.
 97 37 27 C Your deadband is not as tight as it was.
-97 57 29 C It is for roll and pitch.
+97 37 29 C It is for roll and pitch.
 97 37 40 C Okay, we're at 2:18.
 
 Page 385
@@ -6882,7 +6882,7 @@ through.
 97 38 51 C Doesn't the RCS propellant firing look good?
 97 38 54 P Yes.
 97 39 03 C Just a sec.
-97 59 05 P Okay, stand by.
+97 39 05 P Okay, stand by.
 97 39 08 P Got the ... Got the adapter. There is no question
 about it.
 97 39 15 C No question about it. The old adapter's gone.
@@ -6890,8 +6890,8 @@ about it.
 97 39 20 C Adapter sep., no doubt.
 97 39 23 CC We b_ve adapter sep.
 97 39 23 P Okay. Stand by to arm your squibs.
-97 59 25 C Roger.
-97 59 27 P Arm your squibs.
+97 39 25 C Roger.
+97 39 27 P Arm your squibs.
 
 Page 386
 97 39 30 c 1,2,3,4.
@@ -6970,12 +6970,12 @@ pumping it up again.
 Page 388
 97 43 00 CC MARKI 3 minutes.
 97 43 01 P Got that, Jim.
-97 45 02 C Right.
+97 43 02 C Right.
 97 43 03 P I've got a blood pressure for them.
 97 43 05 C Ed has a blood pressure.
 97 43 13 P Okay, this should be at 400 K, Jim
 97 43 15 C I know it.
-97 45 18 P Starting the roll.
+97 43 18 P Starting the roll.
 97 43 20 C Yes.
 97 43 21 P Okay.
 97 43 23 C I started my roil about 50 seconds ago.
@@ -6990,8 +6990,8 @@ Section TEXAS
 97 43 44 P Okay, Jim. We're going to have blackout here in
 ...
 97 43 48 CC Your weather is still very good, Jim.
-97 45 49 C Okay.
-97 44 56 P About 2 1/2 minutes till blackout, Jim.
+97 43 49 C Okay.
+97 43 56 P About 2 1/2 minutes till blackout, Jim.
 97 44 01 C There goes the adapter --the retro adapter.
 97 44 02 P Wqaere?
 97 44 03 C See the antenna even. Even the antenna sticking up.
