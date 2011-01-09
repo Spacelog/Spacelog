@@ -7086,7 +7086,7 @@ Page 391
 lot.
 97 48 33 C Five.
 97 48 37 P They're red hot, Jim.
-97 48 59 C Yes.
+97 48 39 C Yes.
 97 48 42 c s_.
 97 48 48 C Seven.
 97 48 52 P You can take, old buddy.
@@ -7097,7 +7097,7 @@ lot.
 97 49 13 P ... the fire.
 97 49 15 CC Gemini 4, Houston CAP CO_
 97 49 25 C I'm reading you loud and clear. How me?
-97 49 53 CC G_aini 4, Houston CAP CO_
+97 49 33 CC G_aini 4, Houston CAP CO_
 97 49 37 C Okay.
 97 49 41 C We're climbing back up again, it says now.
 97 49 44 C Four g's.
@@ -7190,21 +7190,21 @@ Page 394
 97 52 47 C I know it, I know it.
 97 52 49 C How do you feel? I feel great.
 97 52 52 P I felt kind of l_mny during the spinning.
-97 52 55 C I was dizzy during ...
+97 52 53 C I was dizzy during ...
 97 52 54 P I was, too. Okay, it's coming out now.
 97 52 55 C Coming out now?
 97 52 59 P Oh, no, no, no! Don't go yet.
 97 53 00 C Okay.
-97 52 06 C Ready?
+97 53 06 C Ready?
 97 53 07 P No.
-97 93 10 C Come on, I'm not going to wait past 5000.
+97 53 10 C Come on, I'm not going to wait past 5000.
 97 53 14 CC Gemini 4, Houston CAP CON, Do you read?
 97 53 15 P Okay, Just a minute. Make sure it goes all the way
 down.
 97 53 17 C Okay, you ready?
 97 53 18 C We're at 5000 on my mark.
 97 53 20 C 2, l, MARK!
-97 55 25 P That wasn't so bad.
+97 53 23 P That wasn't so bad.
 97 53 25 CC Gemini 4, Houston CAP COM_
 97 53 26 C Couple of broken arms, and you're all right.
 97 53 27 P Okay.
@@ -7217,7 +7217,7 @@ you're on the water.
 rescued in a hurry. Tell Doc Berry we got a blood
 pressure.
 97 53 42 P Okay, D-ring covered.
-97 55 49 C Take another one, too.
+97 53 49 C Take another one, too.
 97 53 51 P Yes. D-ring?
 
 Page 395
@@ -7227,10 +7227,10 @@ Page 395
 97 53 56 P I feel good. How about you?
 97 53 59 C So do I. I feel great.
 97 54 00 P Feel like a tiger. Feel like I could eat him up.
-97 54 05 C Feel a little warm_ Let's see.
+97 54 03 C Feel a little warm. Let's see.
 97 54 04 P Okay.
 97 54 05 C Cabin temperature's only 55. Suits are 70.
-97 54 14 CC Say again, J_m-
+97 54 14 CC Say again, Jim.
 97 54 16 C The cabin temperature is only 55- The suits are up
 to about 70.
 97 54 25 C bmr poor spacecraft's ell burned up.
@@ -7258,7 +7258,7 @@ slower.
 Page 396
 97 55 31 C Okay, we're at 1C_)Ofeet, Ed.
 97 55 32 P Okay.
-97 55 55 C Now get ready. Remember water.
+97 55 35 C Now get ready. Remember water.
 97 55 40 P I'll stand by. Water seal. Let's go down -
 97 55 41 CC Oh l Okay. The R & R can is floating by.
 97 55 44 C Let's go down now. Okay, you get the Tnlet Snorkel
@@ -7282,7 +7282,7 @@ gurgling.
 97 56 28 P Okay.
 97 56 30 P Whool I smell something, but I don't think it's bad.
 Gee, I feel greatl
-97 56 58 C So do I, Ed! That wasntt too bad!
+97 56 38 C So do I, Ed! That wasntt too bad!
 97 56 40 P Yes, buddy. Good showl
 97 56 45 C Okay, let's finish up the checklist.
 97 56 47 P Let's clean every switch up in this mother.
@@ -7292,10 +7292,10 @@ No leaks.
 97 57 02 C Yes.
 
 Page 397
-97 27 13 c Oh, are our sea dye markers out?
+97 57 13 c Oh, are our sea dye markers out?
 97 57 15 C Let's see. You got the Rescue Beacon ON?
 97 57 16 P Yes. I put that on right away.
-97 97 20 C Put it on with the light if they're ti_t close.
+97 57 20 C Put it on with the light if they're ti_t close.
 97 57 22 P Okay.
 97 57 27 CC Gemini 4, Houston CAP COX How do you read?
 97 57 30 P Okay, let's go to HF.
@@ -7303,16 +7303,16 @@ Page 397
 97 57 35 P Ye-hoo!
 97 57 36 P Okay, let me give you this one, Jim.
 97 57 40 C Don't you have one over there, really?
-97 51 41 P Yeah, it's packed with garbage on top of it. It
-really stinks in here, doesn't it? Let's go to 02
+97 57 41 P Yeah, it's packed with garbage on top of it. It
+really stinks in here, doesn't it? Let's go to O2
 High Rate, you want to? Get some fresh air?
 97 57 45 P Yes.
-97 57 52 C What's the matter? 02 High Rate doesnit come on.
+97 57 52 C What's the matter? O2 High Rate doesn't come on.
 I guess we must have all the lights off ...
 97 58 20 P Negative, Omnibus.
 97 58 25 P Roger, read you 5 square, Omnibus.
 97 58 27 P Hello, Omnibus ... Gemini 4.
-97 58 40 CC C_mini 4, Houston.
+97 58 40 CC Gemini 4, Houston.
 97 58 45 P You're coming through five square, and you're sounding
 great. There's nothing you can do but p,_ltus
 out.
