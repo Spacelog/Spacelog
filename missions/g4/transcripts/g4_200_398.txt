@@ -3020,9 +3020,8 @@ Night Check.
 68 02 51 CC Gemini 4, this is Houston.
 68 03 16 CC Gemini 4, Gemini 4, Houston CAP COM_ Over.
 68 03 18 C Go ahead Houston, Gemini 4.
-680 3 22 CC Roger, did you get that One Attitude Ttnmster Check?
-68 03 27 C Houston, Gemini 4. I'm not getting that 13:14
-message.
+68 03 22 CC Roger, did you get that One Attitude Ttnmster Check?
+68 03 27 C Houston, Gemini 4. I'm not getting that 13:14 message.
 68 03 39 CC Roger, we'll get the rest to you at Canaries.
 68 03 39 C Roger.
 68 03 40 P At this time the event indicator worked all right.
@@ -5030,7 +5029,7 @@ Section ROSE KNOT VICTOR
 86 43 30 P Go ahead RKV, Gemini 4.
 86 43 32 CC Roger. We have a valid temperature. Would you pump
 up your blood pressure?
-86 43 37 P
+86 43 37 P Pump.
 86 44 04 S Gemini 4, this is RKV Surgeon. Would you give us
 the blood -- there it goes. Blood pressure is going'
 . _ t_p...

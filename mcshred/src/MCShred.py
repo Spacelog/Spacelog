@@ -3,8 +3,8 @@
 import sys
 
 #MAX_FILE_NUMBER = 20
-MAX_FILE_NUMBER = 765
-TIMESTAMP_PARTS = 4
+MAX_FILE_NUMBER = 2
+TIMESTAMP_PARTS = 3
 
 errors = []
 valid_tec_speakers = (
@@ -30,7 +30,9 @@ valid_tec_speakers = (
     "Music",
     "P",
     "G",
-    "SY"
+    "SY",
+    "C",
+    "P"
 )
        
 def get_file_name_for(num):
