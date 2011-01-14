@@ -146,7 +146,8 @@
         "04:06:57:04",
         "04:07:05:32",
         "02:23:52:15",
-        "03:06:44:07"
+        "03:06:44:07",
+        "07:22:51:01"
     ],
     "character_ordering": [
         "CC",
@@ -391,6 +392,7 @@
           "avatar": "lovell.jpg",
           "photo_width": 190,
           "photo_height": 155,
+          "photo": "lovell.jpg",
           "bio":"Having joined along with Neil Armstrong, Jim Lovell was already one of NASA's most experienced astronauts, having flown on Geminis 7 and 12, the latter with Buzz Aldrin. In the Apollo program, he was Command Module Pilot of Apollo 8 which performed the first lunar orbit, and would go on to be commander of the ill-fated Apollo 13."
         },
         "DEKE_SLAYTON": {
