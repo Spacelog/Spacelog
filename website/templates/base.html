@@ -17,7 +17,7 @@
   <meta property="og:title dc:title" content="{{ mission.title }}">
   <meta property="og:type" content="space:MannedMission">
   <link rel="rdfs:type" resource="http://spacelog.org/ns/MannedMission">
-  <meta property="og:url foaf:homepage" content="http://{{ request.META.HTTP_HOST }}/">
+  <meta property="og:url foaf:homepage" content="{{ PROJECT_HOME }}/">
   <meta property="og:image" content="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
   <link property="foaf:depiction" href="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
   {% comment %}

@@ -129,7 +129,7 @@
   </div>
 
   <div id='phases'>
-    <div class='wrapper'>
+    <div class='inner'><div class='wrapper'>
       <nav>
         {% if original_transcript_page %}
           <p class='original'>
@@ -152,11 +152,14 @@
         {% else %}
           <li class='next'><span>Next</span></li>
         {% endif %}
+        <li id='fb-like'>{# Facebook like button #}
+          <fb:like href="{{ MISSION_URL }}" layout="button_count" show_faces="false" width="85"></fb:like>
+        </li>
       </ul></nav>
       {% if current_act.orbital %}
       <img class='orbital' src='{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/orbital/{{ current_act.orbital }}'>
       {% endif %}
-    </div>
+    </div></div>
   </div>
-  
+  <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
 {% endblock %}

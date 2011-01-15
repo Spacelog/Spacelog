@@ -143,8 +143,8 @@
     position:               fixed;
     bottom:                 0;
     left:                   0;
-    height:                 40.4px;
-    background:             black;
+    height:                 42px;
+    background:             #232323;
     color:                  white;
     width:                  100%;
     font-size:              24px;
@@ -153,6 +153,10 @@
     line-height:            28px;
     z-index:                10;
     overflow:               hidden;
+}
+#phases .inner {
+    border-top:             1px solid #545454;
+    margin-top:             1px;
 }
 #phases p.original {
     position:               absolute;
@@ -166,7 +170,7 @@
 }
 #phases nav {
     position:               absolute;
-    bottom:                 0px;
+    bottom:                 1px;
     left:                   50%;
     margin-left:            -470px;
     width:                  940px;
@@ -242,15 +246,40 @@
 
 #phases .map {
     position:               absolute;
-    right:                  0px;
+    right:                  130px;
     padding:                0 10px;
     -cp-border-radius:      3px;
     background:             #383838;
     color:                  #fff;
 }
+/* Facebook like button */
+#phases #fb-like span {
+    background:             #fff;
+    -cp-border-radius:      3px;
+    bottom:                 -6px;
+    color:                  #000;
+    height:                 20px;
+    padding:                4px 6px;
+    position:               absolute;
+    right:                  -300px;
+    width:                  77px;
+}
+#phases #fb-like iframe {
+    display:                block;
+}
 /*! verbatim */
 #phases .map {
     text-shadow:            0 1px 1px #000;
+}
+#phases #fb-like span {
+    background:             -webkit-gradient(
+                                linear,
+                                left top,
+                                left bottom,
+                                from(#fff),
+                                to(#e3e1e2),
+                                color-stop( 75%, #fff )
+                            );
 }
 /* -- */
 #phases.open .map {
@@ -292,8 +321,8 @@ p.act-banner {
 
 /*! verbatim */
 #phases {
-    -webkit-box-shadow:     #222 0 -2px 4px;
-    -moz-box-shadow:        #222 0 -2px 4px;
+    -webkit-box-shadow:     #bababa 0 -2px 4px;
+    -moz-box-shadow:        #bababa 0 -2px 4px;
 }
 p.load-more a {
     -webkit-box-shadow:     #222 0 2px 4px;
