@@ -244,6 +244,7 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
             // Don't load anything if we're highlighted and reached the end of
             // a phase
             else if (Artemis.transcriptView.highlightedLines.size()) {
+                this.el.children().replaceWith(this.elLast.clone().children());
                 return;
             }
             // If going forwards, skip to next phase 
