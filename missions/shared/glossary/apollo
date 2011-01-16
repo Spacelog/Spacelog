@@ -283,6 +283,10 @@
         "summary": "Manual thrust vector control",
         "type": "abbreviation"
     },
+    "M&O": {
+        "summary": "Maintenance and Operations",
+        "type": "abbreviation"
+    },
     "OPS": {
         "summary": "Oxygen purge system",
         "type": "abbreviation"
