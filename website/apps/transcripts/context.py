@@ -7,7 +7,7 @@ def mission(request):
         "MISSION_URL": "http://%s%s" % (
             request.META['HTTP_HOST'],
             # "apollo13.spacelog.org",
-            request.path,
+            '/',
         ),
     }
 
