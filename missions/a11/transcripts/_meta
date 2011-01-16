@@ -37,9 +37,9 @@
             "homepage": "act1.jpg"
         },
         {
-            "title": "Earth orbit",
+            "title": "Earth Orbit",
             "description": "When Apollo 11 reached Earth orbit, it was still attached to part of the Saturn V rocket (the S-IVB ‘ess-four-bee’ stage). Two hours later, the S-IVB's engine was restarted to propel the spacecraft out of orbit and onto a course towards the Moon.",
-            "range": ["00:00:14:44", "00:02:54:09"],
+            "range": ["00:00:14:44", "00:02:51:08"],
             "banner": "act2.jpg",
             "orbital": "act2.png",
             "illustration": "act2.gif",
@@ -47,8 +47,8 @@
         },
         {
             "title": "To the Moon",
-            "description": "The third Saturn V stage was jettisoned, Columbia docked with the lunar module, and the crew spent three days travelling to the Moon.",
-            "range": ["00:02:54:09", "03:04:15:47"],
+            "description": "The third Saturn V stage was jettisoned, Columbia docked with the lunar module Eagle, and the crew spent three days travelling to the Moon.",
+            "range": ["00:02:51:08", "03:04:15:47"],
             "banner": "act3.jpg",
             "orbital": "act3.png",
             "illustration": "act3.gif",
@@ -65,8 +65,8 @@
         },
         {
             "title": "Descent to the Moon",
-            "description": "Apollo was now split into Columbia and Eagle - Columbia remained in orbit with Collins, whilst Eagle with Aldrin and Armstrong descended to the lunar surface. Unexpected speed and program alarms close to the surface caused concern, but these were allayed by quick decision making on the ground by Steve Bales and Jack Garman. They landed successfully.",
-            "range": ["04:04:17:06", "04:06:47:37"],
+            "description": "Apollo was now split into Columbia and the Lunar Module Eagle. Mike Collins remained in lunar orbit in Columbia, whilst Eagle with Aldrin and Armstrong descended to the lunar surface. Unexpected speed and program alarms close to the surface caused concern, but these were allayed by quick decision making on the ground by Steve Bales and Jack Garman. The Eagle landed successfully.",
+            "range": ["04:04:17:06", "04:06:46:06"],
             "banner": "act5.jpg",
             "orbital": "act5.png",
             "illustration": "act5.gif",
@@ -74,8 +74,8 @@
         },
         {
             "title": "On the Moon",
-            "description": "The two astronauts walked on the surface of the Moon, planted the US flag, collected rock samples, and took photos. They put all this on the LM, then went to sleep.",
-            "range": ["04:06:47:37", "05:00:59:04"],
+            "description": "Neil Armstrong and Buzz Aldrin became the first men to walk on the Moon. They spent just over two hours on the lunar surface collecting samples, taking photos, and leaving experiments.",
+            "range": ["04:06:46:06", "05:00:59:04"],
             "banner": "act6.jpg",
             "orbital": "act6.png",
             "illustration": "act6.gif",
@@ -92,7 +92,7 @@
         },
         {
             "title": "Towards Earth",
-            "description": "After 30 lunar orbits and a trip to the surface, Apollo 11 made its way back home. The crew had a quiet trip, with TV broadcasts and preparation for re-entry.",
+            "description": "After 30 lunar orbits and a trip to the surface, the crew left Eagle in lunar orbit and fired the Service Module engine to head home. The crew had a quiet trip, with TV broadcasts and preparation for re-entry.",
             "range": ["05:15:35:14", "07:21:28:35"],
             "banner": "act8.jpg",
             "orbital": "act8.png",
@@ -101,7 +101,7 @@
         },
         {
             "title": "Splashdown",
-            "description": "Before entering the Earth’s atmosphere, the crew moved back into Columbia, the heat-resistant Command Module, jettisoned the Service Module, and then splashdowned safely in the Pacific Ocean. The crew then went into quarantine for three weeks, in case they had an alien disease.",
+            "description": "Before entering the Earth’s atmosphere, the crew moved back into Columbia, the heat-resistant Command Module, jettisoned the Service Module, and then splashed down safely in the Pacific Ocean to be met by the USS Hornet. The crew then went into quarantine for three weeks.",
             "range": ["07:21:28:35", "08:03:18:19"],
             "banner": "act9.jpg",
             "orbital": "act9.png",
@@ -111,6 +111,14 @@
     ],
     "key_scenes" : [
       {
+        "title": "Apollo 11 leaves Earth's orbit",
+        "range": [ "00:02:43:18", "00:02:53:03" ]
+      },
+      {
+        "title": "The Command Module docks with Eagle",
+        "range": [ "00:03:17:09", "00:03:29:35" ]
+      },
+      {
         "title": "Eagle has computer problems during its descent",
         "range": [ "04:06:42:17", "04:06:42:58" ]
       },
@@ -119,7 +127,7 @@
         "range": [ "04:06:45:40", "04:06:46:06" ]
       },
       {
-        "title": "One small step...",
+        "title": "One small step…",
         "range": [ "04:13:23:38", "04:13:24:49" ]
       },
       {
@@ -133,6 +141,10 @@
       {
         "title": "Eagle meets up with Columbia in lunar orbit",
         "range": [ "05:07:57:34", "05:08:03:30" ]
+      },
+      {
+        "title": "Apollo 11 re-enters Earth's atmosphere",
+        "range": [ "08:03:03:01", "08:03:03:06" ]
       }
 
     ],
