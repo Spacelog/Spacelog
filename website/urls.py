@@ -5,7 +5,7 @@ from homepage.views import HomepageView, HomepageQuoteView
 from search.views import SearchView
 from homepage.views import HomepageView, AboutView
 
-tspatt = r'-?\d{2}:\d{2}:\d{2}:\d{2}'
+tspatt = r'-?\d+:\d+:\d+:\d+'
 
 urlpatterns = patterns('',
     url(r'^$', HomepageView.as_view(), name="homepage"),
