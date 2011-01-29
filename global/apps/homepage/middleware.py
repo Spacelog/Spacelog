@@ -7,8 +7,10 @@ class HoldingMiddleware(object):
     Shows a holding page if we're in the middle of an upgrade.
     """
     def process_request(self, request):
-        redis_conn = redis.Redis()
-        if redis_conn.get("hold"):
+        request.redis_conn = redis.Redis()
+        # Get the current database
+        request.redis_conn.select(int(request.redis_conn.get("live_database") or 0))
+        if request.redis_conn.get("hold"):
             if request.path.startswith("/assets"):
                 request.holding = True
             else:

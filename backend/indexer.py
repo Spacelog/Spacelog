@@ -510,7 +510,20 @@ class MissionIndexer(object):
 
 if __name__ == "__main__":
     redis_conn = redis.Redis()
+    # Find out what the current database number is
+    if not redis_conn.exists("live_database"):
+        redis_conn.set("live_database", 0)
+    current_db = int(redis_conn.get("live_database") or 0)
+    # Work out the new database
+    new_db = 0 if current_db else 1
+    print "Indexing into database %s" % new_db
+    # Flush the new one
+    redis_conn.select(new_db)
     redis_conn.flushdb()
+    # Restore the live database key
+    redis_conn.select(0)
+    redis_conn.set("live_database", current_db)
+    redis_conn.select(new_db)
     redis_conn.set("hold", "1")
     transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
     if len(sys.argv)>1:
@@ -525,4 +538,7 @@ if __name__ == "__main__":
             idx.index()
     search_db.flush()
     redis_conn.delete("hold")
+    # Switch the database over
+    redis_conn.select(0)
+    redis_conn.set("live_database", new_db)
 
