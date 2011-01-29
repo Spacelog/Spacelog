@@ -1,5 +1,7 @@
 from django.template import Library
 from django.core.urlresolvers import reverse
+from templatetag_sugar.register import tag
+from templatetag_sugar.parser import Variable, Optional
 from backend.util import timestamp_to_seconds
 
 register = Library()
@@ -30,9 +32,16 @@ def mission_time(seconds, separator=':'):
 def mission_time_format(seconds):
     return mission_time(seconds, ' ')
 
-@register.simple_tag
-def timestamp_to_url(seconds, anchor=None):
-    url = reverse("view_page", kwargs={"start": mission_time(seconds)})
+@tag(register, [Variable(), Optional([Variable(), Optional([Variable()])])])
+def timestamp_to_url(context, seconds, anchor=None, transcript=None):
+    # Construct the kwargs for the reverse lookup
+    kwargs = {
+        "start": mission_time(seconds),
+    }
+    if transcript and transcript != context['request'].mission.main_transcript:
+        kwargs['transcript'] = transcript.split("/")[-1]
+    # Go there
+    url = reverse("view_page", kwargs=kwargs)
     if anchor:
         url = '%s#log-line-%s' % (url, anchor)
     return url

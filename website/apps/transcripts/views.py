@@ -28,21 +28,22 @@ class TranscriptView(JsonTemplateView):
     def act_query(self):
         return Act.Query(self.request.redis_conn, self.request.mission.name)
 
-    def main_transcript_query(self):
-        return self.log_line_query().transcript(self.request.mission.main_transcript)
+    def transcript_query(self, transcript):
+        return self.log_line_query().transcript(transcript)
 
-    def media_transcript_query(self):
-        return self.log_line_query().transcript(self.request.mission.media_transcript)
-
-    def log_lines(self, start_page, end_page):
+    def log_lines(self, start_page, end_page, transcript):
         "Returns the log lines and the previous/next timestamps, with images mixed in."
+
         if end_page > (start_page + 5):
             end_page = start_page + 5
         # Collect the log lines
         log_lines = []
         done_closest = False
+        
+        assert self.request.redis_conn.exists("page:%s:%s" % (transcript, start_page))
+        
         for page in range(start_page, end_page+1):
-            log_lines += list(self.main_transcript_query().page(page))
+            log_lines += list(self.transcript_query(transcript).page(page))
         for log_line in log_lines:
             log_line.images = list(log_line.images())
             log_line.lines = [
@@ -54,18 +55,19 @@ class TranscriptView(JsonTemplateView):
                 log_line.closest = True
                 done_closest = True
         # Find all media that falls inside this same range, and add it onto the preceding line.
-        for image_line in self.media_transcript_query().range(log_lines[0].timestamp, log_lines[-1].timestamp):
-            # Find the line just before the images
-            last_line = None
-            for log_line in log_lines:
-                if log_line.timestamp > image_line.timestamp:
-                    break
-                last_line = log_line
-            # Add the images to it
-            last_line.images += image_line.images()
+        if transcript==self.request.mission.main_transcript:
+            for image_line in self.transcript_query(self.request.mission.media_transcript).range(log_lines[0].timestamp, log_lines[-1].timestamp):
+                # Find the line just before the images
+                last_line = None
+                for log_line in log_lines:
+                    if log_line.timestamp > image_line.timestamp:
+                        break
+                    last_line = log_line
+                # Add the images to it
+                last_line.images += image_line.images()
         # Find the previous log line from this, and then the beginning of its page
         try:
-            previous_timestamp = self.main_transcript_query().page(start_page - 1).first().timestamp
+            previous_timestamp = self.transcript_query(transcript).page(start_page - 1).first().timestamp
         except ValueError:
             previous_timestamp = None
         # Find the next log line and its timestamp
@@ -73,15 +75,15 @@ class TranscriptView(JsonTemplateView):
         # Return
         return log_lines, previous_timestamp, next_timestamp, 0, None
 
-    def page_number(self, timestamp):
-        "Finds the page number for a given timestamp"
+    def page_number(self, timestamp, transcript):
+        "Finds the page number for a given timestamp and transcript"
         acts = list(self.act_query().items())
         if timestamp is None:
             timestamp = acts[0].start
         else:
             timestamp = self.parse_mission_time(timestamp)
         try:
-            closest_log_line = self.main_transcript_query().first_after(timestamp)
+            closest_log_line = self.transcript_query(transcript).first_after(timestamp)
         except ValueError:
             raise Http404("No log entries match that timestamp.")
         return closest_log_line.page
@@ -105,7 +107,17 @@ class PageView(TranscriptView):
         if context['start']:
             requested_start   = timestamp_to_seconds( context['start'] )
         current_act           = context['current_act']
-        first_log_line        = context['log_lines'][0]
+        # next line is complicated. log_lines is a list of (timestamp, stuff) tuples
+        # where stuff is a tuple of (transcript, line) tuples. The first transcript
+        # in each stuff tuple is always the "view" transcript, and is guaranteed to
+        # have something at the first timestamp that happens in this range/page, thus
+        # we can get:
+        #
+        #  context['log_lines'][0]          -- first (timestamp, stuff) tuple
+        #  context['log_lines'][0][1]       -- stuff
+        #  context['log_lines'][0][1][0]    -- (transcript, line) for view transcript
+        #  context['log_lines'][0][1][0][0] -- first line for view transcript
+        first_log_line        = context['log_lines'][0][1][0][1]
         prior_log_line        = first_log_line.previous()
         
         # NOTE: is_act_first_page will be false for first act:
@@ -142,15 +154,20 @@ class PageView(TranscriptView):
         
         return super( PageView, self ).render_to_response( context )
     
-    def get_context_data(self, start=None, end=None):
+    def get_context_data(self, start=None, end=None, transcript=None):
 
         if end is None:
             end = start
+        if transcript:
+            transcript = "%s/%s" % (self.request.mission.name, transcript)
+        else:
+            transcript = self.request.mission.main_transcript
 
         # Get the content
         log_lines, previous_timestamp, next_timestamp, max_highlight_index, first_highlighted_line = self.log_lines(
-            self.page_number(start),
-            self.page_number(end),
+            self.page_number(start, transcript),
+            self.page_number(end, transcript),
+            transcript,
         )
         
         act          = log_lines[0].act()
@@ -175,11 +192,65 @@ class PageView(TranscriptView):
             permalink_fragment = '#log-line-%s' % timestamp_to_seconds(start)
         else:
             permalink_fragment = '#log-line-%s' % log_lines[0].timestamp
+
+        if transcript != self.request.mission.main_transcript:
+            out_log_lines = []
+            second_log_lines = list(self.transcript_query(self.request.mission.main_transcript).range(
+                log_lines[0].timestamp,
+                next_timestamp,
+            ))
+            main_idx = 0
+            second_idx = 0
+            current = None
+            main_transcript = transcript
+            second_transcript = self.request.mission.main_transcript
+            while main_idx < len(log_lines) or second_idx < len(second_log_lines):
+                main_ts = log_lines[main_idx].timestamp if main_idx < len(log_lines) else None
+                second_ts = second_log_lines[second_idx].timestamp if second_idx < len(second_log_lines) else None
+                if main_ts==second_ts:
+                    # add a tuple with both
+                    out_log_lines.append(
+                        [
+                            main_ts,
+                            (
+                                ( main_transcript, log_lines[main_idx] ),
+                                ( second_transcript, second_log_lines[second_idx] ),
+                            ),
+                        ]
+                    )
+                    main_idx += 1
+                    second_idx += 1
+                elif (main_ts < second_ts and main_ts is not None) or second_ts is None:
+                    out_log_lines.append(
+                        [
+                            main_ts,
+                            (
+                                ( main_transcript, log_lines[main_idx] ),
+                                ( second_transcript, None ),
+                            ),
+                        ]
+                    )
+                    main_idx += 1
+                elif (second_ts < main_ts and second_ts is not None) or main_ts is None:
+                    # main_ts > second_ts:
+                    out_log_lines.append(
+                        [
+                            main_ts,
+                            (
+                                ( main_transcript, None ),
+                                ( second_transcript, second_log_lines[second_idx] ),
+                            ),
+                        ]
+                    )
+                    second_idx += 1
+        else:
+            out_log_lines = map(lambda x: [ x.timestamp, ( ( transcript, x ), ) ], log_lines)
         
         return {
             'start' : start,
-            'log_lines': log_lines,
+            'log_lines': out_log_lines,
             'next_timestamp': next_timestamp,
+            'transcript': transcript,
             'previous_timestamp': previous_timestamp,
             'acts': acts,
             'act': act_id+1,

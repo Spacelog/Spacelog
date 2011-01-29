@@ -4,25 +4,29 @@
 {% load pauses %}
 {% load characters %}
 
-{% block full_title %}{{ mission.title }} transcript starting at {{ log_lines.0.timestamp|mission_time_format }} on Spacelog{% endblock %}
+{# for explanation of log_lines.0.1.0.1 see PageView.render_to_response. Shoot me now. #}
+{# FIXME: make this into a variable in context #}
+{% block full_title %}{{ mission.title }} transcript starting at {{ log_lines.0.1.0.1.timestamp|mission_time_format }} on Spacelog{% endblock %}
 
 {% block extra_head %}{% if max_highlight_index > 0 %}
-{% if log_lines.0.previous %}
-<link rel="canonical" href="{% timestamp_to_url log_lines.0.timestamp %}">
+{% if log_lines.0.1.0.1.previous %}
+<link rel="canonical" href="{% timestamp_to_url log_lines.0.1.0.1.timestamp %}">
 {% else %}
 <link rel="canonical" href="{% url view_page %}">
 {% endif %}
 {% endif %}{% endblock %}
 
+{% comment %}
 {% block extra_js %}<script type="text/javascript" src="{{ STATIC_URL }}js/page.js"></script>{% endblock %}
+{% endcomment %}
 
 
 {% block content-class %}transcript {% if max_highlight_index > 0 %}with-highlight{% endif %}{% endblock %}
 {% block body-class %}transcript-section{% endblock %}
 
 {% block crest %}
-{% if log_lines.0.first_in_act and log_lines.0.act.banner %}
-  {% with log_lines.0.act as act %}
+{% if log_lines.0.1.0.1.first_in_act and log_lines.0.1.0.1.act.banner %}
+  {% with log_lines.0.1.0.1.act as act %}
     <div id='crest' {% if act.banner_class %}class='{{ act.banner_class }}'{% endif %}><div class='wrapper'>
         <p class='act-banner'><img class="act-banner" src="{{ MISSIONS_STATIC_URL }}{{ act.mission_name }}/images/banners/{{ act.banner }}"></p>
     </div></div>
@@ -41,7 +45,10 @@
   </div>
 
   <dl id='transcript'>
-  {% for log_line in log_lines %}
+  {% for timestamp, inner_log_lines in log_lines %}
+  <div>
+  {% for transcript, log_line in inner_log_lines %}
+  {% if log_line %}
     <div id="log-line-{{ log_line.timestamp }}" class='{% pause_class log_line.following_silence %} {% if log_line.highlighted %}highlighted {% if log_line.highlight_index == 1 %}first {% endif %}{% if log_line.highlight_index == max_highlight_index %}last{% endif %}{% endif %}{% if log_line.key_scene_number %} key-scene{% endif %}'
       {% if log_line.transcript_page %}data-transcript-page='{{ log_line.transcript_page }}'{% endif %}>
     {% for speaker, text in log_line.lines %}
@@ -117,13 +124,18 @@
      <dd class='extended-pause'>No contact for {% pause_length log_line.following_silence %}</dd>
     {% endif %}
     {% endif %}
-  {% endfor %}{# log_line #}
+  {% else %}
+  <div>Placeholder for {{ transcript }}</div>
+  {% endif %}
+  {% endfor %}{# inner_log_lines #}
+  </div>
+  {% endfor %}{# log_lines #}
   </dl>
 
   <div class='nav after'>
   {% if next_timestamp %}
     <p id='load-more' class='load-more'>
-      <a href="{% timestamp_to_url next_timestamp %}">Load more&hellip;</a>
+      <a href="{% timestamp_to_url next_timestamp "" transcript %}">Load more&hellip;</a>
     </p>
   {% endif %}
   </div>

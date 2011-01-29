@@ -3,3 +3,4 @@
 -e svn+http://code.djangoproject.com/svn/django/trunk@14849#egg=Django
 redis
 boto
+django-templatetag-sugar
