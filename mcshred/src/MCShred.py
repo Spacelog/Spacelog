@@ -42,7 +42,7 @@ def get_file_name_for(num):
 def shred_to_lines(lines):
     global pageNumber
     logLines = []
-    tapeNumber = u""
+    tapeNumber = None
         
     for line in lines:
         line = line.decode('utf-8')
