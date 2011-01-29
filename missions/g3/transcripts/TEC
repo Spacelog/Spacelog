@@ -3150,24 +3150,30 @@ P: I think you're right.
 C: Give it one more chance.
 
 [00:02:22:38]
-_extra : CARNARVON/nCC	Molly Brown, Molly Brown, Carnarvon CAP COM.  How do you read?
+_extra : CARNARVON
 C: Let's see -- 2:22 elapsed. Carnarvon comes up in about a minute.
 
+CC:	Molly Brown, Molly Brown, Carnarvon CAP COM.  How do you read?
+
 [00:02:23:25]
-_extra : CC	Very good, Gus; we'd like to get a blood pressure on the co-pilot, please, and could I have your status?
 C: Carnarvon, this is Molly Brown. Read you loud and clear.
 
+CC: Very good, Gus; we'd like to get a blood pressure on the co-pilot, please, and could I have your status?
+
 [00:02:23:36]
-_extra : CC	Very good.  We don't have any communications with the Cape at this time, but they have requested for me to run down your flight control problem a little bit.  The first thing I'd like to know is what kind of rates are you getting if you just let it yaw?
 C: Okay -- blood pressure's coming and our status is green.
 
+CC: Very good.  We don't have any communications with the Cape at this time, but they have requested for me to run down your flight control problem a little bit.  The first thing I'd like to know is what kind of rates are you getting if you just let it yaw?
+
 [00:02:23:57]
-_extra : CC	Okay and you are in a horizon scan mode, is that correct?
 C: They are very slow, Pete. Probably on the order of a quarter of a degree per second.
 
+CC: Okay and you are in a horizon scan mode, is that correct?
+
 [00:02:24:13]
-_extra : CC	Okay.  You're in pulse alining the platform.  Are your ACME logic yaw rate gryos and attitude drivers and all that stuff still primary?
 C: At the present time I'm in Pulse and alining the platform.
+
+CC: Okay.  You're in pulse alining the platform.  Are your ACME logic yaw rate gryos and attitude drivers and all that stuff still primary?
 
 [00:02:24:29]
 _extra : CRO-2
@@ -4444,7 +4450,7 @@ CC: Okay.
 C: Cabin fan is off.
 
 [00:03:15:59]
-_extra : Bad tape change and recorder did not function again until 04 08 00, following conversations were on UHF and recorded on the ground./nCSQ-3/nCOASTAL SENTRY QUEBEC
+_extra : Bad tape change and recorder did not function again until 04 08 00, following conversations were on UHF and recorded on the ground. / CSQ-3 / COASTAL SENTRY QUEBEC
 CC: Okay.
 
 [00:03:48:14]
@@ -5274,10 +5280,10 @@ C: That's everything but O2 High Rate.
 [00:04:28:26]
 _extra : RKV-3
 P: Okay.
-     ROSE KNOT VICTOR
 
 [00:04:28:33]
 _page : 94
+_extra : ROSE KNOT VICTOR
 CC: Molly Brown, RKV CAP COM.
 
 [00:04:28:38]
