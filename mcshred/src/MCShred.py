@@ -50,6 +50,8 @@ def shred_to_lines(lines):
             pageNumber = int(line.strip().lstrip(u"Page ").strip())
         elif line.strip().startswith(u"APOLLO 13 AIR-TO-GROUND VOICE TRANSCRIPTION"):
             pass
+        elif line.strip().startswith(u"MCC-Launch"):
+            pass
         elif line.strip().startswith(u"Tape "):
             tapeNumber = line.lstrip(u"Tape ").strip()
         else:
