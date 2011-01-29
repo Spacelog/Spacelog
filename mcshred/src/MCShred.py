@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import sys
+import re
 
 #MAX_FILE_NUMBER = 20
 MAX_FILE_NUMBER = 765
@@ -96,7 +97,7 @@ def get_seconds_from_mission_start(line):
     return translate_timestamp_to_seconds_from_mission_start(line.raw)
 
 def translate_timestamp_to_seconds_from_mission_start(timestamp):
-    values =  timestamp.split(u" ");
+    values =  re.split("[ \t]+", timestamp);
     i = 0
     days = 0
     if TIMESTAMP_PARTS > 3:
@@ -111,7 +112,7 @@ def translate_timestamp_to_seconds_from_mission_start(timestamp):
     return (seconds + (minutes * 60) + (hours * 60 * 60) + (days * 24 * 60 * 60))
 
 def set_timestamp_speaker_and_text(line):
-    values =  line.raw.split(u" ");
+    values =  re.split("[ \t]+", line.raw);
    
     line.set_seconds_from_mission_start(get_seconds_from_mission_start(line))
     
@@ -121,7 +122,7 @@ def set_timestamp_speaker_and_text(line):
 
 def line_is_a_new_entry(line):
     
-    dateTokens = line.raw.split(" ")[0:TIMESTAMP_PARTS]
+    dateTokens = re.split('[ \t]+', line.raw)[0:TIMESTAMP_PARTS]
 
     if len(dateTokens) < TIMESTAMP_PARTS:
         return False
