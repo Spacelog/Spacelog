@@ -7,6 +7,8 @@ import re
 MAX_FILE_NUMBER = 765
 TIMESTAMP_PARTS = 4
 
+pageNumber = 1
+
 errors = []
 valid_tec_speakers = (
     "AB",
@@ -37,14 +39,15 @@ valid_tec_speakers = (
 def get_file_name_for(num):
     return str(num).zfill(3) + ".txt"
 
-def shred_to_lines(lines, pageNumber):
+def shred_to_lines(lines):
+    global pageNumber
     logLines = []
     tapeNumber = u""
         
     for line in lines:
         line = line.decode('utf-8')
         if line.strip().startswith(u"Page"):
-            pass
+            pageNumber = int(line.strip().lstrip(u"Page ").strip())
         elif line.strip().startswith(u"APOLLO 13 AIR-TO-GROUND VOICE TRANSCRIPTION"):
             pass
         elif line.strip().startswith(u"Tape "):
@@ -65,7 +68,7 @@ def get_all_raw_lines(path, startNumber):
         try:
             file = open(path + filename, "r")
             file_lines = file.readlines()
-            shredded_lines = shred_to_lines(file_lines, file_number)
+            shredded_lines = shred_to_lines(file_lines)
             translated_lines.extend(shredded_lines)
         except IOError:
             missing_files.append(filename)
