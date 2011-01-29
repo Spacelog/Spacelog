@@ -8,6 +8,11 @@
         "title": "Apollo 8",
         "upper_title": "Apollo",
         "lower_title": "8",
-        "description": "The first human space flight to leave Earth orbit."
+        "description": "The first human space flight to leave Earth orbit.",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+            "Cleaning Staff Names Go Here"
+        ],
+        "about": "Apollo 8 was an ambitious mission of many firsts. Its three-man crew were the first humans to leave earth orbit, and the first to enter the gravitational field of another celestial body — the Moon. In doing so, they captured the imagination of the entire world, taking many now-iconic photographs (including \"earthrise\") and filming a Christmas Eve television broadcast during lunar orbit that was seen by an estimated quarter of all people alive in December 1968.\n\nThis site allows you to explore transcripts of radio communications between the Apollo 8 crew and the NASA personnel back at Houston. Included with the transcripts are photographs taken both from the ground and by the crew in space, as well as other information about this historic mission."
     }
 }
