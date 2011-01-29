@@ -317,14 +317,14 @@ class RangeView(PageView):
             
         return super( PageView, self ).render_to_response( context )
     
-    def log_lines(self, start_page, end_page):
-        log_lines, previous_link, next_link, highlight_index, discard = super(RangeView, self).log_lines(start_page, end_page)
+    def log_lines(self, start_page, end_page, transcript):
+        log_lines, previous_link, next_link, highlight_index, discard = super(RangeView, self).log_lines(start_page, end_page, transcript)
         start = self.parse_mission_time(self.kwargs['start'])
         # If there's no end, make it the first item after the given start.
         if "end" in self.kwargs:
             end = self.parse_mission_time(self.kwargs['end'])
         else:
-            end = self.main_transcript_query().first_after(start).timestamp
+            end = self.transcript_query(transcript).first_after(start).timestamp
 
         highlight_index = 0
         first_highlighted_line = None
