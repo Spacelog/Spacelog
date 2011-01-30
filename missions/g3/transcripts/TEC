@@ -250,20 +250,20 @@ C: That horizon is right where they said it would be.
 P: Yes.
 
 [00:00:08:46]
-C: Let's see, have we got everything on this checklist, John? Let's see--retrorockets safe. Yes.
+C: Let's see, have we got everything on this checklist, John? Let's see—retrorockets safe. Yes.
 
 [00:00:08:52]
 _page : 6
 P: Yes.
 
 [00:00:08:54]
-C: OAMS power-- ATTITUDE.
+C: OAMS power— ATTITUDE.
 
 [00:00:08:56]
-P: Maneuver controller--stowed. Sequence lights--test.
+P: Maneuver controller—stowed. Sequence lights—test.
 
 [00:00:09:03]
-C: Arm restraints, face plates--open.
+C: Arm restraints, face plates—open.
 
 [00:00:09:05]
 P: Secondary O<sub>2</sub> bottle is closed. I've got mine. Waste valve to NORMAL.
@@ -296,7 +296,7 @@ C: It look great!
 CC: Rog.
 
 [00:00:09:44]
-P: Computer--PRELAUNCH. High frequency is off. Antenna selector to ADAPTER.
+P: Computer—PRELAUNCH. High frequency is off. Antenna selector to ADAPTER.
 
 [00:00:09:53]
 P: Cape CAP COM, how do you read on adapter antenna? Over.
@@ -351,7 +351,7 @@ P: Okay.
 C: Let's get lined up here.
 
 [00:00:11:19]
-P: I'll put the mains to OFF and see what we've got. Look here, we've still got a ... I want to put these off. I'll put them off one at a time, or we may drop voltage.
+P: I'll put the mains to OFF and see what we've got. Look here, we've still got a … I want to put these off. I'll put them off one at a time, or we may drop voltage.
 
 [00:00:11:41]
 C: What's our time coming in to the Canaries?
@@ -479,7 +479,7 @@ C: We're getting ready to read them back to you.
 CC: Roger.
 
 [00:00:16:30]
-P: Roger. ΔV of 139. GMT of 16-belay that--15 55 47.
+P: Roger. ΔV of 139. GMT of 16-belay that—15 55 47.
 
 [00:00:16:39]
 CC: Molly Brown, Canary CAP COM. Request you place your radiator switch to the FLOW position.
@@ -492,7 +492,7 @@ P: It's cooling us right down too. It's working.
 
 [00:00:17:00]
 _extra : CYI-1
-P: Reading back a GMT of 2-1--15 55 47 GMTRC. GMTRB is 16 05 31. Bank angle 55° left and right 65°.
+P: Reading back a GMT of 2-1—15 55 47 GMTRC. GMTRB is 16 05 31. Bank angle 55° left and right 65°.
 
 [00:00:17:30]
 _page : 10
@@ -683,7 +683,7 @@ P: Look at the cabin pressure!
 C: What?
 
 [00:00:24:07]
-P: We've lost the --.
+P: We've lost the —.
 
 [00:00:24:09]
 C: Lost what? What have we lost?
@@ -745,7 +745,7 @@ P: How's that circuit breaker set-up up there?
 [00:00:25:20]
 CC: Molly Brown, Cape CAP COM.
 
-C: ...
+C: …
 
 [00:00:25:22]
 P: Yep.
@@ -789,7 +789,7 @@ CC: Molly Brown, have you tried your circuit breaker to cut off that one erratic
 C: Negative.
 
 [00:00:26:36]
-C: I don't know which one it is. Let's see--yaw left--
+C: I don't know which one it is. Let's see—yaw left—
 
 [00:00:26:42]
 P: Yaw left. It would be either OAMS No. 7 or 8.
@@ -834,7 +834,7 @@ P: What time is it now?
 C: 32 elapsed.
 
 [00:00:33:14]
-C: We're just about over ... Africa.
+C: We're just about over … Africa.
 
 [00:00:33:17]
 P: Over where?
@@ -928,7 +928,7 @@ P: I'll give it. You want me to give it?
 C: It says you do.
 
 [00:00:38:46]
-P: It says Command--Oh! Oral temperature.
+P: It says Command—Oh! Oral temperature.
 
 [00:00:38:51]
 C: Oh, I mean oral temp, John. Can you get the thermometer out?
@@ -978,7 +978,7 @@ P: Oh, you doing it?
 C: Yes, we are yawing. I've got to keep it from yawing so far around.
 
 [00:00:40:56]
-P: Going to do this O<sub>2</sub> --
+P: Going to do this O<sub>2</sub> —
 
 [00:00:41:18]
 P: Want me to put it back in and give them a blood pressure?
@@ -1121,7 +1121,7 @@ CC: Roger. We're standing by for respirator maneuver.
 C: Okay. Here it comes.
 
 [00:00:46:52]
-C: Okay. How about this? No. 2 audio in UHF and T/M CALIBRATE --
+C: Okay. How about this? No. 2 audio in UHF and T/M CALIBRATE —
 
 [00:00:46:55]
 CC: Molly Brown, CSQ. Stand by for a GMT time hack.
@@ -1214,7 +1214,7 @@ C: Roger, and I believe I see a light from Perth.
 CC: Roger. I understand you see light from Perth. We'll have a radiator status for you in a minute, and anytime you can give your GMT for your experiment, I'd appreciate it.
 
 [00:00:52:21]
-P: Roger. The GMT of that Blood Experiment -- 
+P: Roger. The GMT of that Blood Experiment — 
 
 [00:00:52:23]
 C: The elapsed time of the Blood Experiment was 50 minutes and 18 seconds. That was elapsed time.
@@ -1314,7 +1314,7 @@ P: Yes, that's fine. It means we haven't used any OAMS fuel.
 P: Elapsed time is 1:05. Now, I'm going to get a main batteries check. (Pilot misread elapsed time).
 
 [00:01:02:05]
-P: --9½ and 24 on one and 9½ and 24 on two, and 9½ and 24 on three. 9½ and 24 on four. Those mains are good!
+P: —9½ and 24 on one and 9½ and 24 on two, and 9½ and 24 on three. 9½ and 24 on four. Those mains are good!
 
 [00:01:03:50]
 P: What time is it now, Gus?
@@ -1473,7 +1473,7 @@ P: Yes, 56 and 57 are right on the money. I copied them.
 
 [00:01:10:04]
 _page : 27
-P: Okay, there it is -- 10 - 20 - 30.
+P: Okay, there it is — 10 - 20 - 30.
 
 [00:01:10:08]
 P: Okay, what time is it now?
@@ -1508,7 +1508,7 @@ C: MARK!
 P: Okay, Blood Experiment deactivated.
 
 [00:01:10:27]
-C: Okay, that's exactly -- that's 39° pitched down.
+C: Okay, that's exactly — that's 39° pitched down.
 
 [00:01:10:38]
 P: Okay, and you've got the sea urchin eggs coming up at 1:15, too.
@@ -1675,7 +1675,7 @@ C: What?
 P: I know you shouldn't let those things float around, but I don't know what to do with them.
 
 [00:01:17:56]
-C: What did he say that burn was on that ... net? It's 48 ft --
+C: What did he say that burn was on that … net? It's 48 ft —
 
 [00:01:17:59]
 P: 48 feet and 73 seconds.
@@ -1838,7 +1838,7 @@ P: Yes.
 C: Okay. We're ready to copy.
 
 [00:01:24:45]
-CC: Roger. Your GMTB...correction, 15 57 00. Your ground elapsed time to burn, 01 33 00. Your ΔV of the burn, 048. Your length of burn, 01:14.
+CC: Roger. Your GMTB…correction, 15 57 00. Your ground elapsed time to burn, 01 33 00. Your ΔV of the burn, 048. Your length of burn, 01:14.
 
 [00:01:24:46]
 P: Roger. We copied 15:57, 01:33, 48ft/sec, at a minute and 14 seconds.
@@ -1894,7 +1894,7 @@ P: Go ahead. Over.
 C: Go ahead RKV.
 
 [00:01:26:42]
-CC: Will you give me a readout of your computer core -- 25, 26, and 27, please?
+CC: Will you give me a readout of your computer core — 25, 26, and 27, please?
 
 [00:01:26:48]
 P: Roger. It was: 25 was minus 0480. 26 and 27 were all zeros. Over.
@@ -2004,7 +2004,7 @@ C: It came out 50 feet on my IVI's. You'll give me a mark now on my burn. Right?
 P: Roger.
 
 [00:01:30:53]
-C: Okay. It will be about two minutes before we start it. So you punch off your stopwatch and tell me -- give me a mark to stop it--just in case it doesn't go to zero.
+C: Okay. It will be about two minutes before we start it. So you punch off your stopwatch and tell me — give me a mark to stop it—just in case it doesn't go to zero.
 
 [00:01:31:01]
 _extra : TEXAS
@@ -2031,7 +2031,7 @@ _page : 37
 P: Yes, but it should have been 48. I don't know why it came out to 50. Should we bring it down to 48?
 
 [00:01:31:56]
-P: Well 25--48 is what is in the--48.3 is what's in the load.
+P: Well 25—48 is what is in the—48.3 is what's in the load.
 
 [00:01:32:12]
 C: How we doing on time?
@@ -2049,7 +2049,7 @@ C: Now, it's 51. See?
 C: It came up 48 initially. We're at a different place in the orbit. 30 seconds.
 
 [00:01:32:31]
-P: Okay. Are you going to give--you want me to give Texas a mark when you start burning?
+P: Okay. Are you going to give—you want me to give Texas a mark when you start burning?
 
 [00:01:32:37]
 C: I will.
@@ -2118,7 +2118,7 @@ C: 7 ft/sec to go.
 [00:01:34:05]
 P: A minute, five.
 
-C: What did we do? Burn down an--give me a mark.
+C: What did we do? Burn down an—give me a mark.
 
 [00:01:34:09]
 P: Okay. 4 - 3 - 2 - 1 -
@@ -2205,7 +2205,7 @@ _page : 40
 P: This source pressure is 2050. Source temperature is 56.
 
 [00:01:36:24]
-CC: Roger. it looks like that pressure switch on that O<sub>2</sub> is failed. You probably better bring that O<sub>2</sub> heater from AUTOMATIC to OFF, and then manually control the temp from then on--the pressure from then on.
+CC: Roger. it looks like that pressure switch on that O<sub>2</sub> is failed. You probably better bring that O<sub>2</sub> heater from AUTOMATIC to OFF, and then manually control the temp from then on—the pressure from then on.
 
 [00:01:36:43]
 P: If I go into High Rate you can break it off the peg. Over.
@@ -2214,7 +2214,7 @@ P: If I go into High Rate you can break it off the peg. Over.
 CC: Okay, you can bring it off the peg by going to High Rate. Is that affirm?
 
 [00:01:36:51]
-P: Roger, but--
+P: Roger, but—
 
 [00:01:36:52]
 CC: Okay. I have a time for you, where you will be nearest to the booster. Would you like to have that so you can look for it?
@@ -2547,7 +2547,7 @@ _page : 46
 P: 02 08 52. 18° el.
 
 [00:01:53:30]
-C: 02 --
+C: 02 —
 
 [00:01:53:32]
 P: 2 hours, 8 minutes, 52 seconds. 18° el.
@@ -2583,7 +2583,7 @@ P: Yes.
 C: What time is it?
 
 [00:01:54:51]
-P: 4 --
+P: 4 —
 
 [00:01:54:55]
 C: Must still be over Canaries.
@@ -2825,7 +2825,7 @@ C: I hope you don't cut a hole in it.
 P: No, don't worry.
 
 [00:02:07:33]
-C: We've got a scanner ignore light ...
+C: We've got a scanner ignore light …
 
 [00:02:07:47]
 C: Okay, let's start this thing right now.
@@ -2914,7 +2914,7 @@ _page : 52
 P: Know what kind of transmission check it is?
 
 [00:02:10:37]
-C: Translation Check...We're not going to send anything.
+C: Translation Check…We're not going to send anything.
 
 [00:02:11:05]
 C: We're supposed to get photos, but it's going to be dark.
@@ -2932,7 +2932,7 @@ C: Translation thrusters.
 C: There is a ground light. We're really moving. What would that be?
 
 [00:02:11:29]
-P: ...forest fires.
+P: …forest fires.
 
 [00:02:11:32]
 C: No, it's a pin point. I see it way below the horizon.
@@ -2956,7 +2956,7 @@ P: During the check?
 C: I think that was a star coming over the horizon I saw. I can see it move now.
 
 [00:02:14:20]
-C: There goes your ...
+C: There goes your …
 
 [00:02:14:25]
 P: Okay, waste valve back to NORMAL.
@@ -3006,7 +3006,7 @@ P: Yes, probably.
 C: What time is it?
 
 [00:02:16:16]
-P: It's --
+P: It's —
 
 [00:02:16:19]
 _extra : COASTAL SENTRY QUEBEC
@@ -3079,11 +3079,11 @@ C: Go.
 
 [00:02:18:17]
 _extra : CSQ-2
-CC: We still cannot get an ... back from spacecraft on T<sub>X</sub>.
+CC: We still cannot get an … back from spacecraft on T<sub>X</sub>.
 
 [00:02:18:33]
 _page : 55
-P: Roger, I'll set the T<sub>X</sub> for the ... Over.
+P: Roger, I'll set the T<sub>X</sub> for the … Over.
 
 [00:02:18:38]
 CC: Say again.
@@ -3101,7 +3101,7 @@ CC: Roger.
 CC: Molly Brown, CSQ.
 
 [00:02:19:54]
-C: ...
+C: …
 
 [00:02:19:59]
 CC: You still look real good from the ground here.
@@ -3155,7 +3155,7 @@ C: Give it one more chance.
 
 [00:02:22:38]
 _extra : CARNARVON
-C: Let's see -- 2:22 elapsed. Carnarvon comes up in about a minute.
+C: Let's see — 2:22 elapsed. Carnarvon comes up in about a minute.
 
 CC:	Molly Brown, Molly Brown, Carnarvon CAP COM.  How do you read?
 
@@ -3165,7 +3165,7 @@ C: Carnarvon, this is Molly Brown. Read you loud and clear.
 CC: Very good, Gus; we'd like to get a blood pressure on the co-pilot, please, and could I have your status?
 
 [00:02:23:36]
-C: Okay -- blood pressure's coming and our status is green.
+C: Okay — blood pressure's coming and our status is green.
 
 CC: Very good.  We don't have any communications with the Cape at this time, but they have requested for me to run down your flight control problem a little bit.  The first thing I'd like to know is what kind of rates are you getting if you just let it yaw?
 
@@ -3204,7 +3204,7 @@ C: Negative.
 CC: Okay. That should keep them happy back there. We are not going to send you a load. Your T<sub>R</sub> is good. I don't have your clock counting down with mine. I guess you have a different one in. We got your blood pressure and your clocks are on as far as SET goes.
 
 [00:02:24:54]
-C: That's -- Pete.
+C: That's — Pete.
 
 [00:02:25:16]
 C: Roger.
@@ -3289,7 +3289,7 @@ C: Okay, I can thrust now?
 P: Wait till I get my suit zipped up.
 
 [00:02:31:35]
-C: ....
+C: ….
 
 [00:02:32:08]
 _page : 59
@@ -3351,7 +3351,7 @@ P: I mean this bacteriacide bag.
 
 [00:02:35:59]
 _page : 60
-P: Got it -- a little.
+P: Got it — a little.
 
 [00:02:36:25]
 P: There we go.
@@ -3378,7 +3378,7 @@ C: What about yaw? I can't really tell yaw, can you?
 P: No.
 
 [00:02:37:28]
-P: Have you got that --
+P: Have you got that —
 
 [00:02:37:30]
 C: What?
@@ -3390,7 +3390,7 @@ C: Let's see. You don't see the moon any place, do you?
 P: No.
 
 [00:02:37:49]
-C: It'll be coming up over my -- on my right here pretty soon.
+C: It'll be coming up over my — on my right here pretty soon.
 
 [00:02:37:59]
 P: Boy, I tell you I really dig this zero g. This is the finest way to go I ever saw.
@@ -3433,7 +3433,7 @@ P: Oh, okay. Well thanks, I'm done. I'm supposed to be doing that O<sub>2</sub> 
 C: Yes. 2:40 right now.
 
 [00:02:40:53]
-P: Okay, we'll got to O<sub>2</sub> High Rate. I've --
+P: Okay, we'll got to O<sub>2</sub> High Rate. I've —
 
 [00:02:40:56]
 C: Man! The primary scanners are working! How about that!
@@ -3442,7 +3442,7 @@ C: Man! The primary scanners are working! How about that!
 P: I got to have some light here to look at the oxygen gages. Is that all right?
 
 [00:02:41:02]
-C: Yeah, I just can't figure out --
+C: Yeah, I just can't figure out —
 
 [00:02:41:06]
 P: Okay, I'll go to O<sub>2</sub> High Rate. O<sub>2</sub> High Rate isn't the way to go.
@@ -3500,7 +3500,7 @@ C: What was that?
 P: Cabin pressure relief valve. Cabin pressure relief valve relieves with a loud shhh!
 
 [00:02:43:21]
-C: Still don't have that scanner light out. There it goes. That's what caused that thing to go out the last time--when you turned those mains on.
+C: Still don't have that scanner light out. There it goes. That's what caused that thing to go out the last time—when you turned those mains on.
 
 [00:02:43:28]
 P: The horizon scanner?
@@ -3554,7 +3554,7 @@ C: When you get that scanner light it pitches you right down.
 P: Yeah. That's what they said it'd do, didn't they? Okay, 10 seconds to go, and been holding the manual heater switch in for the last minute. It's keeping the pressure up to 825.
 
 [00:02:46:10]
-C: Oh, man! That ball is staying way off --
+C: Oh, man! That ball is staying way off —
 
 [00:02:46:13]
 P: Okay, MARK. O<sub>2</sub> High Rate recocked.
@@ -3582,7 +3582,7 @@ C: This is about zero yaw.
 P: Go a little bit left.
 
 [00:02:47:07]
-P: That looks pretty good, although --
+P: That looks pretty good, although —
 
 [00:02:47:09]
 C: That's about what we had in pitch attitude for zero before, wasn't it?
@@ -3591,7 +3591,7 @@ C: That's about what we had in pitch attitude for zero before, wasn't it?
 P: Yes.
 
 [00:02:47:14]
-P: Okay. At 2:40 in the flight plan --
+P: Okay. At 2:40 in the flight plan —
 
 [00:02:47:22]
 C: That shows 30° off on the ball.
@@ -3653,7 +3653,7 @@ C: I'll take this sight down out of here a second.
 C: I have to get the 8-ball caged.
 
 [00:02:49:02]
-P: Now I can tell you have -- haven't.
+P: Now I can tell you have — haven't.
 
 [00:02:49:05]
 C: Do I have to go to the right?
@@ -3684,7 +3684,7 @@ C: Hello, Hawaii. This is Molly Brown.
 CC: Confirm your telemetry in REAL-TIME and ACQUISITION.
 
 [00:02:50:01]
-C: Telemetry is in REAL-TIME and ACQ. Neil --
+C: Telemetry is in REAL-TIME and ACQ. Neil —
 
 [00:02:50:04]
 _extra : HAW-2
@@ -3735,7 +3735,7 @@ CC: And we would like to send you a T<sub>X</sub> as soon as you are ready.
 P: Roger. Send T<sub>X</sub>.
 
 [00:02:51:35]
-CC: Right, sending T<sub>X</sub> now. And we confirm your T<sub>R</sub> -- in synch.
+CC: Right, sending T<sub>X</sub> now. And we confirm your T<sub>R</sub> — in synch.
 
 [00:02:51:59]
 CC: Give us a hack when you start your Gage Correlation Check.
@@ -3758,7 +3758,7 @@ C: What do you thin, John? Do you think that's about it? (Reference to yaw aline
 P: Yes.
 
 [00:02:52:43]
-P: --and the propellant quantity is 60 percent.
+P: —and the propellant quantity is 60 percent.
 
 [00:02:52:44]
 C: That should be about zero, shouldn't it?
@@ -3776,7 +3776,7 @@ C: Affirmative.
 CC: Okay.
 
 [00:02:52:59]
-P: Natch. Cabin temperature -- 92. Suit temperature -- 58. Cabin pressure is 5.6. Suit CO<sub>2</sub> is 3/4. Left bottle is 5100. Right bottle is 5050. O<sub>2</sub> quantity 62. Pressure is 840. Source temperature is 55. Source pressure is 2000. OAMS fuel --
+P: Natch. Cabin temperature — 92. Suit temperature — 58. Cabin pressure is 5.6. Suit CO<sub>2</sub> is 3/4. Left bottle is 5100. Right bottle is 5050. O<sub>2</sub> quantity 62. Pressure is 840. Source temperature is 55. Source pressure is 2000. OAMS fuel —
 
 [00:02:53:41]
 CC: Molly Brown, Hawaii CAP COM. Everything looks good on the ground. We will see you on the next time around. Aloha.
@@ -3788,7 +3788,7 @@ C: Roger.
 P: Roger. We are in the middle of the Gage Correlation Report.
 
 [00:02:54:06]
-P: OAMS fuel temperature -- 68. RCS A temperature -- Gee! A temperature is 87.
+P: OAMS fuel temperature — 68. RCS A temperature — Gee! A temperature is 87.
 
 [00:02:54:12]
 C: Look at the ball. It immediately goes out in roll.
@@ -3805,7 +3805,7 @@ C: I think the rest of it is all right.
 P: It could be the horizon scanner, huh?
 
 [00:02:54:29]
-P: A pressure is 2000 -- B is 2650 -- Main ammeter No. 1 is 19 -- No. 2 is -- 1A is --
+P: A pressure is 2000 — B is 2650 — Main ammeter No. 1 is 19 — No. 2 is — 1A is —
 
 [00:02:54:57]
 C: Now there it is coming in. It is in SEF mode. 
@@ -3906,13 +3906,13 @@ C: Roger.
 
 [00:02:58:26]
 _page : 70
-P: Thanks a bunch. Okay, I'll read these quantities off. The GMT was 1716 when we started. Propellant quantity was 60. Cabin temperature -- 92. Suit temperature -- 58. Cabin pressure -- 5.6. Suit CO<sub>2</sub> -- 3/4 millimeter. Secondary left O<sub>2</sub> bottle -- 5100. Secondary O<sub>2</sub> bottle right was 5050. ECS O<sub>2</sub> quantity -- 62 percent. Pressure -- 840. Source temperature -- 55. Source pressure -- 2000. Fuel temp -- 68.
+P: Thanks a bunch. Okay, I'll read these quantities off. The GMT was 1716 when we started. Propellant quantity was 60. Cabin temperature — 92. Suit temperature — 58. Cabin pressure — 5.6. Suit CO<sub>2</sub> — 3/4 millimeter. Secondary left O<sub>2</sub> bottle — 5100. Secondary O<sub>2</sub> bottle right was 5050. ECS O<sub>2</sub> quantity — 62 percent. Pressure — 840. Source temperature — 55. Source pressure — 2000. Fuel temp — 68.
 
 [00:02:58:58]
 C: You are supposed to take pictures of this.
 
 [00:02:58:59]
-P: I know it, I know it -- 295. RCS A temperature -- 87. RCS A pressure -- 3000. RCS B temperature -- 82. RCS B pressure -- 2650. Main ammeter -- 19. No. 2 -- 19.5. 1A --4.5. 1B -- 4.5. 1C -- 4. 2A -- 5. 2B -- 4 3/4. 2C -- 4 3/4. DC volts 23.5. S1 -- 29. S2 -- 29. C -- 27. 1A -- 24. 1B -- 24. 1C -- 24. Greenwich Mean Time is 1721. Completed.
+P: I know it, I know it — 295. RCS A temperature — 87. RCS A pressure — 3000. RCS B temperature — 82. RCS B pressure — 2650. Main ammeter — 19. No. 2 — 19.5. 1A —4.5. 1B — 4.5. 1C — 4. 2A — 5. 2B — 4 3/4. 2C — 4 3/4. DC volts 23.5. S1 — 29. S2 — 29. C — 27. 1A — 24. 1B — 24. 1C — 24. Greenwich Mean Time is 1721. Completed.
 
 [00:02:59:03]
 CC: Molly Brown, RKV. You are looking good here on the ground. If you have any further comments we are standing by.
@@ -3945,7 +3945,7 @@ CC: Your Three-Alpha times are nominal.
 
 [00:03:00:01]
 _page : 71
-C: Roger ... and nominal.
+C: Roger … and nominal.
 
 [00:03:00:03]
 P: Can you come across a ground tracking looking down like that, Gus? (Pilot demonstrating with hands on Orbital Path Display).
@@ -3954,7 +3954,7 @@ P: Can you come across a ground tracking looking down like that, Gus? (Pilot dem
 C: Sideways?
 
 [00:03:00:07]
-P: Yes, sideways, and pitch down 90. Will this hurt alinement? -- because I can see some targets up north.
+P: Yes, sideways, and pitch down 90. Will this hurt alinement? — because I can see some targets up north.
 
 [00:03:00:14]
 C: You mean roll to the right?
@@ -3983,7 +3983,7 @@ C: Roger.
 C: I don't see anything that makes a decent target at all.
 
 [00:03:00:48]
-P: Well, I can't -- can you pitch down so I can see something?
+P: Well, I can't — can you pitch down so I can see something?
 
 [00:03:00:53]
 C: Oh, you can't see anything. If I pitched straight over you could have. See?
@@ -4007,7 +4007,7 @@ C: That green spot? (The Imperial
      Valley)
 
 [00:03:01:08]
-P: No, down -- like straight down.
+P: No, down — like straight down.
 
 [00:03:01:11]
 C: I don't know what you see.
@@ -4235,7 +4235,7 @@ C: Okay. Our standby T/M is in REAL-TIME.
 
 [00:03:06:25]
 _extra : TEX-2/nMCC-2
-CC: Okay. You are commanding it on. All righty, we'll give you the word on it then. What is the status of your other platform modes, Molly Brown -- BEF or Free?
+CC: Okay. You are commanding it on. All righty, we'll give you the word on it then. What is the status of your other platform modes, Molly Brown — BEF or Free?
 
 [00:03:06:35]
 _page : 76
@@ -4281,7 +4281,7 @@ CC: Have you tried secondary scanner?
 C: Roger. We were on secondary scanner for quite awhile. We are back on primary now.
 
 [00:03:07:38]
-CC: Okay, if you think the platform is drifting too much there for that Control Mode Characteristic Check, just delete that -- that at 3 + 30.
+CC: Okay, if you think the platform is drifting too much there for that Control Mode Characteristic Check, just delete that — that at 3 + 30.
 
 [00:03:07:48]
 _extra : TEX-2 / MCC-2
@@ -4446,7 +4446,7 @@ C: Roger. 96 ft/sec and 1 + 49 seconds.
 CC: 1 + 49 and 96 ft/sec.
 
 [00:03:15:36]
-C: ...
+C: …
 
 [00:03:15:37]
 CC: Okay.
@@ -4644,7 +4644,7 @@ C: Roger. It's coming.
 CC: Molly Brown, Carnarvon has it loud and clear.
 
 [00:04:00:06]
-C: ...
+C: …
 
 [00:04:00:10]
 CC: This is Carnarvon, Molly Brown. Say again.
@@ -4787,7 +4787,7 @@ C: There comes the sun.
 P: And that old suit temp down there at 55°, S-band-CONTINUOUS, C-band-CONTINUOUS, T/M in REAL-TIME and ACQ.
 
 [00:04:12:44]
-P: Main batteries - we tested them. They checked good. C is way up there at 29, S2 --
+P: Main batteries - we tested them. They checked good. C is way up there at 29, S2 —
 
 [00:04:12:53]
 C: Man! With that sun shining on the nose, I can't see anything now.
@@ -4896,7 +4896,7 @@ C: Huh?
 P: Better check yaw, for sure.
 
 [00:04:15:44]
-C: Okay. We have it. It's lying good now and the scanner --
+C: Okay. We have it. It's lying good now and the scanner —
 
 [00:04:15:48]
 P: Feels like it. Looks like it.
@@ -4905,7 +4905,7 @@ P: Feels like it. Looks like it.
 C: Got everything but start computer.
 
 [00:04:16:35]
-P: Okay, well --
+P: Okay, well —
 
 [00:04:16:38]
 C: I'm not going to start until later.
@@ -4950,7 +4950,7 @@ P: Hawaii CAP COM, Molly Brown.
 C: 2 - 5 - 9 - 0 - 9 - 6 - 0
 
 [00:04:17:52]
-P: Okay, but -- that's what we're going to shoot for.
+P: Okay, but — that's what we're going to shoot for.
 
 [00:04:18:27]
 P: Okay. At the start of this we'll be about 52 percent. (OAMS propellant quantity)
@@ -4968,14 +4968,14 @@ P: Let's go ahead and hit the Catch-Up thing and see what it says.
 C: Nothing.
 
 [00:04:18:58]
-P: Well, let's do it -- put it back in. Okay. Now try it.
+P: Well, let's do it — put it back in. Okay. Now try it.
 
 [00:04:19:05]
 P: Okay. Now.
 
 [00:04:19:07]
 _extra : HAW-3
-C: There she goes. 6 - 5 - 4 -- how did it get in
+C: There she goes. 6 - 5 - 4 — how did it get in
      there?  My attitudes are not 0, 0, 180.
 
 [00:04:19:15]
@@ -4989,7 +4989,7 @@ C: 96.
 P: Okay.
 
 [00:04:19:32]
-C: ...
+C: …
 
 [00:04:19:34]
 P: Yes, sir!
@@ -5045,7 +5045,7 @@ C: Yes.
 C: 10 seconds.
 
 [00:04:21:17]
-C: We have 50 percent propellant quantity indicated. Getting ready to fire --
+C: We have 50 percent propellant quantity indicated. Getting ready to fire —
 
 [00:04:21:23]
 C: MARK!
@@ -5057,13 +5057,13 @@ CC: We got your start of burn.
 C: Yes, it's burning.
 
 [00:04:21:32]
-C: There's 90 --
+C: There's 90 —
 
 [00:04:21:43]
-C: There's 80 --
+C: There's 80 —
 
 [00:04:21:54]
-C: 70 --
+C: 70 —
 
 [00:04:21:57]
 C: You know, you can't hear those big thrusters.
@@ -5072,25 +5072,25 @@ C: You know, you can't hear those big thrusters.
 P: No.
 
 [00:04:22:05]
-C: 60 --
+C: 60 —
 
 [00:04:22:17]
-C: 50 --
+C: 50 —
 
 [00:04:22:22]
 P: There's a minute of burn.
 
 [00:04:22:29]
-C: 40 --
+C: 40 —
 
 [00:04:22:43]
-C: There's 28 --
+C: There's 28 —
 
 [00:04:22:51]
-C: 20 --
+C: 20 —
 
 [00:04:23:02]
-C: 10 --
+C: 10 —
 
 [00:04:23:10]
 P: 4 - 3 - 2 - 1 -
@@ -5193,13 +5193,13 @@ P: Okay, and the retro load is initialized now, because I called addresses 10 an
 C: Now, don't go out of Reentry mode.
 
 [00:04:25:38]
-P: Okay, but I don't think it would make any difference, as long as we go back. Okay -- platform -- rate -- computer to REENTRY -- RATE COMMAND -- roll gyro off.
+P: Okay, but I don't think it would make any difference, as long as we go back. Okay — platform — rate — computer to REENTRY — RATE COMMAND — roll gyro off.
 
 [00:04:25:52]
 C: Yes.
 
 [00:04:25:53]
-P: Platform is ORBITAL RATE -- No.
+P: Platform is ORBITAL RATE — No.
 
 [00:04:25:54]
 C: No.
@@ -5214,7 +5214,7 @@ C: Not now. At T<sub>R</sub>-5, you mean?
 P: Well, this is the 5-minute checklist.
 
 [00:04:26:03]
-C: Okay, well, we'll just -- 7:20 now.
+C: Okay, well, we'll just — 7:20 now.
 
 [00:04:26:16]
 C: I haven't heard any of those squib isolation pyros fire yet. Have you?
@@ -5257,7 +5257,7 @@ C: Those thunderstorms would make it really tough coming in. You know?
 C: It doesn't look like we're so high.
 
 [00:04:27:58]
-P: Batteries on. Mains on --
+P: Batteries on. Mains on —
 
 [00:04:28:00]
 C: Got everything on we need. Right?
@@ -5527,7 +5527,7 @@ CC: I'm prepared to give you a T<sub>R</sub> + 3 minute time hack if you need it
 P: That would be good.
 
 [00:04:35:01]
-CC: Okay, and I have some event times for reentry: 400K feet 19 10 29 -- stand by, Molly Brown.
+CC: Okay, and I have some event times for reentry: 400K feet 19 10 29 — stand by, Molly Brown.
 
 [00:04:35:24]
 _extra : GYM-3 / TEX-3
@@ -5654,13 +5654,13 @@ CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
 CC: Molly Brown, Cape CAP COM. Over.
 
 [00:04:44:54]
-C: ...
+C: …
 
 [00:04:45:02]
 CC: Molly Brown, Cap CAP COM.
 
 [00:04:45:15]
-P: ...end of that.
+P: …end of that.
 
 [00:04:45:20]
 CC: Molly Brown, Cape CAP COM. Over.
@@ -5672,7 +5672,7 @@ CC: Go ahead, Molly Brown.
 CC: Molly Brown, are you reading Cape CAP COM now? Over.
 
 [00:04:45:58]
-P: Black Dog ...
+P: Black Dog …
 
 [00:04:46:05]
 CC: Hello there!
@@ -6005,7 +6005,7 @@ P: Arm restrain stow. Okay, elbow rest - stow, lap belt - release and stow.
 P: I tell you, I wouldn't open that face plate with those thrusters blowing like that.
 
 [00:04:54:40]
-RA: ...
+RA: …
 
 [00:04:54:45]
 C: I read you. Who is this calling Molly Brown?
@@ -6029,7 +6029,7 @@ C: Okay, I'll hold it down.
 C: Big Box, Molly Brown.
 
 [00:04:55:28]
-RA: Molly Brown, Big Box 14. We have you on ...
+RA: Molly Brown, Big Box 14. We have you on …
 
 [00:04:56:20]
 RA: Molly Brown, Big Box 14. Would you give me another hold-down?
