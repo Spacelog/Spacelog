@@ -1,0 +1,124 @@
+{
+    "name": "g3",
+    "featured": true,
+    "subdomains": ["gemini3", "g3"],
+    "copy": {
+        "title": "Gemini 3",
+        "upper_title": "Gemini",
+        "lower_title": "3",
+        "description": "America's seventh manned spaceflight, and the first manned flight of the Gemini spacecraft.",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+          "George Brocklehurst",
+          "Nathaniel Hine"
+        ],
+        "about": "Gemini 3, flown by John Young and Virgil “Gus” Grissom, was the first manned flight of the Gemini spacecraft.  It was also the first American spaceflight with a crew of two.  This was the first of ten manned Project Gemini which were designed to develop the spaceflight capabilities that would be required to go to the moon.\n\nThis site allows you to explore transcripts of radio communications between the Mercury 3 crew and the NASA personnel back at Cape Canaveral. Included with the transcripts are photographs, as well as other information about the mission.",
+        "image_attributions": [
+        ],
+        "transcript_attributions": [
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/gemini3.htm", "title": "Gemini III Composite Air-to-Ground and Onboard Voice Tape Transcription" }
+        ]
+    },
+    "main_transcript": "g3/TEC",
+    "utc_launch_time": -150716160,
+    "acts" : [
+        {
+            "title": "Temp",
+            "description": "An act, just to make the indexer work.",
+            "range": ["-00:00:00:20", "00:05:01:00"],
+            "banner": "act1.jpg",
+            "banner_class": "blue",
+            "orbital": "act1.png",
+            "homepage": "act1.jpg"
+        }
+    ],
+    "key_scenes" : [
+    ],
+    "homepage_quotes" : [
+    ],
+    "character_ordering": [
+        "C",
+        "P",
+        "GORDON_COOPER"
+    ],
+    "characters": {
+        "C": {
+            "role": "astronaut",
+            "name": "Virgil I. “Gus” Grissom",
+            "short_name": "Gus Grissom",
+            "mission_position": "Command Pilot",
+            "bio": "",
+            "photo": "",
+            "photo_width": 0,
+            "photo_height": 0,
+            "avatar": "astro.png"
+        },
+        "P": {
+            "role": "astronaut",
+            "name": "John W. Young",
+            "short_name": "John Young",
+            "mission_position": "Pilot",
+            "bio": "",
+            "photo": "",
+            "photo_width": 0,
+            "photo_height": 0,
+            "avatar": "astro.png"
+        },
+        "CC": {
+            "role": "other",
+            "_comment": "marked as other not mission-ops-title for formatting reasons",
+            "name": "Capsule Communicator",
+            "short_name": "CapCom",
+            "bio": "",
+            "photo": "",
+            "photo_width": 0,
+            "photo_height": 0,
+            "avatar": "person.png",
+            "shifts": [
+              ["GORDON_COOPER", "-00:01:00:00", "Control was never transferred to Houston, so it's likely that Roger Chaffee never took a shift as CapCom"]
+            ]
+        },
+        "GORDON_COOPER": {
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
+            "name": "L. Gordon Cooper",
+            "short_name": "Gordon Cooper (CapCom)",
+            "mission_position": "Capsule Communicator",
+            "bio": "",
+            "photo": "",
+            "photo_width": 0,
+            "photo_height": 0,
+            "avatar": "person.png"
+        },
+        "RA": {
+            "role": "other",
+            "name": "Recovery Aircraft",
+            "short_name": "Recovery Aircraft",
+            "avatar": "ra.png"
+        },
+        "RS": {
+            "role": "other",
+            "name": "Recovery Ship: USS Intrepid",
+            "short_name": "USS Intrepid",
+            "avatar": "rs.png"
+        }
+    },
+    "glossary": {
+        "Molly Brown": {
+            "summary": "The nickname of the Gemini III spacecraft",
+            "description": "The name was a reference to “The Unsinkable Molly Brown”, a broadway musical. Gus Grissom chose the name in the hope that the capsule would fare better than the Liberty Bell 7 which sank after splash-down at the end of the Mercury-Redstone 4 mission."
+        },
+        "CAP COM": {
+            "summary": "Capsule Communicator",
+            "type": "abbreviation"
+        },
+        "AOS": {
+            "summary": "Acquisition of signal",
+            "type": "abbreviation"
+        },
+        "LOS": {
+            "summary": "Loss of signal",
+            "type": "abbreviation"
+        }
+    }
+}
