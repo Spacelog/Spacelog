@@ -473,7 +473,7 @@
         }
     },
     "glossary": {},
-    "shared_glossaries": ["apollo"],
+    "shared_glossaries": ["apollo", "space"],
     "error_pages": {
         "no_search_results": {
             "text": "Sorry about that. Incidentally, <a href=\"/people/#michael-collins-cmp\">Astronaut Michael Collins</a> once had the same problem:",

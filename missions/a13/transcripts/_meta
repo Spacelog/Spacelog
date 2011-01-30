@@ -501,7 +501,7 @@
         }
 
     },
-    "shared_glossaries": ["apollo"],
+    "shared_glossaries": ["apollo", "space"],
     "error_pages": {
         "404": {
             "title": "404 - Who stirred the tanks?",

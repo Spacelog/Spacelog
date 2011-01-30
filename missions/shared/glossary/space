@@ -1,0 +1,41 @@
+{
+    "AOS": {
+        "summary": "Acquisition of signal",
+        "type": "abbreviation"
+    },
+    "LOS": {
+        "summary": "Loss of signal (or line or sight)",
+        "type": "abbreviation"
+    },
+    "BECO": {
+        "summary": "Booster Engine Cut-Off",
+        "type": "abbreviation"
+    }, 
+    "SECO": {
+        "summary": "Sustainer Engine Cut-Off",
+        "type": "abbreviation"
+    },
+    "Drogue": {
+        "summary": "Drogue parachute",
+        "description": "A parachute fired before the main parachute, to gain control of the spacecraft after re-entry, providing stability and slowing descent."
+    },
+    "MAX Q": {
+        "summary": "Maximum dynamic pressure",
+        "description": "The point at which aerodynamic stress on a spacecraft in atmospheric flight is maximized."
+    },
+    "ΔV": {
+        "summary": "Delta V (change in velocity)"
+    },
+    "RCS": {
+        "summary": "Reaction control system",
+        "type": "abbreviation"
+    },
+    "BEF": {
+        "summary": "Blunt end forward",
+        "type": "abbreviation"
+    },
+    "SEF": {
+        "summary": "Sharp end forward",
+        "type": "abbreviation"
+    }
+}

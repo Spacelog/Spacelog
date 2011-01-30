@@ -19,10 +19,6 @@
         "summary": "Apollo lunar surface experiments package",
         "type": "abbreviation"
     },
-    "AOS": {
-        "summary": "Acquisition of signal",
-        "type": "abbreviation"
-    },
     "AOT": {
         "summary": "Alinement optical telescope",
         "type": "abbreviation"
@@ -37,10 +33,6 @@
     },
     "ARS": {
         "summary": "Atmosphere revitalization system",
-        "type": "abbreviation"
-    },
-    "BEF": {
-        "summary": "Blunt end forward",
         "type": "abbreviation"
     },
     "CCGE": {
@@ -255,10 +247,6 @@
         "summary": "Lunar orbit plane change",
         "type": "abbreviation"
     },
-    "LOS": {
-        "summary": "Loss of signal/line of sight",
-        "type": "abbreviation"
-    },
     "LPD": {
         "summary": "Landing point designator",
         "type": "abbreviation"
@@ -331,10 +319,6 @@
         "summary": "Passive thermal control",
         "type": "abbreviation"
     },
-    "RCS": {
-        "summary": "Reaction control system",
-        "type": "abbreviation"
-    },
     "RCU": {
         "summary": "Remote control unit",
         "type": "abbreviation"
@@ -359,16 +343,8 @@
         "summary": "Stabilization control system",
         "type": "abbreviation"
     },
-    "SECO": {
-        "summary": "Sustainer Engine Cut-Off",
-        "type": "abbreviation"
-    },
     "SECS": {
         "summary": "Sequential events control system",
-        "type": "abbreviation"
-    },
-    "SEF": {
-        "summary": "Sharp end forward",
         "type": "abbreviation"
     },
     "SIDE": {
