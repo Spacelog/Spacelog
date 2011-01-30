@@ -4284,7 +4284,7 @@ C: Roger. We were on secondary scanner for quite awhile. We are back on primary 
 CC: Okay, if you think the platform is drifting too much there for that Control Mode Characteristic Check, just delete that -- that at 3 + 30.
 
 [00:03:07:48]
-_extra : TEX-2/nMCC-2
+_extra : TEX-2 / MCC-2
 C: Roger. I deleted that one Horizon Scanner Mode Check, too.
 
 [00:03:07:56]
@@ -4357,16 +4357,16 @@ CC: All clouds and water, huh?
 C: Yep, not even much water.
 
 [00:03:09:25]
-P: Roger. We got a DCS update just then. Was that the TX. Over?
+P: Roger. We got a DCS update just then. Was that the T<sub>X</sub>. Over?
 
 [00:03:09:31]
-C: We just got DCS update, Gordo. Was that the TX?
+C: We just got DCS update, Gordo. Was that the T<sub>X</sub>?
 
 [00:03:09:34]
 CC: Roger. They got it up and verified.
 
 [00:03:09:44]
-CC: TR looks good, Molly Brown.
+CC: T<sub>R</sub> looks good, Molly Brown.
 
 [00:03:10:28]
 CC: Molly Brown, Cape CAP COM.
@@ -4559,7 +4559,7 @@ CC: Molly Brown, Molly Brown, Carnarvon. CAP COM. Over.
 C: Carnarvon, Molly Brown.
 
 [00:03:56:05]
-CC: Roger. Read you loud and clear. We are going to send you a new 4-1 command load and TR. Do you have your timer set at 34:00?
+CC: Roger. Read you loud and clear. We are going to send you a new 4-1 command load and T<sub>R</sub>. Do you have your timer set at 34:00?
 
 [00:03:56:14]
 C: Timer set at 34:00.
@@ -4585,7 +4585,7 @@ CC: Roger. Thank you. Command load coming.
 C: And the pre-retro checklist is complete, Pete.
 
 [00:03:56:58]
-CC: Roger. Understand, pre-retro checklist is complete. You've got a new TR. You've got a command load. Your clocks are synched down here on the ground and I have about 2 minutes and 15 seconds to go to your 34-minute time hack.
+CC: Roger. Understand, pre-retro checklist is complete. You've got a new T<sub>R</sub>. You've got a command load. Your clocks are synched down here on the ground and I have about 2 minutes and 15 seconds to go to your 34-minute time hack.
 
 [00:03:57:20]
 CC: If you are looking at the ground, Molly Brown, Carnarvon has a big fire going for you down here.
@@ -4620,7 +4620,7 @@ CC: Roger, roger.
 
 [00:03:58:49]
 _page : 83
-CC: Molly Brown, Carnarvon CAP COM. Stand by for TR MARK of 34:00, in approximately 30 seconds.
+CC: Molly Brown, Carnarvon CAP COM. Stand by for T<sub>R</sub> MARK of 34:00, in approximately 30 seconds.
 
 [00:03:58:58]
 C: Roger.
@@ -4629,7 +4629,7 @@ C: Roger.
 CC: 5 - 4 - 3 - 2 - 1 -
 
 [00:03:59:23]
-CC: MARK. TR 34:00.
+CC: MARK. T<sub>R</sub> 34:00.
 
 [00:03:59:27]
 C: Roger. The clock is counting down.
@@ -4772,7 +4772,7 @@ P: Now, let me go through this checklist in an orderly manner.
 P: Okay.
 
 [00:04:12:23]
-P: TR-5 circuit breaker is closed.
+P: T<sub>R</sub>-5 circuit breaker is closed.
 
 [00:04:12:26]
 C: Yes.
@@ -4836,7 +4836,7 @@ P: Eleven minutes flat. That sounds about right, because it was 10 minutes and 5
 C: There is still no horizon.
 
 [00:04:14:03]
-P: Okay. Give me a mark, and let me check TR one more time.
+P: Okay. Give me a mark, and let me check T<sub>R</sub> one more time.
 
 [00:04:14:09]
 C: Okay, I'll give it to you at 19:08.
@@ -4863,7 +4863,7 @@ C: One, MARK.
 C: You're going to be a little late. I think you punched a little late.
 
 [00:04:14:27]
-P: 19:04. That's a good TR check.
+P: 19:04. That's a good T<sub>R</sub> check.
 
 [00:04:14:35]
 C: Hope the sun doesn't get that scanner right here.
@@ -5137,7 +5137,7 @@ C: Now we can go to REENTRY. Right?
 P: Yes.
 
 [00:04:23:50]
-P: Okay, I've got 9:29 on the TR.
+P: Okay, I've got 9:29 on the T<sub>R</sub>.
 
 [00:04:23:54]
 P: Okay, MARK!
@@ -5208,7 +5208,7 @@ C: No.
 P: Retro power - ARM.
 
 [00:04:25:58]
-C: Not now. At TR-5, you mean?
+C: Not now. At T<sub>R</sub>-5, you mean?
 
 [00:04:26:01]
 P: Well, this is the 5-minute checklist.
@@ -5280,7 +5280,7 @@ C: MARK.
 P: Okay.
 
 [00:04:28:24]
-C: That's everything but O2 High Rate.
+C: That's everything but O<sub>2</sub> High Rate.
 
 [00:04:28:26]
 _extra : RKV-3
@@ -5306,13 +5306,13 @@ CC: Molly Brown, RKV CAP COM. How do you read?
 C: Read you loud and clear, RKV.
 
 [00:04:28:47]
-CC: Roger. Have you completed TR-5 checklist?
+CC: Roger. Have you completed T<sub>R</sub>-5 checklist?
 
 [00:04:28:51]
 C: Roger.
 
 [00:04:28:52]
-CC: Roger. I'll give you a mark at TR-4.
+CC: Roger. I'll give you a mark at T<sub>R</sub>-4.
 
 [00:04:28:55]
 C: Did you set your clock over there?
@@ -5336,7 +5336,7 @@ C: Roger.
 CC: Your clock looks like it's counting good.
 
 [00:04:29:45]
-C: Are we all set for TR-1?
+C: Are we all set for T<sub>R</sub>-1?
 
 [00:04:29:46]
 P: Yes, just about. We'll make it.
@@ -5349,7 +5349,7 @@ P: Yep. The adapter batteries are off. We're complete.
 
 [00:04:30:11]
 _extra : RKV-3
-C: TR-5 is complete.
+C: T<sub>R</sub>-5 is complete.
 
 [00:04:30:14]
 _page : 95
@@ -5362,7 +5362,7 @@ CC: Molly Brown, RKV CAP COM.
 C: Go ahead.
 
 [00:04:30:24]
-CC: You want to mark at TR-1?
+CC: You want to mark at T<sub>R</sub>-1?
 
 [00:04:30:27]
 C: Not necessary.
@@ -5445,7 +5445,7 @@ CC: Say again.
 C: I said you can really feel it kick off.
 
 [00:04:32:49]
-P: TR-30.
+P: T<sub>R</sub>-30.
 
 CC: Roger.
 
@@ -5480,7 +5480,7 @@ CC: Rocket 3.
 CC: Rocket 2.
 
 [00:04:33:38]
-_extra : RKV-3/nGYM-3
+_extra : RKV-3 / GYM-3
 C: Three of them.
 
 CC: Rocket 4.
@@ -5521,7 +5521,7 @@ CC: Molly Brown, Guaymas CAP COM.
 C: Go.
 
 [00:04:34:52]
-CC: I'm prepared to give you a TR + 3 minute time hack if you need it?
+CC: I'm prepared to give you a T<sub>R</sub> + 3 minute time hack if you need it?
 
 [00:04:35:00]
 P: That would be good.
@@ -5530,7 +5530,7 @@ P: That would be good.
 CC: Okay, and I have some event times for reentry: 400K feet 19 10 29 -- stand by, Molly Brown.
 
 [00:04:35:24]
-_extra : GYM-3/nTEX-3
+_extra : GYM-3 / TEX-3
 CC: Molly ?Brown, correct that 400K feet. That's 19 01 29.
 
 [00:04:35:32]
@@ -5541,7 +5541,7 @@ C: Roger.
 CC: Molly Brown, I'll give you a time hack in approximately 30 seconds.
 
 [00:04:36:09]
-CC: Molly Brown, Guaymas. Stand by for a TR + 3 minute time hack.
+CC: Molly Brown, Guaymas. Stand by for a T<sub>R</sub> + 3 minute time hack.
 
 [00:04:36:18]
 CC: 5 - 4 - 3 - 2 - 1 -
@@ -5587,7 +5587,7 @@ CC: Okay.
 CC: Molly Brown, I have your backup times on the bank angles and time to reverse bank angle.
 
 [00:04:38:47]
-_extra : TEX-3/nMCC-Reentry
+_extra : TEX-3 / MCC-Reentry
 C: Go ahead.
 
 [00:04:38:49]
@@ -5634,14 +5634,14 @@ CC: Molly Brown, Cape CAP COM. Transmitting on Communications Experiment. Over.
 CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1. Over. 
 
 [00:04:42:25]
-CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1. Over. 
+CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
 
 [00:04:42:51]
-CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1. Over. 
+CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
 
 [00:04:43:25]
 _extra : MCC-Reentry and Descent
-CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1. Over. 
+CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
 
 [00:04:43:55]
 _page : 100
@@ -5757,7 +5757,7 @@ C: Oh man!
 C: Okay. We all set?
 
 [00:04:49:02]
-_extra : MCC-Descent/nINTREPID-Descent
+_extra : MCC-Descent / INTREPID-Descent
 P: Yes. Now we go through the post-main checklist.
 
 [00:04:49:13]
@@ -5878,7 +5878,7 @@ P: Reentry Antenna Experiment off.
 
 [00:04:51:05]
 _page : 104
-P: Okay. Manual O2 High Rate - PULL. I don't think we want to do that yet, do you?
+P: Okay. Manual O<sub>2</sub> High Rate - PULL. I don't think we want to do that yet, do you?
 
 [00:04:51:09]
 C: No.
@@ -5917,7 +5917,7 @@ C: We're at 1500 feet.
 C: We're in good shape.
 
 [00:04:51:58]
-C: We may have to go on O2 High Rate with that smell in here.
+C: We may have to go on O<sub>2</sub> High Rate with that smell in here.
 
 [00:04:52:00]
 P: I know it.
