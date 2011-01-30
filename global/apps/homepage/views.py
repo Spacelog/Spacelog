@@ -9,7 +9,7 @@ def homepage(request):
     ]
     missions_coming_soon = [
         mission for mission in list(Mission.Query(request.redis_conn))
-        if mission.incomplete
+        if mission.incomplete and mission.featured
     ]
     return render_to_response(
         'homepage/homepage.html',
