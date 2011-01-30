@@ -85,29 +85,29 @@
             "photo_height": 0,
             "avatar": "person.png",
             "shifts": [
-              ["GORDON_COOPER", "-00:01:00:00", "Cape"],
-              ["CC", "00:00:15:16", "Canary"],
-              ["GORDON_COOPER", "00:00:25:07", "Cape"],
-              ["CC", "00:00:42:27", "CSQ"],
-              ["PETE_CONRAD", "00:00:50:27", "Carnarvon"],
-              ["GORDON_COOPER", "00:01:11:32", "Cape"],
-              ["CC", "00:01:23:38", "RKV"],
-              ["CC", "00:01:29:43", "Guaymas"],
-              ["CC", "00:01:31:10", "Texas"],
-              ["GORDON_COOPER", "00:01:35:27", "Cape"],
-              ["CC", "00:01:49:03", "Canary"],
-              ["CC", "00:02:16:19", "CSQ"],
-              ["PETE_CONRAD", "00:02:22:38", "Carnarvon"],
-              ["CC", "00:02:49:48", "Hawaii"],
-              ["CC", "00:02:55:32", "RKV"],
-              ["CC", "00:02:59:51", "Guaymas"],
-              ["GORDON_COOPER", "00:03:06:15", "Cape"],
-              ["CC", "00:03:48:14", "CSQ"],
-              ["PETE_CONRAD", "00:03:56:00", "Carnarvon"],
-              ["CC", "00:04:17:39", "Hawaii"],
-              ["CC", "00:04:28:33", "RKV"],
-              ["CC", "00:04:33:55", "Guaymas"],
-              ["GORDON_COOPER", "00:04:37:40", "Cape"]
+              ["GORDON_COOPER", "-00:01:00:00"],
+              ["CC_CANARY", "00:00:15:16"],
+              ["GORDON_COOPER", "00:00:25:07"],
+              ["CC_CSQ", "00:00:42:27"],
+              ["PETE_CONRAD", "00:00:50:27"],
+              ["GORDON_COOPER", "00:01:11:32"],
+              ["CC_RKV", "00:01:23:38"],
+              ["CC_GUAYMAS", "00:01:29:43"],
+              ["CC_TEXAS", "00:01:31:10"],
+              ["GORDON_COOPER", "00:01:35:27"],
+              ["CC_CANARY", "00:01:49:03"],
+              ["CC_CSQ", "00:02:16:19"],
+              ["PETE_CONRAD", "00:02:22:38"],
+              ["CC_HAWAII", "00:02:49:48"],
+              ["CC_RKV", "00:02:55:32"],
+              ["CC_GUAYMAS", "00:02:59:51"],
+              ["GORDON_COOPER", "00:03:06:15"],
+              ["CC_CSQ", "00:03:48:14"],
+              ["PETE_CONRAD", "00:03:56:00"],
+              ["CC_HAWAII", "00:04:17:39"],
+              ["CC_RKV", "00:04:28:33"],
+              ["CC_GUAYMAS", "00:04:33:55"],
+              ["GORDON_COOPER", "00:04:37:40"]
             ]
         },
         "GORDON_COOPER": {
@@ -133,6 +133,36 @@
             "photo_width": 0,
             "photo_height": 0,
             "avatar": "person.png"
+        },
+        "CC_CANARY": {
+            "short_name": "Canary CapCom",
+            "avatar": "person.png",
+            "role": "other"
+        },
+        "CC_CSQ": {
+            "short_name": "CSQ CapCom",
+            "avatar": "person.png",
+            "role": "other"
+        },
+        "CC_RKV": {
+            "short_name": "RKV CapCom",
+            "avatar": "person.png",
+            "role": "other"
+        },
+        "CC_GUAYMAS": {
+            "short_name": "Guaymas CapCom",
+            "avatar": "person.png",
+            "role": "other"
+        },
+        "CC_TEXAS": {
+            "short_name": "Texas CapCom",
+            "avatar": "person.png",
+            "role": "other"
+        },
+        "CC_HAWAII": {
+            "short_name": "Hawaii CapCom",
+            "avatar": "person.png",
+            "role": "other"
         },
         "RA": {
             "role": "other",
