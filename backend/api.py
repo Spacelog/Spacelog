@@ -40,19 +40,19 @@ class LogLine(object):
     def __init__(self, redis_conn, transcript_name, timestamp):
         self.redis_conn = redis_conn
         self.transcript_name = transcript_name
-        self.mission_name = transcript_name.split("/")[0]
+        self.mission_name = transcript_name.split(u"/")[0]
         self.timestamp = timestamp
-        self.id = "%s:%i" % (self.transcript_name, self.timestamp)
+        self.id = u"%s:%i" % (self.transcript_name, self.timestamp)
         self._load()
 
     @classmethod
     def by_log_line_id(cls, redis_conn, log_line_id):
-        transcript, timestamp = log_line_id.split(":", 1)
+        transcript, timestamp = log_line_id.split(u":", 1)
         timestamp = int(timestamp)
         return cls(redis_conn, transcript, timestamp)
 
     def _load(self):
-        data = self.redis_conn.hgetall("log_line:%s:info" % self.id)
+        data = self.redis_conn.hgetall(u"log_line:%s:info" % self.id)
         if not data:
             raise ValueError("No such LogLine: %s at %s [%s]" % (self.transcript_name, backend.util.seconds_to_timestamp(self.timestamp), self.timestamp))
         # Load onto our attributes
@@ -60,8 +60,9 @@ class LogLine(object):
         self.transcript_page = data.get('transcript_page')
 
         self.lines = []
-        for line in self.redis_conn.lrange("log_line:%s:lines" % self.id, 0, -1):
-            speaker_identifier, text = [x.strip() for x in line.split(":", 1)]
+        for line in self.redis_conn.lrange(u"log_line:%s:lines" % self.id, 0, -1):
+            line = line.decode('utf-8')
+            speaker_identifier, text = [x.strip() for x in line.split(u":", 1)]
             speaker = Character(self.redis_conn, self.mission_name, speaker_identifier)
             self.lines += [[speaker, text]]
 
@@ -129,20 +130,20 @@ class LogLine(object):
 
     def images(self):
         "Returns any images associated with this LogLine."
-        image_ids = self.redis_conn.lrange("log_line:%s:images" % self.id, 0, -1)
-        images = [self.redis_conn.hgetall("image:%s" % id) for id in image_ids]
+        image_ids = self.redis_conn.lrange(u"log_line:%s:images" % self.id, 0, -1)
+        images = [self.redis_conn.hgetall(u"image:%s" % id) for id in image_ids]
         return images
 
     def labels(self):
         "Returns the labels for this LogLine."
-        return self.redis_conn.smembers("log_line:%s:labels" % self.id)
+        return map(lambda x: x.decode('utf-8'), self.redis_conn.smembers(u"log_line:%s:labels" % self.id))
 
     class Query(BaseQuery):
         """
         Allows you to query for LogLines.
         """
 
-        all_key_pattern = "log_lines:%(mission_name)s"
+        all_key_pattern = u"log_lines:%(mission_name)s"
 
         def transcript(self, transcript_name):
             "Returns a new Query filtered by transcript"
@@ -159,7 +160,7 @@ class LogLine(object):
         def first_after(self, timestamp):
             "Returns the closest log line after the timestamp."
             if "transcript" in self.filters:
-                key = "transcript:%s" % self.filters['transcript']
+                key = u"transcript:%s" % self.filters['transcript']
             else:
                 key = self.all_key
             # Do a search.
@@ -179,7 +180,7 @@ class LogLine(object):
 
         def first_before(self, timestamp):
             if "transcript" in self.filters:
-                key = "transcript:%s" % self.filters['transcript']
+                key = u"transcript:%s" % self.filters['transcript']
             else:
                 key = self.all_key
             # Do a search.
@@ -201,7 +202,7 @@ class LogLine(object):
             "Returns the first log line if you've filtered by page."
             if set(self.filters.keys()) == set(["transcript", "page"]):
                 try:
-                    key = self.redis_conn.lrange("page:%s:%i" % (self.filters['transcript'], self.filters['page']), 0, 0)[0]
+                    key = self.redis_conn.lrange(u"page:%s:%i" % (self.filters['transcript'], self.filters['page']), 0, 0)[0]
                 except IndexError:
                     raise ValueError("There are no log lines for this page.")
                 return self._key_to_instance(key)
@@ -221,23 +222,25 @@ class LogLine(object):
             # Make sure it's a valid combination 
             filter_names = set(self.filters.keys())
             if filter_names == set():
-                keys = self.redis_conn.zrange(self.all_key, 0, -1)
+                keys = map(lambda x: x.decode('utf-8'), self.redis_conn.zrange(self.all_key, 0, -1))
             elif filter_names == set(["transcript"]):
-                keys = self.redis_conn.zrange("transcript:%s" % self.filters['transcript'], 0, -1)
+                keys = map(lambda x: x.decode('utf-8'), self.redis_conn.zrange(u"transcript:%s" % self.filters['transcript'], 0, -1))
             elif filter_names == set(["transcript", "range"]):
-                keys = self.redis_conn.zrangebyscore(
-                    "transcript:%s" % self.filters['transcript'],
+                keys = map(lambda x: x.decode('utf-8'), self.redis_conn.zrangebyscore(
+                    u"transcript:%s" % self.filters['transcript'],
                     self.filters['range'][0],
                     self.filters['range'][1],
-                )
+                ))
             elif filter_names == set(["range"]):
-                keys = self.redis_conn.zrangebyscore(
+                keys = map(lambda x: x.decode('utf-8'), self.redis_conn.zrangebyscore(
                     self.all_key,
                     self.filters['range'][0],
                     self.filters['range'][1],
-                )
+                ))
             elif filter_names == set(['page', 'transcript']):
-                keys = self.redis_conn.lrange("page:%s:%i" % (self.filters['transcript'], self.filters['page']), 0, -1)
+                keys = map(lambda x: x.decode('utf-8'), 
+                    self.redis_conn.lrange(u"page:%s:%i" % (self.filters['transcript'], self.filters['page']), 0, -1)
+                )
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
             # Iterate over the keys and return LogLine objects
@@ -245,7 +248,7 @@ class LogLine(object):
                 yield self._key_to_instance(key)
         
         def _key_to_instance(self, key):
-            transcript_name, timestamp = key.split(":", 1)
+            transcript_name, timestamp = key.split(u":", 1)
             return LogLine(self.redis_conn, transcript_name, int(timestamp))
     
 
@@ -259,7 +262,7 @@ class NarrativeElement(object):
         self.mission_name = mission_name
         self.number = number
         self.one_based_number = number + 1
-        self.id = "%s:%i" % (self.mission_name, self.number)
+        self.id = u"%s:%i" % (self.mission_name, self.number)
         self._load()
 
     def __eq__(self, other):
@@ -291,10 +294,10 @@ class NarrativeElement(object):
             # Make sure it's a valid combination 
             filter_names = set(self.filters.keys())
             if filter_names == set():
-                keys = self.redis_conn.lrange(self.all_key, 0, -1)
+                keys = map(lambda x: x.decode('utf-8'), self.redis_conn.lrange(self.all_key, 0, -1))
             elif filter_names == set(['act_number']):
-                redis_key = 'act:%s:%s:key_scenes' % (self.mission_name, self.filters['act_number'])
-                keys = self.redis_conn.lrange(redis_key, 0, -1)
+                redis_key = u'act:%s:%s:key_scenes' % (self.mission_name, self.filters['act_number'])
+                keys = map(lambda x: x.decode('utf-8'), self.redis_conn.lrange(redis_key, 0, -1))
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
             # Iterate over the keys and return LogLine objects
@@ -302,7 +305,7 @@ class NarrativeElement(object):
                 yield self._key_to_instance(key)
 
         def _key_to_instance(self, key):
-            mission_name, number = key.split(":", 1)
+            mission_name, number = key.split(u":", 1)
             return self.result_class(self.redis_conn, mission_name, int(number))
 
 
@@ -311,7 +314,7 @@ class Act(NarrativeElement):
     Represents an Act in the mission.
     """
 
-    noun = 'act'
+    noun = u'act'
 
     def _load(self):
         super(Act, self)._load()
@@ -322,7 +325,7 @@ class Act(NarrativeElement):
         self.illustration = self.data.get("illustration", None)
         self.homepage = self.data.get("homepage", None)
 
-        stats_data = self.redis_conn.hgetall("%s:%s:stats" % (self.noun, self.id))
+        stats_data = self.redis_conn.hgetall(u"%s:%s:stats" % (self.noun, self.id))
         if stats_data:
             self.has_stats = True
             self.stats_image_map = stats_data['image_map']
@@ -334,10 +337,10 @@ class Act(NarrativeElement):
         return list( KeyScene.Query(self.redis_conn, self.mission_name).act_number(self.number).items() )
     
     class Query(NarrativeElement.Query):
-        all_key_pattern = "acts:%(mission_name)s"
+        all_key_pattern = u"acts:%(mission_name)s"
 
         def _key_to_instance(self, key):
-            mission_name, number = key.split(":", 1)
+            mission_name, number = key.split(u":", 1)
             return Act(self.redis_conn, mission_name, int(number))
 
 
@@ -349,10 +352,10 @@ class KeyScene(NarrativeElement):
     noun = 'key_scene'
 
     class Query(NarrativeElement.Query):
-        all_key_pattern = "key_scenes:%(mission_name)s"
+        all_key_pattern = u"key_scenes:%(mission_name)s"
 
         def _key_to_instance(self, key):
-            mission_name, number = key.split(":", 1)
+            mission_name, number = key.split(u":", 1)
             return KeyScene(self.redis_conn, mission_name, int(number))
 
 
@@ -365,11 +368,11 @@ class Character(object):
         self.redis_conn = redis_conn
         self.mission_name = mission_name
         self.identifier = identifier
-        self.id = "%s:%s" % (self.mission_name, identifier)
+        self.id = u"%s:%s" % (self.mission_name, identifier)
         self._load()
 
     def _load(self):
-        key = "characters:%s" % self.id
+        key = u"characters:%s" % self.id
         data = self.redis_conn.hgetall( key )
         
         self.name                 = data.get('name', self.identifier)
@@ -383,15 +386,15 @@ class Character(object):
         self.photo_height         = data.get('photo_height', None)
         self.quotable_log_line_id = data.get('quotable_log_line_id', None)
         
-        stat_pairs = self.redis_conn.lrange( "%s:stats" % key, 0, -1 )
-        self.stats = [ stat.split(':', 1) for stat in stat_pairs ]
+        stat_pairs = self.redis_conn.lrange( u"%s:stats" % key, 0, -1 )
+        self.stats = [ stat.split(u':', 1) for stat in stat_pairs ]
 
     def quotable_log_line(self):
         if not self.quotable_log_line_id:
             return None
-        transcript_name, timestamp = self.quotable_log_line_id.split(":", 1)
+        transcript_name, timestamp = self.quotable_log_line_id.split(u":", 1)
         
-        parts = map(int, timestamp.split(":"))
+        parts = map(int, timestamp.split(u":"))
         timestamp = (parts[0] * 86400) + (parts[1] * 3600) + (parts[2] * 60) + parts[3]
         return LogLine(
             self.redis_conn,
@@ -400,10 +403,10 @@ class Character(object):
         )
 
     def current_shift(self, timestamp):
-        shifts_key = 'characters:%s:shifts' % self.id
+        shifts_key = u'characters:%s:shifts' % self.id
         shifts = self.redis_conn.zrangebyscore(shifts_key, -86400, timestamp)
         if shifts:
-            shift_start, character_identifier = shifts[-1].split(':')
+            shift_start, character_identifier = shifts[-1].split(u':')
             return Character(self.redis_conn, self.mission_name, character_identifier)
         else:
             return self
@@ -413,8 +416,8 @@ class Character(object):
 
     class Query(BaseQuery):
 
-        all_key_pattern = "characters:%(mission_name)s"
-        role_key_pattern = "characters:%(mission_name)s:%(role)s"
+        all_key_pattern = u"characters:%(mission_name)s"
+        role_key_pattern = u"characters:%(mission_name)s:%(role)s"
 
         def role(self, role):
             return self._extend_query("role", role)
@@ -424,10 +427,10 @@ class Character(object):
             
             filter_names = set(self.filters.keys())
             if filter_names == set():
-                keys = self.redis_conn.lrange(self.all_key, 0, -1)
+                keys = map(lambda x: x.decode('utf-8'), self.redis_conn.lrange(self.all_key, 0, -1))
             elif filter_names == set(['role']):
                 role_key = self.role_key_pattern % {'mission_name':self.mission_name, 'role':self.filters['role']}
-                keys = self.redis_conn.lrange(role_key, 0, -1)
+                keys = map(lambda x: x.decode('utf-8'), self.redis_conn.lrange(role_key, 0, -1))
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
             
@@ -446,14 +449,14 @@ class Glossary(object):
         self.redis_conn   = redis_conn
         self.mission_name = mission_name
         self.identifier   = identifier
-        self.id           = "%s:%s" % (self.mission_name, identifier.lower())
+        self.id           = u"%s:%s" % (self.mission_name, identifier.lower())
         self._load()
 
     def _load(self):
-        key = "glossary:%s" % self.id
+        key = u"glossary:%s" % self.id
         data = self.redis_conn.hgetall( key )
         if not data:
-            raise ValueError("No such glossary item: %s" % self.id)
+            raise ValueError("No such glossary item: %s (%s)" % (self.id, key))
         self.description = data['description']
         self.extended_description = data.get('extended_description', None)
         self.abbr        = data['abbr']
@@ -463,20 +466,20 @@ class Glossary(object):
 
     def links(self):
         # Fetch all the IDs
-        link_ids = self.redis_conn.lrange("glossary:%s:links" % self.id, 0, -1)
+        link_ids = self.redis_conn.lrange(u"glossary:%s:links" % self.id, 0, -1)
         for link_id in link_ids:
-            yield self.redis_conn.hgetall("glossary-link:%s" % link_id)
+            yield self.redis_conn.hgetall(u"glossary-link:%s" % link_id)
 
     class Query(BaseQuery):
-        all_key_pattern  = "glossary:%(mission_name)s"
-        role_key_pattern = "glossary:%(mission_name)s:%(abbr)s"
+        all_key_pattern  = u"glossary:%(mission_name)s"
+        role_key_pattern = u"glossary:%(mission_name)s:%(abbr)s"
 
         def items(self):
             "Executes the query and returns the items."
             
             filter_names = set(self.filters.keys())
             if filter_names == set():
-                keys = self.redis_conn.lrange(self.all_key, 0, -1)
+                keys = map(lambda x: x.decode('utf-8'), self.redis_conn.lrange(self.all_key, 0, -1))
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
             
@@ -495,10 +498,10 @@ class Mission(object):
         self._load()
 
     def _load(self):
-        data = self.redis_conn.hgetall("mission:%s" % self.name)
+        data = self.redis_conn.hgetall(u"mission:%s" % self.name)
         self.copy = dict([
             (k, json.loads(v)) for k, v in
-            self.redis_conn.hgetall("mission:%s:copy" % self.name).items()
+            self.redis_conn.hgetall(u"mission:%s:copy" % self.name).items()
         ])
         self.title = self.copy['title']
         self.upper_title = self.copy['upper_title']
@@ -507,7 +510,7 @@ class Mission(object):
         self.featured = (data['featured'].lower() == 'true')
         self.main_transcript = data['main_transcript']
         try:
-            self.main_transcript_subname = data['main_transcript'].split("/", 1)[1]
+            self.main_transcript_subname = data['main_transcript'].split(u"/", 1)[1]
         except IndexError:
             self.main_transcript_subname = ""
         self.media_transcript = data['media_transcript']
@@ -529,9 +532,9 @@ class Mission(object):
             filter_names = set(self.filters.keys())
             if filter_names == set():
                 keys = [
-                    x.split(":")[1]
-                    for x in self.redis_conn.keys("mission:*")
-                    if len(x.split(":")) == 2
+                    x.decode('utf-8').split(u":")[1]
+                    for x in self.redis_conn.keys(u"mission:*")
+                    if len(x.split(u":")) == 2
                 ]
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
