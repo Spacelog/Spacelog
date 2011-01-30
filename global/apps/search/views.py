@@ -29,7 +29,7 @@ class SearchView(TemplateView):
             offset = 0
 
         # Is it a special search?
-        redis_conn = redis.Redis()
+        redis_conn = self.request.redis_conn
         special_value = redis_conn.get("special_search:%s" % q)
         if special_value:
             self.template_name = "search/special.html"

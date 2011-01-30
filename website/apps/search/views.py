@@ -69,7 +69,7 @@ class SearchView(TemplateView):
             sortby="-weight",
         )
         # Go through the results, building a list of LogLine objects
-        redis_conn = redis.Redis()
+        redis_conn = self.request.redis_conn
         log_lines = []
         for result in results:
             transcript_name, timestamp = result.id.split(":", 1)
