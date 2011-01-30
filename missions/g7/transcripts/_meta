@@ -1,6 +1,6 @@
 {
     "name": "g7",
-    "featured": true,
+    "featured": false,
     "incomplete": true,
     "subdomains": ["gemini7", "g7"],
     "utc_launch_time": 0,
