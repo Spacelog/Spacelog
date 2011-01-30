@@ -77,7 +77,8 @@
     "character_ordering": [
         "C",
         "P",
-        "GORDON_COOPER"
+        "GORDON_COOPER",
+        "ROGER_CHAFFEE"
     ],
     "characters": {
         "C": {
@@ -121,7 +122,7 @@
               ["GORDON_COOPER", "00:01:11:32"],
               ["CC_RKV", "00:01:23:38"],
               ["CC_GUAYMAS", "00:01:29:43"],
-              ["CC_TEXAS", "00:01:31:10"],
+              ["ROGER_CHAFFEE", "00:01:31:10"],
               ["GORDON_COOPER", "00:01:35:27"],
               ["CC_CANARY", "00:01:49:03"],
               ["CC_CSQ", "00:02:16:19"],
@@ -160,6 +161,17 @@
             "photo_height": 0,
             "avatar": "person.png"
         },
+        "ROGER_CHAFFEE": {
+            "role": "mission-ops-title",
+            "name": "Roger B. Chaffee",
+            "short_name": "Roger Chaffee (CapCom)",
+            "mission_position": "Capsule Communicator",
+            "bio": "",
+            "photo": "",
+            "photo_width": 0,
+            "photo_height": 0,
+            "avatar": "person.png"
+        },
         "CC_CANARY": {
             "short_name": "Canary CapCom",
             "avatar": "person.png",
@@ -177,11 +189,6 @@
         },
         "CC_GUAYMAS": {
             "short_name": "Guaymas CapCom",
-            "avatar": "person.png",
-            "role": "other"
-        },
-        "CC_TEXAS": {
-            "short_name": "Texas CapCom",
             "avatar": "person.png",
             "role": "other"
         },
