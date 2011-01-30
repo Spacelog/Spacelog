@@ -111,8 +111,7 @@
             ]
         },
         "GORDON_COOPER": {
-            "role": "astronaut",
-            "_comment": "not an astronaut, done for formatting reasons",
+            "role": "mission-ops-title",
             "name": "L. Gordon Cooper",
             "short_name": "Gordon Cooper (CapCom)",
             "mission_position": "Capsule Communicator",
@@ -123,8 +122,7 @@
             "avatar": "person.png"
         },
         "PETE_CONRAD": {
-            "role": "astronaut",
-            "_comment": "not an astronaut, done for formatting reasons",
+            "role": "mission-ops-title",
             "name": "Charles “Pete” Conrad, Jr.",
             "short_name": "Pete Conrad (CapCom)",
             "mission_position": "Capsule Communicator",
