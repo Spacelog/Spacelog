@@ -77,7 +77,9 @@
     "character_ordering": [
         "C",
         "P",
+        "MOLLY_BROWN",
         "GORDON_COOPER",
+        "PETE_CONRAD",
         "ROGER_CHAFFEE"
     ],
     "characters": {
@@ -102,6 +104,16 @@
             "photo_width": 0,
             "photo_height": 0,
             "avatar": "astro.png"
+        },
+        "MOLLY_BROWN": {
+            "role": "astronaut",
+            "_comment": "marked as an astronaut for formatting reasons",
+            "name": "Molly Brown",
+            "mission_position": "Spacecraft",
+            "bio": "",
+            "photo": "",
+            "photo_width": 0,
+            "photo_height": 0
         },
         "CC": {
             "role": "other",
