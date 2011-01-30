@@ -220,7 +220,7 @@ C: And 29 aft. Right.
 CC: And 23 aft. Okay.
 
 [00:00:06:54]
-P: And the attitude on the ball is 18 degree nose down.
+P: And the attitude on the ball is 18° nose down.
 
 [00:00:07:23]
 CC: Roger. We have an 87 by 125 orbit, Molly Brown.
@@ -452,7 +452,7 @@ P: Okay.
 C: Okay. Ready with 2-1.
 
 [00:00:15:41]
-CC: Roger. ΔV139. GMTRC 15 55 47. GETRC 01 31 47. Roll left 55 degrees. GMTRB 16 05 31. Roll right 65. Did you copy?
+CC: Roger. ΔV139. GMTRC 15 55 47. GETRC 01 31 47. Roll left 55°. GMTRB 16 05 31. Roll right 65. Did you copy?
 
 [00:00:16:13]
 C: Did you get 'em?
@@ -492,7 +492,7 @@ P: It's cooling us right down too. It's working.
 
 [00:00:17:00]
 _extra : CYI-1
-P: Reading back a GMT of 2-1--15 55 47 GMTRC. GMTRB is 16 05 31. Bank angle 55 degrees left and right 65 degrees.
+P: Reading back a GMT of 2-1--15 55 47 GMTRC. GMTRB is 16 05 31. Bank angle 55° left and right 65°.
 
 [00:00:17:30]
 _page : 10
@@ -1091,7 +1091,7 @@ CC: Molly Brown, CSQ CAP COM.
 C: Go ahead CSQ.
 
 [00:00:45:24]
-CC: Your inlet temp: 76 degrees. Your outlet temp: 42 degrees.
+CC: Your inlet temp: 76°. Your outlet temp: 42°.
 
 [00:00:45:32]
 C: Roger.
@@ -1508,7 +1508,7 @@ C: MARK!
 P: Okay, Blood Experiment deactivated.
 
 [00:01:10:27]
-C: Okay, that's exactly -- that's 39 degrees pitched down.
+C: Okay, that's exactly -- that's 39° pitched down.
 
 [00:01:10:38]
 P: Okay, and you've got the sea urchin eggs coming up at 1:15, too.
@@ -1909,7 +1909,7 @@ CC: Molly Brown, can you give me a readout of your OAMS helium source pressure, 
 C: The propellant quantity gage is 83 percent. Stand by. John will give you the other.
 
 [00:01:27:35]
-P: Roger. Source pressure is 2450. Source temperature is 85 degrees, and fuel and oxidizer regulated at 295 with 68 degrees.
+P: Roger. Source pressure is 2450. Source temperature is 85°, and fuel and oxidizer regulated at 295 with 68°.
 
 [00:01:27:50]
 CC: Roger. 295 at 68. Say again your propellant quantity, Command Pilot.
@@ -2223,7 +2223,7 @@ CC: Okay. I have a time for you, where you will be nearest to the booster. Would
 P: Roger.
 
 [00:01:36:59]
-CC: Roger. 02 + 08 + 52. Will be dead ahead at an elevation of plus 80 degrees at 190 miles. This will be just prior to darkness. It should be very bright. Proceed to see if you can rendezvous.
+CC: Roger. 02 + 08 + 52. Will be dead ahead at an elevation of plus 80° at 190 miles. This will be just prior to darkness. It should be very bright. Proceed to see if you can rendezvous.
 
 [00:01:37:22]
 C: Roger.
@@ -2380,7 +2380,7 @@ P: Want to just slap those babies over there?
 P: They said to leave the brownies closed.
 
 [00:01:46:03]
-C: Okay, starting Alinement Caging Check. Minus 10 degrees in pitch, 10 degrees in yaw, and 10 degrees in roll. Going to CAGE, small-end-forward, holding attitudes out the window. Okay, I've caged. Going SEF, platform and attitude. Fine aline from 1:45 to 1:55.
+C: Okay, starting Alinement Caging Check. Minus 10° in pitch, 10° in yaw, and 10° in roll. Going to CAGE, small-end-forward, holding attitudes out the window. Okay, I've caged. Going SEF, platform and attitude. Fine aline from 1:45 to 1:55.
 
 [00:01:47:17]
 C: Let me have some of that juice when you get done.
@@ -2544,13 +2544,13 @@ C: What was the time of that booster again? What elevation?
 
 [00:01:53:26]
 _page : 46
-P: 02 08 52. 18 degrees el.
+P: 02 08 52. 18° el.
 
 [00:01:53:30]
 C: 02 --
 
 [00:01:53:32]
-P: 2 hours, 8 minutes, 52 seconds. 18 degrees el.
+P: 2 hours, 8 minutes, 52 seconds. 18° el.
 
 [00:01:53:39]
 C: Above? They didn't give us the mileage, huh?
@@ -2571,7 +2571,7 @@ C: We're alined just about perfect. What do you think, looking out your window?
 P: Yeah, man. That's beautiful!
 
 [00:01:54:05]
-C: What else have we got to do? Scanners should be on secondary. Now we're going to yaw 180 degrees here.
+C: What else have we got to do? Scanners should be on secondary. Now we're going to yaw 180° here.
 
 [00:01:54:32]
 C: Hey, look out there. There's some land.
@@ -2648,7 +2648,7 @@ C: Let's see what my retrofire attitude looks like going backwards.
 P: Okay.
 
 [00:01:58:11]
-P: 16 degrees nose down is what it is.
+P: 16° nose down is what it is.
 
 [00:01:58:13]
 C: Yep. I'll be there in a minute.
@@ -2746,7 +2746,7 @@ C: Yes.
 P: That stuff is really trying to crawl out of there. (Grapefruit juice)
 
 [00:02:04:17]
-P: John Yardley loses his bet. Cabin temperature is up to 92 degrees.
+P: John Yardley loses his bet. Cabin temperature is up to 92°.
 
 [00:02:04:40]
 C: Oh, man!
@@ -2834,7 +2834,7 @@ C: Okay, let's start this thing right now.
 C: Okay, it's pitching up slightly. Going up above zero. I don't have a scanner light. man, is it dark!
 
 [00:02:08:07]
-C: I don't have a scanner light, but I don't think it's doing right. We're now 20 degrees above the horizon and have no horizon. It's bringing me back down to 180.
+C: I don't have a scanner light, but I don't think it's doing right. We're now 20° above the horizon and have no horizon. It's bringing me back down to 180.
 
 [00:02:08:52]
 P: It's dark.
@@ -2997,7 +2997,7 @@ C: Man! I don't believe this 8-ball. It is way off. Look at it. It's way off. Th
 P: Yes.
 
 [00:02:16:01]
-C: It says minus 10 degrees down on the ball. I guess it's that Orbit Rate, isn't it?
+C: It says minus 10° down on the ball. I guess it's that Orbit Rate, isn't it?
 
 [00:02:16:05]
 P: Yes, probably.
@@ -3060,13 +3060,13 @@ C: Roger, IVI readouts before the burn were all zeros. After the burn was 10 ft/
 CC: Roger. Understand. 10 ft/sec forward.
 
 [00:02:17:42]
-C: That was in the 009 degree attitude. 10 ft/sec forward.
+C: That was in the 009° attitude. 10 ft/sec forward.
 
 [00:02:17:44]
 CC: Roger.
 
 [00:02:17:47]
-C: That was with a 90 degree yaw.
+C: That was with a 90° yaw.
 
 [00:02:17:58]
 CC: Molly Brown, CSQ. Be advised I sent T<sub>X</sub> twice. I've had spacecraft reject. I'll try again.
@@ -3224,7 +3224,7 @@ CC: In process. Roger. Roger.
 CC: You have a GO down here from everybody, and do you have suit temps for me, please?
 
 [00:02:25:42]
-C: Yes, suit temp is running 58 degrees, Pete. We are okay.
+C: Yes, suit temp is running 58°, Pete. We are okay.
 
 [00:02:25:45]
 CC: Righto.
@@ -3594,7 +3594,7 @@ P: Yes.
 P: Okay. At 2:40 in the flight plan --
 
 [00:02:47:22]
-C: That shows 30 degrees off on the ball.
+C: That shows 30° off on the ball.
 
 [00:02:47:31]
 P: Started out at 66 and ended at 62, at 2:40. (Oxygen quantity)
@@ -3889,7 +3889,7 @@ C: Read it into the recorder.
 P: Okay.
 
 [00:02:58:07]
-C: Let's see. It's pitching down on Orbit Rate. Horizon Scan now. Let's see if it stops it. Pitched down to 10 degrees.
+C: Let's see. It's pitching down on Orbit Rate. Horizon Scan now. Let's see if it stops it. Pitched down to 10°.
 
 [00:02:58:15]
 CC: Molly Brown, RKV CAP COM.
@@ -4576,7 +4576,7 @@ _page : 82
 CC: Roger. 55 percent. Could I have the temperature and pressure? We are going to send you a command load at this time.
 
 [00:03:56:39]
-P: Roger. Source pressure is 1950. Source temperature is 81 degrees.
+P: Roger. Source pressure is 1950. Source temperature is 81°.
 
 [00:03:56:46]
 CC: Roger. Thank you. Command load coming.
@@ -4784,7 +4784,7 @@ P: Okay. All equipment is stowed. Secondary B pump is on.
 C: There comes the sun.
 
 [00:04:12:35]
-P: And that old suit temp down there at 55 degrees, S-band-CONTINUOUS, C-band-CONTINUOUS, T/M in REAL-TIME and ACQ.
+P: And that old suit temp down there at 55°, S-band-CONTINUOUS, C-band-CONTINUOUS, T/M in REAL-TIME and ACQ.
 
 [00:04:12:44]
 P: Main batteries - we tested them. They checked good. C is way up there at 29, S2 --
@@ -5122,7 +5122,7 @@ P: Yes.
 CC: Okay, and how did your attitudes look?
 
 [00:04:23:39]
-C: Attitudes were right on, plus or minus 2 or 3 degrees.
+C: Attitudes were right on, plus or minus 2 or 3°.
 
 [00:04:23:42]
 CC: Okay, they look good on the ground.
@@ -5592,7 +5592,7 @@ C: Go ahead.
 
 [00:04:38:49]
 _page : 99
-CC: Bank left 45 degrees. Bank right 55 degrees. Time to reverse bank angle 19 08 17.
+CC: Bank left 45°. Bank right 55°. Time to reverse bank angle 19 08 17.
 
 [00:04:39:02]
 C: Give me an elapsed time after retro.
@@ -5601,7 +5601,7 @@ C: Give me an elapsed time after retro.
 CC: Stand by one.
 
 [00:04:39:21]
-C: I'm rolling to 60 degrees left now.
+C: I'm rolling to 60° left now.
 
 [00:04:39:27]
 CC: Roger, bank left 45.
