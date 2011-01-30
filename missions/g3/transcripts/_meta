@@ -222,6 +222,7 @@
             "avatar": "rs.png"
         }
     },
+    "shared_glossaries": ["space"],
     "glossary": {
         "Molly Brown": {
             "summary": "The nickname of the Gemini III spacecraft",
@@ -231,41 +232,30 @@
             "summary": "Capsule Communicator",
             "type": "abbreviation"
         },
-        "AOS": {
-            "summary": "Acquisition of signal",
-            "type": "abbreviation"
-        },
-        "LOS": {
-            "summary": "Loss of signal",
-            "type": "abbreviation"
-        },
         "CSQ": {
-            "summary": "Costal sentry Quebec",
+            "summary": "Coastal Sentry Quebec",
             "type": "abbreviation"
         },
         "RKV": {
             "summary": "Rose Knot Victor",
             "description": "A tracking ship",
             "type": "abbreviation"
-        }
+        },
         "FDI": {},
         "RGS": {},
-        "SECO": {},
         "IVI": {},
         "OAMS": {},
-        "drogue": {},
         "T/M": {},
         "GMTRC": {},
         "GETRC": {},
         "GMTRB": {},
-        "ΔV": {},
         "ACME": {},
         "MDIU": {},
         "DCS": {},
-        "MCC": {},
-        "SEF": {},
-        "BEF": {},
-        "RCS": {},
+        "MCC": {
+            "summary": "Mission Control Center",
+            "type": "abbreviation"
+        },
         "T<sub>R</sub>": {},
         "T<sub>X</sub>": {},
         "scanner": {}
