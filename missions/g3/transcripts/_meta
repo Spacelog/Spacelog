@@ -33,6 +33,10 @@
         }
     ],
     "key_scenes" : [
+        {
+            "title": "Corn beef sandwich",
+            "range": [ "00:01:52:26", "00:01:53:15" ]
+        }
     ],
     "homepage_quotes" : [
         "00:01:16:31",
