@@ -163,6 +163,36 @@
         "LOS": {
             "summary": "Loss of signal",
             "type": "abbreviation"
+        },
+        "CSQ": {
+            "summary": "Costal sentry Quebec",
+            "type": "abbreviation"
+        },
+        "RKV": {
+            "summary": "Rose Knot Victor",
+            "description": "A tracking ship",
+            "type": "abbreviation"
         }
+        "FDI": {},
+        "RGS": {},
+        "SECO": {},
+        "IVI": {},
+        "OAMS": {},
+        "drogue": {},
+        "T/M": {},
+        "GMTRC": {},
+        "GETRC": {},
+        "GMTRB": {},
+        "ΔV": {},
+        "ACME": {},
+        "MDIU": {},
+        "DCS": {},
+        "MCC": {},
+        "SEF": {},
+        "BEF": {},
+        "RCS": {},
+        "T<sub>R</sub>": {},
+        "T<sub>X</sub>": {},
+        "scanner": {}
     }
 }
