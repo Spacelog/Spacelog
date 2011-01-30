@@ -1189,7 +1189,7 @@ P: Yes.
 [00:00:51:12]
 _extra : CRO-1
 CC: Okay, Molly Brown. we got your Gemini load. We could not get T<sub>R</sub> in. We got a spacecraft reject
-     on T<sub>R</sub>, and it did go in at this time.  I'd like to give you a hack on TR at 39:30, in about 10 seconds.
+     on T<sub>R</sub>, and it did go in at this time.  I'd like to give you a hack on T<sub>R</sub> at 39:30, in about 10 seconds.
 
 [00:00:51:29]
 _page : 22
@@ -1338,7 +1338,7 @@ C: I'll put it in my pocket.
 P: Okay. I'll verify that load. (Pre-retro command load)
 
 [00:01:04:29]
-P: Is the TR-5 circuit breaker off?
+P: Is the T<sub>R</sub>-5 circuit breaker off?
 
 [00:01:04:32]
 _page : 25
@@ -3776,7 +3776,7 @@ C: Affirmative.
 CC: Okay.
 
 [00:02:52:59]
-P: Natch. Cabin temperature -- 92. Suit temperature -- 58. Cabin pressure is 5.6. Suit CO2 is 3/4. Left bottle is 5100. Right bottle is 5050. O2 quantity 62. Pressure is 840. Source temperature is 55. Source pressure is 2000. OAMS fuel --
+P: Natch. Cabin temperature -- 92. Suit temperature -- 58. Cabin pressure is 5.6. Suit CO<sub>2</sub> is 3/4. Left bottle is 5100. Right bottle is 5050. O<sub>2</sub> quantity 62. Pressure is 840. Source temperature is 55. Source pressure is 2000. OAMS fuel --
 
 [00:02:53:41]
 CC: Molly Brown, Hawaii CAP COM. Everything looks good on the ground. We will see you on the next time around. Aloha.
@@ -5967,7 +5967,7 @@ C: They're off.
 P: I don't understand that.
 
 [00:04:53:03]
-P: We better go to O2 High Rate and close the snorkle.
+P: We better go to O<sub>2</sub> High Rate and close the snorkle.
 
 [00:04:53:05]
 C: Okay.
