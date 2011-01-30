@@ -23,13 +23,41 @@
     "utc_launch_time": -150716160,
     "acts" : [
         {
-            "title": "Temp",
-            "description": "An act, just to make the indexer work.",
-            "range": ["-00:00:00:20", "00:05:01:00"],
+            "title": "Launch",
+            "description": "…",
+            "range": ["-00:00:00:20", "00:00:07:23"],
             "banner": "act1.jpg",
             "banner_class": "blue",
-            "orbital": "act1.png",
             "homepage": "act1.jpg"
+        },
+        {
+            "title": "1st Orbit",
+            "description": "…",
+            "range": ["00:00:07:23", "00:00:50:46"],
+            "banner": "act2.jpg",
+            "homepage": "act2.jpg"
+        },
+        {
+            "title": "2nd Orbit",
+            "description": "…",
+            "range": ["00:00:50:46", "00:01:24:30"],
+            "banner": "act3.jpg",
+            "homepage": "act3.jpg"
+        },
+        {
+            "title": "3rd Orbit",
+            "description": "…",
+            "range": ["00:01:24:30", "00:04:32:49"],
+            "banner": "act4.jpg",
+            "homepage": "act4.jpg"
+        },
+        {
+            "title": "Reentry",
+            "description": "…",
+            "range": ["00:04:32:49", "00:05:01:00"],
+            "banner": "act5.jpg",
+            "banner_class": "blue",
+            "homepage": "act5.jpg"
         }
     ],
     "key_scenes" : [
