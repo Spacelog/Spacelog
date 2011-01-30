@@ -13,7 +13,7 @@ C: There's the roll program.
 CC: Roger. Roll.
 
 [00:00:00:22]
-C: Okay. Ross is completed.
+C: Okay. Roll is completed.
 
 [00:00:00:23]
 CC: Roger. Roll Complete.
@@ -81,6 +81,9 @@ C: Roger.
 
 [00:00:02:28]
 P: Second update received.
+
+[00:00:02:29]
+CC: Roger. Update.
 
 [00:00:02:35]
 C: Okay, there was staging.
@@ -263,7 +266,7 @@ P: Maneuver controller--stowed. Sequence lights--test.
 C: Arm restraints, face plates--open.
 
 [00:00:09:05]
-P: Secondary O2 bottle is closed. I've got mine. Waste valve to NORMAL.
+P: Secondary O<sub>2</sub> bottle is closed. I've got mine. Waste valve to NORMAL.
 
 [00:00:09:22]
 CC: Molly Brown, Cape CAP COM.
@@ -281,7 +284,7 @@ C: Say again.
 CC: Does it look better from there than on a ballistic flight?
 
 [00:00:09:37]
-C: I can't ready you, Gordo.
+C: I can't read you, Gordo.
 
 [00:00:09:38]
 CC: Roger. How-do-it-look?
@@ -961,7 +964,7 @@ P: There's the Southern Cross and Alpha and Beta Centuri.
 C: Are those thrusters firing?
 
 [00:00:40:40]
-_extra : TAN-1/nCSQ-1
+_extra : TAN-1 / CSQ-1
 P: Yes.
 
 [00:00:40:44]
@@ -975,7 +978,7 @@ P: Oh, you doing it?
 C: Yes, we are yawing. I've got to keep it from yawing so far around.
 
 [00:00:40:56]
-P: Going to do this 02 --
+P: Going to do this O<sub>2</sub> --
 
 [00:00:41:18]
 P: Want me to put it back in and give them a blood pressure?
@@ -1169,13 +1172,13 @@ CC: Roger. Read you the same. Could you give us your status please? And the cape
 C: No. None of the remedies helped and we are GO.
 
 [00:00:50:46]
-CC: Okay. You have a GO from down here for the second orbit, and, if you'll stand by, I'll send you a 2-1 TR and a Gemini load.
+CC: Okay. You have a GO from down here for the second orbit, and, if you'll stand by, I'll send you a 2-1 T<sub>R</sub> and a Gemini load.
 
 [00:00:50:58]
 C: Roger.
 
 [00:00:51:00]
-CC: Stand by for TR.
+CC: Stand by for T<sub>R</sub>.
 
 [00:00:51:03]
 C: You ready?
@@ -1185,8 +1188,8 @@ P: Yes.
 
 [00:00:51:12]
 _extra : CRO-1
-CC: Okay, Molly Brown. we got your Gemini load. We could not get TR in. We got a spacecraft reject
-     on TR, and it did go in at this time.  I'd like to give you a hack on TR at 39:30, in about 10 seconds.
+CC: Okay, Molly Brown. we got your Gemini load. We could not get T<sub>R</sub> in. We got a spacecraft reject
+     on T<sub>R</sub>, and it did go in at this time.  I'd like to give you a hack on TR at 39:30, in about 10 seconds.
 
 [00:00:51:29]
 _page : 22
@@ -1199,7 +1202,7 @@ P: Yes.
 CC: Molly Brown, stand by on my mark.
 
 [00:00:51:53]
-CC: MARK! 39:30 is your TR. Your TR clock is synched with all on the ground, and your spacecraft elapsed time is synched.
+CC: MARK! 39:30 is your T<sub>R</sub>. Your T<sub>R</sub> clock is synched with all on the ground, and your spacecraft elapsed time is synched.
 
 [00:00:52:05]
 P: Okay. We have computer time of 39:28. That's close enough.
@@ -1259,7 +1262,7 @@ CC: Roger. Your Texas burn will be 48 ft/sec for 73 seconds.
 C: Okay, 48 ft/sec for 73 seconds.
 
 [00:00:55:40]
-CC: That's affirmative. We got your TR and Gemini load in. Your clocks look good on the ground, and everything is GO here. See you next trip.
+CC: That's affirmative. We got your T<sub>R</sub> and Gemini load in. Your clocks look good on the ground, and everything is GO here. See you next trip.
 
 [00:00:55:50]
 C: Roger.
@@ -1311,7 +1314,7 @@ P: Yes, that's fine. It means we haven't used any OAMS fuel.
 P: Elapsed time is 1:05. Now, I'm going to get a main batteries check. (Pilot misread elapsed time).
 
 [00:01:02:05]
-P: --9 1/2 and 24 on one and 9 1/2 and 24 on two, and 9 1/2 and 24 on three. 9 1/2 and 24 on four. Those mains are good!
+P: --9½ and 24 on one and 9½ and 24 on two, and 9½ and 24 on three. 9½ and 24 on four. Those mains are good!
 
 [00:01:03:50]
 P: What time is it now, Gus?
@@ -1529,7 +1532,7 @@ P: Sure does.
 C: Okay, we're just about to get it all in one window.
 
 [00:01:11:23]
-_extra : CTN-1/nCANTON
+_extra : CTN-1 / CANTON
 P: Okay.
 
 [00:01:11:32]
@@ -1558,13 +1561,13 @@ C: Roger. We can't tell that we're using any fuel.
 CC: Okay, fine. We are not overly concerned. It's just that we'd like to get a handle on what is causing it here.
 
 [00:01:12:34]
-CC: Your O2 pressure is off the scale on the high side by telemetry.
+CC: Your O<sub>2</sub> pressure is off the scale on the high side by telemetry.
 
 [00:01:12:46]
 P: Say again, Gordo.
 
 [00:01:12:47]
-CC: Your oxygen pressure, your O2 pressure, is off the high side of the scale. You may have had that switch failure in there. you may have had a telemetry failure in there that failed to the high side.
+CC: Your oxygen pressure, your O<sub>2</sub> pressure, is off the high side of the scale. You may have had that switch failure in there. you may have had a telemetry failure in there that failed to the high side.
 
 [00:01:12:57]
 _extra : CTN-1
@@ -1602,13 +1605,13 @@ P: Yes.
 P: Our source pressure is 2350, Gordo.
 
 [00:01:13:59]
-P: Let's see if I can bring that pressure down, using O2 High Rate, if it is all right with you, Gus.
+P: Let's see if I can bring that pressure down, using O<sub>2</sub> High Rate, if it is all right with you, Gus.
 
 [00:01:14:03]
 C: Okay.
 
 [00:01:14:05]
-P: We can try manual actuation of O2 High Rate. I never did the Suit Integrity Check.
+P: We can try manual actuation of O<sub>2</sub> High Rate. I never did the Suit Integrity Check.
 
 [00:01:14:24]
 C: We probably drove it overboard using that heater switch when we thought the pressure was down.
@@ -1642,7 +1645,7 @@ C: Okay.
 P: Now, we'll just recock it.
 
 [00:01:16:14]
-P: That was O2 High Rate for about two minutes to bring the pressure off the peg. it's now reading 985, and cabin pressure is holding at 5.6.
+P: That was O<sub>2</sub> High Rate for about two minutes to bring the pressure off the peg. it's now reading 985, and cabin pressure is holding at 5.6.
 
 [00:01:16:31]
 P: Here comes the sunrise. Is that beautiful!
@@ -1775,22 +1778,22 @@ CC: Molly Brown, Molly Brown, RKV.
 C: RKV, this is Molly Brown.
 
 [00:01:23:42]
-CC: Roger. Read you loud and clear. I'm going to update your TR and transmit a maneuver load to you.
+CC: Roger. Read you loud and clear. I'm going to update your T<sub>R</sub> and transmit a maneuver load to you.
 
 [00:01:23:49]
 C: Roger.
 
 [00:01:23:54]
-CC: I've got a reject on my TR. What is your status, Molly Brown?
+CC: I've got a reject on my T<sub>R</sub>. What is your status, Molly Brown?
 
 [00:01:23:55]
 P: Do you want me to tell them about the oxygen pressure being off-scale?
 
 [00:01:23:59]
-C: Our status is GO. We did bring the ECS O2 back down on the scale with O2 High Rate, and since that time it has returned to off-scale.
+C: Our status is GO. We did bring the ECS O<sub>2</sub> back down on the scale with O<sub>2</sub> High Rate, and since that time it has returned to off-scale.
 
 [00:01:24:10]
-CC: Roger, and I have transmitted a TR and Gemini load for your maneuver over Corpus. Confirm you were in CATCH-UP. Over.
+CC: Roger, and I have transmitted a T<sub>R</sub> and Gemini load for your maneuver over Corpus. Confirm you were in CATCH-UP. Over.
 
 [00:01:24:20]
 C: Negative. We're in CATCH-UP, now.
@@ -2202,7 +2205,7 @@ _page : 40
 P: This source pressure is 2050. Source temperature is 56.
 
 [00:01:36:24]
-CC: Roger. it looks like that pressure switch on that O2 is failed. You probably better bring that O2 heater from AUTOMATIC to OFF, and then manually control the temp from then on--the pressure from then on.
+CC: Roger. it looks like that pressure switch on that O<sub>2</sub> is failed. You probably better bring that O<sub>2</sub> heater from AUTOMATIC to OFF, and then manually control the temp from then on--the pressure from then on.
 
 [00:01:36:43]
 P: If I go into High Rate you can break it off the peg. Over.
@@ -2238,7 +2241,7 @@ CC: Roger. We got you loaded.
 P: We had another DCS load just in, too.
 
 [00:01:37:59]
-CC: Roger. That was the actual values. The first one was the TR .
+CC: Roger. That was the actual values. The first one was the T<sub>R</sub>.
 
 [00:01:38:05]
 P: Roger.
@@ -2403,7 +2406,7 @@ C: That oxygen still hasn't come off the peg.
 P: The what hasn't?
 
 [00:01:48:47]
-P: I'll tell you, boy. It poses a serious problem with that O2 High Rate bit.
+P: I'll tell you, boy. It poses a serious problem with that O<sub>2</sub> High Rate bit.
 
 [00:01:49:01]
 _extra : GRAND CANARY ISLAND
@@ -2843,6 +2846,7 @@ C: Yes.
 P: Hey, look at those thrusters glowing!
 
 [00:02:08:59]
+_page : 51
 C: Where?
 
 [00:02:09:00]
@@ -3065,7 +3069,7 @@ CC: Roger.
 C: That was with a 90 degree yaw.
 
 [00:02:17:58]
-CC: Molly Brown, CSQ. Be advised I sent TX twice. I've had spacecraft reject. I'll try again.
+CC: Molly Brown, CSQ. Be advised I sent T<sub>X</sub> twice. I've had spacecraft reject. I'll try again.
 
 [00:02:18:13]
 CC: Molly Brown, CSQ.
@@ -3075,11 +3079,11 @@ C: Go.
 
 [00:02:18:17]
 _extra : CSQ-2
-CC: We still cannot get an ... back from spacecraft on TX.
+CC: We still cannot get an ... back from spacecraft on T<sub>X</sub>.
 
 [00:02:18:33]
 _page : 55
-P: Roger, I'll set the TX for the ... Over.
+P: Roger, I'll set the T<sub>X</sub> for the ... Over.
 
 [00:02:18:38]
 CC: Say again.
@@ -3197,7 +3201,7 @@ CC: Okay, and no cross-coupling.
 [00:02:24:50]
 C: Negative.
 
-CC: Okay. That should keep them happy back there. We are not going to send you a load. Your TR is good. I don't have your clock counting down with mine. I guess you have a different one in. We got your blood pressure and your clocks are on as far as SET goes.
+CC: Okay. That should keep them happy back there. We are not going to send you a load. Your T<sub>R</sub> is good. I don't have your clock counting down with mine. I guess you have a different one in. We got your blood pressure and your clocks are on as far as SET goes.
 
 [00:02:24:54]
 C: That's -- Pete.
@@ -3243,7 +3247,7 @@ CC: Would you turn your real-time telemetry off after LOS from Carnarvon, please
 C: Roger, real-time off after Carnarvon.
 
 [00:02:26:34]
-CC: Yes. We didn't get a TX up to you.
+CC: Yes. We didn't get a T<sub>X</sub> up to you.
 
 [00:02:26:36]
 C: Roger.
@@ -3423,13 +3427,13 @@ P: Okay, what does the flight plan say about here, Gus?
 C: I'm supposed to be doing the Horizon Scanner Check, but I don't have time to do it.
 
 [00:02:40:41]
-P: Oh, okay. Well thanks, I'm done. I'm supposed to be doing that O2 High Rate Check. Is it at 2:40 in the flight plan?
+P: Oh, okay. Well thanks, I'm done. I'm supposed to be doing that O<sub>2</sub> High Rate Check. Is it at 2:40 in the flight plan?
 
 [00:02:40:49]
 C: Yes. 2:40 right now.
 
 [00:02:40:53]
-P: Okay, we'll got to O2 High Rate. I've --
+P: Okay, we'll got to O<sub>2</sub> High Rate. I've --
 
 [00:02:40:56]
 C: Man! The primary scanners are working! How about that!
@@ -3441,10 +3445,10 @@ P: I got to have some light here to look at the oxygen gages. Is that all right?
 C: Yeah, I just can't figure out --
 
 [00:02:41:06]
-P: Okay, I'll go to O2 High Rate. O2 High Rate isn't the way to go.
+P: Okay, I'll go to O<sub>2</sub> High Rate. O<sub>2</sub> High Rate isn't the way to go.
 
 [00:02:41:28]
-P: Okay, MARK. O2 High Rate.
+P: Okay, MARK. O<sub>2</sub> High Rate.
 
 [00:02:41:29]
 C: I'm sure uncomfortable.
@@ -3462,7 +3466,7 @@ P: It will come down, and I mean it will come down!
 C: You got the batteries on?
 
 [00:02:41:37]
-P: And at the start of the O2 High Rate Check, O2 quantity was reading 65 percent. Cabin pressure was 5.1. Cabin pressure is building slowly.
+P: And at the start of the O<sub>2</sub> High Rate Check, O<sub>2</sub> quantity was reading 65 percent. Cabin pressure was 5.1. Cabin pressure is building slowly.
 
 [00:02:42:17]
 P: Look at that suit inlet temperature go up.
@@ -3481,13 +3485,13 @@ C: Almost dead ahead. Maybe it's daylight. Maybe it's the sunrise.
 C: Thruster sounds are about like the trainer, aren't they?
 
 [00:02:42:49]
-P: Yeah, not bad, is it? See, the O2 pressure is coming down now. Okay, the mains coming on the line, in case we need the heaters.
+P: Yeah, not bad, is it? See, the O<sub>2</sub> pressure is coming down now. Okay, the mains coming on the line, in case we need the heaters.
 
 [00:02:42:59]
 C: Got the scanners again, I guess. That's what I got the last time.
 
 [00:02:43:04]
-P: Yeah. Okay, the O2 pressure is now down to 925 and we have been on O2 High Rate two minutes. Coming up on two minutes.
+P: Yeah. Okay, the O<sub>2</sub> pressure is now down to 925 and we have been on O<sub>2</sub> High Rate two minutes. Coming up on two minutes.
 
 [00:02:43:13]
 C: What was that?
@@ -3508,7 +3512,7 @@ C: Yes, but it came back on again, though.
 P: That son-of-a-gun is relieving at 5.8, isn't it?
 
 [00:02:43:43]
-P: Okay, 2 minutes and 30 seconds O2 High Rate.
+P: Okay, 2 minutes and 30 seconds O<sub>2</sub> High Rate.
 
 [00:02:43:59]
 P: And the Greenwich mean time is 1707.
@@ -3520,6 +3524,7 @@ C: Hey, give me that sight down there.
 P: Okay.
 
 [00:02:44:11]
+_page : 63
 C: I'll miss my tracking task.
 
 [00:02:44:16]
@@ -3531,10 +3536,10 @@ C: Really?
 P: Yes.
 
 [00:02:44:23]
-P: Okay, that's three minutes and ten seconds of O2 High Rate. Don't want to stay on it five minutes. I think that is more than a guy can stand. The suit inlet temperature is up to 64 and pressure is down to 825. We will shoot it a shot of manual heaters here when it gets to 800.
+P: Okay, that's three minutes and ten seconds of O<sub>2</sub> High Rate. Don't want to stay on it five minutes. I think that is more than a guy can stand. The suit inlet temperature is up to 64 and pressure is down to 825. We will shoot it a shot of manual heaters here when it gets to 800.
 
 [00:02:45:15]
-P: Okay, MARK. Four minutes on the O2 High Rate Check. Now we will go to the first shot of manual heaters.
+P: Okay, MARK. Four minutes on the O<sub>2</sub> High Rate Check. Now we will go to the first shot of manual heaters.
 
 [00:02:45:29]
 C: Man! It's almost impossible to see out with the sight in front of you.
@@ -3552,7 +3557,7 @@ P: Yeah. That's what they said it'd do, didn't they? Okay, 10 seconds to go, and
 C: Oh, man! That ball is staying way off --
 
 [00:02:46:13]
-P: Okay, MARK. O2 High Rate recocked.
+P: Okay, MARK. O<sub>2</sub> High Rate recocked.
 
 [00:02:46:15]
 C: Give me the mark when you think I've got zero yaw.
@@ -3568,7 +3573,7 @@ P: Turning the auto heater off.
 
 [00:02:46:34]
 _page : 64
-P: Can't see a thing, Gus. The quantity at the end of the O2 High Rate Check was down to 62 percent. Started at 66 and ended 62. I can't see a thing out the window, Gus, because of the sun.
+P: Can't see a thing, Gus. The quantity at the end of the O<sub>2</sub> High Rate Check was down to 62 percent. Started at 66 and ended 62. I can't see a thing out the window, Gus, because of the sun.
 
 [00:02:46:58]
 C: This is about zero yaw.
@@ -3633,7 +3638,7 @@ _page : 65
 C: Coming up?
 
 [00:02:48:10]
-P: Yes. Well, I'm going to turn them off now and see what happens. Okay. The mains are off. Been on seven minutes while we were on O2 High Rate. Okay, we are down to 62 percent at three hours. We are two percent under what we should be. That ought to be good enough for a couple of orbits.
+P: Yes. Well, I'm going to turn them off now and see what happens. Okay. The mains are off. Been on seven minutes while we were on O<sub>2</sub> High Rate. Okay, we are down to 62 percent at three hours. We are two percent under what we should be. That ought to be good enough for a couple of orbits.
 
 [00:02:48:41]
 C: I really can't tell whether I have zero yaw or not. What do you think?
@@ -3660,7 +3665,7 @@ P: You have to go back to the right. You are going the right way.
 P: Yes.
 
 [00:02:49:30]
-P: Now, let's see what TR is.
+P: Now, let's see what T<sub>R</sub> is.
 
 [00:02:49:35]
 C: How does that look to you? Is that enough?
@@ -3700,7 +3705,7 @@ CC: Say again, Molly Brown. I didn't understand.
 C: The attitude on the 8-ball is drifting badly. I'm trying to get it alined right now.
 
 [00:02:50:32]
-CC: Okay. Understand the 8-ball attitude is drifting badly. You have a GO from the ground. We are ready to up-line a 4-1 TR to you.
+CC: Okay. Understand the 8-ball attitude is drifting badly. You have a GO from the ground. We are ready to up-line a 4-1 T<sub>R</sub> to you.
 
 [00:02:50:40]
 C: Roger.
@@ -3724,13 +3729,13 @@ CC: Okay, sending now.
 P: Roger, 4-1 time received and verified.
 
 [00:02:51:18]
-CC: And we would like to send you a TX as soon as you are ready.
+CC: And we would like to send you a T<sub>X</sub> as soon as you are ready.
 
 [00:02:51:20]
-P: Roger. Send TX.
+P: Roger. Send T<sub>X</sub>.
 
 [00:02:51:35]
-CC: Right, sending TX now. And we confirm your TR -- in synch.
+CC: Right, sending T<sub>X</sub> now. And we confirm your T<sub>R</sub> -- in synch.
 
 [00:02:51:59]
 CC: Give us a hack when you start your Gage Correlation Check.
@@ -3896,12 +3901,12 @@ C: Go ahead.
 CC: If you are drifting in Orbit Rate, suggest you select a mode of your own for your tracking task coming up on the coast.
 
 [00:02:58:25]
-_extra : RKV-2/nGYM-2
+_extra : RKV-2 / GYM-2
 C: Roger.
 
 [00:02:58:26]
 _page : 70
-P: Thanks a bunch. Okay, I'll read these quantities off. The GMT was 1716 when we started. Propellant quantity was 60. Cabin temperature -- 92. Suit temperature -- 58. Cabin pressure -- 5.6. Suit CO2 -- 3/4 millimeter. Secondary left O2 bottle -- 5100. Secondary O2 bottle right was 5050. ECS O2 quantity -- 62 percent. Pressure -- 840. Source temperature -- 55. Source pressure -- 2000. Fuel temp -- 68.
+P: Thanks a bunch. Okay, I'll read these quantities off. The GMT was 1716 when we started. Propellant quantity was 60. Cabin temperature -- 92. Suit temperature -- 58. Cabin pressure -- 5.6. Suit CO<sub>2</sub> -- 3/4 millimeter. Secondary left O<sub>2</sub> bottle -- 5100. Secondary O<sub>2</sub> bottle right was 5050. ECS O<sub>2</sub> quantity -- 62 percent. Pressure -- 840. Source temperature -- 55. Source pressure -- 2000. Fuel temp -- 68.
 
 [00:02:58:58]
 C: You are supposed to take pictures of this.
