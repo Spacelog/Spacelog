@@ -285,10 +285,6 @@
         "MCC": {
             "summary": "Mission Control Center",
             "type": "abbreviation"
-        },
-        "GMTRB": {},
-        "T<sub>R</sub>": {},
-        "T<sub>X</sub>": {},
-        "scanner": {}
+        }
     }
 }
