@@ -242,21 +242,51 @@
             "description": "A tracking ship",
             "type": "abbreviation"
         },
-        "FDI": {},
-        "RGS": {},
-        "IVI": {},
-        "OAMS": {},
-        "T/M": {},
-        "GMTRC": {},
-        "GETRC": {},
-        "GMTRB": {},
-        "ACME": {},
-        "MDIU": {},
-        "DCS": {},
+        "FDI": {
+            "summary": "Flight Director Indicator",
+            "type": "abbreviation"
+        },
+        "RGS": {
+            "summary": "Radio Guidance System",
+            "type": "abbreviation"
+        },
+        "IVI": {
+            "summary": "Incremental Velocity Indicator",
+            "type": "abbreviation"
+        },
+        "OAMS": {
+            "summary": "Orbit Attitude and Maneuver System",
+            "type": "abbreviation"
+        },
+        "T/M": {
+            "summary": "Telemetry",
+            "type": "abbreviation"
+        },
+        "GMTRC": {
+            "summary": "GMT of Retrofire Initiation Computed",
+            "type": "abbreviation"
+        },
+        "GETRC": {
+            "summary": "Ground Elapsed Time of Retrofire Initiation Computed",
+            "type": "abbreviation"
+        },
+        "ACME": {
+            "summary": "Attitude control and maneuver electronics",
+            "type": "abbreviation"
+        },
+        "MDIU": {
+            "summary": "Manual Data Insertion Unit",
+            "type": "abbreviation"
+        },
+        "DCS": {
+            "summary": "Digital Command System",
+            "type": "abbreviation"
+        },
         "MCC": {
             "summary": "Mission Control Center",
             "type": "abbreviation"
         },
+        "GMTRB": {},
         "T<sub>R</sub>": {},
         "T<sub>X</sub>": {},
         "scanner": {}
