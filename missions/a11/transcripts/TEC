@@ -6567,7 +6567,7 @@ CC: We can see the probe now. Correction, the drogue.
 CDR: Roger.
 
 [02:07:23:04]
-CDR: Okay. Drogue removal's coming next.
+CDR: Okay. [glossary:Drogue] removal's coming next.
 
 [02:07:23:06]
 CC: Roger. As we suspected.
@@ -11269,7 +11269,7 @@ _tape : Tape 61/2
 CMP: Ready to copy.
 
 [03:22:54:22]
-CC: SPS/G&N: 36639; your [glossary:NOUN 48], minus 072, plus 051; your [glossary:NOUN 33], 135 24 4000; [glossary:NOUN 81], plus 32178, plus 06036, minus 01304, your pitch 064. The rest is NA. Ullage: two jet, 16 seconds; and it's based on LOI [glossary:REFSMMAT]. Over.
+CC: SPS/G&N: 36639; your [glossary:NOUN 48], minus 072, plus 051; your [glossary:NOUN 33], 135 24 4000; [glossary:NOUN 81], plus 32178, plus 06036, minus 01304, your pitch 064. The rest is NA. Ullage: two jet, 16 seconds; and it's based on [glossary:LOI] [glossary:REFSMMAT]. Over.
 
 [03:22:55:49]
 CMP: Roger. [glossary:TEI] 30 SPS/G&N: 36639 minus 072, plus 051, 135 24 4000, plus 32178, plus 06036, minus 01304, pitch 064, two jets 16 second, [glossary:LOI] [glossary:REFSMMAT]. Over.
@@ -12670,7 +12670,7 @@ _tape : Tape 64/7
 LMP (EAGLE): Go ahead, Houston. Eagle is ready to copy.
 
 [04:04:20:32]
-CC: Roger, Eagle. Coming at you with a DOI PAD: 101 36 14.07. [glossary:NOUN 81], minus 00758, plus all balls, plus 00098 plus - correction, 00572, perigee plus 00085 00764 030 000 293. NOUN 86, minus 00759, plus all balls, plus 00090. Rest of the PAD is NA. Stand by on your readback. If you are ready to copy the [glossary:PDI] data, I have it for you. Over.
+CC: Roger, Eagle. Coming at you with a [glossary:DOI] PAD: 101 36 14.07. [glossary:NOUN 81], minus 00758, plus all balls, plus 00098 plus - correction, 00572, perigee plus 00085 00764 030 000 293. NOUN 86, minus 00759, plus all balls, plus 00090. Rest of the PAD is NA. Stand by on your readback. If you are ready to copy the [glossary:PDI] data, I have it for you. Over.
 
 [04:04:20:51]
 LMP (EAGLE): Go ahead.
