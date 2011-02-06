@@ -1,4 +1,3 @@
-
 [00:00:00:00]
 _page : 2
 CC: Bolts and lift-off.
@@ -22,7 +21,7 @@ CC: Roger. Roll Complete.
 C: There goes the pitch.
 
 [00:00:00:26]
-CC: Roger. Pitch. you're on your way, Molly Brown.
+CC: Roger. Pitch. you're on your way, [glossary:Molly Brown].
 
 [00:00:00:29]
 C: Yeah man!
@@ -62,13 +61,13 @@ CC: Roger.
 
 [00:00:01:48]
 _page : 3
-P: First DCS update received.
+P: First [glossary:DCS] update received.
 
 [00:00:01:53]
 CC: Roger. Update.
 
 [00:00:02:02]
-CC: You're a little bit high on the flight path, but no problem, Molly Brown.
+CC: You're a little bit high on the flight path, but no problem, [glossary:Molly Brown].
 
 [00:00:02:05]
 C: Okay, Molly Brown's GO for staging.
@@ -98,7 +97,7 @@ C: And, we're thrusting.
 CC: Okay. Thrust looks good from here.
 
 [00:00:02:51]
-P: FDI shows full scale pitch attitude error.
+P: [glossary:FDI] shows full scale pitch attitude error.
 
 [00:00:02:53]
 C: Okay. We're starting to steer.
@@ -110,7 +109,7 @@ C: Horizon comes right into view.
 CC: Roger.
 
 [00:00:03:02]
-P: RGS is GO!
+P: [glossary:RGS] is GO!
 
 [00:00:03:04]
 CC: Looks good from here.
@@ -138,10 +137,10 @@ CC: Pretty big throttle you got there, huh?
 C: Yes.
 
 [00:00:04:18]
-CC: Roger. Molly Brown you're GO from here.
+CC: Roger. [glossary:Molly Brown] you're GO from here.
 
 [00:00:04:21]
-C: Roger. Molly Brown is GO.
+C: Roger. [glossary:Molly Brown] is GO.
 
 [00:00:04:22]
 CC: Roger.
@@ -174,10 +173,10 @@ CC: Roger.
 CC: Looks good.
 
 [00:00:05:34]
-C: SECO.
+C: [glossary:SECO].
 
 [00:00:05:55]
-CC: Roger. You are GO, Molly Brown.
+CC: Roger. You are GO, [glossary:Molly Brown].
 
 [00:00:05:59]
 C: One seven.
@@ -202,7 +201,7 @@ CC: Okay, fine.
 CC: You have the IVI's?
 
 [00:00:06:29]
-C: Okay. 17 ft/sec at SECO, and I have 29 ft/sec now.
+C: Okay. 17 ft/sec at [glossary:SECO], and I have 29 ft/sec now.
 
 [00:00:06:37]
 CC: Roger. 23 down?
@@ -223,10 +222,10 @@ CC: And 23 aft. Okay.
 P: And the attitude on the ball is 18° nose down.
 
 [00:00:07:23]
-CC: Roger. We have an 87 by 125 orbit, Molly Brown.
+CC: Roger. We have an 87 by 125 orbit, [glossary:Molly Brown].
 
 [00:00:07:40]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:00:07:43]
 CC: Roger. You have an 87 by 125 orbit. I'll get you One-Alpha shortly.
@@ -257,7 +256,7 @@ _page : 6
 P: Yes.
 
 [00:00:08:54]
-C: OAMS power— ATTITUDE.
+C: [glossary:OAMS] power— ATTITUDE.
 
 [00:00:08:56]
 P: Maneuver controller—stowed. Sequence lights—test.
@@ -269,10 +268,10 @@ C: Arm restraints, face plates—open.
 P: Secondary O<sub>2</sub> bottle is closed. I've got mine. Waste valve to NORMAL.
 
 [00:00:09:22]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:00:09:25]
-C: GO, Cape CAP COM.
+C: GO, Cape [glossary:CAP COM].
 
 [00:00:09:27]
 CC: Look better there than on a ballistic flight?
@@ -299,10 +298,10 @@ CC: Rog.
 P: Computer—PRELAUNCH. High frequency is off. Antenna selector to ADAPTER.
 
 [00:00:09:53]
-P: Cape CAP COM, how do you read on adapter antenna? Over.
+P: Cape [glossary:CAP COM], how do you read on adapter antenna? Over.
 
 [00:00:10:06]
-P: Cape CAP COM, Molly Brown. Over.
+P: Cape [glossary:CAP COM], [glossary:Molly Brown]. Over.
 
 [00:00:10:09]
 C: Maybe we lost 'em.
@@ -324,13 +323,13 @@ C: Guess you've got to stow the drogue pins, huh?
 P: Yes. Stow those drogue pins.
 
 [00:00:10:34]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:00:10:36]
-C: Cape CAP COM, Molly Brown. How do you read?
+C: Cape [glossary:CAP COM], [glossary:Molly Brown]. How do you read?
 
 [00:00:10:45]
-C: Cape CAP COM, Molly Brown. How do you read?
+C: Cape [glossary:CAP COM], [glossary:Molly Brown]. How do you read?
 
 [00:00:10:50]
 C: Better go to reentry antenna.
@@ -339,7 +338,7 @@ C: Better go to reentry antenna.
 P: Okay.
 
 [00:00:10:55]
-C: Cape CAP COM, how do you read Molly Brown?
+C: Cape [glossary:CAP COM], how do you read Molly Brown?
 
 [00:00:10:59]
 C: I think we've lost them now. let's leave it on adapter antenna and we'll try at Canaries.
@@ -357,7 +356,7 @@ P: I'll put the mains to OFF and see what we've got. Look here, we've still got 
 C: What's our time coming in to the Canaries?
 
 [00:00:11:48]
-P: Time is 14 something. Just a second. Okay, Canary is 14:50 acquisition. LOS 21:42.
+P: Time is 14 something. Just a second. Okay, Canary is 14:50 acquisition. [glossary:LOS] 21:42.
 
 [00:00:12:10]
 C: Okay.
@@ -423,13 +422,13 @@ _extra : Cannary Islands
 C: I'll darn sure never get it in. Oh yes, there it comes.
 
 [00:00:15:16]
-CC: Molly Brown, Canary CAP COM. How do you read?
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM]. How do you read?
 
 [00:00:15:19]
-C: Canary CAP COM, this is Molly Brown. how do you read?
+C: Canary [glossary:CAP COM], this is [glossary:Molly Brown]. how do you read?
 
 [00:00:15:22]
-CC: Roger. Read you loud and clear, Molly Brown.
+CC: Roger. Read you loud and clear, [glossary:Molly Brown].
 
 [00:00:15:27]
 _extra : CYI-1
@@ -437,7 +436,7 @@ C: I read you the same.
 
 [00:00:15:28]
 _page : 9
-CC: We have your T/M solid and all systems look good on the ground.
+CC: We have your [glossary:T/M] solid and all systems look good on the ground.
 
 [00:00:15:31]
 C: Okay, we look pretty good up here.
@@ -452,7 +451,7 @@ P: Okay.
 C: Okay. Ready with 2-1.
 
 [00:00:15:41]
-CC: Roger. ΔV139. GMTRC 15 55 47. GETRC 01 31 47. Roll left 55°. GMTRB 16 05 31. Roll right 65. Did you copy?
+CC: Roger. ΔV139. [glossary:GMTRC] 15 55 47. [glossary:GETRC] 01 31 47. Roll left 55°. GMTRB 16 05 31. Roll right 65. Did you copy?
 
 [00:00:16:13]
 C: Did you get 'em?
@@ -470,7 +469,7 @@ C: Did you get 'em?
 P: Roger.
 
 [00:00:16:25]
-CC: Molly Brown, Canary CAP COM.
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM].
 
 [00:00:16:28]
 C: We're getting ready to read them back to you.
@@ -482,7 +481,7 @@ CC: Roger.
 P: Roger. ΔV of 139. GMT of 16-belay that—15 55 47.
 
 [00:00:16:39]
-CC: Molly Brown, Canary CAP COM. Request you place your radiator switch to the FLOW position.
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM]. Request you place your radiator switch to the FLOW position.
 
 [00:00:16:45]
 P: Roger. Radiator is in FLOW position. Has been the whole pass.
@@ -492,17 +491,17 @@ P: It's cooling us right down too. It's working.
 
 [00:00:17:00]
 _extra : CYI-1
-P: Reading back a GMT of 2-1—15 55 47 GMTRC. GMTRB is 16 05 31. Bank angle 55° left and right 65°.
+P: Reading back a GMT of 2-1—15 55 47 [glossary:GMTRC]. GMTRB is 16 05 31. Bank angle 55° left and right 65°.
 
 [00:00:17:30]
 _page : 10
-CC: Molly Brown, Canary CAP COM. We are standing by for your UHF Com Check. Do you copy?
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM]. We are standing by for your UHF Com Check. Do you copy?
 
 [00:00:17:35]
 P: Roger. We are on UHF #2. Have been the whole pass. Over. (Pilot was in RECORD on No. 2 audio).
 
 [00:00:17:49]
-CC: Molly Brown, Canary CAP COM.
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM].
 
 [00:00:17:51]
 C: Go ahead.
@@ -519,13 +518,13 @@ C: Roger. John has been answering all of those. He's just in RECORD.
 P: Roger. The radiator has been in FLOW the whole pass. The UHF has been on No. 2 the whole pass. over.
 
 [00:00:18:14]
-CC: Roger. Copy you loud and clear, Molly Brown. We are standing by for your blood pressure.
+CC: Roger. Copy you loud and clear, [glossary:Molly Brown]. We are standing by for your blood pressure.
 
 [00:00:18:20]
 P: Roger. Blood pressure is coming down.
 
 [00:00:18:32]
-CC: Molly Brown, Canary CAP COM. Be advised, on your 15 second burn you achieved a 12.6 ft/sec. Did you copy?
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM]. Be advised, on your 15 second burn you achieved a 12.6 ft/sec. Did you copy?
 
 [00:00:18:41]
 C: Roger. Understand. I seem to have a leak. There must be a leak in one of the thrusters, because I get a continuous yaw left.
@@ -541,7 +540,7 @@ CC: Roger.
 
 [00:00:19:13]
 _extra : CYI-1
-CC: Molly Brown, Canary CAP COM. I have your radiator temperatures, if you are ready to copy.
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM]. I have your radiator temperatures, if you are ready to copy.
 
 [00:00:19:19]
 _page : 11
@@ -557,7 +556,7 @@ C: Roger. Off-scale high. Going back to BY-PASS on radiator.
 CC: Roger. Understand.
 
 [00:00:19:47]
-CC: Molly Brown, Canary CAP COM. Stand by to start your clock at 20 minutes ground elapsed time. On my mark.
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM]. Stand by to start your clock at 20 minutes ground elapsed time. On my mark.
 
 [00:00:20:00]
 CC: MARK! Did you copy, Molly Brown?
@@ -569,7 +568,7 @@ C: Roger. I copied, and sea urchin eggs activated.
 CC: Roger.
 
 [00:00:20:12]
-CC: Be advised we have received your blood pressure, Molly Brown.
+CC: Be advised we have received your blood pressure, [glossary:Molly Brown].
 
 [00:00:20:16]
 C: Roger.
@@ -587,7 +586,7 @@ C: Okay. The control checks are completed.
 C: Do you still read, Canaries?
 
 [00:00:20:58]
-CC: Molly Brown, Canary CAP COM.
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM].
 
 [00:00:21:00]
 C: Roger. Control checks are completed and insertion checklist is completed too.
@@ -613,7 +612,7 @@ C: I copied.
 P: Here, Gus, let me get your drogue pin in.
 
 [00:00:21:38]
-CC: Molly Brown, Canary CAP COM. Do you copy?
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM]. Do you copy?
 
 [00:00:21:41]
 C: Say again.
@@ -737,13 +736,13 @@ _extra : KANO
 C: Okay. That did it.
 
 [00:00:25:07]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:00:25:10]
 P: How's that circuit breaker set-up up there?
 
 [00:00:25:20]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 C: …
 
@@ -751,10 +750,10 @@ C: …
 P: Yep.
 
 [00:00:25:40]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:00:25:43]
-C: Cape CAP COM, Molly Brown here.
+C: Cape [glossary:CAP COM], [glossary:Molly Brown] here.
 
 [00:00:25:46]
 CC: Roger. How's your status on that thruster?
@@ -783,7 +782,7 @@ _page : 15
 C: Yes, we have.
 
 [00:00:26:29]
-CC: Molly Brown, have you tried your circuit breaker to cut off that one erratic thruster.
+CC: [glossary:Molly Brown], have you tried your circuit breaker to cut off that one erratic thruster.
 
 [00:00:26:33]
 C: Negative.
@@ -792,7 +791,7 @@ C: Negative.
 C: I don't know which one it is. Let's see—yaw left—
 
 [00:00:26:42]
-P: Yaw left. It would be either OAMS No. 7 or 8.
+P: Yaw left. It would be either [glossary:OAMS] No. 7 or 8.
 
 [00:00:26:50]
 C: We're not getting any roll with it.
@@ -858,13 +857,13 @@ _extra : TANANARIVE
 C: Hey! We're coming in on the night side.
 
 [00:00:35:08]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:00:35:17]
 C: Look at that night come up.
 
 [00:00:35:24]
-CC: Molly Brown, Cap CAP COM.
+CC: [glossary:Molly Brown], Cap [glossary:CAP COM].
 
 [00:00:35:27]
 C: I ready you okay, Gordo. How do you read Molly Brown?
@@ -873,7 +872,7 @@ C: I ready you okay, Gordo. How do you read Molly Brown?
 CC: Roger. How's your control system?
 
 [00:00:35:36]
-C: Cape CAP COM. How do you read Molly Brown?
+C: Cape [glossary:CAP COM]. How do you read Molly Brown?
 
 [00:00:35:38]
 CC: I'm reading you weak but readable.
@@ -882,7 +881,7 @@ CC: I'm reading you weak but readable.
 C: Yes, you are almost unreadable.
 
 [00:00:35:52]
-CC: Say again, Molly Brown.
+CC: Say again, [glossary:Molly Brown].
 
 [00:00:36:06]
 C: I said I can read you, Gordo.
@@ -990,7 +989,7 @@ C: If you can get it in. I can't.
 P: What time is it?
 
 [00:00:41:25]
-C: 41 elapsed. I get CSQ at 42:19.
+C: 41 elapsed. I get [glossary:CSQ] at 42:19.
 
 [00:00:41:35]
 P: Okay.
@@ -1009,10 +1008,10 @@ _extra : COAST SENTRY QUEBEC
 C: There's no horizon out there at all.
 
 [00:00:42:27]
-CC: Molly Brown, Molly Brown, CSQ CAP COM.
+CC: [glossary:Molly Brown], [glossary:Molly Brown], [glossary:CSQ] [glossary:CAP COM].
 
 [00:00:42:31]
-C: CSQ, this is Molly Brown.
+C: [glossary:CSQ], this is [glossary:Molly Brown].
 
 [00:00:42:34]
 CC: Roger. how is your control system working?
@@ -1022,7 +1021,7 @@ C: Well, the control system is working fine. It's just that I have a very slight
 
 [00:00:42:47]
 _extra : CSQ-1
-CC: Molly Brown, I copy you very weak. Would you say again?
+CC: [glossary:Molly Brown], I copy you very weak. Would you say again?
 
 [00:00:42:51]
 _page : 19
@@ -1035,7 +1034,7 @@ CC: Roger. Understand. Would you confirm that you are on secondary dc-to-dc conv
 C: Affirmative.
 
 [00:00:43:15]
-CC: Are you on secondary ACME yaw logic?
+CC: Are you on secondary [glossary:ACME] yaw logic?
 
 [00:00:43:20]
 C: Should we try that?
@@ -1044,10 +1043,10 @@ C: Should we try that?
 P: Yes.
 
 [00:00:43:32]
-CC: Molly Brown, CSQ CAP COM. Are you in the FLOW position on the radiator?
+CC: [glossary:Molly Brown], [glossary:CSQ] [glossary:CAP COM]. Are you in the FLOW position on the radiator?
 
 [00:00:43:40]
-C: Radiator is in FLOW position. We're trying secondary ACME yaw logic now.
+C: Radiator is in FLOW position. We're trying secondary [glossary:ACME] yaw logic now.
 
 [00:00:43:46]
 CC: Roger.
@@ -1068,10 +1067,10 @@ C: Puncture it if it's just air.
 P: Well, that's a thought.
 
 [00:00:44:47]
-C: CSQ, Molly Brown.
+C: [glossary:CSQ], [glossary:Molly Brown].
 
 [00:00:44:54]
-CC: Molly Brown, CSQ CAP COM.
+CC: [glossary:Molly Brown], [glossary:CSQ] [glossary:CAP COM].
 
 [00:00:44:58]
 _extra : CSQ-1
@@ -1085,10 +1084,10 @@ CC: Roger. Cape recommends that you place the driver switch to SECONDARY.
 C: Roger.
 
 [00:00:45:18]
-CC: Molly Brown, CSQ CAP COM.
+CC: [glossary:Molly Brown], [glossary:CSQ] [glossary:CAP COM].
 
 [00:00:45:23]
-C: Go ahead CSQ.
+C: Go ahead [glossary:CSQ].
 
 [00:00:45:24]
 CC: Your inlet temp: 76°. Your outlet temp: 42°.
@@ -1103,7 +1102,7 @@ P: We'll stay in FLOW.
 C: That secondary driver may have stopped the drift.
 
 [00:00:46:12]
-CC: Molly Brown, CSQ.
+CC: [glossary:Molly Brown], [glossary:CSQ].
 
 [00:00:46:14]
 C: Go ahead.
@@ -1121,10 +1120,10 @@ CC: Roger. We're standing by for respirator maneuver.
 C: Okay. Here it comes.
 
 [00:00:46:52]
-C: Okay. How about this? No. 2 audio in UHF and T/M CALIBRATE —
+C: Okay. How about this? No. 2 audio in UHF and [glossary:T/M] CALIBRATE —
 
 [00:00:46:55]
-CC: Molly Brown, CSQ. Stand by for a GMT time hack.
+CC: [glossary:Molly Brown], [glossary:CSQ]. Stand by for a GMT time hack.
 
 [00:00:47:00]
 C: Roger.
@@ -1138,7 +1137,7 @@ CC: MARK!
 
 [00:00:47:14]
 _page : 21
-CC: Molly Brown, CSQ.
+CC: [glossary:Molly Brown], [glossary:CSQ].
 
 [00:00:47:15]
 C: Roger your mark. My watch is 10 seconds fast.
@@ -1150,17 +1149,17 @@ CC: Roger.
 C: Have you received oral temp yet?
 
 [00:00:47:54]
-CC: Molly Brown, CSQ.
+CC: [glossary:Molly Brown], [glossary:CSQ].
 
 [00:00:47:59]
-C: Go ahead CSQ.
+C: Go ahead [glossary:CSQ].
 
 [00:00:48:01]
 _extra : CARNARVON
 CC: We copied your respiratory maneuver, and we have your oral temp. All systems appear GO from the ground.
 
 [00:00:50:27]
-CC: Molly Brown, Molly Brown, Carnarvon CAP COM. How do you read?
+CC: [glossary:Molly Brown], [glossary:Molly Brown], Carnarvon [glossary:CAP COM]. How do you read?
 
 [00:00:50:31]
 C: Loud and clear. How me?
@@ -1188,7 +1187,7 @@ P: Yes.
 
 [00:00:51:12]
 _extra : CRO-1
-CC: Okay, Molly Brown. we got your Gemini load. We could not get T<sub>R</sub> in. We got a spacecraft reject
+CC: Okay, [glossary:Molly Brown]. we got your Gemini load. We could not get T<sub>R</sub> in. We got a spacecraft reject
      on T<sub>R</sub>, and it did go in at this time.  I'd like to give you a hack on T<sub>R</sub> at 39:30, in about 10 seconds.
 
 [00:00:51:29]
@@ -1199,7 +1198,7 @@ C: You're going to punch it, aren't you?
 P: Yes.
 
 [00:00:51:52]
-CC: Molly Brown, stand by on my mark.
+CC: [glossary:Molly Brown], stand by on my mark.
 
 [00:00:51:53]
 CC: MARK! 39:30 is your T<sub>R</sub>. Your T<sub>R</sub> clock is synched with all on the ground, and your spacecraft elapsed time is synched.
@@ -1236,7 +1235,7 @@ C: He's ready to copy.
 
 [00:00:52:47]
 _extra : CRO-1
-CC: Okay. GMTB 15 43 23. ΔV of 139. Duration of burn - 2 minutes 39 seconds. Your GMTRC 15 55 24. Roll
+CC: Okay. GMTB 15 43 23. ΔV of 139. Duration of burn - 2 minutes 39 seconds. Your [glossary:GMTRC] 15 55 24. Roll
      left 55.  GMTRB 16 05 28.  Roll right 65.  GMT 400 K 15 58 23.  Your maneuver load:  6344257, 0444775, 0533348, 664903.3, 676628.4, 082244.4, 09120.50, 10031.38, 11302.00.
 
 [00:00:54:28]
@@ -1244,13 +1243,13 @@ _page : 23
 P: Roger. Copied your parameters. Over.
 
 [00:00:54:32]
-CC: Molly Brown, Carnarvon here. You can go secondary coolant loop OFF, and you can go evaporator to NORMAL.
+CC: [glossary:Molly Brown], Carnarvon here. You can go secondary coolant loop OFF, and you can go evaporator to NORMAL.
 
 [00:00:54:40]
 C: Roger. Secondary coolant loop OFF and evaporator to NORMAL.
 
 [00:00:55:22]
-CC: Molly Brown, Carnarvon CAP COM.
+CC: [glossary:Molly Brown], Carnarvon [glossary:CAP COM].
 
 [00:00:55:24]
 C: Go ahead.
@@ -1274,7 +1273,7 @@ C: Let's get back on RECORD.
 P: Okay.
 
 [00:01:00:40]
-C: On the OAMS thruster check, the fire is red in streaks. When the yaw thrusters fire it definitely wipes out the horizon. Can see the horizon all right through the pitch thrusters.
+C: On the [glossary:OAMS] thruster check, the fire is red in streaks. When the yaw thrusters fire it definitely wipes out the horizon. Can see the horizon all right through the pitch thrusters.
 
 [00:01:01:02]
 P: Oh, that's lovely.
@@ -1302,13 +1301,13 @@ P: Had to turn around to get it out.
 C: Hey, I think our yaw drift has stopped.
 
 [00:01:01:36]
-P: We're down to 2400. That's pretty good. (OAMS pressure)
+P: We're down to 2400. That's pretty good. ([glossary:OAMS] pressure)
 
 [00:01:01:39]
 C: Is that okay?
 
 [00:01:01:40]
-P: Yes, that's fine. It means we haven't used any OAMS fuel.
+P: Yes, that's fine. It means we haven't used any [glossary:OAMS] fuel.
 
 [00:01:01:46]
 P: Elapsed time is 1:05. Now, I'm going to get a main batteries check. (Pilot misread elapsed time).
@@ -1537,16 +1536,16 @@ P: Okay.
 
 [00:01:11:32]
 _page : 28
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:01:11:33]
 P: Okay, reading on the Catch-Up mode Check was 69 000 00.
 
 [00:01:11:39]
-C: Cape CAP COM, Molly Brown. Go ahead.
+C: Cape [glossary:CAP COM], [glossary:Molly Brown]. Go ahead.
 
 [00:01:11:42]
-CC: Roger, Molly Brown, Cape CAP COM. We're going to have you leave your propellant switch on and do the Texas burn, and we will watch your fuel usage then across the States. If it continues, we'll have you turn your propellant switches off, then, when you're over the Cape next time, except when you need to use the fuel.
+CC: Roger, [glossary:Molly Brown], Cape [glossary:CAP COM]. We're going to have you leave your propellant switch on and do the Texas burn, and we will watch your fuel usage then across the States. If it continues, we'll have you turn your propellant switches off, then, when you're over the Cape next time, except when you need to use the fuel.
 
 [00:01:12:07]
 C: Leave the propellant switch on for the Texas burn, and then watch for leakage?
@@ -1697,7 +1696,7 @@ _page : 31
 C: Do I have to be in CATCH-UP when you put it in?
 
 [00:01:18:14]
-P: For me to enter it, yes. I'll just put in on the MDIU indicators here.
+P: For me to enter it, yes. I'll just put in on the [glossary:MDIU] indicators here.
 
 [00:01:18:24]
 C: Looks like the velocity is about perfect. You can really tell you're moving on. You know that?
@@ -1721,7 +1720,7 @@ C: 1:19
 P: 1:19
 
 [00:01:19:17]
-C: RKV we get at 1:24.
+C: [glossary:RKV] we get at 1:24.
 
 [00:01:19:19]
 P: Okay.
@@ -1733,7 +1732,7 @@ C: I'd say my alinement is perfect.
 P: Okay. That's what we want to burn. I've got to change this tape cartridge. The camera is set for f11 at 250.
 
 [00:01:20:35]
-P: The first command load is valid. The DCS at Carnarvon inserted it properly.
+P: The first command load is valid. The [glossary:DCS] at Carnarvon inserted it properly.
 
 [00:01:20:46]
 C: Okay.
@@ -1772,10 +1771,10 @@ _extra : ROSE KNOT VICTOR
 P: The red light did not come on. (Tape recorder)
 
 [00:01:23:38]
-CC: Molly Brown, Molly Brown, RKV.
+CC: [glossary:Molly Brown], [glossary:Molly Brown], [glossary:RKV].
 
 [00:01:23:40]
-C: RKV, this is Molly Brown.
+C: [glossary:RKV], this is [glossary:Molly Brown].
 
 [00:01:23:42]
 CC: Roger. Read you loud and clear. I'm going to update your T<sub>R</sub> and transmit a maneuver load to you.
@@ -1885,13 +1884,13 @@ P: I wonder if he got it?
 C: I don't know.
 
 [00:01:26:31]
-CC: Molly Brown, RKV CAP COM.
+CC: [glossary:Molly Brown], [glossary:RKV] [glossary:CAP COM].
 
 [00:01:26:34]
 P: Go ahead. Over.
 
 [00:01:26:40]
-C: Go ahead RKV.
+C: Go ahead [glossary:RKV].
 
 [00:01:26:42]
 CC: Will you give me a readout of your computer core — 25, 26, and 27, please?
@@ -1903,7 +1902,7 @@ P: Roger. It was: 25 was minus 0480. 26 and 27 were all zeros. Over.
 CC: That is affirmative. I concur.
 
 [00:01:27:22]
-CC: Molly Brown, can you give me a readout of your OAMS helium source pressure, temperature, and your propellant quantity gage.
+CC: [glossary:Molly Brown], can you give me a readout of your [glossary:OAMS] helium source pressure, temperature, and your propellant quantity gage.
 
 [00:01:27:31]
 C: The propellant quantity gage is 83 percent. Stand by. John will give you the other.
@@ -1923,7 +1922,7 @@ _page : 35
 CC: Roger. I copy.
 
 [00:01:28:10]
-CC: Molly Brown, RKV standing by. Do you have anything else?
+CC: [glossary:Molly Brown], [glossary:RKV] standing by. Do you have anything else?
 
 [00:01:28:13]
 C: Roger. We're in good shape.
@@ -1932,7 +1931,7 @@ C: Roger. We're in good shape.
 CC: Roger.
 
 [00:01:28:24]
-CC: Molly Brown, RKV. I'm getting an indication of OAMS thrust forward-firing. I have negative OAMS yaw firing on the ground.
+CC: [glossary:Molly Brown], [glossary:RKV]. I'm getting an indication of [glossary:OAMS] thrust forward-firing. I have negative [glossary:OAMS] yaw firing on the ground.
 
 [00:01:28:32]
 C: We're not doing any firing. We're not even in MANEUVER and ATTITUDE and we haven't touched the handle.
@@ -1941,7 +1940,7 @@ C: We're not doing any firing. We're not even in MANEUVER and ATTITUDE and we ha
 CC: Roger.
 
 [00:01:28:58]
-CC: Molly Brown, stand by for Guaymas.
+CC: [glossary:Molly Brown], stand by for Guaymas.
 
 [00:01:29:00]
 C: Roger.
@@ -1953,10 +1952,10 @@ P: Outstanding! I see the whole of Mexico.
 _extra : GUAYMAS
 P: I wonder what area of Mexico it is?
 
-CC: Molly Brown, Guaymas CAP COM.
+CC: [glossary:Molly Brown], Guaymas [glossary:CAP COM].
 
 [00:01:29:45]
-C: Guaymas, Molly Brown.
+C: Guaymas, [glossary:Molly Brown].
 
 [00:01:29:46]
 CC: Guaymas standing by.
@@ -1992,7 +1991,7 @@ C: You must have it clear down there, huh?
 P: Yes, it's clear down south, here.
 
 [00:01:30:28]
-CC: Molly Brown, Guaymas handing over to Texas.
+CC: [glossary:Molly Brown], Guaymas handing over to Texas.
 
 [00:01:30:30]
 C: Roger.
@@ -2011,7 +2010,7 @@ _extra : TEXAS
 P: Okay.
 
 [00:01:31:10]
-CC: Molly Brown, Texas CAP COM.
+CC: [glossary:Molly Brown], Texas [glossary:CAP COM].
 
 [00:01:31:12]
 C: Read you loud and clear, Texas.
@@ -2073,7 +2072,7 @@ C: MARK!
 P: Okay. They appear to be firing good.
 
 [00:01:33:03]
-CC: Roger. Texas confirms OAMS thruster firing.
+CC: Roger. Texas confirms [glossary:OAMS] thruster firing.
 
 [00:01:33:17]
 C: A bolt just stuck up against the instrument panel.
@@ -2083,7 +2082,7 @@ C: How much time to go?
 
 [00:01:33:23]
 _extra : TEX-1
-CC: Molly Brown, how are your attitudes holding?
+CC: [glossary:Molly Brown], how are your attitudes holding?
 
 [00:01:33:24]
 _page : 38
@@ -2138,7 +2137,7 @@ P: That burn was 1 minute and 14 seconds by our watches.
 C: And when we started out, the IVI's were reading 51 ft/sec, and I burned them down to 2 ft/sec aft.
 
 [00:01:34:37]
-CC: Say again, Molly Brown.
+CC: Say again, [glossary:Molly Brown].
 
 [00:01:34:38]
 _extra : TEX-1/nMCC-1
@@ -2168,7 +2167,7 @@ _extra : CAPE KENNEDY
 C: Yes.
 
 [00:01:35:27]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 C: Go ahead, Gordo.
 
@@ -2188,13 +2187,13 @@ P: Understand. Going tape playback CONTINUOUS.
 P: Tape playback is on CONTINUOUS.
 
 [00:01:35:53]
-CC: Okay, Molly Brown. Looks like your OAMS has leveled out before your burn. Can you give us an OAMS source pressure and temp again now?
+CC: Okay, [glossary:Molly Brown]. Looks like your [glossary:OAMS] has leveled out before your burn. Can you give us an [glossary:OAMS] source pressure and temp again now?
 
 [00:01:35:59]
 P: Roger. Source pressure is 2050, temperature is 56.
 
 [00:01:36:10]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:01:36:12]
 _extra : MCC-1
@@ -2232,13 +2231,13 @@ C: Roger.
 CC: We are sending you a load now.
 
 [00:01:37:43]
-C: Roger, DCS load received.
+C: Roger, [glossary:DCS] load received.
 
 [00:01:37:48]
 CC: Roger. We got you loaded.
 
 [00:01:37:57]
-P: We had another DCS load just in, too.
+P: We had another [glossary:DCS] load just in, too.
 
 [00:01:37:59]
 CC: Roger. That was the actual values. The first one was the T<sub>R</sub>.
@@ -2248,15 +2247,15 @@ P: Roger.
 
 [00:01:38:51]
 _extra : MCC-1
-CC: Molly Brown, Cape CAP COM. Did you get your
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM]. Did you get your
      experiments for the first orbit?
 
 [00:01:39:08]
 _page : 41
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:01:39:15]
-C: Go ahead Cape CAP COM.
+C: Go ahead Cape [glossary:CAP COM].
 
 [00:01:39:17]
 CC: Roger. We just wanted to get a confirmation that you got your experiments on time for the first orbit.
@@ -2274,19 +2273,19 @@ CC: Everything looks good down here.
 C: Roger.
 
 [00:01:40:08]
-CC: Molly Brown, Cape CAP COM. Our memory loads on the ground confirm your loads were correct in there, so you might delete all the MDIU readouts.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM]. Our memory loads on the ground confirm your loads were correct in there, so you might delete all the [glossary:MDIU] readouts.
 
 [00:01:40:21]
 C: Okay.
 
 [00:01:40:49]
-P: Here is the blood pressure coming down there, MCC.
+P: Here is the blood pressure coming down there, [glossary:MCC].
 
 [00:01:40:53]
 CC: Okay.
 
 [00:01:41:03]
-CC: Tape dump is complete, Molly Brown.
+CC: Tape dump is complete, [glossary:Molly Brown].
 
 [00:01:41:07]
 C: Rog.
@@ -2305,11 +2304,11 @@ C: Gordo, do you have me a time for the Horizon Scan Check?
 
 [00:01:42:41]
 _extra : MCC-1
-C: Cape CAP COM, do you read, Molly Brown.
+C: Cape [glossary:CAP COM], do you read, [glossary:Molly Brown].
 
 [00:01:42:44]
 _page : 42
-CC: Go ahead Molly Brown. Cape CAP COM.
+CC: Go ahead [glossary:Molly Brown]. Cape [glossary:CAP COM].
 
 [00:01:42:46]
 C: Do you have me a time for the Horizon Scanner Check?
@@ -2321,7 +2320,7 @@ CC: Okay, sunset time is 16 + 34. Stand by, and I will get you the horizon scann
 P: 1634.
 
 [00:01:43:08]
-CC: That is the time for it, Molly Brown. 16 + 34.
+CC: That is the time for it, [glossary:Molly Brown]. 16 + 34.
 
 [00:01:43:13]
 C: Thanks.
@@ -2380,7 +2379,7 @@ P: Want to just slap those babies over there?
 P: They said to leave the brownies closed.
 
 [00:01:46:03]
-C: Okay, starting Alinement Caging Check. Minus 10° in pitch, 10° in yaw, and 10° in roll. Going to CAGE, small-end-forward, holding attitudes out the window. Okay, I've caged. Going SEF, platform and attitude. Fine aline from 1:45 to 1:55.
+C: Okay, starting Alinement Caging Check. Minus 10° in pitch, 10° in yaw, and 10° in roll. Going to CAGE, small-end-forward, holding attitudes out the window. Okay, I've caged. Going [glossary:SEF], platform and attitude. Fine aline from 1:45 to 1:55.
 
 [00:01:47:17]
 C: Let me have some of that juice when you get done.
@@ -2413,7 +2412,7 @@ _extra : GRAND CANARY ISLAND
 P: Is your window getting foggy, or is it just the angle I'm looking at?
 
 [00:01:49:03]
-CC: Molly Brown, Canary CAP COM.
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM].
 
 [00:01:49:04]
 C: It looks like it's something on the side. I don't know what it is.
@@ -2436,7 +2435,7 @@ CC: Roger. Understand, and Canaries transmitting a calibrate command.
 C: What was that?
 
 [00:01:49:33]
-P: Transmit my T/M cal.
+P: Transmit my [glossary:T/M] cal.
 
 [00:01:49:35]
 C: Okay. It's coming.
@@ -2454,10 +2453,10 @@ C: Elapsed?
 P: Yes.
 
 [00:01:49:57]
-P: Okay. Tell them we're sending them a T/M 2 cal.
+P: Okay. Tell them we're sending them a [glossary:T/M] 2 cal.
 
 [00:01:50:04]
-C: A T/M 2 cal is coming.
+C: A [glossary:T/M] 2 cal is coming.
 
 [00:01:50:07]
 P: I don't see where it says for us to do that, but I guess that's all right. I think we should have done it on the first pass.
@@ -2466,7 +2465,7 @@ P: I don't see where it says for us to do that, but I guess that's all right. I 
 P: One of these pills came off. (Germicide pills)
 
 [00:01:50:27]
-CC: Molly Brown, Canary CAP COM.
+CC: [glossary:Molly Brown], Canary [glossary:CAP COM].
 
 [00:01:50:30]
 C: Go, Canaries.
@@ -2495,10 +2494,10 @@ P: If either one of these things leaks, we can just close up shop. (Food package
 C: Okay. What's the Two-Bravo time?
 
 [00:01:51:18]
-CC: Roger. ΔV90. GMTRC 16 52 25. GETRC 02 28 35. Roll left 55.
+CC: Roger. ΔV90. [glossary:GMTRC] 16 52 25. [glossary:GETRC] 02 28 35. Roll left 55.
 
 [00:01:51:45]
-C: Roger. Two-Bravo: 90 ΔV. 16 52 25 GMTRC. Elapsed time of 02 28 25. Roll left 55.
+C: Roger. Two-Bravo: 90 ΔV. 16 52 25 [glossary:GMTRC]. Elapsed time of 02 28 25. Roll left 55.
 
 [00:01:51:55]
 CC: That's affirm.
@@ -2856,7 +2855,7 @@ P: Over on the right side. I think it's the sun shining on them, or something. I
 C: It's back behind us some place.
 
 [00:02:09:13]
-C: You mean the RCS thrusters?
+C: You mean the [glossary:RCS] thrusters?
 
 [00:02:09:15]
 P: Yes.
@@ -3013,10 +3012,10 @@ _extra : COASTAL SENTRY QUEBEC
 C: It's 10 ft/sec with the forward firing ones.
 
 [00:02:16:20]
-CC: Molly Brown, CSQ CAP COM. Do you read?
+CC: [glossary:Molly Brown], [glossary:CSQ] [glossary:CAP COM]. Do you read?
 
 [00:02:16:23]
-C: CSQ CAP COM, Molly Brown.
+C: [glossary:CSQ] [glossary:CAP COM], [glossary:Molly Brown].
 
 [00:02:16:26]
 _extra : CSQ-2
@@ -3036,7 +3035,7 @@ C: I'm going to use them all.
 P: Okay.
 
 [00:02:16:44]
-CC: Molly Brown, CSQ CAP COM. We're standing by for the maneuvers.
+CC: [glossary:Molly Brown], [glossary:CSQ] [glossary:CAP COM]. We're standing by for the maneuvers.
 
 [00:02:16:55]
 C: Roger. 5 seconds . . .
@@ -3051,10 +3050,10 @@ C: No, forward-firing ones.
 C: 9 ft/sec-10. Okay, now 1 second on the others.
 
 [00:02:17:22]
-CC: Molly Brown, CSQ. Would you give us your IVI readouts before and after the burn?
+CC: [glossary:Molly Brown], [glossary:CSQ]. Would you give us your [glossary:IVI] readouts before and after the burn?
 
 [00:02:17:28]
-C: Roger, IVI readouts before the burn were all zeros. After the burn was 10 ft/sec forward.
+C: Roger, [glossary:IVI] readouts before the burn were all zeros. After the burn was 10 ft/sec forward.
 
 [00:02:17:38]
 CC: Roger. Understand. 10 ft/sec forward.
@@ -3069,10 +3068,10 @@ CC: Roger.
 C: That was with a 90° yaw.
 
 [00:02:17:58]
-CC: Molly Brown, CSQ. Be advised I sent T<sub>X</sub> twice. I've had spacecraft reject. I'll try again.
+CC: [glossary:Molly Brown], [glossary:CSQ]. Be advised I sent T<sub>X</sub> twice. I've had spacecraft reject. I'll try again.
 
 [00:02:18:13]
-CC: Molly Brown, CSQ.
+CC: [glossary:Molly Brown], [glossary:CSQ].
 
 [00:02:18:16]
 C: Go.
@@ -3089,7 +3088,7 @@ P: Roger, I'll set the T<sub>X</sub> for the … Over.
 CC: Say again.
 
 [00:02:18:45]
-CC: Molly Brown, CSQ. How did your attitudes hold during the maneuver?
+CC: [glossary:Molly Brown], [glossary:CSQ]. How did your attitudes hold during the maneuver?
 
 [00:02:18:49]
 P: Attitudes held very well.
@@ -3098,7 +3097,7 @@ P: Attitudes held very well.
 CC: Roger.
 
 [00:02:19:53]
-CC: Molly Brown, CSQ.
+CC: [glossary:Molly Brown], [glossary:CSQ].
 
 [00:02:19:54]
 C: …
@@ -3113,10 +3112,10 @@ C: Roger.
 P: Okay. Replaced the tape recorder cartridge.
 
 [00:02:21:01]
-CC: Molly Brown, CSQ CAP COM.
+CC: [glossary:Molly Brown], [glossary:CSQ] [glossary:CAP COM].
 
 [00:02:21:03]
-C: Go ahead CSQ.
+C: Go ahead [glossary:CSQ].
 
 [00:02:21:04]
 CC: Would you give us a propellant quantity readout before and after the burn?
@@ -3125,7 +3124,7 @@ CC: Would you give us a propellant quantity readout before and after the burn?
 C: Before the burn it was 66 percent, and now it reads 61 percent.
 
 [00:02:21:16]
-CC: Molly Brown, say again.
+CC: [glossary:Molly Brown], say again.
 
 [00:02:21:20]
 C: 66 percent before, 61 percent after.
@@ -3157,10 +3156,10 @@ C: Give it one more chance.
 _extra : CARNARVON
 C: Let's see — 2:22 elapsed. Carnarvon comes up in about a minute.
 
-CC:	Molly Brown, Molly Brown, Carnarvon CAP COM.  How do you read?
+CC: [glossary:Molly Brown], [glossary:Molly Brown], Carnarvon [glossary:CAP COM].  How do you read?
 
 [00:02:23:25]
-C: Carnarvon, this is Molly Brown. Read you loud and clear.
+C: Carnarvon, this is [glossary:Molly Brown]. Read you loud and clear.
 
 CC: Very good, Gus; we'd like to get a blood pressure on the co-pilot, please, and could I have your status?
 
@@ -3177,7 +3176,7 @@ CC: Okay and you are in a horizon scan mode, is that correct?
 [00:02:24:13]
 C: At the present time I'm in Pulse and alining the platform.
 
-CC: Okay.  You're in pulse alining the platform.  Are your ACME logic yaw rate gryos and attitude drivers and all that stuff still primary?
+CC: Okay.  You're in pulse alining the platform.  Are your [glossary:ACME] logic yaw rate gryos and attitude drivers and all that stuff still primary?
 
 [00:02:24:29]
 _extra : CRO-2
@@ -3235,13 +3234,13 @@ C: 2:26. Rate gyros primary. Roll jets yaw.
 
 [00:02:26:22]
 _page : 58
-CC: Molly Brown, Carnarvon.
+CC: [glossary:Molly Brown], Carnarvon.
 
 [00:02:26:25]
 C: Go.
 
 [00:02:26:26]
-CC: Would you turn your real-time telemetry off after LOS from Carnarvon, please?
+CC: Would you turn your real-time telemetry off after [glossary:LOS] from Carnarvon, please?
 
 [00:02:26:31]
 C: Roger, real-time off after Carnarvon.
@@ -3259,7 +3258,7 @@ C: You're going to make these Horizon Scan Checks after a little bit?
 P: Yes. You do it, because I'm busy here.
 
 [00:02:27:14]
-CC: Molly Brown, this is Carnarvon. How do you read?
+CC: [glossary:Molly Brown], this is Carnarvon. How do you read?
 
 [00:02:27:18]
 C: Still read you loud and clear.
@@ -3618,7 +3617,7 @@ C: Is this too much pitch-up for zero attitude?
 P: Yep.
 
 [00:02:47:54]
-P: Okay, the OAMS propellant at 2:50 is 62 percent.
+P: Okay, the [glossary:OAMS] propellant at 2:50 is 62 percent.
 
 [00:02:48:02]
 C: You going to leave those mains on?
@@ -3675,10 +3674,10 @@ _extra : HAWAII
 P: It looks pretty good to me, Gus.
 
 [00:02:49:48]
-CC: Hello, Molly Brown. This is Hawaii CAP COM.
+CC: Hello, [glossary:Molly Brown]. This is Hawaii [glossary:CAP COM].
 
 [00:02:49:52]
-C: Hello, Hawaii. This is Molly Brown.
+C: Hello, Hawaii. This is [glossary:Molly Brown].
 
 [00:02:49:54]
 CC: Confirm your telemetry in REAL-TIME and ACQUISITION.
@@ -3693,13 +3692,13 @@ P: I thought they told us to put it in COMMAND over
 
 [00:02:50:11]
 _page : 66
-CC: Yeah. Go ahead, Molly Brown.
+CC: Yeah. Go ahead, [glossary:Molly Brown].
 
 [00:02:50:12]
 C: I have a problem with the 8-ball here, keeping it alined, or Orbit Rate control is not right.
 
 [00:02:50:21]
-CC: Say again, Molly Brown. I didn't understand.
+CC: Say again, [glossary:Molly Brown]. I didn't understand.
 
 [00:02:50:26]
 C: The attitude on the 8-ball is drifting badly. I'm trying to get it alined right now.
@@ -3767,7 +3766,7 @@ C: That should be about zero, shouldn't it?
 P: Yes.
 
 [00:02:52:50]
-CC: Molly Brown, Hawaii CAP COM. Are both your attitude indicators drifting together?
+CC: [glossary:Molly Brown], Hawaii [glossary:CAP COM]. Are both your attitude indicators drifting together?
 
 [00:02:52:57]
 C: Affirmative.
@@ -3776,10 +3775,10 @@ C: Affirmative.
 CC: Okay.
 
 [00:02:52:59]
-P: Natch. Cabin temperature — 92. Suit temperature — 58. Cabin pressure is 5.6. Suit CO<sub>2</sub> is 3/4. Left bottle is 5100. Right bottle is 5050. O<sub>2</sub> quantity 62. Pressure is 840. Source temperature is 55. Source pressure is 2000. OAMS fuel —
+P: Natch. Cabin temperature — 92. Suit temperature — 58. Cabin pressure is 5.6. Suit CO<sub>2</sub> is 3/4. Left bottle is 5100. Right bottle is 5050. O<sub>2</sub> quantity 62. Pressure is 840. Source temperature is 55. Source pressure is 2000. [glossary:OAMS] fuel —
 
 [00:02:53:41]
-CC: Molly Brown, Hawaii CAP COM. Everything looks good on the ground. We will see you on the next time around. Aloha.
+CC: [glossary:Molly Brown], Hawaii [glossary:CAP COM]. Everything looks good on the ground. We will see you on the next time around. Aloha.
 
 [00:02:53:47]
 C: Roger.
@@ -3788,7 +3787,7 @@ C: Roger.
 P: Roger. We are in the middle of the Gage Correlation Report.
 
 [00:02:54:06]
-P: OAMS fuel temperature — 68. RCS A temperature — Gee! A temperature is 87.
+P: [glossary:OAMS] fuel temperature — 68. [glossary:RCS] A temperature — Gee! A temperature is 87.
 
 [00:02:54:12]
 C: Look at the ball. It immediately goes out in roll.
@@ -3808,7 +3807,7 @@ P: It could be the horizon scanner, huh?
 P: A pressure is 2000 — B is 2650 — Main ammeter No. 1 is 19 — No. 2 is — 1A is —
 
 [00:02:54:57]
-C: Now there it is coming in. It is in SEF mode. 
+C: Now there it is coming in. It is in [glossary:SEF] mode. 
 
 [00:02:55:02]
 P: Looks good, Gus.
@@ -3830,10 +3829,10 @@ _extra : ROSE KNOT VICTOR
 C: Yes.
 
 [00:02:55:32]
-CC: Molly Brown, RKV CAP COM. Over.
+CC: [glossary:Molly Brown], [glossary:RKV] [glossary:CAP COM]. Over.
 
 [00:02:55:35]
-C: RKV, this is Molly Brown.
+C: [glossary:RKV], this is [glossary:Molly Brown].
 
 [00:02:55:37]
 CC: Roger. We are standing by for your respiratory maneuver.
@@ -3848,7 +3847,7 @@ P: The respiratory maneuver? I can give it to them.
 C: Here it comes.
 
 [00:02:55:58]
-CC: Roger. We copy, Molly Brown. We are standing by for your pilot's oral temp and blood pressure.
+CC: Roger. We copy, [glossary:Molly Brown]. We are standing by for your pilot's oral temp and blood pressure.
 
 [00:02:56:44]
 _extra : RKV-2
@@ -3859,16 +3858,16 @@ _page : 69
 CC: Roger.
 
 [00:02:56:55]
-C: RKV, Molly Brown.
+C: [glossary:RKV], [glossary:Molly Brown].
 
 [00:02:56:57]
-CC: Stand by. Roger, we are receiving the blood pressure, Molly Brown.
+CC: Stand by. Roger, we are receiving the blood pressure, [glossary:Molly Brown].
 
 [00:02:57:12]
-CC: Molly Brown, RKV. We have received your blood pressure and temperature.
+CC: [glossary:Molly Brown], [glossary:RKV]. We have received your blood pressure and temperature.
 
 [00:02:57:17]
-C: Roger, RKV. The platform alines all right when I'm in SEF and, evidently, when I go to ORBIT RATE it drive the ball off in roll.
+C: Roger, [glossary:RKV]. The platform alines all right when I'm in [glossary:SEF] and, evidently, when I go to ORBIT RATE it drive the ball off in roll.
 
 [00:02:57:33]
 CC: Roger. Understand. Stand by one.
@@ -3892,7 +3891,7 @@ P: Okay.
 C: Let's see. It's pitching down on Orbit Rate. Horizon Scan now. Let's see if it stops it. Pitched down to 10°.
 
 [00:02:58:15]
-CC: Molly Brown, RKV CAP COM.
+CC: [glossary:Molly Brown], [glossary:RKV] [glossary:CAP COM].
 
 [00:02:58:17]
 C: Go ahead.
@@ -3912,10 +3911,10 @@ P: Thanks a bunch. Okay, I'll read these quantities off. The GMT was 1716 when w
 C: You are supposed to take pictures of this.
 
 [00:02:58:59]
-P: I know it, I know it — 295. RCS A temperature — 87. RCS A pressure — 3000. RCS B temperature — 82. RCS B pressure — 2650. Main ammeter — 19. No. 2 — 19.5. 1A —4.5. 1B — 4.5. 1C — 4. 2A — 5. 2B — 4 3/4. 2C — 4 3/4. DC volts 23.5. S1 — 29. S2 — 29. C — 27. 1A — 24. 1B — 24. 1C — 24. Greenwich Mean Time is 1721. Completed.
+P: I know it, I know it — 295. [glossary:RCS] A temperature — 87. [glossary:RCS] A pressure — 3000. [glossary:RCS] B temperature — 82. [glossary:RCS] B pressure — 2650. Main ammeter — 19. No. 2 — 19.5. 1A —4.5. 1B — 4.5. 1C — 4. 2A — 5. 2B — 4 3/4. 2C — 4 3/4. DC volts 23.5. S1 — 29. S2 — 29. C — 27. 1A — 24. 1B — 24. 1C — 24. Greenwich Mean Time is 1721. Completed.
 
 [00:02:59:03]
-CC: Molly Brown, RKV. You are looking good here on the ground. If you have any further comments we are standing by.
+CC: [glossary:Molly Brown], [glossary:RKV]. You are looking good here on the ground. If you have any further comments we are standing by.
 
 [00:02:59:08]
 C: Negative.
@@ -3934,10 +3933,10 @@ _extra : GUAYMAS
 P: Can you pitch it down and toward the States, Gus?
 
 [00:02:59:51]
-CC: Molly Brown, Guaymas CAP COM.
+CC: [glossary:Molly Brown], Guaymas [glossary:CAP COM].
 
 [00:02:59:55]
-C: Guaymas, Molly Brown.
+C: Guaymas, [glossary:Molly Brown].
 
 [00:02:59:58]
 _extra : GYM-2
@@ -4074,7 +4073,7 @@ P: We couldn't get the B pumps to come on simultaneously.
 C: We couldn't get the pumps on simultaneously.
 
 [00:03:02:21]
-CC: Say again, Molly Brown. You're broken.
+CC: Say again, [glossary:Molly Brown]. You're broken.
 
 [00:03:02:24]
 C: We couldn't get the pumps on simultaneously.
@@ -4101,7 +4100,7 @@ P: Yes.
 C: I don't see the Salton Sea.
 
 [00:03:02:43]
-CC: Guaymas standing by for your standby T/M real-time modulation check.
+CC: Guaymas standing by for your standby [glossary:T/M] real-time modulation check.
 
 [00:03:02:55]
 C: I can't see in here now. I'm blind.
@@ -4110,10 +4109,10 @@ C: I can't see in here now. I'm blind.
 P: I am too.
 
 [00:03:03:07]
-P: Secondary pump is off and T/M to COMMAND.
+P: Secondary pump is off and [glossary:T/M] to COMMAND.
 
 [00:03:03:09]
-CC: Molly Brown, Guaymas CAP COM.
+CC: [glossary:Molly Brown], Guaymas [glossary:CAP COM].
 
 [00:03:03:12]
 C: Go ahead, Guaymas.
@@ -4127,7 +4126,7 @@ _page : 74
 P: Okay. Tell them to stand by. T/M's in REAL-TIME.
 
 [00:03:03:20]
-C: Standby T/M is in REAL-TIME.
+C: Standby [glossary:T/M] is in REAL-TIME.
 
 [00:03:03:22]
 CC: Roger.
@@ -4139,7 +4138,7 @@ P: Hey, Gus. We are coming up on El Paso.
 C: Are we?
 
 [00:03:03:38]
-CC: Molly Brown, that T/M check is okay on the ground.
+CC: [glossary:Molly Brown], that [glossary:T/M] check is okay on the ground.
 
 P: Yes.
 
@@ -4159,7 +4158,7 @@ C: Where?
 P: That's the mountain range right there. See that hill right over there? I think El Paso is under the clouds.
 
 [00:03:04:02]
-CC: Molly Brown, Guaymas. Would you say again the trouble you are having with your pump check?
+CC: [glossary:Molly Brown], Guaymas. Would you say again the trouble you are having with your pump check?
 
 [00:03:04:08]
 C: We had no trouble with the pump check.
@@ -4191,7 +4190,7 @@ P: At 3:10. Okay.
 P: Change the tape again over the Cape.
 
 [00:03:05:22]
-CC: Molly Brown. This is Guaymas handing you over to Texas.
+CC: [glossary:Molly Brown]. This is Guaymas handing you over to Texas.
 
 [00:03:05:23]
 C: Roger.
@@ -4222,30 +4221,30 @@ _extra : TEXAS
 C: We're alined okay, now.
 
 [00:03:06:15]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:03:06:18]
-C: Go ahead, Cape CAP COM.
+C: Go ahead, Cape [glossary:CAP COM].
 
 [00:03:06:19]
 CC: Do you have your standby telemetry transmitter on and ready for a tape dump?
 
 [00:03:06:23]
-C: Okay. Our standby T/M is in REAL-TIME.
+C: Okay. Our standby [glossary:T/M] is in REAL-TIME.
 
 [00:03:06:25]
 _extra : TEX-2/nMCC-2
-CC: Okay. You are commanding it on. All righty, we'll give you the word on it then. What is the status of your other platform modes, Molly Brown — BEF or Free?
+CC: Okay. You are commanding it on. All righty, we'll give you the word on it then. What is the status of your other platform modes, [glossary:Molly Brown] — [glossary:BEF] or Free?
 
 [00:03:06:35]
 _page : 76
 C: Say again.
 
 [00:03:06:36]
-CC: What is the status of your other platform modes, such as BEF and Free?
+CC: What is the status of your other platform modes, such as [glossary:BEF] and Free?
 
 [00:03:06:45]
-C: Well SEF is fine. Orbit Rate is the one that drives me off in roll. I haven't checked BEF yet. I'll go ahead and give it a check now.
+C: Well [glossary:SEF] is fine. Orbit Rate is the one that drives me off in roll. I haven't checked [glossary:BEF] yet. I'll go ahead and give it a check now.
 
 [00:03:06:53]
 CC: Okay.
@@ -4260,7 +4259,7 @@ C: Gordo, it just gradually accelerates. It's some slow leak out there.
 CC: Roger. Are you satisfied with obtaining and holding your attitudes visually?
 
 [00:03:07:15]
-C: Roger, and the platform is alining properly in SEF.
+C: Roger, and the platform is alining properly in [glossary:SEF].
 
 [00:03:07:21]
 CC: Okay, fine. You want to turn your standby transmitter off?
@@ -4357,19 +4356,19 @@ CC: All clouds and water, huh?
 C: Yep, not even much water.
 
 [00:03:09:25]
-P: Roger. We got a DCS update just then. Was that the T<sub>X</sub>. Over?
+P: Roger. We got a [glossary:DCS] update just then. Was that the T<sub>X</sub>. Over?
 
 [00:03:09:31]
-C: We just got DCS update, Gordo. Was that the T<sub>X</sub>?
+C: We just got [glossary:DCS] update, Gordo. Was that the T<sub>X</sub>?
 
 [00:03:09:34]
 CC: Roger. They got it up and verified.
 
 [00:03:09:44]
-CC: T<sub>R</sub> looks good, Molly Brown.
+CC: T<sub>R</sub> looks good, [glossary:Molly Brown].
 
 [00:03:10:28]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:03:10:30]
 C: Go ahead.
@@ -4378,22 +4377,22 @@ C: Go ahead.
 CC: We understand you don't have this rolling off in Free mode. Is that affirmative?
 
 [00:03:10:39]
-C: I don't have any in SEF or BEF mode, Gordo. I haven't checked Free yet. Give me another few minutes.
+C: I don't have any in [glossary:SEF] or [glossary:BEF] mode, Gordo. I haven't checked Free yet. Give me another few minutes.
 
 [00:03:10:46]
 CC: Okay, fine.
 
 [00:03:10:48]
-C: But the platform does aline properly in the BEF mode. I can tell that already.
+C: But the platform does aline properly in the [glossary:BEF] mode. I can tell that already.
 
 [00:03:10:52]
 CC: Okay, real good.
 
 [00:03:11:56]
-CC: We have good verification on your load now, Molly Brown. It looks good.
+CC: We have good verification on your load now, [glossary:Molly Brown]. It looks good.
 
 [00:03:12:26]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:03:12:29]
 C: Go ahead Cape.
@@ -4410,7 +4409,7 @@ C: I'm in Free mode now, and it looks like it is working all right.
 CC: Very good. We were sure interested in that.
 
 [00:03:13:24]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:03:13:28]
 C: Go ahead.
@@ -4425,7 +4424,7 @@ C: Okay, it's on.
 CC: Okay.
 
 [00:03:15:03]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:03:15:05]
 C: Go ahead.
@@ -4460,10 +4459,10 @@ CC: Okay.
 
 [00:03:48:14]
 _page : 80
-CC: Molly Brown, CSQ CAP COM.
+CC: [glossary:Molly Brown], [glossary:CSQ] [glossary:CAP COM].
 
 [00:03:48:17]
-C: CSQ, this is Molly Brown. Go ahead.
+C: [glossary:CSQ], this is [glossary:Molly Brown]. Go ahead.
 
 [00:03:48:19]
 CC: Roger. What's the status?
@@ -4478,16 +4477,16 @@ CC: Roger. You look good from the ground. Stand by to copy Three-Bravo times.
 C: Roger.
 
 [00:03:48:43]
-CC: Molly Brown, CSQ. Let me know when you are ready.
+CC: [glossary:Molly Brown], [glossary:CSQ]. Let me know when you are ready.
 
 [00:03:48:49]
 C: Roger. We are ready.
 
 [00:03:48:51]
-CC: GMTRC 18 37 58. Ground elapsed time 04 13 58. Bank angle - roll left 55. ΔV 93. Molly Brown, CSQ. Did you copy?
+CC: [glossary:GMTRC] 18 37 58. Ground elapsed time 04 13 58. Bank angle - roll left 55. ΔV 93. [glossary:Molly Brown], [glossary:CSQ]. Did you copy?
 
 [00:03:49:26]
-P: Roger. GMTRC is 18 37 58.
+P: Roger. [glossary:GMTRC] is 18 37 58.
 
 [00:03:49:33]
 CC: Roger.
@@ -4499,20 +4498,20 @@ P: Bank angle - 55 left. ΔV 93.
 CC: Roger.
 
 [00:03:49:46]
-CC: Molly Brown, CSQ CAP COM. Cape recommends you perform your OAMS retroburn in BEF after alinement, and stay in BEF up to retrofire.
+CC: [glossary:Molly Brown], [glossary:CSQ] [glossary:CAP COM]. Cape recommends you perform your [glossary:OAMS] retroburn in [glossary:BEF] after alinement, and stay in [glossary:BEF] up to retrofire.
 
 [00:03:50:02]
 C: Roger. Agree with that.
 
 [00:03:50:12]
-CC: Molly Brown, CSQ. Did you finish your retrofire checklist?
+CC: [glossary:Molly Brown], [glossary:CSQ]. Did you finish your retrofire checklist?
 
 [00:03:50:19]
 C: Roger.
 
 [00:03:50:28]
 _extra : CSQ-3/nCRO-3
-CC: Molly Brown, CSQ. Stand by for a GMT time hack.
+CC: [glossary:Molly Brown], [glossary:CSQ]. Stand by for a GMT time hack.
 
 [00:03:50:32]
 _page : 81
@@ -4553,10 +4552,10 @@ _extra : CARNARVON
 CC: Roger.
 
 [00:03:56:00]
-CC: Molly Brown, Molly Brown, Carnarvon. CAP COM. Over.
+CC: [glossary:Molly Brown], [glossary:Molly Brown], Carnarvon. [glossary:CAP COM]. Over.
 
 [00:03:56:04]
-C: Carnarvon, Molly Brown.
+C: Carnarvon, [glossary:Molly Brown].
 
 [00:03:56:05]
 CC: Roger. Read you loud and clear. We are going to send you a new 4-1 command load and T<sub>R</sub>. Do you have your timer set at 34:00?
@@ -4569,7 +4568,7 @@ CC: Okay. In the meantime I'd like to get helium source temperature, pressure, a
 
 [00:03:56:29]
 _extra : CRO-3
-C: OAMS propellant quantity is 55 percent.
+C: [glossary:OAMS] propellant quantity is 55 percent.
 
 [00:03:56:34]
 _page : 82
@@ -4588,7 +4587,7 @@ C: And the pre-retro checklist is complete, Pete.
 CC: Roger. Understand, pre-retro checklist is complete. You've got a new T<sub>R</sub>. You've got a command load. Your clocks are synched down here on the ground and I have about 2 minutes and 15 seconds to go to your 34-minute time hack.
 
 [00:03:57:20]
-CC: If you are looking at the ground, Molly Brown, Carnarvon has a big fire going for you down here.
+CC: If you are looking at the ground, [glossary:Molly Brown], Carnarvon has a big fire going for you down here.
 
 [00:03:57:28]
 C: We are blunt-end-forward. We can't see them yet.
@@ -4597,13 +4596,13 @@ C: We are blunt-end-forward. We can't see them yet.
 CC: Okay.
 
 [00:03:57:48]
-CC: Molly Brown, Carnarvon CAP COM. We have a GO here on the ground, and I have about 1 minute, 30 seconds till your time hack.
+CC: [glossary:Molly Brown], Carnarvon [glossary:CAP COM]. We have a GO here on the ground, and I have about 1 minute, 30 seconds till your time hack.
 
 [00:03:57:59]
 C: Roger.
 
 [00:03:58:03]
-CC: Molly Brown, Carnarvon. When you have a chance from the pilot, the medics would like to get a reading on the food evaluation.
+CC: [glossary:Molly Brown], Carnarvon. When you have a chance from the pilot, the medics would like to get a reading on the food evaluation.
 
 [00:03:58:16]
 C: No time, we'll see them when we get back.
@@ -4620,7 +4619,7 @@ CC: Roger, roger.
 
 [00:03:58:49]
 _page : 83
-CC: Molly Brown, Carnarvon CAP COM. Stand by for T<sub>R</sub> MARK of 34:00, in approximately 30 seconds.
+CC: [glossary:Molly Brown], Carnarvon [glossary:CAP COM]. Stand by for T<sub>R</sub> MARK of 34:00, in approximately 30 seconds.
 
 [00:03:58:58]
 C: Roger.
@@ -4635,19 +4634,19 @@ CC: MARK. T<sub>R</sub> 34:00.
 C: Roger. The clock is counting down.
 
 [00:03:59:34]
-CC: Molly Brown, Carnarvon. The medics would like to get the respiratory maneuver when you have a chance.
+CC: [glossary:Molly Brown], Carnarvon. The medics would like to get the respiratory maneuver when you have a chance.
 
 [00:03:59:43]
 C: Roger. It's coming.
 
 [00:03:59:54]
-CC: Molly Brown, Carnarvon has it loud and clear.
+CC: [glossary:Molly Brown], Carnarvon has it loud and clear.
 
 [00:04:00:06]
 C: …
 
 [00:04:00:10]
-CC: This is Carnarvon, Molly Brown. Say again.
+CC: This is Carnarvon, [glossary:Molly Brown]. Say again.
 
 [00:04:00:17]
 C: What's this new GMT of retrofire you gave us?
@@ -4659,23 +4658,23 @@ CC: Say again.
 C: What is the GMT of retrofire you just gave us?
 
 [00:04:00:25]
-CC: Roger. The GMTRC is 18 57 23 for a GETRC of 04 33 23.
+CC: Roger. The [glossary:GMTRC] is 18 57 23 for a [glossary:GETRC] of 04 33 23.
 
 [00:04:00:45]
-CC: Molly Brown, Carnarvon. Do you want the rest of the quantities? The Cape said it wasn't necessary unless you want them.
+CC: [glossary:Molly Brown], Carnarvon. Do you want the rest of the quantities? The Cape said it wasn't necessary unless you want them.
 
 [00:04:00:59]
 C: That's okay, Pete.
 
 [00:04:01:18]
-CC: Molly Brown, this is Carnarvon.
+CC: [glossary:Molly Brown], this is Carnarvon.
 
 [00:04:01:23]
 C: Go ahead.
 
 [00:04:01:24]
 _extra : CRO-3
-CC: Cape recommends that I give you your backup quantities there for GMTRC of 18 57 23. It'll be a roll left 55.
+CC: Cape recommends that I give you your backup quantities there for [glossary:GMTRC] of 18 57 23. It'll be a roll left 55.
      GMTRB of 19 08 23.  Roll right 65 at GMT 400K 19 01 29.
 
 [00:04:02:00]
@@ -4751,7 +4750,7 @@ C: Going to secondary at 1835.
 C: Secondary scanner ignore light is good at 18 35 10.
 
 [00:04:11:25]
-C: Now I see what you mean about those RCS thrusters shining when the sun is shining on the nose.
+C: Now I see what you mean about those [glossary:RCS] thrusters shining when the sun is shining on the nose.
 
 [00:04:11:37]
 C: Got your seat belt hooked?
@@ -4784,7 +4783,7 @@ P: Okay. All equipment is stowed. Secondary B pump is on.
 C: There comes the sun.
 
 [00:04:12:35]
-P: And that old suit temp down there at 55°, S-band-CONTINUOUS, C-band-CONTINUOUS, T/M in REAL-TIME and ACQ.
+P: And that old suit temp down there at 55°, S-band-CONTINUOUS, C-band-CONTINUOUS, [glossary:T/M] in REAL-TIME and ACQ.
 
 [00:04:12:44]
 P: Main batteries - we tested them. They checked good. C is way up there at 29, S2 —
@@ -4794,7 +4793,7 @@ C: Man! With that sun shining on the nose, I can't see anything now.
 
 [00:04:12:57]
 _page : 86
-P: Every time you fire those RCS thrusters S1 and S2 drop voltage. Well, that's not unusual.
+P: Every time you fire those [glossary:RCS] thrusters S1 and S2 drop voltage. Well, that's not unusual.
 
 [00:04:13:00]
 C: Hey, I can see the shadow of the scanner working now.
@@ -4944,7 +4943,7 @@ P: Okay.
 C: You have about 2 minutes.
 
 [00:04:17:39]
-P: Hawaii CAP COM, Molly Brown.
+P: Hawaii [glossary:CAP COM], [glossary:Molly Brown].
 
 [00:04:17:41]
 C: 2 - 5 - 9 - 0 - 9 - 6 - 0
@@ -4953,10 +4952,10 @@ C: 2 - 5 - 9 - 0 - 9 - 6 - 0
 P: Okay, but — that's what we're going to shoot for.
 
 [00:04:18:27]
-P: Okay. At the start of this we'll be about 52 percent. (OAMS propellant quantity)
+P: Okay. At the start of this we'll be about 52 percent. ([glossary:OAMS] propellant quantity)
 
 [00:04:18:33]
-C: Hawaii, Molly Brown.
+C: Hawaii, [glossary:Molly Brown].
 
 [00:04:18:46]
 C: Man! I mean we start to burn just as we come over there.
@@ -5005,10 +5004,10 @@ _extra : HAWAII
 P: It does keep changing, doesn't it?
 
 [00:04:20:14]
-CC: Hello, Molly Brown. Hawaii CAP COM.
+CC: Hello, [glossary:Molly Brown]. Hawaii [glossary:CAP COM].
 
 [00:04:20:17]
-C: Hawaii, Molly Brown is all ready for burn.
+C: Hawaii, [glossary:Molly Brown] is all ready for burn.
 
 [00:04:20:20]
 CC: Roger. Give us a hack on your event timer.
@@ -5107,7 +5106,7 @@ _page : 91
 P: We timed that a minute and 48 seconds.
 
 [00:04:23:25]
-CC: Give us your IVI readings.
+CC: Give us your [glossary:IVI] readings.
 
 [00:04:23:26]
 C: IVI's: Fore-Aft 0, Left was 1, Up was 2.
@@ -5158,7 +5157,7 @@ C: MARK!
 P: Okay, and the propellant source pressure is 1500.
 
 [00:04:24:18]
-C: We had indicated 22 percent when we got done, Neil. (OAMS propellant quantity)
+C: We had indicated 22 percent when we got done, Neil. ([glossary:OAMS] propellant quantity)
 
 [00:04:24:23]
 CC: 20 percent. Rog?
@@ -5178,7 +5177,7 @@ P: Source pressure is 1500, source temperature 60-50, I mean. And the RCS-both r
 C: Let's see, did we get all of this?
 
 [00:04:24:54]
-P: OAMS power to ATTITUDE, controller stow, attitude PULSE, computer to REENTRY.
+P: [glossary:OAMS] power to ATTITUDE, controller stow, attitude PULSE, computer to REENTRY.
 
 [00:04:25:26]
 P: Okay.
@@ -5287,23 +5286,23 @@ _extra : RKV-3
 P: Okay.
 
 [00:04:28:33]
-_page : 94
 _extra : ROSE KNOT VICTOR
-CC: Molly Brown, RKV CAP COM.
+_page : 94
+CC: [glossary:Molly Brown], [glossary:RKV] [glossary:CAP COM].
 
 [00:04:28:38]
-C: RKV, Molly Brown.
+C: [glossary:RKV], [glossary:Molly Brown].
 
-CC: Molly Brown, Molly Brown, RKV CAP COM. Over.
+CC: [glossary:Molly Brown], [glossary:Molly Brown], [glossary:RKV] [glossary:CAP COM]. Over.
 
 [00:04:28:42]
 C: Say again.
 
 [00:04:28:43]
-CC: Molly Brown, RKV CAP COM. How do you read?
+CC: [glossary:Molly Brown], [glossary:RKV] [glossary:CAP COM]. How do you read?
 
 [00:04:28:45]
-C: Read you loud and clear, RKV.
+C: Read you loud and clear, [glossary:RKV].
 
 [00:04:28:47]
 CC: Roger. Have you completed T<sub>R</sub>-5 checklist?
@@ -5356,7 +5355,7 @@ _page : 95
 CC: Roger.
 
 [00:04:30:20]
-CC: Molly Brown, RKV CAP COM.
+CC: [glossary:Molly Brown], [glossary:RKV] [glossary:CAP COM].
 
 [00:04:30:23]
 C: Go ahead.
@@ -5374,7 +5373,7 @@ CC: Roger.
 C: Two minutes.
 
 [00:04:31:22]
-CC: Molly Brown, RKV. You look good from the ground.
+CC: [glossary:Molly Brown], [glossary:RKV]. You look good from the ground.
 
 [00:04:31:24]
 C: Roger. Thank you.
@@ -5427,7 +5426,7 @@ C: Yes, go ahead.
 P: Separate electronics, separate adapter.
 
 [00:04:32:27]
-CC: Molly Brown, RKV.
+CC: [glossary:Molly Brown], [glossary:RKV].
 
 [00:04:32:29]
 C: Hey, the adapter has separated.
@@ -5456,7 +5455,7 @@ P: Arm auto-retro.
 C: Auto-retro armed. Squibs armed.
 
 [00:04:32:58]
-CC: Roger, Molly Brown.
+CC: Roger, [glossary:Molly Brown].
 
 [00:04:33:07]
 C: 16 seconds, 15 seconds.
@@ -5487,20 +5486,20 @@ CC: Rocket 4.
 
 [00:04:33:40]
 _page : 97
-CC: Molly Brown, do you confirm all rockets firing normally?
+CC: [glossary:Molly Brown], do you confirm all rockets firing normally?
 
 [00:04:33:44]
 C: All rockets fired normally and attitudes were right in the center.
 
 [00:04:33:48]
-CC: Roger. Pass your IVI readouts on to Guaymas. RKV out.
+CC: Roger. Pass your [glossary:IVI] readouts on to Guaymas. [glossary:RKV] out.
 
 [00:04:33:49]
 _extra : GUAYMAS
 P: Roger.
 
 [00:04:33:55]
-CC: Molly Brown, Guaymas CAP COM. Do you copy?
+CC: [glossary:Molly Brown], Guaymas [glossary:CAP COM]. Do you copy?
 
 [00:04:33:57]
 P: Roger, Guaymas. The IVI's readings were 331 Aft, 105 Right, and 4 Up. Right in the center. An automatic superfine retrofire down the line.
@@ -5515,7 +5514,7 @@ P: Roger, and retropack has jettisoned.
 CC: Roger.
 
 [00:04:34:48]
-CC: Molly Brown, Guaymas CAP COM.
+CC: [glossary:Molly Brown], Guaymas [glossary:CAP COM].
 
 [00:04:34:51]
 C: Go.
@@ -5527,7 +5526,7 @@ CC: I'm prepared to give you a T<sub>R</sub> + 3 minute time hack if you need it
 P: That would be good.
 
 [00:04:35:01]
-CC: Okay, and I have some event times for reentry: 400K feet 19 10 29 — stand by, Molly Brown.
+CC: Okay, and I have some event times for reentry: 400K feet 19 10 29 — stand by, [glossary:Molly Brown].
 
 [00:04:35:24]
 _extra : GYM-3 / TEX-3
@@ -5538,10 +5537,10 @@ _page : 98
 C: Roger.
 
 [00:04:35:54]
-CC: Molly Brown, I'll give you a time hack in approximately 30 seconds.
+CC: [glossary:Molly Brown], I'll give you a time hack in approximately 30 seconds.
 
 [00:04:36:09]
-CC: Molly Brown, Guaymas. Stand by for a T<sub>R</sub> + 3 minute time hack.
+CC: [glossary:Molly Brown], Guaymas. Stand by for a T<sub>R</sub> + 3 minute time hack.
 
 [00:04:36:18]
 CC: 5 - 4 - 3 - 2 - 1 -
@@ -5556,17 +5555,17 @@ CC: Do you copy?
 C: Roger. We got it.
 
 [00:04:37:19]
-CC: Molly Brown, stand by for Texas.
+CC: [glossary:Molly Brown], stand by for Texas.
 
 [00:04:37:24]
 _extra : TEXAS
 C: Roger.
 
 [00:04:37:40]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:04:37:44]
-C: Molly Brown here, go ahead.
+C: [glossary:Molly Brown] here, go ahead.
 
 [00:04:37:46]
 CC: Roger. I'm getting your bank angle times momentarily. Your start of Communications Experiment is 19 05 14.
@@ -5584,7 +5583,7 @@ C: I'm getting initial bank angle commands from the computer.
 CC: Okay.
 
 [00:04:38:41]
-CC: Molly Brown, I have your backup times on the bank angles and time to reverse bank angle.
+CC: [glossary:Molly Brown], I have your backup times on the bank angles and time to reverse bank angle.
 
 [00:04:38:47]
 _extra : TEX-3 / MCC-Reentry
@@ -5622,54 +5621,54 @@ C: What did you say, Gordo?
 CC: Time from retro fire to reverse bank angle is 10:54. Ten minutes, 54 seconds.
 
 [00:04:40:10]
-CC: Molly Brown, Cape CAP COM. Transmitting to you in blackout for Communications Experiment. Over.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM]. Transmitting to you in blackout for Communications Experiment. Over.
 
 [00:04:41:16]
-CC: Molly Brown, Cape CAP COM. Transmitting to you for communications test. Over.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM]. Transmitting to you for communications test. Over.
 
 [00:04:41:48]
-CC: Molly Brown, Cape CAP COM. Transmitting on Communications Experiment. Over.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM]. Transmitting on Communications Experiment. Over.
 
 [00:04:42:05]
-CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1. Over. 
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM] with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1. Over. 
 
 [00:04:42:25]
-CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM] with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
 
 [00:04:42:51]
-CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM] with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
 
 [00:04:43:25]
 _extra : MCC-Reentry and Descent
-CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM] with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
 
 [00:04:43:55]
 _page : 100
-CC: This is Cape CAP COM transmitting for Communications Experiment 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1. Over.
+CC: This is Cape [glossary:CAP COM] transmitting for Communications Experiment 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1. Over.
 
 [00:04:44:28]
-CC: Molly Brown, Cape CAP COM with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM] with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
 
 [00:04:44:44]
-CC: Molly Brown, Cape CAP COM. Over.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM]. Over.
 
 [00:04:44:54]
 C: …
 
 [00:04:45:02]
-CC: Molly Brown, Cap CAP COM.
+CC: [glossary:Molly Brown], Cap [glossary:CAP COM].
 
 [00:04:45:15]
 P: …end of that.
 
 [00:04:45:20]
-CC: Molly Brown, Cape CAP COM. Over.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM]. Over.
 
 [00:04:45:26]
-CC: Go ahead, Molly Brown.
+CC: Go ahead, [glossary:Molly Brown].
 
 [00:04:45:40]
-CC: Molly Brown, are you reading Cape CAP COM now? Over.
+CC: [glossary:Molly Brown], are you reading Cape [glossary:CAP COM] now? Over.
 
 [00:04:45:58]
 P: Black Dog …
@@ -5678,7 +5677,7 @@ P: Black Dog …
 CC: Hello there!
 
 [00:04:46:15]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:04:46:17]
 C: Roger. We're down to 80 000 feet. My needles show us about 25 miles short.
@@ -5727,13 +5726,13 @@ CC: Roger.
 CC: Approximately one minute to the main.
 
 [00:04:47:42]
-C: Intrepid, this is Molly Brown.
+C: Intrepid, this is [glossary:Molly Brown].
 
 [00:04:47:44]
 CC: Roger. Go ahead.
 
 [00:04:48:08]
-CC: Molly Brown, Cape CAP COM. How is your main?
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM]. How is your main?
 
 [00:04:48:12]
 C: We don't have a main yet. Passing through 13 000.
@@ -5742,7 +5741,7 @@ C: We don't have a main yet. Passing through 13 000.
 CC: Roger.
 
 [00:04:48:40]
-CC: Molly Brown, how is your main. Over?
+CC: [glossary:Molly Brown], how is your main. Over?
 
 [00:04:48:47]
 C: Okay. We have a good stable chute. Going to landing attitude.
@@ -5768,13 +5767,13 @@ C: Let's see, can they read us now?
 P: Yes.
 
 [00:04:49:17]
-C: Cape CAP COM, this is Molly Brown.
+C: Cape [glossary:CAP COM], this is [glossary:Molly Brown].
 
 [00:04:49:19]
-CC: Molly Brown, Cape CAP COM.
+CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:04:49:22]
-C: Intrepid, this is Molly Brown.
+C: Intrepid, this is [glossary:Molly Brown].
 
 [00:04:49:26]
 RS: Roger. We are reading you now and then. How us?
@@ -5811,11 +5810,11 @@ C: What?
 P: Indicate Landing Attitude Control circuit breaker open. That's that second one over on your panel. There you go.
 
 [00:04:49:56]
-P: ACME bias power off.
+P: [glossary:ACME] bias power off.
 
 [00:04:49:57]
 _extra : INTREPID-Descent
-RS: Molly Brown, this is Intrepid. It appears you will land 5 miles ahead of me. Over.
+RS: [glossary:Molly Brown], this is Intrepid. It appears you will land 5 miles ahead of me. Over.
 
 [00:04:50:03]
 _page : 103
@@ -5855,7 +5854,7 @@ RS: I understand the drogue is just above you, or the pilot chute.
 C: Say again.
 
 [00:04:50:40]
-P: RCS heater's off. We did not do that heater check. Oh, well. We didn't need it anyways. RCS temperature was way up. Scanner Heater circuit breaker open.
+P: [glossary:RCS] heater's off. We did not do that heater check. Oh, well. We didn't need it anyways. [glossary:RCS] temperature was way up. Scanner Heater circuit breaker open.
 
 [00:04:50:46]
 C: Do you smell that fuel? Fumes from that stuff?
@@ -5976,10 +5975,10 @@ C: Okay.
 P: Post-landing checklist. Parachute jett-pushed. Landing safe. Safe the landing bus. Helmet off and stowed. I'd leave it on. Arm restraints - 
 
 [00:04:53:33]
-C: This is Molly Brown in the water. Anybody read?
+C: This is [glossary:Molly Brown] in the water. Anybody read?
 
 [00:04:53:39]
-RA: Molly Brown, this is Big Box 15. You are loud and clear. Check with Big Box 14.
+RA: [glossary:Molly Brown], this is Big Box 15. You are loud and clear. Check with Big Box 14.
 
 [00:04:53:40]
 C: Roger. We're floating well in the water.
@@ -6011,13 +6010,13 @@ RA: …
 C: I read you. Who is this calling Molly Brown?
 
 [00:04:54:52]
-C: This is Molly Brown, call again.
+C: This is [glossary:Molly Brown], call again.
 
 [00:04:54:56]
-RA: Molly Brown, Big Box 14. Go ahead.
+RA: [glossary:Molly Brown], Big Box 14. Go ahead.
 
 [00:04:54:58]
-C: This is Molly Brown, Big Box. Go ahead.
+C: This is [glossary:Molly Brown], Big Box. Go ahead.
 
 [00:04:55:03]
 RA: Roger, sir, if you will give me a 15 second hold-down.
@@ -6026,19 +6025,20 @@ RA: Roger, sir, if you will give me a 15 second hold-down.
 C: Okay, I'll hold it down.
 
 [00:04:55:16]
-C: Big Box, Molly Brown.
+C: Big Box, [glossary:Molly Brown].
 
 [00:04:55:28]
-RA: Molly Brown, Big Box 14. We have you on …
+RA: [glossary:Molly Brown], Big Box 14. We have you on …
 
 [00:04:56:20]
-RA: Molly Brown, Big Box 14. Would you give me another hold-down?
+RA: [glossary:Molly Brown], Big Box 14. Would you give me another hold-down?
 
 [00:04:56:38]
-RA: Molly Brown, Big Box 14.
+RA: [glossary:Molly Brown], Big Box 14.
 
 [00:04:57:51]
-RA: Molly Brown, Big Box 14. Another hold-down, please.
+RA: [glossary:Molly Brown], Big Box 14. Another hold-down, please.
 
 [00:05:00:26]
-RA: Okay, Molly Brown, I've got a fix on you. Big Box 14.
+RA: Okay, [glossary:Molly Brown], I've got a fix on you. Big Box 14.
+
