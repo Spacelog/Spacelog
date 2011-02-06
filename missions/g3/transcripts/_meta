@@ -226,7 +226,7 @@
     "shared_glossaries": ["space"],
     "glossary": {
         "Molly Brown": {
-            "summary": "The nickname of the Gemini III spacecraft",
+            "summary": "The call sign of the Gemini III spacecraft",
             "description": "The name was a reference to “The Unsinkable Molly Brown”, a broadway musical. Gus Grissom chose the name in the hope that the capsule would fare better than the Liberty Bell 7 which sank after splash-down at the end of the Mercury-Redstone 4 mission."
         },
         "CAP COM": {
