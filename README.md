@@ -89,10 +89,10 @@ You then need to have some other servers running on top of redis:
 
  * `make devcss` will run `CSS::Prepare` in development mode, so changes to CSS files will be reflected automatically; if not using a `virtualenv`, `PYTHON=python make devcss` should do the trick
  * `make devcss_global` will run `CSS::Prepare` for the project homepage
- * `python website/manage.py runserver 0.0.0.0:8000` will run the mission-specific websites
- * `python global/manage.py runserver 0.0.0.0:3000` will run the project homepage
+ * `make devserver` will run the mission-specific websites
+ * `make devserver_global` will run the project homepage
 
-The project homepage will appear at [http://artemis:3000/](http://artemis:3000/), and the per-mission sites at [http://apollo13.artemis:8000/](http://apollo13.artemis:8000/) (which will show the Apollo 13 mission), [http://mercury6.artemis:8000/](http://mercury6.artemis:8000/) (Mercury-Atlas 6) and so on.
+The project homepage will appear at [http://artemis:8001/](http://artemis:8001/), and the per-mission sites at [http://apollo13.artemis:8000/](http://apollo13.artemis:8000/) (which will show the Apollo 13 mission), [http://mercury6.artemis:8000/](http://mercury6.artemis:8000/) (Mercury-Atlas 6) and so on.
 
 ### Reindexing
 
