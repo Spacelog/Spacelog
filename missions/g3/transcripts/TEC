@@ -498,7 +498,8 @@ _page : 10
 CC: [glossary:Molly Brown], Canary [glossary:CAP COM]. We are standing by for your UHF Com Check. Do you copy?
 
 [00:00:17:35]
-P: Roger. We are on UHF #2. Have been the whole pass. Over. (Pilot was in RECORD on No. 2 audio).
+P: Roger. We are on UHF #2. Have been the whole pass. Over.
+_comment: Pilot was in RECORD on No. 2 audio
 
 [00:00:17:49]
 CC: [glossary:Molly Brown], Canary [glossary:CAP COM].
@@ -670,7 +671,8 @@ P: We've got to get this pressure back up.
 C: Do we have a leak?
 
 [00:00:23:59]
-P: It's this event they were talking about (Unexplained cryogenic pressure decay on GT-2).
+P: It's this event they were talking about.
+_comment: Unexplained cryogenic pressure decay on GT-2
 
 [00:00:24:03]
 C: Let's see.
@@ -723,7 +725,8 @@ _page : 14
 C: That's how we lost it. Yes.
 
 [00:00:24:58]
-P: See? (Noted that primary dc-dc converter was still inoperative.
+P: See?
+_comment: Noted that primary dc-dc converter was still inoperative
 
 [00:00:24:59]
 C: Yes.
@@ -1301,7 +1304,8 @@ P: Had to turn around to get it out.
 C: Hey, I think our yaw drift has stopped.
 
 [00:01:01:36]
-P: We're down to 2400. That's pretty good. ([glossary:OAMS] pressure)
+P: We're down to 2400. That's pretty good.
+_comment: [glossary:OAMS] pressure
 
 [00:01:01:39]
 C: Is that okay?
@@ -1310,7 +1314,8 @@ C: Is that okay?
 P: Yes, that's fine. It means we haven't used any [glossary:OAMS] fuel.
 
 [00:01:01:46]
-P: Elapsed time is 1:05. Now, I'm going to get a main batteries check. (Pilot misread elapsed time).
+P: Elapsed time is 1:05. Now, I'm going to get a main batteries check.
+_comment: Pilot misread elapsed time
 
 [00:01:02:05]
 P: —9½ and 24 on one and 9½ and 24 on two, and 9½ and 24 on three. 9½ and 24 on four. Those mains are good!
@@ -1334,7 +1339,8 @@ P: No, I don't either. We need a special place to keep that stuff.
 C: I'll put it in my pocket.
 
 [00:01:04:23]
-P: Okay. I'll verify that load. (Pre-retro command load)
+P: Okay. I'll verify that load.
+_comment: Pre-retro command load
 
 [00:01:04:29]
 P: Is the T<sub>R</sub>-5 circuit breaker off?
@@ -1365,7 +1371,8 @@ P: Yep.
 C: Must have been our scanners, I guess.
 
 [00:01:06:41]
-P: 204. This is just beautiful, Gus! It checks to the digit! (Pre-retro command load)
+P: 204. This is just beautiful, Gus! It checks to the digit!
+_comment: Pre-retro command load
 
 [00:01:06:47]
 C: Hey, we ought to have our face plates closed.
@@ -1635,7 +1642,8 @@ C: 1:33.
 
 [00:01:15:39]
 _page : 30
-P: Now see, it is coming down. (oxygen pressure)
+P: Now see, it is coming down.
+_comment: oxygen pressure
 
 [00:01:15:40]
 C: Okay.
@@ -1665,7 +1673,8 @@ C: Let's see, I want circuit breakers 9 and 10 off, don't I?
 P: Yes. That sun's bright, isn't it?
 
 [00:01:17:34]
-P: Look at that! Where do you suppose that came from? (A camera reel)
+P: Look at that! Where do you suppose that came from?
+_comment: A camera reel
 
 [00:01:17:37]
 C: What?
@@ -1768,7 +1777,8 @@ P: Tape change at 1546. Tape cartridge No. 2 was replaced by tape cartridge No. 
 
 [00:01:23:19]
 _extra : ROSE KNOT VICTOR
-P: The red light did not come on. (Tape recorder)
+P: The red light did not come on.
+_comment: Tape recorder
 
 [00:01:23:38]
 CC: [glossary:Molly Brown], [glossary:Molly Brown], [glossary:RKV].
@@ -2388,10 +2398,12 @@ C: Let me have some of that juice when you get done.
 C: Get any water?
 
 [00:01:47:44]
-P: Good stuff! (Water)
+P: Good stuff!
+_comment: Water
 
 [00:01:48:25]
-C: You want me to stick this up here? (Water nozzle)
+C: You want me to stick this up here?
+_comment: Water nozzle
 
 P: Yes, we can attach it up there.
 
@@ -2462,7 +2474,8 @@ C: A [glossary:T/M] 2 cal is coming.
 P: I don't see where it says for us to do that, but I guess that's all right. I think we should have done it on the first pass.
 
 [00:01:50:24]
-P: One of these pills came off. (Germicide pills)
+P: One of these pills came off.
+_comment: Germicide pills
 
 [00:01:50:27]
 CC: [glossary:Molly Brown], Canary [glossary:CAP COM].
@@ -2488,7 +2501,8 @@ _page : 45
 C: Stand by.
 
 [00:01:51:06]
-P: If either one of these things leaks, we can just close up shop. (Food packages)
+P: If either one of these things leaks, we can just close up shop.
+_comment: Food packages
 
 [00:01:51:15]
 C: Okay. What's the Two-Bravo time?
@@ -2597,7 +2611,8 @@ P: Oh, no!
 C: What? What did you drop?
 
 [00:01:55:25]
-C: Look at 'em jumping around down there. (Food bags)
+C: Look at 'em jumping around down there.
+_comment: Food bags
 
 [00:01:56:30]
 P: What elapsed is it now, Gus?
@@ -2736,13 +2751,15 @@ P: It is.
 P: Suit inlet temperature is still holding at 58, though.
 
 [00:02:02:45]
-P: Boy, this is a manual dexterity test. (Opening food bag feeding port)
+P: Boy, this is a manual dexterity test.
+_comment: Opening food bag feeding port
 
 [00:02:02:47]
 C: Yes.
 
 [00:02:03:41]
-P: That stuff is really trying to crawl out of there. (Grapefruit juice)
+P: That stuff is really trying to crawl out of there.
+_comment: Grapefruit juice
 
 [00:02:04:17]
 P: John Yardley loses his bet. Cabin temperature is up to 92°.
@@ -2760,7 +2777,8 @@ C: That sun is something else.
 P: Yes.
 
 [00:02:04:58]
-P: Can you stow these back over there in your side? (Food packages)
+P: Can you stow these back over there in your side?
+_comment: Food packages
 
 [00:02:05:01]
 C: Yes.
@@ -3596,7 +3614,8 @@ P: Okay. At 2:40 in the flight plan —
 C: That shows 30° off on the ball.
 
 [00:02:47:31]
-P: Started out at 66 and ended at 62, at 2:40. (Oxygen quantity)
+P: Started out at 66 and ended at 62, at 2:40.
+_comment: Oxygen quantity
 
 [00:02:47:37]
 C: Hey, what time do we come across the coast here?
@@ -3881,7 +3900,8 @@ P: The Gage Correlation Report is complete.
 C: The Gage Correlation Report is complete.
 
 [00:02:57:52]
-P: Time is 1821. Can I read these into the recorder, Gus, or will it get to you? (Pilot misread 24-hour clock. It should have been 1721.)
+P: Time is 1821. Can I read these into the recorder, Gus, or will it get to you?
+_comment: Pilot misread 24-hour clock. It should have been 1721
 
 [00:02:58:00]
 C: Read it into the recorder.
@@ -3949,7 +3969,8 @@ _page : 71
 C: Roger … and nominal.
 
 [00:03:00:03]
-P: Can you come across a ground tracking looking down like that, Gus? (Pilot demonstrating with hands on Orbital Path Display).
+P: Can you come across a ground tracking looking down like that, Gus?
+_comment: Pilot demonstrating with hands on Orbital Path Display
 
 [00:03:00:06]
 C: Sideways?
@@ -4004,8 +4025,8 @@ _page : 72
 P: You've got to pitch the nose down. Right by the nose.
 
 [00:03:01:07]
-C: That green spot? (The Imperial 
-     Valley)
+C: That green spot?
+_comment: The Imperial Valley
 
 [00:03:01:08]
 P: No, down — like straight down.
@@ -4954,7 +4975,8 @@ C: 2 - 5 - 9 - 0 - 9 - 6 - 0
 P: Okay, but — that's what we're going to shoot for.
 
 [00:04:18:27]
-P: Okay. At the start of this we'll be about 52 percent. ([glossary:OAMS] propellant quantity)
+P: Okay. At the start of this we'll be about 52 percent.
+_comment: [glossary:OAMS] propellant quantity
 
 [00:04:18:33]
 C: Hawaii, [glossary:Molly Brown].
@@ -5159,7 +5181,8 @@ C: MARK!
 P: Okay, and the propellant source pressure is 1500.
 
 [00:04:24:18]
-C: We had indicated 22 percent when we got done, Neil. ([glossary:OAMS] propellant quantity)
+C: We had indicated 22 percent when we got done, Neil.
+_comment: [glossary:OAMS] propellant quantity
 
 [00:04:24:23]
 CC: 20 percent. Rog?
