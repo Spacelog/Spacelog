@@ -28,7 +28,7 @@
     "acts" : [
         {
             "title": "Launch",
-            "description": "…",
+            "description": "Following a smooth preparation with only one minor hold, the Titan rocket overperformed putting the spacecraft into a slightly higher orbit than originally planned.",
             "range": ["-00:00:00:20", "00:00:07:23"],
             "banner": "act1.jpg",
             "banner_class": "blue",
@@ -36,28 +36,28 @@
         },
         {
             "title": "1st Orbit",
-            "description": "…",
-            "range": ["00:00:07:23", "00:00:50:46"],
+            "description": "The crew performed the first orbit change of a manned spacecraft, a crucial test of the maneuvering capabilities that would be needed later in the Gemini program for rendezvouz and subquently in flying Apollo missions to the moon.",
+            "range": ["00:00:07:23", "00:01:49:03"],
             "banner": "act2.jpg",
             "homepage": "act2.jpg"
         },
         {
             "title": "2nd Orbit",
-            "description": "…",
-            "range": ["00:00:50:46", "00:01:24:30"],
+            "description": "Despite a prank by John Young over a sandwich, the mission continues well. Over the Indian Ocean, Gus Grissom tests the full OAMS, making an adjustment of a fraction of a degree in orbital inclination.",
+            "range": ["00:01:49:03", "00:03:16:00"],
             "banner": "act3.jpg",
             "homepage": "act3.jpg"
         },
         {
             "title": "3rd Orbit",
-            "description": "…",
-            "range": ["00:01:24:30", "00:04:32:49"],
+            "description": "Completing various tests and experiments, the crew starts to prepare for re-entry, including a final orbital maneuvre.",
+            "range": ["00:03:16:00", "00:04:32:49"],
             "banner": "act4.jpg",
             "homepage": "act4.jpg"
         },
         {
             "title": "Reentry",
-            "description": "…",
+            "description": "Despite a number of issues with re-entry, including unexpected amounts of smoke from the thrusters and instability of the craft in the water, the crew and spacecraft were successfully recovered by USS Intrepid.",
             "range": ["00:04:32:49", "00:05:01:00"],
             "banner": "act5.jpg",
             "banner_class": "blue",
@@ -66,8 +66,36 @@
     ],
     "key_scenes" : [
         {
-            "title": "Corn beef sandwich",
+            "title": "The first corned beef sandwich in space",
             "range": [ "00:01:52:26", "00:01:53:15" ]
+        },
+        {
+            "title": "Problem with one of the OAMS thrusters, possibly similar to problems experienced later on Gemini VIII",
+            "range": [ "00:00:18:41", "00:00:18:57" ]
+        },
+        {
+            "title": "First orbit change of a manned spacecraft, lowering the orbit into an almost circular one",
+            "range": [ "00:01:33:00", "00:01:34:14" ]
+        },
+        {
+            "title": "Second orbital maneuvre, changing orbital inclination using all the OAMS thrusters",
+            "range": [ "00:02:16:44", "00:02:17:28" ]
+        },
+        {
+            "title": "Third orbital maneuvre, lowering perigee to enable re-entry even if the retrorockets failed",
+            "range": [ "00:04:21:23", "00:04:23:14" ]
+        },
+        {
+            "title": "Synergistic Effect of Zero Gravity on Sea Urchin Eggs Experiment, a secondary mission objective, fails to activate due to broken handle.",
+            "range": [ "00:03:51:05", "00:03:51:22" ]
+        },
+        {
+            "title": "Due to smoke from the thrusters, the crew decides to deviate from the post-landing checklist in keeping their helmets on.",
+            "range": [ "00:04:53:50", "00:04:54:13" ]
+        },
+        {
+            "title": "In going to landing attitude, the change is so sudden that Gus Grissom cracks his helmet faceplate",
+            "range": [ "00:04:48:47", "00:04:48:54" ]
         }
     ],
     "homepage_quotes" : [
