@@ -3748,10 +3748,12 @@ CC: Roger. Got it.
 
 [00:02:52:20]
 _page : 67
-P: Okay. Gage Correlation Check at 1816, and away we go. (Pilot misread 24-hour clock. It should have been 1716.)
+P: Okay. Gage Correlation Check at 1816, and away we go.
+_note: Pilot misread 24-hour clock. It should have been 1716.
 
 [00:02:52:28]
-C: What do you thin, John? Do you think that's about it? (Reference to yaw alinement)
+C: What do you thin, John? Do you think that's about it?
+_note: Reference to yaw alinement
 
 [00:02:52:31]
 P: Yes.
@@ -5954,7 +5956,8 @@ C: Broken my face plate when we went to landing attitude.
 P: Did it?
 
 [00:04:52:45]
-P: That's what the problem was, right there. (Reference to sight mounting bracket extension)
+P: That's what the problem was, right there.
+_note: Reference to sight mounting bracket extension
 
 [00:04:52:50]
 C: Look at the smoke coming out the thrusters.
