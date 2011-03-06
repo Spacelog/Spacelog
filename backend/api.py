@@ -516,6 +516,7 @@ class Mission(object):
         self.media_transcript = data['media_transcript']
         self.incomplete = (data['incomplete'].lower() == "true")
         self.subdomain = data.get('subdomain', None)
+        self.utc_launch_time = data['utc_launch_time']
 
     class Query(BaseQuery):
 
@@ -538,9 +539,14 @@ class Mission(object):
                 ]
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
-            
+
+            missions = []
             for key in keys:
-                yield self._key_to_instance(key)
+                missions.append(self._key_to_instance(key))
+            missions.sort(
+                key = lambda m: int(m.utc_launch_time),
+            )
+            return missions
 
         def _key_to_instance(self, key):
             return Mission(self.redis_conn, key)
