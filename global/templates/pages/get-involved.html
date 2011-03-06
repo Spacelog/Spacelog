@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Getting Involved with Spacelog{% endblock %}
+
+{% block content-class %}content-page get-involved{% endblock %}
+
+{% block content %}
+
+<h1>Getting Involved</h1>
+<p class="rubric">
+  Spacelog is a volunteer project that anyone can contribute to. Learn how you
+  can help.
+</p>
+
+<div class="content">
+  <h2>Transcribe a mission</h2>
+  <p>The first thing to do is to to pick a mission (see <a href="https://github.com/Spacelog/Spacelog/wiki/Missions">our mission roster</a> for what's already been claimed, or talk to us if you have no preference), and download the "TEC" (air-to-ground) transcript for the relevant mission from <a href="http://www.jsc.nasa.gov/history/mission_trans/mission_transcripts.htm">NASA</a>. Then you need to grab the text of that; either open up the PDF and select all and copy out into a text editor or Word or something, or if you have it use something like pdftotext (on Debian/Ubuntu it's part of the xpdf-utils package) to pull the text out. (pdftotext generally does a better job than copying out of a PDF viewer, so if you don't have access to it, let us know and we can run it for you.)</p>
+
+  <p>Then you have to "clean" it; the text version of the PDF was created automatically by a computer, so it has some errors, so you need to go through the text version looking for those errors, and checking against the PDF to fix problems. (You can skip the first few pages, which are boilerplate we'll convert into things like the glossary later.) Log lines (a timestamp, speaker and some text) should look like this:</p>
+
+  <pre>00 00 09 32 LMP Charlie, lots of stuff out the window in staging.
+                       We're catching up and passing it now.
+  </pre>
+
+  <p>Time stamps are days hours minutes seconds, then speakers are all caps abbreviations like "LMP" for Lunar Module Pilot, "CC" for the Capsule Communicator on the ground, and so on. The text can be on more than one line, as demonstrated above.</p>
+
+  <p>Things <em>other</em> than log lines are important as well. There are a few of these, and they should all end up indented by (at least) one tab:</p>
+
+  <pre>      Tape 1/6
+        Page 6
+  </pre>
+
+  <p>these come at the top of every page. They're important because they help us link passages in the transcript back to the original PDF pages.</p>
+
+  <pre>      CYI (REV 1)</pre>
+
+  <p>these indicate transitions between different monitoring stations on the ground. They aren't hugely important, but they make life a bit easier for us later when we're trying to identify the individual people on the ground who are speaking.</p>
+
+  <pre>      END OF TAPE</pre>
+
+  <p>marks the end of a tape, and</p>
+
+  <pre>      APOLLO 10 AIR-TO-GROUND VOICE TRANSCRIPTION</pre>
+
+  <p>(or similar) marks the beginning of a new tape.</p>
+
+  <p>For some missions you'll also see something like (GOSS NET 1) at the start of every page. It's fine to delete those lines (which usually get garbled anyway); they're an indication of the radio network used (which was the same throughout).</p>
+
+  <p>If possible, it's helpful to leave "- -" at the end of the line as is, rather than "correct" it to a single dash, or "--" or something. The website itself will display this nicely, and we prefer not to change the intent of the original transcripts where possible.</p>
+
+  <p>I don't know how technical you are; there are various tools in the checkout that can help identify problems (particularly helpful once you think you've caught most of them, to help narrow the search for remaining issues that prevent us from loading the mission into the site), but if you're not comfortable with that then we can run them for you easily enough. Then once the transcription has been cleaned up, there are a bunch of other things that need doing -- selecting and/or creating images, writing little biographies of the people involved, that kind of thing. We can of course help with that as well.</p>
+
+  <p>If you use IRC, we tend to hang out on <a href="irc://irc.freenode.net/#spacelog">#spacelog</a>. If not, direct any questions (particularly about the information above, since we'd like to make it easy and as unintimidating as possible for people to get involved!) to the <a href="mailto:spacelog@googlegroups.com">spacelog@googlegroups.com</a> mailing list, which we all read.</p>
+</div>
+{% endblock %}

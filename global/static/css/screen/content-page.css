@@ -1,0 +1,61 @@
+/*! verbatim */
+.content-page {
+    background:             #000
+                            url( ../img/home-bg.jpg )
+                            no-repeat
+                            top center;
+    padding:                50px 0 200px;
+}
+/*.about {
+    background-image:       url( ../img/about-bg.jpg );
+}
+.press {
+    background-image:       url( ../img/press-bg.jpg );
+}
+*/
+.get-involved {
+    background-image:       url( ../img/get-involved-bg.jpg );
+}
+/* -- */
+
+.content-page h1,
+.content-page .rubric {
+    font-size:              40px;
+    font-weight:            bold;
+}
+.content-page .rubric {
+    border-bottom:          1px solid #676769;
+    color:                  #999;
+    font-weight:            normal;
+    margin-bottom:          24px;
+    padding-bottom:         24px;
+}
+
+.content-page h2 {
+    font-size:              32px;
+    font-weight:            bold;
+    margin:                 24px 0;
+}
+.content-page h3 {
+    font-weight:            bold;
+    margin:                 23px 0 15px;
+}
+
+.content-page .content {
+    margin-right:           320px;
+}
+.content-page p,
+.content-page pre {
+    margin:                 0 0 20px;
+}
+.content-page blockquote p {
+    margin:                 0 0 5px;
+}
+.content-page em {
+    font-style:             italic;
+}
+/*! verbatim */
+.content-page .content p {
+    text-shadow:            1px 1px 2px #000;
+}
+/* -- */
