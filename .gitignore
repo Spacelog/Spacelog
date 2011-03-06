@@ -7,6 +7,7 @@
 /missions/*/images/stats
 /missions/*/images/original
 /xappydb
+/artemis_assets
 ENV
 .*.swp
 
