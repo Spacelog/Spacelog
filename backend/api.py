@@ -515,7 +515,7 @@ class Mission(object):
             self.main_transcript_subname = ""
         self.media_transcript = data['media_transcript']
         self.incomplete = (data['incomplete'].lower() == "true")
-
+        self.subdomain = data.get('subdomain', None)
 
     class Query(BaseQuery):
 

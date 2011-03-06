@@ -311,6 +311,8 @@ class MetaIndexer(object):
 
         # Store mission info
         for subdomain in meta['subdomains']:
+            if meta.get('subdomain', None) is None:
+                meta['subdomain'] = subdomain
             self.redis_conn.set("subdomain:%s" % subdomain, meta['name'])
         del meta['subdomains']
         self.redis_conn.hmset(
@@ -321,6 +323,7 @@ class MetaIndexer(object):
                 "incomplete": meta.get('incomplete', False),
                 "main_transcript": meta.get('main_transcript', None),
                 "media_transcript": meta.get('media_transcript', None),
+                "subdomain": meta.get('subdomain', None),
             }
         )
         copy = meta.get("copy", {})
