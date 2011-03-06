@@ -8,12 +8,17 @@
 
 <h1>Getting Involved</h1>
 <p class="rubric">
-  Spacelog is a volunteer project that anyone can contribute to. Learn how you
-  can help.
+  Spacelog is a volunteer project that anyone can contribute to.
 </p>
 
 <div class="content">
-  <h2>Transcribe a mission</h2>
+  <h2>How you can help</h2>
+  <p>There are a whole bundle of different tasks that people can help out on, from the very small (such as noticing and pointing out a problem with a transcription of a particular mission) up to the fairly large (transcribing an entire mission). Along the way there are jobs involving writing new material (biographies, descriptions of key moments and phases, and so on), selecting images for use in missions (and possibly cropping or preparing them in Photoshop), and if you're a programmer you can get hold of <a href='http://github.com/Spacelog/Spacelog/'>the source code behind the site</a>, and help us out in developing it further.</p>
+  <p>In general, the first step in getting involved is simply to tell us you're around and interested. Drop an email to the <a href="mailto:spacelog@googlegroups.com">spacelog@googlegroups.com</a> mailing list, and ask any questions you need to get started. If you use IRC, we tend to hang out on <a href="irc://irc.freenode.net/#spacelog">#spacelog</a>, which can be more useful if you need to ask a number of related questions. In the meantime, hopefully the information on this page will be a helpful starting point &mdash; but if not, please point out how we can make things clearer and easier to get involved.</p>
+  <h2>Pointing out mistakes</h2>
+  <p>The transcripts we work from were prepared by NASA in the 60s and 70s; from there, they've been scanned, converted to text, and then cleaned up by Spacelog volunteers. At each step in the process, small errors may have crept in, so if you notice anything that's wrong, and particularly if you notice a difference between the Spacelog transcripts and the original transcripts (linked from each page of a mission), just drop us a line at the email address above and we'll look into it. It helps a lot if you can supply not only the line (either a link, or by the timestamp displayed at the start, the <acronym title='Ground Elapsed Time'>GET</acronym>) but also what it should be.</p>
+  <h2>Transcribing a mission</h2>
+  <p>From the smallest task to one of the biggest, transcribing a mission from scratch is a much more intensive job than correcting errors in our existing missions. However it is still non-technical, although a reasonable grasp of English and some understanding of the kind of terminology of space flight can help a lot!</p>
   <p>The first thing to do is to to pick a mission (see <a href="https://github.com/Spacelog/Spacelog/wiki/Missions">our mission roster</a> for what's already been claimed, or talk to us if you have no preference), and download the "TEC" (air-to-ground) transcript for the relevant mission from <a href="http://www.jsc.nasa.gov/history/mission_trans/mission_transcripts.htm">NASA</a>. Then you need to grab the text of that; either open up the PDF and select all and copy out into a text editor or Word or something, or if you have it use something like pdftotext (on Debian/Ubuntu it's part of the xpdf-utils package) to pull the text out. (pdftotext generally does a better job than copying out of a PDF viewer, so if you don't have access to it, let us know and we can run it for you.)</p>
 
   <p>Then you have to "clean" it; the text version of the PDF was created automatically by a computer, so it has some errors, so you need to go through the text version looking for those errors, and checking against the PDF to fix problems. (You can skip the first few pages, which are boilerplate we'll convert into things like the glossary later.) Log lines (a timestamp, speaker and some text) should look like this:</p>
@@ -48,8 +53,6 @@
 
   <p>If possible, it's helpful to leave "- -" at the end of the line as is, rather than "correct" it to a single dash, or "--" or something. The website itself will display this nicely, and we prefer not to change the intent of the original transcripts where possible.</p>
 
-  <p>I don't know how technical you are; there are various tools in the checkout that can help identify problems (particularly helpful once you think you've caught most of them, to help narrow the search for remaining issues that prevent us from loading the mission into the site), but if you're not comfortable with that then we can run them for you easily enough. Then once the transcription has been cleaned up, there are a bunch of other things that need doing -- selecting and/or creating images, writing little biographies of the people involved, that kind of thing. We can of course help with that as well.</p>
-
-  <p>If you use IRC, we tend to hang out on <a href="irc://irc.freenode.net/#spacelog">#spacelog</a>. If not, direct any questions (particularly about the information above, since we'd like to make it easy and as unintimidating as possible for people to get involved!) to the <a href="mailto:spacelog@googlegroups.com">spacelog@googlegroups.com</a> mailing list, which we all read.</p>
+  <p>If you are a little bit techie, there are various tools in the checkout that can help identify problems (particularly helpful once you think you've caught most of them, to help narrow the search for remaining issues that prevent us from loading the mission into the site), but if you're not comfortable with that then we can run them for you easily enough. Then once the transcription has been cleaned up, there are a bunch of other things that need doing &mdash; selecting and/or creating images, writing little biographies of the people involved, that kind of thing. We can of course help with that as well.</p>
 </div>
 {% endblock %}
