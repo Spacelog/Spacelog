@@ -11,4 +11,10 @@ def featured(missions, featured=True):
 
 @register.filter
 def mission_url(mission):
-    return u"http://%s.%s/" % (mission, settings.PROJECT_DOMAIN)
+    if isinstance(mission, basestring):
+        return u"http://%s.%s/" % (mission, settings.PROJECT_DOMAIN)
+    else:
+        if mission.subdomain is not None:
+            return u"http://%s.%s/" % (mission.subdomain, settings.PROJECT_DOMAIN)
+        else:
+            return u"http://%s.%s/" % (mission.name, settings.PROJECT_DOMAIN)
