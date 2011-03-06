@@ -87,12 +87,14 @@
     content:                ":";
 }
 
-#how-this-was-made #team li {
+#how-this-was-made #team li,
+#how-this-was-made #software-used li {
     display:                inline;
     line-height:            1.5;
 }
 
-#team li + li:before {
+#team li + li:before,
+#software-used li + li:before {
     content:                ", ";
 }
 
