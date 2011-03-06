@@ -8,7 +8,7 @@ register = Library()
 @register.simple_tag
 def avatar_and_name(speaker, mission_name, timestamp=None):
 
-    if timestamp:
+    if timestamp is not None:
         current_speaker = speaker.current_shift(timestamp)
     else:
         current_speaker = speaker
@@ -37,7 +37,7 @@ def avatar_and_name(speaker, mission_name, timestamp=None):
 @register.simple_tag
 def avatar(speaker, mission_name, timestamp=None):
 
-    if timestamp:
+    if timestamp is not None:
         current_speaker = speaker.current_shift(timestamp)
     else:
         current_speaker = speaker
