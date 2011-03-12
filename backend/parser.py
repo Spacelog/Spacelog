@@ -95,8 +95,8 @@ class TranscriptParser(object):
             elif line[0] in string.whitespace:
                 # Continuation line
                 if not current_chunk:
-                    print "Error: Continuation line before first timestamp header. Timestamp %s" % \
-                                                                        (seconds_to_timestamp(timestamp))
+                    print "Error: Continuation line before first timestamp header. Line: %s" % \
+                                                                        (line)
                 elif not current_chunk['lines']:
                     print "Error: Continuation line before first speaker name. Timestamp %s" % \
                                                                         (seconds_to_timestamp(timestamp))
