@@ -1,0 +1,77 @@
+{
+    "name": "g4",
+    "featured": false,
+    "subdomains": ["gemini4", "g4"],
+    "copy": {
+        "title": "Gemini 4",
+        "upper_title": "Gemini",
+        "lower_title": "4",
+        "description": "The 1965 Gemini mission that made Ed White the first American to perform a spacewalk.",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+            "Greg Roodt"
+        ],
+        "about": "",
+        "image_attributions": [
+        ],
+        "transcript_attributions": [
+            { 
+                "url": "http://www.jsc.nasa.gov/history/mission_trans/gemini4.htm", 
+                "title": "Gemini IV Composite Air-to-Ground and Onboard Voice Tape Transcription"
+            }
+        ],
+        "call_signs": ""
+    },
+    "main_transcript": "g4/TEC",
+    "media_transcript": "",
+    "utc_launch_time": -144492241,
+    "acts" : [
+    ],
+    "key_scenes" : [
+    ],
+    "homepage_quotes": [
+    ],
+    "characters": {
+        "CC": {
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
+            "name": "Capsule Communicator",
+            "short_name": "CAPCOM",
+            "bio": "",
+            "photo": "capcom.jpg",
+            "photo_width": 190,
+            "photo_height": 205,
+            "avatar": "capcom_generic.jpg"
+        },
+        "C": {
+          "role": "astronaut",
+          "name": "James Alton McDivitt",
+          "short_name": "James McDivitt",
+          "bio": "",
+          "photo": "james_mcdivitt.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "",
+          "quotable_log_line_id": ""
+        },
+        "P": {
+          "role": "astronaut",
+          "name": "Edward Higgins White, II",
+          "short_name": "Edward White",
+          "bio": "",
+          "photo": "edward_white.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "",
+          "quotable_log_line_id": ""
+        },
+        "S": {
+          "role": "other",
+          "name": "Surgeon",
+          "short_name": "Flight Surgeon",
+          "avatar": "surgeon.png"
+        }
+    },
+    "glossary": {
+    }
+}
