@@ -108,7 +108,7 @@ class TranscriptParser(object):
                 try:
                     speaker, text = line.split(":", 1)
                 except ValueError:
-                    print "Error: First speaker line not in Name: Text format."
+                    print "Error: First speaker line not in Name: Text format: %s" % line
                 else:
                     line = {
                         "speaker": speaker.strip(),
