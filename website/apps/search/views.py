@@ -81,7 +81,7 @@ class SearchView(TemplateView):
 
         def page_url(offset):
             return reverse("search") + '?' + urllib.urlencode({
-                'q': q,
+                'q': q.encode('utf-8'),
                 'offset': offset,
             })
 
