@@ -6,7 +6,7 @@
 {% block body-class %}about-section{% endblock %}
 {% block content-class %}about{% endblock %}
 {% block content %}
-  <h1>Based on the original transcript</h1>
+  <h1>{{ mission.copy.based_on_header }}</h1>
   <div id='coverpage'>
     <a href='{% url original 1 %}'>
         <img src='{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/original/TEC/about.png'
