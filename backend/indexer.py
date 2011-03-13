@@ -139,7 +139,7 @@ class TranscriptIndexer(object):
                 doc.fields.append(xappy.Field("speaker", line['speaker']))
         doc.id = id
         try:
-            search_db.add(search_db.process(doc))
+            search_db.replace(search_db.process(doc))
         except xappy.errors.IndexerError:
             print "umm, error"
             print id, lines
