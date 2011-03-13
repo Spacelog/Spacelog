@@ -549,35 +549,55 @@ class MissionIndexer(object):
 
 if __name__ == "__main__":
     redis_conn = redis.Redis()
+    transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
+    if len(sys.argv)>1:
+        dirs = sys.argv[1:]
+        flip_db = False
+    else:
+        dirs = os.listdir(transcript_dir)
+        flip_db = True
     # Find out what the current database number is
     if not redis_conn.exists("live_database"):
         redis_conn.set("live_database", 0)
     current_db = int(redis_conn.get("live_database") or 0)
-    # Work out the new database
-    new_db = 0 if current_db else 1
-    print "Indexing into database %s" % new_db
-    # Flush the new one
-    redis_conn.select(new_db)
-    redis_conn.flushdb()
-    # Restore the live database key
-    redis_conn.select(0)
-    redis_conn.set("live_database", current_db)
-    redis_conn.select(new_db)
-    redis_conn.set("hold", "1")
-    transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
-    if len(sys.argv)>1:
-        dirs = sys.argv[1:]
+    
+    if flip_db:
+        # Work out the new database
+        new_db = 0 if current_db else 1
+        print "Indexing into database %s" % new_db
+        # Flush the new one
+        redis_conn.select(new_db)
+        redis_conn.flushdb()
+        # Restore the live database key
+        redis_conn.select(0)
+        redis_conn.set("live_database", current_db)
+        redis_conn.select(new_db)
     else:
-        dirs = os.listdir(transcript_dir)
+        new_db = current_db
+        print "Reindexing into database %s" % new_db
+        print "Note that this is not perfect! Do not use in production."
+        redis_conn.set("hold", "1")
+
     for filename in dirs:
         path = os.path.join(transcript_dir, filename)
         if filename[0] not in "_." and os.path.isdir(path) and os.path.exists(os.path.join(path, "transcripts", "_meta")):
             print "Mission: %s" % filename
+            if not flip_db:
+                # try to flush this mission
+                for k in redis_conn.keys("*:%s:*" % filename):
+                    redis_conn.delete(k.decode('utf-8'))
+                for k in redis_conn.keys("*:%s/*" % filename):
+                    redis_conn.delete(k.decode('utf-8'))
+                for k in redis_conn.keys("%s:*" % filename):
+                    redis_conn.delete(k.decode('utf-8'))
+                for k in redis_conn.keys("*:%s" % filename):
+                    redis_conn.delete(k.decode('utf-8'))
             idx = MissionIndexer(redis_conn, filename, os.path.join(path, "transcripts")) 
             idx.index()
     search_db.flush()
-    redis_conn.delete("hold")
-    # Switch the database over
-    redis_conn.select(0)
-    redis_conn.set("live_database", new_db)
-
+    if flip_db:
+        # Switch the database over
+        redis_conn.select(0)
+        redis_conn.set("live_database", new_db)
+    else:
+        redis_conn.delete("hold")
