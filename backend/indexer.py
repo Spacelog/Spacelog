@@ -342,6 +342,8 @@ class MetaIndexer(object):
         copy = meta.get("copy", {})
         for key, value in copy.items():
             copy[key] = json.dumps(value)
+        if copy.get('based_on_header', None) is None:
+            copy['based_on_header'] = json.dumps('Based on the original transcript')
         self.redis_conn.hmset(
             "mission:%s:copy" % self.mission_name,
             copy,
