@@ -375,6 +375,26 @@ class MetaIndexer(object):
                 del data['range']
 
                 self.redis_conn.hmset(key, data)
+        # if no acts at all, make one that includes everything from before Vostok 1 until after now
+        # do this before we link key scenes, so we can have them without having to specify acts
+        if len(list(Act.Query(self.redis_conn, self.mission_name)))==0:
+            key = "act:%s:0" % (self.mission_name,)
+            title = meta.get('copy', {}).get('title', None)
+            if title is None:
+                title = meta.get('name', u'The Mission')
+            else:
+                title = json.loads(title)
+            data = {
+                'title': title,
+                'description': '',
+                'start': -300000000, # Vostok 1 launch was -275248380
+                'end': int(time.time()) + 86400*365 # so we can have acts ending up to a year in the future
+            }
+            self.redis_conn.rpush(
+                "acts:%s" % (self.mission_name,),
+                "%s:0" % (self.mission_name,),
+            )
+            self.redis_conn.hmset(key, data)
         # Link key scenes and acts
         for act in Act.Query(self.redis_conn, self.mission_name):
             for key_scene in KeyScene.Query(self.redis_conn, self.mission_name):
