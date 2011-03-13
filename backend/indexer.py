@@ -4,6 +4,7 @@ import sys
 import re
 import redis
 import xappy
+import time
 try:
     import json
 except ImportError:
