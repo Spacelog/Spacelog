@@ -55,7 +55,7 @@
       <dt class='speaker'>
         {% avatar_and_name speaker mission.name log_line.timestamp %}
       </dt>
-      <dd class='{% pause_class log_line.following_silence %}'>
+      <dd{% if forloop.last %} class='{% pause_class log_line.following_silence %}'{% endif %}>
       <p>
         {% if log_line.first_in_key_scene %}
         <em><i>Key moment</i> {{ log_line.key_scene.title|safe }}<span>: </span></em>
