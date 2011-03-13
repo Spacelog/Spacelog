@@ -54,6 +54,9 @@
 .homepage .featured li {
     margin-bottom:          30px;
 }
+.homepage .featured li:nth-child( 3n+1 ) {
+    clear:                  left;
+}
 .homepage .featured img {
     display:                block;
 }
