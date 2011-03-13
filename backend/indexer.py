@@ -320,10 +320,18 @@ class MetaIndexer(object):
                 meta['subdomain'] = subdomain
             self.redis_conn.set("subdomain:%s" % subdomain, meta['name'])
         del meta['subdomains']
+        utc_launch_time = meta['utc_launch_time']
+        if isinstance(utc_launch_time, basestring):
+            # parse as something more helpful than a number
+            # time.mktime operates in the local timezone, so force that to UTC first
+            os.environ['TZ'] = 'UTC'
+            time.tzset()
+            utc_launch_time = int(time.mktime(time.strptime(utc_launch_time, "%Y-%m-%dT%H:%M:%S")))
+            print "Converted launch time to UTC timestamp:", utc_launch_time
         self.redis_conn.hmset(
             "mission:%s" % self.mission_name,
             {
-                "utc_launch_time": meta['utc_launch_time'],
+                "utc_launch_time": utc_launch_time,
                 "featured": meta.get('featured', False),
                 "incomplete": meta.get('incomplete', False),
                 "main_transcript": meta.get('main_transcript', None),
