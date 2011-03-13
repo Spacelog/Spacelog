@@ -375,13 +375,16 @@ class Character(object):
     def _load(self):
         key = u"characters:%s" % self.id
         data = self.redis_conn.hgetall( key )
+        bio = data.get('bio', None)
+        if bio is not None:
+            bio = bio.decode('utf-8')
         
-        self.name                 = data.get('name', self.identifier)
-        self.short_name           = data.get('short_name', self.identifier)
+        self.name                 = data.get('name', self.identifier.encode('utf-8')).decode('utf-8')
+        self.short_name           = data.get('short_name', self.identifier.encode('utf-8')).decode('utf-8')
         self.role                 = data.get('role', 'other')
         self.mission_position     = data.get('mission_position', '')
         self.avatar               = data.get('avatar', 'blank_avatar_48.png')
-        self.bio                  = data.get('bio', None)
+        self.bio                  = bio
         self.photo                = data.get('photo', None)
         self.photo_width          = data.get('photo_width', None)
         self.photo_height         = data.get('photo_height', None)
