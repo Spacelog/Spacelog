@@ -407,7 +407,7 @@ class Character(object):
         shifts_key = u'characters:%s:shifts' % self.id
         shifts = self.redis_conn.zrangebyscore(shifts_key, -86400, timestamp)
         if shifts:
-            shift_start, character_identifier = shifts[-1].split(u':')
+            shift_start, character_identifier = shifts[-1].decode('utf-8').split(u':')
             return Character(self.redis_conn, self.mission_name, character_identifier)
         else:
             return self
