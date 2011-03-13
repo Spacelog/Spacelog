@@ -518,6 +518,7 @@ class Mission(object):
         self.incomplete = (data['incomplete'].lower() == "true")
         self.subdomain = data.get('subdomain', None)
         self.utc_launch_time = data['utc_launch_time']
+        self.type_search = self.copy.get('type_search', 'reentry')
 
     class Query(BaseQuery):
 
