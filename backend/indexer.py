@@ -150,6 +150,7 @@ class TranscriptIndexer(object):
         current_transcript_page = None
         current_page = 1
         current_page_lines = 0
+        current_lang = None
         last_act = None
         previous_log_line_id = None
         previous_timestamp = None
@@ -168,6 +169,8 @@ class TranscriptIndexer(object):
             # See if there's transcript page info, and update it if so
             if chunk['meta'].get('_page', 0):
                 current_transcript_page = int(chunk["meta"]['_page'])
+            if chunk['meta'].get('_lang', None):
+                current_lang = chunk['meta']['_lang']
             if current_transcript_page:
                 self.redis_conn.set("log_line:%s:page" % log_line_id, current_transcript_page)
             # Look up the act
@@ -192,6 +195,8 @@ class TranscriptIndexer(object):
             }
             if current_transcript_page:
                 info_record["transcript_page"] = current_transcript_page
+            if current_lang:
+                info_record["lang"] = current_lang
 
             self.redis_conn.hmset(
                 info_key,

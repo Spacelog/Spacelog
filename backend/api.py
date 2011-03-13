@@ -71,6 +71,7 @@ class LogLine(object):
         self.act_number = int(data['act'])
         self.key_scene_number = data.get('key_scene', None)
         self.utc_time = datetime.datetime.utcfromtimestamp(int(data['utc_time']))
+        self.lang = data.get('lang', None)
 
     def __repr__(self):
         return "<LogLine %s:%i, page %s (%s lines)>" % (self.transcript_name, self.timestamp, self.page, len(self.lines))
