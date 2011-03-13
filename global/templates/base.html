@@ -34,7 +34,26 @@
 {% include "_base/masthead.html" %}
 
 <div id='content' class='{% block content-class %}{% endblock %}'><div class="wrapper">
-{% block content %}{% endblock %}
+{% block content %}
+{% block abstract %}{% endblock %}
+<div class='primary-content'>{% block primary-content %}{% endblock %}</div>
+<div class='secondary-content'>
+  <h1>Suggested reading</h1>
+  <p>We've pulled together some books we've found interesting or helpful; they all use our Amazon affiliate code to help pay for hosting Spacelog.</p>
+  {% for list in READING_LISTS %}
+    <h2>{{ list.0 }}</h2>
+    <ul class='reading-list'>
+    {% for book in list.1 %}
+      <li><cite>{{ book.0 }}</cite>{% if book.1 %} by {{ book.1 }}{% endif %}:
+        {% for link in book.2 %}
+          {% if not forloop.first and not forloop.last %}, {% endif %}{% if forloop.last %} or {% endif %}<a href='{{ link.0 }}'><span>Buy <cite>{{ book.0 }}</cite> on </span>{{ link.1 }}</a>
+        {% endfor %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
+{% endblock %}
 </div></div>
 
 <div id='footer'><div class="wrapper">
