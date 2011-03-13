@@ -60,7 +60,11 @@
         {% if log_line.first_in_key_scene %}
         <em><i>Key moment</i> {{ log_line.key_scene.title|safe }}<span>: </span></em>
         {% endif %}
+        {% if log_line.lang %}
+        <span lang='{{ log_line.lang }}'>{{text|safe}}</span>
+        {% else %}
         {{text|safe}}
+        {% endif %}
       </p>
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
           <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}' class='range-ui' id='expand-previous'><span>Expand selection up</span></a>
