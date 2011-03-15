@@ -2,6 +2,7 @@ import redis
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from backend.api import Mission
+from transcripts.templatetags.missiontime import component_suppression
 
 class MissionMiddleware(object):
     """
@@ -16,6 +17,12 @@ class MissionMiddleware(object):
         if not request.holding:
             mission_name = request.redis_conn.get("subdomain:%s" % subdomain) or "a13"
             request.mission = Mission(request.redis_conn, mission_name)
+            if request.mission.copy.get('component_suppression', None):
+                component_suppression.leading = request.mission.copy['component_suppression'].get('leading', None)                
+                component_suppression.trailing = request.mission.copy['component_suppression'].get('trailing', None)
+            else:
+                component_suppression.leading = None
+                component_suppression.trailing = None
 
 class HoldingMiddleware(object):
     """

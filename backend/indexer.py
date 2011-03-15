@@ -4,6 +4,7 @@ import sys
 import re
 import redis
 import xappy
+import time
 try:
     import json
 except ImportError:
@@ -139,7 +140,7 @@ class TranscriptIndexer(object):
                 doc.fields.append(xappy.Field("speaker", line['speaker']))
         doc.id = id
         try:
-            search_db.add(search_db.process(doc))
+            search_db.replace(search_db.process(doc))
         except xappy.errors.IndexerError:
             print "umm, error"
             print id, lines
@@ -150,6 +151,7 @@ class TranscriptIndexer(object):
         current_transcript_page = None
         current_page = 1
         current_page_lines = 0
+        current_lang = None
         last_act = None
         previous_log_line_id = None
         previous_timestamp = None
@@ -168,6 +170,8 @@ class TranscriptIndexer(object):
             # See if there's transcript page info, and update it if so
             if chunk['meta'].get('_page', 0):
                 current_transcript_page = int(chunk["meta"]['_page'])
+            if chunk['meta'].get('_lang', None):
+                current_lang = chunk['meta']['_lang']
             if current_transcript_page:
                 self.redis_conn.set("log_line:%s:page" % log_line_id, current_transcript_page)
             # Look up the act
@@ -192,6 +196,8 @@ class TranscriptIndexer(object):
             }
             if current_transcript_page:
                 info_record["transcript_page"] = current_transcript_page
+            if current_lang:
+                info_record["lang"] = current_lang
 
             self.redis_conn.hmset(
                 info_key,
@@ -315,10 +321,18 @@ class MetaIndexer(object):
                 meta['subdomain'] = subdomain
             self.redis_conn.set("subdomain:%s" % subdomain, meta['name'])
         del meta['subdomains']
+        utc_launch_time = meta['utc_launch_time']
+        if isinstance(utc_launch_time, basestring):
+            # parse as something more helpful than a number
+            # time.mktime operates in the local timezone, so force that to UTC first
+            os.environ['TZ'] = 'UTC'
+            time.tzset()
+            utc_launch_time = int(time.mktime(time.strptime(utc_launch_time, "%Y-%m-%dT%H:%M:%S")))
+            print "Converted launch time to UTC timestamp:", utc_launch_time
         self.redis_conn.hmset(
             "mission:%s" % self.mission_name,
             {
-                "utc_launch_time": meta['utc_launch_time'],
+                "utc_launch_time": utc_launch_time,
                 "featured": meta.get('featured', False),
                 "incomplete": meta.get('incomplete', False),
                 "main_transcript": meta.get('main_transcript', None),
@@ -329,6 +343,8 @@ class MetaIndexer(object):
         copy = meta.get("copy", {})
         for key, value in copy.items():
             copy[key] = json.dumps(value)
+        if copy.get('based_on_header', None) is None:
+            copy['based_on_header'] = json.dumps('Based on the original transcript')
         self.redis_conn.hmset(
             "mission:%s:copy" % self.mission_name,
             copy,
@@ -359,6 +375,26 @@ class MetaIndexer(object):
                 del data['range']
 
                 self.redis_conn.hmset(key, data)
+        # if no acts at all, make one that includes everything from before Vostok 1 until after now
+        # do this before we link key scenes, so we can have them without having to specify acts
+        if len(list(Act.Query(self.redis_conn, self.mission_name)))==0:
+            key = "act:%s:0" % (self.mission_name,)
+            title = meta.get('copy', {}).get('title', None)
+            if title is None:
+                title = meta.get('name', u'The Mission')
+            else:
+                title = json.loads(title)
+            data = {
+                'title': title,
+                'description': '',
+                'start': -300000000, # Vostok 1 launch was -275248380
+                'end': int(time.time()) + 86400*365 # so we can have acts ending up to a year in the future
+            }
+            self.redis_conn.rpush(
+                "acts:%s" % (self.mission_name,),
+                "%s:0" % (self.mission_name,),
+            )
+            self.redis_conn.hmset(key, data)
         # Link key scenes and acts
         for act in Act.Query(self.redis_conn, self.mission_name):
             for key_scene in KeyScene.Query(self.redis_conn, self.mission_name):
@@ -513,35 +549,55 @@ class MissionIndexer(object):
 
 if __name__ == "__main__":
     redis_conn = redis.Redis()
+    transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
+    if len(sys.argv)>1:
+        dirs = sys.argv[1:]
+        flip_db = False
+    else:
+        dirs = os.listdir(transcript_dir)
+        flip_db = True
     # Find out what the current database number is
     if not redis_conn.exists("live_database"):
         redis_conn.set("live_database", 0)
     current_db = int(redis_conn.get("live_database") or 0)
-    # Work out the new database
-    new_db = 0 if current_db else 1
-    print "Indexing into database %s" % new_db
-    # Flush the new one
-    redis_conn.select(new_db)
-    redis_conn.flushdb()
-    # Restore the live database key
-    redis_conn.select(0)
-    redis_conn.set("live_database", current_db)
-    redis_conn.select(new_db)
-    redis_conn.set("hold", "1")
-    transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
-    if len(sys.argv)>1:
-        dirs = sys.argv[1:]
+    
+    if flip_db:
+        # Work out the new database
+        new_db = 0 if current_db else 1
+        print "Indexing into database %s" % new_db
+        # Flush the new one
+        redis_conn.select(new_db)
+        redis_conn.flushdb()
+        # Restore the live database key
+        redis_conn.select(0)
+        redis_conn.set("live_database", current_db)
+        redis_conn.select(new_db)
     else:
-        dirs = os.listdir(transcript_dir)
+        new_db = current_db
+        print "Reindexing into database %s" % new_db
+        print "Note that this is not perfect! Do not use in production."
+        redis_conn.set("hold", "1")
+
     for filename in dirs:
         path = os.path.join(transcript_dir, filename)
         if filename[0] not in "_." and os.path.isdir(path) and os.path.exists(os.path.join(path, "transcripts", "_meta")):
             print "Mission: %s" % filename
+            if not flip_db:
+                # try to flush this mission
+                for k in redis_conn.keys("*:%s:*" % filename):
+                    redis_conn.delete(k.decode('utf-8'))
+                for k in redis_conn.keys("*:%s/*" % filename):
+                    redis_conn.delete(k.decode('utf-8'))
+                for k in redis_conn.keys("%s:*" % filename):
+                    redis_conn.delete(k.decode('utf-8'))
+                for k in redis_conn.keys("*:%s" % filename):
+                    redis_conn.delete(k.decode('utf-8'))
             idx = MissionIndexer(redis_conn, filename, os.path.join(path, "transcripts")) 
             idx.index()
     search_db.flush()
-    redis_conn.delete("hold")
-    # Switch the database over
-    redis_conn.select(0)
-    redis_conn.set("live_database", new_db)
-
+    if flip_db:
+        # Switch the database over
+        redis_conn.select(0)
+        redis_conn.set("live_database", new_db)
+    else:
+        redis_conn.delete("hold")

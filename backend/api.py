@@ -71,6 +71,7 @@ class LogLine(object):
         self.act_number = int(data['act'])
         self.key_scene_number = data.get('key_scene', None)
         self.utc_time = datetime.datetime.utcfromtimestamp(int(data['utc_time']))
+        self.lang = data.get('lang', None)
 
     def __repr__(self):
         return "<LogLine %s:%i, page %s (%s lines)>" % (self.transcript_name, self.timestamp, self.page, len(self.lines))
@@ -374,13 +375,16 @@ class Character(object):
     def _load(self):
         key = u"characters:%s" % self.id
         data = self.redis_conn.hgetall( key )
+        bio = data.get('bio', None)
+        if bio is not None:
+            bio = bio.decode('utf-8')
         
-        self.name                 = data.get('name', self.identifier)
-        self.short_name           = data.get('short_name', self.identifier)
+        self.name                 = data.get('name', self.identifier.encode('utf-8')).decode('utf-8')
+        self.short_name           = data.get('short_name', self.identifier.encode('utf-8')).decode('utf-8')
         self.role                 = data.get('role', 'other')
         self.mission_position     = data.get('mission_position', '')
         self.avatar               = data.get('avatar', 'blank_avatar_48.png')
-        self.bio                  = data.get('bio', None)
+        self.bio                  = bio
         self.photo                = data.get('photo', None)
         self.photo_width          = data.get('photo_width', None)
         self.photo_height         = data.get('photo_height', None)
@@ -406,7 +410,7 @@ class Character(object):
         shifts_key = u'characters:%s:shifts' % self.id
         shifts = self.redis_conn.zrangebyscore(shifts_key, -86400, timestamp)
         if shifts:
-            shift_start, character_identifier = shifts[-1].split(u':')
+            shift_start, character_identifier = shifts[-1].decode('utf-8').split(u':')
             return Character(self.redis_conn, self.mission_name, character_identifier)
         else:
             return self
@@ -517,6 +521,7 @@ class Mission(object):
         self.incomplete = (data['incomplete'].lower() == "true")
         self.subdomain = data.get('subdomain', None)
         self.utc_launch_time = data['utc_launch_time']
+        self.type_search = self.copy.get('type_search', 'reentry')
 
     class Query(BaseQuery):
 

@@ -58,7 +58,7 @@ class SearchView(TemplateView):
             query,
             db.query_composite(db.OP_AND, [
                 db.query_field("mission", self.request.mission.name),
-                db.query_field("transcript", "%s/TEC" % self.request.mission.name),
+                db.query_field("transcript", self.request.mission.main_transcript),
             ])
         )
         results = db.search(
@@ -81,7 +81,7 @@ class SearchView(TemplateView):
 
         def page_url(offset):
             return reverse("search") + '?' + urllib.urlencode({
-                'q': q,
+                'q': q.encode('utf-8'),
                 'offset': offset,
             })
 

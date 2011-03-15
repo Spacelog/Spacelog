@@ -6531,7 +6531,7 @@ CC:  Okay. Now, next, at about 105:05, there's a
 
 [01:08:50:42]
 CMP: Okay. That "VERB 48" should be moved up to
-     105:05 and also the "[glossary:VERB 49]."
+     105:05 and also the "VERB 49."
 
 [01:08:50:50]
 CC:  That should be moved up to 105:00. I'm sorry.
@@ -18067,7 +18067,7 @@ LMP: Okay. [glossary:SPS] ... - -
 CDR: If we don't keep working, we'll never develop it.
 
 [03:01:32:29]
-LMP: ... now, Power up your [glossary:FDAI].
+LMP: ... now, Power up your FDAI.
 
 [03:01:32:31]
 _page : 291
@@ -18087,7 +18087,7 @@ LMP: ... GASTA.
 CDR: Okay.
 
 [03:01:32:47]
-LMP: And COMMANDER [glossary:FDAI].
+LMP: And COMMANDER FDAI.
 
 [03:01:32:49]
 CDR: Okay.
@@ -18411,7 +18411,7 @@ CDR: Go ahead.
 
 [03:01:51:38]
 CC:  Jim, in a moment we will have an attitude for you
-     to go to, and recommend that you keep your [glossary:FDAI] up
+     to go to, and recommend that you keep your FDAI up
      while maneuvering to that attitude. After you
      get there, then we will have you widen the deadband
      and eventually go into a [glossary:PTC] about the burn
@@ -18423,7 +18423,7 @@ CDR: You were cut off slightly, Vance.
 [03:01:52:08]
 CC:  Roger. We will have an attitude for you to
      maneuver to in a moment. And you should leave
-     your [glossary:FDAI] up for that. The attitude is as follows
+     your FDAI up for that. The attitude is as follows
      if you are ready to copy. Over.
 
 [03:01:52:26]
@@ -18977,12 +18977,12 @@ CC:  Okay, that's affirm. You'll be doing the [glossary:PTC]
      in yaw, and we'll give you a call at each time
      you change yaw - yaw attitude. Aside from that,
      request low bit rate off; then DOWN VOICE BACKUP
-     OFF; then POWER AMPL OFF; and then [glossary:FDAI] OFF.
+     OFF; then POWER AMPL OFF; and then FDAI OFF.
 
 [03:02:33:42]
 LMP: Okay, Vance. On the power down, we go low bit
      rate; DOWN VOICE BACKUP, we'll pull the POWER
-     AMPL breaker; and we'll power down the [glossary:FDAI] and
+     AMPL breaker; and we'll power down the FDAI and
      the AC.
 
 [03:02:33:55]
@@ -20641,7 +20641,7 @@ CC:  Roger. We'll get back with you on the powerup
      to burn attitude. Over.
 
 [03:04:44:35]
-LMP: Okay. Go ahead with the [glossary:VERB 49] value.
+LMP: Okay. Go ahead with the VERB 49 value.
 
 [03:04:44:38]
 CC:  Okay. R<sub>1</sub> plus 27210, R<sub>2</sub> plus 35570, R<sub>3</sub> plus
@@ -21157,7 +21157,7 @@ CDR: Okay. Go ahead with the ...
 [03:05:55:24]
 _page : 336
 _tape : Tape 52/4
-CC:  Okay. This is [glossary:P30], [glossary:LM] maneuver pad, PC
+CC:  Okay. This is [glossary:P30], LM maneuver pad, PC
      plus 2 hours, starting with [glossary:NOUN 33], [time:03:07:27:38|079:27:38.30],
      plus 0833.0, minus 0050.9, minus 0213.9, N/A,
      plus 0020.5, 0861.5, 4:24, 272, 081, and the
@@ -24901,7 +24901,7 @@ LMP: Yes. You're right.
 
 [03:12:43:28]
 LMP: Okay. The center of the Moon new is about
-     minus 2 degrees [glossary:LPD].
+     minus 2 degrees LPD.
 
 [03:12:43:35]
 CC:  Minus 2 degrees, center of the Moon.
@@ -25149,7 +25149,7 @@ CC:  Fred-o, would say the checkpoint over which
      you're right now?
 
 [03:13:15:56]
-LMP: Okay. And incidentally, the [glossary:LPD] on the
+LMP: Okay. And incidentally, the LPD on the
      Moon was zero, so it's coming back down. The
      point looks like we're just about straight over
      is around Censorinus and the point between it
@@ -31562,7 +31562,7 @@ CDR: Okay. Understand.
 [04:04:38:21]
 CC:  Okay. Picking up in the middle of the page, that -
      a block "CMS resume attitude control," scratch.
-     Scratch the next line; "PRO [glossary:VERB 96]." Scratch
+     Scratch the next line; "PRO VERB 96." Scratch
      the third line; "PROPELLANT QUANTITY MONITOR,
      OFF." Over.
 
@@ -35645,7 +35645,7 @@ LMP: Okay, Jack. One question here. If we have any
      problems setting up this [glossary:LM] power to the [glossary:CSM],
      is the quickest way to get out of it, return to
      the normal configuration, as it is for me to
-     just switch the [glossary:LM] POWER to [glossary:CSM] to RESET then OFF?
+     just switch the LM POWER to [glossary:CSM] to RESET then OFF?
 
 [04:15:16:57]
 CC:  Stand by 1.
@@ -35695,7 +35695,7 @@ CC:  Okay. And before you go ahead with this, let's
 
 [04:15:21:31]
 CMP: Okay. I understand you want high bit rate on
-     the [glossary:LM] or [glossary:CSM] just before we start this?
+     the LM or [glossary:CSM] just before we start this?
 
 [04:15:21:40]
 _page : 566
@@ -37774,7 +37774,7 @@ CC:  Okay, Jim. We are laying for you on that one;
      feelings are - Of course, it is up to you, but
      as we see the pros and cons, you just put your
      finger on the pro. We do a hatch integrity
-     check shortly before [glossary:EI] minus 1 hours, and if we
+     check shortly before EI minus 1 hours, and if we
      bust it, you would have a hard time scrambling
      into the suits. On the other hand, the disadvantages of wearing the suits are that they might
      slow you down considerably, not even counting the
@@ -39923,7 +39923,7 @@ CMP: Okay. Panel 5; FLOODLIGHTS; you want the rheostat on. Panel 100, FLOODLIGHT
 
 [05:06:17:14]
 CC:  That's affirmative. Okay. On panel 8: circuit
-     breakers [glossary:EMS], MAIN A and MAIN B, that's two,
+     breakers EMS, MAIN A and MAIN B, that's two,
      open.
 
 [05:06:17:47]
@@ -40598,7 +40598,7 @@ CC:  Roger.
 CMP: Okay. Could you repeat that, please?
 
 [05:06:49:38]
-CC:  Okay. On panel 5: circuit breakers [glossary:EPS] SENSOR
+CC:  Okay. On panel 5: circuit breakers EPS SENSOR
      SIGNAL, AC 1 and 2, closed.
 
 [05:06:49:56]
@@ -40810,7 +40810,7 @@ CC:  That's correct. And the next thing you will
      have the computer.
 
 [05:07:00:10]
-CMP: Okay. Set it from the [glossary:CMC], huh?
+CMP: Okay. Set it from the CMC, huh?
 
 [05:07:00:13]
 CC:  That's affirm. Okay. Now, we are getting
@@ -40856,7 +40856,7 @@ CC: Okay. Basically, that is correct. Let me just
      Moon. Now, this set of angles will agree with
      the [glossary:REFSMMAT] that you have in as a nominal
      [glossary:REFSMMAT] in you [glossary:CMC]. You can coarse aline to that,
-     set a drift flag and [glossary:REFSMMAT] flag, and you'll
+     set a drift flag and REFSMMAT flag, and you'll
      have a good platform and we'll be within a
      couple of degrees of a good alinement. And, if
      we have to, we could break off at this point and
@@ -41129,7 +41129,7 @@ CMP: Okay. Closeout and hatch installation at [glossary:EI]
 
 [05:07:12:35]
 CC:  That's right, Jack, and we're going to close the
-     [glossary:LM] hatch, and we'll make the dump valve in the
+     LM hatch, and we'll make the dump valve in the
      [glossary:LM] hatch closed.
 
 [05:07:12:51]
@@ -42133,7 +42133,7 @@ CMP: Okay. You want me to go to [glossary:VERB 37], ENTER; 00,
 [05:07:54:55]
 CC: When you come up, I guess you're going to - once
      you get the [glossary:CMC] powered up, you're probably going
-     to be going - you're going to come up in a flashing 37, and if you'll just do a [glossary:VERB 96], ENTER
+     to be going - you're going to come up in a flashing 37, and if you'll just do a VERB 96, ENTER
      right there, that will take care of it.
 
 [05:07:55:08]
@@ -42853,7 +42853,7 @@ _tape : Tape 86/9
 CC:  It's clear.
 
 [05:08:36:40]
-LMP: Okay. The master title, "Entry, [glossary:LM] PREP, [glossary:EI] minus
+LMP: Okay. The master title, "Entry, LM PREP, [glossary:EI] minus
      6 hours." First, BAT 5 NORMAL FEED, ON; second,
      use modified [glossary:LM] [glossary:DPS]/[glossary:RCS], 30-minute activation checklist. Next, is at [glossary:TEI] minus 5 hours, [glossary:MCC]-7, if
      required. Now, we have a [glossary:LM] preentry procedure.
@@ -43663,7 +43663,7 @@ LMP: Okay. I got it.
 
 [05:09:14:01]
 CC:  Okay. Next, same page, under "[glossary:DAP] set gimbal
-     drive," go to step 2. Okay. Add in after [glossary:NOUN 46],
+     drive," go to step 2. Okay. Add in after NOUN 46,
      32021.
 
 [05:09:14:31]
@@ -46256,7 +46256,7 @@ CC:  And, Jim, when you have leisure to copy, I have
 CDR: Okay. Go ahead.
 
 [05:18:13:10]
-CC:  Okay. [glossary:NOUN 46], 31021; [glossary:NOUN 47], plus 25248 and
+CC:  Okay. NOUN 46, 31021; [glossary:NOUN 47], plus 25248 and
      plus 09050. Over.
 
 [05:18:13:33]
@@ -46606,7 +46606,7 @@ CDR: Okay, Joe. Standing by to copy the entry pad.
 CC:  Okay, here we come. Entry pad: Mid-Pacific,
      000153; 000. The next two lines will be the
      [glossary:GET] of moonset and the Moon-check attitude;
-     [time:05:22:38:17|142:38:17], 178; [glossary:NOUN 61], minus 21.66, minus
+     [time:05:22:38:17|142:38:17], 178; NOUN 61, minus 21.66, minus
      165.37; 06.7; 36211, 6.51; 1168.9, 36292;
      [time:05:22:40:40|142:40:40]; 00:28. The next four are N/A;
      D<sub>O</sub> is 4.00, 02:04; 00:17, 03:22, 08:14;
@@ -46914,7 +46914,7 @@ CC:  I'll verify it, Jim. I'm sure it's okay.
 
 [05:19:16:47]
 CC:  Okay, Aquarius; Houston. With the present amount
-     of power you've got in the [glossary:LM], which is over
+     of power you've got in the LM, which is over
      500 amp-hours, and the rate you're using them,
      we figure you've got almost 12 hours of power left.
 
@@ -48150,7 +48150,7 @@ CDR: Okay, Houston. Ready to copy.
 [05:21:48:23]
 CC:  Okay. Mid-PAC, 000152, 000; [time:05:22:38:19|142:38:19], 178; and
      you recall that's [glossary:GET] moonset and Moon-check
-     attitude. [glossary:NOUN 61], minus 21.66, minus 165.37;
+     attitude. NOUN 61, minus 21.66, minus 165.37;
      05.2; 3621.1, 6.20; 1119.7, 36291; [time:05:22:40:46|142:40:46];
      00:30; the next four are N/A; D<sub>O</sub> is 4.00, 02:20;
      00:19, 03:38, 07:59. The rest of the pad is

@@ -4,7 +4,7 @@ import sys
 import re
 
 #MAX_FILE_NUMBER = 20
-MAX_FILE_NUMBER = 765
+MAX_FILE_NUMBER = 3
 TIMESTAMP_PARTS = 4
 
 pageNumber = 1
@@ -33,7 +33,9 @@ valid_tec_speakers = (
     "Music",
     "P",
     "G",
-    "SY"
+    "SY",
+    "R3",
+    "YORK"
 )
        
 def get_file_name_for(num):
@@ -137,11 +139,16 @@ def line_is_a_new_entry(line):
             int(token)
         except:
             return False
-    
+
+    if int(dateTokens[0]) > 20 or int(dateTokens[1]) > 23\
+            or int(dateTokens[2]) > 59 or int(dateTokens[3]) > 59:
+        return False
+
     return True
 
 def is_a_non_log_line(line):
-    return len(line.raw) != len(line.raw.lstrip()) or not line.raw or "(Music" in line.raw
+    return line.raw[0] == '\t'
+    #return len(line.raw) != len(line.raw.lstrip()) or not line.raw or "(Music" in line.raw
 
 def translate_lines(translated_lines):
     translatedLines = []
@@ -215,7 +222,6 @@ def check_lines_are_in_sequence(lines):
     for line in lines:
         if line.seconds_from_mission_start < currentTime:
             errors.append("Line out of Sync error at %s" % get_timestamp_as_mission_time(line))
-            print(get_formatted_record_for(line))
         currentTime = line.seconds_from_mission_start
 
 def report_errors_and_exit():
