@@ -124,7 +124,7 @@
             "photo": "grissom.jpg",
             "photo_width": 190,
             "photo_height": 205,
-            "avatar": "astro.png",
+            "avatar": "grissom.jpg",
             "stats": [
                 {
                     "value": 38,
@@ -149,7 +149,7 @@
             "photo": "young.jpg",
             "photo_width": 190,
             "photo_height": 205,
-            "avatar": "astro.png",
+            "avatar": "young.jpg",
             "stats": [
                 {
                     "value": 34,
@@ -233,7 +233,7 @@
             "photo": "cooper.jpg",
             "photo_width": 205,
             "photo_height": 138,
-            "avatar": "person.png",
+            "avatar": "cooper.jpg",
             "bio": "Having flown the last mission of Project Mercury in 1963, Gordon Cooper was the only NASA astronaut at the time of Gemini 3 to have completed over a day in space. He would go on to set a space endurance record with Pete Conrad in Gemini 5, traveling over 3 million miles in 191 hours, a flight which also saw him become the first man to fly a second orbital spaceflight."
         },
         "PETE_CONRAD": {
@@ -244,7 +244,7 @@
             "photo": "conrad.jpg",
             "photo_width": 205,
             "photo_height": 138,
-            "avatar": "person.png",
+            "avatar": "conrad.jpg",
             "bio": "A naval aviator and test pilot before joining NASA, Pete Conrad was selected as an astronaut in September 1962, and first flew as pilot of Gemini 5, going on to fly three more times including commanding Apollo XII, the second lunar landing, before leaving NASA and the Navy for roles in industry."
         },
         "ROGER_CHAFFEE": {
@@ -255,7 +255,7 @@
             "photo": "chaffee.jpg",
             "photo_width": 205,
             "photo_height": 138,
-            "avatar": "person.png",
+            "avatar": "chaffee.jpg",
             "bio": "Selected as a NASA astronaut in September 1963 following six years in the US Navy, Roger Chaffee was involved in flight control communications systems and instrumentation systems for the Apollo program. He was selected as a pilot for the first manned Apollo flight, but died on 27th January 1967 in the launch pad test fire during preparation for that mission."
         },
         "CC_CANARY": {
