@@ -105,11 +105,12 @@ class TranscriptIndexer(object):
         #             search_db.add_synonym(bit, character.identifier)
         #             search_db.add_synonym(bit, character.identifier, field='speaker')
 
-    def add_to_search_index(self, mission, id, lines, weight, timestamp):
+    def add_to_search_index(self, mission, id, chunk, weight, timestamp):
         """
         Take some text and a set of speakers (also text) and add a document
         to the search index, with the id stuffed in the document data.
         """
+        lines = chunk['lines']
         doc = xappy.UnprocessedDocument()
         doc.fields.append(xappy.Field("mission", mission))
         doc.fields.append(xappy.Field("weight", weight))
@@ -198,6 +199,9 @@ class TranscriptIndexer(object):
                 info_record["transcript_page"] = current_transcript_page
             if current_lang:
                 info_record["lang"] = current_lang
+            # And an editorial note if present
+            if '_note' in chunk['meta']:
+                info_record["note"] = chunk['meta']['_note']
 
             self.redis_conn.hmset(
                 info_key,
@@ -223,11 +227,11 @@ class TranscriptIndexer(object):
             previous_log_line_id = log_line_id
             previous_timestamp = timestamp
             # Also store the text
-            text = ""
+            text = u""
             for line in chunk['lines']:
                 self.redis_conn.rpush(
                     "log_line:%s:lines" % log_line_id,
-                    "%(speaker)s: %(text)s" % line,
+                    u"%(speaker)s: %(text)s" % line,
                 )
                 text += "%s %s" % (line['speaker'], line['text'])
             # Store any images
@@ -284,7 +288,7 @@ class TranscriptIndexer(object):
             self.add_to_search_index(
                 mission=self.mission_name,
                 id=log_line_id,
-                lines = chunk['lines'],
+                chunk = chunk,
                 weight=weight,
                 timestamp=timestamp,
             )
