@@ -339,7 +339,7 @@ class MetaIndexer(object):
                 "utc_launch_time": utc_launch_time,
                 "featured": meta.get('featured', False),
                 "incomplete": meta.get('incomplete', False),
-                "main_transcript": meta.get('main_transcript', None),
+                "main_transcript": meta.get('main_transcript', "%s/TEC" % self.mission_name),
                 "media_transcript": meta.get('media_transcript', None),
                 "subdomain": meta.get('subdomain', None),
             }
