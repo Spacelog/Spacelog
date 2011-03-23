@@ -1,6 +1,7 @@
 {
     "name": "g4",
     "featured": false,
+    "incomplete": true,
     "subdomains": ["gemini4", "g4"],
     "copy": {
         "title": "Gemini 4",
