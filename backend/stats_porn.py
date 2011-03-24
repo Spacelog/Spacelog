@@ -67,7 +67,7 @@ class StatsPornGenerator(object):
             # Iterate over the segments and add them to the draw commands and image map
             for i, line in enumerate(segment_line_counts):
                 start, end, count = line
-                height = int(round(count / float(max_line_count) * self.max_bar_height))
+                height = int(round(count / float(max(max_line_count, 1)) * self.max_bar_height))
 
                 bar_width = 6
                 bar_spacing = 4
