@@ -94,13 +94,14 @@
             "range": [ "00:04:21:23", "00:04:23:14" ]
         },
         {
-            "title": "Due to smoke from the thrusters, the crew decides to deviate from the post-landing checklist in keeping their helmets on.",
-            "range": [ "00:04:53:50", "00:04:54:13" ]
-        },
-        {
             "title": "In going to landing attitude, the change is so sudden that Gus Grissom cracks his helmet faceplate",
             "range": [ "00:04:48:47", "00:04:48:54" ]
+        },
+        {
+            "title": "Due to smoke from the thrusters, the crew decides to deviate from the post-landing checklist in keeping their helmets on.",
+            "range": [ "00:04:53:50", "00:04:54:13" ]
         }
+
     ],
     "homepage_quotes" : [
         "00:01:16:31",
