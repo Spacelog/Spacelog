@@ -74,6 +74,10 @@
             "range": [ "00:00:18:41", "00:00:18:57" ]
         },
         {
+            "title": "Problems with the primary DC-DC converter",
+            "range": [ "00:00:24:04", "00:00:25:50" ]
+        },
+        {
             "title": "First orbit change of a manned spacecraft, lowering the orbit into an almost circular one",
             "range": [ "00:01:33:00", "00:01:34:14" ]
         },
@@ -82,12 +86,12 @@
             "range": [ "00:02:16:44", "00:02:17:28" ]
         },
         {
-            "title": "Third orbital maneuvre, lowering perigee to enable re-entry even if the retrorockets failed",
-            "range": [ "00:04:21:23", "00:04:23:14" ]
-        },
-        {
             "title": "Synergistic Effect of Zero Gravity on Sea Urchin Eggs Experiment, a secondary mission objective, fails to activate due to broken handle.",
             "range": [ "00:03:51:05", "00:03:51:22" ]
+        },
+        {
+            "title": "Third orbital maneuvre, lowering perigee to enable re-entry even if the retrorockets failed",
+            "range": [ "00:04:21:23", "00:04:23:14" ]
         },
         {
             "title": "Due to smoke from the thrusters, the crew decides to deviate from the post-landing checklist in keeping their helmets on.",
