@@ -11,26 +11,26 @@ def static(request):
                 [
                     [
                         "Deke!",
-                        "Deke Slayton",
+                        "Deke Slayton with Michael Cassutt",
                         [
-                            [ "http://amazon.com/", "Amazon US", ],
-                            [ "http://amazon.co.uk/", "Amazon UK", ],
+                            [ "http://www.amazon.com/Deke-Autobiography-Donald-K-Slayton/dp/031285918X", "Amazon US", ],
+                            [ "http://www.amazon.co.uk/Deke-Autobiography-Donald-K-Slayton/dp/031285918X", "Amazon UK", ],
                         ],
                     ],
                     [
                         "We Seven",
                         "The Mercury Astronauts",
                         [
-                            [ "http://amazon.com/", "Amazon US", ],
-                            [ "http://amazon.co.uk/", "Amazon UK", ],
+                            [ "http://www.amazon.com/Seven-Astronauts-Themselves-Scott-Carpenter/dp/1439181039", "Amazon US", ],
+                            [ "http://www.amazon.co.uk/Seven-Astronauts-Themselves-Scott-Carpenter/dp/1439181039", "Amazon UK", ],
                         ],
                     ],
                     [
                         "We Have Capture",
-                        "Tom Stafford",
+                        "Tom Stafford with Michael Cassutt",
                         [
-                            [ "http://amazon.com/", "Amazon US", ],
-                            [ "http://amazon.co.uk/", "Amazon UK", ],
+                            [ "http://www.amazon.com/We-Have-Capture-Stafford-Space/dp/1588341011/", "Amazon US", ],
+                            [ "http://www.amazon.co.uk/We-Have-Capture-Stafford-Space/dp/1588341011/", "Amazon UK", ],
                         ],
                     ],
                 ],
@@ -42,16 +42,16 @@ def static(request):
                         "Flight",
                         "Chris Kraft",
                         [
-                            [ "http://amazon.com/", "Amazon US", ],
-                            [ "http://amazon.co.uk/", "Amazon UK", ],
+                            [ "http://www.amazon.com/Flight-My-Life-Mission-Control/dp/B000EXYZR2/", "Amazon US", ],
+                            [ "http://www.amazon.co.uk/Flight-My-Life-Mission-Control/dp/B000EXYZR2/", "Amazon UK", ],
                         ],
                     ],
                     [
-                        "Mars Project",
+                        "Project Mars: A Technical Tale",
                         "Werner von Braun",
                         [
-                            [ "http://amazon.com/", "Amazon US", ],
-                            [ "http://amazon.co.uk/", "Amazon UK", ],
+                            [ "http://www.amazon.com/Project-Mars-Wernher-Von-Braun/dp/0973820330/", "Amazon US", ],
+                            [ "http://www.amazon.co.uk/Project-Mars-Wernher-Von-Braun/dp/0973820330/", "Amazon UK", ],
                         ],
                     ],
                 ],
@@ -61,10 +61,10 @@ def static(request):
                 [
                     [
                         "Full Moon",
-                        "",
+                        "Michael Light",
                         [
-                            [ "http://amazon.com/", "Amazon US", ],
-                            [ "http://amazon.co.uk/", "Amazon UK", ],
+                            [ "http://www.amazon.com/Full-Moon-Andrew-Chaikin/dp/0375406344/", "Amazon US", ],
+                            [ "http://www.amazon.co.uk/Full-Moon-Andrew-Chaikin/dp/0375406344/", "Amazon UK", ],
                         ],
                     ],
                 ],
