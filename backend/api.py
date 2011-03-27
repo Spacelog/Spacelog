@@ -58,6 +58,7 @@ class LogLine(object):
         # Load onto our attributes
         self.page = int(data['page'])
         self.transcript_page = data.get('transcript_page')
+        self.note = data.get('note', None)
 
         self.lines = []
         for line in self.redis_conn.lrange(u"log_line:%s:lines" % self.id, 0, -1):
