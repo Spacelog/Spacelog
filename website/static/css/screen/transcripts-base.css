@@ -54,6 +54,9 @@
                             sans-serif;
 }
 
+#transcript dt.speaker.subsequent {
+    padding-left:           150px; /* 100px dt.time width -20px dt.time margin-left + 70px dt.speaker padding-left */
+}
 #transcript dt.speaker {
     padding-left:           70px;
     float:                  left;
