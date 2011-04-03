@@ -3,8 +3,10 @@
 
 <div class="person" id="{{ person.short_name|slugify }}">
   <h3>
+    {% if person.photo %}
       <img src="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/people/{{ person.photo }}" alt=""
          width="{{ person.photo_width }}" height="{{ person.photo_height }}">
+    {% endif %}
     <em>{{ person.name }}</em>
     {{ person.mission_position }}
   </h3>
