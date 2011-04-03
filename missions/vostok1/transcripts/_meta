@@ -1,0 +1,165 @@
+{
+    "name": "vostok1",
+    "featured": true,
+    "incomplete": false,
+    "subdomains": ["vostok1"],
+    "utc_launch_time": "1961-04-12T06:07:00",
+    "main_transcript": "vostok1/MAIN",
+    "copy": {
+        "based_on_header": "As it happened",
+        "title": "Vostok 1",
+        "upper_title": "VOSTOK",
+        "lower_title": "1",
+        "description": "The first human space flight to orbit the Earth.",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+            "James Aylett"
+        ],
+        "about": "Восток (Vostok) 1 was the mission that put the first man in space, and reinforced the Soviets' early lead in the Space Race. 27 year old Yuri Gagarin made one orbit of the Earth before re-entry, remaining conscious while experiencing at least 8g, before ejecting from the spacecraft 7km from the ground to land about ten minutes later.\n\nThis site allows you to explore transcripts of radio communications between Gagarin and the personnel at various ground stations across Russia.",
+        "component_suppression": {
+            "leading": 1,
+            "trailing": -1
+        },
+        "type_search": "Блондину"
+    },
+    "acts": [
+        {
+            "title": "Preparation",
+            "description": "",
+            "range": ["-00:02:00:00", "00:00:00:00"],
+            "banner": "act1.jpg",
+            "banner_class": "black",
+            "homepage": "act1.jpg"
+        },
+        {
+            "title": "Launch",
+            "description": "",
+            "range": ["00:00:00:00", "00:00:11:16"],
+            "banner": "act2.jpg",
+            "banner_class": "blue",
+            "homepage": "act2.jpg"
+        },
+        {
+            "title": "Earth orbit",
+            "description": "",
+            "range": ["00:00:11:16", "00:01:19:00"],
+            "banner": "act3.jpg",
+            "banner_class": "black",
+            "homepage": "act3.jpg"
+        },
+        {
+            "title": "Reentry",
+            "description": "",
+            "range": ["00:001:19:00", "00:02:00:00"],
+            "banner": "act4.jpg",
+            "banner_class": "black",
+            "homepage": "act4.jpg"
+        }
+    ],
+    "characters": {
+        "Заря 1": {
+            "comment": "it would probably be helpful to describe the different comms stations in this fashion and where they were to give an idea of how they ran the mission; not exposing until we can do all of them helpfully, maybe as mission-ops-title role",
+            "role": "other",
+            "name": "Mission control",
+            "short_name": "MC",
+            "avatar": "person.png"
+        },
+        "Заря 1 (Быков)": {
+            "comment": "Bykov",
+            "role": "other",
+            "name": "Быков",
+            "short_name": "Быков",
+            "avatar": "person.png"
+        },
+
+        "Заря 1 (Галай)": {
+            "comment": "Galaj",
+            "role": "other",
+            "name": "Галай",
+            "short_name": "Галай",
+            "avatar": "person.png"
+        },
+
+        "Заря 1 (Руднев)": {
+            "comment": "Rudnev",
+            "role": "other",
+            "name": "Руднев",
+            "short_name": "Руднев",
+            "avatar": "person.png"
+        },
+
+        "Заря 1 (Каманин)": {
+            "comment": "Kamanin",
+            "role": "mission-ops-title",
+            "name": "Каманин",
+            "short_name": "Каманин",
+            "avatar": "person.png",
+            "bio": "Russian aviator Nikolai Kamanin was a Hero of the Soviet Union and decorated World War II Colonel General before being assigned as military chief of the Soviet manned orbital flight program, including selection and management of the cosmonaut training squad."
+        },
+
+        "Заря 1 (Королев)": {
+            "comment": "Korolev",
+            "role": "mission-ops-title",
+            "name": "Королев",
+            "short_name": "Королев",
+            "avatar": "person.png",
+            "bio": "Sergei Pavlovich Korolyov, referred to officially as 'The Chief Designer', was the pioneering engineer and designer at the centre of the Soviet space program. A key figure in the Soviet ICBM program, he was able to persuade the initially skeptical military and political leaders to focus efforts on space, leading to mankind's first artificial satelite: Sputnik 1, and continuing to manned flights with Vostok 1. He continued to lead into the development of the Soyuz spacecraft until his death in January 1966."
+        },
+
+        "Заря 1 (Попович)": {
+            "comment": "Popovich (astronaut)",
+            "role": "other",
+            "name": "Попович",
+            "short_name": "Попович",
+            "avatar": "person.png"
+        },
+
+        "Заря 2 (Титарев)": {
+            "comment": "Titarev",
+            "role": "other",
+            "name": "Титарев",
+            "short_name": "Титарев",
+            "avatar": "person.png"
+        },
+
+        "Заря 2 (Селезнев)": {
+            "comment": "Seleznev",
+            "role": "other",
+            "name": "Селезнев",
+            "short_name": "Селезнев",
+            "avatar": "person.png"
+        },
+
+        "Весна (Кадушкин)": {
+            "comment": "Kadushkin",
+            "role": "other",
+            "name": "Кадушкин",
+            "short_name": "Кадушкин",
+            "avatar": "person.png"
+        },
+
+        "Весна (Хорошилов)": {
+            "comment": "Horoshilov",
+            "role": "other",
+            "name": "Хорошилов",
+            "short_name": "Хорошилов",
+            "avatar": "person.png"
+        },
+
+        "Заря 3 (Карпенко)": {
+            "comment": "Karpenko",
+            "role": "other",
+            "name": "Карпенко",
+            "short_name": "Карпенко",
+            "avatar": "person.png"
+        },
+        "Кедр": {
+            "comment": "Gagarin",
+            "role": "astronaut",
+            "name": "Гагарин",
+            "short_name": "Гагарин",
+            "avatar": "astro.png",
+            "bio": "27-year old Yuri Gagarin started flying as a hobby while in high school, subsequently entering military flight training before taking up his first post as a fighter pilot on the Norwegian border. One of the first group of pilots chosen for the Soviety space program, he was always one of the front-runners in the group, finally being chosen only days before the flight. Following Vostok 1 he toured internationally to promote Soviet achievement."
+        }
+    }
+}
