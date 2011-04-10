@@ -267,6 +267,17 @@
     right:                  -310px;
     width:                  87px;
 }
+#phases #fb-like .arrow {
+    background:             transparent
+                            url(../img/base/fb-like.png)
+                            no-repeat
+                            50% 0%;
+    height:                 5px;
+    position:               absolute;
+    bottom:                 -7px;
+    right:                  15px;
+    width:                  100px;
+}
 #phases #fb-like iframe {
     display:                block;
 }
@@ -283,6 +294,12 @@
                                 to(#e3e1e2),
                                 color-stop( 75%, #fff )
                             );
+    background:             -moz-linear-gradient(top,#fff,#e3e1e2);
+    *filter: progid:DXImageTransform.Microsoft.gradient(
+                                startColorstr='#fff',
+                                endColorstr='#e3e1e2'
+                            );
+
 }
 /* -- */
 #phases.open .map {
