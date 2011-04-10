@@ -10,22 +10,40 @@
     text-transform:         uppercase;
     -cp-contain:            easy;
 }
-#masthead h1 {
+#masthead h1,
+#masthead .sitename {
     // style the text
     color:                  white;
     
     // position in the grid
     float:                  left;
     margin-right:           20px;
-    width:                  220px;
+    width:                  140px;
     font-size:              24px;
 }
-#masthead h1 a {
+#masthead h1 a,
+#masthead .sitename a {
     color:                  #fff;
 }
 #masthead h1 a.mission {
     color:                   #f8b334;
 }
+
+#masthead li a,
+#masthead .current {
+    // style the text
+    color:                  #eea800;
+    
+    // position in the grid
+    float:                  left;
+    margin-right:           20px;
+    width:                  140px;
+    font-size:              24px;
+}
+#masthead .current {
+    color:                  #8d6d2b;
+}
+
 #masthead a.twitter {
     background:             transparent
                             url( ../img/bird.png )
@@ -48,31 +66,6 @@
     background-position:    0 -21px;
     color:                  #797979;
     text-decoration:        none;
-}
-
-#masthead nav ul {
-    width:                  540px;
-    margin-right:           20px;
-    float:                  left;
-    font-size:              24px;
-}
-#masthead nav li {
-    float:                  left;
-}
-#masthead li a {
-    color:                  #959595;
-    text-decoration:        none;
-    margin-right:           30px;
-    text-transform:         uppercase;
-}
-#masthead li a:hover,
-#masthead li a:focus,
-body.transcript-section #masthead li.transcript-section a,
-body.phase-section #masthead li.phase-section a,
-body.people-section #masthead li.people-section a,
-body.glossary-section #masthead li.glossary-section a,
-body.about-section #masthead li.about-section a {
-    color:                  white;
 }
 
 #masthead form {

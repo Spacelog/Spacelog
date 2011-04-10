@@ -1,0 +1,123 @@
+/*! verbatim */
+.content-page {
+    background:             #000
+                            url( ../img/home-bg.jpg )
+                            no-repeat
+                            top center;
+    padding:                50px 0 200px;
+}
+.about {
+    background:             url( ../img/about-bg.jpg )
+                            no-repeat
+                            top left;
+}
+.press {
+    background:             url( ../img/press-bg.jpg )
+                            no-repeat
+                            top left;
+}
+
+.get-involved {
+    background-image:       url( ../img/get-involved-bg.jpg );
+}
+
+/* -- */
+.content-page .wrapper {
+    -cp-contain:            easy;
+}
+
+.content-page h1,
+.content-page .rubric {
+    font-size:              40px;
+    font-weight:            bold;
+}
+.content-page .rubric {
+    border-bottom:          1px solid #676769;
+    color:                  #999;
+    font-weight:            normal;
+    margin-bottom:          24px;
+    padding-bottom:         24px;
+}
+
+.content-page h2 {
+    font-size:              32px;
+    font-weight:            bold;
+    line-height:            48px;
+    margin:                 0 0 24px 0;
+}
+.content-page h3 {
+    font-weight:            bold;
+    margin:                 0;
+    line-height:            24px;
+}
+
+.content-page .content {
+/*    margin-right:           320px;*/
+}
+.content-page p,
+.content-page pre {
+    margin:                 0 0 24px;
+}
+.content-page pre {
+    line-height:            24px;
+    font-size:              16px;
+}
+.content-page blockquote p {
+    margin:                 0;
+}
+.content-page em {
+    font-style:             italic;
+}
+.content-page .primary-content {
+    float:                  left;
+    width:                  620px;
+    padding-right:          20px;
+}
+.content-page .secondary-content {
+    float:                  left;
+    width:                  300px;
+}
+.content-page .secondary-content h1 {
+    font-size:              32px;
+    font-weight:            bold;
+    margin:                 0 0 24px 0;
+    line-height:            48px;
+}
+.content-page .secondary-content h2 {
+    font-size:              16px;
+    font-weight:            bold;
+    margin:                 24px 0 0 0;
+}
+.content-page .reading-list li {
+    margin-left:           1em;
+}
+.content-page .reading-list li cite {
+    font-style:           italic;
+}
+.content-page .reading-list li a span {
+    position:               absolute;
+    left:                   -999px;
+}
+.content-page ul.contributors {
+    margin:                 0 0 24px 0;
+    padding:                0;
+}
+.content-page ul.contributors li {
+    display:                inline;
+}
+.content-page ul.contributors li:before {
+    content:                "";
+}
+.content-page ul.contributors li + li:before {
+    content:                ", ";
+}
+/*! verbatim */
+.content-page .content p,
+.content-page .secondary-content p,
+.content-page .reading-list,
+.content-page .secondary-content h2,
+.content-page ul.contributors {
+    text-shadow:            1px 1px 2px #000;
+    line-height:            24px;
+}
+/* -- */

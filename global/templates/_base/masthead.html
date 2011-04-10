@@ -1,7 +1,32 @@
 <div id="masthead-outer">
 <div id='masthead'>
   <div class='wrapper'>
+    {% if page %}
+    <a href="/" class="sitename">Spacelog</a>
+    {% else %}
     <h1>Spacelog</h1>
+    {% endif %}
+    
+    <nav>
+      <ul>
+        {% ifequal page "about" %}
+        <li><span class="current">About</span></li>
+        {% else %}
+        <li><a href="/about/">About</a></li>
+        {% endifequal %}
+        {% ifequal page "press" %}
+        <li><span class="current">Press</span></li>
+        {% else %}
+        <li><a href="/press/">Press</a></li>
+        {% endifequal %}
+        {% ifequal page "get-involved" %}
+        <li><span class="current">Get Involved</span></li>
+        {% else %}
+        <li><a href="/get-involved/">Get Involved</a></li>
+        {% endifequal %}
+      </ul>
+    </nav>
+    
     <a href="http://twitter.com/spacelogdotorg" class="twitter">Follow us<span> on Twitter</span> for updates</a>
     
     {% comment %}
