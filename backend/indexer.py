@@ -368,7 +368,14 @@ class MetaIndexer(object):
     def index_narrative_elements(self, meta):
         "Stores acts and key scenes in redis"
         for noun in ('act', 'key_scene'):
-            for i, data in enumerate(meta.get('%ss' % noun, [])):
+            # Sort by element['range'][0] before adding to redis
+            narrative_elements = meta.get('%ss' % noun, [])
+            narrative_elements_sorted = sorted(
+                narrative_elements,
+                key=lambda element: element['range'][0]
+            )
+            
+            for i, data in enumerate( narrative_elements_sorted ):
                 key = "%s:%s:%i" % (noun, self.mission_name, i)
                 self.redis_conn.rpush(
                     "%ss:%s" % (noun, self.mission_name),
