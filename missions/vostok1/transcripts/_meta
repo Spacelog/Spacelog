@@ -23,10 +23,12 @@
         "type_search": "Блондину",
         "about_image": "pravda.jpg",
         "image_attributions": [
+            { "url": "http://iconicphotos.files.wordpress.com/2009/06/gagarin_big.gif?w=547&h=490", "title": "Yuri Gagarin en route to the launchpad", "attrib_url": "http://iconicphotos.wordpress.com/category/industries/page/3/", "attrib": "Iconic Photos" },
             { "url": "http://www.svengrahn.pp.se/histind/Vostok1/gagcock.jpg", "title": "Yuri Gagarin in Vostok 1 Cockpit", "attrib_url": "http://www.svengrahn.pp.se/histind/Vostok1/Vostok1X.htm", "attrib": "Sven Grahn" },
             { "url": "http://en.wikipedia.org/wiki/File:Vostok_1_after_landing.jpg", "title": "Vostok 1 after landing", "attrib_url": "http://en.wikipedia.org/wiki/User:Errabee", "attrib": "Errabee", "license": "CC By-SA" },
             { "url": "http://epizodsspace.narod.ru/bibl/i_tsk/01.jpg", "title": "Pravda on April 12, 1961", "attrib_url": "http://epizodsspace.narod.ru/bibl/i_tsk/zv-reis.html", "attrib": "Proceedings of the CPSU Central Committee, 1991 #5" },
-            { "url": "http://en.wikipedia.org/wiki/File:Vostok-1_patch.svg", "title": "Vostok-1 patch", "attrib_url": "http://commons.wikimedia.org/wiki/User:Orionist", "attrib": "Orionist" }
+            { "url": "http://en.wikipedia.org/wiki/File:Vostok-1_patch.svg", "title": "Vostok-1 patch", "attrib_url": "http://commons.wikimedia.org/wiki/User:Orionist", "attrib": "Orionist" },
+            { "url": "http://www.thelivingmoon.com/45jack_files/03files/Black_Russian_002.html", "title": "SP Korolyov", "attrib_url": "http://www.thelivingmoon.com/45jack_files/", "attrib": "Jack Arneson" }
         ],
         "transcript_attributions": [
             { "url": "http://epizodsspace.narod.ru/bibl/i_tsk/zv-reis.html", "title": "ЗВЕЗДНЫЙ РЕЙС ЮРИЯ ГАГАРИНА (Star Flight: Yuri Gagarin)" }
@@ -117,7 +119,11 @@
             "short_name": "Королев",
             "slug": "korolyov",
             "avatar": "person.png",
-            "bio": "Sergei Pavlovich Korolyov, referred to officially as 'The Chief Designer', was the pioneering engineer and designer at the centre of the Soviet space program. A key figure in the Soviet ICBM program, he was able to persuade the initially skeptical military and political leaders to focus efforts on space, leading to mankind's first artificial satelite: Sputnik 1, and continuing to manned flights with Vostok 1. He continued to lead into the development of the Soyuz spacecraft until his death in January 1966."
+            "bio": "Sergei Pavlovich Korolyov, referred to officially as 'The Chief Designer', was the pioneering engineer and designer at the centre of the Soviet space program. A key figure in the Soviet ICBM program, he was able to persuade the initially skeptical military and political leaders to focus efforts on space, leading to mankind's first artificial satelite: Sputnik 1, and continuing to manned flights with Vostok 1. He continued to lead into the development of the Soyuz spacecraft until his death in January 1966.",
+            "photo": "korolyov.jpg",
+            "photo_width": 190,
+            "photo_height": 205,
+            "avatar": "person.png"
         },
 
         "Заря 1 (Попович)": {
@@ -175,6 +181,9 @@
             "short_name": "Гагарин",
             "slug": "gagarin",
             "avatar": "astro.png",
+            "photo": "gagarin.jpg",
+            "photo_width": 190,
+            "photo_height": 205,
             "bio": "27-year old Yuri Gagarin started flying as a hobby while in high school, subsequently entering military flight training before taking up his first post as a fighter pilot on the Norwegian border. One of the first group of pilots chosen for the Soviety space program, he was always one of the front-runners in the group, finally being chosen only days before the flight. Following Vostok 1 he toured internationally to promote Soviet achievement."
         }
     },
