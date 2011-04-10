@@ -390,9 +390,17 @@ class Character(object):
         self.photo_width          = data.get('photo_width', None)
         self.photo_height         = data.get('photo_height', None)
         self.quotable_log_line_id = data.get('quotable_log_line_id', None)
+        self.precomputed_slug     = data.get('slug', None)
         
         stat_pairs = self.redis_conn.lrange( u"%s:stats" % key, 0, -1 )
         self.stats = [ stat.split(u':', 1) for stat in stat_pairs ]
+
+    @property
+    def slug(self):
+        if self.precomputed_slug is not None:
+            return self.precomputed_slug
+        from django.template.defaultfilters import slugify
+        return slugify(self.short_name)
 
     def quotable_log_line(self):
         if not self.quotable_log_line_id:
@@ -468,6 +476,14 @@ class Glossary(object):
         self.key         = self.id
         self.type        = data.get('type', 'jargon')
         self.times_mentioned = data['times_mentioned']
+        self.precomputed_slug     = data.get('slug', None)
+
+    @property
+    def slug(self):
+        if self.precomputed_slug is not None:
+            return self.precomputed_slug
+        from django.template.defaultfilters import slugify
+        return slugify(self.abbr)
 
     def links(self):
         # Fetch all the IDs
