@@ -161,5 +161,19 @@
             "avatar": "astro.png",
             "bio": "27-year old Yuri Gagarin started flying as a hobby while in high school, subsequently entering military flight training before taking up his first post as a fighter pilot on the Norwegian border. One of the first group of pilots chosen for the Soviety space program, he was always one of the front-runners in the group, finally being chosen only days before the flight. Following Vostok 1 he toured internationally to promote Soviet achievement."
         }
+    },
+    "glossary": {
+        "ДЭМШ": {
+            "summary": "динамический электромагнитный микрофон шлема",
+            "slug": "damsh"
+        },
+        "ПКРС": {
+            "summary": "прибор контроля режима спуска",
+            "slug": "pkrs"
+        },
+        "ТДУ": {
+            "summary": "тормозная двигательная установка",
+            "slug": "tdu"
+        }
     }
 }
