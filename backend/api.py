@@ -470,7 +470,7 @@ class Glossary(object):
         data = self.redis_conn.hgetall( key )
         if not data:
             raise ValueError("No such glossary item: %s (%s)" % (self.id, key))
-        self.description = data['description']
+        self.description = data['description'].decode('utf-8')
         self.extended_description = data.get('extended_description', None)
         self.abbr        = data['abbr']
         self.key         = self.id
