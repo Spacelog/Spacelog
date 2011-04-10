@@ -91,8 +91,10 @@
         "Заря 1 (Каманин)": {
             "comment": "Kamanin",
             "role": "mission-ops-title",
+            "mission_position": "Head of Cosmonaut Training",
             "name": "Каманин",
             "short_name": "Каманин",
+            "slug": "kamanin",
             "avatar": "person.png",
             "bio": "Russian aviator Nikolai Kamanin was a Hero of the Soviet Union and decorated World War II Colonel General before being assigned as military chief of the Soviet manned orbital flight program, including selection and management of the cosmonaut training squad."
         },
@@ -100,14 +102,16 @@
         "Заря 1 (Королев)": {
             "comment": "Korolev",
             "role": "mission-ops-title",
+            "mission_position": "Chief Designer",
             "name": "Королев",
             "short_name": "Королев",
+            "slug": "korolyov",
             "avatar": "person.png",
             "bio": "Sergei Pavlovich Korolyov, referred to officially as 'The Chief Designer', was the pioneering engineer and designer at the centre of the Soviet space program. A key figure in the Soviet ICBM program, he was able to persuade the initially skeptical military and political leaders to focus efforts on space, leading to mankind's first artificial satelite: Sputnik 1, and continuing to manned flights with Vostok 1. He continued to lead into the development of the Soyuz spacecraft until his death in January 1966."
         },
 
         "Заря 1 (Попович)": {
-            "comment": "Popovich (astronaut)",
+            "comment": "Popovich (cosmonaut)",
             "role": "other",
             "name": "Попович",
             "short_name": "Попович",
@@ -156,8 +160,10 @@
         "Кедр": {
             "comment": "Gagarin",
             "role": "astronaut",
+            "mission_position": "Cosmonaut",
             "name": "Гагарин",
             "short_name": "Гагарин",
+            "slug": "gagarin",
             "avatar": "astro.png",
             "bio": "27-year old Yuri Gagarin started flying as a hobby while in high school, subsequently entering military flight training before taking up his first post as a fighter pilot on the Norwegian border. One of the first group of pilots chosen for the Soviety space program, he was always one of the front-runners in the group, finally being chosen only days before the flight. Following Vostok 1 he toured internationally to promote Soviet achievement."
         }
