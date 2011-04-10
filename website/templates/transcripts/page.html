@@ -33,7 +33,7 @@
 {% block content %}
   
   <div class='nav'>
-  {% if previous_timestamp %}
+  {% if previous_timestamp != None %}
     <p id='load-previous' class='load-more'>
       <a href="{% timestamp_to_url previous_timestamp %}">Load previous&hellip;</a>
     </p>
