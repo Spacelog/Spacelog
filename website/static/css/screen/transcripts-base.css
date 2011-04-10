@@ -53,7 +53,14 @@
                             'Arial',
                             sans-serif;
 }
-
+#transcript .note-label {
+    position:               absolute;
+    left:                   -999px;
+}
+#transcript .note {
+    font-style:             italic;
+    color:                  #333;
+}
 #transcript dt.speaker.subsequent {
     padding-left:           150px; /* 100px dt.time width -20px dt.time margin-left + 70px dt.speaker padding-left */
 }

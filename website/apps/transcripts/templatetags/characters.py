@@ -1,6 +1,5 @@
 from django.template import Library
 from django.core.urlresolvers import reverse
-from django.template.defaultfilters import slugify
 from django.conf import settings
 
 register = Library()
@@ -25,9 +24,9 @@ def avatar_and_name(speaker, mission_name, timestamp=None):
 
     url = None
     if current_speaker.role == 'mission-ops':
-        url = '%s#%s' % (reverse("people", kwargs={"role": current_speaker.role}), slugify(current_speaker.short_name))
+        url = '%s#%s' % (reverse("people", kwargs={"role": current_speaker.role}), current_speaker.slug)
     elif current_speaker.role == 'astronaut' or current_speaker.role == 'mission-ops-title':
-        url = '%s#%s' % (reverse("people"), slugify(current_speaker.short_name))
+        url = '%s#%s' % (reverse("people"), current_speaker.slug)
 
     if url:
         return "<a href='%s'>%s</a>" % (url, detail)
@@ -53,9 +52,9 @@ def avatar(speaker, mission_name, timestamp=None):
 
     url = None
     if current_speaker.role == 'mission-ops':
-        url = '%s#%s' % (reverse("people", kwargs={"role": current_speaker.role}), slugify(current_speaker.short_name))
+        url = '%s#%s' % (reverse("people", kwargs={"role": current_speaker.role}), current_speaker.slug)
     elif current_speaker.role == 'astronaut' or current_speaker.role == 'mission-ops-title':
-        url = '%s#%s' % (reverse("people"), slugify(current_speaker.short_name))
+        url = '%s#%s' % (reverse("people"), current_speaker.slug)
 
     if url:
         return "<a href='%s'>%s</a>" % (url, detail)

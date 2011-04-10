@@ -11,6 +11,7 @@ register = Library()
 
 def glossary_link(match, request):
     # Try to look up the definition
+    gitem = None
     if request:
         try:
             gitem = Glossary(request.redis_conn, request.mission.name, match.group(1))
@@ -33,18 +34,25 @@ def glossary_link(match, request):
         display = match.group(1)
 
     if title:
-        display = "<%(tag)s class='jargon' title='%(title)s'>%(text)s</%(tag)s>" % {
+        display = u"<%(tag)s class='jargon' title='%(title)s'>%(text)s</%(tag)s>" % {
             "tag":   tag,
             "title": title,
             "text":  display,
         }
 
     if more_information:
-        return "<a href='%s#%s'>%s</a>" % (
-            reverse("glossary"),
-            slugify(match.group(1)),
-            display,
-        )
+        if gitem is not None:
+            return u"<a href='%s#%s'>%s</a>" % (
+                reverse("glossary"),
+                gitem.slug,
+                display,
+            )
+        else:
+            return u"<a href='%s#%s'>%s</a>" % (
+                reverse("glossary"),
+                slugify(match.group(1)),
+                display,
+            )
     else:
         return display
 

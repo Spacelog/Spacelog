@@ -12,7 +12,7 @@
 
 <dl>
   {% for term in terms %}
-  <dt id="{{ term.abbr|slugify }}">{{ term.abbr }}</dt>
+  <dt id="{{ term.slug }}">{{ term.abbr }}</dt>
   <dd>{{ term.description }}</dd>
   {% if term.extended_description %}
     <dd class='extended'>{{ term.extended_description|linkify }}</dd>

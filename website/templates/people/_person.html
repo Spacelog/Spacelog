@@ -1,7 +1,7 @@
 {% load missiontime %}
 {% load linkify %}
 
-<div class="person" id="{{ person.short_name|slugify }}">
+<div class="person" id="{{ person.slug }}">
   <h3>
     {% if person.photo %}
       <img src="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/people/{{ person.photo }}" alt=""
