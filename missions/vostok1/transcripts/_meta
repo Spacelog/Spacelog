@@ -63,7 +63,7 @@
         {
             "title": "Reentry",
             "description": "",
-            "range": ["00:001:19:00", "00:02:00:00"],
+            "range": ["00:01:19:00", "00:02:00:00"],
             "banner": "act4.jpg",
             "banner_class": "black",
             "homepage": "act4.jpg"
