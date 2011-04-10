@@ -28,7 +28,8 @@
             { "url": "http://en.wikipedia.org/wiki/File:Vostok_1_after_landing.jpg", "title": "Vostok 1 after landing", "attrib_url": "http://en.wikipedia.org/wiki/User:Errabee", "attrib": "Errabee", "license": "CC By-SA" },
             { "url": "http://epizodsspace.narod.ru/bibl/i_tsk/01.jpg", "title": "Pravda on April 12, 1961", "attrib_url": "http://epizodsspace.narod.ru/bibl/i_tsk/zv-reis.html", "attrib": "Proceedings of the CPSU Central Committee, 1991 #5" },
             { "url": "http://en.wikipedia.org/wiki/File:Vostok-1_patch.svg", "title": "Vostok-1 patch", "attrib_url": "http://commons.wikimedia.org/wiki/User:Orionist", "attrib": "Orionist" },
-            { "url": "http://www.thelivingmoon.com/45jack_files/03files/Black_Russian_002.html", "title": "SP Korolyov", "attrib_url": "http://www.thelivingmoon.com/45jack_files/", "attrib": "Jack Arneson" }
+            { "url": "http://www.thelivingmoon.com/45jack_files/03files/Black_Russian_002.html", "title": "SP Korolyov", "attrib_url": "http://www.thelivingmoon.com/45jack_files/", "attrib": "Jack Arneson" },
+            { "url": "http://persona.rin.ru/eng/images/30562.jpg", "title": "Nikolai Kamanin", "attrib_url": "http://persona.rin.ru/eng/view/f/0/30562/nikolai-petrovich-kamanin", "attrib": "persona.rin.ru" }
         ],
         "transcript_attributions": [
             { "url": "http://epizodsspace.narod.ru/bibl/i_tsk/zv-reis.html", "title": "ЗВЕЗДНЫЙ РЕЙС ЮРИЯ ГАГАРИНА (Star Flight: Yuri Gagarin)" }
@@ -108,7 +109,10 @@
             "short_name": "Каманин",
             "slug": "kamanin",
             "avatar": "person.png",
-            "bio": "Russian aviator Nikolai Kamanin was a Hero of the Soviet Union and decorated World War II Colonel General before being assigned as military chief of the Soviet manned orbital flight program, including selection and management of the cosmonaut training squad."
+            "bio": "Russian aviator Nikolai Kamanin was a Hero of the Soviet Union and decorated World War II Colonel General before being assigned as military chief of the Soviet manned orbital flight program, including selection and management of the cosmonaut training squad.",
+            "photo": "kamanin.jpg",
+            "photo_width": 190,
+            "photo_height": 205
         },
 
         "Заря 1 (Королев)": {
