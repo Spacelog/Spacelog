@@ -1,5 +1,5 @@
 [00:00:00:00]
-_page : 2
+_page : 3
 CC: Bolts and lift-off.
 
 [00:00:00:02]
@@ -60,7 +60,7 @@ C: Roger. Mode II.
 CC: Roger.
 
 [00:00:01:48]
-_page : 3
+_page : 4
 P: First [glossary:DCS] update received.
 
 [00:00:01:53]
@@ -127,7 +127,7 @@ C: Hey, we're moving right along that horizon.
 CC: Roger.
 
 [00:00:03:35]
-_page : 4
+_page : 5
 C: What did you say, Gordo?
 
 [00:00:03:54]
@@ -188,7 +188,7 @@ CC: Roger.
 C: Okay. We are separated.
 
 [00:00:06:15]
-_page : 5
+_page : 6
 CC: Roger. Fairings.
 
 [00:00:06:21]
@@ -252,7 +252,7 @@ P: Yes.
 C: Let's see, have we got everything on this checklist, John? Let's see—retrorockets safe. Yes.
 
 [00:00:08:52]
-_page : 6
+_page : 7
 P: Yes.
 
 [00:00:08:54]
@@ -313,7 +313,7 @@ P: Yes.
 C: Man, it's hard to watch that gyro.
 
 [00:00:10:15]
-_page : 7
+_page : 8
 P: Yes.
 
 [00:00:10:23]
@@ -372,7 +372,7 @@ _extra : CYI-1
 P: Great!
 
 [00:00:13:24]
-_page : 8
+_page : 9
 P: Shoot, Gus, I can't get my blood pressure bulb in. I really can't.
 
 [00:00:13:33]
@@ -435,7 +435,7 @@ _extra : CYI-1
 C: I read you the same.
 
 [00:00:15:28]
-_page : 9
+_page : 10
 CC: We have your [glossary:T/M] solid and all systems look good on the ground.
 
 [00:00:15:31]
@@ -494,7 +494,7 @@ _extra : CYI-1
 P: Reading back a GMT of 2-1—15 55 47 [glossary:GMTRC]. GMTRB is 16 05 31. Bank angle 55° left and right 65°.
 
 [00:00:17:30]
-_page : 10
+_page : 11
 CC: [glossary:Molly Brown], Canary [glossary:CAP COM]. We are standing by for your UHF Com Check. Do you copy?
 
 [00:00:17:35]
@@ -544,7 +544,7 @@ _extra : CYI-1
 CC: [glossary:Molly Brown], Canary [glossary:CAP COM]. I have your radiator temperatures, if you are ready to copy.
 
 [00:00:19:19]
-_page : 11
+_page : 12
 C: Roger.
 
 [00:00:19:20]
@@ -600,7 +600,7 @@ _extra : CYI-1
 CC: I've been advised from the Cape you might put your prop switch off and recycle a couple of times, and it might stop your leak.
 
 [00:00:21:17]
-_page : 12
+_page : 13
 P: It's not leaking.
 
 [00:00:21:18]
@@ -658,7 +658,7 @@ P: Scanner ignore is driving you?
 C: Yes.
 
 [00:00:23:21]
-_page : 13
+_page : 14
 P: Oh, I know what it was. My knee was hitting the control stick, wasn't it?
 
 [00:00:23:24]
@@ -721,7 +721,7 @@ _extra : KNO-1
 P: Want to try it back on the primary and see what happens?
 
 [00:00:24:55]
-_page : 14
+_page : 15
 C: That's how we lost it. Yes.
 
 [00:00:24:58]
@@ -781,7 +781,7 @@ _extra : KNO-1
 CC: Have you tried your circuit breaker, Gus, on that?
 
 [00:00:26:22]
-_page : 15
+_page : 16
 C: Yes, we have.
 
 [00:00:26:29]
@@ -846,7 +846,7 @@ _extra : TAN-1
 C: We'll cross the east coast of Africa here before long.
 
 [00:00:33:55]
-_page : 16
+_page : 17
 P: Hand me one of those towels over there in your box, will you?
 
 [00:00:33:58]
@@ -912,7 +912,7 @@ _extra : TAN-1
 P: Yep.
 
 [00:00:37:34]
-_page : 17
+_page : 18
 C: Look at that stuff going by. Oh boy! Really does sparkle doesn't it?
 
 [00:00:37:57]
@@ -970,7 +970,7 @@ _extra : TAN-1 / CSQ-1
 P: Yes.
 
 [00:00:40:44]
-_page : 18
+_page : 19
 C: I'm doing it.
 
 [00:00:40:45]
@@ -1027,7 +1027,7 @@ _extra : CSQ-1
 CC: [glossary:Molly Brown], I copy you very weak. Would you say again?
 
 [00:00:42:51]
-_page : 19
+_page : 20
 C: All the control system is working fine. We just have a very slight drift to the left.
 
 [00:00:42:58]
@@ -1080,7 +1080,7 @@ _extra : CSQ-1
 C: Roger. Unable to send a blood pressure. The bulb won't fit in the suit hole anymore.
 
 [00:00:45:05]
-_page : 20
+_page : 21
 CC: Roger. Cape recommends that you place the driver switch to SECONDARY.
 
 [00:00:45:13]
@@ -1139,7 +1139,7 @@ _extra : CSQ-1/nCRO-1
 CC: MARK!
 
 [00:00:47:14]
-_page : 21
+_page : 22
 CC: [glossary:Molly Brown], [glossary:CSQ].
 
 [00:00:47:15]
@@ -1194,7 +1194,7 @@ CC: Okay, [glossary:Molly Brown]. We got your Gemini load. We could not get T<su
      on T<sub>R</sub>, and it did go in at this time.  I'd like to give you a hack on T<sub>R</sub> at 39:30, in about 10 seconds.
 
 [00:00:51:29]
-_page : 22
+_page : 23
 C: You're going to punch it, aren't you?
 
 [00:00:51:30]
@@ -1242,7 +1242,7 @@ CC: Okay. GMTB 15 43 23. ΔV of 139. Duration of burn - 2 minutes 39 seconds. Yo
      left 55.  GMTRB 16 05 28.  Roll right 65.  GMT 400 K 15 58 23.  Your maneuver load:  6344257, 0444775, 0533348, 664903.3, 676628.4, 082244.4, 09120.50, 10031.38, 11302.00.
 
 [00:00:54:28]
-_page : 23
+_page : 24
 P: Roger. Copied your parameters. Over.
 
 [00:00:54:32]
@@ -1288,7 +1288,7 @@ C: Huh?
 P: I wouldn't believe it if it hadn't happened.
 
 [00:01:01:08]
-_page : 24
+_page : 25
 C: What?
 
 [00:01:01:10]
@@ -1346,7 +1346,7 @@ _comment: Pre-retro command load
 P: Is the T<sub>R</sub>-5 circuit breaker off?
 
 [00:01:04:32]
-_page : 25
+_page : 26
 C: Yes.
 
 [00:01:04:33]
@@ -1411,7 +1411,7 @@ P: Now?
 C: Well, yes. Now.
 
 [00:01:07:20]
-_page : 26
+_page : 27
 P: Okay.
 
 [00:01:07:25]
@@ -1478,7 +1478,7 @@ C: 50 - 30 - 40. Those readings are right. You get 56?
 P: Yes, 56 and 57 are right on the money. I copied them.
 
 [00:01:10:04]
-_page : 27
+_page : 28
 P: Okay, there it is — 10 - 20 - 30.
 
 [00:01:10:08]
@@ -1542,7 +1542,7 @@ _extra : CTN-1 / CANTON
 P: Okay.
 
 [00:01:11:32]
-_page : 28
+_page : 29
 CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:01:11:33]
@@ -1580,7 +1580,7 @@ _extra : CTN-1
 P: Roger. We'll go to High Rate and see if it comes down, Gordo.
 
 [00:01:13:07]
-_page : 29
+_page : 30
 C: Roger, and Gordo we have lost our primary scanners.
 
 [00:01:13:17]
@@ -1641,7 +1641,7 @@ P: 1:33.
 C: 1:33.
 
 [00:01:15:39]
-_page : 30
+_page : 31
 P: Now see, it is coming down.
 _comment: oxygen pressure
 
@@ -1701,7 +1701,7 @@ C: Do I have to be in CATCH-UP when you put it in?
 P: What?
 
 [00:01:18:10]
-_page : 31
+_page : 32
 C: Do I have to be in CATCH-UP when you put it in?
 
 [00:01:18:14]
@@ -1760,7 +1760,7 @@ _extra : RKV-1
 P: The oxygen pressure has climbed right up back there off-scale.
 
 [00:01:21:07]
-_page : 32
+_page : 33
 C: What is?
 
 [00:01:21:08]
@@ -1817,7 +1817,7 @@ CC: Roger. You have a load in the CATCH-UP for your maneuver.
 C: Got to be in CATCH-UP.
 
 [00:01:24:28]
-_page : 33
+_page : 34
 P: Okay. There you go.
 
 [00:01:24:29]
@@ -1875,7 +1875,7 @@ _extra : RKV-1
 CC: MARK! You copied?
 
 [00:01:25:46]
-_page : 34
+_page : 35
 C: Roger. We copied.
 
 [00:01:25:49]
@@ -1928,7 +1928,7 @@ _extra : RKV-1/nGYM-1
 C: Propellant quantity is 84 percent.
 
 [00:01:27:58]
-_page : 35
+_page : 36
 CC: Roger. I copy.
 
 [00:01:28:10]
@@ -1982,7 +1982,7 @@ P: Yes.
 C: We're going to have a hard time with that tracking task.
 
 [00:01:29:59]
-_page : 36
+_page : 37
 P: Can you see anything up north there?
 
 [00:01:30:01]
@@ -2036,7 +2036,7 @@ _extra : TEX-1
 C: You got that? The IVI's came out 50 ft/sec aft. Right?
 
 [00:01:31:52]
-_page : 37
+_page : 38
 P: Yes, but it should have been 48. I don't know why it came out to 50. Should we bring it down to 48?
 
 [00:01:31:56]
@@ -2095,7 +2095,7 @@ _extra : TEX-1
 CC: [glossary:Molly Brown], how are your attitudes holding?
 
 [00:01:33:24]
-_page : 38
+_page : 39
 C: Perfect.
 
 [00:01:33:26]
@@ -2154,7 +2154,7 @@ _extra : TEX-1/nMCC-1
 C: As we started to burn my IVI's read 51 ft/sec, and we burned them down to the place where they read 2 ft/sec.
 
 [00:01:34:48]
-_page : 39
+_page : 40
 CC: Say again that last number.
 
 [00:01:34:50]
@@ -2210,7 +2210,7 @@ _extra : MCC-1
 P: Oh, that record switch!
 
 [00:01:36:16]
-_page : 40
+_page : 41
 P: This source pressure is 2050. Source temperature is 56.
 
 [00:01:36:24]
@@ -2261,7 +2261,7 @@ CC: [glossary:Molly Brown], Cape [glossary:CAP COM]. Did you get your
      experiments for the first orbit?
 
 [00:01:39:08]
-_page : 41
+_page : 42
 CC: [glossary:Molly Brown], Cape [glossary:CAP COM].
 
 [00:01:39:15]
@@ -2317,7 +2317,7 @@ _extra : MCC-1
 C: Cape [glossary:CAP COM], do you read, [glossary:Molly Brown].
 
 [00:01:42:44]
-_page : 42
+_page : 43
 CC: Go ahead [glossary:Molly Brown]. Cape [glossary:CAP COM].
 
 [00:01:42:46]
@@ -2379,7 +2379,7 @@ _extra : CYI-2
 P: Hot dog! Good old food.
 
 [00:01:45:23]
-_page : 43
+_page : 44
 C: Going to have to make Alinement Check.
 
 [00:01:45:34]
@@ -2434,7 +2434,7 @@ _extra : CYI-2
 C: Canaries, Molly. Go ahead.
 
 [00:01:49:13]
-_page : 44
+_page : 45
 CC: Roger. We have systems GO on the ground.
 
 [00:01:49:16]
@@ -2497,7 +2497,7 @@ _extra : CYI-45
 P: I thought they weren't going to give those times to us.
 
 [00:01:50:49]
-_page : 45
+_page : 46
 C: Stand by.
 
 [00:01:51:06]
@@ -2556,7 +2556,7 @@ C: No, you can handle that.
 C: What was the time of that booster again? What elevation?
 
 [00:01:53:26]
-_page : 46
+_page : 47
 P: 02 08 52. 18° el.
 
 [00:01:53:30]
@@ -2625,7 +2625,7 @@ C: How do you like this going backwards? You can tell
      you're going backwards too, can't you?
 
 [00:01:57:04]
-_page : 47
+_page : 48
 P: Never a doubt.
 
 [00:01:57:14]
@@ -2677,7 +2677,7 @@ C: I'll tell you, man, you don't need anything to tell your yaw, do you?
 P: No, I'll tell you, I need some of these missions where I can look out of the window. I haven't looked out of this window a second and a half. It's beautiful!
 
 [00:01:58:35]
-_page : 48
+_page : 49
 C: You know, if I lined up the yaw, I'd line it up right there. What does it look like to you?
 
 [00:01:58:44]
@@ -2738,7 +2738,7 @@ C: We can't see the booster. Have to be turned around for this check. We can't s
 C: Let's see. Where's the next station we're coming to?
 
 [00:02:01:36]
-_page : 49
+_page : 50
 P: Kano.
 
 [00:02:02:31]
@@ -2805,7 +2805,7 @@ C: Well, we've got a scanner light on secondary.
 C: There, it went out. I guess I was looking at it in the sun.
 
 [00:02:05:29]
-_page : 50
+_page : 51
 P: Yes.
 
 [00:02:05:33]
@@ -2863,7 +2863,7 @@ C: Yes.
 P: Hey, look at those thrusters glowing!
 
 [00:02:08:59]
-_page : 51
+_page : 52
 C: Where?
 
 [00:02:09:00]
@@ -2927,7 +2927,7 @@ C: I'll give them one.
 C: Okay. Translation Check at 2:17, which is 7 minutes away.
 
 [00:02:10:35]
-_page : 52
+_page : 53
 P: Know what kind of transmission check it is?
 
 [00:02:10:37]
@@ -2986,7 +2986,7 @@ _extra : CSQ-2
 P: Okay. Well, I'll wait till you finish that then, if that's okay with you.
 
 [00:02:14:40]
-_page : 53
+_page : 54
 C: Yes.
 
 [00:02:14:42]
@@ -3040,7 +3040,7 @@ _extra : CSQ-2
 CC: Roger read you weak but clear. We have you green from the ground.
 
 [00:02:16:31]
-_page : 54
+_page : 55
 C: Roger. Getting ready for a translation burn.
 
 [00:02:16:37]
@@ -3099,7 +3099,7 @@ _extra : CSQ-2
 CC: We still cannot get an … back from spacecraft on T<sub>X</sub>.
 
 [00:02:18:33]
-_page : 55
+_page : 56
 P: Roger, I'll set the T<sub>X</sub> for the … Over.
 
 [00:02:18:38]
@@ -3161,7 +3161,7 @@ _extra : CRO-2
 CC: That looks like it's in the ball park.
 
 [00:02:22:03]
-_page : 56
+_page : 57
 C: This thing isn't alined, is it?
 
 [00:02:22:06]
@@ -3203,7 +3203,7 @@ C: Affirmative.
 CC: Okay, strike all that other stuff. It sounds to me like you've got a mechanical problem in the valve. Is that what you figured?
 
 [00:02:24:36]
-_page : 57
+_page : 58
 C: Roger, it must be very, very slight. We can't see the pressure go down.
 
 [00:02:24:40]
@@ -3251,7 +3251,7 @@ _extra : CRO-2
 C: 2:26. Rate gyros primary. Roll jets yaw.
 
 [00:02:26:22]
-_page : 58
+_page : 59
 CC: [glossary:Molly Brown], Carnarvon.
 
 [00:02:26:25]
@@ -3309,7 +3309,7 @@ P: Wait till I get my suit zipped up.
 C: ….
 
 [00:02:32:08]
-_page : 59
+_page : 60
 C: Better get that sight out for me.
 
 [00:02:32:11]
@@ -3367,7 +3367,7 @@ C: What do you mean?
 P: I mean this bacteriacide bag.
 
 [00:02:35:59]
-_page : 60
+_page : 61
 P: Got it — a little.
 
 [00:02:36:25]
@@ -3434,7 +3434,7 @@ P: I don't either.
 C: Drop it back behind the seat, I guess.
 
 [00:02:39:51]
-_page : 61
+_page : 62
 P: I'll try to stick it in the food box.
 
 [00:02:40:30]
@@ -3489,7 +3489,7 @@ P: And at the start of the O<sub>2</sub> High Rate Check, O<sub>2</sub> quantity
 P: Look at that suit inlet temperature go up.
 
 [00:02:42:23]
-_page : 62
+_page : 63
 C: Is that moon coming up at about the right spot for you for zero yaw?
 
 [00:02:42:26]
@@ -3541,7 +3541,7 @@ C: Hey, give me that sight down there.
 P: Okay.
 
 [00:02:44:11]
-_page : 63
+_page : 64
 C: I'll miss my tracking task.
 
 [00:02:44:16]
@@ -3589,7 +3589,7 @@ C: Oh, man! I don't know about this.
 P: Turning the auto heater off.
 
 [00:02:46:34]
-_page : 64
+_page : 65
 P: Can't see a thing, Gus. The quantity at the end of the O<sub>2</sub> High Rate Check was down to 62 percent. Started at 66 and ended 62. I can't see a thing out the window, Gus, because of the sun.
 
 [00:02:46:58]
@@ -3652,7 +3652,7 @@ _extra : HAW-2
 P: No, no it didn't, see?
 
 [00:02:48:09]
-_page : 65
+_page : 66
 C: Coming up?
 
 [00:02:48:10]
@@ -3710,7 +3710,7 @@ P: I thought they told us to put it in COMMAND over
      Carnarvon.
 
 [00:02:50:11]
-_page : 66
+_page : 67
 CC: Yeah. Go ahead, [glossary:Molly Brown].
 
 [00:02:50:12]
@@ -3766,7 +3766,7 @@ _extra : HAW-2
 CC: Roger. Got it.
 
 [00:02:52:20]
-_page : 67
+_page : 68
 P: Okay. Gage Correlation Check at 1816, and away we go.
 _note: Pilot misread 24-hour clock. It should have been 1716.
 
@@ -3818,7 +3818,7 @@ _extra : RKV-2
 P: It sure does, Gus.
 
 [00:02:54:22]
-_page : 68
+_page : 69
 C: I think the rest of it is all right.
 
 [00:02:54:25]
@@ -3875,7 +3875,7 @@ _extra : RKV-2
 C: Blood pressure is on the way.
 
 [00:02:56:46]
-_page : 69
+_page : 70
 CC: Roger.
 
 [00:02:56:55]
@@ -3926,7 +3926,7 @@ _extra : RKV-2 / GYM-2
 C: Roger.
 
 [00:02:58:26]
-_page : 70
+_page : 71
 P: Thanks a bunch. Okay, I'll read these quantities off. The GMT was 1716 when we started. Propellant quantity was 60. Cabin temperature — 92. Suit temperature — 58. Cabin pressure — 5.6. Suit CO<sub>2</sub> — 3/4 millimeter. Secondary left O<sub>2</sub> bottle — 5100. Secondary O<sub>2</sub> bottle right was 5050. ECS O<sub>2</sub> quantity — 62 percent. Pressure — 840. Source temperature — 55. Source pressure — 2000. Fuel temp — 68.
 
 [00:02:58:58]
@@ -3965,7 +3965,7 @@ _extra : GYM-2
 CC: Your Three-Alpha times are nominal.
 
 [00:03:00:01]
-_page : 71
+_page : 72
 C: Roger … and nominal.
 
 [00:03:00:03]
@@ -4021,7 +4021,7 @@ _extra : GYM-2
 C: Where?
 
 [00:03:01:02]
-_page : 72
+_page : 73
 P: You've got to pitch the nose down. Right by the nose.
 
 [00:03:01:07]
@@ -4080,7 +4080,7 @@ _extra : GYM-2
 P: Tell them we have done our Coolant Pump Check.
 
 [00:03:02:01]
-_page : 73
+_page : 74
 C: Coolant Pump Checks complete.
 
 [00:03:02:04]
@@ -4145,7 +4145,7 @@ _extra : GYM-2
 CC: We are standing by for your standby telemetry transmitter check with real-time.
 
 [00:03:03:18]
-_page : 74
+_page : 75
 P: Okay. Tell them to stand by. T/M's in REAL-TIME.
 
 [00:03:03:20]
@@ -4206,7 +4206,7 @@ _extra : GYM-2/nTEX-2
 P: Well, No. 2 audio to RECORD. Suit Fan No. 2 - - check.
 
 [00:03:05:10]
-_page : 75
+_page : 76
 P: At 3:10. Okay.
 
 [00:03:05:17]
@@ -4260,7 +4260,7 @@ _extra : TEX-2/nMCC-2
 CC: Okay. You are commanding it on. All righty, we'll give you the word on it then. What is the status of your other platform modes, [glossary:Molly Brown] — [glossary:BEF] or Free?
 
 [00:03:06:35]
-_page : 76
+_page : 77
 C: Say again.
 
 [00:03:06:36]
@@ -4310,7 +4310,7 @@ _extra : TEX-2 / MCC-2
 C: Roger. I deleted that one Horizon Scanner Mode Check, too.
 
 [00:03:07:56]
-_page : 77
+_page : 78
 CC: Okay. The one earlier?
 
 [00:03:07:58]
@@ -4366,7 +4366,7 @@ _extra : MCC-2
 C: Very cloudy.
 
 [00:03:09:12]
-_page : 78
+_page : 79
 CC: I see.
 
 [00:03:09:16]
@@ -4425,7 +4425,7 @@ _extra : MCC-2
 CC: Have you had a chance to check that Free mode yet?
 
 [00:03:12:33]
-_page : 79
+_page : 80
 C: I'm in Free mode now, and it looks like it is working all right.
 
 [00:03:12:35]
@@ -4481,7 +4481,7 @@ _extra : Bad tape change and recorder did not function again until 04 08 00, fol
 CC: Okay.
 
 [00:03:48:14]
-_page : 80
+_page : 81
 CC: [glossary:Molly Brown], [glossary:CSQ] [glossary:CAP COM].
 
 [00:03:48:17]
@@ -4537,7 +4537,7 @@ _extra : CSQ-3/nCRO-3
 CC: [glossary:Molly Brown], [glossary:CSQ]. Stand by for a GMT time hack.
 
 [00:03:50:32]
-_page : 81
+_page : 82
 C: Roger.
 
 [00:03:50:34]
@@ -4594,7 +4594,7 @@ _extra : CRO-3
 C: [glossary:OAMS] propellant quantity is 55 percent.
 
 [00:03:56:34]
-_page : 82
+_page : 83
 CC: Roger. 55 percent. Could I have the temperature and pressure? We are going to send you a command load at this time.
 
 [00:03:56:39]
@@ -4641,7 +4641,7 @@ _extra : CRO-3
 CC: Roger, roger.
 
 [00:03:58:49]
-_page : 83
+_page : 84
 CC: [glossary:Molly Brown], Carnarvon [glossary:CAP COM]. Stand by for T<sub>R</sub> MARK of 34:00, in approximately 30 seconds.
 
 [00:03:58:58]
@@ -4701,7 +4701,7 @@ CC: Cape recommends that I give you your backup quantities there for [glossary:G
      GMTRB of 19 08 23.  Roll right 65 at GMT 400K 19 01 29.
 
 [00:04:02:00]
-_page : 84
+_page : 85
 C: We got it, Pete.
 
 [00:04:02:02]
@@ -4757,7 +4757,7 @@ C: It's on again.
 C: It's out again.
 
 [00:04:10:03]
-_page : 85
+_page : 86
 C: Scanner light's out again.
 
 [00:04:10:06]
@@ -4815,7 +4815,7 @@ P: Main batteries - we tested them. They checked good. C is way up there at 29, 
 C: Man! With that sun shining on the nose, I can't see anything now.
 
 [00:04:12:57]
-_page : 86
+_page : 87
 P: Every time you fire those [glossary:RCS] thrusters S1 and S2 drop voltage. Well, that's not unusual.
 
 [00:04:13:00]
@@ -4875,7 +4875,7 @@ P: Yep.
 C: I'll give it to you at 05.
 
 [00:04:14:17]
-_page : 87
+_page : 88
 P: Okay.
 
 [00:04:14:18]
@@ -4936,7 +4936,7 @@ C: I'm not going to start until later.
 P: Wait a second.
 
 [00:04:16:50]
-_page : 88
+_page : 89
 C: Is it in?
 
 [00:04:16:52]
@@ -5002,7 +5002,7 @@ C: There she goes. 6 - 5 - 4 — how did it get in
      there?  My attitudes are not 0, 0, 180.
 
 [00:04:19:15]
-_page : 89
+_page : 90
 P: That's how.
 
 [00:04:19:19]
@@ -5061,7 +5061,7 @@ _extra : HAW-3
 P: That's perfect out-the-window alinement.
 
 [00:04:21:01]
-_page : 90
+_page : 91
 C: Yes.
 
 [00:04:21:12]
@@ -5126,7 +5126,7 @@ _extra : HAW-3
 CC: Right. Mark end of burn. Good show.
 
 [00:04:23:19]
-_page : 91
+_page : 92
 P: We timed that a minute and 48 seconds.
 
 [00:04:23:25]
@@ -5192,7 +5192,7 @@ _extra : HAW-3
 C: About 22.
 
 [00:04:24:26]
-_page : 92
+_page : 93
 CC: Okay.
 
 [00:04:24:30]
@@ -5247,7 +5247,7 @@ C: I haven't heard any of those squib isolation pyros fire yet. Have you?
 P: Yes, I heard the ones on the pad fire.
 
 [00:04:26:24]
-_page : 93
+_page : 94
 C: Did you? I don't remember, I guess.
 
 [00:04:26:28]
@@ -5312,7 +5312,7 @@ P: Okay.
 
 [00:04:28:33]
 _extra : ROSE KNOT VICTOR
-_page : 94
+_page : 95
 CC: [glossary:Molly Brown], [glossary:RKV] [glossary:CAP COM].
 
 [00:04:28:38]
@@ -5376,7 +5376,7 @@ _extra : RKV-3
 C: T<sub>R</sub>-5 is complete.
 
 [00:04:30:14]
-_page : 95
+_page : 96
 CC: Roger.
 
 [00:04:30:20]
@@ -5441,7 +5441,7 @@ _extra : RKV-3
 C: MARK!
 
 [00:04:32:24]
-_page : 96
+_page : 97
 P: Separate OAMS?
 
 [00:04:32:25]
@@ -5510,7 +5510,7 @@ C: Three of them.
 CC: Rocket 4.
 
 [00:04:33:40]
-_page : 97
+_page : 98
 CC: [glossary:Molly Brown], do you confirm all rockets firing normally?
 
 [00:04:33:44]
@@ -5558,7 +5558,7 @@ _extra : GYM-3 / TEX-3
 CC: Molly ?Brown, correct that 400K feet. That's 19 01 29.
 
 [00:04:35:32]
-_page : 98
+_page : 99
 C: Roger.
 
 [00:04:35:54]
@@ -5615,7 +5615,7 @@ _extra : TEX-3 / MCC-Reentry
 C: Go ahead.
 
 [00:04:38:49]
-_page : 99
+_page : 100
 CC: Bank left 45°. Bank right 55°. Time to reverse bank angle 19 08 17.
 
 [00:04:39:02]
@@ -5668,7 +5668,7 @@ _extra : MCC-Reentry and Descent
 CC: [glossary:Molly Brown], Cape [glossary:CAP COM] with a 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1.
 
 [00:04:43:55]
-_page : 100
+_page : 101
 CC: This is Cape [glossary:CAP COM] transmitting for Communications Experiment 1 - 2 - 3 - 4 - 5 - 4 - 3 - 2 - 1. Over.
 
 [00:04:44:28]
@@ -5723,7 +5723,7 @@ CC: You say 70 000?
 C: There goes the drogue.
 
 [00:04:46:49]
-_page : 101
+_page : 102
 CC: Roger.
 
 [00:04:46:52]
@@ -5785,7 +5785,7 @@ _extra : MCC-Descent / INTREPID-Descent
 P: Yes. Now we go through the post-main checklist.
 
 [00:04:49:13]
-_page : 102
+_page : 103
 C: Let's see, can they read us now?
 
 [00:04:49:16]
@@ -5842,7 +5842,7 @@ _extra : INTREPID-Descent
 RS: [glossary:Molly Brown], this is Intrepid. It appears you will land 5 miles ahead of me. Over.
 
 [00:04:50:03]
-_page : 103
+_page : 104
 C: Roger. Thank you.
 
 [00:04:50:04]
@@ -5901,7 +5901,7 @@ _extra : INTREPID-Descent
 P: Reentry Antenna Experiment off.
 
 [00:04:51:05]
-_page : 104
+_page : 105
 P: Okay. Manual O<sub>2</sub> High Rate - PULL. I don't think we want to do that yet, do you?
 
 [00:04:51:09]
@@ -5963,7 +5963,7 @@ _extra : INTREPID-Descent, Touchdown & Recovery
 C: 600 feet.
 
 [00:04:52:23]
-_page : 105
+_page : 106
 C: Landing attitude cover open. I thought it was parajett.
 
 [00:04:52:26]
@@ -6017,7 +6017,7 @@ _extra : Recovery
 C: Hey, start over again.
 
 [00:04:54:09]
-_page : 106
+_page : 107
 P: Post-landing checklist. Helmet - off and stow. I don't think we ought to do that.
 
 [00:04:54:13]
