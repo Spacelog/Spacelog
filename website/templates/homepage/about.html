@@ -92,7 +92,7 @@ Each line starts with a timestamp, in Ground Elapsed Time, which is the time (in
           <li><a href='http://www.flickr.com/photos/28634332@N05/4252292720/'>Sunset over Earth</a> by <a href='http://www.nasa.gov/centers/marshall/home/index.html'>	
 NASA's MSFC</a> (CC By-NC)</li>
         {% for image in mission.copy.image_attributions %}
-          <li><a href='{{ image.url }}'>{{ image.title }}</a> by <a href='{{ image.attrib_url }}'>{{ image.attrib }}</a> ({{ image.license }})</li>
+          <li><a href='{{ image.url }}'>{{ image.title }}</a> from <a href='{{ image.attrib_url }}'>{{ image.attrib }}</a>{% if image.license %} ({{ image.license }}){% endif %}</li>
         {% endfor %}
       </ul>
       <p>Other images are from <a href='http://grin.hq.nasa.gov/'>NASA</a> and are in the public domain.</p>
