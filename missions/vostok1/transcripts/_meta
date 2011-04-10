@@ -35,6 +35,10 @@
             { "url": "http://epizodsspace.narod.ru/bibl/i_tsk/zv-reis.html", "title": "ЗВЕЗДНЫЙ РЕЙС ЮРИЯ ГАГАРИНА (Star Flight: Yuri Gagarin)" }
         ]
     },
+    "homepage_quotes" : [
+        "00:00:00:00",
+        "00:00:20:00"
+    ],
     "acts": [
         {
             "title": "Preparation",
