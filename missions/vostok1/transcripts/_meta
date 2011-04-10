@@ -42,7 +42,7 @@
     "acts": [
         {
             "title": "Preparation",
-            "description": "",
+            "description": "Radio communication was turned on two hours before launch, and Gagarin talked through preparations with Korolyov, Kamanin and others.",
             "range": ["-00:02:00:00", "00:00:00:00"],
             "banner": "act1.jpg",
             "banner_class": "black",
@@ -50,7 +50,7 @@
         },
         {
             "title": "Launch",
-            "description": "",
+            "description": "At 06.07 UTC, just after 9am local time, Yuri Gagarin and Vostok 1 launch from the Baikonur Cosmodrome, the first human spaceflight.",
             "range": ["00:00:00:00", "00:00:11:16"],
             "banner": "act2.jpg",
             "banner_class": "blue",
@@ -58,7 +58,7 @@
         },
         {
             "title": "Earth orbit",
-            "description": "",
+            "description": "Despite sometimes spotty radio communication, Gagarin is able to report on both his personal well-being and details of the cockpit parameters.",
             "range": ["00:00:11:16", "00:01:19:00"],
             "banner": "act3.jpg",
             "banner_class": "black",
@@ -66,7 +66,7 @@
         },
         {
             "title": "Reentry",
-            "description": "",
+            "description": "Automatic systems bring the spacecraft into attitude for reentry and fire the retrorockets; it took half an hour for both Gagarin and Vostok 1 to return to the ground. During this period there was no radio communication.",
             "range": ["00:01:19:00", "00:02:00:00"],
             "banner": "act4.jpg",
             "banner_class": "black",
