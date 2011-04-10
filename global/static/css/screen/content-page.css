@@ -6,16 +6,21 @@
                             top center;
     padding:                50px 0 200px;
 }
-/*.about {
-    background-image:       url( ../img/about-bg.jpg );
+.about {
+    background:             url( ../img/about-bg.jpg )
+                            no-repeat
+                            top left;
 }
 .press {
-    background-image:       url( ../img/press-bg.jpg );
+    background:             url( ../img/press-bg.jpg )
+                            no-repeat
+                            top left;
 }
+
 .get-involved {
     background-image:       url( ../img/get-involved-bg.jpg );
 }
-*/
+
 /* -- */
 .content-page .wrapper {
     -cp-contain:            easy;
