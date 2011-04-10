@@ -20,7 +20,17 @@
             "leading": 1,
             "trailing": -1
         },
-        "type_search": "Блондину"
+        "type_search": "Блондину",
+        "about_image": "pravda.jpg",
+        "image_attributions": [
+            { "url": "http://www.svengrahn.pp.se/histind/Vostok1/gagcock.jpg", "title": "Yuri Gagarin in Vostok 1 Cockpit", "attrib_url": "http://www.svengrahn.pp.se/histind/Vostok1/Vostok1X.htm", "attrib": "Sven Grahn" },
+            { "url": "http://en.wikipedia.org/wiki/File:Vostok_1_after_landing.jpg", "title": "Vostok 1 after landing", "attrib_url": "http://en.wikipedia.org/wiki/User:Errabee", "attrib": "Errabee", "license": "CC By-SA" },
+            { "url": "http://epizodsspace.narod.ru/bibl/i_tsk/01.jpg", "title": "Pravda on April 12, 1961", "attrib_url": "http://epizodsspace.narod.ru/bibl/i_tsk/zv-reis.html", "attrib": "Proceedings of the CPSU Central Committee, 1991 #5" },
+            { "url": "http://en.wikipedia.org/wiki/File:Vostok-1_patch.svg", "title": "Vostok-1 patch", "attrib_url": "http://commons.wikimedia.org/wiki/User:Orionist", "attrib": "Orionist" }
+        ],
+        "transcript_attributions": [
+            { "url": "http://epizodsspace.narod.ru/bibl/i_tsk/zv-reis.html", "title": "ЗВЕЗДНЫЙ РЕЙС ЮРИЯ ГАГАРИНА (Star Flight: Yuri Gagarin)" }
+        ]
     },
     "acts": [
         {
