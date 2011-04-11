@@ -29,7 +29,8 @@
             { "url": "http://epizodsspace.narod.ru/bibl/i_tsk/01.jpg", "title": "Pravda on April 12, 1961", "attrib_url": "http://epizodsspace.narod.ru/bibl/i_tsk/zv-reis.html", "attrib": "Proceedings of the CPSU Central Committee, 1991 #5" },
             { "url": "http://en.wikipedia.org/wiki/File:Vostok-1_patch.svg", "title": "Vostok-1 patch", "attrib_url": "http://commons.wikimedia.org/wiki/User:Orionist", "attrib": "Orionist" },
             { "url": "http://www.thelivingmoon.com/45jack_files/03files/Black_Russian_002.html", "title": "SP Korolyov", "attrib_url": "http://www.thelivingmoon.com/45jack_files/", "attrib": "Jack Arneson" },
-            { "url": "http://persona.rin.ru/eng/images/30562.jpg", "title": "Nikolai Kamanin", "attrib_url": "http://persona.rin.ru/eng/view/f/0/30562/nikolai-petrovich-kamanin", "attrib": "persona.rin.ru" }
+            { "url": "http://persona.rin.ru/eng/images/30562.jpg", "title": "Nikolai Kamanin", "attrib_url": "http://persona.rin.ru/eng/view/f/0/30562/nikolai-petrovich-kamanin", "attrib": "persona.rin.ru" },
+            { "url": "http://www.firstorbit.org", "title": "Background Image", "attrib_url": "http://www.firstorbit.org", "attrib": "First Orbit", "license": "CC By" }
         ],
         "transcript_attributions": [
             { "url": "http://epizodsspace.narod.ru/bibl/i_tsk/zv-reis.html", "title": "ЗВЕЗДНЫЙ РЕЙС ЮРИЯ ГАГАРИНА (Star Flight: Yuri Gagarin)" }
