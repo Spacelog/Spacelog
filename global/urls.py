@@ -4,21 +4,9 @@ from django.conf import settings
 
 urlpatterns = patterns('',
     url(r'^$', 'homepage.views.homepage', name="homepage"),
-    url(r'^about/$', 'django.views.generic.simple.direct_to_template', 
-        {
-            'template': 'pages/about.html', 
-            'extra_context': { 'page': 'about' }
-    } ),
-    url(r'^press/$', 'django.views.generic.simple.direct_to_template', 
-        {
-            'template': 'pages/press.html', 
-            'extra_context': { 'page': 'press' }
-    } ),
-    url(r'^get-involved/$', 'django.views.generic.simple.direct_to_template', 
-        {
-            'template': 'pages/get-involved.html', 
-            'extra_context': { 'page': 'get-involved' }
-    } ),
+    url(r'^about/$', 'homepage.views.about', name="about"),
+    url(r'^press/$', 'homepage.views.press', name="press"),
+    url(r'^get-involved/$', 'homepage.views.get_involved', name="get_involved"),
     # url(r'^search/$', SearchView.as_view(), name="search"),
 )
 

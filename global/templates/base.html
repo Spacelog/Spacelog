@@ -45,10 +45,7 @@
     <h2>{{ list.0 }}</h2>
     <ul class='reading-list'>
     {% for book in list.1 %}
-      <li><cite>{{ book.0 }}</cite>{% if book.1 %} by {{ book.1 }}{% endif %}:
-        {% for link in book.2 %}
-          {% if not forloop.first and not forloop.last %}, {% endif %}{% if forloop.last %} or {% endif %}<a href='{{ link.0 }}'><span>Buy <cite>{{ book.0 }}</cite> on </span>{{ link.1 }}</a>
-        {% endfor %}
+    <li><a href='{{ book.2 }}'><cite>{{ book.0 }}</cite></a>{% if book.1 %} by {{ book.1 }}{% endif %}
       </li>
     {% endfor %}
     </ul>
