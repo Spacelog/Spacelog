@@ -24,7 +24,8 @@
         "description": "The point at which aerodynamic stress on a spacecraft in atmospheric flight is maximized."
     },
     "ΔV": {
-        "summary": "Delta V (change in velocity)"
+        "summary": "Delta V (change in velocity)",
+        "slug": "delta-v"
     },
     "RCS": {
         "summary": "Reaction control system",
