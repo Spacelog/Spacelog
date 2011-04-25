@@ -93,8 +93,19 @@
     line-height:            1.5;
 }
 
-#team li + li:before,
-#software-used li + li:before {
+// Chrome 10 has a bug that makes the + operator trigger when
+// two elements don't share a parent. It may be more specific
+// than that; in our case the parent elements are of the same
+// type, and except for the different parent the two elements
+// are subsequent of their type (li in this case) in the DOM.
+//
+// This fixes the problem, although it's a bit vile.
+#how-this-was-made #team li:first-child {
+    content:                none;
+}
+
+#how-this-was-made #team li + li:before,
+#how-this-was-made #software-used li + li:before {
     content:                ", ";
 }
 
