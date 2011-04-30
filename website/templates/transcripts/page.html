@@ -51,10 +51,6 @@
           </time>
         </a>
       </dt>
-    {% if log_line.note %}
-      <dt class='note-label'>Note</dt>
-      <dd class='note'><p>{{ log_line.note }}</p></dd>
-    {% endif %}
     {% for speaker, text in log_line.lines %}
       <dt class='speaker{% if not forloop.first %} subsequent{% endif %}'>
         {% avatar_and_name speaker mission.name log_line.timestamp %}
@@ -105,6 +101,10 @@
         {% endif %}
       </dd>
     {% endfor %}{# speaker, text #}
+    {% if log_line.note %}
+      <dt class='note-label'>Note</dt>
+      <dd class='note'><p>{{ log_line.note }}</p></dd>
+    {% endif %}
     {% if log_line.highlight_index == max_highlight_index %}
     <p id='range-advisory'>
     Spoken on {{ first_highlighted_line.utc_time }} UTC ({{ first_highlighted_line.utc_time|timesince }} ago)<span>. </span>
