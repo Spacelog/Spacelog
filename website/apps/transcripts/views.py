@@ -374,12 +374,16 @@ class OriginalView(TemplateView):
     
     def get_context_data(self, page, transcript=None):
         page = int(page)
-        # FIXME: You can scroll off the end of the transcript, but we
-        # don't have the .png files locally to check that now.
+        transcript_name = self.get_transcript_name();
+        max_transcript_pages = int(self.request.mission.transcript_pages[transcript_name])
+        
+        if not 1 <= page <= max_transcript_pages:
+            raise Http404("No original page with that page number.")
+        
         return {
-            'transcript_name': self.get_transcript_name(),
-            'transcript_short_name': self.get_transcript_name().split('/')[1],
+            'transcript_name': transcript_name,
+            'transcript_short_name': transcript_name.split('/')[1],
             "page": page,
-            "next_page": page + 1,
+            "next_page": page + 1 if page < max_transcript_pages else None,
             "previous_page": page - 1 if page > 1 else None,
         }

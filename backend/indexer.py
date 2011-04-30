@@ -309,6 +309,11 @@ class TranscriptIndexer(object):
                     )
             # Increment the number of log lines we've done
             current_page_lines += len(chunk['lines'])
+        if current_transcript_page:
+            # HACK?: Hash of page counts
+            self.redis_conn.hmset("pages:%s" % self.mission_name, {
+                self.transcript_name : current_transcript_page
+            } )
 
 
 class MetaIndexer(object):

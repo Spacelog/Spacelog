@@ -552,6 +552,8 @@ class Mission(object):
         self.utc_launch_time = data['utc_launch_time']
         self.type_search = self.copy.get('type_search', 'reentry')
         self.transcripts = self.redis_conn.smembers("mission:%s:transcripts" % self.name)
+        # HACK?: Hash of page counts
+        self.transcript_pages = self.redis_conn.hgetall("pages:%s" % self.name)
 
     class Query(BaseQuery):
 
