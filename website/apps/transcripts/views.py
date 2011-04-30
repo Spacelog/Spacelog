@@ -198,6 +198,7 @@ class PageView(TranscriptView):
             'mission_name': self.request.mission.name,
             'mission_main_transcript': self.request.mission.main_transcript,
             'transcript_name': self.get_transcript_name(),
+            'transcript_short_name': self.get_transcript_name().split('/')[1],
             'start' : start,
             'log_lines': log_lines,
             'next_timestamp': next_timestamp,
@@ -362,12 +363,19 @@ class ErrorView(TemplateView):
 class OriginalView(TemplateView):
 
     template_name = "transcripts/original.html"
-
-    def get_context_data(self, page):
+    
+    def get_transcript_name(self):
+      if self.kwargs.get("transcript", None):
+          return self.request.mission.name + "/" + self.kwargs["transcript"]
+      return self.request.mission.main_transcript
+    
+    def get_context_data(self, page, transcript=None):
         page = int(page)
         # FIXME: You can scroll off the end of the transcript, but we
         # don't have the .png files locally to check that now.
         return {
+            'transcript_name': self.get_transcript_name(),
+            'transcript_short_name': self.get_transcript_name().split('/')[1],
             "page": page,
             "next_page": page + 1,
             "previous_page": page - 1 if page > 1 else None,

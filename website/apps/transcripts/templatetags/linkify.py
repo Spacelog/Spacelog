@@ -7,7 +7,22 @@ from backend.api import Glossary
 from backend.util import timestamp_to_seconds
 from transcripts.templatetags.missiontime import timestamp_to_url
 
+from templatetag_sugar.register import tag
+from templatetag_sugar.parser import Variable, Optional
+
 register = Library()
+
+@tag(register, [Variable(), Variable()])
+def original_link(context, transcript, page):
+    url_args = {
+        'page': page,
+    }
+    if transcript != context['request'].mission.main_transcript:
+        # Split transcript name from [mission]/[transcript]
+        url_args["transcript"] = transcript.split('/')[1]
+    
+    return reverse("original", kwargs=url_args)
+
 
 def glossary_link(match, request):
     # Try to look up the definition

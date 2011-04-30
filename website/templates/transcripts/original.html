@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load linkify %}
 
 {% block full_title %}Page {{ page }} of {{ mission.title }}&rsquo;s transcript on Spacelog{% endblock %}
 
@@ -8,13 +9,13 @@
 {% block content %}
   
     {% if previous_page != None %}
-        <a rel='prev' href="{% url original previous_page %}"><span>Previous</span></a>
+        <a rel='prev' href="{% original_link transcript_name previous_page %}"><span>Previous</span></a>
     {% endif %}
 
-    <img src="{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/original/{{ mission.main_transcript_subname }}/{{ page }}.png" width="770">
+    <img src="{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/original/{{ transcript_short_name }}/{{ page }}.png" width="770">
 
     {% if next_page != None %}
-        <a rel='next' href="{% url original next_page %}"><span>Next</span></a>
+        <a rel='next' href="{% original_link transcript_name next_page %}"><span>Next</span></a>
     {% endif %}
   
 {% endblock %}
