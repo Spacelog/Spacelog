@@ -4,39 +4,12 @@ import sys
 import re
 
 #MAX_FILE_NUMBER = 20
-MAX_FILE_NUMBER = 3
 TIMESTAMP_PARTS = 4
+SECONDS_OFFSET = 0
 
 pageNumber = 1
 
 errors = []
-valid_tec_speakers = (
-    "AB",
-    "CC",
-    "CDR",
-    "CMP", 
-    "CT", 
-    "F", 
-    "IWO", 
-    "LCC", 
-    "LMP", 
-    "MS", 
-    "P-1", 
-    "P-2", 
-    "R", 
-    "R-1", 
-    "R-2", 
-    "S", 
-    "S-1", 
-    "S-2", 
-    "SC", 
-    "Music",
-    "P",
-    "G",
-    "SY",
-    "R3",
-    "YORK"
-)
        
 def get_file_name_for(num):
     return str(num).zfill(3) + ".txt"
@@ -50,10 +23,6 @@ def shred_to_lines(lines):
         line = line.decode('utf-8')
         if line.strip().startswith(u"Page"):
             pageNumber = int(line.strip().lstrip(u"Page ").strip())
-        elif line.strip().startswith(u"APOLLO 13 AIR-TO-GROUND VOICE TRANSCRIPTION"):
-            pass
-        elif line.strip().startswith(u"MCC-Launch"):
-            pass
         elif line.strip().startswith(u"Tape "):
             tapeNumber = line.lstrip(u"Tape ").strip()
         else:
@@ -61,29 +30,16 @@ def shred_to_lines(lines):
 
     return logLines
 
-def get_all_raw_lines(path, startNumber):
-    missing_files = []
+def get_all_raw_lines(path):
     translated_lines = []
-    
-    file_number = startNumber
-    
-    while file_number <= MAX_FILE_NUMBER:
-        filename = get_file_name_for(file_number)
-        try:
-            file = open(path + filename, "r")
-            file_lines = file.readlines()
-            shredded_lines = shred_to_lines(file_lines)
-            translated_lines.extend(shredded_lines)
-        except IOError:
-            missing_files.append(filename)
-        finally:    
-            file_number = file_number + 1                 
-    
-    if (len(missing_files) > 0):
-        print "Missing %d files:" % len(missing_files)
-        for filename in missing_files:
-            print filename
-    
+    try:
+        file = open(path, "r")
+        file_lines = file.readlines()
+        shredded_lines = shred_to_lines(file_lines)
+        translated_lines.extend(shredded_lines)
+    except IOError:
+        errors.append("Could not find the file: " + path)
+        
     return translated_lines    
 
 def sterilize_token(token):
@@ -104,7 +60,7 @@ def get_seconds_from_mission_start(line):
     return translate_timestamp_to_seconds_from_mission_start(line.raw)
 
 def translate_timestamp_to_seconds_from_mission_start(timestamp):
-    values =  re.split("[ \t]+", timestamp);
+    values =  re.split("[ \t\:]+", timestamp);
     i = 0
     days = 0
     if TIMESTAMP_PARTS > 3:
@@ -116,23 +72,34 @@ def translate_timestamp_to_seconds_from_mission_start(timestamp):
     i += 1
     seconds = int(sterilize_token(values[i]))
     
-    return (seconds + (minutes * 60) + (hours * 60 * 60) + (days * 24 * 60 * 60))
+    return (seconds + (minutes * 60) + (hours * 60 * 60) + (days * 24 * 60 * 60)) - SECONDS_OFFSET
 
 def set_timestamp_speaker_and_text(line):
-    values =  re.split("[ \t]+", line.raw);
+    
+    print line.raw
+
+    values =  re.split("[ \t\:]+", line.raw);
    
     line.set_seconds_from_mission_start(get_seconds_from_mission_start(line))
     
-    line.set_speaker(values[TIMESTAMP_PARTS])
-    
-    line.set_text(" ".join(values[TIMESTAMP_PARTS + 1:]))
+    if len(values) > TIMESTAMP_PARTS:
+        line.set_speaker(values[TIMESTAMP_PARTS])
+    else:
+        line.set_speaker(u"_note")
+        
+    if len(values) > (TIMESTAMP_PARTS + 1):
+        line.set_text(" ".join(values[TIMESTAMP_PARTS + 1:]))
+    else:
+        line.set_text(u"")
 
 def line_is_a_new_entry(line):
     
-    dateTokens = re.split('[ \t]+', line.raw)[0:TIMESTAMP_PARTS]
+    dateTokens = re.split('[ \t\:]+', line.raw)
 
     if len(dateTokens) < TIMESTAMP_PARTS:
         return False
+    
+    dateTokens = dateTokens[0:TIMESTAMP_PARTS]
     
     for token in dateTokens:
         try:
@@ -147,8 +114,13 @@ def line_is_a_new_entry(line):
     return True
 
 def is_a_non_log_line(line):
-    return line.raw[0] == '\t'
-    #return len(line.raw) != len(line.raw.lstrip()) or not line.raw or "(Music" in line.raw
+    if len(line.raw) == 0:
+        return True
+
+    return line.raw[0] == '\t' \
+                or len(line.raw) != len(line.raw.lstrip()) \
+                or not line.raw \
+                or "(Music" in line.raw
 
 def translate_lines(translated_lines):
     translatedLines = []
@@ -184,11 +156,8 @@ def validate_line(line):
         errors.append("Invalid line found at %s" % get_timestamp_as_mission_time(line))
         return False
     
-    if line.speaker in valid_tec_speakers:
-        return True
-    
-    errors.append("Line with invalid speaker found at %s" % get_timestamp_as_mission_time(line))
-    return False
+    return True    
+
 
 last_tape = None
 last_page = None
@@ -297,18 +266,17 @@ class BadNumberSub:
         self.badSubList = badSubList
 
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
-        print "usage MCShred.py <pathToCompletedFilesDirectory> <fileNumberToStartWith> <outputFile>"
-        print "ex: MCShred.py /assets/transcripts/apollo13/AS13_TEC/0_CLEAN/ 8 /assets/transcripts/apollo13/as13/TEC"
+    if len(sys.argv) != 3:
+        print "usage MCShred.py <pathToCompletedFile> <outputFile>"
+        print "ex: MCShred.py /assets/transcripts/apollo13/AS13_TEC/0_CLEAN/000.txt /assets/transcripts/apollo13/as13/TEC/000shredded.txt"
         sys.exit(1)
     
     file_path = sys.argv[1]
-    file_number = int(sys.argv[2])
-    output_file = sys.argv[3]
-    allRawLines = get_all_raw_lines(file_path, file_number)
-    
+    output_file = sys.argv[2]
+    allRawLines = get_all_raw_lines(file_path)
+    print "this many raw lines: %d" % len(allRawLines)
     translated_lines = translate_lines(allRawLines)
-
+    print "this many translated lines: %d" % len(translated_lines)
     check_lines_are_in_sequence(translated_lines)
     
     amalgamated_lines = amalgamate_lines_by_timestamp(translated_lines)

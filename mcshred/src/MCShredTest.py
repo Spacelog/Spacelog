@@ -51,6 +51,15 @@ class Test(unittest.TestCase):
 #        print('got time of %d' % MCShred.get_seconds_from_mission_start(logLine))
         assert MCShred.get_seconds_from_mission_start(logLine) == expectedTime
         
+    def test_get_seconds_from_mission_start_will_work_with_full_colon_seperated_timestamps(self):
+        logLine = MCShred.LogLine(5, u"5/1", u"01:02:03:59 CC This is the rest of the line")
+        expectedTime = (59 + (3 * 60) + (2 * 60 * 60) + (1 * 24 * 60 * 60))
+        
+        
+#        print('expected time %d' % expectedTime)
+#        print('got time of %d' % MCShred.get_seconds_from_mission_start(logLine))
+        assert MCShred.get_seconds_from_mission_start(logLine) == expectedTime
+        
     def test_set_timestamp_speaker_and_text(self):
         logLine = MCShred.LogLine(5, u"5/1", u"01 02 03 59 CC This is the rest of the line")
         
@@ -82,12 +91,12 @@ class Test(unittest.TestCase):
         
         logLines = (logLine0, logLine1, logLine2, logLine3,)
         
-        shreddedLines = MCShred.shred_to_lines(logLines, 2)
+        shreddedLines = MCShred.shred_to_lines(logLines)
         
         assert len(shreddedLines) == 3
-        assert shreddedLines[0].page == 2
-        assert shreddedLines[1].page == 2
-        assert shreddedLines[2].page == 2
+        assert shreddedLines[0].page == 1
+        assert shreddedLines[1].page == 1
+        assert shreddedLines[2].page == 1
         assert shreddedLines[0].tape == u"3/2"
         assert shreddedLines[1].tape == u"3/2"
         assert shreddedLines[2].tape == u"3/2"
@@ -103,14 +112,14 @@ class Test(unittest.TestCase):
         
         logLines = (logLine0, logLine1, logLine2, logLine3,)
         
-        shreddedLines = MCShred.shred_to_lines(logLines, 2)
+        shreddedLines = MCShred.shred_to_lines(logLines)
         
         translatedLines = MCShred.translate_lines(shreddedLines)
         
         print(translatedLines[0].text)
         
         assert len(translatedLines) == 1
-        assert translatedLines[0].page == 2
+        assert translatedLines[0].page == 1
         assert translatedLines[0].tape == u"3/2"
         assert translatedLines[0].speaker == u"CC"
         assert translatedLines[0].text == u"This is the rest of the line" + "     " + logLine2 + "     " + logLine3
@@ -124,17 +133,34 @@ class Test(unittest.TestCase):
         assert MCShred.get_file_name_for(003) == u"003.txt"
         
     def test_is_a_non_log_line(self):
-        logLine0 = u"Tape 3/2"
-        logLine1 = u"01 02 03 59 CC This is the rest of the line"
-        logLine2 = u"except for this thing because it's actually"
-        logLine3 = u"    ( other weird text Thing )"
-        logLine4 = u""
+        logLine0 = make_log_line(u"Tape 3/2")
+        logLine1 = make_log_line(u"01 02 03 59 CC This is the rest of the line")
+        logLine2 = make_log_line(u"  except for this thing because it's actually")
+        logLine3 = make_log_line(u"    ( other weird text Thing )")
+        logLine4 = make_log_line(u"")
         assert MCShred.is_a_non_log_line(logLine0) == False
         assert MCShred.is_a_non_log_line(logLine1) == False
-        assert MCShred.is_a_non_log_line(logLine2) == False
+        assert MCShred.is_a_non_log_line(logLine2) == True
         assert MCShred.is_a_non_log_line(logLine3) == True
         assert MCShred.is_a_non_log_line(logLine4) == True
         
+    def test_if_no_speaker_indicated_it_is_considered_a_note(self):
+        logLine = MCShred.LogLine(5, u"5/1", u"01 02 03 59")
+        
+        MCShred.set_timestamp_speaker_and_text(logLine)
+        
+        expectedTime = (59 + (3 * 60) + (2 * 60 * 60) + (1 * 24 * 60 * 60))
+        
+#        print(expectedTime)
+#        print(logLine.seconds_from_mission_start)
+        
+        assert logLine.seconds_from_mission_start == expectedTime
+        assert logLine.speaker == u"_note"
+        assert logLine.text == ""
+        
+
+def make_log_line(content):
+    return MCShred.LogLine(0, 0, content)        
             
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']

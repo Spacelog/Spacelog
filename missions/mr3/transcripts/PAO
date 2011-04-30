@@ -1,160 +1,207 @@
-Tape 1/1
-Page 1
 
-00 00 01 08 PAO Ignition. 
+[-00:00:00:04]
+_page : 1
+_tape : 1/1
+PAO: Ignition. 
 
-00 00 01 12 PAO Liftoff. Liftoff at 34 minutes after the hour. 
+[00:00:00:00]
+PAO: Liftoff. Liftoff at 34 minutes after the hour. 
 
-00 00 01 45 PAO Pilot reports fuel system go, at .2 g, cabin 14 pounds per square inch, oxygen system go, all A-OK.
+[00:00:00:33]
+PAO: Pilot reports fuel system go, at .2 g, cabin 14 pounds per square inch, oxygen system go, all A-OK.
 
-00 00 02 03 PAO Freedom 7 is still go, the trajectory is A-OK. 
+[00:00:00:51]
+PAO: Freedom 7 is still go, the trajectory is A-OK. 
 
-00 00 02 20 PAO Freedom 7 reports the mission is A-OK, full go. 
+[00:00:01:08]
+PAO: Freedom 7 reports the mission is A-OK, full go. 
 
-00 00 02 42 PAO Freedom 7 in voice communication with the Mercury Control Center...reports 3.5 g, cabin pressure holding fine.
+[00:00:01:30]
+PAO: Freedom 7 in voice communication with the Mercury Control Center...reports 3.5 g, cabin pressure holding fine.
 
-00 00 02 55 PAO Cabin pressure holding 5.5 pounds per square inch.
+[00:00:01:43]
+PAO: Cabin pressure holding 5.5 pounds per square inch.
 
-00 00 03 08 PAO The flight trajectory is still A-OK, the pilot is in good voice communication with Mercury Control. 
+[00:00:01:56]
+PAO: The flight trajectory is still A-OK, the pilot is in good voice communication with Mercury Control. 
 
-00 00 03 22 PAO Freedom 7 with astronaut Alan B. Shepard reports the fuel system is go, 4 g, cabin 5.5 pounds per square inch oxygen go, all systems go.
+[00:00:02:10]
+PAO: Freedom 7 with astronaut Alan B. Shepard reports the fuel system is go, 4 g, cabin 5.5 pounds per square inch oxygen go, all systems go.
 
-00 00 03 40 PAO Pilot reports tower jettison.
+[00:00:02:28]
+PAO: Pilot reports tower jettison.
 
-00 00 03 45 PAO Astronaut A-OK. 
+[00:00:02:33]
+PAO: Astronaut A-OK. 
 
-00 00 03 47 PAO Periscope coming out. 
+[00:00:02:35]
+PAO: Periscope coming out. 
 
-00 00 04 00 PAO Turnaround started. Assuming orbital attitude.
+[00:00:02:48]
+PAO: Turnaround started. Assuming orbital attitude.
 
-00 00 04 06 PAO He's going to hand-controlled movements now.
+[00:00:02:54]
+PAO: He's going to hand-controlled movements now.
 
-00 00 04 18 PAO Switching to manual control of the pitch attitude.
+[00:00:03:06]
+PAO: Switching to manual control of the pitch attitude.
 
-00 00 04 28 PAO Trajectory looks A-OK. 
+[00:00:03:16]
+PAO: Trajectory looks A-OK. 
 
-00 00 04 35 PAO Pitch control A-OK.
+[00:00:03:23]
+PAO: Pitch control A-OK.
 
-00 00 04 38 PAO Switching to manual yaw. 
+[00:00:03:26]
+PAO: Switching to manual yaw. 
 
-Tape 1/1
-Page 2
+[00:00:03:38]
+_page : 2
+PAO: Medical monitor in Mercury Control reports pilot's condition appears to be excellent. 
 
-00 00 04 50 PAO Medical monitor in Mercury Control reports pilot's condition appears to be excellent. 
+[00:00:03:47]
+PAO: Taking over manual control of the roll attitude. 
 
-00 00 04 59 PAO Taking over manual control of the roll attitude. 
+[00:00:03:59]
+PAO: Roll is OK.
 
-00 00 05 11 PAO Roll is OK.
+[00:00:04:02]
+PAO: Working now - “What a beautiful view!” is a quote.
 
-00 00 05 14 PAO Working now - “What a beautiful view!” is a quote.
+[00:00:04:22]
+PAO: Pilot reports three- to four-tenths cloud cover along the eastern coast of the United States, obscuring the eastern coast up through Cape Hatteras. 
 
-00 00 05 34 PAO Pilot reports three- to four-tenths cloud cover along the eastern coast of the United States, obscuring the eastern coast up through Cape Hatteras. 
+[00:00:04:48]
+PAO: Pilot reports assuming retro attitude, initiating retrofire sequence.
 
-00 00 06 00 PAO Pilot reports assuming retro attitude, initiating retrofire sequence.
+[00:00:04:57]
+PAO: Pilot reports mission “very smooth.”
 
-00 00 06 09 PAO Pilot reports mission “very smooth.”
+[00:00:05:13]
+PAO: Retro rocket number one has fired.
 
-00 00 06 25 PAO Retro rocket number one has fired.
+[00:00:05:17]
+PAO: Retro number two has fired. 
 
-00 00 06 29 PAO Retro number two has fired. 
+[00:00:05:26]
+PAO: Retro number three has fired.
 
-00 00 06 38 PAO Retro number three has fired.
+[00:00:05:42]
+PAO: Preparing to jettison the retro rocket pod.
 
-00 00 06 54 PAO Preparing to jettison the retro rocket pod.
+[00:00:05:48]
+PAO: We are still receiving excellent voice communication from the pilot.
 
-00 00 07 00 PAO We are still receiving excellent voice communication from the pilot.
+[00:00:05:54]
+PAO: Medical monitor reports everything A-OK in the cockpit.
 
-00 00 07 06 PAO Medical monitor reports everything A-OK in the cockpit.
+[00:00:06:15]
+PAO: The retro rocket packet has jettisoned. The retro rocket packet has been jettisoned. 
 
-00 00 07 27 PAO The retro rocket packet has jettisoned. The retro rocket packet has been jettisoned. 
+[00:00:06:34]
+PAO: The mission is now six minutes and forty seconds old. Astronaut Alan B. Shepard is still talking to us, working like a test pilot, reporting facts and figures, reporting procedures in the precise engineering manner of a test pilot. 
 
-00 00 07 46 PAO The mission is now six minutes and forty seconds old. Astronaut Alan B. Shepard is still talking to us, working like a test pilot, reporting facts and figures, reporting procedures in the precise engineering manner of a test pilot. 
+[00:00:07:09]
+PAO: Beginning to roll into reentry attitude.
 
-00 00 08 21 PAO Beginning to roll into reentry attitude.
+[00:00:07:15]
+PAO: Automatic control system operating properly. 
 
-00 00 08 27 PAO Automatic control system operating properly. 
+[00:00:07:52]
+PAO: The Mercury spacecraft is beginning to reenter the Earth's atmosphere; we have a registration in the control center indicating five hundredths of a g, indicating the beginning of penetration. 
 
-00 00 09 04 PAO The Mercury spacecraft is beginning to reenter the Earth's atmosphere; we have a registration in the control center indicating five hundredths of a g, indicating the beginning of penetration. 
+[00:00:08:11]
+PAO: We are still in voice communication with the pilot.
 
-00 00 09 23 PAO We are still in voice communication with the pilot.
+[00:00:08:18]
+PAO: Nine g coming down. 
 
-00 00 09 30 PAO Nine g coming down. 
+[00:00:08:24]
+PAO: His words are, “OK.”
 
-00 00 09 36 PAO His words are, “OK.”
-Tape 1/1
-Page 3 
+[00:00:08:31]
+_page : 3
+PAO: Going through big g now, he is still talking, saying “OK.”
 
-00 00 09 43 PAO Going through big g now, he is still talking, saying “OK.”
+[00:00:08:48]
+PAO: All data here at the Mercury Control Center at this time is excellent. 
 
-00 00 10 00 PAO All data here at the Mercury Control Center at this time is excellent. 
+[00:00:09:17]
+PAO: Pilot reports thirty-thousand feet on the way down.
 
-00 00 10 29 PAO Pilot reports thirty-thousand feet on the way down.
+[00:00:09:35]
+PAO: Pilot now talking to us via a link, radio link, at at Grand Bahama Island and we are reading him loud and clear. 
 
-00 00 10 47 PAO Pilot now talking to us via a link, radio link, at at Grand Bahama Island and we are reading him loud and clear. 
+[00:00:09:45]
+PAO: Drogue parachute has deployed – the drogue parachute has deployed. 
 
-00 00 10 57 PAO Drogue parachute has deployed – the drogue parachute has deployed. 
+[00:00:10:00]
+PAO: Pilot reports all systems in the cockpit A-OK and operating properly.
 
-00 00 11 12 PAO Pilot reports all systems in the cockpit A-OK and operating properly.
+[00:00:10:11]
+PAO: The medical monitor in the Mercury Control Center reports the pilot A-OK, all the way. 
 
-00 00 11 23 PAO The medical monitor in the Mercury Control Center reports the pilot A-OK, all the way. 
+[00:00:10:18]
+PAO: The main parachute has deployed; the Mercury spacecraft Freedom 7 is now descending on its main parachute.
 
-00 00 11 30 PAO The main parachute has deployed; the Mercury spacecraft Freedom 7 is now descending on its main parachute.
+[00:00:10:26]
+PAO: As was expected at about this time, or in fact rather we expected it sooner than this time, our communication with Mercury astronaut Alan Shepard is getting a little rough. 
 
-00 00 11 38 PAO As was expected at about this time, or in fact rather we expected it sooner than this time, our communication with Mercury astronaut Alan Shepard is getting a little rough. 
+[00:00:10:36]
+PAO: We did report deployment of the main parachute, we last reported his altitude at seven thousand feet descending.
+     Note: From this point in the audio tape, commentary is provided by personnel from the aircraft carrier USS Lake Champlain (CV-39). 
 
-00 00 11 48 PAO We did report deployment of the main parachute, we last reported his altitude at seven thousand feet descending.
+[00:00:10:47]
+CV-39: Hello...this is the aircraft carrier Lake Champlain - the parachute and the capsule are still coming down, on the horizon there about even with the clouds, clouds now on the horizon...we are about four miles away from the spacecraft now, it has still not made its impact with the water, the helicopters are about I would estimate halfway through the point of impact, and as we see, the space capsule has not yet made impact with the water. In that lead helicopter ready to pick up the astronaut are First Lieutenant Wayne Koons, the pilot, and Marine co-pilot George Cox. 
 
-Note: From this point in the audio tape, commentary is provided by personnel from the aircraft carrier USS Lake Champlain (CV-39). 
+[00:00:11:35]
+CV-39: We're now probably no more than three miles away from the – from the parachutes, they're coming into our – they're becoming very clear now. It's very possible that the carrier will be right close to the space capsule, the spacecraft as its being recovered from the water. It's only a matter of two or three more minutes, it's swaying gently in the wind, from side to side, to one side and then the other, it's a good thing there's a Naval commander inside or he might be getting seasick...
 
-00 00 11 59 CV-39 Hello...this is the aircraft carrier Lake Champlain - the parachute and the capsule are still coming down, on the horizon there about even with the clouds, clouds now on the horizon...we are about four miles away from the spacecraft now, it has still not made its impact with the water, the helicopters are about I would estimate halfway through the point of impact, and as we see, the space capsule has not yet made impact with the water. In that lead helicopter ready to pick up the astronaut are First Lieutenant Wayne Koons, the pilot, and Marine co-pilot George Cox. 
+[00:00:12:14]
+CV-39: The lead helicopter is now high up the parachute...they're now hovering over the parachute, and will be ready to pick him up out of the water almost immediately. 
 
-00 00 12 47 CV-39 We're now probably no more than three miles away from the – from the parachutes, they're coming into our – they're becoming very clear now. It's very possible that the carrier will be right close to the space capsule, the spacecraft as its being  recovered from the water. It's only a matter of two or three more minutes, it's swaying gently in the wind, from side to side, to one side and then the other, it's a good thing there's a Naval commander inside or he might be getting seasick...
+[00:00:12:32]
+_page : 4
+CV-39: It just hit the water a moment ago! (Personnel from aircraft carrier heard cheering in background) A cheer went up from the ship's company watching it from all decks on the aircraft carrier – the parachute is now flattened against the water, and from this point we are able to tell how the capsule is riding in the water.
 
-00 00 13 26 CV-39 The lead helicopter is now high up the parachute...they're now hovering over the parachute, and will be ready to pick him up out of the water almost immediately. 
-Tape 1/1
-Page 4
+[00:00:12:54]
+CV-39: It's too low in the water to tell just how the capsule is riding in the water but there are four or five helicopters in the near vicinity - the lead helicopter number forty four is all right over the capsule. 
 
-00 00 13 44  CV-39 It just hit the water a moment ago! (Personnel from aircraft carrier heard cheering in background) A cheer went up from the ship's company watching it from all decks on the aircraft carrier – the parachute is now flattened against the water, and from this point we are able to tell how the capsule is riding in the water.
+[00:00:13:18]
+CV-39: The capsule is up out of the water – right there for the carrier – the helicopter has hooked onto the capsule...
 
-00 00 14 06 CV-39 It's too low in the water to tell just how the capsule is riding in the water but there are four or five helicopters in the near vicinity - the lead helicopter number forty four is all right over the capsule. 
+[00:00:13:28]
+CV-39: Correction – the capsule is still floating in the water...as the helicopter hovers overhead to hook onto the capsule. 
 
-00 00 14 30 CV-39 The capsule is up out of the water – right there for the carrier – the helicopter has hooked onto the capsule...
+[00:00:13:40]
+CV-39: It's still to early to tell whether the astronaut, Alan Shepard, has tried to remove himself through the top escape hatch of the capsule. He may elect to stay in the capsule, arrive back to the carrier in the capsule, then again if he has removed himself from the capsule he can be lifted into the helicopter to ride back probably a little more comfortably...
 
-00 00 14 40 CV-39 Correction – the capsule is still floating in the water...as the helicopter hovers overhead to hook onto the capsule. 
+[00:00:14:07]
+CV-39: The helicopter is hovering right over the spacecraft and of course first they must snip off the antenna from the spacecraft, the radio antenna, the radio...then it will be a matter of hooking onto the capsule and lifting it up out of the water to return here to the deck of the carrier Lake Champlain. 
 
-00 00 14 52 CV-39 It's still to early to tell whether the astronaut, Alan Shepard, has tried to remove himself through the top escape hatch of the capsule. He may elect to stay in the capsule, arrive back to the carrier in the capsule, then again if he has removed himself from the capsule he can be lifted into the helicopter to ride back probably a little more comfortably...
+[00:00:14:41]
+CV-39: The helicopter is lowering the sling, the astronaut is out of the capsule.
 
-00 00 15 19 CV-39 The helicopter is hovering right over the spacecraft and of course first they must snip off the antenna from the spacecraft, the radio antenna, the radio...then it will be a matter of hooking onto the capsule and lifting it up out of the water to return here to the deck of the carrier Lake Champlain. 
+[00:00:14:55]
+CV-39: So far we can't tell whether the astronaut inflated his life raft, but he does appear to have gotten out of the capsule – the helicopter has lowered a sling to pick him up.
 
-00 00 15 53 CV-39 The helicopter is lowering the sling, the astronaut is out of the capsule.
+[00:00:15:12]
+CV-39: The sling has gone to the capsule – the sling that was lowered from the helicopter is down to the spacecraft – it's too early to tell exactly what they're going to do. Of course the first thing is to try and pick up the astronaut, get him into the helicopter, if he has removed himself from [the spacecraft], then to hook the spacecraft and return the vehicle to deck. 
 
-00 00 16 07 CV-39 So far we can't tell whether the astronaut inflated his life raft, but he does appear to have gotten out of the capsule – the helicopter has lowered a sling to pick him up.
+[00:00:15:36]
+CV-39: The astronaut Alan Shepard has just climbed out of the capsule and they are now trying to get him up into the helicopter.
 
-00 00 16 24 CV-39 The sling has gone to the capsule – the sling that was lowered from the helicopter is down to the spacecraft – it's too early to tell exactly what they're going to do. Of course the first thing is to try and pick up the astronaut, get him into the helicopter, if he has removed himself from [the spacecraft], then to hook the spacecraft and return the vehicle to deck. 
+[00:00:15:52]
+CV-39: They're lifting the capsule out of the water – they've already hooked it - we can see it plainly as the helicopter lifts the capsule...as referring along to return here to the deck to the carrier Lake Champlain. We can't be more than a mile and a half or two miles away from them now. Flying overhead are at least two of the tracking planes that were 
+     out here as well as four or five helicopters to convoy the lead helicopter and the spacecraft back to the deck of the carrier Lake Champlain. 
 
-00 00 16 48 CV-39 The astronaut Alan Shepard has just climbed out of the capsule and they are now trying to get him up into the helicopter.
+[00:00:16:30]
+_page : 5
+CV-39: The crew of the carrier is jammed onto the flight deck behind a farrier waiting for the astronaut to return to welcome him aboard...[The crew would have been disappointed] if one of the other ships had picked up the astronaut. 
 
-00 00 17 04 CV-39 They're lifting the capsule out of the water – they've already hooked it - we can see it plainly as the helicopter lifts the capsule...as referring along to return here to the deck to the carrier Lake Champlain. We can't be more than a mile and a half or two miles away from them now. Flying overhead are at least two of the tracking planes that were  
-Tape 1/1
-Page 5
+[00:00:16:44]
+CV-39: The helicopter took off about twenty five minutes ago, just a few minutes before launch. It's lead helicopter number forty four though that will pick up the astronaut piloted by Marine Corps Lieutenant Wayne Koons of Lyons, Kansas and co-pilot George Cox of Houston, Florida. Cox at this moment is probably sitting in the compartment with the astronaut in the helicopter, but he has been instructed not to talk to the astronaut, answer any questions he may have, they were told, but no one – especially newsmen – will be allowed to ask him any questions until he has been debriefed by doctors. The purpose is to avoid leading questions that may affect Shepard's reactions to his flight in space. 
 
-out here as well as four or five helicopters to convoy the lead helicopter and the spacecraft back to the deck of the carrier Lake Champlain. 
-
-00 00 17 42  CV-39 The crew of the carrier is jammed onto the flight deck behind a farrier waiting for the astronaut to return to welcome him aboard...[The crew would have been disappointed] if one of the other ships had picked up the astronaut. 
-
-00 00 17 56 CV-39 The helicopter took off about twenty five minutes ago, just a few minutes before launch. It's lead helicopter number forty four though that will pick up the astronaut piloted by Marine Corps Lieutenant Wayne Koons of Lyons, Kansas and co-pilot George Cox of Houston, Florida. Cox at this moment is probably sitting in the compartment with the astronaut in the helicopter, but he has been instructed not to talk to the astronaut, answer any questions he may have, they were told, but no one – especially newsmen – will be allowed to ask him any questions until he has been debriefed by doctors. The purpose is to avoid leading questions that may affect Shepard's reactions to his flight in space. 
-
-00 00 18 46 CV-39 The helicopter is approaching the carrier now, it's a matter of only half a mile away...the crew is jammed up onto several decks of the carrier here waiting for him to arrive as well as down on the flight deck of the Lake Champlain. 
-
-END OF TAPE  
- 
-
-
-
-
-
-
-
-
-
-
+[00:00:17:34]
+CV-39: The helicopter is approaching the carrier now, it's a matter of only half a mile away...the crew is jammed up onto several decks of the carrier here waiting for him to arrive as well as down on the flight deck of the Lake Champlain. 
+     END OF TAPE  

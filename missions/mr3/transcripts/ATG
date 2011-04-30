@@ -1,296 +1,351 @@
-00:00:00:00 LCC Lift-off
 
-00:00:00:02 P Ahh, Roger; lift-off and the clock is started
+[00:00:00:00]
+_page : 1
+LCC: Lift-off
 
+[00:00:00:02]
+P: Ahh, Roger; lift-off and the clock is started
 
-00:00:00:04 CC ...
+[00:00:00:04]
+CC: ...
 
-00:00:00:08 P Yes sir, reading you loud and clear
+[00:00:00:08]
+P: Yes sir, reading you loud and clear
 
+[00:00:00:09]
+CC: ...
 
-00:00:00:09 CC ...
+[00:00:00:25]
+P: This is Freedom Seven. The fuel is go, 1.2g cabin at 14 psi, oxygen is go
 
-00:00:00:25 P This is Freedom Seven. The fuel is go, 1.2g cabin at 14 psi, oxygen is go
+[00:00:00:34]
+CC: Roger ...
 
+[00:00:00:48]
+P: Freedom Seven is still go
 
-00:00:00:34 CC Roger ...
+[00:00:00:51]
+CC: Roger looking good
 
-00:00:00:48 P Freedom Seven is still go
+[00:00:00:58]
+P: This is Seven. Fuel is go 1.8g, 8 psi cabin, and the oxygen is go
 
+[00:00:01:07]
+CC: ...
 
-00:00:00:51 CC Roger looking good
+[00:00:01:21]
+P: Cabin pressure is holding at 5.5. Cabin holding at 5.5
 
-00:00:00:58 P This is Seven. Fuel is go 1.8g, 8 psi cabin, and the oxygen is go
+[00:00:01:28]
+CC: I understand, cabin holding at 5.5
 
+[00:00:01:32]
+P: Fuel is go, 2.5g, cabin 5.5, oxygen is go, the main bus is 24 and the isolated battery is 29
 
-00:00:01:07 CC ...
+[00:00:01:46]
+CC: Rog, read you five by five ... okay
 
-00:00:01:21 P Cabin pressure is holding at 5.5. Cabin holding at 5.5
+[00:00:01:50]
+Okay,: it's a lot smoother now. A lot smoother
 
+[00:00:01:53]
+CC: Roger
 
-00:00:01:28 CC I understand, cabin holding at 5.5
+[00:00:02:01]
+P: Seven here. Fuel is go, 4g, 5.5 cabin, oxygen go, all systems are go
 
-00:00:01:32 P Fuel is go, 2.5g, cabin 5.5, oxygen is go, the main bus is 24 and the isolated battery is 29
+[00:00:02:10]
+CC: That's all systems go ... okay
 
+[00:00:02:15]
+P: 5g
 
-00:00:01:46 CC Rog, read you five by five ... okay
+[00:00:02:22]
+P: Cut-off. Tower jettison green
 
-00:00:01:50 Okay, it's a lot smoother now. A lot smoother
+[00:00:02:27]
+P: Disarm
 
+[00:00:02:32]
+P: [glossary Capsep] is green
 
-00:00:00:53 CC Roger
+[00:00:02:35]
+P: Periscope is coming out and the turn-around has started
 
-00:00:02:01 P Seven here. Fuel is go, 4g, 5.5 cabin, oxygen go, all systems are go
+[00:00:02:50]
+P: ASCS is okay
 
+[00:00:02:53]
+P: Control movements
 
-00:00:02:10 CC That's all systems go ... okay
+[00:00:03:04]
+P: Okay, switching to manual pitch
 
-00:00:02:15 P 5g
+[00:00:03:09]
+CC: That's manual pitch
 
+[00:00:03:21]
+P: Pitch is okay
 
-00:00:02:22 P Cut-off. Tower jettison green
+[00:00:03:25]
+P: Switching to manual yaw
 
+[00:00:03:29]
+CC: ... understand, manual yaw
 
-00:00:02:27 P Disarm
+[00:00:03:40]
+CC: Roger Freedom, okay
 
+[00:00:03:42]
+P: Yaw is okay. Switching to manual roll
 
-00:00:02:32 P [glossary:Capsep] is green
+[00:00:03:56]
+P: Roll is okay
 
+[00:00:03:58]
+CC: Okay, looks good ...
 
-00:00:02:35 P Periscope is coming out and the turn-around has started
+[00:00:04:01]
+P: On the periscope. What a beautiful view
 
+[00:00:04:06]
+P: Cloud cover over Florida. 3 to 4 tenths near the eastern coast. Obscures up to Hatteras
 
-00:00:02:50 P ASCS is okay
+[00:00:04:21]
+P: I can see Okeechobee. Identify Andros Island. Identify the Reefs
 
+[00:00:04:38]
+CC: retro 5 4 3 2 ... 1
 
-00:00:02:53 P Control movements
+[00:00:04:45]
+P: Start retro-sequence. In retro-attitude are green
 
+[00:00:04:57]
+P: Control is smooth
 
-00:00:03:04 P Okay, switching to manual pitch
+[00:00:05:15]
+P: Retro one, very smooth
 
+[00:00:05:19]
+P: Retro two
 
-00:00:03:09 CC That's manual pitch
+[00:00:05:25]
+P: Retro three
 
-00:00:03:21 P Pitch is okay
+[00:00:05:32]
+P: All three retros are fired
 
+[00:00:05:37]
+P: Okay. Three retros have fired. Retro-jettison is back to arm.
 
-00:00:03:25 P Switching to manual yaw
+[00:00:05:43]
+CC: The booster ...
 
+[00:00:05:46]
+P: Negative
 
-00:00:03:29 CC ... understand, manual yaw
+[00:00:05:56]
+P: Switching fly-by-wire
 
-00:00:03:40 CC Roger Freedom, okay
+[00:00:06:12]
+P: Roll is okay
 
-00:00:03:42 P Yaw is okay. Switching to manual roll
+[00:00:06:17]
+CC: ...
 
+[00:00:06:19]
+P: Roger; do not have a light
 
-00:00:03:56 P Roll is okay
+[00:00:06:25]
+P: I do not have a light. I see the straps falling away. I heard a noise. I will use override
 
+[00:00:06:32]
+P: Override used, the light is green
 
-00:00:03:58 CC Okay, looks good ...
+[00:00:06:36]
+CC: ...
 
-00:00:04:01 P On the periscope. What a beautiful view
+[00:00:06:38]
+P: Ahh, Roger
 
-00:00:04:06 P Cloud cover over Florida. 3 to 4 tenths near the eastern coast. Obscures up to Hatteras
+[00:00:06:46]
+P: Periscope is retracting
 
+[00:00:06:50]
+P: I'm on Fly By Wire. Going to re-entry attitude
 
-00:00:04:21 P I can see Okeechobee. Identify Andros Island. Identify the Reefs
+[00:00:06:56]
+CC: ...
 
+[00:00:07:04]
+CC: You hit the red on the button
 
-00:00:04:38 CC retro 5 4 3 2 ... 1
+[00:00:07:06]
+P: Okay, Buster. Re-entry attitude, switching ASCS normal
 
-00:00:04:45 P Start retro-sequence. In retro-attitude are green
+[00:00:07:15]
+P: ASCS is okay
 
-00:00:04:57 P Control is smooth
+[00:00:07:27]
+P: Switching to HF for radio check
 
+[00:00:07:38]
+CC: Freedom Seven, Cap Com how do read HF?
 
-00:00:05:15 P Retro one, very smooth
+[00:00:07:41]
+_note: HF was not received
+P: Ahh, Roger, reading you loud and clear HF, Deke. How me?
 
+[00:00:07:46]
+CC: Freedom Seven, Cap Com. I didn't read your answer.
 
-00:00:05:19 P Retro two
+[00:00:07:50]
+P: Ahh, Reading you loud and clear HF. How me?
 
+[00:00:07:56]
+CC: Back to UHF
 
-00:00:05:25 P Retro three
+[00:00:08:07]
+P: Okay. This is Freedom Seven
 
+[00:00:08:12]
+P: "G" build-up 3, 6, 9
 
-00:00:05:32 P All three retros are fired
+[00:00:08:23]
+P: Okay - Okay
 
+[00:00:08:28]
+CC: Coming through loud and clear
 
-00:00:05:37 P Okay. Three retros have fired. Retro-jettison is back to arm.
+[00:00:08:30]
+P: Okay
 
+[00:00:08:38]
+P: Okay
 
-00:00:05:43 CC The booster ...
+[00:00:08:46]
+P: This is Seven - Okay
 
-00:00:05:46 P Negative
+[00:00:08:53]
+P: 45,000 feet now
 
+[00:00:08:58]
+P: 40,000 feet
 
-00:00:05:56 P Switching fly-by-wire
+[00:00:09:01]
+P: I'm back on ASCS
 
+[00:00:09:08]
+P: 35,000 feet
 
-00:00:06:12 P Roll is okay
+[00:00:09:18]
+P: 30,000 feet
 
+[00:00:09:27]
+CC: Cap Com, how do you read now?
 
-00:00:06:17 CC ...
+[00:00:09:29]
+P: Ahh, Roger, Deke, reading you loud and clear. How me?
 
-00:00:06:19 P Roger; do not have a light
+[00:00:09:34]
+CC: Switch over to ...
 
-00:00:06:25 P I do not have a light. I see the straps falling away. I heard a noise. I will use override
+[00:00:09:38]
+P: Ahh, Roger
 
-00:00:06:32 P Override used, the light is green
+[00:00:09:42]
+P: The drogue is green at 21. The periscope is out. The drogue is out.
 
+[00:00:09:51]
+P: Okay at drogue deploy. I've got 70 percent auto - 90 percent manual. Oxygen is still okay
 
-00:00:06:36 CC ...
+[00:00:10:05]
+P: And the snorkel's (out) at about 15,000 feet
 
-00:00:06:38 P Ahh, Roger
+[00:00:10:09]
+P: Emergency flow rate is on
 
+[00:00:10:13]
+P: Standing by for main
 
-00:00:06:46 P Periscope is retracting
+[00:00:10:19]
+P: Main on green
 
+[00:00:10:21]
+P: Main chute is reefed
 
-00:00:06:50 P I'm on Fly By Wire. Going to re-entry attitude
+[00:00:10:25]
+P: Main chute is green. Main chute is coming unreefed and it looks good
 
+[00:00:10:31]
+P: Main chute is good. Rate of descent is reading about 35 ft/sec.
 
-00:00:06:56 CC ...
+[00:00:10:43]
+P: Hello Cap Com. Freedom Seven. How do you read?
 
-00:00:07:04 CC You hit the red on the button
+[00:00:10:56]
+UNK: ...
 
-00:00:07:06 P Okay, Buster. Re-entry attitude, switching ASCS normal
+[00:00:10:58]
+P: Hello CARDFILE 23, this is Freedom Seven. Do you read?
 
+[00:00:11:04]
+ICC: Freedom Seven this is Indian Cap Com, do you read me?
 
-00:00:07:15 P ASCS is okay
+[00:00:11:07]
+P: Affirmative Indian Cap Com, let me give you a report. I'm at 7,000 feet, the main chute is good, the landing bag is on green, my peroxide has dumped, my condition is good
 
+[00:00:11:22]
+ICC: Roger Freedom Seven, I understand you're at 7000 feet, your main chute is open, your...is good, over
 
-00:00:07:27 P Switching to HF for radio check
+[00:00:11:34]
+P: That is affirmative -- please relay
 
+[00:00:12:40]
+P: Hello CARDFILE 23, CARDFILE 23, Freedom Seven. Over.
 
-00:00:07:38 CC Freedom Seven, Cap Com how do read HF?
+[00:00:12:49]
+CARDFILE: Freedom Seven, Freedom Seven this is CARDFILE 23, over
 
-00:00:07:41 P Ahh, Roger, reading you loud and clear HF, Deke. How me?
-  HF was not received
+[00:00:12:54]
+P: Ahh, this is Seven. Relay back to Cap Com please. My altitude now 4,000 feet, condition as before, the main chute is good, the landing bag has deployed, the peroxide has dumped
 
+[00:00:13:09]
+CARDFILE: Ahh, Rog, understand ...
 
-00:00:07:46 CC Freedom Seven, Cap Com. I didn't read your answer.
+[00:00:14:09]
+P: Ahh, CARDFILE 23, Freedom Seven
 
-00:00:07:50 P Ahh, Reading you loud and clear HF. How me?
+[00:00:14:13]
+CARDFILE: Freedom Seven this is 23
 
+[00:00:14:16]
+P: I'm about 1,500 feet now. The main chute still looks good. The rate of descent is indicating 30 ft/sec.
 
-00:00:07:56 CC Back to UHF
+[00:00:14:21]
+CARDFILE: Ahh, Rog
 
-00:00:08:07 P Okay. This is Freedom Seven
+[00:00:14:50]
+CARDFILE: Freedom Seven this is 23 I have ... transmissions from Cape Cap Com, over
 
-00:00:08:12 P "G" build-up 3, 6, 9
+[00:00:14:59]
+P: Ahh, Roger
 
-00:00:08:23 P Okay - Okay
+[00:00:15:01]
+CC: Ahh, Freedom Seven this is Cape Cap Com, over
 
+[00:00:15:06]
+P: This is Seven. Go ahead
 
-00:00:08:28 CC Coming through loud and clear
+[00:00:15:08]
+CC: Do you have something to transmit at this time, over
 
-00:00:08:30 P Okay
+[00:00:15:12]
+P: Negative. Just relaying my condition is still good. I'm getting ready for impact
 
-00:00:08:38 P Okay
+[00:00:15:17]
+CC: Roger
 
+[00:00:15:22]
+_note: Landing
 
-00:00:08:46 P This is Seven - Okay
-
-
-00:00:08:53 P 45,000 feet now
-
-
-00:00:08:58 P 40,000 feet
-
-
-00:00:09:01 P I'm back on ASCS
-
-
-00:00:09:08 P 35,000 feet
-
-00:00:09:18 P 30,000 feet
-
-00:00:09:27 CC Cap Com, how do you read now?
-
-00:00:09:29 P Ahh, Roger, Deke, reading you loud and clear. How me?
-
-00:00:09:34 CC Switch over to ...
-
-00:00:09:38 P Ahh, Roger
-
-00:00:09:42 P The drogue is green at 21. The periscope is out. The drogue is out.
-
-
-00:00:09:51 P Okay at drogue deploy. I've got 70 percent auto - 90 percent manual. Oxygen is still okay
-
-
-00:00:10:05 P And the snorkel's (out) at about 15,000 feet
-
-
-00:00:10:09 P Emergency flow rate is on
-
-00:00:10:13 P Standing by for main
-
-00:00:10:19 P Main on green
-
-00:00:10:21 P Main chute is reefed
-
-00:00:10:25 P Main chute is green. Main chute is coming unreefed and it looks good
-
-
-00:00:10:31 P Main chute is good. Rate of descent is reading about 35 ft/sec.
-
-
-00:00:10:43 P Hello Cap Com. Freedom Seven. How do you read?
-
-
-00:00:10:56 UNK ...
-
-00:00:10:58 P Hello CARDFILE 23, this is Freedom Seven. Do you read?
-
-
-00:00:11:04 ICC Freedom Seven this is Indian Cap Com, do you read me?
-
-00:00:11:07 P Affirmative Indian Cap Com, let me give you a report. I'm at 7,000 feet, the main chute is good, the landing bag is on green, my peroxide has dumped, my condition is good
-
-
-00:00:11:22 ICC Roger Freedom Seven, I understand you're at 7000 feet, your main chute is open, your...is good, over
-
-00:00:11:34 P That is affirmative -- please relay
-
-
-00:00:12:40 P Hello CARDFILE 23, CARDFILE 23, Freedom Seven. Over.
-
-
-00:00:12:49 CARDFILE Freedom Seven, Freedom Seven this is CARDFILE 23, over
-
-00:00:12:54 P Ahh, this is Seven. Relay back to Cap Com please. My altitude now 4,000 feet, condition as before, the main chute is good, the landing bag has deployed, the peroxide has dumped
-
-
-00:00:13:09 CARDFILE Ahh, Rog, understand ...
-
-00:00:14:09 P Ahh, CARDFILE 23, Freedom Seven
-
-
-00:00:14:13 CARDFILE Freedom Seven this is 23
-
-00:00:14:16 P I'm about 1,500 feet now. The main chute still looks good. The rate of descent is indicating 30 ft/sec.
-
-
-00:00:14:21 CARDFILE Ahh, Rog
-
-00:00:14:50 CARDFILE Freedom Seven this is 23 I have ... transmissions from Cape Cap Com, over
-
-00:00:14:59 P Ahh, Roger
-
-
-00:00:15:01 CC Ahh, Freedom Seven this is Cape Cap Com, over
-
-00:00:15:06 P This is Seven. Go ahead
-
-
-00:00:15:08 CC Do you have something to transmit at this time, over
-
-00:00:15:12 P Negative. Just relaying my condition is still good. I'm getting ready for impact
-
-
-00:00:15:17 CC Roger
-
-00:00:15:22
-  Landing
