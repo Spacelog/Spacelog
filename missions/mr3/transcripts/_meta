@@ -83,7 +83,7 @@
             "bio": "",
             "avatar": "person.jpg",
             "shifts": [
-                [ "SHORTY_POWERS", "00:00:00:00" ]
+                [ "SHORTY_POWERS", "-00:00:00:04" ]
             ]
         },
         "DEKE_SLAYTON": {
