@@ -91,6 +91,13 @@ class TranscriptView(JsonTemplateView):
             raise Http404("No log entries match that timestamp.")
         return closest_log_line.page
 
+    def other_transcripts(self, start, end):
+        """
+        Return the list of transcripts and if they have any messages between the times specified.
+        """
+        for transcript in self.request.mission.transcripts:
+            yield transcript, self.log_line_query().transcript(transcript).range(start, end).count()
+
 
 class PageView(TranscriptView):
     """
@@ -105,8 +112,6 @@ class PageView(TranscriptView):
         # - The timestamp for the start of an act
         # - The timestamp for the start of an in-act page
         # If the timestamp is already one of these, render as normal
-        
-        print self.get_transcript_name()
         
         requested_start       = None
         if context['start']:
@@ -209,7 +214,11 @@ class PageView(TranscriptView):
                 self.request.META['HTTP_HOST'],
                 self.request.path,
                 permalink_fragment,
-            )
+            ),
+            'other_transcripts': self.other_transcripts(
+                log_lines[0].timestamp,
+                log_lines[-1].timestamp,
+            ),
         }
 
 

@@ -60,13 +60,13 @@ def time_link(match):
     try:
         # full syntax [time:time|display]
         return "<a href='%s'>%s</a>" % (
-            timestamp_to_url(match.group(1), anchor="closest"),
+            timestamp_to_url({}, match.group(1), anchor="closest"),
             match.group(2)
         )
     except:
         # abbreviated syntax [time:time]
         return "<a href='%s'>%s</a>" % (
-            timestamp_to_url(match.group(1), anchor="closest"),
+            timestamp_to_url({}, match.group(1), anchor="closest"),
             match.group(1)
         )
 

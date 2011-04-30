@@ -248,6 +248,18 @@ class LogLine(object):
             # Iterate over the keys and return LogLine objects
             for key in keys:
                 yield self._key_to_instance(key)
+
+        def count(self):
+            "Return the number of matching objects (efficiently)"
+            filter_names = set(self.filters.keys())
+            if filter_names == set(["transcript", "range"]):
+                return self.redis_conn.zcount(
+                    u"transcript:%s" % self.filters['transcript'],
+                    self.filters['range'][0],
+                    self.filters['range'][1],
+                )
+            else:
+                raise ValueError("Cannot count over this combination of filters.")
         
         def _key_to_instance(self, key):
             transcript_name, timestamp = key.split(u":", 1)
