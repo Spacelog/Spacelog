@@ -9,6 +9,8 @@
         "lower_title": "3",
         "description": "The 1961 Mercury mission that made pilot Alan Shepard the first American in space, one of two manned suborbital missions at the start of NASA's programme of manned spaceflight.",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "based_on_header": "Based on the original audio recordings",
+        "about_image": "systems.png",
         "cleaners": [
             "James Aylett",
             "Emily Carney"
