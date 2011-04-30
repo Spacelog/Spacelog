@@ -21,7 +21,10 @@
         ],
         "transcript_attributions": [
             { "url": "http://www.jsc.nasa.gov/history/mission_trans/gemini3.htm", "title": "Gemini III Composite Air-to-Ground and Onboard Voice Tape Transcription" }
-        ]
+        ],
+        "component_suppression": {
+            "leading": 1
+        }
     },
     "main_transcript": "g3/TEC",
     "utc_launch_time": -150716160,
