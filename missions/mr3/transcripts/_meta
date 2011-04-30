@@ -25,7 +25,7 @@
         },
         "call_signs": "The Mercury capsule's callsign through the mission is Freedom 7 or just 7; the primary CAPCOM (capsule communicator) was Deke Slayton at the Cape. CARDFILE 23 (or just 23 or 2-3) was an aircraft assigned to assist communication during re-entry."
     },
-    "main_transcript": "mr3/TEC",
+    "main_transcript": "mr3/ATG",
     "media_transcript": "mr3/MEDIA",
     "utc_launch_time": "1961-05-05T14:34:13",
     "acts" : [
@@ -33,7 +33,7 @@
             "title": "Launch",
             "description": "Freedom 7 lifts off from Cape Canaveral on top of a modified Redstone missile.",
             "range": ["00:00:00:00", "00:00:02:35"],
-            "homepage": "phase1.jpg",
+            "homepage": "act1.jpg",
             "banner": "act1.jpg",
             "banner_class": "blue"
         },
@@ -41,15 +41,16 @@
             "title": "Space",
             "description": "Alan Shepard becomes the first American in space, reaching an altitude of 187km before firing retro rockets and beginning his return to Earth.",
             "range": ["00:00:02:35", "00:00:07:06"],
-            "homepage": "phase2.jpg",
+            "homepage": "act2.jpg",
             "banner": "act2.jpg"
         },
         {
             "title": "Reentry",
             "description": "Freedom 7 re-enters the earth's atmosphere, sustaining a peak G-force of 11g before splashing down near the Bahamas.",
             "range": ["00:00:07:06", "00:00:15:30"],
-            "homepage": "phase3.jpg",
-            "banner": "act3.jpg"
+            "homepage": "act3.jpg",
+            "banner": "act3.jpg",
+            "banner_class": "blue"
         }
     ],
     "key_scenes" : [
@@ -104,7 +105,7 @@
           "photo": "alan_shepard.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "astro.jpg"
+          "avatar": "alan_shepard.jpg"
         },
         "SHORTY_POWERS": {
             "role": "astronaut",
@@ -116,7 +117,7 @@
             "photo": "shorty_powers.jpg",
             "photo_width": 190,
             "photo_height": 205,
-            "avatar": "person.png"
+            "avatar": "shorty_powers.png"
         },
         "ICC": {
           "role": "other",
@@ -135,6 +136,10 @@
     "glossary": {
         "ASCS": {
             "summary": "Automatic Stabilization and Control System",
+            "type": "abbreviation"
+        },
+        "Capsep": {
+            "summary": "Capsule Separation",
             "type": "abbreviation"
         },
         "FBW": {
