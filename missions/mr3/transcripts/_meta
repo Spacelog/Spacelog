@@ -34,7 +34,7 @@
         {
             "title": "Launch",
             "description": "Freedom 7 lifts off from Cape Canaveral on top of a modified Redstone missile.",
-            "range": ["00:00:00:00", "00:00:02:35"],
+            "range": ["-00:00:00:04", "00:00:02:35"],
             "homepage": "act1.jpg",
             "banner": "act1.jpg",
             "banner_class": "blue"
@@ -49,7 +49,7 @@
         {
             "title": "Reentry",
             "description": "Freedom 7 re-enters the earth's atmosphere, sustaining a peak G-force of 11g before splashing down near the Bahamas.",
-            "range": ["00:00:07:06", "00:00:15:30"],
+            "range": ["00:00:07:06", "00:00:17:35"],
             "homepage": "act3.jpg",
             "banner": "act3.jpg",
             "banner_class": "blue"
