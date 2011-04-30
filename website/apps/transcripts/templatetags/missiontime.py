@@ -49,7 +49,7 @@ def timestamp_to_url(context, seconds, anchor=None):
     transcript = None
     if 'transcript_name' in context:
         transcript = context['transcript_name']
-    timestamp_to_url_in_transcript(context, seconds, transcript, anchor)
+    return timestamp_to_url_in_transcript(context, seconds, transcript, anchor)
 
 @tag(register, [Variable(), Variable(), Optional([Variable()])])
 def timestamp_to_url_in_transcript(context, seconds, transcript, anchor=None):
