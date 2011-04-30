@@ -46,35 +46,45 @@ def mission_time_format(seconds):
 
 @tag(register, [Variable(), Optional([Variable()])])
 def timestamp_to_url(context, seconds, anchor=None):
+    transcript = None
+    if 'transcript_name' in context:
+        transcript = context['transcript_name']
+    timestamp_to_url_in_transcript(context, seconds, transcript, anchor)
+
+@tag(register, [Variable(), Variable(), Optional([Variable()])])
+def timestamp_to_url_in_transcript(context, seconds, transcript, anchor=None):
     url_args = {
         "start": mission_time(seconds)
     }
-    
-    if 'transcript_name' in context:
+    if transcript and transcript != context['request'].mission.main_transcript:
         # Split transcript name from [mission]/[transcript]
-        transcript = context['transcript_name'].split('/')[1]
-        if context['transcript_name'] != context['mission_main_transcript']:
-            url_args["transcript"] = transcript
+        url_args["transcript"] = transcript.split('/')[1]
     
     # Render the URL
     url = reverse("view_page", kwargs=url_args)
     if anchor:
         url = '%s#log-line-%s' % (url, anchor)
     return url
+    
 
 @tag(register, [Variable(), Optional([Variable()])])
 def selection_url(context, start_seconds, end_seconds=None):
+    transcript = None
+    if 'transcript_name' in context:
+        transcript = context['transcript_name']
+    return selection_url_in_transcript(context, start_seconds, transcript, end_seconds)
+
+@tag(register, [Variable(), Variable(), Optional([Variable()])])
+def selection_url_in_transcript(context, start_seconds, transcript, end_seconds=None):
     url_args = {
         "start": mission_time(start_seconds)
     }
     if end_seconds:
         url_args["end"] = mission_time(end_seconds)
     
-    if 'transcript_name' in context:
+    if transcript and transcript != context['request'].mission.main_transcript:
         # Split transcript name from [mission]/[transcript]
-        transcript = context['transcript_name'].split('/')[1]
-        if context['transcript_name'] != context['mission_main_transcript']:
-            url_args["transcript"] = transcript
+        url_args["transcript"] = transcript.split('/')[1]
     
     # Render the URL
     url = reverse("view_range", kwargs=url_args)

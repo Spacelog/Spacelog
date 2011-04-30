@@ -22,15 +22,15 @@
                 <h2>
                     {% avatar_and_name log_line.speaker mission.name log_line.timestamp %}
                     said
-                    <a href="{% selection_url log_line.timestamp %}">
+                    <a href="{% selection_url_in_transcript log_line.timestamp log_line.transcript_name %}">
                         <q>{{ log_line.title|safe }}</q>
                     </a>
                 </h2>
-                <blockquote cite="{% selection_url log_line.timestamp %}"><p>{{ log_line.summary }}</p></blockquote>
+                <blockquote cite="{% selection_url_in_transcript log_line.timestamp log_line.transcript_name %}"><p>{{ log_line.summary }}</p></blockquote>
                 <dl>
                     <dt>Timestamp</dt>
                     <dd>
-                      <a href="{% selection_url log_line.timestamp %}">
+                      <a href="{% selection_url_in_transcript log_line.timestamp log_line.transcript_name %}">
                         <time datetime="{{ log_line.utc_time|date:"Y-m-d\TH:i:s\Z" }}">
                             {{log_line.timestamp|mission_time_format}}
                         </time>
