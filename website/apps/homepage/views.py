@@ -11,10 +11,16 @@ class HomepageView(TemplateView):
             "mission:%s:homepage_quotes" % self.request.mission.name,
         )
         if quote_timestamp:
+            if '/' in quote_timestamp:
+                transcript, timestamp = quote_timestamp.rsplit('/', 1)
+                transcript = "%s/%s" % (self.request.mission.name, transcript)
+            else:
+                transcript = self.request.mission.main_transcript
+                timestamp = quote_timestamp
             return LogLine(
                 self.request.redis_conn,
-                self.request.mission.main_transcript,
-                int(timestamp_to_seconds(quote_timestamp)),
+                transcript,
+                int(timestamp_to_seconds(timestamp)),
             )
 
     def get_context_data(self):
