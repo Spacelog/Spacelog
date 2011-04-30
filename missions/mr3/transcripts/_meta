@@ -132,6 +132,18 @@
           "name": "CARDFILE 23",
           "short_name": "CARDFILE 23",
           "avatar": "CF_23.png"
+        },
+        "LCC": {
+          "role": "other",
+          "name": "Launch Control Center",
+          "short_name": "Launch Control",
+          "avatar": "LCC_48.png"
+        },
+        "CV-39": {
+            "role": "other",
+            "name": "USS Lake Champlain (CV-39)",
+            "short_name": "CV-39",
+            "avatar": "CV39_48.png"
         }
     },
     "shared_glossaries": ["space"],
