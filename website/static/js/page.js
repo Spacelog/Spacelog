@@ -1,3 +1,16 @@
+function getTranscriptNameFromURL () {
+    // Transcript is last path segment, and may contain [-_\w]
+    var transcript = location.pathname.replace(
+        /^.*\/.*\/([-_\w]+)\/$/, "$1"
+    );
+    
+    // If we actually have a transcript, add it to the URL
+    if ( transcript && transcript != location.pathname ) {
+        return transcript;
+    }
+    return '';
+}
+
 Artemis.LogLine = Backbone.Model.extend({
     initialize: function(options) {
         this.id = parseInt(options.el.attr('id').slice(9), 10);
@@ -70,13 +83,9 @@ Artemis.HighlightedLogLineCollection = Backbone.Collection.extend({
             out.push('/');
         }
         
-        // Transcript is last path segment, and may contain [-_\w]
-        var transcript = l.pathname.replace(
-            /^.*\/([-_\w]+)\/$/, "$1"
-        );
-        
         // If we actually have a transcript, add it to the URL
-        if ( transcript && transcript != l.pathname ) {
+        var transcript = getTranscriptNameFromURL();
+        if ( transcript ) {
             out.push(transcript + '/');
         }
         
@@ -555,8 +564,16 @@ Artemis.PhasesView = Backbone.View.extend({
 
     setOriginalTranscriptPage: function(page) {
         if(typeof page === "undefined") { return; }
+        
+        // Transcript is last path segment, and may contain [-_\w]
+        var transcript = getTranscriptNameFromURL();
+        
+        // If we actually have a transcript, add it to the URL
+        if ( transcript ) {
+            transcript += '/';
+        }
         this.el.find('.original a')
-          .attr('href', '/original/' + page + '/')
+          .attr('href', '/original/' + transcript + page + '/')
           .attr('title', 'View original transcript, page ' + page);
     }
 });
