@@ -50,10 +50,11 @@ def timestamp_to_url(context, seconds, anchor=None):
         "start": mission_time(seconds)
     }
     
-    # Split transcript name from [mission]/[transcript]
-    transcript = context['transcript_name'].split('/')[1]
-    if context['transcript_name'] != context['mission_main_transcript']:
-        url_args["transcript"] = transcript
+    if 'transcript_name' in context:
+        # Split transcript name from [mission]/[transcript]
+        transcript = context['transcript_name'].split('/')[1]
+        if context['transcript_name'] != context['mission_main_transcript']:
+            url_args["transcript"] = transcript
     
     # Render the URL
     url = reverse("view_page", kwargs=url_args)
@@ -69,10 +70,11 @@ def selection_url(context, start_seconds, end_seconds=None):
     if end_seconds:
         url_args["end"] = mission_time(end_seconds)
     
-    # Split transcript name from [mission]/[transcript]
-    transcript = context['transcript_name'].split('/')[1]
-    if context['transcript_name'] != context['mission_main_transcript']:
-        url_args["transcript"] = transcript
+    if 'transcript_name' in context:
+        # Split transcript name from [mission]/[transcript]
+        transcript = context['transcript_name'].split('/')[1]
+        if context['transcript_name'] != context['mission_main_transcript']:
+            url_args["transcript"] = transcript
     
     # Render the URL
     url = reverse("view_range", kwargs=url_args)
