@@ -122,11 +122,11 @@ class LogLine(object):
         return self.key_scene_number is not None
 
     def first_in_act(self):
-        return LogLine.Query(self.redis_conn, self.mission_name).first_after(self.act().start).timestamp == self.timestamp
+        return LogLine.Query(self.redis_conn, self.mission_name).transcript(self.transcript_name).first_after(self.act().start).timestamp == self.timestamp
 
     def first_in_key_scene(self):
         if self.key_scene():
-            return LogLine.Query(self.redis_conn, self.mission_name).first_after(self.key_scene().start).timestamp == self.timestamp
+            return LogLine.Query(self.redis_conn, self.mission_name).transcript(self.transcript_name).first_after(self.key_scene().start).timestamp == self.timestamp
         else:
             return False
 
