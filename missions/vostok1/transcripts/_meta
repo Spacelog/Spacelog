@@ -198,14 +198,20 @@
     },
     "glossary": {
         "ДЭМШ": {
+            "abbr_lang": "ru",
+            "summary_lang": "ru",
             "summary": "динамический электромагнитный микрофон шлема",
             "slug": "damsh"
         },
         "ПКРС": {
+            "abbr_lang": "ru",
+            "summary_lang": "ru",
             "summary": "прибор контроля режима спуска",
             "slug": "pkrs"
         },
         "ТДУ": {
+            "abbr_lang": "ru",
+            "summary_lang": "ru",
             "summary": "тормозная двигательная установка",
             "slug": "tdu"
         }

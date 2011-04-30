@@ -510,6 +510,12 @@ class MetaIndexer(object):
                 del data['summary']
             else:
                 data['description'] = data.get('summary') or data.get('description', u"")
+            if data.has_key('description_lang'):
+                data['extended_description_lang'] = data['description_lang']
+                del data['description_lang']
+            if data.has_key('summary_lang'):
+                data['description_lang'] = data['summary_lang']
+                del data['summary_lang']
             
             # Store the main data in a hash
             self.redis_conn.hmset("glossary:%s" % term_key, data)

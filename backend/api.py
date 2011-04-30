@@ -482,13 +482,16 @@ class Glossary(object):
         data = self.redis_conn.hgetall( key )
         if not data:
             raise ValueError("No such glossary item: %s (%s)" % (self.id, key))
-        self.description = data['description'].decode('utf-8')
-        self.extended_description = data.get('extended_description', None)
-        self.abbr        = data['abbr']
-        self.key         = self.id
-        self.type        = data.get('type', 'jargon')
-        self.times_mentioned = data['times_mentioned']
-        self.precomputed_slug     = data.get('slug', None)
+        self.description               = data['description'].decode('utf-8')
+        self.description_lang          = data.get('description_lang', None)
+        self.extended_description      = data.get('extended_description', None)
+        self.extended_description_lang = data.get('extended_description_lang', None)
+        self.abbr                      = data['abbr']
+        self.abbr_lang                 = data.get('abbr_lang', None)
+        self.key                       = self.id
+        self.type                      = data.get('type', 'jargon')
+        self.times_mentioned           = data['times_mentioned']
+        self.precomputed_slug          = data.get('slug', None)
 
     @property
     def slug(self):
