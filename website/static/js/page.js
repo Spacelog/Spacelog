@@ -63,12 +63,23 @@ Artemis.HighlightedLogLineCollection = Backbone.Collection.extend({
         var first = this.first().getURL().split('/')[1];
         var last = this.last().getURL().split('/')[1];
         var l = document.location;
+        
         var out = [l.protocol, '//', l.host, '/', first, '/'];
         if (first != last) {
             out.push(last);
             out.push('/');
         }
-        // console.log( this.first().id );
+        
+        // Transcript is last path segment, and may contain [-_\w]
+        var transcript = l.pathname.replace(
+            /^.*\/([-_\w]+)\/$/, "$1"
+        );
+        
+        // If we actually have a transcript, add it to the URL
+        if ( transcript && transcript != l.pathname ) {
+            out.push(transcript + '/');
+        }
+        
         out.push('#log-line-' + this.first().id);
         return out.join('');
     }

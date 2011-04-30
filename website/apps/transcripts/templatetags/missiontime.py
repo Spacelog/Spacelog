@@ -1,6 +1,11 @@
 from django.template import Library
 from django.core.urlresolvers import reverse
 from backend.util import timestamp_to_seconds
+
+from templatetag_sugar.register import tag
+from templatetag_sugar.parser import Variable, Optional
+
+
 import threading
 
 register = Library()
@@ -39,19 +44,38 @@ def mission_time(seconds, separator=':', enable_suppression=False):
 def mission_time_format(seconds):
     return mission_time(seconds, ' ', True)
 
-@register.simple_tag
-def timestamp_to_url(seconds, anchor=None):
-    url = reverse("view_page", kwargs={"start": mission_time(seconds)})
+@tag(register, [Variable(), Optional([Variable()])])
+def timestamp_to_url(context, seconds, anchor=None):
+    url_args = {
+        "start": mission_time(seconds)
+    }
+    
+    # Split transcript name from [mission]/[transcript]
+    transcript = context['transcript_name'].split('/')[1]
+    if context['transcript_name'] != context['mission_main_transcript']:
+        url_args["transcript"] = transcript
+    
+    # Render the URL
+    url = reverse("view_page", kwargs=url_args)
     if anchor:
         url = '%s#log-line-%s' % (url, anchor)
     return url
 
-@register.simple_tag
-def selection_url(start_seconds, end_seconds=None):
-    if end_seconds is None:
-        url = reverse("view_range", kwargs={"start": mission_time(start_seconds)})
-    else:
-        url = reverse("view_range", kwargs={"start": mission_time(start_seconds), "end": mission_time(end_seconds)})
+@tag(register, [Variable(), Optional([Variable()])])
+def selection_url(context, start_seconds, end_seconds=None):
+    url_args = {
+        "start": mission_time(start_seconds)
+    }
+    if end_seconds:
+        url_args["end"] = mission_time(end_seconds)
+    
+    # Split transcript name from [mission]/[transcript]
+    transcript = context['transcript_name'].split('/')[1]
+    if context['transcript_name'] != context['mission_main_transcript']:
+        url_args["transcript"] = transcript
+    
+    # Render the URL
+    url = reverse("view_range", kwargs=url_args)
     if isinstance(start_seconds, basestring):
         start_seconds = timestamp_to_seconds(start_seconds)
     return '%s#log-line-%i' % ( url, start_seconds )

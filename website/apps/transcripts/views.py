@@ -28,8 +28,13 @@ class TranscriptView(JsonTemplateView):
     def act_query(self):
         return Act.Query(self.request.redis_conn, self.request.mission.name)
 
+    def get_transcript_name(self):
+      if self.kwargs.get("transcript", None):
+          return self.request.mission.name + "/" + self.kwargs["transcript"]
+      return self.request.mission.main_transcript
+
     def main_transcript_query(self):
-        return self.log_line_query().transcript(self.request.mission.main_transcript)
+        return self.log_line_query().transcript(self.get_transcript_name())
 
     def media_transcript_query(self):
         return self.log_line_query().transcript(self.request.mission.media_transcript)
@@ -101,6 +106,8 @@ class PageView(TranscriptView):
         # - The timestamp for the start of an in-act page
         # If the timestamp is already one of these, render as normal
         
+        print self.get_transcript_name()
+        
         requested_start       = None
         if context['start']:
             requested_start   = timestamp_to_seconds( context['start'] )
@@ -120,17 +127,23 @@ class PageView(TranscriptView):
         # If we're on the first page, but have a timestamp,
         # redirect to the bare page URL
         if requested_start and is_first_page:
-            page_start_url = reverse("view_page")
+            if context['transcript_name'] != context['mission_main_transcript']:
+                # Split transcript name from [mission]/[transcript]
+                transcript = context['transcript_name'].split('/')[1]
+                page_start_url = reverse("view_page", kwargs={"transcript": transcript})
+            else:
+                page_start_url = reverse("view_page")
         # If we're on the first page of an act,
         # but not on the act-start timestamp, redirect to that
         elif is_act_first_page \
         and requested_start != current_act.start:
-            page_start_url = timestamp_to_url( current_act.start )
+            page_start_url = timestamp_to_url( context, current_act.start )
         # If we're on any other page and the timestamp doesn't match
         # the timestamp of the first item, redirect to that item's timestamp
         elif requested_start and not is_act_first_page \
         and requested_start != first_log_line.timestamp:
             page_start_url = timestamp_to_url(
+                context,
                 first_log_line.timestamp
             )
         
@@ -142,7 +155,7 @@ class PageView(TranscriptView):
         
         return super( PageView, self ).render_to_response( context )
     
-    def get_context_data(self, start=None, end=None):
+    def get_context_data(self, start=None, end=None, transcript=None):
 
         if end is None:
             end = start
@@ -177,6 +190,9 @@ class PageView(TranscriptView):
             permalink_fragment = '#log-line-%s' % log_lines[0].timestamp
         
         return {
+            'mission_name': self.request.mission.name,
+            'mission_main_transcript': self.request.mission.main_transcript,
+            'transcript_name': self.get_transcript_name(),
             'start' : start,
             'log_lines': log_lines,
             'next_timestamp': next_timestamp,
@@ -272,7 +288,7 @@ class RangeView(PageView):
 
         return log_lines, previous_link, next_link, highlight_index, first_highlighted_line
 
-    def get_context_data(self, start=None, end=None):
+    def get_context_data(self, start=None, end=None, transcript=None):
         data = super(RangeView, self).get_context_data(start, end)
         data.update({
             "selection_start_timestamp": self.parse_mission_time(start),
