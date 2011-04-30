@@ -104,6 +104,11 @@ class TranscriptIndexer(object):
         #         for bit in name.split():
         #             search_db.add_synonym(bit, character.identifier)
         #             search_db.add_synonym(bit, character.identifier, field='speaker')
+        # Add to the mission's list of transcripts
+        self.redis_conn.sadd(
+            "mission:%s:transcripts" % self.mission_name,
+            self.transcript_name,
+        )
 
     def add_to_search_index(self, mission, id, chunk, weight, timestamp):
         """

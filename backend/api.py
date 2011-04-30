@@ -539,6 +539,7 @@ class Mission(object):
         self.subdomain = data.get('subdomain', None)
         self.utc_launch_time = data['utc_launch_time']
         self.type_search = self.copy.get('type_search', 'reentry')
+        self.transcripts = self.redis_conn.smembers("mission:%s:transcripts" % self.name)
 
     class Query(BaseQuery):
 

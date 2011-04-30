@@ -98,8 +98,7 @@ class TranscriptParser(object):
                     print "Error: Continuation line before first timestamp header. Line: %s" % \
                                                                         (line)
                 elif not current_chunk['lines']:
-                    print "Error: Continuation line before first speaker name. Timestamp %s" % \
-                                                                        (seconds_to_timestamp(timestamp))
+                    print "Error: Continuation line before first speaker name."
                 else:
                     current_chunk['lines'][-1]['text'] += " " + line.strip()
             # If it's a new line, start a new line. Shock.
@@ -108,8 +107,7 @@ class TranscriptParser(object):
                 try:
                     speaker, text = line.split(":", 1)
                 except ValueError:
-                    print "Error: First speaker line not in Name: Text format: %s. Timestamp %s" % \
-                                                                        (line, seconds_to_timestamp(timestamp))
+                    print "Error: First speaker line not in Name: Text format: %s." % (line,)
                 else:
                     line = {
                         "speaker": speaker.strip(),
