@@ -1,11 +1,8 @@
 {% load missiontime %}{% load linkify %}{% load pauses %}
 {% if quote %}
 <div id='homepage-quote'>
-  {% if quote.lines.0.lang %}
-  <blockquote lang='{{ quote.lines.0.lang }}'>
-  {% else %}
-  <blockquote>
-  {% endif %}
+  
+  <blockquote{% if quote.lang %} lang="{{ quote.lang }}"{% endif %}>
     <p>{{ quote.lines.0.1|linkify }}</p>
   </blockquote>
   <i>
