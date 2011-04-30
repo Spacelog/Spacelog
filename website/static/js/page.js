@@ -186,7 +186,8 @@ Artemis.LogLineView = Backbone.View.extend({
         if (!this.el.children('#range-advisory').length) {
             var twitterURL = "http://platform.twitter.com/widgets/tweet_button.html?count=horizontal&amp;lang=en&amp;" +
                              "text=" + encodeURIComponent( this.model.collection.first().getTweetableQuote() ) + "&amp;" +
-                             "url=" + encodeURIComponent( this.model.collection.getURL() );
+                             "url=" + encodeURIComponent( this.model.collection.getURL() ) + "&amp;" +
+                             "via=spacelogdotorg&amp;related=devfort";
 
             var rangeAdvisory = $(_.template(this.rangeAdvisoryTemplate, {
                 time: this.model.collection.first().view.el.find('time').data('range-advisory'),
