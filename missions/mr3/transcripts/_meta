@@ -31,7 +31,7 @@
     "acts" : [
         {
             "title": "Launch",
-            "description": "",
+            "description": "Freedom 7 lifts off from Cape Canaveral on top of a modified Redstone missile.",
             "range": ["00:00:00:00", "00:00:02:35"],
             "homepage": "phase1.jpg",
             "banner": "act1.jpg",
@@ -39,14 +39,14 @@
         },
         {
             "title": "Space",
-            "description": "",
+            "description": "Alan Shepard becomes the first American in space, reaching an altitude of 187km before firing retro rockets and beginning his return to Earth.",
             "range": ["00:00:02:35", "00:00:07:06"],
             "homepage": "phase2.jpg",
             "banner": "act2.jpg"
         },
         {
             "title": "Reentry",
-            "description": "",
+            "description": "Freedom 7 re-enters the earth's atmosphere, sustaining a peak G-force of 11g before splashing down near the Bahamas.",
             "range": ["00:00:07:06", "00:00:15:30"],
             "homepage": "phase3.jpg",
             "banner": "act3.jpg"
