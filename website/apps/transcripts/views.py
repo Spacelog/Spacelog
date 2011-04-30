@@ -256,12 +256,13 @@ class RangeView(PageView):
             # We have an individual start time only
             # -or-
             # We have start and end times that resolve to the same log_line
-            page_start_url = selection_url( start_line.timestamp )
+            page_start_url = selection_url( context, start_line.timestamp )
         elif (start != start_line.timestamp) \
           or (end and end != end_line.timestamp):
             # We have an invalid start/end time in a range
             # Doesn't matter if start is valid or not: this will handle both
             page_start_url = selection_url(
+                context,
                 start_line.timestamp,
                 end_line.timestamp
             )
@@ -299,8 +300,10 @@ class RangeView(PageView):
         return log_lines, previous_link, next_link, highlight_index, first_highlighted_line
 
     def get_context_data(self, start=None, end=None, transcript=None):
-        data = super(RangeView, self).get_context_data(start, end)
+        data = super(RangeView, self).get_context_data(start, end, transcript)
         data.update({
+            # HACK: Force request into context. Not sure why it's not here.
+            'request': self.request,
             "selection_start_timestamp": self.parse_mission_time(start),
             "selection_end_timestamp": self.parse_mission_time(start if end is None else end),
         })
