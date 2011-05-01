@@ -67,7 +67,19 @@
     A <a href="http://devfort.com/">/dev/fort</a> project.
   </p>
   <p class='credits'>
-    Background image is <a href='http://www.flickr.com/photos/28634332@N05/4703771206/'>Sunset over the Indian Ocean</a> by <a href='http://www.nasa.gov/centers/marshall/home/index.html'>NASA's <abbr title='Marshall Space Flight Center'>MSFC</abbr></a> (CC By-NC).
+    Background image is
+    {% if page == "about" %}
+      <a href='http://www.flickr.com/photos/jaako/2900449721/'>Starry Night</a> by <a href='http://www.flickr.com/photos/jaako/'>Kevin Jaako</a> (CC By-NC).
+    {% endif %}
+    {% if page == "press" %}
+      <a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=50205'>Sunset over Western South America</a> by <a href='http://earthobservatory.nasa.gov/'>NASA's Earth Observatory</a>.
+    {% endif %}
+    {% if page == "get-involved" %}
+      <a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=48340'>Auroral Rocket in Norway</a> by <a href='http://www.rocketrange.no/'>Andøya Rocket Range</a> via <a href='http://earthobservatory.nasa.gov/IOTD/view.php?id=48340'>NASA's Earth Observatory</a> (CC By-NC-ND).
+    {% endif %}
+    {% if not page %}
+      <a href='http://www.flickr.com/photos/28634332@N05/4703771206/'>Sunset over the Indian Ocean</a> by <a href='http://www.nasa.gov/centers/marshall/home/index.html'>NASA's <abbr title='Marshall Space Flight Center'>MSFC</abbr></a> (CC By-NC).
+    {% endif %}
   </p>
 </div></div>
 <script type="text/javascript">
