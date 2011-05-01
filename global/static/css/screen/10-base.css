@@ -28,6 +28,21 @@ a:active {
     background:             #999;
 }
 
+.stl {
+    border-bottom:          1px solid #676769;
+    font-weight:            normal;
+    margin-bottom:          24px;
+    padding-bottom:         28px;
+}
+.stl iframe {
+    vertical-align:         top;
+    padding:                0px 15px 0px 11px;
+}
+.stl > iframe:first-child {
+    border-right:           1px solid #676769;
+    padding-left:           0px;
+}
+
 #footer {
     background:             #232323;
     border-top:             1px solid #424242;
