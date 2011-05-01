@@ -553,7 +553,8 @@ class Mission(object):
         self.title = self.copy['title']
         self.upper_title = self.copy['upper_title']
         self.lower_title = self.copy['lower_title']
-        self.description = self.copy['description']
+        self.summary = self.copy.get('summary', '')
+        self.description = self.copy.get('description', self.summary)
         self.featured = (data['featured'].lower() == 'true')
         self.main_transcript = data['main_transcript']
         try:
