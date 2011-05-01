@@ -69,34 +69,44 @@ then use `ENV/bin/python` where normally you'd use just `python`. (If it's recen
 
 #### A word of caution
 
-Currently we are tracking the trunk of Django, because we both use upcoming 1.3 features and need a bugfix not yet available in an alpha release. This does mean that occasionally the latest version is broken; we will move away from this situation as soon as possible.
-
-### Hosts setup
-
-To make it possible to work with multiple missions, you need edit `/etc/hosts` to include an alias `artemis`, plus aliases of the form `<mission>.artemis`, such as `apollo13.artemis` and `mercury6.artemis`; these all need to point to `localhost` (or to your virtual machine, if that's how you develop things). For instance, here's an `/etc/hosts` entry using `localhost` (put this in addition to the `localhost` line already in there):
-  
-    127.0.0.1		apollo13.artemis mercury6.artemis artemis
-
-and here's one for a virtual machine (you'll need to change the dotted quad at the start of the line):
-  
-    192.168.56.101	apollo13.artemis mercury6.artemis artemis
+We are currently locked to a specific version of Django, because we use 1.3 features but the release itself has a bug which prevents us from using it in development. Once there's a stable release of Django without this problem we'll move off this.
 
 ## Running the code
 
-Make sure `redis-server` is running, then run `make reindex` in the checkout directory (it will take care of the virtualenv for you; if you're not using one, use `PYTHON=python make reindex` instead), which will import all the mission data into redis. You may also want to do `make s3assets` to pull down the PNGs of the original transcript pages, and `make statsporn` to build the graphs for the phases page of how much was said at different times (and, in case we've added more graphs but haven't updated this, *other things* :-).
+If you have `screen` installed and are using a virtualenv as above, you should be able to just run `make screen` to get everything running for you. You also need to run `make reindex` to load all the details of the missions. Then you can point your web browser at [http://dev.spacelog.org:8001/](http://dev.spacelog.org:8001/) and the global homepage should come up; from there you can navigate to other missions, which will appear at URLs such as [http://apollo11.dev.spacelog.org:8000/](http://apollo11.dev.spacelog.org:8000). The DNS is managed by us, and providing you're online everything will just work.
+
+`make screen` fires up an instance of `screen`, which is an easy way of running multiple programs on one terminal. Currently it leaves you looking at the development server log for the global homepage, but you can switch to a blank terminal by typing `^A 0`, ie: holding down the `ctrl` key, pressing `A`, releasing `ctrl` and then pressing `0`. This is a good place to run `make reindex` from.
+
+All our `make` commands will take care of the virtualenv for you; if you're not using one, you can use `PYTHON=python make <whatever>` instead.
+
+### The details
+
+If you can't use `make screen`, or simply if you wish to know how it all fits together under the skin, then here's the details. It's also helpful in case you're developing the code directly, since under certain circumstances the Django development server can crash, and will need restarting. Similarly if you add a new CSS file, you will currently have to restart the appropriate devcss server.
+
+We use redis for storage, so you need to have `redis-server` running before you run `make reindex` in the checkout directory, which will import all the mission data into redis. You may also want to do `make statsporn` to build the graphs for the phases page of how much was said at different times (and, in case we've added more graphs but haven't updated this, *other things* :-).
 
 You then need to have some other servers running on top of redis:
 
- * `make devcss` will run `CSS::Prepare` in development mode, so changes to CSS files will be reflected automatically; if not using a `virtualenv`, `PYTHON=python make devcss` should do the trick
+ * `make devcss` will run `CSS::Prepare` in development mode, so changes to CSS files will be reflected automatically
  * `make devcss_global` will run `CSS::Prepare` for the project homepage
- * `make devserver` will run the mission-specific websites
- * `make devserver_global` will run the project homepage
+ * `make devserver` will run the mission-specific websites; if not using a `virtualenv`, `PYTHON=python make devserver` should do the trick
+ * `make devserver_global` will run the project homepage; if not using a `virtualenv`, `PYTHON=python make devserver_global` should do the trick
 
-The project homepage will appear at [http://artemis:8001/](http://artemis:8001/), and the per-mission sites at [http://apollo13.artemis:8000/](http://apollo13.artemis:8000/) (which will show the Apollo 13 mission), [http://mercury6.artemis:8000/](http://mercury6.artemis:8000/) (Mercury-Atlas 6) and so on.
+### Hosts setup for offline use
+
+If you're not online, you can't use our development DNS, so you'll need edit `/etc/hosts` to include an alias `dev.spacelog.org`, plus aliases of the form `<mission>.dev.spacelog.org`, such as `apollo13.dev.spacelog.org` and `mercury6.dev.spacelog.org`; these all need to point to `localhost` (or to your virtual machine, if that's how you develop things). For instance, here's an `/etc/hosts` entry using `localhost` (put this in addition to the `localhost` line already in there):
+  
+    127.0.0.1		apollo13.dev.spacelog.org mercury6.dev.spacelog.org dev.spacelog.org
+
+and here's one for a virtual machine (you'll need to change the dotted quad at the start of the line):
+  
+    192.168.56.101	apollo13.dev.spacelog.org mercury6.dev.spacelog.org dev.spacelog.org
 
 ### Reindexing
 
 Whenever you edit information about a mission, or add a new one, you need to run `make reindex` again. If you get errors you may find the `lognag.pl` script in `mcshred/src` useful: just give it some transcript files and it'll tell you where it finds possible errors or weirdnesses. (For new missions, you'll probably have to add things into the valid speakers list at line 71.)
+
+Note that a full `make reindex` can take a while, so you can index just a single mission by doing `ENV/bin/python -m backend.indexer ma6` or similar (or just `python -m backend.indexer ma6` if you aren't using a virtualenv.
 
 ## External Source Images
 
