@@ -77,5 +77,8 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+{% block body-js %}{% endblock %}
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 </body>
 </html>

@@ -29,14 +29,26 @@
 .content-page h1,
 .content-page .rubric {
     font-size:              40px;
+}
+.content-page h1 {
     font-weight:            bold;
 }
 .content-page .rubric {
-    border-bottom:          1px solid #676769;
     color:                  #999;
+}
+.content-page .stl {
+    border-bottom:          1px solid #676769;
     font-weight:            normal;
     margin-bottom:          24px;
-    padding-bottom:         24px;
+    padding-bottom:         28px;
+}
+.content-page .stl iframe {
+    vertical-align:         top;
+    padding:                0px 15px 0px 11px;
+}
+.content-page .stl > iframe:first-child {
+    border-right:           1px solid #676769;
+    padding-left:           0px;
 }
 
 .content-page h2 {
