@@ -73,7 +73,7 @@ def _get_reading_list(country_code):
 def about(request):
     return render_to_response(
             'pages/about.html',
-            {'READING_LISTS': _get_reading_list(request.META.get('GEOIP_COUNTRY_CODE', '--'))},
+            {'READING_LISTS': _get_reading_list(request.META.get('GEOIP_COUNTRY_CODE', '--')), 'page': 'about'},
             context_instance = RequestContext(request),
             )
 
@@ -81,7 +81,7 @@ def about(request):
 def press(request):
     return render_to_response(
             'pages/press.html',
-            {'READING_LISTS': _get_reading_list(request.META.get('GEOIP_COUNTRY_CODE', '--'))},
+            {'READING_LISTS': _get_reading_list(request.META.get('GEOIP_COUNTRY_CODE', '--')), 'page': 'press'},
             context_instance = RequestContext(request),
             )
 
@@ -89,6 +89,6 @@ def press(request):
 def get_involved(request):
     return render_to_response(
             'pages/get-involved.html',
-            {'READING_LISTS': _get_reading_list(request.META.get('GEOIP_COUNTRY_CODE', '--'))},
+            {'READING_LISTS': _get_reading_list(request.META.get('GEOIP_COUNTRY_CODE', '--')), 'page': 'get-involved'},
             context_instance = RequestContext(request),
             )
