@@ -2,8 +2,8 @@
     background:             #000
                             url( ../img/home-bg.jpg )
                             no-repeat
-                            top center;
-    padding:                50px 0 200px;
+                            center -100px;
+    padding:                0 0 50px;
 }
 .homepage h2,
 .homepage h3 {
