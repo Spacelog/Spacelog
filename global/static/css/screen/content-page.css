@@ -14,7 +14,7 @@
 .press {
     background:             url( ../img/press-bg.jpg )
                             no-repeat
-                            top left;
+                            0% -5px;
 }
 
 .get-involved {
