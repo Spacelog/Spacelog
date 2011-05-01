@@ -49,7 +49,11 @@ Clone the repository from git:
 
     $ git clone git://github.com/Spacelog/Spacelog.git
 
-For any changes you make (fixed, new missions, or even new website features), you can issue a pull request to us from another [github](http://github.com/) repository).
+However for any changes you make (fixed, new missions, or even new website features), you will want to issue a pull request to us from another [github](http://github.com/) repository). In order to do that, you'll need to set up a github account, and while logged in go to [our repository there](http://github.com/Spacelog/Spacelog) and hit the "fork" button (top right, near the search box). This will create a copy of Spacelog under your github user; you can then grab the SSH URL (which will look like `git@github.com:<your user>/Spacelog.git`) and use for git clone, as:
+    
+    $ git clone <github SSH URL>
+
+You can then make changes, commit them to your local copy (`git commit`), push them up to your github copy (`git push`) and finally send us a pull request (which you do via the github website). Github has some great guides to getting started with git and github linked from their homepage once you're signed in, in particular [their description of forking a repository](http://help.github.com/fork-a-repo/).
 
 ### Software to install
 
