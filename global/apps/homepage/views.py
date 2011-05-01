@@ -139,6 +139,6 @@ def press(request):
 def get_involved(request):
     return render_to_response(
             'pages/get-involved.html',
-            {'READING_LISTS': _get_reading_list(request.META.get('GEOIP_COUNTRY_CODE', '--')), 'page': 'get-involved'},
+            {'page': 'get-involved'},
             context_instance = RequestContext(request),
             )
