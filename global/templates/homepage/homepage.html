@@ -3,12 +3,20 @@
 
 {% block title %}Spacelog: space exploration stories from the original transcripts{% endblock %}
 {% block content-class %}homepage{% endblock %}
-{% block content %}
-<p class="tagline">
-  <em>Read the stories of early space exploration from the original 
-  transcripts.</em> Now open to the public in a searchable, linkable format.
-</p>
 
+{% block header %}
+<div class="header">
+  <div class='wrapper'>
+    <p class="tagline">
+      <em>Read the stories of early space exploration from the original 
+      transcripts.</em> Now open to the public in a searchable, linkable format.
+    </p>
+    {% include "_base/stl.html" %}
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
 {% if missions|featured %}
 <h2>Featured Missions</h2>
 <ul class="featured">

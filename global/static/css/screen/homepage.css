@@ -11,7 +11,9 @@
 }
 .homepage h2 {
     font-size:              32px;
-    margin:                 70px 0 0;
+    margin:                 20px 0 0;
+    padding-bottom:         10px;
+    border-bottom:          1px solid #bbb;
 }
 .homepage h2 span {
     color:                  #676768;
@@ -20,17 +22,25 @@
 .homepage h3 {
     font-weight:            bold;
 }
-.homepage h3 a {
-    display:                block;
+/*! verbatim */
+.header {
+    padding-top:            24px;
+    background:             #444;
+    background:             rgba(0, 0, 0, 0.5);
 }
-
-.homepage .tagline {
+/* -- */
+.header .tagline {
     color:                  #808080;
     font-size:              40px;
+    margin-bottom:          36px;
 }
-.homepage .tagline em {
+.header .tagline em {
     color:                  #fff;
     font-weight:            bold;
+}
+.header .stl {
+    border-bottom:          none;
+    margin-bottom:          20px;
 }
 
 .homepage ul {

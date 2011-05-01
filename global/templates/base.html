@@ -34,7 +34,7 @@
 <body>
 {% include "_base/masthead.html" %}
 
-<div id='content' class='{% block content-class %}{% endblock %}'><div class="wrapper">
+<div id='content' class='{% block content-class %}{% endblock %}'>{% block header %}{% endblock %}<div class="wrapper">
 {% block content %}
 {% block abstract %}{% endblock %}
 <div class='primary-content'>{% block primary-content %}{% endblock %}</div>
