@@ -251,6 +251,7 @@
           "photo_width": 162,
           "photo_height": 205,
           "avatar": "armstrong.jpg",
+          "bio": "A test pilot for NACA with experience on the X-1B and X-15 before moving to NASA's astronaut program in 1962, Neil Armstrong had been Command Pilot of Gemini 8, and was backup command for Apollo 8, the first manned flight to the moon, being selected as commander of Apollo 11 while Apollo 8 was still in lunar orbit. Following Apollo 11 he taught at the University of Cincinnati and subsequently served as spokesman or board director of a number of companies.",
           "stats": [
             {
                 "value": 206,
@@ -293,6 +294,7 @@
           "photo_width": 163,
           "photo_height": 205,
           "avatar": "aldrin.jpg",
+          "bio": "A USAF fighter pilot who had served in Korea, Buzz Aldrin completed a ScD on astronautics at MIT, with his thesis concentrating on aspects of manned orbital rendezvouz. Selected as a NASA astronaut in 1963, he was pilot of the last Gemini mission, setting a record for extra-vehicular activity. Since retiring from NASA, he has continued to promote space travel, and is a strong proponent of manned missions to Mars.",
           "stats": [
             {
                 "value": 290,
@@ -335,6 +337,7 @@
           "photo_width": 159,
           "photo_height": 205,
           "avatar": "collins.jpg",
+          "bio": "A USAF fighter pilot and later test pilot who trained at Edwards with other Apollo astronauts Frank Borman and Jim Irwin, Michael Collins was selected as a NASA astronaut in 1963, and first flew as pilot of Gemini 10, with multiple rendezvouz and EVAs. He went on to write one of the best-regarded accounts of what it's like to be an astronaut, his autobiography Carrying the Fire: An Astronaut's Journey.",
           "stats": [
             {
                 "value": 266,
