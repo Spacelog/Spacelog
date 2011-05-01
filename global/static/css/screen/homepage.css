@@ -25,6 +25,7 @@
 /*! verbatim */
 .header {
     padding-top:            24px;
+    padding-bottom:         40px;
     background:             #444;
     background:             rgba(0, 0, 0, 0.5);
 }
@@ -40,7 +41,28 @@
 }
 .header .stl {
     border-bottom:          none;
-    margin-bottom:          20px;
+    display:                inline;
+}
+.header #homepage-quote {
+    display:                inline;
+    font-family:            "Georgia",
+                            serif;
+    float:                  right;
+    margin-top:             -4px;
+    font-size:              20px;
+}
+.header #homepage-quote a {
+    color:                  white;
+}
+.header #homepage-quote q {
+    quotes:                 "“" "”";
+    font-style:             italic;
+}
+.header #homepage-quote q:before {
+    content:                open-quote;
+}
+.header #homepage-quote q:after {
+    content:                close-quote;
 }
 
 .homepage ul {
