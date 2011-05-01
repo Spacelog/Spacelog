@@ -7,7 +7,7 @@ from backend.api import Mission
 AFFILIATE_CODES = {'us': 'spacelog-20', 'uk': 'spacelog-21'}
 
 READING_LISTS = [
-        ("By NASA astronauts and Soviet cosmonauts",
+        ("By astronauts and cosmonauts",
             [
                 ("Deke!",           "Deke Slayton with Michael Cassutt",    "031285918X"),
                 ("We Seven",        "The Mercury Astronauts",               "1439181039"),
