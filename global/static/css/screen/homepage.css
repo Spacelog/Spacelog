@@ -25,11 +25,13 @@
 /*! verbatim */
 .header {
     padding-top:            24px;
-    padding-bottom:         40px;
     background:             #444;
     background:             rgba(0, 0, 0, 0.5);
 }
 /* -- */
+.header {
+    -cp-contain:            easy;
+}
 .header .tagline {
     color:                  #808080;
     font-size:              40px;
@@ -41,15 +43,16 @@
 }
 .header .stl {
     border-bottom:          none;
-    display:                inline;
+    float:                  left;
+    margin-bottom:          0;
 }
 .header #homepage-quote {
-    display:                inline;
     font-family:            "Georgia",
                             serif;
     float:                  right;
     margin-top:             -4px;
     font-size:              20px;
+    width:                  621px;
 }
 .header #homepage-quote a {
     color:                  white;
@@ -99,17 +102,12 @@
     padding:                0 10px;
     margin-top:             20px;
 }
-.homepage .all li h3 {
+.homepage .all h3 {
     position:               relative;
 }
-.homepage .all li img {
-    width:                  40px;
-    position:               absolute;
-    left:                   0;
-}
-.homepage .all li span,
-.homepage .all li p {
-    margin-left:            48px;
+.homepage .all img {
+    float:                  left;
+    margin-right:           8px;
 }
 .homepage .all li:nth-child( 3n ) {
     padding-right:           0;
