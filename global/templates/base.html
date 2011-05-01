@@ -45,7 +45,7 @@
     <h2>{{ list.0 }}</h2>
     <ul class='reading-list'>
     {% for book in list.1 %}
-    <li><a href='{{ book.2 }}'><cite>{{ book.0 }}</cite></a>{% if book.1 %} by {{ book.1 }}{% endif %}
+    <li><img src='{{ book.3 }}' alt=''><a href='{{ book.2 }}'><cite>{{ book.0 }}</cite></a>{% if book.1 %} by {{ book.1 }}{% endif %}
       </li>
     {% endfor %}
     </ul>

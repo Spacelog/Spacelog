@@ -88,15 +88,24 @@
     font-weight:            bold;
     margin:                 24px 0 0 0;
 }
+.content-page .reading-list {
+    margin-top:             12px;
+}
 .content-page .reading-list li {
-    margin-left:           1em;
+    margin-bottom:          16px;
+    -cp-contain:            easy;
+}
+.content-page .reading-list li img {
+    float:                  left;
+    margin-right:           12px;
+    border:                 1px solid #333;
+    padding:                2px;
 }
 .content-page .reading-list li cite {
-    font-style:           italic;
+    font-weight:            bold;
 }
-.content-page .reading-list li a span {
-    position:               absolute;
-    left:                   -999px;
+.content-page .reading-list li a {
+    display:                block;
 }
 .content-page ul.contributors {
     margin:                 0 0 24px 0;
