@@ -64,7 +64,20 @@
 }
 .homepage .all li {
     border-bottom:          1px solid transparent;
-    padding:                20px 10px;
+    padding:                0 10px;
+    margin-top:             20px;
+}
+.homepage .all li h3 {
+    position:               relative;
+}
+.homepage .all li img {
+    width:                  40px;
+    position:               absolute;
+    left:                   0;
+}
+.homepage .all li span,
+.homepage .all li p {
+    margin-left:            48px;
 }
 .homepage .all li:nth-child( 3n ) {
     padding-right:           0;

@@ -1,4 +1,7 @@
 {% load missions %}<h3><a href="{{ mission|mission_url }}">
-  {{ mission.title }}
+    <img src="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/badge_thumb.png" alt=""
+  width="40" height="40">
+  <span>{{ mission.title }}
+  ({{ mission.year }})</span>
 </a></h3>
-<p>{{ mission.description|safe }}</p>
+<p>{{ mission.summary|safe }}</p>
