@@ -4,15 +4,16 @@
 
 {% block content-class %}content-page get-involved{% endblock %}
 
-{% block abstract %}
-<h1>Getting Involved</h1>
+
+{% block content %}
+<h1>Some people have said nice things&hellip;</h1>
+
 <p class="rubric">
-  Spacelog is a volunteer project that anyone can contribute to.
+  Everyone&rsquo;s been so lovely, we thought we&rsquo;d share some of the things they&rsquo;ve said.
 </p>
 {% include "_base/stl.html" %}
-{% endblock %}
 
-{% block primary-content %}
+<div class='primary-content'>
 <div class="content">
   <h2>How you can help</h2>
   <p>There are a whole bundle of different tasks that people can help out on, from the very small (such as noticing and pointing out a problem with a transcription of a particular mission) up to the fairly large (transcribing an entire mission). Along the way there are jobs involving writing new material (biographies, descriptions of key moments and phases, and so on), selecting images for use in missions (and possibly cropping or preparing them in Photoshop), and if you're a programmer you can get hold of <a href='http://github.com/Spacelog/Spacelog/'>the source code behind the site</a>, and help us out in developing it further.</p>
@@ -54,5 +55,18 @@
   <p>If possible, it's helpful to leave "- -" at the end of the line as is, rather than "correct" it to a single dash, or "--" or something. The website itself will display this nicely, and we prefer not to change the intent of the original transcripts where possible.</p>
 
   <p>If you are a little bit techie, there are various tools in the checkout that can help identify problems (particularly helpful once you think you've caught most of them, to help narrow the search for remaining issues that prevent us from loading the mission into the site), but if you're not comfortable with that then we can run them for you easily enough. Then once the transcription has been cleaned up, there are a bunch of other things that need doing &mdash; selecting and/or creating images, writing little biographies of the people involved, that kind of thing. We can of course help with that as well.</p>
+</div>
+</div>
+
+<div class='secondary-content'>
+  {% comment %}
+  Could use a figure, but that would involve the IE shim in order to style it properly
+  {% endcomment %}
+  <img src='/assets/img/transcripts-pile.png' width='300' height='434'>
+  <p>
+    Much of the content for Spacelog comes from original transcripts of audio recordings in the 1960s and 1970s. Our volunteers help convert and clean up these transcripts, or create new ones from the original audio.
+  </p>
+</div>
+
 </div>
 {% endblock %}

@@ -88,6 +88,13 @@
 .content-page.press .content blockquote p:after {
     content:                close-quote;
 }
+.content-page.get-involved .secondary-content {
+    margin-top:             78px;
+}
+.content-page.get-involved .secondary-content p {
+    margin-top:             4px;
+    padding:                0 20px;
+}
 .content-page em {
     font-style:             italic;
 }
