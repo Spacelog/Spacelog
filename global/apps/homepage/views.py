@@ -1,7 +1,9 @@
+# -*- encoding: utf-8 -*-
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from django.views.decorators.cache import cache_control
 from urllib import quote
+import collections
 from backend.api import Mission
 
 AFFILIATE_CODES = {'us': 'spacelog-20', 'uk': 'spacelog-21'}
@@ -24,6 +26,49 @@ READING_LISTS = [
                 ("Full Moon",       "Michael Light",                        "0375406344"),
             ])
             ]
+
+Thing = collections.namedtuple("Thing", [ 'quote', 'url', 'source', 'date' ])
+NICE_THINGS = [
+    Thing(
+        "A must-visit site for space enthusiasts.", 
+        "http://www.komando.com/coolsites/index.aspx?id=10587", "Kim Komando Cool Site of the Day",  "11 Apr, 2011",
+    ),
+  
+    Thing(
+        "Spacelog is awesome.", 
+        "http://www.rockpapershotgun.com/2010/12/05/the-sunday-papers-148/", "Rock Paper, Shotgun", "5 Dec, 2010",
+    ),
+
+    Thing(
+        "This is the kind of historical documentation and access that reminds us of why the internet is so, insanely awesome.", 
+        "http://www.engadget.com/2010/12/02/spacelog-provides-fascinating-searchable-text-transcripts-for-na/", "Engadget", "2 Dec, 2010",
+    ),
+
+    Thing(
+        "&hellip;highly addictive&hellip;", 
+        "http://www.huffingtonpost.com/2010/12/02/spacelogorg-nasa-mission-transcripts_n_790735.html", "The Huffington Post", "2 Dec, 2010",
+    ),
+
+    Thing(
+        "[Spacelog] is the best thing ever on the internet!", 
+        "http://twitter.com/moleitau/status/9930034542288896", "Matt Jones", "1 Dec, 2010",
+    ),
+
+    Thing(
+        "Wonderful stuff.", 
+        "http://kottke.org/10/12/spacelog", "Jason Kottke", "1 Dec, 2010",
+    ),
+
+    Thing(
+        "I absolutely love this. Spacelog.org is taking the radio transcripts from NASA missions, pairing them with great graphic design, and making the whole thing searchable and linkable. The result: A delightfully immersive perspective on history.", 
+        "http://www.boingboing.net/2010/12/01/an-interactive-histo.html", "Boing Boing", "1 Dec, 2010",
+    ),
+
+    Thing(
+        "If this isn’t making content meaningful, accessible (in a traditional sense), and enjoyable to consume, I don’t know what is.",
+        "http://cameronmoll.tumblr.com/post/2060251631/spacelog", "Cameron Moll", "1 Dec, 2010",
+    ),
+]
 
 def homepage(request):
     missions = [
@@ -81,7 +126,10 @@ def about(request):
 def press(request):
     return render_to_response(
             'pages/press.html',
-            {'READING_LISTS': _get_reading_list(request.META.get('GEOIP_COUNTRY_CODE', '--')), 'page': 'press'},
+            {
+                'page': 'press',
+                'NICE_THINGS': NICE_THINGS,
+            },
             context_instance = RequestContext(request),
             )
 

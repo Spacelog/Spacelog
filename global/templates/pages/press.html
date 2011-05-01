@@ -14,31 +14,10 @@
 
 <div class='primary-content'>
 <div class="content">
-  <blockquote><p>A must-visit site for space enthusiasts.</p></blockquote>
-  <p><cite><a href="http://www.komando.com/coolsites/index.aspx?id=10587">Kim Komando Cool Site of the Day (11 Apr, 2011)</a></cite></p>
-  
-  <blockquote><p>Spacelog is awesome.</p></blockquote>
-  <p><cite><a href="http://www.rockpapershotgun.com/2010/12/05/the-sunday-papers-148/">Rock Paper, Shotgun (5 Dec, 2010)</a></cite></p>
-
-  <blockquote><p>This is the kind of historical documentation and access that reminds us of why the internet is so, insanely awesome.</p></blockquote>
-  <p><cite><a href="http://www.engadget.com/2010/12/02/spacelog-provides-fascinating-searchable-text-transcripts-for-na/">Engadget (2 Dec, 2010)</a></cite></p>
-
-  <blockquote><p>&hellip;highly addictive&hellip;</p></blockquote>
-  <p><cite><a href="http://www.huffingtonpost.com/2010/12/02/spacelogorg-nasa-mission-transcripts_n_790735.html">The Huffington Post (2 Dec, 2010)</a></cite></p>
-  
-  <blockquote><p>[Spacelog] is the best thing ever on the internet!</p></blockquote>
-  <p><cite><a href="http://twitter.com/moleitau/status/9930034542288896">Matt Jones (1 Dec, 2010)</a></cite></p>
-
-  <blockquote><p>Wonderful stuff.</p></blockquote>
-  <p><cite><a href="http://kottke.org/10/12/spacelog">Jason Kottke (1 Dec, 2010)</a></cite></p>
-
-  <blockquote><p>I absolutely love this. Spacelog.org is taking the radio transcripts from NASA missions, pairing them with great graphic design, and making the whole thing searchable and linkable. The result: A delightfully immersive perspective on history.</p></blockquote>
-  <p><cite><a href="http://www.boingboing.net/2010/12/01/an-interactive-histo.html">Boing Boing (1 Dec, 2010)</a></cite></p>
-  
-  <blockquote>
-    <p>If this isn’t making content meaningful, accessible (in a traditional sense), and enjoyable to consume, I don’t know what is.</p>
-  </blockquote>
-  <p><cite><a href="http://cameronmoll.tumblr.com/post/2060251631/spacelog">Cameron Moll (1 Dec, 2010)</a></cite></p>
+  {% for thing in NICE_THINGS %}
+  <blockquote><p>{{ thing.quote|safe }}</p></blockquote>
+  <p><cite><a href="{{ thing.url }}">{{ thing.source }} ({{ thing.date }})</a></cite></p>
+  {% endfor %}
 </div>
 </div>
 
