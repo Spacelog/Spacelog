@@ -42,7 +42,7 @@ $(global_screen_css): $(global_source_screen_css)
 		$(global_source_screen_css) > $(global_screen_css)
 
 devserver:
-	$(PYTHON) -m website.manage runserver $(dev_webserver_ip):$(dev_webserver_port)
+	$(PYTHON) -m website.manage runconcurrentserver $(dev_webserver_ip):$(dev_webserver_port)
 
 devcss:
 	cssprepare --optimise --extended-syntax \
