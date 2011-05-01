@@ -583,6 +583,11 @@ $(function() {
     Artemis.phasesView = new Artemis.PhasesView();
     Artemis.transcriptView = new Artemis.TranscriptView();
     Artemis.transcriptView.gatherCurrentSelection();
+    
+    // If we don't have a hash, and the page has selected loglines, move to them
+    if ( !location.hash && document.getElementById( 'show-selection' ) ) {
+        location.hash = 'show-selection';
+    }
 });
 
 
