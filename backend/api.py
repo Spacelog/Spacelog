@@ -569,6 +569,11 @@ class Mission(object):
         # HACK?: Hash of page counts
         self.transcript_pages = self.redis_conn.hgetall("pages:%s" % self.name)
 
+    @property
+    def year(self):
+        dt = datetime.datetime.fromtimestamp(float(self.utc_launch_time))
+        return dt.year
+
     class Query(BaseQuery):
 
         def __init__(self, redis_conn, filters=None):
