@@ -11,13 +11,18 @@ def avatar_and_name(speaker, mission_name, timestamp=None):
         current_speaker = speaker.current_shift(timestamp)
     else:
         current_speaker = speaker
-
+    
+    short_name_lang = ''
+    if current_speaker.short_name_lang:
+        short_name_lang = " lang='%s'"  % current_speaker.short_name_lang 
+    
     detail = """
       <img src='%(MISSIONS_STATIC_URL)s%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48'>
-      <span>%(short_name)s</span>
+      <span%(short_name_lang)s>%(short_name)s</span>
     """ % {
         "avatar": current_speaker.avatar,
         "short_name": current_speaker.short_name,
+        "short_name_lang": short_name_lang,
         "mission_name": mission_name,
         "MISSIONS_STATIC_URL": settings.MISSIONS_STATIC_URL,
     }
@@ -41,11 +46,15 @@ def avatar(speaker, mission_name, timestamp=None):
     else:
         current_speaker = speaker
 
+    short_name_lang = ''
+    if current_speaker.short_name_lang:
+        short_name_lang = " lang='%s'"  % current_speaker.short_name_lang 
     detail = """
-      <img src='%(MISSIONS_STATIC_URL)s%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48' alt='%(short_name)s'>
+      <img src='%(MISSIONS_STATIC_URL)s%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48' %(short_name_lang)salt='%(short_name)s'>
     """ % {
         "avatar": current_speaker.avatar,
         "short_name": current_speaker.short_name,
+        "short_name_lang": short_name_lang,
         "mission_name": mission_name,
         "MISSIONS_STATIC_URL": settings.MISSIONS_STATIC_URL,
     }

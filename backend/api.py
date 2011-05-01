@@ -392,8 +392,11 @@ class Character(object):
         if bio is not None:
             bio = bio.decode('utf-8')
         
+        self.identifier_lang      = data.get('identifier_lang', None)
         self.name                 = data.get('name', self.identifier.encode('utf-8')).decode('utf-8')
+        self.name_lang            = data.get('name_lang', None)
         self.short_name           = data.get('short_name', self.identifier.encode('utf-8')).decode('utf-8')
+        self.short_name_lang      = data.get('short_name_lang', None)
         self.role                 = data.get('role', 'other')
         self.mission_position     = data.get('mission_position', '')
         self.avatar               = data.get('avatar', 'blank_avatar_48.png')

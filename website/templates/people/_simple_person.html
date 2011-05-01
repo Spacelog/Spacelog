@@ -6,7 +6,7 @@
     <img src="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/people/{{ person.photo }}" alt=""
          width="{{ person.photo_width }}" height="{{ person.photo_height }}">
     {% endif %}
-    <em>{{ person.name }}</em>
+    <em{% if person.name_lang %} lang="{{ person.name_lang }}"{% endif %}>{{ person.name }}</em>
     {{ person.mission_position }}
   </h3>
 

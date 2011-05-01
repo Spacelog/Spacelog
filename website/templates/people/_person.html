@@ -7,7 +7,7 @@
       <img src="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/people/{{ person.photo }}" alt=""
          width="{{ person.photo_width }}" height="{{ person.photo_height }}">
     {% endif %}
-    <em>{{ person.name }}</em>
+    <em{% if person.name_lang %} lang="{{ person.name_lang }}"{% endif %}>{{ person.name }}</em>
     {{ person.mission_position }}
   </h3>
 
@@ -23,7 +23,7 @@
   </p>
   
   {% if person.quotable_log_line %}
-  <h4>{{ person.short_name }} in words</h4>
+  <h4><span{% if person.short_name_lang %} lang="{{ person.short_name_lang }}"{% endif %}>{{ person.short_name }}</span> in words</h4>
   
   {% if person.quotable_log_line %}
   <div class="quote">
@@ -35,7 +35,7 @@
       {% endfor %}
     </blockquote>
     <cite>
-      <a href="{% selection_url person.quotable_log_line.timestamp %}">See this quote <span>by {{ person.short_name }}</span> in the transcript</a>
+      <a href="{% selection_url person.quotable_log_line.timestamp %}">See this quote <span>by <span{% if person.short_name_lang %} lang="{{ person.short_name_lang }}"{% endif %}>{{ person.short_name }}</span></span> in the transcript</a>
     </cite>
   </div>
   {% endif %}

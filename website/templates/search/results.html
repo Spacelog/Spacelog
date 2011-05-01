@@ -23,10 +23,10 @@
                     {% avatar_and_name log_line.speaker mission.name log_line.timestamp %}
                     said
                     <a href="{% selection_url_in_transcript log_line.timestamp log_line.transcript_name %}">
-                        <q>{{ log_line.title|safe }}</q>
+                        <q{% if log_line.lang %} lang="{{ log_line.lang }}"{% endif %}>{{ log_line.title|safe }}</q>
                     </a>
                 </h2>
-                <blockquote cite="{% selection_url_in_transcript log_line.timestamp log_line.transcript_name %}"><p>{{ log_line.summary }}</p></blockquote>
+                <blockquote cite="{% selection_url_in_transcript log_line.timestamp log_line.transcript_name %}"{% if log_line.lang %} lang="{{ log_line.lang }}"{% endif %}><p>{{ log_line.summary }}</p></blockquote>
                 <dl>
                     <dt>Timestamp</dt>
                     <dd>

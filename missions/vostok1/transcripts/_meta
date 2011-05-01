@@ -76,6 +76,9 @@
     ],
     "characters": {
         "Заря 1": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "it would probably be helpful to describe the different comms stations in this fashion and where they were to give an idea of how they ran the mission; not exposing until we can do all of them helpfully, maybe as mission-ops-title role",
             "role": "other",
             "name": "Mission control",
@@ -83,6 +86,9 @@
             "avatar": "person.png"
         },
         "Заря 1 (Быков)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Bykov",
             "role": "other",
             "name": "Быков",
@@ -91,6 +97,9 @@
         },
 
         "Заря 1 (Галай)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Galaj",
             "role": "other",
             "name": "Галай",
@@ -99,6 +108,9 @@
         },
 
         "Заря 1 (Руднев)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Rudnev",
             "role": "other",
             "name": "Руднев",
@@ -107,6 +119,9 @@
         },
 
         "Заря 1 (Каманин)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Kamanin",
             "role": "mission-ops-title",
             "mission_position": "Head of Cosmonaut Training",
@@ -121,6 +136,9 @@
         },
 
         "Заря 1 (Королев)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Korolev",
             "role": "mission-ops-title",
             "mission_position": "Chief Designer",
@@ -136,6 +154,9 @@
         },
 
         "Заря 1 (Попович)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Popovich (cosmonaut)",
             "role": "other",
             "name": "Попович",
@@ -144,6 +165,9 @@
         },
 
         "Заря 2 (Титарев)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Titarev",
             "role": "other",
             "name": "Титарев",
@@ -152,6 +176,9 @@
         },
 
         "Заря 2 (Селезнев)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Seleznev",
             "role": "other",
             "name": "Селезнев",
@@ -160,6 +187,9 @@
         },
 
         "Весна (Кадушкин)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Kadushkin",
             "role": "other",
             "name": "Кадушкин",
@@ -168,6 +198,9 @@
         },
 
         "Весна (Хорошилов)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Horoshilov",
             "role": "other",
             "name": "Хорошилов",
@@ -176,6 +209,9 @@
         },
 
         "Заря 3 (Карпенко)": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Karpenko",
             "role": "other",
             "name": "Карпенко",
@@ -183,6 +219,9 @@
             "avatar": "person.png"
         },
         "Кедр": {
+            "identifier_lang": "ru",
+            "name_lang": "ru",
+            "short_name_lang": "ru",
             "comment": "Gagarin",
             "role": "astronaut",
             "mission_position": "Cosmonaut",
