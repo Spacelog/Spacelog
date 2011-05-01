@@ -40,4 +40,10 @@
   </div>
   {% endif %}
   {% endif %}
+  
+    {% if person.url %}
+  <p>
+    <a href="{{ person.url }}">read more about {{ person.short_name }} on {{ person.urlsite }}</a>
+  </p>
+  {% endif %}
 </div>

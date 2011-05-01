@@ -1,5 +1,6 @@
 import datetime
 import backend.util
+from urlparse import urlparse
 try:
     import json
 except ImportError:
@@ -401,6 +402,7 @@ class Character(object):
         self.mission_position     = data.get('mission_position', '')
         self.avatar               = data.get('avatar', 'blank_avatar_48.png')
         self.bio                  = bio
+        self.url                  = data.get('url', None)
         self.photo                = data.get('photo', None)
         self.photo_width          = data.get('photo_width', None)
         self.photo_height         = data.get('photo_height', None)
@@ -416,6 +418,12 @@ class Character(object):
             return self.precomputed_slug
         from django.template.defaultfilters import slugify
         return slugify(self.short_name)
+
+    @property
+    def urlsite(self):
+        if self.url is not None:
+            return urlparse(self.url).netloc
+        return None
 
     def quotable_log_line(self):
         if not self.quotable_log_line_id:
