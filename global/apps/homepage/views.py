@@ -9,23 +9,23 @@ from backend.api import Mission
 AFFILIATE_CODES = {'us': 'spacelog-20', 'uk': 'spacelog-21'}
 
 READING_LISTS = [
-        ("By astronauts and cosmonauts",
-            [
-                ("Deke!",           "Deke Slayton with Michael Cassutt",    "031285918X"),
-                ("We Seven",        "The Mercury Astronauts",               "1439181039"),
-                ("We Have Capture", "Tom Stafford with Michael Cassutt",    "1588341011"),
-                ("Two Sides of the Moon", "David Scott and Alexei Leonov",  "0312308663"),
-            ]),
-        ("By other principals",
-            [
-                ("Flight",          "Chris Kraft",                          "B000EXYZR2"),
-                ("Project Mars: A Technical Tale", "Wernher von Braun",     "0973820330"),
-            ]),
-        ("Other books",
-            [
-                ("Full Moon",       "Michael Light",                        "0375406344"),
-            ])
-            ]
+    ("By astronauts and cosmonauts",
+        [
+            ("Deke!",           "Deke Slayton with Michael Cassutt",    "031285918X"),
+            ("We Seven",        "The Mercury Astronauts",               "1439181039"),
+            ("We Have Capture", "Tom Stafford with Michael Cassutt",    "1588341011"),
+            ("Two Sides of the Moon", "David Scott and Alexei Leonov",  "0312308663"),
+        ]),
+    ("By other principals",
+        [
+            ("Flight",          "Chris Kraft",                          "B000EXYZR2"),
+            ("Project Mars: A Technical Tale", "Wernher von Braun",     "0973820330"),
+        ]),
+    ("Other books",
+        [
+            ("Full Moon",       "Michael Light",                        "0375406344"),
+        ])
+]
 
 Thing = collections.namedtuple("Thing", [ 'quote', 'url', 'source', 'date' ])
 NICE_THINGS = [
