@@ -28,7 +28,7 @@
 {% endif %}
 
 {% if missions|featured:"False" %}
-<h2>All Missions</h2>
+<h2>All Missions <span>(in chronological order)</span></h2>
 <ul class="all">
 {% for mission in missions %}
   <li>{% include "homepage/_mission.html" %}</li>
