@@ -55,12 +55,17 @@ def _get_amazon_url(country_code, asin):
             (domain, quote(url, safe=''), code)
     return link_string
 
+def _get_image_url(asin):
+    return "http://images.amazon.com/images/P/%(asin)s.01.THUMBZZZ.jpg" % {
+        'asin': asin,
+    }
+
 def _get_reading_list(country_code):
     reading_list = []
     for category, books in READING_LISTS:
         books_new = []
         for title, author, asin in books:
-            books_new.append((title, author, _get_amazon_url(country_code, asin)))
+            books_new.append((title, author, _get_amazon_url(country_code, asin), _get_image_url(asin)))
         reading_list.append((category, books_new))
     return reading_list
 
