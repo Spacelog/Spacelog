@@ -1,6 +1,6 @@
 {
     "name": "a13",
-    "featured": true,
+    "featured": false,
     "incomplete": false,
     "subdomains": ["apollo13", "a13"],
     "copy": {
