@@ -42,11 +42,7 @@ a:active {
     padding:                10px 0 14px;
 }
 #cta {
-    background:             transparent
-                            url(../img/ft-cta.png)
-                            no-repeat
-                            left center;
-    padding:                14px 0 0 27px;
+    padding-top:            14px;
 }
 #cta a {
     font-weight:            bold;
