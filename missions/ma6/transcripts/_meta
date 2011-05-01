@@ -8,6 +8,7 @@
         "upper_title": "Mercury",
         "lower_title": "6",
         "description": "The 1962 Mercury mission that made pilot John Glenn the first American to reach Earth orbit, with three orbits before re-entry.",
+        "summary": "First American to reach earth orbit",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "cleaners": [
             "David Brownlee",

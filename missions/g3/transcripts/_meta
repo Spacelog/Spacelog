@@ -8,6 +8,7 @@
         "upper_title": "Gemini",
         "lower_title": "3",
         "description": "The mission that performed the first orbital maneuvers by a manned spacecraft, and which was the first manned flight of the Gemini spacecraft.",
+        "summary": "First Gemini mission",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "cleaners": [
           "George Brocklehurst",

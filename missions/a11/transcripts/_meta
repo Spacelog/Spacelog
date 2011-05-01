@@ -8,6 +8,7 @@
         "upper_title": "Apollo",
         "lower_title": "11",
         "description": "The historic 1969 mission where Neil Armstrong and Buzz Aldrin became the first men to walk on the moon.",
+        "summary": "First person to walk on the moon",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "cleaners": [
             "George Brocklehurst",

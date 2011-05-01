@@ -10,7 +10,8 @@
         "title": "Vostok 1",
         "upper_title": "VOSTOK",
         "lower_title": "1",
-        "description": "The first human space flight to orbit the Earth.",
+        "description": "Yuri Gagarin becomes the first man in history to go to space, with a single orbit of the Earth. Launched by the Soviet Space program, Vostok 1 was a significant milestone in the space race.",
+        "summary": "The first human space flight",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur. (Currently very limited and only in Russian; we'd appreciate any help in improving both our coverage and in providing English explanations!)",
         "cleaners": [
             "James Aylett"

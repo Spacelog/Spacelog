@@ -8,6 +8,7 @@
         "upper_title": "Gemini",
         "lower_title": "4",
         "description": "The 1965 Gemini mission that made Ed White the first American to perform a spacewalk.",
+        "summary": "First US extra-vehicular acitivity",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "cleaners": [
             "Greg Roodt"
