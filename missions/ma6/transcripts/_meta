@@ -28,6 +28,9 @@
     },
     "main_transcript": "ma6/TEC",
     "media_transcript": "ma6/MEDIA",
+    "transcript_pages": {
+        "ma6/TEC": 202
+    },
     "utc_launch_time": -248087541,
     "acts" : [
         {
