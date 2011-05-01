@@ -3,6 +3,7 @@ from django.shortcuts import render_to_response
 from django.template import RequestContext
 from django.views.decorators.cache import cache_control
 from urllib import quote
+import random
 import collections
 from backend.api import Mission
 
@@ -83,7 +84,8 @@ def homepage(request):
         'homepage/homepage.html',
         {
             'missions': missions,
-            'missions_coming_soon': missions_coming_soon
+            'missions_coming_soon': missions_coming_soon,
+            'quote': random.choice(NICE_THINGS),
         },
         context_instance = RequestContext(request),
     )
