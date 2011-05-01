@@ -87,6 +87,7 @@
 .content-page .secondary-content {
     float:                  left;
     width:                  300px;
+    color:                  #888;
 }
 .content-page .secondary-content h1 {
     font-size:              32px;
