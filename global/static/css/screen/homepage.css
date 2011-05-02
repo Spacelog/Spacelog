@@ -99,21 +99,22 @@
 }
 .homepage .all li {
     border-bottom:          1px solid transparent;
-    padding:                0 10px;
+    padding:                0 10px 0 48px;
     margin-top:             20px;
+    width:                  262px;
 }
 .homepage .all h3 {
     position:               relative;
 }
 .homepage .all img {
     float:                  left;
-    margin-right:           8px;
+    margin-left:            -48px;
 }
 .homepage .all li:nth-child( 3n ) {
     padding-right:           0;
 }
 .homepage .all li:nth-child( 3n+1 ) {
     margin-left:            10px;
-    padding-left:           0;
+/*    padding-left:           0;*/
     clear:                  left;
 }
