@@ -309,6 +309,19 @@ class TranscriptIndexer(object):
                     )
             # Increment the number of log lines we've done
             current_page_lines += len(chunk['lines'])
+        pages_set = self.redis_conn.hexists(
+            "pages:%s" % self.mission_name,
+            self.transcript_name
+        )
+        if not pages_set and current_transcript_page:
+            print "%s original pages: %d" % (
+                self.transcript_name, current_transcript_page
+            )
+            self.redis_conn.hset(
+                "pages:%s" % self.mission_name, 
+                self.transcript_name,
+                current_transcript_page
+            )
 
 class MetaIndexer(object):
     """
@@ -352,6 +365,7 @@ class MetaIndexer(object):
         # TODO: Default to highest _page from transcript if we don't have this
         transcript_pages = meta.get( 'transcript_pages' )
         if transcript_pages:
+            print "Setting original pagecounts from _meta"
             self.redis_conn.hmset(
                 "pages:%s" % self.mission_name,
                 transcript_pages
