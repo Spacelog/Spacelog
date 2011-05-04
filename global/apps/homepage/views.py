@@ -4,7 +4,6 @@ from django.template import RequestContext
 from django.views.decorators.cache import cache_control
 from urllib import quote
 import random
-import collections
 from backend.api import Mission
 
 AFFILIATE_CODES = {'us': 'spacelog-20', 'uk': 'spacelog-21'}
@@ -28,7 +27,14 @@ READING_LISTS = [
         ])
 ]
 
-Thing = collections.namedtuple("Thing", [ 'quote', 'snippet', 'url', 'source', 'date' ])
+class Thing:
+    def __init__(self, quote, snippet, url, source, date):
+        self.quote = quote
+        self.snippet = snippet
+        self.url = url
+        self.source = source
+        self.date = date
+
 NICE_THINGS = [
     Thing(
         "A must-visit site for space enthusiasts.", 
