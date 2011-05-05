@@ -45,7 +45,7 @@ NICE_THINGS = [
     Thing(
         "Spacelog is awesome.", 
         "Spacelog is awesome", 
-        "http://www.rockpapershotgun.com/2010/12/05/the-sunday-papers-148/", "Rock Paper, Shotgun", "5 Dec, 2010",
+        "http://www.rockpapershotgun.com/2010/12/05/the-sunday-papers-148/", "Rock, Paper, Shotgun", "5 Dec, 2010",
     ),
 
     Thing(
