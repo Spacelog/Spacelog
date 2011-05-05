@@ -1,6 +1,6 @@
 {
     "name": "g3",
-    "featured": false,
+    "featured": true,
     "incomplete": false,
     "subdomains": ["gemini3", "g3"],
     "copy": {
