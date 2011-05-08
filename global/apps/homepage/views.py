@@ -37,6 +37,13 @@ class Thing:
 
 NICE_THINGS = [
     Thing(
+        "Seriously cool.",
+        "Seriously cool",
+        "http://techcrunch.com/2011/05/07/did-devfort-just-hand-over-astronaut-listening-data-to-the-www/",
+        "TechCrunch",
+        "7 May, 2011",
+    ),
+    Thing(
         "A must-visit site for space enthusiasts.", 
         "Must-visit for space enthusiasts", 
         "http://www.komando.com/coolsites/index.aspx?id=10587", "Kim Komando Cool Site of the Day",  "11 Apr, 2011",
