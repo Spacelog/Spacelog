@@ -242,7 +242,14 @@ Artemis.LoadMoreButtonView = Backbone.View.extend({
         var a = this.el.children('a');
         if (a.size()) {
             this.elLast = this.el.clone();
-            $.getJSON(a.attr('href')+'?json', this.loadMoreCallback);
+            jQuery.ajax({
+                url:        a.attr('href')+'?json',
+                dataType:   'json',
+                success:    this.loadMoreCallback,
+                error:      function(jqXHR, textStatus, errorThrown) {
+                    window.location = a.attr('href');
+                }
+            });
             _gaq.push(['_trackPageview', a.attr('href')]);
             Artemis.replaceWithSpinner(a);
         }
