@@ -195,6 +195,8 @@ class PageView(TranscriptView):
             permalink_fragment = '#log-line-%s' % log_lines[0].timestamp
         
         return {
+            # HACK: Force request into context. Not sure why it's not here.
+            'request': self.request,
             'mission_name': self.request.mission.name,
             'mission_main_transcript': self.request.mission.main_transcript,
             'transcript_name': self.get_transcript_name(),
@@ -302,8 +304,6 @@ class RangeView(PageView):
     def get_context_data(self, start=None, end=None, transcript=None):
         data = super(RangeView, self).get_context_data(start, end, transcript)
         data.update({
-            # HACK: Force request into context. Not sure why it's not here.
-            'request': self.request,
             "selection_start_timestamp": self.parse_mission_time(start),
             "selection_end_timestamp": self.parse_mission_time(start if end is None else end),
         })
