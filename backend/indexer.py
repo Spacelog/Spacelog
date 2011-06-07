@@ -637,6 +637,13 @@ if __name__ == "__main__":
                     redis_conn.delete(k.decode('utf-8'))
                 for k in redis_conn.keys("*:%s" % filename):
                     redis_conn.delete(k.decode('utf-8'))
+                for k in redis_conn.keys("speaker:*"):
+                    for v in redis_conn.smembers(k.decode('utf-8')):
+                        if v.startswith("%s/" % filename):
+                            redis_conn.srem(k, v)
+                for k in redis_conn.keys("subdomain:*"):
+                    if redis_conn.get(k) == filename:
+                        redis_conn.delete(k)
             idx = MissionIndexer(redis_conn, filename, os.path.join(path, "transcripts")) 
             idx.index()
     search_db.flush()
