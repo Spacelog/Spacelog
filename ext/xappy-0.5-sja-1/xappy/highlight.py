@@ -221,6 +221,10 @@ class Highlighter(object):
         >>> tags = ('[[', ']]')
         >>> hl.highlight('The cat went Dogging; but was <i>dog tired</i>.', q, tags)
         'The [[cat]] went [[Dogging]]; but was <i>[[dog]] tired</i>.'
+        >>> q = qp.parse_query('cat went')
+        >>> tags = ('[[', ']]')
+        >>> hl.highlight('The cat went Dogging; but was <i>dog tired</i>.', q, tags)
+        'The [[cat went]] Dogging; but was <i>dog tired</i>.'
 
         """
         words = self._split_text(text, strip_tags)
@@ -234,13 +238,43 @@ class Highlighter(object):
         `terms` is the list of stemmed words to look for.
 
         """
+        out = []
+        interim = []
+        
+        def flush_interim():
+            # interim should be wrapped in hl[0], hl[1] except
+            # that pure whitespace at the end of interim should
+            # be flushed to out *after* the hl[1]
+            space = []
+            highlighted = interim[:]
+            while highlighted[-1].isspace():
+                space = [ highlighted[-1] ] + space
+                highlighted = highlighted[:-1]
+            highlighted[0] = hl[0] + highlighted[0]
+            highlighted[-1] = highlighted[-1] + hl[1]
+            out.extend(highlighted)
+            out.extend(space)
+            return []
+        
         for i, w in enumerate(words):
-            # HACK - more forgiving about stemmed terms 
-            wl = w.lower()
-            if wl in terms or self.stem (wl) in terms:
-                words[i] = ''.join((hl[0], w, hl[1]))
+            if w.isspace():
+                if len(interim)>0:
+                    interim.append(w)
+                else:
+                    out.append(w)
+            else:
+                # HACK - more forgiving about stemmed terms 
+                wl = w.lower()
+                if wl in terms or self.stem(wl) in terms:
+                    interim.append(w)
+                else:
+                    if len(interim) > 0:
+                        interim = flush_interim()
+                    out.append(w)
+        if len(interim) > 0:
+            interim = flush_interim()
 
-        return ''.join(words)
+        return ''.join(out)
 
 
 __test__ = {
