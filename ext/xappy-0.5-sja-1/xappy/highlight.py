@@ -35,7 +35,18 @@ class Highlighter(object):
     """
 
     # split string into words, spaces, punctuation and markup tags
-    _split_re = re.compile(r'<\w+[^>]*>|</\w+>|[\w\']+|\s+|[^\w\'\s<>/]+')
+    _split_re = re.compile(r'<\w+[^>]*>|</\w+>|[\w\'&]+|\s+|[^\w\'\s<>/]+')
+    
+    # which means:
+    # < wordchars non-wordchars >
+    #   OR
+    # </ wordchars >
+    #   OR
+    # wordchars and apostrophes and ampersands
+    #   OR
+    # whitespace
+    #   OR
+    # other things
 
     def __init__(self, language_code='en', stemmer=None):
         """Create a new highlighter for the specified language.
@@ -85,10 +96,14 @@ class Highlighter(object):
         h
         >>> print hl._strip_prefix('XA')
         <BLANKLINE>
+        >>> print hl._strip_prefix('900')
+        900
+        >>> print hl._strip_prefix('XA900')
+        900
 
         """
         for p in xrange(len(term)):
-            if term[p].islower():
+            if not term[p].isupper():
                 return term[p:]
             elif term[p] == 'R':
                 return term[p+1:]
