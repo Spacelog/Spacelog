@@ -748,6 +748,7 @@ class SearchConnection(object):
         """
         self._index = _log(_xapian.Database, indexpath)
         self._indexpath = indexpath
+        self._weight = _xapian.BM25Weight()
 
         # Read the actions.
         self._load_config()
@@ -756,6 +757,15 @@ class SearchConnection(object):
 
     def __del__(self):
         self.close()
+
+    def set_weighting_scheme(self, weight):
+        """
+        Set the connection's default weighting scheme, which is used on
+        every search.
+
+        Should be a subclass of xapian.Weight.
+        """
+        self._weight = weight
 
     def append_close_handler(self, handler, userdata=None):
         """Append a callback to the list of close handlers.
@@ -1278,7 +1288,7 @@ class SearchConnection(object):
 
         return _log(_xapian.Query)
 
-    def query_similar(self, ids, allow=None, deny=None, simterms=10):
+    def query_similar(self, ids, allow=None, deny=None, simterms=10, weight=None):
         """Get a query which returns documents which are similar to others.
 
         The list of document IDs to base the similarity search on is given in
@@ -1303,15 +1313,16 @@ class SearchConnection(object):
         been indexed for freetext searching will be used for the similarity
         measure - all other fields will always be ignored for this purpose.
 
+        The `weight` parameter overrides the connection's default weighting.
         """
-        eterms, prefixes = self._get_eterms(ids, allow, deny, simterms)
+        eterms, prefixes = self._get_eterms(ids, allow, deny, simterms, weight)
 
         # Use the "elite set" operator, which chooses the terms with the
         # highest query weight to use.
         q = _log(_xapian.Query, _xapian.Query.OP_ELITE_SET, eterms, simterms)
         return q
 
-    def significant_terms(self, ids, maxterms=10, allow=None, deny=None):
+    def significant_terms(self, ids, maxterms=10, allow=None, deny=None, weight=None):
         """Get a set of "significant" terms for a document, or documents.
 
         This has a similar interface to query_similar(): it takes a list of
@@ -1341,8 +1352,9 @@ class SearchConnection(object):
         The maximum number of terms to return may be specified by the maxterms
         parameter.
 
+        The `weight` parameter overrides the connection's default weighting.
         """
-        eterms, prefixes = self._get_eterms(ids, allow, deny, maxterms)
+        eterms, prefixes = self._get_eterms(ids, allow, deny, maxterms, weight)
         terms = []
         for term in eterms:
             pos = 0
@@ -1355,7 +1367,7 @@ class SearchConnection(object):
             terms.append((field, value))
         return terms
 
-    def _get_eterms(self, ids, allow, deny, simterms):
+    def _get_eterms(self, ids, allow, deny, simterms, weight=None):
         """Get a set of terms for an expand
 
         """
@@ -1391,7 +1403,7 @@ class SearchConnection(object):
         # Repeat the expand until we don't get a DatabaseModifiedError
         while True:
             try:
-                eterms = self._perform_expand(ids, prefixes, simterms)
+                eterms = self._perform_expand(ids, prefixes, simterms, weight)
                 break;
             except _xapian.DatabaseModifiedError, e:
                 self.reopen()
@@ -1412,17 +1424,20 @@ class SearchConnection(object):
                 return True
             return False
 
-    def _perform_expand(self, ids, prefixes, simterms):
+    def _perform_expand(self, ids, prefixes, simterms, weight=None):
         """Perform an expand operation to get the terms for a similarity
         search, given a set of ids (and a set of prefixes to restrict the
         similarity operation to).
-
         """
         # Set idquery to be a query which returns the documents listed in
         # "ids".
         idquery = _log(_xapian.Query, _xapian.Query.OP_OR, ['Q' + id for id in ids])
 
         enq = _log(_xapian.Enquire, self._index)
+        if weight is not None:
+            enq.set_weighting_scheme(weight)
+        else:
+            enq.set_weighting_scheme(self._weight)
         enq.set_query(idquery)
         rset = _log(_xapian.RSet)
         for id in ids:
@@ -1565,7 +1580,7 @@ class SearchConnection(object):
                gettags=None,
                getfacets=None, allowfacets=None, denyfacets=None, usesubfacets=None,
                percentcutoff=None, weightcutoff=None,
-               query_type=None):
+               query_type=None, weight=None):
         """Perform a search, for documents matching a query.
 
         - `query` is the query to perform.
@@ -1606,6 +1621,7 @@ class SearchConnection(object):
           performed. If not None, the value is used to influence which facets
           are be returned by the get_suggested_facets() function. If the
           value of `getfacets` is False, it has no effect.
+        - `weight` overrides the connection's xapian.Weight
 
         If neither 'allowfacets' or 'denyfacets' is specified, all fields
         holding facets will be considered (but see 'usesubfacets').
@@ -1627,6 +1643,10 @@ class SearchConnection(object):
             checkatleast = self._index.get_doccount()
 
         enq = _log(_xapian.Enquire, self._index)
+        if weight is not None:
+            enq.set_weighting_scheme(weight)
+        else:
+            enq.set_weighting_scheme(self._weight)
         enq.set_query(query)
 
         if sortby is not None:
