@@ -11,6 +11,7 @@
         "description": "The first human space flight to leave Earth orbit.",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "cleaners": [
+            "George Brocklehurst",
             "Greg Roodt",
             "Jeremy Weatherford"
         ],

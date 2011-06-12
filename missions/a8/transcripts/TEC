@@ -2,7 +2,7 @@
 [00:00:00:01]
 _page : 1
 _tape : Tape 1
-CDR: Lift up. The clock is running.
+CDR: Lift off. The clock is running.
 
 [00:00:00:04]
 CC: Roger. Clock.
@@ -242,7 +242,9 @@ CDR: AOS is MANUAL.
 
 [00:00:12:16]
 CDR: ... is OFF.
-     00 00.12 19 CMP Houston, we're recording altitude HA 1026,
+
+[00 00.12 19]
+CMP: Houston, we're recording altitude HA 1026,
      HP 96.8, RVI 25 560.
 
 [00:00:12:32]
@@ -261,8 +263,8 @@ CC: Apollo 8, Houston. We are rewinding the tape
      recorder at this time. Over.
 
 [00:00:13:10]
+_extra : END OF TAPE
 CDR: Roger.
-     END OF TAPE
 
 [00:00:13:37]
 _page : 1
@@ -491,7 +493,7 @@ CC: Apollo 8, Houston. Loud and clear. Over.
 LMP: Houston, Apollo 8. How do you read?
 
 [00:01:01:20]
-CC: Reading you loud and clear, Bill. Row met
+CC: Reading you loud and clear, Bill. How me?
 
 [00:01:01:55]
 LMP: Houston, Apollo 8. Over.
@@ -833,6 +835,7 @@ CC: Very good. That's all correct, and I have a
 CMP: Ready to copy.
 
 [00:01:48:17]
+_extra : END OF TAPE
 _extra : CANARY (REV 2)
 CC: Okay. Your computer PAD is in and verified.
      You can go to BLOCK, and we're going to have
@@ -844,7 +847,6 @@ CC: Okay. Your computer PAD is in and verified.
      attitude is 199 degrees, and I don't believe
      you've got time to read that back. We'll see you
      over Canaries at 1:50 GET. Adios.
-     END OF TAPE
 
 [00:01:50:30]
 _page : 1
@@ -1024,8 +1026,8 @@ CC: Roger. We will have LOS in about 30 seconds,
 
 [00:02:31:38]
 _extra : ARIA 1 (REV 2)
+_extra : END OF TAPE
 CDR: Roger.
-     END OF TAPE
 
 [00:02:38:21]
 _page : 1
@@ -1064,7 +1066,7 @@ CDR: Roger. Understand. Our O<sub>2</sub> flow is a little
 CC: Roger. Understand.
 
 [00:02:45:36]
-CC: Your O<sub>2</sub> flow looks good down here.
+CC: Your He flow looks good down here.
 
 [00:02:45:43]
 CDR: Thank you.
@@ -1232,11 +1234,9 @@ LMP: And would you keep a special eye on the purge
 CC: Roger, Bill. We'll do that for you.
 
 [00:03:03:31]
-_extra : NOTE: Subsequent to TLI, there is continuous acquisition
+_extra : NOTE: Subsequent to TLI, there is continuous acquisition among Goldstone (GDS), Madrid (MAD), and Honeysuckle (HSK).
+_extra : END OF TAPE
 LMP: Thank you.
-     END OF TAPE
-     among Goldstone (GDS), Madrid (MAD), and Honeysuckle
-     (HSK).
 
 [00:03:11:08]
 _page : 1
@@ -1572,13 +1572,13 @@ CC: Good, 03:40 and a foot and a half - feet per second.
      Right?
 
 [00:03:44:15]
-CDR: Roger. About that -
+CDR: Roger. About that --
 
 [00:03:44:16]
 CC: Okay.
 
 [00:03:44:18]
-CDR: - We have the - Mike, we have the exact
+CDR: -- We have the - Mike, we have the exact
      callout here for you and a burn status report.
 
 [00:03:44:22]
@@ -2336,13 +2336,16 @@ CDR: Well, we are as close to being radially upward
      as we can determine.
 
 [00:04:43:36]
+_extra : END OF TAPE
 CC: Roger.
-     END OF TAPE
-     -- -- -- -- CC Apollo 8, Houston. Are you going to use P47 to
+
+CC: Apollo 8, Houston. Are you going to use P47 to
      monitor the burn?
-     -- -- -- -- CMP Yes, Jim, that's Roger. We are putting it in
+
+CMP: Yes, Jim, that's Roger. We are putting it in
      right now.
-     -- -- -- -- CC Thank you.
+
+CC: Thank you.
 
 [00:04:45:05]
 _page : 1
@@ -2688,7 +2691,7 @@ CMP: Do you want us to proceed with this, or should
      we just leave them alone?
 
 [00:05:22:32]
-CC: Apollo 8, my again.
+CC: Apollo 8, say again.
 
 [00:05:22:34]
 CMP: Do you want us to accept these, or should we
@@ -2974,7 +2977,9 @@ LMP: Houston, Apollo 8. Over.
 
 [00:05:51:00]
 CC: Apollo 8, Houston. Go ahead.
-     00 05 5103 LMP Roger. We'll hold up on the high-gain check
+
+[00:05:51:03]
+LMP: Roger. We'll hold up on the high-gain check
      until we get out of P23.
 
 [00:05:51:07]
@@ -3162,8 +3167,8 @@ CC: Understand. And you are maneuvering to PTC.
 CDR: Well, I would prefer to do that, but we will --
 
 [00:06:17:14]
+_extra: END OF TAPE
 CC: Okay. Stand by just one.
-     END OF TAPE
 
 [00:06:22:12]
 _page : 1
@@ -3267,7 +3272,7 @@ CDR: Houston, Apollo 8.
 CC: Apollo 8, Houston. Did you call?
 
 [00:06:32:59]
-CDR: Roger. Thus is the high-gain antenna on
+CDR: Roger. There is the high-gain antenna on
      wide auto.
 
 [00:06:33:04]
@@ -3278,7 +3283,7 @@ CC: Roger.
 CDR: Houston, Apollo 8.
 
 [00:06:35:24]
-CC: Go ahead,Apollo8.
+CC: Go ahead, Apollo 8.
 
 [00:06:35:26]
 CDR: Are you getting the results you want from our
@@ -3286,7 +3291,7 @@ CDR: Are you getting the results you want from our
 
 [00:06:35:45]
 CC: Apollo 8, Houston. Affirmative. We are
-     getting your data, and we are may have a beam width
+     getting your data, and we may have a beam width
      change, but stand by on that.
 
 [00:06:35:53]
@@ -3406,7 +3411,7 @@ CMP: Is due to the what did you say?
 
 [00:06:45:47]
 CC: The 7 hours on the P23 problem is due to the
-     feet that we want to get these sightings in
+     fact that we want to get these sightings in
      at a certain range. Over.
 
 [00:06:45:56]
@@ -3583,7 +3588,7 @@ CMP: Okay. Houston, Apollo 8. We've initiated the
 CC: Roger.
 
 [00:07:09:32]
-CC: Okay. Apollo 8,you can terminate the fans
+CC: Okay. Apollo 8, you can terminate the fans
      in the hydrogen, and we're ready to start on
      the oxygen tanks.
 
@@ -3688,8 +3693,8 @@ CDR: Roger. Do you want us to stop the integration
 CC: That is affirmative; VERB 96.
 
 [00:07:28:57]
+_extra: END OF TAPE
 CDR: Roger. Will do.
-     END OF TAPE
 
 [00:07:56:51]
 _page : 1
@@ -4032,8 +4037,8 @@ CC: Okay, Apollo 8. Looks like that ought to terminate
      the fuel cell purging.
 
 [00:09:21:16]
+_extra : END OF TAPE
 LMP: Roger.
-     END OF TAPE
 
 [00:09:44:40]
 _page : 1
@@ -4431,7 +4436,7 @@ CC: Roger. Will you check your up-telemetry switch
 CDR: Thank you. It's in BLOCK.
 
 [00:10:29:24]
-CC: Apollo 8,Houston.
+CC: Apollo 8, Houston.
 
 [00:10:29:27]
 CDR: Go ahead, Houston. Apollo 8.
@@ -4525,7 +4530,7 @@ CC: Apollo 8.
 CDR: This is 8. Go ahead.
 
 [00:10:43:20]
-CC: Go ahead, Houston. You were cut out.
+CDR: Go ahead, Houston. You were cut out.
 
 [00:10:43:22]
 CC: Okay, Apollo 8. All your systems are GO, and
@@ -4641,9 +4646,10 @@ CDR: Houston, Apollo 8. Do you want us to maneuver
 CC: Okay. Let's go PTC.
 
 [00:11:05:04]
+_extra: END OF TAPE
 CDR: And give us the angles, please.
-     END OF TAPE
-     -- -- -- -- CC Okay, Apollo 8. Let's do the same angles
+
+CC: Okay, Apollo 8. Let's do the same angles
      we had before: that's pitch 242 and yaw 20
      on the PTC attitude.
 
@@ -4748,7 +4754,7 @@ CC: Apollo 8, I would like you to dump the waste tank
      to 25 percent.
 
 [00:11:22:08]
-CDR: Copy.
+CDR: Okay.
 
 [00:11:27:07]
 LMP: Hey, we're dumping now, Houston.
@@ -4757,7 +4763,7 @@ LMP: Hey, we're dumping now, Houston.
 CC: Okay. Thank you.
 
 [00:11:27:12]
-LMP: We finally got some stare to see.
+LMP: We finally got some stars to see.
 
 [00:11:32:00]
 CC: Apollo 8, Houston.
@@ -4996,7 +5002,7 @@ LMP: Negative. I haven't gotten around to that. Stand
 [00:12:04:56]
 CC: Okay. There's no hurry on that. Just wondered
      if you had done it; we will check it against what
-     we've got on our nomogram.
+     we've got on our norma-gram.
 
 [00:12:05:17]
 LMP: I'm showing a SPS helium pressure, about 3570,
