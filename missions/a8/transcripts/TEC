@@ -5191,10 +5191,11 @@ CC: Okay. That's the option that you use with minimum
      time.
 
 [00:12:38:51]
+_extra : END OF TAPE
 CMP: Roger. What I'd like to do is check on our P37
      with your TLI maneuver update.
-     END OF TAPE
-     -- -- -- -- CC Okay, Apollo 8. We'd like to make sure that
+
+CC: Okay, Apollo 8. We'd like to make sure that
      we don't have a misunderstanding that this
      7900 feet per second is the DELTA-V. It's not
      associated with the high speed per feet work
@@ -5336,7 +5337,7 @@ LMP: Stand by.
 
 [00:12:52:20]
 LMP: Roger. Ready to copy. Could you give quad A,
-     B, C, end D in that order?
+     B, C, and D in that order?
 
 [00:12:52:24]
 CC: Okay. Will do. And I'll give you weights in
@@ -5499,7 +5500,7 @@ CC: That's correct, Apollo 8. And we'll have a couple
      going to be talking some more to you about the
      problem of looking at stars in the sextant and
      telescope. And what we'd like to do as soon as
-     the black team comes on the MOCR, while we have
+     the black team comes on the MOKR, while we have
      two teams here, we would like to get a rehash
      from you on exactly what you see and what you
      don't see and under what conditions, and see if
@@ -5897,11 +5898,11 @@ CC: Okay.
 
 [00:15:03:30]
 _page : 3
+_extra : END OF TAPE
 CC: Apollo 8, Houston. Sometime when it's convenient,
      get your BIOMED switch over to the right, and
      you don't need to answer; just pass it up
      to you.
-     END OF TAPE
 
 [00:16:00:27]
 _page : 1
@@ -6031,7 +6032,7 @@ CC: Apollo 8, this is Houston. Over.
 CC: Apollo 8, Apollo 8, Houston. Over.
 
 [00:17:16:58]
-CC: Apollo 8, Apollo 8,Houston. Go ahead.
+CC: Apollo 8, Apollo 8, Houston. Go ahead.
 
 [00:17:17:04]
 CMP: Roger. We are taking our time going to this
@@ -6055,8 +6056,8 @@ CMP: We have the center window - the round window
      opened.
 
 [00:17:18:04]
+_extra : END OF TAPE
 CC: Roger, 8. Copy.
-     END OF TAPE
 
 [00:17:24:15]
 _page : 1
