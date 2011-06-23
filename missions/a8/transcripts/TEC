@@ -6088,14 +6088,14 @@ CMP: Roger. Go ahead.
 [00:17:25:16]
 CC: This is as a result of your P23 calibration; the
      update follow: VERB 24, NOUN 01, ENTER 1354,
-     ENTER all balls, ENTER 21450 ENTER; comment:
+     ENTER all balls, ENTER 214 50 ENTER; comment:
      continue to mark on the horizon destination that
      you've used previously. Your marks are looking
      very good.
 
 [00:17:25:57]
 CMP: Roger. DELTA-H update as follows: VERB 24,
-     NOUN 01, ENTER 1354. ENTER all zeros. ENTER 21450
+     NOUN 01, ENTER 1354. ENTER all zeros. ENTER 214 50
      ENTER. Understand those are two octal numbers.
 
 [00:17:26:18]
@@ -6226,7 +6226,8 @@ CDR: Roger. Copy.
 CC: Roger.
 
 [00:18:22:15]
-_page : 14
+_tape : 14
+_page : 4
 CDR: Houston, Apollo 8.
 
 [00:18:22:18]
@@ -6370,8 +6371,8 @@ CMP: Roger.
 CC: Roger. Give us a call when you're complete.
 
 [00:18:53:30]
+_extra : END OF TAPE
 CDR: Roger.
-     END OF TAPE
 
 [00:19:02:33]
 _page : 1
@@ -6470,8 +6471,8 @@ CDR: The CDR got 5 hours of fitful sleep and rest,
      now.
 
 [00:19:33:36]
+_extra: END OF TAPE
 CC: Roger.
-     END OF TAPE
 
 [00:20:57:46]
 _page : 1
@@ -6488,7 +6489,7 @@ CC: Apollo 8, this is Houston. At 21 hours,
      begin an O<sub>2</sub> purge. Over.
 
 [00:20:58:10]
-CDR: Roger. Understand; terminate battery 8, start
+CDR: Roger. Understand; terminate battery B, start
      battery A, and an O<sub>2</sub> purge.
 
 [00:20:58:13]
@@ -6554,8 +6555,8 @@ CC: Apollo 8, this is Houston. We are showing your
      2 hours.
 
 [00:21:14:02]
+_extra : END OF TAPE
 CDR: Roger.
-     END OF TAPE
 
 [00:21:41:24]
 _page : 1
@@ -6728,8 +6729,8 @@ CC: Frank, the PU valve temperature is running
      we got here in this room.
 
 [00:23:42:29]
+_extra : END OF TAPE
 CDR: Roger.
-     END OF TAPE
 
 [00:23:47:21]
 _page : 1
