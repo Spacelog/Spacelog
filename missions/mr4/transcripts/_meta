@@ -1,0 +1,122 @@
+{
+    "name": "mr4",
+    "featured": false,
+    "incomplete": true,
+    "subdomains": ["mercury4"],
+    "copy": {
+        "title": "Mercury 4",
+        "upper_title": "Mercury",
+        "lower_title": "4",
+        "description": "...",
+        "summary": "...",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "based_on_header": "...",
+        "about_image": "...",
+        "cleaners": [
+            "Emily Carney"
+        ],
+        "about": "...",
+        "image_attributions": [
+        ],
+        "transcript_attributions": [
+        ],
+        "call_signs": "The Mercury capsule's callsign through the mission is Freedom 7 or just 7; the primary CAPCOM (capsule communicator) was Deke Slayton at the Cape. CARDFILE 23 (or just 23 or 2-3) was an aircraft assigned to assist communication during re-entry."
+    },
+    "main_transcript": "mr4/ATG",
+    "media_transcript": "mr4/MEDIA",
+    "utc_launch_time": "...",
+    "acts" : [
+        {
+            "title": "Placeholder",
+            "description": "...",
+            "range": ["-00:00:00:04", "00:00:06:00"],
+            "homepage": "act1.jpg",
+            "banner": "act1.jpg",
+            "banner_class": "blue"
+        }
+    ],
+    "key_scenes" : [
+    ],
+    "homepage_quotes": [
+    ],
+    "character_ordering": [
+        "P",
+        "ALAN_SHEPARD"
+    ],
+    "characters": {
+        "CC": {
+            "role": "other",
+            "name": "Capsule Communicator",
+            "short_name": "CAPCOM",
+            "bio": "In the Mercury missions, CAPCOM was the main person to communicate with the pilot.",
+            "avatar": "capcom_generic.jpg",
+            "shifts": [
+                [ "ALAN_SHEPARD", "00:00:00:00" ]
+            ]
+        },
+        "ALAN_SHEPARD": {
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
+            "name": "Alan Barlett Shepard, Jr.",
+            "short_name": "Alan Shepard",
+            "mission_position": "CAPCOM",
+            "bio": "US Navy pilot Alan Shepard became America's first man in space in Freedom 7 having been selected to be part of the first “Mercury 7” astronaut group in 1959. Shortly after his 1961 suborbital flight, he would be plagued with inner-ear problems which grounded him, although after undergoing surgery, Shepard was restored to flight status, and in 1971 would become the only Mercury 7 astronaut to walk on the moon.",
+            "photo": "alan_shepard.jpg",
+            "photo_width": 190,
+            "photo_height": 205,
+            "avatar": "alan_shepard.jpg"
+        },
+        "P": {
+          "role": "astronaut",
+          "name": "...",
+          "short_name": "Gus Grissom",
+          "mission_position": "Pilot",
+          "bio": "...",
+          "photo": "gus_grissom.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "gus_grissom.jpg"
+        },
+        "STONY": {
+          "role": "other",
+          "name": "Blockhouse Comm",
+          "short_name": "Stony",
+          "avatar": "..."
+        },
+        "CHASE1": {
+          "role": "other",
+          "name": "Chase 1",
+          "short_name": "Chase 1",
+          "avatar": "..."
+        },
+        "UKN": {
+          "role": "other",
+          "name": "Unknown",
+          "short_name": "Unknown",
+          "avatar": "..."
+        }
+    },
+    "shared_glossaries": ["space"],
+    "glossary": {
+        "ASCS": {
+            "summary": "Automatic Stabilization and Control System",
+            "type": "abbreviation"
+        },
+        "Capsep": {
+            "summary": "Capsule Separation",
+            "type": "abbreviation"
+        },
+        "FBW": {
+            "summary": "Fly By Wire",
+            "type": "abbreviation"
+        }, 
+        "RSCS": {
+            "summary": "Rate Stabilization and Control System",
+            "type": "abbreviation"
+        }, 
+        "MCC": {
+            "summary": "Mercury Control Center",
+            "type": "abbreviation"
+        }
+    }
+}
