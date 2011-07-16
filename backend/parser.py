@@ -50,7 +50,11 @@ class TranscriptParser(object):
                 try:
                     timestamp = int(line[1:].split("]")[0])
                 except ValueError:
-                    timestamp = timestamp_to_seconds(line[1:].split("]")[0])
+                    try:
+                        timestamp = timestamp_to_seconds(line[1:].split("]")[0])
+                    except ValueError:
+                        print "Error: invalid timestamp %s" % (line[1:], )
+                        raise
                 if current_chunk:
                     yield current_chunk
                 # Start a new log line item
