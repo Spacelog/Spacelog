@@ -89,7 +89,16 @@
             "photo": "capcom.jpg",
             "photo_width": 190,
             "photo_height": 205,
-            "avatar": "capcom_generic.jpg"
+            "avatar": "capcom_generic.jpg",
+            "locations": [
+                "notes for unpacking this into shifts later",
+                [ "cape", "Shepard" ],
+                [ "bermuda", "Grissom" ],
+                [ "backup pilot", "Carpenter", "ISTR that backup pilots were in the launch complex for MA launches, although this could be completely wrong" ],
+                [ "california (Point Arguello)", "Schirra" ],
+                [ "muchea", "Cooper" ],
+                "Deke was at the Cape with Shepard"
+            ]
         },
         "F": {
             "role": "astronaut",
