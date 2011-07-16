@@ -7,11 +7,10 @@
         "title": "Mercury 4",
         "upper_title": "Mercury",
         "lower_title": "4",
-        "description": "...",
-        "summary": "...",
+        "description": "",
+        "summary": "Second American manned mission",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
-        "based_on_header": "...",
-        "about_image": "...",
+        "based_on_header": "Based on the original audio recordings",
         "cleaners": [
             "Emily Carney"
         ],
@@ -19,12 +18,14 @@
         "image_attributions": [
         ],
         "transcript_attributions": [
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/mercury.htm", "title": "Mercury-Redstone 4 Results of the Second U.S. Manned Suborbital Space Flight" },
+            { "url": "http://www.archive.org/details/Mercury4", "title": "Audio recordings of Mercury-Redstone 4 mission" }
         ],
-        "call_signs": "The Mercury capsule's callsign through the mission is Freedom 7 or just 7; the primary CAPCOM (capsule communicator) was Deke Slayton at the Cape. CARDFILE 23 (or just 23 or 2-3) was an aircraft assigned to assist communication during re-entry."
+        "call_signs": "The Mercury capsule's callsign through the mission is Liberty Bell 7 or just 7; the primary CAPCOM (capsule communicator) was Deke Slayton at the Cape. CARDFILE 23 (or just 23 or 2-3) was an aircraft assigned to assist communication during re-entry."
     },
     "main_transcript": "mr4/ATG",
     "media_transcript": "mr4/MEDIA",
-    "utc_launch_time": "...",
+    "utc_launch_time": "1961-07-21T12:20:36",
     "acts" : [
         {
             "title": "Placeholder",
@@ -41,7 +42,8 @@
     ],
     "character_ordering": [
         "P",
-        "ALAN_SHEPARD"
+        "ALAN_SHEPARD",
+        "DEKE_SLAYTON"
     ],
     "characters": {
         "CC": {
@@ -60,18 +62,31 @@
             "name": "Alan Barlett Shepard, Jr.",
             "short_name": "Alan Shepard",
             "mission_position": "CAPCOM",
-            "bio": "US Navy pilot Alan Shepard became America's first man in space in Freedom 7 having been selected to be part of the first “Mercury 7” astronaut group in 1959. Shortly after his 1961 suborbital flight, he would be plagued with inner-ear problems which grounded him, although after undergoing surgery, Shepard was restored to flight status, and in 1971 would become the only Mercury 7 astronaut to walk on the moon.",
+            "bio": "Having become the first American in space in Freedom 7 earlier that year, US Navy pilot Alan Shepard served as Cape CAPCOM for the two subsequent Mercury flights, Gus Grissom's in July 1961 and John Glenn's first American in orbit in February 1962. Plagued with inner-ear problems which grounded him for most of the rest of the decade, Shepard was restored to flight status to become the only Mercury 7 astronaut to walk on the moon in 1971.",
             "photo": "alan_shepard.jpg",
             "photo_width": 190,
             "photo_height": 205,
             "avatar": "alan_shepard.jpg"
         },
+        "DEKE_SLAYTON": {
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
+            "short_name": "Deke Slayton",
+            "name": "Donald Kent Slayton",
+            "mission_position": "Blockhouse Comm",
+            "bio": "Air Force test pilot Donald “Deke” Slayton had also been selected as one of the “Mercury 7” astronauts in 1959. However, a heart murmur would lead to him being medically disqualified from flight status before Mercury-Atlas 7. He subsequently became the Director of Flight Crew Operations, and was known throughout NASA as “The Chief Astronaut”. In 1972, his flight status was restored, and in 1975 he made his only space flight on the Apollo-Soyuz Test Project.",
+            "photo": "deke_slayton.jpg",
+            "photo_width": 190,
+            "photo_height": 205,
+            "avatar": "deke_slayton.jpg"
+        },
         "P": {
           "role": "astronaut",
-          "name": "...",
+          "name": "Virgil Ivan Grissom",
           "short_name": "Gus Grissom",
           "mission_position": "Pilot",
-          "bio": "...",
+          "bio": "USAF combat veteran Gus Grissom was a fighter test pilot immediately prior to joining the NASA astronaut program. Following his Mercury flight he would be involved in the Gemini Program from the start, helping to design the flight control systems and commanding the first manned Gemini mission. He continued to work on the program until 1966 when he was selected to command the ill-fated Apollo 1 mission.",
+            "photo": "grissom.jpg",
           "photo": "gus_grissom.jpg",
           "photo_width": 190,
           "photo_height": 205,
@@ -81,7 +96,9 @@
           "role": "other",
           "name": "Blockhouse Comm",
           "short_name": "Stony",
-          "avatar": "..."
+          "shifts": [
+            [ "DEKE_SLAYTON", "00:00:00:00" ]
+          ]
         },
         "CHASE1": {
           "role": "other",
