@@ -134,6 +134,14 @@
         "MCC": {
             "summary": "Mercury Control Center",
             "type": "abbreviation"
+        },
+        "IP": {
+            "summary": "Impact Point",
+            "type": "abbreviation"
+        },
+        "TM": {
+            "summary": "Telemeter or Telemetry",
+            "type": "abbreviation"
         }
     }
 }
