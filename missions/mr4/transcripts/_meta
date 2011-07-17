@@ -38,7 +38,7 @@
         },
         {
             "title": "Space",
-            "description": "",
+            "description": "Gus Grissom becomes the second American in space and attempts several manoeuvres but finds the controls more sluggish than expected.",
             "range": ["00:00:02:33", "00:00:07:00"],
             "homepage": "act2.jpg",
             "banner": "act2.jpg"
