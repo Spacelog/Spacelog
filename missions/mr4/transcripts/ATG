@@ -120,7 +120,7 @@ CC: Roger, rate command is coming on. You're trying manual pitch.
 P: OK, I got roll back. OK, I'm at 24 in pitch.
 
 [00:00:03:20]
-CC: Roger, your IP is right on, Gus, right on.
+CC: Roger, your [glossary:IP] is right on, Gus, right on.
 
 [00:00:03:24]
 P: OK. I'm having a little trouble with rate, ah, with the manual control.
@@ -268,7 +268,7 @@ CC: Roger. Retros are jettisoned, scope has retracted, you're going to reentry a
 P: Affirmative.
 
 [00:00:06:56]
-CC: Bell 7 from Cap Com, your IP is right on.
+CC: Bell 7 from Cap Com, your [glossary:IP] is right on.
 
 [00:00:07:00]
 P: Roger. I'm in reentry attitude.
@@ -430,7 +430,7 @@ P: OK, I'm passing down through 6,000 feet, everything is good, ah.
 P: I'm going to open my face plate.
 
 [00:00:12:35]
-P: Hello, I can't get one, I can't get one door pin back in. I've tried and tried and tried and I can't get it back in. And I'm coming, ATS, I'm passing through 5,000 feet and I don't think I have one of the door pins in.
+P: Hello, I can't get one, I can't get one door pin back in. I've tried and tried and tried and I can't get it back in. And I'm coming, [glossary:ATS], I'm passing through 5,000 feet and I don't think I have one of the door pins in.
 
 [00:00:12:43]
 _page: 8
@@ -443,7 +443,7 @@ P: Do you have any word from the recovery troops?
 CARDFILE23: Liberty Bell 7, this is Card File 23, we are heading directly toward you.
 
 [00:00:13:18]
-P: ATS, this is Cap – this is Liberty Bell 7. Do you have any word from the recovery troops?
+P: [glossary:ATS], this is Cap – this is Liberty Bell 7. Do you have any word from the recovery troops?
 
 [00:00:13:23]
 ATS: Negative, Bell 7, negative. Do you have any transmission to MCC? Over.
@@ -455,7 +455,7 @@ P: Ah, roger, you might make a note that there is one small hole in my chute. It
 ATS: Ah, roger, roger.
 
 [00:00:13:49]
-P: I'm passing through 3,000 feet, and all the fuses are in flight condition; ASCS is normal, auto; we're on rate command; gyros are normal; auto retrojettison is armed; squibs are armed also. Four fuel handles are in; decompress and recompress are in; retro delay is normal; retrobeat is off; cabin lights are both. TM is on. Rescue aids is auto; landing bag is auto; retract scope is auto; retroattitude is auto. All the three, five pull strings are in. Going through some clouds to 2,000 feet. ATS, I'm at 2,000 feet; everything is normal.
+P: I'm passing through 3,000 feet, and all the fuses are in flight condition; [glossary:ASCS] is normal, auto; we're on rate command; gyros are normal; auto retrojettison is armed; squibs are armed also. Four fuel handles are in; decompress and recompress are in; retro delay is normal; retrobeat is off; cabin lights are both. [glossary:TM] is on. Rescue aids is auto; landing bag is auto; retract scope is auto; retroattitude is auto. All the three, five pull strings are in. Going through some clouds to 2,000 feet. [glossary:ATS], I'm at 2,000 feet; everything is normal.
 
 [00:00:14:35]
 ATS: Roger, Bell 7, what is your rate of descent again? Over.
@@ -549,7 +549,7 @@ HUNTCLUB1: Ah, Bell 7 this is Hunt Club 1.
 P: Go, go ahead Hunt Club 1.
 
 [00:00:20:17]
-HUNTCLUB1: Roger, this is 1, observe something, possibly the canister in the water along side capsule. Will we be interfering with any TM if we come down and take a look at it?
+HUNTCLUB1: Roger, this is 1, observe something, possibly the canister in the water along side capsule. Will we be interfering with any [glossary:TM] if we come down and take a look at it?
 
 [00:00:20:26]
 _page: 10

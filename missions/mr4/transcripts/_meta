@@ -142,6 +142,10 @@
         "TM": {
             "summary": "Telemeter or Telemetry",
             "type": "abbreviation"
+        },
+        "ATS": {
+            "summary": "Atlantic Ocean Ship",
+            "type": "abbreviation"
         }
     }
 }
