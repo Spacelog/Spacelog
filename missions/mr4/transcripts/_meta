@@ -34,7 +34,7 @@
             "range": ["-00:00:00:04", "00:00:02:33"],
             "homepage": "act1.jpg",
             "banner": "act1.jpg",
-            "banner_class": "blue"
+            "banner_colour": "#5d86b2"
         },
         {
             "title": "Space",
@@ -49,7 +49,7 @@
             "range": ["00:00:07:00", "00:00:30:00"],
             "homepage": "act3.jpg",
             "banner": "act3.jpg",
-            "banner_class": "blue"
+            "banner_colour": "#5d86b2"
         }
     ],
     "key_scenes" : [

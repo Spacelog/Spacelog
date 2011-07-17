@@ -40,7 +40,7 @@
             "range": ["-00:00:00:20", "00:00:05:04"],
             "homepage": "phase1.jpg",
             "banner": "act1.jpg",
-            "banner_class": "blue"
+            "banner_colour": "#5d86b2"
         },
         {
             "title": "1st Orbit",

@@ -35,7 +35,7 @@
             "description": "Following a smooth preparation with only one minor hold, the Titan rocket overperformed putting the spacecraft into a slightly higher orbit than originally planned.",
             "range": ["-00:00:00:20", "00:00:07:23"],
             "banner": "act1.jpg",
-            "banner_class": "blue",
+            "banner_colour": "#5d86b2",
             "homepage": "act1.jpg"
         },
         {
@@ -64,7 +64,7 @@
             "description": "Despite a number of issues with re-entry, including unexpected amounts of smoke from the thrusters and instability of the craft in the water, the crew and spacecraft were successfully recovered by USS Intrepid.",
             "range": ["00:04:32:49", "00:05:01:00"],
             "banner": "act5.jpg",
-            "banner_class": "blue",
+            "banner_colour": "#5d86b2",
             "homepage": "act5.jpg"
         }
     ],

@@ -70,7 +70,7 @@
             "description": "During takeoff the crew sat inside Odyssey, Apollo 13's Command Module, on top of the Saturn V rocket. As fuel was burnt up, the first two stages of the Saturn V were jettisoned and fell back to Earth along with the abort tower.",
             "range": ["-00:00:00:20", "07:00:00:00"],
             "banner": "act1.jpg",
-            "banner_class": "blue",
+            "banner_colour": "#5d86b2",
             "orbital": "act1.png",
             "illustration": "act1.gif",
             "homepage": "act1.jpg"

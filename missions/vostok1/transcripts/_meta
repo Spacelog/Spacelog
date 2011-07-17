@@ -55,7 +55,7 @@
             "description": "At 06.07 UTC, just after 9am local time, Yuri Gagarin and Vostok 1 launch from the Baikonur Cosmodrome, the first human spaceflight.",
             "range": ["00:00:00:00", "00:00:11:16"],
             "banner": "act2.jpg",
-            "banner_class": "blue",
+            "banner_colour": "#5d86b2",
             "homepage": "act2.jpg"
         },
         {
