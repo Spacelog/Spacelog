@@ -36,13 +36,13 @@ P: OK, there. We're starting to pick up a little bit of the noise and vibration;
 P: OK. The fuel is go; 1 ½ g's, cabin is 8 [psi], the O<sub>2</sub> is go, 27 amps.
 
 [00:00:01:08]
-P: And [Rest of communication not received.]
+P: And ...
 
 [00:00:01:09]
-CC: Pitch is [Rest of communication not received.]
+CC: Pitch is ...
 
 [00:00:01:10]
-P: 4[g], 5[g] [Rest of communication not received.]
+P: 4[g], 5[g] ...
 
 [00:00:01:11]
 CC: Pitch [attitude] is 77 [degrees]; trajectory is go.
@@ -52,8 +52,8 @@ _page: 2
 P: Roger. Cabin pressure is still about 6 [psi] and dropping slightly. Looks like she's going to hold at about 5.5 [psi].
 
 [00:00:01:23]
-P: Eh...[Rest of communication not received.]
-CC: Cabin [Rest of communication not received.]
+P: Eh ...
+CC: Cabin ...
 
 [00:00:01:24]
 P: Believe me, O<sub>2</sub> is go.
@@ -111,7 +111,7 @@ CC: Roger.
 
 [00:00:03:02]
 _page: 3
-P: I haven't seen a booster anyplace. OK, rate command is coming on. I'm in orbit attitude, I'm pitching up. OK, 40 [Rest of communication not received.] Wait, I've lost some roll here someplace.
+P: I haven't seen a booster anyplace. OK, rate command is coming on. I'm in orbit attitude, I'm pitching up. OK, 40 ... Wait, I've lost some roll here someplace.
 
 [00:00:03:10]
 CC: Roger, rate command is coming on. You're trying manual pitch.
@@ -353,7 +353,7 @@ P: 35,000 feet, if you read me.
 P: 30,000 feet, everything is good, everything is good.
 
 [00:00:09:24]
-CC: Bell 7, this is Cap Com. How...[Rest of communication not received.]
+CC: Bell 7, this is Cap Com. How ...
 UKN: Cape, do you read?
 
 [00:00:09:28]
