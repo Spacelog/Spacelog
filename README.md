@@ -150,6 +150,115 @@ From this we generate a number of higher-level pieces which are used in the webs
  * KEY SCENE -- an editorially defined point in the transcript where an important event or exchange starts
  * STREAM -- a collection of related content arranged on a timeline
 
+## Characters
+
+Characters are defined in a _meta key `characters`, which is a dictionary with keys the character identifiers in the transcript and values a further dictionary of information about that character. For instance:
+
+    {
+        "characters": {
+            "P": {
+                "role": "astronaut",
+                "name": "Virgil Ivan Grissom",
+                "short_name": "Gus Grissom",
+                "mission_position": "Pilot",
+                "bio": "A few sentence biography",
+                "photo": "grissom.jpg",
+                "photo_width": 190,
+                "photo_height": 205,
+                "avatar": "grissom.jpg"
+            }
+        }
+    }
+
+This defines the character P. `bio`, `photo` (stored in the mission's `images/people` directory; `photo_width` / `photo_height` should be set appropriately) are used on the people page.
+
+`role` is based on initial usage, and so can be a little confusing. It should be one of astronaut, mission-ops, mission-ops-title or other (defaulting to other). Astronaut means a full-size, prominent place on the main people page (190x205 image with biography as above, and also support for stats and a quote); mission-ops-title will get a less prominent position on the main people page (190x205 with biography); mission-ops go on a second page (linked as "View Mission Control Team" from the main people page), where they get a 190x155 photo and brief biography.
+
+The people pages show the full name (the `name` key) and the mission position from the character definition. The short name is shown within the transcript, with the avatar (48x48, stored in the mission's `images/avatars` directory; astronauts get a yellow hue to differentiate them from those not in space during the mission) alongside.
+
+### Character stats and quotes
+
+Characters with a role of "astronaut" can optionally have statistics and quotes, as shown below:
+
+    {
+        "characters": {
+            "CDR": {
+              "role": "astronaut",
+              "name": "James A. (Jim) Lovell, Jr.",
+              "short_name": "Jim Lovell (CDR)",
+              "mission_position": "Commander",
+              "bio": "...",
+              "photo": "lovell.png",
+              "photo_width": 190,
+              "photo_height": 205,
+              "avatar": "jim_lovell.jpg",
+              "stats": [
+                {
+                    "value": 715,
+                    "text": "hours in space"
+                },
+                {
+                    "value": 4,
+                    "text": "missions"
+                },
+                {
+                    "value": 42,
+                    "text": "age at launch"
+                }
+              ],
+              "quotable_log_line_id": "TEC:05:18:04:46"
+            }
+        }
+    }
+
+The quote must be in the transcript, and is given as the transcript name followed by the GET of the logline. (This means you can't use loglines that have multiple speakers.)
+
+There should be three stats, and you will likely have to juggle things around in order to make them fit the layout. We haven't used stats on all missions; it isn't always possible to find suitable figures for the astronauts involved.
+
+### The shift system
+
+On longer missions, generic positions such as CAPCOM or F (flight director) are shared between several people operating in shifts. This is done by having a character dictionary key of `shifts`, whose value is a list of two element lists:
+
+    {
+        "characters": {
+            "STONY": {
+              "role": "other",
+              "name": "Blockhouse Comm",
+              "short_name": "Stony",
+              "shifts": [
+                [ "DEKE_SLAYTON", "00:00:00:00" ]
+              ]
+            }
+        }
+    }
+
+This means that the first shift is taken by the character with identifier DEKE_SLAYTON, at GET 00:00:00:00. Since identifying shifts at this remove from the event isn't always straightforward, there will often be a third element in the list giving an annotation, justification or source:
+
+    {
+        "characters": {
+            "CC": {
+                "role": "mission-ops-title",
+                "name": "Capsule Communicator",
+                "short_name": "CapCom",
+                "bio": "...",
+                "photo": "capcom.jpg",
+                "photo_width": 190,
+                "photo_height": 205,
+                "avatar": "capcom_generic.png",
+                "shifts": [
+                  ["JOE_KERWIN", "-00:01:00:00", "strictly, only Kerwin, Brand and Lousma were taking shifts (AFAICT), however other astronauts come on as CAPCOM in the original transcript, and we use the shift mechanism to display that properly"],
+                  ["JOHN_YOUNG", "00:04:39:01", "identified by PAO transcript"],
+                  ["JOE_KERWIN", "00:04:50:45"],
+                  ["VANCE_BRAND", "00:07:09:09"],
+                  ["JACK_LOUSMA", "00:16:00:00", "uncertain (and moot) since he doesn't appear in the transcript at this point"]
+                ]
+            }
+        }
+    }
+
+We also (as in the first example above, from Gus Grissom's Mercury-Redstone 4 flight) use the shift system to "delegate" a generic character (such as STONY, the callsign for an astronaut communicator in the blockhouse during Mercury launches) to a specific character (in this case Deke Slayton) who served in that role for the mission in question.
+
+
 ## Code layout
 
 The main code is two Django projects and a python library for managing transcript files into a redis data store. There is also a directory full of per-mission information (transcript files, images and so on), and some other tools directories.
