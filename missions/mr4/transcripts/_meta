@@ -7,32 +7,48 @@
         "title": "Mercury 4",
         "upper_title": "Mercury",
         "lower_title": "4",
-        "description": "",
+        "description": "NASA's second suborbital mission was a success until after splashdown, when the hatch blew unexpectedly, forcing pilot Gus Grissom to egress into the water as the capsule began to sink.",
         "summary": "Second American manned mission",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "based_on_header": "Based on the original audio recordings",
+        "about_image": "systems.png",
         "cleaners": [
             "Emily Carney"
         ],
-        "about": "...",
+        "about": "Eleven weeks after NASA's first manned flight, Gus Grissom became the second American and third human in space, performing another suborbital manned flight ahead of the first orbital mission the following year. An otherwise successful mission was marred after splashdown when the hatch blew after Grissom had completed post-flight checks and was waiting for the recovery helicopter to move into place. As the capsule started taking on water, he performed an emergency egress into the water, from where a second helicopter moved in to pick him up as the primary struggled unsuccessfully to recover the capsule. A little over two weeks later, the Russians would launch Gherman Titov aboard Vostok 2, keeping the pressure on NASA to catch up in the early days of the Space Race.\n\nThis site allows you to explore transcripts of radio communications between Gus Grissom aboard Liberty Bell 7 and the NASA personnel back in Florida, along with photographs of the mission.",
         "image_attributions": [
         ],
         "transcript_attributions": [
             { "url": "http://www.jsc.nasa.gov/history/mission_trans/mercury.htm", "title": "Mercury-Redstone 4 Results of the Second U.S. Manned Suborbital Space Flight" },
             { "url": "http://www.archive.org/details/Mercury4", "title": "Audio recordings of Mercury-Redstone 4 mission" }
         ],
-        "call_signs": "The Mercury capsule's callsign through the mission is Liberty Bell 7 or just 7; the primary CAPCOM (capsule communicator) was Deke Slayton at the Cape. CARDFILE 23 (or just 23 or 2-3) was an aircraft assigned to assist communication during re-entry."
+        "call_signs": "The Mercury capsule's callsign through the mission is Liberty Bell 7 or just 7; the primary CAPCOM (capsule communicator) was Alan Shepard at the Cape; Deke Slayton in the Blockhouse is identified as STONY, and CHASE 1 is another astronaut flying chase in an F-106 plane. CARDFILEs were aircraft assigned to assist communication during re-entry, recovery helicopters are identified as HUNT CLUB, and ATS is a Mercury range station aboard a US Navy ship in the Atlantic close to the landing area."
     },
     "main_transcript": "mr4/ATG",
     "media_transcript": "mr4/MEDIA",
     "utc_launch_time": "1961-07-21T12:20:36",
     "acts" : [
         {
-            "title": "Placeholder",
-            "description": "...",
-            "range": ["-00:00:00:04", "00:00:30:00"],
+            "title": "Launch",
+            "description": "Liberty Bell 7 lifts off from Cape Canaveral on top of a modified Redstone missile.",
+            "range": ["-00:00:00:04", "00:00:02:33"],
             "homepage": "act1.jpg",
             "banner": "act1.jpg",
+            "banner_class": "blue"
+        },
+        {
+            "title": "Space",
+            "description": "",
+            "range": ["00:00:02:33", "00:00:07:00"],
+            "homepage": "act2.jpg",
+            "banner": "act2.jpg"
+        },
+        {
+            "title": "Reentry",
+            "description": "Liberty Bell re-enters smoothly, although after splashdown Grissom is forced to evacuate after the hatch blows and the capsule takes on water and starts to sink.",
+            "range": ["00:00:07:00", "00:00:30:00"],
+            "homepage": "act3.jpg",
+            "banner": "act3.jpg",
             "banner_class": "blue"
         }
     ],
@@ -41,7 +57,7 @@
     "homepage_quotes": [
     ],
     "character_ordering": [
-        "P",
+        "BELL 7",
         "ALAN_SHEPARD",
         "DEKE_SLAYTON"
     ],
@@ -80,13 +96,13 @@
             "photo_height": 205,
             "avatar": "deke_slayton.jpg"
         },
-        "P": {
+        "BELL 7": {
           "role": "astronaut",
           "name": "Virgil Ivan Grissom",
           "short_name": "Gus Grissom",
           "mission_position": "Pilot",
           "bio": "USAF combat veteran Gus Grissom was a fighter test pilot immediately prior to joining the NASA astronaut program. Following his Mercury flight he would be involved in the Gemini Program from the start, helping to design the flight control systems and commanding the first manned Gemini mission. He continued to work on the program until 1966 when he was selected to command the ill-fated Apollo 1 mission.",
-            "photo": "grissom.jpg",
+          "photo": "grissom.jpg",
           "photo": "gus_grissom.jpg",
           "photo_width": 190,
           "photo_height": 205,
@@ -104,13 +120,43 @@
           "role": "other",
           "name": "Chase 1",
           "short_name": "Chase 1",
-          "avatar": "..."
+          "avatar": "plane.png"
+        },
+        "CARDFILE 9": {
+          "role": "other",
+          "name": "Cardfile 9",
+          "short_name": "Cardfile 9",
+          "avatar": "plane.png"
+        },
+        "CARDFILE 23": {
+          "role": "other",
+          "name": "Cardfile 23",
+          "short_name": "Cardfile 23",
+          "avatar": "plane.png"
+        },
+        "HUNTCLUB 1": {
+          "role": "other",
+          "name": "Hunt Club 1",
+          "short_name": "Hunt Club 1",
+          "avatar": "copters.png"
+        },
+        "HUNTCLUB 3": {
+          "role": "other",
+          "name": "Hunt Club 3",
+          "short_name": "Hunt Club 3",
+          "avatar": "copters.png"
+        },
+        "ATS": {
+          "role": "other",
+          "name": "Atlantic Ocean Ship",
+          "short_name": "ATS",
+          "avatar": "ATS.png"
         },
         "UKN": {
           "role": "other",
           "name": "Unknown",
           "short_name": "Unknown",
-          "avatar": "..."
+          "avatar": "person.png"
         }
     },
     "shared_glossaries": ["space"],
