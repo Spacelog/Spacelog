@@ -32,24 +32,24 @@
             "title": "Launch",
             "description": "Liberty Bell 7 lifts off from Cape Canaveral on top of a modified Redstone missile.",
             "range": ["-00:00:00:04", "00:00:02:33"],
-            "homepage": "act1.jpg",
-            "banner": "act1.jpg",
-            "banner_colour": "#5d86b2"
+            "homepage": "phase_01.jpg",
+            "banner": "phase_01.jpg",
+            "banner_colour": "#383029"
         },
         {
             "title": "Space",
             "description": "Gus Grissom becomes the second American in space and attempts several manoeuvres but finds the controls more sluggish than expected.",
             "range": ["00:00:02:33", "00:00:07:00"],
-            "homepage": "act2.jpg",
-            "banner": "act2.jpg"
+            "homepage": "phase_02.jpg",
+            "banner": "phase_02.jpg"
         },
         {
             "title": "Reentry",
             "description": "Liberty Bell re-enters smoothly, although after splashdown Grissom is forced to evacuate after the hatch blows and the capsule takes on water and starts to sink.",
             "range": ["00:00:07:00", "00:00:30:00"],
-            "homepage": "act3.jpg",
-            "banner": "act3.jpg",
-            "banner_colour": "#5d86b2"
+            "homepage": "phase_03.jpg",
+            "banner": "phase_03.jpg",
+            "banner_colour": "#191919"
         }
     ],
     "key_scenes" : [
