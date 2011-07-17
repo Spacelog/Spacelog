@@ -49,6 +49,15 @@ class SearchView(TemplateView):
                 "xappydb",
             ),
         )
+        db.set_weighting_scheme(
+            xapian.BM25Weight(
+                1, # k1
+                0, # k2
+                1, # k4
+                0.5, # b
+                2, # min_normlen
+            )
+        )
         query = db.query_parse(
             q,
             default_op=db.OP_OR,
