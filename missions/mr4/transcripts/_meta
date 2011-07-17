@@ -30,7 +30,7 @@
         {
             "title": "Placeholder",
             "description": "...",
-            "range": ["-00:00:00:04", "00:00:06:00"],
+            "range": ["-00:00:00:04", "00:00:30:00"],
             "homepage": "act1.jpg",
             "banner": "act1.jpg",
             "banner_class": "blue"

@@ -9,7 +9,7 @@ P: Loud and clear.
 CC: Loud and clear. José, don't cry too much.
 
 [00:00:00:11]
-P: Okey dokey.
+P: Okey doke.
 
 [00:00:00:18]
 P: OK, it's a nice ride up to now.
@@ -21,7 +21,7 @@ CC: Loud and clear.
 P: Roger.
 
 [00:00:00:28]
-P: OK. The fuel is go; about 1 ½ g's; cabin pressure is just coming off the peg; the O2 is go; we have 26 amps.
+P: OK. The fuel is go; about 1 ½ g's; cabin pressure is just coming off the peg; the O<sub>2</sub> is go; we have 26 amps.
 
 [00:00:00:36]
 CC: Roger. Pitch [attitude] 88 [degrees], the trajectory is good.
@@ -30,10 +30,10 @@ CC: Roger. Pitch [attitude] 88 [degrees], the trajectory is good.
 P: Roger, looks good here.
 
 [00:00:00:54]
-UKN: OK, there. We're starting to pick up a little bit of the noise and vibration; not bad, though, at all. 50 secs., more vibration.
+P: OK, there. We're starting to pick up a little bit of the noise and vibration; not bad, though, at all. 50 secs., more vibration.
 
 [00:00:01:04]
-P: OK. The fuel is go; 1 ½ g's, cabin is 8 [psi], the O2 is go, 27 amps.
+P: OK. The fuel is go; 1 ½ g's, cabin is 8 [psi], the O<sub>2</sub> is go, 27 amps.
 
 [00:00:01:08]
 P: And [Rest of communication not received.]
@@ -53,11 +53,10 @@ P: Roger. Cabin pressure is still about 6 [psi] and dropping slightly. Looks lik
 
 [00:00:01:23]
 P: Eh...[Rest of communication not received.]
-
 CC: Cabin [Rest of communication not received.]
 
 [00:00:01:24]
-P: Believe me, O2 is go.
+P: Believe me, O<sub>2</sub> is go.
 
 [00:00:01:26]
 CC: Cabin pressure holding 5.5 [psi].
@@ -66,16 +65,16 @@ CC: Cabin pressure holding 5.5 [psi].
 P: Roger, roger.
 
 [00:00:01:31]
-P: This is Liberty Bell 7. Fuel is go, 2 ½ g's; cabin pressure 5.5 [psi]; O2 is go; main [bus] 25 [volts], isolated – ah, isolated [bus] is 28 [volts]. We are go.
+P: This is Liberty Bell 7. Fuel is go, 2 ½ g's; cabin pressure 5.5 [psi]; O<sub>2</sub> is go; main [bus] 25 [volts], isolated – ah, isolated [bus] is 28 [volts]. We are go.
 
 [00:00:01:46]
-CC: Roger. Pitch [attitude] is 62 [degrees]; trajectory is go.
+CC: Roger. Pitch [attitude] is 62 [degrees]; trajectory is good.
 
 [00:00:01:49]
 P: Roger. It looks good in here.
 
 [00:00:01:56]
-P: Everything is good; cabin pressure is holding; suit pressure is OK; 2 minutes and we got 4 g's; fuel is go; ah, feel the hand controller move just a hair there; cabin pressure is holding; O2 is go; 25 amps.
+P: Everything is good; cabin pressure is holding; suit pressure is OK; 2 minutes and we got 4 g's; fuel is go; ah, feel the hand controller move just a hair there; cabin pressure is holding; O<sub>2</sub> is go; 25 amps.
 
 [00:00:02:15]
 CC: Roger, we have go here.
@@ -105,7 +104,7 @@ P: There went posigrades, capsule has separated. We are at zero g and turning ar
 CC: Roger, cap sep [capsule separation light] is green, turnaround started, manual handle out.
 
 [00:00:02:47]
-P: Oh boy! Manual handle is out; the sky is very black; the capsule is coming around into orbit attitude; the roll is a little slow.
+P: Oh boy! Manual handle is out; the sky is very, very black; the capsule is coming around into orbit attitude; the roll is a little bit slow.
 
 [00:00:03:01]
 CC: Roger.
@@ -200,4 +199,412 @@ CC: Got 15 seconds, plenty of time, I'll give you a mark at 5:10 [elapsed time s
 P: OK, retro attitude [light] is still green.
 
 [00:00:05:05]
-CC: Retros on my mark, 3, 2, 1, mark. [Unidentified communicator says “He's in limits,” in the middle of last Cap Com communication.]
+CC: Retros on my mark, 3, 2, 1, mark.
+UKN: He's in limits.
+
+[00:00:05:11]
+P: OK, there's 1 firing, there's 1 firing.
+
+[00:00:05:12]
+CC: Retro 1 (Cuts off Bell 7).
+
+[00:00:05:13]
+CC: Roger, retro 1.
+
+[00:00:05:19]
+P: There's 2 firing, nice little boost. There went 3.
+
+[00:00:05:21]
+CC: Roger, 3, all retros are fired.
+
+[00:00:05:23]
+P: Roger, roger.
+
+[00:00:05:25]
+P: OK, yeah, they're fired out right there.
+
+[00:00:05:29]
+CC: Roger, retrojettison armed.
+
+[00:00:05:33]
+P: Retrojettison is armed, retrojettison is armed, going to rate command.
+
+[00:00:05:36]
+P: OK, I'm going to switch.
+
+[00:00:05:38]
+CC: Roger, understand manual fuel handle is in.
+
+[00:00:05:41]
+P: Manual fuel handle is in, mark, going to HF.
+
+[00:00:05:44]
+CC: Roger, HF.
+
+[00:00:05:52]
+_page: 5
+CC: Liberty Bell 7, this is Cap Com on HF, 1, 2, 3, 4, 5. How do you read [Bell] 7?
+UKN: I got you.
+
+[00:00:06:05]
+CC: ...This is Cap Com on HF, 1, 2, 3, 4, 5. How do you read [Bell] 7?
+
+[00:00:06:08]
+P: ...Here, do you read me, do you read me on HF?...Going back to U [UHF]...[received by ATS ship]. Boy is that...Retro, I'm back on UHF, and, ah, the jett...the retros have jettisoned. Now I can see the Cape and, oh boy, that is some sight. I can't see too much.
+
+[00:00:06:34]
+P: Roger, I am on UHF high, do you read me?
+
+[00:00:06:38]
+CC: Roger, reading you loud and clear on UHF high, can you confirm retrojettison?
+
+[00:00:06:41]
+P: OK, periscope is retracting, going to reentry attitude.
+
+[00:00:06:47]
+CC: Roger. Retros are jettisoned, scope has retracted, you're going to reentry attitude.
+
+[00:00:06:51]
+P: Affirmative.
+
+[00:00:06:56]
+CC: Bell 7 from Cap Com, your IP [impact point] is right on.
+
+[00:00:07:00]
+P: Roger. I'm in reentry attitude.
+
+[00:00:07:05]
+P: Ah.
+
+[00:00:07:07]
+CC: Roger, how does it look out the window now?
+
+[00:00:07:09]
+P: Ah, the sun is coming in and so all I can see really is just, ah, just darkness. The sky is very black.
+
+[00:00:07:14]
+CC: Roger, you have some more time to look if you like.
+
+[00:00:07:27]
+CC: [Bell] 7 from Cap Com, how do you feel up there?
+
+[00:00:07:30]
+P: I feel very good, auto fuel is 90 [percent], manual is 50 [percent].
+
+[00:00:07:33]
+CC: Roger, 0.05 g in 10 [seconds].
+
+[00:00:07:37]
+P: OK.
+
+[00:00:07:50]
+P: OK, everything is very good, ah.
+
+[00:00:07:54]
+P: I got 0.05 g [light] and roll rate has started.
+
+[00:00:07:57]
+CC: Roger.
+
+[00:00:08:03]
+P: Got a pitch rate in here, OK, g's are starting to build.
+
+[00:00:08:09]
+_page: 6
+CC: Roger, reading you loud and clear.
+
+[00:00:08:11]
+P: Roger, g's are building, we're up to 6 [g].
+
+[00:00:08:17]
+P: There's 9 [g].
+
+[00:00:08:19]
+P: There's about 10 [g]; the handle is out from under it; here I got a little pitch rate coming back down through 7 [g].
+
+[00:00:08:32]
+CC: Roger, still sound good.
+
+[00:00:08:34]
+P: OK, the altimeter is active at 65 [thousand feet]. There's 60 [thousand feet].
+
+[00:00:08:38]
+CC: Roger, 65,000.
+
+[00:00:08:42]
+P: Okay, I'm getting some contrails, evidently shock wave, 50,000 feet; I'm feeling good. I'm very good, everything is fine.
+
+[00:00:08:49]
+CC: Roger, 50,000.
+
+[00:00:08:52]
+P: 45,000, do you still read?
+
+[00:00:08:54]
+CC: Affirmative. Still reading you. You sound good.
+
+[00:00:09:00]
+P: OK, 40,000 feet, do you read?
+
+[00:00:09:07]
+P: 35,000 feet, if you read me.
+
+[00:00:09:19]
+P: 30,000 feet, everything is good, everything is good.
+
+[00:00:09:24]
+CC: Bell 7, this is Cap Com. How...[Rest of communication not received.]
+UKN: Cape, do you read?
+
+[00:00:09:28]
+P: 25,000 feet.
+
+[00:00:09:36]
+P: Approaching drogue chute attitude.
+
+[00:00:09:41]
+P: There's the drogue chute. The periscope has extended.
+
+[00:00:09:45]
+CC: This is...we have a green drogue [light] here, [Bell] 7 how do you read?
+
+[00:00:09:49]
+P: OK, we're coming down to 15,000 feet, if anyone reads. We're on emergency flow rate, can see out the periscope OK. The drogue chute is good.
+CC: Roger, understand drogue is good, the periscope is out.
+
+[00:00:10:05]
+_page: 7
+P: There's 13,000 feet.
+CC: Roger.
+
+[00:00:10:14]
+P: There goes the main chute, it's reefed; main chute is good; main chute is good; rate of descent coming down, coming down to – there's 40 feet per second, 30 feet per, 32 feet per second on the main chute, and the landing bag is out green.
+UKN: Ah, it's better than it was, Chuck.
+
+[00:00:10:40]
+P: Hello, does anybody read Liberty Bell, main chute is good, landing bag [light] is on green.
+
+[00:00:10:43]
+CC: And the landing bag [light] is on green.
+
+[00:00:10:45]
+ATS: Liberty Bell 7, Liberty Bell 7, this is Atlantic Ship Cap Com. Read you loud and clear. Our telemetry confirms your events. Over.
+
+[00:00:10:47]
+P: Ah, roger, is anyone reading Liberty Bell 7? Over.
+
+[00:00:10:48]
+CARDFILE23: Roger, Liberty Bell 7, reading you loud and clear. This is C 23. Over.
+
+[00:00:10:52]
+P: Atlantic Ship Cap Com, this is Liberty Bell 7, how do you read me? Over.
+
+[00:00:11:07]
+ATS: Read you loud and clear. Over. Liberty Bell 7, Liberty Bell 7, this is Atlantic Ship Cap Com. How do you read me? Over.
+
+[00:00:11:12]
+P: Atlantic Ship Cap Com, this is Liberty Bell 7, I read you loud and clear. How, me? Over.
+
+[00:00:11:18]
+ATS Roger, Bell 7, read you loud and clear, your status looks good, your systems look good, we confirm your events. Over.
+
+[00:00:11:28]
+P: Ah, roger, and confirm the fuel has dumped. Over.
+
+[00:00:11:35]
+ATS: Roger, confirm again, confirm again, has your auto fuel dumped? Over.
+
+[00:00:11:42]
+P: Auto fuel and manual fuel has dumped.
+
+[00:00:11:44]
+ATS: Roger, roger.
+
+[00:00:11:47]
+P: And I'm in the process of putting the pins back in the door at this time.
+
+[00:00:12:04]
+P: OK, I'm passing down through 6,000 feet, everything is good, ah.
+
+[00:00:12:15]
+P: I'm going to open my face plate.
+
+[00:00:12:35]
+P: Hello, I can't get one, I can't get one door pin back in. I've tried and tried and tried and I can't get it back in. And I'm coming, ATS, I'm passing through 5,000 feet and I don't think I have one of the door pins in.
+
+[00:00:12:43]
+_page: 8
+ATS: Roger, Bell 7, roger.
+
+[00:00:13:04]
+P: Do you have any word from the recovery troops?
+
+[00:00:13:14]
+CARDFILE23: Liberty Bell 7, this is Card File 23, we are heading directly toward you.
+
+[00:00:13:18]
+P: ATS, this is Cap – this is Liberty Bell 7. Do you have any word from the recovery troops?
+
+[00:00:13:23]
+ATS: Negative, Bell 7, negative. Do you have any transmission to MCC [Mercury Control Center]? Over.
+
+[00:00:13:33]
+P: Ah, roger, you might make a note that there is one small hole in my chute. It looks like it's about 6 inches by 6 inches – it's sort of a – actually it's a triangular rip, I guess.
+
+[00:00:13:47]
+ATS: Ah, roger, roger.
+
+[00:00:13:49]
+P: I'm passing through 3,000 feet, and all the fuses are in flight condition; ASCS is normal, auto; we're on rate command; gyros are normal; auto retrojettison is armed; squibs are armed also. Four fuel handles are in; decompress and recompress are in; retro delay is normal; retrobeat is off; cabin lights are both. TM [telemeter] is on. Rescue aids is auto; landing bag is auto; retract scope is auto; retroattitude is auto. All the three, five pull strings are in. Going through some clouds to 2,000 feet. ATS, I'm at 2,000 feet; everything is normal.
+
+[00:00:14:35]
+ATS: Roger, Bell 7, what is your rate of descent again? Over.
+
+[00:00:14:39]
+P: The rate of descent is varying between 28 and 30 feet per second.
+
+[00:00:14:45]
+ATS: Ah, roger, roger, and once again verify your fuel has dumped. Over.
+
+[00:00:14:47]
+UKN: Seven ahead at bearing 020. Over.
+
+[00:00:14:54]
+P: OK. My max g was about 10.2; altimeter is 1,000 [feet]; cabin pressure is coming towards 15 [psi].
+
+[00:00:15:04]
+UKN: We'll make up.
+
+[00:00:15:14]
+P: Temperature is 90 [Fahrenheit].
+
+[00:00:15:24]
+UKN: We'll make up an eye rep.
+
+[00:00:15:34]
+P: Coolant quantity is 30 [percent]; temperature is 68 [Fahrenheit]; pressure is 14 [psi]; main O<sub>2</sub> is 60 [percent]; normal is, main is 60 [percent]; emergency is 100 [percent]; suit fan is normal; cabin fan is normal. We have 21 amps, and I'm getting ready for impact here.
+
+[00:00:15:44]
+P: Can see the water coming right on up.
+
+[00:00:15:54]
+_page: 9
+ATS: Liberty Bell 7, Liberty Bell 7, this is Atlantic Cap Com, do you read me? Over.
+
+[00:00:16:04]
+P: OK, does anyone read Liberty Bell 7? Over.
+
+[00:00:16:09]
+HUNTCLUB1: Liberty Bell 7, Liberty Bell 7, Hunt Club 1 is 2 miles southwest you.
+
+[00:00:16:20]
+CARDFILE9: Liberty Bell 7, this [is] 9 Card File. We have your entry into the water. Will be over you in just about 30 seconds.
+
+[00:00:16:35]
+P: Roger, my condition is good; OK, the capsule is floating, slowly coming vertical, have actuated the rescue aids. The reserve chute has jettisoned, in fact I can see it in the water, and the whip antenna should be up.
+
+[00:00:17:00]
+UKN: Hunt Club, did you copy?
+
+[00:00:17:30]
+UKN: OK, Hunt Club, this is...don't forget the antenna.
+
+[00:00:18:00]
+HUNTCLUB1: This is Hunt Club, say again.
+
+[00:00:18:07]
+P: Hunt Club, this is Liberty Bell 7. My antenna should be up.
+
+[00:00:18:12]
+HUNTCLUB1: This is Hunt Club 1...your antenna is erected.
+
+[00:00:18:16]
+P: Ah, roger.
+
+[00:00:18:23]
+P: OK, give me how much longer it'll be before you get here.
+
+[00:00:18:27]
+HUNTCLUB1: This is Hunt Club 1, we are in orbit now at this time, around the capsule.
+
+[00:00:18:32]
+P: Roger, give me about another 5 minutes here, to mark these switch positions here, before I give you a call to come in and hook on. Are you ready to come in and hook on anytime?
+
+[00:00:18:40]
+HUNTCLUB1: Hunt Club 1, roger we are ready anytime you are.
+
+[00:00:18:44]
+P: OK, give me about another 3 or 4 minutes here to take these switch positions, then I'll be ready for you.
+
+[00:00:18:50]
+HUNTCLUB1: 1, wilco.
+
+[00:00:19:30]
+CARDFILE9: Hey Hunt Clubs, Card File, Card File 9, I'll stand by to escort you back as soon as you lift out. I keep another aircraft at least 2,000 feet.
+
+[00:00:20:10]
+HUNTCLUB1: Ah, Bell 7 this is Hunt Club 1.
+
+[00:00:20:15]
+P: Go, go ahead Hunt Club 1.
+
+[00:00:20:17]
+HUNTCLUB1: Roger, this is 1, observe something, possibly the canister in the water along side capsule. Will we be interfering with any TM [telemetry] if we come down and take a look at it?
+
+[00:00:20:26]
+_page: 10
+P: Negative, not at all. I'm just going to put the rest of this stuff on tape and then I'll be ready for you, in just about 2 more minutes, I would say.
+
+[00:00:20:32]
+HUNTCLUB1: 1 roger.
+
+[00:00:21:00]
+CC: Liberty Bell 7, Cap Com at the Cape on a test count. Over.
+
+[00:00:22:00]
+CC: Liberty Bell 7, Cape Cap Com on a test count. Over.
+
+[00:00:23:00]
+CARDFILE9: Any Hunt Club, this is 9 Card File.
+
+[00:00:23:30]
+HUNTCLUB1: Station calling Hunt Club, say again.
+
+[00:00:24:03]
+CARDFILE9: This is Niner Card File, there's an object on a line in the water, just about 160 degrees. The NASA people suspect it's the dye marker that didn't activate; ah, say it's about, ah, ¾ of a mile out from the capsule. Ah, after the lift out, will you take a check on it? Over.
+
+[00:00:24:27]
+HUNTCLUB1: Ah, this is Hunt Club 1, roger, we will have Hunt Club 3 check at this time, you copy 3.
+
+[00:00:24:32]
+HUNTCLUB3: Hunt Club 1, I believe he said ¾ of a mile?
+
+[00:00:24:35]
+CARDFILE9: This is 9 Card, that is affirmative.
+
+[00:00:25:19]
+P: OK, Hunt Club. This is Liberty Bell 7. Are you ready for the pickup?
+
+[00:00:25:26]
+HUNTCLUB1: This is Hunt Club 1; this is affirmative.
+
+[00:00:25:30]
+P: OK, latch on, then give me a call and I'll power down and b [blow] hatch, OK?
+
+[00:00:25:36]
+HUNTCLUB1: This is Hunt Club 1, roger, will give you a call when we're ready for you to blow.
+
+[00:00:25:42]
+P: Roger, I've unplugged my suit so I'm kinda warm now.
+
+[00:00:25:46]
+HUNTCLUB1: 1, roger.
+
+[00:00:25:52]
+P: Now if you tell me to, ah, you're ready for me to blow, I'll have to take my helmet off, power down, and then blow the hatch.
+
+[00:00:25:58]
+HUNTCLUB1: 1, roger, and when you blow the hatch, the collar will already be down there waiting for you, and we're turning base at this time.
+
+[00:00:26:09]
+P: Ah, roger.
