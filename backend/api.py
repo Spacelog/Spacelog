@@ -336,6 +336,7 @@ class Act(NarrativeElement):
         self.description = self.data['description']
         self.banner = self.data.get("banner", None)
         self.banner_class = self.data.get("banner_class", None)
+        self.banner_colour = self.data.get("banner_colour", None)
         self.orbital = self.data.get("orbital", None)
         self.illustration = self.data.get("illustration", None)
         self.homepage = self.data.get("homepage", None)
