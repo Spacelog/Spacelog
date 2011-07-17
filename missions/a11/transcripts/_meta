@@ -266,7 +266,8 @@
                 "value": 38,
                 "text": "age at launch"
             }
-          ]
+          ],
+          "quotable_log_line_id": "TEC:04:06:45:59"
         },
         "CDR (EAGLE)": {
           "role": "other",
@@ -309,7 +310,8 @@
                 "value": 39,
                 "text": "age at launch"
             }
-          ]
+          ],
+          "quotable_log_line_id": "TEC:04:06:57:02"
         },
         "LMP (TRANQ)": {
           "role": "other",
@@ -352,7 +354,8 @@
                 "value": 38,
                 "text": "age at launch"
             }
-          ]
+          ],
+          "quotable_log_line_id": "TEC:02:23:52:15"
         },
         "CMP (COLUMBIA)": {
           "role": "other",

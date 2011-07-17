@@ -55,6 +55,7 @@
     "key_scenes" : [
     ],
     "homepage_quotes": [
+        "00:00:04:18"
     ],
     "character_ordering": [
         "BELL 7",
@@ -106,7 +107,8 @@
           "photo": "gus_grissom.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "gus_grissom.jpg"
+          "avatar": "gus_grissom.jpg",
+          "quotable_log_line_id": "ATG:00:00:04:18"
         },
         "STONY": {
           "role": "other",

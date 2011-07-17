@@ -111,7 +111,8 @@
           "photo": "alan_shepard.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "alan_shepard.jpg"
+          "avatar": "alan_shepard.jpg",
+          "quotable_log_line_id": "ATG:00:00:04:01"
         },
         "SHORTY_POWERS": {
             "role": "astronaut",
