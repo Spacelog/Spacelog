@@ -16,9 +16,7 @@
         ],
         "about": "Gemini 3, flown by Virgil “Gus” Grissom and John Young, was the first manned flight of the Gemini spacecraft.  It was also the first American spaceflight with a crew of two.  This was the first of ten manned Project Gemini which were designed to develop the spaceflight capabilities that would be required to go to the moon.\n\nThis site allows you to explore transcripts of radio communications between the Mercury 3 crew and the NASA personnel back at Cape Canaveral. Included with the transcripts are photographs, as well as other information about the mission.",
         "image_attributions": [
-        ],
-        "image_attributions": [
-            { "url": "http://www.flickr.com/photos/28634332@N05/4971286005/", "title": "Crescent Moon, Earth's Atmosphere", "attrib_url": "http://www.nasa.gov/centers/marshall/home/index.html", "attrib": "NASA's MSFC", "license": "CC By-NC" }
+            { "url": "http://earthobservatory.nasa.gov/IOTD/view.php?id=41052", "title": "Thunderstorms on the Brazilian Horizon", "attrib_url": "http://earthobservatory.nasa.gov/", "attrib": "NASA's Earth Observatory" }
         ],
         "transcript_attributions": [
             { "url": "http://www.jsc.nasa.gov/history/mission_trans/gemini3.htm", "title": "Gemini III Composite Air-to-Ground and Onboard Voice Tape Transcription" }
