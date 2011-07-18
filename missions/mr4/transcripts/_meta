@@ -105,11 +105,10 @@
           "short_name": "Gus Grissom",
           "mission_position": "Pilot",
           "bio": "USAF combat veteran Gus Grissom was a fighter test pilot immediately prior to joining the NASA astronaut program. Following his Mercury flight he would be involved in the Gemini Program from the start, helping to design the flight control systems and commanding the first manned Gemini mission. He continued to work on the program until 1966 when he was selected to command the ill-fated Apollo 1 mission.",
-          "photo": "grissom.jpg",
           "photo": "gus_grissom.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "gus_grissom.jpg",
+          "avatar": "gus_grissom.png",
           "quotable_log_line_id": "ATG:00:00:04:18"
         },
         "STONY": {
