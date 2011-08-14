@@ -605,6 +605,14 @@ class Glossary(object):
 
 
 class Mission(object):
+    loaded = False
+    
+    cache = {}
+    def __new__(cls, redis_conn, name):
+        if name not in cls.cache:
+            print "made another mission object", name
+            cls.cache[name] = super(Mission, cls).__new__(cls)
+        return cls.cache[name]
 
     def __init__(self, redis_conn, name):
         self.redis_conn = redis_conn
@@ -612,6 +620,8 @@ class Mission(object):
         self._load()
 
     def _load(self):
+        if self.loaded:
+            return
         data = self.redis_conn.hgetall(u"mission:%s" % self.name)
         self.copy = dict([
             (k, json.loads(v)) for k, v in
@@ -636,6 +646,7 @@ class Mission(object):
         self.transcripts = self.redis_conn.smembers("mission:%s:transcripts" % self.name)
         # HACK?: Hash of page counts
         self.transcript_pages = self.redis_conn.hgetall("pages:%s" % self.name)
+        self.loaded = True
 
     @property
     def year(self):
