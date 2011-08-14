@@ -1,6 +1,6 @@
 Vagrant::Config.run do |config|
-  config.vm.box = "debian-squeeze-32"
-  config.vm.box_url = "http://mathie-vagrant-boxes.s3.amazonaws.com/debian_squeeze_32.box"
+  config.vm.box = "ubuntu-1104-server-i386"
+  config.vm.box_url = "http://dl.dropbox.com/u/7490647/talifun-ubuntu-11.04-server-i386.box"
   config.vm.network "172.16.1.2"
   config.vm.share_folder("v-root", "/vagrant", ".", :nfs => true)
   config.vm.provision :chef_solo do |chef|
