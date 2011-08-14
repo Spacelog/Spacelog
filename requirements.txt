@@ -1,6 +1,5 @@
 # Using Django trunk until we can go:
-# Django>=1.3
--e svn+http://code.djangoproject.com/svn/django/trunk@14849#egg=Django
+Django>=1.3
 redis
 boto
 django-templatetag-sugar==0.1

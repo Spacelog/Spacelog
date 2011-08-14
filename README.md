@@ -73,7 +73,9 @@ then use `ENV/bin/python` where normally you'd use just `python`. (If it's recen
 
 #### A word of caution
 
-We are currently locked to a specific version of Django, because we use 1.3 features but the release itself has a bug which prevents us from using it in development. Once there's a stable release of Django without this problem we'll move off this.
+Although we're using a released version of Django (in our `requirements.txt`), the current release (1.3) contains a bug that causes problems only during development. The easiest fix is to remove line 61 of `django/views/static.py`, which tries to set the `Content-Length` header when serving static files, which fails for our CSS because of the way things are set up. This will be fixed in Django 1.4.
+
+Alternatively, you could try running on the latest unreleased version of Django, from their subversion repository or github mirror, and let us know of any problems you find.
 
 ## Running the code
 
