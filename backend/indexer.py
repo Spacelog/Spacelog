@@ -12,7 +12,7 @@ except ImportError:
 from django.utils.html import strip_tags
 
 from backend.parser import TranscriptParser, MetaParser
-from backend.api import Act, KeyScene, Character, Glossary, LogLine
+from backend.api import Act, KeyScene, Character, Glossary, LogLine, Mission
 from backend.util import seconds_to_timestamp
 
 search_db = xappy.IndexerConnection(
@@ -39,6 +39,7 @@ class TranscriptIndexer(object):
     def __init__(self, redis_conn, mission_name, transcript_name, parser):
         self.redis_conn = redis_conn
         self.mission_name = mission_name
+        self.mission = Mission(redis_conn, mission_name)
         self.transcript_name = transcript_name
         self.parser = parser
 
@@ -364,6 +365,7 @@ class MetaIndexer(object):
                 "incomplete": meta.get('incomplete', True),
                 "main_transcript": meta.get('main_transcript', "%s/TEC" % self.mission_name),
                 "media_transcript": meta.get('media_transcript', None),
+                "notes_transcript": meta.get('notes_transcript', None),
                 "subdomain": meta.get('subdomain', None),
             }
         )

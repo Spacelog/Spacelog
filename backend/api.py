@@ -65,6 +65,13 @@ class Image(MediaItem):
         self.extra = extra
 
 
+class Note(object):
+    """A factual, ie non-editorial, note about events. This is cross-transcript."""
+    
+    def __init__(self, text):
+        self.text = text
+
+
 class LogLine(object):
     """
     Basic object that represents a log line; pass in the timestamp
@@ -76,6 +83,7 @@ class LogLine(object):
         self.redis_conn = redis_conn
         self.transcript_name = transcript_name
         self.mission_name = transcript_name.split(u"/")[0]
+        self.mission = Mission(redis_conn, self.mission_name)
         self.timestamp = timestamp
         self.id = u"%s:%i" % (self.transcript_name, self.timestamp)
         self._load()
@@ -83,6 +91,11 @@ class LogLine(object):
     @property
     def primary_statements(self):
         return self.by_transcript[self.transcript_name]
+
+    @property
+    def first(self):
+        """The first utterance (in the primary transcript)."""
+        return self.primary_statements[0]
 
     @classmethod
     def by_log_line_id(cls, redis_conn, log_line_id):
@@ -117,29 +130,47 @@ class LogLine(object):
         
     @property
     def media(self):
-        # and get media as required
         from_ts = self.timestamp
         to_ts = self.next_timestamp(self.main_transcript_name)
 
         media = []
-        for image in LogLine.Query(
+        for line in LogLine.Query(
             self.redis_conn, self.mission_name
             ).transcript(
             self.media_transcript_name
             ).range(
             from_ts, to_ts - 1
             ):
-            media += image.images()
+            media += line.images()
         return media
+        
+    @property
+    def notes(self):
+        from_ts = self.timestamp
+        to_ts = self.next_timestamp(self.main_transcript_name)
+
+        notes = []
+        for line in LogLine.Query(
+            self.redis_conn, self.mission_name
+            ).transcript(
+            self.notes_transcript_name
+            ).range(
+            from_ts, to_ts - 1
+            ):
+            notes.append(Note(line.first.text))
+        return notes
 
     @property
     def main_transcript_name(self):
-        return self.transcript_name
+        return self.mission.main_transcript
 
     @property
     def media_transcript_name(self):
-        # FIXME: this will not work
-        return self.mission_name + "/MEDIA"
+        return self.mission.media_transcript
+
+    @property
+    def notes_transcript_name(self):
+        return self.mission.notes_transcript
 
     def __repr__(self):
         return "<LogLine %s:%i, page %s>" % (self.transcript_name, self.timestamp, self.page)
@@ -639,6 +670,7 @@ class Mission(object):
         except IndexError:
             self.main_transcript_subname = ""
         self.media_transcript = data['media_transcript']
+        self.notes_transcript = data.get('notes_transcript', None)
         self.incomplete = (data['incomplete'].lower() == "true")
         self.subdomain = data.get('subdomain', None)
         self.utc_launch_time = data['utc_launch_time']
@@ -647,6 +679,15 @@ class Mission(object):
         # HACK?: Hash of page counts
         self.transcript_pages = self.redis_conn.hgetall("pages:%s" % self.name)
         self.loaded = True
+
+    @property
+    def special_transcripts(self):
+        sts = []
+        if self.media_transcript:
+            sts.append(self.media_transcript)
+        if self.notes_transcript:
+            sts.append(self.notes_transcript)
+        return sts
 
     @property
     def year(self):

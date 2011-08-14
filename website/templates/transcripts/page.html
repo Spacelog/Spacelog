@@ -101,10 +101,10 @@
         {% endif %}
       </dd>
     {% endfor %}{# utterance #}
-    {% if log_line.note %}
+    {% for note in log_line.notes %}
       <dt class='note-label'>Note</dt>
-      <dd class='note'><p>{{ log_line.note }}</p></dd>
-    {% endif %}
+      <dd class='note'><p>{{ note.text }}</p></dd>
+    {% endfor %}
     {% if log_line.highlight_index == max_highlight_index %}
     <p id='range-advisory'>
     Spoken on {{ first_highlighted_line.utc_time }} UTC ({{ first_highlighted_line.utc_time|timesince }} ago)<span>. </span>
