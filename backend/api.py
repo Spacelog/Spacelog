@@ -45,6 +45,21 @@ class Utterance(Statement):
         """Construct with a Character object and a string."""
         self.speaker = speaker
         self.text = text
+        self.type = "Utterance"
+
+
+class Note(Statement):
+    """
+    A factual, ie non-editorial, note about events.
+    
+    These are either cross-transcript (in the notes transcript for the mission)
+    or per-transcript (as _note at a particular timestamp).
+    """
+    
+    def __init__(self, text):
+        self.text = text
+        self.speaker = None
+        self.type = "Note"
 
 
 class MediaItem(object):
@@ -63,13 +78,6 @@ class Image(MediaItem):
         self.filename = filename
         self.url = url
         self.extra = extra
-
-
-class Note(object):
-    """A factual, ie non-editorial, note about events. This is cross-transcript."""
-    
-    def __init__(self, text):
-        self.text = text
 
 
 class LogLine(object):
@@ -110,7 +118,6 @@ class LogLine(object):
         # Load onto our attributes
         self.page = int(data['page'])
         self.transcript_page = data.get('transcript_page')
-        self.note = data.get('note', None)
 
         self.by_transcript = SortedDict()
         lines = []
@@ -119,6 +126,9 @@ class LogLine(object):
             speaker_identifier, text = [x.strip() for x in line.split(u":", 1)]
             speaker = Character(self.redis_conn, self.mission_name, speaker_identifier)
             lines.append(Utterance(speaker, text))
+        note = data.get('note', None)
+        if note is not None:
+            lines.append(Note(note))
         self.by_transcript[self.transcript_name] = lines
 
         self.next_log_line_id = data.get('next', None)
