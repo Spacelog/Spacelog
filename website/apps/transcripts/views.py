@@ -103,6 +103,17 @@ class PageView(TranscriptView):
     template_name = 'transcripts/page.html'
     
     def render_to_response(self, context):
+        redirect_url = self.get_redirect_if_needed(context)
+        
+        # Redirect to the URL we found
+        if redirect_url:
+            if self.request.GET:
+                redirect_url += '?%s' % self.request.GET.urlencode()
+            return HttpResponseRedirect( redirect_url )
+        
+        return super( PageView, self ).render_to_response( context )
+        
+    def get_redirect_if_needed(self, context):
         # Ensure that the request is always redirected to:
         # - The first page (timestampless)
         # - The timestamp for the start of an act
@@ -147,14 +158,8 @@ class PageView(TranscriptView):
                 context,
                 first_log_line.timestamp
             )
-        
-        # Redirect to the URL we found
-        if page_start_url:
-            if self.request.GET:
-                page_start_url += '?%s' % self.request.GET.urlencode()
-            return HttpResponseRedirect( page_start_url )
-        
-        return super( PageView, self ).render_to_response( context )
+            
+        return page_start_url
     
     def get_context_data(self, start=None, end=None, transcript=None):
 
@@ -227,7 +232,7 @@ class RangeView(PageView):
     showing a single record).
     """
     
-    def render_to_response(self, context):
+    def get_redirect_if_needed(self, context):
         # Identify whether our start and end timestamps match real timestamps
         # If not, redirect from the invalid-timestamped URL to the
         # URL with timestamps matching loglines
@@ -248,28 +253,24 @@ class RangeView(PageView):
                     break
         
         # Get the URL we should redirect to (if any)
-        page_start_url = None
+        snapped_selection_url = None
         if (not end and start != start_line.timestamp) \
         or (end and start != end and start_line.timestamp == end_line.timestamp):
             # We have an individual start time only
             # -or-
             # We have start and end times that resolve to the same log_line
-            page_start_url = selection_url( context, start_line.timestamp )
+            snapped_selection_url = selection_url( context, start_line.timestamp )
         elif (start != start_line.timestamp) \
           or (end and end != end_line.timestamp):
             # We have an invalid start/end time in a range
             # Doesn't matter if start is valid or not: this will handle both
-            page_start_url = selection_url(
+            snapped_selection_url = selection_url(
                 context,
                 start_line.timestamp,
                 end_line.timestamp
             )
-        
-        # Redirect to the URL we found
-        if page_start_url:
-            return HttpResponseRedirect( page_start_url )
             
-        return super( PageView, self ).render_to_response( context )
+        return snapped_selection_url
     
     def log_lines(self, start_page, end_page):
         log_lines, previous_link, next_link, highlight_index, discard = super(RangeView, self).log_lines(start_page, end_page)
