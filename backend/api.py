@@ -39,11 +39,30 @@ class Statement(object):
 
 
 class Utterance(Statement):
+    """A character saying something."""
     
     def __init__(self, speaker, text):
         """Construct with a Character object and a string."""
         self.speaker = speaker
         self.text = text
+
+
+class MediaItem(object):
+    """Any kind of media object, eg: image, video."""
+    
+    pass
+
+
+class Image(MediaItem):
+    """An image, lah."""
+    
+    def __init__(self, thumbnail_filename, filename, caption=None, source=None, url=None, **extra):
+        self.caption = caption
+        self.source = source
+        self.thumbnail_filename = thumbnail_filename
+        self.filename = filename
+        self.url = url
+        self.extra = extra
 
 
 class LogLine(object):
@@ -181,7 +200,7 @@ class LogLine(object):
     def images(self):
         "Returns any images associated with this LogLine."
         image_ids = self.redis_conn.lrange(u"log_line:%s:images" % self.id, 0, -1)
-        images = [self.redis_conn.hgetall(u"image:%s" % id) for id in image_ids]
+        images = (Image(**self.redis_conn.hgetall(u"image:%s" % id)) for id in image_ids)
         return images
 
     def labels(self):
