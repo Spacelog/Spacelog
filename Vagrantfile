@@ -3,6 +3,8 @@ Vagrant::Config.run do |config|
   config.vm.box_url = "http://dl.dropbox.com/u/7490647/talifun-ubuntu-11.04-server-i386.box"
   config.vm.network "172.16.1.2"
   config.vm.share_folder("v-root", "/vagrant", ".", :nfs => true)
+  config.vm.forward_port "http", 8000, 8000
+  config.vm.forward_port "http-global", 8001, 8001
   config.vm.provision :chef_solo do |chef|
    chef.cookbooks_path = "chef"
    chef.add_recipe "spacelog"
