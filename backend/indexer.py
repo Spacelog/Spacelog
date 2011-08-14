@@ -78,6 +78,10 @@ class TranscriptIndexer(object):
             xappy.FieldActions.STORE_CONTENT,
         )
         search_db.add_field_action(
+            "lang",
+            xappy.FieldActions.STORE_CONTENT,
+        )
+        search_db.add_field_action(
             "text",
             xappy.FieldActions.INDEX_FREETEXT,
             weight=1,
@@ -110,7 +114,7 @@ class TranscriptIndexer(object):
             self.transcript_name,
         )
 
-    def add_to_search_index(self, mission, id, chunk, weight, timestamp):
+    def add_to_search_index(self, mission, id, chunk, weight, timestamp, lang):
         """
         Take some text and a set of speakers (also text) and add a document
         to the search index, with the id stuffed in the document data.
@@ -120,6 +124,7 @@ class TranscriptIndexer(object):
         doc.fields.append(xappy.Field("mission", mission))
         doc.fields.append(xappy.Field("weight", weight))
         doc.fields.append(xappy.Field("transcript", self.transcript_name))
+        doc.fields.append(xappy.Field("lang", lang))
         for line in lines:
             text = re.sub(
                 r"\[\w+:([^]]+)\|([^]]+)\]",
@@ -296,6 +301,7 @@ class TranscriptIndexer(object):
                 chunk = chunk,
                 weight=weight,
                 timestamp=timestamp,
+                lang=current_lang,
             )
             # For any mentioned glossary terms, add to them.
             for word in text.split():

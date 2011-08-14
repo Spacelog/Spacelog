@@ -50,10 +50,6 @@ class TranscriptView(JsonTemplateView):
             log_lines += list(self.main_transcript_query().page(page))
         for log_line in log_lines:
             log_line.images = list(log_line.images())
-            log_line.lines = [
-                (s, linkify(t, self.request))
-                for s, t in log_line.lines
-            ]
             # If this is the first after the start time, add an anchor later
             if log_line.timestamp > timestamp_to_seconds(self.kwargs.get('start', "00:00:00:00")) and not done_closest:
                 log_line.closest = True

@@ -85,6 +85,12 @@ def time_link(match):
             match.group(1)
         )
 
+
+@tag(register, [Variable()])
+def linked(context, text):
+    return linkify(text, context['request'])
+
+
 @register.filter
 def linkify(text, request=None):
     # Typographize double quotes

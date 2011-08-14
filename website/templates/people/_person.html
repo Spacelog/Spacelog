@@ -28,9 +28,9 @@
   {% if person.quotable_log_line %}
   <div class="quote">
     <blockquote>
-      {% for speaker, line in person.quotable_log_line.lines %}
+      {% for speaker, line in person.quotable_log_line.primary_statements %}
       <p>
-        {{ line|linkify }}
+        {% linked line %}
       </p>
       {% endfor %}
     </blockquote>

@@ -15,7 +15,7 @@
   <dt id="{{ term.slug }}"{% if term.abbr_lang %} lang="{{ term.abbr_lang }}"{% endif %}>{{ term.abbr }}</dt>
   <dd{% if term.description_lang %} lang="{{ term.description_lang }}"{% endif %}>{{ term.description }}</dd>
   {% if term.extended_description %}
-    <dd class='extended'{% if term.extended_description_lang %} lang="{{ term.extended_description_lang }}"{% endif %}>{{ term.extended_description|linkify }}</dd>
+    <dd class='extended'{% if term.extended_description_lang %} lang="{{ term.extended_description_lang }}"{% endif %}>{% linked term.extended_description %}</dd>
   {% endif %}
   {% comment %}
     Don't show times mentioned or links yet.

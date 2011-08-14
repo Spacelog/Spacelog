@@ -35,7 +35,7 @@
     <a class='league-gothic read-button' href="{% timestamp_to_url act.start %}">Start reading</a>
     {% endifequal %}
 
-    <p class='description'>{{ act.description|linkify }}</p>
+    <p class='description'>{% linked act.description %}</p>
 
     {% if act.has_stats or act.key_scenes %}
     <h2>Activity</h2>

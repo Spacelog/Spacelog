@@ -23,7 +23,7 @@
                     {% avatar_and_name log_line.speaker mission.name log_line.timestamp %}
                     said
                     <a href="{% selection_url_in_transcript log_line.timestamp log_line.transcript_name %}">
-                        <q{% if log_line.lang %} lang="{{ log_line.lang }}"{% endif %}>{{ log_line.title|safe }}</q>
+                        <q{% if log_line.lang %} lang="{{ log_line.lang }}"{% endif %}>{{ log_line.title }}</q>
                     </a>
                 </h2>
                 <blockquote cite="{% selection_url_in_transcript log_line.timestamp log_line.transcript_name %}"{% if log_line.lang %} lang="{{ log_line.lang }}"{% endif %}><p>{{ log_line.summary }}</p></blockquote>
@@ -64,16 +64,14 @@
     
     <p>{{ error.info.text|safe }}</p>
     
-    {% if error.quote.lines %}
-      {% for line in error.quote.lines %}
+      {% for line in error.quote.primary_statements %}
       <div class="speaker">{% avatar line.0 mission.name %}</div>
     
       <blockquote>
-        <a href="{% selection_url error.quote.timestamp %}"><p>{{ line.1|linkify }}</p></a>
+        <a href="{% selection_url error.quote.timestamp %}"><p>{% linked line.1 %}</p></a>
       </blockquote>
     
       {% endfor %}
-    {% endif %}
     {% endif %}
     </div>
     <!-- {{ debug.query }} -->

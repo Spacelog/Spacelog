@@ -5,6 +5,7 @@ try:
     import json
 except ImportError:
     import simplejson as json
+from django.utils.datastructures import SortedDict
 
 class BaseQuery(object):
     """
@@ -46,6 +47,10 @@ class LogLine(object):
         self.id = u"%s:%i" % (self.transcript_name, self.timestamp)
         self._load()
 
+    @property
+    def primary_statements(self):
+        return self.by_transcript[self.transcript_name]
+
     @classmethod
     def by_log_line_id(cls, redis_conn, log_line_id):
         transcript, timestamp = log_line_id.split(u":", 1)
@@ -61,12 +66,14 @@ class LogLine(object):
         self.transcript_page = data.get('transcript_page')
         self.note = data.get('note', None)
 
-        self.lines = []
+        self.by_transcript = SortedDict()
+        lines = []
         for line in self.redis_conn.lrange(u"log_line:%s:lines" % self.id, 0, -1):
             line = line.decode('utf-8')
             speaker_identifier, text = [x.strip() for x in line.split(u":", 1)]
             speaker = Character(self.redis_conn, self.mission_name, speaker_identifier)
-            self.lines += [[speaker, text]]
+            lines += [[speaker, text]]
+        self.by_transcript[self.transcript_name] = lines
 
         self.next_log_line_id = data.get('next', None)
         self.previous_log_line_id = data.get('previous', None)
@@ -76,7 +83,7 @@ class LogLine(object):
         self.lang = data.get('lang', None)
 
     def __repr__(self):
-        return "<LogLine %s:%i, page %s (%s lines)>" % (self.transcript_name, self.timestamp, self.page, len(self.lines))
+        return "<LogLine %s:%i, page %s>" % (self.transcript_name, self.timestamp, self.page)
 
     def next(self):
         if self.next_log_line_id:

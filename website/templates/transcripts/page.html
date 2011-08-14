@@ -51,7 +51,7 @@
           </time>
         </a>
       </dt>
-    {% for speaker, text in log_line.lines %}
+    {% for speaker, text in log_line.primary_statements %}
       <dt class='speaker{% if not forloop.first %} subsequent{% endif %}'>
         {% avatar_and_name speaker mission.name log_line.timestamp %}
       </dt>
@@ -61,9 +61,9 @@
         <em><i>Key moment</i> {{ log_line.key_scene.title|safe }}<span>: </span></em>
         {% endif %}
         {% if log_line.lang %}
-        <span lang='{{ log_line.lang }}'>{{text|safe}}</span>
+        <span lang='{{ log_line.lang }}'>{% linked text %}</span>
         {% else %}
-        {{text|safe}}
+        {% linked text %}
         {% endif %}
       </p>
         {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
@@ -110,7 +110,7 @@
     Spoken on {{ first_highlighted_line.utc_time }} UTC ({{ first_highlighted_line.utc_time|timesince }} ago)<span>. </span>
     <i>Link to this<span> transcript range is</span>:</i>
     <input type="text" name="" value="{{ permalink }}">
-    <a title="Tweet this transcript range" href="http://twitter.com/share?url={{ permalink|urlencode:'' }}&amp;text={{ first_highlighted_line.lines.0.1|truncatewords:15|urlencode }}&amp;via=spacelog&amp;related=devfort">Tweet</a>
+    <a title="Tweet this transcript range" href="http://twitter.com/share?url={{ permalink|urlencode:'' }}&amp;text={{ first_highlighted_line.primary_statements.0.1|truncatewords:15|urlencode }}&amp;via=spacelog&amp;related=devfort">Tweet</a>
     </p>
     {% endif %}
     {% if log_line.following_silence > 3600 and max_highlight_index %}
