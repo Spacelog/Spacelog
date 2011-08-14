@@ -5,6 +5,7 @@
     "subdomains": ["vostok1"],
     "utc_launch_time": "1961-04-12T06:07:00",
     "main_transcript": "vostok1/MAIN",
+    "notes_transcript": "vostok1/NOTES",
     "copy": {
         "based_on_header": "As it happened",
         "title": "Vostok 1",

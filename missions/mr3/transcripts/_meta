@@ -31,6 +31,7 @@
     },
     "main_transcript": "mr3/ATG",
     "media_transcript": "mr3/MEDIA",
+    "notes_transcript": "mr3/NOTES",
     "utc_launch_time": "1961-05-05T14:34:13",
     "acts" : [
         {
