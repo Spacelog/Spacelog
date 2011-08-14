@@ -91,7 +91,7 @@
 
         {# Images #}
         {% if forloop.last %}
-          {% for image in log_line.images %}
+          {% for image in log_line.media %}
             <div class='image'>
                 <a href="{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/media/{{ image.filename }}">
                     <img src="{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/media/{{ image.thumbnail_filename }}" />

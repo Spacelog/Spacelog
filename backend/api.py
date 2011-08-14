@@ -95,31 +95,57 @@ class LogLine(object):
         self.key_scene_number = data.get('key_scene', None)
         self.utc_time = datetime.datetime.utcfromtimestamp(int(data['utc_time']))
         self.lang = data.get('lang', None)
+        
+    @property
+    def media(self):
+        # and get media as required
+        from_ts = self.timestamp
+        to_ts = self.next_timestamp(self.main_transcript_name)
+
+        media = []
+        for image in LogLine.Query(
+            self.redis_conn, self.mission_name
+            ).transcript(
+            self.media_transcript_name
+            ).range(
+            from_ts, to_ts - 1
+            ):
+            media += image.images()
+        return media
+
+    @property
+    def main_transcript_name(self):
+        return self.transcript_name
+
+    @property
+    def media_transcript_name(self):
+        # FIXME: this will not work
+        return self.mission_name + "/MEDIA"
 
     def __repr__(self):
         return "<LogLine %s:%i, page %s>" % (self.transcript_name, self.timestamp, self.page)
 
-    def next(self):
+    def next(self, transcript=None):
         if self.next_log_line_id:
             return LogLine.by_log_line_id(self.redis_conn, self.next_log_line_id)
         else:
             return None
 
-    def previous(self):
+    def previous(self, transcript=None):
         if self.previous_log_line_id:
             return LogLine.by_log_line_id(self.redis_conn, self.previous_log_line_id)
         else:
             return None
 
-    def next_timestamp(self):
-        next_log_line = self.next()
+    def next_timestamp(self, transcript=None):
+        next_log_line = self.next(transcript)
         if next_log_line is None:
             return None
         else:
             return next_log_line.timestamp
 
-    def previous_timestamp(self):
-        previous_log_line = self.previous()
+    def previous_timestamp(self, transcript=None):
+        previous_log_line = self.previous(transcript)
         if previous_log_line is None:
             return None
         else:
