@@ -1,7 +1,9 @@
+from __future__ import division
 import os.path
 from django.conf import settings
-from django.http import Http404, HttpResponseRedirect
+from django.http import Http404, HttpResponseRedirect, HttpResponse
 from django.views.generic import TemplateView
+from django.views.decorators.http import condition
 from django.core.urlresolvers import reverse
 from website.apps.common.views import JsonTemplateView
 from backend.api import LogLine, Act
@@ -387,3 +389,52 @@ class OriginalView(TemplateView):
             "next_page": page + 1 if page < max_transcript_pages else None,
             "previous_page": page - 1 if page > 1 else None,
         }
+
+class ProgressiveFileWrapper(object):
+    def __init__(self, filelike, blksize, interval):
+        self.filelike = filelike
+        self.blksize = blksize
+        self.lastsend = None
+        if hasattr(filelike,'close'):
+            self.close = filelike.close
+
+    def _wait(self):
+        if self.lastsend is None:
+            return
+        diff = time() - self.lastsend + interval
+        if diff < 0:
+            return
+        sleep(diff)
+
+    def __getitem__(self,key):
+        self._wait()
+        data = self.filelike.read(self.blksize)
+        if data:
+            return data
+        raise IndexError
+
+    def __iter__(self):
+        return self
+
+    def next(self):
+        self._wait()
+        data = self.filelike.read(self.blksize)
+        if data:
+            return data
+        raise StopIteration
+
+@condition(etag_func=None)
+def stream(request, start):
+    bitrate = 48000
+    offset = 555
+    file_path = os.path.join(settings.SITE_ROOT, '../missions/mr3/audio/ATG.mp3')
+    start = timestamp_to_seconds(start)
+    offset = int((start + offset) * bitrate / 8)
+    file_size = os.path.getsize(file_path)
+    if offset > file_size or offset < 0:
+        raise Http404
+    fh = open(file_path, 'r')
+    fh.seek(offset)
+    response = HttpResponse(ProgressiveFileWrapper(fh, int(bitrate / 8), 1))
+    response['Content-Type'] = 'audio/mpeg'
+    return response
