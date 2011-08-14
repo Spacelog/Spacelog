@@ -28,9 +28,9 @@
   {% if person.quotable_log_line %}
   <div class="quote">
     <blockquote>
-      {% for speaker, line in person.quotable_log_line.primary_statements %}
+      {% for utterance in person.quotable_log_line.primary_statements %}
       <p>
-        {% linked line %}
+        {% linked utterance.text %}
       </p>
       {% endfor %}
     </blockquote>

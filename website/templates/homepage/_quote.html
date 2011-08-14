@@ -3,7 +3,7 @@
 <div id='homepage-quote'>
   
   <blockquote{% if quote.lang %} lang="{{ quote.lang }}"{% endif %}>
-    <p>{% linked quote.primary_statements.0.1 %}</p>
+    <p>{% linked quote.primary_statements.0.text %}</p>
   </blockquote>
   <i>
   <cite><a class='transcript' href="{% selection_url_in_transcript quote.timestamp quote.transcript_name %}">Read this moment</a></cite>

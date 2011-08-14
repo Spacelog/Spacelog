@@ -30,7 +30,21 @@ class BaseQuery(object):
 
     def __iter__(self):
         return iter( self.items() )
+
+
+class Statement(object):
+    """Base class for timestamped stuff that happens in a narrative transcript."""
     
+    pass
+
+
+class Utterance(Statement):
+    
+    def __init__(self, speaker, text):
+        """Construct with a Character object and a string."""
+        self.speaker = speaker
+        self.text = text
+
 
 class LogLine(object):
     """
@@ -72,7 +86,7 @@ class LogLine(object):
             line = line.decode('utf-8')
             speaker_identifier, text = [x.strip() for x in line.split(u":", 1)]
             speaker = Character(self.redis_conn, self.mission_name, speaker_identifier)
-            lines += [[speaker, text]]
+            lines.append(Utterance(speaker, text))
         self.by_transcript[self.transcript_name] = lines
 
         self.next_log_line_id = data.get('next', None)

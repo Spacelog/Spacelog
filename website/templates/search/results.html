@@ -64,11 +64,11 @@
     
     <p>{{ error.info.text|safe }}</p>
     
-      {% for line in error.quote.primary_statements %}
-      <div class="speaker">{% avatar line.0 mission.name %}</div>
+      {% for utterance in error.quote.primary_statements %}
+      <div class="speaker">{% avatar utterance.speaker mission.name %}</div>
     
       <blockquote>
-        <a href="{% selection_url error.quote.timestamp %}"><p>{% linked line.1 %}</p></a>
+        <a href="{% selection_url error.quote.timestamp %}"><p>{% linked utterance.text %}</p></a>
       </blockquote>
     
       {% endfor %}
