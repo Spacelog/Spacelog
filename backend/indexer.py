@@ -120,6 +120,10 @@ class TranscriptIndexer(object):
         Take some text and a set of speakers (also text) and add a document
         to the search index, with the id stuffed in the document data.
         """
+        
+        if self.transcript_name in self.mission.special_transcripts:
+            return
+        
         lines = chunk['lines']
         doc = xappy.UnprocessedDocument()
         doc.fields.append(xappy.Field("mission", mission))
