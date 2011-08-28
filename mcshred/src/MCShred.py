@@ -2,6 +2,7 @@
 
 import sys
 import re
+from optparse import OptionParser
 
 #MAX_FILE_NUMBER = 20
 TIMESTAMP_PARTS = 4
@@ -19,14 +20,18 @@ def shred_to_lines(lines):
     logLines = []
     tapeNumber = None
         
-    for line in lines:
+    for number, line in enumerate(lines):
         line = line.decode('utf-8')
-        if line.strip().startswith(u"Page"):
-            pageNumber = int(line.strip().lstrip(u"Page ").strip())
-        elif line.strip().startswith(u"Tape "):
-            tapeNumber = line.lstrip(u"Tape ").strip()
-        else:
-            logLines.append(LogLine(pageNumber, tapeNumber, line))
+        try:
+            if line.strip().startswith(u"Page"):
+                pageNumber = int(line.strip().lstrip(u"Page ").strip())
+            elif line.strip().startswith(u"Tape "):
+                tapeNumber = line.lstrip(u"Tape ").strip()
+            else:
+                logLines.append(LogLine(pageNumber, tapeNumber, line))
+        except:
+            print "Failed on line %i: %s" % (number+1, line)
+            raise
 
     return logLines
 
@@ -76,8 +81,6 @@ def translate_timestamp_to_seconds_from_mission_start(timestamp):
 
 def set_timestamp_speaker_and_text(line):
     
-    print line.raw
-
     values =  re.split("[ \t\:]+", line.raw);
    
     line.set_seconds_from_mission_start(get_seconds_from_mission_start(line))
@@ -122,14 +125,16 @@ def is_a_non_log_line(line):
                 or not line.raw \
                 or "(Music" in line.raw
 
-def translate_lines(translated_lines):
+def translate_lines(translated_lines, verbose=False):
     translatedLines = []
     currentLine = None
 
-    for line in translated_lines:
+    for number, line in enumerate(translated_lines):
         if line_is_a_new_entry(line):
             if currentLine != None:
                 translatedLines.append(currentLine)
+            if verbose:
+                print line.raw
             set_timestamp_speaker_and_text(line)
             currentLine = line
         elif currentLine != None:
@@ -139,7 +144,7 @@ def translate_lines(translated_lines):
                 else:
                     currentLine.append_text(line.raw)
         else:
-            errors.append("Encountered An initial Line without nominal timestamp:  \n%s" % line.raw)
+            errors.append("Line %i has no nominal timestamp: %s" % (number+1, line.raw))
     
     translatedLines.append(currentLine)
     
@@ -266,17 +271,22 @@ class BadNumberSub:
         self.badSubList = badSubList
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print "usage MCShred.py <pathToCompletedFile> <outputFile>"
-        print "ex: MCShred.py /assets/transcripts/apollo13/AS13_TEC/0_CLEAN/000.txt /assets/transcripts/apollo13/as13/TEC/000shredded.txt"
-        sys.exit(1)
+    usage = "usage: %prog [options] input_file output_file\n" + "eg: %prog missions/a18/TEC.txt missions/a18/transcripts/TEC"
     
-    file_path = sys.argv[1]
-    output_file = sys.argv[2]
+    parser = OptionParser(usage=usage)
+    parser.add_option('-v', '--verbose', dest='verbose', action='store_true', default=False, help="print out parsed lines")
+    (options, args) = parser.parse_args()
+    
+    if len(args)!=2:
+        parser.print_help()
+        sys.exit(0)
+    
+    file_path = args[0]
+    output_file = args[1]
     allRawLines = get_all_raw_lines(file_path)
-    print "this many raw lines: %d" % len(allRawLines)
-    translated_lines = translate_lines(allRawLines)
-    print "this many translated lines: %d" % len(translated_lines)
+    print "Read in %d raw lines (%d non-blank)." % (len(allRawLines), len(filter(lambda x: x.raw.strip(), allRawLines)))
+    translated_lines = translate_lines(allRawLines, options.verbose)
+    print "Translated to %d lines." % len(translated_lines)
     check_lines_are_in_sequence(translated_lines)
     
     amalgamated_lines = amalgamate_lines_by_timestamp(translated_lines)
