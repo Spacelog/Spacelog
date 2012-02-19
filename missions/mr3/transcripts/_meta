@@ -1,6 +1,6 @@
 {
     "name": "mr3",
-    "featured": false,
+    "featured": true,
     "incomplete": false,
     "subdomains": ["mercury3"],
     "copy": {
