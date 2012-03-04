@@ -28,7 +28,7 @@ def shred_to_lines(lines):
             elif line.strip().startswith(u"Tape "):
                 tapeNumber = line.lstrip(u"Tape ").strip()
             else:
-                logLines.append(LogLine(pageNumber, tapeNumber, line))
+                logLines.append(LogLine(pageNumber, tapeNumber, number, line))
         except:
             print "Failed on line %i: %s" % (number+1, line)
             raise
@@ -184,7 +184,7 @@ def get_formatted_record_for(line):
             last_tape = line.tape
         if len(line.non_log_lines) > 0:
             lines.append(u"_extra : %s\n" % "/n".join(line.non_log_lines))
-        lines.append((u"%s: %s" % (line.speaker, line.text,)).encode('utf-8'))
+        lines.append(u"%s: %s" % (line.speaker, line.text,))
         return lines
     else:
         return []
@@ -210,8 +210,17 @@ def report_errors_and_exit():
 
 def output_lines_to_file(lines, output_file_name_and_path):
     outputFile = open(output_file_name_and_path, "w")
-    for line in lines:
-        outputFile.writelines(get_formatted_record_for(line))
+    for i, line in enumerate(lines):
+        try:
+            outputFile.writelines(
+                map(
+                    lambda x: x.encode('utf8'),
+                    get_formatted_record_for(line),
+                )
+            )
+        except:
+            print >>sys.stderr, "Failure in line %i (raw line %i)" % (i, line.line)
+            raise
     outputFile.close()
 
 def amalgamate_lines_by_timestamp(lines):
@@ -237,10 +246,11 @@ def get_timestamp_as_mission_time(line):
     return "%02d:%02d:%02d:%02d" % (days, hours, minutes, seconds)
 
 class LogLine:
-    def __init__(self, pageNumber, tapeNumber, rawLine):
+    def __init__(self, pageNumber, tapeNumber, lineNumber, rawLine):
         self.raw = rawLine
         self.page = pageNumber
         self.tape = tapeNumber
+        self.line = lineNumber
         self.speaker = ""
         self.non_log_lines = []
 
