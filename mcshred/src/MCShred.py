@@ -95,6 +95,20 @@ def set_timestamp_speaker_and_text(line):
     else:
         line.set_text(u"")
 
+def set_speaker_and_text(line):
+    
+    values =  re.split("[ \t\:]+", line.raw);
+    
+    if len(values) > 0:
+        line.set_speaker(values[0])
+    else:
+        line.set_speaker(u"_note")
+        
+    if len(values) > 1:
+        line.set_text(" ".join(values[1:]))
+    else:
+        line.set_text(u"")
+
 def line_is_a_new_entry(line):
     
     dateTokens = re.split('[ \t\:]+', line.raw)
@@ -125,13 +139,18 @@ def is_a_non_log_line(line):
                 or not line.raw \
                 or "(Music" in line.raw
 
+
+def is_additional_speaker_line(line):
+    return not line.raw[0].isspace()
+
+
 def translate_lines(translated_lines, verbose=False):
     translatedLines = []
     currentLine = None
 
     for number, line in enumerate(translated_lines):
         if line_is_a_new_entry(line):
-            if currentLine != None:
+            if currentLine is not None:
                 translatedLines.append(currentLine)
             if verbose:
                 print line.raw
@@ -141,6 +160,12 @@ def translate_lines(translated_lines, verbose=False):
             if line.raw.strip():
                 if is_a_non_log_line(line):
                     currentLine.append_non_log_line(line.raw.strip())
+                elif is_additional_speaker_line(line) and currentLine:
+                    translatedLines.append(currentLine)
+                    line.seconds_from_mission_start = \
+                        currentLine.seconds_from_mission_start
+                    set_speaker_and_text(line)
+                    currentLine = line
                 else:
                     currentLine.append_text(line.raw)
         else:
