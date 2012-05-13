@@ -1,0 +1,163 @@
+{
+    "name": "ma7",
+    "featured": false,
+    "incomplete": true,
+    "subdomains": ["mercury7", "ma7"],
+    "copy": {
+        "title": "Mercury 7",
+        "upper_title": "Mercury",
+        "lower_title": "7",
+        "description": "The second American orbital manned space mission, piloted by Scott Carpenter.",
+        "summary": "Second American to reach earth orbit",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+            "Matthew Somerville"
+        ],
+        "about": "",
+        "image_attributions": [
+        ],
+        "transcript_attributions": [
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/mercury.htm", "title": "Mercury-Atlas 7 Results of the Second United States Orbital Space Flight" }
+        ],
+        "call_signs": "The Mercury capsule's callsign through the mission is Aurora Seven. The CAPCOMs' call signs are location-dependent."
+    },
+    "main_transcript": "ma7/TEC",
+    "media_transcript": "ma7/MEDIA",
+    #"transcript_pages": {
+    #    "ma7/TEC": 
+    #},
+    "utc_launch_time": -240063284,
+    "acts" : [
+        {
+            "title": "Launch",
+            "description": "After a over two hours of last-minute holds, Atlas LV-3B launched Friendship 7 and its pilot John Glenn towards Earth orbit.",
+            "range": ["-00:00:00:05", "00:00:05:32"],
+            "homepage": "phase1.jpg",
+            "banner": "act1.jpg",
+            "banner_colour": "#5d86b2"
+        },
+        {
+            "title": "1st Orbit",
+            "description": "TODO",
+            "range": ["00:00:05:32", "00:01:29:31"],
+            "homepage": "phase2.jpg",
+            "banner": "act2.jpg"
+        },
+        {
+            "title": "2nd Orbit",
+            "description": "TODO",
+            "range": ["00:01:29:31", "00:02:59:58"],
+            "homepage": "phase3.jpg",
+            "banner": "act3.jpg"
+        },
+        {
+            "title": "3rd Orbit",
+            "description": "TODO",
+            "range": ["00:02:59:58", "00:04:23:16"],
+            "homepage": "phase4.jpg",
+            "banner": "act4.jpg"
+        },
+        {
+            "title": "Reentry",
+            "description": "TODO, mention overshot due to fireflies.",
+            "range": ["00:04:23:16", "00:04:55:36"],
+            "homepage": "phase5.jpg",
+            "banner": "act5.jpg"
+        }
+    ],
+    "key_scenes" : [
+    ],
+    "homepage_quotes": [
+    ],
+    "characters": {
+        "CC": {
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
+            "name": "Capsule Communicator",
+            "short_name": "CAPCOM",
+            "bio": "In the Mercury missions, CAPCOM was the main person to communicate with the pilot. On Mercury-Atlas 7, there were CAPCOMs operating from different stations around the world, enabling Scott to remain in contact with the Earth through his orbits.",
+            "photo": "capcom.jpg",
+            "photo_width": 190,
+            "photo_height": 205,
+            "avatar": "capcom_generic.jpg",
+            "locations": [
+                "notes for unpacking this into shifts later",
+                #[ "cape", "Shepard" ],
+                #[ "bermuda", "Grissom" ],
+                #[ "backup pilot", "Carpenter", "ISTR that backup pilots were in the launch complex for MA launches, although this could be completely wrong" ],
+                #[ "california (Point Arguello)", "Schirra" ],
+                #[ "muchea", "Cooper" ],
+                #"Deke was at the Cape with Shepard"
+            ]
+        },
+        "F": {
+            "role": "astronaut",
+            "_comment": "not an astronaut, done for formatting reasons",
+            "name": "Flight Director at Bermuda range station",
+            "short_name": "Flight",
+            "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. They rarely talked directly to the capsule pilot, usually communicating through CAPCOM.",
+            "photo": "flight_directors.jpg",
+            "photo_width": 190,
+            "photo_height": 205,
+            "avatar": "F_48.png"
+        },
+        "P": {
+          "role": "astronaut",
+          "name": "Malcolm Scott Carpenter",
+          "short_name": "Scott Carpenter",
+          "bio": "",
+          #"photo": "john_glenn.png",
+          "photo_width": 190,
+          "photo_height": 205,
+          #"avatar": "john_glenn.jpg",
+          "quotable_log_line_id": "TEC:00:01:14:19"
+        },
+        "CT": {
+          "role": "other",
+          "name": "Communications Technician",
+          "short_name": "Comm Tech",
+          "avatar": "person.png"
+        },
+        "S": {
+          "role": "other",
+          "name": "Surgeon",
+          "short_name": "Flight Surgeon",
+          "avatar": "surgeon.png"
+        }
+    },
+    "shared_glossaries": ["space"],
+    "glossary": {
+        "ASCS": {
+            "summary": "Automatic Stabilization and Control System",
+            "type": "abbreviation"
+        },
+        "ATS": {
+            "summary": "Atlantic Ship",
+            "type": "abbreviation"
+        },
+        "FBW": {
+            "summary": "Fly By Wire",
+            "type": "abbreviation"
+        }, 
+        "MP": {
+            "summary": "Manual Proportional",
+            "type": "abbreviation"
+        }, 
+        "RSCS": {
+            "summary": "Rate Stabilization and Control System",
+            "type": "abbreviation"
+        }, 
+        "IOS": {
+            "summary": "Indian Ocean Ship",
+            "type": "abbreviation"
+        },
+        "CYI": {
+            "summary": "Canary Islands",
+            "type": "abbreviation"
+        },
+        "MCC": {
+            "summary": "Mercury Control Center",
+            "type": "abbreviation"
+        }
+    }
+}

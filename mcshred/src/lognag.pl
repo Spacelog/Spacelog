@@ -322,7 +322,7 @@ sub process {
 
         push( @fail, 'j-grows-up-so-fast' )
           if $txt =~
-/[^.\?"][ ]+J(?!ack|im|oe|ohn|ames|ay|ustice|ohannesburg|ettison|ETT|ETS|r\.)[^A-Z]/;
+/[^.\?"][ ]+J(?!ack|im|oe|erry|ohn|ames|ay|ust|ustice|ohannesburg|ettison|ETT|ETS|r\.)[^A-Z]/;
         push( @fail, 'noleet-0-please' )
           if $txt =~ /([A-Za-z]0[A-Za-z\s]|[A-Za-z\s]0[A-Za-z])/;
 
@@ -343,7 +343,7 @@ sub process {
         push( @fail, 'stu-tts-ers' )           if $txt =~ /tts\b/;
         push( @fail, 't-is-such-a-lonely-number' )
           if $txt =~ /[^'.]\bt\b/;
-        push( @fail, 'underscore' )         if $txt =~ /_/;
+        push( @fail, 'underscore' )         if $txt =~ /_/ && $txt !~ /^_/;
         push( @fail, 'we-tlave-a-floblem' ) if $txt =~ /[^H]ouston/;
         push( @fail, 'orphaned-degree' )    if $txt =~ /\s°/;
 
