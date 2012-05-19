@@ -14,6 +14,7 @@
             "Matthew Somerville"
         ],
         "about": "",
+        "type_search": "fireflies",
         "image_attributions": [
         ],
         "transcript_attributions": [
@@ -51,6 +52,9 @@
     "key_scenes" : [
     ],
     "homepage_quotes": [
+        "00:00:45:15",
+        "00:00:47:46.5",
+        "00:01:22:03"
     ],
     "characters": {
         "CC": {
@@ -91,7 +95,7 @@
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "scott_carpenter.jpg",
-          "quotable_log_line_id": "TEC:00:01:14:19"
+          "quotable_log_line_id": "TEC:00:00:45:15"
         },
         "CT": {
           "role": "other",
