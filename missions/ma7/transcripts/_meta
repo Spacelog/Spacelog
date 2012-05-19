@@ -23,46 +23,29 @@
     },
     "main_transcript": "ma7/TEC",
     "media_transcript": "ma7/MEDIA",
-    #"transcript_pages": {
-    #    "ma7/TEC": 
-    #},
     "utc_launch_time": -240063284,
     "acts" : [
         {
             "title": "Launch",
-            "description": "After a over two hours of last-minute holds, Atlas LV-3B launched Friendship 7 and its pilot John Glenn towards Earth orbit.",
+            "description": "TODO",
             "range": ["-00:00:00:05", "00:00:05:32"],
             "homepage": "phase1.jpg",
             "banner": "act1.jpg",
             "banner_colour": "#5d86b2"
         },
         {
-            "title": "1st Orbit",
+            "title": "Earth orbits",
             "description": "TODO",
-            "range": ["00:00:05:32", "00:01:29:31"],
+            "range": ["00:00:05:32", "00:04:23:16"],
             "homepage": "phase2.jpg",
             "banner": "act2.jpg"
         },
         {
-            "title": "2nd Orbit",
-            "description": "TODO",
-            "range": ["00:01:29:31", "00:02:59:58"],
+            "title": "Reentry & splashdown",
+            "description": "TODO, mention overshot due to fireflies.",
+            "range": ["00:04:23:16", "00:04:56:00"],
             "homepage": "phase3.jpg",
             "banner": "act3.jpg"
-        },
-        {
-            "title": "3rd Orbit",
-            "description": "TODO",
-            "range": ["00:02:59:58", "00:04:23:16"],
-            "homepage": "phase4.jpg",
-            "banner": "act4.jpg"
-        },
-        {
-            "title": "Reentry",
-            "description": "TODO, mention overshot due to fireflies.",
-            "range": ["00:04:23:16", "00:04:55:36"],
-            "homepage": "phase5.jpg",
-            "banner": "act5.jpg"
         }
     ],
     "key_scenes" : [
@@ -82,18 +65,16 @@
             "avatar": "capcom_generic.jpg",
             "locations": [
                 "notes for unpacking this into shifts later",
-                #[ "cape", "Shepard" ],
-                #[ "bermuda", "Grissom" ],
-                #[ "backup pilot", "Carpenter", "ISTR that backup pilots were in the launch complex for MA launches, although this could be completely wrong" ],
-                #[ "california (Point Arguello)", "Schirra" ],
-                #[ "muchea", "Cooper" ],
-                #"Deke was at the Cape with Shepard"
+                [ "cape", "Grissom" ],
+                [ "guyamas", "Cooper" ],
+                [ "backup pilot", "Schirra", "ISTR that backup pilots were in the launch complex for MA launches, although this could be completely wrong" ],
+                [ "muchea", "Slayton" ]
             ]
         },
         "F": {
             "role": "astronaut",
             "_comment": "not an astronaut, done for formatting reasons",
-            "name": "Flight Director at Bermuda range station",
+            "name": "Flight Director",
             "short_name": "Flight",
             "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. They rarely talked directly to the capsule pilot, usually communicating through CAPCOM.",
             "photo": "flight_directors.jpg",
@@ -106,10 +87,10 @@
           "name": "Malcolm Scott Carpenter",
           "short_name": "Scott Carpenter",
           "bio": "",
-          #"photo": "john_glenn.png",
+          "photo": "scott_carpenter.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          #"avatar": "john_glenn.jpg",
+          "avatar": "scott_carpenter.jpg",
           "quotable_log_line_id": "TEC:00:01:14:19"
         },
         "CT": {
