@@ -14,6 +14,9 @@
             "Matthew Somerville"
         ],
         "about": "",
+        "component_suppression": {
+            "leading": 1
+        },
         "type_search": "fireflies",
         "image_attributions": [
         ],
