@@ -7,13 +7,13 @@
         "title": "Mercury 7",
         "upper_title": "Mercury",
         "lower_title": "7",
-        "description": "The second American orbital manned space mission, piloted by Scott Carpenter.",
-        "summary": "Second American to reach earth orbit",
+        "description": "Beyond a repeat of Mercury 6, an important flight packed with science experiments, which allowed pilot Scott Carpenter to solve Glenn's \"firefly\" mystery.",
+        "summary": "Second American orbital mission",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "cleaners": [
             "Matthew Somerville"
         ],
-        "about": "",
+        "about": "Originally planned for Deke Slayton, a medical condition opened the way for Scott Carpenter to pilot NASA's second orbital flight. This site allows you to explore transcripts of radio communications between Carpenter aboard Aurora 7 and the NASA personnel at monitoring stations around the world.",
         "component_suppression": {
             "leading": 1
         },
@@ -31,7 +31,7 @@
     "acts" : [
         {
             "title": "Launch",
-            "description": "TODO",
+            "description": "Despite poor visibility at the Cape causing nearly an hour of holds, Mercury 7 had the smoothest pre-flight countdown to date of NASA's manned missions, lifting off at 7.45am.",
             "range": ["-00:00:00:05", "00:00:05:32"],
             "homepage": "phase1.jpg",
             "banner": "act1.jpg",
@@ -39,14 +39,14 @@
         },
         {
             "title": "Earth orbits",
-            "description": "TODO",
+            "description": "A full schedule of experiments on weightlessness, Earth photography and more was complemented by a serendipitous discovery: the \"fireflies\" John Glenn had witnessed during his flight were found by Carpenter to be ice particles shaken loose from the spacecraft's exterior.",
             "range": ["00:00:05:32", "00:04:23:16"],
             "homepage": "phase2.jpg",
             "banner": "act2.jpg"
         },
         {
             "title": "Reentry & splashdown",
-            "description": "TODO, mention overshot due to fireflies.",
+            "description": "Low on fuel and following a fraught re-entry, splashdown was over 400km off target, although despite a tense period for watching millions both pilot and capsule were recovered safely.",
             "range": ["00:04:23:16", "00:04:56:00"],
             "homepage": "phase3.jpg",
             "banner": "act3.jpg"
@@ -93,7 +93,7 @@
           "role": "astronaut",
           "name": "Malcolm Scott Carpenter",
           "short_name": "Scott Carpenter",
-          "bio": "",
+          "bio": "A former Navy aviator in Korea, Scott Carpenter became the second American in orbit before taking a leave of absence frm NASA to train for the Navy's SEALAB project, remaining underwater for a record 30 days on SEALAB II and continuing ocean-focused work with his company Sea Sciences after leaving the Navy following the end of SEALAB.",
           "photo": "scott_carpenter.jpg",
           "photo_width": 190,
           "photo_height": 205,
