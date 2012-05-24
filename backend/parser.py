@@ -89,7 +89,7 @@ class TranscriptParser(object):
                         data = json.loads(blob)
                     except ValueError:
                         try:
-                            data = json.loads('"%s"' % blob)
+                            data = json.loads('"%s"' % blob.replace('"', r'\"'))
                         except ValueError:
                             print "Error: Invalid json at timestamp %s, key %s" % \
                                             (seconds_to_timestamp(timestamp), name)

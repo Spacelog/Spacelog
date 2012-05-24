@@ -32,7 +32,7 @@ P: Roger, the backup clock has started.
 CC: Roger, Aurora Seven.
 
 [00:00:00:29]
-P: Clear blue sky; 32 seconds; 9,000 [feet], fuel and oxygen steady; cabin pressure 15.1 [psia]; and dropping. A little rough through max q, and I minute.
+P: Clear blue sky; 32 seconds; 9,000 [feet], fuel and oxygen steady; cabin pressure 15.1 [psia]; and dropping. A little rough through max q, and 1 minute.
 
 [00:00:00:46]
 CC: Roger. You're looking good from here.
@@ -44,7 +44,7 @@ P: Okay, 25 amps and the power is good.
 CC: Roger. You're looking good.
 
 [00:00:00:59.5]
-P: Mark, i minute. Cabin pressure is on schedule; fuel and oxygen are steady, 24 amps; all the power is good.
+P: Mark, 1 minute. Cabin pressure is on schedule; fuel and oxygen are steady, 24 amps; all the power is good.
 
 [00:00:01:10.5]
 CC: Roger. Pitch is 56 [degrees]. You look--
@@ -112,7 +112,7 @@ CC: Roger. Pitch minus, minus 2 1/2 [degrees], and you're right on; you're good.
 P: Roger. Reading you loud and clear, Gus.
 
 [00:00:03:29]
-CC: Aurora Seven, . .., you are good.
+CC: Aurora Seven, . . ., you are good.
 
 [00:00:03:33.5]
 P: Roger. Still reading you. Broken a little bit. At 30, my status is good. Fuel and oxygen are steady. Cabin is holding 5.8 [psia]; Cabin is holding 5.8 [psia]. Power is good, 25 amps.
@@ -196,7 +196,7 @@ CC: Aurora Seven, standby for retrosequence times.
 P: Standing by.
 
 [00:00:07:31.5]
-CC: Area I B is 17 17.
+CC: Area 1 B is 17 17.
 
 [00:00:07:38.5]
 P: 17 17 Roger.
@@ -291,7 +291,7 @@ P: I have some pictures of the booster, maybe 17 or 18, all together. Then going
 P: There are some rather large pieces floating around. The flight plan is now out. Gyros are going to free at 12 33, and I'm going to fly-by-wire to track the booster. I will--this is not a good tracking problem. Our speeds are too close to being the same. I will put it in the center of the right window, plus. I have it right in the center--I feel that--overshot there. Getting ahead of me in pitch.
 
 [00:00:13:29.5]
-P: The high thrusters work well, close tracking should be done on--on fly-by-wire low only. To follow the booster is a tough job with the highs. Gyros are staying within limits pretty welt. Elapsed time is 13 56. I have lost sight of the booster at this time. I'll pick up a retroattitude at this time for Canary radar. Large piece of--
+P: The high thrusters work well, close tracking should be done on--on fly-by-wire low only. To follow the booster is a tough job with the highs. Gyros are staying within limits pretty well. Elapsed time is 13 56. I have lost sight of the booster at this time. I'll pick up a retroattitude at this time for Canary radar. Large piece of--
 
 [00:00:14:37.5]
 P: Going back to gyros free, or to gyros normal.
@@ -361,10 +361,10 @@ P: Stand by one.
 P: Send your message, Canary.
 
 [00:00:18:41.5]
-CC: Roger. End of orbit time 01 28 17. End of mission, 04 32 27. i Bravo 16 plus 56. Did you copy? Over.
+CC: Roger. End of orbit time 01 28 17. End of mission, 04 32 27. 1 Bravo 16 plus 56. Did you copy? Over.
 
 [00:00:19:05]
-P: Roger. End of orbit 01 28 17, Hotel 04 32 39, I Bravo 16 56. Over.
+P: Roger. End of orbit 01 28 17, Hotel 04 32 39, 1 Bravo 16 56. Over.
 
 [00:00:19:22]
 CC: Correction. Aurora Seven, correction 1 Bravo. Make that 16 plus 52. Over.
@@ -417,13 +417,13 @@ P: Roger.
 CC: Blood-pressure check, please. Hold your button for 4 seconds and then go through the short report.
 
 [00:00:24:16]
-P: Roger. Blood-pressure start, nob'. My status is good. The capsule status is good. Furl is 99-98 ]percent]. Oxygen, 89-100 [percent]. Cabin is holding good. All d-c power is good. All a-c power is good, 22 amps. Everything is green and you should be reading blood pressure. Over.
+P: Roger. Blood-pressure start, nob'. My status is good. The capsule status is good. Furl is 99-98 [percent]. Oxygen, 89-100 [percent]. Cabin is holding good. All d-c power is good. All a-c power is good, 22 amps. Everything is green and you should be reading blood pressure. Over.
 
 [00:00:24:41.5]
 CC: Roger. We are reading blood pressure. Do you want to check your UHF low? Over.
 
 [00:00:24:47]
-P: Roger. Going to L'HF low now, stand by 15.
+P: Roger. Going to UHF low now, stand by 15.
 
 [00:00:25:10.5]
 P: Hello, Kano. Hello, Kano Cap Com. Aurora Seven UHF low. How do you read?
@@ -465,7 +465,7 @@ P: Roger. My mode is auto, gyro normal, maneuver off.
 CC: Aurora Seven, Kano Cap Com. Be sure you're on fly-by-wire before going through the procedures for uncaging.
 
 [00:00:28:27]
-P: Roger: Roger. Understand.
+P: Roger. Roger. Understand.
 
 [00:00:28:54.5]
 P: I'm going to be unable to complete the MIT pictures on this pass, I believe. Negative, negative, I can fix the problem. Too much film was out of the canister, that was the problem. Film is now in tight. The small back going on now.
@@ -587,7 +587,7 @@ CC: Rog. Coming in very good, dad. Sound very good. How's things going?
 _page : 82
 
 [00:00:49:45.5]
-P: Roger. Things axe going very well. My status is very good. The capsule status is very good. The control mode is normal. Automatic gyros normal and maneuver off. Fuel is 72-100 [percent]. Oxygen 88-100 [percent]. Everything is normal with the exception of---the fact that I am a lad behind in the flight plan. Over.
+P: Roger. Things axe going very well. My status is very good. The capsule status is very good. The control mode is normal. Automatic gyros normal and maneuver off. Fuel is 72-100 [percent]. Oxygen 88-100 [percent]. Everything is normal with the exception of---the fact that I am a tad behind in the flight plan. Over.
 
 [00:00:50:11.5]
 CC: Roger. Understand.
@@ -605,7 +605,7 @@ P: Roger. This is the story on the suit temp. I have increased two 10-degree mar
 CC: Rog, Understand. I'll give you some retrotimes while you're sending blood pressure. End of orbit is 01 28 18. End of mission is 04 32 28.
 
 [00:00:51:15.5]
-P: Roger. Understand. End of orbit 01 28 18 and 04 32 28 for end of orbit. Over. End of nxission.
+P: Roger. Understand. End of orbit 01 28 18 and 04 32 28 for end of orbit. Over. End of mission.
 
 [00:00:51:26]
 CC: That's affirmative. We indicate your clock is 1 second slow and this is compensated for.
@@ -730,7 +730,7 @@ CC: Roger. We're going to have the flare in approximately 2 minutes. We'll give 
 P: Roger. And for your information, Rate Command is also working in all axes. Over.
 
 [00:00:56:47.5]
-CC: Roger. Ratc rate Command in all axes.
+CC: Roger. Rate--rate Command in all axes.
 
 [00:00:56:52]
 P: That--that signifies that all control systems are operating satisfactorily. Over.
@@ -879,7 +879,7 @@ P: I am going to drifting flight at this time. Over.
 CC: Roger.
 
 [00:01:02:53.5]
-P: Gyros are caged. I have about a 2-degree-per-second yaw rate. All gyros are zero. I have Corvus directly above me I'm yawing over the top. I feel that my attitude is--the line of sight is nearly--nearly vertical
+P: Gyros are caged. I have about a 2-degree-per-second yaw rate. All gyros are zero. I have Corvus directly above me. I'm yawing over the top. I feel that my attitude is--the line of sight is nearly--nearly vertical.
 
 [00:01:03:55]
 P: I am in VOX record only now. The time is 01 04 00 elapsed. I'm searching the star charts.
@@ -897,7 +897,7 @@ P: At 01 05 00.
 P: Attitudes are of no concern to me whatsoever. I know I'm drifting freely. The moon crossed the window not too long ago.
 
 [00:01:05:51.5]
-P: Let's see, now what can--I am at this moment rocking my arms back and forth and I can make this show up in the roll, yaw, and pitch needle. By moving my torso, I can make the pitch rate needle move up to I degree per second. Roll is, needle, rate needle is very sensitive to this. Yaw is also. Let's see, am going to open the visor at this time. Have a few crumbs of food floating around in the capsule.
+P: Let's see, now what can--I am at this moment rocking my arms back and forth and I can make this show up in the roll, yaw, and pitch needle. By moving my torso, I can make the pitch rate needle move up to 1 degree per second. Roll is, needle, rate needle is very sensitive to this. Yaw is also. Let's see, am going to open the visor at this time. Have a few crumbs of food floating around in the capsule.
 
 [00:01:06:58.5]
 P: At 01 06 106---at 1 minute, 1 hour and 7 minutes elapsed, I'm going above the scale to approximately 8 on cabin and suit.
@@ -982,7 +982,7 @@ P: Sunrise time for first orbit. Over.
 CC: I have a sunrise time of 1 plus 21 plus 00.
 
 [00:01:13:10]
-P: i plus 21 00. Roger. Thank you.
+P: 1 plus 21 00. Roger. Thank you.
 
 [00:01:13:13.5]
 CC: Did you--could you comment on whether you are comfortable or not--would you . . .  a 102 [degrees] on body temperature.
@@ -991,7 +991,7 @@ CC: Did you--could you comment on whether you are comfortable or not--would you 
 P: No, I don't believe that's correct. My visor was open; it is now closed. I can't imagine I'm that hot. I'm quite comfortable, but sweating some.
 
 [00:01:13:38]
-CC: Roger. Can you confirm then that the faceplate ii closed, and will be closed for the pass over Guaymas.
+CC: Roger. Can you confirm then that the faceplate is closed, and will be closed for the pass over Guaymas.
 
 [00:01:13:44]
 P: That is correct, George. I'll leave the faceplate closed. I have had one piece of the inflight food. It's crumbling badly and I hate to get it all over, and I have had about four swallows of water at that time.
@@ -1003,7 +1003,7 @@ CC: Roger, four swallows of water.
 CC: You wish to start your comment now on the haze layer--there was the . . . pitch, and at the same time confirm that the flight plan is on schedule.
 
 [00:01:14:16.5]
-P: Roger. I cannot confirm that the flight plan is completely on schedule. At sunset I was unable to see a separate haze layer--the same height above the horizon that John reported. I'll watch closely at sunrise and see if I can pick it up. Over.
+P: Roger. I cannot confirm that the flight plan is completely on schedule. At sunset I was unable to see a separate haze layer--the same--height above the horizon that John reported. I'll watch closely at sunrise and see if I can pick it up. Over.
 
 [00:01:14:48]
 CC: Roger.
@@ -1012,7 +1012,7 @@ CC: Roger.
 CC: All readings appear to be normal down here. The capsule looks good from down here.
 
 [00:01:15:01.5]
-P: Roger, the
+P: Roger, the--
 
 [00:01:15:02.5]
 CC: . . . queries, you can continue on with your observations. Over.
@@ -1038,7 +1038,7 @@ P: Hello, Hawaii Com Tech, Aurora Seven on HF. Loud and clear. How me?
 P: Hello, Hawaii Com Tech, Hawaii Com Tech, Aurora Seven. Loud and clear. How do you read HF? Over.
 
 [00:01:16:32.5]
-P: Going now to record only while 1 switch back to UHF.
+P: Going now to record only while I switch back to UHF.
 
 [00:01:17:30.5]
 P: Hello, Hawaii, hello, Hawaii Com Tech, Aurora Seven. Weak but readable. Go ahead.
@@ -1160,12 +1160,12 @@ CC: How does it look?
 P: Half covered with clouds, and--and the other half is dry. Will you pass on--this message for me, Gordo, to all the troops at Guaymas?
 
 [00:01:30:05]
-P: Hola, amigos, felicitaciones a Mexico y espeeialmente a mi amigos de Guaymas. Desde el espacio exterior, su pats esta cubierto con numbes--and es--also--se muy bello. Aqui el tiempo esta muy bueno. Buena suerte desde Auror Stere. 
+P: Hola, amigos, felicitaciones a Mexico y especialmente a mi amigos de Guaymas. Desde el espacio exterior, su pais esta cubierto con numbes--and es--also--se muy bello. Aqui el tiempo esta muy bueno. Buena suerte desde Auror Siete.
 
 _note: Translation: Hello, friends, greetings to Mexico and especially to my friends of Guaymas. From outer space, your country is covered with clouds and is very beautiful. Here the weather is very good. Good luck from Aurora Seven.
 
 [00:01:30:33.5]
-CC: Roger, muehas gracias, amigo.
+CC: Roger, muchas gracias, amigo.
 
 [00:01:30:35.5]
 P: Ha ha, okay.
@@ -1183,16 +1183,16 @@ CC: Roger, do you--I'd like to pass your 2 Alpha time on to you, Scotty.
 P: Roger.
 
 [00:01:30:56]
-CC: Roger, 2 Alpha time is 01 36 13, with a (].M.T. of 14 21 30. That takes into account your clock error.
+CC: Roger, 2 Alpha time is 01 36 13, with a G.M.T. of 14 21 30. That takes into account your clock error.
 
 [00:01:31:08.5]
-P: That's I)2 36 137
+P: That's 02 36 13?
 
 [00:01:31:12.5]
 CC: Roger, 01 36 13.
 
 [00:01:31:15.5]
-P: Roger, 01 36 13 for 2 -Mpha.
+P: Roger, 01 36 13 for 2 Alpha.
 
 [00:01:31:19.5]
 CC: For Golf, 03 00 31.
@@ -1309,7 +1309,7 @@ CC: Roger. One at an elapsed time of 01 37.
 P: 01 37. Roger.
 
 [00:01:36:00]
-CC: Roger. In 2 minutes, Echo win be almost directly overhead.
+CC: Roger. In 2 minutes, Echo will be almost directly overhead.
 
 [00:01:36:05]
 P: Roger.
@@ -1398,7 +1398,7 @@ CC: How many cycles per minute?
 P: One cycle per minute, or maybe 1 cycle in a minute and a half.
 
 [00:01:41:01]
-P: The nh)on is just above the horizon at this time.
+P: The moon is just above the horizon at this time.
 
 [00:01:41:17]
 P: I have a picture of the balloon.
@@ -1445,7 +1445,7 @@ P: Fly-by-wire.
 CC (Cape): Thank you.
 
 [00:01:43:01]
-F: Bermuda Flight. Hob' do you read?
+F: Bermuda Flight. How do you read?
 
 [00:01:43:02.5]
 P: Hello, Bermuda Flight. Reading you loud and clear. How me?
@@ -1475,7 +1475,7 @@ P: Pictures of whirls taken, just east of Bermuda, now the balloon line is tight
 P: At 01 45 30, I have turned the cabin, or the suit-water valve all the way off and back up to one.
 
 [00:01:47:18]
-P: I'm taping nob' the fuel quantity warning lights in preparation for the dark side. I think also excess cabin water I'll tape. It's not a satisfactory lighting arrangement to ...
+P: I'm taping now the fuel quantity warning lights in preparation for the dark side. I think also excess cabin water I'll tape. It's not a satisfactory lighting arrangement to ...
 
 _extra : CANARY (SECOND PASS)
 
@@ -1521,7 +1521,7 @@ CC: Aurora Seven, you are fading rapidly. You are fading. MCC [Mercury Control C
 P: Roger. Tell them I am concerned also. I will try and conserve fuel.
 
 [00:01:50:41.5]
-CC: Aurora Seven, Aurora Seven, I cannot read you. Do you read Canary Cap Coin? Over.
+CC: Aurora Seven, Aurora Seven, I cannot read you. Do you read Canary Cap Com? Over.
 
 [00:01:50:48.5]
 P: Roger. Canary, copied your message. Over.
@@ -1554,7 +1554,7 @@ P: Roger. That's good to hear.
 CC: Aurora Seven, do you have anything to report on your balloon test? Over.
 
 [00:01:52:02.5]
-P: Roger. The balloon is oscillating through an arc of about 100 degrees. It gets out of view frequently. At this moment, it's nearly vertical. Mark a coastal passage at this tbnc it seems to--what I'm trying to tell you is that it oscillates 180 degrees, above and below. Over.
+P: Roger. The balloon is oscillating through an arc of about 100 degrees. It gets out of view frequently. At this moment, it's nearly vertical. Mark a coastal passage at this time--it seems to--what I'm trying to tell you is that it oscillates 180 degrees, above and below. Over.
 
 [00:01:52:40]
 P: It also oscillates in and out. Sometimes the line is tight and other times it is not.
@@ -1589,7 +1589,7 @@ P: Kano, this is Aurora Seven. Reading you loud and clear. How me?
 CC: Aurora Seven, Kano Cap Com. What is your status? Over.
 
 [00:01:55:08.5]
-P: Roger. My status is good; fuel reads 51 [percent] and--and 69 [percent]; oxygen is 84 [percent] and 100 [percent]; cabin pressure is holding good. All d-c and a-c power is good. The only thing of--to report regarding the flight plan is that fuel levels are lower than expected. My control mode now is ASCS. I expended my extra fuel in trying to orient after the night side. I think this is due to conflicting requirements of the flight plan. I should have taken time to orient and then work with other items. I think that by remaining in automatic, I can keep--stop this excessive fuel consumption. And the balloon is sometimes visible and sometimes not visible. I haven't any idea where it is now, and there doesn't seen, to--and it seems to wander with abandon back and forth, and that's all, Kano.
+P: Roger. My status is good; fuel reads 51 [percent] and--and 69 [percent]; oxygen is 84 [percent] and 100 [percent]; cabin pressure is holding good. All d-c and a-c power is good. The only thing of--to report regarding the flight plan is that fuel levels are lower than expected. My control mode now is ASCS. I expended my extra fuel in trying to orient after the night side. I think this is due to conflicting requirements of the flight plan. I should have taken time to orient and then work with other items. I think that by remaining in automatic, I can keep--stop this excessive fuel consumption. And the balloon is sometimes visible and sometimes not visible. I haven't any idea where it is now, and there doesn't seem to--and it seems to wander with abandon back and forth, and that's all, Kano.
 
 [00:01:56:44]
 CC: Roger, Aurora Seven. Will you give us a blood-pressure check again--. Over.
@@ -1689,13 +1689,13 @@ CT: Aurora Seven, Aurora Seven, this is Zanzibar Com Tech, transmitting on HF/UH
 P: Roger. Loud and clear. How me, Zanzibar?
 
 [00:02:04:31]
-CT: Auroral Seven, Aurora Seven , this is Zanzibar Cap Com. Read you weak, but readable. Do you have a short report for us?
+CT: Auroral Seven, Aurora Seven, this is Zanzibar Cap Com. Read you weak, but readable. Do you have a short report for us?
 
 [00:02:04:38.5]
-P: Roger. My status is good; the capsule status is good; my control mode is automatic; gyros are iformal; maneuver is off. Control fuel is 51 [percent] and 69 [percent]; oxygen is 82 [percent] and 100 [percent]. That's about all except I have, so far, been unable to get my suit steam vent temperature down much below 70 [degrees]. Steam vent, or the water control valve, setting at this time is 4 at the prelaunch mark. It may be too high. Turning it off at this time and going to three, which is where the cabin is set. Over.
+P: Roger. My status is good; the capsule status is good; my control mode is automatic; gyros are normal; maneuver is off. Control fuel is 51 [percent] and 69 [percent]; oxygen is 82 [percent] and 100 [percent]. That's about all except I have, so far, been unable to get my suit steam vent temperature down much below 70 [degrees]. Steam vent, or the water control valve, setting at this time is 4 at the prelaunch mark. It may be too high. Turning it off at this time and going to three, which is where the cabin is set. Over.
 
 [00:02:05:40]
-CC: Auroral Seven, Zanzibar Cap Com'. Roger, Roger. Do you have the latest--contingency area times?
+CC: Aurora Seven, Zanzibar Cap Com. Roger, Roger. Do you have the latest--contingency area times?
 
 [00:02:05:49]
 P: Roger: I have them.
@@ -1806,7 +1806,7 @@ CC: Your blood pressure is coming through fine.
 P: Roger.
 
 [00:02:10:58]
-CC: Aurora Seven, this is Indian Cap Coin. We have lost telemetry contact. How do you read me? Over.
+CC: Aurora Seven, this is Indian Cap Com. We have lost telemetry contact. How do you read me? Over.
 
 [00:02:11:04.5]
 P: Roger. Still reading you okay.
@@ -1848,7 +1848,7 @@ CC: Out.
 P: Well, I have--I am in record only, and I am getting warm now.
 
 [00:02:15:34]
-P: Don't know what to a4th the cabin.
+P: Don't know what to with the cabin.
 
 [00:02:15:45]
 P: I'll turn it up and see what happens.
@@ -1875,21 +1875,21 @@ P: I don't need to exercise. I really don't feel I need the exercise. I would ge
 P: We'll be getting to Muchea shortly.
 
 [00:02:19:08.5]
-P: Have a slight pitch up rate at this time, at 02 19 13. I'll zero that out, now. Fly-by-wire have a slight yaw left rate--I'll zero out now. Attitudes at this time are minus 30.
+P: Have a slight pitch up rate at this time, at 02 19 13. I'll zero that out, now. Fly-by-wire--have a slight yaw left rate--I'll zero out now. Attitudes at this time are minus 30.
 
 _page : 92
 
 [00:02:19:57.5]
-P: Both busses are okay. All--let's sec number two battery is down to 22. One, is 24; three, is 2.I; standby one and two, are 24; isolated, is 27; main, is 23; main IBU, is 27. Two--two is now up. Main battery number two is up.
+P: Both busses are okay. All--let's see--number two battery is down to 22. One, is 24; three, is 24; standby one and two, are 24; isolated, is 27; main, is 23; main IBU, is 27. Two--two is now up. Main battery number two is up.
 
 [00:02:20:34.5]
 P: I am over the dark side now. The moonrise has not occurred and although I still see the lighted area from the setting sun behind us.
 
 [00:02:22:16.5]
-P: Now, [ do have the haze layer at this time. It seems to be brighter than--it's good to open the cabin, open the visor.
+P: Now, I do have the haze layer at this time. It seems to be brighter than--it's good to open the cabin, open the visor.
 
 [00:02:23:07]
-P: The reticle now extinets at about 5.6.
+P: The reticle now extincts at about 5.6.
 
 _extra : MUCHEA (SECOND PASS)
 
@@ -1935,10 +1935,10 @@ CC: G.m.t. hack of 15 10 42---mark.
 _note: Editor's note: this is 02 25 25 in Capsule Elapsed Time
 
 [00:02:25:26]
-P: Roger I'm right on and so is the backup.
+P: Roger. I'm right on and so is the backup.
 
 [00:02:25:29.5]
-CC: Roger Would you send us a blood pressure, please?
+CC: Roger. Would you send us a blood pressure, please?
 
 [00:02:25:33.5]
 P: Starting. Roger. Starting now.
@@ -2004,7 +2004,7 @@ P: Roger.
 P: Blood pressure stop.
 
 [00:02:27:34.5]
-CC: Blood pressure stop. Okay, we*re going to oscillate R cal a couple of times here in attempt to reset our temperature problem.
+CC: Blood pressure stop. Okay, we're going to oscillate R cal a couple of times here in attempt to reset our temperature problem.
 
 _page : 93
 
@@ -2036,7 +2036,7 @@ CC: Cabin 107 [degrees].
 CC: I don't believe you've ever received any sunrise, sunset times.
 
 [00:02:28:23]
-P: Roger. Give me the whole lot of them, I)eke, or the ones that are coming. Give me rise, set, and rise.
+P: Roger. Give me the whole lot of them, Deke, or the ones that are coming. Give me rise, set, and rise.
 
 [00:02:28:32]
 CC: Roger. Will do. Your next sunrise will be 02 50 00.
@@ -2051,7 +2051,7 @@ CC: Sunset 03 41 20.
 P: Roger.
 
 [00:02:28:48.5]
-CC: Sunrise 04. 19 00.
+CC: Sunrise 04 19 00.
 
 [00:02:28:54.5]
 P: Roger. Copy.
@@ -2190,7 +2190,7 @@ P: Suit temperature is 74 [degrees]; suit steam exhaust is 71 [degree].
 CC: Roger. Understand. Are you feeling a little more comfortable at this time?
 
 [00:02:34:02.5]
-P: I don't know. I'm still warm and still perspiring, but not really uncomfortable. I would like to--I would like to nail this suit temperature problem down. It--for all practical purposes, it's uncontrollable as far as I can sec.
+P: I don't know. I'm still warm and still perspiring, but not really uncomfortable. I would like to--I would like to nail this suit temperature problem down. It--for all practical purposes, it's uncontrollable as far as I can see.
 
 [00:02:34:26.5]
 CC: Roger. Understand. You might have to wait a few more minutes before this takes effect. You are on No. 6. Is that right?
@@ -2208,7 +2208,7 @@ P: Roger. Thank you. It is.
 CC: Roger.
 
 [00:02:34:50]
-CC: Have you taken any food thus far? .
+CC: Have you taken any food thus far?
 
 [00:02:34:53]
 P: Yes, I have. However, the food has crumbled badly; and I hate to open the package any more for fear of getting crumbs all over the capsule. I can verify that eating bite-size food as we packaged for this flight is no problem at all. Even the crumbly foods are eaten with no, with no problem.
@@ -2329,13 +2329,13 @@ CC: Everything continues to look very good here on the ground. I've got a readin
 P: Roger.
 
 [00:02:48:14]
-CC: We find now that the the O3 partial pressure is fluctuating slightly, and the--hanging around 4.2 [psia].
+CC: We find now that the the O2 partial pressure is fluctuating slightly, and the--hanging around 4.2 [psia].
 
 [00:02:48:26.5]
 CC: Did you ?
 
 [00:02:48:29.5]
-CC: O3 partial pressure is fluctuating--4.2 [psia]--Over.
+CC: O2 partial pressure is fluctuating--4.2 [psia]--Over.
 
 [00:02:48:35]
 P: Roger, copied, George, thank you.
@@ -2350,7 +2350,7 @@ P: Negative. I won't be able to hold still for it now. I've got the sunrise to w
 CC: Okay. Roger. We have no further queries. If you have any comments we'll be listening down here.
 
 [00:02:49:00]
-P: Negative. I have a beautiful sunrise through the window'. I'll record it so you can see it.
+P: Negative. I have a beautiful sunrise through the window. I'll record it so you can see it.
 
 _extra : HAWAII (SECOND PASS)
 
@@ -2459,7 +2459,7 @@ P: However--
 CC: Can we get a blood pressure from you, Scott?
 
 [00:02:54:34.5]
-P: Roger. Blood pressure--start--now. I have the balloon--now--pretty steadily below me. not oscillating. And go to gyros normal. Gyros normal now.
+P: Roger. Blood pressure--start--now. I have the balloon--now--pretty steadily below me, not oscillating. And go to gyros normal. Gyros normal now.
 
 [00:02:55:07.5]
 CC: Roger. TM indicates your--zero pitch.
@@ -2491,7 +2491,7 @@ P: Roger.
 CC: Aurora Seven, California. How do you read?
 
 [00:02:59:09.5]
-P: Hello Al, loud and clear. How me?
+P: Hello, Al, loud and clear. How me?
 
 [00:02:59:12.5]
 CC: You're loud and clear, Scotty. Short report.
@@ -2523,7 +2523,7 @@ CC: General Kraft is still somewhat concerned about auto fuel. Use as little aut
 _page : 97
 
 [00:03:00:38]
-P: Roger, I have gone from 4 to 5 on the inverter at this time. And I think I'll increase just a tad on the snit.
+P: Roger, I have gone from 4 to 5 on the inverter at this time. And I think I'll increase just a tad on the suit.
 
 [00:03:00:49.5]
 CC: Roger. You're sounding good here. Give you a period of quiet while I send Z and R cal.
@@ -2547,13 +2547,13 @@ CC: Z cal off.
 P: Roger.
 
 [00:03:01:29]
-CC: Stand by for Rcal 3, 2, 1.
+CC: Stand by for R cal 3, 2, 1.
 
 [00:03:01:35]
 P: All right now, I'm beginning to get all of those various particles, they--they're way out. I can see some that are a 100 feet out.
 
 [00:03:01:52.5]
-CC: Roger. Rcal off.
+C: Roger. R cal off.
 
 [00:03:01:55.5]
 P: They all look like snowflakes to me. No don't--they do not glow of their own accord.
@@ -2586,10 +2586,10 @@ CC: Roger. We have those.
 P: Now say again your last question?
 
 [00:03:04:06]
-CC: Do you have 3 Alpha of 03 11 007
+CC: Do you have 3 Alpha of 03 11 00?
 
 [00:03:04:12]
-P: 03 1100.
+P: 03 11 00.
 
 [00:03:04:16]
 CC: That is correct.
@@ -2684,7 +2684,7 @@ _page : 98
 _extra : CAPE CANAVERAL (THIRD PASS)
 
 [00:03:07:12.5]
-CC: Aurora Seven, Cape Cap Comm.
+CC: Aurora Seven, Cape Cap Com.
 
 [00:03:07:15]
 P: Roger Cape. Loud and clear and break, break. Guaymas, the wobulator is back on now.
@@ -2693,10 +2693,10 @@ P: Roger Cape. Loud and clear and break, break. Guaymas, the wobulator is back o
 P: Roger Cape. Go ahead.
 
 [00:03:07:26.5]
-CC: Roger: Aurora Seven, Cape Cap Com back on HF. Give me your report.
+CC: Roger Aurora Seven, Cape Cap Com back on HF. Give me your report.
 
 [00:03:07:32]
-P: Roger Control mode, manual; gyros normal; the maneuver switch is off. Fuel is 45-45 [percent]; oxygen is 70 [percent], or, correction, oxygen is 80 and 100 [percent]. Suit temperature is 68 [degrees], now and coming down pretty well. Suit steam vent temperature is 6!) [degrees], and beginning to be a little more comfortable. Over.
+P: Roger. Control mode, manual; gyros normal; the maneuver switch is off. Fuel is 45-45 [percent]; oxygen is 70 [percent], or, correction, oxygen is 80 and 100 [percent]. Suit temperature is 68 [degrees], now and coming down pretty well. Suit steam vent temperature is 69 [degrees], and beginning to be a little more comfortable. Over.
 
 [00:03:08:12]
 CC: Roger: and how do you feel, now?
@@ -2717,7 +2717,7 @@ P: 3 plus 34, Roger.
 CC: Roger, can you describe the balloon and its actions a little to us?
 
 [00:03:08:35]
-P: Yes, it has a random drift. There is no oscillation that I can predict whatsoever. The--the line leading to the balloon sometimes is tight; sometimes is loosc loose enough, so that there are loops in it. Its--its behaviour is strictly random as far as I can tell. The balloon is not inflated well either. It's an oblong shape out there, rather than a round figure; and I believe when the sun is on it, the day-glow orange is the most brilliant, and the silver. That's about all I can tell you, Gus.
+P: Yes, it has a random drift. There is no oscillation that I can predict whatsoever. The--the line leading to the balloon sometimes is tight; sometimes is loose--loose enough, so that there are loops in it. Its--its behaviour is strictly random as far as I can tell. The balloon is not inflated well either. It's an oblong shape out there, rather than a round figure; and I believe when the sun is on it, the day-glow orange is the most brilliant, and the silver. That's about all I can tell you, Gus.
 
 [00:03:09:28.5]
 CC: Roger. Surgeon suggests that you drink as much water as you can. Drink it as often as you can.
@@ -2895,7 +2895,7 @@ _extra : CANARY (THIRD PASS)
 CC: Aurora Seven, Aurora Seven, this is Canary Cap Com on HF. Do you read? Over.
 
 [00:03:21:00]
-P: Hello, hello, Canary Cap Com, Aurora Seven. Reading you loud and clear; HE. Transmitting HF. How do you read? Over.
+P: Hello, hello, Canary Cap Com, Aurora Seven. Reading you loud and clear; HF. Transmitting HF. How do you read? Over.
 
 [00:03:21:32.5]
 CC: Aurora Seven, this is Canary Cap Com on HF. Do you read? Over.
@@ -2931,7 +2931,7 @@ CC: Aurora Seven, this is Canary Cap Com. Do you read? Over.
 P: Go ahead, Canary. Reading you loud and clear.
 
 [00:03:25:18.5]
-P: I am going--I am in the record only position now. I think the best answer to the auto- kinesis--is that there is none. I noticed none--and I tend to aline the horizontal with my head--it--a horizontal line under zero g is a line parallel to the line drawn between your eyes. I don't get autokinesis. I don't get--now wait a minute, maybe I'm beginning to.
+P: I am going--I am in the record only position now. I think the best answer to the autokinesis--is that there is none. I noticed none--and I tend to aline the horizontal with my head--it--a horizontal line under zero g is a line parallel to the line drawn between your eyes. I don't get autokinesis. I don't get--now wait a minute, maybe I'm beginning to.
 
 [00:03:26:40]
 P: I should remark that at 3 26 33, I have.in the sky, at any time, 10 particles. They no doubt appear to glow to me. They appeared to be little pieces of frost. However. some appear to be way, way far away. There are two--that look like they might be a 100 yards away. I haven't operated the thruster not for some time. Here are two in closer. Now a densiometer reading on these that are in close. Extinct at 5.5, the elapsed time is 3 27 39. I am unable to see any stars in the black sky at this time. However, these little snowflakes are clearly visible.
@@ -2960,7 +2960,7 @@ P: Now, for the record.
 P: I still feel that, I could easily feel like I am coming in on my back.
 
 [00:03:30:03]
-P: I could very easily come in from another planet, and feel that I am on my--on my back, and that earth is up above me, but that's sorta the way you feel when you come out of split; S, or out of an Immelmann.
+P: I could very easily come in from another planet, and feel that I am on my--on my back, and that earth is up above me, but that's sorta the way you feel when you come out of split S, or out of an Immelmann.
 
 _extra : KANO (THIRD PASS)
 
@@ -2974,7 +2974,7 @@ P: Roger. Reading you, Keno, loud and clear. Blood pressure start at this time.
 P: Visor is coming closed now.
 
 [00:03:31:39]
-CC: Aurora Seven, Aurora Seven, this is .Kano Cap Com. If you read me, would you do a blood-pressure check for the onboard records. Over.
+CC: Aurora Seven, Aurora Seven, this is Kano Cap Com. If you read me, would you do a blood-pressure check for the onboard records. Over.
 
 [00:03:32:55]
 P: Okay. I'm taking the--I've taken the big back off; going to record only, at this time. Have taken the big back off of the camera and trying to get some more MIT film at this time. The filter is in. The cassette--is in the camera.
@@ -2983,10 +2983,12 @@ P: Okay. I'm taking the--I've taken the big back off; going to record only, at t
 P: The zero g senta sensations are wonderful. This is the first time I've ever worn this suit and had it comfortable.
 
 [00:03:34:07.5]
-P: I don't know which way I'm pointed, and don't particularly care. 4
+P: I don't know which way I'm pointed, and don't particularly care.
+
+_note: In paper 7, Astronaut Carpenter is quoted as follows: "Times when the gyros were caged and nothing was visible out the window, I had no idea where the earth was in relation to the spacecraft. However, it did not seem important to me. I knew at all times that I had only to wait and the earth would again appear in the window."
 
 [00:03:34:23]
-P: Roger. At this time I am hearing Kano calling for a blood-pressure check. I will give it to him now. Let's see, I have fuel 45-43, still would tike to get just a little rate--just a little one.
+P: Roger. At this time I am hearing Kano calling for a blood-pressure check. I will give it to him now. Let's see, I have fuel 45-43, still would like to get just a little rate--just a little one.
 
 [00:03:34:49]
 P: Let's see, we wanta go back that way.
@@ -3044,10 +3046,6 @@ CC: Roger.
 [00:03:41:19]
 P: Also another departure from the plan is the fact that I have been unable to jettison the balloon. The balloon is still attached--should be no problem.
 
-_note: In paper 7, Astronaut Carpenter is quoted as follows: Times when the gyros were caged and nothing was visible out the window, I had no idea where the earth was in relation to the spacecraft. However, it did not seem important to me. I knew at all times that I had only to wait and the earth would again appear in the window.
-
-_extra: Quote marks from the note removed, as apparently we don't encode them properly when parsing. This is issue 205.
-
 _page : 101
 
 [00:03:41:33]
@@ -3102,7 +3100,7 @@ P: Roger. Thank you very much.
 CC: Aurora Seven, do you read? Over.
 
 [00:03:46:18.5]
-P: Go ahead, Indian Cap Coin.
+P: Go ahead, Indian Cap Com.
 
 [00:03:46:21]
 CC: Our medical monitor says that we are reading your respiration. I believe this is almost the first time it's come across.
@@ -3120,7 +3118,7 @@ P: The eye patch is in place, this time.
 P: Going to record--record only at this time.
 
 [00:03:48:50]
-P: At 3 hours and 48 minutes and 51 'seconds elapsed, I'm taking a good swig of water. It's pretty cool this time. Stretching my legs a tad. It's quite dark. I'm in drifting flight. Oh, boy! It feels good to get that leg stretched out. That one and the right one too.
+P: At 3 hours and 48 minutes and 51 seconds elapsed, I'm taking a good swig of water. It's pretty cool this time. Stretching my legs a tad. It's quite dark. I'm in drifting flight. Oh, boy! It feels good to get that leg stretched out. That one and the right one too.
 
 [00:03:49:40]
 P: I drank an awful lot of water and I'm still thirsty. As a matter of fact, I think there-- there is a leak in the urinal, I'm sure.
@@ -3143,7 +3141,7 @@ P: At 3 53.
 P: I'm using the photometer now--to try and get--a reading. I saw a com--no, it's the balloon that I see, still drifting aimlessly, lighted by moonlight at this time.
 
 [00:03:56:09.5]
-P: None of the colors are particularly visible. I think--
+P: None of the colors are--particularly visible. I think--
 
 [00:03:56:19.5]
 P: Excess cabin water light is on at this time, 03 56 24. Am going to turn it down just a tad-- so it will be just about where the suit is. I would say, let's see, from that, that it jumped down to freezing.
@@ -3242,7 +3240,7 @@ P: Roger. I've tried that a number of times, Deke. I just can't get rid of it.
 CC: Okay. Well, she'll probably come into your face on retrofire; but I'm sure you'll lose it shortly after that.
 
 [00:04:01:02]
-P: Yeah, [ figure. I hope so.
+P: Yeah, I figure. I hope so.
 
 [00:04:01:06]
 CC: Okay, for your information, cloud--is five-tenths and it's only one-eighth to the north over Port Moresby; so if you see some lights up in that area, we'd like to know about it.
@@ -3254,7 +3252,7 @@ P: Roger, I'll let you know.
 CC: Could you give us a c.e.t, hack, please.
 
 [00:04:01:27]
-P: Roger. C.e.t. on my mark will be 4 hours I minute, 35 seconds, stand by. MARK, 4 01 35.
+P: Roger. C.e.t. on my mark will be 4 hours 1 minute, 35 seconds, stand by. MARK, 4 01 35.
 
 [00:04:01:39]
 CC: Roger. Still one second off; that's fine.
@@ -3275,7 +3273,7 @@ P: Roger.
 CC: --?
 
 [00:04:02:17]
-P: Roger. Deke, the haze layer is very bright. I would say 8 to 10 degrees above the real horizon. And I would say that the haze layer is about twice as high above the horizon as the the bright blue band at sunset is; it's twice as thick. A star, stars are occluded as we pass through this haze layer. I have a good set of stars to watch going through at this time. I'll try and get some photometer readings.
+P: Roger. Deke, the haze layer is very bright. I would say 8 to 10 degrees above the real horizon. And I would say that the haze layer is about twice as high above the horizon as the--the bright blue band at sunset is; it's twice as thick. A star, stars are occluded as we pass through this haze layer. I have a good set of stars to watch going through at this time. I'll try and get some photometer readings.
 
 [00:04:03:12.5]
 CC: Roger. Understand. It's twice as--sunset.
@@ -3295,7 +3293,7 @@ P: It's very narrow, and as bright as the horizon of the earth itself.
 CC: Rog.
 
 [00:04:03:59.5]
-P: This is a reading on Pheeda in--in the Big Dipper prior to entry in the, the, into the haze layer. It occludes--it is extinct at roughly 2.5. The reticle extincts at 5.5. TM mark for the time in the middle of the haze layer. Spica--stand by.
+P: This is a reading on Phecda in--in the Big Dipper prior to entry in the, the, into the haze layer. It occludes--it is extinct at roughly 2.5. The reticle extincts at 5.5. TM mark for the time in the middle of the haze layer. Spica--stand by.
 
 _extra : WOOMERA (THIRD PASS)
 
@@ -3330,7 +3328,7 @@ P: Roger, Woomera, loud and clear.
 CC: You say visor is open?
 
 [00:04:06:35.5]
-P: That's negative. I did not open it. I won't open it until I get through with these readings. Phecda now extincts at 1.7 in the mid, in mid position between the haze layer and the earth. Okay, Woomera, my--my status is very good. The suit temperature is coming down substantially. Steam vent temperature is not down much, but the suit environment temperature is 60 [degrees]. I'm quite comfortable. Cabin temperature is 101 [degrees]; cabin is holding an indicated 4.8; oxygen is 75-100 [percent], all d-e power continues to be good, 20 Amps; both a-c busses are good; fuel reads 46 and 40 [percent]. I am in drifting flight. I have had plenty of water to drink. The visor is coming open now. And blood pressure is coming your way at this time.
+P: That's negative. I did not open it. I won't open it until I get through with these readings. Phecda now extincts at 1.7 in the mid, in mid position between the haze layer and the earth. Okay, Woomera, my--my status is very good. The suit temperature is coming down substantially. Steam vent temperature is not down much, but the suit environment temperature is 60 [degrees]. I'm quite comfortable. Cabin temperature is 101 [degrees]; cabin is holding an indicated 4.8; oxygen is 75-100 [percent], all d-c power continues to be good, 20 Amps; both a-c busses are good; fuel reads 46 and 40 [percent]. I am in drifting flight. I have had plenty of water to drink. The visor is coming open now. And blood pressure is coming your way at this time.
 
 [00:04:08:00.5]
 P: Hello, Woomera, Woomera Cap Com, this is Aurora Seven. Did you copy my last? Over.
@@ -3339,7 +3337,7 @@ P: Hello, Woomera, Woomera Cap Com, this is Aurora Seven. Did you copy my last? 
 P: Cabin temperature, cabin water flow is all the way off and reducing back to about 7.5 now, a little bit less. At this time cabin steam vent going to record only.
 
 [00:04:09:52.5]
-P: Cabin steam vent is 10; suit steam vent is 62. I would like to have a little bit more pad on the temperature, but I can't seem to get it. The suit temperature is 60 [degrees[; the cabin temperature continues at 102 [degrees]. I have 22 minutes and 20 seconds left for retrofire. I think that I will try to get some of this equipment stowed at this time.
+P: Cabin steam vent is 10; suit steam vent is 62. I would like to have a little bit more pad on the temperature, but I can't seem to get it. The suit temperature is 60 [degrees]; the cabin temperature continues at 102 [degrees]. I have 22 minutes and 20 seconds left for retrofire. I think that I will try to get some of this equipment stowed at this time.
 
 [00:04:11:07.5]
 P: There is the moon.
@@ -3377,10 +3375,10 @@ P: That's very handy, because the band width--there is the sun ... The horizon b
 _page : 104
 
 [00:04:19:22.5]
-P: Sunrise. Ahhhhh! Beautiful lighted fireflies that time. It was luminous that time. But it's only, okay, they all right, I have if anybody reads, I have the fireflies. They are very bright. They are capsule emanating. I can rap the hatch and stir off hundreds of them. Rap the side of the capsule; huge streams come out. They--some appear to glow. Let me yaw around the other way.
+P: Sunrise. Ahhhhh! Beautiful lighted fireflies that time. It was luminous that time. But it's only, okay, they--all right, I have--if anybody reads, I have the fireflies. They are very bright. They are capsule emanating. I can rap the hatch and stir off hundreds of them. Rap the side of the capsule; huge streams come out. They--some appear to glow. Let me yaw around the other way.
 
 [00:04:20:25]
-P: Some appear to glow but I don't believe they really do; it's just thethe light of the sun. I'll try to get a picture of it. They're brilliant. I think they would really shine through 9 on the photometer. I'll rap. Let's see.
+P: Some appear to glow but I don't believe they really do; it's just the light of the sun. I'll try to get a picture of it. They're brilliant. I think they would really shine through 9 on the photometer. I'll rap. Let's see.
 
 [00:04:21:39.5]
 P: Taking some pictures at F 2.8 and bulb. The pictures now, here, one of the balloon. The sun is too bright now. That's where they come from. They are little tiny white pieces of frost. I judge from this that the whole side of the capsule must have frost on it.
@@ -3478,7 +3476,7 @@ P: I have an ASCS problem here. I think ASCS is not operating properly. Let me--
 CC: Roger. Standing by. Make sure your emergency drogue deploy and emergency main fuses are off.
 
 [00:04:27:13.5]
-P: Roger. They are. Okay, I'm going now to fly-by-wire, to Aux Damp, and now--attitudes do nut agree. Five minutes to retrograde; light is on. I have a rate of descent, too, of about 10, 12 feet per second.
+P: Roger. They are. Okay, I'm going now to fly-by-wire, to Aux Damp, and now--attitudes do not agree. Five minutes to retrograde; light is on. I have a rate of descent, too, of about 10, 12 feet per second.
 
 [00:04:27:46.5]
 CC: Say again, say again.
@@ -3838,7 +3836,7 @@ _note: Tower here refers to cylindrical section of the spacecraft.
 P: Oh, I hope not.
 
 [00:04:47:47]
-P: Okay. We're reading 3 g's, think we'll have to let the reentry damping check go this time. Reading now 4 g's. The reentry seems to be going okay. The rates there that Aux Damp appears to be handling. I don't think I'm oscillating too much; seem to be rolling right around that glow--the sky behind. Auto fuel still reads 14 (percent) at 6.5 g's. Rates are holding to within 1 1/2 degrees per second indicating about 10 degrees per second roll rate. Still peaked at 6.8 g's. The orange glow has disappeared now. We're off peak g. Still indicating 14 [percent] auto fuel;back to 5 g's.
+P: Okay. We're reading 3 g's, think we'll have to let the reentry damping check go this time. Reading now 4 g's. The reentry seems to be going okay. The rates there that Aux Damp appears to be handling. I don't think I'm oscillating too much; seem to be rolling right around that glow--the sky behind. Auto fuel still reads 14 (percent) at 6.5 g's. Rates are holding to within 1 1/2 degrees per second indicating about 10 degrees per second roll rate. Still peaked at 6.8 g's. The orange glow has disappeared now. We're off peak g. Still indicating 14 [percent] auto fuel; back to 5 g's.
 
 [00:04:49:18.5]
 P: And I'm standing by for altimeter off the peg. Cape, do you read yet? Altimeter is off the peg. 100 [1,000] ft., rate of descent is coming down, cabin pressure is--cabin pressure is holding okay. Still losing a few streaming. No, that's shock waves. Smoke pouring out behind. Getting ready for the drogue at 45 [1,000 ft].
@@ -3850,7 +3848,7 @@ P: Oscillations are pretty good. I think ASCS has given up the ghost at this poi
 ?: . . .
 
 [00:04:50:29.5]
-P: Roger. Aurora Seven, reading okay. Getting some pretty good oscillations now and we're out of fuel. Looks from the sun like it might be about 45 degrees. Oww, it's coming like it's really going over.
+P: Roger. Aurora Seven, reading okay. Getting some pretty good oscillations now and we're out of fuel. Looks from the sun like it might be about 45 degrees. Oww, it's coming like--it's really going over.
 
 [00:04:50:51]
 P: Think I'd better take a try on the drogue. Drogue out manually at 25 [1,000 ft.]. It's holding and it was just in time. Main deploy fuse switch is on now, 21 [1,000 ft.] indicated [altitude].
@@ -3874,7 +3872,7 @@ CC: Aurora Seven, Aurora Seven, Cape Cap Com. Over.
 P: Roger. Say again. You're very weak.
 
 [00:04:53:13]
-CC: Aurora Seven', Aurora Seven, Cape Cap Con,. Over.
+CC: Aurora Seven, Aurora Seven, Cape Cap Com. Over.
 
 [00:04:53:16]
 P: Roger. I'm reading you. I'm on the main chute at 5,000 [feet]. Status is good. I am not in contact with any recovery forces. Do you have any information on the recovery time? Over.
