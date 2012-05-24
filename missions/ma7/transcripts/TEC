@@ -190,7 +190,7 @@ CC: Roger. Understand.
 P: ASCS seems to be holding very well. I have a small island just below me.
 
 [00:00:07:26.5]
-CC: Auro:ra Seven, standby for retrosequence times.
+CC: Aurora Seven, standby for retrosequence times.
 
 [00:00:07:29.5]
 P: Standing by.
@@ -311,7 +311,7 @@ CC: Read you loud and clear also. We have radar track. Please remain in orbit at
 P: Roger. Understand. I, my control mode is fly-by-wire, gyros normal, maneuver off. I am picking up retroattitude and automatic control very shortly. Over.
 
 [00:00:15:18.5]
-CC: Roger. Wfil you veri(v that your retrodelay switch is in the normal position?
+CC: Roger. Will you verify that your retrodelay switch is in the normal position?
 
 [00:00:15:24]
 P: Retrodelay is normal. I say again, retrodelay is normal.
@@ -444,7 +444,7 @@ P: Loud and clear, Kano. Send your message.
 CC: Roger, Aurora Seven. Are you going to be doing your caging, uncaging procedure now? Over.
 
 [00:00:26:37.5]
-P: Roger. I--am a little behind in the flight plan at this mmnent. I have been unable at this time to install the MIT film. I finally have it. I'll go through the gyro uncaging procedure very shortly.
+P: Roger. I--am a little behind in the flight plan at this moment. I have been unable at this time to install the MIT film. I finally have it. I'll go through the gyro uncaging procedure very shortly.
 
 [00:00:27:01]
 CC: Roger.
@@ -897,7 +897,7 @@ P: At 01 05 00.
 P: Attitudes are of no concern to me whatsoever. I know I'm drifting freely. The moon crossed the window not too long ago.
 
 [00:01:05:51.5]
-P: Let's see, now what ean--I am at this moment rocking my arms back and forth and I can make this show up in the roll, yaw, and pitch needle. By moving my torso, I can make the pitch rate needle move up to 1 degree per second. Roll is, needle, rate needle is very sensitive to this. Yaw is also. Let's see, am going to open the visor at this time. Have a few crumbs of food floating around in the capsule.
+P: Let's see, now what can--I am at this moment rocking my arms back and forth and I can make this show up in the roll, yaw, and pitch needle. By moving my torso, I can make the pitch rate needle move up to 1 degree per second. Roll is, needle, rate needle is very sensitive to this. Yaw is also. Let's see, am going to open the visor at this time. Have a few crumbs of food floating around in the capsule.
 
 [00:01:06:58.5]
 P: At 01 06 106---at 1 minute, 1 hour and 7 minutes elapsed, I'm going above the scale to approximately 8 on cabin and suit.
@@ -1315,7 +1315,7 @@ CC: Roger. In 2 minutes, Echo will be almost directly overhead.
 P: Roger.
 
 [00:01:36:08]
-C: Could you give us a cabin steam and suit temperature, please?
+CC: Could you give us a cabin steam and suit temperature, please?
 
 [00:01:36:11]
 P: Roger. Suit steam is 69 [degrees] and cabin is plus 11. That dropped down very suddenly when the excess cabin-water light came on. I think I'm going to--increase . . . I'll try to increase suit-water flow one more time. If that doesn't work I'll drop--down--to closed and start over again.
@@ -1672,7 +1672,7 @@ CC: ... Over.
 P: At this time, oh-oh, this doggone food bag is a problem.
 
 [00:02:03:00]
-P: Actually, the food bag is not a problem, the food inside it is. It's crumbled. I dare not open the bag for fear the crumbs will get ali through the capsule.
+P: Actually, the food bag is not a problem, the food inside it is. It's crumbled. I dare not open the bag for fear the crumbs will get all through the capsule.
 
 [00:02:03:43]
 P: Things are very quiet.
@@ -1906,7 +1906,7 @@ P: Roger. My status is good; control mode is fly-by-wire; gyros normal; maneuver
 CC: Roger What's it running now?
 
 [00:02:23:58.5]
-P: Well, I'm reading 70 [degrees]. I'm really a little at a loss as to how to get it down, my suit---water valve is set now past the marks. This doesn't seem to being it down, and neither does putting it . . . negative. That's wrong. The cabin was past the marks. The suit temperature is at prelauneh value of about four. I'm going to go to a setting of plus 6 at this time and see if that will bring it down below 70 [degrees]. Over.
+P: Well, I'm reading 70 [degrees]. I'm really a little at a loss as to how to get it down, my suit---water valve is set now past the marks. This doesn't seem to being it down, and neither does putting it . . . negative. That's wrong. The cabin was past the marks. The suit temperature is at prelaunch value of about four. I'm going to go to a setting of plus 6 at this time and see if that will bring it down below 70 [degrees]. Over.
 
 [00:02:24:40.5]
 CC: Okay. Fine. We're indicating 84 [degrees] suit which is a bit high.
@@ -2160,7 +2160,7 @@ CC: Roger. Do you see the moon at all?
 _page : 94
 
 [00:02:32:52]
-P: I am faced the wrong way and limited in maneuverability I have left because of my fuel state. I can see the terminator between moonlit side, and umnoonlit side. Over.
+P: I am faced the wrong way and limited in maneuverability I have left because of my fuel state. I can see the terminator between moonlit side, and unmoonlit side. Over.
 
 [00:02:33:08.5]
 CC: Roger. Understand.
@@ -2235,7 +2235,7 @@ P: For the record now--
 P: One of the labels for a fuse switch has slipped out, and sideways, and has tied the adjoining fuse switch together with it. This happened to emergency-main and reserve-deploy fuse switches.
 
 [00:02:38:06.5]
-P: I caged the gyros. They are too critical. I witl try and navigate on the dark side without the gyros.
+P: I caged the gyros. They are too critical. I will try and navigate on the dark side without the gyros.
 
 [00:02:38:30]
 P: The fuse switch should be glued in better so that turning off one fuse does not turn off the adjoining one.
@@ -2275,7 +2275,7 @@ CC: Do you plan on eating as called for by ... Over.
 _page : 95
 
 [00:02:44:57]
-P: I did have the visor open a short time ago for the xylose pill. All of the rest of the food that I have aboard has either crumbled or melted. It's unusable in its present state so I think the xylose pill will constitude my last zero g meal. However, the first one, before the food crumbled, was quite easy. It's no problem to eat this bite-size food--ia a weightless state. I also drank some water at that time, which was no problem.
+P: I did have the visor open a short time ago for the xylose pill. All of the rest of the food that I have aboard has either crumbled or melted. It's unusable in its present state so I think the xylose pill will constitute my last zero g meal. However, the first one, before the food crumbled, was quite easy. It's no problem to eat this bite-size food--in a weightless state. I also drank some water at that time, which was no problem.
 
 [00:02:45:32.5]
 CC: Roger. I take it, from what you said then, that you have confirmed that your faceplate is closed for the decision on the third orbit.
@@ -2393,7 +2393,7 @@ P: Roger.
 _page : 96
 
 [00:02:50:45.5]
-CC: Do you have an auto-fuel warning hght?
+CC: Do you have an auto-fuel warning light?
 
 [00:02:50:48]
 P: That is right. I have reported it, and I believe I reported it a long time ago. It is covered with tape at the moment.
@@ -2447,7 +2447,7 @@ P: I must adjust my attitude to within scanner limits first.
 CC: Roger.
 
 [00:02:54:18.5]
-P: There were some more of those--little particles. They definitley look like snowflakes this time.
+P: There were some more of those--little particles. They definitely look like snowflakes this time.
 
 [00:02:54:26]
 CC: Roger. Understand. Your particles look like definite snowflakes.
@@ -3825,7 +3825,7 @@ P: Bright orange glow.
 P: Picking up just a little acceleration now.
 
 [00:04:46:17.5]
-P: Not much glow: just a little. Reading 0.5 g. Aux Damp seems to be doing welh My fuel, I hope, holds out. There is 1 g. Getting a few streamers of smoke out behind. There's some green flashes out there.
+P: Not much glow: just a little. Reading 0.5 g. Aux Damp seems to be doing well My fuel, I hope, holds out. There is 1 g. Getting a few streamers of smoke out behind. There's some green flashes out there.
 
 [00:04:47:02.5]
 P: Reentry is going pretty well. Aux Damp seems to be keeping oscillations pretty good. We're at 1 1/2 g's now. There was a large flaming piece coming off. Almost looked like it came off the tower.
