@@ -120,11 +120,11 @@
             [ "DEKE_SLAYTON", "00:00:00:00" ]
           ]
         },
-        "CHASE1": {
+        "CHASE 1": {
           "role": "other",
           "name": "Chase 1",
           "short_name": "Chase 1",
-          "avatar": "plane.png"
+          "avatar": "chase.png"
         },
         "CARDFILE 9": {
           "role": "other",
