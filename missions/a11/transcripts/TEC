@@ -449,7 +449,7 @@ CMP: Go ahead, [glossary:TLI] plus 5.
 CC: Roger. [glossary:P37] format, [glossary:TLI] plus 5: 00744 6485, minus 165, 02506. Read back. Over.
 
 [00:01:37:31]
-CMP: Roger. [glossary:TLI] plus 90, [glossary:SPS] G&N: 63481, minus 153, plus 132, 004 l0 25 38, minus 04761, plus 00001, plus 53361, 180 193 000, not applicable, plus 00203 53573 633 53349, 33 1578 122, not available, minus 0252, minus 02580 11887 34345 016 03 50. Vega and Deneb, 071 291 341. No ullage, undocked. [glossary:P37], [glossary:TLI] plus 5: 00744 6485, minus 165 02506. Over.
+CMP: Roger. [glossary:TLI] plus 90, [glossary:SPS] G&N: 63481, minus 153, plus 132, 004 10 25 38, minus 04761, plus 00001, plus 53361, 180 193 000, not applicable, plus 00203 53573 633 53349, 33 1578 122, not available, minus 0252, minus 02580 11887 34345 016 03 50. Vega and Deneb, 071 291 341. No ullage, undocked. [glossary:P37], [glossary:TLI] plus 5: 00744 6485, minus 165 02506. Over.
 
 [00:01:39:04]
 CC: Apollo 11, this is Houston. Readback correct. For your information, Goldstone reports receiving approximately 1 minute of FM downlink carrier. We were getting ready to request you confirm on the S-band AUX switches, the S-band AUX tape switch to OFF and the S-band AUX TV switch to TV. Over.
@@ -734,7 +734,7 @@ CDR: Roger. Everything looks good here.
 CC: Houston, Roger. Out.
 
 [00:02:43:18]
-CC: Apollo 11, this is Houston. Slightly less than 1 minute to ignition, and everthing is GO.
+CC: Apollo 11, this is Houston. Slightly less than 1 minute to ignition, and everything is GO.
 
 [00:02:43:25]
 CMP: Roger.
@@ -1791,7 +1791,7 @@ CMP: Houston, Apollo 11. Another NOUN 49 for you.
 CC: Roger. We copy. Stand by.
 
 [00:06:49:00]
-CC: Hello, Apollo 11. Houston. We,d like you to recycle and do this one over again. Over.
+CC: Hello, Apollo 11. Houston. We'd like you to recycle and do this one over again. Over.
 
 [00:06:49:07]
 CMP: Okay.
@@ -2660,7 +2660,7 @@ CC: Roger. 027 44 5363, minus 165 073 14 037 44 8016, minus 165 072 46; [glossar
 LMP: Roger. 027 44 5363, minus 165 073 14 037 44 8016, minus 165 072 46 046 44 6141, minus 165 097 03 055 44 8209, minus 165 096 42. Over.
 
 [00:11:01:34]
-CC: Roger, 11. That was a good readback. That was the block data scheduled for 12 hours. We'd like to just say that on a flight plan update here, just to remind you of some things, and you can do them at your convenience amd then go to sleep early if you'd like. We don't have anything else planned, but we'd like to just remind you on the filter change, the O<sub>2</sub> fuel cell purge. And we'd like a [glossary:LM]/[glossary:CM] DELTA-P and accomplish the presleep checklist.
+CC: Roger, 11. That was a good readback. That was the block data scheduled for 12 hours. We'd like to just say that on a flight plan update here, just to remind you of some things, and you can do them at your convenience and then go to sleep early if you'd like. We don't have anything else planned, but we'd like to just remind you on the filter change, the O<sub>2</sub> fuel cell purge. And we'd like a [glossary:LM]/[glossary:CM] DELTA-P and accomplish the presleep checklist.
 
 [00:11:02:34]
 CDR: Okay. We've completed the filter change, and we'll get started on the fuel cell purge, and stand by for the [glossary:LM]/[glossary:CM] DELTA-P.
@@ -5641,7 +5641,7 @@ LMP: Roger. Are you ready to copy some numbers on the status report, et cetera?
 CC: Roger. Go ahead. Over.
 
 [01:12:05:49]
-LMP: Okay. Radiation CDR 11005, CMP l0006, LMP 09007; medication negative. And I got some battery and [glossary:RCS] numbers for you.
+LMP: Okay. Radiation CDR 11005, CMP 10006, LMP 09007; medication negative. And I got some battery and [glossary:RCS] numbers for you.
 
 [01:12:06:07]
 CC: Go ahead. Over.
@@ -5700,7 +5700,7 @@ CC: Hello, Apollo 11. Houston. Over.
 CMP: Houston, Apollo 11.
 
 [01:12:52:12]
-CC: Roger. Mike, I think we can explain that seventenths rate. When we - the first time through, you know, we failed to go through the [glossary:VERB 49], so we had a large error between our actual CDU and desired CDU in roll. And with that situation, the [glossary:DAP] - the vehicle will roll - will maneuver, rather, at a rate that is loaded in, which was three-tenths plus four-tenths rate, and it will limit at four-tenths above the desired rate, so - that is if we have a large enough angle between the desired and the actual, which we did. So, therefore, the rate was four tenths plus three tenths to give you the seven tenths. Over.
+CC: Roger. Mike, I think we can explain that seven-tenths rate. When we - the first time through, you know, we failed to go through the [glossary:VERB 49], so we had a large error between our actual CDU and desired CDU in roll. And with that situation, the [glossary:DAP] - the vehicle will roll - will maneuver, rather, at a rate that is loaded in, which was three-tenths plus four-tenths rate, and it will limit at four-tenths above the desired rate, so - that is if we have a large enough angle between the desired and the actual, which we did. So, therefore, the rate was four tenths plus three tenths to give you the seven tenths. Over.
 
 [01:12:53:08]
 _page : 130
@@ -6068,7 +6068,7 @@ CC: 11, this is Houston. We're through with the uplink. You can go back to BLOCK
 LMP: Roger. Back to BLOCK.
 
 [02:03:16:30]
-CC: Apollo 11, this is Houston. We woudd like to terminate the charge on battery B at [glossary:GET] of 51 30. Over.
+CC: Apollo 11, this is Houston. We would like to terminate the charge on battery B at [glossary:GET] of 51 30. Over.
 
 [02:03:18:06]
 CC: Apollo 11, this is Houston. We would like to terminate charging battery Bravo at 51 30 [glossary:GET]. Over.
@@ -6319,7 +6319,7 @@ _tape : Tape 35/5
 CC: Hello, Apollo 11. Houston. Over.
 
 [02:06:44:46]
-CMP: Stand by, Charlie. Yes, we're going to come out of [glossary:PTC] here at 263 roll and then do [glossary:VERB 49] to thc recommended attitude.
+CMP: Stand by, Charlie. Yes, we're going to come out of [glossary:PTC] here at 263 roll and then do [glossary:VERB 49] to the recommended attitude.
 
 [02:06:44:58]
 CC: That sounds fine to us. Over.
@@ -8283,7 +8283,7 @@ LMP: Okay. That'll be fine.
 CC: Say again, Buzz. You were cut off there.
 
 [02:21:18:52]
-LMP: OkaY. I'll see you at 71 hours.
+LMP: Okay. I'll see you at 71 hours.
 
 [02:21:18:55]
 CC: Roger.
@@ -9877,7 +9877,7 @@ LMP: Well, they're not central peaks. They're depressions in the center.
 CC: Roger.
 
 [03:06:43:08]
-CMP: And you'll notice on the pitch thruster activity, I've still - I've put in a dozen mininum impulses in pitchdown, and I'm still far from correcting back to 315.
+CMP: And you'll notice on the pitch thruster activity, I've still - I've put in a dozen minimum impulses in pitchdown, and I'm still far from correcting back to 315.
 
 [03:06:43:20]
 LMP: We're moving the camera over to the right window now to give you Langrenus, its - its several central peaks and -
@@ -10094,12 +10094,12 @@ CMP: I'm passing 182 inertial. I'm going inertial now.
 LMP: Ready to copy [glossary:LOI] 2 PAD.
 
 [03:06:58:58]
-CC: Roger on the inertial. And here we go on the [glossary:LOI] 2 PAD. [glossary:LOI] 2, SPS/G&N: 38320, plus 166, minus 081; TIG 080 11 3603. NOUN 81: minus 01408, minus all balls, minus 00743. Roll all balls, 196 359 00657, plus 00537. DELTA-VT 01592 017 01531. Sextant star 23 1160 138. The rest of the PAD is NA. [glossary:GDC] align, Vega and Deneb 243 183 012. Ullage, two jets 19 seconds. Remarks: On your [glossary:DAP] load, we would like an R1 20101 vice the value which appears in the flight plan. In making the sextant star check this must be done between [glossary:GET] of 79 30 10, at which time the star comes above the horizon, and 79 52 10, which is your local sunrise due to the fact that this star's relatively close to the Sun. Your burn orientation is heads down, retrograde pitched up 28 degress with respect to local horizontal. The calculated values for NOUN 42 are HA 65.6 and HP 54.6. Both of those being plus. Read back. Over.
+CC: Roger on the inertial. And here we go on the [glossary:LOI] 2 PAD. [glossary:LOI] 2, SPS/G&N: 38320, plus 166, minus 081; TIG 080 11 3603. NOUN 81: minus 01408, minus all balls, minus 00743. Roll all balls, 196 359 00657, plus 00537. DELTA-VT 01592 017 01531. Sextant star 23 1160 138. The rest of the PAD is NA. [glossary:GDC] align, Vega and Deneb 243 183 012. Ullage, two jets 19 seconds. Remarks: On your [glossary:DAP] load, we would like an R1 20101 vice the value which appears in the flight plan. In making the sextant star check this must be done between [glossary:GET] of 79 30 10, at which time the star comes above the horizon, and 79 52 10, which is your local sunrise due to the fact that this star's relatively close to the Sun. Your burn orientation is heads down, retrograde pitched up 28 degrees with respect to local horizontal. The calculated values for NOUN 42 are HA 65.6 and HP 54.6. Both of those being plus. Read back. Over.
 
 [03:07:01:55]
 _page : 241
 _tape : Tape 51/10
-LMP: Roger, [glossary:LOI] 2: SPS/G&N: 38320, plus 166, minus 081 080 11 3603, minus 01408, minus all balls, minus 00743, all zeros, 196 359 00657, plus 00537, 01592 017 01531 23 1160 138. Vega, Deneb 243 183 012, two jet 19 seconds, [glossary:DAP], R1 20101. Sextant star between 79 30 l0 and 79 52 10. Attitude is heads down, retrograde pitched up 28 degrees. HA after the burn - Was that NOUN 42 for HA and 64.6 and HP 54.6? Over.
+LMP: Roger, [glossary:LOI] 2: SPS/G&N: 38320, plus 166, minus 081 080 11 3603, minus 01408, minus all balls, minus 00743, all zeros, 196 359 00657, plus 00537, 01592 017 01531 23 1160 138. Vega, Deneb 243 183 012, two jet 19 seconds, [glossary:DAP], R1 20101. Sextant star between 79 30 10 and 79 52 10. Attitude is heads down, retrograde pitched up 28 degrees. HA after the burn - Was that NOUN 42 for HA and 64.6 and HP 54.6? Over.
 
 [03:07:03:19]
 CC: Roger. On the NOUN 42 value, the last stuff you gave, HA is 65.6, HP is 54.6. Otherwise, I readback correct. I'm standing by with your [glossary:TEI] 5 PAD. Over.
@@ -10617,7 +10617,7 @@ CC: Eagle, be advised - sounds like a hot mike. Over.
 LMP: Right. Yes.
 
 [03:11:12:16]
-LMP: Roger. If you're reading me now, I am in hot mike because I'm in ICS push to talk, snd DOWNVOICE BACKUP. Over.
+LMP: Roger. If you're reading me now, I am in hot mike because I'm in ICS push to talk, and DOWNVOICE BACKUP. Over.
 
 [03:11:12:24]
 CC: Roger. We just wanted to remind you. Over.
@@ -10945,7 +10945,7 @@ LMP: Roger. We're in the midst of cycling the O<sub>2</sub> and H<sub>2</sub> fa
 CC: Roger.
 
 [03:12:38:21]
-LMP: And the radiation is as follows: CDR 11012, CMP 100l3, LMP 09015. Negative medication. Over.
+LMP: And the radiation is as follows: CDR 11012, CMP 10013, LMP 09015. Negative medication. Over.
 
 [03:12:38:36]
 CC: Roger. Copy, 11.
@@ -11343,7 +11343,7 @@ CC: Roger. Among the large headlines concerning Apollo this morning, there's one
 LMP: Okay. We'll keep a close eye out for the bunny girl.
 
 [03:23:18:19]
-CC: Roger. You residents of the spacecraft Columbia may be interested in knowing that today is Independence Day in the country of Colombia. Gloria Diaz of the Philippines was crowned Miss Universe last night. She defeated 60 other girls for the global beauty title. Miss Diaz is 18, with black hair and eyes, and measures 34-1/2, 23, 34-1/2. First runner up was Miss Australia, followed by Miss Israel, and Miss Japan. While you're on your way back Tuesday night, the American and National League Allstars will be playing ball in Washington. Mel Stottlemyre of the Yankees is expected to be the American League's first pitcher. No one is predicting who will be first pitcher for the National League yet. They have nine on the roster. Even though research has certainly paid off in the space program, research doesn't always pay off, it seems. The Woodstream Corporation, parent company of the Animal Trap Company of America which has made more than a billion wooden spring mousetraps, reports that it built a better mousetrap but the world didn't beat a door to its path - didn't beat a path to its door. As a matter of fact, the company had to go back to the oldfashioned kind. They said, "We should have spent more time researching housewives and less time researching mice". And the "Black Beag - Bugle" is all completed for the morning.
+CC: Roger. You residents of the spacecraft Columbia may be interested in knowing that today is Independence Day in the country of Colombia. Gloria Diaz of the Philippines was crowned Miss Universe last night. She defeated 60 other girls for the global beauty title. Miss Diaz is 18, with black hair and eyes, and measures 34-1/2, 23, 34-1/2. First runner up was Miss Australia, followed by Miss Israel, and Miss Japan. While you're on your way back Tuesday night, the American and National League Allstars will be playing ball in Washington. Mel Stottlemyre of the Yankees is expected to be the American League's first pitcher. No one is predicting who will be first pitcher for the National League yet. They have nine on the roster. Even though research has certainly paid off in the space program, research doesn't always pay off, it seems. The Woodstream Corporation, parent company of the Animal Trap Company of America which has made more than a billion wooden spring mousetraps, reports that it built a better mousetrap but the world didn't beat a door to its path - didn't beat a path to its door. As a matter of fact, the company had to go back to the old-fashioned kind. They said, "We should have spent more time researching housewives and less time researching mice". And the "Black Beag - Bugle" is all completed for the morning.
 
 [03:23:20:47]
 _page : 273
@@ -11684,10 +11684,10 @@ CDR: And I'm ready to get a time hack from you. Load the [glossary:CSM] time.
 CMP: Okay.
 
 [04:01:01:42]
-CMP: Do you want the T EPHEM first?
+CMP: Do you want the T-EPHEM first?
 
 [04:01:01:46]
-CDR: Let's get your clock first and then we'll get T EPHEM.
+CDR: Let's get your clock first and then we'll get T-EPHEM.
 
 [04:01:01:50]
 CMP: Okay.
@@ -11749,7 +11749,7 @@ CDR: Okay. I'm within three hundredths. That's within our ability to keep togeth
 CMP: Roger.
 
 [04:01:04:46]
-CDR: Okay. Now you want to give me T EPHEM [glossary:VERB 05], NOUN 01 ENTER?
+CDR: Okay. Now you want to give me T-EPHEM [glossary:VERB 05], NOUN 01 ENTER?
 
 [04:01:04:56]
 CMP: Okay. I've got [glossary:VERB 05], NOUN 01, ENTER. Going to 17 06 ENTER.
@@ -12096,7 +12096,7 @@ CC: Eagle, Houston. Could you give us an idea where you are in the activation? O
 LMP: Roger. We're just sitting around waiting for something to do. We need a state vector, a [glossary:REFSMMAT], a reading on the [glossary:AGS]. And we need you to watch our [glossary:DAP] load, give a voice check, and throttle check. Over.
 
 [04:02:33:34]
-CC: Roger. Eagle, we'll have the state vectors and the [glossary:REFSMMAT] as soon as we get the high gain. Over. It will be about another 10 minutes or so before we get throug the [glossary:P22], and when we maneuver to attitude and get the high gain, we'll have the updates for you. Over.
+CC: Roger. Eagle, we'll have the state vectors and the [glossary:REFSMMAT] as soon as we get the high gain. Over. It will be about another 10 minutes or so before we get through the [glossary:P22], and when we maneuver to attitude and get the high gain, we'll have the updates for you. Over.
 
 [04:02:33:56]
 LMP: Roger. We'll go ahead with the [glossary:DAP] and throttle ... check if you don't have the gimble drive check, okay?
@@ -12682,7 +12682,7 @@ CC: Understand you are ready to copy the [glossary:PDI] data, Eagle. Over
 LMP (EAGLE): That's affirmative. Go ahead with the [glossary:PDI].
 
 [04:04:22:05]
-CC: Roger. [glossary:PDI] PAD: TIG 102 33 04.36 09 50, minus 00021, 182 287 000, plus 56919. [glossary:PDI] aoort, less than 10 minutes, 105 12 30.00. [glossary:PDI] absrt, greater than 10 minutes, 103 40 00.00 107 11 30.00. No [glossary:PDI] plus 12: 102 44 27.00. [glossary:NOUN 81] plus 01223, minus all balls, plus 01889 01520 plus 00110 02250, burn time 046 000 190, plus 01187, plus all balls, plus 01911. NOUN 11 103 31 07.00. NOUN 37 105 12 30.00. Ready for your readbacks, Over.
+CC: Roger. [glossary:PDI] PAD: TIG 102 33 04.36 09 50, minus 00021, 182 287 000, plus 56919. [glossary:PDI] abort, less than 10 minutes, 105 12 30.00. [glossary:PDI] abort, greater than 10 minutes, 103 40 00.00 107 11 30.00. No [glossary:PDI] plus 12: 102 44 27.00. [glossary:NOUN 81] plus 01223, minus all balls, plus 01889 01520 plus 00110 02250, burn time 046 000 190, plus 01187, plus all balls, plus 01911. NOUN 11 103 31 07.00. NOUN 37 105 12 30.00. Ready for your readbacks, Over.
 
 [04:04:24:39]
 CC: Eagle, Houston. We are through with the computer. You can go, back to BLOCK. Over.
@@ -12991,7 +12991,7 @@ CMP (COLUMBIA): Ready to copy.
 CC: Roger. NOUN 84: plus 01223, minus all zeros, plus 01889; NOUN 33: 102 44 2700, [glossary:PDI] plus 12 burn time is 046, burn time for [glossary:DOI] is 030. Ready for your readback. Over.
 
 [04:05:02:40]
-CMP (COLUMBIA): Roger. [glossary:DOI] P76: 84 is minus 00758, all balls, plus 00098, aL 101 36 1400; plus 01223, minus all balls, plus 01889, 102 44 2700; burn time 46 and 30 seconds.
+CMP (COLUMBIA): Roger. [glossary:DOI] P76: 84 is minus 00758, all balls, plus 00098, at 101 36 1400; plus 01223, minus all balls, plus 01889, 102 44 2700; burn time 46 and 30 seconds.
 
 [04:05:03:09]
 CC: Roger. One error, Columbia, on the TIG for DOI; seconds was 1407. Over.
@@ -13444,7 +13444,7 @@ CC: Eagle, Houston. You are GO to continue - -
 LMP (EAGLE): ... closed ... GO ... at 4 minutes.
 
 [04:06:37:22]
-CC: Roger. You are GO - You are GO to continue powered descent. You are GO to continue powered des cent.
+CC: Roger. You are GO - You are GO to continue powered descent. You are GO to continue powered descent.
 
 [04:06:37:30]
 LMP (EAGLE): Roger.
@@ -13907,7 +13907,7 @@ CDR (TRANQ): Hey, Houston, that may have seemed like a very long final phase. Th
 CC: Roger. We copy. It was beautiful from here, Tranquility. Over.
 
 [04:06:56:02]
-LMP (TRANQ): We'll get to the details of what's around here, but it looks like a collection of just about every variety of shape, angularity, granularity, about every variety of rock you could find. The colors - Well, it varies pretty much depending on how you're looking relative to the zerophase point. There doesn't appear to be too much of a general color at all. However, it looks as though some of the rocks and boulders, of which there are quite a few in the near area, it looks as though they're going to have some interesting colors to them. Over.
+LMP (TRANQ): We'll get to the details of what's around here, but it looks like a collection of just about every variety of shape, angularity, granularity, about every variety of rock you could find. The colors - Well, it varies pretty much depending on how you're looking relative to the zero-phase point. There doesn't appear to be too much of a general color at all. However, it looks as though some of the rocks and boulders, of which there are quite a few in the near area, it looks as though they're going to have some interesting colors to them. Over.
 
 [04:06:56:47]
 CC: Roger. Copy. Sounds good to us, Tranquility. We'll let you press on through the simulated countdown, and we'll talk to you later. Over.
@@ -16706,7 +16706,7 @@ LMP (EVA): Okay. Don't hold it quite so tight.
 CDR (EVA): Okay.
 
 [04:13:28:17]
-CDR (EVA): Looking up at the [glossary:LM], I'm standing directly in the shadow now looking up at Buzz in the window. And I can see everything quite clearly. The light is sufficiently bright backlighted into the front of the [glossary:LM], that everything is very clearly visible,
+CDR (EVA): Looking up at the [glossary:LM], I'm standing directly in the shadow now looking up at Buzz in the window. And I can see everything quite clearly. The light is sufficiently bright, backlighted into the front of the [glossary:LM], that everything is very clearly visible,
 
 [04:13:28:55]
 LMP (EVA): Okay. I'm going to be changing the ***
@@ -17377,7 +17377,7 @@ LMP (EVA): Okay. You do have to be rather careful to keep track of where your ce
 LMP (EVA): About two to three or maybe four easy paces can bring you to a nearly smooth stop. *** change directions, like a football player, you just have to to *** foot out to the side and cut a little bit.
 
 [04:14:14:38]
-LMP (EVA): So called kangeroo hop does work, but it seems that your forward mobility is not quite as good as - it is in the conventional - more conventional one foot after another.
+LMP (EVA): So-called kangeroo hop does work, but it seems that your forward mobility is not quite as good as - it is in the conventional - more conventional one foot after another.
 
 [04:14:15:06]
 LMP (EVA): It's hard saying what a sane pace might be. I think it's the one that I'm using now - would get rather tiring after several hundred *** but this may be a function of this suit, as well as lack of gravity forces.
@@ -18832,7 +18832,7 @@ CC: Columbia, this is Houston. Over.
 CMP (COLUMBIA): Houston, Columbia. Go ahead.
 
 [04:18:05:35]
-CC: Roger. We've sucessfully reacquired high gain antenna. Unless you have some other traffic with us, I guess we'll bid you a good night and let you get some sleep, Mike. Over.
+CC: Roger. We've successfully reacquired high gain antenna. Unless you have some other traffic with us, I guess we'll bid you a good night and let you get some sleep, Mike. Over.
 
 [04:18:05:48]
 CMP (COLUMBIA): Okay. Sounds fine.
@@ -19907,7 +19907,7 @@ CDR (TRANQ): We had a lot of help down there, Jim.
 [05:03:10:32]
 _page : 452
 _tape : Tape 79/10
-CDR (TRANQ): And, Houston, Tranquility Base is going to give you a few comments with regard to the geology question of last night. We are landed in a relatively smooth crater field of elongate secondary - circular secondary craters, most of which have rims irrespective of their - raised rims irrespective of their size. That's not universally true. There are - There are a few of the smaller craters around which do not have a discernable rim. The ground mass throughout the area is a very fine sand to a silt. I'd say the thing that would be most like it on Earth is powdered graphite. Immersed in this ground mass are a wide variety of rock shapes, sizes, textures, rounded and angular, many with varying consistencies. As I said, I've seen plain - what looked to be plain basalt and vesicular basalt. Others with no crystals, some with small white phenocrysts, maybe one to less than 5 percent. And the bould - we are in a boulder field where the boulders range generally up to 2 feet with a few larger than that. Now, some of the boulders are lying on top of the surface, some are partially exposed, and some are just barely exposed. And in our traverse around on the surface and particularly working with the scoop, we've run into boulders below the surface - it was probably buried under several inches of the ground mass.
+CDR (TRANQ): And, Houston, Tranquility Base is going to give you a few comments with regard to the geology question of last night. We are landed in a relatively smooth crater field of elongate secondary - circular secondary craters, most of which have rims irrespective of their - raised rims irrespective of their size. That's not universally true. There are - There are a few of the smaller craters around which do not have a discernible rim. The ground mass throughout the area is a very fine sand to a silt. I'd say the thing that would be most like it on Earth is powdered graphite. Immersed in this ground mass are a wide variety of rock shapes, sizes, textures, rounded and angular, many with varying consistencies. As I said, I've seen plain - what looked to be plain basalt and vesicular basalt. Others with no crystals, some with small white phenocrysts, maybe one to less than 5 percent. And the bould - we are in a boulder field where the boulders range generally up to 2 feet with a few larger than that. Now, some of the boulders are lying on top of the surface, some are partially exposed, and some are just barely exposed. And in our traverse around on the surface and particularly working with the scoop, we've run into boulders below the surface - it was probably buried under several inches of the ground mass.
 
 [05:03:12:55]
 CC: Tranquility, Houston. Roger. Very fine description.
@@ -23252,7 +23252,7 @@ CC: Negative, Buzz. It still looks kind of bad. Apparently, when you move around
 LMP: Yes. They're all about as tight as can be. I tell you what; I'll take them off and put them back on again and see if that makes any difference.
 
 [06:05:45:17]
-CC: Okay. If you would, at your convience, we'll be watching it down here.
+CC: Okay. If you would, at your convenience, we'll be watching it down here.
 
 [06:06:10:19]
 _page : 533
@@ -24070,7 +24070,7 @@ CC: Thank you very much. We appreciate it. Out.
 CDR: Roger.
 
 [06:12:22:12]
-CC: Apollo 11, Houston. We got the rates looking copacetic. You can go ahead and initiate [glossary:PTC]. Over.
+CC: Apollo 11, Houston. We got the rates looking copasetic. You can go ahead and initiate [glossary:PTC]. Over.
 
 [06:12:22:22]
 CMP: Okay. Thank you.
@@ -24550,7 +24550,7 @@ CC: Hello, Apollo 11. Houston. Sorry to bother you, but we'd like to have you do
 [07:02:59:56]
 _page : 572
 _tape : Tape 110/1
-CC: Apollo 11, Houston. Are you up and at them yet? Qver.
+CC: Apollo 11, Houston. Are you up and at them yet? Over.
 
 [07:03:00:04]
 CDR: Well, we're up, at least, Owen.
@@ -24586,7 +24586,7 @@ LMP: Okay. Stand by.
 LMP: Go ahead, Owen. I've got the book now. I'm ready to copy.
 
 [07:03:01:52]
-CC: Okay, Buzz. On your flight plan items, a few updates first of all. We've cancelled midcourse number 6. Just remain - remain in [glossary:PTC]. I'll give you a little more time this morning. Second item on the flight plan is we're ready for a BATT B charge anytime you want to put it on the line; and third item, we'd like a waste water dump a little differently this time. We'd like to do it on our marks from the ground. The [glossary:PTC] is a little bit ragged, and we would like to make the water dump at a time which we think will hold it in its proper configuration, so it looks like we'll have a desirable opportunity coming along in - between 15 and 20 minutes. And on our mark, we would like to have a waste water dunp down to about 40 percent. I'll give you a more accurate level for the water dump a little later. Over.
+CC: Okay, Buzz. On your flight plan items, a few updates first of all. We've cancelled midcourse number 6. Just remain - remain in [glossary:PTC]. I'll give you a little more time this morning. Second item on the flight plan is we're ready for a BATT B charge anytime you want to put it on the line; and third item, we'd like a waste water dump a little differently this time. We'd like to do it on our marks from the ground. The [glossary:PTC] is a little bit ragged, and we would like to make the water dump at a time which we think will hold it in its proper configuration, so it looks like we'll have a desirable opportunity coming along in - between 15 and 20 minutes. And on our mark, we would like to have a waste-water dump down to about 40 percent. I'll give you a more accurate level for the water dump a little later. Over.
 
 [07:03:02:53]
 _page : 573
