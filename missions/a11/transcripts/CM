@@ -1216,7 +1216,7 @@ CDR: On your side?
 CMP: I got a way on it - of keeping it.
 
 [00:01:24:17]
-CMP: I got a little horizon. Man, look at thatl
+CMP: I got a little horizon. Man, look at that!
 
 [00:01:24:21]
 LMP: Looks like what you have to do to this, is not hold it against the window, because it's going to pick up - -
@@ -2020,7 +2020,7 @@ CDR: ... 190, 110 degrees.
 CMP: Got a long way around, yet.
 
 [00:02:15:23]
-CC: Apollo 11, this is Houston. 1 minute to LOS Tananarive; A0S at Carnarvon, 02:25:30.
+CC: Apollo 11, this is Houston. 1 minute to LOS Tananarive; AOS at Carnarvon, 02:25:30.
 
 [00:02:15:35]
 LMP: Roger.
@@ -2377,7 +2377,7 @@ CDR: 03:30 coming up - Should be 5.5, and it is 5.5.
 CMP: Nice ride.
 
 [00:02:47:54]
-CC: Apollo 11, this is Houston. At 3-l/2 minutes, you're still looking good. Your predicted cut-off is right on the nominal.
+CC: Apollo 11, this is Houston. At 3-1/2 minutes, you're still looking good. Your predicted cut-off is right on the nominal.
 
 [00:02:48:04]
 CDR: Roger. Apollo 11's GO.
@@ -2520,7 +2520,7 @@ CMP: Okay, let's go to IU ACCEPT here. Now, ...
 CMP: Why don't you try to get up high - -
 
 [00:02:50:59]
-CDR: SCS TVC SERV0 POWER 1, OFF.
+CDR: SCS TVC SERVO POWER 1, OFF.
 
 [00:02:51:00]
 LMP: Okay.
@@ -5014,7 +5014,7 @@ CMP: No, I just got through aligning it a little while ago.
 CMP: Okay, GDC's aligned.
 
 [03:07:51:46]
-CDR: OkaY.
+CDR: Okay.
 
 [03:07:51:48]
 LMP: Check the circuit breakers.
@@ -5197,7 +5197,7 @@ CDR: On the LM?
 LMP: No.
 
 [03:07:58:59]
-CDR: I don't know, but the command modul's got about ...
+CDR: I don't know, but the command module's got about ...
 
 [03:07:59:01]
 LMP: Little fluorescent - circles?
@@ -6948,7 +6948,7 @@ CMP: ... should be coming over the horizon here pretty soon.
 LMP: What should be?
 
 [03:10:37:14]
-CMP: 01d A-1. 0ld A-1.
+CMP: Old A-1. Old A-1.
 
 [03:10:37:20]
 CMP: Now, we'll see if you can find something that looks like A-1.
@@ -7369,7 +7369,7 @@ CMP: Yes, sure does.
 LMP: I missed taking a picture of it, ...
 
 [03:10:58:49]
-CMP: Well, that was good ... Shall we go to maneuver, I mean to sleep attitude - anybody object to doin that?
+CMP: Well, that was good ... Shall we go to maneuver, I mean to sleep attitude - anybody object to doing that?
 
 [03:10:58:59]
 CDR: That'd be alright.
@@ -8392,7 +8392,7 @@ LMP: Anybody know when AOS is?
 CMP: When is AOS?
 
 [03:14:20:09]
-LMP: Yes. When is A0S ...?
+LMP: Yes. When is AOS ...?
 
 [03:14:20:18]
 LMP: 86:38?
@@ -10433,7 +10433,7 @@ CDR: IGNITION. 10 percent.
 LMP: Just about on time.
 
 [04:06:33:18]
-CDR: You got the OVERRIDEs ON?
+CDR: You got the OVERRIDES ON?
 
 [04:06:33:21]
 LMP: OVERRIDE is ON. 24. FLASH. THROTTLE, up.
@@ -11106,7 +11106,7 @@ LMP: Yes. 9, 8, 7, 6, 5 - ABORT STAGE; ENGINE ARM, ASCENT - Proceed.
 CDR: We're off; look at that stuff go all over the place.
 
 [05:04:22:05]
-LMP: Look at that shadow. Beautifull 26 - 36 feet per second up - -
+LMP: Look at that shadow. Beautiful! 26 - 36 feet per second up - -
 
 [05:04:22:10]
 CDR: The Eagle is - -
@@ -11767,7 +11767,7 @@ CDR: Burn's complete. Did you read? Burn's complete.
 CMP: Thank you.
 
 [05:07:04:43]
-CC: Eagle, Houston. Aft 0MNI, LOW BIT RATE, and we'll see you at 127 plus 51.
+CC: Eagle, Houston. Aft OMNI, LOW BIT RATE, and we'll see you at 127 plus 51.
 
 [05:07:05:07]
 LMP: Okay, ... ... 5, huh?
@@ -12257,7 +12257,7 @@ CDR: Alright, there's a couple of bolts - -
 LMP: - - these screws here might do it.
 
 [05:07:41:13]
-CDR: - - there's a couple of bolts down there that have come loose - if I remember. ... I'llget them.
+CDR: - - there's a couple of bolts down there that have come loose - if I remember. ... I'll get them.
 
 [05:07:41:21]
 CMP: I'm slowly closing at 32 feet per second and a mile and a half.
@@ -14173,7 +14173,7 @@ LMP: Yes.
 CDR: Okay, it looks good, I'll tell you.
 
 [05:15:16:44]
-CMP: Alright, we'recoming up on bus tie time; we've got a little over 6:50 until TIG.
+CMP: Alright, we're coming up on bus tie time; we've got a little over 6:50 until TIG.
 
 [05:15:17:05]
 CDR: Ready for the bus ties.
@@ -14666,7 +14666,7 @@ CMP: Okay?
 LMP: Okay.
 
 [05:15:26:23]
-CMP: Let's look at what we got. DELTA-V TRRUST A and B are OFF - -
+CMP: Let's look at what we got. DELTA-V THRUST A and B are OFF - -
 _page : 242
 
 [05:15:26:26]
