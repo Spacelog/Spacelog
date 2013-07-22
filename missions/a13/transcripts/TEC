@@ -895,7 +895,7 @@ CMP: Thank you.
 [00:02:31:22]
 CC:  Apollo 13, Houston. We will be losing data from
      Carnarvon in about 1 minute. We'll probably have
-     voice through [glossary:ARIA]. Everything is honkey-dory,
+     voice through [glossary:ARIA]. Everything is hunky-dory,
      and we will be listening for you to tell us how
      the burn goes.
 
@@ -945,7 +945,7 @@ CC:  Houston; Roger.
 CDR: It's off. Engine off.
 
 [00:02:41:42]
-_extra : NOTE/nAfter the Hawaii pass following TLI, there is/ncontinuoas acquisition among Goldstone (GDS),/nMadrid (MAD), and Honeysuckle (HSK).
+_extra : NOTE/nAfter the Hawaii pass following TLI, there is/ncontinuous acquisition among Goldstone (GDS),/nMadrid (MAD), and Honeysuckle (HSK).
 CC:  Houston. Copy. Engine off.
 
 [00:02:42:27]
@@ -3934,7 +3934,7 @@ CDR: I said thank goodness for that.
 [01:00:18:10]
 CC:  Okay. Some truck lines are being struck in the
      Midwest, and the school teachers have walked off
-     the job in Minneapolis. Today's favorite pasttime
+     the job in Minneapolis. Today's favorite pastime
      across the - Uh oh; have you guys completed your
      income tax?
 
@@ -4503,7 +4503,7 @@ LMP: Okay, Joe. Out window 5, I just picked up the
      be in the proximity of the S-IV at this time.
 
 [01:02:29:33]
-_extra : END OF TAPE/nPsge 72
+_extra : END OF TAPE/nPage 72
 CC:  I don't think so, Fred. It's several hundred
      miles aft of you. 700 miles is - is the number,
      I'm told. And since the [glossary:SLA] panel didn't make the
@@ -4858,7 +4858,7 @@ CMP: Okay, Houston. We're at [glossary:P40] burn attitude. Jim
 CC:  Roger, Jack. Copy. Very good.
 
 [01:05:46:02]
-CMP: But we could't tell you whether it's 44 or not.
+CMP: But we couldn't tell you whether it's 44 or not.
 
 [01:05:46:08]
 CC:  Whoops.
@@ -19408,7 +19408,7 @@ CC:  Okay. And you can forget the "[glossary:APS] Follow-up,"
      entries and at 4 minutes, we got a change.
      First line, CB(16) INVERTER 3, CLOSE; line 2,
      scratch out "Select INVERTER 1." At - proceeding
-     on down the page, after "ATTITUDE MONITOR," we' d
+     on down the page, after "ATTITUDE MONITOR," we'd
      like you to place the RATE SCALE to "25 degrees
      a second." Okay, proceeding on down four more
      lines to "BALANCE COUPLE," we'd like to turn
@@ -20578,7 +20578,7 @@ CDR: What?
 
 [03:04:40:39]
 LMP: Okay. One word is that the - In an optimum
-     fashion there, going through that 2-hour activation generally took sonewhere from about an hour
+     fashion there, going through that 2-hour activation generally took somewhere from about an hour
      and 15 to an hour 20.
 
 [03:04:40:56]
@@ -23449,7 +23449,7 @@ LMP: Did you get some? Is there any coming out still?
      this working out?
 
 [03:09:59:52]
-_extra : Pace 363
+_extra : Page 363
 CDR: Okay. No problem.
 
 [03:09:59:55]
@@ -25175,7 +25175,7 @@ LMP: Okay. I'll select SECONDARY and swap out the
 [03:13:22:53]
 CC:  Okay, Fred. And when you select - When you
      swap out the primary cartridge, don't reselect
-     PRIMARY. Stay on SECONDAARY until we use the
+     PRIMARY. Stay on SECONDARY until we use the
      secondary up. Over.
 
 [03:13:23:10]
@@ -25534,7 +25534,7 @@ CC:  Okay. Can you identify the quadrant?
 [03:14:34:18]
 CDR: Well, I'm looking through the right rear reticle
      now of the [glossary:AOT], and when I was back in the command
-     mmodule, I could see it out of the [glossary:CM] 1 window.
+     module, I could see it out of the [glossary:CM] 1 window.
      The particles are rather small, but they are
      coming out with some force. That's probably what
      is disturbing our [glossary:PTC] attitude.
@@ -35882,7 +35882,7 @@ CMP: Jack, I don't think we ever closed CB [glossary:LM] POWER-1,
 CC:  Yes, you're right. Both of them should be MAIN B.
 
 [04:15:38:42]
-_extra : Pagr 562
+_extra : Page 562
 CMP: Okay. Copy that.
 
 [04:15:38:47]
@@ -40363,7 +40363,7 @@ CMP: Okay. Panel 8: SEQ LOGIC, two, to OFF. Are
 [05:06:39:08]
 CC:  That's affirm. The reason we're turning the
      logic off, Jack, is a power savings. So we'll
-     be turning them off, and I'll ge getting them
+     be turning them off, and I'll be getting them
      back on when we go to get off of the [glossary:LM]; and
      then turn them back off, then we'll be turning
      them on prior to entry. Just so you know what's
@@ -41357,7 +41357,7 @@ CC:  All right, after we've? done that, we want to get
      panel 8, SEQUENTIAL, PYRO ARM, two of them, ON.
 
 [05:07:23:25]
-CMP: Okay. I get a GO fron [glossary:MSFN] for this?
+CMP: Okay. I get a GO from [glossary:MSFN] for this?
 
 [05:07:23:32]
 CC:  Okay, John says we can watch it.
@@ -44071,7 +44071,7 @@ LMP: Is it the one Jack wrote them all in? The big
      G&N book.
 
 [05:12:31:41]
-_extra : Paga 690
+_extra : Page 690
 CC:  It's in the big, long one he wrote out at about
      [glossary:EI] minus 02:30. [glossary:EMS] entry check.
 
@@ -45432,7 +45432,7 @@ CC:  Oh, absolutely, Jim. We're well ahead. I just
 [05:16:16:25]
 CDR: Okay. I hope that when you send up all those
      uplinks to Jack that you could get them up to
-     him quick]y.
+     him quickly.
 
 [05:16:16:33]
 CC:  We're shooting for less than 5 minutes.
@@ -48164,7 +48164,7 @@ CDR: Okay. Entry pad as follows: Mid-PAC, 000152,
      000; [time:05:22:38:19|142:38:19], 178; minus 21.66, minus 165.37;
      05.2; 3621.1, 6.20; 1119.7, 36291; [time:05:22:40:46|142:40:46];
      00:30; all the DLS are N/A. DO is 4.00, 02:20;
-     00:19, 03:38, 07:59. lll the rest are N/A,
+     00:19, 03:38, 07:59. All the rest are N/A,
      except lift vector which is up; and I have the
      the ...
 
