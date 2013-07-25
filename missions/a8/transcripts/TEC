@@ -2033,7 +2033,7 @@ CDR: Perhaps a little bit horizontally displaced
      1 window.
 
 [00:04:18:34]
-_extra : Tape5
+_extra : Tape 5
 CC: Okay. Understand; the sun is on the right side
      of the S-IVB and coming in your number 1 window.
      And are you - when you give us those angles, that
@@ -4892,7 +4892,7 @@ LMP: Okay.
 [00:12:01:11]
 CC: Do you still want our - have us command as much
      as we can on the ground, or would you like to move
-     the switches yourself7
+     the switches yourself?
 
 [00:12:01:20]
 LMP: Oh, you can have the fun of doing it.
@@ -5496,7 +5496,7 @@ LMP: Roger. TLI plus 25, SPS/G&N 63087, minus 162
 [00:13:12:12]
 CC: That's correct, Apollo 8. And we'll have a couple
      more things for you before too long. We're
-     working an a flyby PAD at this time. And we're
+     working on a flyby PAD at this time. And we're
      going to be talking some more to you about the
      problem of looking at stars in the sextant and
      telescope. And what we'd like to do as soon as
@@ -6200,7 +6200,7 @@ CDR: Houston, did you read? Apollo 8. We got a lot
      of noise.
 
 [00:18:11:20]
-CC: Apollo8, Houston. Go ahead.
+CC: Apollo 8, Houston. Go ahead.
 
 [00:18:11:40]
 CDR: Houston, Apollo 8.
@@ -7614,7 +7614,7 @@ CC: Very good. And don't ruin Jim's optics.
 LMP: Right.
 
 [01:02:50:48]
-CC: Apollo8, Houston.
+CC: Apollo 8, Houston.
 
 [01:02:50:51]
 LMP: Go.
@@ -16323,7 +16323,7 @@ CC: On the SPS, the oxidizer and fuel feed line
      looks like we're getting good normal heater
      operations. We plan to have you in a 60-mile
      circular orbit after LOI 2. And we should
-     have some PAD's for you on the LOI burn et
+     have some PAD's for you on the LOI burn at
      about 67 hours.
 
 [02:14:39:30]
@@ -16629,7 +16629,7 @@ CC: Apollo 8, this is Houston. Loud and clear.
 
 [02:18:42:11]
 CDR: Okay, Jerry. At 67, we are going over to the
-     LO1 1 attitude, do a sextant star check, and
+     LOI 1 attitude, do a sextant star check, and
      then we will have to go back to PTC. I want to
      know if you want us to go back to the same attitudes
      we are at now?
@@ -16972,11 +16972,11 @@ _page : 7
 CDR: Houston, Apollo 8. Go ahead with your data.
 
 [02:19:19:05]
-CC: Apollo 8, this is Houston with an LO1 1 PAD.
+CC: Apollo 8, this is Houston with an LOI 1 PAD.
      Over.
 
 [02:19:19:14]
-CDR: Roger. Understand. LO1 1.
+CDR: Roger. Understand. LOI 1.
 
 [02:19:19:17]
 CC: That is affirmative, LOI 1, SPS/G&N: 62844 1,
@@ -18280,7 +18280,7 @@ CC: Apollo 8, Houston. Your SPS data looks real good.
 CDR: Thank you.
 
 [02:22:28:49]
-CC: So far, everything looks copacetic.
+CC: So far, everything looks copasetic.
 
 [02:22:30:42]
 CC: Apollo 8, Houston. We would like to take about
@@ -19107,7 +19107,7 @@ CDR: Roger.
 CC: Roger. Plus 0888, minus 16500 12955 36185 146
      3450 GDC, align no change, ullage no change,
      horizon 1 degree at ignition minus three.
-     Assumes LO1 2. Over.
+     Assumes LOI 2. Over.
 
 [03:00:16:45]
 CDR: Go ahead - or Houston, this is Apollo 8.
@@ -19736,7 +19736,7 @@ CC: Go ahead, Apollo 8.
 CC: Apollo 8, Houston.
 
 [03:02:41:37]
-LMP: ... since the DSE qua1 is not so good. How do
+LMP: ... since the DSE qual is not so good. How do
      you read, Mike?
 
 [03:02:41:43]
@@ -23447,7 +23447,7 @@ _page : 5
 CDR: Roger. Go ahead.
 
 [03:16:09:58]
-CC: Okay. PTC attitude vi11 be pitch 10, yaw 45.
+CC: Okay. PTC attitude will be pitch 10, yaw 45.
      This begins at 92 hours. Over.
 
 [03:16:10:11]
@@ -24898,8 +24898,8 @@ CC: Here is a feature by Harry Rosenthal of Associated
      his community of Timber Cove were lined with
      Mexican style luminarios, and the four Lovell
      children came out to light them about 7:30. They
-     were just in time. At 8:O0, a car drove up
-     carrying e tall Santa Claus with a large sack
+     were just in time. At 8:00, a car drove up
+     carrying a tall Santa Claus with a large sack
      on his back. He ho ho'd up to the door and
      knocked loudly. It opened, and there stood
      Jeffrey Lovell who will be 3 on January 14.
@@ -28409,7 +28409,7 @@ CC: Okay, Jim. There's one thing before you get
      precaution, we'd like to dump the computer
      memory and go through it and check it bit
      by bit and make sure everything is exactly
-     copacetic. Over.
+     copasetic. Over.
 
 [04:12:10:31]
 _page : 2
@@ -30067,13 +30067,13 @@ CC: Apollo 8, Houston.
 CDR: Go ahead. 
 
 [04:18:39:46]
-CC: Okay. While we are verifying that scroll position - they are talking it over in the back room about that now - I vould like to go ahead and run down the checklist with you for entry. 
+CC: Okay. While we are verifying that scroll position - they are talking it over in the back room about that now - I would like to go ahead and run down the checklist with you for entry. 
 
 [04:18:40:00]
 CDR: Go ahead. 
 
 [04:18:40:02]
-CC: Okay. Looking on entry 1: the second item there is the 12-hour Kelvin cold soak, and in discussions I here and preflight, I think it is agreed that we don't want to do the cold soak there. So we are going to delete that step 2. And what it amounts to is, I think we do want to do a cold soak, and we certainly want to exercise the water boilers prior to entry in order to insure that we don't have one that is dried out, in the same manner that we had one dried out prior to LOI. And we are vorking on some procedures for that, and we'll have to come back to you with those a little bit later, and we will try to do it sometime when Bill's on the line so that everybody can get in on the loop at the same time. We would like to add a step between 8 and 9, or as part of step 8. This is all on page E-1, where we turn the VHF to Simplex A at minus 4 hours and 35 minutes. Now this will be beyond two-way VHF range, but it will make sure
+CC: Okay. Looking on entry 1: the second item there is the 12-hour Kelvin cold soak, and in discussions I here and preflight, I think it is agreed that we don't want to do the cold soak there. So we are going to delete that step 2. And what it amounts to is, I think we do want to do a cold soak, and we certainly want to exercise the water boilers prior to entry in order to insure that we don't have one that is dried out, in the same manner that we had one dried out prior to LOI. And we are working on some procedures for that, and we'll have to come back to you with those a little bit later, and we will try to do it sometime when Bill's on the line so that everybody can get in on the loop at the same time. We would like to add a step between 8 and 9, or as part of step 8. This is all on page E-1, where we turn the VHF to Simplex A at minus 4 hours and 35 minutes. Now this will be beyond two-way VHF range, but it will make sure
      that we do have it on at the time when we pick it up. We were able to get out to 20 000 miles with a downlink, and we are checking on the uplink signal. So if we put it on at this point, we know we have it on well in advance of any time we might be able to get into the VHF. 
 
 [04:18:41:36]
@@ -30199,7 +30199,7 @@ CC: Okay. We still owe you confirmation that you
      soon as they come in with an answer on it. 
 
 [04:18:49:32]
-CDR: Cksy . 
+CDR: Okay . 
 
 CC: I'd like to go ahead and finish going through 
      the entry book if you're ready. 
@@ -30248,7 +30248,7 @@ CDR: I'd rather do that.
 
 [04:18:51:15]
 CC: Okay. I'm just going to make a note here, and we can do it the other way, too. The other 
-     item that Kas pen-and-inked in - - 
+     item that was pen-and-inked in - - 
 
 [04:18:51:23]
 CDR: ... 
@@ -30274,7 +30274,7 @@ CC: Okay. I guess that one was sent up to you this
      E-8, it shows the EMS entry check being run at 
      minus an hour, and you know that it's a short 
      test. There is really no reason to wait for an 
-     hour; we might as well go ahead an2 do that as 
+     hour; we might as well go ahead and do that as 
      soon as you get through with step 35 on page E-7 
      because we're coming up on a pretty busy period. 
 
@@ -30479,7 +30479,7 @@ CDR: Back with you.
 CC: Okay. I've got a few good words for you. The 
      erasable memory has been taken completely apart 
      and looked at, and it looks like it's all okay. 
-     Your PO1 didn't have any effect. The one thing 
+     Your P01 didn't have any effect. The one thing 
      that might be questionable is if you used a 
      VERB 67 when you get to the NOUN 99 display, 
      you may find that one to be unreliable, and 
@@ -30512,7 +30512,7 @@ CC: Okay. As of 114 hours, your batteries - you
      propellants on. However, as long as we can 
      use our own calculations, why, we might as 
      well leave them tied up. We probably won't 
-     get into the seconday propellants prior to 
+     get into the secondary propellants prior to 
      entry anyhow. 
 
 [04:19:19:41]
@@ -30921,7 +30921,7 @@ CC: Apollo 8, Houston. Radio check.
 CC: Apollo 8, Houston. Radio check. 
 
 [04:20:05:50]
-CC: Apcllo 8, Houston. Radio check. 
+CC: Apollo 8, Houston. Radio check. 
 
 [04:20:06:37]
 CC: Apollo 8, Houston in the blind now. We're 
@@ -30940,8 +30940,8 @@ CC: Okay. I got you that time. I take it you were
 
 [04:20:07:28]
 LMP: I was able to copy you all the time, Ken, but 
-     I cculd only hear the music when you were trying 
-     to tmsmit. And I wondered if you noticed 
+     I could only hear the music when you were trying 
+     to transmit. And I wondered if you noticed 
      cycling on my suit power switch when you - 
      when you called me. I am hearing an echo now. 
 
@@ -30968,7 +30968,7 @@ CC: Calm it. (Laughter)
 LMP: You are cutting out, Houston. 
 
 [04:20:11:40]
-CC: Oh, that was sn inadvertent cut-in. 
+CC: Oh, that was an inadvertent cut-in. 
 
 [04:20:11:45]
 LMP: Okay. 
@@ -31162,7 +31162,7 @@ LMP: Okay. I'll just go ahead and switch it and
      save you all that trouble. 
 
 [04:20:56:14]
-CC: Ckay. Thank you. Our midnight DVA show's 
+CC: Okay. Thank you. Our midnight DVA show's 
      back on the air. 
 
 [04:20:56:20]
@@ -31284,7 +31284,7 @@ LMP: Is the pneumogram NO-GO for entry?
 CC: Roger. 
 
 [04:21:23:24]
-CC: 0ne thing you might be interested in: we 
+CC: One thing you might be interested in: we 
      listened to that low speed information that 
      you taped on the first couple of REV's that 
      we thought was going to be unusable. And it 
@@ -31418,7 +31418,7 @@ LMP: Okay. I'm ready to copy on TV.
 
 [04:22:21:31]
 CC: Okay. Before you copy, let me read it all through 
-     to you here so you wi11 get the feel for what it 
+     to you here so you will get the feel for what it 
      is we are talking about. The title of this little 
      epistle is "TV and Film Photography Correlation 
      Experiment," and what they want to do is mount 
@@ -31499,7 +31499,7 @@ CC: Okay. I understand what you are saying now. I'll
 
 [04:22:25:05]
 LMP: Okay. Another thing to keep in mind is that we 
-     haven't seen the moon - we didn't see a11 the way 
+     haven't seen the moon - we didn't see all the way 
      out, and we rarely see it going back. We have seen 
      it once since we left, but we have maneuvered the 
      wrong way from a sighting attitude to the shortest 
@@ -31528,7 +31528,7 @@ CC: Okay. I just wanted you to be aware of this and
      you come to them, are the short ranges, and numbers 2 
      and 4 are the long-range scrolls. On coldsoak, 
      I think we talked about what we're going to do there, 
-     but somewhere inside of about an hour, we'11 want 
+     but somewhere inside of about an hour, we'll want 
      to get into the coldsoak business. We certainly 
      don't want to do it at 12. Talking to the trajectory 
      people - what they thought about water boiling - 
@@ -31541,7 +31541,7 @@ CC: Okay. I just wanted you to be aware of this and
      perturbed that much. So it looks like one time that 
      we're going to consider, if we're going to do some 
      of this water boiling, we may do it just prior to 
-     the midcourse after all the tracking is settied 
+     the midcourse after all the tracking is settled 
      down and they know what the midcourse correction 
      will be. Then in that period just prior to the 
      midcourse we can do it, and they'll pick up their 
@@ -31567,7 +31567,7 @@ CC: Not really. I think we are looking at that prior
      and if we don't do it in 12 hours, it is not 
      real clear where the coldsoak takes place or 
      where you turn on the secondary water boiler. 
-     In looking through the eniry checklist tonight, 
+     In looking through the entry checklist tonight, 
      we didn't find a place for that. 
 
 [04:22:28:48]
@@ -31974,7 +31974,7 @@ CC: Roger. For the P23 attitude that you are in
      monitoring, and it's looking good.
 
 [05:00:28:05]
-CDR: Thank you. After we complete this, do youo
+CDR: Thank you. After we complete this, do you
      want us to return to the PTC attitude? Is
      that correct?
 
@@ -32170,7 +32170,7 @@ CC: Okay. There is really not a whole lot in the
      our prayers. Your reunion has brought great joy
      into our heart this Christmas day. Our best to
      you personally and to all of the families under
-     your conmand'. And it was signed 'Families of
+     your command'. And it was signed 'Families of
      the crew of Apollo 8.' Space officials said that
      the message had been suggested and written by
      Mrs. Frank Barman.
@@ -32246,7 +32246,7 @@ CC: That is about it as far as the world and national
      named as the AFL coach of the year. This is the
      second time for him in three seasons. The voting
      was done by an Associated Press panel of 30 sports
-     writers snd sportscasters, three from each city.
+     writers and sportscasters, three from each city.
      The nearest one to him was Weeb Ewbank. Other
      coach's that received votes were Sid Gilman of
      San Diego, and Lou Sabin of Denver. As for the
@@ -32272,7 +32272,7 @@ CC: Okay, Frank.
 
 [05:00:59:59]
 CC: For the big Astro Blue Bonnet game, the big
-     basketball clasic followed by the Astro Blue Bonnet
+     basketball classic followed by the Astro Blue Bonnet
      Bowl in the Dome: SMU and Oklahoma have arrived.
      They are getting ginned up for the big game.
      Doesn't say here which are favored. I will look
@@ -32280,7 +32280,7 @@ CC: For the big Astro Blue Bonnet game, the big
      here. The Davis Cup is underway now, down in
      Australia, and the US is bidding to recapture
      that again, and apparently we're favored to 
-     recapture the supremecy today. Another item in
+     recapture the supremacy today. Another item in
      the news, is O. J. Simpson; he was named player
      of the year in college football for the second
      consecutive season by the Walter Camp Football
@@ -32329,11 +32329,11 @@ CDR: Go ahead. You are loud and clear.
 
 [05:01:04:20]
 CC: Okay. I got interrupted there for a minute. Bob
-     Hope is back out in Viet Nam again with his troups,
+     Hope is back out in Viet Nam again with his troops,
      doing a great job as usual. One little name in
      the news story here is from the USS New Jersey.
-     Bob Hope joked from atop of a hugh gun turret
-     yesterday - or Wednesday - to delighs the 1500 men
+     Bob Hope joked from atop of a huge gun turret
+     yesterday - or Wednesday - to delight the 1500 men
      aboard the battle ship New Jersey on its 20th
      Christmas entertaining US troops abroad. Hope
      and his 27 member troop entertained the New Jersey
@@ -32445,7 +32445,7 @@ CDR: I guess - Jim said that was already official. I
 
 [05:01:08:57]
 CC: Okay. Frank, by the way, how do you feel about
-     your EMS now? You feel like you'we got all the
+     your EMS now? You feel like you've got all the
      answers to the little funnies you saw earlier?
 
 [05:01:09:08]
@@ -32737,7 +32737,7 @@ CC: Frank, EECOM says everything looks nominal down
 [05:03:24:26]
 CDR: No, we don't have the fans on, but what we
      have done is put up a window shade. That
-     seems to help it. We'we been getting a lot
+     seems to help it. We've been getting a lot
      more sun in the cabin this way.
 
 [05:03:24:35]
@@ -32805,7 +32805,7 @@ CMP: Okay.
 [05:03:27:15]
 CDR: We really - we shouldn't complain about the
      fuel usage on that SPS engine though, because
-     we're sure getting a lotof miles per gallon
+     we're sure getting a lot of miles per gallon
      out of it.
 
 [05:03:27:27]
@@ -32970,7 +32970,7 @@ CDR: Jim's going to leave the helmet off now for the
 
 [05:03:37:44]
 CC: Roger.
-     END OFTAPE
+     END OF TAPE
 
 [05:04:02:26]
 _page : 1
@@ -33163,7 +33163,7 @@ CC: Roger.
 
 [05:04:42:16]
 CC: Frank, on this free pitch and yaw, if either one
-     of them gets outside of 15 degrees frcm the
+     of them gets outside of 15 degrees from the
      nominal values, we'll call it off.
 
 [05:04:42:32]
@@ -33307,7 +33307,7 @@ CDR: Say, Jerry, last night, Jim was saying something
      remember where I put it. ...
 
 [05:05:10:11]
-CC: Roger, Frank. We'we got it in the checklist here
+CC: Roger, Frank. We've got it in the checklist here
      as right around 4 minutes - 4 hours before EI,
      right after your nominal P23, P37 onboard 
      comparisons, KG-1, page E-1.
@@ -33355,8 +33355,8 @@ CDR: Go ahead, Houston. Apollo 8.
 
 [05:06:38:33]
 CC: Roger. Your battery is full; you can terminate
-     charging. You'we got 40 amp-hours on it now,
-     and we'we got a couple of requests for data
+     charging. You've got 40 amp-hours on it now,
+     and we've got a couple of requests for data
      here.
 
 [05:06:38:41]
@@ -33469,7 +33469,7 @@ CDR: We will try them again, one at a time, and see
 CC: Roger.
 
 [05:06:42:15]
-CDR: Bumber 2 is really bad. It's got a bad bearing,
+CDR: Number 2 is really bad. It's got a bad bearing,
      and it whines like mad, so we are not going to
      turn it on.
 
@@ -33490,7 +33490,7 @@ CDR: Sounds like that MG starter of yours.
 [05:06:42:55]
 CC: I'm afraid to turn my starter on now. It's been
      so long.
-     ERDOF TAPE
+     END OF TAPE
 
 [05:07:14:36]
 _page : 1
@@ -33690,7 +33690,7 @@ CDR: Great. A most fantastic voyage.
 CC: Sure was.
 
 [05:07:27:27]
-CDR: We're not through yet. We'we still got
+CDR: We're not through yet. We've still got
      100 000 miles to go. You know, we kind of feel
      like it was all over with TEI, but we're still
      a long way.
@@ -33977,7 +33977,7 @@ CMP: Roger. And then up to the left hand side, or
      of the United States.
 
 [05:08:03:11]
-CC: Roger. Move-a little bit away fron the
+CC: Roger. Move-a little bit away from the
      terminator now, a little left with the camera and a
      little further from the terminator.
 
@@ -34025,7 +34025,7 @@ CDR: This is Frank Borman. We've enjoyed the
      television shows, and we'd like you to stay tuned in
      in the future because there'll be flights and
      rendezvous and earth orbit, and then, of course,
-     there'11 be television from the lunar surface
+     there'll be television from the lunar surface
      itself in the not too far distant future. So,
      until then, I guess this is the Apollo 8 crew
      signing off, and we'll see you back on that
@@ -34150,7 +34150,7 @@ CC: Jim, do you see the bright spot out in the
 [05:08:20:31]
 CMP: I'll try. We saw it, of course, through the
      windows and through the monocular. I'll see
-     if I csn spot it.
+     if I can spot it.
 
 [05:08:20:37]
 CC: Roger.
@@ -34187,7 +34187,7 @@ CC: Apollo 8, Houston.
 CMP: Go ahead, Houston.
 
 [05:08:24:14]
-CC: Roger. Jim, we'we got some bird watchers in
+CC: Roger. Jim, we've got some bird watchers in
      the viewing room.
 
 [05:08:24:20]
@@ -34367,7 +34367,7 @@ LMP: Alright. What do you have in mind here in the
      way of activating the secondary loop prior to
      separation? It looks like if we do have a cabin
      fan problem, we won't be able to do a full-blown
-     coldsoak. Is there anything that we can do that'11
+     coldsoak. Is there anything that we can do that'll
      do any good?
 
 [05:08:54:05]
@@ -34508,7 +34508,7 @@ CMP: We've been looking at that, too. It keeps
      wandering off in pitch for some reason more than yaw.
      I was just about ready to go back to it again. I
      had to go back one time, and I was just seeing
-     hov far she would drift. I thought it would drift
+     how far she would drift. I thought it would drift
      out a ways and come back by itself, but it is not
      doing it.
 
@@ -34663,7 +34663,7 @@ CC: Okay. We're predicting at the nominal time of
      second burn which changes your gamma at entry
      interface by a tenth of a degree. Right now
      with no further maneuvers, your gamma is
-     minus 6.39 degrees. aa we're going to steepen
+     minus 6.39 degrees, and we're going to steepen
      it up very slightly to hit the center of the
      target line, and it will be after the maneuver
      minus 6.51. over.
@@ -34805,7 +34805,7 @@ CMP: This is 8. Loud and clear. How us?
 CC: Roger. You're loud and clear, Jim. We'd like
      to get your PRD reading while we've got you up
      and a flight plan change we're suggesting on
-     page 2-107 when'you're ready to copy.
+     page 2-107 when you're ready to copy.
 
 [05:11:34:03]
 _page : 4
@@ -34970,7 +34970,7 @@ CMP: Minus 00014, plus all zeros, plus 00001 000 304
      308 209 357, HP, and P30 is 22.2 nautical miles.
 
 [05:12:17:24]
-CC: That's all carrect, Jim, and I have the entry
+CC: That's all correct, Jim, and I have the entry
      PAD at your convenience.
 
 [05:12:17:32]
@@ -35338,7 +35338,7 @@ CC: Thank you, sir.
 [05:16:34:23]
 _page : 1
 _tape : Tape 90
-CC: Apollo 8, Houston. Orer.
+CC: Apollo 8, Houston. Over.
 
 [05:16:34:38]
 CC: Apollo 8, this is Houston. Over.
@@ -35498,7 +35498,7 @@ CC: Apollo 8, Houston. Over.
 LMP: Go ahead, Houston.
 
 [05:19:08:26]
-CC: Roger, Apollo 8. Ycur Green Team will be signing
+CC: Roger, Apollo 8. Your Green Team will be signing
      off in a few minutes, and before we do, Charlesworth
      and the rest of us would like to say we have
      enjoyed it and look forward to seeing you back
@@ -35933,7 +35933,7 @@ CC: Okay. To make everybody happy, we can use an
 
 [05:21:48:52]
 CDR: Just a minute, I'll give you that; I forgot. Bill
-     Anders got about 5 hours, and Jim Love11 got about
+     Anders got about 5 hours, and Jim Lovell got about
      five, and I got about five and a half or six.
 
 [05:21:49:09]
@@ -36029,7 +36029,7 @@ CDR: And also, Ken, we are going to turn on our VHF
      now, about 4 hours before entry.
 
 [05:22:01:37]
-CC: Real fine. Thank you. I'11 let you know when
+CC: Real fine. Thank you. I'll let you know when
      we pick it up.
 
 [05:22:01:41]
@@ -36047,9 +36047,9 @@ CDR: Go ahead, Houston.
 [05:22:17:37]
 CC: Okay. We have checked into your drogue time,
      and the number of 08:16 on your entry PAD is
-     correct. We'11 be giving you an updated entry
+     correct. We'll be giving you an updated entry
      PAD on the scheduled time of 143:30. At the same
-     time, ve'll be giving you an update of your state
+     time, we'll be giving you an update of your state
      vectors for the LM and CSM. The midcourse 
      correction number 7 was less than seven-tenths foot per
      second, and we will not execute it. You have a
@@ -36174,7 +36174,7 @@ LMP: Ken, we got two things going here which make this
      that we haven't got any cabin heat exchanger.
 
 [05:22:57:45]
-CC: I don't think that vas the intent, Bill. What
+CC: I don't think that was the intent, Bill. What
      they had in mind, we have the suit heat exchanger
      on both loops; and if they got too cold, you could
      use the panel switching to shut down the primary .
@@ -36885,7 +36885,7 @@ CC: Apollo 8, Apollo 8. Ground data indicates the
 LMP: Roger.
 
 [06:02:32:51]
-CC: Apoilo 8, Apollo 8. Your secondary loop looks
+CC: Apollo 8, Apollo 8. Your secondary loop looks
      good.
 
 [06:02:32:56]
