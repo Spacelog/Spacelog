@@ -62,6 +62,12 @@
           "photo_height": 205,
           "avatar": "",
           "quotable_log_line_id": ""
+        },
+        "SC": {
+          "role": "other",
+          "name": "Unidentified crew member",
+          "short_name": "Unidentified crew member",
+          "avatar": "SC_48.png"
         }
     },
     "acts" : [
