@@ -5,6 +5,4 @@ execute "apt-get update"
   package p
 }
 
-include_recipe "perl"
-
 cpan_module "CSS::Prepare"

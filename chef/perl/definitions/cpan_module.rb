@@ -17,15 +17,19 @@
 # limitations under the License.
 #
 
+# TODO: convert this to an LWRP
 define :cpan_module, :force => nil do
   execute "install-#{params[:name]}" do
-    if params[:force] 
-      command "echo force install #{params[:name]} | /usr/bin/cpan"
+    if params[:force]
+      command "#{node['perl']['cpanm']['path']} --force --notest #{params[:name]}"
     else
-      command "/usr/local/bin/cpan_install #{params[:name]}"
+      command "#{node['perl']['cpanm']['path']} --notest #{params[:name]}"
     end
-    cwd "/root"
-    path [ "/usr/local/bin", "/usr/bin", "/bin" ]
+    root_dir = node['platform'] == 'mac_os_x' ? '/var/root' : '/root'
+    cwd root_dir
+    # Will create working dir on /root/.cpanm (or /var/root)
+    environment 'HOME' => root_dir
+    path %w{ /usr/local/bin /usr/bin /bin }
     not_if "perl -m#{params[:name]} -e ''"
   end
 end

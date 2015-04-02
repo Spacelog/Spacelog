@@ -2,7 +2,7 @@
 # Cookbook Name:: perl
 # Recipe:: default
 #
-# Copyright 2009, Opscode, Inc.
+# Copyright 2009-2013, Opscode, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,53 +17,27 @@
 # limitations under the License.
 #
 
-package "perl" do
-  action :upgrade
-end
+case node['platform']
+when 'windows'
+  include_recipe 'perl::_windows'
 
-package "libwww-perl" do
-  case node[:platform]
-  when "centos"
-    package_name "perl-libwww-perl"
-  when "arch"
-    package_name "perl-libwww"
+else
+  node['perl']['packages'].each do |perl_pkg|
+    package perl_pkg
   end
-  action :upgrade
-end
 
-package "libperl-dev" do
-  case node[:platform]
-  when "centos","arch"
-    action :nothing
-  else
-    action :upgrade
+  cpanm = node['perl']['cpanm'].to_hash
+  root_group = node['platform'] == 'mac_os_x' ? 'admin' : 'root'
+
+  directory File.dirname(cpanm['path']) do
+    recursive true
   end
-end
 
-directory "/root/.cpan" do
-  owner "root"
-  group "root"
-  mode 0750
-end
-
-cookbook_file "CPAN-Config.pm" do
-  case node[:platform]
-  when "centos","redhat"
-    path "/usr/lib/perl5/5.8.8/CPAN/Config.pm"
-  when "arch"
-    path "/usr/share/perl5/core_perl/CPAN/Config.pm"
-  else
-    path "/etc/perl/CPAN/Config.pm"
+  remote_file cpanm['path'] do
+    source cpanm['url']
+    checksum cpanm['checksum']
+    owner 'root'
+    group root_group
+    mode 0755
   end
-  source "Config-#{node[:languages][:perl][:version]}.pm"
-  owner "root"
-  group "root"
-  mode 0644
-end
-
-cookbook_file "/usr/local/bin/cpan_install" do
-  source "cpan_install"
-  owner "root"
-  group "root"
-  mode 0755
 end
