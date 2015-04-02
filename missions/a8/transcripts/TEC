@@ -220,13 +220,13 @@ CDR: Loud and clear, Houston. Loud and clear.
 CC: Roger. You're looking good, Apollo 8.
 
 [00:00:11:16]
-CDR: HP is coming up -
+CDR: HP is coming up --
 
 [00:00:11:21]
 CDR: HP is plus.
 
 [00:00:11:30]
-CDR: - and we have SECO.
+CDR: -- and we have SECO.
 
 [00:00:11:33]
 CC: Roger. SECO.
@@ -2780,7 +2780,7 @@ LMP: Plus 1197, minus 16500 12681 35608 0506, correction
      050 46 53 north set 068 097 356, zero
      ullage. Note one: fast return, P37, DELTA-V
      7900 Indian Ocean; two, high-speed procedure
-     not required; three, PAD assumes no MCC1.
+     not required; three, PAD assumes no MCC 1.
      Over.
 
 [00:05:30:42]
@@ -2966,7 +2966,7 @@ CC: Alright. PTC attitude will be pitch 242; yaw is
      020. Over.
 
 [00:05:39:29]
-LMP: pitch 242, yaw 020. Copy.
+LMP: Pitch 242, yaw 020. Copy.
 
 [00:05:39:33]
 _page : 13
@@ -4280,19 +4280,19 @@ CDR: Roger. We say we are ready to copy the PAD.
 
 [00:09:58:29]
 CC: Okay. The first PAD will be a maneuver PAD,
-     MCC 1, and this will be an SPS/G&N beginning
+     MCC one, and this will be an SPS/G&N beginning
      with the weight, 63295 minus 163 plus 129 010
      59 58 30 plus 001 36 minus 00 045 plus 002 02
-     345 188 343 999 99 plus 016 85 002 48 002 001 86 23 2013 164 012
-     up 276, left 04, November
+     345 188 343 999 99 plus 016 85 002 48 002 001
+     86 23 2013 164 012 up 276, left 04, November
      Alfa for the remainder of that column. In the
      comments: north stars; 068 097 356, a no ullage
      start, and a single bank burn on bank Alfa. Over.
 
 [00:10:01:10]
-CDR: Houston, Apollo 8. MCC 1 maneuvers: SPS/G&H
+CDR: Houston, Apollo 8. MCC 1 maneuvers: SPS/G&N
      63295 minus 163 plus 129 010 59 5830 plus 00136
-     minus 00045 plus 00202 345 186 343 all 9's
+     minus 00045 plus 00202 345 188 343 all 9's
      plus 01685 000248 002 00186 23 2013 164 012,
      up 27-6, left 04 November Alfa for the remainder.
      North set stars, roll 068, pitch 097, yaw 356,
@@ -4317,13 +4317,13 @@ CC: Roger, Apollo 8. Loud and clear now. Are you
 CDR: Roger. Ready to copy.
 
 [00:10:03:24]
-CC: Okay. This is a TLI plus 11, SPS/G&R. This
+CC: Okay. This is a TLI plus 11, SPS/G&N. This
      assumes a midcourse correction number 1: 631
      40 minus 163, plus 129 013 56 48 97, minus 005,
      99, plus 00 00 0, plus 47016, 177 143 000 November
      Alfa, plus 001 97 47 020 5 51 468 18 12 12 83
-     257 023, up 263, left 17, plus 11 95, minus 165 00 126 83 356 08 050 47 05,
-     north stars; 068
+     257 023, up 263, left 17, plus 11 95, minus 165
+     00 126 83 356 08 050 47 05, north stars; 068
      097 356, no ullage. For the fast return P37
      DELTA-V, 7900 for the Indian Ocean, high speed
      procedure not required for the EMS. This assumes
@@ -5413,8 +5413,7 @@ _page : 5
 CC: That's affirm.
 
 [00:12:58:15]
-CC: Apollo
-     8, Houston. We asked it again, and it
+CC: Apollo 8, Houston. We asked it again, and it
      looks like no problems at all with going ahead
      and bleeding it down in the cockpit. And then
      if you need it again on entry or after entry,
@@ -5490,7 +5489,7 @@ LMP: Roger. TLI plus 25, SPS/G&N 63087, minus 162
      52759 623 52543 14 2347 337 023 up 195 left 1.7,
      plus 1145, minus 16500 12780 35890 074 38 16.
      North set 068 097 356, no ullage, P37 fast return of
-     7-700 and 7900 DELTA-V Indian Ocean. High speed
+     7 - 700 and 7900 DELTA-V Indian Ocean. High speed
      not required.
 
 [00:13:12:12]
@@ -5590,7 +5589,7 @@ CC: That's affirm, and that's perilune.
 CMP: Roger.
 
 [00:13:27:13]
-CC: Apollo 8, Houston,
+CC: Apollo 8, Houston.
 
 [00:13:27:17]
 CMP: Go ahead, Houston.
@@ -5838,7 +5837,7 @@ LMP: Houston, Apollo 8.
 CC: Apollo 8, you called?
 
 [00:14:48:13]
-LMP: We're showing RAD OUT temp on fuel cell 2
+LMP: Roger. We're showing RAD OUT temp on fuel cell 2
      would be about 90 degrees, and on 1 and 3 it would
      be slightly lower - maybe 75 or 80 degrees.
      About an hour ago you wondered about fuel cells
@@ -6087,7 +6086,7 @@ CMP: Roger. Go ahead.
 
 [00:17:25:16]
 CC: This is as a result of your P23 calibration; the
-     update follow: VERB 24, NOUN 01, ENTER 1354,
+     update follows: VERB 24, NOUN 01, ENTER 1354,
      ENTER all balls, ENTER 214 50 ENTER; comment:
      continue to mark on the horizon destination that
      you've used previously. Your marks are looking
@@ -6095,7 +6094,7 @@ CC: This is as a result of your P23 calibration; the
 
 [00:17:25:57]
 CMP: Roger. DELTA-H update as follows: VERB 24,
-     NOUN 01, ENTER 1354. ENTER all zeros. ENTER 214 50
+     NOUN 01, ENTER 1354, ENTER all zeros, ENTER 214 50
      ENTER. Understand those are two octal numbers.
 
 [00:17:26:18]
@@ -6184,7 +6183,7 @@ CDR: Roger. Go ahead.
 
 [00:18:09:41]
 CC: Okay. And, also, we're - your state vector is
-     now based on shout 5 hours of tracking. We
+     now based on about 5 hours of tracking. We
      have you on a pericynthian of 69.7 miles with a
      free return. Your entry flight path angle looks
      like about minus 14. You will need only a few
@@ -7091,6 +7090,7 @@ CC: That's about the size of it. You're getting
 
 [01:01:07:51]
 LMP: Not bad. I just learned to read about a year
+     ago.
 
 [01:01:07:55]
 CC: Roger. Hey, I've got a flight plan update for
@@ -7132,10 +7132,10 @@ LMP: We're ready.
 [01:01:09:11]
 CC: Okay. I've got a Haney special here for you.
      The Interstellar Times latest edition says the
-     flight to the man is occupying prime space on
+     flight to the moon is occupying prime space on
      both paper and television; it's THE news story.
      The headlines of the Post says "Moon, here they
-     come. We understand that Bill Anders will be
+     come". We understand that Bill Anders will be
      in private conversation or communication today
      with an old man who wears a red suit and lives
      at the North Pole. A suspect in the Miami kidnapping
@@ -7227,7 +7227,8 @@ CDR: This is a mighty nice view we have down there
      today. A little bit more than a half earth.
      Looks like Africa and the Red Sea is visible;
      we're not quite sure as there is quite a bit
-     of cloud cover; but even through the hazy windows, it's mighty nice.
+     of cloud cover; but even through the hazy windows,
+     it's mighty nice.
 
 [01:01:12:58]
 CC: How are your windows? Do you have a couple left
@@ -7675,7 +7676,7 @@ CC: Apollo 8, Houston. Go ahead.
 
 [01:02:58:36]
 LMP: Are you still computing the pericynthian time
-     of 69:10.
+     of 6910.
 
 [01:02:58:45]
 CC: Stand by. We will get an update for you.
@@ -7684,7 +7685,7 @@ CC: Stand by. We will get an update for you.
 LMP: Okay.
 
 [01:02:59:40]
-CC: Apollo 8, Houston. Your 69:10 pericynthian is
+CC: Apollo 8, Houston. Your 6910 pericynthian is
      still good plus or minus a minute, and we will
      get it down to a fine map measurement ...
 
@@ -8090,7 +8091,7 @@ CC: Apollo 8. Houston. Unable to copy. After
      time we should be able to hear you better.
 
 [01:05:59:58]
-CDR: Roger. What ... we we going through right
+CDR: Roger. What ... are we going through right
      now?
 
 [01:06:00:17]
@@ -8223,7 +8224,7 @@ CC: Stand by and we'll check it, Bill.
 
 [01:06:11:26]
 LMP: Because our S-baud off state has been OFF. Possibly
-     - we don't have control or it.
+     - we don't have control of it.
 
 [01:06:12:29]
 CC: Apollo 8, Houston. We've switched on all the
@@ -8341,7 +8342,7 @@ CC: Okay, Apollo 8. What we're going to do on the
      be about 31:07, and we'll just use this to - as
      long as we have the coverage there. I have an
      update to your TLI plus 35 PAD. Now we have to
-     correct a couple of tines on there. So when you
+     correct a couple of times on there. So when you
      get that out, let me know and I'll read it to you.
 
 [01:06:42:38]
@@ -8431,7 +8432,7 @@ CDR: Roger. Understand.
 CDR: Houston, how do you read? Apollo 8.
 
 [01:07:07:20]
-CC: Loud sad clear, Apollo 8.
+CC: Loud and clear, Apollo 8.
 
 [01:07:07:24]
 CDR: Okay. Thank you.
@@ -9127,7 +9128,7 @@ CDR: You guys are reading the DSKY. Go ahead Houston.
 [01:08:42:40]
 CC: Okay, Apollo 8. Maybe we ought to try that one
      again next time, and the scanning telescope star
-     visibility is scheduled for a 34:10 in the flight
+     visibility is scheduled for a 34 10 in the flight
      plan, and it'll be star number 31. The angles
      are roll 184.7, pitch 23.4, yaw 14.3, shaft and
      trunnion zero. Over.
@@ -9178,7 +9179,7 @@ CC: Okay. We'd like to go ahead and get into this
      you some witches.
 
 [01:08:50:27]
-CDR: Standby. We're ready. Go ahead.
+CDR: Stand by. We're ready. Go ahead.
 
 [01:08:50:29]
 CC: Okay. Number 1. S-band normal mode voice to
@@ -9241,7 +9242,8 @@ CDR: Okay. Thank you. So are we.
 [01:09:01:36]
 CC: Okay, Apollo 8. Do you want to try that AUTO
      REACQ? 33 plus 24 looks like a good time and the
-     angles are the same. And the late ball scores is 24 to 14 - -
+     angles are the same. And the late ball scores
+     is 24 to 14 - -
 
 [01:09:01:48]
 CDR: ...
@@ -9303,7 +9305,7 @@ _page : 1
 _tape : Tape 24
 CC: Apollo 8, Houston. I think we may have gotten
      off on a tangent. These pitch and yaw angles
-     that we called up to you for the high gain
+     that we called up to you for the high-gain
      antenna were in response to Bill's request to
      know what positions we could put on there for a
      - for the AUTO REACQ position. The constraint
@@ -9593,7 +9595,7 @@ CC: Okay, Apollo 8. We would like to change the
      make it earth-near horizon for two sets, two sets.
      Then we would like to take star 16 earth-far
      horizon, one set. If star 26 earth-near horizon
-     56 not possible, star 16 earth-far horizon, one
+     is not possible, star 16 earth-far horizon, one
      set, and star 22 earth-far horizon, one set.
      Over.
 
@@ -9852,7 +9854,7 @@ CC: Okay, Apollo 8. All the systems - giving a quick
      right on the line: Battery A - our calculations
      have 39.63 amp hours. Battery B, 37.94, and
      battery Charlie, 38.46. The COMM continues to
-     be running ahead of predictions in quality end
+     be running ahead of predictions in quality and
      circuit margins. Everything else looks like
      it's real fine.
 
@@ -9929,7 +9931,7 @@ CC: Okay. Give me a few minutes to collect some
 [01:11:09:20]
 _page : 1
 _tape : Tape 25
-CDR: Houston,Apollo 8. How do you read?
+CDR: Houston, Apollo 8. How do you read?
 
 [01:11:09:22]
 CC: Loud and clear, Apollo 8.
@@ -9938,7 +9940,7 @@ CC: Loud and clear, Apollo 8.
 CC: I'm going to have a maneuver PAD and --
 
 [01:11:09:32]
-CDR: Houston, Apollo 8. How do you read? ,
+CDR: Houston, Apollo 8. How do you read?
 
 [01:11:09:35]
 CC: I read you loud and clear, Apollo. 8. How me?
@@ -10181,7 +10183,7 @@ CDR: I just lost your last transmission; you were
      clipped.
 
 [01:11:33:24]
-CC: 04. Did you get any of my comments about the
+CC: 0kay. Did you get any of my comments about the
      TV tube?
 
 [01:11:33:33]
@@ -10410,7 +10412,7 @@ CMP: Roger. With such good visibility or such good
      At this sun angle, there is a shaft of light
      directly across the center of the scanning telescope
      and - band of light. It precludes seeing
-     alot of stars around us, and although I
+     a lot of stars around us, and although I
      kept my eye glued to the telescope now for
      some time, it's very difficult to see any star
      patterns or anything. I couldn't recognize
@@ -10715,7 +10717,7 @@ CMP: You planning on using our computer any time in
 
 [01:13:24:50]
 CC: Apollo 8, Houston. You can go ahead and run that
-     37 and we'll going to kind of watch that from the
+     37 and we're going to kind of watch that from the
      ground, too, and see how it works out. A couple
      of items that are just of general interest in
      the trajectory world. Looks like the uncertainty
@@ -10866,9 +10868,11 @@ CC: Well, I am getting a lot of confidence in your
      ability to run that mystery show now.
 
 [01:14:00:06]
-LMP: We have to spend four more days up
+_extra: Handwritten note on the transcript indicates the speaker meant to say "Ken" not "Jim".
+LMP: Hey, Jim, we have to spend four more days up
      here with him, will you take it easy. He is
-     already talking about going back to MIT as a professor.
+     already talking about going back to MIT as a
+     professor.
 
 [01:14:00:08]
 _page : 2
@@ -12388,7 +12392,7 @@ LMP: Houston, we're showing a glycol EVAP OUT TEMP
 CC: Roger, Bill. Stand by.
 
 [01:22:54:15]
-LMP: Okay. Houston, second loop is coming up.
+LMP: Okay. Houston, secondary loop is coming up.
 
 [01:22:54:19]
 CC: Roger, Bill.
@@ -12472,10 +12476,10 @@ CMP: Roger, Houston. Standing by.
 CC: Apollo 8, Houston. That was Honeysuckle to Madrid.
 
 [01:23:23:21]
-CMP: Si, senor.
+CMP: Si, señor.
 
 [01:23:23:27]
-LMP: Goodby, you chaps.
+LMP: Goodbye, you chaps.
 
 [01:23:24:34]
 CMP: Houston, Apollo 8.
@@ -15296,7 +15300,7 @@ CC: Okay. This is a pericynthian plus 2 for a fast
      36507. Over.
 
 [02:12:04:28]
-LMP: Houston,Roger. This is Apollo 8. You copy?
+LMP: Houston, Roger. This is Apollo 8. You copy?
 
 [02:12:04:32]
 CC: This is Houston. No joy.
