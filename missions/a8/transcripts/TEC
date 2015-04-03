@@ -4326,7 +4326,7 @@ CC: Okay. This is a TLI plus 11, SPS/G&N. This
      00 126 83 356 08 050 47 05, north stars; 068
      097 356, no ullage. For the fast return P37
      DELTA-V, 7900 for the Indian Ocean, high speed
-     procedure not required for the EMS. This assumes
+     procedure not required for the MS. This assumes
      midcourse correction 1. Over.
 
 [00:10:06:22]
@@ -4357,7 +4357,7 @@ CDR: 177 143 000 NA, plus 00197, 47020 551 46818 12
      16500, plus 126 23 35608 0504705, the north
      set, roll 68, pitch 97, yaw 356, no ullage,
      P37 high speed, 7900 Indian Ocean, and high
-     speed procedures for the EMS are not required;
+     speed procedures for the MS are not required;
      assumed MCC 1.
 
 [00:10:08:42]
