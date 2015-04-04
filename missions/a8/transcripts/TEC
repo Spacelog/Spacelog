@@ -7302,8 +7302,8 @@ LMP: No, we're going to zap you with the high gain
      here shortly.
 
 [01:01:18:46]
+_extra: END OF TAPE
 CC: Okay.
-     END OF TAPE
 
 [01:01:19:36]
 _page : 1
@@ -7641,10 +7641,11 @@ CC: Okay. We got it. We're sending you a LM state
 LMP: Roger.
 
 [01:02:51:42]
+_extra : END OF TAPE
 CC: Thank you.
-     END OF TAPE
 
 [01:02:55:36]
+_tape : Tape 20
 _page : 1
 CC: Apollo 8, Houston.
 
@@ -8114,8 +8115,8 @@ CDR: Roger. We're switching over to backup now.
 CC: Reading you very weak.
 
 [01:06:01:46]
+_extra : END OF TAPE
 LMP: We are reading you loud and clear, Houston.
-     END OF TAPE
 
 [01:06:02:41]
 _page : 1
@@ -8793,9 +8794,9 @@ CC: Roger. We are going to work on that one. The
 CDR: Roger. We are starting PTC again.
 
 [01:07:24:45]
+_extra: END OF TAPE
 LMP: I believe that's only if it hasn't been used for
      quite a while, Ken.
-     END OF TAPE
 
 [01:07:40:04]
 _page : 1
@@ -9295,10 +9296,10 @@ CDR: Pitch minus 45, yaw 90.
 CC: Okay. Stand by 1.
 
 [01:09:07:15]
+_extra: END OF TAPE
 CDR: Roger. If we could leave it in REACQ if you want
      to use the high gain, it would keep from waking us
      up every REV.
-     END OF TAPE
 
 [01:09:10:32]
 _page : 1
@@ -9924,9 +9925,9 @@ CDR: Good. They're both conked out; how about just
      the world.
 
 [01:10:41:34]
+_extra: END OF TAPE
 CC: Okay. Give me a few minutes to collect some
      data, and we'll do that.
-     END OF TAPE
 
 [01:11:09:20]
 _page : 1
@@ -10506,8 +10507,8 @@ CC: That's affirmative.
 LMP: COMM sure is good all of a sudden, isn't it?
 
 [01:12:20:28]
+_extra: END OF TAPE
 CC: Yes, this is outstanding.
-     END OF TAPE
 
 [01:12:50:52]
 _page : 1
@@ -10817,8 +10818,8 @@ _page : 7
 CC: Sure did. Looks pretty good here.
 
 [01:13:54:45]
+_extra: END OF TAPE
 CMP: I concur.
-     END OF TAPE
 
 [01:13:57:14]
 _page : 1
@@ -10979,8 +10980,8 @@ CDR: That's right. Just tell them you are having
      problems.
 
 [01:14:49:04]
+_extra: END OF TAPE
 CC: Roger.
-     END OF TAPE
 
 [01:15:38:02]
 _page : 1
@@ -11251,8 +11252,8 @@ CDR: Houston, Apollo 8. We have just completed the
      canister change.
 
 [01:16:48:47]
+_extra: END OF TAPE
 CC: Apollo 8, Houston. Roger. Copy.
-     END OF TAPE
 
 [01:17:37:31]
 _page : 1
@@ -11354,8 +11355,8 @@ CDR: Did you get my message about the fans?
 CC: Sure did, Frank. Thanks.
 
 [01:18:07:35]
+_extra: END OF TAPE
 CDR: Okay.
-     END OF TAPE
 
 [01:18:44:47]
 _page : 1
@@ -11823,9 +11824,9 @@ CC: Apollo 8, Houston. That PC plus 2 is a fast
      return.
 
 [01:20:08:08]
+_extra: END OF TAPE
 _page : 10
 CMP: Roger. Understand. Fast return.
-     END OF TAPE
 
 [01:21:14:50]
 _page : 1
@@ -12052,8 +12053,8 @@ CC: Jim, so far we've only missed one point; we'll
 LMP: Which one do you need?
 
 [01:21:48:56]
+_extra: END OF TAPE
 CC: Stand by.
-     END OF TAPE
      01 21 - - CC Apollo 8, Houston. What we need is the third
      mark on the first set, star 33, trunnion only.
      Over.
@@ -12509,8 +12510,8 @@ LMP: Buenas dias. We're going to be answering your
      why, just tell us so.
 
 [01:23:28:09]
+_extra: END OF TAPE
 CC: Okay.
-     END OF TAPE
 
 [01:23:33:07]
 _page : 1
@@ -12640,8 +12641,8 @@ CC: Roger, Bill. We see your secondary steam pressure
      else.
 
 [02:00:30:36]
+_extra: END OF TAPE
 LMP: Okay.
-     END OF TAPE
 
 [02:01:16:34]
 _page : 1
@@ -12998,8 +12999,8 @@ CC: Roger. You are a little bit low on the line on
      low.
 
 [02:02:24:55]
+_extra: END OF TAPE
 CDR: Roger.
-     END OF TAPE
 
 [02:02:54:46]
 _page : 1
@@ -13350,8 +13351,8 @@ CC: Apollo 8, Houston. We are going to be changing
      expect a COMM switch-over.
 
 [02:04:08:57]
+_extra: END OF TAPE
 CDR: Thank you.
-     END OF TAPE
 
 [02:04:19:22]
 _page : 1
@@ -13955,8 +13956,8 @@ CC: That's all we have right now. We will have a few
      to help out.
 
 [02:05:35:03]
+_extra: END OF TAPE
 CDR: Thank you; will do.
-     END OF TAPE
 
 [02:06:06:18]
 _page : 1
@@ -14530,9 +14531,9 @@ CC: Do you still have the - -
 LMP: He has the monocular upside down.
 
 [02:07:21:03]
+_extra: END OF TAPE
 CC: Do you still have the polarizing filter in front
      of the camera?
-     END OF TAPE
      ---- LMP Negative?
      ---- CC Okay.
      ---- CC Try putting it back in front of the camera one
@@ -14902,8 +14903,8 @@ LMP: Okay. I know this would be better in high bit
      rate, so it will probably take quite awhile.
 
 [02:08:44:55]
+_extra: END OF TAPE
 CC: Alright.
-     END OF TAPE
 
 [02:09:16:44]
 _page : 1
@@ -15058,9 +15059,9 @@ CC: Okay. How about exercising the idea of rolling
      things as antenna orientation and all that.
 
 [02:10:09:24]
+_extra: END OF TAPE
 LMP: Okay. We'll, I'll mention it to them when they
      wake up.
-     END OF TAPE
 
 [02:10:30:34]
 _page : 1
@@ -15309,9 +15310,9 @@ CC: This is Houston. No joy.
 LMP: Roger, Houston. This is Apollo. How you read?
 
 [02:12:04:42]
+_extra: END OF TAPE
 _extra : readback appears to be missing a line between 28 and 603
 CC: Okay. Loud and clear, Bill.
-     END OF TAPE
 
 [02:12:04:47]
 _page : 1
@@ -15863,8 +15864,8 @@ CC: Apollo 8, Houston. You take your tape recorder
 CDR: Roger. It's stopped.
 
 [02:13:39:02]
+_extra: END OF TAPE
 CC: Thank you.
-     END OF TAPE
 
 [02:13:53:18]
 _page : 1
@@ -16436,8 +16437,8 @@ CC: No, sir; both the oxygen and the hydrogen.
 CDR: Okay. Start, starting with the hydrogen.
 
 [02:15:16:36]
+_extra: END OF TAPE
 CC: Thank you.
-     END OF TAPE
 
 [02:15:20:01]
 _page : 1
@@ -16495,8 +16496,8 @@ LMP: How do you read on this - how do you read on
 CC: Loud and clear on that one, Bill.
 
 [02:16:38:39]
+_extra: END OF TAPE
 LMP: That's great. Roger.
-     END OF TAPE
 
 [02:16:51:43]
 _tape : Tape 44
@@ -17340,12 +17341,12 @@ CC: Roger, 8.
 CDR: It's rewound; are you ready to dump?
 
 [02:20:00:23]
+_extra: END OF TAPE
 _extra : duplicated on next tape: 02 20 00 44 CC Apollo 8, Houston. Roger. We'll do that from/npartially duplicated on next tape: 02 20 00 48 CDR Roger. I'll switch configuration - -
 CDR: We'd like to go to S-band AUX tape briefly so you
      can dump the tape while we're on the high gain.
      We've only got about 30 seconds worth.
      the ground. Over.
-     END OF TAPE
 
 [02:20:00:44]
 _page : 1
@@ -17648,9 +17649,9 @@ CMP: Go ahead, Houston. This is Apollo 8. Burn
      complete. Our orbit 160.9 by 60.5; 169.1 by 60.5.
 
 [02:21:34:07]
+_extra: END OF TAPE
 CC: Apollo 8, this is Houston. Roger. 169.1 by 60.5.
      Good to hear your voice.
-     END OF TAPE
 
 [02:21:35:23]
 _page : 1
@@ -18474,10 +18475,10 @@ CC: Roger. One minute to LOS.
 CDR: Thank you.
 
 [02:22:56:25]
+_extra: END OF TAPE
 _extra : 02 23 21 XX BEGIN LUNAR REV 2
 CC: Apollo 8, Houston. Ten seconds to LOS. All
      systems are GO.
-     END OF TAPE
 
 [02:23:39:46]
 _page : 1
@@ -19332,8 +19333,8 @@ CC: Apollo 8, Houston.
 CC: Apollo 8, Houston. Over.
 
 [03:00:42:12]
+_extra: END OF TAPE
 CC: Apollo 8, Houston. Over.
-     END OF TAPE
 
 [03:00:43:27]
 _page : 1
@@ -19556,8 +19557,8 @@ CC: Bill has got the tape recorder now; we are
      are evaluating the voice quality here shortly.
 
 [03:02:16:41]
+_extra: END OF TAPE
 CDR: Thank you.
-     END OF TAPE
      * CC Apollo 8, this is Houston. Over.
      * CDR Go ahead, Houston. Apollo 8.
      * CC I've got a few jolly updates for you when you
@@ -19956,8 +19957,8 @@ CDR: I said Jim inadvertently spilled some of that
      Clorox in here for a little while.
 
 [03:02:53:06]
+_extra: END OF TAPE
 CC: Roger. Understand.
-     END OF TAPE
 
 [03:02:58:40]
 _page : 9
@@ -20362,8 +20363,8 @@ CC: Plus 31171, minus 00767, minus 00214 180 017 001,
      you with me? Over.
 
 [03:04:29:44]
+_extra: END OF TAPE
 CDR: Roger.
-     END OF TAPE
 
 [03:04:29:47]
 _page : 1
@@ -20822,9 +20823,9 @@ CMP: And it appears so far, Houston, that no spacecraft
      on the target in plenty of time.
 
 [03:05:55:10]
+_extra: END OF TAPE
 CC: Roger. I understand you require no spacecraft
      motion to get five marks.
-     END OF TAPE
 
 [03:06:04:15]
 _page : 1
@@ -21177,9 +21178,9 @@ CMP: Roger. Houston. We will give it another try
      here.
 
 [03:06:58:19]
+_extra: END OF TAPE
 _extra : 03 07 28 xx BEGIN LUNAR REV 6
 CC: Roger.
-     END OF TAPE
 
 [03:07:45:36]
 _page : 1
@@ -21662,9 +21663,9 @@ LMP: okay. See you on the other side, Mike.
 CC: Looking forward to it.
 
 [03:08:56:21]
+_extra: END OF TAPE
 _extra : 03 09 27 XX BEGIN LUNAR REV 7
 LMP: Me, too.
-     END OF TAPE
 
 [03:09:43:58]
 _page : 1
@@ -22112,8 +22113,8 @@ CDR: We're scrubbing everything. I'll stay up and try
      get some rest.
 
 [03:10:42:10]
+_extra: END OF TAPE
 CC: Roger. Understand.
-     END OF TAPE
 
 [03:10:51:42]
 _page : 1
@@ -22340,8 +22341,8 @@ CC: Okay. It looks to us like, although we're
      plus or minus 10 percent. Over.
 
 [03:12:16:44]
+_extra: END OF TAPE
 CDR: Thank you.
-     END OF TAPE
 
 [03:12:24:35]
 _page : 1
@@ -22796,9 +22797,9 @@ LMP: Small impact crater in front of us now in the little
      From our track, we are going sideways to our left.
 
 [03:13:58:11]
+_extra: END OF TAPE
 LMP: You are now seeing the Sea of Crises coming over
      the horizon.
-     END OF TAPE
 
 [03:13:58:37]
 _page : 1
@@ -23247,9 +23248,9 @@ CDR: Roger, Ken. Thanks a lot. We'll see you around
      when you're ready. Okay?
 
 [03:14:52:28]
+_extra: END OF TAPE
 _extra : 03 15 24 XX BEGIN LUNAR REV 10
 CC: Roger.
-     END OF TAPE
 
 [03:15:39:47]
 _page : 1
@@ -23575,9 +23576,9 @@ CDR: Roger. Thank you, Houston. Apollo 8.
 CC: All systems are GO. Apollo 8.
 
 [03:16:51:01]
+_extra: END OF TAPE
 _extra : 03 17 15 XX TEI MANEUVER
 CDR: Thank you.
-     END OF TAPE
 
 [03:17:31:12]
 _page : 1
@@ -24028,8 +24029,8 @@ CDR: I wanted to know if you're getting the data from
 CC: That's affirmative.
 
 [03:18:35:51]
+_extra: END OF TAPE
 CDR: Okay.
-     END OF TAPE
 
 [03:18:50:18]
 _page : 1
@@ -24359,8 +24360,8 @@ CC: Okay. Understand the purge is complete. Thank
      And you're well above the single tank capability.
 
 [03:19:53:16]
+_extra: END OF TAPE
 LMP: Okay. Thank you.
-     END OF TAPE
 
 [03:20:22:22]
 _page : 1
@@ -24555,8 +24556,8 @@ CC: Apollo 8, Houston. Looks like we're getting pretty
      50 degrees in pitch; and about 25 in yaw.
 
 [03:21:33:13]
+_extra: END OF TAPE
 LMP: Roger. I get that.
-     END OF TAPE
 
 [03:22:13:05]
 _page : 1
@@ -24981,8 +24982,8 @@ CMP: Both Frank and myself had a meal before bed
      Just getting up.
 
 [03:23:24:04]
+_extra: END OF TAPE
 CC: Roger, Jim. Thank you.
-     END OF TAPE
 
 [03:23:29:01]
 _page : 1
@@ -25391,8 +25392,8 @@ CC: Roger.
 CMP: We'll give you back VERB 64, Houston..
 
 [04:01:02:39]
+_extra: END OF TAPE
 CC: Apollo 8, Houston. Say again.
-     END OF TAPE
 
 [04:01:02:45]
 _page : 1
@@ -25689,8 +25690,8 @@ CC: Roger, Jim. We copy and will run it through
      the mill and give you an answer.
 
 [04:02:26:23]
+_extra: END OF TAPE
 CMP: Roger.
-     END OF TAPE
 
 [04:02:49:35]
 _page : 1
@@ -26029,8 +26030,8 @@ CDR: Houston, Apollo 8. Did you read that we are recording
      all the DELTA-R and DELTA-V and trunnion ...
 
 [04:04:04:21]
+_extra: END OF TAPE
 CC: Roger, Frank. Thanks. *
-     END OF TAPE
 
 [04:04:13:56]
 _page : 1
@@ -26398,9 +26399,9 @@ CC: Roger.
 CC: Don't let his head get big, though.
 
 [04:05:41:32]
+_extra: END OF TAPE
 CDR: You guys are going to make it impossible to
      live with him. It always was pretty hard.
-     END OF TAPE
 
 [04:05:51:03]
 _page : 1
@@ -27073,11 +27074,11 @@ CC: Apollo 8, Houston.
 CDR: Go ahead.
 
 [04:07:19:10]
+_extra: END OF TAPE
 CC: Roger. Since you're on OMNI D (Dog) at this
      time, we're sort of 180 out of phase for the
      high-gain lock antennas. As soon as we can
      get high-gain lock, then we'll - -
-     END OF TAPE
 
 [04:07:19:38]
 _page : 1
@@ -27641,9 +27642,9 @@ CMP: It appears that we did a grave injustice to
      sauce, grape punch; outstanding.
 
 [04:08:51:45]
+_extra: END OF TAPE
 CC: Roger, Jim. Glad to hear it. Now we're down
      a here eating cold coffee and bologna sandwiches.
-     END OF TAPE
 
 [04:09:10:10]
 _page : 1
@@ -27896,8 +27897,8 @@ CC: Stand by one, Jim. We're working on a procedure
      for getting you cranked back up again.
 
 [04:10:27:57]
+_extra: END OF TAPE
 CMP: Okay.
-     END OF TAPE
 
 [04:10:29:58]
 _page : 1
@@ -28374,10 +28375,10 @@ CC: Yes. It's looking to be less than 1 foot per
      be about 2 feet per second.
 
 [04:11:58:00]
+_extra: END OF TAPE
 _page : 10
 CMP: Roger. Well, okay. I'll run a P37, and we
      can just compare the difference.
-     END OF TAPE
 
 [04:12:07:59]
 _page : 1
@@ -29019,9 +29020,9 @@ LMP: We never did have a chance to do any earthshine
      photography.
 
 [04:13:25:21]
+_extra: END OF TAPE
 _page : 13
 CC: Roger. Understand.
-     END OF TAPE
 
 [04:13:55:51]
 _page : 1
@@ -29425,9 +29426,9 @@ LMP: Houston, CDR is up and manning the helms. We
      off the air for a little bit.
 
 [04:15:13:04]
+_extra: END OF TAPE
 _page : 9
 CC: Okay. Thank you.
-     END OF TAPE
 
 [04:15:16:24]
 _page : 1
@@ -31818,8 +31819,8 @@ LMP: And that was to keep from heating up quad D, was it?
 CC: Negative. That's quad Charlie.
 
 [04:23:06:36]
+_extra: END OF TAPE
 LMP: Okay.
-     END OF TAPE
 
 [04:23:33:52]
 _page : 1
@@ -32985,8 +32986,8 @@ CDR: Jim's going to leave the helmet off now for the
      that on.
 
 [05:03:37:44]
+_extra: END OF TAPE
 CC: Roger.
-     END OF TAPE
 
 [05:04:02:26]
 _page : 1
@@ -33349,8 +33350,8 @@ CC: I think this - this is a carryover from your
      last PROGRAM ALARM there on that P37.
 
 [05:05:30:23]
+_extra: END OF TAPE
 CDR: Okay. ERROR RESET. Thank you.
-     END OF TAPE
 
 [05:05:30:38]
 _page : 1
@@ -33504,9 +33505,9 @@ CC: Okay, Frank. That's fine.
 CDR: Sounds like that MG starter of yours.
 
 [05:06:42:55]
+_extra: END OF TAPE
 CC: I'm afraid to turn my starter on now. It's been
      so long.
-     END OF TAPE
 
 [05:07:14:36]
 _page : 1
