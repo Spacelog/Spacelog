@@ -11387,7 +11387,9 @@ CDR: Negative.
 
 [01:18:46:06]
 CC: Roger.
-     01118 46 08 CDR We haven't had them on since we separated.
+
+[01:18:46:08]
+CDR: We haven't had them on since we separated.
 
 [01:18:46:14]
 CC: Okay.
@@ -12055,25 +12057,34 @@ LMP: Which one do you need?
 [01:21:48:56]
 _extra: END OF TAPE
 CC: Stand by.
-     01 21 - - CC Apollo 8, Houston. What we need is the third
+
+CC: Apollo 8, Houston. What we need is the third
      mark on the first set, star 33, trunnion only.
      Over.
-     ---- LMP Roger. That's the only one we're in doubt of.
+
+LMP: Roger. That's the only one we're in doubt of.
      We think it was 12020.
-     ---- CC Roger. Copy.
-     ---- LMP Okay. That completes two for this time, Houston.
+
+CC: Roger. Copy.
+
+LMP: Okay. That completes two for this time, Houston.
      Are you satisfied?
-     ---- CC Roger, Jim.
-     ---- CMP Houston, for information, the last two stars,
+
+CC: Roger, Jim.
+
+CMP: Houston, for information, the last two stars,
      34 and 40, were shot at the very tip of the lit
      rim. You practically have to imagine the rim
      continued on past where it goes into the darkness.
-     ---- CC Roger. I understand they were shot at the tip
+
+CC: Roger. I understand they were shot at the tip
      of the lit rim.
-     ---- CMP That's affirmative, and the area around the entire
+
+CMP: That's affirmative, and the area around the entire
      moon now, both the sky and the moon itself, are all
      a milky white because of the nearness of the sun.
-     ---- CC Roger. Copying.
+
+CC: Roger. Copying.
 
 [01:21:53:42]
 _page : 1
@@ -12148,7 +12159,9 @@ LMP: That's going to be O<sub>2</sub> and H<sub>2</sub>. Is that correct?
 
 [01:22:30:52]
 CC: Affirmative.
-     01 22 31 LMP Roger. H<sub>2</sub> first, okay?
+
+[01:22:31:00]
+LMP: Roger. H<sub>2</sub> first, okay?
 
 [01:22:31:07]
 CC: Roger. That's okay.
@@ -14534,12 +14547,17 @@ LMP: He has the monocular upside down.
 _extra: END OF TAPE
 CC: Do you still have the polarizing filter in front
      of the camera?
-     ---- LMP Negative?
-     ---- CC Okay.
-     ---- CC Try putting it back in front of the camera one
+
+LMP: Negative?
+
+CC: Okay.
+
+CC: Try putting it back in front of the camera one
      more time.
-     ---- LMP ... Okay?
-     ---- CC And once again, we need a small attitude correction.
+
+LMP: ... Okay?
+
+CC: And once again, we need a small attitude correction.
      Our earth is disappearing up and to the right.
      Our earth and your earth. The wrong way, wrong
      way. A little bit more. Okay. That is fine
@@ -19559,11 +19577,15 @@ CC: Bill has got the tape recorder now; we are
 [03:02:16:41]
 _extra: END OF TAPE
 CDR: Thank you.
-     * CC Apollo 8, this is Houston. Over.
-     * CDR Go ahead, Houston. Apollo 8.
-     * CC I've got a few jolly updates for you when you
+
+CC: Apollo 8, this is Houston. Over.
+
+CDR: Go ahead, Houston. Apollo 8.
+
+CC: I've got a few jolly updates for you when you
      are ready to copy.
-     * CDR Stand by.
+
+CDR: Stand by.
 
 [03:02:21:33]
 _page : 1
