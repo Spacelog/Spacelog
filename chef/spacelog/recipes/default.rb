@@ -18,3 +18,5 @@ execute "apt-get update"
   edit.insert_line_if_no_match(matcher, line)
   edit.write_file
 end
+
+execute "pip install -r /vagrant/requirements.txt"
