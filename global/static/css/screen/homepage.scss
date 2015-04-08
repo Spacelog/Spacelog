@@ -30,7 +30,7 @@
 }
 /* -- */
 .header {
-    -cp-contain:            easy;
+    @include                easy-contain;
 }
 .header .tagline {
     color:                  #808080;
@@ -69,7 +69,7 @@
 }
 
 .homepage ul {
-    -cp-contain:            easy;
+    @include                easy-contain;
     margin:                 0 -10px;
 }
 .homepage li {

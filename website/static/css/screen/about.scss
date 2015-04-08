@@ -119,7 +119,7 @@
 }
 
 #how-this-was-made {
-    -cp-contain:            easy;
+    @include easy-contain;
 }
 
 #how-this-was-made #colophon li {

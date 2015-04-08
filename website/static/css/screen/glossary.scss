@@ -5,7 +5,7 @@
     padding:                80px 160px 50px;
     position:               relative;
     width:                  620px;
-    -cp-contain:            easy;
+    @include                easy-contain;
 }
 
 .glossary h1 {
@@ -39,7 +39,7 @@
 .glossary dt:target {
     background:             #eee;
     color:                  #333;
-    -cp-border-radius:      2px;
+    border-radius:          2px;
 }
 .glossary dd {
     font:                   18px Helvetica, Arial, sans-serif;

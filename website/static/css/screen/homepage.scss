@@ -48,7 +48,7 @@
 }
 
 #content.homepage .crest {
-    -cp-contain:            easy;
+    @include                easy-contain;
     margin-bottom:          20px;
 }
 
@@ -82,7 +82,7 @@
     left:                   -999em;
 }
 #homepage-quote i a {
-    -cp-border-radius:      5px;
+    border-radius:          5px;
     padding:                7px 10px 7px 30px;
     margin:                 0 10px;
     font-size:              12px;

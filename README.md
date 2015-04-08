@@ -60,7 +60,7 @@ You can then make changes, commit them to your local copy (`git commit`), push t
  * python (and pip)
  * redis (often packages as `python-redis`; we need Redis 2.0 or later)
  * Xapian and its python bindings (the search engine library we use; often packaged as `python-xapian`)
- * `CSS::Prepare` (a perl library for managing CSS; `sudo cpanm -f CSS::Prepare`; if you don't have `cpanm` there are [straightforward installation instructions](http://search.cpan.org/~miyagawa/App-cpanminus-1.1004/lib/App/cpanminus.pm#INSTALLATION) available)
+ * `Sass` (a Ruby preprocessor for CSS; `gem install sass`)
  * various python modules (run `pip install -r requirements.txt`)
  * imagemagick and optipng (for building the stats images on the phase pages; this is optional)
 
@@ -91,8 +91,8 @@ We use redis for storage, so you need to have `redis-server` running before you 
 
 You then need to have some other servers running on top of redis:
 
- * `make devcss` will run `CSS::Prepare` in development mode, so changes to CSS files will be reflected automatically
- * `make devcss_global` will run `CSS::Prepare` for the project homepage
+ * `make devcss` will run `sass` in watch mode, so changes to CSS files will be reflected automatically
+ * `make devcss_global` will run `sass` for the project homepage
  * `make devserver` will run the mission-specific websites; if not using a `virtualenv`, `PYTHON=python make devserver` should do the trick
  * `make devserver_global` will run the project homepage; if not using a `virtualenv`, `PYTHON=python make devserver_global` should do the trick
 

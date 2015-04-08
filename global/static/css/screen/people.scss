@@ -6,7 +6,7 @@
 }
 .people .wrapper,
 .people .group {
-    -cp-contain:            easy;
+    @include                easy-contain;
 }
 .people a {
     color:                  #009bc1;
@@ -72,8 +72,8 @@
 }
 
 .person .stats {
-    margin:                40px 0;
-    -cp-contain:            easy;
+    margin:                 40px 0;
+    @include                easy-contain;
 }
 .person .stats li:first-child {
     border-bottom:          1px solid #fff;
