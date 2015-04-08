@@ -10,6 +10,7 @@
 /artemis_assets
 ENV
 .*.swp
+.sass-cache
 
 design
 pending_missions

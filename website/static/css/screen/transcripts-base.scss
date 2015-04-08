@@ -12,7 +12,6 @@
 
 #content.transcript .nav {
     min-height:             40px;
-/*    -cp-contain:            easy;*/
 }
 #content.transcript .nav.after {
     min-height:             60px;
@@ -98,7 +97,7 @@
     
     // provide a border, which means containing floats
     border-bottom:          1px solid #ddd;
-    -cp-contain:            easy;
+    @include                easy-contain;
 }
 #transcript dd p {
     padding-top:            6px;
@@ -258,14 +257,14 @@
     position:               absolute;
     right:                  130px;
     padding:                0 10px;
-    -cp-border-radius:      3px;
+    border-radius:          3px;
     background:             #383838;
     color:                  #fff;
 }
 /* Facebook like button */
 #phases #fb-like span {
     background:             #fff;
-    -cp-border-radius:      3px;
+    border-radius:          3px;
     bottom:                 -6px;
     color:                  #000;
     height:                 20px;
@@ -336,7 +335,7 @@ p.load-more a {
     margin-top:             5px;
     color:                  #878787;
     padding:                5px 10px;
-    -cp-border-radius:      5px;
+    border-radius:          5px;
     text-decoration:        none;
 }
 

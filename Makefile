@@ -1,6 +1,7 @@
 indexer                   = backend/indexer.py
 website_screen_css        = website/static/css/screen.css
-website_source_screen_css = website/static/css/screen/*.css
+website_screen_sass       = website/static/css/screen.scss
+website_screen_sass_components = website/static/css/screen/*.scss
 global_screen_css         = global/static/css/screen.css
 global_source_screen_css  = global/static/css/screen/*.css
 PYTHON                   ?= ./ENV/bin/python
@@ -33,9 +34,9 @@ productioncss:	$(website_screen_css) $(global_screen_css)
 copyxapian:
 	cp -a ../current/xappydb xappydb
 
-$(website_screen_css): $(website_source_screen_css)
-	cssprepare --optimise --extended-syntax \
-		$(website_source_screen_css) > $(website_screen_css)
+$(website_screen_css): $(website_screen_sass) $(website_screen_sass_components)
+	sass --style compressed \
+		$(website_screen_sass) > $(website_screen_css)
 
 $(global_screen_css): $(global_source_screen_css)
 	cssprepare --optimise --extended-syntax \
@@ -45,8 +46,7 @@ devserver:
 	$(PYTHON) -m website.manage runconcurrentserver $(dev_webserver_ip):$(dev_webserver_port)
 
 devcss:
-	cssprepare --optimise --extended-syntax \
-		--pipe $(website_screen_css) $(website_source_screen_css)
+	sass --style compressed --watch $(website_screen_sass):$(website_screen_css)
 
 devserver_global:
 	$(PYTHON) -m global.manage runserver $(dev_webserver_ip):$(dev_global_port)
