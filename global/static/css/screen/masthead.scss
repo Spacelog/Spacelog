@@ -8,7 +8,7 @@
                             sans-serif;
     line-height:            1.6;
     text-transform:         uppercase;
-    -cp-contain:            easy;
+    @include                easy-contain;
 }
 #masthead h1,
 #masthead .sitename {
@@ -78,7 +78,7 @@
     top:                    8px;
     background:             #fff;
     border:                 none;
-    -cp-border-radius:      10px;
+    border-radius:          10px;
     width:                  140px;
     font-weight:            normal;
     font-size:              14px;

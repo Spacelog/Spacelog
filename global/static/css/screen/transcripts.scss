@@ -6,7 +6,7 @@
 
 #content.transcript .nav {
     min-height:             40px;
-    -cp-contain:            easy;
+    @include                easy-contain;
 }
 #content.transcript .nav.after {
     min-height:             60px;
@@ -89,7 +89,7 @@
     
     // provide a border, which means containing floats
     border-bottom:          1px solid #ddd;
-    -cp-contain:            easy;
+    @include                easy-contain;
 }
 #transcript dd p {
     padding-top:            6px;
@@ -103,13 +103,13 @@
 }
 
 #transcript dd.first {
-    -cp-border-top-left-radius:  5px;
-    -cp-border-top-right-radius: 5px;
+    border-top-left-radius:      5px;
+    border-top-right-radius:     5px;
 }
 
 #content.with-highlight #transcript dd.last {
-    -cp-border-bottom-left-radius:  5px;
-    -cp-border-bottom-right-radius: 5px;
+    border-bottom-left-radius:      5px;
+    border-bottom-right-radius:     5px;
     border-bottom:                  none;
 }
 
@@ -139,7 +139,7 @@ p.load-more {
 p.load-more a {
     color:                  #878787;
     padding:                5px 10px;
-    -cp-border-radius:      5px;
+    border-radius:          5px;
     text-decoration:        none;
 }
 

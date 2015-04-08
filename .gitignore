@@ -4,6 +4,8 @@
 .DS_Store
 /website/static/css/screen.css
 /global/static/css/screen.css
+/website/static/css/screen.css.map
+/global/static/css/screen.css.map
 /missions/*/images/stats
 /missions/*/images/original
 /xappydb

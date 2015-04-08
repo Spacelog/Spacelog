@@ -23,7 +23,7 @@
 
 /* -- */
 .content-page .wrapper {
-    -cp-contain:            easy;
+    @include                easy-contain;
 }
 
 .content-page h1,
@@ -110,7 +110,7 @@
 }
 .content-page .reading-list li {
     margin-bottom:          16px;
-    -cp-contain:            easy;
+    @include                easy-contain;
 }
 .content-page .reading-list li img {
     float:                  left;
