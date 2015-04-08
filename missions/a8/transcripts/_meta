@@ -8,7 +8,8 @@
         "title": "Apollo 8",
         "upper_title": "Apollo",
         "lower_title": "8",
-        "description": "The first human space flight to leave Earth orbit.",
+        "description": "The first human space flight to leave earth orbit, and the first to enter the gravitational field of another celestial body — the Moon.",
+        "summary": "The first people to leave earth orbit",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "cleaners": [
             "David Woods",
