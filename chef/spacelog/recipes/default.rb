@@ -4,5 +4,3 @@ execute "apt-get update"
     python-virtualenv imagemagick subversion git-core python-xapian}.each { |p|
   package p
 }
-
-cpan_module "CSS::Prepare"

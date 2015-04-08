@@ -10,7 +10,6 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = "chef"
-    chef.add_recipe "perl"
     chef.add_recipe "spacelog"
   end
 end
