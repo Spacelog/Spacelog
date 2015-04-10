@@ -14768,7 +14768,7 @@ CMP: Roger. If you put your CM TLM to ACCEPT, we will
      send you our state vector.
 
 [02:07:35:47]
-CC: Touche.
+CC: Touché.
 
 [02:07:45:03]
 CDR: Houston, Apollo 8.
@@ -14785,7 +14785,7 @@ CC: Negative. I'll take a check around here, but it
      is looking good. Just a second.
 
 [02:07:45:23]
-CDR: We are over in the cabin, Mike, like monkeys, and
+CDR: We are all over the cabin, Mike, like monkeys, and
      I wanted to make sure we didn't hit anything.
 
 [02:07:45:51]
@@ -14807,7 +14807,7 @@ CDR: Okay. We are reading you like that, also. Thank
      you.
 
 [02:07:50:38]
-CC: We we having a playback of your TV shows and are
+CC: We are having a playback of your TV shows and are
      all enjoying it down here. It was better than
      yesterday because it didn't preempt the football
      game.
@@ -14843,7 +14843,7 @@ CDR: The moon's fair?
 CC: The moon's sphere - you're in the influence.
 
 [02:08:10:39]
-CDR: That's better then being under the influence.
+CDR: That's better than being under the influence.
 
 [02:08:11:00]
 CDR: Hey, Jerry?
@@ -14906,7 +14906,7 @@ LMP: Houston, Houston, this is Apollo 8. Over.
 CC: Go ahead, Apollo 8.
 
 [02:08:44:29]
-LMP: Okay. Ken, we put 8 few comments on the last of
+LMP: Okay. Ken, we put a few comments on the last of
      the tape after we heard from you, and it's being
      rewound now, and you can have it as soon as we
      get it back to the beginning.
@@ -14951,7 +14951,7 @@ LMP: We ought to also get a check on it at low bit
 
 [02:09:19:31]
 CC: Apollo 8, are you saying that everything that's
-     on there now is in high bit?.
+     on there now is in high bit?
 
 [02:09:19:38]
 LMP: That's where my switch was.
@@ -15098,7 +15098,7 @@ CC: Okay. Apollo 8, we'd like to update your CMC
      ACCEPT and let us update the clock time.
 
 [02:10:31:04]
-LMP: stand by.
+LMP: Stand by.
 
 [02:10:31:23]
 LMP: Okay. You got P00 and ACCEPT.
@@ -15172,7 +15172,7 @@ LMP: Standby. Okay. You've got P00 in ACCEPT.
 
 [02:11:43:18]
 CC: Okay, thank you. And just a minute, I'll be
-     with you on the PAD's. They'll be three minute
+     with you on the PAD's. They'll be three
      maneuver PAD's, one of them MCC 4.
 
 [02:11:45:19]
@@ -15262,7 +15262,8 @@ CC: That is correct, Apollo 8.
 
 [02:11:56:28]
 LMP: Houston, Apollo 8. Confirm that boresight star
-     and SPA are exactly the same number and not typographical error.
+     and SPA are exactly the same number and not
+     typographical error.
 
 [02:11:56:47]
 CC: Roger, Apollo 8. They are checking that. Apollo 8,
@@ -15584,7 +15585,7 @@ CC: That's affirmative. And would you give us another
      hack on your countdown time?
 
 [02:12:54:39]
-CDR: It's 518 17 16 15 14.
+CDR: It's 5:18 17 16 15 14.
 
 [02:12:54:45]
 CC: Thank you.
@@ -15680,7 +15681,7 @@ CC: Roger. Understand that was DELTA-V<sub>C</sub> was minus
 CMP: Roger. It was 0.1, but we didn't get the sign.
 
 [02:13:06:44]
-CC: Roger. Thank you.
+CC: Okay. Thank you.
 
 [02:13:06:46]
 LMP: We can get it. We have it on the tape, Houston,
@@ -15967,7 +15968,7 @@ CDR: Houston, just give us the time when we can
 
 [02:13:58:06]
 _page : 3
-CC: Okay. Add you can anticipate a handover between
+CC: Okay, and you can anticipate a handover between
      stations here on the hour, and you might get a
      slight glitch as we go through. I'll give you a
      call when we get back.
@@ -16032,14 +16033,14 @@ CC: I'll bet. If you've got nothing else to do, I do
 LMP: Standby.
 
 [02:14:05:21]
-LMP: We'll get our LOI tables man on the line here.
+LMP: We'll get our LOI tables man on the line here,
      Houston. Stand by.
 
 [02:14:05:25]
 CC: Roger.
 
 [02:14:06:07]
-CMP: Okay; Houston, CMP here. I understand you have
+CMP: Okay, Houston, CMP here. I understand you have
      some updates for me.
 
 [02:14:06:12]
@@ -16059,14 +16060,15 @@ CMP: Okay, I have the chart out. Go ahead.
 
 [02:14:07:06]
 CC: Alright. Mode 1, 5 hours, roll 1.38, pitch
-     7.89, yaw 357.37; Mode 1. 15 minutes, roll
+     7.89, yaw 357.37. Mode 1, 15 minutes, roll
      180.73, pitch 29.46, yaw 1.65. Over.
 
 [02:14:08:11]
 CMP: Roger. The new attitudes for the Mode 1,
-     5 hour Mode 15 minute are as follows: roll
-     1.38, pitch 7.89, yaw 357.37; Mode 1, 15 minute,
-     roll 180.73, pitch 29.46, yaw 1.65.
+     5 hour Mode 15 minute are as follows: roll - for
+     the Mode 1, 5 hour, roll 1.38, pitch 7.89,
+     yaw 357.37; Mode 1, 15 minute, roll 180.73,
+     pitch 29.46, yaw 1.65.
 
 [02:14:08:43]
 CC: Okay. That is correct. Now I also have to give
@@ -16111,7 +16113,7 @@ CC: 2400 LOI DELTA-V, abort DELTA-V 3880, three-eight-eight-zero.
 CMP: I've got it plotted.
 
 [02:14:11:20]
-CC: 2800 LOI, abort DELTA-V 4700. over.
+CC: 2800 LOI, abort DELTA-V 4700. Over.
 
 [02:14:11:46]
 CMP: Roger. I have that one plotted, too.
@@ -16187,7 +16189,7 @@ CC: We are getting ready to give you a rundown on
      the way of trajectory and systems information.
      And once again, Dr. Joe Kerwin has brought over
      all the latest news, and we can read that up
-     to you a little bit at a time if you don't go
+     to you a little bit at a time if you aren't going
      to sleep.
 
 [02:14:17:12]
@@ -16204,7 +16206,7 @@ CMP: Go ahead. We are all ears.
 [02:14:17:25]
 CC: Okay. Here is one: the previously scheduled
      72-hour cease fire by the Viet Cong went into
-     effect today, 17 hours before the allied true
+     effect today, 17 hours before the 24 hour allied truce
      was to begin.
 
 [02:14:17:57]
@@ -16255,11 +16257,11 @@ CDR: I want to wait until the LMP gets on the head
 CC: Roger.
 
 [02:14:33:11]
-CMP: Okay, Houston, go ahead. EECOM's on the line.
+CMP: Okay, Houston, go ahead. Flying EECOM's on the line.
 
 [02:14:33:19]
-CC: Okay. We'll just start with EECOM business,
-     then I'll give you a summary of your batteries;
+CC: Okay. We'll just start with EECOM business then,
+     I'll give you a summary of your batteries;
      battery A, we calculate 38.3 amp-hours, battery B --
 
 [02:14:33:36]
@@ -16289,8 +16291,8 @@ CDR: Roger. Thirty-seven volts, on battery C.
 [02:14:34:34]
 CC: Roger. Thirty-seven volts, Okay. The predicted
      cryo quantities at SEP: on oxygen
-     tank 1 170, oxygen tank 2 170, hydrogen 1 9.5,
-     and hydrogen 2 10.0. You essentially have
+     tank 1, 170; oxygen tank 2, 170; hydrogen 1, 9.5;
+     and hydrogen 2, 10.0. You essentially have
      single cryo tank capabilities all the way at
      full power now.
 
@@ -16486,7 +16488,7 @@ CDR: How is the tracking?
 CC: Looking great.
 
 [02:15:55:10]
-CDR: How's the tracking data look, Kent
+CDR: How's the tracking data look, Ken?
 
 [02:15:55:13]
 CC: Looking great.
@@ -16495,7 +16497,7 @@ CC: Looking great.
 CDR: Roger.
 
 [02:16:38:09]
-LMP: Houston. Apollo 8 with a radio check.
+LMP: Houston, Apollo 8 with a radio check.
 
 [02:16:38:11]
 CC: Apollo 8, Houston. Loud and clear.
@@ -16536,7 +16538,7 @@ CMP: Roger, Houston. This is Apollo 8. Loud and
      clear. How me?
 
 [02:17:24:11]
-CC: Roger. Loud and clear,Jim.
+CC: Roger. Loud and clear, Jim.
 
 [02:17:54:24]
 CC: Apollo 8, Houston with a preliminary LOI 1
@@ -16595,7 +16597,7 @@ CC: Roger. Copying.
 [02:17:59:35]
 CMP: 069:08:18.41, minus 29837, plus 02390, plus
      00994 000 200 005 01693, plus 00600 29949 402
-     29782 010 689 260, Persei zeta, down 048, left
+     29782 010 689 260, Persei Zeta, down 048, left
      05. The remainder not applicable. Sirius,
      Rigel, 129 155 010. No ullage. We'll pass up
      the remainder up later.
@@ -16895,7 +16897,7 @@ CMP: Map update as follows, Houston: 68:58:04 69:05:05
      Charlie Poppa 3, 71:47:26, Bravo 1, 72:09:42.
 
 [02:19:01:25]
-CC: Apollo 8, this is Houston. Readback is correct:
+CC: Apollo 8, this is Houston. Readback is correct.
 
 [02:19:04:26]
 CC: Apollo 8, Houston. Try to lock up an OMNI for
@@ -17045,7 +17047,7 @@ CDR: Roger. LOI 1, SPS/G&N: 62844 minus 161, plus
      129 069:08:19.52, minus 29840, plus 02390, plus
      01053 000 200 005 01693, plus 00600 29954 402
      29788 01 0688 259, Persei Zeta, down 048, left 05;
-     Sirius, Rigel, 129 355 010: no ullage, horizon
+     Sirius, Rigel, 129 155 010: no ullage, horizon
      2 minutes 40 degrees unlit, ignition 27 degrees
      unlit.
 
@@ -17086,7 +17088,7 @@ CC: Apollo 8, Houston. How did that gimbal drive
      check go?
 
 [02:19:34:52]
-CDR: It vent fine.
+CDR: It went fine.
 
 [02:19:34:53]
 CC: Roger, Frank. We're ready with the TEI 1 and 2
@@ -17196,7 +17198,7 @@ CMP: Roger. Stand by.
 [02:19:45:30]
 CMP: Houston, this is Apollo 8. I copied. I question
      the latitude and the range to go. It appears that
-     You gave me one too few digits in both cases.
+     you gave me one too few digits in both cases.
 
 [02:19:45:43]
 CC: Roger. I repeat, latitude plus 0920, minus 16530
@@ -17732,7 +17734,7 @@ CC: Roger. Copy. Stand by.
 
 [02:21:39:10]
 CC: Apollo 8, this is Houston. Reverify manual valve
-     m panel 382, evaporator water control AUTOMATIC.
+     on panel 382, evaporator water control AUTOMATIC.
      Over.
 
 [02:21:39:22]
@@ -17776,7 +17778,7 @@ LMP: Houston, this is Apollo 8. We are on malfunction
      Over.
 
 [02:21:42:02]
-CC: Apollo 8, Houston. Roger. COPY.
+CC: Apollo 8, Houston. Roger. Copy.
 
 [02:21:42:08]
 LMP: Correction. That is to step 4.
@@ -18315,7 +18317,7 @@ CC: Apollo 8, Houston. Your SPS data looks real good.
 CDR: Thank you.
 
 [02:22:28:49]
-CC: So far, everything looks copasetic.
+CC: So far, everything looks copacetic.
 
 [02:22:30:42]
 CC: Apollo 8, Houston. We would like to take about
@@ -18417,7 +18419,7 @@ CC: Roger. Bill, they say they have already dumped
 LMP: What does that mean?
 
 [02:22:48:52]
-CC: That means you have get about 2 minutes of low
+CC: That means you have got about 2 minutes of low
      bit rate on there, but the rest is clean. Over.
 
 [02:22:48:59]
@@ -18553,7 +18555,7 @@ LMP: I'll shift to the rendezvous window.
 
 [02:23:42:18]
 _page : 2
-CC: Roger, Bill..
+CC: Roger, Bill.
 
 [02:23:42:22]
 CC: Apollo 8, Houston. We want to take the DSE.
@@ -18748,7 +18750,7 @@ LMP: We will call it John Aaron's.
 CC: Okay.
 
 [02:23:49:04]
-LMP: If he'll keep looking at the system anyway.
+LMP: If he'll keep looking at the systems anyway.
 
 [02:23:49:06]
 CC: He just quit looking.
