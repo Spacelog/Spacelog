@@ -15018,8 +15018,12 @@ CC: Okay. Real fine.
 [02:09:30:48]
 CC: Apollo 8, Houston. How about stirring up the
      oxygen?
-     02093056 LMP Okay. Stand by.
-     02100638 CC Apollo 8, Houston.
+
+[02:09:30:56]
+LMP: Okay. Stand by.
+
+[02:10:06:38]
+CC: Apollo 8, Houston.
 
 [02:10:06:43]
 _page : 3
@@ -17365,11 +17369,9 @@ CDR: It's rewound; are you ready to dump?
 
 [02:20:00:23]
 _extra: END OF TAPE
-_extra : duplicated on next tape: 02 20 00 44 CC Apollo 8, Houston. Roger. We'll do that from/npartially duplicated on next tape: 02 20 00 48 CDR Roger. I'll switch configuration - -
 CDR: We'd like to go to S-band AUX tape briefly so you
      can dump the tape while we're on the high gain.
      We've only got about 30 seconds worth.
-     the ground. Over.
 
 [02:20:00:44]
 _page : 1
@@ -18276,7 +18278,9 @@ CDR: We will not do that; we're going to stick with
 
 [02:22:19:06]
 CC: Roger, Frank.
-     02 22 19 CDR As usual, in the real world, the flight plan
+
+[02:22:19:12]
+CDR: As usual, in the real world, the flight plan
      looks a lot fuller than it did in Florida.
 
 [02:22:19:18]
@@ -20064,7 +20068,9 @@ CDR: Loud and clear, Houston. Apollo 8.
 CC: I understand you are reading us loud and clear;
      we are barely reading you. Would you go to P00 in
      ACCEPT, please? We are going to send you a P27 update.
-     03.03 52 45 CDR Roger. Going to P00 and to ACCEPT, Houston.
+
+[03:03:52:45]
+CDR: Roger. Going to P00 and to ACCEPT, Houston.
 
 [03:03:53:47]
 CDR: We are in P00 and ACCEPT.
@@ -21283,7 +21289,9 @@ LMP: Roger. We will take them when we are doing the
 
 [03:07:59:56]
 CC: That is just fine.
-     03 08 56 CMP Mike, Apollo 8.
+
+[03:08:07:56]
+LMP: Mike, Apollo 8.
 
 [03:08:07:58]
 CC: Apollo 8, go ahead.
@@ -21472,7 +21480,9 @@ CC: AOS 81:43:05, sunset 82:13:54. Remarks: IP-1
      TCA for B-1 82:07:39, and now I've got four more
      times for you which - acquisition times for when
      various things come over the horizon. Over.
-     03 08 25-09 LMP Roger. Go ahead.
+
+[03:08:25:09]
+LMP: Roger. Go ahead.
 
 [03:08:25:12]
 CC: Okay. Control point 1, acquisition time 81:09:05;
@@ -25752,7 +25762,9 @@ CDR: Roger. Eleven to 7.
 [04:02:50:23]
 CC: Roger. Then after star set number 3, initiate
      PTC again; pitch 10, yaw 45. Over.
-     04 50 36 CDR Pitch 10, yaw 45.
+
+[04:02:50:36]
+CDR: Pitch 10, yaw 45.
 
 [04:02:50:38]
 CC: Roger. Then at 101 hours 30 minutes, delete the
@@ -26108,7 +26120,9 @@ CDR: Okay, Jerry. We're through with PROGRAM 23.
 
 [04:04:41:55]
 CC: Roger, Frank. Good deal.
-     04 50 21 CDR It should be getting cool now, Jerry.
+
+[04:04:50:21]
+CDR: It should be getting cool now, Jerry.
 
 [04:04:50:26]
 _page : 2
@@ -27578,12 +27592,14 @@ CDR: Now that's about all we have for today. I -
      guess we'll see you tomorrow, and we'll be
      landing early Friday morning. Merry Christmas
      from Apollo 8.
-     CC Roger. Merry Christmas from the ground, Apollo 8,
+
+[04:08:33:53]
+_page : 11
+CC: Roger. Merry Christmas from the ground, Apollo 8,
      and thank you very much for the guided tour. We
      really enjoyed it.
 
 [04:08:34:00]
-_page : 11
 CDR: Roger.
 
 [04:08:35:11]
@@ -29948,8 +29964,10 @@ CDR: Okay.
 CDR: Alright. I'll run a test. 
 
 [04:18:20:48]
-CC: Okay. The first thing we want is this null bias, 100 seconds. 
-     04 18 20 CDR You stand by, and I'll do a null bias for 100 seconds. Do you want me to put DELTA-V in AUTOMATIC and let it alone for 100 seconds?
+CC: Okay. The first thing we want is this null bias, 100 seconds.
+
+[04:18:20:54]
+CDR: You stand by, and I'll do a null bias for 100 seconds. Do you want me to put DELTA-V in AUTOMATIC and let it alone for 100 seconds?
 
 [04:18:21:02]
 CC: That is affirmed. 
@@ -30432,7 +30450,9 @@ CC: Okay. On step 5 on E-11, there's - the first
 
 [04:18:59:26]
 CDR: Right. 
-     04.18 5928 CC Okay. And the step shows the tape recorder to 
+
+[04:18:59:28]
+CC: Okay. And the step shows the tape recorder to 
      REWIND at minus 30. Now that's an onboard step 
      rather than a ground step, just to verify that. 
 
@@ -31437,10 +31457,12 @@ CC: Roger. Got a couple of flight plan things to
      P52 IMU realignment which we need to slip in ahead 
      of the P23 sightings, and that will be an option 3 
      REFSMMAT. 
-     04 22.19 40 LMP Roger. 
+
+[04:22:19:40]
+_page : 2
+LMP: Roger.
 
 [04:22:19:45]
-_page : 2
 CC: Okay. Some of the folks in sitting back and 
      looking at the TV business have some ideas about 
      things they would like to see tried with the filters. 
