@@ -75,6 +75,7 @@
           "avatar": "surgeon.png"
         }
     },
+    "shared_glossaries": ["space"],
     "glossary": {
         "ACME": {
             "description": "Attitude Control and Maneuver Electronics",
@@ -82,14 +83,6 @@
         },
         "ACQ AID": {
             "description": "beacon used to help tracking stations lock on to the capsule"
-        },
-        "AOS": {
-            "description": "Acquisition of Signal",
-            "type": "abbreviation"
-        },
-        "BEF": {
-            "description": "Blunt End Forward",
-            "type": "abbreviation"
         },
         "CLA": {
             "description": "Contingency Landing Area",
@@ -135,10 +128,6 @@
             "description": "Incremental Velocity Indicator",
             "type": "abbreviation"
         },
-        "LOS": {
-            "description": "Loss of Signal",
-            "type": "abbreviation"
-        },
         "MCC": {
             "description": "Mission Control Center",
             "type": "abbreviation"
@@ -149,14 +138,6 @@
         },
         "PLA": {
             "description": "Planned Landing Area",
-            "type": "abbreviation"
-        },
-        "RCS": {
-            "description": "Reaction Control System",
-            "type": "abbreviation"
-        },
-        "SECO": {
-            "description": "Sustainer Engine Cut Off",
             "type": "abbreviation"
         },
         "T/M": {
