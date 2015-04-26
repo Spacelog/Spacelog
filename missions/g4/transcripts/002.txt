@@ -5144,7 +5144,7 @@ run through the test.
 
 Section CANARY ISLANDS
 
-88 38 44 CC Roger. Everything st_ll looks good from here except
+88 38 44 CC Roger. Everything still looks good from here except
 your computer. I have a map update for you_
 88 38 50 C Stand by just a minute.
 88 38 56 CC Gemini 4, Canary CAP COM_ I'd like to get the results
@@ -7056,20 +7056,20 @@ come. Is that 3?
 97 47 23 C Well, I thought we did. The back part was ol_...
 it sort of settled down ...
 97 47 30 P See the green in the ...
-97 47 32 P You know, it's not as n_ch as fire as I thought
-'there'd be.
+97 47 32 P You know, it's not as much as fire as I thought
+there'd be.
 97 47 35 C No, there isn't. Yes, there is green, isn't there?'
-97 47 37 P Ah, there comes the g'_.
+97 47 37 P Ah, there comes the g's.
 97 47 39 C Yes, the g meter's not working.
 97 47 40 P Okay.
 97 47 44 P Milt says the g meter isn't working, and I agree.
-97 47 47 P I think we've got now about 5 g's. Wovldn't you
-say so_
+97 47 47 P I think we've got now about 5 g's. Wouldn't you
+say so?
 97 47 51 C Yes, it's only gone up to 2 right now.
-97 47 54 C You _anow,it's kind of nice to tmve some g's back
+97 47 54 C You know, it's kind of nice to have some g's back
 again.
 97 47 59 P Yes, it is.
-97 48 01 C It's _king me dizzy going around in circles. Lonk
+97 48 01 C It's making me dizzy going around in circles. Look
 at paint coming off my window.
 
 Page 391
@@ -7077,87 +7077,87 @@ Page 391
 97 48 13 C There's 3 g's now.
 97 48 15 P Okay, I guess it's right.
 97 48 17 C Yes.
-97 48 25 P Boy_ these RCS thrusters in yaw are firing an awful
+97 48 25 P Boy, these RCS thrusters in yaw are firing an awful
 lot.
 97 48 33 C Five.
 97 48 37 P They're red hot, Jim.
 97 48 39 C Yes.
-97 48 42 C s_.
+97 48 42 C Six.
 97 48 48 C Seven.
 97 48 52 P You can take, old buddy.
 97 48 54 C You're right, it is. Isn't it? ...
 97 48 58 C There's 100 000.
 97 49 01 P Why don't you ...
-97 49 09 CC Gemini 4, Houston CAP C0_
+97 49 09 CC Gemini 4, Houston CAP COM.
 97 49 13 P ... the fire.
-97 49 15 CC Gemini 4, Houston CAP CO_
+97 49 15 CC Gemini 4, Houston CAP COM.
 97 49 25 C I'm reading you loud and clear. How me?
-97 49 33 CC G_aini 4, Houston CAP CO_
+97 49 33 CC Gemini 4, Houston CAP COM.
 97 49 37 C Okay.
 97 49 41 C We're climbing back up again, it says now.
 97 49 44 C Four g's.
-97 49 44 CC Gemini 4, Houston CAP CO_ We'll have a helo over
+97 49 44 CC Gemini 4, Houston CAP COM. We'll have a helo over
 you by the time you're on the water.
 97 49 46 C Go ahead, Houston. Gemini 4.
-97 49 49 CC Gemini 4, Houston CAP COM_
-97 49 53 CC Gemini 4, Houston CAP CO_ We should have a helo
+97 49 49 CC Gemini 4, Houston CAP COM.
+97 49 53 CC Gemini 4, Houston CAP COM. We should have a helo
 over you by the time you're on the water. His
 call sign will be Sinclair 52.
 97 50 01 C ... 52. Roger.
 97 50 05 CC Roger. What is your altitude now?
 97 50 07 C We're going through 82. The g's are down to about
-2. l-_ndingArm's ON.
+2. Landing Arm's ON.
 
 Page 392
 97 50 13 CC Say again.
-97 50 20 C I said the T_nding Y '; s ON.
-97 50 23 P Okay. What's our ali:rude?
+97 50 20 C I said the Landing Arm is ON.
+97 50 23 P Okay. What's our altitude?
 97 50 23 CC Say again altitude.
 97 50 25 C We're coming up on 50.
-97 50 26 CC Gemini 4, I missed that last transmission_ but you
+97 50 26 CC Gemini 4, I missed that last transmission, but you
 should be coming on drogue chute deploy in another
 20 seconds.
 97 50 27 P Okay.
 97 50 35 P Got the drogue out, Jim?
 97 50 37 C No, not yet. I'm waiting for 40 000.
 97 50 41 CC Lauding bus armed?
-97 50 42 P Okay. The Landing Bus is Armed_ Isn't it?
-97 50 44 P Got the da'ogue?
+97 50 42 P Okay. The Landing Bus is Armed. Isn't it?
+97 50 44 P Got the drogue?
 97 50 47 C I'm coming on with the drogue now.
 97 50 49 P Okay. We're starting to oscillate. The drogue
 caught it.
 97 50 53 CC Gemini 4, you should have drogue by now.
 97 50 54 C We've got the drogue out now.
 97 50 56 P About 40° oscillation.
-97 50 59 P Wbang, whang, whang. --Okay.
+97 50 59 P Whang, whang, whang. - Okay.
 97 51 01 C Let's go to RATE COMMAND.
 97 51 03 P Rog.
 97 51 06 P Pretty good osctllatlon, old buddy.
 97 51 08 C Yes. It is, isn't it?
-97 51 11 P Yes_ the Rate Command doesn't seem to -Ah_ Dam_ned
+97 51 11 P Yes, the Rate Command doesn't seem to - Ah! Dampened
 it out.
 97 51 15 C Okay, we're at 28 000, Ed.
-97 51 15 P Okay, I can see the drogue up t_ere, too.
-97 51 18 C We got a good dm_ogue. It's holding fine.
+97 51 15 P Okay, I can see the drogue up there, too.
+97 51 18 C We got a good drogue. It's holding fine.
 97 51 25 C 25.
 97 51 27 P Okay.
 97 51 30 C Let me see if the drogue is going to hold it by
 itself.
 
 Page 393
-97 51 31 P T'va got one of your arm rests. Get your D-ring.
+97 51 31 P I've got one of your arm rests. Get your D-ring.
 97 51 35 C Okay.
 97 51 35 P Get your D-ring out, Jim.
-97 51 37 C Roger ... comtng off. Have I got it?
+97 51 37 C Roger ... coming off. Have I got it?
 97 51 40 P Yes.
 97 51 43 C I guess I should get our D-ring out, shouldn't I?
 97 51 45 P Huh? Right.
-97 51 49 C Okay,16 000.
+97 51 49 C Okay, 16 000.
 97 51 51 P Okay, I'm in a position to eject, if necessary.
 97 51 52 C Okay, Ed. Let's hope we don't have to.
-97 51 58 C Roger, Cape Control. We're Just about ready to put
+97 51 58 C Roger, Cape Control. We're just about ready to put
 the parachute out. Stand by.
-97 52 05 C Okay, parachute 's coming.
+97 52 05 C Okay, parachute's coming.
 97 52 11 C See it?
 97 52 12 P I don't see it yet.
 97 52 13 C Yes, I see it.
@@ -7171,7 +7171,7 @@ the parachute out. Stand by.
 great I
 97 52 29 CC Gemini 4, you should be coming upon main chute
 deploy.
-97 52 30 P You're not kiddingl
+97 52 30 P You're not kidding!
 97 52 32 C Okay, take your blood pressure quickly.
 97 52 33 P All right.
 97 52 35 C We're at 6000 ...
@@ -7181,10 +7181,10 @@ deploy.
 
 Page 394
 97 52 43 C Hurry up, we can't wait too much longer.
-97 52 45 P This is the important one for the_ though.
+97 52 45 P This is the important one for them though.
 97 52 47 C I know it, I know it.
 97 52 49 C How do you feel? I feel great.
-97 52 52 P I felt kind of l_mny during the spinning.
+97 52 52 P I felt kind of funny during the spinning.
 97 52 53 C I was dizzy during ...
 97 52 54 P I was, too. Okay, it's coming out now.
 97 52 55 C Coming out now?
@@ -7198,9 +7198,9 @@ Page 394
 down.
 97 53 17 C Okay, you ready?
 97 53 18 C We're at 5000 on my mark.
-97 53 20 C 2, l, MARK!
+97 53 20 C 2, 1, MARK!
 97 53 23 P That wasn't so bad.
-97 53 25 CC Gemini 4, Houston CAP COM_
+97 53 25 CC Gemini 4, Houston CAP COM.
 97 53 26 C Couple of broken arms, and you're all right.
 97 53 27 P Okay.
 97 53 30 C Gemini 4, here. We're right-side up. Two point on
@@ -7251,12 +7251,12 @@ slower.
 97 55 30 CC We can't reach you, Jim, you're fading out too much.
 
 Page 396
-97 55 31 C Okay, we're at 1C_)Ofeet, Ed.
+97 55 31 C Okay, we're at 1000 feet, Ed.
 97 55 32 P Okay.
 97 55 35 C Now get ready. Remember water.
 97 55 40 P I'll stand by. Water seal. Let's go down -
-97 55 41 CC Oh l Okay. The R & R can is floating by.
-97 55 44 C Let's go down now. Okay, you get the Tnlet Snorkel
+97 55 41 CC Oh! Okay. The R & R can is floating by.
+97 55 44 C Let's go down now. Okay, you get the Inlet Snorkel
 UP when we hit.
 97 55 45 P When we hit. I'm standing by on it.
 97 55 46 C Ill Jettison the parachute.
@@ -7264,7 +7264,7 @@ UP when we hit.
 97 55 55 C Roger. We got 500 feet.
 97 55 56 P 300 feet.
 97 55 57 C As John says, how do you get ready for the arrival?
-97 56 00 CC We figure you ought to be to,uchingdown in about
+97 56 00 CC We figure you ought to be touching down in about
 20 seconds.
 97 56 02 C Roger, we're indicating 100 feet right now.
 97 56 08 P Pretty good impact. Okay. Jettison the chute.
@@ -7272,16 +7272,16 @@ UP when we hit.
 97 56 15 P Yes, and your inlet snorkel's UP.
 97 56 19 C Okay, let's see if we're leaking.
 97 56 22 C Yes, but are we leaking? That's the big thing.
-97 56 24 P No, I don't think we're fuming. I don't Lear any
+97 56 24 P No, I don't think we're fuming. I don't hear any
 gurgling.
 97 56 28 P Okay.
-97 56 30 P Whool I smell something, but I don't think it's bad.
-Gee, I feel greatl
-97 56 38 C So do I, Ed! That wasntt too bad!
-97 56 40 P Yes, buddy. Good showl
+97 56 30 P Whoo! I smell something, but I don't think it's bad.
+Gee, I feel great!
+97 56 38 C So do I, Ed! That wasn't too bad!
+97 56 40 P Yes, buddy. Good show!
 97 56 45 C Okay, let's finish up the checklist.
 97 56 47 P Let's clean every switch up in this mother.
-97 56 58 C Gemini 4's on the water_ and we're floating fine.
+97 56 58 C Gemini 4's on the water, and we're floating fine.
 No leaks.
 97 57 01 P I smell a little of that stuff.
 97 57 02 C Yes.
@@ -7290,7 +7290,7 @@ Page 397
 97 57 13 C Oh, are our sea dye markers out?
 97 57 15 C Let's see. You got the Rescue Beacon ON?
 97 57 16 P Yes. I put that on right away.
-97 57 20 C Put it on with the light if they're ti_t close.
+97 57 20 C Put it on with the light if they're that close.
 97 57 22 P Okay.
 97 57 27 CC Gemini 4, Houston CAP COX How do you read?
 97 57 30 P Okay, let's go to HF.
@@ -7309,25 +7309,24 @@ I guess we must have all the lights off ...
 97 58 27 P Hello, Omnibus ... Gemini 4.
 97 58 40 CC Gemini 4, Houston.
 97 58 45 P You're coming through five square, and you're sounding
-great. There's nothing you can do but p,_ltus
-out.
+great. There's nothing you can do but pull us out.
 97 59 01 P Well, what alternatives do we have right now?
-97 59 15 P Roger, can you put the collar on us with the he_lo?
-97 59 19 P Can you put the colla_ on us with the helo?
+97 59 15 P Roger, can you put the collar on us with the helo?
+97 59 19 P Can you put the collar on us with the helo?
 97 59 24 P Roger. We'd like to come out with the collar and
 with the helo.
 97 59 38 C Listen, we'd better get those.
-97 59 55 CC Gemini 4, Houston. You're about 40 to 50 mfles
+97 59 55 CC Gemini 4, Houston. You're about 40 to 50 miles
 from the aircraft carrier.
 98 20 41 CC Gemini 4, this is Omnibus 64. Your rescue helo is
-r,oming in to put the collar on for you now. Over.
+coming in to put the collar on for you now. Over.
 
 Page 398
 98 20 50 C Coming now, Roger. Roger. Roger.
 98 20 53 CC The Peek-a-boo would like to know the condition of
 you two. Are you both in good shape?
 98 20 58 C We're both in excellent shape. That's affirmative.
-98 21 00 CC Rogerl Roger?
+98 21 00 CC Roger! Roger!
 98 21 56 CC Gemini 4. The doctors would like to know if you're
 going to return in your space suits or not. Over.
 98 22 00 C Roger. We'll stay in our space suits for one more
