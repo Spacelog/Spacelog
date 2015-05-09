@@ -16654,13 +16654,14 @@ CC: Apollo 8, Houston. Standing by to monitor
      P52. Over.
 
 [02:18:18:51]
-_extra : two lines below appeared out of sequence on PDF page 341/nverified sequence in Apollo Flight Journal
 CMP: Roger.
 
 [02:18:26:59]
+_extra : this line appeared out of sequence on PDF page 341
 CDR: Roger. Houston, Apollo 8. P52 complete.
 
 [02:18:27:05]
+_extra : this line appeared out of sequence on PDF page 341
 CC: Apollo 8, Houston. Roger. Copy.
 
 [02:18:42:01]
@@ -17606,10 +17607,10 @@ CC: Apollo 8, Houston. Five minutes LOS, all systems
      GO. Over.
 
 [02:20:53:13]
-_extra : Below was passed from Susan Borman as a way of assuring him that she was taking care of things at home while he did his job.
 CDR: Thank you. Houston, Apollo 8.
 
 [02:20:53:17]
+_extra : Passed from Susan Borman as a way of assuring him that she was taking care of things at home while he did his job.
 CC: Roger, Frank. The custard is in the oven at
      350. Over.
 
