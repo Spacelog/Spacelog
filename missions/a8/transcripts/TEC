@@ -18923,7 +18923,7 @@ LMP: Roger. Can we wait till sunset?
 CC: Roger. We can wait.
 
 [02:23:43:10]
-LMP: okay. I think we are coming up on Miller
+LMP: Okay. I think we are coming up on Miller
      right now.
 
 [02:23:43:53]
@@ -19069,7 +19069,7 @@ CC: Roger. This picture now is much better; I
      guess the light levels are decreasing now.
 
 [02:23:48:42]
-LMP: okay. We are coming up on the crater Collins.
+LMP: Okay. We are coming up on the crater Collins.
 
 [02:23:48:45]
 CC: Roger. What crater is that just going off.
@@ -19104,7 +19104,7 @@ CC: Roger. Understand, Jim.
 
 [02:23:49:39]
 CC: Apollo 8. This is Houston. Looks like we
-     could see Collins now.
+     can see Collins now.
 
 [02:23:49:48]
 LMP: Roger. There is Collins for you.
@@ -19222,7 +19222,7 @@ LMP: And, Houston, you might let us know, can we
      filters - red filters on? Over.
 
 [02:23:56:06]
-CC: standby.
+CC: Stand by.
 
 [02:23:56:10]
 CC: Apollo 8, this is Houston. Apollo 8, Houston.
@@ -19327,7 +19327,7 @@ CC: Apollo 8, Houston. Go.
 
 [03:00:03:44]
 CMP: Roger. Just an interesting feature: on my
-     center window which has ice on it is is now
+     center window which has ice on it, it is now
      beginning to melt. I'm beginning to see
      through it.
 
@@ -19593,7 +19593,7 @@ CDR: Did you get it stopped?
 CC: Bill, you can go ahead and turn it off.
 
 [03:00:29:54]
-LMP: Obey. We are not going to have a high gain
+LMP: Okay. We are not going to have a high gain
      now until the next time around. Can you give
      me some idea of how much of that pass you got.
 
@@ -19748,7 +19748,7 @@ CC: Apollo. 8, this is Houston. You are GO for LOI 2
      on the next rev. Over.
 
 [03:00:46:23]
-CDR: I can understand CC for LOI 2 on the next rev.
+CDR: I can understand GO for LOI 2 on the next rev.
 
 [03:00:46:31]
 CDR: How do you read, Houston?
@@ -19978,8 +19978,7 @@ CDR: So far seems ... hold it a minute though, will
 CDR: Okay. Go ahead.
 
 [03:02:24:13]
-CC: Okay.
-     The last number I gave was DELTA-V<sub>C</sub>.
+CC: Okay. The last number I gave was DELTA-V<sub>C</sub>.
      Picking up at the sextant star: 40 2730 396 033,
      down 030, left 19. Are you with me? Over.
 
@@ -20014,7 +20013,7 @@ CC: That's about the size of it, Frank, and a map
 CDR: Ready.
 
 [03:02:27:40]
-CC: REV'S 3/4: MS 75:01:23, sunrise 75:10:16, prime
+CC: REV'S 3/4: LOS 75:01:23, sunrise 75:10:16, prime
      meridian 75:17:16, AOS 75:47:18, sunset 76:23:11;
      remarks: subsolar point 75:46:55, IP-1 acquisition
      76:11:17, IP-2 acquisition 76:12:30. For IP-1
@@ -20115,7 +20114,7 @@ CC: Okay, Frank. That's one of the things we are
      minutes to include that terminator view. Over.
 
 [03:02:41:23]
-CDR: okay. I don't want us to run into REV 10 very
+CDR: Okay. I don't want us to run into REV 10 very
      much at all, though.
 
 [03:02:41:28]
@@ -20149,7 +20148,7 @@ LMP: Roger. Since the qual isn't so good, let me
 CC: Ready to copy.
 
 [03:02:42:05]
-LMP: okay. At REV 1, we got photo target 90 and
+LMP: Okay. At REV 1, we got photo target 90 and
      terminator photography south for near-side terminator.
      Starting on REV 2, we've got target
      12 and targets 10, 14, 16, 19, 20, 21, and 23.
@@ -20276,7 +20275,7 @@ CC: Apollo 8, Houston. Go ahead, Frank, with your
      message.
 
 [03:02:50:07]
-CDR: okay. This is to Rod Rose and the people at
+CDR: Okay. This is to Rod Rose and the people at
      St. Christopher's, actually to people everywhere.
      Give us, O God, the vision which can see thy love
      in the world, in spite of human failure. Give us
@@ -20521,7 +20520,7 @@ CC: That is affirmative. We are getting low bit data
      now.
 
 [03:04:06:41]
-LMP: okay. I've played - run the tape recorder back
+LMP: Okay. I've played - run the tape recorder back
      to the beginning. We have quite a bit of high
      bit, so all you'll have to do is start recording
      when you are ready.
@@ -20723,7 +20722,7 @@ CDR: Roger.
 [03:04:26:27]
 CC: Frank, I know you are busy up there. We've got
      the daily news for you whenever and if ever you'd
-     like to hear it. ..
+     like to hear it.
 
 [03:04:26:38]
 CDR: I'll give you a call.
@@ -20922,7 +20921,7 @@ LMP: Houston, Apollo 8. We got time for a little
      news?
 
 [03:04:49:56]
-CC: Apollo 3, this is Houston. Over.
+CC: Apollo 8, this is Houston. Over.
 
 [03:04:50:02]
 LMP: I say how about a little bit of that news you
@@ -21271,7 +21270,7 @@ CC: Apollo 8, Houston. Over.
 CDR: Go ahead, Houston.
 
 [03:06:16:51]
-CC: Roger. If you.would go to P00 and ACCEPT, please,
+CC: Roger. If you would go to P00 and ACCEPT, please,
      we are going to send you a P27 load which will update
      an RLS value which will be followed by a procedural
      change, Jim, we will give you later; and
@@ -21320,7 +21319,7 @@ CC: Apollo 8, Houston. Roger. I have updates, a
      Which would you like first?
 
 [03:06:24:51]
-LMP: okay. I've got the map update page now. Why
+LMP: Okay. I've got the map update page now. Why
      don't you give me that one?
 
 [03:06:24:55]
@@ -21436,7 +21435,7 @@ CC: Good. 31816 302 31624 40 2699 396 033, down 054,
 LMP: Roger, Houston. TEI 6, SPS/G&N: 45701, minus
      040, plus 157 018 21 2443, plus 31776, minus 00823,
      minus 01365 180 016 001, NA, plus 00188 31816 302
-     3624 40 2699. Are you with me?
+     31624 40 2699. Are you with me?
 
 [03:06:33:39]
 _page : 423
@@ -21533,7 +21532,7 @@ LMP: Okay. I guess the 6O-degree limit will still hold
 CC: Stand by.
 
 [03:06:41:40]
-CC: Apollo 3, Houston. We are suggesting you disregard
+CC: Apollo 8, Houston. We are suggesting you disregard
      the 60 degree limit, and let it go ahead and
      rise up above 60. There is no need to activate
      the secondary. Over.
@@ -21619,7 +21618,7 @@ LMP: Reading you fine.
 CC: Okay.
 
 [03:07:55:43]
-CMP: Houston, Apollo 6.
+CMP: Houston, Apollo 8.
 
 [03:07:55:45]
 CC: Apollo 8, Houston. Go ahead.
@@ -21687,7 +21686,7 @@ CC: Roger, Jim. Glad to hear it. Jack's listening.
 LMP: Jack, the information - The triangles that we see
      now are from the first IP, second IP, and the B-1
      are just right, I think, for landing conditions.
-     The shadows aren't too deep for you to get confused.
+     The shadows aren't too deep for you to get confused,
      but the land has texture to it, and there are
      enough shadows there to make everything stand out.
 
@@ -21962,7 +21961,7 @@ CC: Thank you. 179 009 001, not applicable, plus
      left 27, plus 0790 minus 16500 129 73 36238 146
      4414; same north set Sirius and Rigel, roll 129,
      pitch 155, yaw 010, four quads for 15 seconds,
-     horizon on the 2-degree mark at T ignition. Over.
+     horizon on the 2-degree mark at P ignition. Over.
 
 [03:08:32:53]
 LMP: Roger. TEI 7 SPS/G&N: 45701, minus 040, plus
@@ -22076,7 +22075,7 @@ CC: Apollo 8, Houston. One minute til LOS, and
      standing by.
 
 [03:08:56:05]
-LMP: okay. See you on the other side, Mike.
+LMP: Okay. See you on the other side, Mike.
 
 [03:08:56:09]
 CC: Looking forward to it.
@@ -22089,7 +22088,7 @@ LMP: Me, too.
 [03:09:43:58]
 _page : 436
 _tape : Tape 55 / Page 1
-CC: Apollo 8, this is Houston. over.
+CC: Apollo 8, this is Houston. Over.
 
 [03:09:44:34]
 CC: Apollo 8, this is Houston. Over.
@@ -22258,7 +22257,7 @@ CDR: Roger.
 CMP: Go ahead with your data, Mike.
 
 [03:10:18:14]
-CC: okay. And before that, we'd like to take the DSE
+CC: Okay. And before that, we'd like to take the DSE
      away from you, please, for a while.
 
 [03:10:18:28]
@@ -22469,7 +22468,7 @@ CDR: Okay. What time is that TV, Mike, 85:37?
 CC: 85:37 to terminator, which is probably like 86:14.
 
 [03:10:36:20]
-CDR: okay. Well, I don't know if we can go that long
+CDR: Okay. Well, I don't know if we can go that long
      with it, and I'm going to scrub all the other
      experiments, the converging stereo or other
      photography, and we are a little bit tired; I
@@ -22621,7 +22620,7 @@ CC: Roger. COPY.
 CDR: This PRD now reads 144.
 
 [03:11:54:50]
-CC: copy, 144. And we have an update ready to go
+CC: Copy, 144. And we have an update ready to go
      into your computer for the state vector if
      you want to go to P00 and ACCEPT.
 
@@ -23324,7 +23323,7 @@ LMP: There is an interesting rill directly in front of
      turns.
 
 [03:14:04:30]
-LMP: This area just to the west of the Sea of Crises is
+CMP: This area just to the west of the Sea of Crises is
      called the Marsh of Sleep and to the west of that
      the Sea of Tranquility.
 
@@ -23610,7 +23609,7 @@ CDR: Roger. Thank you, Houston. We appreciate the
      summary. We're trying to get high gain.
 
 [03:14:26:49]
-CC: Roger,
+CC: Roger.
 
 [03:14:26:53]
 CMP: I think we have it.
@@ -24081,7 +24080,7 @@ CC: Apollo 8, reconfirm your burn time, please.
 
 [03:17:35:30]
 CMP: Roger. We had 2 minutes 23 seconds. Our -
-     wait one. Change that to read 3 minutes 23 seconds
+     wait one. Change that to read 3 minutes 23 seconds.
 
 [03:17:35:43]
 CC: Thank you.
@@ -24139,7 +24138,7 @@ CC: This will take a wide beam width.
 CDR: Wide beam width. Roger.
 
 [03:17:43:06]
-CDR: Houston, Apollo 8, We've manually acquired in
+CDR: Houston, Apollo 8. We've manually acquired in
      wide beam.
 
 [03:17:43:10]
@@ -24400,7 +24399,7 @@ CDR: Houston, this is Apollo 8.
 CC: Go ahead.
 
 [03:18:07:28]
-CDR: Roger.. We got an alignment with your new REFSMMAT
+CDR: Roger. We got an alignment with your new REFSMMAT
      now. What's on the program here? You want us in
      P23 and then what?
 
@@ -24535,7 +24534,7 @@ CDR: Okay. Will you call us about those, please?
 CC: I sure will. And, let's see, we just wanted
      to let you know we've got a real good battery
      charge going here this time. Looks like - it
-     looks just like the ones in the back, and I'd
+     looks just like the ones in the book, and I'd
      like to get a battery C voltage before you shut
      down, and a sleep report on what you did in - -
 
@@ -24737,7 +24736,7 @@ LMP: For what time?
 CC: 91:36.
 
 [03:19:36:35]
-LMP: Okay. stand by.
+LMP: Okay. Stand by.
 
 [03:19:36:44]
 LMP: Okay. What's Bravo?
@@ -25092,7 +25091,7 @@ CC: Apollo 8, Houston. We have you on Delta; you
 
 [03:22:57:06]
 LMP: Okay. Everybody seems to be stirring around
-     so we'll probably do it on time.
+     now, so we'll probably do it on time.
 
 [03:22:57:11]
 CC: Okay.
@@ -25518,7 +25517,7 @@ CDR: Thank you.
 CC: Roger.
 
 [03:23:41:46]
-CC: Apollo 8, Houston.. Buenos dias from Madrid.
+CC: Apollo 8, Houston. Buenos dias from Madrid.
 
 [03:23:41:53]
 CDR: ... reading ... now.
@@ -25630,7 +25629,7 @@ CC: Roger. We will start out with the world news.
      extension of man's intellect and activity. There
      were only a few scrooges that "pooh pooh-ed" the
      Christmas voyage, however. The most notable
-     was Samual Shenton, secretary of London's Flat Earth
+     was Samuel Shenton, secretary of London's Flat Earth
      Society, who said the public are being balihooed,
      taken for a ride. How does that grab you, Frank?
 
@@ -25681,7 +25680,7 @@ CC: Another little of local news: the County
      and Edwin, plan to stay home for the midnight
      blast out of moon orbit. Ordinarily, they would
      attend midnight services at St. Christopher's
-     L Episcopal Church. The plans were for the family
+     Episcopal Church. The plans were for the family
      to go to Christmas Day service at 7:00 a.m. Since
      there are no young children in the Borman home,
      family Christmas gift giving will simply wait
@@ -25703,7 +25702,7 @@ CC: Another little of local news: the County
      We got scared off by some crazy antics of a
      fat man and a sleigh and three guys in a rocket-powered
      bucket drag racing around the moon. Is
-     that anyway to run a planet?" Signed the boys
+     that any way to run a planet?" Signed the boys
      from Mars. Frank, it looks like the only people
      around here who aren't impressed by the Apollo 8
      is the stock market. Its 30 industrials are down
@@ -25717,7 +25716,7 @@ CDR: Neil will be crying.
 [04:00:32:45]
 _page : 511
 _tape : Tape 64 / Page 7
-CC: (laughter) You-bet. On the sports page, not too
+CC: (Laughter) You bet. On the sports page, not too
      much activity. UCLA is tops in both basketball
      polls. If you got any particular one you want
      to ask about, let me know, and I'll tell you if
@@ -25725,7 +25724,7 @@ CC: (laughter) You-bet. On the sports page, not too
      as the North - the college All Star game that is
      going to be played tomorrow is concerned, the
      North is a slight favorite over the South. Ara
-     Parsegian is the coach of the North team, and
+     Parseghian is the coach of the North team, and
      he's got six of the Notre Dame troops working for
      him, so they ought to be pretty tough. The coach
      of the South team is Frank Howard of Clemson. He
@@ -25762,7 +25761,7 @@ CDR: Yes, thank you. I heard about that before - before
 [04:00:34:30]
 _page : 512
 _tape : Tape 64 / Page 8
-CC: Yes. I thought you heard about that.. Now, back
+CC: Yes. I thought you heard about that. Now, back
      to the workday; we need a cryo fan cycle from you.
 
 [04:00:34:43]
@@ -25818,7 +25817,7 @@ CC: Apollo 8, Houston. Go.
 
 [04:00:42:35]
 CMP: We'd like to use the computer now if you don't
-     need it now...
+     need it now. ...
 
 [04:00:42:40]
 CC: Roger, Jim. It's yours.
@@ -25829,7 +25828,7 @@ CMP: Thank you.
 [04:00:42:46]
 _page : 513
 _tape : Tape 64 / Page 9
-CDR: If you can switch it down there without VERB 64;
+CDR: If you can switch it down there without VERB 64,
      well, go ahead and do it.
 
 [04:00:42:56]
@@ -25845,7 +25844,7 @@ CDR: ... are all ... of the earth.
 CC: Roger. Thank you, Frank.
 
 [04:00:46:42]
-CDR: Houston... pitch and yaw of 10 and 45, aren't
+CDR: Houston. ... pitch and yaw of 10 and 45, aren't
      you?
 
 [04:00:46:57]
@@ -26105,7 +26104,7 @@ CMP: I just worked out an answer to move my landing
      with what they've got based on the same
      burn time of 114 hours, based on the bias impact
      longitude determined from the P37 which is
-     wrong. I've indicated that I need 606 foot
+     wrong. I've indicated that I need 600 foot
      per second DELTA-V<sub>C</sub> burn plus, and my DELTA-V<sub>X</sub>
      changes from a minus 11.6 feet per second. I'd
      like to have them verify that if I could.
@@ -26165,7 +26164,7 @@ CMP: Okay, Houston. Based on the P37 with minus
      MA solution, I got an impact longitude of
      minus 160.95. I biased it to get an impact
      latitude - longitude of 163.75. I wanted to
-     change change my impact point 30 degrees to the east,
+     change my impact point 30 degrees to the east,
      and I tried to determine what my P30 burn
      parameters would be to do this, and I got a
      DELTA-V<sub>X</sub> burn of minus 11.6 and a DELTA-V<sub>C</sub> of
@@ -26362,8 +26361,8 @@ CMP: Roger. Understand. So 40 will have to come up
 
 [04:03:20:34]
 CC: Roger. Now concerning your restart that happened
-     in lunar orbit, for the peace of mid of the computer
-     people and the MIT folks, we have a question
+     in lunar orbit, for the peace of mind of the computer
+     people and the MIT folks, we have a question.
      Did VERB 34 ENTER to a flashing VERB 51 in
      P22 cause your restart? Over.
 
@@ -26528,7 +26527,7 @@ CDR: Houston, Apollo 8. Did you read that we are recording
 
 [04:04:04:21]
 _extra: END OF TAPE
-CC: Roger, Frank. Thanks. *
+CC: Roger, Frank. Thanks.
 
 [04:04:13:56]
 _page : 527
@@ -26678,7 +26677,7 @@ CC: Thank you, Frank.
 CDR: You're welcome, Jerry.
 
 [04:04:56:03]
-CC: That Lowell's getting pretty proficient.
+CC: That Lovell's getting pretty proficient.
 
 [04:04:56:07]
 CDR: Not bad.
@@ -26694,7 +26693,7 @@ CC: Was that last number you read down to me mark 2
      on star number 1?
 
 [04:04:57:59]
-CDR: That's right. Star number 1, mark 7.
+CDR: That's right. Star number 1, mark 2.
 
 [04:04:58:03]
 CC: Roger. Thank you. Now that one got you on
@@ -26783,7 +26782,7 @@ CC: Roger. Frank, we are going to establish a
      silence on the net for about 3 minutes. Over.
 
 [04:05:17:44]
-CDR: Very veil.
+CDR: Very well.
 
 [04:05:21:21]
 _page : 531
@@ -27098,8 +27097,8 @@ CC: Okay. The purpose is to bring the LM and
 
 [04:06:19:29]
 CMP: Okay. As I understand that the reason for
-     this procedure is to bring
-     the LM and CSM state vectors back to the earth's sphere
+     this procedure is to bring the LM and CSM
+     state vectors back to the earth's sphere
      of influence; is that correct?
 
 [04:06:19:37]
@@ -27237,7 +27236,7 @@ CMP: And, Mike, that sure puts the CMP in a bad
      you are going.
 
 [04:06:34:48]
-CC: Yes. And when you're setting between two
+CC: Yes. And when you're sitting between two
      guys that won't tell you, too. (Laughter)
 
 [04:06:34:54]
@@ -27267,7 +27266,7 @@ CMP: Okay. Ready to copy, Mike.
 CC: Roger, Jim. This is midcourse maneuver
      number 5, and it's a RCS/G&N, and it's 31700,
      not applicable, not applicable. Are you with
-     me
+     me?
 
 [04:06:43:56]
 CMP: With you.
@@ -27300,7 +27299,7 @@ CC: I'm with you, Jim.
 CMP: 31700, NA, NA, 10359 5286, minus 00050, plus
      all zeros, plus 00001 000 334 001, all zeros,
      plus 00190 00050 014 0050 413020 183, Shaula,
-     down 064, left 06, plus 0747, minx 16410
+     down 064, left 06, plus 0747, minus 16410
      12988 36301 146 4640; Sirius, Rigel, 308 209
      357; use high-speed procedure with minus MA.
 
@@ -27399,7 +27398,7 @@ LMP: Roger. The LMP's PRD hasn't moved an inch
      that's about it.
 
 [04:06:59:29]
-CC: okay. And you got a PRD on the other two.
+CC: Okay. And you got a PRD on the other two.
 
 [04:06:59:32]
 LMP: Yes. The CMP is ready to report. The CMP
@@ -27408,7 +27407,7 @@ LMP: Yes. The CMP is ready to report. The CMP
 [04:06:59:41]
 CDR: And the CDR: I got stuck with somebody else's,
      but mine reads now - my new one reads
-     2.02 rem. I don't know if there is a message
+     2.02 rems. I don't know if there is a message
      there or not.
 
 [04:06:59:49]
@@ -27507,7 +27506,7 @@ CC: Apollo 8, Houston. Over.
 [04:07:08:48]
 CMP: Roger. Just for information, would the
      perigee reading and NOUN 42 be such a big
-     minus number for such a small burn. We are
+     minus number for such a small burn? We are
      reading minus 03137 now.
 
 [04:07:09:03]
@@ -27574,7 +27573,7 @@ CC: Well, we can't tell when you're in low bit
      right.
 
 [04:07:18:20]
-CDR: Okay.if we crank up high bit rate and just
+CDR: Okay. If we crank up high bit rate and just
      have you take a checkout look at them?
 
 [04:07:18:26]
@@ -27598,7 +27597,7 @@ CC: Roger. Since you're on OMNI D (Dog) at this
 [04:07:19:38]
 _page : 547
 _tape : Tape 69 / Page 1
-CDR: okay. We will take the antennas and get on
+CDR: Okay. We will take the antennas and get on
      the high gain as soon as we can.
 
 [04:07:19:43]
@@ -27631,10 +27630,10 @@ CC: Roger. We are going to be doing a ranging
      couple of minutes, we would appreciate it.
 
 [04:07:35:56]
-CDR: Roger. we will.
+CDR: Roger. We will.
 
 [04:07:35:58]
-CC: okay.
+CC: Okay.
 
 [04:07:42:41]
 CC: Apollo 8, Houston. Over.
@@ -27718,7 +27717,7 @@ CMP: Roger. We burned on time, 14 seconds, attitude
 [04:08:02:03]
 CC: Roger. Understand 14 seconds, burn on time,
      nominal attitude, two-tenths X, one-tenth Y,
-     and nothing minus one-tenth Y, and nothing Z;
+     and nothing - minus one-tenth Y, and nothing Z;
      and you put 6.2 on the EMS, and it continued to
      count after the burn. Is that affirmative?
 
@@ -27838,7 +27837,7 @@ CC: Apollo 8, Houston. Go ahead.
 CDR: Roger. On this EMS, when I put it in DELTA-V,
      it was reading zero; then I switched to AUTO.
      Sometimes it will count to 19 or 20 feet per
-     second.. I guess that is what happened.
+     second. I guess that is what happened.
 
 [04:08:10:17]
 CC: Roger. Understand when you put it to AUTO, it
@@ -27846,7 +27845,7 @@ CC: Roger. Understand when you put it to AUTO, it
      20 feet per second.
 
 [04:08:10:27]
-CDR: .Just when you put it to AUTO; it will start
+CDR: Just when you put it to AUTO; it will start
      counting on some occasion, by itself.
 
 [04:08:10:31]
@@ -27895,7 +27894,7 @@ CC: Negative, Frank. It may be that it hasn't
      warmed up properly.
 
 [04:08:23:56]
-CDR: okay. We've had it on for a while. Are you
+CDR: Okay. We've had it on for a while. Are you
      getting our FM okay?
 
 [04:08:24:04]
@@ -27951,7 +27950,7 @@ CDR: Okay. That's right. That's Jim Lovell. What
      and I thought you might be interested in seeing
      what we have here, the displays that give us
      all the information about our burn, about navigating,
-     gating, and about the velocity that we use
+     and about the velocity that we use
      during entry and retrofire on earth-orbital
      missions. You can see it's controlled by a
      DSKY, or similar to a typewriter keyboard,
@@ -28096,7 +28095,7 @@ CC: We're suggesting attitude deadband MAX and rate
      HIGH.
 
 [04:08:35:25]
-CDR: You're right, Thank you.
+CDR: You're right. Thank you.
 
 [04:08:45:29]
 CDR: Houston, Apollo 8.
@@ -28440,7 +28439,7 @@ CC: Apollo 8, Houston.
 CMP: Go ahead.
 
 [04:10:30:04]
-CC: okay. Jim, while we're working on this procedure,
+CC: Okay. Jim, while we're working on this procedure,
      we'd like to know did you select 01,
      and you get a VERB 37 ENTER, 01 ENTER?
 
@@ -28449,7 +28448,7 @@ CMP: Let's see, I'm not too sure, Mike. I might
      have done that, yes.
 
 [04:10:30:20]
-CC: okay.
+CC: Okay.
 
 [04:10:30:21]
 CMP: We have star 01 coming up, now that might have
@@ -28461,7 +28460,7 @@ CC: Okay. We understand. Why don't you just hold
      you shortly.
 
 [04:10:30:29]
-CMP: okay.
+CMP: Okay.
 
 [04:10:32:29]
 CC: Apollo 8, Houston.
@@ -28480,10 +28479,10 @@ CMP: Stand by.
 CC: Apollo 8, Houston. Over.
 
 [04:10:37:56]
-CDR: GO ahead, Houston. Apollo 8.
+CDR: Go ahead, Houston. Apollo 8.
 
 [04:10:37:58]
-CC: okay. Frank, our procedure is to select P00,
+CC: Okay. Frank, our procedure is to select P00,
      and from P00 go to P51, and get a platform
      alignment. After you've done that, we will
      send you up a P27, a REFSMMAT, and then you
@@ -28535,7 +28534,7 @@ CDR: Okay. We'll just sit tight then. We've got
 
 [04:10:49:14]
 CC: That's right, that's exactly right. Just stand
-     by 
+     by.
 
 [04:10:49:45]
 CDR: Mike, this is Frank again.
@@ -28606,7 +28605,7 @@ CC: Apollo 8, Houston. We got a good load in; it's
 CMP: Okay.
 
 [04:10:55:17]
-CDR: Roger. stand by.
+CDR: Roger. Stand by.
 
 [04:10:55:19]
 CC: And you can go ahead with your P52 at your convenience.
@@ -28966,12 +28965,12 @@ CC: Okay, Jim. There's one thing before you get
      precaution, we'd like to dump the computer
      memory and go through it and check it bit
      by bit and make sure everything is exactly
-     copasetic. Over.
+     copacetic. Over.
 
 [04:12:10:31]
 _page : 575
 _tape : Tape 72 / Page 2
-LMP: okay. Do you want to do that now?
+LMP: Okay. Do you want to do that now?
 
 [04:12:10:34]
 CC: Affirmative. We're getting Goldstone configured
@@ -29005,7 +29004,7 @@ CC: Okay. We'd like a VERB 01 NOUN 01 ENTER, 333
      memory twice, and return you to the proper configuration.
 
 [04:12:12:13]
-CMP: okay. The procedure will be VERB 01 NOUN 01
+CMP: Okay. The procedure will be VERB 01 NOUN 01
      ENTER, 333 ENTER, and read out register 1. Then
      10 000 - the memory - the computer will then dump
      the memory twice as properly configured. If not,
@@ -29108,7 +29107,7 @@ CMP: Roger. Ask him how the stock market is doing.
 CC: Tears are rolling down his face.
 
 [04:12:26:25]
-CC: Apollo 8, Houston..
+CC: Apollo 8, Houston.
 
 [04:12:26:29]
 LMP: Go ahead.
@@ -29245,7 +29244,7 @@ LMP: Okay. Looking for the page; I got it now.
 [04:12:59:16]
 _page : 580
 _tape : Tape 72 / Page 7
-CC: okay. The first star, make two sets; second
+CC: Okay. The first star, make two sets; second
      star, two sets; for a total of five sets.
 
 [04:12:59:25]
@@ -29258,7 +29257,7 @@ CC: And if you're in a copying mood, I have - would
      sometime today or tomorrow.
 
 [04:12:59:43]
-LMP: okay. Why don't we get them here after this
+LMP: Okay. Why don't we get them here after this
      one set of stars.
 
 [04:12:59:46]
@@ -29279,14 +29278,14 @@ CC: I'm sorry about that.
 LMP: ... if you want me.
 
 [04:13:00:33]
-CC: Roger. At 130 hours GET, star 02: Where it is
+CC: Roger. At [time:05:10:00:00|130 hours] GET, star 02: Where it is
      printed two sets, we'd like to make that only
      one set; and then we would like to add star 11
      (star one - one) lunar far horizon, two sets.
      Over.
 
 [04:13:01:05]
-LMP: okay.
+LMP: Okay.
 
 [04:13:01:08]
 CMP: Hey, Mike. Is MIT slipping in the back door?
@@ -29557,7 +29556,7 @@ LMP: Roger. We got it in the wrong bucket there a
      couple of times.
 
 [04:13:24:59]
-CC: okay.
+CC: Okay.
 
 [04:13:25:06]
 LMP: We never did have a chance to do any night earthshine
@@ -29679,7 +29678,7 @@ LMP: That's all they'll let me do.
 
 [04:14:18:30]
 LMP: Okay. We will keep it here for two REV's, Ken.
-     and - Frank and Jim are asleep, and ...
+     Frank and - Frank and Jim are asleep, and ...
      so I'll just keep it going here for two rolls.
 
 [04:14:18:44]
@@ -29923,11 +29922,11 @@ LMP: Ken, we are going to switch COMM carriers here a
 CC: Okay, thank you.
 
 [04:14:53:52]
-LMP: Relay that. We'll hold this configuration for
+LMP: Belay that. We'll hold this configuration for
      a while.
 
 [04:14:53:55]
-CC: okay.
+CC: Okay.
 
 [04:14:56:03]
 CC: Apollo 8, Houston through Honeysuckle.
@@ -29953,14 +29952,14 @@ LMP: It did the same thing that time, Ken. This
      to have the capabilities to look right through
      the spacecraft, and I guarantee, the earth went
      where the antenna was not supposed to be able
-     to go. I
+     to go.
 
 [04:15:07:53]
-CC: okay. I would just like to confirm with you that
+CC: Okay. I would just like to confirm with you that
      it never did go back to the present numbers.
 
 [04:15:08:02]
-LMP: no, it apparently never lost earth presence signal.
+LMP: No, it apparently never lost earth presence signal.
      It sounds like it was trying to pick up
      one-way lock all the time, and we usually hovered
      around 2-volts AGC except for brief periods.
@@ -30044,7 +30043,7 @@ LMP: We are trying to get back on our normal sleep
      think down there?
 
 [04:15:31:46]
-CC: okay. Sounds like a good idea, and if we can
+CC: Okay. Sounds like a good idea, and if we can
      get Frank to tell us how much sack time he got,
      why that'll go in the log, too.
 
@@ -30174,7 +30173,7 @@ CC: Okay. We have a DTO that requires that we do a
      think like 6 hours - or until we reach a limit.
 
 [04:16:11:19]
-CDR: okay.
+CDR: Okay.
 
 [04:16:11:30]
 CDR: Cabin's running a little bit warmer today than
@@ -30220,7 +30219,7 @@ CC: Okay. Thank you.
 CDR: Have fun.
 
 [04:16:12:41]
-CC: Roger. And on that quad temperature - the upper limit of that thing is 105 degrees on the bottle. You are well below that. We have been watching it, and it is tracking, although it is tracking very slowly. As you roll the spacecraft, the temperature excursion seem to be a little sluggish, but it isn't a frozen sensor. And talking a little bit more about that one right now, you might tell Jim the next time he goes to work with the optics, when he works with the trunnion, if he'll go ahead and recycle the ZERO OPTICS switch, he can avoid the problem we had prior to midcourse correction 4.
+CC: Roger. And on that quad temperature - the upper limit of that thing is 105 degrees on the bottle. You are well below that. We have been watching it, and it is tracking, although it is tracking very slowly. As you roll the spacecraft, the temperature excursions seem to be a little sluggish, but it isn't a frozen sensor. And talking a little bit more about that one right now, you might tell Jim the next time he goes to work with the optics, when he works with the trunnion, if he'll go ahead and recycle the ZERO OPTICS switch, he can avoid the problem we had prior to midcourse correction 4.
 
 [04:16:13:24]
 CDR: We've done that. And the midcourse correction 4.
@@ -30237,7 +30236,7 @@ _tape : Tape 74 / Page 6
 CDR: Okay, Jim. Now we've got on the checklist to initiate cabin coldsoak. This involves evaporating, and I don't think we want to do that.
 
 [04:16:13:48]
-CC: Okay. Now we talked that over with FIDO, and at 12 hours out, everyone seems to think that we don't need to do it there. But in close, it doesn't seem to have any effect on the trajectory, and what's been suggested if you'd like - we can do over the entry checklist and just kind of walk through it on the air with all the people on the console. Right now, you have the term that will be performing the entry session with you so we can go over the checklist and run down any questions that you might have. That's up to you.
+CC: Okay. Now we talked that over with FIDO, and at 12 hours out, everyone seems to think that we don't need to do it there. But in close, it doesn't seem to have any effect on the trajectory, and what's been suggested if you'd like - we can do over the entry checklist and just kind of walk through it on the air with all the people on the console. Right now, you have the team that will be performing the entry session with you so we can go over the checklist and run down any questions that you might have. That's up to you.
 
 [04:16:14:44]
 CDR: That's fine. Let's do that. I've got one right here. I'm lonesome anyway.
@@ -30305,7 +30304,7 @@ CC: Good show. Going in the right direction, then.
 CDR: Yes. I was beginning to get worried.
 
 [04:16:27:38]
-CDR: Ken, be sure and call me if you see the gimbal angles start to get near gimbal are or anything. I'm a little drowsy still. I don't want to end up with another null attitude, like one is enough.
+CDR: Ken, be sure and call me if you see the gimbal angles start to get near gimbal lock or anything. I'm a little drowsy still. I don't want to end up with another null attitude, like one is enough.
 
 [04:16:27:50]
 CC: Roger. Will do.
@@ -30331,7 +30330,7 @@ CDR: You ready?
 CC: Okay.
 
 [04:16:45:24]
-CDR: okay. Three blips.
+CDR: Okay. Three blips.
 
 [04:16:45:25]
 CC: Thank you.
@@ -30384,7 +30383,7 @@ CDR: Okay, Ken. I think it is a pretty good one; that's one thing we have practi
 CC: Roger.
 
 [04:16:47:43]
-CDR: Ken, while we are just killing time here, there are a couple of anomolies we've noticed. The booties, you know, for the inflight coveralls; mine have frayed very badly, and I had to take them off. Also, we had one Y adapter with an open in it, and the lightweight headsets were kind of useless.
+CDR: Ken, while we are just killing time here, there are a couple of anomalies we've noticed. The booties, you know, for the inflight coveralls; mine have frayed very badly, and I had to take them off. Also, we had one Y adapter with an open in it, and the lightweight headsets were kind of useless.
 
 [04:16:48:04]
 CC: Roger.
@@ -30479,15 +30478,15 @@ CDR: Go ahead.
 
 [04:18:19:26]
 CC: We would like to look at a couple more DELTA-V tests on the EMS, and the general consensus is that we don't think there is any particular problem.
-     We'd like to go ahead and take a look at what you get by running four or five more DELTA-V tests. And prior to that, we'd like to run one of these null bias tests; and since we don't have any way of monitoring any of this stuff on the downlink, I'd like to have you tell us each step when you turn the switch and different orders and things like that. 
+     We'd like to go ahead and take a look at what you get by running four or five more DELTA-V tests. And prior to that, we'd like to run one of these null bias tests; and since we don't have any way of monitoring any of this stuff on the downlink, I'd like to have you tell us each step when you turn the switch and different orders and things like that.
 
 [04:18:20:08]
 _page : 607
 _tape : Tape 75 / Page 3
-CDR: Okay. 
+CDR: Okay.
 
 [04:18:20:41]
-CDR: Alright. I'll run a test. 
+CDR: Alright. I'll run a test.
 
 [04:18:20:48]
 CC: Okay. The first thing we want is this null bias, 100 seconds.
@@ -30626,7 +30625,7 @@ CDR: Another little thing about this EMS: you know, we had it set up when we sep
 CC: Roger. 
 
 [04:18:33:10]
-CDR: -- and the shock of the separation - the shock of the pyre's blowing in separation knocked it up to 100 and something.
+CDR: -- and the shock of the separation - the shock of the pyro's blowing in separation knocked it up to 100 and something.
 
 [04:18:33:21]
 CC: Understand. Knocked it up to 100. 
@@ -30767,14 +30766,14 @@ CDR: Two-tenths, three-tenths now.
 CC: Okay. Real good. That looks like we - - 
 
 [04:18:48:44]
-CDR: It looks like we had a lot of noise on the circuit for a while there, Jim. 
+CDR: It looks like we had a lot of noise on the circuit for a while there, Ken. 
 
 [04:18:48:50]
 CC: Yes, we did, too; all those electronic glitches 
      I guess. 
 
 [04:18:48:59]
-CDR: Okay. One hundred seconds. it's plus - minus 
+CDR: Okay. One hundred seconds, it's plus - minus 
      four-tenths. 
 
 [04:18:49:02]
@@ -30794,7 +30793,7 @@ CC: Okay. We still owe you confirmation that you
      soon as they come in with an answer on it. 
 
 [04:18:49:32]
-CDR: Okay . 
+CDR: Okay.
 
 CC: I'd like to go ahead and finish going through 
      the entry book if you're ready. 
@@ -30817,7 +30816,7 @@ CDR: What's that?
 [04:18:50:16]
 CC: Okay. On step 34 under final stowage, which is 
      a sort of catch-all area, there's a step that 
-     says secondary glycol to radiator that bypass 
+     says secondary glycol to radiator, and it says bypass,
      verify. While we are down in this area, we 
      would like to go to panel 382, the water control 
      panel, and set up the evaporator water control 
@@ -30898,7 +30897,8 @@ CC: - - at the top of the page, you have step 38,
      want to have a primary glycol loop activation. 
      What we are doing is to get the glycol evaporator 
      water switch to AUTO and the glycol evaporator 
-     steam pressure switched to AUTO. This  will get your primary water boiler on the line 
+     steam pressure switched to AUTO. This
+     will get your primary water boiler on the line
      prior to entry, or at least it'll enable it. 
 
 [04:18:54:35]
@@ -30940,7 +30940,8 @@ CDR: Loud and clear.
 [04:18:56:49]
 CC: Okay. There's some question from reading the 
      checklist. It is my understanding that both 
-     the primary and the secondary water boilers will be ON for the actual entry, and don't find 
+     the primary and the secondary water boilers
+     will be ON for the actual entry, and don't find 
      a place in the checklist where it's actually 
      turned on. So we'd like to get confirmation 
      on that, and we'll make sure that we have all 
@@ -31021,7 +31022,7 @@ CC: Alright. This is a general comment that refers
      this time. This is here in the program notes, 
      and it is just a reminder. What will happen 
      if we get into an extended VERB such as an 83 
-     or an 82? We may get hung-up in P62 2nd have 
+     or an 82? We may get hung-up in P62 and have 
      to recycle through it in order to get the 63, 
      and neither of these displays are normally 
      used, and it's just a good practice. And we're 
@@ -31102,7 +31103,7 @@ CC: Okay. As of 114 hours, your batteries - you
      had battery A with 39.32 amp-hours, battery B had 35.21, and battery C 38.46. Your cryo 
      quantities remaining at SSP were the same 
      we gave you the last time, 180 pounds of oxygen 
-     per tank and 11 pounds of hydrogen per,tank. At 
+     per tank and 11 pounds of hydrogen per tank. At 
      present, the service module RCS, using the 
      computer values for the quantities, you have 
      quad A with 45 percent, Bravo with 50, Charlie 
@@ -31134,7 +31135,7 @@ CC: Okay. A couple of items I want to check up
 CDR: ... 
 
 [04:19:20:13]
-CC: Okay. Now we've got a little better sign 1. 
+CC: Okay. Now we've got a little better signal.
      Like to confirm that the hatch clamps on the 
      side hatch will be taken off either on the 
      chutes or in the water, whichever you can get 
@@ -31169,7 +31170,7 @@ CC: Okay. Who was the lucky guy?
 CDR: The same guy that tried to launch us this afternoon again. 
 
 [04:19:21:23]
-CC: Okay. And just as a gee whiz item:you're now 
+CC: Okay. And just as a gee whiz item: you're now 
      a 137 915 out, and you've only accelerated the 
      4883. You might check to make sure you don't 
      have a speed brake hanging. 
@@ -31270,7 +31271,8 @@ LMP: Okay. Good.
 
 [04:19:42:39]
 CC: Apollo 8, Houston. Have you got somebody under 
-     the left couch, or could you get down to the  water control panel? 
+     the left couch, or could you get down to the
+     water control panel? 
 
 [04:19:42:49]
 LMP: I can get down there. Frank hasn't quite gone 
@@ -31301,7 +31303,7 @@ CC: Yes. That would be fine. There is something you
      questions, in fact. Number one, we would like 
      to verify that you do plan to use both primary 
      and secondary boilers during the actual entry, 
-     end we are also looking for a way of checking the 
+     and we are also looking for a way of checking the 
      primary boiler to make sure it isn't dried out prior 
      to entry. And that is turning into a little more 
      of a challenge than you might suspect. If you 
@@ -31423,7 +31425,8 @@ LMP: Okay. I think, unless you guys got some more
 
 [04:19:49:51]
 CC: Okay. Fine, Bill, and I'll check with you like
-     every 30 minutes, just to make sure we still voice contact. 
+     every 30 minutes, just to make sure we still have
+     voice contact. 
 
 [04:19:50:02]
 _page : 629
@@ -31487,7 +31490,7 @@ CC: Looks like it is one of your sternals, Bill.
 [04:19:55:21]
 CC: Apollo 8. We can't handle the OMNI switching 
      for about thirty more minutes, till we get back 
-     to an 85-foot disk, so you will have to watch 
+     to an 85-foot dish, so you will have to watch 
      the antenna store for a few more minutes. 
 
 [04:19:56:05]
@@ -31605,7 +31608,7 @@ F: Roger. We understand, and we are not trying
      to play music right now. 
 
 [04:20:19:15]
-LMP: Okay. who is this, COMM TECH? 
+LMP: Okay. Who is this, COMM TECH? 
 
 [04:20:19:22]
 F: Ken is only human. This is his substitute; 
@@ -31686,7 +31689,7 @@ LMP: Go, Houston.
 _page : 634
 _tape : Tape 77 / Page 4
 CC: Okay, Bill. We're ready to try this music 
-     on a different kind of latch-up this time. 
+     on a different kind of lash-up this time. 
      What I'd like to do in order to make sure 
      that we maintain voice COMM is when you get 
      it if you would, give us a call and tell us 
@@ -31728,7 +31731,7 @@ _tape : Tape 77 / Page 5
 LMP: That will keep me awake. 
 
 [04:20:54:03]
-LMP: Maybe you ought to crank if. back down a little 
+LMP: Maybe you ought to crank it back down a little 
      bit. 
 
 [04:20:54:16]
@@ -31745,7 +31748,7 @@ LMP: That's real good for background level type,
      but that's good for now. 
 
 [04:20:55:10]
-CC: Okay. Thats about the MAX volume we can 
+CC: Okay. That's about the MAX volume we can 
      take down here; so if you want to talk to us, 
      you may have to call us once or twice. You're 
      just barely equaling it. 
@@ -31973,7 +31976,6 @@ _page : 640
 _tape : Tape 77 / Page 10
 LMP: I can't hear it, but it sounds like something 
      I'd rather not hear anyway. 
-     ENDOFTAPE 
 
 [04:22:17:40]
 _page : 641
@@ -32003,7 +32005,7 @@ CC: Okay. We are getting ready to have a shift turnover, and I wanted to go over
      that you should worry about. And they're 10 to 
      30 percent maybe at 2000, broken as opposed to 
      scattered; so it looks pretty fair. We have got 
-     a-- 
+     a - - 
 
 [04:22:19:12]
 LMP: Just my kind of weather. 
@@ -32054,7 +32056,7 @@ CC: Okay. Before you copy, let me read it all through
      take a TV picture of the earth through through 
      the red, in this case, the 25 Alfa filter combined 
      with the polarizing filter. Rotate the polarizing 
-     filter through 360-degree increments, again 1 minute I 
+     filter through 360-degree increments, again 1 minute
      per position. Then they'd like to take a TV picture 
      of the moon with the polarizing filter at 360-degree 
      moon-rotation increments and again, 1 minute per 
@@ -32119,7 +32121,7 @@ CC: Okay. I understand what you are saying now. I'll
      TV and the regular film photography. So if you think 
      it is a worthwhile thing, and you would like to give 
      it a try, I'll run this by Jack and the TV cats and 
-     see if they would like.to get something out of it 
+     see if they would like to get something out of it 
      with the wide angle, and we can talk about it a little 
      later. 
 
@@ -32159,7 +32161,6 @@ CC: Okay. I just wanted you to be aware of this and
      to get into the coldsoak business. We certainly 
      don't want to do it at 12. Talking to the trajectory 
      people - what they thought about water boiling - 
-     page 6 
      something to keep in mind is the fact that they 
      do see your water dumps and water boiling on your 
      trajectory plot. It seems to be that it's a function 
@@ -32215,7 +32216,7 @@ CC: Okay. We're talking about doing that like an hour
      they won't need to turn it back. 
 
 [04:22:29:21]
-LMP: Ye do that to save - - 
+LMP: We do that to save - - 
 
 [04:22:29:22]
 CC: Right. We're doing that to keep our power profile 
@@ -32299,7 +32300,7 @@ CC: I think it's your imagination.
 LMP: Uh-oh. Don't let the doctors hear that. 
 
 [04:22:34:01]
-CC: It's too late; he already heard you: 
+CC: It's too late; he already heard you.
 
 [04:22:34:06]
 LMP: I must be getting that detached feeling. 
@@ -32344,7 +32345,7 @@ LMP: Also with respect to the TV test, I would think
      polarizing shots of the earth independent of the 
      TV, but within the same time frame or at about the 
      same range we had the TV last time. 
-
+ 
 [04:22:38:54]
 _page : 650
 _tape : Tape 78 / Page 10
@@ -32375,7 +32376,7 @@ CC: Go ahead, 8.
 
 [04:22:59:29]
 LMP: We're going to hold up on the LiOH change for
-     about a half an hour. The PCO2 reading is low,
+     about a half an hour. The PCO<sub>2</sub> reading is low,
      and we don't want to wake up the CDR. It's right
      by his feet.
 
@@ -32663,7 +32664,7 @@ CC: Roger. That's TV time.
 CDR: Okay.
 
 [05:00:34:02]
-CC: Your altitude IS 9 413; velocity is 6072; roll
+CC: Your altitude is 9 413; velocity is 6072; roll
      is 1 degree, pitch is 58, yaw 0,
 
 [05:00:34:25]
@@ -32752,7 +32753,6 @@ CMP: Roger. I'll try it again now at the same time
 
 [05:00:44:39]
 CC: Roger.
-     ENDOFTAPE
 
 [05:00:52:59]
 _page : 658
@@ -32799,7 +32799,7 @@ CC: Okay. There is really not a whole lot in the
      nationally, and 9 of them were in Houston on
      Christmas Eve, and Christmas. In the world news, the
      families made the news again. This is
-     Associated Press: "The families of Apollo 8 crew sent :
+     Associated Press: "The families of Apollo 8 crew sent
      a Christmas message to Navy Commander Lloyd
      Bucher, Captain of the USS Pueblo crew, released
      this week by North Korea. The message, addressed
@@ -32811,7 +32811,7 @@ CC: Okay. There is really not a whole lot in the
      your command'. And it was signed 'Families of
      the crew of Apollo 8.' Space officials said that
      the message had been suggested and written by
-     Mrs. Frank Barman.
+     Mrs. Frank Borman.
 
 [05:00:55:15]
 _page : 659
@@ -32860,9 +32860,9 @@ CC: Here is an interesting little feature item that
      is from St. Peter, the Fisherman's Net. And it
      is remote enough not to be identified with any
      particular church. There is a thread of Robin
-     Rood running through this thing, said their
+     Hood running through this thing, said their
      teacher, who also prefers to remain anonymous.
-     A lot of their activities are extra-legal When the
+     A lot of their activities are extra-legal. When the
      system bogs down, they directly administer
      good, rather than go through the red tape 
      channels. The gang is made up of about 55 
@@ -32941,7 +32941,7 @@ CDR: Thank you, Jerry. I appreciate that.
 
 [05:01:01:27]
 CMP: Jerry, this is Jim. We concur on that midcourse
-     6.2 of a foot per second - is what we get
+     6.2 of a foot per second - is what we get.
 
 [05:01:01:33]
 CC: Real fine, Jim.
@@ -33070,7 +33070,7 @@ CDR: Right.
 
 [05:01:08:29]
 CDR: Jerry, do you have a decision about what we are
-     going to do about this next midcourse?                                            
+     going to do about this next midcourse?
 
 [05:01:08:39]
 CC: No, Frank. We don't need it.
@@ -33155,7 +33155,7 @@ CDR: Right.
 
 [05:01:13:08]
 CC: Apollo 8, Houston. Your friendly guidance officer
-     has got a LM vector update for you and a CNC time
+     has got a LM vector update for you and a CMC time
      update. Over.
 
 [05:01:13:17]
@@ -33213,7 +33213,6 @@ CC: Roger.
 
 [05:01:56:45]
 CMP: Old joke.
-     ENDOFTAPE
 
 [05:02:30:56]
 _page : 669
@@ -33237,11 +33236,11 @@ CDR: Go ahead.
 
 [05:02:32:45]
 CC: Apollo 8, this is Houston. We have lost all
-     CNC data on you. The last data we had showed a
+     CMC data on you. The last data we had showed a
      high and middle gimbal angle. Over.
 
 [05:02:32:56]
-CDR: No. I'm fine. How come you lost those CNC data.
+CDR: No. I'm fine. How come you lost those CMC data.
 
 [05:02:33:01]
 CC: I think maybe it was just your movement -
@@ -33265,7 +33264,7 @@ CDR: We are noticing our quad A helium tank is
      starting to go up again. You got any ideas on that.
 
 [05:02:50:45]
-CC: Yes. We are watching it to, Frank. So far,
+CC: Yes. We are watching it too, Frank. So far,
      it's still okay and we are talking about it.
 
 [05:02:50:54]
@@ -33331,7 +33330,7 @@ CDR: Go ahead.
 CC: Apollo 8, Houston. We are going to need some
      data from your past P23 marks. We missed some
      items, and so don't put it away and when you
-     finish this next P23 we'll get It all together.
+     finish this next P23 we'll get it all together.
 
 [05:03:22:27]
 _page : 671
@@ -33541,7 +33540,7 @@ CC: Roger. That sounds good.
 [05:03:32:04]
 CC: Apollo 8, Houston. Also, on the flight plan
      for 124:30, we would like for you to run an
-     O2 purge on the fuel cells.
+     O<sub>2</sub> purge on the fuel cells.
 
 [05:03:32:17]
 CDR: Okay.
@@ -33571,7 +33570,7 @@ CC: Roger. It depends on which way your nose is
      pointing.
 
 [05:03:34:08]
-CDR: Touche.
+CDR: Touché.
 
 [05:03:34:16]
 CDR: You might note for the people at MIT that the
@@ -33619,7 +33618,7 @@ CC: Roger. We just noticed that.
 CDR: Jim's going to leave the helmet off now for the
      rest of them, I think; it gets a little anoxic
      in there. These helmets don't have face plates,
-     and ye have a difficult time breathing with
+     and we have a difficult time breathing with
      that on.
 
 [05:03:37:44]
@@ -33631,7 +33630,7 @@ _page : 677
 _tape : Tape 82 / Page 1
 CDR: Okay. Jerry, that completes the P23. Did you
      have something else you want us to do now? You
-     wanted to check on something from the last SEP.
+     wanted to check on something from the last set.
 
 [05:04:02:37]
 CC: Roger, Frank. We need to get some numbers that
@@ -33641,7 +33640,7 @@ CC: Roger, Frank. We need to get some numbers that
      number 3 trunnion.
 
 [05:04:03:07]
-CDR: Okay. three trunnion is 05650.
+CDR: Okay. Three trunnion is 05650.
 
 [05:04:03:11]
 CC: Okay, 05650. Then star number 1, mark 2. We
@@ -33676,7 +33675,7 @@ CDR: That's fine. We are going to stay in for about
 _page : 678
 _tape : Tape 82 / Page 2
 CC: Okay, Frank. And then, also, we are looking for
-     a fuel cell O2 purge when you get a chance.
+     a fuel cell O<sub>2</sub> purge when you get a chance.
 
 [05:04:04:30]
 CDR: That's right. At - I got the word now; it's
@@ -33771,7 +33770,7 @@ CMP: Go ahead.
 [05:04:21:37]
 CC: Looks like you loaded the wrong time in P37,
      You should load 144:46 for your midcourse time;
-     looks like.you loaded 146:46.
+     looks like you loaded 146:46.
 
 [05:04:21:46]
 CMP: Okay. I'm sorry. Yes, I have it here. I
@@ -33834,13 +33833,13 @@ CC: Apollo 8, Houston. I would like to have the
 CDR: Roger, it's LEFT.
 
 [05:04:47:39]
-CMP: The fuel cell purged to complete, O2.
+CMP: The fuel cell purged to complete, O<sub>2</sub>.
 
 [05:04:47:47]
 CC: Say again, Apollo 8.
 
 [05:04:47:51]
-CMP: O2 fuel cell purge complete.
+CMP: O<sub>2</sub> fuel cell purge complete.
 
 [05:04:47:53]
 CC: Roger, thanks.
@@ -33889,7 +33888,7 @@ CDR: (Laughter)
 [05:04:52:35]
 CC: Apollo 8, Houston. On the P37 comparison; using
      the MSFN vectors, we get a minus 1.4 on that
-     midcourse compared to your 2.8. we ran your
+     midcourse compared to your 2.8. We ran your
      solutions through our computer and we also get
      a 2.8, so your P37 looks good. We are busy still
      fiddling with the vectors and comparing them and
@@ -34141,7 +34140,7 @@ CC: Roger. Thank you.
 [05:06:42:26]
 CDR: We are not going to try number 1 either; there
      may have - something might have got in both of
-     than, Jerry.
+     them, Jerry.
 
 [05:06:42:31]
 CC: Okay, Frank. That's fine.
@@ -34450,7 +34449,7 @@ CDR: Takes a while to warm up, I think.
 [05:07:45:03]
 _page : 692
 _tape : Tape 84 / Page 6
-CDR: Any luck yet,Jerry.
+CDR: Any luck yet, Jerry.
 
 [05:07:45:05]
 CC: Not yet, Frank.
@@ -34652,7 +34651,7 @@ CC: Roger. Move-a little bit away from the
      little further from the terminator.
 
 [05:08:03:27]
-CMP: Say it again, Jerry.
+CMP: Say again, Jerry.
 
 [05:08:03:30]
 CC: Okay. You're moving it toward the center of the
@@ -35050,7 +35049,7 @@ LMP: Alright. What do you have in mind here in the
 [05:08:54:05]
 CC: Well, right now, Bill, in the checklist, we're
      showing this activation at about minus 1 hour.
-     Let me check with EECOM for R minute and see if
+     Let me check with EECOM for a minute and see if
      they got any more words considering the cabin
      fan situation.
 
@@ -35124,7 +35123,7 @@ CC: Apollo 8, Houston.
 CC: Apollo 8, Houston. Go.
 
 [05:09:08:16]
-LMP: Hey, Jerry. when do you want to crank up the VHF,
+LMP: Hey, Jerry. When do you want to crank up the VHF,
      anyway?
 
 [05:09:08:26]
@@ -35223,7 +35222,7 @@ CC: Roger, Frank. Stand by.
 CC: Apollo 8, Houston.
 
 [05:09:34:12]
-CDR: GO ahead.
+CDR: Go ahead.
 
 [05:09:34:13]
 CC: Any time you want to start on those P23's is
@@ -35348,7 +35347,7 @@ CC: Okay. We're predicting at the nominal time of
      minus 6.39 degrees, and we're going to steepen
      it up very slightly to hit the center of the
      target line, and it will be after the maneuver
-     minus 6.51. over.
+     minus 6.51. Over.
 
 [05:10:18:35]
 CDR: Very good.
@@ -35408,7 +35407,7 @@ CMP: Say, Mike, have you noticed the confidence the
 CC: He hasn't called you Goldfinger yet.
 
 [05:10:20:00]
-CMP: NO. He is disregarding anything I can do.
+CMP: No. He is disregarding anything I can do.
      We're coming in anyway.
 
 [05:10:20:13]
@@ -35518,7 +35517,7 @@ CMP: Houston, Apollo 8. Go ahead with your flight
      plan change.
 
 [05:11:35:14]
-CC: Okay,Jim. On page 2-107, we're recommending
+CC: Okay, Jim. On page 2-107, we're recommending
      that you delete that P52 and just-stay in PTC
      attitude. Your platform is real good, and we
      don't feel that alignment's necessary. One is
@@ -35609,18 +35608,18 @@ CC: Okay. Holding.
 [05:12:12:45]
 CMP: You said not applicable for HA and HP; I started
      to copy it down, and then I didn't get the right
-     number sequence. Did you skip down to what, VT?
+     number sequence. Did you skip down to what, V<sub>T</sub>?
 
 [05:12:13:04]
 CC: No. Let's go back to apogee is not applicable,
      and then I just started reading the numbers
      again. From there, I've got a perigee and
-     then a DELTA-VT and then a burn time and so
+     then a DELTA-V<sub>T</sub> and then a burn time and so
      forth. Over.
 
 [05:12:13:15]
 CMP: Okay. I didn't hear a plus or minus on the
-     HP. and I only got four numbers off of it. So
+     HP, and I only got four numbers off of it. So
      could you start with HP again?
 
 [05:12:13:22]
@@ -35632,7 +35631,7 @@ CC: Okay. Going back to apogee, not applicable;
 CMP: Roger.
 
 [05:12:13:43]
-CC: Okay. Picking up with DELTA-VT 00014 004 00014
+CC: Okay. Picking up with DELTA-V<sub>T</sub> 00014 004 00014
      45 0459 225, Shaula, up 236 000, plus 0813
      minus 16503 12202 36301 146 4641; north set of
      stars, Sirius and Rigel, roll 308, pitch 209,
@@ -35734,10 +35733,9 @@ CC: And I have the procedures for you when you're
 
 [05:12:35:32]
 CMP: Go ahead.
-     . 
 
 [05:12:35:33]
-CC: Okay. VERB 01 NOUN 01 ENTER, 333.ENTER, and
+CC: Okay. VERB 01 NOUN 01 ENTER, 333 ENTER, and
      then read out register 1, and that register 1
      should be 10 000. And then if it's not, I can
      give you procedures for getting it to 10 000.
@@ -35836,7 +35834,7 @@ CC: Roger, Bill. On your PTC attitude, we're
 
 [05:13:11:56]
 LMP: Roger. I've been trying to work it down to
-     ENTER again,
+     ENTER again.
 
 [05:13:12:00]
 CC: They're letting you drive, after all?
@@ -36016,7 +36014,7 @@ CC: Roger. Are you going to brief Frank on your
      tape recorder before you go to sleep?
 
 [05:16:03:54]
-LMP: He can't handle it. It's to complicated.
+LMP: He can't handle it. It's too complicated.
 
 [05:16:03:58]
 CC: Roger.
@@ -36123,7 +36121,7 @@ CC: Just about an hour and a quarter looks to us
 [05:17:12:38]
 CDR: I haven't even touched the hand control here for
      about 20 minutes, and it just hasn't moved 
-     outside that zero; I've never see it like this 
+     outside that zero; I've never seen it like this 
      before.
 
 [05:17:12:55]
@@ -36479,7 +36477,7 @@ CC: Go ahead, 8.
 CC: Apollo 8, Apollo 8, Houston. Go ahead.
 
 [05:20:45:45]
-CDR: Roger. could you give us our range - correction,
+CDR: Roger. Could you give us our range - correction,
      our velocity and range from the earth now?
 
 [05:20:45:50]
@@ -36684,7 +36682,7 @@ CDR: What was that last step?
 
 [05:21:51:15]
 CC: Step 41 Bravo on page-E-9 Alfa. It's if you decide
-     to use either MINIMAL IMPULSE or ACCEL COMMAND of
+     to use either MINIMAL IMPULSE or ACCEL COMMAND on
      page E-9, step 41 Bravo would be a good place
      to go back to RATE COMMAND.
 
@@ -36702,7 +36700,7 @@ CDR: I didn't put all those control configurations
      what we did, used MINIMUM IMPULSE.
 
 [05:21:51:47]
-CC: okay. Real fine.
+CC: Okay. Real fine.
 
 [05:22:00:51]
 CDR: Houston, Apollo 8.
@@ -36725,7 +36723,7 @@ CDR: Time to retro-drogues, reference you last time
      to drogues, please.
 
 [05:22:01:28]
-CC: Okay. 1'11 check that one out.
+CC: Okay. I'll check that one out.
 
 [05:22:01:31]
 CDR: And also, Ken, we are going to turn on our VHF
@@ -36760,7 +36758,6 @@ CC: Okay. We have checked into your drogue time,
      It's your option. However, if you decide to delete
      the P52, the CMC self-check and DSKY condition
      light test are still requirements. Over.
-     . 
 
 [05:22:18:32]
 _page : 738
@@ -36882,7 +36879,7 @@ LMP: Ken, we got two things going here which make this
 CC: I don't think that was the intent, Bill. What
      they had in mind, we have the suit heat exchanger
      on both loops; and if they got too cold, you could
-     use the panel switching to shut down the primary .
+     use the panel switching to shut down the primary
      loop through the heat exchanger. But in any event,
      you would always have something going to the suit
      heat exchanger. I recognize that we are going to
@@ -37001,7 +36998,7 @@ CC: You can take it back to BLOCK, and for Bill's
      voltage to 27.5
 
 [05:23:29:41]
-LMP: Guess! You mean the EECOM's are guessing? !
+LMP: Guess! You mean the EECOM's are guessing?
 
 [05:23:29:57]
 _page : 743
@@ -37036,7 +37033,7 @@ LMP: Ready to copy, Houston.
 CC: Okay. This will be the mid-Pacific, 357 152
      359 146 29 00 268, plus 0813, minus 16503 065
      36221 645 12122 36301 14646 14 0028. The next
-     block is November Alfa: D0 400 02 12 0025 0334 08
+     block is November Alfa: D<sub>0</sub> 400 02 12 0025 0334 08
      14 16 0590 312; Zeta Persei, up 165, right 34, up.
      Use nonexit EMS pattern, GDC align; primary star
      Sirius, secondary Rigel, roll 308, pitch 209,
@@ -37044,8 +37041,8 @@ CC: Okay. This will be the mid-Pacific, 357 152
 
 [05:23:40:25]
 CMP: Houston, Apollo 8. Entry PAD as follows:
-     mid-Pacific, 357 152 359 146 2930 269 plus 0813 minus
-     16503 065 36221 645 12122 36301 14646 14 0028, 
+     mid-Pacific, 357 152 359 [time:06:02:29:30|146:29:30] 268 plus 0813 minus
+     16503 065 36221 645 12122 36301 [time:06:02:46:14|146:46:14] 0028, 
      next block not applicable, 400 0212 0025 0334
      0814 16059 312, Zeta Persei, up 165, right 35 up,
      use nonexit EMS pattern, backup alignment; Sirius,
@@ -37357,7 +37354,7 @@ CMP: Okay. Go ahead with the entry PAD, Houston.
 CC: Okay. We are still going to the mid-Pacific,
      357 152 359 146 2913 267, plus 0813, minus 16503
      066 36221 647 12166 36301 14646 13 0028, the next
-     block is November Alfa, V0 400 0210 0025 0335 0816
+     block is November Alfa, V<sub>0</sub> 400 0210 0025 0335 0816
      160590 312; Zeta Persei, up 165, right 34, up nonexit
      EMS pattern; Sirius and Rigel, roll 308, pitch 209,
      yaw 357, no P65 involved. Over.
@@ -37658,7 +37655,7 @@ CDR: Houston, Apollo 8. Over.
 CC: Go ahead, Apollo 8. Read you broken and loud.
 
 [06:02:51:51]
-CDR: We've got a real fireball. It's 'looking good.
+CDR: We've got a real fireball. It's looking good.
 
 [06:02:51:56]
 CC: Outstanding!
