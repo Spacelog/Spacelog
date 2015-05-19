@@ -193,10 +193,10 @@ CDR: Mode 4. Roger.
 
 [00:00:09:57]
 CC: Apollo 8, Houston. Your predicted cutoff,
-     11 plus 28. Over.
+     [time:00:11:28:00|11 plus 28]. Over.
 
 [00:00:10:03]
-CDR: Understand; 11:28.
+CDR: Understand; [time:00:11:28:00|11:28].
 
 [00:00:10:06]
 CC: Roger.
@@ -284,10 +284,10 @@ CC: Roger.
 [00:00:14:28]
 CC: Apollo 8. Houston. We have you 1 minute from
      LOS the Vanguard. We'll see you over the
-     Canaries at 16:28.
+     Canaries at [time:00:16:28:00|16:28].
 
 [00:00:14:37]
-CDR: Thank you, Houston; 16:28.
+CDR: Thank you, Houston; [time:00:16:28:00|16:28].
 
 [00:00:14:39]
 _extra : CANARY (REV 1)
@@ -412,7 +412,7 @@ CDR: Go ahead, Houston. Apollo 8.
 
 [00:00:41:43]
 CC: We have 1 minute to LOS Tananarive; we will see
-     you again over Carnarvon at 52:09. Over.
+     you again over Carnarvon at [time:02:04:09:00|52:09]. Over.
 
 [00:00:41:51]
 CDR: Roger. We do have the optic covers jettisoned,
@@ -476,7 +476,7 @@ CC: Right.
 CC: Apollo 8, Houston. We have about 1 minute to
      LOS Carnarvon, and everything is looking good
      with the spacecraft and the S-IVB. We'll see
-     you over Honeysuckle Creek at 59:27 - just here
+     you over Honeysuckle Creek at [time:02:11:27:00|59:27] - just here
      shortly.
 
 [00:00:57:18]
@@ -540,10 +540,10 @@ CC: We are reading you loud and clear also, Bill.
      the ground. Your spacecraft equipment is all
      working fine. We are going to have LOS in about
      a minute, and we will pick you up over Guaymas
-     at 01:28:13. Over.
+     at [time:00:01:28:13|01:28:13]. Over.
 
 [00:01:04:32]
-LMP: Roger. 01:28:13; thank you.
+LMP: Roger. [time:00:01:28:13|01:28:13]; thank you.
 
 [00:01:04:35]
 CC: Roger.
@@ -701,12 +701,12 @@ CMP: Roger. We're with you.
 [00:01:35:38]
 _page : 14
 _tape : Tape 2 / Page 8
-CC: Okay. 004 17 42 65 minus 04402 minus 00001 plus
+CC: Okay. [time:00:04:17:42|004:17:42.65] minus 04402 minus 00001 plus
      48387 178 169 359, not applicable, plus 00185
      48587 603 48383 06 2027 250, earth center 0123 -
      correction: down 123; I say again, down 123,
-     right 22 plus 21123 minus 03000 12313 34494 017
-     47 39, north set stars roll 068, pitch 097,
+     right 22 plus 21123 minus 03000 12313 34494
+     [time:00:17:47:39|017:47:39], north set stars roll 068, pitch 097,
      yaw 356, ullage none; other: high speed procedure
      not required. Over.
 
@@ -804,7 +804,7 @@ CC: Okay. TLI plus 4 hours, SPS/G&N. Weight is
 CMP: We are with you.
 
 [00:01:43:45]
-CC: GETI 006:47:27.79 minus 01594 plus 00000 plus
+CC: GETI [time:00:06:47:27|006:47:27.79] minus 01594 plus 00000 plus
      52885 178 155 000, not applicable, plus 00192
      52909. Are you with me? Apollo 8, Houston.
      Over.
@@ -822,18 +822,19 @@ CMP: Roger.
 
 [00:01:45:26]
 CC: Roger. Sextant star, 12 1037 211, earth center
-     down 063, right 23 plus 1068 minus 16500 12505 35061 026 42 57
+     down 063, right 23 plus 1068 minus 16500 12505 35061
+     [time:00:26:42:57|026:42:57]
      north set stars, roll 068,
      pitch 097, yaw 356, ullage none, high speed
      procedure not required. Over.
 
 [00:01:46:47]
 CMP: Roger, Houston. TLI plus 4. Weight remains
-     the same, minus 164 plus 129 006:47:27.79 minus
+     the same, minus 164 plus 129 [time:00:06:47:27|006:47:27.79] minus
      01594 plus all balls plus 52885 178 155 000 NA
      plus 00192 52909 627 52694 12 1037 211, earth
      center down 063, right 213 plus 1068 minus
-     16500 12505 35061 026 42 57, north set roll 068,
+     16500 12505 35061 [time:00:26:42:57|026:42:57], north set roll 068,
      pitch 097, yaw 356, no ullage, high speed procedure
      not required.
 
@@ -859,7 +860,7 @@ CC: Okay. Your computer PAD is in and verified.
      yaw 001. Comments: TLI plus 10 minutes; abort
      attitude is 199 degrees, and I don't believe
      you've got time to read that back. We'll see you
-     over Canaries at 1:50 GET. Adios.
+     over Canaries at [time:00:01:50:00|1:50] GET. Adios.
 
 [00:01:50:30]
 _page : 18
@@ -913,7 +914,7 @@ LMP: Thank you.
 
 [00:01:54:18]
 CC: Apollo 8, Houston. We will have LOS in
-     1 minute; we'll pick you up again over Tananarive at 02:09.
+     1 minute; we'll pick you up again over Tananarive at [time:00:02:09:00|02:09].
 
 [00:01:54:28]
 _page : 19
@@ -966,10 +967,11 @@ CC: Roger. Gemini 8, Houston. We would like to
      bring you up to date on the COMM situation
      while we've got some quiet time here. We'll
      be LOS Tananarive in another 2 minutes; we'll
-     be picking you up over Carnarvon at 2 hours
-     25 minutes and 22 seconds. LOS Carnarvon will
-     be 02:31:55; then we've got ARIA number 1
-     coming in about 02:37:30; and after that,
+     be picking you up over Carnarvon at
+     [time:00:02:25:22|2 hours 25 minutes and 22 seconds].
+     LOS Carnarvon will
+     be [time:00:02:31:55|02:31:55]; then we've got ARIA number 1
+     coming in about [time:00:02:37:30|02:37:30]; and after that,
      we will have a hand-off to Mercury to Hawaii
      to Goldstone, and we should have continuous
      COMM. Over.
@@ -1038,7 +1040,7 @@ CDR: Go ahead, Houston. Apollo 8.
 
 [00:02:31:31]
 CC: Roger. We will have LOS in about 30 seconds,
-     and we'll pick you up over ARIA 1 at 02:37:30.
+     and we'll pick you up over ARIA 1 at [time:00:02:37:30|02:37:30].
 
 [00:02:31:38]
 _extra : ARIA 1 (REV 2)
@@ -1121,18 +1123,18 @@ CDR: Roger. Apollo 8, looks good here.
 
 [00:02:52:19]
 CC: Apollo 8, Houston. We're predicting cut-off,
-     02:55:58, and it looks exactly nominal here.
+     [time:00:02:55:58|02:55:58], and it looks exactly nominal here.
 
 [00:02:52:27]
 CDR: Roger.
 
 [00:02:52:34]
 CC: Apollo 8, Houston. That predicted cut-off,
-     02:55:52, 52, and that's exactly as it should
+     [time:00:02:55:52|02:55:52], 52, and that's exactly as it should
      be.
 
 [00:02:52:40]
-CDR: 02:55:52.
+CDR: [time:00:02:55:52|02:55:52].
 
 [00:02:53:42]
 CC: Apollo 8, Houston. You are looking good here,
@@ -1217,8 +1219,8 @@ CMP: Roger. Go ahead.
 
 [00:03:00:42]
 CC: Booster begins maneuver to SEP attitude at
-     03:10:55. Takes 5 minutes, so it arrives at
-     03:15:55, and SEP time, 03:20:55. Your SEP
+     [time:00:03:10:55|03:10:55]. Takes 5 minutes, so it arrives at
+     [time:00:03:15:55|03:15:55], and SEP time, [time:00:03:20:55|03:20:55]. Your SEP
      attitude, the gimbal angles on the PAD remain
      good.
 
@@ -1226,7 +1228,7 @@ CC: Booster begins maneuver to SEP attitude at
 _page : 25
 _tape : Tape 4 / Page 4
 CMP: Roger. I have those times. The SEP time will
-     be 03:20:55.
+     be [time:00:03:20:55|03:20:55].
 
 [00:03:01:10]
 CC: Right.
@@ -1291,7 +1293,7 @@ CC: Apollo 8, Houston.
 CDR: Go ahead, Houston. Apollo 8.
 
 [00:03:14:19]
-CC: Okay. Coming up on 3 hours and 15 minutes as
+CC: Okay. Coming up on [time:00:03:15:00|3 hours and 15 minutes] as
      per flight plan; we have you GO.
 
 [00:03:14:26]
@@ -1589,10 +1591,10 @@ CC: Apollo 8, Houston. We would like to get an
      our ephemeris tracking data.
 
 [00:03:44:06]
-CDR: Roger. It was 3 hours 40 minutes zero seconds.
+CDR: Roger. It was [time:00:03:40:00|3 hours 40 minutes zero seconds].
 
 [00:03:44:10]
-CC: Good, 03:40 and a foot and a half - feet per second.
+CC: Good, [time:00:03:40:00|03:40] and a foot and a half - feet per second.
      Right?
 
 [00:03:44:15]
@@ -1765,10 +1767,10 @@ CDR: The S-IVB is really venting.
 CC: Roger. Understand; that is supposedly a non-propulsive
      vent. The big blowdown maneuver, it
      starts maneuvering to blowdown attitude at
-     04:44:55, and the vent occurs at 05:07:55.
+     [time:00:04:44:55|04:44:55], and the vent occurs at [time:00:05:07:55|05:07:55].
 
 [00:03:56:32]
-CDR: 05:07:55.
+CDR: [time:00:05:07:55|05:07:55].
 
 [00:03:56:34]
 CC: Roger.
@@ -1789,9 +1791,9 @@ CDR: Say again that big vent time, so I can write it
      down please, Houston.
 
 [00:03:57:11]
-CC: Roger. Big vent time 05:07:55, and it will start
+CC: Roger. Big vent time [time:00:05:07:55|05:07:55], and it will start
      maneuvering to vent attitude beginning at
-     04:44:55. Bill has got the tape recorder back.
+     [time:00:04:44:55|04:44:55]. Bill has got the tape recorder back.
 
 [00:03:57:32]
 CDR: Thank you. Roger.
@@ -1907,7 +1909,7 @@ CDR: Go ahead, Houston. Apollo 8.
 CC: We can give you a pitch gimbal angle on radial
      direction if that would be a help. It's
      181 degrees; pitch gimbal angle would be
-     exactly radial at 4 hours and 10 minutes. I
+     exactly radial at [time:00:04:10:00|4 hours and 10 minutes]. I
      don't know whether that solves your visibility
      problem or not.
 
@@ -2343,7 +2345,7 @@ LMP: Go ahead, Houston. Apollo 8.
 [00:04:42:03]
 CC: Roger. About 12 minutes before your big
      blowdown, there is a small continuous vent
-     which opens at a GET of 04:55:55. You may
+     which opens at a GET of [time:00:04:55:55|04:55:55]. You may
      notice that on the booster, 12- or 15-pound
      thrust.
 
@@ -2418,10 +2420,10 @@ CC: That's affirmative. I say again, we copied
 
 [00:04:46:52]
 CDR: Roger. The burn was made at - initiated at
-     04:45.
+     [time:00:04:45:00|04:45].
 
 [00:04:47:06]
-CC: Roger. Copy 04:45 --
+CC: Roger. Copy [time:00:04:45:00|04:45] --
 
 [00:04:47:30]
 CDR: Okay. Do you want us to transfer that to the
@@ -2482,7 +2484,7 @@ CC: Roger, Bill. Thank you, and at your convenience,
      could you give us the PRD reading? And as far
      as the P23 goes, that's just fine to get started
      with it. It looks like your first star, which
-     is number 14, should be good until about 05:15 GET.
+     is number 14, should be good until about [time:00:05:15:00|05:15] GET.
      Over.
 
 [00:04:53:02]
@@ -2497,15 +2499,15 @@ LMP: Houston, Apollo 8 with a PRD reading.
 CC: Go ahead.
 
 [00:04:54:23]
-LMP: Roger. At 4 hours 4 minutes, Commander is 0,
+LMP: Roger. At [time:00:04:04:00|4 hours 4 minutes], Commander is 0,
      CMP 0.64, LMP 0.02.
 
 [00:04:54:34]
 CC: Got that. Copy left to right: 0, 0.64, and
-     0.02 at 4 hours and 4 minutes. Thank you.
+     0.02 at [time:00:04:04:00|4 hours and 4 minutes]. Thank you.
 
 [00:04:54:43]
-LMP: Roger. At 04:53, it was 0.01, 0.64, 0.03, and
+LMP: Roger. At [time:00:04:53:00|04:53], it was 0.01, 0.64, 0.03, and
      negligible on the survey meter.
 
 [00:04:54:53]
@@ -2612,7 +2614,7 @@ CC: Go ahead, Apollo 8.
 
 [00:05:07:22]
 CMP: Roger. Mike, did you say star 14 was good till
-     about 05:30 or something?
+     about [time:00:05:30:00|05:30] or something?
 
 [00:05:07:27]
 CC: Yes. Stand by while I give you that time again.
@@ -2669,12 +2671,12 @@ CMP: Stand by.
 CMP: Ready to copy.
 
 [00:05:11:55]
-CC: Okay. We are about 05:10 GET where we will record
+CC: Okay. We are about [time:00:05:10:00|05:10] GET where we will record
      the BLOCK data TLI plus four and TLI
      plus 11. The TLI plus four PAD that we gave you
      before is perfectly all right. We will not require
      that one, and we will have the TLI plus 11
-     hour PAD for you shortly, then at 05:45 or 6 hours
+     hour PAD for you shortly, then at [time:00:05:45:00|05:45] or [time:00:06:00:00|6 hours]
      on that high-gain antenna checkout. Roger.
      Standing by.
 
@@ -2685,7 +2687,7 @@ CDR: We are on OMNI D, and we heard - we lost you after
 [00:05:12:32]
 CC: Okay. The TLI plus 4 hour PAD is okay. We will
      have the TLI plus 11 hour PAD for you shortly, and
-     at 05:50, for your high-gain antenna checkout, we
+     at [time:00:05:50:00|05:50], for your high-gain antenna checkout, we
      would like you to leave that switch in WIDE BEAM
      with reference to our conversation the other day;
      leave it in WIDE.
@@ -2783,7 +2785,7 @@ CC: Roger, Bill. TLI plus 11, and this assumes no
 LMP: Roger.
 
 [00:05:25:32]
-CC: Okay. 013:56:47.59 minus 00489 plus 00000 plus
+CC: Okay. [time:00:13:56:47|013:56:47.59] minus 00489 plus 00000 plus
      47250 177 144 000, not applicable, plus 00197
      47253 554 47050 12 1278 256 023, up 265, left 18.
      Are you with me so far?
@@ -2792,8 +2794,8 @@ CC: Okay. 013:56:47.59 minus 00489 plus 00000 plus
 LMP: Roger.
 
 [00:05:27:05]
-CC: Okay. Plus 1197 minus 16500 12681 35608 050 46
-     53, GDC align north set stars, roll 068,
+CC: Okay. Plus 1197 minus 16500 12681 35608
+     [time:02:02:46:53|050:46:53], GDC align north set stars, roll 068,
      pitch 097, yaw 356, ullage none; other: one,
      fast return, P37, DELTA-V equals 7900 for
      Indian Ocean; number 2, high-speed procedure
@@ -2802,7 +2804,7 @@ CC: Okay. Plus 1197 minus 16500 12681 35608 050 46
 
 [00:05:28:38]
 LMP: Roger. TLI plus 11. SPS/G&N 63330 minus 163
-     plus 129 013:56:47.59 minus 00489 plus 00000
+     plus 129 [time:00:13:56:47|013:56:47.59] minus 00489 plus 00000
      plus 47250. You copy so far?
 
 [00:05:29:06]
@@ -2823,7 +2825,7 @@ CC: Yes, I'm with you so far, Bill; go ahead.
 
 [00:05:29:54]
 LMP: Plus 1197, minus 16500 12681 35608 0506, correction
-     050 46 53 north set 068 097 356, zero
+     [time:02:02:46:53|050:46:53] north set 068 097 356, zero
      ullage. Note one: fast return, P37, DELTA-V
      7900 Indian Ocean; two, high-speed procedure
      not required; three, PAD assumes no MCC 1.
@@ -3233,7 +3235,7 @@ CDR: Go ahead, Houston. Apollo 8.
 
 [00:06:22:17]
 CC: Roger. We would like to hold off on the
-     passive thermal control until 7 hours GET and,
+     passive thermal control until [time:00:07:00:00|7 hours] GET and,
      in the meantime, to get as many more P23 marks
      as we can, starting with the first star and
      doing two sets of three marks each, and then
@@ -3354,7 +3356,7 @@ CDR: Alright. We're standing by. Jim's about
      ready to go back to the P23.
 
 [00:06:35:57]
-CC: Roger. We have a GO until 7 hours on the
+CC: Roger. We have a GO until [time:00:07:00:00|7 hours] on the
      start of the PTC.
 
 [00:06:36:05]
@@ -3447,7 +3449,7 @@ _page : 67
 _tape : Tape 7 / Page 5
 CC: Okay. In relationship to the midcourse correction,
      we'd like to put that one off until
-     about 11 hours, and it will be approximately
+     about [time:00:11:00:00|11 hours], and it will be approximately
      a 25-foot-per-second burn. The reason we're
      delaying the burn time is to allow for better
      tracking as a result of the 7-1/2-foot per
@@ -3456,7 +3458,7 @@ CC: Okay. In relationship to the midcourse correction,
      the tracking data. And the dispersions in your
      correction aren't going to be growing very fast
      here. What we'll do then is to delete the NAV
-     sightings that occur about 09 plus 10 in the
+     sightings that occur about [time:00:09:10:00|09 plus 10] in the
      flight plan, and this will be getting us back
      on to the normal flight plan sequence. So
      we'll go ahead and finish the P23, and the
@@ -3487,7 +3489,7 @@ CDR: No, I think that's fine. We need to get out of
 _page : 68
 _tape : Tape 7 / Page 6
 CC: Roger. Looks like we'll be back on the flight
-     plan by 11 hours. We'll be holding up on the
+     plan by [time:00:11:00:00|11 hours]. We'll be holding up on the
      updates and PAD's because of the later burn.
 
 [00:06:47:35]
@@ -3599,7 +3601,7 @@ CDR: Thank you.
 _page : 70
 _tape : Tape 7 / Page 8
 LMP: Houston. We have the cryo fan on - the number
-     1 H<sub>2</sub> tank was on at 07:01. You can give
+     1 H<sub>2</sub> tank was on at [time:00:07:01:00|07:01]. You can give
      us a hack when you want it - when you're ready
      for it to be turned off.
 
@@ -3690,14 +3692,14 @@ CC: Okay, Apollo 8. Looks like you can terminate
      you alone for a while and let you get caught
      up. Things we have onboard, the high-gain
      antenna check, COMM mode check that you have
-     listed at 7 hours, we'll put off and do whenever
+     listed at [time:00:07:00:00|7 hours], we'll put off and do whenever
      you are ready for it. So that's at your
      convenience. During the high-gain dump that
      we performed using a wide band, we were still
      getting real good data at 36K, which is a
      little bit further than circuit margins that
      were predicted for you. And we've got our
-     SPS burn coming up somewhere around 11 hours,
+     SPS burn coming up somewhere around [time:00:11:00:00|11 hours],
      and we'll give you more information on that
      later.
 
@@ -3706,7 +3708,7 @@ _page : 72
 _tape : Tape 7 / Page 10
 LMP: Roger. We're doing the PROGRAM 21 now, determining
      ground track for LOI that we did not
-     make at 5 hours.
+     make at [time:00:05:00:00|5 hours].
 
 [00:07:21:44]
 CC: Roger. Thank you.
@@ -3735,8 +3737,8 @@ CC: Roger.
 
 [00:07:27:43]
 CDR: We can't get the PROGRAM 21 to integrate up
-     to LOI; just stalled out around 69 hours and
-     2 minutes.
+     to LOI; just stalled out around
+     [time:48:11:02:00|69 hours and 2 minutes].
 
 [00:07:28:02]
 CC: Roger. They are watching it.
@@ -3858,12 +3860,12 @@ CC: Apollo 8, Houston. We don't have any objections
      to going ahead with the urine dump now. And for
      your information, the waste water dump - our
      schedule, we plan to put it off until about
-     11:30, and this will get you up to approximately
+     [time:00:11:30:00|11:30], and this will get you up to approximately
      90 percent in your waste tank. It's a little
      higher than normal, but we wanted to put this
      off until after the burn was completed; and
      some of the other things that we've got coming
-     up, about 9 hours you have oxygen fuel cell purge;
+     up, about [time:00:09:00:00|9 hours] you have oxygen fuel cell purge;
      and we've already mentioned the deletion of the
      star landmark sightings. From 10 to 11 we have
      put aside for the burn preparations. And a final
@@ -4117,7 +4119,7 @@ CDR: Houston, Apollo 8.
 CC: Go ahead, Apollo 8.
 
 [00:09:44:47]
-CDR: Do you want to get started here around 10 hours?
+CDR: Do you want to get started here around [time:00:10:00:00|10 hours]?
      Is that what you said?
 
 [00:09:44:54]
@@ -4353,8 +4355,8 @@ CDR: Roger. We say we are ready to copy the PAD.
 [00:09:58:29]
 CC: Okay. The first PAD will be a maneuver PAD,
      MCC one, and this will be an SPS/G&N beginning
-     with the weight, 63295 minus 163 plus 129 010
-     59 58 30 plus 001 36 minus 00 045 plus 002 02
+     with the weight, 63295 minus 163 plus 129
+     [time:00:10:59:58|010:59:58.30] plus 001 36 minus 00 045 plus 002 02
      345 188 343 999 99 plus 016 85 002 48 002 001
      86 23 2013 164 012 up 276, left 04, November
      Alfa for the remainder of that column. In the
@@ -4363,7 +4365,7 @@ CC: Okay. The first PAD will be a maneuver PAD,
 
 [00:10:01:10]
 CDR: Houston, Apollo 8. MCC 1 maneuvers: SPS/G&N
-     63295 minus 163 plus 129 010 59 5830 plus 00136
+     63295 minus 163 plus 129 [time:00:10:59:58|010:59:58.30] plus 00136
      minus 00045 plus 00202 345 188 343 all 9's
      plus 01685 000248 002 00186 23 2013 164 012,
      up 27-6, left 04 November Alfa for the remainder.
@@ -4392,11 +4394,11 @@ CDR: Roger. Ready to copy.
 [00:10:03:24]
 CC: Okay. This is a TLI plus 11, SPS/G&N. This
      assumes a midcourse correction number 1: 631
-     40 minus 163, plus 129 013 56 48 97, minus 005,
+     40 minus 163, plus 129 [time:00:13:56:48|013:56:48.97], minus 005,
      99, plus 00 00 0, plus 47016, 177 143 000 November
      Alfa, plus 001 97 47 020 5 51 468 18 12 12 83
      257 023, up 263, left 17, plus 11 95, minus 165
-     00 126 83 356 08 050 47 05, north stars; 068
+     00 126 83 356 08 [time:02:02:47:05|050:47:05], north stars; 068
      097 356, no ullage. For the fast return P37
      DELTA-V, 7900 for the Indian Ocean, high speed
      procedure not required for the MS. This assumes
@@ -4419,7 +4421,7 @@ CC: Go ahead.
 
 [00:10:06:44]
 CDR: TLI plus 11 SPS/G&N 63140, minus 163, plus 129
-     13 56 4897, minus 00599, plus 00000. And I believe
+     [time:00:13:56:48|13:56:48.97], minus 00599, plus 00000. And I believe
      it's plus 47016.
 
 [00:10:07:14]
@@ -4428,7 +4430,7 @@ CC: Affirmative.
 [00:10:07:20]
 CDR: 177 143 000 NA, plus 00197, 47020 551 46818 12
      128.3 257 023, up 263, left 17, plus 1195, minus
-     16500, plus 126 23 35608 0504705, the north
+     16500, plus 126 23 35608 [time:02:02:47:05|050:47:05], the north
      set, roll 68, pitch 97, yaw 356, no ullage,
      P37 high speed, 7900 Indian Ocean, and high
      speed procedures for the MS are not required;
@@ -4483,7 +4485,7 @@ CC: Go ahead.
 
 [00:10:11:05]
 CDR: Okay. Now we'll go ahead and start back towards
-     the flight plan around 8 hours here of P52, right?
+     the flight plan around [time:00:08:00:00|8 hours] here of P52, right?
 
 [00:10:11:14]
 CC: That's affirm.
@@ -4521,7 +4523,7 @@ CC: Okay. We've got a telescope alignment if you'd
      like to give it a try. Your sextant star is
      still good, but if you had problems with that,
      folks have worked out that if you look through
-     the telescope at 10:35, we have a shaft and
+     the telescope at [time:00:10:35:00|10:35], we have a shaft and
      trunnion that should point you at the center
      of the earth, if you would like to give that one
      a try.
@@ -4532,11 +4534,11 @@ _tape : Tape 9 / Page 9
 CDR: Okay.
 
 [00:10:29:55]
-CC: Okay. At 10:35, the shaft angle 006.2, trunnion
+CC: Okay. At [time:00:10:35:00|10:35], the shaft angle 006.2, trunnion
      18.9. Over.
 
 [00:10:30:15]
-CDR: Roger. 10:35: shaft 006.2, trunnion 18.9.
+CDR: Roger. [time:00:10:35:00|10:35]: shaft 006.2, trunnion 18.9.
 
 [00:10:30:20]
 CC: That's affirmative.
@@ -4801,7 +4803,7 @@ CC: Okay. Number one on the list of things is that
      Number two, kind of a summary of your burn. All
      your SPS and systems look GO. The trajectory
      shows that you have a CPA with a mode of 69.67 miles
-     and the time of pericynthion is 69 plus 10. You
+     and the time of pericynthion is [time:02:21:10:00|69 plus 10]. You
      do have a capture on a good free return. It's
      a little bit early to completely evaluate the
      trajectory for corridor control. You'll have no
@@ -4967,7 +4969,7 @@ LMP: Houston, we're on a high gain, and it might be
 [00:12:00:59]
 CC: Apollo 8, we're going to go ahead and crank up
      to a COMM test now, and we will be a little bit
-     late on your update for 12 hours.
+     late on your update for [time:00:12:00:00|12 hours].
 
 [00:12:01:10]
 LMP: Okay.
@@ -5180,7 +5182,7 @@ LMP: Roger.
 [00:12:11:31]
 CC: Apollo 8, Houston. We're about to disable the
      voice modulation on uplink, and we'll be back up
-     no later than 12:31.
+     no later than [time:00:12:31:00|12:31].
 
 [00:12:14:26]
 CC: Apollo 8, Houston. Voice check.
@@ -5349,9 +5351,9 @@ CC: Okay. And now we're going to switch uplink to
      take a couple of seconds when you hear the upvoice
      lost. So you can place your up-telemetry switch
      to upvoice backup, and in the event that all of
-     this doesn't work out too well, I'm reading 12:47
+     this doesn't work out too well, I'm reading [time:00:12:47:00|12:47]
      on my clock now, and let's meet back in our present
-     configuration no later than 12:50.
+     configuration no later than [time:00:12:50:00|12:50].
 
 [00:12:47:33]
 LMP: Roger. On upvoice backup.
@@ -5438,7 +5440,7 @@ CC: Okay. Will do. And I'll give you weights in
 LMP: Roger. Stand by. What time is that for?
 
 [00:12:52:41]
-CC: Oh, 12 plus 15.
+CC: Oh, [time:00:12:15:00|12 plus 15].
 
 [00:12:53:06]
 LMP: Okay. Got it.
@@ -5455,7 +5457,7 @@ _page : 106
 _tape : Tape 11 / Page 4
 CC: Quad Delta 245, 81 percent. P and C advises
      that these numbers are still good even though it
-     is a 12:15 time. And we are completed with the
+     is a [time:00:12:15:00|12:15] time. And we are completed with the
      COMM test. You can take your high-gain antenna
      and go back to MEDIUM.
 
@@ -5560,11 +5562,11 @@ LMP: Go ahead, Houston. TLI plus 25.
 
 [00:13:07:28]
 CC: Okay. TLI plus 25, and this will be an SPS/G&N.
-     63087, minus 162, plus 129 027 56 29 64, minus 001
+     63087, minus 162, plus 129 [time:01:03:56:29|027:56:29.64], minus 001
      63, plus 00001, plus 527 59 177 137 001, November
      Alfa, plus 00201 527 59 623 525 43 14 2347 337 023
      up 195 left 17, plus 11 45, minus 165 00 127 80 358
-     90 074 3816, north stars 068 097 356, no ullage.
+     90 [time:03:02:38:16|074:38:16], north stars 068 097 356, no ullage.
      For the fast return P37 DELTA-V, 7900 to the
      Indian ocean. High-speed procedures are not
      required. Over.
@@ -5578,10 +5580,10 @@ CC: Loud and clear.
 
 [00:13:10:43]
 CMP: Roger. TLI plus 25, SPS/G&N 63087, minus 162
-     plus 129 027 56 2964, minus 00163, plus 00001, plus
+     plus 129 [time:01:03:56:29|027:56:29.64], minus 00163, plus 00001, plus
      52759 177 137 001, not applicable, plus 00201
      52759 623 52543 14 2347 337 023 up 195 left 1.7,
-     plus 1145, minus 16500 12780 35890 074 38 16.
+     plus 1145, minus 16500 12780 35890 [time:03:02:38:16|074:38:16].
      North set 068 097 356, no ullage, P37 fast return of
      7 - 700 and 7900 DELTA-V Indian Ocean. High speed
      not required.
@@ -5641,10 +5643,10 @@ CMP: Stand by. Ready to copy.
 [00:13:20:36]
 CC: Apollo 8. Here we go on a flyby maneuver
      PAD. This will be an SPS/G&N 63087, minus 162, plus
-     129 060 59 4804, plus 009 62, plus 005 68, minus 020
+     129 [time:02:12:59:48|060:59:48.04], plus 009 62, plus 005 68, minus 020
      77 000 000 000, November Alfa, plus 00202 02359 022
      02282 03 0399 314 013 up 048 right 37, plus 1418,
-     minus 16500 129 04 361 60 146 2911. North stars
+     minus 16500 129 04 361 60 [time:06:02:29:11|146:29:11]. North stars
      323 090 056, no ullage. Remarks: number one, this
      requires realignment to preferred REFSMMAT. Two,
      this will raise the perilune to 550 nautical miles.
@@ -5659,8 +5661,8 @@ CMP: Roger. Read back.
 CC: Go ahead.
 
 [00:13:23:38]
-CMP: Flyby SPS/G&N 63087, minus 162, plus 129 060 59
-     4804, plus 009 62, plus 00568, minus 02077, 000 000
+CMP: Flyby SPS/G&N 63087, minus 162, plus 129
+     [time:02:12:59:48|060:59:48.04], plus 009 62, plus 00568, minus 02077, 000 000
      000, NA. Are you with me so far?
 
 [00:13:24:07]
@@ -5669,7 +5671,7 @@ CC: Keep going.
 [00:13:24:09]
 CMP: Plus 00202 02359 022 02282 03 0399 314 013 up
      048 right 37, plus 1418, minus 16500 129 04 361 60
-     146 2911, north 323 090 056, no ullage. Realign
+     [time:06:02:29:11|146:29:11], north 323 090 056, no ullage. Realign
      for preferred REFSMMAT at perigee is 50.
 
 [00:13:25:01]
@@ -5726,7 +5728,7 @@ CC: Go ahead, Apollo 8.
 
 [00:13:31:04]
 LMP: Roger. Onboard calculations indicate that at
-     13 hours 30 minutes GET we are not 64 200 miles
+     [time:00:13:30:00|13 hours 30 minutes] GET we are not 64 200 miles
      above the earth. That's using alternate slide
      rule.
 
@@ -6032,7 +6034,7 @@ CMP: Go ahead, Houston. Apollo 8 here.
 
 [00:16:14:13]
 CC: Okay, Jim. Got an update here to the flight plan.
-     You've got the 16:55 star visibility check, and
+     You've got the [time:00:16:55:00|16:55] star visibility check, and
      what we've got on that looks like Navi is still
      our star, and the numbers associated with that are
      roll 102.6, pitch 328.9, yaw 346.3. That gives
@@ -6520,7 +6522,7 @@ CC: Roger.
 
 [00:19:11:40]
 CC: Apollo 8, Houston. The battery charge will
-     be complete around 21 hours.
+     be complete around [time:00:21:00:00|21 hours].
 
 [00:19:11:46]
 CDR: Okay. Just give me a call.
@@ -6592,7 +6594,7 @@ CC: Apollo 8, Houston.
 CDR: Go ahead, Houston. Apollo 8.
 
 [00:20:57:54]
-CC: Apollo 8, this is Houston. At 21 hours,
+CC: Apollo 8, this is Houston. At [time:00:21:00:00|21 hours],
      we'd like you to terminate the battery B
      charge and start battery A charge and then
      begin an O<sub>2</sub> purge. Over.
@@ -6713,7 +6715,7 @@ CDR: Go ahead, Houston. Apollo 8.
 [00:23:11:55]
 CC: Roger, Frank. We would like to bring you up
      to date on your trajectory. This midcourse
-     coming up at 28 hours GET turns out to be very
+     coming up at [time:01:04:00:00|28 hours] GET turns out to be very
      small, 0.7 feet per second, and we would like
      not to do it. Our data is looking extremely
      good and extrapolating it forward; it shows
@@ -6734,15 +6736,15 @@ CDR: Fine with us.
 CC: Okay. And in regard to your timeline here, we
      suggest that you let Bill and Jim sleep for an
      extra period of time and don't wake them up
-     until 26:30 GET, and that would cause deletion
-     of P52 and P23 at 26 hours GET. Over.
+     until [time:01:02:30:00|26:30] GET, and that would cause deletion
+     of P52 and P23 at [time:01:02:00:00|26 hours] GET. Over.
 
 [00:23:13:08]
 CDR: Roger. Understand. Delete P52 and P23.
 
 [00:23:13:12]
-CC: Affirmative. Delete those at 26 hours, wake
-     the other two guys up at 26:30 at which time
+CC: Affirmative. Delete those at [time:01:02:00:00|26 hours], wake
+     the other two guys up at [time:01:02:30:00|26:30] at which time
      they can eat, and then chlorinate the water
      supply after they have eaten.
 
@@ -6751,7 +6753,7 @@ CDR: Roger.
 
 [00:23:13:30]
 CC: That would put us back on our nominal flight
-     plan at 28 hours GET. Over.
+     plan at [time:01:04:00:00|28 hours] GET. Over.
 
 [00:23:13:38]
 CDR: Roger.
@@ -6773,11 +6775,11 @@ CDR: Go ahead, Houston.
 
 [00:23:38:45]
 CC: Roger, we're switching antennas again at
-     23:40 GET. You can expect a momentary break
+     [time:00:23:40:00|23:40] GET. You can expect a momentary break
      lock, and also we would like to bring you up
      to date on the passive thermal control. We
      expect to keep the same PTC attitude until
-     28 hours GET. Over.
+     [time:01:04:00:00|28 hours] GET. Over.
 
 [00:23:39:05]
 _page : 134
@@ -7164,7 +7166,7 @@ CC: Roger. TLI plus 35 hours, SPS/G&N, 63023 minus
 LMP: Loud and clear.
 
 [01:01:02:49]
-CC: Good. 037 56 5138, plus 00068, plus 00000, plus
+CC: Good. [time:01:13:56:51|037:56:51.38], plus 00068, plus 00000, plus
      46420 178 134 001, not applicable, plus 00202
      46420 547 46211. Are you with me? Over.
 
@@ -7173,7 +7175,7 @@ LMP: Roger. Loud and clear.
 
 [01:01:04:03]
 CC: Good. 12 1383 327 023 up 172 left 22, plus 1293,
-     minus 16500, 12905 36180 074:11:16. Comments:
+     minus 16500, 12905 36180 [time:03:02:11:16|074:11:16]. Comments:
      on your stars Sirius and Rigel, roll 010,
      pitch 294, yaw 320, no ullage. Other: one,
      fast return P37, DELTA-V equals 7821, for mid-Pacific
@@ -7190,7 +7192,7 @@ CC: All set.
 _page : 142
 _tape : Tape 18 / Page 7
 LMP: TLI plus 35, SPS/G&N 63023, minus 162, plus 129
-     037 56 5138, plus 00068, plus 00000, plus 46420
+     [time:01:13:56:51|037:56:51.38], plus 00068, plus 00000, plus 46420
      178 134 000, NA. Are you with me?
 
 [01:01:06:35]
@@ -7200,7 +7202,7 @@ CC: Yes, I'm with you, Bill. That last one should
 [01:01:06:42]
 LMP: Roger. Y 001, NA, plus 00202 46420 547 46211 12
      1383 327 023 up 172 left 22, plus 1293, minus
-     16500, plus 12905, plus 36180 074:11:16, Sirius,
+     16500, plus 12905, plus 36180 [time:03:02:11:16|074:11:16], Sirius,
      Rigel: 010 294 320, no ullage, fast return P37,
      7821 mid-PAC; high speed not required. Over.
 
@@ -7324,7 +7326,7 @@ CC: Okay. We also notice the University of Houston
 _page : 145
 _tape : Tape 18 / Page 10
 CMP: Sounds good. Outboard calculations indicate
-     that Apollo 8 at 25 hours is 104 000 miles from
+     that Apollo 8 at [time:01:01:00:00|25 hours] is 104 000 miles from
      home.
 
 [01:01:12:00]
@@ -7560,7 +7562,7 @@ _tape : Tape 19 / Page 3
 LMP: Go ahead, Houston.
 
 [01:01:56:58]
-CC: Roger. At 26 hours GET, we'll be switching our
+CC: Roger. At [time:01:02:00:00|26 hours] GET, we'll be switching our
      antennas back again at Madrid, and you can expect
      a glitch on your COMM system.
 
@@ -7575,14 +7577,14 @@ CC: Go ahead, Jim.
 
 [01:01:57:21]
 CMP: I noticed that you skipped the IMU alignment for
-     about 26 hours because we were still asleep. Do
+     about [time:01:02:00:00|26 hours] because we were still asleep. Do
      you want to include that again, or do you think
      it is required?
 
 [01:01:57:33]
 CC: Roger, Jim. We think it is going to be required
      prior to the next set of P23 sightings, and we're
-     suggesting that it be put in at 27:45. We'll
+     suggesting that it be put in at [time:01:03:45:00|27:45]. We'll
      have a flight plan - a more complete flight plan
      update in here shortly.
 
@@ -7688,7 +7690,7 @@ _tape : Tape 19 / Page 5
 CC: Okay, Bill. This will be on page 2 dash 22 of
      your flight plan.  For the command module pilot -
      I've already mentioned it to him - but at the
-     top of the page, at about 27:45, actually, we
+     top of the page, at about [time:01:03:45:00|27:45], actually, we
      would like him to do a P52, an IMU alignment,
      and then the P23 should be done as scheduled.
      Those four stars, Procyon, Regulus, Alphard, and
@@ -7714,9 +7716,9 @@ CC: All right. In the lower right hand corner of
 LMP: Roger. Copy.
 
 [01:02:49:31]
-CC: And on the next page, at about 29 hours, you
+CC: And on the next page, at about [time:01:05:00:00|29 hours], you
      can resume the normal flight plan. We would
-     like to make one addition; at 29:30, add a
+     like to make one addition; at [time:01:05:30:00|29:30], add a
      waste water dump. Even though one is not really
      required at that time, we would like to get the
      dump out of the way so we can track you uninterruptedly
@@ -7781,7 +7783,7 @@ CC: Apollo 8, Houston.
 
 [01:02:55:40]
 LMP: Apollo 8. Roger. Are you still planning an
-     MCC 2 at 28 hours? Over.
+     MCC 2 at [time:01:04:00:00|28 hours]? Over.
 
 [01:02:55:48]
 CC: Stand by one, Bill. Bill, negative. Now that
@@ -7807,7 +7809,7 @@ CC: Apollo 8, Houston. Go ahead.
 
 [01:02:58:36]
 LMP: Are you still computing the pericynthian time
-     of 6910.
+     of [time:02:21:10:00|6910].
 
 [01:02:58:45]
 CC: Stand by. We will get an update for you.
@@ -7816,7 +7818,7 @@ CC: Stand by. We will get an update for you.
 LMP: Okay.
 
 [01:02:59:40]
-CC: Apollo 8, Houston. Your 6910 pericynthian is
+CC: Apollo 8, Houston. Your [time:02:21:10:00|6910] pericynthian is
      still good plus or minus a minute, and we will
      get it down to a fine map measurement ...
 
@@ -7865,7 +7867,7 @@ CC: Okay. Thank you, Jim.
 
 [01:04:19:27]
 CC: Apollo 8, Houston. We are going to switch
-     antennas at 28:20. Stand by for our blitz.
+     antennas at [time:01:04:20:00|28:20]. Stand by for our blitz.
 
 [01:04:19:36]
 CDR: Roger, Houston. And we will start passing
@@ -8405,7 +8407,7 @@ CC: This is Ken.
 
 [01:06:22:44]
 CDR: Hey, listen, we still have this TV coming up
-     here - let's see - 31:20?
+     here - let's see - [time:01:07:20:00|31:20]?
 
 [01:06:22:52]
 CC: Affirmative.
@@ -8480,7 +8482,7 @@ CC: Okay, Apollo 8. What we're going to do on the
      TV is to go ahead and let you crank it up as
      soon as we get back on the high-gain antenna,
      and it looks like - my guess is that this will
-     be about 31:07, and we'll just use this to - as
+     be about [time:01:07:07:00|31:07], and we'll just use this to - as
      long as we have the coverage there. I have an
      update to your TLI plus 35 PAD. Now we have to
      correct a couple of times on there. So when you
@@ -8976,8 +8978,8 @@ CDR: Okay.
 
 [01:07:40:49]
 CC: All right. You can anticipate a fuel cell purge
-     at 35 hours, and we ought to be through with
-     battery A charging somewhere after 34 hours; and
+     at [time:01:11:00:00|35 hours], and we ought to be through with
+     battery A charging somewhere after [time:01:10:00:00|34 hours]; and
      looks like you'll have just about a full battery
      there. And we will give you a call on the exact
      time to cut it off. We would like to get some
@@ -9184,10 +9186,10 @@ LMP: What time is that for?
 CC: This is present.
 
 [01:08:25:34]
-LMP: 32:30, okay.
+LMP: [time:01:08:30:00|32:30], okay.
 
 [01:08:25:38]
-CC: Okay, I've got 32:35. And O<sub>2</sub> - -
+CC: Okay, I've got [time:01:08:35:00|32:35]. And O<sub>2</sub> - -
 
 [01:08:25:45]
 LMP: In weight not percentage.
@@ -9283,7 +9285,7 @@ CDR: You guys are reading the DSKY. Go ahead Houston.
 [01:08:42:40]
 CC: Okay, Apollo 8. Maybe we ought to try that one
      again next time, and the scanning telescope star
-     visibility is scheduled for a 34 10 in the flight
+     visibility is scheduled for a [time:01:10:10:00|34 10] in the flight
      plan, and it'll be star number 31. The angles
      are roll 184.7, pitch 23.4, yaw 14.3, shaft and
      trunnion zero. Over.
@@ -9398,7 +9400,7 @@ CDR: Okay. Thank you. So are we.
 
 [01:09:01:36]
 CC: Okay, Apollo 8. Do you want to try that AUTO
-     REACQ? 33 plus 24 looks like a good time and the
+     REACQ? [time:01:09:24:00|33 plus 24] looks like a good time and the
      angles are the same. And the late ball scores
      is 24 to 14 - -
 
@@ -9663,8 +9665,8 @@ CC: Okay, Apollo 8. The next portion of our test is
      no upvoice. We'll be in this mode for approximately
      2 and 1/2 minutes and send two test messages.
      During this time, we will not have uplink.
-     We are going to this mode at time 33:48:30, and
-     we'll be back in this configuration at 33:50:00.
+     We are going to this mode at time [time:01:09:48:30|33:48:30], and
+     we'll be back in this configuration at [time:01:09:50:00|33:50:00].
      Over.
 
 [01:09:50:59]
@@ -9694,7 +9696,7 @@ CC: Apollo 8, we've completed the third test; we're
 CC: Apollo 8, Houston. We're going to switch uplink
      to the upvoice backup for about 2 minutes, and
      may take a few seconds to link the transition.
-     And we'll be back up at 33:56 in our normal
+     And we'll be back up at [time:01:09:56:00|33:56] in our normal
      mode to place the up-telemetry data switch to
      upvoice backup at this time. Over.
 
@@ -9737,7 +9739,7 @@ LMP: Go ahead, Houston.
 CC: Okay, Apollo 8. That completes our COMM test.
      Thanks for your cooperation. And I've got a
      change here to NAV sightings that will come up
-     at 32:20. And we want to change your star a
+     at [time:01:08:20:00|32:20]. And we want to change your star a
      little bit there. Are you ready to copy?
 
 [01:09:59:38]
@@ -9787,14 +9789,14 @@ _page : 192
 _tape : Tape 24 / Page 7
 CDR: Houston, why don't you figure the CMP will sleep
      another couple of hours, then the LMP, and then
-     the CDR up to about 43 hours equally. Over.
+     the CDR up to about [time:01:19:00:00|43 hours] equally. Over.
 
 [01:10:02:20]
 CC: Okay.
 
 [01:10:02:25]
 CDR: Then we will start off with the CMP again at
-     about 44.
+     about [time:01:20:00:00|44].
 
 [01:10:06:58]
 CC: Apollo 8, Houston.
@@ -9804,7 +9806,7 @@ CDR: Go ahead, Houston.
 
 [01:10:07:05]
 CC: Okay. We can put off this NAV sighting. It was
-     scheduled here at 34:20, and we can put it off,
+     scheduled here at [time:01:10:20:00|34:20], and we can put it off,
      Judging from your comments about sleeping, we
      would like to get it as soon as we can, and
      right now, our plans are to slide it 2 hours.
@@ -9828,7 +9830,7 @@ CDR: Okay. And what time do you want to do it?
 [01:10:07:57]
 CC: Well, if you think Jim's going to be up in a
      couple of hours, why that will slide us 2 hours
-     to 36:20.
+     to [time:01:12:20:00|36:20].
 
 [01:10:08:08]
 _page : 193
@@ -9897,10 +9899,10 @@ CC: Apollo 8, this is Houston. I hadn't said anything
 [01:10:15:44]
 _page : 194
 _tape : Tape 24 / Page 9
-CDR: Okay, Houston. The CMP will be up at 36 hours.
+CDR: Okay, Houston. The CMP will be up at [time:01:12:00:00|36 hours].
      The LMP is going to sleep now, and he'll sleep
-     through until 40 and then I'll stagger that in
-     and try to go to sleep around 30 to 37 so
+     through until [time:01:16:00:00|40] and then I'll stagger that in
+     and try to go to sleep around [time:01:06:00:00|30] to [time:01:13:00:00|37] so
      that by the time we get to day 3 we'll all be
      back on the same direct sleep cycle.
 
@@ -9909,7 +9911,7 @@ CC: Okay, real fine. Thank you.
 
 [01:10:16:28]
 CC: Apollo 8, Houston. REACQ angles look like minus
-     45 in pitch, plus 90 in yaw, and 34:23 for the
+     45 in pitch, plus 90 in yaw, and [time:01:10:23:00|34 23] for the
      time.
 
 [01:10:16:41]
@@ -10388,14 +10390,14 @@ _tape : Tape 25 / Page 6
 CC: Okay. The first one I will give you is a TLI
      plus 44 maneuver PAD. I will start reading down
      the left-hand column. TLI plus 44, SPS/G&N
-     62970, minus 162, plus 129 046:56:04.31, plus
+     62970, minus 162, plus 129 [time:01:22:56:04|046:56:04.31], plus
      00197, plus all zeros, plus 607 01 180 133, 001
      November Alfa, plus 002 03 607 01 704 604 51 12
      1375 349.
 
 [01:11:36:31]
 CC: Boresight star is earth, down 037, right 22,
-     plus 10 68, minus 165 00 128 56 361 18 098 27 17.
+     plus 10 68, minus 165 00 128 56 361 18 [time:04:02:27:17|098:27:17].
      The GDC alignment stars: the primary star is
      Sirius, secondary Rigel 010, 294, 320, no ullage,
      path return P37 DELTA-V, 8750. This goes to the
@@ -10411,10 +10413,10 @@ CC: Loud and clear.
 
 [01:11:38:23]
 CDR: TLI plus 44, SPS/G&N 62970, minus 162, plus 129
-     046:56:04.31, plus 00197, plus all zeros, plus
+     [time:01:22:56:04|046:56:04.31], plus 00197, plus all zeros, plus
      60701 180 133 001, plus 00203, plus 60701 704
      60451 12 1375 349; earth, down 037, right 2.2,
-     plus 1068, minus 165 12856 36118 098 2717;
+     plus 1068, minus 165 12856 36118 [time:04:02:27:17|098:27:17];
      Sirius and Rigel. Hello, Houston. How do you
      read now?
 
@@ -10439,12 +10441,12 @@ CDR: Go ahead.
 CC: Okay. This flyby PAD is an update to one that
      we gave you yesterday so you might want to note
      that this is the second one. And it will be a
-     flyby SPS/G&N; 62970, minus 162, plus 129 060:59:48.07,
+     flyby SPS/G&N; 62970, minus 162, plus 129 [time:02:12:59:48|060:59:48.07],
      plus 00966, plus 00552, minus 02079.
      Roll, pitch, and yaw are all zeros, November
      Alfa, perigee height plus 00202 02358 022 02281
      03 0407 317 013, up 047, right 39, plus 1418
-     minus 16505 12904 36160 146:29:12, primary star
+     minus 16505 12904 36160 [time:06:02:29:12|146:29:12], primary star
      Sirius, secondary Rigel, 136 310 340, no ullage,
      requires realignment to preferred REFSMMAT. This
      burn will raise perilune to 550 miles. Over.
@@ -10457,11 +10459,11 @@ CDR: Okay, Houston. The second flyby SPS/G&N.
 CC: Yes sir.
 
 [01:11:44:21]
-CDR: 62970, minus 162, plus 129 060:59:48.07, plus
+CDR: 62970, minus 162, plus 129 [time:02:12:59:48|060:59:48.07], plus
      00966, plus 00552, minus 02079. Next three are
      all zeros, NA, plus 00202 02358 022 02281 03 0407
      317 013, up 04.7, right 3.9, plus 1418, minus
-     16505, plus 12904, plus 36160 146:29:12. Sirius,
+     16505, plus 12904, plus 36160 [time:06:02:29:12|146:29:12]. Sirius,
      Rigel, 136 310 340, none, requires realignment
      to preferred REFSMMAT. Pericynthian to 550 miles.
 
@@ -10561,7 +10563,7 @@ CC: Okay. Understand that you've done the P52. The
      next item on the flight plan should be a scanning
      telescope visibility test, and this is the same
      one that was on your flight plan previously at
-     34 hours and about 12 minutes, and we'll be
+     [time:01:10:12:00|34 hours and about 12 minutes], and we'll be
      checking that 70 degree sun's on Arcturus. Following
      that, we need to make a trunnion bias
      check, and then we'll go into a P23, and I can
@@ -11614,7 +11616,7 @@ CC: Roger. Roger, Frank. Little few thoughts on
      looks real good; and we are ready to start on
      some lunar horizon sightings. So when Jim gets
      up, we will pass the flight plan update to him
-     for a set of stars with the moon. Also, around 48,
+     for a set of stars with the moon. Also, around [time:02:00:00:00|48],
      or after the star sightings is when we would like
      to see your next water dump come up. So, if you
      can, I recommend you get a little shuteye.
@@ -11714,13 +11716,13 @@ _tape : Tape 30 / Page 4
 CMP: Roger. Go ahead.
 
 [01:19:29:23]
-CC: Okay. At 47:15, delete the P23 sightings
+CC: Okay. At [time:01:23:15:00|47:15], delete the P23 sightings
      you're shoving there; and at 45 minutes -
-     correction, 45 hours, add one additional
+     correction, [time:01:21:00:00|45 hours], add one additional
      set of sightings to each star.
 
 [01:19:29:52]
-CMP: Okay. You said at 45 hours we're going to
+CMP: Okay. You said at [time:01:21:00:00|45 hours] we're going to
      add one set of sightings to each of the three
      stars. Is that correct?
 
@@ -11729,14 +11731,14 @@ CC: That's affirmative. Everybody's real pleased
      with the earth horizon work; and as far as
      we're concerned, you can knock that off, and
      just add one set to each one of your lunar
-     horizon stars at about 45. This 45-hour time
+     horizon stars at about [time:01:21:00:00|45]. This 45-hour time
      also is not hard. You can shift it as your -
      as you desire.
 
 [01:19:30:25]
 CMP: Roger. I see things coming up now. Jerry,
-     we're going to get the block data around 44,
-     and we'll do alignment around 44:30 and then
+     we're going to get the block data around [time:01:20:00:00|44],
+     and we'll do alignment around [time:01:20:30:00|44:30] and then
      we'll go into cislunar navigation.
 
 [01:19:30:39]
@@ -11898,7 +11900,7 @@ CC: Roger. Your TLI plus 44 maneuver PAD is good,
 CMP: I am copying.
 
 [01:19:54:57]
-CC: Roger. 060:59:48.08, plus 00953, plus 00578,
+CC: Roger. [time:02:12:59:48|060:59:48.08], plus 00953, plus 00578,
      minus 02076 000 000 000. Copy?
 
 [01:19:55:46]
@@ -11921,7 +11923,7 @@ CMP: Copy.
 
 [01:19:57:11]
 CC: Roger. Plus 1418, minus 16505, 12904 36160
-     146:29:11; GDC align with your Sirius, Rigel
+     [time:06:02:29:11|146:29:11]; GDC align with your Sirius, Rigel
      set stars. 137 311 339; no ullage. Copy?
 
 [01:19:58:14]
@@ -11942,11 +11944,11 @@ CC: Roger. Standing by.
 
 [01:19:58:51]
 CMP: Flyby maneuver SPS/G&N 62954, minus 162, plus
-     129 060:59:48.08 953 578 - those are 00953 and
+     129 [time:02:12:59:48|060:59:48.08] 953 578 - those are 00953 and
      plus 000578 - minus 02076 000 000 000, not
      applicable, plus 00202, 02356 022 02280 03
      0393 310 013, up 048, right 35, plus 1418,
-     minus 165 05 12904 36160 146:29:11, Sirius,
+     minus 165 05 12904 36160 [time:06:02:29:11|146:29:11], Sirius,
      Rigel 137 311 339, no ullage, requires realignment
      to preferred REFSMMAT, raises perilune
      to 554 nautical miles.
@@ -11960,7 +11962,7 @@ CMP: Okay. Let's go on PC plus 2.
 
 [01:20:00:40]
 CC: Roger. Pericynthian plus 2, fast return,
-     SPS/G&N 61503, minus 158, plus 131 071:36:12.44,
+     SPS/G&N 61503, minus 158, plus 131 [time:02:23:36:12|071:36:12.44],
      plus 59578, minus 00086, minus 05287. Copy?
 
 [01:20:01:39]
@@ -11975,7 +11977,7 @@ CMP: Copying.
 
 [01:20:02:33]
 CC: Roger. Earth up 005, right 27, plus 0398,
-     plus 06500 13215 36961 106:19:11, Sirius, Rigel,
+     plus 06500 13215 36961 [time:04:10:19:11|106:19:11], Sirius, Rigel,
      137 311 339, no ullage. Copy?
 
 [01:20:03:37]
@@ -11986,7 +11988,7 @@ CC: Roger. I have five remarks. Number one, assumes
      execution of flyby maneuver; number two,
      use same alignment as for flyby; number three,
      time of midcourse number 5 for GERU determination
-     GET of 83:38. Copy?
+     GET of [time:03:11:38:00|83:38]. Copy?
 
 [01:20:03:59]
 _page : 238
@@ -12003,7 +12005,7 @@ CC: Roger. Two remarks to go. Number four, -
 [01:20:05:41]
 CMP: Roger, Houston. PC plus 2, maneuver plan
      as follows: SPS/G&N 61503, minus 158, plus 131,
-     071:36:12.44. Copy?
+     [time:02:23:36:12|071:36:12.44]. Copy?
 
 [01:20:06:06]
 CC: Roger. Copy.
@@ -12012,11 +12014,11 @@ CC: Roger. Copy.
 CMP: Plus 59578, minus 00086, minus 05287, 012
      080 018, not applicable, plus 00203 59813
      650 59566 11 2160, 332, earth up 005, right 27,
-     plus 0398, plus 06500 13215 36961 106:19:11;
+     plus 0398, plus 06500 13215 36961 [time:04:10:19:11|106:19:11];
      Sirius Rigel 137 311 339, no ullage, assume
      execution of flyby maneuver, uses stable alignment
      as the flyby; time of MCC 5 for GERU determination
-     is 83 plus 38; use P37 NC-4 steps 1
+     is [time:03:11:38:00|83 plus 38]; use P37 NC-4 steps 1
      through 10, NC-8 steps 3 and 4. Average V 400K
      for corridor control chart 36531.
 
@@ -12717,11 +12719,11 @@ CC: Apollo 8, Houston. Go.
 
 [01:23:24:40]
 CMP: Roger. Did you delete the cislunar NAV exercise
-     at 47:15?
+     at [time:01:23:15:00|47:15]?
 
 [01:23:24:46]
 CC: That's affirmative, and we added the extra star
-     sightings to the one at 45.
+     sightings to the one at [time:01:21:00:00|45].
 
 [01:23:27:43]
 LMP: Houston, Apollo 8. How do you read?
@@ -13138,7 +13140,7 @@ CC: Apollo 8, Houston. I have your service module
      RCS quantities available. Over.
 
 [02:02:16:43]
-CDR: Roger. We are ready to copy at 50 hours 16 minutes.
+CDR: Roger. We are ready to copy at [time:02:02:16:00|50 hours 16 minutes].
 
 [02:02:16:47]
 CC: Okay. I have them both in percent and pounds;
@@ -13307,12 +13309,12 @@ CDR: Go ahead, Houston. Apollo 8.
 CC: Roger, Frank. We would like to ask you about
      the next few hours in the flight plan. We are
      inclined to let Jim go ahead and sleep and to
-     slip the P23 that occurs at 52:15. On the other
+     slip the P23 that occurs at [time:02:04:15:00|52:15]. On the other
      hand, we would think it would probably be a
      good idea if he returned more to the normal sleep
      rest cycle; and if you got him up nominally to
-     do the 52:15 work, then perhaps he would be ready
-     to go back to sleep at about 61 hours, when he
+     do the [time:02:04:15:00|52:15] work, then perhaps he would be ready
+     to go back to sleep at about [time:02:13:00:00|61 hours], when he
      nominally is expected to do so.
 
 [02:03:13:55]
@@ -13322,7 +13324,7 @@ CDR: Okay. He's up now, eating. We are planning to
 [02:03:14:02]
 CC: Okay. That - that's fine then. If - you know,
      there is no - it's not time critical that P23
-     be done at 52:15, but if you get up to do it then,
+     be done at [time:02:04:15:00|52:15], but if you get up to do it then,
      that's just fine.
 
 [02:03:14:16]
@@ -15470,7 +15472,7 @@ LMP: Okay.
 
 [02:11:46:42]
 CC: Alright. Midcourse correction number 4: the
-     RCS/G&N 62888 November Alfa November Alfa 060:59:54.30
+     RCS/G&N 62888 November Alfa November Alfa [time:02:12:59:54|060:59:54.30]
      minus 00012, minus 00011, plus 00012 031
      008 323 November Alfa, plus 00618 00020 011
      00020 17 2965 308 Alpha-Centauri, up 073,
@@ -15480,7 +15482,7 @@ CC: Alright. Midcourse correction number 4: the
 [02:11:49:25]
 _page : 309
 _tape : Tape 40 / Page 3
-LMP: Roger. MCC 4, RCS/G&N 62888 NA, NA 060:59:54.30,
+LMP: Roger. MCC 4, RCS/G&N 62888 NA, NA [time:02:12:59:54|060:59:54.30],
      minus 00012, minus 00011, plus 00012 031 008
      323, NA. Are you with me so far?
 
@@ -15509,11 +15511,11 @@ LMP: Roger. Ready to copy.
 CC: Okay. That's pericynthian plus 2. RCS/G&N 62871
      November Alfa, and stand by one. Okay. We'll
      pick up with a pitch trim and yaw trim of not
-     applicable; time 071:07:22.16, minus 00468, plus
+     applicable; time [time:02:23:07:22|071:07:22.16], minus 00468, plus
      00254, plus 00181 173 101 027 November Alfa plus
      00187 00563 515 00563 01 3169 198 044, down
      044, left 45, plus 1100, minus 02500 12967
-     36198 137:01:53, primary Sirius, secondary Rigel
+     36198 [time:05:17:01:53|137:01:53], primary Sirius, secondary Rigel
      129:155:010, four jets plus X. This assumes
      execution of midcourse correction number 4 and
      uses the same alignment as midcourse correction
@@ -15523,11 +15525,11 @@ CC: Okay. That's pericynthian plus 2. RCS/G&N 62871
 _page : 310
 _tape : Tape 40 / Page 4
 LMP: Roger. Pericynthian plus 2, minimum DELTA-V
-     RCS/G&N 62871, NA, NA. 071:07:22.16, minus
+     RCS/G&N 62871, NA, NA. [time:02:23:07:22|071:07:22.16], minus
      00468, plus 00254, plus 00181 173 101 027, NA,
      plus 00187 00563 515 00563 01 3169 198 044,
      down 044, left 45, plus 1100, minus 02500 12967
-     36198 137:01:53, primary Sirius, secondary
+     36198 [time:05:17:01:53|137:01:53], primary Sirius, secondary
      Rigel, 1.29 155 010, four jets plus X, assumes
      MCC 4 with same alignment. Over.
 
@@ -15579,15 +15581,15 @@ LMP: Okay. We are ready to copy.
 [02:12:00:17]
 CC: Okay. This is a pericynthian plus 2 for a fast
      return. This will be SPS/G&N 62871, minus
-     161, plus 129 071:06:42.07, plus 45224, minus 06216,
+     161, plus 129 [time:02:23:06:42|071:06:42.07], plus 45224, minus 06216,
      minus 18712 001 287 351, November Alfa plus 00187
      49336 603 49118 112 038 296, earth up 010, right 37,
-     plus 1475, plus 06500 13239 36913 106:09:23;
+     plus 1475, plus 06500 13239 36913 [time:04:10:09:23|106:09:23];
      primary star Sirius, secondary Rigel 129 155 010,
      no ullage, assumes execution of midcourse correction
      4 and uses the same alignment. The time
      for MCC 5 for GERU determination - that's Golf
-     Echo Romeo Uniform - this will be a GET of 83:02;
+     Echo Romeo Uniform - this will be a GET of [time:03:11:02:00|83:02];
      use P37 NC-4, steps 1 through 10 and NC-8 steps 3
      and 4. I say again, use P37 November Charlie 4
      steps 1 through 10 and November Charlie steps 3
@@ -15612,13 +15614,13 @@ CC: Okay. Loud and clear, Bill.
 _page : 312
 _tape : Tape 41 / Page 1
 LMP: Okay, Ken. Pericynthian plus 2, fast return
-     SPS/G&N 62871, minus 161, plus 129 071:06:42.07,
+     SPS/G&N 62871, minus 161, plus 129 [time:02:23:06:42|071:06:42.07],
      plus 45224, minus 06216, minus 18712 001 28 603
      49118 112 038 296 earth up 010, right 37, plus
-     1475, plus 06400 1323 936 913 1060 923, primary
+     1475, plus 06400 1323 936 913 [time:04:10:09:23|106:09:23], primary
      Sirius, secondary Rigel 129 155 010, no ullage,
      assume MCC 4 same alignment, MCC 5 GERU determination
-     GET 83:02 P37 NC-4 0 through 10 and
+     GET [time:03:11:02:00|83:02] P37 NC-4 0 through 10 and
      copy NC-8, 3, and 4. Velocity at 400K 36507.
      Over.
 
@@ -16018,7 +16020,7 @@ CC: Go ahead.
 
 [02:13:16:18]
 CMP: We're at a gain of about 20 500 miles from the
-     moon at 61:14. How does that agree with what
+     moon at [time:02:13:14:00|61:14]. How does that agree with what
      you figure?
 
 [02:13:19:16]
@@ -16656,7 +16658,7 @@ CC: On the SPS, the oxidizer and fuel feed line
      operations. We plan to have you in a 60-mile
      circular orbit after LOI 2. And we should
      have some PAD's for you on the LOI burn at
-     about 67 hours.
+     about [time:02:19:00:00|67 hours].
 
 [02:14:39:30]
 _page : 333
@@ -16864,7 +16866,7 @@ CMP: Houston, Apollo 8. Ready to copy.
 
 [02:17:57:10]
 CC: Apollo 8, this is Houston. Roger. LOI 1
-     SPS/G&N, 62844, minus 161, plus 129 069:08:18.41. Copy?
+     SPS/G&N, 62844, minus 161, plus 129 [time:02:21:08:18|069:08:18.41]. Copy?
 
 [02:17:57:52]
 CMP: 8 is copying.
@@ -16895,7 +16897,7 @@ CMP: Roger. Preliminary LOI 1 PAD as follows: SPS/G&N;
 CC: Roger. Copying.
 
 [02:17:59:35]
-CMP: 069:08:18.41, minus 29837, plus 02390, plus
+CMP: [time:02:21:08:18|069:08:18.41], minus 29837, plus 02390, plus
      00994 000 200 005 01693, plus 00600 29949 402
      29782 010 689 260, Persei Zeta, down 048, left
      05. The remainder not applicable. Sirius,
@@ -17175,7 +17177,7 @@ CDR: Go ahead.
 
 [02:18:58:07]
 CC: Apollo 8, this is Houston. Map update REV 1,
-     slash 2: 68:58:04 69:05:05 69:31:41 70:14:48. Copy?
+     slash 2: [time:02:20:58:04|68:58:04] [time:02:21:05:05|69:05:05] [time:02:21:31:41|69:31:41] [time:02:22:14:48|70:14:48]. Copy?
 
 [02:18:58:41]
 CDR: Copy.
@@ -17183,24 +17185,24 @@ CDR: Copy.
 [02:18:58:43]
 _page : 344
 _tape : Tape 45 / Page 5
-CC: 70:56:36 71:00:59 71:10:42 71:39:40 72:23:17. Copy?
+CC: [time:02:22:56:36|70:56:36] [time:02:23:00:59|71:00:59] [time:02:23:10:42|71:10:42] [time:02:23:39:40|71:39:40] [03:00:23:17|72:23:17]. Copy?
 
 [02:18:59:21]
 CDR: Copy.
 
 [02:18:59:23]
-CC: Roger. Remarks: Charlie Poppa 1, 71:14:57,
-     Charlie Poppa 2, 71:28:32, Charlie Poppa 3, 71:47:26,
-     Bravo 1, 72:09:42. Over.
+CC: Roger. Remarks: Charlie Poppa 1, [time:02:23:14:57|71:14:57],
+     Charlie Poppa 2, [time:02:23:28:32|71:28:32], Charlie Poppa 3, [time:02:23:47:26|71:47:26],
+     Bravo 1, [time:03:00:09:42|72:09:42]. Over.
 
 [02:19:00:06]
 CMP: Roger. Standby. I'll get the antenna.
 
 [02:19:00:25]
-CMP: Map update as follows, Houston: 68:58:04 69:05:05
-     69:31:41 70:14:48 70:56:36 71:00:59 71:10:42 71:39:40 72:23:17;
-     Charlie Poppa 1, 71:14:57, Charlie Poppa 2, 71:28:32,
-     Charlie Poppa 3, 71:47:26, Bravo 1, 72:09:42.
+CMP: Map update as follows, Houston: [time:02:20:58:04|68:58:04] [time:02:21:05:05|69:05:05]
+     [time:02:21:31:41|69:31:41] [time:02:22:14:48|70:14:48] [time:02:22:56:36|70:56:36] [time:02:23:00:59|71:00:59] [time:02:23:10:42|71:10:42] [time:02:23:39:40|71:39:40] [time:03:00:23:17|72:23:17];
+     Charlie Poppa 1, [time:02:23:14:57|71:14:57], Charlie Poppa 2, [time:02:23:28:32|71:28:32],
+     Charlie Poppa 3, [time:02:23:47:26|71:47:26], Bravo 1, [time:02:23:09:42|72:09:42].
 
 [02:19:01:25]
 CC: Apollo 8, this is Houston. Readback is correct.
@@ -17325,7 +17327,7 @@ CDR: Roger. Understand. LOI 1.
 
 [02:19:19:17]
 CC: That is affirmative, LOI 1, SPS/G&N: 62844 1,
-     correction, minus 161, plus 129 069:08:19.52,
+     correction, minus 161, plus 129 [time:02:21:08:19|069:08:19.52],
      minus 29840, plus 02390, plus 01053. Copy?
 
 [02:19:20:58]
@@ -17352,7 +17354,7 @@ CC: Roger. 01 0688 259, Persei Zeta, down 048,
 
 [02:19:23:35]
 CDR: Roger. LOI 1, SPS/G&N: 62844 minus 161, plus
-     129 069:08:19.52, minus 29840, plus 02390, plus
+     129 [time:02:21:08:19|069:08:19.52], minus 29840, plus 02390, plus
      01053 000 200 005 01693, plus 00600 29954 402
      29788 01 0688 259, Persei Zeta, down 048, left 05;
      Sirius, Rigel, 129 155 010: no ullage, horizon
@@ -17417,7 +17419,7 @@ CMP: Go ahead with your TEI PAD's.
 
 [02:19:35:29]
 CC: Apollo 8, this is Houston. TEI 1, SPS/G&N: 462,
-     correction, 46728, minus 053, plus 121 071:25:04.73,
+     correction, 46728, minus 053, plus 121 [time:02:23:25:04|071:25:04.73],
      plus 37746, minus 03299, plus 00824. Copy?
 
 [02:19:36:33]
@@ -17434,14 +17436,14 @@ CMP: Copying.
 
 [02:19:37:28]
 CC: Roger. NA, NA, NA, plus 1350, minus 16500
-     13050 36389 122:10:45; Sirius, Rigel, 129 155
+     13050 36389 [time:05:02:10:45|122:10:45]; Sirius, Rigel, 129 155
      010, ullage two-jet, 20 seconds jet Bravo Delta,
      horizon window X-axis on horizon at ignition
      minus 3 minutes; assumes LOI 1. Over.
 
 [02:19:38:59]
 CMP: Houston, Apollo 8. TEI 1 as follows: SPS/G&N:
-     46728, minus 053, plus 121 071:25:04.73. Copy?
+     46728, minus 053, plus 121 [time:02:23:25:04|071:25:04.73]. Copy?
 
 [02:19:39:22]
 CC: Roger. Copy.
@@ -17450,7 +17452,7 @@ CC: Roger. Copy.
 CMP: Plus 37746, minus 03299, plus 00844 179 346 357,
      not applicable, plus 00176 37900 336 37705 42
      1279 309, not applicable three times, plus 1350,
-     minus 16500 13050 36389 122:10:45; Sirius, Rigel,
+     minus 16500 13050 36389 [time:05:02:10:45|122:10:45]; Sirius, Rigel,
      129 155 010, ullage two jets, 20 seconds,
      quads B and D, horizon window X-axis on horizon
      at TIG minus 3, assumes LOI 1.
@@ -17484,7 +17486,7 @@ CC: Roger. TEI 2 SPS/G&N: 46728, minus 053, plus
 CMP: Roger. Copy.
 
 [02:19:42:49]
-CC: Roger. 073:21:30.24, plus 28466, minus 00350,
+CC: Roger. [time:03:01:21:30|073:21:30.24], plus 28466, minus 00350,
      plus 02406 180 022 002, not applicable, plus
      00188. Copy?
 
@@ -17494,7 +17496,7 @@ CMP: Roger. Copy.
 [02:19:43:48]
 CC: Roger. 28570 250 28401 42 0641 296, not applicable
      three times, plus 0920, minus 16500 12953
-     36175 146:32:16. copy?
+     36175 [time:06:02:32:16|146:32:16]. Copy?
 
 [02:19:45:01]
 CMP: Copy. Looks like you left out a digit ...
@@ -17512,8 +17514,8 @@ CMP: Houston, this is Apollo 8. I copied. I question
      you gave me one too few digits in both cases.
 
 [02:19:45:43]
-CC: Roger. I repeat, latitude plus 0920, minus 16530
-     12953 36175 146:32:16. Copy?
+CC: Roger. I repeat, latitude plus 0920, minus 16500
+     12953 36175 [time:06:02:32:16|146:32:16]. Copy?
 
 [02:19:46:20]
 CMP: I copied.
@@ -17525,11 +17527,11 @@ CC: Roger. Your GDC align is no change, ullage no
 
 [02:19:46:58]
 CMP: Roger. TEI 2 maneuver PAD, SPS/G&N: 46728, minus
-     053, plus 121 073:21:30.24 plus 28466 minus 00352.
+     053, plus 121 [time:03:01:21:30|073:21:30.24] plus 28466 minus 00352.
      I did not get the 502406 for a DELTA-V<sub>Z</sub>. 180 022 002,
      not applicable, plus 00188 28570 250 28401 42
      0641 296, not applicable three times, plus 0920
-     minus 16500 12953 36175 146:32:16. No change in
+     minus 16500 12953 36175 [time:06:02:32:16|146:32:16]. No change in
      the GDC align stars, no change in ullage, a rise
      on the minus P-degree line at TIG minus 3, assumes
      LOI 1.
@@ -17712,7 +17714,7 @@ CDR: Roger. This is Apollo 8.
 [02:20:02:06]
 CC: Roger. That pericynthian you read out is for
      ignition. We read that as 75 miles; your true
-     pericynthian is 64 miles at 69:10:35. Over.
+     pericynthian is 64 miles at [time:02:21:10:35|69:10:35]. Over.
 
 [02:20:02:25]
 CDR: Roger.
@@ -17738,7 +17740,7 @@ CDR: Requires minus MA procedure.
 CC: Affirmative, 8.
 
 [02:20:04:07]
-CC: Apollo 8, this is Houston. At 68:04, you are
+CC: Apollo 8, this is Houston. At [time:02:20:04|68:04], you are
      GO for LOI.
 
 [02:20:04:17]
@@ -18673,8 +18675,8 @@ CDR: Go ahead with the map update.
 
 [02:22:32:55]
 CC: Roger, Frank. Map update: REV 1/2, no change; the
-     REV 2/3 follows: 73:04:57, 73:09:37, 73:19:01, 73:48:53,
-     74:24:23; remarks: Bravo 1 74:16:24. Over.
+     REV 2/3 follows: [time:03:01:04:57|73:04:57], [time:03:01:09:37|73:09:37], [time:03:01:19:01|73:19:01], [time:03:01:48:53|73:48:53],
+     [time:03:02:24:23|74:24:23]; remarks: Bravo 1 [03:02:16:24|74:16:24]. Over.
 
 [02:22:33:49]
 CDR: Roger. Copy.
@@ -19245,7 +19247,7 @@ CDR: Okay, Houston. Go ahead.
 _page : 380
 _tape : Tape 48 / Page 8
 CC: Apollo 8, this is Houston. LOI 2, SPS/G&N:
-     46427, minus 053, plus 141 073:35:05.70 minus
+     46427, minus 053, plus 141 [time:03:01:35:05|073:35:05.70] minus
      01350, plus all zeros, plus all zeros. Copy?
 
 [02:23:58:03]
@@ -19279,7 +19281,7 @@ CC: Roger. I'm ready for your readback.
 
 [03:00:00:35]
 CDR: LOI 2, SPS/G&N: 46427, minus 053, plus 141
-     073:35:05.70, minus 01350, plus 0000, plus
+     [time:03:01:35:05|073:35:05.70], minus 01350, plus 0000, plus
      0000 000 175 358 00607, plus 00606 01350 009
      01265 02 3112 197; Taurus, Aida, up 16.2, left
      0.1, fixed read not applicable; Sirius, Rigel
@@ -19425,7 +19427,7 @@ CDR: Ready for TEI 3.
 
 [03:00:08:08]
 CC: Roger. TEI 3. SPS/G&N 46427, minus 053, plus
-     141 075:31:29.95, plus 28960, minus 00456, plus
+     141 [time:03:03:31:29|075:31:29.95], plus 28960, minus 00456, plus
      00720. Copy?
 
 [03:00:09:06]
@@ -19440,7 +19442,7 @@ CDR: Roger.
 
 [03:00:10:00]
 CC: Roger. 033 0000, left 17, plus 0883, minus
-     16500 12955 36185 146 3507; Sirius, Rigel 129,
+     16500 12955 36185 [time:06:02:35:07|146:35:07]; Sirius, Rigel 129,
      155 010, ullage two jets, 20 seconds, quads
      Bravo and Delta. Horizon on the 24 degree line
      at ignition minus 3 minutes, assumes no LOI 2.
@@ -19448,11 +19450,11 @@ CC: Roger. 033 0000, left 17, plus 0883, minus
 
 [03:00:11:29]
 CDR: Roger. SPS/G&N - this is for TEI 3 - 46427,
-     minus 053, plus 141 075:31:29.95, plus 28960,
+     minus 053, plus 141 [time:03:03:31:29|075:31:29.95], plus 28960,
      minus 00456, plus 00720 180 021 002, NA, plus
      00188 28972 251 28793 40 2769 396 033 0000,
      left 17, plus 00883, minus 16500 12955 36185
-     146 3507; Sirius, Rigel 129, 155, 01, two jet,
+     [time:06:02:35:07|146:35:07]; Sirius, Rigel 129, 155, 01, two jet,
      20 seconds, B and D, horizon 2 degrees at
      ignition minus 3 minutes, assumes no LOI 2.
 
@@ -19470,7 +19472,7 @@ CDR: Go ahead.
 
 [03:00:13:33]
 CC: Roger. TEI 3: SPS/G&N 45810, minus 053, plus
-     141 075:21:28.46, plus 30128, minus 00540, plus
+     141 [time:03:03:21:28|075:21:28.46], plus 30128, minus 00540, plus
      01911. 180 019 001. Copy?
 
 [03:00:14:46]
@@ -19485,18 +19487,18 @@ CC: Roger. Not applicable, plus 00188 30193 255
 CDR: Roger.
 
 [03:00:15:44]
-CC: Roger. Plus 0888, minus 16500 12955 36185 146
-     3450 GDC, align no change, ullage no change,
+CC: Roger. Plus 0888, minus 16500 12955 36185
+     [time:06:02:34:50|146:34:50] GDC, align no change, ullage no change,
      horizon 1 degree at ignition minus three.
      Assumes LOI 2. Over.
 
 [03:00:16:45]
 CDR: Go ahead - or Houston, this is Apollo 8.
      TEI 3 with LOI 2. SPS/G&N 45810, minus 053,
-     plus 141 075:21:28.46, plus 30128, minus 00540,
+     plus 141 [time:03:03:21:28|075:21:28.46], plus 30128, minus 00540,
      plus 01911 180 019 001, NA plus 00188 30193
      255 30008 40 2742 396 033, down 021, left 18,
-     plus 0888, minus 16500 12955 36185 146 3450;
+     plus 0888, minus 16500 12955 36185 [time:06:02:34:50|146:34:50];
      no change, no change 1 degree in the rise of
      ignition minus three, assumes LOI 2.
 
@@ -19965,7 +19967,7 @@ CC: Alright. This is the TEI 4 update: SPS/G&N
 CDR: So far.
 
 [03:02:22:36]
-CC: Very good. 077:21:27.58, plus 30627, minus
+CC: Very good. [time:03:05:21:27|077:21:27.58], plus 30627, minus
      00625, plus 00577 180 018 001, not applicable,
      plus 00188 30639 256 30452. Are you with me so
      far? Over.
@@ -19988,7 +19990,7 @@ _tape : Tape 50 / Page 2
 CDR: Roger.
 
 [03:02:24:53]
-CC: Okay. Plus 0858, minus 16500 12960 36195 146:37:21;
+CC: Okay. Plus 0858, minus 16500 12960 36195 [time:06:02:37:21|146:37:21];
      comments: north set of stars Sirius and Rigel,
      roll 129, pitch 155, yaw 010, ullage two quad,
      20 seconds, two-zero seconds from quads Bravo
@@ -19997,11 +19999,11 @@ CC: Okay. Plus 0858, minus 16500 12960 36195 146:37:21;
 
 [03:02:26:15]
 CDR: Roger, Houston. We got a TEI 4 SPS/G&N 45695,
-     minus 053 plus 141 077:21:27.58, plus 30627, minus
+     minus 053 plus 141 [time:03:05:21:27|077:21:27.58], plus 30627, minus
      00625, plus 00577 180 018 001, NA, plus 00188 30639
      256 30452 40 2730 396 033, down 030, left 19,
      plus 0858, minus 16500, plus 12960, plus 36195
-     146:37:21; Sirius, Rigel, 129 155 010, two quads,
+     [time:06:02:37:21|146:37:21]; Sirius, Rigel, 129 155 010, two quads,
      20 seconds B and D, horizon 2 degrees at TIG
      minus 3.
 
@@ -20013,16 +20015,16 @@ CC: That's about the size of it, Frank, and a map
 CDR: Ready.
 
 [03:02:27:40]
-CC: REV'S 3/4: LOS 75:01:23, sunrise 75:10:16, prime
-     meridian 75:17:16, AOS 75:47:18, sunset 76:23:11;
-     remarks: subsolar point 75:46:55, IP-1 acquisition
-     76:11:17, IP-2 acquisition 76:12:30. For IP-1
+CC: REV'S 3/4: LOS [time:03:03:01:23|75:01:23], sunrise [time:03:03:10:16|75:10:16], prime
+     meridian [time:03:03:17:16|75:17:16], AOS [time:03:03:47:18|75:47:18], sunset [time:03:04:23:11|76:23:11];
+     remarks: subsolar point [time:03:03:46:55|75:46:55], IP-1 acquisition
+     [time:03:04:11:17|76:11:17], IP-2 acquisition [time:03:04:12:30|76:12:30]. For IP-1
      and 2, those ACQ times are for shaft and trunnion
      angles equals zero. Over.
 
 [03:02:28:53]
-CDR: Roger. Thank you. 75:01:23 75:10:16 75:17:16 75:47:18
-     76:23:11, subsolar 75:46:55, IP-1 76:11:17, IP-2 76:12:30,
+CDR: Roger. Thank you. [time:03:03:01:23|75:01:23] [time:03:03:10:16|75:10:16] [time:03:03:17:16|75:17:16] [time:03:03:47:18|75:47:18]
+     [time:03:04:23:11|76:23:11], subsolar [time:03:03:46:55|75:46:55], IP-1 [time:03:04:11:17|76:11:17], IP-2 [time:03:04:12:30|76:12:30],
      and at shaft and trunnion at 0.
 
 [03:02:29:16]
@@ -20110,7 +20112,7 @@ CDR: I understand; go for the next REV. Mike, we'd
 [03:02:41:07]
 CC: Okay, Frank. That's one of the things we are
      looking at right now. We have you ending at about
-     86 hours, and we're looking at extending that few
+     [time:03:14:00:00|86 hours], and we're looking at extending that few
      minutes to include that terminator view. Over.
 
 [03:02:41:23]
@@ -20477,10 +20479,10 @@ CDR: Just a minute, Mike.
 
 [03:03:57:20]
 CC: Roger. Apollo 8, Houston. Your map update for
-     REV 4/5: LOS 76:59:59, sunrise 77:09:06, prime
-     meridian 77:15:47, AOS 77:45:50, sunset 78:22:03;
-     IP-1 position time for control point 2, 77:29:42;
-     IP-1 time closest approach for target B-1, 78:10:25.
+     REV 4/5: LOS [time:03:04:59:59|76:59:59], sunrise [time:03:05:09:06|77:09:06], prime
+     meridian [time:03:05:15:47|77:15:47], AOS [time:03:05:45:50|77:45:50], sunset [time:03:06:22:03|78:22:03];
+     IP-1 position time for control point 2, [time:03:05:29:42|77:29:42];
+     IP-1 time closest approach for target B-1, [time:03:06:10:25|78:10:25].
      Over.
 
 [03:03:58:23]
@@ -20623,20 +20625,20 @@ CC: Okay. I have it for you again when you are
 CMP: Ready to copy.
 
 [03:04:20:26]
-CC: This is a map update for REV's 4/5: LOS 76:59:59,
-     sunrise 77:09:06, prime meridian 77:15:47, AOS
-     77:45:50, sunset 78:22:03; remarks: IP-1, acquisition
-     time for CP2 is 77:29:42, IP-1 time
-     closest approach for target B-1 78:10:25. Over.
+CC: This is a map update for REV's 4/5: LOS [time:03:04:59:59|76:59:59],
+     sunrise [time:03:05:09:06|77:09:06], prime meridian [time:03:05:15:47|77:15:47], AOS
+     [time:03:05:45:50|77:45:50], sunset [time:03:06:22:03|78:22:03]; remarks: IP-1, acquisition
+     time for CP2 is [time:03:05:23:42|77:29:42], IP-1 time
+     closest approach for target B-1 [time:03:06:10:25|78:10:25]. Over.
 
 [03:04:21:27]
-CDR: Roger. LOS 76:59:59, sunrise 77:09:06, 77:45:47,
-     77:45:50, 78:22:03; IP-1, CP2 77:29:42, IP-1 TCA
-     for B-1 78:10:25.
+CDR: Roger. LOS [time:03:04:59:59|76:59:59], sunrise [time:03:05:09:06|77:09:06], [time:03:05:45:47|77:45:47],
+     [time:03:05:45:50|77:45:50], [time:03:06:22:03|78:22:03]; IP-1, CP2 [time:03:05:29:42|77:29:42], IP-1 TCA
+     for B-1 [time:03:06:10:25|78:10:25].
 
 [03:04:21:52]
 CC: That's right, and the prime meridian time is
-     77:15:47, and you got your computer back. We've
+     [time:03:05:15:47|77:15:47], and you got your computer back. We've
      got a good P27 update.
 
 [03:04:22:04]
@@ -20710,11 +20712,11 @@ CC: Affirmative.
 [03:04:25:45]
 CC: Apollo 8, Houston. On your television update,
      we propose that you start the TV at the flight
-     plan time of 85 hours 37 minutes and simply
+     plan time of [time:03:13:37:00|85 hours 37 minutes] and simply
      extend the stop time a few minutes. You're
-     currently scheduled to stop at 86 hours, and we
+     currently scheduled to stop at [time:03:14:00:00|86 hours], and we
      would like to keep it going until the terminator,
-     which should be approximately 86:14. Over.
+     which should be approximately [time:03:14:14:00|86:14]. Over.
 
 [03:04:26:11]
 CDR: Roger.
@@ -20742,7 +20744,7 @@ CDR: Okay. Go ahead.
 
 [03:04:28:07]
 CC: Okay. TEI 5, SPS/G&N: 47 correction - 45701, minus
-     043, plus 116 079:21:26.03. Are you with me so far?
+     043, plus 116 [time:03:07:21:26|079:21:26.03]. Are you with me so far?
 
 [03:04:28:41]
 CDR: Roger.
@@ -20760,7 +20762,7 @@ CDR: Roger.
 _page : 409
 _tape : Tape 52 / Page 1
 CC: Roger. 40 2711 398 033, down 043, left 23,
-     plus 0832 minus 16500 12956 36208 146:39:44;
+     plus 0832 minus 16500 12956 36208 [time:06:02:39:44|146:39:44];
      north set of stars remain Sirius and Rigel;
      roll, pitch, and yaw remain same angles: 129
      155 010, ullage remains two quads for 20 seconds,
@@ -20769,11 +20771,11 @@ CC: Roger. 40 2711 398 033, down 043, left 23,
 
 [03:04:31:14]
 CDR: Roger. Here we go: TEI 5, SPS/G&N 45701,
-     minus 043, plus 116 079:21:26.03, plus 31171,
+     minus 043, plus 116 [time:03:07:21:26|079:21:26.03], plus 31171,
      minus 00767, minus 00214 180 017 001, NA, plus
      00188 31181 259 31003 40 2711 398 033, down 043,
      left 23, plus 0832, minus 16500, plus 12956
-     36208 146:39:44. Set stars are the same;
+     36208 [time:06:02:39:44|146:39:44]. Set stars are the same;
      ullage - we'd like - do you have any objection
      to using four quads for 15 seconds?
 
@@ -20850,7 +20852,7 @@ CC: Roger. We are still dumping your tapes. The
      voice quality on high bit is coming through
      superb, and you are GO for the next rev. And
      we would like to get a brief status report on
-     your rest between 60 hours and LOI 1, just to
+     your rest between [time:02:12:00:00|60 hours] and LOI 1, just to
      fill in some information for us.
 
 [03:04:40:56]
@@ -21030,7 +21032,7 @@ CC: Roger. We have about three and a half minutes
      to LOS. We give you back the DSE under your
      control, and in regard to your water dump, we
      are tentatively predicting a waste water tank
-     dump at about 80 hours GET and any other dumps
+     dump at about [time:03:08:00:00|80 hours] GET and any other dumps
      are at your discretion, any time you would like
      to make them.
 
@@ -21323,13 +21325,13 @@ LMP: Okay. I've got the map update page now. Why
      don't you give me that one?
 
 [03:06:24:55]
-CC: Okay. Map update for REV 5/6. LOS 78:58:49,
-     sunrise 79:08:07, prime meridian 79:14:30, AOS
-     79:44:36, sunset 80:21:05; IP-1, time of closest
-     approach to target B-1 80:09:00. Now your two
+CC: Okay. Map update for REV 5/6. LOS [time:03:06:58:49|78:58:49],
+     sunrise [time:03:07:08:07|79:08:07], prime meridian [time:03:07:14:30|79:14:30], AOS
+     [time:03:07:44:36|79:44:36], sunset [time:03:08:21:05|80:21:05]; IP-1, time of closest
+     approach to target B-1 [time:03:08:09:00|80:09:00]. Now your two
      new control points that Jim gave us: control
-     point number 1, acquisition 79:10:32, control
-     point number 2, acquisition 79:23:14. Over.
+     point number 1, acquisition [time:03:07:10:32|79:10:32], control
+     point number 2, acquisition [time:03:07:23:14|79:23:14]. Over.
 
 [03:06:26:16]
 LMP: Roger. Copy. Ready for the TEI.
@@ -21416,7 +21418,7 @@ CC: TEI 6, SPS/G&N: 45701, minus 040, plus 157. Are
 LMP: Roger.
 
 [03:06:29:57]
-CC: 081 21 24 43, plus 31776, minus 00823, minus
+CC: [time:03:09:21:24|081:21:24.43], plus 31776, minus 00823, minus
      01365 180 016 001, not applicable, plus 00188.
      Are you still with me? Over.
 
@@ -21426,14 +21428,14 @@ LMP: That's Roger.
 [03:06:31:57]
 CC: Good. 31816 302 31624 40 2699 396 033, down 054,
      left 21, plus 0810 control minus 16500 12968
-     36222 146 42 04; GDC align remains the same;
+     36222 [time:06:02:42:04|146:42:04]; GDC align remains the same;
      Sirius and Rigel, roll 129, pitch 155, yaw 010,
      ullage four quads for 15 seconds; horizon on
      6-degree line at TIG minus 3 minutes. Over.
 
 [03:06:32:46]
 LMP: Roger, Houston. TEI 6, SPS/G&N: 45701, minus
-     040, plus 157 018 21 2443, plus 31776, minus 00823,
+     040, plus 157 [time:00:18:21:24|018:21:24.43], plus 31776, minus 00823,
      minus 01365 180 016 001, NA, plus 00188 31816 302
      31624 40 2699. Are you with me?
 
@@ -21444,7 +21446,7 @@ CC: Yes, I'm with you, Bill.
 
 [03:06:33:44]
 LMP: 396 033, down 054, left 21, plus 08 10 minus
-     16500 12968 36222 146 42 04; same GDC align;
+     16500 12968 36222 [time:06:02:42:04|146:42:04]; same GDC align;
      Sirius and Rigel, 129 155 010, four jet, 15 seconds,
      horizon 6 degrees, TIG minus 3. Over.
 
@@ -21844,8 +21846,8 @@ LMP: Not permanently, I hope.
 [03:08:23:59]
 _page : 431
 _tape : Tape 54 / Page 6
-CC: Okay. Your map update for REV 6/7: LOS 80:57:24,
-     sunrise 81:06:57, prime meridian 81:13:02. Are
+CC: Okay. Your map update for REV 6/7: LOS [time:03:08:57:24|80:57:24],
+     sunrise [time:03:09:06:57|81:06:57], prime meridian [time:03:09:13:02|81:13:02]. Are
      you with me?
 
 [03:08:24:29]
@@ -21853,8 +21855,8 @@ LMP: You cut out after the prime meridian. I got it,
      but not AOS.
 
 [03:08:24:33]
-CC: AOS 81:43:05, sunset 82:13:54. Remarks: IP-1
-     TCA for B-1 82:07:39, and now I've got four more
+CC: AOS [time:03:09:43:05|81:43:05], sunset [time:03:10:13:54|82:13:54]. Remarks: IP-1
+     TCA for B-1 [time:03:10:07:39|82:07:39], and now I've got four more
      times for you which - acquisition times for when
      various things come over the horizon. Over.
 
@@ -21862,10 +21864,10 @@ CC: AOS 81:43:05, sunset 82:13:54. Remarks: IP-1
 LMP: Roger. Go ahead.
 
 [03:08:25:12]
-CC: Okay. Control point 1, acquisition time 81:09:05;
-     control point 2, acquisition time 81:21:48; control
-     point 3, acquisition time 81:43:17. B-1 acquisition
-     time 82:03:54. And I say again all those ACQ times
+CC: Okay. Control point 1, acquisition time [time:03:09:09:05|81:09:05];
+     control point 2, acquisition time [time:03:09:21:48|81:21:48]; control
+     point 3, acquisition time [time:03:09:43:17|81:43:17]. B-1 acquisition
+     time [time:03:10:03:54|82:03:54]. And I say again all those ACQ times
      are when they first come over the horizon. Over.
 
 [03:08:25:54]
@@ -21920,8 +21922,8 @@ CC: Roger. Thank you, Bill, and I'm ready to resume
 LMP: Okay. Press on with the weight.
 
 [03:08:28:22]
-CC: Alright. Weight 45701, minus 040, plus 157 083
-     18 2080, plus 32346, minus 01168, plus 05730. Are
+CC: Alright. Weight 45701, minus 040, plus 157
+     [time:03:11:18:20|083:18:20.80], plus 32346, minus 01168, plus 05730. Are
      you with me so far? Over.
 
 [03:08:29:28]
@@ -21948,7 +21950,7 @@ _tape : Tape 54 / Page 8
 LMP: Sounds good.
 
 [03:08:30:11]
-CC: Okay. GETI 083 18 2080, plus 32346, minus 01168,
+CC: Okay. GETI [time:03:11:18:20|083:18:20.80], plus 32346, minus 01168,
      plus 4 - correction, plus 05730. Are you with
      me? Over.
 
@@ -21958,14 +21960,14 @@ LMP: Roger.
 [03:08:30:53]
 CC: Thank you. 179 009 001, not applicable, plus
      00187 32870 307 32676 42 0880 253 033, down 121,
-     left 27, plus 0790 minus 16500 129 73 36238 146
-     4414; same north set Sirius and Rigel, roll 129,
+     left 27, plus 0790 minus 16500 129 73 36238
+     [time:06:02:44:14|146:44:14]; same north set Sirius and Rigel, roll 129,
      pitch 155, yaw 010, four quads for 15 seconds,
      horizon on the 2-degree mark at P ignition. Over.
 
 [03:08:32:53]
 LMP: Roger. TEI 7 SPS/G&N: 45701, minus 040, plus
-     157 08318 2080, plus 32346, minus 01168, plus
+     157 [time:03:11:18:20|083:18:20.80], plus 32346, minus 01168, plus
      05730 179 9 - correction, 009 001, NA. Are you
      with me?
 
@@ -21975,7 +21977,7 @@ CC: Yes, I'm with you, Bill.
 [03:08:33:32]
 LMP: Plus 00187 32870 307 32676 32 - correction,
      420880 253033, down 121, left 27, plus 0790, minus
-     16500 12973 36238 146 44 14; same north set
+     16500 12973 36238 [time:06:02:44:14|146:44:14]; same north set
      Sirius and Rigel, 129 155 010; four-jet, 15
      seconds, 2 degrees, now horizon and peak.
 
@@ -22285,19 +22287,19 @@ CC: Which would you like first, the map update or
 CMP: The map would be fine.
 
 [03:10:19:07]
-CC: Okay. Map update: LOS 82:55:54, sunrise 83:05:49,
-     prime meridian 83:11:38, AOS 83:41:43, sunset
-     84:18:45; remarks: control point 1 acquisition
-     83:07:39, control point 2 acquisition 83:20:21,
-     control point 3 ACQ 83:41:51, B-1 acquisition
-     84:02:28. Over.
+CC: Okay. Map update: LOS [time:03:10:55:54|82:55:54], sunrise [time:03:11:05:49|83:05:49],
+     prime meridian [time:03:11:11:38|83:11:38], AOS [time:03:11:41:43|83:41:43], sunset
+     [time:03:12:18:45|84:18:45]; remarks: control point 1 acquisition
+     [time:03:11:07:39|83:07:39], control point 2 acquisition [time:03:11:20:21|83:20:21],
+     control point 3 ACQ [time:03:11:41:51|83:41:51], B-1 acquisition
+     [time:03:12:02:28|84:02:28]. Over.
 
 [03:10:20:05]
 _page : 440
 _tape : Tape 55 / Page 5
-CMP: Roger. 82:55:54, 83:05:49, 83:11:38, 83:41:43,
-     84:18:45. CP-1 83:07:39, CP-2 83:20:21, CP-3 83:41:51,
-     B-1 81:02:28.
+CMP: Roger. [time:03:10:55:54|82:55:54], [time:03:11:05:49|83:05:49], [time:03:11:11:38|83:11:38], [time:03:11:41:43|83:41:43],
+     [time:03:12:18:45|84:18:45]. CP-1 [time:03:11:07:39|83:07:39], CP-2 [time:03:11:20:21|83:20:21], CP-3 [time:03:11:41:51|83:41:51],
+     B-1 [time:03:12:02:28|84:02:28].
 
 [03:10:20:29]
 CC: That's affirmative.
@@ -22310,7 +22312,7 @@ CMP: - - for the TEI PAD.
 
 [03:10:20:56]
 CC: Roger. The TEI 8 PAD, SPS/G&N: 45701, minus
-     040, plus 157 085:18:19.04. Are you with me so
+     040, plus 157 [time:03:13:18:19|085:18:19.04]. Are you with me so
      far? Over.
 
 [03:10:21:31]
@@ -22328,7 +22330,7 @@ CMP: Roger.
 CC: Okay. Picking up with the boresight star, it's
      old Dzuba who is the center star in the head of
      Scorpio; he's down 060, left 42, plus 0773, minus
-     16500 12982 36256 146:46:18. North set stars
+     16500 12982 36256 [time:06:02:46:18|146:46:18]. North set stars
      remain Sirius, Rigel, roll 129, pitch 155, yaw 010;
      four-quad ullage of 15 seconds, horizon on a
      4-degree line at TIG, and requesting you zero the
@@ -22354,10 +22356,10 @@ CC: Roger. That's affirmative.
 
 [03:10:24:38]
 CDR: Okay. TEI 8, SPS/G&N: 45701, minus 040, plus 157
-     085 18 1904, plus 33195, minus 01267, plus 04716
+     [time:03:13:18:19|085:18:19.04], plus 33195, minus 01267, plus 04716
      179 008 001, NA, plus 00187 33552 311 33355 42
      09090 252, Dzuba down 060, left 4.2, plus 0773,
-     minus 16500 12982 36256 146 46 18; Sirius, Rigel,
+     minus 16500 12982 36256 [time:06:02:46:18|146:46:18]; Sirius, Rigel,
      1.29 155 010, four-quad, 15 seconds, horizon 4 degrees
      at TIG.
 
@@ -22462,10 +22464,10 @@ CDR: Houston, Apollo 8.
 CC: Apollo 8, Houston.
 
 [03:10:36:04]
-CDR: Okay. What time is that TV, Mike, 85:37?
+CDR: Okay. What time is that TV, Mike, [time:03:13:37:00|85:37]?
 
 [03:10:36:08]
-CC: 85:37 to terminator, which is probably like 86:14.
+CC: [time:03:13:37:00|85:37] to terminator, which is probably like [time:03:14:14:00|86:14].
 
 [03:10:36:20]
 CDR: Okay. Well, I don't know if we can go that long
@@ -22665,11 +22667,11 @@ CDR: Roger.
 _page : 447
 _tape : Tape 56 / Page 3
 CDR: Okay. This PAD is a TEI 9, SPS/G&N: 45597,
-     minus 040, plus 157 087:19:18.20, plus 34188,
+     minus 040, plus 157 [time:03:15:19:18|087:19:18.20], plus 34188,
      minus 01353, plus 00780 180 008 001, November
      Alfa, plus 00187 34223 313 34021 42 0898 253
      033, down 131, left 28, plus 0758, minus 16500
-     12987 36277 146:48:16; primary star Sirius,
+     12987 36277 [time:06:02:48:16|146:48:16]; primary star Sirius,
      secondary Rigel, 129 155 010; four quads,
      15 second, ullage, horizons on 1.2-degree
      window line at T minus 3; use high speed procedure
@@ -22690,10 +22692,10 @@ CDR: Roger. Thank you.
 
 [03:12:06:02]
 CDR: TEI 9, SPS/G&N: 45597, minus 040, plus 157
-     087:19:18.20, plus 34188, minus 01353, plus 00780
+     [time:03:15:19:18|087:19:18.20], plus 34188, minus 01353, plus 00780
      180 008 001, NA, plus 00187 34223 313 34021 42
      0898 253 033, down 131, left 28, plus 0758,
-     minus 16500 12987, plus - or 36277 146:48:16;
+     minus 16500 12987, plus - or 36277 [time:06:02:48:16|146:48:16];
      and that's Sirius and Rigel 129 155 010, four
      jet, 15 seconds, 1.2 degrees on the window at
      T minus 3, high speed minus MA, engine 3.7 seconds
@@ -22921,7 +22923,7 @@ CDR: Go ahead.
 
 [03:12:44:31]
 CC: Okay. We're about - inside 10 minutes till LOS.
-     We'll be picking you up again at 85:40, and we'll
+     We'll be picking you up again at [time:03:13:40:00|85:40], and we'll
      have all of the TV types' information standing by.
      In the event that the situation develops again,
      for pointing accuracies, if I see anything that
@@ -23445,11 +23447,12 @@ CMP: Ready to copy, Ken.
 
 [03:14:11:20]
 CC: Roger. TEI 10, SPS/G&N: 45597, minus 040, plus
-     157 089:19:15.64, plus 35189, minus 01513, minus
-     00346 180 007 000, November Alfa plus 00186 35223 38 35019 42 0928 253, boresight star
+     157 [time:03:17:19:15|089:19:15.64], plus 35189, minus 01513, minus
+     00346 180 007 000, November Alfa plus 00186
+     35223 318 35019 42 0928 253, boresight star
      Scorpii Delta (another name for it is Dzuba)
      down 071, left 45, plus 0748 minus 16500 12995
-     36300 146:50:05; primary star Sirius, secondary,
+     36300 [time:06:02:50:05|146:50:05]; primary star Sirius, secondary,
      Rigel, 129 155 010; four quads, 15 second,
      ullage; horizon on the 2.9 window line at T
      minus 3; use high-speed procedure with minus
@@ -23459,11 +23462,11 @@ CC: Roger. TEI 10, SPS/G&N: 45597, minus 040, plus
 _page : 465
 _tape : Tape 58 / Page 6
 CMP: Okay. TEI PAD as follows: SPS/G&N: 45597,
-     minus 040, plus 157 089:19:15.64, plus 35189,
+     minus 040, plus 157 [time:03:17:19:15|089:19:15.64], plus 35189,
      minus 01513, minus 00346 180 007 000, not
      applicable, plus 00186 35223 318 35019 42 0928
      253, Scorpii Delta (Dzuba), down 071, left 45,
-     plus 0748 minus 16500 12995 36300 146:50:05;
+     plus 0748 minus 16500 12995 36300 [time:06:02:50:05|146:50:05];
      Sirius, Rigel, 129 155 010; four quads, 15 seconds,
      2.9-degree window line at TIG minus 3,
      high-speed procedure minus MA.
@@ -23507,7 +23510,7 @@ CDR: Roger.
 CC: Okay. I am going to give you a quick summary
      of systems. Basically, all systems are good. In
      respect to your return trajectory, we can still
-     get to the mid-Pacific line at 146 hours by
+     get to the mid-Pacific line at [time:06:02:00:00|146 hours] by
      waiting as late as the thirteenth REV. After
      138 seconds of the burn, you are on your way
      home. The weather in the recovery area looks
@@ -23562,7 +23565,7 @@ CC: Okay, Apollo 8. While we are - -
 [03:14:22:57]
 CC: Apollo 8, while we are waiting for the high gain,
      I will continue the trajectory summary. We can
-     still get back to the mid-Pacific line in 146 hours
+     still get back to the mid-Pacific line in [time:06:02:00:00|146 hours]
      from the thirteenth REV, and you are on your way
      after 138 seconds of the burn. That's 138 seconds,
      gets you clear of the butterfly region. We
@@ -23571,8 +23574,8 @@ CC: Apollo 8, while we are waiting for the high gain,
      get the trajectory beyond the correction - RCS correction
      capability to a free return. The weather
      in recovery area is good. We have an AOS following
-     TEI of 89 plus 28 plus 39 and an AOS without
-     TEI of 89 plus 37 plus 24. During the burn, you
+     TEI of [time:03:17:28:39|89 plus 28 plus 39] and an AOS without
+     TEI of [time:03:17:37:24|89 plus 37 plus 24]. During the burn, you
      may notice a slight change in chamber pressure and
      tank pressures due to the fuel exhaustion in the
      storage tank and going to the sump tank. This may
@@ -23582,11 +23585,11 @@ CC: Apollo 8, while we are waiting for the high gain,
      GO. In ECS, we want to stop water boiling after
      TEI for trajectory purposes. Your water dump
      situation looks good; you should be good to greater
-     than 105 hours. We'll try to hold off the water
+     than [time:04:09:00:00|105 hours]. We'll try to hold off the water
      dump until after MCC 5. In the EPS, we'd like to
      stir the cryos prior to TLI - correction TEI. The
      next purge on the fuel cells will occur at approximately
-     92 hours, and that will be both hydrogen
+     [time:03:20:00:00|92 hours], and that will be both hydrogen
      and oxygen. Your battery status: battery A 34.9,
      battery B 39.1, and Charlie 38.5. We have the
      single tank cryo capability. SPS: looking at
@@ -23681,7 +23684,7 @@ LMP: Thank you.
 
 [03:14:44:27]
 CC: Apollo 8, Houston. We're 5 minutes to LOS;
-     we'll have AOS Honeysuckle at 87:38:42.
+     we'll have AOS Honeysuckle at [time:03:15:38:42|87:38:42].
 
 [03:14:44:42]
 CMP: Roger.
@@ -23734,11 +23737,11 @@ CDR: Go ahead.
 
 [03:15:41:28]
 CC: Alright. TEI 10, SPS/G&N: 45597, minus 040,
-     plus 157 089:19:15.67, plus 35186, minus 01512,
+     plus 157 [time:03:17:19:15|089:19:15.67], plus 35186, minus 01512,
      minus 00520 180 007 000, November Alfa, plus
      00186 35223 318 35018 42 0924 253; Scorpii Delta,
      down 069, left 45, plus 0748, minus 16500 12994
-     36300 146:50:05; primary star Sirius, secondary
+     36300 [time:06:02:50:05|146:50:05]; primary star Sirius, secondary
      Rigel, 129 155 010; four quads, 15 seconds, ullage;
      horizon on 3.2-degree window line at T
      minus 3; use high-speed procedure with minus
@@ -23787,10 +23790,10 @@ CC: Go ahead.
 
 [03:15:45:18]
 CMP: TEI 10, SPS/G&N: 45597, minus 040, plus 157
-     089:19:15.67, plus 35186, minus 01512, minus 00520
+     [time:03:17:19:15|089:19:15.67], plus 35186, minus 01512, minus 00520
      180 007 000, not applicable, plus 00186 35223
      318 35018 42 0924 253; Scorpii Delta, down 069,
-     left 45, plus 0748, minus 16500 12994 36300 146:50:05;
+     left 45, plus 0748, minus 16500 12994 36300 [time:06:02:50:05|146:50:05];
      Sirius, Rigel, 129 155 010; four-quad,
      ullage, 15 seconds; horizon on the 3.2-degree
      mark is T minus 3; high-speed procedure minus MA.
@@ -23812,22 +23815,22 @@ CDR: We are ready; go ahead.
 _page : 472
 _tape : Tape 59 / Page 3
 CC: Roger. TEI 11, SPS/G&N: 45597, 0 - correction -
-     that's minus 040, plus 157 091:18:12.24, plus 36325,
+     that's minus 040, plus 157 [time:03:19:18:12|091:18:12.24], plus 36325,
      minus 01727, plus 01428 180 003 000, November
      Alfa, plus 00186 36394 323 36186 42 0995 254;
      Scorpii Delta, down 103, left 48, plus 0742,
-     minus 16500 13005 36327 146:51:44; Sirius and
+     minus 16500 13005 36327 [time:06:02:51:44|146:51:44]; Sirius and
      Rigel, 129 155 010, four quads, 15 seconds;
      horizon on 2.9-degree line at T minus 2; high-speed
      procedure with minus Mike Alfa. Over.
 
 [03:15:49:47]
 CMP: Roger, Houston. TEI minus 11, SPS/G&N: 45597,
-     minus 040, plus 157 091:18:12.24, plus 36325,
+     minus 040, plus 157 [time:03:19:18:12|091:18:12.24], plus 36325,
      minus 01727, plus 01428 180 003 000, not applicable,
      plus 00186 36394 323 36186 42 0995 254;
      Scorpii Delta, down 103, left 48, plus 0742, minus
-     16500 13005 36327 146:51:44; Sirius, Rigel, 129 155
+     16500 13005 36327 [time:06:02:51:44|146:51:44]; Sirius, Rigel, 129 155
      010; four quads, 15 seconds, 2.9-degree window mark
      at T minus 2; high-speed procedure minus MA.
 
@@ -23836,7 +23839,7 @@ CC: That's correct, Apollo 8.
 
 [03:15:51:25]
 LMP: Houston, could you give me the SPS helium tank
-     temperature at about 87:20, please?
+     temperature at about [time:03:15:20:00|87:20], please?
 
 [03:15:51:42]
 CC: Okay. Stand by one.
@@ -23857,7 +23860,7 @@ CMP: Houston, Apollo 8.
 [03:15:54:46]
 _page : 473
 _tape : Tape 59 / Page 4
-CC: Apollo 8, Houston. At 87:48, we're reading
+CC: Apollo 8, Houston. At [time:03:15:48:00|87:48], we're reading
      84 degrees, and at LOS we had 80. We'll take
      a look at the tape and see if we can find out
      what we had on the backside.
@@ -23916,14 +23919,14 @@ CDR: Roger. Go ahead.
 
 [03:16:09:58]
 CC: Okay. PTC attitude will be pitch 10, yaw 45.
-     This begins at 92 hours. Over.
+     This begins at [time:03:20:00:00|92 hours]. Over.
 
 [03:16:10:11]
 CDR: Is that pitch 10 and yaw 45?
 
 [03:16:10:14]
 CC: Affirmative. And looks like that will go with
-     the entry REFSMMAT; begins at 92 hours.
+     the entry REFSMMAT; begins at [time:03:20:00:00|92 hours].
 
 [03:16:10:24]
 CDR: Thank you.
@@ -23987,7 +23990,7 @@ CDR: We're on a maneuver to burn attitude, and it's
 
 [03:16:31:57]
 CC: Apollo 8, the tape recorder is yours. We have
-     your double umbra update, 89:07:15.87.
+     your double umbra update, [time:03:17:07:15|89:07:15.87].
 
 [03:16:32:11]
 CDR: Roger. Copy.
@@ -24005,7 +24008,7 @@ CC: There's no change on your AOS time.
 CDR: Now what was it?
 
 [03:16:32:31]
-CC: Okay. With TEI, 89:28:39.
+CC: Okay. With TEI, [time:03:17:28:39|89:28:39].
 
 [03:16:32:40]
 CDR: Thank you.
@@ -24524,8 +24527,8 @@ CDR: Okay. It's maneuver to pitch 10 and yaw 45.
 [03:19:10:41]
 CC: Roger. I have - let's see, we've got a hydrogen
      purge line here that ought to come on about
-     91:40 and an oxygen-hydrogen fuel cell purge
-     for 92 hours.
+     [time:03:19:40:00|91:40] and an oxygen-hydrogen fuel cell purge
+     for [time:03:20:00:00|92 hours].
 
 [03:19:10:59]
 CDR: Okay. Will you call us about those, please?
@@ -24733,7 +24736,7 @@ CC: Okay. I'm sorry. Alfa is 60.
 LMP: For what time?
 
 [03:19:36:26]
-CC: 91:36.
+CC: [time:03:19:36:00|91:36].
 
 [03:19:36:35]
 LMP: Okay. Stand by.
@@ -24766,7 +24769,7 @@ LMP: How are we doing on the cryos?
 [03:19:37:52]
 CC: Oh, you've got some pretty good numbers on
      that that I sent up yesterday, and you had
-     about 160 hours. Well, I'll check that out,
+     about [time:06:16:00:00|160 hours]. Well, I'll check that out,
      but you were fat on cryo. I've got some SPS
      DELTA-V. You've got 33:20. You fly the service
      module RCS through the DAP. You have 142; and
@@ -25052,10 +25055,10 @@ CC: Apollo 8, this is Houston. Your systems are
 
 [03:22:54:36]
 LMP: Roger. And I'd like to do the chlorination at
-     about 95:30 if I could.
+     about [time:03:23:30:00|95:30] if I could.
 
 [03:22:54:43]
-CC: Roger. Understand; chlorination: 95:30. Okay?
+CC: Roger. Understand; chlorination: [time:03:23:30:00|95:30]. Okay?
 
 [03:22:55:41]
 LMP: Houston, we're on OMNI C and going to Bravo now -
@@ -25472,19 +25475,19 @@ CC: Roger. Stand by, Frank, and we'll give you an
 
 [03:23:30:07]
 CC: Apollo 8, Houston. We are looking at a midcourse
-     correction at 104 hours of about 5 feet per second.
+     correction at [time:04:08:00:00|104 hours] of about 5 feet per second.
      The tracking is real good. We got you in
      the center of the corridor and on target.
 
 [03:23:30:24]
-CDR: Understand; 5 feet per second at 104 hours.
+CDR: Understand; 5 feet per second at [time:04:08:00:00|104 hours].
 
 [03:23:30:27]
 CC: That's affirm.
 
 [03:23:30:50]
 CC: Frank, did you get the word that we deleted the
-     P52 at 96?
+     P52 at [time:04:00:00:00|96]?
 
 [03:23:30:57]
 CDR: Roger. Do you mind if we go ahead and do it now?
@@ -25858,15 +25861,15 @@ CC: Apollo 8, this is Houston with a battery status
 CDR: Go ahead. We were just talking about the batteries.
 
 [04:00:53:39]
-CC: Roger. At 96 hours EEP, battery A has 38.95 amp-hours;
+CC: Roger. At [time:04:00:00:00|96 hours] EEP, battery A has 38.95 amp-hours;
      battery B has 36.35 amp-hours; battery C has
      38.46 amp-hours. Your total, 113.76 amp-hours. At
-     97 plus 50, battery A will be fully charged and will
+     [time:04:01:50:00|97 plus 50], battery A will be fully charged and will
      have 40 amp-hours, and you can terminate charge at
      that time. Over.
 
 [04:00:54:15]
-CDR: At 97:50.
+CDR: At [time:04:01:50:00|97:50].
 
 [04:00:54:17]
 CC: Roger.
@@ -25883,7 +25886,7 @@ _page : 514
 _tape : Tape 65 / Page 1
 CMP: We gave you back VERB 64. I wonder if you could
      have Guidance figure out a corridor correction
-     at 114 hours for us with a minus 648 cabin.
+     at [time:04:18:00:00|114 hours] for us with a minus 648 cabin.
 
 [04:01:03:03]
 CC: Okay, Jim. We copy, and now we see we've got
@@ -26102,7 +26105,7 @@ CC: They say they are.
 CMP: I just worked out an answer to move my landing
      longitude 6 degrees east. I just want to compare
      with what they've got based on the same
-     burn time of 114 hours, based on the bias impact
+     burn time of [time:04:18:00:00|114 hours], based on the bias impact
      longitude determined from the P37 which is
      wrong. I've indicated that I need 600 foot
      per second DELTA-V<sub>C</sub> burn plus, and my DELTA-V<sub>X</sub>
@@ -26144,7 +26147,7 @@ CC: Roger. We're reading you much better now.
      Jim can go ahead with his transmission to the
      guidance troops. They have one question before
      he starts. They would like to know what his
-     GERU was at TIG, 114 hours. Over.
+     GERU was at TIG, [time:04:18:00:00|114 hours]. Over.
 
 [04:02:23:21]
 _page : 519
@@ -26197,7 +26200,7 @@ CC: Apollo 8, this is Houston with a flight plan
 CDR: Go ahead.
 
 [04:02:49:50]
-CC: Roger. At 100 hours 30 minutes, change star
+CC: Roger. At [time:04:04:30:00|100 hours 30 minutes], change star
      number 02 from one set to two set. Over.
 
 [04:02:50:05]
@@ -26218,20 +26221,20 @@ CC: Roger. Then after star set number 3, initiate
 CDR: Pitch 10, yaw 45.
 
 [04:02:50:38]
-CC: Roger. Then at 101 hours 30 minutes, delete the
+CC: Roger. Then at [time:04:05:30:00|101 hours 30 minutes], delete the
      earth horizon settings. Over.
 
 [04:02:50:53]
-CDR: 101:30, delete the earth horizons sightings.
+CDR: [time:04:05:30:00|101:30], delete the earth horizons sightings.
 
 [04:02:50:57]
 CC: That's affirmative. The folks here are evaluating
      the thermal situation. Looks like you will be
      out of PTC rather at an extended period of time.
      That's the reason we have you initiating PTC again
-     there around 101 as soon as you finish those three
+     there around [time:04:05:00:00|101] as soon as you finish those three
      star sightings. We are still working on the -
-     about the next 10 hours after 100 hours. We are
+     about the next 10 hours after [time:04:04:00:00|100 hours]. We are
      looking at the thermal situation, and the star
      sighting situation, and we will be giving you more
      updates later on. Over.
@@ -26564,7 +26567,7 @@ CC: Roger, Frank. The helium tank temperature
      than go back into PTC, let's just roll her
      over 180 degrees and put quad A on the cool
      side, and hold it that way until your next
-     activity comes up, which is around 102:30.
+     activity comes up, which is around [time:04:06:00:00|102:30].
      Over.
 
 [04:04:31:41]
@@ -27274,7 +27277,7 @@ CMP: With you.
 [04:06:43:58]
 _page : 540
 _tape : Tape 68 / Page 8
-CC: Good. 10359 5286, minus 00050, plus all zeros,
+CC: Good. [time:04:07:59:52|103:59:52.86], minus 00050, plus all zeros,
      plus 00001 000 334 001 five zeros, plus 00190
      00050 014 00050. Are you still with me? Over.
 
@@ -27283,7 +27286,7 @@ CMP: Still with you.
 
 [04:06:45:16]
 CC: Good. 413020 183, Shaula, down 064, left 06,
-     plus 0747, minus 16410 12988 36301 146 4640; north
+     plus 0747, minus 16410 12988 36301 [time:06:02:46:40|146:46:40]; north
      set of stars, Sirius and Rigel, roll 308,
      pitch 209, yaw 357. Remarks: use high-speed
      procedure with minus MA. Over.
@@ -27296,11 +27299,11 @@ CMP: Roger, Houston. MCC 5, RCS/G&N - are you with
 CC: I'm with you, Jim.
 
 [04:06:47:13]
-CMP: 31700, NA, NA, 10359 5286, minus 00050, plus
+CMP: 31700, NA, NA, [time:04:07:59:52|103:59:52.86], minus 00050, plus
      all zeros, plus 00001 000 334 001, all zeros,
      plus 00190 00050 014 0050 413020 183, Shaula,
      down 064, left 06, plus 0747, minus 16410
-     12988 36301 146 4640; Sirius, Rigel, 308 209
+     12988 36301 [time:06:02:46:40|146:46:40]; Sirius, Rigel, 308 209
      357; use high-speed procedure with minus MA.
 
 [04:06:48:23]
@@ -27792,7 +27795,7 @@ CDR: Roger.
 
 [04:08:07:16]
 CDR: Mike, this is Frank. Is this TV still scheduled
-     for 104:50?
+     for [time:04:08:50:00|104:50]?
 
 [04:08:07:22]
 CC: That's affirmative, Frank, if you can manage it.
@@ -28118,7 +28121,7 @@ CC: Apollo 8, Houston.
 CDR: Go ahead.
 
 [04:08:46:44]
-CC: Tentatively, midcourse correction at 122 hours
+CC: Tentatively, midcourse correction at [time:05:02:00:00|122 hours]
      is zero; and in about an hour and a half, we'll
      have some track data to confirm that.
 
@@ -28239,7 +28242,7 @@ _tape : Tape 70 / Page 2
 CC: Okay, Bill. We think it would be an extremely
      worthwhile thing to find out how it operates
      in the AUTO REACQ mode, and we propose running
-     a test on it in that mode from 109 to 111 hours
+     a test on it in that mode from [time:04:13:00:00|109] to [time:04:15:00:00|111 hours]
      GET. Over.
 
 [04:09:56:46]
@@ -28259,8 +28262,8 @@ CC: We have a detailed procedure which we can read
 LMP: Go ahead.
 
 [04:09:57:10]
-CC: Okay. We suggest the start time 109 hours GET,
-     stop time 111 hours, and you'll be in a PTC.
+CC: Okay. We suggest the start time [time:04:13:00:00|109 hours] GET,
+     stop time [time:04:15:00:00|111 hours], and you'll be in a PTC.
      We're requesting a left roll rate, which we
      notice that you've been preferring, a left
      roll rate of 1 revolution per hour, and this
@@ -28674,7 +28677,7 @@ CDR: Go ahead.
 [04:11:03:13]
 CC: Go ahead and delete the remainder of the P23's
      that you're working on now, go back to PTC attitude,
-     and then pick up where it says 108 hours
+     and then pick up where it says [time:04:12:00:00|108 hours]
      in the flight plan to pick up again there with
      your P23, or if you prefer to slip that time
      a couple of hours, if you want to get some
@@ -28887,7 +28890,7 @@ CC: Roger, Jim. We thought you might be interested
      in knowing, based on 2-1/2 hours worth of track
      after your last midcourse, and looking ahead,
      we're predicting the midcourse correction at
-     122 hours will be less than 1 foot per second.
+     [time:05:02:00:00|122 hours] will be less than 1 foot per second.
      And keep it on going to entry interface minus
      2 hours, we're predicting 2 foot per second
      midcourse at that time. Now those numbers will
@@ -28902,7 +28905,7 @@ CC: Can't hardly beat it.
 
 [04:11:57:33]
 CMP: After we do these next P23's, I'll see what our
-     P37 gives us. What's that midcourse, 122 hours
+     P37 gives us. What's that midcourse, [time:05:02:00:00|122 hours]
      that has practically zero?
 
 [04:11:57:44]
@@ -29227,7 +29230,7 @@ LMP: Roger.
 
 [04:12:58:44]
 CC: Okay. The other change is on an elapsed time
-     of 120 - a hundred and twenty hours: we'd like
+     of [time:05:00:00:00|120 - a hundred and twenty hours]: we'd like
      to increase that P23 work, the first star change,
      from one set to two sets. The second star from
      one to two - -
@@ -29266,7 +29269,7 @@ CC: Very good.
 [04:13:00:01]
 CC: Roger, Bill. I was just given a new one here.
      While you've got your flight plan out, this
-     would be 130 hours GET. Have you got that page?
+     would be [time:05:10:00:00|130 hours] GET. Have you got that page?
 
 [04:13:00:15]
 LMP: I just put it away, but I'll get it out again.
@@ -30149,13 +30152,13 @@ CDR: Go ahead, Houston. Apollo 8.
 
 [04:16:10:03]
 CC: Roger. Looking at the flight plan, you have a P52
-     coming up at a 115 hours, and we'll have to do
-     another one at 119:45 in preparation for the P23.
+     coming up at a [time:04:19:00:00|115 hours], and we'll have to do
+     another one at [time:04:23:45:00|119:45] in preparation for the P23.
      And it's acceptable with the ground procedures
-     if you would like to delay about 115-hour alignment,
-     and do it just once at 119:45, or you can
+     if you would like to delay about [time:04:19:00:00|115-hour] alignment,
+     and do it just once at [time:04:23:45:00|119:45], or you can
      do it there in flight plan location. If you want
-     to skip the 115-hour alignment we could go ahead
+     to skip the [time:04:19:00:00|115-hour] alignment we could go ahead
      and start in on the pitch and yaw free PTC mode
      at this time.
 
@@ -31099,9 +31102,10 @@ CC: Okay. I've got a few good words for you. The
 CDR: Very good. 
 
 [04:19:18:19]
-CC: Okay. As of 114 hours, your batteries - you 
-     had battery A with 39.32 amp-hours, battery B had 35.21, and battery C 38.46. Your cryo 
-     quantities remaining at SSP were the same 
+CC: Okay. As of [time:04:18:00:00|114 hours], your batteries - you 
+     had battery A with 39.32 amp-hours, battery B
+     had 35.21, and battery C 38.46. Your cryo 
+     quantities remaining at SEP were the same 
      we gave you the last time, 180 pounds of oxygen 
      per tank and 11 pounds of hydrogen per tank. At 
      present, the service module RCS, using the 
@@ -32012,7 +32016,7 @@ LMP: Just my kind of weather.
 
 [04:22:19:14]
 CC: Roger. Got a couple of flight plan things to 
-     consider. Now number 1 at 119:30: we have got a 
+     consider. Now number 1 at [time:04:23:30:00|119:30]: we have got a
      P52 IMU realignment which we need to slip in ahead 
      of the P23 sightings, and that will be an option 3 
      REFSMMAT. 
@@ -32037,7 +32041,7 @@ LMP: Okay, Ken. I got something to write on. Was that
      P52 at 18:30 or 19:30? 
 
 [04:22:21:11]
-CC: 119:30. 
+CC: [time:04:23:30:00|119:30].
 
 [04:22:21:15]
 LMP: Okay. I'm ready to copy on TV. 
@@ -32277,7 +32281,7 @@ LMP: I don't think it's any great big deal, because
      manner. 
 
 [04:22:31:26]
-CC: Okay. And we're looking at 120 hours for,the next 
+CC: Okay. And we're looking at [time:05:00:00:00|120 hours] for the next 
      water dump, Bill. 
 
 [04:22:33:41]
@@ -32645,7 +32649,7 @@ CC: Apollo 8, Houston.
 CDR: Go ahead, Houston. Apollo 8.
 
 [05:00:33:39]
-CC: Roger. At 128 hours, your altitude is 97 413,
+CC: Roger. At [time:05:08:00:00|128 hours], your altitude is 97 413,
      your velocity is - -
 
 [05:00:33:48]
@@ -32655,7 +32659,7 @@ CDR: Stand by just a minute.
 CC: Okay.
 
 [05:00:33:53]
-CDR: At 128 hours, you say?
+CDR: At [time:05:08:00:00|128 hours], you say?
 
 [05:00:33:55]
 CC: Roger. That's TV time.
@@ -32736,7 +32740,7 @@ CC: Apollo 8, Houston. Go.
 
 [05:00:43:53]
 CMP: Roger. Was MCC 6 determined for exactly
-     122 hours, when you came up with that six-tenths
+     [time:05:02:00:00|122 hours], when you came up with that six-tenths
      of a foot per second?
 
 [05:00:44:21]
@@ -33347,7 +33351,7 @@ CC: Roger. Got some information for you on this
      we think maybe we'll get a little bit of spin
      stabilization if we try it at 0.3 degrees per
      second on the roll rate rather than 0.1. So
-     if you figure on doing that at 124:30 we'll see
+     if you figure on doing that at [time:05:04:30:00|124:30] we'll see
      what kind of information we can get out of it.
 
 [05:03:23:14]
@@ -33539,7 +33543,7 @@ CC: Roger. That sounds good.
 
 [05:03:32:04]
 CC: Apollo 8, Houston. Also, on the flight plan
-     for 124:30, we would like for you to run an
+     for [time:05:04:30:00|124:30], we would like for you to run an
      O<sub>2</sub> purge on the fuel cells.
 
 [05:03:32:17]
@@ -33679,7 +33683,7 @@ CC: Okay, Frank. And then, also, we are looking for
 
 [05:04:04:30]
 CDR: That's right. At - I got the word now; it's
-     supposed to be at 124:30.
+     supposed to be at [time:05:04:30:00|124:30].
 
 [05:04:04:37]
 CC: Right.
@@ -33696,13 +33700,13 @@ CDR: Go ahead.
 [05:04:11:18]
 CC: Roger. For your P37 that's coming up that you
      are going to run, use a midcourse 7 time of
-     144:46. Also just a little note here, the
+     [time:06:00:46:00|144:46]. Also just a little note here, the
      trajectory is looking so good, it looks like
      you can make the corridor without even making
      a midcourse 7.
 
 [05:04:11:37]
-CDR: Roger. 144:46 for the P37.
+CDR: Roger. [time:06:00:46:00|144:46] for the P37.
 
 [05:04:11:44]
 CC: Affirmative.
@@ -33769,12 +33773,12 @@ CMP: Go ahead.
 
 [05:04:21:37]
 CC: Looks like you loaded the wrong time in P37,
-     You should load 144:46 for your midcourse time;
-     looks like you loaded 146:46.
+     You should load [time:06:00:46:00|144:46] for your midcourse time;
+     looks like you loaded [time:06:02:46:00|146:46].
 
 [05:04:21:46]
 CMP: Okay. I'm sorry. Yes, I have it here. I
-     wrote it down, 146:46. Okay.
+     wrote it down, [time:06:02:46:00|146:46]. Okay.
 
 [05:04:21:55]
 CC: Roger.
@@ -33928,7 +33932,7 @@ CDR: It's getting cooler, thank you. We put those
 [05:05:07:22]
 CC: Okay. The primary loop down here still looks real
      good, so it looks like you are in fine shape. Your
-     battery B charge ought to be done by about 127 hours,
+     battery B charge ought to be done by about [time:05:07:00:00|127 hours],
      and we think you shouldn't even try to charge
      battery A, since it looks like, at entry interface, it
      is going to have 38 amp-hours on it.
@@ -34164,7 +34168,7 @@ CC: Apollo 8, Houston. Go.
 [05:07:14:42]
 CDR: Roger. We would leave the PTC long enough to
      go orient toward the earth for a TV shot to
-     see if this TV thing is going off on 128.
+     see if this TV thing is going off on [time:05:08:00:00|128].
 
 [05:07:15:20]
 CC: Roger, Frank. That is fine. Do you have the
@@ -34208,7 +34212,7 @@ CDR: Roger.
 
 [05:07:16:50]
 CC: Frank, do you intend to start your TV before
-     128?
+     [time:05:08:00:00|128]?
 
 [05:07:17:02]
 CDR: Negative; no.
@@ -34483,7 +34487,7 @@ CC: Now move it away from the terminator just a
 CC: Good picture.
 
 [05:07:47:15]
-CDR: Okay. You want us to wait until 128, right?
+CDR: Okay. You want us to wait until [time:05:08:00:00|128], right?
 
 [05:07:47:19]
 CC: Affirmative. Frank, move your camera to the
@@ -34498,7 +34502,7 @@ CC: Okay. Moving your camera to the right moves the
      top.
 
 [05:07:47:52]
-CDR: Okay. We will turn it back on at 128, then.
+CDR: Okay. We will turn it back on at [time:05:08:00:00|128], then.
 
 [05:07:47:55]
 CC: Okay, Frank.
@@ -35150,7 +35154,7 @@ CDR: Go ahead.
 [05:09:12:48]
 CC: Roger. Entry interface minus 4 hours is just
      about right for the VHF. That is about - oh,
-     142 GET.
+     [time:05:22:00:00|142] GET.
 
 [05:09:13:03]
 CDR: Roger. Thank you.
@@ -35368,7 +35372,7 @@ CDR: When we get the PAD data, we'll get it all out
 
 [05:10:18:58]
 CC: Yes. We'll be sending the PAD data up to you
-     in about another 2 hours, Frank; about 132 hours 
+     in about another 2 hours, Frank; about [time:05:12:00:00|132 hours]
      GET.
 
 [05:10:19:06]
@@ -35521,7 +35525,7 @@ CC: Okay, Jim. On page 2-107, we're recommending
      that you delete that P52 and just-stay in PTC
      attitude. Your platform is real good, and we
      don't feel that alignment's necessary. One is
-     coming up again at 139 hours anyway. And also,
+     coming up again at [time:05:19:00:00|139 hours] anyway. And also,
      on that same page, we'd like to delete the
      "begin cabin cold soak." Over. 
 
@@ -35542,7 +35546,7 @@ CC: Roger, Apollo 8. This is Houston. Over.
 
 [05:12:05:03]
 CMP: Roger. Mike. Are you still planning to send
-     up these updates at 132 hours?
+     up these updates at [time:05:12:00:00|132 hours]?
 
 [05:12:05:08]
 CC: Yes; affirmative, Jim. We're getting them
@@ -35586,7 +35590,7 @@ CMP: Go ahead with midcourse number 7.
 
 [05:12:10:52]
 CC: Okay. Midcourse correction number 7, RCS/G&N:
-     31600, not applicable, not applicable, 14445 5799,
+     31600, not applicable, not applicable, [time:06:00:45:57|144:45:57.99],
      minus 00014, plus five zeros, plus 00001. Are
      you with me so far? Over.
 
@@ -35633,7 +35637,7 @@ CMP: Roger.
 [05:12:13:43]
 CC: Okay. Picking up with DELTA-V<sub>T</sub> 00014 004 00014
      45 0459 225, Shaula, up 236 000, plus 0813
-     minus 16503 12202 36301 146 4641; north set of
+     minus 16503 12202 36301 [time:06:02:46:41|146:46:41]; north set of
      stars, Sirius and Rigel, roll 308, pitch 209,
      yaw 357; remarks: perigee in P30 equals plus
      22.2 nautical miles. Over.
@@ -35642,7 +35646,7 @@ CC: Okay. Picking up with DELTA-V<sub>T</sub> 00014 004 00014
 _page : 715
 _tape : Tape 87 / Page 3
 CMP: Roger. Midcourse number 7 RCS/G&N: 31600,
-     not applicable, not applicable, 14445 5799.
+     not applicable, not applicable, [time:06:00:45:57|144:45:57.99].
      Are you with me?
 
 [05:12:16:17]
@@ -35652,7 +35656,7 @@ CC: I'm with you.
 CMP: Minus 00014, plus all zeros, plus 00001 000 304
      000, not applicable, plus 00191 00014 004 00014
      45 0459 225 Shaula, up 236 000, plus 0813,
-     minus 16503 12202 36301 146 4641, Sirius, Rigel,
+     minus 16503 12202 36301 [time:06:02:46:41|146:46:41], Sirius, Rigel,
      308 209 357, HP, and P30 is 22.2 nautical miles.
 
 [05:12:17:24]
@@ -35667,8 +35671,8 @@ CMP: Ready to copy. Mike.
 
 [05:12:17:52]
 CC: Okay. Entry PAD: area mid-Pacific, 357 152 359
-     146 29 13 268, plus 0813, minus 16503 068 36221
-     651 12202 36301 146 46 13 0028, not applicable
+     [time:06:02:29:13|146:29:13] 268, plus 0813, minus 16503 068 36221
+     651 12202 36301 [time:06:02:46:13|146:46:13] 0028, not applicable
      four times, in other words, DL MAX, DL MIN,
      VL MAX, and VL MIN - all not applicable.
      Starting with TO: 400 0207 0025 0333 0816 16
@@ -35682,8 +35686,8 @@ CMP: Right, Mike. Stand by.
 
 [05:12:21:13]
 CMP: Entry as follows: mid-Pacific, 357 152 359
-     146 2913 268, plus 0813, minus 165 03 068 36221
-     651 12202 36301 146 4613 0028, NA 4 times,
+     [time:06:02:29:13|146:29:13] 268, plus 0813, minus 165 03 068 36221
+     651 12202 36301 [time:06:02:46:13|146:46:13] 0028, NA 4 times,
      with TO 400 0207 0025 0333 0816 16 0590 312,
      Zeta Persei, up 165, right 34, up. And remarks:
      use nonexit EMS pattern. And Zeta Persei is
@@ -36464,7 +36468,7 @@ CC: Okay.
 [05:20:37:17]
 CC: Okay. And we'd like to - guess we need a PRD
      reading from you. And we'll be needing one in
-     the neighborhood of 145-hour period, somewhere
+     the neighborhood of [time:06:01:00:00|145-hour] period, somewhere
      when it's convenient in there again.
 
 [05:20:45:20]
@@ -36749,12 +36753,12 @@ CDR: Go ahead, Houston.
 CC: Okay. We have checked into your drogue time,
      and the number of 08:16 on your entry PAD is
      correct. We'll be giving you an updated entry
-     PAD on the scheduled time of 143:30. At the same
+     PAD on the scheduled time of [time:05:23:30:00|143:30]. At the same
      time, we'll be giving you an update of your state
      vectors for the LM and CSM. The midcourse 
      correction number 7 was less than seven-tenths foot per
      second, and we will not execute it. You have a
-     P52 scheduled at 143:30 which is not required.
+     P52 scheduled at [time:05:23:30:00|143:30] which is not required.
      It's your option. However, if you decide to delete
      the P52, the CMC self-check and DSKY condition
      light test are still requirements. Over.
@@ -37031,8 +37035,8 @@ LMP: Ready to copy, Houston.
 
 [05:23:37:38]
 CC: Okay. This will be the mid-Pacific, 357 152
-     359 146 29 00 268, plus 0813, minus 16503 065
-     36221 645 12122 36301 14646 14 0028. The next
+     359 [time:06:02:29:00|146:29:00] 268, plus 0813, minus 16503 065
+     36221 645 12122 36301 [time:06:02:46:14|146:46:14] 0028. The next
      block is November Alfa: D<sub>0</sub> 400 02 12 0025 0334 08
      14 16 0590 312; Zeta Persei, up 165, right 34, up.
      Use nonexit EMS pattern, GDC align; primary star
@@ -37352,8 +37356,8 @@ CMP: Okay. Go ahead with the entry PAD, Houston.
 
 [06:01:11:42]
 CC: Okay. We are still going to the mid-Pacific,
-     357 152 359 146 2913 267, plus 0813, minus 16503
-     066 36221 647 12166 36301 14646 13 0028, the next
+     357 152 359 [time:06:02:29:13|146:29:13] 267, plus 0813, minus 16503
+     066 36221 647 12166 36301 [time:06:02:46:13|146:46:13] 0028, the next
      block is November Alfa, V<sub>0</sub> 400 0210 0025 0335 0816
      160590 312; Zeta Persei, up 165, right 34, up nonexit
      EMS pattern; Sirius and Rigel, roll 308, pitch 209,
@@ -37361,8 +37365,8 @@ CC: Okay. We are still going to the mid-Pacific,
 
 [06:01:14:11]
 CMP: Roger, Houston. Entry PAD as follows: mid-Pacific,
-     357 152 359 146 2913 267, plus 0813, minus 16503
-     066 36221 647 12166 36301 14646 13 0028, NA, 400
+     357 152 359 [time:06:02:29:13|146:29:13] 267, plus 0813, minus 16503
+     066 36221 647 12166 36301 [time:06:02:46:13|146:46:13] 0028, NA, 400
      0210 0025 0335 0816 160590 312, Zeta Persei,
      up 165, right 34, up. Use nonexit EMS pattern;
      Sirius, Rigel, 308, 209, 357, no P65.
@@ -37564,7 +37568,7 @@ CDR: Roger.
 CC: Apollo 8, Houston. Stand by for handover from
      Carnarvon to Guam on the hour. We should have
      continuous contact except for the blackout period
-     beginning at 146:51.
+     beginning at [time:06:02:51:00|146:51].
 
 [06:01:57:36]
 CDR: Roger.
