@@ -22,6 +22,28 @@
         "about": "Apollo 8 was an ambitious mission of many firsts. Its three-man crew were the first humans to leave earth orbit, and the first to enter the gravitational field of another celestial body — the Moon. In doing so, they captured the imagination of the entire world, taking many now-iconic photographs (including \"earthrise\") and filming a Christmas Eve television broadcast during lunar orbit that was seen by an estimated quarter of all people alive in December 1968.\n\nThis site allows you to explore transcripts of radio communications between the Apollo 8 crew and the NASA personnel back at Houston. Included with the transcripts are photographs taken both from the ground and by the crew in space, as well as other information about this historic mission."
     },
     "shared_glossaries": ["space", "apollo"],
+    "error_pages": {
+        "404": {
+            "title": "404 - Who stirred the tanks?",
+            "heading": "That's<br />no moon.",
+            "subheading": "404 - Page Not Found.",
+            "text": "Looks like we've lost a page.  Sorry about that.  Not your fault at all.",
+            "classic_moment": "Christmas broadcast",
+            "classic_moment_quote": "03:14:04:53"
+        },
+        "500": {
+            "title": "500 - This is Houston, hold 1 please.",
+            "heading": "We blew it.",
+            "subheading": "500 - Server Error.",
+            "text": "Apollo 8, Houston. Could you stand by one? We are working on something here.",
+            "classic_moment": "Christmas broadcast",
+            "classic_moment_quote": "03:14:04:53"
+        },
+        "no_search_results": {
+            "text": "Sorry about that. Still, it could be worse, the crew of Apollo 8 couldn't always find the earth:",
+            "classic_moment_quote": "00:04:10:35"
+        }
+    },
     "characters": {
         "CC": {
             "role": "astronaut",
