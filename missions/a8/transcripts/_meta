@@ -99,13 +99,63 @@
     "acts" : [
         {
             "title": "Launch",
-            "description": "During takeoff the crew sat inside Odyssey, Apollo 13's Command Module, on top of the Saturn V rocket. As fuel was burnt up, the first two stages of the Saturn V were jettisoned and fell back to Earth along with the abort tower.",
-            "range": ["-00:00:00:20", "07:00:00:00"],
-            "banner_background": "act1.jpg",
+            "description": "Apollo 8 was launched into earth orbit by a powerful Saturn V rocket. During the launch, the first two phases of the rocket drop away, leaving the third state—the S-IVB—to inject the spacecraft into earth orbit.",
+            "range": ["-00:00:00:20", "00:00:11:30"],
+            "banner": "act1.jpg",
             "banner_colour": "#5d86b2",
             "orbital": "act1.png",
             "illustration": "act1.gif",
             "homepage": "act1.jpg"
+        },
+        {
+            "title": "Earth orbit",
+            "description": "Apollo 8 spent nearly three hours in earth orbit, before the crew re-ignited the S-IVB booster, propelling the craft out of earth orbit and towards the moon.",
+            "range": ["00:00:11:30", "00:02:59:56"],
+            "banner": "act2.jpg",
+            "banner_colour": "#5d86b2",
+            "orbital": "act2.png",
+            "illustration": "act2.gif",
+            "homepage": "act2.jpg"
+        },
+        {
+            "title": "To the moon",
+            "description": "During this phase of the mission, the crew of Apollo 8 became the first people to leave the earth's sphere of influence, and enter the gravitational pull of another planetary body.",
+            "range": ["00:02:59:56", "02:20:58:00"],
+            "banner": "act3.jpg",
+            "banner_colour": "#5d86b2",
+            "orbital": "act3.png",
+            "illustration": "act3.gif",
+            "homepage": "act3.jpg"
+        },
+        {
+            "title": "Lunar orbit",
+            "description": "Apollo 8 completed 10 orbits of the moon, where the crew made observations of possible landing sites for future missions, took photographs, and famously broadcast a reading from the first book of the Bible.",
+            "range": ["02:20:58:00", "03:17:31:12"],
+            "banner": "act4.jpg",
+            "banner_colour": "#5d86b2",
+            "orbital": "act4.png",
+            "illustration": "act4.gif",
+            "homepage": "act4.jpg"
+        },
+        {
+            "title": "Towards earth",
+            "description": "The crew of Apollo 8 began their return to earth early on Christmas morning, 1968.",
+            "range": ["03:17:31:12", "05:21:41:31"],
+            "banner": "act5.jpg",
+            "banner_colour": "#5d86b2",
+            "orbital": "act5.png",
+            "illustration": "act5.gif",
+            "homepage": "act5.jpg"
+        },
+        {
+            "title": "Reentry & splashdown",
+            "description": "Before re-entering the earth's atmosphere, the crew jettisoned the Service Module. After re-entry, their parachutes slowed their descent, and they splashed down safely in the Pacific Ocean.",
+            "range": ["05:21:41:31", "06:03:02:04"],
+            "banner": "act6.jpg",
+            "banner_colour": "#5d86b2",
+            "orbital": "act6.png",
+            "illustration": "act6.gif",
+            "homepage": "act6.jpg"
         }
     ],
     "homepage_quotes" : [
