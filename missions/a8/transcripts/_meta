@@ -59,7 +59,7 @@
         "CDR": {
           "role": "astronaut",
           "name": "Frank F. Borman, II",
-          "short_name": "Frank Borman",
+          "short_name": "Frank Borman (CDR)",
           "bio": "",
           "photo": "",
           "photo_width": 190,
@@ -70,7 +70,7 @@
         "CMP": {
           "role": "astronaut",
           "name": "James A. Lovell, Jr",
-          "short_name": "Jim Lovell",
+          "short_name": "Jim Lovell (CMP)",
           "bio": "",
           "photo": "",
           "photo_width": 190,
@@ -81,7 +81,7 @@
         "LMP": {
           "role": "astronaut",
           "name": "William A. Anders",
-          "short_name": "Bill Anders",
+          "short_name": "Bill Anders (LMP)",
           "bio": "",
           "photo": "",
           "photo_width": 190,
