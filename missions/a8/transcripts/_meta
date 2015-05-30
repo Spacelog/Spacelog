@@ -54,7 +54,30 @@
             "photo": "capcom.jpg",
             "photo_width": 190,
             "photo_height": 205,
-            "avatar": "capcom_generic.jpg"
+            "avatar": "capcom_generic.jpg",
+            "shifts": [
+              ["MIKE_COLLINS", "-00:01:00:00"],
+              ["KEN_MATTINGLY", "00:06:32:42"],
+              ["JERRY_CARR", "00:16:38:10"],
+              ["MIKE_COLLINS", "00:21:41:24"],
+              ["KEN_MATTINGLY", "01:06:22:25"],
+              ["JERRY_CARR", "01:15:38:02"],
+              ["MIKE_COLLINS", "02:01:16:34"],
+              ["KEN_MATTINGLY", "02:08:10:06"],
+              ["JERRY_CARR", "02:16:38:09"],
+              ["MIKE_COLLINS", "03:02:11:38"],
+              ["KEN_MATTINGLY", "03:11:42:18"],
+              ["DEKE_SLAYTON", "03:17:54:06", "not a full shift: just a Christmas greeting"],
+              ["KEN_MATTINGLY", "03:17:57:01"],
+              ["JACK_SCHMITT", "03:17:59:31", "not a full shift: just a Christmas greeting"],
+              ["KEN_MATTINGLY", "03:18:07:21"],
+              ["JERRY_CARR", "03:20:22:22"],
+              ["MIKE_COLLINS", "04:05:51:03"],
+              ["KEN_MATTINGLY", "04:13:55:51"],
+              ["JERRY_CARR", "04:23:44:51"],
+              ["MIKE_COLLINS", "05:09:22:39"],
+              ["KEN_MATTINGLY", "05:19:19:04"]
+            ]
         },
         "CDR": {
           "role": "astronaut",
@@ -94,6 +117,61 @@
           "name": "Unidentified crew member",
           "short_name": "Unidentified crew member",
           "avatar": "SC_48.png"
+        },
+        "MIKE_COLLINS": {
+          "role": "mission-ops",
+          "name": "Michael Collins",
+          "short_name": "Mike Collins (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "bio": "",
+          "photo": "",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "capcom_generic.jpg"
+        },
+        "KEN_MATTINGLY": {
+          "role": "mission-ops",
+          "name": "Ken Mattingly",
+          "short_name": "Ken Mattingly (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "bio": "",
+          "photo": "",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "capcom_generic.jpg"
+        },
+        "JERRY_CARR": {
+          "role": "mission-ops",
+          "name": "Jerry Carr",
+          "short_name": "Jerry Carr (CAPCOM)",
+          "mission_position": "CAPCOM",
+          "bio": "",
+          "photo": "",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "capcom_generic.jpg"
+        },
+        "DEKE_SLAYTON": {
+          "role": "mission-ops",
+          "name": "Donald Kent (Deke) Slayton",
+          "short_name": "Deke Slayton",
+          "mission_position": "CAPCOM",
+          "bio": "",
+          "photo": "",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "capcom_generic.jpg"
+        },
+        "JACK_SCHMITT": {
+          "role": "mission-ops",
+          "name": "Harrison H. (Jack) Schmitt",
+          "short_name": "Jack Schmitt",
+          "mission_position": "CAPCOM",
+          "bio": "",
+          "photo": "",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "capcom_generic.jpg"
         }
     },
     "acts" : [
