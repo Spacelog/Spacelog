@@ -46,11 +46,10 @@
     },
     "characters": {
         "CC": {
-            "role": "astronaut",
-            "_comment": "not an astronaut, done for formatting reasons",
+            "role": "mission-ops-title",
             "name": "Capsule Communicator",
             "short_name": "CAPCOM",
-            "bio": "",
+            "bio": "Throughout the Apollo Space Program, the CAPCOM was another astronaut who was the main person to communicate with the crew, as it was considered that someone who had that training would be best able to clearly pass information back and forth. On Apollo 8, there were three CAPCOMs operating in shifts.",
             "photo": "capcom.jpg",
             "photo_width": 190,
             "photo_height": 205,
@@ -79,38 +78,93 @@
               ["KEN_MATTINGLY", "05:19:19:04"]
             ]
         },
+        "F": {
+          "role": "mission-ops-title",
+          "name": "Flight Director",
+          "short_name": "Flight",
+          "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. On Apollo 8, there were three FLIGHT teams operating in shifts.",
+          "photo": "flight_directors.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "F_48.png"
+        },
         "CDR": {
           "role": "astronaut",
           "name": "Frank F. Borman, II",
           "short_name": "Frank Borman (CDR)",
-          "bio": "",
-          "photo": "",
+          "mission_position": "Commander",
+          "bio": "A former USAF fighter pilot, Borman joined NASA in 1962 as part of the second astronaut group. Apollo 8 was his second mission, having already taken part in the first orbiatal rendezvous and set a 14 day spaceflight endurance record with Jim Lovell on Gemini 7.",
+          "photo": "borman.jpg",
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "",
-          "quotable_log_line_id": ""
+          "stats": [
+            {
+                "value": 478,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 40,
+                "text": "age at launch"
+            }
+          ],
+          "quotable_log_line_id": "TEC:05:01:11:58"
         },
         "CMP": {
           "role": "astronaut",
           "name": "James A. Lovell, Jr",
           "short_name": "Jim Lovell (CMP)",
-          "bio": "",
-          "photo": "",
+          "mission_position": "Command Module Pilot",
+          "bio": "Jim Lovell was a test pilot for the US Navy before he joined NASA in 1962. Before Apollo 8, Lovell had flown on Gemini 7 with Frank Borman, and Gemini 12 with Buzz Aldrin; he would go on to command the infamous <a href=\"http://apollo13.spacelog.org\">Apollo 13</a> mission before retiring from NASA in 1973.",
+          "photo": "lovel.jpg",
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "",
-          "quotable_log_line_id": ""
+          "stats": [
+            {
+                "value": 715,
+                "text": "hours in space"
+            },
+            {
+                "value": 4,
+                "text": "missions"
+            },
+            {
+                "value": 40,
+                "text": "age at launch"
+            }
+          ],
+          "quotable_log_line_id": "TEC:03:17:34:25"
         },
         "LMP": {
           "role": "astronaut",
           "name": "William A. Anders",
           "short_name": "Bill Anders (LMP)",
-          "bio": "",
-          "photo": "",
+          "mission_position": "Lunar Module Pilot",
+          "bio": "Bill Anders was a USAF fighter pilot before he joined NASA as part of the third astronaut group in 1963. Apollo 8 was his only spaceflight, after which he worked for the US government in various capacities, including as a member of the Atomic Energy Commission, and as Ambassador to Norway.",
+          "photo": "anders.jpg",
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "",
-          "quotable_log_line_id": ""
+          "stats": [
+            {
+                "value": 147,
+                "text": "hours in space"
+            },
+            {
+                "value": 1,
+                "text": "missions"
+            },
+            {
+                "value": 35,
+                "text": "age at launch"
+            }
+          ],
+          "quotable_log_line_id": "TEC:04:06:08:55"
         },
         "SC": {
           "role": "other",
