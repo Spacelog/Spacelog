@@ -290,6 +290,40 @@
             "homepage": "act6.jpg"
         }
     ],
+    "key_scenes": [
+      {
+        "title": "TV broadcast 1: views of the earth",
+        "range": ["01:07:10:23", "01:07:24:17"]
+      },
+      {
+        "title": "TV broadcast 2: views of the earth",
+        "range": ["02:07:07:36", "02:07:28:55"]
+      },
+      {
+        "title": "TV broadcast 3: views of the moon",
+        "range": ["02:23:40:42", "02:23:53:07"]
+      },
+      {
+        "title": "TV broadcast 4: views of the moon",
+        "range": ["03:13:43:03", "03:14:04:47"]
+      },
+      {
+        "title": "Reading from Genesis",
+        "range": ["03:14:04:53", "03:14:08:07"]
+      },
+      {
+        "title": "Jack Schmitt reads “The Night Before Christmas”",
+        "range": ["03:17:59:31", "03:18:01:38"]
+      },
+      {
+        "title": "TV broadcast 5: life onboard Apollo 8",
+        "range": ["04:08:23:56", "04:08:33:35"]
+      },
+      {
+        "title": "TV broadcast 6: views of the earth",
+        "range": ["05:08:01:13", "05:08:05:27"]
+      }
+    ],
     "homepage_quotes" : [
         "00:00:56:55",
         "00:02:58:07",
