@@ -549,11 +549,17 @@
     "VERB 46": {
         "summary": "Establish G&C Control"
     },
+    "VERB 47": {
+        "summary": "Move LM state vector into CM state vector"
+    },
     "VERB 48": {
         "summary": "Request DAP data load"
     },
     "VERB 49": {
         "summary": "Request Crew Defined Maneuver routine"
+    },
+    "VERB 51": {
+        "summary": "Please mark"
     },
     "VERB 52": {
         "summary": "Mark reject"
@@ -606,8 +612,20 @@
     "VERB 79": {
         "summary": "Request Lunar Landmark Selection Routine (CSM)"
     },
+    "VERB 82": {
+        "summary": "Request orbital parameter display"
+    },
+    "VERB 83": {
+        "summary": "Request rendezvous parameter display"
+    },
+    "VERB 89": {
+        "summary": "Request rendezvous final attitude"
+    },
     "VERB 96": {
         "summary": "Terminate integration and go to P00"
+    },
+    "NOUN 01": {
+        "summary": "Specify machine address (fractional)"
     },
     "NOUN 07": {
         "summary": "Set/reset values"
@@ -620,6 +638,9 @@
     },
     "NOUN 17": {
         "summary": "Astronaut total attitude"
+    },
+    "NOUN 18": {
+        "summary": "Auto maneuvre ball angles"
     },
     "NOUN 20": {
         "summary": "ICDUs"
@@ -645,6 +666,9 @@
     "NOUN 34": {
         "summary": "Time of next program event"
     },
+    "NOUN 42": {
+        "summary": "Apogee, perigee and DELTA-V"
+    },
     "NOUN 44": {
         "summary": "Height (nautical miles)"
     },
@@ -656,6 +680,9 @@
     },
     "NOUN 48": {
         "summary": "Gimbal pitch and roll trim"
+    },
+    "NOUN 51": {
+        "summary": "Time to event (IG or ECO)"
     },
     "NOUN 60": {
         "summary": "Forward velocity (LM)"
@@ -684,8 +711,14 @@
     "NOUN 81": {
         "summary": "Delta V: Change in velocity (fps)"
     },
+    "NOUN 87": {
+        "summary": "Mark data shaft and trunnion"
+    },
     "NOUN 88": {
         "summary": "Half-unit sun or planet vector"
+    },
+    "NOUN 89": {
+        "summary": "Landmark lattitude and longitude"
     },
     "NOUN 91": {
         "summary": "OCDU shaft and trunnion (CSM)"
@@ -693,13 +726,22 @@
     "NOUN 93": {
         "summary": "Delta gyro angles"
     },
+    "NOUN 99": {
+        "summary": "W-matrix position"
+    },
     "P00": {
         "summary": "Idle"
+    },
+    "P01": {
+        "summary": "Pre-launch or service: initialization"
+    },
+    "P02": {
+        "summary": "Pre-launch or service: gyro compassing"
     },
     "P11": {
         "summary": "Launch control"
     },
-    "P22": {
+    "P21": {
         "summary": "Ground track determination"
     },
     "P22": {
@@ -735,7 +777,19 @@
     "P52": {
         "summary": "Guidance platform realignment"
     },
+    "P53": {
+        "summary": "Back-up IMU orientation determination"
+    },
     "P61": {
         "summary": "Entry preparation"
+    },
+    "P62": {
+        "summary": "Entry CM/SM separation and pre-entry maneuvre"
+    },
+    "P63": {
+        "summary": "Entry intitialization"
+    },
+    "P65": {
+        "summary": "Entry up control"
     }
 }
