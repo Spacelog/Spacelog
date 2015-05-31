@@ -48,11 +48,7 @@
         "MIKE_COLLINS",
         "KEN_MATTINGLY",
         "JERRY_CARR",
-        "CLIFF_CHARLESWORTH",
-        "MILT_WINDLER",
-        "GLYNN_LUNNEY",
-        "DEKE_SLAYTON",
-        "JACK_SCHMITT"
+        "DEKE_SLAYTON"
     ],
     "characters": {
         "CC": {
@@ -246,47 +242,30 @@
           "avatar": "capcom_generic.jpg"
         },
         "JACK_SCHMITT": {
-          "role": "mission-ops",
+          "role": "other",
           "name": "Harrison H. (Jack) Schmitt",
           "short_name": "Jack Schmitt",
-          "mission_position": "CAPCOM",
-          "bio": "",
-          "photo": "",
-          "photo_width": 190,
-          "photo_height": 205,
           "avatar": "capcom_generic.jpg"
         },
         "CLIFF_CHARLESWORTH": {
-          "role": "mission-ops",
+          "role": "other",
           "name": "Clifford E. Charlesworth",
           "short_name": "Cliff Charlesworth (FLIGHT)",
           "mission_position": "Flight director (Green team)",
-          "bio": "",
-          "photo": "",
-          "photo_width": 190,
-          "photo_height": 205,
           "avatar": "F_48.png"
         },
         "MILT_WINDLER": {
-          "role": "mission-ops",
+          "role": "other",
           "name": "Milton Windler",
           "short_name": "Milt Windler (FLIGHT)",
           "mission_position": "Flight director (Maroon team)",
-          "bio": "",
-          "photo": "",
-          "photo_width": 190,
-          "photo_height": 205,
           "avatar": "F_48.png"
         },
         "GLYNN_LUNNEY": {
-          "role": "mission-ops",
+          "role": "other",
           "name": "Glynn Lunney",
           "short_name": "Glynn Lunney (FLIGHT)",
           "mission_position": "Flight director (Black team)",
-          "bio": "",
-          "photo": "",
-          "photo_width": 190,
-          "photo_height": 205,
           "avatar": "F_48.png"
         },
         "MUSIC": {
