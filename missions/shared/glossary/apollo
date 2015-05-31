@@ -35,6 +35,10 @@
         "summary": "Atmosphere revitalization system",
         "type": "abbreviation"
     },
+    "CAL": {
+        "summary": "Calibration angle",
+        "type": "abbreviation"
+    },
     "CCGE": {
         "summary": "Cold cathode gage experiment",
         "type": "abbreviation"
@@ -45,6 +49,10 @@
     },
     "CDH": {
         "summary": "Constant delta altitude (height)",
+        "type": "abbreviation"
+    },
+    "CDU": {
+        "summary": "Control data unit",
         "type": "abbreviation"
     },
     "CM": {
@@ -68,8 +76,8 @@
         "type": "abbreviation"
     },
     "CPCB": {
-    "summary": "Crew Procedures Control Board",
-    "type": "abbreviation"
+        "summary": "Crew Procedures Control Board",
+        "type": "abbreviation"
     },
     "CPLEE": {
         "summary": "Charged particle lunar environment experiment",
@@ -167,6 +175,14 @@
         "summary": "Flight director attitude indicator",
         "type": "abbreviation"
     },
+    "FM": {
+        "summary": "Frequency Modulation",
+        "type": "abbreviation"
+    },
+    "G&N": {
+        "summary": "Guidance and Navigation",
+        "type": "abbreviation"
+    },
     "GDC": {
         "summary": "Gyro display coupler",
         "type": "abbreviation"
@@ -185,6 +201,14 @@
     },
     "HGA": {
         "summary": "High gain antenna",
+        "type": "abbreviation"
+    },
+    "HA": {
+        "summary": "Apogee altitude",
+        "type": "abbreviation"
+    },
+    "HP": {
+        "summary": "Perigee altitude",
         "type": "abbreviation"
     },
     "HTC": {
@@ -283,6 +307,18 @@
         "summary": "Orbital rate display earth and lunar",
         "type": "abbreviation"
     },
+    "PAD": {
+        "summary": "Voice update",
+        "type": "abbreviation"
+    },
+    "PC": {
+        "summary": "Pericynthian",
+        "type": "abbreviation"
+    },
+    "PCM": {
+        "summary": "Pulse Code Modulation",
+        "type": "abbreviation"
+    },
     "PDI": {
         "summary": "Powered descent initiation",
         "type": "abbreviation"
@@ -319,6 +355,10 @@
         "summary": "Passive thermal control",
         "type": "abbreviation"
     },
+    "PU": {
+        "summary": "Propellant Utilization",
+        "type": "abbreviation"
+    },
     "RCU": {
         "summary": "Remote control unit",
         "type": "abbreviation"
@@ -329,6 +369,10 @@
     },
     "RLS": {
         "summary": "Radius of landing site",
+        "type": "abbreviation"
+    },
+    "RTC": {
+        "summary": "Real-Time Command",
         "type": "abbreviation"
     },
     "RTG": {
@@ -345,6 +389,10 @@
     },
     "SECS": {
         "summary": "Sequential events control system",
+        "type": "abbreviation"
+    },
+    "SEP": {
+        "summary": "Separation",
         "type": "abbreviation"
     },
     "SIDE": {
@@ -379,6 +427,10 @@
         "summary": "Solar wind experiment",
         "type": "abbreviation"
     },
+    "TCA": {
+        "summary": "Time of Closest Approach",
+        "type": "abbreviation"
+    },
     "TEC": {
         "summary": "Transearth coast",
         "type": "abbreviation"
@@ -397,6 +449,10 @@
     },
     "TLI": {
         "summary": "Translunar injection",
+        "type": "abbreviation"
+    },
+    "TLM": {
+        "summary": "Telemetry",
         "type": "abbreviation"
     },
     "TPF": {
@@ -429,6 +485,10 @@
     },
     "S-IVB": {
         "summary": "Saturn V Third Stage",
+        "type": "abbreviation"
+    },
+    "FAO": {
+        "summary": "Flight Activities Officer",
         "type": "abbreviation"
     },
     "FIDO": {
