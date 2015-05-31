@@ -278,6 +278,12 @@
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "F_48.png"
+        },
+        "MUSIC": {
+          "role": "other",
+          "name": "Music",
+          "short_name": "",
+          "avatar": "music.png"
         }
     },
     "acts" : [
