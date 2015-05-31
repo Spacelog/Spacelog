@@ -44,6 +44,16 @@
             "classic_moment_quote": "00:04:10:35"
         }
     },
+    "character_ordering": [
+        "MIKE_COLLINS",
+        "KEN_MATTINGLY",
+        "JERRY_CARR",
+        "CLIFF_CHARLESWORTH",
+        "MILT_WINDLER",
+        "GLYNN_LUNNEY",
+        "DEKE_SLAYTON",
+        "JACK_SCHMITT"
+    ],
     "characters": {
         "CC": {
             "role": "mission-ops-title",
