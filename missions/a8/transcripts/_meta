@@ -86,7 +86,26 @@
           "photo": "flight_directors.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "F_48.png"
+          "avatar": "F_48.png",
+          "shifts": [
+              ["CLIFF_CHARLESWORTH", "-00:01:00:00", "based on CAPCOM shifts; there seems to be one CAPCOM per flight team for this mission"],
+              ["MILT_WINDLER", "00:06:32:42"],
+              ["GLYNN_LUNNEY", "00:16:38:10"],
+              ["CLIFF_CHARLESWORTH", "00:21:41:24"],
+              ["MILT_WINDLER", "01:06:22:25"],
+              ["GLYNN_LUNNEY", "01:15:38:02"],
+              ["CLIFF_CHARLESWORTH", "02:01:16:34"],
+              ["MILT_WINDLER", "02:08:10:06"],
+              ["GLYNN_LUNNEY", "02:16:38:09"],
+              ["CLIFF_CHARLESWORTH", "03:02:11:38"],
+              ["MILT_WINDLER", "03:11:42:18"],
+              ["GLYNN_LUNNEY", "03:20:22:22"],
+              ["CLIFF_CHARLESWORTH", "04:05:51:03"],
+              ["MILT_WINDLER", "04:13:55:51"],
+              ["GLYNN_LUNNEY", "04:23:44:51"],
+              ["CLIFF_CHARLESWORTH", "05:09:22:39"],
+              ["MILT_WINDLER", "05:19:19:04"]
+          ]
         },
         "CDR": {
           "role": "astronaut",
@@ -226,6 +245,39 @@
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "capcom_generic.jpg"
+        },
+        "CLIFF_CHARLESWORTH": {
+          "role": "mission-ops",
+          "name": "Clifford E. Charlesworth",
+          "short_name": "Cliff Charlesworth (FLIGHT)",
+          "mission_position": "Flight director (Green team)",
+          "bio": "",
+          "photo": "",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "F_48.png"
+        },
+        "MILT_WINDLER": {
+          "role": "mission-ops",
+          "name": "Milton Windler",
+          "short_name": "Milt Windler (FLIGHT)",
+          "mission_position": "Flight director (Maroon team)",
+          "bio": "",
+          "photo": "",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "F_48.png"
+        },
+        "GLYNN_LUNNEY": {
+          "role": "mission-ops",
+          "name": "Glynn Lunney",
+          "short_name": "Glynn Lunney (FLIGHT)",
+          "mission_position": "Flight director (Black team)",
+          "bio": "",
+          "photo": "",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "F_48.png"
         }
     },
     "acts" : [
