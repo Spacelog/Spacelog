@@ -275,6 +275,8 @@
           "avatar": "music.png"
         }
     },
+    "main_transcript": "a8/TEC",
+    "media_transcript": "a8/MEDIA",
     "acts" : [
         {
             "title": "Launch",
