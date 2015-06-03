@@ -62,7 +62,7 @@
             "photo": "capcom.jpg",
             "photo_width": 190,
             "photo_height": 205,
-            "avatar": "capcom_generic.jpg",
+            "avatar": "person.png",
             "shifts": [
               ["MIKE_COLLINS", "-00:01:00:00"],
               ["KEN_MATTINGLY", "00:06:32:42"],
@@ -95,7 +95,7 @@
           "photo": "flight_directors.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "F_48.png",
+          "avatar": "person.png",
           "shifts": [
               ["CLIFF_CHARLESWORTH", "-00:01:00:00", "based on CAPCOM shifts; there seems to be one CAPCOM per flight team for this mission"],
               ["MILT_WINDLER", "00:06:32:42"],
@@ -125,7 +125,7 @@
           "photo": "borman.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "",
+          "avatar": "astronaut.png",
           "stats": [
             {
                 "value": 478,
@@ -151,7 +151,7 @@
           "photo": "lovel.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "",
+          "avatar": "astronaut.png",
           "stats": [
             {
                 "value": 715,
@@ -177,7 +177,7 @@
           "photo": "anders.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "",
+          "avatar": "astronaut.png",
           "stats": [
             {
                 "value": 147,
@@ -198,7 +198,25 @@
           "role": "other",
           "name": "Unidentified crew member",
           "short_name": "Unidentified crew member",
-          "avatar": "SC_48.png"
+          "avatar": "astronaut.png"
+        },
+        "CT": {
+          "role": "other",
+          "name": "Communications Technician",
+          "short_name": "CommTech",
+          "avatar": "person.png"
+        },
+        "YORK": {
+          "role": "other",
+          "name": "USS Yorktown",
+          "short_name": "USS Yorktown",
+          "avatar": "YORK_48.png"
+        },
+        "R3": {
+          "role": "other",
+          "name": "Recovery helicopter",
+          "short_name": "Recovery helicopter",
+          "avatar": "copters_48.png"
         },
         "MIKE_COLLINS": {
           "role": "mission-ops",
@@ -209,7 +227,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "capcom_generic.jpg"
+          "avatar": "person.png"
         },
         "KEN_MATTINGLY": {
           "role": "mission-ops",
@@ -220,7 +238,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "capcom_generic.jpg"
+          "avatar": "person.png"
         },
         "JERRY_CARR": {
           "role": "mission-ops",
@@ -231,7 +249,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "capcom_generic.jpg"
+          "avatar": "person.png"
         },
         "DEKE_SLAYTON": {
           "role": "mission-ops",
@@ -242,40 +260,40 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "capcom_generic.jpg"
+          "avatar": "person.png"
         },
         "JACK_SCHMITT": {
           "role": "other",
           "name": "Harrison H. (Jack) Schmitt",
           "short_name": "Jack Schmitt",
-          "avatar": "capcom_generic.jpg"
+          "avatar": "person.png"
         },
         "CLIFF_CHARLESWORTH": {
           "role": "other",
           "name": "Clifford E. Charlesworth",
           "short_name": "Cliff Charlesworth (FLIGHT)",
           "mission_position": "Flight director (Green team)",
-          "avatar": "F_48.png"
+          "avatar": "person.png"
         },
         "MILT_WINDLER": {
           "role": "other",
           "name": "Milton Windler",
           "short_name": "Milt Windler (FLIGHT)",
           "mission_position": "Flight director (Maroon team)",
-          "avatar": "F_48.png"
+          "avatar": "person.png"
         },
         "GLYNN_LUNNEY": {
           "role": "other",
           "name": "Glynn Lunney",
           "short_name": "Glynn Lunney (FLIGHT)",
           "mission_position": "Flight director (Black team)",
-          "avatar": "F_48.png"
+          "avatar": "person.png"
         },
         "MUSIC": {
           "role": "other",
           "name": "Music",
           "short_name": "",
-          "avatar": "music.png"
+          "avatar": "blank_48.png"
         }
     },
     "main_transcript": "a8/TEC",
