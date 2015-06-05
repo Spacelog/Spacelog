@@ -9458,7 +9458,7 @@ CC: Okay. Stand by 1.
 _extra: END OF TAPE
 CDR: Roger. If we could leave it in REACQ if you want
      to use the high gain, it would keep from waking us
-     up every REV.
+     up every [glossary:REV].
 
 [01:09:10:32]
 _page : 186
@@ -15307,7 +15307,7 @@ CC: Okay, Bill. I guess I want to belay my last
      guys - Jack Schmitt and company in the back
      room - looking at what effect your windows have.
      And, basically, it looks like there's two options
-     that will make an impact on that REV 2.
+     that will make an impact on that [glossary:REV] 2.
      One of the options, of course, will be just to
      have you and Jim change seats and let Jim look
      out and get his SAM that way, and another option
@@ -15650,7 +15650,7 @@ LMP: Roger. Pitch. Roger, pitch 101.
 CC: Okay. Thank you very much. And the item we have
      left to go is that we'd like to get with you on
      how you want to handle the problem with windows
-     on REV 2.
+     on [glossary:REV] 2.
 
 [02:12:08:59]
 LMP: Okay, Houston. Stand by on that, please.
@@ -15922,7 +15922,7 @@ CC: Roger. And got a couple of items that I would
      is right on the flight plan line, so everything
      looks pretty good there. We want to get a crew
      status report from you. We would like to firm
-     up the REV 2 flight plan idea; and sometime at
+     up the [glossary:REV] 2 flight plan idea; and sometime at
      your convenience, we would like to take a reading
      of the [glossary:PRD] for the commander and CMP and then
      have you swap them. We are trying to isolate
@@ -16183,7 +16183,7 @@ CC: Apollo 8, Houston.
 LMP: Go ahead.
 
 [02:13:53:25]
-CC: Okay. We still need to talk about the REV 2
+CC: Okay. We still need to talk about the [glossary:REV] 2
      attitudes we're going to use here to work
      around the fact that you have a fogged center
      window. Whenever that's convenient, we'd like
@@ -17176,7 +17176,7 @@ CC: Roger.
 CDR: Go ahead.
 
 [02:18:58:07]
-CC: Apollo 8, this is Houston. Map update REV 1,
+CC: Apollo 8, this is Houston. Map update [glossary:REV] 1,
      slash 2: [time:02:20:58:04|68:58:04] [time:02:21:05:05|69:05:05] [time:02:21:31:41|69:31:41] [time:02:22:14:48|70:14:48]. Copy?
 
 [02:18:58:41]
@@ -17771,7 +17771,7 @@ LMP: The cryo's have been stirred, Houston.
 CC: Roger, Bill.
 
 [02:20:12:08]
-CC: Apollo 8, Houston. We just saw an MC&W light.
+CC: Apollo 8, Houston. We just saw an [glossary:MC&W] light.
 
 [02:20:12:16]
 LMP: We just tested the caution and warning.
@@ -18432,7 +18432,7 @@ CDR: While these other guys are looking at the moon,
 CC: Sure will, Frank.
 
 [02:22:04:14]
-CDR: We want a GO for every REV please; otherwise,
+CDR: We want a GO for every [glossary:REV] please; otherwise,
      we'll burn in [glossary:TEI] 1 at your direction.
 
 [02:22:04:21]
@@ -18516,7 +18516,7 @@ CC: Roger. Step number 2, attach the filter holder
 CDR: Go ahead.
 
 [02:22:14:05]
-CC: Roger. Then at the end of your second REV TV pass,
+CC: Roger. Then at the end of your second [glossary:REV] TV pass,
      or on request from here, we would like you to remove
      that red filter from the holder and transmit briefly
      with it that way, then slide it over the blue side
@@ -18591,7 +18591,7 @@ LMP: Go ahead, Houston. Apollo 8.
 
 [02:22:18:45]
 CC: Apollo 8, this is Houston. If you should decide
-     that you want to roll heads up on REV 2, one
+     that you want to roll heads up on [glossary:REV] 2, one
      thing to remember, be sure you yaw 45 degrees
      right in order to maintain your high-gain antenna
      COMM. Over.
@@ -18674,8 +18674,8 @@ CDR: Stand by one.
 CDR: Go ahead with the map update.
 
 [02:22:32:55]
-CC: Roger, Frank. Map update: REV 1/2, no change; the
-     REV 2/3 follows: [time:03:01:04:57|73:04:57], [time:03:01:09:37|73:09:37], [time:03:01:19:01|73:19:01], [time:03:01:48:53|73:48:53],
+CC: Roger, Frank. Map update: [glossary:REV] 1/2, no change; the
+     [glossary:REV] 2/3 follows: [time:03:01:04:57|73:04:57], [time:03:01:09:37|73:09:37], [time:03:01:19:01|73:19:01], [time:03:01:48:53|73:48:53],
      [time:03:02:24:23|74:24:23]; remarks: Bravo 1 [03:02:16:24|74:16:24]. Over.
 
 [02:22:33:49]
@@ -18688,12 +18688,12 @@ CC: Roger. We show you 23 minutes to [glossary:LOS].
 LMP: Roger. Are you going to dump the tape?
 
 [02:22:34:41]
-CC: Apollo 8, this is Houston. You are GO for REV 2;
+CC: Apollo 8, this is Houston. You are GO for [glossary:REV] 2;
      all systems are GO. [glossary:SPS] evaluation is still underway
      and looking good. Over.
 
 [02:22:34:56]
-CDR: Understand; GO for REV 2. Thank you.
+CDR: Understand; GO for [glossary:REV] 2. Thank you.
 
 [02:22:35:00]
 CC: Roger, Apollo 8. We're still using the tape
@@ -18811,7 +18811,7 @@ CDR: Roger. In DOWN-VOICE BACKUP now.
 
 [02:22:52:44]
 CC: Apollo 8, this is Houston. All systems are GO.
-     You're still GO for REV 2. Over.
+     You're still GO for [glossary:REV] 2. Over.
 
 [02:22:52:53]
 CDR: Thank you.
@@ -19295,10 +19295,10 @@ CC: Apollo 8, Houston. Roger. Readback is correct.
 _page : 381
 _tape : Tape 48 / Page 9
 CC: Apollo 8, this is Houston. Your map update
-     for REV 2/3, no change. Over.
+     for [glossary:REV] 2/3, no change. Over.
 
 [03:00:02:22]
-CDR: Understand. No change, REV 2/3.
+CDR: Understand. No change, [glossary:REV] 2/3.
 
 [03:00:02:25]
 CC: Roger, Frank. You can expect GO/NO-GO for
@@ -19949,7 +19949,7 @@ CDR: Go ahead, Houston, with your updates.
 
 [03:02:21:36]
 CC: Roger. Apollo 8, Houston. I have a [glossary:TEI] 3, [glossary:TEI] 4,
-     and map update for REV 3 and 4 to read to you.
+     and map update for [glossary:REV] 3 and 4 to read to you.
      Actually the [glossary:TEI] 3 update which you have on board
      is still valid, but we will not update that one.
      Which do you want first, the [glossary:TEI] 4 or the map
@@ -20009,13 +20009,13 @@ CDR: Roger, Houston. We got a [glossary:TEI] 4 [glossary:SPS]/[glossary:G&N] 456
 
 [03:02:27:26]
 CC: That's about the size of it, Frank, and a map
-     update for REV's 3/4 when you are ready.
+     update for [glossary:REV]'s 3/4 when you are ready.
 
 [03:02:27:38]
 CDR: Ready.
 
 [03:02:27:40]
-CC: REV'S 3/4: [glossary:LOS] [time:03:03:01:23|75:01:23], sunrise [time:03:03:10:16|75:10:16], prime
+CC: [glossary:REV]'s 3/4: [glossary:LOS] [time:03:03:01:23|75:01:23], sunrise [time:03:03:10:16|75:10:16], prime
      meridian [time:03:03:17:16|75:17:16], [glossary:AOS] [time:03:03:47:18|75:47:18], sunset [time:03:04:23:11|76:23:11];
      remarks: subsolar point [time:03:03:46:55|75:46:55], [glossary:IP]-1 acquisition
      [time:03:04:11:17|76:11:17], [glossary:IP]-2 acquisition [time:03:04:12:30|76:12:30]. For [glossary:IP]-1
@@ -20082,7 +20082,7 @@ CC: Apollo 8, Houston. Over.
 
 [03:02:38:35]
 CDR: How about giving us the TV times for the ninth
-     REV, will you please?
+     [glossary:REV], will you please?
 
 [03:02:38:38]
 _page : 396
@@ -20098,10 +20098,10 @@ CDR: Go ahead.
 [03:02:40:42]
 CC: Roger. We were checking into precise start and
      stop times for TV, and you are GO for the next
-     REV. Over.
+     [glossary:REV]. Over.
 
 [03:02:40:51]
-CDR: I understand; go for the next REV. Mike, we'd
+CDR: I understand; go for the next [glossary:REV]. Mike, we'd
      like to, if we could, time the TV to a passing over
      the terminator. We would like to track the
      terminator with the TV; think that's the most
@@ -20116,7 +20116,7 @@ CC: Okay, Frank. That's one of the things we are
      minutes to include that terminator view. Over.
 
 [03:02:41:23]
-CDR: Okay. I don't want us to run into REV 10 very
+CDR: Okay. I don't want us to run into [glossary:REV] 10 very
      much at all, though.
 
 [03:02:41:28]
@@ -20150,9 +20150,9 @@ LMP: Roger. Since the qual isn't so good, let me
 CC: Ready to copy.
 
 [03:02:42:05]
-LMP: Okay. At REV 1, we got photo target 90 and
+LMP: Okay. At [glossary:REV] 1, we got photo target 90 and
      terminator photography south for near-side terminator.
-     Starting on REV 2, we've got target
+     Starting on [glossary:REV] 2, we've got target
      12 and targets 10, 14, 16, 19, 20, 21, and 23.
      Unfortunately, we got into a high - I got into
      the high-speed film there somewhere, and I think
@@ -20168,7 +20168,7 @@ CC: Yes, I'm with you, Bill. Keep going.
 
 [03:02:43:18]
 LMP: Okay. I might be calling up too fast. Okay.
-     On the third REV, we got target 58 and 63 and 65.
+     On the third [glossary:REV], we got target 58 and 63 and 65.
      The training photography was accomplished, and it
      was done on magazine D, which now has - correction,
      that's magazine E - which now shows 95 exposures.
@@ -20479,7 +20479,7 @@ CDR: Just a minute, Mike.
 
 [03:03:57:20]
 CC: Roger. Apollo 8, Houston. Your map update for
-     REV 4/5: [glossary:LOS] [time:03:04:59:59|76:59:59], sunrise [time:03:05:09:06|77:09:06], prime
+     [glossary:REV] 4/5: [glossary:LOS] [time:03:04:59:59|76:59:59], sunrise [time:03:05:09:06|77:09:06], prime
      meridian [time:03:05:15:47|77:15:47], [glossary:AOS] [time:03:05:45:50|77:45:50], sunset [time:03:06:22:03|78:22:03];
      [glossary:IP]-1 position time for control point 2, [time:03:05:29:42|77:29:42];
      [glossary:IP]-1 time closest approach for target B-1, [time:03:06:10:25|78:10:25].
@@ -20625,7 +20625,7 @@ CC: Okay. I have it for you again when you are
 CMP: Ready to copy.
 
 [03:04:20:26]
-CC: This is a map update for REV's 4/5: [glossary:LOS] [time:03:04:59:59|76:59:59],
+CC: This is a map update for [glossary:REV]'s 4/5: [glossary:LOS] [time:03:04:59:59|76:59:59],
      sunrise [time:03:05:09:06|77:09:06], prime meridian [time:03:05:15:47|77:15:47], [glossary:AOS]
      [time:03:05:45:50|77:45:50], sunset [time:03:06:22:03|78:22:03]; remarks: [glossary:IP]-1, acquisition
      time for CP2 is [time:03:05:23:42|77:29:42], [glossary:IP]-1 time
@@ -21317,7 +21317,7 @@ LMP: Houston, Apollo 8. We're ready for the - your
 
 [03:06:24:38]
 CC: Apollo 8, Houston. Roger. I have updates, a
-     map update for REV 5/6, and [glossary:TEI] 6 update.
+     map update for [glossary:REV] 5/6, and [glossary:TEI] 6 update.
      Which would you like first?
 
 [03:06:24:51]
@@ -21325,7 +21325,7 @@ LMP: Okay. I've got the map update page now. Why
      don't you give me that one?
 
 [03:06:24:55]
-CC: Okay. Map update for REV 5/6. [glossary:LOS] [time:03:06:58:49|78:58:49],
+CC: Okay. Map update for [glossary:REV] 5/6. [glossary:LOS] [time:03:06:58:49|78:58:49],
      sunrise [time:03:07:08:07|79:08:07], prime meridian [time:03:07:14:30|79:14:30], [glossary:AOS]
      [time:03:07:44:36|79:44:36], sunset [time:03:08:21:05|80:21:05]; [glossary:IP]-1, time of closest
      approach to target B-1 [time:03:08:09:00|80:09:00]. Now your two
@@ -21544,7 +21544,7 @@ LMP: Okay. We just don't want to boil our [glossary:IMU].
 
 [03:06:41:57]
 CC: Roger. Understand then. Apollo 8, you are GO for
-     the next lunar orbit REV.
+     the next lunar orbit [glossary:REV].
 
 [03:06:42:06]
 _page : 425
@@ -21846,7 +21846,7 @@ LMP: Not permanently, I hope.
 [03:08:23:59]
 _page : 431
 _tape : Tape 54 / Page 6
-CC: Okay. Your map update for REV 6/7: [glossary:LOS] [time:03:08:57:24|80:57:24],
+CC: Okay. Your map update for [glossary:REV] 6/7: [glossary:LOS] [time:03:08:57:24|80:57:24],
      sunrise [time:03:09:06:57|81:06:57], prime meridian [time:03:09:13:02|81:13:02]. Are
      you with me?
 
@@ -21891,7 +21891,7 @@ LMP: Just a matter of general interest, Houston: everybody
 [03:08:27:01]
 CC: Roger. Glad to hear it. We were just talking about
      a water dump down here. We've got one coming up,
-     and it looks like on this REV prior to the time
+     and it looks like on this [glossary:REV] prior to the time
      around [glossary:LOS] or just prior to [glossary:LOS], would be a convenient
      time to do it. Do you concur?
 
@@ -22504,7 +22504,7 @@ CC: Apollo 8, Houston. Go ahead, Frank.
 _page : 444
 _tape : Tape 55 / Page 9
 CDR: Roger. I want to scrub these control
-     point sightings on this next REV, too, and let Jim
+     point sightings on this next [glossary:REV], too, and let Jim
      take a rest.
 
 [03:10:40:25]
@@ -22512,8 +22512,8 @@ CC: Roger. I understand.
 
 [03:10:40:30]
 CC: I understand you want to scrub control points 1,
-     2, and 3 on the next REV and the converging
-     stereo on the following REV.
+     2, and 3 on the next [glossary:REV] and the converging
+     stereo on the following [glossary:REV].
 
 [03:10:40:42]
 CDR: That's right. We're getting too tired.
@@ -22528,7 +22528,7 @@ CC: Apollo 8, Houston.
 CDR: Go ahead.
 
 [03:10:41:44]
-CC: This REV coming up we would like to clarify
+CC: This [glossary:REV] coming up we would like to clarify
      whether you intend to scrub control points 1, 2,
      and 3, only, and do the pseudo landing site; or
      whether you also intend to scrub the pseudo landing
@@ -22600,7 +22600,7 @@ CDR: Go ahead, Houston. Apollo 8.
 
 [03:11:53:51]
 CC: Roger, Apollo 8. Couple of notes for you: on
-     the [glossary:P52] you are coming up to on this REV, we've
+     the [glossary:P52] you are coming up to on this [glossary:REV], we've
      looked at your state vectors and all your information.
      The platform looks good, and it appears
      that it is your option if you would like to
@@ -22730,7 +22730,7 @@ CDR: Ken, will we get the real [glossary:TEI] [glossary:PAD] the next time
 [03:12:09:04]
 CC: Apollo 8, we'll have one for you the next time
      around, and we'll update it if necessary on the
-     following REV.
+     following [glossary:REV].
 
 [03:12:09:14]
 CDR: Okay.
@@ -22794,13 +22794,13 @@ CDR: Go ahead.
 [03:12:27:02]
 CC: Okay. We've just finished looking at all your
      systems and all the trajectory information, and
-     you have a GO for another REV.
+     you have a GO for another [glossary:REV].
 
 [03:12:27:13]
 CDR: Thank you.
 
 [03:12:27:41]
-CDR: I understand we're GO for REV 9.
+CDR: I understand we're GO for [glossary:REV] 9.
 
 [03:12:27:47]
 CC: That's affirmative, 8.
@@ -22946,7 +22946,7 @@ CDR: Roger. We're not going to use the telephoto lens.
 CC: Okay. Real fine then. And next time around, why,
      we'll take an extra special look at all of the
      parameters; we'll have our [glossary:TEI] [glossary:PAD] for you. And
-     we'll use the last REV for a real good hack on
+     we'll use the last [glossary:REV] for a real good hack on
      all systems. I'll give you a rundown by system
      of all things we see and where they stand.
 
@@ -23511,7 +23511,7 @@ CC: Okay. I am going to give you a quick summary
      of systems. Basically, all systems are good. In
      respect to your return trajectory, we can still
      get to the mid-Pacific line at [time:06:02:00:00|146 hours] by
-     waiting as late as the thirteenth REV. After
+     waiting as late as the thirteenth [glossary:REV]. After
      138 seconds of the burn, you are on your way
      home. The weather in the recovery area looks
      good. Apollo 8, did you call?
@@ -23566,7 +23566,7 @@ CC: Okay, Apollo 8. While we are - -
 CC: Apollo 8, while we are waiting for the high gain,
      I will continue the trajectory summary. We can
      still get back to the mid-Pacific line in [time:06:02:00:00|146 hours]
-     from the thirteenth REV, and you are on your way
+     from the thirteenth [glossary:REV], and you are on your way
      after 138 seconds of the burn. That's 138 seconds,
      gets you clear of the butterfly region. We
      recommend not trying preignitions or restarts after
@@ -23661,7 +23661,7 @@ CC: Apollo 8, that's negative. We had not uplinked
 CDR: Okay. Roger.
 
 [03:14:33:28]
-CC: Apollo 8, Houston. You have a GO for this REV.
+CC: Apollo 8, Houston. You have a GO for this [glossary:REV].
 
 [03:14:33:34]
 CMP: Roger, Houston.
@@ -23901,7 +23901,7 @@ CC: Okay, Apollo 8. We've reviewed all your systems.
      would like to do as soon as you come out on the
      other side is a [glossary:P23]. We are checking into your
      helium pressures now. We're going to correlate
-     not only the last REV but the previous REV for
+     not only the last [glossary:REV] but the previous [glossary:REV] for
      the same location, and we will have that number
      for you in a little bit.
 
@@ -28315,11 +28315,11 @@ LMP: Okay.
 
 [04:09:59:19]
 CC: Okay. Two more steps. Step 6, remain on high-gain
-     antenna in this mode for two REV's. Do not
-     switch to OMNI anytime during these two REV's,
+     antenna in this mode for two [glossary:REV]'s. Do not
+     switch to OMNI anytime during these two [glossary:REV]'s,
      and maintain mode configuration of voice and
      data. We expect loss of track should be no
-     more than 15 minutes per REV. Over.
+     more than 15 minutes per [glossary:REV]. Over.
 
 [04:09:59:51]
 LMP: Roger.
@@ -28361,7 +28361,7 @@ LMP: Yes, why don't we just say if we do have problems,
      it doesn't pick it up when it's supposed
      to, give it a good try, and then call you up
      on the OMNI's or position ourselves and we'll
-     talk about it and try for another two REV's,.
+     talk about it and try for another two [glossary:REV]'s,.
 
 [04:10:01:21]
 CC: That's just fine, Bill.
@@ -28938,7 +28938,7 @@ LMP: Houston, Apollo 8. Over.
 CC: Apollo 8, Houston. Over.
 
 [04:12:08:53]
-LMP: Roger. Got the JOD back on watch again. We
+LMP: Roger. Got the [glossary:JOD] back on watch again. We
      want to make sure we don't overdo the star sightings
      at the expense of thermal control, so you
      might keep an eye on us and give us a NO-GO if
@@ -29687,7 +29687,7 @@ CC: Hey, you are getting good at that.
 LMP: That's all they'll let me do.
 
 [04:14:18:30]
-LMP: Okay. We will keep it here for two REV's, Ken.
+LMP: Okay. We will keep it here for two [glossary:REV]'s, Ken.
      Frank and - Frank and Jim are asleep, and ...
      so I'll just keep it going here for two rolls.
 
@@ -29886,7 +29886,7 @@ CC: Okay. It's not real clear that it did, in fact,
      it through one more time as is. We do have the
      high bit rate capability on OMNI's. So we would
      like to follow through that same configuration for
-     one more REV.
+     one more [glossary:REV].
 
 [04:14:50:55]
 LMP: Stand by.
@@ -31206,7 +31206,7 @@ CC: Loud and clear.
 
 [04:19:33:27]
 LMP: Good morning, or good afternoon, or whatever 
-     it is. The JOD is back at the CON; CDR went 
+     it is. The [glossary:JOD] is back at the CON; CDR went 
      back to bed. 
 
 [04:19:33:32]
@@ -31937,7 +31937,7 @@ CC: Roger.
 [04:21:23:24]
 CC: One thing you might be interested in: we 
      listened to that low speed information that 
-     you taped on the first couple of REV's that 
+     you taped on the first couple of [glossary:REV]'s that 
      we thought was going to be unusable. And it 
      must have been a ground problem because it's 
      coming in loud and clear now. 
