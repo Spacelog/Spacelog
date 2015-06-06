@@ -340,11 +340,12 @@ class ErrorView(TemplateView):
         500: "Server Error",
     }
 
-    def render_to_response(self, context):
+    def render_to_response(self, context, **response_kwargs):
         """
         Returns a response with a template rendered with the given context.
         """
-        return self.get_response(self.render_template(context), status=self.error_code)
+        response_kwargs.update({ "status": self.error_code })
+        return super(ErrorView, self).render_to_response(context, **response_kwargs)
 
     def get_context_data(self):
         error_info = self.request.redis_conn.hgetall(
