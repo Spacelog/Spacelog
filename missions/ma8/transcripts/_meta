@@ -1,0 +1,27 @@
+{
+    "name": "ma8", 
+    "utc_launch_time": "1962-10-03", 
+    "main_transcript": "ma8/TEC", 
+    "subdomains": [
+        "ma8"
+    ], 
+    "copy": {
+        "cleaners": [
+            "Alice Miller", 
+            "Ben Feist", 
+            "Chris Govias", 
+            "George Brocklehurst", 
+            "James Aylett", 
+            "Mark Norman Francis", 
+            "Matthew", 
+            "Mr Shark", 
+            "Russ", 
+            "Ryan Alexander", 
+            "Steve Marshall"
+        ], 
+        "lower_title": "8", 
+        "upper_title": "Mercury-Atlas", 
+        "title": "Mercury-Atlas 8"
+    }, 
+    "incomplete": true
+}
