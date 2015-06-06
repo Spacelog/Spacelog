@@ -318,7 +318,7 @@ sub process {
 
         push( @fail, 'badchar' )
           if my (@badchar) =
-              $line =~ /[^\-\t ._,A-Za-z0-9"'\?:\[\]<!&>;\/\n\(\)\*é°¼#]/;
+              $line =~ /[^\-\t ._,A-Za-z0-9"'\?:\[\]<!&>;\/\n\(\)\*é°½¼#]/;
 
         push( @fail, 'j-grows-up-so-fast' )
           if $txt =~
