@@ -23,5 +23,21 @@
         "upper_title": "Mercury-Atlas", 
         "title": "Mercury-Atlas 8"
     }, 
+    "characters": {
+        "P": {},
+        "CC": {},
+        "CC_A1": {},
+        "CC_A2": {},
+        "CC_HAW": {},
+        "CC_?": {},
+        "CT": {},
+        "CF": {},
+        "S": {},
+        "R1": {},
+        "FlagPlot": {},
+        "Stony": {},
+        "Warfare": {},
+        "?": {}
+    },
     "incomplete": true
 }
