@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.template.response import TemplateResponse
 from django.utils import simplejson
 from django.views.generic import TemplateView
@@ -24,5 +25,7 @@ class JsonTemplateView(TemplateView):
 
 class JsonMixin(object):
     def render_to_response(self, context=None):
-        return self.get_response(simplejson.dumps(context), mimetype='application/json')
-
+        return HttpResponse(
+            content=simplejson.dumps(context),
+            mimetype='application/json',
+        )
