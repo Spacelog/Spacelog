@@ -21,4 +21,5 @@ end
 
 execute "gem install watcher"
 execute "gem install sass"
+execute "pip install -U pip"
 execute "pip install -r /vagrant/requirements.txt"
