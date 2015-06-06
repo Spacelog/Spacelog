@@ -1,2 +1,2 @@
-from test_template import *
+from test_response import *
 

@@ -1,37 +1,25 @@
-from django.template import loader, TemplateDoesNotExist
+from django.template.response import TemplateResponse
 from django.utils import simplejson
 from django.views.generic import TemplateView
-from website.apps.common.template import JsonTemplate
+from website.apps.common.response import JsonTemplateResponse
 
 
 class JsonTemplateView(TemplateView):
-    """
-    A template view that outputs templates as JSON for ajax requests.
-    """
-    def load_template(self, names):
-        if 'json' not in self.request.GET:
-            return super(JsonTemplateView, self).load_template(names)
-        
-        for name in names:
-            try:
-                template, origin = loader.find_template(name)
-            except TemplateDoesNotExist:
-                continue
-            if not hasattr(template, 'render'):
-                return JsonTemplate(template, origin, name)
-            else:
-                # do some monkey business if the template has already been
-                # compiled
-                new_template = JsonTemplate('', origin, name)
-                new_template.nodelist = template.nodelist
-                return new_template
-        raise TemplateDoesNotExist(', '.join(names))
+    def render_to_response(self, context, **response_kwargs):
+        if 'json' in self.request.GET:
+            return self.render_to_json_response(context, **response_kwargs)
+        else:
+            return super(JsonTemplateView, self).render_to_response(context, **response_kwargs)
 
-    def get_response(self, content, **httpresponse_kwargs):
-        if 'json' in self.request.GET and 'mimetype' not in httpresponse_kwargs:
-            httpresponse_kwargs['mimetype'] = 'application/json'
-        return super(JsonTemplateView, self).get_response(content, **httpresponse_kwargs)
-            
+    def render_to_json_response(self, context, **response_kwargs):
+        if 'mimetype' not in response_kwargs:
+            response_kwargs['mimetype'] = 'application/json'
+        return JsonTemplateResponse(
+            request=self.request,
+            template=self.get_template_names(),
+            context=context,
+            **response_kwargs
+        )
 
 
 class JsonMixin(object):
