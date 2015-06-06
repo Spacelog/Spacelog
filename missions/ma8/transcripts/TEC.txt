@@ -1,10 +1,9 @@
 	Speakers: P CC R1 FlagPlot CC_A1 CT CC_HAW CC_A2 S Stony CF Warfare ? CC_?
 
 	Page 10
-	Approved? True
-                               CONFIDENTIAL           Page 2 - 4
-                              2.3 Transcript          CNV-1
-                              CAPE CANAVERAL
+	CNV-1
+	CAPE CANAVERAL
+
 -00 00 00 05 Stony 5, 4, 3
 00 00 00 02  P     I have the lift-off. Clock has started.
                             And she feels real nice.
@@ -35,9 +34,8 @@
 
 
 	Page 11
-	Approved? True
-         Page 2 - 5          CONFIDENTIAL
-         CNV-1
+	CNV-1
+
 00 00 01 54 CC     Roger. How do you read now, Wally?
 00 00 01 55 P      I read you beautiful.
 00 00 01 57 CC     You had your transmitter keyed, that's why
@@ -66,9 +64,8 @@
 00 00 03 10 CC     Roger.
 
 	Page 12
-	Approved? True
-                               CONFIDENTIAL            Page 2 - 6
-                                                       CNV-1
+	CNV-1
+
            0003 14   P     I'll go back on VOX again. How do you read
                             me on VOX now?
 00 00 03 21  P     Cape Cap Com, Sigma Seven.
@@ -97,9 +94,8 @@
 
 
 	Page 13
-	Approved? True
-         Page 2 - 7          CONFIDENTIAL
-         CNV-1
+	CNV-1
+
 00 00 04 29 P      Sunlight's in my upper right hand corner of
                           the window, just peeking in at me.
 00 00 04 34 CC     Roger.
@@ -131,9 +127,8 @@
 
 
 	Page 14
-	Approved? True
-                             CONFIDENTIAL           Page 2 - 8
-                                                      CNV-1
+	CNV-1
+
 00 00 06 54 P     That's affirmative. Retrojett is off.
 00 00 06 57 CC    That's fine.
 00 00 06 58 P     Okay. I'm getting set up for yaw. I can see
@@ -167,9 +162,8 @@
 00 00 08 48  CC    28 25
 
 	Page 15
-	Approved? True
-         Page 2 - 9          CONFIDENTIAL
-         CNV-CYI-1
+	CNV-CYI-1
+
 00 00 08 51 P     Say again Deke.
 00 00 08 56 P     Cape Cap Com, Sigma Seven. Say again.
 00 00 09 03 CC    Seven, Cap Com. You are fading - you are
@@ -191,7 +185,7 @@
 00 00 12 58  P     This is Sigma Seven. I am now in ASCS auto,
                         retroattitude. Manual proportional works very
                         well.
-                          CANARY ISLANDS
+	CANARY ISLANDS
 00 00 14 31  P     Canary Cap Com this is Sigma Seven. Over.
 00 00 14 40  CT    Sigma Seven this is Canary Com Tech. Transmitting
                          HF/UHF. Do you read? Over.
@@ -203,9 +197,8 @@
 
 
 	Page 16
-	Approved? True
-                                 CONFIDENTIAL           Page 2 - 10
-                                                        CYI-1
+	CYI-1
+
 00 00 14 55 P     Roger. Good show on radar. Awfully sorry our
                               friend Julian couldn't be with us. I would
                               like to give you my report on control mode.
@@ -242,9 +235,8 @@
 
 
 	Page 17
-	Approved? True
-         Page 2 - 11        CONFIDENTIAL
-         CYI-1
+	CYI-1
+
 00 00 16 56  CC    Roger.
 00 00 17 00  P     Everything else is green.
 00 00 17 03  CC    Roger.
@@ -277,9 +269,8 @@
 
 
 	Page 18
-	Approved? True
-                               CONFIDENTIAL          Page 2 - 12
-                                                      CYI-KNO-1
+	CYI-KNO-1
+
 00 00 18 40 CC    I copy now.
 00 00 18 41 P     Okay. Going back to gyros normal. Ts+5
                             confirmed.
@@ -291,7 +282,7 @@
                             you. VOX off.
 00 00 19 37 P      Canary Cap Com, Sigma Seven. On UHF-lo. How do
                             you read?
-                                 KANO
+	KANO
 00 00 20 25 P     Kano Cap Com this is Sigma Seven. On UHF-lo.
                             How do you read? Over.
 00 00 21 01 P     Kano Cap Com, Kano Cap Com, Sigma Seven. UHF-lo.
@@ -311,9 +302,8 @@
                             like a CET time check.
 
 	Page 19
-	Approved? True
-          Page 2 - 13       CONFIDENTIAL
-          KNO-1
+	KNO-1
+
 00 00 22 00 CC    Understand you want a CET ground check.
 00 00 22 02 P     That's correct.
 00 00 22 04 CC    Roger. At my mark it will be 22 10. MARK.
@@ -348,9 +338,8 @@ T
 
 
 	Page 20
-	Approved? True
-                               CONFIDENTIAL          Page 2 - 14
-                                                      KNO-1
+	KNO-1
+
 00 00 24 17 P     Roger. I'm right on -34 (degrees). It correlates
                             with the window reference mark and I feel quite
                             content we are right on.
@@ -383,9 +372,8 @@ T
 00 00 26 06 CC    Say again that temperature.
 
 	Page 21
-	Approved? True
-     Page 2 - 15         CONFIDENTIAL
-      KNO-ZZB-1
+	KNO-ZZB-1
+
 00 00 26 08 P     The suit dome is 78 (degrees).
 00 00 26 11 CC    Understand.
 00 00 26 17 P     Cabin dome is 60 (degrees).
@@ -415,7 +403,7 @@ T
                        off by as much as 5 to 6 degrees. Now this may
                        be a minor problem; we will have to observe it.
 
-                           ZANZIBAR
+	ZANZIBAR
 
 00 00 30 28 CT    Sigma Seven, Sigma Seven, . . . HF and UHF.
 00 00 30 35 P     Hello Kano. This is Sigma Seven. You are both
@@ -423,9 +411,8 @@ T
 00 00 30 42 CT    Sigma Seven. Standby for Cap Com. Over.
 
 	Page 22
-	Approved? True
-                             CONFIDENTIAL           Page 2 - 16
-                                                    ZZB-1
+	ZZB-1
+
 00 00 30 44  P     Roger.
 00 00 30 47  CC    Sigma Seven, Sigma Seven this is Zanzibar Cap Com.
                           Over.
@@ -454,9 +441,8 @@ T
                            this time.
 00 00 32 36  CC    Roger.
 	Page 23
-	Approved? True
-      Page 2 - 17          CONFIDENTIAL
-      ZZB-1
+	ZZB-1
+
 00 00 32 38  P     In fact, that's a correction, it hasn't come down.
                        It's just going there. I would like to give you
                        a briefing on my control mode. I am in auto mode,
@@ -490,9 +476,8 @@ T
 
 
 	Page 24
-	Approved? True
-                               CONFIDENTIAL          Page 2 - 18
-                                                     ZZB-1
+	ZZB-1
+
 00 00 35 33  CC    Very good.
 00 00 35 34  P     I've got a lot of good clouds for yaw checks. I'll
                             say that.
@@ -523,9 +508,8 @@ T
 
 
 	Page 25
-	Approved? True
-       Page 2 - 19         CONFIDENTIAL
-       ZZB-1
+	ZZB-1
+
 00 00 37 44 CC    Seven. All systems are still performing well here
                         on the ground.
 00 00 37 47 P     Roger.
@@ -560,9 +544,8 @@ T
 
 
 	Page 26
-	Approved? True
-                               CONFIDENTIAL            Page 2 - 20
-                                                       ZZB-1
+	ZZB-1
+
 00 00 41 49 P        I am switching to push-to-talk.
 00 00 42 00 P      Muchea Cap Com, Sigma Seven. HF check,
                                push-to-talk. Over.
@@ -598,9 +581,8 @@ T
 
 
 	Page 27
-	Approved? True
-        Page 2 - 21      CONFIDENTIAL
-        ZZB-1
+	ZZB-1
+
                           At this time, I can see nothing through the periscope
                           for night observation, at least in this
                           attitude. I'm not even sure when I have low mag,
@@ -643,7 +625,7 @@ T
 
 
 	Page 28
-	Approved? True
+	ZZB-MUC-1
 	This page is blank in the original PDF, reconstructed from another version: http://www.jsc.nasa.gov/history/mission_trans/MA08_TEC.PDF pages 65-66
 
                 Very nice. I should be able to pick up Muchea shortly,
@@ -672,10 +654,10 @@ T
 00 00 50 58  P   No. I have beads of perspiration on my lips. That's about all.
 00 00 51 07  CC  Can we have a suit temperature . . . ?
 00 00 51 10  P   Say again.
+
 	Page 29
-	Approved? True
-         Page 2 - 23       CONFIDENTIAL
-         MUC-1
+	MUC-1
+
 00 00 51 12 CC     Roger. Go ahead with status report. Over.
 00 00 51 15 P      Okay. I am in auto mode at this point. Everything
                           is acting perfectly. The maneuver switch
@@ -709,9 +691,8 @@ T
 
 
 	Page 30
-	Approved? True
-                               CONFIDENTIAL           Page 2 - 24
-                                                      MUC-1
+	MUC-1
+
 00 00 52 38  P     Is the place covered with clouds? Over.
 00 00 52 43  CC    Negative. Broken clouds - the last estimate
                                I got was 0.8 and several breaks.
@@ -742,9 +723,8 @@ T
 
 
 	Page 31
-	Approved? True
-         Page 2 - 25       CONFIDENTIAL
-         MUC-1
+	MUC-1
+
 00 00 55 15 P      Is this Muchea or Woomera?
 00 00 55 17 CC     Muchea. You are coming in much better now.
 00 00 55 19 P      Roger. I have the moon right in the center of
@@ -778,10 +758,9 @@ T
 
 
 	Page 32
-	Approved? True
-                               CONFIDENTIAL           Page 2 - 26
-                                                      WOM- 1
-                                 WOOMERA
+	WOM-1
+	WOOMERA
+
 00 00 57 09 CC     Sigma Seven this is Woomera Cap Com. Over.
 00 00 57 12 P      Roger. Woomera. Go ahead.
 00 00 57 15 CC     This is Woomera Cap Com. Flare ignition will
@@ -812,9 +791,8 @@ T
 
 
 	Page 33
-	Approved? True
-        Page 2 - 27        CONFIDENTIAL
-         WOM-1
+	WOM-1
+
 00 00 59 07 P      The lightning looks like a big blob, rather
                           than a jagged streak we are use to seeing
                           when earthbound. Just looks like a big -
@@ -849,9 +827,8 @@ T
 
 
 	Page 34
-	Approved? True
-                             CONFIDENTIAL           Page 2 - 28
-                                                    WOM-1
+	WOM-1
+
 00 01 00 41 P      Must have some ground lights in sight
                             here.
 00 01 00 53 CC     Picking up some plus roll now.
@@ -882,9 +859,8 @@ T
 
 
 	Page 35
-	Approved? True
-         Page 2 - 29       CONFIDENTIAL
-         WOM-1
+	WOM-1
+
 00 01 02 52 P      The suit coolant valve setting is 7. That
                            is correct.
 00 01 02 56 CC     Scanners and attitudes agree here.
@@ -917,9 +893,8 @@ T
 
 
 	Page 36
-	Approved? True
-                              CONFIDENTIAL           Page 2 - 30
-                                                     WOM-1
+	WOM-1
+
 00 01 05 56 P      I'm now in reentry attitude. Standing by to
                              go into automatic mode. Fly-by-wire tracks
                              absolutely beautifully, just as it worked in
@@ -966,11 +941,9 @@ T
 
 
 	Page 37
-	Approved? True
+	CTN-1
+	CANTON
 
-        Page 2 - 31       CONFIDENTIAL
-        CTN-1
-                            CANTON
 00 01 09 16  CT    Sigma Seven, Sigma Seven this is Canton Com
                           Tech. Do you read? Over.
 00 01 09 21  P     Canton this is Sigma Seven. I read you.
@@ -998,9 +971,8 @@ T
 00 01 11 03  P     Canton Cap Com this is Sigma Seven. How do
                           you read me? Over.
 
-
 	Page 38
-	Approved? True
+	CTN-1
 
 00 01 11 46  P      Canton Com Tech, Canton Com Tech this is
                               Sigma Seven. UHF-hi. Over.
@@ -1036,9 +1008,8 @@ T
 
 
 	Page 39
-	Approved? True
-         Page 2 - 33       CONFIDENTIAL
-         CTN-1
+	CTN-1
+
 00 01 14 05 CC     Roger, Sigma Seven. Go ahead.
 00 01 14 08 P      I have the suit setting for the control valve
                           at number 7. I have the suit dome temperature
@@ -1070,15 +1041,14 @@ T
 
 
 	Page 40
-	Approved? True
-                                 CONFIDENTIAL                        Page 2 - 34
-                                                                     CTN-HAW-1
+	CTN-HAW-1
+
 00 01 18 33  P     I'd just as soon not even go into it. Finally
                    got one dosimeter out, and will have to put
                    it up on the hatch and it's the - let me
                    mark, wait one, I can't even see anything on it.
 
-                        HAWAII
+	HAWAII
 
 00 01 18 59  CC    Sigma Seven, Sigma Seven. Hawaii Cap Com.
                    Calling HF.
@@ -1105,13 +1075,10 @@ T
                   right now at a CET of practically 1 25 - 1 hour
                   and 25 minutes. The sunrise is coming in
 
-                    CONFIDENT IAL
-
 
 	Page 41
-	Approved? True
-           Page 2 - 35       CONFIDENTIAL
-           HAW-GYM- 1
+	HAW-GYM-1
+
                             rather rapidly through the periscope.
                             I do have the lighted objects that John
                             mentioned, and I can create some by knocking
@@ -1138,7 +1105,7 @@ T
                             Retroattitude is being held very well by the
                             ASCS. I should be able to reach Guaymas by now.
 
-                               GUAYMAS
+	GUAYMAS
 
 00 01 26 52  CT    Guaymas Com Tech on HF/UHF. Do you read? Over.
 00 01 26 56  P     Guaymas Cap Com, Guaymas Cap Com this is Sigma
@@ -1156,9 +1123,8 @@ T
 
 
 	Page 42
-	Approved? True
-                             CONFIDENTIAL          Page 2 - 36
-                                                   GYM-1
+	GYM-1
+
 00 01 27 29 CC     Roger. Say again your suit inlet temperature,
                              please, and what is your control setting?
 00 01 27 34 P      Roger. The suit inlet is 78 - 78 degrees. The
@@ -1189,9 +1155,8 @@ T
 
 
 	Page 43
-	Approved? True
-          Page 2 - 37      CONFIDENTIAL
-         GYM-1
+	GYM-1
+
 00 01 29 08  CC     Okay, Wally, give me your cabin dome and
                            cabin temperature. Also, your flow control
                            setting on cabin, too.
@@ -1223,9 +1188,8 @@ T
 
 
 	Page 44
-	Approved? True
-                            CONFIDENTIAL             Page 2 - 38
-                                                     GYM-1
+	GYM-1
+
 00 01 30 41  P     Basically, what I saw was the firefly color
                               that John saw, which I could create at other
                               times as white color. I'm definitely convinced
@@ -1258,11 +1222,8 @@ T
 
 
 	Page 45
-	Approved? True
-                            CONFIDENTIAL           Page 2 - 40
-                                                   CNV-2
-
-                           CAPE CANAVERAL
+	CNV-2
+	CAPE CANAVERAL
 
 00 01 33 23  CC     Sigma Seven, Cape Cap Com. How do you read?
 00 01 33 25  P      Hi, Deke, I read you loud and clear. How me?
@@ -1293,9 +1254,8 @@ T
 .
 
 	Page 46
-	Approved? True
-         Page 2 - 41        CONFIDENTIAL
-         CNV-2
+	CNV-2
+
 00 01 35 07  P     That is correct. Suit dome is 81(degrees).
                            The suit inlet is about 76(degrees). I'm
                            making a little ground on it.
@@ -1329,9 +1289,8 @@ T
 
 
 	Page 47
-	Approved? True
-                              CONFIDENTIAL           Page 2 - 42
-                                                     CNV-2
+	CNV-2
+
 00 01 36 54 P      Go ahead, Deke.
 00 01 36 56 CC     Your (contingency recovery area)2 Bravo retro.
 00 01 36 58 P      Standby 'till I finish my blood here. Okay,
@@ -1361,9 +1320,8 @@ T
 
 
 	Page 48
-	Approved? True
-         Page 2 - 43       CONFIDENTIAL
-         CNV-2
+	CNV-2
+
 00 01 38 20  P      Otherwise, it dropped in beautifully on
                           transition from control mode to control mode.
 00 01 38 28  CC     You're pretty poor transmitting, let's try
@@ -1392,9 +1350,8 @@ T
 
 
 	Page 49
-	Approved? True
-                              CONFIDENTIAL           Page 2 - 44
-                                                     CNV-2
+	CNV-2
+
 00 01 40 15 P      Deke, I finally got a grasp on this thing. I'm
                              beginning to feel a little cooler. And the
                              suit inlet temperature is now down to 76
@@ -1427,9 +1384,8 @@ T
 
 
 	Page 50
-	Approved? True
-        Page 2 - 45        CONFIDENTIAL
-         CNV-2
+	CNV-2
+
 00 01 42 05 P      Go ahead, Deke.
 00 01 42 07 CC     Bermuda again shows high thruster action on
                           switch over to fly-by-wire.
@@ -1465,14 +1421,13 @@ T
 
 
 	Page 51
-	Approved? True
-                              CONFIDENTIAL        Page 2 - 46
-                                                  CNV-CYI- 2
+	CNV-CYI-2
+
 00 01 46 38 P      On the 0 - on the 0 to 50 - on the 0 to 50
                              Roentgen Scale at 01 hour 46 minutes, there
                              is practically no reading at all.
 
-                             CANARY ISLANDS
+	CANARY ISLANDS
 
 00 01 48 47 CT     Sigma Seven this is Canary Com Tech, transmitting
                              UHF/HF. Do you read? Over.
@@ -1505,9 +1460,8 @@ T
 
 
 	Page 52
-	Approved? True
-         Page 2 - 47       CONFIDENTIAL
-         CYI-2
+	CYI-2
+
 00 01 50 34 CC     Roger.
 00 01 50 39 P      Switching to fly-by-wire low, gyros free.
 00 01 51 20 P      I can definitely see a yaw pattern in the
@@ -1545,9 +1499,8 @@ T
 
 
 	Page 53
-	Approved? True
-                              CONFIDENTIAL           Page 2 - 48
-                                                     CYI-2
+	CYI-2
+
 00 01 53 12 CC     Wally, did you already switch to ASCS?
 00 01 53 16 P      Negative. I have not switched.
 00 01 53 18 CC     Do it now.
@@ -1575,10 +1528,9 @@ T
 
 
 	Page 54
-	Approved? True
-        Page 2 - 49        CONFIDENTIAL
-        KNO-2
-                              KANO
+	KNO-2
+	KANO
+
 00 01 54 15 CT     Sigma Seven this is Kano Com Tech, transmitting
                           on UHF/HF, do you read?
 00 01 54 20 P      Roger, Kano. I read you loud and clear.
@@ -1608,9 +1560,8 @@ T
 
 
 	Page 55
-	Approved? True
-               CONFIDENTIAL                            Page 2 - 50
-                                                             KNO-2
+	KNO-2
+
 00 01 55 32  CC   Sigma Seven, . . . how do you read?
 00 01 55 34  P    I read you loud and clear. I wonder whether
                  Canary's got my last on the suit system.
@@ -1643,9 +1594,8 @@ T
 
 
 	Page 56
-	Approved? True
-        Page 2 - 51       CONFIDENTIAL
-        KNO-2
+	KNO-2
+
 00 01 58 04  CC    Negative, Seven. Would you say again?
 00 01 58 07  P     I'm on VOX - correct, I am going to push-to-talk
                           on HF. Do you read me now?
@@ -1676,9 +1626,8 @@ T
 
 
 	Page 57
-	Approved? True
-                              CONFIDENTIAL          Page 2 - 52
-                                                     KNO-2
+	KNO-2
+
 00 01 59 17  CC     Say again. You were garbled.
 00 01 59 19  P      I think we have the situation under control.
 00 01 59 28  P      I am now in ASCS, gyros normal, maneuver off,
@@ -1709,9 +1658,8 @@ T
 
 
 	Page 58
-	Approved? True
-        Page 2 - 53        CONFIDENTIAL
-        KNO-2
+	KNO-2
+
 00 02 01 19  P      This is Sigma Seven. I read you loud
                           and clear. How me?
 00 02 01 22  CC     I read you now. Did you get my 2 Charlie
@@ -1740,9 +1688,8 @@ T
 
 
 	Page 59
-	Approved? True
-                             CONFIDENTIAL        Page 2 - 54
-                                                 KNO-ZZB-2
+	KNO-ZZB-2
+
 00 02 02 41  CC     T/M LOS, Seven.
 00 02 02 46  P      Roger.
 00 02 02 54  CC     Seven, do you read?
@@ -1751,7 +1698,7 @@ T
 00 02 03 02  P      Roger.
 00 02 03 12  P      Gyros are free.
 
-                              ZANZIBAR
+	ZANZIBAR
 
 00 02 04 53  CT     Sigma Seven Sigma Seven Zanzibar Com
                             Tech transmitting HF/UHF. How do you
@@ -1772,9 +1719,8 @@ T
 
 
 	Page 60
-	Approved? True
-         Page 2 - 55       CONFIDENTIAL
-         ZZB-IOS-2
+	ZZB-IOS-2
+
 00 02 05 58 CC     Roger, I'm not reading you. I'm not
                           reading you. Very, very weak. Will
                           you report the suit control setting now,
@@ -1794,7 +1740,7 @@ T
 00 02 07 41 CC     Sigma Seven Sigma Seven this is Zanzibar. Over.
 00 02 08 53 P      Zanzibar Cap Com, Sigma Seven on UHF. Over.
 
-                          INDIAN OCEAN SHIP
+	INDIAN OCEAN SHIP
 
 00 02 09 57 P      Indian Ocean Ship, Indian Ocean Ship, Sigma
                           Seven. Over.
@@ -1809,9 +1755,8 @@ T
 
 
 	Page 61
-	Approved? True
-                            CONFIDENTIAL           Page 2 - 56
-                                                   IOS-2
+	IOS-2
+
 00 02 12 15  CC    Read you now. Do you have anything at
                             this time. Over.
 00 02 12 18  P     Roger, I have good news. The suit dome
@@ -1844,9 +1789,8 @@ T
 
 
 	Page 62
-	Approved? True
-      Page 2 - 57       CONFIDENTIAL,
-      IOS-2
+	IOS-2
+
 00 02 16 32 P      IOS, this is Sigma Seven. I'm not sure
                         whether you realize but I have been in
                         auto mode retroattitude. Over.
@@ -1890,9 +1834,8 @@ T
 
 
 	Page 63
-	Approved? True
-                              CONFIDENTIAL           Page 2 - 58
-                                                     IOS-2
+	IOS-2
+
                               The suit inlet is 68 (degrees). Very
                               pleasant. I can feel cool air crossing
                               my face. The oxygen quantity looks real
@@ -1933,16 +1876,9 @@ T
                               other set.
 
 
-	Page 64
-	Approved? True
-          (Duplicate of page 62: http://kallisto.tartarus.org/MA8/62/)
-	Page 65
-	Approved? True
-          (Duplicate of page 63: http://kallisto.tartarus.org/MA8/63/)
 	Page 66
-	Approved? True
-         Page 2 - 59       CONFIDENTIAL
-         IOS-MUC-2
+	IOS-MUC-2
+
 00 02 23 13 P      Perth should be coming into view and it should
                           be - oh, what a beautiful yaw check this is,
                           and it's approximately 10 degrees left of
@@ -1954,7 +1890,7 @@ T
                           coming out on VOX 1, 2, 1, 2. VOX is now
                           coming in very well.
 
-                              MUCHEA
+	MUCHEA
 
 00 02 24 03 CC     Sigma Seven Sigma Seven this is Muchea Cap
                           Com. How do you read? Over.
@@ -1985,9 +1921,7 @@ T
 
 
 	Page 67
-	Approved? True
-                             CONFIDENTIAL          Page 2 60
-                                                   MUC-2
+	MUC-2
 
                             All systems are green. I snapped off
                             about 2 percent of manual (fuel) one time
@@ -2029,9 +1963,8 @@ T
 
 
 	Page 68
-	Approved? True
-          Page 2 - 61       CONFIDENTIAL
-          MUC-2
+	MUC-2
+
                            quite satisfied with both day and
                            night checks. I've been real pleased
                            with it. I have to say this has been
@@ -2067,9 +2000,8 @@ T
 
 
 	Page 69
-	Approved? True
-                           CONFIDENTIAL              Page 2 - 62
-                                                     MUC-2
+	MUC-2
+
 00 02 28 55  CC    Shannon runs out of fuel, . . . he doesn't
                              get bogged down in the sand.
 00 02 28 59  P     Ha! Ha! I still have black skid marks on
@@ -2107,9 +2039,8 @@ T
 
 
 	Page 70
-	Approved? True
-         Page 2 - 63        CONFIDENTIAL
-         MUC-WOM- 2
+	MUC-WOM-2
+
 00 02 30 50 CC     Fine - can you give us another blood pressure.
                             That one cut off a little too soon.
 00 02 30 54 P      Okay, let me get back into configuration here.
@@ -2137,7 +2068,7 @@ T
 00 02 32 08 CC     This is Muchea - recommend you go over to
                            Woomera.
 
-                              WOOMERA
+	WOOMERA
 
 00 02 32 10 P      Roger. Woomera Cap Com, Sigma Seven. Over.
 00 02 32 15 CC     Sigma Seven, Woomera Cap Com. Loud and clear.
@@ -2145,9 +2076,8 @@ T
 
 
 	Page 71
-	Approved? True
-                              CONFIDENTIAL           page 2 - 64
-                                                     WOM- 2
+	WOM-2
+
 00 02 32 18  P     Roger. Nice to be back over Woomera.
 00 02 32 21  CC    Same here. And . . ..
 00 02 32 22  P     I'm a little bit . . ..
@@ -2176,9 +2106,8 @@ T
 
 
 	Page 72
-	Approved? True
-         Page 2 - 65       CONFIDENTIAL
-         WOM-2
+	WOM-2
+
 00 02 33 39 CC     Your T/M readout on your capsule elapsed time
                           occasionally reads out 1 second fast and then
                           comes out to be correct with our time, then
@@ -2207,9 +2136,8 @@ T
 
 
 	Page 73
-	Approved? True
-                               CONFIDENTIAL           Page 2 - 66
-                                                      WOM-2
+	WOM-2
+
 00 02 34 38  CC    Reading 98 auto and manual 94.
 00 02 34 46  P     Well, how about that.
 00 02 34 48  CC    Beautiful.
@@ -2244,9 +2172,8 @@ T
 
 
 	Page 74
-	Approved? True
-         Page 2 - 67        CONFIDENTIAL
-         WOM-2
+	WOM-2
+
 00 02 36 03  CC    Maybe next time.
 00 02 36 05  P     Okay. I see Africa. Looks pretty good down
                            there. We'll give them a whack at it.
@@ -2282,9 +2209,8 @@ T
 
 
 	Page 75
-	Approved? True
-                              CONFIDENTIAL            Page 2 - 68
-                                                     WOM-CTN-2
+	WOM-CTN-2
+
                               and take a look at the inverters again
                               here. 250 is 141 (degrees), 150 is about
                               107 (degrees). Well enough alone. Standby
@@ -2305,7 +2231,7 @@ T
                               damn antenna situation is no good. Just brought
                               HF back in bicone again.
 
-                                 CANTON
+	CANTON
 
 00 02 42 06  CT    Sigma Seven Sigma Seven, this is Canton Com
                               Tech. Over.
@@ -2324,9 +2250,8 @@ T
 
 
 	Page 76
-	Approved? True
-          Page 2 - 69       CONFIDENTIAL
-          CTN-2
+	CTN-2
+
 00 02 43 02 CT     Sigma Seven Sigma Seven this is Canton
                            Com Tech, Canton Com Tech on HF. Over.
 00 02 43 10 P      Canton Com Tech this is Sigma Seven. How
@@ -2357,9 +2282,8 @@ T
 
 
 	Page 77
-	Approved? True
-                  CONFIDENTIAL                          Page 2 - 70
-                                                        CTN-2
+	CTN-2
+
 00 02 44 55  P    She is really performing like a jewel right
                  now.
 00 02 45 03  CC   Say again, Sigma Seven.
@@ -2391,9 +2315,8 @@ T
 
 
 	Page 78
-	Approved? True
-          Page 2 - 71       CONFIDENTIAL
-          CTN-2
+	CTN-2
+
 00 02 46 07  P     That's at 3 hours and 20 minutes, of course.
                             Apparently I've got to keep checking that
                             thing for bicone. Correction - for dipole.
@@ -2426,9 +2349,8 @@ T
 
 
 	Page 79
-	Approved? True
-                              CONFIDENTIAL           Page 2 - 72
-                                                     CTN-HAW-2
+	CTN-HAW-2
+
 00 02 48 05 P      That is correct.
 00 02 48 06 CC     Thank you. Seventy-two degrees.
 00 02 48 09 P      Seventy-two degrees for the retro heater.
@@ -2442,7 +2364,7 @@ T
                              cabin any longer than necessary.
 00 02 49 12 CC     Roger.
 
-                                HAWAII
+	HAWAII
 
 00 02 49 35 CT     Sigma Seven, Hawaii Com Tech. How do you
                              read? Over.
@@ -2461,9 +2383,8 @@ T
 
 
 	Page 80
-	Approved? True
-         Page 2 - 73       CONFIDENTIAL
-         HAW-2
+	HAW-2
+
 00 02 50 09  P      I read you loud and clear.
 00 02 50 15  P      Hawaii Cap Com, I will start a standard
                            report for you. I am in auto retroattitude.
@@ -2494,7 +2415,7 @@ T
 00 02 51 26  CC     Roger.
 
 	Page 81
-	Approved? True
+	HAW-2
 
 00 02 51 27  P     I have not changed the setting on the inverters.
                             I'll give you a recap on those. Inverters are
@@ -2526,9 +2447,8 @@ T
 
 
 	Page 82
-	Approved? True
-  Page 2 - 75                            CONFIDENTIAL
-  HAW-2
+	HAW-2
+
 00 02 52 59  CC   Good show.
 00 02 53 25  CC   Wally, give me a reading on your attitudes
                     now.
@@ -2559,9 +2479,8 @@ T
 
 
 	Page 83
-	Approved? True
-                            CONFIDENTIAL            Page 2 - 76
-                                                    HAW-2
+	HAW-2
+
                             I'm getting the old fireflies again.
                             I guess John is relieved. I haven't
                             been looking for them - they're just
@@ -2600,10 +2519,8 @@ T
 
 
 	Page 84
-	Approved? True
-         Page 2 - 77       CONFIDENTIAL
-         CAL-2
-                            CALIFORNIA
+	CAL-2
+	CALIFORNIA
 
 00 02 59 10 CC     Hello Sigma Seven, Cal Cap Com. Do you
                           receive? Over.
@@ -2640,9 +2557,8 @@ T
 
 
 	Page 85
-	Approved? True
-                              CONFIDENTIAL            Page2 - 78
-                                                     CAL-2
+	CAL-2
+
 00 03 00 29  P     Okay. How do you read me now?
 00 03 00 31  CC    Loud and clear again.
 00 03 00 32  P     Okay, we're back on UHF-hi. They were
@@ -2677,9 +2593,8 @@ T
 
 
 	Page 86
-	Approved? True
-          Page 2 - 79        CONFIDENTIAL
-          CAL-2
+	CAL-2
+
 00 03 01 44 P      I was sure everybody was jumping up and
                             down on that one.
 00 03 01 46 CC     You were right.
@@ -2712,9 +2627,8 @@ T
 
 
 	Page 87
-	Approved? True
-                               CONFIDENTIAL           Page 2 - 80
-                                                      CAL-2
+	CAL-2
+
 00 03 03 39 CC     Roger.
 00 03 03 40 P      I'm getting a good sight of the U.S.A.
                               We just got the typical California
@@ -2748,9 +2662,8 @@ T
 
 
 	Page 88
-	Approved? True
-          Page 2 - 81       CONFIDENTIAL
-          CAL-GYM-2
+	CAL-GYM-2
+
 00 03 05 25 CC     Sounds like you've got a real good view
                             today with not much cloud cover up there
                             over a lot of it.
@@ -2764,7 +2677,7 @@ T
 00 03 05 58  P     Cape Cap Com, Sigma Seven.
 00 03 06 16  P     Cape Cap Com, Sigma Seven.
 
-                              GUAYMAS
+	GUAYMAS
 
 00 03 06 22  P     Muchea Com, correction - Guaymas, Sigma Seven.
 00 03 06 26 CC     Roger. Go ahead Sigma Seven.
@@ -2782,8 +2695,9 @@ T
 
 
 	Page 89
-	Approved? True
-                          CAPE CANAVERAL
+	CNV-3
+	CAPE CANAVERAL
+
 00 03 07 10  P      Cape Cap Com, Sigma Seven. Over.
 00 03 07 21  CC     Sigma Seven, Sigma Seven. Cape Cap Com.
 00 03 07 24  P      Roger, Deke. I'm on push-to-talk at this
@@ -2814,9 +2728,8 @@ T
 
 
 	Page 90
-	Approved? True
-            Page 2 - 83     CONFIDENTIAL
-            CNV-3
+	CNV-3
+
 00 03 08 43  CC     Very good. Would you give us all three
                              inverter temperatures at your leisure.
 00 03 08 49  P      Okay. I'll give you those, and then I'll
@@ -2849,9 +2762,8 @@ T
 
 
 	Page 91
-	Approved? True
-                          CONFIDENTIAL             Page 2 - 84
-                                                   CNV-3
+	CNV-3
+
 00 03 10 06  P     Yeah, instead of getting asked for it, I'm
                             gotta asked to stop it now.
 00 03 10 11  CC    That's a welcome changeover.
@@ -2884,9 +2796,8 @@ T
 
 
 	Page 92
-	Approved? True
-         Page 2 - 85     CONFIDENTIAL
-         CNV-3
+	CNV-3
+
 00 03 11 26 P      Okay. You came in loud and clear.
 00 03 11 28 CC     All righty.
 00 03 11 29 P      03 39 36 for 3 Charlie.
@@ -2915,9 +2826,8 @@ T
 
 
 	Page 93
-	Approved? True
-                           CONFIDENTIAL           Page 2 - 86
-                                                  CNV-3
+	CNV-3
+
 00 03 12 45 P     Let's try for CET again at 50 (seconds).
 00 03 12 47 CC    Roger, in 3 seconds. MARK.<sup>T</sup>
 00 03 12 52 P     Okay. I am a second and a half fast.
@@ -2949,9 +2859,8 @@ T
 
 
 	Page 94
-	Approved? True
-         Page 2 - 87       CONFIDENTIAL
-         CNV-3
+	CNV-3
+
 00 03 14 04 P     Okay. I think I'll try some of that.
 00 03 14 06 CC    Roger. We'll leave you alone for awhile.
 00 03 14 09 P     Okay. That might be fun, too. I'm now going
@@ -2987,9 +2896,8 @@ T
 
 
 	Page 95
-	Approved? True
-                          CONFIDENTIAL           Page 2 - 88
-                                                 CNV-CYI-3
+	CNV-CYI-3
+
 00 03 18 30 P    It should be noted that the ammeter is reading
                          12 amps as advertised - apparently, somebody
                          is getting to me with a R Cal on the cabin
@@ -3021,7 +2929,7 @@ T
                          at 3 23 35, MARK,<sup>T</sup> are almost
                          all zeros.
 
-                           CANARY ISLANDS
+	CANARY ISLANDS
 
 00 03 23 49 CC   Sigma Seven this is Canary Cap Com. Transmitting
                          on UHF/HF.
@@ -3029,9 +2937,8 @@ T
 
 
 	Page 96
-	Approved? True
-         Page 2 - 89      CONFIDENTIAL
-         CYI- 3
+	CYI-3
+
 00 03 24 06 CC    Sigma Seven this is Canary Cap Com. Transmitting
                          on HF/UHF. How do you read?
 00 03 24 45 P     Canary Cap Com this is Sigma Seven. UHF.
@@ -3065,16 +2972,15 @@ T
 
 
 	Page 97
-	Approved? True
-                            CONFIDENTIAL         Page 2 - 90
-                                                 CYI-KNO-3
+	CYI-KNO-3
+
 00 03 27 33 P     In VOX record. I've just checked the stick out -
                          while in drifting flight - to see if I would
                          get any rates built up by stroking the stick,
                          and I did not. It's working beautifully.
 00 03 31 11 P     Visor open - now.
 
-                              KANO
+	KANO
 
 00 03 32 14 P     Kano.
 00 03 32 18 CT    Sigma Seven this Kano Com Tech. Transmitting
@@ -3104,9 +3010,8 @@ T
 
 
 	Page 98
-	Approved? True
-         Page 2 - 91       CONFIDENTIAL
-         KNO-IOS-3
+	KNO-IOS-3
+
 00 03 36 26 CT    Sigma Seven, Sigma Seven this is Kano Com Tech.
                          Transmitting on HF. Do you read? Over.
 00 03 36 35 P     This is Sigma Seven. I read a station on HF.
@@ -3117,7 +3022,7 @@ T
                          loud and clear on HF. How me?
 00 03 36 54 CT    . . ..
 
-                           INDIAN OCEAN SHIP
+	INDIAN OCEAN SHIP
 
 00 03 40 06 P     Indian Ocean Ship this is Sigma Seven. Over.
 00 03 40 14 P     Indian Ocean Ship. Sigma Seven. Over.
@@ -3140,9 +3045,8 @@ T
 
 
 	Page 99
-	Approved? True
-                          CONFIDENTIAL             Page 2 - 92
-                                                   IOS-3
+	IOS-3
+
 00 03 43 55 P     You got T/M on me? Over.
 00 03 43 58 CC    That is Roger.
 00 03 43 59 P     Okay. I'm going to power up the ASCS bus.
@@ -3171,9 +3075,8 @@ T
 
 
 	Page 100
-	Approved? True
-         Page 2 - 93       CONFIDENTIAL
-         IOS-3
+	IOS-3
+
 00 03 52 08 P     On the powering up. I went to gyros normal,
                          finally, after getting gyros set at approximately
                          three zeros with the maneuver off.
@@ -3210,11 +3113,8 @@ T
 
 
 	Page 101
-	Approved? True
-                          CONFIDENTIAL             Page 2 - 94
-                                                   MUC-3
-
-                            MUCHEA
+	MUC-3
+	MUCHEA
 
 00 03 58 04 CC    . . . Muchea. Over.
 00 03 58 05 P     Muchea Cap Com this is Sigma Seven.
@@ -3247,9 +3147,8 @@ T
 
 
 	Page 102
-	Approved? True
-         Page 2 - 95      CONFIDENTIAL
-        MUC- 3
+	MUC-3
+
 00 03 59 45 CC    Roger.
 00 03 59 50 P     I will go on ASCS; reentry attitude.
 00 03 59 55 CC    Roger. You're on now according to us.
@@ -3283,9 +3182,8 @@ T
 
 
 	Page 103
-	Approved? False
-                           CONFIDENTIAL            Page 2 - 96
-                                                   MUC-3
+	MUC-3
+
 00 04 02 03 CC    Roger. And he suggests later on, when they appear
                          like white particles, that you do the same and
                          this might prove that they are the same particles.
@@ -3319,12 +3217,11 @@ T
 
 
 	Page 104
-	Approved? True
-         Page 2 - 97      CONFIDENTIAL
-         MUC-WOM-3
+	MUC-WOM-3
+
 00 04 04 06 CC    Roger.
 
-                            WOOMERA
+	WOOMERA
 
 00 04 04 27 CC    Sigma Seven. Woomera Cap Com.
 00 04 04 30 P     Hello, Woomera. Go ahead.
@@ -3353,9 +3250,8 @@ T
 
 
 	Page 105
-	Approved? True
-                             CONFIDENTIAL             Page 2 - 98
-                                                      WOM-3
+	WOM-3
+
            -- -- -- CC    (Good.)<sup>G</sup>
 00 04 06 28 CC    We are about to have LOS here at Woomera.
 00 04 06 32 P     Roger.
@@ -3391,9 +3287,8 @@ T
 
 
 	Page 106
-	Approved? True
-          Page 2 - 99       CONFIDENTIAL
-          WOM-3
+	WOM-3
+
 00 04 15 58 P     Don't tell me this compass is working? I
                           should talk more. What I have been doing, I
                           have been getting the standard source of
@@ -3436,9 +3331,8 @@ T
 
 
 	Page 107
-	Approved? True
-                           CONFIDENTIAL          Page 2 - 100
-                                                 WOM-HAW-3
+	WOM-HAW-3
+
 00 04 21 49 P     I have a feeling I am off in pitch, but I think
                          it is that damn horizon air glow line. Makes
                          you think it's higher than it is. I still
@@ -3450,7 +3344,7 @@ T
                          fairly close to it. So the scanners are
                          torquing it up about 5 degrees I'd say.
 
-                             HAWAII
+	HAWAII
 
 00 04 22 55 CC    Sigma Seven. Hawaii Cap Com.
 00 04 22 59 P     Roger. Hawaii Cap Com this is Sigma Seven.
@@ -3479,9 +3373,8 @@ T
 
 
 	Page 108
-	Approved? True
-         Page 2 - 101      CONFIDENTIAL
-         HAW-3
+	HAW-3
+
 00 04 24 28 CC    Wally, I cut you out there. Give me your
                          water valve setting on your inverter.
 00 04 24 33 P     On the inverter it is 4.
@@ -3513,9 +3406,8 @@ T
 
 
 	Page 109
-	Approved? True
-                           CONFIDENTIAL            Page 2 - 102
-                                                   HAW-3
+	HAW-3
+
 00 04 26 07 CC    Roger.
 00 04 26 11 P     The star computer device I have helps a lot to
                          confirm stars, but it's a little hard to
@@ -3546,9 +3438,8 @@ T
 
 
 	Page 110
-	Approved? True
-          Page 2 - 103      CONFIDENTIAL
-         HAW-CAL-3
+HAW-CAL-3
+
 00 04 28 01 P     Partial pressure oxygen.
 00 04 28 06 CC    Say again.
 00 04 28 08 P     Are you asking for PO<sub>2</sub> ?
@@ -3566,7 +3457,7 @@ T
 00 04 29 09 P     Well Gus. We - at least we got some fuel coming
                           over here this time.
 
-                            CALIFORNIA
+	CALIFORNIA
 
 00 04 32 12 CC    Sigma Seven. Cal Cap Com,
 00 04 32 14 P     Cal Cap Com this is Sigma Seven. Read you.
@@ -3581,9 +3472,8 @@ T
 
 
 	Page 111
-	Approved? True
-                          CONFIDENTIAL              Page 2 - 104
-                                                   CAL-3
+	CAL-3
+
                          maneuver is off; all systems are green. Auto
                          fuel is 89 (percent), manual is 90 (percent).
                          My temperatures at this point are very
@@ -3619,9 +3509,8 @@ T
 
 
 	Page 112
-	Approved? True
-          Page 2 - 105
-         CAL-3
+	CAL-3
+
 00 04 34 23 P     I never had the direct opportunity of them
                          coming toward me John, but they definitely
                          were going away from me. I could get a
@@ -3656,9 +3545,8 @@ T
 
 
 	Page 113
-	Approved? True
-                           CONFIDENTIAL            Page 2 - 106
-                                                   CAL-3
+	CAL-3
+
 00 04 35 44 P     Okay. I am in normal, and I am going to
                          select reentry attitude select for powering
                          up time.
@@ -3692,9 +3580,8 @@ T
 
 
 	Page 114
-	Approved? True
-         Page 2 - 107      CONFIDENTIAL
-         CAL-3
+	CAL-3
+
 00 04 38 44 CC    Roger. Understand. Little slow yaw rate
                           to the left. You are beginning to fade a
                           little bit here. Probably won't get you
@@ -3705,11 +3592,8 @@ T
 00 04 40 10 P     Going to VOX record.
 
 	Page 115
-	Approved? True
-                              CONFIDENTIAL           Page 2 - 108
-                                                    CNV-4
-
-                             CAPE CANAVERAL
+	CNV-4
+	CAPE CANAVERAL
 
 00 04 40 14 P      Roger. Standby 1 second Deke.
 00 04 40 41 P      Roger. Made a dosimeter check, and it is still
@@ -3739,9 +3623,8 @@ T
 
 
 	Page 116
-	Approved? True
-          Page 2 - 109       CONFIDENTIAL
-         CNV-4
+	CNV-4
+
 00 04 42 14  P     24.
 00 04 42 16  CC    (Contingency recovery areas) A and B are nominal
                            and I'd like to give you a GMT hack and see
@@ -3771,9 +3654,8 @@ T
 
 
 	Page 117
-	Approved? True
-                              CONFIDENTIAL           Page 2 - 110
-                                                    CNV-4
+	CNV-4
+
 00 04 43 28  CF   00 17 30 is contact time for 4 minutes. Azimuth
                             99.5 (degrees), elevation 90 (degrees). Echo
                             will be in the light, the capsule in the dark.
@@ -3806,9 +3688,8 @@ T
 
 
 	Page 118
-	Approved? True
-         Page 2 - 111       CONFIDENTIAL
-         CNV-4
+	CNV-4
+
 00 04 45 46 CF    Roger. We concur.
 00 04 46 00 P     Roger.
 00 04 46 01 P     Ah boy, I just happened to drift into an inverted
@@ -3844,9 +3725,8 @@ T
 
 
 	Page 119
-	Approved? True
-                               CONFIDENTIAL         Page 2 - 112
-                                                     CNV-4
+	CNV-4
+
 00 04 50 57 P     I am just about straight down. We will take
                             some cumulus pictures. The time hack is
                             4 hours 51 minutes. The picture will be
@@ -3886,9 +3766,8 @@ T
 
 
 	Page 120
-	Approved? True
-        Page 2 - 113       CONFIDENTIAL
-        CNV-4
+	CNV-4
+
                           is . . . 5. Standby (inverter) is 120 . . .
                           thrusters . . . right, over 100 (degrees)
                           left. Pitch down (thruster) is 105 (degrees).
@@ -3932,9 +3811,8 @@ T
 
 
 	Page 121
-	Approved? True
-                             CONFIDENTIAL           Page 2 - 114
-                                                   CNV-4
+	CNV-4
+
 00 05 06 28  P     Okay, should be coming up on Africa pretty
                            soon. Tip her over and see how she looks
                            without light.
@@ -3974,9 +3852,8 @@ T
 
 
 	Page 122
-	Approved? True
-          Page 2 - 115       CONFIDENTIAL
-         CNV-IOS-4
+	CNV-IOS-4
+
 00 05 11 36  P     I have some pretty stars in sight, and also I
                            have the little white objects that seem to
                            come from the capsule itself and drift off.
@@ -4015,16 +3892,15 @@ T
                            the earth, as I can see clouds with lightning
                            in them.
 
-                            INDIAN OCEAN SHIP
+	INDIAN OCEAN SHIP
 
 00 05 15 53  P     Indian Ocean Ship, this is Sigma Seven. How do
                            you read? Over.
 
 
 	Page 123
-	Approved? True
-                               CONFIDENTIAL           Page 2 - 116
-                                                      IOS-4
+	IOS-4
+
 00 05 15 58 CC    . . . with a little bit of background noise.
                              Over.
 00 05 16 05 P     Roger, I have to run my volume up to read you.
@@ -4059,9 +3935,8 @@ T
 
 
 	Page 124
-	Approved? True
-         Page 2 - 117      CONFIDENTIAL
-        IOS-4
+	IOS-4
+
 00 05 17 54 CC    Roger.
 00 05 17 55 P     The suit dome (temperature) is 70 degrees and
                          the circuit is comfortable.
@@ -4096,9 +3971,8 @@ T
 
 
 	Page 125
-	Approved? True
-                              CONFIDENTIAL           Page 2 - 118
-                                                     IOS-4
+	IOS-4
+
 00 05 20 05 P     That was at 5 hours 00 minutes 00 seconds.
 00 05 20 09 CC    Good.
 00 05 21 39 P     I can see my attitude now. I am - looks like
@@ -4134,9 +4008,8 @@ T
 
 
 	Page 126
-	Approved? True
-         Page 2 - 119       CONFIDENTIAL
-        IOS-MUC-4
+	IOS-MUC-4
+
 00 05 28 08  P     I'm unable to run any more tests on stars at
                           time. I am coming back to the view of
                           the surface of the earth. There's quite a
@@ -4157,7 +4030,7 @@ T
                           because of the clock, of course-and that's
                           27 to 27-½ (volts).
 
-                              MUCHEA
+	MUCHEA
 
 00 05 33 27  P     Hello Muchea Cap Com this is Sigma Seven. I read
                           you. How me, over?
@@ -4177,9 +4050,8 @@ T
 
 
 	Page 127
-	Approved? True
-                              CONFIDENTIAL           Page 2 - 120
-                                                     MUC-PCS-4
+	MUC-PCS-4
+
 00 05 34 32 P     That is correct; all quantities are the same.
 00 05 34 36 CC    All quantities are the same.
 00 05 34 38 P     Roger. And temperatures. Gene, I do have one
@@ -4207,16 +4079,15 @@ T
                             over to PCS.
 00 05 37 32 P     Roger, Muchea.
 
-                           PACIFIC COMMAND SHIP
+	PACIFIC COMMAND SHIP
 
 00 05 37 47 P     Hello, Pacific Command Ship, Pacific Command Ship.
                             This is Sigma Seven on HF. Over.
 
 
 	Page 128
-	Approved? True
-         Page 2 - i21       CONFIDENTIAL
-        PCS-4
+	PCS-4
+
 00 05 38 05  P     Hello, Pacific Command Ship. PCS, this is Sigma
                           Seven. HF. Over.
 00 05 42 20  P     Hello PCS, PCS. This is Sigma Seven. How do
@@ -4250,9 +4121,8 @@ T
 
 
 	Page 129
-	Approved? True
-                               CONFIDENTIAL          Page 2 - 122
-                                                     PCS-4
+	PCS-4
+
 00 05 44 13 CC    Say again.
 00 05 44 14 P     How is the weather there?
 00 05 44 18 CC    Weather actually is fairly good here in location.
@@ -4284,9 +4154,8 @@ T
 
 
 	Page 130
-	Approved? True
-        Page 2 - 123        CONFIDENTIAL
-         PCS-WAT-4
+	PCS-WAT-4
+
 00 05 48 16 CC    Understand 3 seconds fast.
 00 05 48 18 P     That is correct.
 00 05 48 20 CC    Roger.
@@ -4309,7 +4178,7 @@ T
 00 05 50 47 P     This is Sigma Seven, station calling, I can just
                           barely hear you over.
 
-                             WATERTOWN
+	WATERTOWN
 
 00 05 50 56 CC    Sigma Seven Sigma Seven, this is Watertown Cap
                           Com on HF. If you are copying me, Cape Flight
@@ -4320,9 +4189,8 @@ T
 
 
 	Page 131
-	Approved? False
-                              CONFIDENTIAL          Page 2 - 124
-                                                    WAT-HAW-4
+	WAT-HAW-4
+
 00 05 51 20  P     This is Sigma Seven, read you loud and clear
                             Watertown. I have been on UHF.
 00 05 51 26  P     Relay aircraft this is Sigma Seven. Please patch
@@ -4337,7 +4205,7 @@ T
                             Over.
 00 05 52 14  P     Relay . . .  .
 
-                                HAWAII
+	HAWAII
 
 00 05 52 15  CC    Hawaii Cap Com.
 00 05 52 16  P     Hi Gussy. How are you reading me?
@@ -4356,9 +4224,8 @@ T
 
 
 	Page 132
-	Approved? True
-    Page 2 - 125             CONFIDENTIAL
-   HAW-4
+	HAW-4
+
 00 05 53 59   P      Hawaii Cap Com, Hawaii Cap Com, this is Sigma Sevn.
                        Over.
 00 05 55 56   P      This is Sigma Seven, giving the effects of flying
@@ -4396,9 +4263,8 @@ T
 
 
 	Page 133
-	Approved? True
-                              CONFIDENTIAL          Page 2 - 126
-                                                    HAW-4
+	HAW-4
+
 00 05 58 16  CC    Sigma Seven, this is Hawaii, this is Hawaii
                             Cap Com.
 00 05 58 19  P     Hi, Gus. How are you doing?
@@ -4434,9 +4300,8 @@ T
 
 
 	Page 134
-	Approved? False
-         Page 2 - 127        CONFIDENTIAL
-         HAW-4
+	HAW-4
+
 00 05 59 57  CC   Roger. We confirm those quantities, Wally.
                           Looks like you're in good shape. Did you
                           get the message to go to UHF prior to elapsed
@@ -4470,9 +4335,8 @@ T
 
 
 	Page 135
-	Approved? True
-                               CONFIDENTIAL          Page 2 - 128
-                                                     HAW-CAL-4
+	HAW-CAL-4
+
 00 06 01 34 P     Okay. Can you read me better with the push-to-talk?
 00 06 04 33 P     At 6 hours and 4 minutes - we have a 1 degree per
                              second right yaw rate. 0 degree per second
@@ -4481,7 +4345,7 @@ T
                              thruster action. We are swinging
                              around and acquiring the horizon at this point.
 
-                                CALIFORNIA
+	CALIFORNIA
 
 00 06 05 48 P     California Cap Com, this is Sigma Seven, over.
 00 06 06 04 CC    Hello Sigma Seven, this is Cal Cap Com. How
@@ -4509,9 +4373,8 @@ T
 
 
 	Page 136
-	Approved? True
-         Page 2 - 129         CONFIDENTIAL
-         CAL-4
+	CAL-4
+
 00 06 07 11 P     Roger. I got a real weird attitude at this
                            point I'll clue you. Ha, ha, I'm looking
                            down at the earth. I'm sort of coming toward
@@ -4552,9 +4415,8 @@ T
 
 
 	Page 137
-	Approved? True
-                               CONFIDENTIAL          Page 2 - 130
-                                                     CAL-GYM-4
+	CAL-GYM-4
+
 00 06 09 08 CC    I think you're probably right.
 00 06 09 09 P     Ha, ha. I suppose an old song "Drifting and
                              Dreaming" would be apropos at this point, but
@@ -4577,7 +4439,7 @@ T
 00 06 10 14 P     Oh, somebody did. Maybe Scotty.
 00 06 10 18 CC    May have.
 
-                                  GUAYMAS
+	GUAYMAS
 
 00 06 10 19 CC    Roger . . . Z Cal off now.
 00 06 10 22 P     See, you can't be sneaky with me, can you Scott?
@@ -4588,9 +4450,8 @@ T
 
 
 	Page 138
-	Approved? True
-        Page 2 - 131
-        GYM-4
+	GYM-4
+
 00 06 10 36  P     Okay, I'll send you blood pressure now.
 00 06 10 40  CC    Roger, standing by. Cal coming off.
 00 06 10 44  P     Blood pressure on.
@@ -4626,9 +4487,8 @@ T
 
 
 	Page 139
-	Approved? True
-                                CONFIDENTIAL         Page 2 - 132
-                                                     GYM-4
+	GYM-4
+
 00 06 13 03  CC    Incidentally, Wally, if we have LOS before we
                               read the last of your blood pressure, don't
                               forget to turn her off.
@@ -4645,10 +4505,8 @@ T
 00 06 15 37  P     Go ahead. Go ahead. Cape Cap Com.
 
 	Page 140
-	Approved? True
-                      CONFIDENTIAL                   Page 2 - 133
-                                                     CNV-5
-                      CAPE CANAVERAL
+	CNV-5
+	CAPE CANAVERAL
 
 00 06 15 45  CC   Sigma Seven. Cape Cap Com.
 00 06 15 47  P    This is Sigma Seven. Go ahead, Deke.
@@ -4681,9 +4539,8 @@ T
                     the horizon, Deke.
 
 	Page 141
-	Approved? True
-           Page 2 - 134     CONFIDENTIAL
-           CNV-5
+	CNV-5
+
 00 06 17 44 CC    (Roger)<sup>G</sup>
 00 06 17 48 P     Let's put a little . . ..
 00 06 17 49 CC    . . . pressure for environment.
@@ -4715,9 +4572,8 @@ T
 
 
 	Page 142
-	Approved? True
-                             CONFIDENTIAL            Page 2 - 135
-                                                      CNV-5
+	CNV-5
+
 00 06 19 01 P     I'm just about in retroattitude now. Just about
                            made a complete 180 (degrees).
 00 06 19 13 CC    (Roger Seven, Cape Cap Com . . ..)<sup>G</sup>
@@ -4746,9 +4602,8 @@ T
 
 
 	Page 143
-	Approved? True
-               Page 2 - 136           CONFIDENTIAL
-               CNV-5
+	CNV-5
+
 00 06 21 03   CC_A1   Sigma Seven. Auto One. Do you read Cap Com?
 00 06 21 05   P       That's affirm. What's your problem?
 00 06 21 15   CC_A1   Sigma Seven, Sigma Seven this is Auto One. Can
@@ -4775,9 +4630,8 @@ T
 	Warfare: Relay aircraft communicator at Cape Canaveral.
 
 	Page 144
-	Approved? True
-                             CONFIDENTIAL             Page 2 - 137
-                                                      CNV-5
+	CNV-5
+
 00 06 22 36 CC    Roger. Standby for Cape, please.
 00 06 22 38 P     Okay.
 00 06 22 45 CC    Sigma Seven. Cap Com. How do you read now?
@@ -4810,9 +4664,8 @@ T
 
 
 	Page 145
-	Approved? True
-           Page 2 - 138     CONFIDENTIAL
-           CNV-5
+	CNV-5
+
                            experiments where before I was not able to.
                            I will now pitch the capsule down on fly-by-wire
                            low. First I will check to see -
@@ -4856,9 +4709,8 @@ T
 
 
 	Page 146
-	Approved? True
-                             CONFIDENTIAL             Page 2 - 139
-                                                      CNV-5
+	CNV-5
+
 00 06 31 23 P     The capsule at this point is, at 6 hours and
                            31 minutes, it is under chimp configuration.
                            I've used manual proportional to a great
@@ -4899,9 +4751,8 @@ T
 
 
 	Page 147
-	Approved? True
-           Page 2 - 140     CONFIDENTIAL
-           CNV-5
+	CNV-5
+
 00 06 40 25 P     We're now at 6 40. Going to map two.
 00 06 41 43 P     At this point, I made a complete electrical
                            check. All electrical systems are green.
@@ -4940,9 +4791,8 @@ T
 
 
 	Page 148
-	Approved? True
-                            CONFIDENTIAL           Page 2 - 141
-                                                   CNV-IOS-5
+	CNV-IOS-5
+
                            And I'll bring up my fingertip lights. And
                            at 06 45 52 Mercury is right on the horizon.
                            Arcturus should be in view, but I guess we
@@ -4972,7 +4822,7 @@ T
 00 06 50 07 P     I'll bet you any money that city my left,
                            and was Port Elizabeth.
 
-                             INDIAN OCEAN SHIP
+	INDIAN OCEAN SHIP
 
 00 06 50 43 P     Indian Ocean Cap Com this is Sigma Seven. Over.
 00 06 51 06 P     Indian Ocean Cap Com. Sigma Seven. Over.
@@ -4983,9 +4833,8 @@ T
 
 
 	Page 149
-	Approved? True
-           Page 2 - 142     CONFIDENTIAL
-           IOS-5
+	IOS-5
+
 00 06 51 39 P     Roger. I read you weak.
 00 06 51 43 CC    Do you have a short report for me? Over.
 00 06 51 45 P     Roger. I'll give you my configuration. I
@@ -5020,9 +4869,8 @@ T
 
 
 	Page 150
-	Approved? False
-                             CONFIDENTIAL             Page 2 - 143
-                                                      IOS-5
+	IOS-5
+
            -- -- -- P     The standard light is also extincted at 3.8.
 00 06 56 04 P     Picture taken, 06 56 27 black and white, of
                             the moon. With the weather bureau filter
@@ -5063,9 +4911,8 @@ T
 
 
 	Page 151
-	Approved? True
-          Page 2 - 144      CONFIDENTIAL
-          IOS-PCS-5
+	IOS-PCS-5
+
                           and 30 seconds. Very graphic series of
                           lights. Very easy to see.
 00 07 11 38 P     Correction, at 07 hours and minutes put me
@@ -5098,7 +4945,7 @@ T
                           particularly, along the island chain at
                           this point.
 
-                           PACIFIC OCEAN SHIP
+	PACIFIC OCEAN SHIP
 
 00 07 15 52 CT    Sigma Seven, Sigma Seven this is PCS Com Tech,
                           PCS Com Tech. Do you read? Over.
@@ -5106,9 +4953,8 @@ T
                           How me?
 
 	Page 152
-	Approved? True
-                             CONFIDENTIAl             Page 2 - 145
-                                                      PCS-5
+	PCS-5
+
 00 07 16 02 CT    Roger. Sigma Seven. Reading you 5 by, 5 by.
                            Going to Cap Com.
 00 07 16 06 P     Roger.
@@ -5144,9 +4990,8 @@ T
 
 
 	Page 153
-	Approved? True
-           Page 2 - 146     CONFIDENTIAL
-           PCS-5
+	PCS-5
+
 00 07 17 47 CC    Your T/M on CET is also 2 seconds fast. The
                            retrosequence for (contingency recovery area)
                            5-Echo is nominal.
@@ -5179,9 +5024,8 @@ T
 
 
 	Page 154
-	Approved? True
-                             CONFIDENTIAL            Page 2 - 147
-                                                      PCS-5
+	PCS-5
+
 00 07 19 45 P     Okay. I'll drop in.
 00 07 19 49 CC    Standing by.
 00 07 19 50 P     Roger, Al. Thanks a lot.
@@ -5216,10 +5060,8 @@ T
 
 
 	Page 155
-	Approved? True
-           Page 2 - 148     CONFIDENTIAL
-           HTV-WAT-5
-                          HUNTSVILLE AND WATERTOWN
+	HTV-WAT-5
+	HUNTSVILLE AND WATERTOWN
 
 00 07 22 05 CT     Sigma Seven, Sigma Seven this is Huntsville
                              Com Tech.
@@ -5252,9 +5094,8 @@ T
 
 
 	Page 156
-	Approved? True
-                            CONFIDENTIAL           Page 2 - 149
-                                                   HTV-WAT-5
+	HTV-WAT-5
+
 00 07 24 24 P    This is Sigma Seven. On HF. Do you read me HF?
                            Over.
 00 07 24 31 CT   Sigma Seven this is Watertown Com Tech. I read
@@ -5288,9 +5129,8 @@ T
 
 
 	Page 157
-	Approved? True
-           Page 2 - 150     CONFIDENTIAL
-           HTV-WAT-HAW-5
+	HTV-WAT-HAW-5
+
 00 07 26 55 P     Sigma Seven reads you loud and clear. Out.
 00 07 27 02 CT    Sigma Seven, Sigma Seven this is Watertown
                            Com Tech. HF. How do you read?
@@ -5309,7 +5149,7 @@ T
 00 07 29 28 CT    Sigma Seven, Sigma Seven this is Watertown Com
                            Tech. HF. How do you read?
 
-                               HAWAII
+	HAWAII
 
 00 07 29 46 CC    Seven. Hawaii Cap Com. Go ahead.
 00 07 30 07 CC    Seven. Hawaii Cap Com. . . . over.
@@ -5324,9 +5164,8 @@ T
 
 
 	Page 158
-	Approved? True
-                             CONFIDENTIAL             Page 2 - 151
-                                                      HAW-5
+	HAW-5
+
 00 07 31 07 CC    Sigma Seven, Sigma Seven. Hawaii Cap Com.
 00 07 31 10 P     Roger. Hawaii Cap Com this is Sigma Seven.
 00 07 31 29 P     Hawaii Cap Com. Sigma Seven. Hawaii Cap Com.
@@ -5357,9 +5196,8 @@ T
 
 
 	Page 159
-	Approved? True
-           Page 2 - 152     CONFIDENTIAL
-           HAW-5
+	HAW-5
+
 00 07 33 15 CC    Give me your status.
 00 07 33 16 P     Roger. My status is go. I could receive all
                            the stations in the Pacific, but they
@@ -5393,9 +5231,8 @@ T
 
 
 	Page 160
-	Approved? True
-                             CONFIDENTIAL          Page 2 - 153
-                                                   HAW-CAL-5
+	HAW-CAL-5
+
 00 07 34 47 P     Roger. This means I have to punch retrosequence.
                            Right?
 00 07 35 03 CC    Will you give us a blood pressure?
@@ -5413,7 +5250,7 @@ T
 00 07 36 27 P     Hawaii Cap Com. I am 4 seconds fast. Sigma
                            Seven transmitting in the blind.
 
-                              CALIFORNIA
+	CALIFORNIA
 
 00 07 40 29 CC    Hello Sigma Seven, hello Sigma Seven this is
                            Cal Cap Com, Cal Cap Com. Broadcasting in
@@ -5434,9 +5271,8 @@ T
 
 
 	Page 161
-	Approved? True
-          Page 2 - 154      CONFIDENTIAL
-           CAL-GYM-5
+	CAL-GYM-5
+
                            broadcast in the blind. Cape advises
                            reset your clock to 08 51 and 33 seconds,
                            and 33 seconds. Cal out.
@@ -5448,7 +5284,7 @@ T
                            08 51 and 33, showing good. This is
                            correct setting.
 
-                              GUAYMAS
+	GUAYMAS
 
 00 07 42 33 CT    Sigma Seven this is Guaymas Com Tech. Do you
                            read? Over.
@@ -5476,9 +5312,8 @@ T
 
 
 	Page 162
-	Approved? True
-                             CONFIDENTIAL             Page 2 - 155
-                                                      GYM-5
+	GYM-5
+
 00 07 43 48 CC    Roger.
 00 07 43 50 P     Everything looks real good, Scott.
 00 07 43 52 CC    It looks real good down here Wally. Doing
@@ -5512,9 +5347,8 @@ T
 
 
 	Page 163
-	Approved? True
-           Page 2 - 156      CONFIDENTIAL
-          GYM-5
+	GYM-5
+
                            time will be 7 hours, 45 minutes, 40
                            seconds. Standby. MARK.<sup>T</sup>
 00 07 45 46 P     Roger. I concur.
@@ -5546,9 +5380,8 @@ T
 
 
 	Page 164
-	Approved? True
-                             CONFIDENTIAL             Page 2 - 157
-                                                      GYM-5
+	GYM-5
+
 00 07 47 43 P     Roger. The scanner test was what the problem
                            was. And the roll went off as we anticipated
                            it would. And I am going back to
@@ -5583,10 +5416,8 @@ T
 00 07 51 38 CC_A2 Warfare. Auto Two.
 
 	Page 165
-	Approved? True
-                            CONFIDENTIAL        Page 2 - 158
-                                               CNV-QUITO-6
-                             CANAVERAL
+	CNV-QUITO-6
+	CANAVERAL
 
 00 07 51 48 CT     Sigma Seven. Cape Com Tech. Do you read? Over.
 00 07 51 51 P      Roger, Cape Com Tech. I read you loud and clear.
@@ -5602,7 +5433,7 @@ T
 00 07 52 33  P      I read you loud and clear, Murph. How do you read
                             me? Over.
 
-                              QUITO
+	QUITO
 
 00 07 52 38  CC_?   TMS calling. Repeat please. . . .. Did you receive
                             Cape Com Tech? Over.
@@ -5619,9 +5450,8 @@ T
 
 
 	Page 166
-	Approved? True
-       Page 2 - 159     CONFIDENTIAL
-       QUITO-6
+	QUITO-6
+
 00 07 53 12  P     I'm afraid I can't. Except I would like to come
                          down and visit you. I'm enjoying a beautiful
                          sight of the country.
@@ -5654,9 +5484,8 @@ T
 
 
 	Page 167
-	Approved? True
-                            CONFIDENTIAL          Page 2 - 160
-                                                  QUITO-6
+	QUITO-6
+
 00 07 54 23 P      Sigma Seven. Affirmative.
 00 07 54 28 CT     Sigma Seven this is Cape Com Tech. This is
                             Cape Com Tech. How do you read? Over.
@@ -5689,9 +5518,8 @@ T
 
 
 	Page 168
-	Approved? True
-        Page 2 - 161    CONFIDENTIAL
-       QUITO-6
+	QUITO-6
+
                          fact, it will be 8 hours. MARK<sup>T</sup>,
                          7, 8, 9 black photographs, black and white film.
                          Ten photographs, black and white film. The shots
@@ -5733,9 +5561,8 @@ T
 
 
 	Page 169
-	Approved? True
-                      CONFIDENTIAL            Page 2 - 162
-                                              QUITO-6
+	QUITO-6
+
                         Yaw is good. Pitch is down a little steep. It's
                         definite that the yaw reticle is not good for
                         night work.
@@ -5775,9 +5602,8 @@ T
 
 
 	Page 170
-	Approved? True
-        Page 2 - 163    CONFIDENTIAL
-       QUITO-6
+	QUITO-6
+
 00 08 14 34  P      Closed face plate. Opened it momentarily, merely
                          to wipe my nose, and try to clear a lens, which
                          I cannot do. Reentry select. Camera is stowed.
@@ -5816,9 +5642,8 @@ T
 
 
 	Page 171
-	Approved? True
-                          CONFIDENTIAL        Page 2 - 164
-                                              QUITO-IOS-6
+	QUITO-IOS-6
+
 00 08 20 47  P      Will perform an orientation test at this time while
                            I'm on ASCS and not so busy. Reaching for manual
                            handle - and on it, exactly on it. Reaching for
@@ -5843,7 +5668,7 @@ T
                            this mode out for size. Down a very small amount,
                            23 minutes.
 
-                         INDIAN OCEAN SHIP
+	INDIAN OCEAN SHIP
 
 00 08 23 05  P      Indian Ocean Ship this is Sigma Seven. Do you
                            read? Over.
@@ -5856,9 +5681,8 @@ T
 
 
 	Page 172
-	Approved? True
-        Page 2 - 165    CONFIDENTIAL
-        IOS-6
+	IOS-6
+
 00 08 24 12  P      Roger, Indian Ocean Ship. Have not seen the
                          flare. I am pitching back up to retroattitude.
 00 08 24 20  CC     Roger. Were you able to check the Durban lights?
@@ -5889,9 +5713,8 @@ T
 
 
 	Page 173
-	Approved? True
-                           CONFIDENTIAL          Page 2 - 166
-                                                 IOS-6
+	IOS-6
+
 00 08 26 15 P      I have the moon setting at this point.
 00 08 26 21 CC     Say again.
 00 08 26 22 P      The moon just set. And I have lightning in
@@ -5921,9 +5744,8 @@ T
 
 
 	Page 174
-	Approved? True
-          Page 2 - 167   CONFIDENTIAL
-          IOS-6
+	IOS-6
+
 00 08 27 38  P      I am on bicone, and the visor is closed. All
                            other items are in their proper position. Over.
 00 08 27 48  CC     Roger.
@@ -5955,9 +5777,8 @@ T
 
 
 	Page 175
-	Approved? True
-                           CONFIDENTIAL           Page 2 - 168
-                                                 IOS-6
+	IOS-6
+
 00 08 34 50  P      At this time, I have completed the high
                            thruster checks. A delayed report. Each
                            axis worked beautifully. I now have 75 (percent)
@@ -5997,9 +5818,8 @@ T
 
 
 	Page 176
-	Approved? True
-        Page 2 - 169     CONFIDENTIAL
-        IOS-6
+	IOS-6
+
                           the ship when you're under way at sea. The
                           blower noise, I assume, and the inverters give
                           you the same illusions
@@ -6036,9 +5856,8 @@ T
 
 
 	Page 177
-	Approved? True
-                            CONFIDENTIAL        Page 2 - 170
-                                                IOS-PCS-6
+	IOS-PCS-6
+
 00 08 47 01  P      Attitude looks very good, nice and stiff. Pressure
                              is holding very well. Vehicle looks very good.
 00 08 47 23  P      Roll left, not so good. Let's see what we have.
@@ -6056,7 +5875,7 @@ T
                              landing switch fuses.
 00 08 49 17  P      Here comes some sunlight.
 
-                          PACIFIC COMMAND SHIP
+	PACIFIC COMMAND SHIP
 
 00 08 49 55  P      Pacific Command Ship this is Sigma Seven. Do
                              you read? Over.
@@ -6073,9 +5892,8 @@ T
 
 
 	Page 178
-	Approved? True
-        Page 2 - 171     CONFIDENTIAL
-        PCS-6
+	PCS-6
+
 00 08 50 26  P     That is affirmative. The handle is sitting in at
                           this time; I'll pull it out.
 00 08 50 31  CC    Okay. Your attitudes look very good, Wally, and
@@ -6107,9 +5925,7 @@ T
 
 
 	Page 179
-	Approved? True
-                            CONFIDENTIAL          Page 2 - 172
-                                                  PCS-6
+	PCS-6
 
 00 08 51 57 CC     5, 4, 3, 2, 1, 0.<sup>T</sup>
 00 08 52 04 P      I've got (retro rocket number) 1, and she's
@@ -6144,9 +5960,8 @@ T
 
 
 	Page 180
-	Approved? True
-          Page 2 - 173     CONFIDENTIAL
-          PCS-6
+	PCS-6
+
 00 08 53 40 CC     Roger. We confirm scope retract on T/M.
 00 08 53 43 P      Roger.
 00 08 53 44 CC     And you're very close to reentry attitude.
@@ -6173,9 +5988,8 @@ T
 
 
 	Page 181
-	Approved? True
-                             CONFIDENTIAL        Page 2 - 174
-                                                 PCS-WAT-6
+	PCS-WAT-6
+
 00 08 54 49 P      Okay. Post retro, I read 65 (percent) auto
                               (fuel), and about - 78 (percent) manual (fuel).
                               Manual lever is in. I'm in ASCS at this time.
@@ -6186,7 +6000,7 @@ T
 00 08 55 19 CC     Standing by Wally. We have LOS. See you later.
 00 08 55 22 P      Roger, Al.
 
-                              WATERTOWN
+	WATERTOWN
 
 00 08 56 57 CT     Sigma Seven, Sigma Seven this is Watertown
                               Com Tech. UHF. How do you read?
@@ -6209,9 +6023,8 @@ T
 
 
 	Page 182
-	Approved? True
-           Page 2 - 175  CONFIDENTIAL
-          WAT-6
+	WAT-6
+
 00 08 57 45  P      Roger.
 00 08 57 55  CC     Sigma Seven this is Watertown Cap Com.
 00 08 57 58  P      Roger. Watertown Cap Com. How do you read
@@ -6245,9 +6058,8 @@ T
 
 
 	Page 183
-	Approved? True
-                          CONFIDENTIAL             Page 2 - 176
-                                                   WAT-6
+	WAT-6
+
 00 08 59 16  P     Roger.
 00 08 59 22  CC    At main chute deploy if you get a chance,
                               will you shut off your three water controls
@@ -6276,9 +6088,8 @@ T
 
 
 	Page 184
-	Approved? True
-         Page 2 - 177    CONFIDENTIAL
-         WAT-6
+	WAT-6
+
 00 09 00 40 CC     Wally, by the way, how do you feel? All your
                            systems okay at this time?
 00 09 00 43 P      Oh, they're beautiful - very good. Every
@@ -6314,9 +6125,8 @@ T
 
 
 	Page 185
-	Approved? True
-                           CONFIDENTIAL        Page 2 - 178
-                                               WAT-HAW-6
+	WAT-HAW-6
+
                              There is a green flow - and looks like orange
                              streaks every once in a while. RSCS is doing
                              very well on reentry. Rather unusual slow
@@ -6342,7 +6152,7 @@ T
                              Altimeter off the peg. Attitudes holding very
                              well.
 
-                            HAWAII
+	HAWAII
 
 00 09 06 05 CC     Sigma Seven this is Hawaii Cap Com.
 00 09 06 07 P      Roger. Go ahead.
@@ -6354,9 +6164,8 @@ T
 
 
 	Page 186
-	Approved? True
-         Page 2 - 179   CONFIDENTIAL
-         HAW-6
+	HAW-6
+
                            command doing very well. Coming up on
                            50 (thousand). She looks like a sweety.
                            Coming up on 45,000. I'm down to about
@@ -6398,9 +6207,8 @@ T
 
 
 	Page 187
-	Approved? True
-                           CONFIDENTIAL            Page 2 - 180
-                                                   HAW-6
+	HAW-6
+
 00 09 09 09 CC     Roger, Wally. How do you feel?
 00 09 09 10 P      I feel marvelous. This is a beautiful flight,
                              wasn't it?
@@ -6433,9 +6241,8 @@ T
 
 
 	Page 188
-	Approved? True
-         Page 2 - 181    CONFIDENTIAL
-         HAW-6
+	HAW-6
+
 00 09 10 55  CC      You say it's hot.
 00 09 10 56  P       I am not hot. I am very comfortable.
 00 09 11 01  CC      Say again here. Just don't read.
@@ -6462,9 +6269,8 @@ T
             <sup>2</sup> Communicator on board the recovery vessel, U.S.S. Kearsarge.
 
 	Page 189
-	Approved? True
-                           CONFIDENTIAL             Page 2 - 182
-                                                    HAW-6
+	HAW-6
+
 00 09 14 05  P     Looks like I'm stable on the water. The
                               whip antenna is up. I can see it. I
                               will switch to whip antenna.
@@ -6497,9 +6303,8 @@ T
 
 
 	Page 190
-	Approved? True
-         Page 2 - 183   CONFIDENTIAL.
-         HAW-REC-6
+	HAW-REC-6
+
 00 09 15 34  CC    Roger. I agree.
 00 09 15 36  P     I am in comfort, absolute complete comfort.
                            The suit inlet is now 72 (degrees), the
@@ -6524,7 +6329,7 @@ T
                            and they are on the way.
 00 09 18 22  P     Very good. I am very comfortable.
 
-                          RECOVERY
+	RECOVERY
 
 00 09 18 33 R1     Hello Astro, Hello Astro this is Swiss One.
                            How do you read me. Over.
@@ -6533,9 +6338,8 @@ T
 
 
 	Page 191
-	Approved? True
-                          CONFIDENTIAL             Page 2 - 184
-                                                   REC-6
+	REC-6
+
 00 09 18 40  R1    Fine, fine. Got your squibs off. Give me
                              a short count, please.
 00 09 18 44  P     Roger. A short count follows: 1 2 3 4 5
@@ -6565,9 +6369,8 @@ T
 
 
 	Page 192
-	Approved? True
-         Page 2 - 185   CONFIDENTIAL
-         REC-6
+	REC-6
+
 00 09 20 18 P      Tell the fellows I am perfectly comfortable.
                            I can wait as long as they want.
 00 09 20 22 R1     Understand.
@@ -6597,9 +6400,8 @@ T
 
 
 	Page 193
-	Approved? True
-                           CONFIDENTIAL            Page 2 - 186
-                                                   REC-6
+	REC-6
+
 00 09 22 24 P      Okay, pilot. I think I would prefer to stay in
                              and have a - a small boat come alongside and
                              using your collar routine, of course, to
