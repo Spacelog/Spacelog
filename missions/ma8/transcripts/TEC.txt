@@ -66,7 +66,7 @@
 	Page 12
 	CNV-1
 
-           0003 14   P     I'll go back on VOX again. How do you read
+00 00 03 14  P     I'll go back on VOX again. How do you read
                             me on VOX now?
 00 00 03 21  P     Cape Cap Com, Sigma Seven.
 00 00 03 22  CC    Go ahead, Seven.
@@ -626,6 +626,7 @@ T
 
 	Page 28
 	ZZB-MUC-1
+
 	This page is blank in the original PDF, reconstructed from another version: http://www.jsc.nasa.gov/history/mission_trans/MA08_TEC.PDF pages 65-66
 
                 Very nice. I should be able to pick up Muchea shortly,
@@ -3252,7 +3253,7 @@ T
 	Page 105
 	WOM-3
 
-           -- -- -- CC    (Good.)<sup>G</sup>
+00 04 05 55 CC    (Good.)<sup>G</sup>
 00 04 06 28 CC    We are about to have LOS here at Woomera.
 00 04 06 32 P     Roger.
 00 04 06 33 CC    Anything else for the Cape?
@@ -3428,7 +3429,7 @@ T
 00 04 26 53 CC    Okay. Good,
 00 04 26 54 P     Now it looks like a good time to take a
                          drink of water, over you.
-        ----- -- CC    Visor open?
+00 04 26 54 CC    Visor open?
 00 04 27 15 P     My visor is open now.
 00 04 27 18 CC    Roger. Visor open.
 00 04 27 52 CC    Wally, give me your pressure . . . readout.
@@ -4688,7 +4689,7 @@ HAW-CAL-3
                            Setting up in roll. Getting yaw rates, pow,
                            pow. And I want this to count - I'm going
                            to go back to fly-by-wire low.
-          -- -- -- P     That was stupid. Now we go to fly-by-wire
+00 06 27 37 P     That was stupid. Now we go to fly-by-wire
                            low. I had a case of double authority and
                            really flotched it. But better conserve
                            our fuel. It's much too easy to get into
@@ -4741,7 +4742,7 @@ HAW-CAL-3
                            as I can sight. Beyond a little bit of
                            shadow as we approach sunset. Okay, that
                            was 6 37 34.
-           -- -- -- P     That's capsule elapsed time. At 6 38 we will
+00 06 37 01 P     That's capsule elapsed time. At 6 38 we will
                            copy the manual intermediate report and I
                            can do that at this time.
 00 06 38 48 P     Okay, at 6 hours and 35 minutes we are at 81
@@ -4871,7 +4872,7 @@ HAW-CAL-3
 	Page 150
 	IOS-5
 
-           -- -- -- P     The standard light is also extincted at 3.8.
+00 06 54 44 P     The standard light is also extincted at 3.8.
 00 06 56 04 P     Picture taken, 06 56 27 black and white, of
                             the moon. With the weather bureau filter
                             pulled out. Picture number 6. And as the
