@@ -1,11 +1,12 @@
 {
     "name": "ma8", 
-    "utc_launch_time": "1962-10-03", 
+    "utc_launch_time": "1962-10-03T12:15:12",
     "main_transcript": "ma8/TEC", 
-    "subdomains": [
-        "ma8"
-    ], 
+    "subdomains": ["mercury8", "ma8"],
     "copy": {
+        "title": "Mercury 8",
+        "upper_title": "Mercury",
+        "lower_title": "8",
         "cleaners": [
             "Alice Miller", 
             "Ben Feist", 
@@ -18,10 +19,7 @@
             "Russ Garett",
             "Ryan Alexander", 
             "Steve Marshall"
-        ], 
-        "lower_title": "8", 
-        "upper_title": "Mercury-Atlas", 
-        "title": "Mercury-Atlas 8"
+        ]
     }, 
     "characters": {
         "P": {},
