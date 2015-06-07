@@ -230,5 +230,47 @@
         "Warfare": { "role": "other", "short_name": "Warfare" },
         "?": { "role": "other", "short_name": "Unknown speaker" }
     },
+    "acts": [
+        {
+            "title": "Launch",
+            "description": "...",
+            "range": ["-00:00:00:20", "00:00:05:50"]
+        },
+        {
+            "title": "First orbit",
+            "description": "...",
+            "range": ["00:00:05:50", "00:01:33:22"]
+        },
+        {
+            "title": "Second orbit",
+            "description": "...",
+            "range": ["00:01:33:22", "00:03:07:00"]
+        },
+        {
+            "title": "Third orbit",
+            "description": "...",
+            "range": ["00:03:07:00", "00:04:40:13"]
+        },
+        {
+            "title": "Fourth orbit",
+            "description": "...",
+            "range": ["00:04:40:13", "00:06:15:40"]
+        },
+        {
+            "title": "Fifth orbit",
+            "description": "...",
+            "range": ["00:06:15:40", "00:07:51:40"]
+        },
+        {
+            "title": "Sixth orbit",
+            "description": "...",
+            "range": ["00:07:51:40", "00:08:49:50"]
+        },
+        {
+            "title": "Reentry & splashdown",
+            "description": "...",
+            "range": ["00:08:49:50", "00:09:23:10"]
+        }
+    ],
     "incomplete": true
 }
