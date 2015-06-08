@@ -2,7 +2,7 @@ execute "apt-get update"
 
 %w{python python-setuptools python-pip redis-server python-redis
     python-virtualenv imagemagick subversion git-core python-xapian
-    ruby-sass}.each { |p|
+    ruby}.each { |p|
   package p
 }
 
@@ -19,4 +19,6 @@ execute "apt-get update"
   edit.write_file
 end
 
+execute "gem install watcher"
+execute "gem install sass"
 execute "pip install -r /vagrant/requirements.txt"
