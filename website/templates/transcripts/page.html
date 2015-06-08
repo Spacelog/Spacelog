@@ -21,10 +21,16 @@
 {% block body-class %}transcript-section{% endblock %}
 
 {% block crest %}
-{% if log_lines.0.first_in_act and log_lines.0.act.banner %}
+{% if log_lines.0.first_in_act %}
   {% with log_lines.0.act as act %}
     <div id='crest' {% if act.banner_class %}class='{{ act.banner_class }}'{% endif %} {% if act.banner_colour %}style='background-color:{{ act.banner_colour }};'{% endif %}><div class='wrapper'>
-        <p class='act-banner'><img class="act-banner" src="{{ MISSIONS_STATIC_URL }}{{ act.mission_name }}/images/banners/{{ act.banner }}"></p>
+      <p class='act-banner'>
+        {% if act.banner %}
+          <img src="{{ MISSIONS_STATIC_URL }}{{ act.mission_name }}/images/banners/{{ act.banner }}" alt="Phase {{ act.number|add:1 }}: {{ act.title }}">
+        {% else %}
+          Phase {{ act.number|add:1 }}: <b>{{ act.title }}</b>
+        {% endif %}
+      </p>
     </div></div>
   {% endwith %}
   {% else %}<div id="crest"></div>{% endif %}

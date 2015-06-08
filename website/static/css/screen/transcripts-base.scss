@@ -341,8 +341,20 @@ p.load-more a {
 
 p.act-banner {
     height:                 200px;
-    margin:                 0 -34px 0 -41px;
-    overflow:               hidden;
+    line-height:            200px;
+    margin:                 0;
+    font-family:            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
+    font-size:              70px;
+    text-transform:         uppercase;
+}
+p.act-banner img {
+    margin-left:            -41px;
+}
+p.act-banner b {
+    color:                  #f8b334;
 }
 
 /*! verbatim */
