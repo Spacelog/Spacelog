@@ -389,7 +389,28 @@ class OriginalView(TemplateView):
             "page": page,
             "next_page": page + 1 if page < max_transcript_pages else None,
             "previous_page": page - 1 if page > 1 else None,
+            "first_log_line": self.first_log_line(),
         }
+
+    def first_log_line(self):
+        try:
+            return next(self.log_lines())
+        except StopIteration:
+            return None
+
+    def log_lines(self):
+        return self.transcript_query().transcript_page(self.page).items()
+
+    def transcript_query(self):
+        return self.log_line_query().transcript(self.get_transcript_name())
+
+    def log_line_query(self):
+        return LogLine.Query(self.request.redis_conn, self.request.mission.name)
+
+    @property
+    def page(self):
+        return self.kwargs["page"]
+
 
 class ProgressiveFileWrapper(object):
     def __init__(self, filelike, blksize, interval):
