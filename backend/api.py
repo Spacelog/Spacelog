@@ -161,6 +161,10 @@ class LogLine(object):
             "Returns a new Query whose results are all the log lines on a given page"
             return self._extend_query("page", page_number)
 
+        def transcript_page(self, transcript_page_number):
+            "Returns a new Query whose results are all the log lines on a given transcript page"
+            return self._extend_query("transcript_page", transcript_page_number)
+
         def first_after(self, timestamp):
             "Returns the closest log line after the timestamp."
             if "transcript" in self.filters:
@@ -245,6 +249,10 @@ class LogLine(object):
                 keys = map(lambda x: x.decode('utf-8'), 
                     self.redis_conn.lrange(u"page:%s:%i" % (self.filters['transcript'], self.filters['page']), 0, -1)
                 )
+            elif filter_names == set(['transcript_page', 'transcript']):
+                index_key = u"transcript_page:%s:%s" % (self.filters['transcript'], self.filters['transcript_page'])
+                raw_keys = self.redis_conn.lrange(index_key, 0, -1)
+                keys = map(lambda x: x.decode('utf-8'), raw_keys)
             else:
                 raise ValueError("Invalid combination of filters: %s" % ", ".join(filter_names))
             # Iterate over the keys and return LogLine objects

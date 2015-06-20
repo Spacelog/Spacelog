@@ -259,6 +259,8 @@ class TranscriptIndexer(object):
                 self.redis_conn.sadd("speaker:%s" % speaker, log_line_id)
             # Add it to the index for this page
             self.redis_conn.rpush("page:%s:%i" % (self.transcript_name, current_page), log_line_id)
+            # Add it to the index for this transcript page
+            self.redis_conn.rpush("transcript_page:%s:%s" % (self.transcript_name, current_transcript_page), log_line_id)
             # Add it into the transcript and everything sets
             self.redis_conn.zadd("log_lines:%s" % self.mission_name, log_line_id, chunk['timestamp'])
             self.redis_conn.zadd("transcript:%s" % self.transcript_name, log_line_id, chunk['timestamp'])
