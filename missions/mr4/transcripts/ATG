@@ -1,5 +1,5 @@
 [00:00:00:01]
-_page: 1
+_page: 42
 STONY: Lift-off.
 
 [00:00:00:03]
@@ -48,7 +48,6 @@ BELL 7: 4, 5 ...
 CC: Pitch is 77; trajectory is go.
 
 [00:00:01:13]
-_page: 2
 BELL 7: Roger. Cabin pressure is still about 6 and dropping slightly. Looks like she's going to hold at about 5.5.
 
 [00:00:01:23]
@@ -77,6 +76,7 @@ BELL 7: Roger. It looks good in here.
 BELL 7: Everything is good; cabin pressure is holding; suit pressure is OK; 2 minutes and we got 4 g's; fuel is go; ah, feel the hand controller move just a hair there; cabin pressure is holding; O<sub>2</sub> is go; 25 amps.
 
 [00:00:02:15]
+_page: 43
 CC: Roger, we have go here.
 
 [00:00:02:16]
@@ -110,7 +110,6 @@ BELL 7: Oh boy! Manual handle is out; the sky is very, very black; the capsule i
 CC: Roger.
 
 [00:00:03:02]
-_page: 3
 BELL 7: I haven't seen a booster anyplace. OK, rate command is coming on. I'm in orbit attitude, I'm pitching up. OK, 40 ... Wait, I've lost some roll here someplace.
 
 [00:00:03:10]
@@ -177,7 +176,6 @@ CC: 4 plus 30 Gus.
 UKN: 4 plus 30, he's looking out the window. A-OK.
 
 [00:00:04:37]
-_page: 4
 BELL 7: I can see the coast but I can't identify anything.
 
 [00:00:04:42]
@@ -203,6 +201,7 @@ CC: Retros on my mark, 3, 2, 1, mark.
 UKN: He's in limits.
 
 [00:00:05:11]
+_page: 44
 BELL 7: OK, there's 1 firing, there's 1 firing.
 
 [00:00:05:12]
@@ -242,7 +241,6 @@ BELL 7: Manual fuel handle is in, mark, going to HF.
 CC: Roger, HF.
 
 [00:00:05:52]
-_page: 5
 CC: Liberty Bell 7, this is Cap Com on HF, 1, 2, 3, 4, 5. How do you read 7?
 UKN: I got you.
 
@@ -310,7 +308,6 @@ CC: Roger.
 BELL 7: Got a pitch rate in here, OK, g's are starting to build.
 
 [00:00:08:09]
-_page: 6
 CC: Roger, reading you loud and clear.
 
 [00:00:08:11]
@@ -338,6 +335,7 @@ BELL 7: Okay, I'm getting some contrails, evidently shock wave, 50,000 feet; I'm
 CC: Roger, 50,000.
 
 [00:00:08:52]
+_page: 45
 BELL 7: 45,000, do you still read?
 
 [00:00:08:54]
@@ -373,7 +371,6 @@ BELL 7: OK, we're coming down to 15,000 feet, if anyone reads. We're on emergenc
 CC: Roger, understand drogue is good, the periscope is out.
 
 [00:00:10:05]
-_page: 7
 BELL 7: There's 13,000 feet.
 CC: Roger.
 
@@ -433,7 +430,6 @@ BELL 7: I'm going to open my face plate.
 BELL 7: Hello, I can't get one, I can't get one door pin back in. I've tried and tried and tried and I can't get it back in. And I'm coming, [glossary:ATS], I'm passing through 5,000 feet and I don't think I have one of the door pins in.
 
 [00:00:12:43]
-_page: 8
 ATS: Roger, Bell 7, roger.
 
 [00:00:13:04]
@@ -443,6 +439,7 @@ BELL 7: Do you have any word from the recovery troops?
 CARDFILE 23: Liberty Bell 7, this is Card File 23, we are heading directly toward you.
 
 [00:00:13:18]
+_page: 46
 BELL 7: [glossary:ATS], this is Cap – this is Liberty Bell 7. Do you have any word from the recovery troops?
 
 [00:00:13:23]
@@ -488,7 +485,6 @@ BELL 7: Coolant quantity is 30; temperature is 68; pressure is 14; main O<sub>2<
 BELL 7: Can see the water coming right on up.
 
 [00:00:15:54]
-_page: 9
 ATS: Liberty Bell 7, Liberty Bell 7, this is Atlantic Cap Com, do you read me? Over.
 
 [00:00:16:04]
@@ -534,6 +530,7 @@ BELL 7: Roger, give me about another 5 minutes here, to mark these switch positi
 HUNTCLUB 1: Hunt Club 1, roger we are ready anytime you are.
 
 [00:00:18:44]
+_page: 47
 BELL 7: OK, give me about another 3 or 4 minutes here to take these switch positions, then I'll be ready for you.
 
 [00:00:18:50]
@@ -552,7 +549,6 @@ BELL 7: Go, go ahead Hunt Club 1.
 HUNTCLUB 1: Roger, this is 1, observe something, possibly the canister in the water along side capsule. Will we be interfering with any [glossary:TM] if we come down and take a look at it?
 
 [00:00:20:26]
-_page: 10
 BELL 7: Negative, not at all. I'm just going to put the rest of this stuff on tape and then I'll be ready for you, in just about 2 more minutes, I would say.
 
 [00:00:20:32]
