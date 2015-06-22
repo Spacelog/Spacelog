@@ -19,6 +19,9 @@
             "Russ Garett",
             "Ryan Alexander", 
             "Steve Marshall"
+        ],
+        "image_attributions": [
+            { "url": "http://www.seasky.org/space-exploration/mission-patches-mercury.html", "title": "Mercury-Atlas 8 mission isignia", "attrib_url": "http://www.seasky.org/space-exploration/", "attrib": "Sea and Sky", "license": "free for non-commercial use" }
         ]
     }, 
     "characters": {
