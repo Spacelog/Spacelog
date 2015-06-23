@@ -10337,9 +10337,9 @@ P: Okay. It's taking a while to right itself
      water here. Can you read? Over.
 
 [00:09:14:01]
-FlagPlot: <sup>2</sup> Roger. Sigma Seven. Flag Plot. Are you stable
+_extra: FlagPlot is "Communicator on board the recovery vessel, U.S.S. Kearsarge."
+FlagPlot: Roger. Sigma Seven. Flag Plot. Are you stable
      and on the water?
-     <sup>2</sup> Communicator on board the recovery vessel, U.S.S. Kearsarge.
 
 [00:09:14:05]
 _page : 189
