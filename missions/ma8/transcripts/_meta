@@ -23,6 +23,10 @@
             "Steve Marshall"
         ],
         "about": "Mercury 8 was the fifth crewed US spaceflight, and the longest NASA had attempted so far. This site allows you to explore transcripts of radio communications between Schirra aboard Sigma 7 and the NASA personnel at monitoring stations around the world.",
+        "transcript_attributions": [
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/mercury.htm", "title": "Mercury-Atlas 8 Postlaunch Memorandum Report" },
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/mercury.htm", "title": "Mercury-Atlas 8 Results of the Third United States Orbital Space Flight" }
+        ],
         "image_attributions": [
             { "url": "http://www.seasky.org/space-exploration/mission-patches-mercury.html", "title": "Mercury-Atlas 8 mission isignia", "attrib_url": "http://www.seasky.org/space-exploration/", "attrib": "Sea and Sky", "license": "free for non-commercial use" }
         ]
