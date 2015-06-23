@@ -152,8 +152,8 @@
                 ["CT_HAW", "00:09:06:05"]
             ]
         },
-        "CC_A1": { "role": "other", "short_name": "Auto 1 CAPCOM" },
-        "CC_A2": { "role": "other", "short_name": "Auto 2 CAPCOM" },
+        "CC_A1": { "role": "other", "short_name": "Auto 1 CAPCOM", "avatar": "person.png" },
+        "CC_A2": { "role": "other", "short_name": "Auto 2 CAPCOM", "avatar": "person.png" },
         "CC_CAL": {
             "role": "mission-ops",
             "name": "John Glenn",
@@ -164,10 +164,11 @@
             "role": "mission-ops",
             "name": "Donald K. (Deke) Slayton",
             "short_name": "Deke Slayton (CAPCOM)",
-            "mission_position": "CAPCOM (Cape Canaveral)"
+            "mission_position": "CAPCOM (Cape Canaveral)",
+            "avatar": "deke_slayton.jpg"
         },
-        "CC_CTN": { "role": "other", "short_name": "Canton CAPCOM" },
-        "CC_CYI": { "role": "other", "short_name": "Canary Islands CAPCOM" },
+        "CC_CTN": { "role": "other", "short_name": "Canton CAPCOM", "avatar": "person.png" },
+        "CC_CYI": { "role": "other", "short_name": "Canary Islands CAPCOM", "avatar": "person.png" },
         "CC_GYM": {
             "role": "mission-ops",
             "name": "Scott Carpenter",
@@ -180,41 +181,43 @@
             "short_name": "Gus Grissom (CAPCOM)",
             "mission_position": "CAPCOM (Hawaii)"
         },
-        "CC_HTV": { "role": "other", "short_name": "Huntsville CAPCOM" },
-        "CC_IOS": { "role": "other", "short_name": "Indian Ocean Ship CAPCOM" },
-        "CC_KNO": { "role": "other", "short_name": "Kano CAPCOM" },
+        "CC_HTV": { "role": "other", "short_name": "Huntsville CAPCOM", "avatar": "person.png" },
+        "CC_IOS": { "role": "other", "short_name": "Indian Ocean Ship CAPCOM", "avatar": "person.png" },
+        "CC_KNO": { "role": "other", "short_name": "Kano CAPCOM", "avatar": "person.png" },
         "CC_MUC": {
             "role": "mission-ops",
             "name": "Gene Duret",
             "short_name": "Gene Duret (CAPCOM)",
-            "mission_position": "CAPCOM (Muchea)"
+            "mission_position": "CAPCOM (Muchea)",
+            "avatar": "person.png"
         },
         "CC_PCS": {
             "role": "mission-ops",
             "name": "Al Shepard",
             "short_name": "Al Shepard (CAPCOM)",
-            "mission_position": "CAPCOM (Pacific Command Ship)"
+            "mission_position": "CAPCOM (Pacific Command Ship)",
+            "avatar": "alan_shepard.jpg"
         },
-        "CC_QUITO": { "role": "other", "short_name": "Quito CAPCOM" },
-        "CC_WAT": { "role": "other", "short_name": "Watertown CAPCOM" },
-        "CC_WOM": { "role": "other", "short_name": "Woomera CAPCOM" },
-        "CC_ZZB": { "role": "other", "short_name": "Zanzibar CAPCOM" },
-        "CC_?": { "role": "other", "short_name": "Unknown CAPCOM" },
-        "CT_CAL": { "role": "other", "short_name": "California Comm Tech" },
-        "CT_CNV": { "role": "other", "short_name": "Cape Canaveral Comm Tech" },
-        "CT_CTN": { "role": "other", "short_name": "Canton Comm Tech" },
-        "CT_CYI": { "role": "other", "short_name": "Canary Islands Comm Tech" },
-        "CT_GYM": { "role": "other", "short_name": "Guaymas Comm Tech" },
-        "CT_HAW": { "role": "other", "short_name": "Hawaii Comm Tech" },
-        "CT_HTV": { "role": "other", "short_name": "Huntsville Comm Tech" },
-        "CT_IOS": { "role": "other", "short_name": "Indian Ocean Ship Comm Tech" },
-        "CT_KNO": { "role": "other", "short_name": "Kano Comm Tech" },
-        "CT_MUC": { "role": "other", "short_name": "Muchea Comm Tech" },
-        "CT_PCS": { "role": "other", "short_name": "Pacific Command Ship Comm Tech" },
-        "CT_QUITO": { "role": "other", "short_name": "Quito Comm Tech" },
-        "CT_WAT": { "role": "other", "short_name": "Watertown Comm Tech" },
-        "CT_WOM": { "role": "other", "short_name": "Woomera Comm Tech" },
-        "CT_ZZB": { "role": "other", "short_name": "Zanzibar Comm Tech" },
+        "CC_QUITO": { "role": "other", "short_name": "Quito CAPCOM", "avatar": "person.png" },
+        "CC_WAT": { "role": "other", "short_name": "Watertown CAPCOM", "avatar": "person.png" },
+        "CC_WOM": { "role": "other", "short_name": "Woomera CAPCOM", "avatar": "person.png" },
+        "CC_ZZB": { "role": "other", "short_name": "Zanzibar CAPCOM", "avatar": "person.png" },
+        "CC_?": { "role": "other", "short_name": "Unknown CAPCOM", "avatar": "person.png" },
+        "CT_CAL": { "role": "other", "short_name": "California Comm Tech", "avatar": "person.png" },
+        "CT_CNV": { "role": "other", "short_name": "Cape Canaveral Comm Tech", "avatar": "person.png" },
+        "CT_CTN": { "role": "other", "short_name": "Canton Comm Tech", "avatar": "person.png" },
+        "CT_CYI": { "role": "other", "short_name": "Canary Islands Comm Tech", "avatar": "person.png" },
+        "CT_GYM": { "role": "other", "short_name": "Guaymas Comm Tech", "avatar": "person.png" },
+        "CT_HAW": { "role": "other", "short_name": "Hawaii Comm Tech", "avatar": "person.png" },
+        "CT_HTV": { "role": "other", "short_name": "Huntsville Comm Tech", "avatar": "person.png" },
+        "CT_IOS": { "role": "other", "short_name": "Indian Ocean Ship Comm Tech", "avatar": "person.png" },
+        "CT_KNO": { "role": "other", "short_name": "Kano Comm Tech", "avatar": "person.png" },
+        "CT_MUC": { "role": "other", "short_name": "Muchea Comm Tech", "avatar": "person.png" },
+        "CT_PCS": { "role": "other", "short_name": "Pacific Command Ship Comm Tech", "avatar": "person.png" },
+        "CT_QUITO": { "role": "other", "short_name": "Quito Comm Tech", "avatar": "person.png" },
+        "CT_WAT": { "role": "other", "short_name": "Watertown Comm Tech", "avatar": "person.png" },
+        "CT_WOM": { "role": "other", "short_name": "Woomera Comm Tech", "avatar": "person.png" },
+        "CT_ZZB": { "role": "other", "short_name": "Zanzibar Comm Tech", "avatar": "person.png" },
         "CF": {
             "role": "mission-ops-title",
             "name": "Flight Director",
@@ -232,13 +235,14 @@
         "S": {
             "role": "other",
             "name": "Flight Surgeon",
-            "short_name": "Flight Surgeon"
+            "short_name": "Flight Surgeon",
+            "avatar": "surgeon.png"
         },
-        "R1": { "role": "other", "short_name": "Recovery 1" },
-        "FlagPlot": { "role": "other", "short_name": "FlagPlot" },
-        "Stony": { "role": "other", "short_name": "Stony" },
-        "Warfare": { "role": "other", "short_name": "Warfare" },
-        "?": { "role": "other", "short_name": "Unknown speaker" }
+        "R1": { "role": "other", "short_name": "Recovery 1", "avatar": "helicopter.png" },
+        "FlagPlot": { "role": "other", "short_name": "USS Kearsarge", "avatar": "ship.png" },
+        "Stony": { "role": "other", "short_name": "Stony", "avatar": "stony.png" },
+        "Warfare": { "role": "other", "short_name": "Warfare", "avatar": "person.png" },
+        "?": { "role": "other", "short_name": "Unknown speaker", "avatar": "person.png" }
     },
     "acts": [
         {
