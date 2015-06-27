@@ -81,6 +81,45 @@
     margin-top:             4px;
     padding:                0 20px;
 }
+.content-page.get-involved a.call-to-action {
+    border:                 1px solid transparent;
+    border-radius:          3px;
+    color:                  #fff;
+    font-family:            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
+    font-size:              23px;
+    position:               relative;
+    text-transform:         uppercase;
+    top:                    2px;
+    padding:                3px 22px;
+    width:                  140px;
+    // HACK: webkit mirrors border-top-color to border-bottom-color if
+    // transparent or none (WTF)
+    border-top-color:       #34d5fc;
+    border-bottom-color:    #037b98;
+    text-shadow:            0 1px 0 #000;
+    background:             #037a97;
+    background:             -webkit-gradient(
+                                linear,
+                                left top,
+                                left bottom,
+                                from(#00aad3),
+                                to(#037a97)
+                            );
+    background:             -moz-linear-gradient(top,#00aad3,#037a97);
+    *filter: progid:DXImageTransform.Microsoft.gradient(
+                                startColorstr='#00aad3',
+                                endColorstr='#037a97'
+                            );
+
+    &:hover,
+    &:focus {
+        background:             #00aad3;
+        text-decoration:        none;
+    }
+}
 .content-page em {
     font-style:             italic;
 }
