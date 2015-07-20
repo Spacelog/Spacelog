@@ -2,19 +2,21 @@ import subprocess
 import redis
 import os
 
-from backend.api import Mission, Act, KeyScene, LogLine
+from backend.api import Mission, Act, LogLine
 from backend.util import seconds_to_timestamp
 
+
 class StatsPornGenerator(object):
-    
-    graph_background_file = 'backend/stats_porn_assets/chart_background.png'
+    width = 901
+    height = 78
     key_scene_marker_files = 'backend/stats_porn_assets/key_scene_%d.png'
     max_bar_height = 40
     graph_background_width = 896
     graph_bar_colour = '#00a9d2'
-    
+    end_marker_colour = '#989898'
+
     image_output_path = 'missions/%s/images/stats/'
-    
+
     def __init__(self, redis_conn):
         self.redis_conn = redis_conn
 
@@ -33,7 +35,7 @@ class StatsPornGenerator(object):
             
             # Count the number of log lines in each segment
             # and find the maximum number of log lines in a segment
-            t = act.start            
+            t = act.start
             segment_line_counts = []
             max_line_count = 0
             real_output_path = self.image_output_path % mission.name
@@ -46,7 +48,8 @@ class StatsPornGenerator(object):
                 segment_line_counts.append((t, t+section_duration, line_count))
                 t += section_duration
 
-            # Make sure we have an output directoy and work out where to write the image
+            # Make sure we have an output directory and work out where to
+            # write the image
             try:
                 os.makedirs(real_output_path)
             except OSError:
@@ -56,7 +59,11 @@ class StatsPornGenerator(object):
 
             # Add initial draw command
             draw_commands = [
-                'convert', self.graph_background_file,
+                'convert',
+                '-size', '%dx%d' % (self.width, self.height), 'xc:transparent',
+                '-fill', self.end_marker_colour,
+                '-draw', "path 'M 1,1  L 10,1  L 5,8  L 1,1",
+                '-draw', "path 'M 890,1  L 900,1  L 895,8  L 890,1",
                 '-fill', self.graph_bar_colour,
             ]
 
