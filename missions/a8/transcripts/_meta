@@ -311,7 +311,7 @@
             "banner": "act1.jpg",
             "banner_colour": "#5d86b2",
             "orbital": "act1.png",
-            "illustration": "act1.gif",
+            "illustration": "act1.png",
             "homepage": "act1.jpg"
         },
         {
@@ -321,7 +321,7 @@
             "banner": "act2.jpg",
             "banner_colour": "#5d86b2",
             "orbital": "act2.png",
-            "illustration": "act2.gif",
+            "illustration": "act2.png",
             "homepage": "act2.jpg"
         },
         {
@@ -331,7 +331,7 @@
             "banner": "act3.jpg",
             "banner_colour": "#5d86b2",
             "orbital": "act3.png",
-            "illustration": "act3.gif",
+            "illustration": "act3.png",
             "homepage": "act3.jpg"
         },
         {
@@ -341,7 +341,7 @@
             "banner": "act4.jpg",
             "banner_colour": "#5d86b2",
             "orbital": "act4.png",
-            "illustration": "act4.gif",
+            "illustration": "act4.png",
             "homepage": "act4.jpg"
         },
         {
@@ -351,7 +351,7 @@
             "banner": "act5.jpg",
             "banner_colour": "#5d86b2",
             "orbital": "act5.png",
-            "illustration": "act5.gif",
+            "illustration": "act5.png",
             "homepage": "act5.jpg"
         },
         {
@@ -361,7 +361,7 @@
             "banner": "act6.jpg",
             "banner_colour": "#5d86b2",
             "orbital": "act6.png",
-            "illustration": "act6.gif",
+            "illustration": "act6.png",
             "homepage": "act6.jpg"
         }
     ],
