@@ -130,7 +130,7 @@
           "photo": "borman.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "astronaut.png",
+          "avatar": "borman.jpg",
           "stats": [
             {
                 "value": 478,
@@ -156,7 +156,7 @@
           "photo": "lovell.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "astronaut.png",
+          "avatar": "lovell.jpg",
           "stats": [
             {
                 "value": 715,
@@ -182,7 +182,7 @@
           "photo": "anders.jpg",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "astronaut.png",
+          "avatar": "anders.jpg",
           "stats": [
             {
                 "value": 147,
@@ -232,7 +232,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "person.png"
+          "avatar": "collins.jpg"
         },
         "KEN_MATTINGLY": {
           "role": "mission-ops",
@@ -243,7 +243,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "person.png"
+          "avatar": "mattingly.jpg"
         },
         "JERRY_CARR": {
           "role": "mission-ops",
@@ -254,7 +254,7 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "person.png"
+          "avatar": "carr.jpg"
         },
         "DEKE_SLAYTON": {
           "role": "mission-ops",
@@ -265,13 +265,13 @@
           "photo": "",
           "photo_width": 190,
           "photo_height": 205,
-          "avatar": "person.png"
+          "avatar": "slayton.jpg"
         },
         "JACK_SCHMITT": {
           "role": "other",
           "name": "Harrison H. (Jack) Schmitt",
           "short_name": "Jack Schmitt",
-          "avatar": "person.png"
+          "avatar": "schmitt.jpg"
         },
         "CLIFF_CHARLESWORTH": {
           "role": "other",
