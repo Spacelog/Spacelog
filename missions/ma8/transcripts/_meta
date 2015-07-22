@@ -36,7 +36,8 @@
             "role": "astronaut",
             "name": "Walter M. Schirra, Jr.",
             "mission_position": "Pilot",
-            "short_name": "Wally Schirra"
+            "short_name": "Wally Schirra",
+            "avatar": "wally_schirra.jpg"
         },
         "CC": {
             "role": "mission-ops-title",
@@ -158,7 +159,8 @@
             "role": "mission-ops",
             "name": "John Glenn",
             "short_name": "John Glenn (CAPCOM)",
-            "mission_position": "CAPCOM (California)"
+            "mission_position": "CAPCOM (California)",
+            "avatar": "john_glenn.jpg"
         },
         "CC_CNV": {
             "role": "mission-ops",
@@ -173,13 +175,15 @@
             "role": "mission-ops",
             "name": "Scott Carpenter",
             "short_name": "Scott Carpenter (CAPCOM)",
-            "mission_position": "CAPCOM (Guaymas)"
+            "mission_position": "CAPCOM (Guaymas)",
+            "avatar": "scott_carpenter.jpg"
         },
         "CC_HAW": {
             "role": "mission-ops",
             "name": "Gus Grissom",
             "short_name": "Gus Grissom (CAPCOM)",
-            "mission_position": "CAPCOM (Hawaii)"
+            "mission_position": "CAPCOM (Hawaii)",
+            "avatar": "gus_grissom.jpg"
         },
         "CC_HTV": { "role": "other", "short_name": "Huntsville CAPCOM", "avatar": "person.png" },
         "CC_IOS": { "role": "other", "short_name": "Indian Ocean Ship CAPCOM", "avatar": "person.png" },
@@ -230,7 +234,8 @@
             "role": "mission-ops",
             "name": "Christopher Kraft",
             "short_name": "Chris Kraft (FLIGHT)",
-            "mission_position": "Flight Director"
+            "mission_position": "Flight Director",
+            "avatar": "chris_kraft.jpg"
         },
         "S": {
             "role": "other",
