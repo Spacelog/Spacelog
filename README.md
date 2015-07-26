@@ -67,13 +67,10 @@ You can then make changes, commit them to your local copy (`git commit`), push t
 The easiest way to grab the python modules may be to build a `virtualenv` in the Spacelog checkout:
 
 	virtualenv ENV
+        pip install --upgrade pip
 	ENV/bin/pip install -r requirements.txt
 
 then use `ENV/bin/python` where normally you'd use just `python`. (If it's recent enough, `virtualenv` may install a script to "activate" its copy of python in your shell, which you run as `source ENV/bin/activate`, or `ENV/Scripts/activate.bat` on Windows.)
-
-#### A word of caution
-
-We are currently locked to a specific version of Django, because we use 1.3 features but the release itself has a bug which prevents us from using it in development. Once there's a stable release of Django without this problem we'll move off this.
 
 ## Running the code
 
