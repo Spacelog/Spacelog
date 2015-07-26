@@ -1,5 +1,5 @@
 from django.template import Context, Template
-import simplejson
+import json
 import unittest
 from website.apps.common.response import JsonTemplateResponse
 
@@ -18,7 +18,7 @@ class TestJsonTemplateResponse(unittest.TestCase):
         response.render()
 
         self.assertEqual(
-            simplejson.loads(response.content),
+            json.loads(response.content),
             {
                 'title': 'Title!',
                 'content': 'Blah blah content',
