@@ -1,3 +1,4 @@
+from django.conf import settings
 import datetime
 import backend.util
 from urlparse import urlparse
@@ -335,6 +336,7 @@ class Act(NarrativeElement):
         super(Act, self)._load()
         self.description = self.data['description']
         self.banner = self.data.get("banner", None)
+        self.banner_background = self.data.get("banner_background", None)
         self.banner_class = self.data.get("banner_class", None)
         self.banner_colour = self.data.get("banner_colour", None)
         self.orbital = self.data.get("orbital", None)
@@ -348,10 +350,27 @@ class Act(NarrativeElement):
             self.stats_image_map_id = stats_data['image_map_id']
         else:
             self.has_stats = False
-    
+
     def key_scenes(self):
         return list( KeyScene.Query(self.redis_conn, self.mission_name).act_number(self.number).items() )
-    
+
+    def banner_styles(self):
+        """
+        Returns CSS to be applied to the act's banner, to apply styles defined
+        in the mission's _meta file.
+        """
+
+        styles = []
+        if self.banner_colour:
+            styles.append('background-color: %s' % self.banner_colour)
+        if self.banner_background:
+            styles.append('background-image: url(%s%s/images/banners/%s)' % (
+                settings.MISSIONS_STATIC_URL,
+                self.mission_name,
+                self.banner_background,
+            ))
+        return '; '.join(styles)
+
     class Query(NarrativeElement.Query):
         all_key_pattern = u"acts:%(mission_name)s"
 
