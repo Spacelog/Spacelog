@@ -254,42 +254,66 @@
         {
             "title": "Launch",
             "description": "...",
-            "range": ["-00:00:00:20", "00:00:05:50"]
+            "range": ["-00:00:00:20", "00:00:05:50"],
+            "banner_background": "act1.jpg",
+            "banner_colour": "#5879a6",
+            "homepage": "act1.jpg"
         },
         {
             "title": "First orbit",
             "description": "...",
-            "range": ["00:00:05:50", "00:01:33:22"]
+            "range": ["00:00:05:50", "00:01:33:22"],
+            "banner_background": "act2.jpg",
+            "banner_colour": "#000000",
+            "homepage": "act2.jpg"
         },
         {
             "title": "Second orbit",
             "description": "...",
-            "range": ["00:01:33:22", "00:03:07:00"]
+            "range": ["00:01:33:22", "00:03:07:00"],
+            "banner_background": "act3.jpg",
+            "banner_colour": "#000000",
+            "homepage": "act3.jpg"
         },
         {
             "title": "Third orbit",
             "description": "...",
-            "range": ["00:03:07:00", "00:04:40:13"]
+            "range": ["00:03:07:00", "00:04:40:13"],
+            "banner_background": "act4.jpg",
+            "banner_colour": "#2479b2",
+            "homepage": "act4.jpg"
         },
         {
             "title": "Fourth orbit",
             "description": "...",
-            "range": ["00:04:40:13", "00:06:15:40"]
+            "range": ["00:04:40:13", "00:06:15:40"],
+            "banner_background": "act5.jpg",
+            "banner_colour": "#0186c8",
+            "homepage": "act5.jpg"
         },
         {
             "title": "Fifth orbit",
             "description": "...",
-            "range": ["00:06:15:40", "00:07:51:40"]
+            "range": ["00:06:15:40", "00:07:51:40"],
+            "banner_background": "act6.jpg",
+            "banner_colour": "#000000",
+            "homepage": "act6.jpg"
         },
         {
             "title": "Sixth orbit",
             "description": "...",
-            "range": ["00:07:51:40", "00:08:49:50"]
+            "range": ["00:07:51:40", "00:08:49:50"],
+            "banner_background": "act7.jpg",
+            "banner_colour": "#000000",
+            "homepage": "act7.jpg"
         },
         {
             "title": "Reentry & splashdown",
             "description": "...",
-            "range": ["00:08:49:50", "00:09:23:10"]
+            "range": ["00:08:49:50", "00:09:23:10"],
+            "banner_background": "act8.jpg",
+            "banner_colour": "#486580",
+            "homepage": "act8.jpg"
         }
     ],
     "homepage_quotes" : [
