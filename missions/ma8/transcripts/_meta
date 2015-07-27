@@ -253,7 +253,7 @@
     "acts": [
         {
             "title": "Launch",
-            "description": "...",
+            "description": "On October 3, 1962, an Atlas LV-3B booster launched Sigma 7 and its pilot Wally Schirra into earth orbit.",
             "range": ["-00:00:00:20", "00:00:05:50"],
             "banner_background": "act1.jpg",
             "banner_colour": "#5879a6",
@@ -261,7 +261,7 @@
         },
         {
             "title": "First orbit",
-            "description": "...",
+            "description": "During the first orbit, Schirra's space suit began to overheat. He eventually got the problem under control by slowly turning up the suit's cooling system.",
             "range": ["00:00:05:50", "00:01:33:22"],
             "banner_background": "act2.jpg",
             "banner_colour": "#000000",
@@ -269,7 +269,7 @@
         },
         {
             "title": "Second orbit",
-            "description": "...",
+            "description": "During the second orbit, Schirra practiced yaw maneuvers using the moon and known stars as reference points.",
             "range": ["00:01:33:22", "00:03:07:00"],
             "banner_background": "act3.jpg",
             "banner_colour": "#000000",
@@ -277,7 +277,7 @@
         },
         {
             "title": "Third orbit",
-            "description": "...",
+            "description": "During the third orbit, Schirra let Sigma 7 drift while he carried some spacial awareness and motor control experiments.",
             "range": ["00:03:07:00", "00:04:40:13"],
             "banner_background": "act4.jpg",
             "banner_colour": "#2479b2",
@@ -285,7 +285,7 @@
         },
         {
             "title": "Fourth orbit",
-            "description": "...",
+            "description": "During the fourth orbit, Schirra took photographs, and made a brief radio and television broadcast.",
             "range": ["00:04:40:13", "00:06:15:40"],
             "banner_background": "act5.jpg",
             "banner_colour": "#0186c8",
@@ -293,7 +293,7 @@
         },
         {
             "title": "Fifth orbit",
-            "description": "...",
+            "description": "During the fifth orbit, Schirra did some exercise using a bungee-cord device, and took more photographs and visual observations.",
             "range": ["00:06:15:40", "00:07:51:40"],
             "banner_background": "act6.jpg",
             "banner_colour": "#000000",
@@ -301,7 +301,7 @@
         },
         {
             "title": "Sixth orbit",
-            "description": "...",
+            "description": "Most of the sixth and final orbit was occupied with re-entry preparations, although Schirra still found time for some more photography and spatial-awareness tests.",
             "range": ["00:07:51:40", "00:08:49:50"],
             "banner_background": "act7.jpg",
             "banner_colour": "#000000",
@@ -309,7 +309,7 @@
         },
         {
             "title": "Reentry & splashdown",
-            "description": "...",
+            "description": "Sigma 7 splashed down in the Pacific, about five miles from the waiting USS Kearsarge.",
             "range": ["00:08:49:50", "00:09:23:10"],
             "banner_background": "act8.jpg",
             "banner_colour": "#486580",
