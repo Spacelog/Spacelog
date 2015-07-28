@@ -4,37 +4,51 @@
 
 */
 
-.original-transcript .wrapper {
-    position:               relative;
-}
 .original-transcript img {
     display:                block;
     float:                  left;
     margin:                 0 85px;
 }
-.original-transcript a {
+.original-transcript a[rel=prev],
+.original-transcript a[rel=next] {
     display:                block;
     float:                  left;
-    position:               absolute;
-    top:                    100px;
+    position:               fixed;
+    top:                    140px;
+    left:                   50%;
     width:                  75px;
     height:                 54px;
     background-position:    0 0;
-}
-.original-transcript a:hover,
-.original-transcript a:focus,
-.original-transcript a:active {
-    background-position:    0 -54px;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-position:    0 -54px;
+    }
+
+    span {
+        position:               absolute;
+        left:                   -999em;
+    }
 }
 .original-transcript a[rel=prev] {
-    left:                   0;
+    margin-left:            -470px;
     background-image:       url(../img/base/prev.png);
 }
 .original-transcript a[rel=next] {
-    right:                  0;
+    margin-left:            395px;
     background-image:       url(../img/base/next.png);
 }
-.original-transcript a span {
-    position:               absolute;
-    left:                   -999em;
+
+@media (max-width: 940px) {
+    .original-transcript a[rel=prev] {
+        margin-left:            0;
+        left:                   0;
+    }
+
+    .original-transcript a[rel=next] {
+        margin-left:            0;
+        left:                   auto;
+        right:                  0;
+    }
 }

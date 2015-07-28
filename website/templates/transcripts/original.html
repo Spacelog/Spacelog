@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load linkify %}
+{% load missiontime %}
 
 {% block full_title %}Page {{ page }} of {{ mission.title }}&rsquo;s transcript on Spacelog{% endblock %}
 
@@ -7,12 +8,17 @@
 {% block content-class %}original-transcript{% endblock %}
 
 {% block content %}
-  
     {% if previous_page != None %}
         <a rel='prev' href="{% original_link transcript_name previous_page %}"><span>Previous</span></a>
     {% endif %}
 
-    <img src="{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/original/{{ transcript_short_name }}/{{ page }}.png" width="770">
+    {% if first_log_line != None %}
+      <a rel='alternate' href="{% timestamp_to_url_in_transcript first_log_line.timestamp transcript_name %}#log-line-{{ first_log_line.timestamp }}" title="Return to the Spacelog transcript">
+    {% endif %}
+    <img src="{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/original/{{ transcript_short_name }}/{{ page }}.png" alt="Page {{ page }} of {{ mission.title }}&rsquo;s original transcript" width="770">
+    {% if first_log_line != None %}
+      </a>
+    {% endif %}
 
     {% if next_page != None %}
         <a rel='next' href="{% original_link transcript_name next_page %}"><span>Next</span></a>
