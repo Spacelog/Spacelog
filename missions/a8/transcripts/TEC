@@ -193,10 +193,10 @@ CDR: Mode 4. Roger.
 
 [00:00:09:57]
 CC: Apollo 8, Houston. Your predicted cutoff,
-     [time:00:11:28:00|11 plus 28]. Over.
+     [time:00:00:11:28|11 plus 28]. Over.
 
 [00:00:10:03]
-CDR: Understand; [time:00:11:28:00|11:28].
+CDR: Understand; [time:00:00:11:28|11:28].
 
 [00:00:10:06]
 CC: Roger.
@@ -284,10 +284,10 @@ CC: Roger.
 [00:00:14:28]
 CC: Apollo 8. Houston. We have you 1 minute from
      [glossary:LOS] the Vanguard. We'll see you over the
-     Canaries at [time:00:16:28:00|16:28].
+     Canaries at [time:00:00:16:28|16:28].
 
 [00:00:14:37]
-CDR: Thank you, Houston; [time:00:16:28:00|16:28].
+CDR: Thank you, Houston; [time:00:00:16:28|16:28].
 
 [00:00:14:39]
 _extra : CANARY (REV 1)
@@ -412,7 +412,7 @@ CDR: Go ahead, Houston. Apollo 8.
 
 [00:00:41:43]
 CC: We have 1 minute to [glossary:LOS] Tananarive; we will see
-     you again over Carnarvon at [time:02:04:09:00|52:09]. Over.
+     you again over Carnarvon at [time:00:02:04:09|52:09]. Over.
 
 [00:00:41:51]
 CDR: Roger. We do have the optic covers jettisoned,
@@ -476,7 +476,7 @@ CC: Right.
 CC: Apollo 8, Houston. We have about 1 minute to
      [glossary:LOS] Carnarvon, and everything is looking good
      with the spacecraft and the [glossary:S-IVB]. We'll see
-     you over Honeysuckle Creek at [time:02:11:27:00|59:27] - just here
+     you over Honeysuckle Creek at [time:00:00:59:27|59:27] - just here
      shortly.
 
 [00:00:57:18]
