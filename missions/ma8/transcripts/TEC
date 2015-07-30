@@ -21,7 +21,7 @@ CC: Standby for 20 seconds.
 P: Okay.
 
 [00:00:00:18]
-CC: 2, 1, MARK.T
+CC: 2, 1, MARK.<sup>T</sup>
 
 [00:00:00:21]
 P: Roger. Backup started and running good.
@@ -173,7 +173,7 @@ P: Coming upon 4 minutes. I'll give you a hack.
 CC: Good head.
 
 [00:00:04:00]
-P: MARK.T
+P: MARK.<sup>T</sup>
 
 [00:00:04:01]
 CC: Roger. Right on the nose . . . 3 pitch.
@@ -586,7 +586,7 @@ P: That's correct.
 
 [00:00:22:04]
 CC: Roger. At my mark it will be 22 10. MARK.
-     T
+     <sup>T</sup>
 
 [00:00:22:12]
 P: Roger. I am right on.
