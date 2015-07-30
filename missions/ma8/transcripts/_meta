@@ -38,12 +38,14 @@
             "name": "Walter M. Schirra, Jr.",
             "mission_position": "Pilot",
             "short_name": "Wally Schirra",
-            "avatar": "wally_schirra.jpg"
+            "avatar": "wally_schirra.jpg",
+            "photo": "wally_schirra.jpg"
         },
         "CC": {
             "role": "mission-ops-title",
             "name": "Capsule Communicator",
             "short_name": "CapCom",
+            "photo": "capcom.jpg",
             "shifts": [
                 ["CC_CNV", "-00:01:00:00", "Technically these aren't shifts; each ground station had a single CAPCOM, which we're using the shift mechanism to display"],
                 ["CC_CYI", "00:00:12:58"],
@@ -161,14 +163,16 @@
             "name": "John Glenn",
             "short_name": "John Glenn (CAPCOM)",
             "mission_position": "CAPCOM (California)",
-            "avatar": "john_glenn.jpg"
+            "avatar": "john_glenn.jpg",
+            "photo": "john_glenn.png"
         },
         "CC_CNV": {
             "role": "mission-ops",
             "name": "Donald K. (Deke) Slayton",
             "short_name": "Deke Slayton (CAPCOM)",
             "mission_position": "CAPCOM (Cape Canaveral)",
-            "avatar": "deke_slayton.jpg"
+            "avatar": "deke_slayton.jpg",
+            "photo": "deke_slayton.jpg"
         },
         "CC_CTN": { "role": "other", "short_name": "Canton CAPCOM", "avatar": "person.png" },
         "CC_CYI": { "role": "other", "short_name": "Canary Islands CAPCOM", "avatar": "person.png" },
@@ -177,20 +181,22 @@
             "name": "Scott Carpenter",
             "short_name": "Scott Carpenter (CAPCOM)",
             "mission_position": "CAPCOM (Guaymas)",
-            "avatar": "scott_carpenter.jpg"
+            "avatar": "scott_carpenter.jpg",
+            "photo": "scott_carpenter.jpg"
         },
         "CC_HAW": {
             "role": "mission-ops",
             "name": "Gus Grissom",
             "short_name": "Gus Grissom (CAPCOM)",
             "mission_position": "CAPCOM (Hawaii)",
-            "avatar": "gus_grissom.jpg"
+            "avatar": "gus_grissom.jpg",
+            "photo": "gus_grissom.jpg"
         },
         "CC_HTV": { "role": "other", "short_name": "Huntsville CAPCOM", "avatar": "person.png" },
         "CC_IOS": { "role": "other", "short_name": "Indian Ocean Ship CAPCOM", "avatar": "person.png" },
         "CC_KNO": { "role": "other", "short_name": "Kano CAPCOM", "avatar": "person.png" },
         "CC_MUC": {
-            "role": "mission-ops",
+            "role": "other",
             "name": "Gene Duret",
             "short_name": "Gene Duret (CAPCOM)",
             "mission_position": "CAPCOM (Muchea)",
@@ -201,7 +207,8 @@
             "name": "Al Shepard",
             "short_name": "Al Shepard (CAPCOM)",
             "mission_position": "CAPCOM (Pacific Command Ship)",
-            "avatar": "alan_shepard.jpg"
+            "avatar": "alan_shepard.jpg",
+            "photo": "alan_shepard.jpg"
         },
         "CC_QUITO": { "role": "other", "short_name": "Quito CAPCOM", "avatar": "person.png" },
         "CC_WAT": { "role": "other", "short_name": "Watertown CAPCOM", "avatar": "person.png" },
@@ -227,6 +234,7 @@
             "role": "mission-ops-title",
             "name": "Flight Director",
             "short_name": "Flight Director",
+            "photo": "flight_directors.jpg",
             "shifts": [
                 ["CF_CHRIS_KRAFT", "-00:01:00:00", "Kraft was the only flight director on most Mercury missions"]
             ]
@@ -236,7 +244,8 @@
             "name": "Christopher Kraft",
             "short_name": "Chris Kraft (FLIGHT)",
             "mission_position": "Flight Director",
-            "avatar": "chris_kraft.jpg"
+            "avatar": "chris_kraft.jpg",
+            "photo": "chris_kraft.jpg"
         },
         "S": {
             "role": "other",
