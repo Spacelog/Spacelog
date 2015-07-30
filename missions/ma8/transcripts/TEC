@@ -78,7 +78,7 @@ P: I'll be darn. I'm push-to-talk now.
 CC: Standby for staging.
 
 [00:00:02:07]
-P: I have a BECO. I could see the flash.
+P: I have a [glossary:BECO]. I could see the flash.
 
 [00:00:02:16]
 CC: Staging.
@@ -211,13 +211,13 @@ CC: I get a 0.8 V/Vr.
 P: Good show.
 
 [00:00:04:59]
-CC: Standby for SECO.
+CC: Standby for [glossary:SECO].
 
 [00:00:05:18]
-CC: SECO.
+CC: [glossary:SECO].
 
 [00:00:05:20]
-P: I have SECO. Cap sep, and in aux damp, and
+P: I have [glossary:SECO]. Cap sep, and in aux damp, and
      it's very pleasant. Going to fly-by-wire
      low. Going to fly-by-wire.
 
@@ -276,7 +276,7 @@ P: Okay. I'm getting set up for yaw. I can see
 CC: You say you still have some yaw.
 
 [00:00:07:13]
-P: Roger. I just went into ASCS at about 7
+P: Roger. I just went into [glossary:ASCS] at about 7
      minutes and 10 seconds. The sustainer
      is sitting very steady above me. I should
      say above the horizon. And I'm in chimp
@@ -317,7 +317,7 @@ CC: Roger.
 
 [00:00:08:21]
 P: Okay, I'm stopping that blood pressure run.
-     Boy! This ASCS made tracking very nice. The
+     Boy! This [glossary:ASCS] made tracking very nice. The
      sustainer is very stable. It is not oscillating
      at all. I see no vapors; it looks very
      clean.
@@ -369,7 +369,7 @@ P: Am going to manual proportional.
 
 [00:00:12:58]
 _extra : CANARY ISLANDS
-P: This is Sigma Seven. I am now in ASCS auto,
+P: This is Sigma Seven. I am now in [glossary:ASCS] auto,
      retroattitude. Manual proportional works very
      well.
 
@@ -570,16 +570,16 @@ CC: Hello Sigma Seven this is Kano Cap Com. Standing
      by for your short report.
 
 [00:00:21:38]
-P: Roger. I am go. All system are go. I am in ASCS
+P: Roger. I am go. All system are go. I am in [glossary:ASCS]
      auto; maneuver is off. My Tr-10 bypass is to
      normal. The fuel and oxygen are all green.
      Everything is green. I am fat here. I would
-     like a CET time check.
+     like a [glossary:CET] time check.
 
 [00:00:22:00]
 _page : 19
 _extra : KNO-1
-CC: Understand you want a CET ground check.
+CC: Understand you want a [glossary:CET] ground check.
 
 [00:00:22:02]
 P: That's correct.
@@ -684,7 +684,7 @@ P: It looks like it is holding. I may have to
      it sit for awhile.
 
 [00:00:25:34]
-CC: All the T/M systems look good, Seven.
+CC: All the [glossary:T/M] systems look good, Seven.
 
 [00:00:25:36]
 P: Roger. I think the only problem I have is the
@@ -721,7 +721,7 @@ P: Cabin dome - Kano this is Sigma Seven. Do you
      read?
 
 [00:00:26:52]
-CC: LOS Seven.
+CC: [glossary:LOS] Seven.
 
 [00:00:26:54]
 P: Roger. Cabin dome is working very well. It's
@@ -864,7 +864,7 @@ P: Go ahead, Zanzibar.
 
 [00:00:34:44]
 CC: All systems are green here on the ground. We get
-     a good T/M.
+     a good [glossary:T/M].
 
 [00:00:34:52]
 P: Roger. Zanzibar. I'm all green here. I'm still
@@ -921,7 +921,7 @@ CC: Roger. We are pulling you right back to 0 (degrees)
      now.
 
 [00:00:36:03]
-P: Okay. That's the - that's the ASCS system doing it
+P: Okay. That's the - that's the [glossary:ASCS] system doing it
      for me, of course. I'm going to have to increase
      the suit setting. I'm just barely breaking even.
      I'm going to set the suit control valve to number 6.
@@ -934,7 +934,7 @@ P: Roger. Thank you. The cabin is holding very well on
      settings, and I'm perfectly comfortable there.
 
 [00:00:36:57]
-CC: Seven this is Zanzibar. We have LOS in approximately
+CC: Seven this is Zanzibar. We have [glossary:LOS] in approximately
      1 minute. Anything else to report?
 
 [00:00:37:03]
@@ -945,7 +945,7 @@ P: Nothing. I will keep the suit setting at this point
 
 [00:00:37:15]
 CC: Roger. Understand. I would like a reading on that
-     before we get LOS please.
+     before we get [glossary:LOS] please.
 
 [00:00:37:19]
 P: Roger. My system is 6. The dome is 81, 81 (degrees).
@@ -996,7 +996,7 @@ P: Hello Muchea, hello Muchea Cap Com this is Sigma
 [00:00:41:00]
 P: This is Sigma Seven. I have noticed minute objects
      that I can knock off the capsule, one or two, in
-     the bright sunlight at CET 41 10.
+     the bright sunlight at [glossary:CET] 41 10.
 
 [00:00:41:17]
 CT: Seven this is Zanzibar. I barely read you HF check.
@@ -1025,7 +1025,7 @@ CT: . . .
 
 [00:00:42:51]
 ?: 12 53 00. He talked to Guaymas after we
-     finished and IOS picked him up. Out.
+     finished and [glossary:IOS] picked him up. Out.
 
 [00:00:43:01]
 P: The last station that talked on HF I could not
@@ -1036,7 +1036,7 @@ P: The last station that talked on HF I could not
 [00:00:43:24]
 P: I have switched to VOX transmit and record. I
      am satisfied that I can see yaw through the
-     window on ASCS without the use of the reticle
+     window on [glossary:ASCS] without the use of the reticle
      by letting images come up from all sides.     
      It's only a matter of a short period of time
      before objects show translation immediately.
@@ -1375,7 +1375,7 @@ CC: Ignition now.
 [00:00:58:43]
 P: Roger. I have lightning only. It looks like
      you're just about socked in. I'll stay here
-     for a while and then come back up to ASCS
+     for a while and then come back up to [glossary:ASCS]
      shortly. I think I saw lightning right below
      me but it couldn't have been the flare. It
      should burn steadily as I understand it.
@@ -1454,7 +1454,7 @@ P: Very good. I've been searching around a
      little bit for this. Okay, I'm going to hold
      that pitch still now. Holding the yaw still.
      Stopping roll. And I'm sorry I can't see your
-     flare. I'm going to start pitching for ASCS.
+     flare. I'm going to start pitching for [glossary:ASCS].
 
 [00:01:01:29]
 CC: We have 10 seconds of flare left, and Cape
@@ -1511,7 +1511,7 @@ P: Roger. I'm in orbit mode and tracking very
      well.
 
 [00:01:03:03]
-CC: Roger. We had T/M LOS. Correction, we've got
+CC: Roger. We had [glossary:T/M] [glossary:LOS]. Correction, we've got
      it back.
 
 [00:01:03:07]
@@ -1532,7 +1532,7 @@ P: I just set now, MARK,<sup>T</sup> at number
      3, and the suit is riding at number 7.
 
 [00:01:03:38]
-CC: Roger. And Woomera has had T/M LOS. We are
+CC: Roger. And Woomera has had [glossary:T/M] [glossary:LOS]. We are
      standing by HF.
 
 [00:01:03:47]
@@ -1618,7 +1618,7 @@ CT: Sigma Seven, Sigma Seven this is Canton Com
 [00:01:09:21]
 P: Canton this is Sigma Seven. I read you.
      At this time, I am in fly-by-wire low,
-     pitching down to retroattitude for ASCS.
+     pitching down to retroattitude for [glossary:ASCS].
      Over.
 
 [00:01:09:35]
@@ -1690,14 +1690,14 @@ CT: Sigma Seven this is Canton Com Tech. I read
 [00:01:12:39]
 P: Roger. Status report. I have sent you a blood.
      All systems are green, but for suit circuit,
-     which I am working on carefully. I am in ASCS
+     which I am working on carefully. I am in [glossary:ASCS]
      retroattitude; gyros normal; maneuver off.
      I am working on the suit circuit. I am still
      holding setting number 7. Over.
 
 [00:01:13:05]
 CC: Sigma Seven. Repeat, I got your status green;
-     ASCS retro; gyros are normal; holding at 7.
+     [glossary:ASCS] retro; gyros are normal; holding at 7.
      Repeat all others.
 
 [00:01:13:17]
@@ -1716,7 +1716,7 @@ CC: Roger, Sigma Seven. Would you give me your standard
      report again. Over. This is Canton Cap Com.
 
 [00:01:13:47]
-P: Roger, Canton. You did read that I was in ASCS
+P: Roger, Canton. You did read that I was in [glossary:ASCS]
      retro? You did read that I had my maneuver off?
      You did read my gyros were normal? I'd like to
      get the suit circuit discussed. Everything
@@ -1836,7 +1836,7 @@ P: I'm now starting to see the sunrise in the
      the night side. It is obvious that the periscope
      has no function whatsoever in retroattitude
      on the night side. First light that I get is
-     right now at a CET of practically 1 25 - 1 hour
+     right now at a [glossary:CET] of practically 1 25 - 1 hour
      and 25 minutes. The sunrise is coming in
      rather rapidly through the periscope.
      I do have the lighted objects that John
@@ -1862,7 +1862,7 @@ P: I'm now starting to see the sunrise in the
      too small an object for photography. I would
      not even attempt to take a picture of them.
      Retroattitude is being held very well by the
-     ASCS. I should be able to reach Guaymas by now.
+     [glossary:ASCS]. I should be able to reach Guaymas by now.
 
 [00:01:26:52]
 _page : 41
@@ -2016,7 +2016,7 @@ CC: Roger. That's good to hear.
 
 [00:01:31:02]
 P: I'm getting a very good yaw check with the yaw
-     reticle in the ASCS mode. Having no trouble
+     reticle in the [glossary:ASCS] mode. Having no trouble
      with that at all.
 
 [00:01:31:12]
@@ -2029,7 +2029,7 @@ P: Scott, I think they are reflecting. I'm going to
      and leave the particles off for a while.
 
 [00:01:31:27]
-CC: Okay. We are just about . . . losing T/M. We're
+CC: Okay. We are just about . . . losing [glossary:T/M]. We're
      reading roughly 0, 0, and (-) 34 (degrees) at
      this time.
 
@@ -2101,7 +2101,7 @@ CC: You are coming in about 3 by.
 P: Okay.
 
 [00:01:34:23]
-P: I'm okay. Standby, I'm going back to ASCS.
+P: I'm okay. Standby, I'm going back to [glossary:ASCS].
      It's gotta hold me up (delay me.) The capsule
      - I'd like to straighten out this problem
      that you are - obviously have seen on the
@@ -2217,7 +2217,7 @@ P: Okay.
 
 [00:01:37:51]
 CC: You indicated high thruster action at Bermuda
-     and Muchea on switch over from ASCS to fly-by-wire.
+     and Muchea on switch over from [glossary:ASCS] to fly-by-wire.
      Has this been apparent to you?
 
 [00:01:38:01]
@@ -2378,7 +2378,7 @@ P: Go ahead Deke.
 P: Go ahead Cape Cap Com.
 
 [00:01:42:50]
-CC: Roger, you are fading. We are about at LOS.
+CC: Roger, you are fading. We are about at [glossary:LOS].
      Flight would still prefer that you consider
      going to position 3 after evaluating 8 a
      while longer.
@@ -2395,7 +2395,7 @@ P: Roger. I'm now getting into attitude. Standby
 P: Yaw is now approximately 0 at this time - MARK.
      <sup>T</sup>. I will look - about 4 degrees
      left. Correcting in pitch, yaw is okay, going
-     to go back to ASCS to get gyros straightened
+     to go back to [glossary:ASCS] to get gyros straightened
      out, gyros are normal at this time. I'm setting
      up into the tight pattern.
 
@@ -2403,7 +2403,7 @@ P: Yaw is now approximately 0 at this time - MARK.
 P: Rates are just about right on, attitudes right on,
      going to fly-by-wire, gyros normal. At 1 44 50
      approximately, we are back into chimp configuration.
-     Understand I will have LOS at Bermuda;
+     Understand I will have [glossary:LOS] at Bermuda;
      next station is Canaries. At this point suit
      temperature is now down to 75 (degrees), dome
      is still high.
@@ -2464,7 +2464,7 @@ P: At 1 hour and 50 minutes.
 CC: Roger. What is your present control mode?
 
 [00:01:50:23]
-P: I am in ASCS.I have completed yaw checks with
+P: I am in [glossary:ASCS].I have completed yaw checks with
      the window, I am going to try some yaw checks
      with the periscope at this time.
 
@@ -2509,14 +2509,14 @@ CC: Roger. How do you feel about systems at the
 P: All systems are green except for the suit
      cooling and it definitely is - the dome
      temperature is going up at this time. I'm
-     going to go back on ASCS for a while and hack
+     going to go back on [glossary:ASCS] for a while and hack
      out a network.
 
 [00:01:52:52]
 CC: Roger.
 
 [00:01:52:56]
-P: I will not go to ASCS. Ah, by the way, how
+P: I will not go to [glossary:ASCS]. Ah, by the way, how
      about taking a look at my high thrusters.
      Have you seen any high thruster action at all?
 
@@ -2529,7 +2529,7 @@ P: I shouldn't have had any at all.
 [00:01:53:12]
 _page : 53
 _extra : CYI-2
-CC: Wally, did you already switch to ASCS?
+CC: Wally, did you already switch to [glossary:ASCS]?
 
 [00:01:53:16]
 P: Negative. I have not switched.
@@ -2776,7 +2776,7 @@ CC: Say again. You were garbled.
 P: I think we have the situation under control.
 
 [00:01:59:28]
-P: I am now in ASCS, gyros normal, maneuver off,
+P: I am now in [glossary:ASCS], gyros normal, maneuver off,
      all systems green. I am green.
 
 [00:01:59:35]
@@ -2900,7 +2900,7 @@ CC: Roger, understand.
 [00:02:02:41]
 _page : 59
 _extra : KNO-ZZB-2
-CC: T/M LOS, Seven.
+CC: [glossary:T/M] [glossary:LOS], Seven.
 
 [00:02:02:46]
 P: Roger.
@@ -3035,7 +3035,7 @@ P: No, I feel very comfortable. Did you read what
 CC: Roger, understand.
 
 [00:02:13:18]
-CC: Sigma Seven, this is IOS Cap Com standing by.
+CC: Sigma Seven, this is [glossary:IOS] Cap Com standing by.
      Over.
 
 [00:02:13:22]
@@ -3061,7 +3061,7 @@ CC: Roger, 63 (degrees), dome, holding steady.
 P: Roger, I think we've got that problem licked.
 
 [00:02:14:47]
-CC: Sigma Seven, I have about 1 minute to LOS.
+CC: Sigma Seven, I have about 1 minute to [glossary:LOS].
      Over.
 
 [00:02:14:54]
@@ -3072,7 +3072,7 @@ P: Roger, everything is good here. Thank you
 [00:02:16:32]
 _page : 62
 _extra : IOS-2
-P: IOS, this is Sigma Seven. I'm not sure
+P: [glossary:IOS], this is Sigma Seven. I'm not sure
      whether you realize but I have been in
      auto mode retroattitude. Over.
 
@@ -3081,7 +3081,7 @@ P: At last we have solved the suit circuit
      temperature problem. I can see why Scott
      was concerned about this record position
      only. There is no side tone as well. The
-     suit temperature at this time is - CET
+     suit temperature at this time is - [glossary:CET]
      2 17 20 MARK. (2 17 20)<sup>T</sup> - is 68 degrees
      and I'm feeling marvelous. The suit dome is
      about 72 degrees again. Apparently, it does
@@ -3147,7 +3147,7 @@ P: Sunset is rather striking, I don't think that
      Correction, that's 2 hours and 21
      minutes. Check that, 2 hours and 21
      minutes and 35 seconds. Right on.
-     We're not too bad, we better get a CET check
+     We're not too bad, we better get a [glossary:CET] check
      at Muchea on this trip.
 
 [00:02:22:25]
@@ -3207,13 +3207,13 @@ CC: Roger. Cape advises they are very happy with
 P: Roger, I lost it for a while when I went back
      to the 3 setting, but I didn't stay there
      very long. It definitely should be about
-     7-1/2 to 8. At this point, I am on ASCS
+     7-1/2 to 8. At this point, I am on [glossary:ASCS]
      auto retroattitude. I am going to go to
      fly-by-wire shortly. I had been on gyros
      normal, and maneuver has been off.
      All systems are green. I snapped off
      about 2 percent of manual (fuel) one time
-     by hitting RSCS. It was double authority.
+     by hitting [glossary:RSCS]. It was double authority.
      It was my boo-boo. It was just one pitch
      down motion.
 
@@ -3289,7 +3289,7 @@ P: -4. Okay, I'll check here. Looks about right.
      Okay, that's about all I need for the night
      yaw checks, and, as far as I'm concerned,
      I'll go back and give the guys some more
-     ASCS time. I don't see any reason to burn
+     [glossary:ASCS] time. I don't see any reason to burn
      up too much fuel. Now I'll give one you one of those
      things for your Sir John.
 
@@ -3377,7 +3377,7 @@ CC: Fine - can you give us another blood pressure.
 
 [00:02:30:54]
 P: Okay, let me get back into configuration here.
-     I'm going to ASCS at this time. And she
+     I'm going to [glossary:ASCS] at this time. And she
      walked in without any high thrusters, I believe.
      Will you double check that? And for that, I'll
      give you a blood pressure.
@@ -3444,7 +3444,7 @@ P: Okay.
 CC: . . . condition.
 
 [00:02:32:26]
-P: Roger. I am in ASCS auto, in other words a
+P: Roger. I am in [glossary:ASCS] auto, in other words a
      normal mode. Gyros are normal, maneuver is off,
      all systems are green. I'm real happy with
      the suit circuit at this time.
@@ -3485,7 +3485,7 @@ P: Roger. I read 31. I'm 1 second fast. That's
 [00:02:33:39]
 _page : 72
 _extra : WOM-2
-CC: Your T/M readout on your capsule elapsed time
+CC: Your [glossary:T/M] readout on your capsule elapsed time
      occasionally reads out 1 second fast and then
      comes out to be correct with our time, then
      it gains a second again.
@@ -3560,7 +3560,7 @@ CC: Okay, Spacecraft Commander, this is Woomera
 [00:02:34:59]
 P: I don't think so, because I was just cruising
      over you that time in fly-by-wire low and
-     ASCS. I had one . . ..
+     [glossary:ASCS]. I had one . . ..
 
 [00:02:35:06]
 CC: Z Cal jumped down here and indicated high thrust.
@@ -3622,7 +3622,7 @@ CC: We'll let Gordo take a look at it.
 P: Right. I'm gonna do a little star gazing now.
 
 [00:02:36:29]
-CC: Woomera has T/M LOS.
+CC: Woomera has [glossary:T/M] [glossary:LOS].
 
 [00:02:36:30]
 P: Roger, Woomera.
@@ -3647,7 +3647,7 @@ P: There's the old Corona Australis, shows in
      really going over Australia on this flight.
      Okay. Now let's see, we finished yaw
      check for those boys, coming up on Canton.
-     They get more ASCS than they reckoned for
+     They get more [glossary:ASCS] than they reckoned for
      this time.
 
 [00:02:38:53]
@@ -3678,7 +3678,7 @@ _extra : CANTON
 P: All batteries are reading about 23½ (volts)
      or higher, ammeter is just about steady at
      20 amps. Wanted to check before we power
-     down, ASCS is 115 (volts). Fans is about
+     down, [glossary:ASCS] is 115 (volts). Fans is about
      115 (volts), standby 0 (volts). Okay, the
      cockpit is clean. It's obvious that that
      damn antenna situation is no good. Just brought
@@ -3971,7 +3971,7 @@ CC: Roger, Wally. Understand all systems are
 P: Roger.
 
 [00:02:50:45]
-CC: Could you give me a CET, please?
+CC: Could you give me a [glossary:CET], please?
 
 [00:02:50:47]
 P: Roger. Standby for a mark at 50. MARK 50.
@@ -4211,7 +4211,7 @@ CC: Roger, loud and clear, Wally. Looks like
 
 [00:02:59:28]
 P: Yes sir. I'm real happy with this bird.
-     I am in ASCS auto mode, retro attitude, I
+     I am in [glossary:ASCS] auto mode, retro attitude, I
      have gyros normal, maneuver off, all
      systems are green. I've got the suit
      circuit under control as you probably
@@ -4425,7 +4425,7 @@ CC: Sounds like you've got a real good view
 [00:03:05:30]
 P: No, just the coast is all that's socked in.
      The rest of it's CAVU (clear and visibility
-     unlimited). As long as I get some ASCS
+     unlimited). As long as I get some [glossary:ASCS]
      time I can look. I've got some roads down
      here that are pretty obvious to me right on
      the flight path. I'm really talking to you
@@ -4495,7 +4495,7 @@ CC: Roger. You're good on VOX.
 
 [00:03:07:44]
 P: Okay. I'm sending you one. Control mode
-     is ASCS; auto retro; gyros normal; maneuver
+     is [glossary:ASCS]; auto retro; gyros normal; maneuver
      off. All systems are green. I'll give you
      a readout on the domes here, if you'd like.
 
@@ -4573,7 +4573,7 @@ P: I'll give a readout on how I do it.
 CC: Roger.
 
 [00:03:09:45]
-P: Going to ASCS bus, turning it off, and
+P: Going to [glossary:ASCS] bus, turning it off, and
      that's 0 volts. And am I clear to kill
      my beacon?
 
@@ -4621,7 +4621,7 @@ CC: Very good.
 
 [00:03:10:40]
 P: Okay, I've got fly-by-wire low, and the
-     normal on the ASCS mode, auto, gyros
+     normal on the [glossary:ASCS] mode, auto, gyros
      caged, maneuver is still off. And the
      bea - and the beacons are off. Here she's
      cruising along very happily.
@@ -4708,7 +4708,7 @@ CC: Okay. 03 12 25 on my mark. - MARK.<sup>T</sup>
 P: That was 15 47 30. Is that correct?
 
 [00:03:12:36]
-CC: I gave you a mark on CET, CET.
+CC: I gave you a mark on [glossary:CET], [glossary:CET].
 
 [00:03:12:40]
 P: Oh, oh, oh. I'm sorry, I was looking at my
@@ -4720,7 +4720,7 @@ CC: Okay.
 [00:03:12:45]
 _page : 93
 _extra : CNV-3
-P: Let's try for CET again at 50 (seconds).
+P: Let's try for [glossary:CET] again at 50 (seconds).
 
 [00:03:12:47]
 CC: Roger, in 3 seconds. MARK.<sup>T</sup>
@@ -4835,7 +4835,7 @@ P: I'm back on VOX transmit now. Do you read,
 
 [00:03:16:38]
 CC: Sigma Seven. Cape Cap Com. Do you read? We
-     are approaching LOS.
+     are approaching [glossary:LOS].
 
 [00:03:16:59]
 P: This is Sigma Seven broadcasting on HF. Deke,
@@ -5059,7 +5059,7 @@ P: Indian Ocean Ship. Sigma Seven. Over.
 P: Indian Ocean Ship. Sigma Seven. Over.
 
 [00:03:43:07]
-CT: Sigma Seven, Sigma Seven this is IOS Com Tech.
+CT: Sigma Seven, Sigma Seven this is [glossary:IOS] Com Tech.
      Do you read? Over.
 
 [00:03:43:12]
@@ -5075,7 +5075,7 @@ CT: Sigma Seven this is Indian Com Tech. I read
 P: Roger.
 
 [00:03:43:32]
-CC: This is IOS Cap Com.
+CC: This is [glossary:IOS] Cap Com.
 
 [00:03:43:40]
 CT: This is Indian Ocean Ship Com Tech. Sigma
@@ -5093,13 +5093,13 @@ P: Roger. I read you too.
 [00:03:43:55]
 _page : 99
 _extra : IOS-3
-P: You got T/M on me? Over.
+P: You got [glossary:T/M] on me? Over.
 
 [00:03:43:58]
 CC: That is Roger.
 
 [00:03:43:59]
-P: Okay. I'm going to power up the ASCS bus.
+P: Okay. I'm going to power up the [glossary:ASCS] bus.
 
 [00:03:44:02]
 CC: Say again?
@@ -5133,7 +5133,7 @@ P: Indian Com Tech. Affirmative. I heard you
      loud and clear.
 
 [00:03:45:24]
-CC: Roger. This is IOS Cap Com. Standing by.
+CC: Roger. This is [glossary:IOS] Cap Com. Standing by.
      Over.
 
 [00:03:45:27]
@@ -5153,7 +5153,7 @@ CC: Roger.
 CC: . . . over.
 
 [00:03:47:55]
-CC: Sigma Seven, Sigma Seven this is IOS Cap Com . . ..
+CC: Sigma Seven, Sigma Seven this is [glossary:IOS] Cap Com . . ..
 
 [00:03:52:08]
 _page : 100
@@ -5168,7 +5168,7 @@ P: On the powering up. I went to gyros normal,
      due to the no rate gyro run up case.
 
 [00:03:52:41]
-P: I am flying at three zeros on ASCS mode at
+P: I am flying at three zeros on [glossary:ASCS] mode at
      this time, to see if this helps me reestablish.
      At approximately 4 hours, I just find out
      where I am as far as the moon goes.
@@ -5267,7 +5267,7 @@ CC: Are all systems under control?
 [00:03:59:33]
 P: That's affirmative. I just used the moon to lock
      on. I will give you a short report. I'm just
-     going to go on the ASCS . . . if you watch my
+     going to go on the [glossary:ASCS] . . . if you watch my
      thrusters.
 
 [00:03:59:45]
@@ -5276,7 +5276,7 @@ _extra : MUC-3
 CC: Roger.
 
 [00:03:59:50]
-P: I will go on ASCS; reentry attitude.
+P: I will go on [glossary:ASCS]; reentry attitude.
 
 [00:03:59:55]
 CC: Roger. You're on now according to us.
@@ -5467,7 +5467,7 @@ CC: (Good.)<sup>G</sup>
 [00:04:06:28]
 _page : 105
 _extra : WOM-3
-CC: We are about to have LOS here at Woomera.
+CC: We are about to have [glossary:LOS] here at Woomera.
 
 [00:04:06:32]
 P: Roger.
@@ -5553,7 +5553,7 @@ P: . . . get rid of that for awhile.
 
 [00:04:19:04]
 P: We are on time 4 hours and 19 minutes. On
-     ASCS and I will pinch down. At this point,
+     [glossary:ASCS] and I will pinch down. At this point,
      going to fly-by-wire low - to reentry
      attitude for Hawaii.
 
@@ -5570,7 +5570,7 @@ P: I am stopping the capsule in reentry attitude.
      coming out. I want to acquire this, and
      then watch it. Roll looks good. Pitch is
      coming in; yaw is coming in. Rates and
-     attitude are good, . . . ASCS a little low
+     attitude are good, . . . [glossary:ASCS] a little low
      thruster tweek and very nice. I will warm
      up the T<sub>r</sub>-10, gyros for their benefit. And
      starting to get some light on the scope,
@@ -5605,7 +5605,7 @@ CC: We are reading you okay now. How about giving
      a short report?
 
 [00:04:23:06]
-P: Okay, good. I am in ASCS; retroattitude; gyros
+P: Okay, good. I am in [glossary:ASCS]; retroattitude; gyros
      are normal; the maneuver switch is off. I
      am warming up the T<sub>r</sub>-10 bypass for the rate
      gyros. I still have fly-by-wire low selected.
@@ -5823,7 +5823,7 @@ P: Roger. Everything feels good here, John.
 CC: Roger. Standing by for your report.
 
 [00:04:32:34]
-P: Roger. I am in ASCS auto at this time; in
+P: Roger. I am in [glossary:ASCS] auto at this time; in
      reentry attitude; the gyros are normal;
      maneuver is off; all systems are green. Auto
      fuel is 89 (percent), manual is 90 (percent).
@@ -5926,7 +5926,7 @@ P: Going to fly-by-wire. Going to gyros caged.
 CC: Roger.
 
 [00:04:35:11]
-P: Gyros are three zeros at this time. ASCS bus
+P: Gyros are three zeros at this time. [glossary:ASCS] bus
      off. I have 0 volts.
 
 [00:04:35:23]
@@ -5934,7 +5934,7 @@ P: Roger. Powering down the beacons, ground
      command.
 
 [00:04:35:26]
-CC: T/M's dropped.
+CC: [glossary:T/M]'s dropped.
 
 [00:04:35:27]
 P: Roger. I have 12 amps at this time.
@@ -6124,7 +6124,7 @@ P: Anytime.
 
 [00:04:42:41]
 CC: For your information, we are going to start calling
-     you Venus. IOS visually sighted you on the last
+     you Venus. [glossary:IOS] visually sighted you on the last
      pass.
 
 [00:04:42:49]
@@ -6392,7 +6392,7 @@ P: Light value of 13 for that same subject. I
 [00:05:03:00]
 P: If I don't talk much more than this, it won't
      be very long to real time this tape recorder.
-     Coming up on IOS at 5 hours and 15 minutes.
+     Coming up on [glossary:IOS] at 5 hours and 15 minutes.
      Quite obvious that you don't care really
      what attitude you are in. There is always
      that concern about trying to get back into
@@ -6579,7 +6579,7 @@ P: Okay, gyros are caged, maneuver switch is off.
 [00:05:17:35]
 CC: Roger. We have request from the Cape for a blood
      pressure reading since they did not get one
-     at pass over at MCC. Over.
+     at pass over at [glossary:MCC]. Over.
 
 [00:05:17:41]
 P: Okay, you deserve one anyway. Coming up. In
@@ -6626,7 +6626,7 @@ P: Try to touch the yaw attitude (indicator) touched
      considerable margin.
 
 [00:05:19:39]
-CC: Sigma Seven, this is IOS Cap Com.
+CC: Sigma Seven, this is [glossary:IOS] Cap Com.
 
 [00:05:19:41]
 P: Go ahead.
@@ -6668,14 +6668,14 @@ P: No, that's all wrong. I can now see that I must
      into view, and some stars.
 
 [00:05:22:59]
-CC: Sigma Seven, IOS Cap Com, 1 minute to LOS.
+CC: Sigma Seven, [glossary:IOS] Cap Com, 1 minute to [glossary:LOS].
 
 [00:05:23:02]
-P: Roger, IOS, thank you for your cooperation and
+P: Roger, [glossary:IOS], thank you for your cooperation and
      enjoyed talking with you.
 
 [00:05:23:28]
-P: IOS, I'm going to try HF again after I leave you
+P: [glossary:IOS], I'm going to try HF again after I leave you
      just to see how we do.
 
 [00:05:24:16]
@@ -6683,7 +6683,7 @@ P: Indian Ocean Ship, this is Sigma Seven on HF. How
      do you read? Over.
 
 [00:05:24:47]
-P: IOS, this is Sigma Seven on HF. How do you read?
+P: [glossary:IOS], this is Sigma Seven on HF. How do you read?
      Over.
 
 [00:05:25:04]
@@ -6877,7 +6877,7 @@ CC: Roger. We have one message for you. They would
 P: I understand, Al, Roger.
 
 [00:05:43:53]
-CC: We do not have T/M as yet. We might pick it up
+CC: We do not have [glossary:T/M] as yet. We might pick it up
      in a couple of minutes.
 
 [00:05:43:57]
@@ -6948,8 +6948,8 @@ P: At this point I'm in VOX record. I'm going to
      The time is 05 hours 47 minutes 44 seconds.
 
 [00:05:47:49]
-CC: . . . I'll give you a mark on GET of 05 48 00 -
-     3,2,1. MARK. GET 05 48 00.
+CC: . . . I'll give you a mark on [glossary:GET] of 05 48 00 -
+     3,2,1. MARK. [glossary:GET] 05 48 00.
 
 [00:05:48:08]
 P: Roger, I had that 03 seconds. I am 3 seconds
@@ -7288,11 +7288,11 @@ CC: You're loud and clear. Everything's solid down
      bit. Is that affirm?
 
 [00:06:06:14]
-P: That's affirmative. You have T/M on me now?
+P: That's affirmative. You have [glossary:T/M] on me now?
      I'll power up before all that jazz.
 
 [00:06:06:20]
-CC: Okay, Roger. T/M is solid.
+CC: Okay, Roger. [glossary:T/M] is solid.
 
 [00:06:06:21]
 P: Okay. I have gyros normal, auto, gyros caged.
@@ -7313,7 +7313,7 @@ P: I'll hold off on my beacon. Clock's at 6 06
 
 [00:06:07:06]
 CC: Roger. Everything's looking fine here. We have
-     T/M solid and we confirm your actions here.
+     [glossary:T/M] solid and we confirm your actions here.
 
 [00:06:07:11]
 _page : 136
@@ -7351,7 +7351,7 @@ CC: Okay, Sigma Seven. This is Cal Cap Com. You're
 
 [00:06:08:10]
 P: Roger, John. Just came out of the powered down
-     configuration where we had the ASCS inverter
+     configuration where we had the [glossary:ASCS] inverter
      off. It came up in good shape and will stay
      on now for the rest of the flight. The amps
      and volts are reading properly. The amps are
@@ -7451,7 +7451,7 @@ CC: We have your blood pressure. Standing by for a
 
 [00:06:10:58]
 P: Roger, Scott. I am in drifting flight, but I have
-     powered up the ASCS a-c bus. It has come on the
+     powered up the [glossary:ASCS] a-c bus. It has come on the
      line very well. I will power up the beacons
      later. The control mode selected is fly-by-wire
      although I'm not controlling in it. The auto
@@ -7501,7 +7501,7 @@ P: Roger.
 [00:06:13:03]
 _page : 139
 _extra : GYM-4
-CC: Incidentally, Wally, if we have LOS before we
+CC: Incidentally, Wally, if we have [glossary:LOS] before we
      read the last of your blood pressure, don't
      forget to turn her off.
 
@@ -7577,7 +7577,7 @@ CC: Roger, you are loud and clear. You were
 
 [00:06:17:11]
 P: Roger. I'm doing partial control on fly-by-wire
-     low. Will acquire ASCS when I get in
+     low. Will acquire [glossary:ASCS] when I get in
      retroattitude. No problem, just the bird's
      flying beautifully, and give her a break.
 
@@ -7847,7 +7847,7 @@ P: This is Sigma Seven on VOX record only. I have
      reestablished auto mode in normal with no high
      thruster action. At this point I have 85
      percent auto, 90 percent manual. And I
-     feel, now that I am on ASCS, I can do some
+     feel, now that I am on [glossary:ASCS], I can do some
      experiments where before I was not able to.
      I will now pitch the capsule down on fly-by-wire
      low. First I will check to see -
@@ -7884,7 +7884,7 @@ P: That was stupid. Now we go to fly-by-wire
      double authority, even with the tremendous
      logic you have working on all these systems.
      The pitch is in; yaw is in; selecting
-     reentry attitude; roll is in; going to ASCS,
+     reentry attitude; roll is in; going to [glossary:ASCS],
      reentry now. And she's in.
 
 [00:06:29:58]
@@ -7969,15 +7969,15 @@ P: At this point, I made a complete electrical
 
 [00:06:42:04]
 P: All the equipment is in good order. Coming
-     up over IOS for 6+50, in the night, and
+     up over [glossary:IOS] for 6+50, in the night, and
      this time I want to go down the star charts
      to check this bear out. That is why I
-     am on ASCS.
+     am on [glossary:ASCS].
 
 [00:06:42:27]
 P: Had the fun with experimenting and now will
      get the fun of being ready for reentry at
-     any time. Okay. Let's see - we got IOS
+     any time. Okay. Let's see - we got [glossary:IOS]
      at 6 40. 6 40. . . . same as 0 52.
 
 [00:06:44:03]
@@ -8021,7 +8021,7 @@ P: Okay, I<sup>T</sup> see Mercury going through
      earth. This was - Mercury, dropping over
      the horizon. I should be picking up the
      moon and Venus fairly soon. At 6 46 -
-     and at 6 48 I'm over IOS.
+     and at 6 48 I'm over [glossary:IOS].
 
 [00:06:49:12]
 P: Okay, it looks like we are getting some lighted
@@ -8076,11 +8076,11 @@ P: Roger. I'll give you my configuration. I
      know from down there.
 
 [00:06:52:18]
-CC: Roger. We have a CET. You have about a
-     plus 3 second lead on your CET.
+CC: Roger. We have a [glossary:CET]. You have about a
+     plus 3 second lead on your [glossary:CET].
 
 [00:06:52:27]
-P: Would you give me a countdown on CET, please.
+P: Would you give me a countdown on [glossary:CET], please.
 
 [00:06:52:30]
 CC: Roger. On my mark it will be 06 52 33.
@@ -8099,7 +8099,7 @@ CC: Sigma Seven. Not to mention the word, but
 P: Okay.
 
 [00:06:53:35]
-CC: This is IOS Cap Com. Standing by.
+CC: This is [glossary:IOS] Cap Com. Standing by.
 
 [00:06:53:38]
 P: Roger. If you'll stand by I'm going to take
@@ -8273,7 +8273,7 @@ CC: Well, I would say you were definitely go. We
      full route.
 
 [00:07:17:20]
-P: Right you are. Now my CET, I guess, is about
+P: Right you are. Now my [glossary:CET], I guess, is about
      3 seconds fast, as you know.
 
 [00:07:17:29]
@@ -8292,7 +8292,7 @@ P: Roger. That is what I have in.
 [00:07:17:47]
 _page : 153
 _extra : PCS-5
-CC: Your T/M on CET is also 2 seconds fast. The
+CC: Your [glossary:T/M] on [glossary:CET] is also 2 seconds fast. The
      retrosequence for (contingency recovery area)
      5-Echo is nominal.
 
@@ -8335,7 +8335,7 @@ CC: It's during the coming orbit.
 P: I'm concur.
 
 [00:07:19:16]
-CC: Also, Seven. At LOS, which should occur about
+CC: Also, Seven. At [glossary:LOS], which should occur about
      07 21, the typhoon will be located about
      400 miles about 45 degrees left of your track.
      So you should be able to pick it up.
@@ -8374,7 +8374,7 @@ CC: Seven. PCS.
 [00:07:20:22]
 P: This is Sigma Seven. On HF. This is Sigma
      Seven. On HF. Giving a short count at
-     07 hours, 20 minutes, 34 seconds CET. This
+     07 hours, 20 minutes, 34 seconds [glossary:CET]. This
      is to check for HF coverage on the world
      wide range. The duration of the transmission
      is to last 60 seconds. I wish I knew what
@@ -8725,7 +8725,7 @@ CC: Roger. I have that setting.
 P: Roger.
 
 [00:07:34:39]
-CC: When you take into account your error in CET,
+CC: When you take into account your error in [glossary:CET],
      it should be set at 08 51 31, Cape advises.
 
 [00:07:34:47]
@@ -8741,7 +8741,7 @@ CC: Will you give us a blood pressure?
 P: Roger.
 
 [00:07:35:35]
-CC: Wally, give me a CET.
+CC: Wally, give me a [glossary:CET].
 
 [00:07:35:41]
 P: Roger. I have - I'll give you 45. MARK
@@ -8750,7 +8750,7 @@ P: Roger. I have - I'll give you 45. MARK
 
 [00:07:36:00]
 CC: Wally, we lost you. I think your transmitter
-     is fading out. I'll give you a CET at 07
+     is fading out. I'll give you a [glossary:CET] at 07
      36 10. MARK 07 36 10. (Computed mark
      garbled, unobtainable)
 
@@ -8772,7 +8772,7 @@ CC: Hello Sigma Seven, hello Sigma Seven this is
      at 08 51 33. This takes into account your
      clock error at last readout. You had last
      report had 27 seconds set in. This should
-     be 33 by last CET check we had with you.
+     be 33 by last [glossary:CET] check we had with you.
      Cape wants you to reset that at 33. This
      is Cal broadcasting in the blind,
 
@@ -8800,7 +8800,7 @@ CC: Sigma Seven this is Cal Cap Com, in the blind
 [00:07:42:17]
 _extra : GUAYMAS
 CC: All right. This is - Sigma Seven - this
-     is Cal. We have your change on T/M of
+     is Cal. We have your change on [glossary:T/M] of
      08 51 and 33, showing good. This is
      correct setting.
 
@@ -8870,7 +8870,7 @@ P: I would like to have you check my roll
      attitude.
 
 [00:07:44:23]
-CC: Roger. CET on my mark will be 7 hours, 44
+CC: Roger. [glossary:CET] on my mark will be 7 hours, 44
      minutes, 30 seconds. MAKK.<sup>T</sup>
 
 [00:07:44:31]
@@ -8878,7 +8878,7 @@ P: What? Is that right? That's what my clock
      says.
 
 [00:07:44:36]
-CC: Right. That was CET. The Cape asked for
+CC: Right. That was [glossary:CET]. The Cape asked for
      that. We are showing 4 seconds behind
      you Wally.
 
@@ -8947,7 +8947,7 @@ CC: Wally, we also show a gyro free position on
 P: Roger. I just went to that free. Standby.
 
 [00:07:47:20]
-CC: Roger. And do you plan to return to ASCS
+CC: Roger. And do you plan to return to [glossary:ASCS]
      shortly?
 
 [00:07:47:25]
@@ -8964,7 +8964,7 @@ CC: Okay. Stop the blood pressure. We got a good
      one, Wally.
 
 [00:07:47:32]
-P: Okay. Stand by - normal ASCS.
+P: Okay. Stand by - normal [glossary:ASCS].
 
 [00:07:47:39]
 CC: Roger. We're reading - gyros normal.
@@ -8997,12 +8997,12 @@ CC: Roger. And the gyros are showing, at this
 P: Roger. That's the deal. That's what I
      wanted you to check for me while I was over
      your station, Scott. Thank you. So it
-     looks like the ASCS is pure. I am now in -
+     looks like the [glossary:ASCS] is pure. I am now in -
 
 [00:07:48:37]
 CC: Scanners are also in agree - pitch scanners
      in agreement with your gyros, and we have
-     T/M LOS.
+     [glossary:T/M] [glossary:LOS].
 
 [00:07:48:45]
 P: Roger. I'm happy here.
@@ -9287,7 +9287,7 @@ P: Attitude okay. Pitching back down to reentry
      checks out. Yaw checks out. Reentry attitude is
      on select. Stopping pitch shortly. (Pitch is
      drifting in very slowly). Pitch is stopped - on
-     pitch. Going to ASCS auto, gyros are normal,
+     pitch. Going to [glossary:ASCS] auto, gyros are normal,
      maneuver is off.
 
 [00:08:14:34]
@@ -9300,7 +9300,7 @@ P: Closed face plate. Opened it momentarily, merely
      side; therefore, I will extinct it as a continual
      reference. There, it is now extinct, at 3.3.
      Cabin source extincted at 3.3 at 08 hours 15
-     minutes and 35 seconds CET.
+     minutes and 35 seconds [glossary:CET].
 
 [00:08:16:06]
 P: Fly-by-wire low did check out very well.
@@ -9333,14 +9333,14 @@ P: Checking out d-c volts at this time. Main bus 24
      Two is 25 (volts). Three is 25 (volts).
      Standby one is 25 (volts), standby two is 25
      (volts), isolated is 28 (volts). Back to main.
-     ASCS and fans are both 115 (volts). Drawing 20
+     [glossary:ASCS] and fans are both 115 (volts). Drawing 20
      amps. Oxygen remaining 50 (psi, in hundreds)
      primary, 75 (psi, in hundreds) secondary.
 
 [00:08:20:47]
 _page : 171
 P: Will perform an orientation test at this time while
-     I'm on ASCS and not so busy. Reaching for manual
+     I'm on [glossary:ASCS] and not so busy. Reaching for manual
      handle - and on it, exactly on it. Reaching for
      yaw attitude. I hit it at 20 degrees, right
      20 degrees. Reaching for emergency handle.
@@ -9363,7 +9363,7 @@ P: Seems so sad just a little less than a half an
      observe the Durban light. Gyros free, fly-by-wire
      low, correction, I am going to manual proportional
      at this point. I have not charged any rates so I
-     will go back to ASCS. Clean. Over to rate
+     will go back to [glossary:ASCS]. Clean. Over to rate
      command. Manual proportional out. I will try
      this mode out for size. Down a very small amount,
      23 minutes.
@@ -9439,7 +9439,7 @@ P: Roger. Coming up.
 
 [00:08:25:59]
 CC: Sigma Seven. Did you say that your att - your mode
-     was ASCS retro?
+     was [glossary:ASCS] retro?
 
 [00:08:26:05]
 P: I'm coming to that just now.
@@ -9465,7 +9465,7 @@ CC: Roger. Are you about ready to go through your
 
 [00:08:26:31]
 P: That's affirmative. Just stand by 1 second.
-     Will go to ASCS.
+     Will go to [glossary:ASCS].
 
 [00:08:26:37]
 CC: Okay.
@@ -9543,14 +9543,14 @@ P: I am warming up gyros although they should have a
      bypass anyway.
 
 [00:08:29:02]
-CC: Sigma Seven. Everything looks good. IOS standing
+CC: Sigma Seven. Everything looks good. [glossary:IOS] standing
      by.
 
 [00:08:29:06]
-P: Roger, IOS. It looks good here.
+P: Roger, [glossary:IOS]. It looks good here.
 
 [00:08:30:45]
-CC: Sigma Seven. We have 1 minute to LOS.
+CC: Sigma Seven. We have 1 minute to [glossary:LOS].
 
 [00:08:30:48]
 P: Roger, I am completely secure here and ready for
@@ -9589,7 +9589,7 @@ P: All attitudes are responding very nicely. Suit
      7½ to 8 for this vehicle. I will crack it up
      another notch to 8. I have set the - suit
      regulator for the coolant quantity to position 8,
-     at CET 08 36 23.
+     at [glossary:CET] 08 36 23.
 
 [00:08:36:35]
 P: That's a more accurate reading on fuel if I can
@@ -9644,7 +9644,7 @@ P: Have a slight roll to the right, which is indicated
 
 [00:08:43:24]
 P: T<sub>r</sub>-10 relay must have set in, although I have no
-     clues - other than the ASCS rate gyros coming up
+     clues - other than the [glossary:ASCS] rate gyros coming up
      and I can't bet on those since they're in anyway
      by the switch being selected to T<sub>r</sub>-10 bypass.
 
@@ -9730,7 +9730,7 @@ P: Roger. I've got everything all set, Al, except
      count.
 
 [00:08:50:20]
-CC: Very good. You're going to use ASCS retro, and
+CC: Very good. You're going to use [glossary:ASCS] retro, and
      manual proportional standby.
 
 [00:08:50:26]
@@ -9805,7 +9805,7 @@ P: I've got (retro rocket number) 1, and she's
      got 3.
 
 [00:08:52:17]
-CC: Very good. We confirm on T/M. Retros 1, 2,
+CC: Very good. We confirm on [glossary:T/M]. Retros 1, 2,
      and 3. Attitudes holding very well. Retro
      jettison switch to arm.
 
@@ -9849,14 +9849,14 @@ CC: Okay. We're following you here.
 [00:08:53:20]
 P: Roger. I am a little sloppy on the roll as you may
      see. No strain. I'm going to put her right into
-     ASCS when I get up here. Okay. She's in reentry
+     [glossary:ASCS] when I get up here. Okay. She's in reentry
      as far as roll goes. Okay. The scope is coming
      in. I'm on the gyros.
 
 [00:08:53:40]
 _page : 180
 _extra : PCS-6
-CC: Roger. We confirm scope retract on T/M.
+CC: Roger. We confirm scope retract on [glossary:T/M].
 
 [00:08:53:43]
 P: Roger.
@@ -9868,22 +9868,22 @@ CC: And you're very close to reentry attitude.
 P: Roger. I'm in reentry attitude now.
 
 [00:08:53:51]
-CC: Roger. Understand you will go to RSCS prior to
+CC: Roger. Understand you will go to [glossary:RSCS] prior to
      0.05g, with aux damp as a back up.
 
 [00:08:53:57]
-P: That is affirmative. I'm now going to ASCS at
+P: That is affirmative. I'm now going to [glossary:ASCS] at
      this time. And she's tight and holding.
 
 [00:08:54:05]
-CC: Understand you are in ASCS.
+CC: Understand you are in [glossary:ASCS].
 
 [00:08:54:07]
 P: That is correct. I want to see if the reentry
      logic was in.
 
 [00:08:54:11]
-CC: Roger. And you will go to RSCS prior to 0.05g.
+CC: Roger. And you will go to [glossary:RSCS] prior to 0.05g.
 
 [00:08:54:15]
 P: That is correct, Al. I want to give her a
@@ -9915,10 +9915,10 @@ _page : 181
 _extra : PCS-WAT-6
 P: Okay. Post retro, I read 65 (percent) auto
      (fuel), and about - 78 (percent) manual (fuel).
-     Manual lever is in. I'm in ASCS at this time.
+     Manual lever is in. I'm in [glossary:ASCS] at this time.
 
 [00:08:55:10]
-CC: Understand you are still in ASCS but the manual
+CC: Understand you are still in [glossary:ASCS] but the manual
      lever is in.
 
 [00:08:55:14]
@@ -9926,7 +9926,7 @@ P: That is correct. What is my nominal time for
      0.05g.
 
 [00:08:55:19]
-CC: Standing by Wally. We have LOS. See you later.
+CC: Standing by Wally. We have [glossary:LOS]. See you later.
 
 [00:08:55:22]
 _extra : WATERTOWN
@@ -10003,7 +10003,7 @@ CC: Understand - I just barely understood you,
 P: That is correct.
 
 [00:08:58:37]
-P: I am standing by to check out my RSCS mode
+P: I am standing by to check out my [glossary:RSCS] mode
      at the proper time.
 
 [00:08:58:47]
@@ -10018,7 +10018,7 @@ CC: Sigma Seven. Did not understand the last
 P: Roger. Have you acquired track?
 
 [00:08:59:09]
-CC: Expect LOS blackout anytime. I'll keep
+CC: Expect [glossary:LOS] blackout anytime. I'll keep
      transmitting in the hope that it will get it
      on your tape recorder.
 
@@ -10060,7 +10060,7 @@ CC: You should have sent your blood pressure.
 P: I did.
 
 [00:09:00:11]
-CC: I still have you on T/M. No blackout yet.
+CC: I still have you on [glossary:T/M]. No blackout yet.
 
 [00:09:00:13]
 P: Roger. I'm going to check out rate command
@@ -10092,7 +10092,7 @@ P: Oh, they're beautiful - very good. Every
      control mode has worked perfectly.
 
 [00:09:00:53]
-CC: Lost you on T/M.
+CC: Lost you on [glossary:T/M].
 
 [00:09:00:55]
 P: Roger.
@@ -10131,7 +10131,7 @@ P: Attitudes are controlling very well. Seems to
      pitch at this point. Yaw is fairly stiff; g
      is building up. Capsule is quite stable.
      There is a green flow - and looks like orange
-     streaks every once in a while. RSCS is doing
+     streaks every once in a while. [glossary:RSCS] is doing
      very well on reentry. Rather unusual slow
      roll. Building up to 2g's. I have plenty of
      fuel in rate command. Seeing sparkles coming
@@ -10183,13 +10183,13 @@ P: Roger. Seems nominal here. Everything looks
      command doing very well. Coming up on
      50 (thousand). She looks like a sweety.
      Coming up on 45,000. I'm down to about
-     1 g. Preparing to punch the drogue, at
-     40, 41 (thousand). I'm punching drogue,
-     and the drogue is out. You can hear it; I
+     1 g. Preparing to punch the [glossary:drogue], at
+     40, 41 (thousand). I'm punching [glossary:drogue],
+     and the [glossary:drogue] is out. You can hear it; I
      can't see it because of the clouds.
      Attitudes are holding well. Manual lever
-     is in. RSCS fuel is going pretty fast. I
-     can see the drogue now. Drogue looks very
+     is in. [glossary:RSCS] fuel is going pretty fast. I
+     can see the [glossary:drogue] now. [glossary:Drogue] looks very
      good. I'm going to aux damp to. Actually
      don't need it. Rate command is burning itself
      out. And aux damp is doing nothing, just
@@ -10214,7 +10214,7 @@ P: I'm dumping H<sub>2</sub>O<sub>2</sub>. Switch fuse on. Standing
      by. Recovery arm is "arm". Standing by for
      main chute. All switches are in proper
      position. Manual fuel is almost all gone.
-     There goes drogue and main is out. It's -
+     There goes [glossary:drogue] and main is out. It's -
      she's out beautiful. Bright blue sky. And
      it's dereefed, and looks like a sweety pie.
      Auto fuel is dumping. Rate of descent is
@@ -10316,7 +10316,7 @@ P: I want to stay aboard.
 CC: . . ..
 
 [00:09:11:24]
-P: I am turning off ASCS bus. I'm going to get
+P: I am turning off [glossary:ASCS] bus. I'm going to get
      rid of these coolant valves that the fellows
      wanted, they're all going to 0. And I hear
      the aux beacon already.

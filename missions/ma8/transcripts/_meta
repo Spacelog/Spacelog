@@ -1,5 +1,6 @@
 {
     "name": "ma8", 
+    "incomplete": true,
     "utc_launch_time": "1962-10-03T12:15:12",
     "main_transcript": "ma8/TEC", 
     "media_transcript": "ma8/MEDIA",
@@ -346,5 +347,35 @@
         "00:09:16:27",
         "00:09:17:33"
     ],
-    "incomplete": true
+    "shared_glossaries": ["space"],
+    "glossary": {
+        "ASCS": {
+            "summary": "Automatic Stabilization and Control System",
+            "type": "abbreviation"
+        },
+        "CET": {
+            "summary": "Capsule Elapsed Time",
+            "type": "abbreviation"
+        },
+        "GET": {
+            "summary": "Ground Elapsed Time",
+            "type": "abbreviation"
+        },
+        "RSCS": {
+            "summary": "Rate Stabilization and Control System",
+            "type": "abbreviation"
+        },
+        "IOS": {
+            "summary": "Indian Ocean Ship",
+            "type": "abbreviation"
+        },
+        "MCC": {
+            "summary": "Mercury Control Center",
+            "type": "abbreviation"
+        },
+        "T/M": {
+            "summary": "Telemetry",
+            "type": "abbreviation"
+        }
+    }
 }
