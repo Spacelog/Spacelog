@@ -284,13 +284,13 @@ P: Roger. I just went into [glossary:ASCS] at about 7
 
 [00:00:07:34]
 CC: I'll give you (contingency recovery area) 1-B
-     retro 16 22.
+     retro [time:00:00:16:22|16 22].
 
 [00:00:07:43]
-P: Roger. Understand 16 22. Is that correct?
+P: Roger. Understand [time:00:00:16:22|16 22]. Is that correct?
 
 [00:00:07:47]
-CC: Roger. 16 22.
+CC: Roger. [time:00:00:16:22|16 22].
 
 [00:00:07:51]
 P: Okay. I've got my chart case out. I'll put
@@ -474,10 +474,10 @@ CC: I have a (recovery area) 2-1 retrosequence
 P: Roger. Standby.
 
 [00:00:17:26]
-CC: 01 28 21.
+CC: [time:00:01:28:21|01 28 21].
 
 [00:00:17:30]
-P: Roger. Correction to 2-1. 01 28 21.
+P: Roger. Correction to 2-1. [time:00:01:28:21|01 28 21].
 
 [00:00:17:36]
 CC: That's confirm.
@@ -585,7 +585,7 @@ CC: Understand you want a [glossary:CET] ground check.
 P: That's correct.
 
 [00:00:22:04]
-CC: Roger. At my mark it will be 22 10. MARK.
+CC: Roger. At my mark it will be [time:00:00:22:10|22 10]. MARK.
      <sup>T</sup>
 
 [00:00:22:12]
@@ -841,14 +841,14 @@ P: In fact, that's a correction, it hasn't come down.
 
 [00:00:33:03]
 CC: Roger. Seven. Your (recovery area) 2-1 retrosequence
-     time is 01 28 21. Over.
+     time is [time:00:01:28:21|01 28 21]. Over.
 
 [00:00:33:20]
 CC: Seven, Zanzibar.
 
 [00:00:33:21]
 P: Roger. I'm sorry I was trying to get my card out. I
-     understand 01 28 21.
+     understand [time:00:01:28:21|01 28 21].
 
 [00:00:33:25]
 CC: Yeah.
@@ -996,7 +996,7 @@ P: Hello Muchea, hello Muchea Cap Com this is Sigma
 [00:00:41:00]
 P: This is Sigma Seven. I have noticed minute objects
      that I can knock off the capsule, one or two, in
-     the bright sunlight at [glossary:CET] 41 10.
+     the bright sunlight at [glossary:CET] [time:00:00:41:10|41 10].
 
 [00:00:41:17]
 CT: Seven this is Zanzibar. I barely read you HF check.
@@ -1004,7 +1004,7 @@ CT: Seven this is Zanzibar. I barely read you HF check.
 
 [00:00:41:23]
 P: Roger, Zanzibar, I read you loud and clear at this
-     time. That is at 41 30 Zanzibar, getting HF loud
+     time. That is at [time:00:00:41:30|41 30] Zanzibar, getting HF loud
      and clear.
 
 [00:00:41:43]
@@ -1836,8 +1836,7 @@ P: I'm now starting to see the sunrise in the
      the night side. It is obvious that the periscope
      has no function whatsoever in retroattitude
      on the night side. First light that I get is
-     right now at a [glossary:CET] of practically 1 25 - 1 hour
-     and 25 minutes. The sunrise is coming in
+     right now at a [glossary:CET] of practically [time:00:01:25:00|1 25 - 1 hour and 25 minutes]. The sunrise is coming in
      rather rapidly through the periscope.
      I do have the lighted objects that John
      mentioned, and I can create some by knocking
@@ -1916,7 +1915,7 @@ P: Roger. Standby.
 P: Okay, Scott.
 
 [00:01:28:12]
-CC: Roger. 3-1 is 03 01 20.
+CC: Roger. 3-1 is [time:00:03:01:20|03 01 20].
 
 [00:01:28:18]
 P: Oh, back to 20 now.
@@ -1928,11 +1927,11 @@ CC: Roger.
 P: Okay.
 
 [00:01:28:23]
-CC: 6-1 is 08 51 33. Read those both back and give me
+CC: 6-1 is [time:00:08:51:33|08 51 33]. Read those both back and give me
      a standard report, please.
 
 [00:01:28:29]
-P: Will do. Okay. 3-1 is 03 01 20. 6-1 is 08 51 33.
+P: Will do. Okay. 3-1 is [time:00:03:10:20|03 01 20]. 6-1 is [time:00:08:51:33|08 51 33].
 
 [00:01:28:41]
 CC: Right. The report, please.
@@ -1976,7 +1975,7 @@ P: Okay. The numbers on fuel 100 (percent) for
 
 [00:01:30:01]
 CC: Roger. And on my mark the ground elapsed time
-     will be 1 hour, 30 minutes and 10 seconds.
+     will be [time:00:01:30:10|1 hour, 30 minutes and 10 seconds].
      Standby. MARK.<sup>T</sup>.
 
 [00:01:30:13]
@@ -2187,16 +2186,16 @@ P: Standby 'till I finish my blood here. Okay,
      I'm done. Okay, go ahead with your 2 Bravo.
 
 [00:01:37:11]
-CC: 2 Bravo, 01 48 32.
+CC: 2 Bravo, [time:00:01:48:32|01 48 32].
 
 [00:01:37:15]
 P: 48 32. Is that correct?
 
 [00:01:37:22]
-CC: 01 48 32.
+CC: [time:00:01:48:32|01 48 32].
 
 [00:01:37:25]
-P: 32 Roger. Understand. 01 48 32, 2 Bravo.
+P: 32 Roger. Understand. [time:00:01:48:32|01 48 32], 2 Bravo.
 
 [00:01:37:32]
 CC: We suggest you have a drink of water if you
@@ -2401,7 +2400,7 @@ P: Yaw is now approximately 0 at this time - MARK.
 
 [00:01:44:35]
 P: Rates are just about right on, attitudes right on,
-     going to fly-by-wire, gyros normal. At 1 44 50
+     going to fly-by-wire, gyros normal. At [time:00:01:44:50|1 44 50]
      approximately, we are back into chimp configuration.
      Understand I will have [glossary:LOS] at Bermuda;
      next station is Canaries. At this point suit
@@ -2413,7 +2412,7 @@ _page : 51
 _extra : CNV-CYI-2
 _extra : CANARY ISLANDS
 P: On the 0 - on the 0 to 50 - on the 0 to 50
-     Roentgen Scale at 01 hour 46 minutes, there
+     Roentgen Scale at [time:00:01:46:00|01 hour 46 minutes], there
      is practically no reading at all.
 
 [00:01:48:47]
@@ -2458,7 +2457,7 @@ P: I am now going to setting number 3 on the
 CC: Roger.
 
 [00:01:50:09]
-P: At 1 hour and 50 minutes.
+P: At [time:00:01:50:00|1 hour and 50 minutes].
 
 [00:01:50:12]
 CC: Roger. What is your present control mode?
@@ -2825,10 +2824,10 @@ P: Kano, this is Sigma Seven. Go ahead.
 
 [00:02:00:47]
 CC: This Kano Cap Com transmitting in the blind,
-     Sigma Seven. 2 Charlie time is 02 04 30.
+     Sigma Seven. 2 Charlie time is [time:00:02:04:30|02 04 30].
 
 [00:02:01:03]
-P: This is Sigma Seven. Roger. 02 04 30, for
+P: This is Sigma Seven. Roger. [time:00:02:04:30|02 04 30], for
      2 Charlie.
 
 [00:02:01:16]
@@ -2845,13 +2844,13 @@ CC: I read you now. Did you get my 2 Charlie
      time?
 
 [00:02:01:26]
-P: Roger. 02 04 30.
+P: Roger. [time:00:02:04:30|02 04 30].
 
 [00:02:01:32]
 CC: Would you say it back to me.
 
 [00:02:01:34]
-P: Roger. 02 04 30.
+P: Roger. [time:00:02:04:30|02 04 30].
 
 [00:02:01:41]
 CC: That is Roger.
@@ -3082,7 +3081,7 @@ P: At last we have solved the suit circuit
      was concerned about this record position
      only. There is no side tone as well. The
      suit temperature at this time is - [glossary:CET]
-     2 17 20 MARK. (2 17 20)<sup>T</sup> - is 68 degrees
+     [time:00:02:17:20|2 17 20] MARK.<sup>T</sup> - is 68 degrees
      and I'm feeling marvelous. The suit dome is
      about 72 degrees again. Apparently, it does
      fluctuate, and we are going into the night
@@ -3113,8 +3112,9 @@ P: Sunset is rather striking, I don't think that
      locked. She's getting kinda cool at last so
      I know where I want to go with the setting.
      I have set the coolant quantity for the suit
-     and control lever at 8.5 at 2 hours 19
-     minutes, 28 seconds. The readout the dome
+     and control lever at 8.5 at
+     [time:00:02:19:28|2 hours 19 minutes, 28 seconds].
+     The readout the dome
      at this time is 75 (degrees).
      The suit inlet is 68 (degrees). Very
      pleasant. I can feel cool air crossing
@@ -3143,10 +3143,13 @@ P: Sunset is rather striking, I don't think that
      the switch is, is no problem, just a
      case of wearing out before they should.
      Drifting, checking my wrist watch as a
-     backup and I have 2 hours and 51 minutes.
-     Correction, that's 2 hours and 21
-     minutes. Check that, 2 hours and 21
-     minutes and 35 seconds. Right on.
+     backup and I have
+     [time:00:02:51:00|2 hours and 51 minutes].
+     Correction, that's
+     [time:00:02:21:00|2 hours and 21 minutes].
+     Check that,
+     [time:00:02:21:35|2 hours and 21 minutes and 35 seconds].
+     Right on.
      We're not too bad, we better get a [glossary:CET] check
      at Muchea on this trip.
 
@@ -3154,9 +3157,9 @@ P: Sunset is rather striking, I don't think that
 _page : 63
 _extra : IOS-2
 P: Going for the computer. Clock is reading about
-     2 hours and 23 minutes. We'll say 2 24.
-     At 2 24 we should pick up Muchea, also pick
-     up a yaw check. 2 24 we have 05 36 on the
+     [time:00:02:23:00|2 hours and 23 minutes]. We'll say [time:00:02:24:00|2 24].
+     At [time:00:02:24:00|2 24] we should pick up Muchea, also pick
+     up a yaw check. [time:00:02:24:00|2 24] we have 05 36 on the
      other set.
 
 [00:02:23:13]
@@ -3455,8 +3458,7 @@ CC: Roger. We received your last reports from
 
 [00:02:32:46]
 P: That is auto retro. Would you give me a time
-     hack at 33 minutes. Over. That's 2 hours,
-     33 minutes.
+     hack at 33 minutes. Over. That's [time:00:02:33:00|2 hours, 33 minutes].
 
 [00:02:33:06]
 CC: You want to get your blood pressure stopped?
@@ -3476,7 +3478,7 @@ P: I need a mark on capsule elapsed time. Your
 CC: Roger.
 
 [00:02:33:26]
-CC: 5, 4, 3, 2, 1. MARK 02 33 30.<sup>T</sup>
+CC: 5, 4, 3, 2, 1. MARK [tim:00:02:33:30|02 33 30].<sup>T</sup>
 
 [00:02:33:34]
 P: Roger. I read 31. I'm 1 second fast. That's
@@ -3835,7 +3837,7 @@ CC: Roger.
 [00:02:46:07]
 _page : 78
 _extra : CTN-2
-P: That's at 3 hours and 20 minutes, of course.
+P: That's at [time:00:03:20:00|3 hours and 20 minutes], of course.
      Apparently I've got to keep checking that
      thing for bicone. Correction - for dipole.
 
@@ -3975,8 +3977,7 @@ CC: Could you give me a [glossary:CET], please?
 
 [00:02:50:47]
 P: Roger. Standby for a mark at 50. MARK 50.
-     <sup>T</sup>. That's 2 hours 50 minutes
-     plus 50 seconds.
+     <sup>T</sup>. That's [time:00:02:50:50|2 hours 50 minutes plus 50 seconds].
 
 [00:02:50:52]
 CC: Roger. We indicate you're 1 second fast.
@@ -4277,13 +4278,13 @@ P: Roger, go ahead John.
 CC: Roger. Incidentally, you have a go for the
      next orbit in case you were wondering. Cape
      concurs with that one. Your retrosequence
-     time for 4-1 is 04 32 36. Over.
+     time for 4-1 is [time:00:04:32:36|04 32 36]. Over.
 
 [00:03:01:25]
 P: 32 36.
 
 [00:03:01:26]
-CC: Roger. 04 32 36. And Cape advises just proceed
+CC: Roger. [time:00:04:32:36|04 32 36]. And Cape advises just proceed
      with normal flight plan. Looks like things
      are going fine.
 
@@ -4648,7 +4649,7 @@ P: Okay. I'll try to get it from you, Deke.
      I - you're garbled, say them very slowly.
 
 [00:03:11:20]
-CC: 03 39 36.
+CC: [time:00:03:39:36|03 39 36].
 
 [00:03:11:26]
 _page : 92
@@ -4659,7 +4660,7 @@ P: Okay. You came in loud and clear.
 CC: All righty.
 
 [00:03:11:29]
-P: 03 39 36 for 3 Charlie.
+P: [time:00:03:39:36|03 39 36] for 3 Charlie.
 
 [00:03:11:35]
 CC: That's affirmative.
@@ -4702,7 +4703,7 @@ CC: Want a mark on the back-up?
 P: Yeah.
 
 [00:03:12:19]
-CC: Okay. 03 12 25 on my mark. - MARK.<sup>T</sup>
+CC: Okay. [time:00:03:12:25|03 12 25] on my mark. - MARK.<sup>T</sup>
 
 [00:03:12:30]
 P: That was 15 47 30. Is that correct?
@@ -4864,11 +4865,11 @@ CC: Sigma Seven this is Cape Cap Com. Transmitting
 
 [00:03:20:18]
 CT: Sigma Seven this is Canary Com Tech. Transmitting
-     HF check at 03 20 21, MARK, out.
+     HF check at [time:00:03:20:21|03 20 21], MARK, out.
      <sup>T</sup>
 
 [00:03:20:32]
-CT: Sigma Seven this 03 20 30 Kano.
+CT: Sigma Seven this [time:00:03:20:30|03 20 30] Kano.
 
 [00:03:22:49]
 P: Going to VOX record. Looking at the window
@@ -4885,7 +4886,7 @@ P: Going to VOX record. Looking at the window
 _extra : CANARY ISLANDS
 P: Definitely have a reduced visibility as a
      result of this. The rate, at this point,
-     at 3 23 35, MARK,<sup>T</sup> are almost
+     at [time:00:03:23:35|3 23 35], MARK,<sup>T</sup> are almost
      all zeros.
 
 [00:03:23:49]
@@ -5170,7 +5171,7 @@ P: On the powering up. I went to gyros normal,
 [00:03:52:41]
 P: I am flying at three zeros on [glossary:ASCS] mode at
      this time, to see if this helps me reestablish.
-     At approximately 4 hours, I just find out
+     At approximately [time:00:04:00:00|4 hours], I just find out
      where I am as far as the moon goes.
 
 [00:03:52:56]
@@ -5181,10 +5182,10 @@ P: Having little trouble getting stars oriented as
      This doesn't help one bit.
 
 [00:03:53:17]
-P: There is a star that occurs at 3 hours and
-     53 minutes. What it is, is going to take a
+P: There is a star that occurs at [time:00:03:53:00|3 hours and 53 minutes].
+     What it is, is going to take a
      while to find out. Read the computer,
-     set up, 3 hours and 53 minutes, and the
+     set up, [time:00:03:53:00|3 hours and 53 minutes], and the
      time at 55, set up to a standard - 56
      minutes . . . standard . . ..
 
@@ -5204,7 +5205,7 @@ P: There's Cassiopeia which is to the north.
 
 [00:03:57:08]
 P: There's our friend the moon. We're due over
-     Muchea at what time, 4 hours - get set up
+     Muchea at what time, [time:00:04:00:00|4 hours] - get set up
      then.
 
 [00:03:57:48]
@@ -5491,7 +5492,7 @@ P: Roger. At this period, I'm looked ahead at
      to be.
 
 [00:04:11:20]
-P: At 4 11, it is 1 15 on the star chart computer, . . ..
+P: At [time:00:04:11:00|4 11], it is 1 15 on the star chart computer, . . ..
 
 [00:04:11:30]
 ?: . . ..
@@ -5542,7 +5543,7 @@ P: The compass is too much affected by the attitude
      between the instrument panel and my face
      and in reference to a line halfway between
      the glove box and the pack. At the CE time
-     of 4 18, it is pointing directly at the
+     of [time:00:04:18:00|4 18], it is pointing directly at the
      forward hatch clamp line. It seems that
      this is the restraining pin link for the
      hatch. I guess they can stow that for
@@ -5552,7 +5553,7 @@ P: The compass is too much affected by the attitude
 P: . . . get rid of that for awhile.
 
 [00:04:19:04]
-P: We are on time 4 hours and 19 minutes. On
+P: We are on time [time:00:04:19:00|4 hours and 19 minutes]. On
      [glossary:ASCS] and I will pinch down. At this point,
      going to fly-by-wire low - to reentry
      attitude for Hawaii.
@@ -5848,7 +5849,7 @@ CC: Your ECT I have here, what's your setting for
      retrosequence. Over.
 
 [00:04:33:27]
-P: Roger. 08 hours + 50 + 21.
+P: Roger. [time:00:08:50:21|08 hours + 50 + 21].
 
 [00:04:33:32]
 CC: Roger. Thank you.
@@ -5971,7 +5972,7 @@ P: Right'o John, and thanks so much for your
 P: Roger.
 
 [00:04:36:35]
-P: At 04 36 37. I took a light reading, and the
+P: At [time:00:04:36:37|04 36 37]. I took a light reading, and the
      light value is 13 for ASA 160.
 
 [00:04:36:47]
@@ -6081,20 +6082,20 @@ P: Roger. I think I will be through in a second. I
 CC: Roger.
 
 [00:04:41:45]
-CC: (Recovery area) 4-2 is 05 44 05.
+CC: (Recovery area) 4-2 is [time:00:05:44:05|05 44 05].
 
 [00:04:41:53]
 P: Do that one over again and I will be right on.
      You're in clear now.
 
 [00:04:41:57]
-CC: Okay 4-2 is 05 44 05.
+CC: Okay 4-2 is [time:00:05:44:05|05 44 05].
 
 [00:04:42:04]
-P: Okay. 4-2 is 05 44 05.
+P: Okay. 4-2 is [time:00:05:44:05|05 44 05].
 
 [00:04:42:09]
-CC: Right. (recovery area) 6-1 is 08 51 24.
+CC: Right. (recovery area) 6-1 is [time:00:08:51:24|08 51 24].
 
 [00:04:42:14]
 _page : 116
@@ -6207,7 +6208,7 @@ CF: Sigma Seven, Cape Flight.
 P: Go ahead there Chris.
 
 [00:04:45:12]
-CF: The . . . retrosequence now shows 08 51 21 which
+CF: The . . . retrosequence now shows [time:00:08:51:21|08 51 21] which
      means you can advance it exactly 1 minute and
      that would be the correct time. You can do that
      anytime you want to.
@@ -6216,7 +6217,7 @@ CF: The . . . retrosequence now shows 08 51 21 which
 P: Advance it 1 minute?
 
 [00:04:45:28]
-CF: Affirmative. That would be 08 51 21.
+CF: Affirmative. That would be [time:00:08:51:21|08 51 21].
 
 [00:04:45:32]
 P: Okay. I will throw a minute in now. You reading
@@ -6229,7 +6230,7 @@ CF: Affirmative.
 P: Okay.
 
 [00:04:45:44]
-P: . . . That's a trick. Okay, I got 08 51 20 . I'll
+P: . . . That's a trick. Okay, I got [time:00:08:51:20|08 51 20] . I'll
      throw another second in. I've got 08 plus 51
      plus 21.
 
@@ -6267,7 +6268,7 @@ P: Roger. Never mind.
 CC: . . . Cape Cap Com.
 
 [00:04:48:24]
-P: I took picture 4, - 4a at 4 48 29, which is the
+P: I took picture 4, - 4a at [time:00:04:48:29|4 48 29], which is the
      coast of United States. I assume - I will
      have to look at my map shortly and see where we
      are. A rather large cloud mass at this point.
@@ -6278,7 +6279,7 @@ P: I took picture 4, - 4a at 4 48 29, which is the
      out and put back in again.
 
 [00:04:49:23]
-P: At 4 hours and 50 minutes, I can't get that
+P: At [time:00:04:50:00|4 hours and 50 minutes], I can't get that
      camera back out of that box again. Time to
      take a picture. Better stay in there for
      awhile.
@@ -6302,7 +6303,7 @@ _page : 119
 _extra : CNV-4
 P: I am just about straight down. We will take
      some cumulus pictures. The time hack is
-     4 hours 51 minutes. The picture will be
+     [time:00:04:51:00|4 hours 51 minutes]. The picture will be
      a 5a color.
 
 [00:04:52:13]
@@ -6317,7 +6318,7 @@ P: The dome (temperature) is holding at 70 degrees.
 P: . . . shot at 250 56. (1/250 second at f 5.6).
 
 [00:04:53:52]
-P: At 04 53 53. Bit of in a rolled over attitude
+P: At [time:00:04:53:53|04 53 53]. Bit of in a rolled over attitude
      with the nose fairly high. . . . the light
      value (setting) was 13.
 
@@ -6332,7 +6333,7 @@ P: I can actually see the little object that looked
      different velocity than the capsule itself.
 
 [00:04:55:29]
-P: 4 55 and still am sighting some of the snowflake
+P: [time:00:04:55:00|4 55] and still am sighting some of the snowflake
      effects. 250 inverter is now approximately
      135 degrees. Suit dome (temperature) is 72
      (degrees). The cabin dome is about 46 (degrees).
@@ -6343,7 +6344,7 @@ P: Sun right in view again. . . . that should be
      that's where the sun would be at sunset.
 
 [00:04:57:02]
-P: Coming up on 5 hours, so I'll be getting
+P: Coming up on [time:00:05:00:00|5 hours], so I'll be getting
      prepared to copy the intermediate report
      at this time. I will not put the camera
      all the way in the case at . . .
@@ -6364,7 +6365,7 @@ P: Capsule is working very well at this point.
      left auto (thruster) is 105 (degrees). Think
      we will go back and pick up the retro.
      Temperature is 80 (degrees). This is at almost
-     exactly 5 hours.
+     exactly [time:00:05:00:00|5 hours].
 
 [00:04:59:59]
 _page : 120
@@ -6379,7 +6380,7 @@ P: Ready for the 5 o'clock report. Fuel is 89-90
 P: Got more targets of opportunity.
 
 [00:05:00:59]
-P: At 5 hours and 1 minute I am shooting pictures
+P: At [time:00:05:01:00|5 hours and 1 minute] I am shooting pictures
      of weather almost vertically. There is a
      light value of 13-½. Gives me 250 and
      5 6 (1/250 second and f5.6) roughly. Infinity
@@ -6392,7 +6393,7 @@ P: Light value of 13 for that same subject. I
 [00:05:03:00]
 P: If I don't talk much more than this, it won't
      be very long to real time this tape recorder.
-     Coming up on [glossary:IOS] at 5 hours and 15 minutes.
+     Coming up on [glossary:IOS] at [time:00:05:15:00|5 hours and 15 minutes].
      Quite obvious that you don't care really
      what attitude you are in. There is always
      that concern about trying to get back into
@@ -6403,7 +6404,7 @@ P: If I don't talk much more than this, it won't
 [00:05:04:20]
 P: When I get much more I look at the earth. Rates
      at this time, having powered down at approximately
-     4 hours and 35 minutes are almost exactly 0.
+     [time:00:04:25:00|4 hours and 35 minutes] are almost exactly 0.
      There is a very, very slight pitch rate.
      Approximately maybe ½ degree per second.
 
@@ -6463,8 +6464,8 @@ P: Let's check and see if we actually do get yaw
      it's the outer panel.
 
 [00:05:11:05]
-P: We are now going into night coming up on 5 hours
-     11 minutes. Suit dome is setting at 7.0 very
+P: We are now going into night coming up on [time:00:05:11:00|5 hours 11 minutes].
+     Suit dome is setting at 7.0 very
      happily. Suit itself is at 62 (degrees) and
      I am happy.
 
@@ -6512,8 +6513,8 @@ P: It is almost blacked out completely at this
 _extra : INDIAN OCEAN SHIP
 P: Getting a real burst of light in the window. I
      really don't know what it is. At this point
-     I should be coming up on the sunset. Five
-     hours 15 minutes. Periscope is dark. I must
+     I should be coming up on the sunset.
+     [time:00:05:15:00|Five hours 15 minutes]. Periscope is dark. I must
      be just getting a last look at the horizon;
      yet I'm not down on it. Here we go into night
      rather rapidly. Now we're into the night side.
@@ -6551,8 +6552,8 @@ CC: Do you have an intermediate report for me at
 
 [00:05:16:36]
 P: That's affirmative. Are you ready to copy -
-     all systems were green at the time. At 5
-     hours fuel was 89 (percent) auto, 90 manual.
+     all systems were green at the time. At [time:00:05:00:00|5 hours]
+     fuel was 89 (percent) auto, 90 manual.
      Oxygen 56 (psi, in hundreds) primary, 75
      secondary. Were you copying?
 
@@ -6598,11 +6599,11 @@ P: The suit dome (temperature) is 70 degrees and
 [00:05:18:03]
 CC: Wonderful. We also have a request from the Cape.
      On your next pass over California, between
-     6 08 and 6 10, they are going to pass your
+     [time:00:06:08:00|6 08] and [time:00:06:10:00|6 10], they are going to pass your
      voice to live TV. Over.
 
 [00:05:18:19]
-P: Roger, understand at 6 08 to 6 10.
+P: Roger, understand at [time:00:06:08:00|6 08] to [time:00:06:10:00|6 10].
 
 [00:05:18:23]
 CC: They would like you to say something to the live
@@ -6652,7 +6653,7 @@ CC: Roger, do you have your time on your intermediate
 [00:05:20:05]
 _page : 125
 _extra : IOS-4
-P: That was at 5 hours 00 minutes 00 seconds.
+P: That was at [time:00:05:00:00|5 hours 00 minutes 00 seconds].
 
 [00:05:20:09]
 CC: Good.
@@ -6701,7 +6702,7 @@ P: Getting - getting a good look at Orion at this
      and see what I can do with that.
 
 [00:05:27:18]
-P: I have extincted Alvagrin to read at 05 27 27.
+P: I have extincted Alvagrin to read at [time:00:05:27:27|05 27 27].
      Now this experiment isn't going to be valuable;
      I need cabin lights to see. It's awfully hard
      to find the extinction photometer. Let's see
@@ -6720,7 +6721,7 @@ P: I'm unable to run any more tests on stars at
 
 [00:05:28:29]
 P: I'll put the photometer in an area where it may
-     be available again. At 05 28 48, the rates are
+     be available again. At [time:00:05:28:48|05 28 48], the rates are
      almost exactly-negative-yaw is 0; pitch is
      -½; and roll is roll left ½. We definitely
      have a cold stick.
@@ -6728,8 +6729,8 @@ P: I'll put the photometer in an area where it may
 [00:05:30:59]
 P: This quiet time must be getting to a lot of people
      on the ground. I think we should probably put
-     some more data in here. Gathered at 5 hours
-     and 31 minutes. And about this time they want
+     some more data in here. Gathered at
+     [time:00:05:31:00|5 hours and 31 minutes]. And about this time they want
      an intermediate report. We'll get it for them.
 
 [00:05:32:57]
@@ -6809,8 +6810,8 @@ P: That is affirmative. All of them - they are all in
      good shape.
 
 [00:05:36:40]
-P: This is Sigma Seven, at 5 hours, 36 minutes, 45
-     seconds. No yaw rate, a slight left roll rate
+P: This is Sigma Seven, at [time:00:05:36:45|5 hours, 36 minutes, 45 seconds].
+     No yaw rate, a slight left roll rate
      of ½ degree per second. A slight pitch up
      of ¼ degree per second.
 
@@ -6863,7 +6864,7 @@ CC: Seven, this is Cap Com. Anything you want to say.
 [00:05:43:13]
 P: Nothing in particular. Wanna say hello to you
      though. All the systems are perfect. There
-     are no changes in quantities since the 05 00
+     are no changes in quantities since the [time:00:05:00:00|05 00]
      summary. Over.
 
 [00:05:43:30]
@@ -6945,11 +6946,11 @@ P: Roger, it's real nice up here today.
 [00:05:47:33]
 P: At this point I'm in VOX record. I'm going to
      switch to UHF for relay aircraft in Hawaii area.
-     The time is 05 hours 47 minutes 44 seconds.
+     The time is [time:00:05:47:44|05 hours 47 minutes 44 seconds].
 
 [00:05:47:49]
-CC: . . . I'll give you a mark on [glossary:GET] of 05 48 00 -
-     3,2,1. MARK. [glossary:GET] 05 48 00.
+CC: . . . I'll give you a mark on [glossary:GET] of [time:00:05:48:00|05 48 00] -
+     3,2,1. MARK. [glossary:GET] [time:00:05:48:00|05 48 00].
 
 [00:05:48:08]
 P: Roger, I had that 03 seconds. I am 3 seconds
@@ -6991,7 +6992,7 @@ P: Hello Huntsville, hello Huntsville, this is Sigma
 ?: . . .
 
 [00:05:50:09]
-P: At 05 hours, 50 minutes, I have a yaw rate of
+P: At [time:00:05:50:00|05 hours, 50 minutes], I have a yaw rate of
      ½ degree per second right, a pitch rate of ½
      degree per second up, a roll rate of ½ degree
      per second left.
@@ -7093,7 +7094,7 @@ P: This is Sigma Seven, giving the effects of flying
      proper yaw attitude although I am inverted. I
      see a small island at this point. And it's nice
      and bright in the cockpit again. We have light at
-     approximately 5 56 this pass. There, we're
+     approximately [time:00:05:56:00|5 56] this pass. There, we're
      almost swung around into yaw now.
 
 [00:05:57:10]
@@ -7179,7 +7180,7 @@ P: Oxygen, I have 55 and 75 (psi, in hundreds).
 CC: Roger.
 
 [00:05:59:33]
-P: At 05 hours no minutes no seconds, I have 56
+P: At [time:00:05:00:00|05 hours no minutes no seconds], I have 56
      (psi, in hundreds) on the oxygen and 75.
      There is practically no change on it.
 
@@ -7198,7 +7199,7 @@ _extra : HAW-4
 CC: Roger. We confirm those quantities, Wally.
      Looks like you're in good shape. Did you
      get the message to go to UHF prior to elapsed
-     time of 6 18.
+     time of [time:00:06:18:00|6 18].
 
 [00:06:00:08]
 P: Right, I have that on my card, also Watertown got
@@ -7219,19 +7220,19 @@ CC: Roger. I'll do that anyway, and I'm glad to hear
 
 [00:06:00:30]
 P: Right, I heard you way back and, I'd say at about
-     5 hours and 53 minutes.
+     [time:00:05:53:00|5 hours and 53 minutes].
 
 [00:06:00:39]
 CC: Say that time again.
 
 [00:06:00:40]
-P: Five hours and 53 minutes.
+P: [time:00:05:53:00|Five hours and 53 minutes].
 
 [00:06:00:43]
 CC: Repeat the whole time. I missed it.
 
 [00:06:00:45]
-P: Five hours 53 minutes.
+P: [time:00:05:53:00|Five hours 53 minutes].
 
 [00:06:00:49]
 CC: Roger.
@@ -7265,7 +7266,7 @@ P: Okay. Can you read me better with the push-to-talk?
 
 [00:06:04:33]
 _extra : CALIFORNIA
-P: At 6 hours and 4 minutes - we have a 1 degree per
+P: At [time:00:06:04:00|6 hours and 4 minutes] - we have a 1 degree per
      second right yaw rate. 0 degree per second
      pitch, and 3/4 of a degree per second left
      roll. No change in fuel quantity. No detectible
@@ -7284,7 +7285,7 @@ P: Read you loud and clear, John. How me?
 
 [00:06:06:09]
 CC: You're loud and clear. Everything's solid down
-     here. I guess you got the word on the 6 08
+     here. I guess you got the word on the [time:00:06:08:00|6 08]
      bit. Is that affirm?
 
 [00:06:06:14]
@@ -7305,9 +7306,9 @@ P: Okay. I have gyros normal, auto, gyros caged.
 CC: Roger. We confirm.
 
 [00:06:06:47]
-P: I'll hold off on my beacon. Clock's at 6 06
+P: I'll hold off on my beacon. Clock's at [time:00:06:06:00|6 06]
      approximately I guess, when I powered up, so
-     that it would be good at about 6 11. I have
+     that it would be good at about [time:00:06:11:00|6 11]. I have
      no change in consumables, John. It looks real
      good here.
 
@@ -7336,9 +7337,9 @@ P: Yeah. You really get the illusion you're
 CC: Right.
 
 [00:06:07:40]
-CC: Wally, I'll give you a count to the 6 08 here
+CC: Wally, I'll give you a count to the [time:00:06:08:00|6 08] here
      so we . . . start in. They're going to have it
-     on for 2 minutes beginning at 6 08. That's
+     on for 2 minutes beginning at [time:00:06:08:00|6 08]. That's
      about 20 seconds, here.
 
 [00:06:07:46]
@@ -7346,7 +7347,7 @@ P: Okay, John, sounds like fun.
 
 [00:06:08:04]
 CC: Okay, Sigma Seven. This is Cal Cap Com. You're
-     at 6 08. Two minutes on live TV. Go ahead,
+     at [time:00:06:08:00|6 08]. Two minutes on live TV. Go ahead,
      Wally.
 
 [00:06:08:10]
@@ -7473,13 +7474,13 @@ P: Let me get that first, then I'll give you the blood
      pressure.
 
 [00:06:12:03]
-CC: Roger, 07 18 10.
+CC: Roger, [time:00:07:18:10|07 18 10].
 
 [00:06:12:06]
-P: 07 18 10.
+P: [time:00:07:18:10|07 18 10].
 
 [00:06:12:10]
-CC: That's Roger. At 07 18 10, and for your information,
+CC: That's Roger. At [time:00:07:18:10|07 18 10], and for your information,
      Ascension copied you on your last pass and they
      are standing by to copy you again this time.
 
@@ -7490,10 +7491,10 @@ P: Roger, I'll send you a BPMS.
 CC: Roger.
 
 [00:06:12:27]
-P: I have your 07 18 10.
+P: I have your [time:00:07:18:10|07 18 10].
 
 [00:06:12:31]
-CC: That is Roger, 07 18 10 for (recovery area) 5-1.
+CC: That is Roger, [time:00:07:18:10|07 18 10] for (recovery area) 5-1.
 
 [00:06:12:35]
 P: Roger.
@@ -7516,14 +7517,14 @@ P: Now in the dosimeter check, it is still reading
      less than 1/10 on the lowest scale.
 
 [00:06:14:40]
-P: (Picture) Able 8 taken at 06 14 40. A coastline.
+P: (Picture) Able 8 taken at [time:00:06:14:40|06 14 40]. A coastline.
      It should have been the coast of . . . Tampico,
      just south of Texas.
 
 [00:06:15:23]
 P: All color shots have been made so far, no black
      and white I'm going to try to take another
-     shot here of a cloud structure, at 06 15 30.
+     shot here of a cloud structure, at [time:00:06:15:30|06 15 30].
 
 [00:06:15:37]
 P: Go ahead. Go ahead. Cape Cap Com.
@@ -7852,8 +7853,8 @@ P: This is Sigma Seven on VOX record only. I have
      I will now pitch the capsule down on fly-by-wire
      low. First I will check to see -
      if I turn on my beacons, nobody down here
-     can get to me on those. At 6 hours and
-     25 minutes - if anybody has a beacon in
+     can get to me on those. At [time:00:06:25:00|6 hours and 25 minutes]
+     - if anybody has a beacon in
      South America they deserve to hear it.
      Beacons are on, for a good 3 amps. Opening
      visor to wipe off chin, and I think I'll
@@ -7891,8 +7892,8 @@ P: That was stupid. Now we go to fly-by-wire
 P: Okay. I think we can change backs, and get
      some weather bureau pictures if it's
      possible. Shoot up the rest - the rest of
-     these, just lightly. That's A 10 at 6+30
-     hours, and 11 is coming up, and 6+30 hours
+     these, just lightly. That's A 10 at [time:00:06:30:00|6+30 hours],
+     and 11 is coming up, and [time:00:06:30:00|6+30 hours]
      with a cloud bank off to the left. Okay.
      I'll get the plate back on, and save this
      at A. Take the plate back out again, zap.
@@ -7901,8 +7902,8 @@ P: Okay. I think we can change backs, and get
 [00:06:31:23]
 _page : 146
 _extra : CNV-5
-P: The capsule at this point is, at 6 hours and
-     31 minutes, it is under chimp configuration.
+P: The capsule at this point is, at [time:00:06:31:00|6 hours and 31 minutes],
+     it is under chimp configuration.
      I've used manual proportional to a great
      degree. I now have 79 (percent) in manual
      (fuel) and 81 (percent) auto. Let's see
@@ -7920,15 +7921,15 @@ P: That's clever. - Weather bureau back is finally
      I'm going to shoot at ASA 64.
 
 [00:06:34:42]
-P: Take a light value at 06 35 minutes, and that
+P: Take a light value at [time:00:06:35:00|06 35 minutes], and that
      light value is 13 for 64 ASA. Very good.
      Fairly bright, . . . I'll give her 13, and
      we'll punch off a couple quickies because
      of the first bad one. First shot taken at
-     6 35 25.
+     [time:00:06:35:25|6 35 25].
 
 [00:06:35:47]
-P: Second shot 6 35 45.
+P: Second shot [time:00:06:35:45|6 35 45].
 
 [00:06:36:37]
 P: Capsule is in perfect attitude. Ideal shots
@@ -7937,19 +7938,19 @@ P: Capsule is in perfect attitude. Ideal shots
      white of the clouds.
 
 [00:06:37:01]
-P: In the white. Ready to shoot at 6 -06 37 07.
+P: In the white. Ready to shoot at 6 -[time:00:06:37:07|06 37 07].
      That was an oblique. Shot number 3. I'll
      take shot number 4 almost as straight down
      as I can sight. Beyond a little bit of
      shadow as we approach sunset. Okay, that
-     was 6 37 34.
+     was [time:00:06:37:34|6 37 34].
 
-P: That's capsule elapsed time. At 6 38 we will
+P: That's capsule elapsed time. At [time:00:06:38:00|6 38] we will
      copy the manual intermediate report and I
      can do that at this time.
 
 [00:06:38:48]
-P: Okay, at 6 hours and 35 minutes we are at 81
+P: Okay, at [time:00:06:35:00|6 hours and 35 minutes] we are at 81
      (percent auto fuel) - 79 (percent manual fuel).
      . . .cabin 90 (degrees). . . suit 63 (degrees)
      . . .. Dome 71 (degrees).
@@ -7957,7 +7958,7 @@ P: Okay, at 6 hours and 35 minutes we are at 81
 [00:06:40:25]
 _page : 147
 _extra : CNV-5
-P: We're now at 6 40. Going to map two.
+P: We're now at [time:00:06:40:00|6 40]. Going to map two.
 
 [00:06:41:43]
 P: At this point, I made a complete electrical
@@ -7978,7 +7979,7 @@ P: All the equipment is in good order. Coming
 P: Had the fun with experimenting and now will
      get the fun of being ready for reentry at
      any time. Okay. Let's see - we got [glossary:IOS]
-     at 6 40. 6 40. . . . same as 0 52.
+     at [time:00:06:40:00|6 40]. [time:00:06:40:00|6 40]. . . . same as 0 52.
 
 [00:06:44:03]
 P: There is a nice interesting horizon. The
@@ -8003,7 +8004,7 @@ P: Describing the blue band. There's a
      as far as the transition from the blue
      band to the total darkness.
      And I'll bring up my fingertip lights. And
-     at 06 45 52 Mercury is right on the horizon.
+     at [time:00:06:45:52|06 45 52] Mercury is right on the horizon.
      Arcturus should be in view, but I guess we
      we can't get her.
 
@@ -8020,8 +8021,8 @@ P: Okay, I<sup>T</sup> see Mercury going through
      the yellow orange of the surface of the
      earth. This was - Mercury, dropping over
      the horizon. I should be picking up the
-     moon and Venus fairly soon. At 6 46 -
-     and at 6 48 I'm over [glossary:IOS].
+     moon and Venus fairly soon. At [time:00:06:46:00|6 46] -
+     and at [time:00:06:48:00|6 48] I'm over [glossary:IOS].
 
 [00:06:49:12]
 P: Okay, it looks like we are getting some lighted
@@ -8030,7 +8031,7 @@ P: Okay, it looks like we are getting some lighted
      is Sigma Seven. On transmit, I've had on
      VOX record only. I definitely have a city
      in sight in Africa. It first showed up at
-     06 49 30 seconds. The lights come up very
+     [time:00:06:49:30|06 49 30] seconds. The lights come up very
      clear. I'm in retroattitude at this point
      to give a mark on my position, and the moon
      is on my flight path for yaw references
@@ -8083,7 +8084,7 @@ CC: Roger. We have a [glossary:CET]. You have about a
 P: Would you give me a countdown on [glossary:CET], please.
 
 [00:06:52:30]
-CC: Roger. On my mark it will be 06 52 33.
+CC: Roger. On my mark it will be [time:00:06:52:33|06 52 33].
      MARK<sup>T</sup>
 
 [00:06:52:38]
@@ -8110,7 +8111,7 @@ P: Roger. If you'll stand by I'm going to take
 CC: Roger.
 
 [00:06:54:26]
-P: Okay. Venus is extincted at 06 54 29, at a
+P: Okay. Venus is extincted at [time:00:06:54:29|06 54 29], at a
      value of 5.2.
 
 [00:06:54:40]
@@ -8124,7 +8125,7 @@ P: The standard light is also extincted at 3.8.
 [00:06:56:04]
 _page : 150
 _extra : IOS-5
-P: Picture taken, 06 56 27 black and white, of
+P: Picture taken, [time:00:06:56:27|06 56 27] black and white, of
      the moon. With the weather bureau filter
      pulled out. Picture number 6. And as the
      moon sets we'll try one more at a lower
@@ -8160,7 +8161,7 @@ P: Okay while I'm reading instruments, the 250
      roll left manual 98 (degrees), roll right
      auto 108 (degrees), roll left auto 108
      (degrees), samey, samey. Very good. And
-     this report was made at 07 04 40.
+     this report was made at [time:00:07:04:40|07 04 40].
 
 [00:07:06:07]
 P: All systems look very good at this point.
@@ -8168,13 +8169,13 @@ P: All systems look very good at this point.
      imagine.
 
 [00:07:10:29]
-P: At 07 hours 10 minutes and 30 seconds, I see
+P: At [time:00:07:10:30|07 hours 10 minutes and 30 seconds], I see
      a lighted area. Very well lighted. - It
      shows up more like an airport. Better
      identify where that would be - that should
      be the Phillippines. Possibly it's at
-     Zamboanga, and that's 07 hours 10 minutes
-     and 30 seconds. Very graphic series of
+     Zamboanga, and that's [time:00:07:10:30|07 hours 10 minutes and 30 seconds].
+     Very graphic series of
      lights. Very easy to see.
 
 [00:07:11:38]
@@ -8184,8 +8185,8 @@ P: Correction, at 07 hours and minutes put me
      over.
 
 [00:07:11:48]
-P: . . .. It's marked on the chart at 07
-     hours and 10 minutes. I was looking
+P: . . .. It's marked on the chart at [time:00:07:10:00|07 hours and 10 minutes].
+     I was looking
      down at - almost in retroattitude. It
      showed up very clearly.
 
@@ -8336,7 +8337,7 @@ P: I'm concur.
 
 [00:07:19:16]
 CC: Also, Seven. At [glossary:LOS], which should occur about
-     07 21, the typhoon will be located about
+     [time:00:07:21:00|07 21], the typhoon will be located about
      400 miles about 45 degrees left of your track.
      So you should be able to pick it up.
 
@@ -8345,7 +8346,7 @@ P: Oh, very good. I'll look for it.
 
 [00:07:19:34]
 CC: And we are reading you loud and clear and will
-     be standing by for your HF check at 7 20.
+     be standing by for your HF check at [time:00:07:20:00|7 20].
 
 [00:07:19:40]
 P: Roger.
@@ -8374,7 +8375,7 @@ CC: Seven. PCS.
 [00:07:20:22]
 P: This is Sigma Seven. On HF. This is Sigma
      Seven. On HF. Giving a short count at
-     07 hours, 20 minutes, 34 seconds [glossary:CET]. This
+     [time:00:07:20:34|07 hours, 20 minutes, 34 seconds] [glossary:CET]. This
      is to check for HF coverage on the world
      wide range. The duration of the transmission
      is to last 60 seconds. I wish I knew what
@@ -8651,10 +8652,10 @@ CC: Are you ready to copy retrosequence time, Wally?
 P: Okay, go.
 
 [00:07:33:03]
-CC: Roger, 08 51 27.
+CC: Roger, [time:00:08:51:27|08 51 27].
 
 [00:07:33:07]
-P: Roger, 08 51 27.
+P: Roger, [time:00:08:51:27|08 51 27].
 
 [00:07:33:11]
 CC: That's correct.
@@ -8745,13 +8746,14 @@ CC: Wally, give me a [glossary:CET].
 
 [00:07:35:41]
 P: Roger. I have - I'll give you 45. MARK
-     <sup>T</sup> 45 seconds. That's 07 hours,
-     35 minutes 45 seconds. Did you read, Gus?
+     <sup>T</sup> 45 seconds. That's
+     [time:00:07:35:45|07 hours, 35 minutes 45 seconds].
+     Did you read, Gus?
 
 [00:07:36:00]
 CC: Wally, we lost you. I think your transmitter
-     is fading out. I'll give you a [glossary:CET] at 07
-     36 10. MARK 07 36 10. (Computed mark
+     is fading out. I'll give you a [glossary:CET] at
+     [time:00:07:36:10|07 36 10]. MARK [time:00:07:36:10|07 36 10]. (Computed mark
      garbled, unobtainable)
 
 [00:07:36:18]
@@ -8769,7 +8771,7 @@ CC: Hello Sigma Seven, hello Sigma Seven this is
      the blind. We have had a power failure on
      our receiver. I am broadcasting in the
      blind. Reset your clock for retrosequence
-     at 08 51 33. This takes into account your
+     at [time:08:51:33|08 51 33]. This takes into account your
      clock error at last readout. You had last
      report had 27 seconds set in. This should
      be 33 by last [glossary:CET] check we had with you.
@@ -8778,7 +8780,7 @@ CC: Hello Sigma Seven, hello Sigma Seven this is
 
 [00:07:41:10]
 P: Roger, Cal. I have set in 05 - correction,
-     08 hours, 51 minutes, 33 seconds. Guaymas
+     [time:00:08:51:33|08 hours, 51 minutes, 33 seconds]. Guaymas
      Cap Com, do you read? Over.
 
 [00:07:41:35]
@@ -8787,7 +8789,7 @@ P: Guaymas Cap Com. Sigma Seven. Over.
 [00:07:41:44]
 CC: Sigma Seven this is Cal Cap Com. Repeating
      broadcast in the blind. Cape advises
-     reset your clock to 08 51 and 33 seconds,
+     reset your clock to [time:00:08:51:33|08 51 and 33 seconds],
      and 33 seconds. Cal out.
 
 [00:07:41:59]
@@ -8801,7 +8803,7 @@ CC: Sigma Seven this is Cal Cap Com, in the blind
 _extra : GUAYMAS
 CC: All right. This is - Sigma Seven - this
      is Cal. We have your change on [glossary:T/M] of
-     08 51 and 33, showing good. This is
+     [time:00:08:51:33|08 51 and 33], showing good. This is
      correct setting.
 
 [00:07:42:33]
@@ -8815,7 +8817,7 @@ P: Roger, Guaymas. How do you read me? Over.
 CC: Roger. Sigma Seven. Guaymas Cap Com. Loud
      and clear. They had a power failure up
      the California way. We're reading your
-     correct retrosequence time 08 51 33. On
+     correct retrosequence time [time:00:08:51:33|08 51 33]. On
      my mark, let see, your capsule elapsed
      time is at this moment 4 seconds fast,
      Wally. This - this takes into effect
@@ -8870,8 +8872,8 @@ P: I would like to have you check my roll
      attitude.
 
 [00:07:44:23]
-CC: Roger. [glossary:CET] on my mark will be 7 hours, 44
-     minutes, 30 seconds. MAKK.<sup>T</sup>
+CC: Roger. [glossary:CET] on my mark will be
+     [time:00:07:44:30|7 hours, 44 minutes, 30 seconds]. MARK.<sup>T</sup>
 
 [00:07:44:31]
 P: What? Is that right? That's what my clock
@@ -8906,8 +8908,8 @@ P: Roger. Standby.
 
 [00:07:45:34]
 CC: Sigma Seven. On my mark, the ground elapsed
-     time will be 7 hours, 45 minutes, 40
-     seconds. Standby. MARK.<sup>T</sup>
+     time will be [time:00:07:45:40|7 hours, 45 minutes, 40 seconds].
+     Standby. MARK.<sup>T</sup>
 
 [00:07:45:46]
 _page : 163
@@ -9009,7 +9011,7 @@ P: Roger. I'm happy here.
 
 [00:07:50:12]
 P: This is Sigma Seven. A 30 second HF check, at
-     07 50 minutes commencing at 10 seconds after
+     [time:00:07:50:00|07 50] minutes commencing at 10 seconds after
      that. This is a 30 second duration test,
      as I pass down through the coast of Baja
      California, enroute to South - South America.
@@ -9186,14 +9188,14 @@ CC_A1: Sigma Seven, Sigma Seven. Auto One Cap Com. Can
 
 [00:07:59:06]
 _extra : QUITO-6
-P: At 7 hours, 59 minutes, 10 seconds, light value
+P: At [time:00:07:59:10|7 hours, 59 minutes, 10 seconds], light value
      reading, for the black and white film, is 13 for
      ASA 64. Setting light value of 13. Taking
      picture number 7 with filter. The continent of
      South America is difficult to photograph because
      of all the weather. I will take a panorama at
-     this time. Starting at 7 59 almost 8 hours. In
-     fact, it will be 8 hours. MARK<sup>T</sup>,
+     this time. Starting at [time:00:07:59:00|7 59] almost 8 hours. In
+     fact, it will be [time:00:08:00:00|8 hours]. MARK<sup>T</sup>,
      7, 8, 9 black photographs, black and white film.
      Ten photographs, black and white film. The shots
      are being taken at 250 5.6 (1/250 second and f5.6)
@@ -9206,7 +9208,7 @@ P: At 7 hours, 59 minutes, 10 seconds, light value
      shot the 12 first pictures. I'm on B-1, shooting
      at the cloud streaks. I've shot B-2 and these are
      all black and white shots, with weather bureau
-     filter in at 08 02. I will take the last pictures
+     filter in at [time:00:08:02:00|08 02]. I will take the last pictures
      of this series. That is the end of the weather
      bureau pictures. I believe we've taken enough to
      satisfy the requirements. Pulling out the filter.
@@ -9216,7 +9218,7 @@ P: At 7 hours, 59 minutes, 10 seconds, light value
 [00:08:03:37]
 _page : 168
 P: Bring out color back. Taking a light value reading
-     of the South American continent at 08 04 commencing,
+     of the South American continent at [time:00:08:04:00|08 04] commencing,
      - gotta change the ASA number. ASA number
      changed to 160. Light value being measured at
      this time. Light value is 15.
@@ -9262,7 +9264,7 @@ P: Camera is stowed. Photometer is light enough to
      the extra goodies that can't be shoved other places.
 
 [00:08:10:52]
-P: At 08 hours and 10 minutes. Going to pitch up to
+P: At [time:00:08:10:00|08 hours and 10 minutes]. Going to pitch up to
      reentry attitude shortly. No reason to keep glove
      box open at this time. Have to get the standard
      source of light, I may be able to get it. Put
@@ -9299,8 +9301,8 @@ P: Closed face plate. Opened it momentarily, merely
      and cannot move the cabin light on the starboard
      side; therefore, I will extinct it as a continual
      reference. There, it is now extinct, at 3.3.
-     Cabin source extincted at 3.3 at 08 hours 15
-     minutes and 35 seconds [glossary:CET].
+     Cabin source extincted at 3.3 at
+     [time:00:08:15:35|08 hours 15 minutes and 35 seconds] [glossary:CET].
 
 [00:08:16:06]
 P: Fly-by-wire low did check out very well.
@@ -9589,7 +9591,7 @@ P: All attitudes are responding very nicely. Suit
      7½ to 8 for this vehicle. I will crack it up
      another notch to 8. I have set the - suit
      regulator for the coolant quantity to position 8,
-     at [glossary:CET] 08 36 23.
+     at [glossary:CET] [time:00:08:36:23|08 36 23].
 
 [00:08:36:35]
 P: That's a more accurate reading on fuel if I can
