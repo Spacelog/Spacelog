@@ -39,13 +39,15 @@
             "mission_position": "Pilot",
             "short_name": "Wally Schirra",
             "avatar": "wally_schirra.jpg",
-            "photo": "wally_schirra.jpg"
+            "photo": "wally_schirra.jpg",
+            "bio": "Wally Schirra was a US Navy test pilot before he joined NASA in 1959 as one of the original Mercury Seven astronauts. After piloting Sigma 7 in the Mercury-Atlas 8 mission, he went on to command Gemini 6A with Tom Stafford, and Apollo 7 with Donn Eisele and Walt Cunningham."
         },
         "CC": {
             "role": "mission-ops-title",
             "name": "Capsule Communicator",
             "short_name": "CapCom",
             "photo": "capcom.jpg",
+            "bio": "In the Mercury missions, CAPCOM was the main person to communicate with the pilot. On Mercury-Atlas 8, there were CAPCOMs operating from different stations around the world, enabling Schirra to remain in contact with the Earth through his orbits.",
             "shifts": [
                 ["CC_CNV", "-00:01:00:00", "Technically these aren't shifts; each ground station had a single CAPCOM, which we're using the shift mechanism to display"],
                 ["CC_CYI", "00:00:12:58"],
@@ -164,7 +166,8 @@
             "short_name": "John Glenn (CAPCOM)",
             "mission_position": "CAPCOM (California)",
             "avatar": "john_glenn.jpg",
-            "photo": "john_glenn.png"
+            "photo": "john_glenn.png",
+            "bio": "John Glenn was the first American to reach earth orbit on the Mercury-Atlas 6 mission. It was his only flight before retiring from NASA, but he returned to space in 1998 on the space shuttle. On this mission he was the capsule communicator for California."
         },
         "CC_CNV": {
             "role": "mission-ops",
@@ -172,7 +175,8 @@
             "short_name": "Deke Slayton (CAPCOM)",
             "mission_position": "CAPCOM (Cape Canaveral)",
             "avatar": "deke_slayton.jpg",
-            "photo": "deke_slayton.jpg"
+            "photo": "deke_slayton.jpg",
+            "bio": "Deke Slayton was one of the Mercury Seven, but was grounded for medical reasons shortly before Mercury-Atlas 8, during which he served as capsule communicator at Cape Canaveral. Deke was eventually returned to flight status, and flew in 1975."
         },
         "CC_CTN": { "role": "other", "short_name": "Canton CAPCOM", "avatar": "person.png" },
         "CC_CYI": { "role": "other", "short_name": "Canary Islands CAPCOM", "avatar": "person.png" },
@@ -182,7 +186,8 @@
             "short_name": "Scott Carpenter (CAPCOM)",
             "mission_position": "CAPCOM (Guaymas)",
             "avatar": "scott_carpenter.jpg",
-            "photo": "scott_carpenter.jpg"
+            "photo": "scott_carpenter.jpg",
+            "bio": "Scott Carpenter was the pilot of Mercury-Atlas 7, less than six months before Mercury-Atlas 8. During Schirra's mission, Carpenter was the capsule communicator for Guaymas. He only flew one mission, before leaving NASA for the US Navy's SEALAB project."
         },
         "CC_HAW": {
             "role": "mission-ops",
@@ -190,7 +195,8 @@
             "short_name": "Gus Grissom (CAPCOM)",
             "mission_position": "CAPCOM (Hawaii)",
             "avatar": "gus_grissom.jpg",
-            "photo": "gus_grissom.jpg"
+            "photo": "gus_grissom.jpg",
+            "bio": "Gus Grissom was the second American in space, as the pilot of Mercury-Redstone 4. On this mission, he was a capsule communicator, talking to Schirra's Sigma 7 spacecraft as it passed over Hawaii. He returned to space as the commander of Gemini 3."
         },
         "CC_HTV": { "role": "other", "short_name": "Huntsville CAPCOM", "avatar": "person.png" },
         "CC_IOS": { "role": "other", "short_name": "Indian Ocean Ship CAPCOM", "avatar": "person.png" },
@@ -204,11 +210,12 @@
         },
         "CC_PCS": {
             "role": "mission-ops",
-            "name": "Al Shepard",
+            "name": "Alan Bartlett Shepard, Jr.",
             "short_name": "Al Shepard (CAPCOM)",
             "mission_position": "CAPCOM (Pacific Command Ship)",
             "avatar": "alan_shepard.jpg",
-            "photo": "alan_shepard.jpg"
+            "photo": "alan_shepard.jpg",
+            "bio": "Alan Shepard was the first American in space, as the pilot of Mercury-Redstone 3. He would fly again as the commander of Apollo 14. On this mission, he was stationed on a ship in the Pacific Ocean, communicating with Wally Schirra as he passed overhead."
         },
         "CC_QUITO": { "role": "other", "short_name": "Quito CAPCOM", "avatar": "person.png" },
         "CC_WAT": { "role": "other", "short_name": "Watertown CAPCOM", "avatar": "person.png" },
@@ -235,6 +242,7 @@
             "name": "Flight Director",
             "short_name": "Flight Director",
             "photo": "flight_directors.jpg",
+            "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. They rarely talked directly to the capsule pilot, usually communicating through CAPCOM.",
             "shifts": [
                 ["CF_CHRIS_KRAFT", "-00:01:00:00", "Kraft was the only flight director on most Mercury missions"]
             ]
@@ -245,7 +253,8 @@
             "short_name": "Chris Kraft (FLIGHT)",
             "mission_position": "Flight Director",
             "avatar": "chris_kraft.jpg",
-            "photo": "chris_kraft.jpg"
+            "photo": "chris_kraft.jpg",
+            "bio": "Chris Kraft served as NASA's first flight director, taking operational responsibility for all of the crewed Mercury missions, and many of the Gemini missions. He moved into mission planning for the Apollo project, and stayed at NASA until the early 1980s."
         },
         "S": {
             "role": "other",
