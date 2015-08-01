@@ -1,12 +1,16 @@
 {
     "name": "ma8", 
+    "incomplete": true,
     "utc_launch_time": "1962-10-03T12:15:12",
     "main_transcript": "ma8/TEC", 
+    "media_transcript": "ma8/MEDIA",
     "subdomains": ["mercury8", "ma8"],
     "copy": {
         "title": "Mercury 8",
         "upper_title": "Mercury",
         "lower_title": "8",
+        "description": "The third American orbital mission, designed to prove the capabilites of the Mercury spacecraft before the US embarked on longer missions.",
+        "summary": "Third American orbital mission",
         "cleaners": [
             "Alice Miller", 
             "Ben Feist", 
@@ -19,6 +23,14 @@
             "Russ Garett",
             "Ryan Alexander", 
             "Steve Marshall"
+        ],
+        "about": "Mercury 8 was the fifth crewed US spaceflight, and the longest NASA had attempted so far. This site allows you to explore transcripts of radio communications between Schirra aboard Sigma 7 and the NASA personnel at monitoring stations around the world.",
+        "transcript_attributions": [
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/mercury.htm", "title": "Mercury-Atlas 8 Postlaunch Memorandum Report" },
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/mercury.htm", "title": "Mercury-Atlas 8 Results of the Third United States Orbital Space Flight" }
+        ],
+        "image_attributions": [
+            { "url": "http://www.seasky.org/space-exploration/mission-patches-mercury.html", "title": "Mercury-Atlas 8 mission isignia", "attrib_url": "http://www.seasky.org/space-exploration/", "attrib": "Sea and Sky", "license": "free for non-commercial use" }
         ]
     }, 
     "characters": {
@@ -26,12 +38,17 @@
             "role": "astronaut",
             "name": "Walter M. Schirra, Jr.",
             "mission_position": "Pilot",
-            "short_name": "Wally Schirra"
+            "short_name": "Wally Schirra",
+            "avatar": "wally_schirra.jpg",
+            "photo": "wally_schirra.jpg",
+            "bio": "Wally Schirra was a US Navy test pilot before he joined NASA in 1959 as one of the original Mercury Seven astronauts. After piloting Sigma 7 in the Mercury-Atlas 8 mission, he went on to command Gemini 6A with Tom Stafford, and Apollo 7 with Donn Eisele and Walt Cunningham."
         },
         "CC": {
             "role": "mission-ops-title",
             "name": "Capsule Communicator",
             "short_name": "CapCom",
+            "photo": "capcom.jpg",
+            "bio": "In the Mercury missions, CAPCOM was the main person to communicate with the pilot. On Mercury-Atlas 8, there were CAPCOMs operating from different stations around the world, enabling Schirra to remain in contact with the Earth through his orbits.",
             "shifts": [
                 ["CC_CNV", "-00:01:00:00", "Technically these aren't shifts; each ground station had a single CAPCOM, which we're using the shift mechanism to display"],
                 ["CC_CYI", "00:00:12:58"],
@@ -45,7 +62,7 @@
                 ["CC_CNV", "00:01:33:23", "Start of second orbit"],
                 ["CC_CYI", "00:01:48:47"],
                 ["CC_KNO", "00:01:54:15"],
-                ["CC_ZZB", "01:02:04:53"],
+                ["CC_ZZB", "00:02:04:53"],
                 ["CC_IOS", "00:02:09:57"],
                 ["CC_MUC", "00:02:24:03"],
                 ["CC_WOM", "00:02:32:10"],
@@ -102,7 +119,7 @@
                 ["CT_CNV", "00:01:33:23", "Start of second orbit"],
                 ["CT_CYI", "00:01:48:47"],
                 ["CT_KNO", "00:01:54:15"],
-                ["CT_ZZB", "01:02:04:53"],
+                ["CT_ZZB", "00:02:04:53"],
                 ["CT_IOS", "00:02:09:57"],
                 ["CT_MUC", "00:02:24:03"],
                 ["CT_WOM", "00:02:32:10"],
@@ -142,73 +159,91 @@
                 ["CT_HAW", "00:09:06:05"]
             ]
         },
-        "CC_A1": { "role": "other", "short_name": "Auto 1 CAPCOM" },
-        "CC_A2": { "role": "other", "short_name": "Auto 2 CAPCOM" },
+        "CC_A1": { "role": "other", "short_name": "Auto 1 CAPCOM", "avatar": "person.png" },
+        "CC_A2": { "role": "other", "short_name": "Auto 2 CAPCOM", "avatar": "person.png" },
         "CC_CAL": {
             "role": "mission-ops",
             "name": "John Glenn",
             "short_name": "John Glenn (CAPCOM)",
-            "mission_position": "CAPCOM (California)"
+            "mission_position": "CAPCOM (California)",
+            "avatar": "john_glenn.jpg",
+            "photo": "john_glenn.png",
+            "bio": "John Glenn was the first American to reach earth orbit on the Mercury-Atlas 6 mission. It was his only flight before retiring from NASA, but he returned to space in 1998 on the space shuttle. On this mission he was the capsule communicator for California."
         },
         "CC_CNV": {
             "role": "mission-ops",
             "name": "Donald K. (Deke) Slayton",
             "short_name": "Deke Slayton (CAPCOM)",
-            "mission_position": "CAPCOM (Cape Canaveral)"
+            "mission_position": "CAPCOM (Cape Canaveral)",
+            "avatar": "deke_slayton.jpg",
+            "photo": "deke_slayton.jpg",
+            "bio": "Deke Slayton was one of the Mercury Seven, but was grounded for medical reasons shortly before Mercury-Atlas 8, during which he served as capsule communicator at Cape Canaveral. Deke was eventually returned to flight status, and flew in 1975."
         },
-        "CC_CTN": { "role": "other", "short_name": "Canton CAPCOM" },
-        "CC_CYI": { "role": "other", "short_name": "Canary Islands CAPCOM" },
+        "CC_CTN": { "role": "other", "short_name": "Canton CAPCOM", "avatar": "person.png" },
+        "CC_CYI": { "role": "other", "short_name": "Canary Islands CAPCOM", "avatar": "person.png" },
         "CC_GYM": {
             "role": "mission-ops",
             "name": "Scott Carpenter",
             "short_name": "Scott Carpenter (CAPCOM)",
-            "mission_position": "CAPCOM (Guaymas)"
+            "mission_position": "CAPCOM (Guaymas)",
+            "avatar": "scott_carpenter.jpg",
+            "photo": "scott_carpenter.jpg",
+            "bio": "Scott Carpenter was the pilot of Mercury-Atlas 7, less than six months before Mercury-Atlas 8. During Schirra's mission, Carpenter was the capsule communicator for Guaymas. He only flew one mission, before leaving NASA for the US Navy's SEALAB project."
         },
         "CC_HAW": {
             "role": "mission-ops",
             "name": "Gus Grissom",
             "short_name": "Gus Grissom (CAPCOM)",
-            "mission_position": "CAPCOM (Hawaii)"
+            "mission_position": "CAPCOM (Hawaii)",
+            "avatar": "gus_grissom.jpg",
+            "photo": "gus_grissom.jpg",
+            "bio": "Gus Grissom was the second American in space, as the pilot of Mercury-Redstone 4. On this mission, he was a capsule communicator, talking to Schirra's Sigma 7 spacecraft as it passed over Hawaii. He returned to space as the commander of Gemini 3."
         },
-        "CC_HTV": { "role": "other", "short_name": "Huntsville CAPCOM" },
-        "CC_IOS": { "role": "other", "short_name": "Indian Ocean Ship CAPCOM" },
-        "CC_KNO": { "role": "other", "short_name": "Kano CAPCOM" },
+        "CC_HTV": { "role": "other", "short_name": "Huntsville CAPCOM", "avatar": "person.png" },
+        "CC_IOS": { "role": "other", "short_name": "Indian Ocean Ship CAPCOM", "avatar": "person.png" },
+        "CC_KNO": { "role": "other", "short_name": "Kano CAPCOM", "avatar": "person.png" },
         "CC_MUC": {
-            "role": "mission-ops",
+            "role": "other",
             "name": "Gene Duret",
             "short_name": "Gene Duret (CAPCOM)",
-            "mission_position": "CAPCOM (Muchea)"
+            "mission_position": "CAPCOM (Muchea)",
+            "avatar": "person.png"
         },
         "CC_PCS": {
             "role": "mission-ops",
-            "name": "Al Shepard",
+            "name": "Alan Bartlett Shepard, Jr.",
             "short_name": "Al Shepard (CAPCOM)",
-            "mission_position": "CAPCOM (Pacific Command Ship)"
+            "mission_position": "CAPCOM (Pacific Command Ship)",
+            "avatar": "alan_shepard.jpg",
+            "photo": "alan_shepard.jpg",
+            "bio": "Alan Shepard was the first American in space, as the pilot of Mercury-Redstone 3. He would fly again as the commander of Apollo 14. On this mission, he was stationed on a ship in the Pacific Ocean, communicating with Wally Schirra as he passed overhead."
         },
-        "CC_QUITO": { "role": "other", "short_name": "Quito CAPCOM" },
-        "CC_WAT": { "role": "other", "short_name": "Watertown CAPCOM" },
-        "CC_WOM": { "role": "other", "short_name": "Woomera CAPCOM" },
-        "CC_ZZB": { "role": "other", "short_name": "Zanzibar CAPCOM" },
-        "CC_?": { "role": "other", "short_name": "Unknown CAPCOM" },
-        "CT_CAL": { "role": "other", "short_name": "California Comm Tech" },
-        "CT_CNV": { "role": "other", "short_name": "Cape Canaveral Comm Tech" },
-        "CT_CTN": { "role": "other", "short_name": "Canton Comm Tech" },
-        "CT_CYI": { "role": "other", "short_name": "Canary Islands Comm Tech" },
-        "CT_GYM": { "role": "other", "short_name": "Guaymas Comm Tech" },
-        "CT_HAW": { "role": "other", "short_name": "Hawaii Comm Tech" },
-        "CT_HTV": { "role": "other", "short_name": "Huntsville Comm Tech" },
-        "CT_IOS": { "role": "other", "short_name": "Indian Ocean Ship Comm Tech" },
-        "CT_KNO": { "role": "other", "short_name": "Kano Comm Tech" },
-        "CT_MUC": { "role": "other", "short_name": "Muchea Comm Tech" },
-        "CT_PCS": { "role": "other", "short_name": "Pacific Command Ship Comm Tech" },
-        "CT_QUITO": { "role": "other", "short_name": "Quito Comm Tech" },
-        "CT_WAT": { "role": "other", "short_name": "Watertown Comm Tech" },
-        "CT_WOM": { "role": "other", "short_name": "Woomera Comm Tech" },
-        "CT_ZZB": { "role": "other", "short_name": "Zanzibar Comm Tech" },
+        "CC_QUITO": { "role": "other", "short_name": "Quito CAPCOM", "avatar": "person.png" },
+        "CC_WAT": { "role": "other", "short_name": "Watertown CAPCOM", "avatar": "person.png" },
+        "CC_WOM": { "role": "other", "short_name": "Woomera CAPCOM", "avatar": "person.png" },
+        "CC_ZZB": { "role": "other", "short_name": "Zanzibar CAPCOM", "avatar": "person.png" },
+        "CC_?": { "role": "other", "short_name": "Unknown CAPCOM", "avatar": "person.png" },
+        "CT_CAL": { "role": "other", "short_name": "California Comm Tech", "avatar": "person.png" },
+        "CT_CNV": { "role": "other", "short_name": "Cape Canaveral Comm Tech", "avatar": "person.png" },
+        "CT_CTN": { "role": "other", "short_name": "Canton Comm Tech", "avatar": "person.png" },
+        "CT_CYI": { "role": "other", "short_name": "Canary Islands Comm Tech", "avatar": "person.png" },
+        "CT_GYM": { "role": "other", "short_name": "Guaymas Comm Tech", "avatar": "person.png" },
+        "CT_HAW": { "role": "other", "short_name": "Hawaii Comm Tech", "avatar": "person.png" },
+        "CT_HTV": { "role": "other", "short_name": "Huntsville Comm Tech", "avatar": "person.png" },
+        "CT_IOS": { "role": "other", "short_name": "Indian Ocean Ship Comm Tech", "avatar": "person.png" },
+        "CT_KNO": { "role": "other", "short_name": "Kano Comm Tech", "avatar": "person.png" },
+        "CT_MUC": { "role": "other", "short_name": "Muchea Comm Tech", "avatar": "person.png" },
+        "CT_PCS": { "role": "other", "short_name": "Pacific Command Ship Comm Tech", "avatar": "person.png" },
+        "CT_QUITO": { "role": "other", "short_name": "Quito Comm Tech", "avatar": "person.png" },
+        "CT_WAT": { "role": "other", "short_name": "Watertown Comm Tech", "avatar": "person.png" },
+        "CT_WOM": { "role": "other", "short_name": "Woomera Comm Tech", "avatar": "person.png" },
+        "CT_ZZB": { "role": "other", "short_name": "Zanzibar Comm Tech", "avatar": "person.png" },
         "CF": {
             "role": "mission-ops-title",
             "name": "Flight Director",
             "short_name": "Flight Director",
+            "photo": "flight_directors.jpg",
+            "bio": "The flight director had overall operational responsibility for missions, leading their flight control team. They rarely talked directly to the capsule pilot, usually communicating through CAPCOM.",
             "shifts": [
                 ["CF_CHRIS_KRAFT", "-00:01:00:00", "Kraft was the only flight director on most Mercury missions"]
             ]
@@ -217,60 +252,130 @@
             "role": "mission-ops",
             "name": "Christopher Kraft",
             "short_name": "Chris Kraft (FLIGHT)",
-            "mission_position": "Flight Director"
+            "mission_position": "Flight Director",
+            "avatar": "chris_kraft.jpg",
+            "photo": "chris_kraft.jpg",
+            "bio": "Chris Kraft served as NASA's first flight director, taking operational responsibility for all of the crewed Mercury missions, and many of the Gemini missions. He moved into mission planning for the Apollo project, and stayed at NASA until the early 1980s."
         },
         "S": {
             "role": "other",
             "name": "Flight Surgeon",
-            "short_name": "Flight Surgeon"
+            "short_name": "Flight Surgeon",
+            "avatar": "surgeon.png"
         },
-        "R1": { "role": "other", "short_name": "Recovery 1" },
-        "FlagPlot": { "role": "other", "short_name": "FlagPlot" },
-        "Stony": { "role": "other", "short_name": "Stony" },
-        "Warfare": { "role": "other", "short_name": "Warfare" },
-        "?": { "role": "other", "short_name": "Unknown speaker" }
+        "R1": { "role": "other", "short_name": "Recovery 1", "avatar": "helicopter.png" },
+        "FlagPlot": { "role": "other", "short_name": "USS Kearsarge", "avatar": "ship.png" },
+        "Stony": { "role": "other", "short_name": "Stony", "avatar": "stony.png" },
+        "Warfare": { "role": "other", "short_name": "Warfare", "avatar": "person.png" },
+        "?": { "role": "other", "short_name": "Unknown speaker", "avatar": "person.png" }
     },
     "acts": [
         {
             "title": "Launch",
-            "description": "...",
-            "range": ["-00:00:00:20", "00:00:05:50"]
+            "description": "On October 3, 1962, an Atlas LV-3B booster launched Sigma 7 and its pilot Wally Schirra into earth orbit.",
+            "range": ["-00:00:00:20", "00:00:05:50"],
+            "banner_background": "act1.jpg",
+            "banner_colour": "#5879a6",
+            "homepage": "act1.jpg"
         },
         {
             "title": "First orbit",
-            "description": "...",
-            "range": ["00:00:05:50", "00:01:33:22"]
+            "description": "During the first orbit, Schirra's space suit began to overheat. He eventually got the problem under control by slowly turning up the suit's cooling system.",
+            "range": ["00:00:05:50", "00:01:33:22"],
+            "banner_background": "act2.jpg",
+            "banner_colour": "#000000",
+            "homepage": "act2.jpg"
         },
         {
             "title": "Second orbit",
-            "description": "...",
-            "range": ["00:01:33:22", "00:03:07:00"]
+            "description": "During the second orbit, Schirra practiced yaw maneuvers using the moon and known stars as reference points.",
+            "range": ["00:01:33:22", "00:03:07:00"],
+            "banner_background": "act3.jpg",
+            "banner_colour": "#000000",
+            "homepage": "act3.jpg"
         },
         {
             "title": "Third orbit",
-            "description": "...",
-            "range": ["00:03:07:00", "00:04:40:13"]
+            "description": "During the third orbit, Schirra let Sigma 7 drift while he carried some spacial awareness and motor control experiments.",
+            "range": ["00:03:07:00", "00:04:40:13"],
+            "banner_background": "act4.jpg",
+            "banner_colour": "#2479b2",
+            "homepage": "act4.jpg"
         },
         {
             "title": "Fourth orbit",
-            "description": "...",
-            "range": ["00:04:40:13", "00:06:15:40"]
+            "description": "During the fourth orbit, Schirra took photographs, and made a brief radio and television broadcast.",
+            "range": ["00:04:40:13", "00:06:15:40"],
+            "banner_background": "act5.jpg",
+            "banner_colour": "#0186c8",
+            "homepage": "act5.jpg"
         },
         {
             "title": "Fifth orbit",
-            "description": "...",
-            "range": ["00:06:15:40", "00:07:51:40"]
+            "description": "During the fifth orbit, Schirra did some exercise using a bungee-cord device, and took more photographs and visual observations.",
+            "range": ["00:06:15:40", "00:07:51:40"],
+            "banner_background": "act6.jpg",
+            "banner_colour": "#000000",
+            "homepage": "act6.jpg"
         },
         {
             "title": "Sixth orbit",
-            "description": "...",
-            "range": ["00:07:51:40", "00:08:49:50"]
+            "description": "Most of the sixth and final orbit was occupied with re-entry preparations, although Schirra still found time for some more photography and spatial-awareness tests.",
+            "range": ["00:07:51:40", "00:08:49:50"],
+            "banner_background": "act7.jpg",
+            "banner_colour": "#000000",
+            "homepage": "act7.jpg"
         },
         {
             "title": "Reentry & splashdown",
-            "description": "...",
-            "range": ["00:08:49:50", "00:09:23:10"]
+            "description": "Sigma 7 splashed down in the Pacific, about five miles from the waiting USS Kearsarge.",
+            "range": ["00:08:49:50", "00:09:23:10"],
+            "banner_background": "act8.jpg",
+            "banner_colour": "#486580",
+            "homepage": "act8.jpg"
         }
     ],
-    "incomplete": true
+    "homepage_quotes" : [
+        "00:02:54:31",
+        "00:04:42:41",
+        "00:05:06:43",
+        "00:05:46:18",
+        "00:06:09:09",
+        "00:07:53:49",
+        "00:08:49:17",
+        "00:08:50:12",
+        "00:09:16:27",
+        "00:09:17:33"
+    ],
+    "shared_glossaries": ["space"],
+    "glossary": {
+        "ASCS": {
+            "summary": "Automatic Stabilization and Control System",
+            "type": "abbreviation"
+        },
+        "CET": {
+            "summary": "Capsule Elapsed Time",
+            "type": "abbreviation"
+        },
+        "GET": {
+            "summary": "Ground Elapsed Time",
+            "type": "abbreviation"
+        },
+        "RSCS": {
+            "summary": "Rate Stabilization and Control System",
+            "type": "abbreviation"
+        },
+        "IOS": {
+            "summary": "Indian Ocean Ship",
+            "type": "abbreviation"
+        },
+        "MCC": {
+            "summary": "Mercury Control Center",
+            "type": "abbreviation"
+        },
+        "T/M": {
+            "summary": "Telemetry",
+            "type": "abbreviation"
+        }
+    }
 }
