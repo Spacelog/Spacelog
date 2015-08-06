@@ -6,26 +6,26 @@
 import boto
 from boto.s3.key import Key
 import os
+from os import path
 import sys
 
 BUCKET = 'spacelog'
-TTL = 86400*7
+TTL = 86400 * 7
 
 if len(sys.argv) != 3:
-    print "Usage s3-upload.py <directory> <upload path>"
+    print("Usage s3-upload.py <directory> <upload path>")
     sys.exit(1)
 
 conn = boto.connect_s3()
 bucket = conn.get_bucket(BUCKET)
 
-remote_files = set([key.name.split('/')[-1] for key in bucket.list(sys.argv[2])])
-
-files = os.listdir(sys.argv[1])
-
-for file in files:
-    if file not in remote_files:
-        print "Uploading", file
-        k = Key(bucket, '%s/%s' % (sys.argv[2], file))
-        k.set_contents_from_filename("%s/%s" % (sys.argv[1], file),
-                headers={'Cache-Control': 'max-age=%s' % TTL})
-        k.set_acl('public-read')
+for root, _, filenames in os.walk(sys.argv[1]):
+    for filename in filenames:
+        local_path = path.join(path.abspath(root), filename)
+        remote_path = path.abspath(path.join(sys.argv[2], root, filename))
+        k = Key(bucket, remote_path)
+        if not k.exists():
+            print("Uploading %s" % remote_path)
+            k.set_contents_from_filename(local_path,
+                                         headers={'Cache-Control': 'max-age=%s' % TTL})
+            k.set_acl('public-read')
