@@ -143,8 +143,7 @@ def new_release_virtualenv():
     require('release', provided_by=[deploy])
     run(
         "cd %(path)s/releases/%(release)s; "
-        "virtualenv ENV; "
-        "ENV/bin/easy_install pip; "
+        "virtualenv --system-site-packages ENV; "
         "ENV/bin/easy_install -U setuptools" % {
             'path': env.path,
             'release': env.release
