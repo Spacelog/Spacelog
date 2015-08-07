@@ -8,14 +8,14 @@
         "upper_title": "Mercury",
         "lower_title": "4",
         "description": "NASA's second suborbital mission was a success until after splashdown, when the hatch blew unexpectedly, forcing pilot Gus Grissom to egress into the water as the capsule began to sink.",
-        "summary": "Second American manned mission",
+        "summary": "Second American crewed mission",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "based_on_header": "Based on the original audio recordings",
         "about_image": "systems.png",
         "cleaners": [
             "Emily Carney"
         ],
-        "about": "Eleven weeks after NASA's first manned flight, Gus Grissom became the second American and third human in space, performing another suborbital manned flight ahead of the first orbital mission the following year. An otherwise successful mission was marred after splashdown when the hatch blew after Grissom had completed post-flight checks and was waiting for the recovery helicopter to move into place. As the capsule started taking on water, he performed an emergency egress into the water, from where a second helicopter moved in to pick him up as the primary struggled unsuccessfully to recover the capsule. A little over two weeks later, the Russians would launch Gherman Titov aboard Vostok 2, keeping the pressure on NASA to catch up in the early days of the Space Race.\n\nThis site allows you to explore transcripts of radio communications between Gus Grissom aboard Liberty Bell 7 and the NASA personnel back in Florida, along with photographs of the mission.",
+        "about": "Eleven weeks after NASA's first crewed flight, Gus Grissom became the second American and third human in space, performing another suborbital crewed flight ahead of the first orbital mission the following year. An otherwise successful mission was marred after splashdown when the hatch blew after Grissom had completed post-flight checks and was waiting for the recovery helicopter to move into place. As the capsule started taking on water, he performed an emergency egress into the water, from where a second helicopter moved in to pick him up as the primary struggled unsuccessfully to recover the capsule. A little over two weeks later, the Russians would launch Gherman Titov aboard Vostok 2, keeping the pressure on NASA to catch up in the early days of the Space Race.\n\nThis site allows you to explore transcripts of radio communications between Gus Grissom aboard Liberty Bell 7 and the NASA personnel back in Florida, along with photographs of the mission.",
         "image_attributions": [
             { "url": "http://earthobservatory.nasa.gov/IOTD/view.php?id=50205", "title": "Sunset over Western South America", "attrib_url": "http://earthobservatory.nasa.gov/", "attrib": "NASA's Earth Observatory" }
         ],
@@ -105,7 +105,7 @@
           "name": "Virgil Ivan Grissom",
           "short_name": "Gus Grissom",
           "mission_position": "Pilot",
-          "bio": "USAF combat veteran Gus Grissom was a fighter test pilot immediately prior to joining the NASA astronaut program. Following his Mercury flight he would be involved in the Gemini Program from the start, helping to design the flight control systems and commanding the first manned Gemini mission. He continued to work on the program until 1966 when he was selected to command the ill-fated Apollo 1 mission.",
+          "bio": "USAF combat veteran Gus Grissom was a fighter test pilot immediately prior to joining the NASA astronaut program. Following his Mercury flight he would be involved in the Gemini Program from the start, helping to design the flight control systems and commanding the first crewed Gemini mission. He continued to work on the program until 1966 when he was selected to command the ill-fated Apollo 1 mission.",
           "photo": "gus_grissom.jpg",
           "photo_width": 190,
           "photo_height": 205,

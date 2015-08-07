@@ -7,14 +7,14 @@
         "title": "Gemini 3",
         "upper_title": "Gemini",
         "lower_title": "3",
-        "description": "The mission that performed the first orbital maneuvers by a manned spacecraft, and which was the first manned flight of the Gemini spacecraft.",
+        "description": "The mission that performed the first orbital maneuvers by a crewed spacecraft, and which was the first crewed flight of the Gemini spacecraft.",
         "summary": "First Gemini mission",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "cleaners": [
           "George Brocklehurst",
           "Nathaniel Hine"
         ],
-        "about": "Gemini 3, flown by Virgil “Gus” Grissom and John Young, was the first manned flight of the Gemini spacecraft.  It was also the first American spaceflight with a crew of two.  This was the first of ten manned Project Gemini which were designed to develop the spaceflight capabilities that would be required to go to the moon.\n\nThis site allows you to explore transcripts of radio communications between the Mercury 3 crew and the NASA personnel back at Cape Canaveral. Included with the transcripts are photographs, as well as other information about the mission.",
+        "about": "Gemini 3, flown by Virgil “Gus” Grissom and John Young, was the first crewed flight of the Gemini spacecraft.  It was also the first American spaceflight with a crew of two.  This was the first of ten crewed Project Gemini missions which were designed to develop the spaceflight capabilities that would be required to go to the moon.\n\nThis site allows you to explore transcripts of radio communications between the Mercury 3 crew and the NASA personnel back at Cape Canaveral. Included with the transcripts are photographs, as well as other information about the mission.",
         "image_attributions": [
             { "url": "http://earthobservatory.nasa.gov/IOTD/view.php?id=41052", "title": "Thunderstorms on the Brazilian Horizon", "attrib_url": "http://earthobservatory.nasa.gov/", "attrib": "NASA's Earth Observatory" }
         ],
@@ -38,7 +38,7 @@
         },
         {
             "title": "1st Orbit",
-            "description": "The crew performed the first orbit change of a manned spacecraft, a crucial test of the maneuvering capabilities that would be needed later in the Gemini program for rendezvouz and subquently in flying Apollo missions to the moon.",
+            "description": "The crew performed the first orbit change of a crewed spacecraft, a crucial test of the maneuvering capabilities that would be needed later in the Gemini program for rendezvouz and subquently in flying Apollo missions to the moon.",
             "range": ["00:00:07:23", "00:01:49:03"],
             "banner": "act2.jpg",
             "homepage": "act2.jpg"
@@ -80,7 +80,7 @@
             "range": [ "00:00:24:04", "00:00:25:50" ]
         },
         {
-            "title": "First orbit change of a manned spacecraft, lowering the orbit into an almost circular one",
+            "title": "First orbit change of a crewed spacecraft, lowering the orbit into an almost circular one",
             "range": [ "00:01:33:00", "00:01:34:14" ]
         },
         {
@@ -127,7 +127,7 @@
             "name": "Virgil I. “Gus” Grissom",
             "short_name": "Gus Grissom",
             "mission_position": "Command Pilot",
-            "bio": "Gemini 3 was Gus Grissom’s second spaceflight, making him the first man to fly in space twice. As one of the original Mercury Seven he’d been part of NASA’s manned spaceflight program since it began in 1959, and was involved in the Gemini Program from the start, helping to design the flight control systems. He continued to work on the program until 1966 when he was selected to command the ill-fated Apollo 1 mission.",
+            "bio": "Gemini 3 was Gus Grissom’s second spaceflight, making him the first man to fly in space twice. As one of the original Mercury Seven he’d been part of NASA’s crewed spaceflight program since it began in 1959, and was involved in the Gemini Program from the start, helping to design the flight control systems. He continued to work on the program until 1966 when he was selected to command the ill-fated Apollo 1 mission.",
             "photo": "grissom.jpg",
             "photo_width": 190,
             "photo_height": 205,
@@ -263,7 +263,7 @@
             "photo_width": 205,
             "photo_height": 138,
             "avatar": "chaffee.jpg",
-            "bio": "Selected as a NASA astronaut in September 1963 following six years in the US Navy, Roger Chaffee was involved in flight control communications systems and instrumentation systems for the Apollo program. He was selected as a pilot for the first manned Apollo flight, but died on 27th January 1967 in the launch pad test fire during preparation for that mission."
+            "bio": "Selected as a NASA astronaut in September 1963 following six years in the US Navy, Roger Chaffee was involved in flight control communications systems and instrumentation systems for the Apollo program. He was selected as a pilot for the first crewed Apollo flight, but died on 27th January 1967 in the launch pad test fire during preparation for that mission."
         },
         "CC_CANARY": {
             "short_name": "Canary CapCom",

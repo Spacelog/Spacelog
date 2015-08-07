@@ -252,7 +252,7 @@
           "photo_width": 162,
           "photo_height": 205,
           "avatar": "armstrong.jpg",
-          "bio": "A test pilot for NACA with experience on the X-1B and X-15 before moving to NASA's astronaut program in 1962, Neil Armstrong had been Command Pilot of Gemini 8, and was backup command for Apollo 8, the first manned flight to the moon, being selected as commander of Apollo 11 while Apollo 8 was still in lunar orbit. Following Apollo 11 he taught at the University of Cincinnati and subsequently served as spokesman or board director of a number of companies.",
+          "bio": "A test pilot for NACA with experience on the X-1B and X-15 before moving to NASA's astronaut program in 1962, Neil Armstrong had been Command Pilot of Gemini 8, and was backup command for Apollo 8, the first crewed flight to the moon, being selected as commander of Apollo 11 while Apollo 8 was still in lunar orbit. Following Apollo 11 he taught at the University of Cincinnati and subsequently served as spokesman or board director of a number of companies.",
           "stats": [
             {
                 "value": 206,
@@ -296,7 +296,7 @@
           "photo_width": 163,
           "photo_height": 205,
           "avatar": "aldrin.jpg",
-          "bio": "A USAF fighter pilot who had served in Korea, Buzz Aldrin completed a ScD on astronautics at MIT, with his thesis concentrating on aspects of manned orbital rendezvouz. Selected as a NASA astronaut in 1963, he was pilot of the last Gemini mission, setting a record for extra-vehicular activity. Since retiring from NASA, he has continued to promote space travel, and is a strong proponent of manned missions to Mars.",
+          "bio": "A USAF fighter pilot who had served in Korea, Buzz Aldrin completed a ScD on astronautics at MIT, with his thesis concentrating on aspects of crewed orbital rendezvouz. Selected as a NASA astronaut in 1963, he was pilot of the last Gemini mission, setting a record for extra-vehicular activity. Since retiring from NASA, he has continued to promote space travel, and is a strong proponent of crewed missions to Mars.",
           "stats": [
             {
                 "value": 290,
@@ -382,7 +382,7 @@
           "photo_width": 190,
           "photo_height": 155,
           "photo": "evans.jpg",
-          "bio": "Having served on the support crew of Apollo 7, and as a CAPCOM for Apollo 11, Ronald Evans would go on to be backup CMP for Apollo 14 before flying on Apollo 17, the last manned mission to the moon in the Apollo program, and subsequently working on both the Apollo-Soyuz Test Project and the Shuttle flight program.",
+          "bio": "Having served on the support crew of Apollo 7, and as a CAPCOM for Apollo 11, Ronald Evans would go on to be backup CMP for Apollo 14 before flying on Apollo 17, the last crewed mission to the moon in the Apollo program, and subsequently working on both the Apollo-Soyuz Test Project and the Shuttle flight program.",
           "avatar": "evans.jpg"        
         },
         "OWEN_GARRIOTT": {
@@ -403,7 +403,7 @@
           "mission_position": "CAPCOM",
           "photo_width": 190,
           "photo_height": 155,
-          "bio": "A former fighter pilot and flight instructor in the US Navy, Bruce McCandless II went on to be backup pilot on the first manned Skylab mission, and later served on two Shuttle mission crews, including STS-41-B where he made the first untethered free flight, using the Manned Maneuvering Unit which he helped develop.",
+          "bio": "A former fighter pilot and flight instructor in the US Navy, Bruce McCandless II went on to be backup pilot on the first crewed Skylab mission, and later served on two Shuttle mission crews, including STS-41-B where he made the first untethered free flight, using the Manned Maneuvering Unit which he helped develop.",
           "avatar": "mccandless.jpg",
           "photo": "mccandless.jpg"
         },

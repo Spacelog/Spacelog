@@ -31,7 +31,7 @@
     "acts" : [
         {
             "title": "Launch",
-            "description": "Despite poor visibility at the Cape causing nearly an hour of holds, Mercury 7 had the smoothest pre-flight countdown to date of NASA's manned missions, lifting off at 7.45am.",
+            "description": "Despite poor visibility at the Cape causing nearly an hour of holds, Mercury 7 had the smoothest pre-flight countdown to date of NASA's crewed missions, lifting off at 7.45am.",
             "range": ["-00:00:00:05", "00:00:05:32"],
             "homepage": "phase1.jpg",
             "banner": "act1.jpg",

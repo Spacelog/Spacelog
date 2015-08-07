@@ -7,8 +7,8 @@
         "title": "Mercury 3",
         "upper_title": "Mercury",
         "lower_title": "3",
-        "description": "The 1961 Mercury mission that made pilot Alan Shepard the first American in space, one of two manned suborbital missions at the start of NASA's programme of manned spaceflight.",
-        "summary": "First American manned mission",
+        "description": "The 1961 Mercury mission that made pilot Alan Shepard the first American in space, one of two crewed suborbital missions at the start of NASA's programme of human spaceflight.",
+        "summary": "First American crewed mission",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
         "based_on_header": "Based on the original audio recordings",
         "about_image": "systems.png",
@@ -16,7 +16,7 @@
             "James Aylett",
             "Emily Carney"
         ],
-        "about": "Less than a month after Yuri Gagarin became the first man in space, NASA launched Alan Shepard on its first suborbital manned flight. Although in some ways not as ambitious as Gagarin's orbital flight, Shepard's mission both included manual control of the spacecraft, and saw the pilot land safely in the Mercury capsule.\n\nThis site allows you to explore transcripts of radio communications between Alan Shepard aboard Freedom 7 and the NASA personnel back in Florida, along with photographs taken both from the ground and in space.",
+        "about": "Less than a month after Yuri Gagarin became the first man in space, NASA launched Alan Shepard on its first suborbital crewed flight. Although in some ways not as ambitious as Gagarin's orbital flight, Shepard's mission both included manual control of the spacecraft, and saw the pilot land safely in the Mercury capsule.\n\nThis site allows you to explore transcripts of radio communications between Alan Shepard aboard Freedom 7 and the NASA personnel back in Florida, along with photographs taken both from the ground and in space.",
         "image_attributions": [
             { "url": "http://earthobservatory.nasa.gov/IOTD/view.php?id=46022", "title": "Smoke Plume, Caspian Sea, Kazakhstan", "attrib_url": "http://earthobservatory.nasa.gov/", "attrib": "NASA's Earth Observatory" }
         ],
