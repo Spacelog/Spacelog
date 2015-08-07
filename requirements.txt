@@ -3,3 +3,4 @@ redis
 boto
 django-templatetag-sugar==0.1
 django_concurrent_test_server
+gunicorn==19.3.0
