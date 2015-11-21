@@ -59,9 +59,6 @@ STATIC_URL = '/assets/'
 # places on the CDN
 MISSIONS_STATIC_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
 MISSIONS_STATIC_URL = '/assets/missions/'
-# FIXED_MISSIONS_STATIC_URL doesn't change with varying deploys, so can be used for
-# things that need long-term URLs, like image references in the Open Graph.
-FIXED_MISSIONS_STATIC_URL = '/assets/missions/'
 MISSIONS_IMAGE_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
 # Set this to '/assets/missions/' if you want to test local mission images
 MISSIONS_IMAGE_URL = 'http://media.spacelog.org/'

@@ -19,8 +19,8 @@
   <meta property="og:type" content="space:MannedMission">
   <link rel="rdfs:type" resource="http://spacelog.org/ns/MannedMission">
   <meta property="og:url foaf:homepage" content="http://{{ request.META.HTTP_HOST }}/">
-  <meta property="og:image" content="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
-  <link property="foaf:depiction" href="{{ FIXED_MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
+  <meta property="og:image" content="{{ MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
+  <link property="foaf:depiction" href="{{ MISSIONS_STATIC_URL }}{{ mission.name}}/images/badge.png">
   {% comment %}
       foaf:depiction and og:image are being repeated as separate properties because the Open Graph Protocol
       is misusing RDFa slightly: in RDFa, the content attribute is used to represent literals (strings basically).
