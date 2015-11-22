@@ -1,6 +1,6 @@
 {
     "name": "ma7",
-    "featured": true,
+    "featured": false,
     "incomplete": false,
     "subdomains": ["mercury7", "ma7"],
     "copy": {

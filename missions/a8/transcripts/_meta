@@ -1,7 +1,7 @@
 {
     "name": "a8",
-    "featured": false,
-    "incomplete": true,
+    "featured": true,
+    "incomplete": false,
     "subdomains": ["apollo8", "a8"],
     "utc_launch_time": "1968-12-21T12:51:00",
     "copy": {
