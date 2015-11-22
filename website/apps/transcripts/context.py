@@ -13,6 +13,5 @@ def mission(request):
 
 def static(request):
     return {
-        "MISSIONS_STATIC_URL": settings.MISSIONS_STATIC_URL,
         "MISSIONS_IMAGE_URL": settings.MISSIONS_IMAGE_URL,
     }

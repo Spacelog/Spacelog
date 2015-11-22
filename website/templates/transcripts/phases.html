@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load missionstatic %}
 {% load missiontime %}
 {% load linkify %}
 {% load humanize %}
@@ -11,7 +12,7 @@
 {% block content %}
 
   {% if act.illustration %}
-  <img class='illustration' src='{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/illustration/{{ act.illustration }}' alt='' />
+  <img class='illustration' src='{% mission_static mission.name "images/illustration" act.illustration %}' alt='' />
   {% endif %}
 
   <div class='league-gothic navigation'>
@@ -48,7 +49,7 @@
           <em class='end'>{{ act.end|mission_time_format }}</em>
         </p>
         {{ act.stats_image_map|safe }}
-        <img src='{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/stats/graph_{{ mission.name }}_{{ act.number }}.png' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
+        <img src='{% mission_static mission.name "images/stats" act.stats_image %}' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
       </div>
     {% endif %}
 

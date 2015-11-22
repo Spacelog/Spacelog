@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load missionstatic %}
 {% load missiontime %}
 {% load nbspify %}
 
@@ -9,7 +10,7 @@
   <h1>{{ mission.copy.based_on_header }}</h1>
   <div id='coverpage'>
     {% if mission.copy.about_image %}
-    <img src='{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/{{ mission.copy.about_image }}' width='270' alt=''>
+    <img src='{% mission_static mission.name "images" mission.copy.about_image %}' width='270' alt=''>
     {% else %}
     <a href='{% url "original" 1 %}'>
         <img src='{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/original/TEC/about.png'
