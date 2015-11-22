@@ -6,8 +6,6 @@ ALLOWED_HOSTS = [
 
 # The following MUST be an absolute URL in live deploys (it's given out
 # to other systems).
-MISSIONS_STATIC_URL = 'http://cdn.spacelog.org/assets/website/missions/'
-
 STATIC_URL = 'http://cdn.spacelog.org/assets/website/'
 MISSIONS_IMAGE_URL = 'http://media.spacelog.org/'
 
