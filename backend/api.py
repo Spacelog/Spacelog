@@ -373,11 +373,13 @@ class Act(NarrativeElement):
         if self.banner_colour:
             styles.append('background-color: %s' % self.banner_colour)
         if self.banner_background:
-            styles.append('background-image: url(%s%s/images/banners/%s)' % (
-                settings.MISSIONS_STATIC_URL,
+            from apps.transcripts.templatetags.missionstatic import mission_static
+            url = mission_static(
                 self.mission_name,
+                'images/banners',
                 self.banner_background,
-            ))
+            )
+            styles.append('background-image: url(%s)' % url)
         return '; '.join(styles)
 
     class Query(NarrativeElement.Query):

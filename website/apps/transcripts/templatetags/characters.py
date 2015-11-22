@@ -1,8 +1,14 @@
 from django.template import Library
 from django.core.urlresolvers import reverse
 from django.conf import settings
+from apps.transcripts.templatetags.missionstatic import mission_static
 
 register = Library()
+
+
+def avatar_url(speaker, mission_name):
+    return mission_static(mission_name, "images/avatars", speaker.avatar)
+
 
 @register.simple_tag
 def avatar_and_name(speaker, mission_name, timestamp=None):
@@ -11,20 +17,18 @@ def avatar_and_name(speaker, mission_name, timestamp=None):
         current_speaker = speaker.current_shift(timestamp)
     else:
         current_speaker = speaker
-    
+
     short_name_lang = ''
     if current_speaker.short_name_lang:
-        short_name_lang = " lang='%s'"  % current_speaker.short_name_lang 
-    
+        short_name_lang = " lang='%s'" % current_speaker.short_name_lang
+
     detail = """
-      <img src='%(MISSIONS_STATIC_URL)s%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48'>
+      <img src='%(avatar)s' alt='' width='48' height='48'>
       <span%(short_name_lang)s>%(short_name)s</span>
     """ % {
-        "avatar": current_speaker.avatar,
+        "avatar": avatar_url(current_speaker, mission_name),
         "short_name": current_speaker.short_name,
         "short_name_lang": short_name_lang,
-        "mission_name": mission_name,
-        "MISSIONS_STATIC_URL": settings.MISSIONS_STATIC_URL,
     }
 
     url = None
@@ -50,13 +54,11 @@ def avatar(speaker, mission_name, timestamp=None):
     if current_speaker.short_name_lang:
         short_name_lang = " lang='%s'"  % current_speaker.short_name_lang 
     detail = """
-      <img src='%(MISSIONS_STATIC_URL)s%(mission_name)s/images/avatars/%(avatar)s' alt='' width='48' height='48' %(short_name_lang)salt='%(short_name)s'>
+      <img src='%(avatar)s' alt='' width='48' height='48' %(short_name_lang)salt='%(short_name)s'>
     """ % {
-        "avatar": current_speaker.avatar,
+        "avatar": avatar_url(current_speaker, mission_name),
         "short_name": current_speaker.short_name,
         "short_name_lang": short_name_lang,
-        "mission_name": mission_name,
-        "MISSIONS_STATIC_URL": settings.MISSIONS_STATIC_URL,
     }
 
     url = None
