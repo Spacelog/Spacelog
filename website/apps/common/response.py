@@ -1,6 +1,6 @@
+import json
 from django.template.loader_tags import BlockNode
 from django.template.response import TemplateResponse
-from django.utils import simplejson
 
 
 class JsonTemplateResponse(TemplateResponse):
@@ -12,4 +12,4 @@ class JsonTemplateResponse(TemplateResponse):
         output = {}
         for n in template.nodelist.get_nodes_by_type(BlockNode):
             output[n.name] = n.render(context)
-        return simplejson.dumps(output)
+        return json.dumps(output)
