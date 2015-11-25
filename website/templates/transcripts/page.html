@@ -10,7 +10,7 @@
 {% if log_lines.0.previous %}
 <link rel="canonical" href="{% timestamp_to_url log_lines.0.timestamp %}">
 {% else %}
-<link rel="canonical" href="{% url view_page %}">
+<link rel="canonical" href="{% url "view_page" %}">
 {% endif %}
 {% endif %}{% endblock %}
 
@@ -158,7 +158,7 @@
         {% else %}
           <li class='prev'><span>Previous</span></li>
         {% endif %}
-        <li><em><a href='{% url phases current_act.one_based_number %}'>Phase {{ act }}: {{ current_act.title }}</a></em></li>
+        <li><em><a href='{% url "phases" current_act.one_based_number %}'>Phase {{ act }}: {{ current_act.title }}</a></em></li>
         {% if next_act %}
           <li><a href='{% timestamp_to_url next_act.start %}' rel='next'><span>Next</span></a></li>
         {% else %}

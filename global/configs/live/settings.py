@@ -1,4 +1,9 @@
 from configs.settings import *
+
+ALLOWED_HOSTS = [
+    '.spacelog.org.',
+]
+
 # The following MUST be an absolute URL in live deploys (it's given out
 # to other systems). Also, it doesn't get overridden in local_settings.py
 # unlike the others.

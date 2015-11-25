@@ -1,6 +1,5 @@
-django~=1.4.0
+django~=1.5.0
 redis
 boto
 django-templatetag-sugar==0.1
-django_concurrent_test_server
 gunicorn==19.3.0
