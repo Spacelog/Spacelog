@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import patterns, url
 from django.conf import settings
 from transcripts.views import PageView, PhasesView, RangeView, ErrorView, OriginalView
 from homepage.views import HomepageView, HomepageQuoteView
