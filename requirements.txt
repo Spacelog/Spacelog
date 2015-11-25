@@ -1,4 +1,4 @@
-django~=1.7.0
+django~=1.8.0
 redis~=2.2.0
 boto
 django-templatetag-sugar==0.1
