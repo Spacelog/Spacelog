@@ -1,7 +1,7 @@
 from configs.settings import *
 
 ALLOWED_HOSTS = [
-    '.spacelog.org.',
+    '.spacelog.org',
 ]
 
 # The following MUST be an absolute URL in live deploys (it's given out
