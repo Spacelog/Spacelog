@@ -1,8 +1,14 @@
 import os
 from django import template
+from django.conf import settings
 from django.contrib.staticfiles.storage import (
-    StaticFilesStorage, staticfiles_storage,
+    get_storage_class, staticfiles_storage,
 )
+
+
+staticfiles_digest_free_storage = get_storage_class(
+    settings.STATICFILES_DIGEST_FREE_STORAGE,
+)()
 
 
 def full_path(mission, *path):
@@ -16,21 +22,16 @@ def full_path(mission, *path):
 
 def digest_free_static(path):
     """
-    Bypasses the configured static files storage and uses the default
-    StaticFilesStorage class instead, to produce a URL that doesn't include
-    the digest of the file's current contents.
+    Uses STATICFILES_DIGEST_FREE_STORAGE instead of STATICFILES_STORAGE
+    to produce a URL that doesn't include the digest of the file's current
+    contents.
 
     This is useful for passing URLs to the Open Graph, which will continue to
     use the same URL more-or-less forever. If we gave it a digested URL, we
     wouldn't be able to update the file.
-
-    As long as the configured static files storage is one of the standard
-    subclasss of StaticFilesStorage--like ManifestStaticFilesStorage--this
-    should all be fine.
     """
 
-    digest_free_storage = StaticFilesStorage()
-    return digest_free_storage.url(path)
+    return staticfiles_digest_free_storage.url(path)
 
 
 def mission_static(mission, *path):
@@ -49,7 +50,7 @@ def digest_free_mission_static(mission, *path):
     See digest_free_static for all the gory details.
     """
 
-    return digest_free_static(full_path(mission, *path))
+    return staticfiles_digest_free_storage.url(full_path(mission, *path))
 
 
 register = template.Library()

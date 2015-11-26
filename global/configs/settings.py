@@ -54,6 +54,7 @@ MEDIA_ROOT = ''
 MEDIA_URL = ''
 
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+STATICFILES_DIGEST_FREE_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 STATICFILES_DIRS = [
     os.path.join(SITE_ROOT, 'static'),
 ]
