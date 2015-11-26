@@ -11,7 +11,7 @@
     {% if mission.copy.about_image %}
     <img src='{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/{{ mission.copy.about_image }}' width='270' alt=''>
     {% else %}
-    <a href='{% url original 1 %}'>
+    <a href='{% url "original" 1 %}'>
         <img src='{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/original/TEC/about.png'
            width='270' alt=''>
       View this page in the original transcript

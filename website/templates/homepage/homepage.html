@@ -19,7 +19,7 @@
 {% for number, act in acts %}
   <li>
     {% ifequal 1 number %}
-    <a href='{% url view_page %}'>
+    <a href='{% url "view_page" %}'>
     {% else %}
     <a href='{% timestamp_to_url act.start %}'>
     {% endifequal %}

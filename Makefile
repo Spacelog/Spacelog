@@ -44,7 +44,7 @@ $(global_screen_css): $(global_screen_sass) $(global_screen_sass_components)
 		$(global_screen_sass) > $(global_screen_css)
 
 devserver:
-	$(PYTHON) -m website.manage runconcurrentserver $(dev_webserver_ip):$(dev_webserver_port)
+	$(PYTHON) -m website.manage runserver $(dev_webserver_ip):$(dev_webserver_port)
 
 devcss:
 	sass --style compressed --watch $(website_screen_sass):$(website_screen_css)

@@ -20,5 +20,5 @@ sys.path[:0] = new_sys_path
 
 os.environ["DJANGO_SETTINGS_MODULE"] = "website.configs.staging.settings"
  
-from django.core.handlers.wsgi import WSGIHandler
-application = WSGIHandler()
+from django.core.wsgi import get_wsgi_application
+application = get_wsgi_application()
