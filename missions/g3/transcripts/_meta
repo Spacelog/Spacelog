@@ -16,16 +16,19 @@
         ],
         "about": "Gemini 3, flown by Virgil “Gus” Grissom and John Young, was the first crewed flight of the Gemini spacecraft.  It was also the first American spaceflight with a crew of two.  This was the first of ten crewed Project Gemini missions which were designed to develop the spaceflight capabilities that would be required to go to the moon.\n\nThis site allows you to explore transcripts of radio communications between the Mercury 3 crew and the NASA personnel back at Cape Canaveral. Included with the transcripts are photographs, as well as other information about the mission.",
         "image_attributions": [
-            { "url": "http://earthobservatory.nasa.gov/IOTD/view.php?id=41052", "title": "Thunderstorms on the Brazilian Horizon", "attrib_url": "http://earthobservatory.nasa.gov/", "attrib": "NASA's Earth Observatory" }
+            { "url": "http://earthobservatory.nasa.gov/IOTD/view.php?id=41052", "title": "Thunderstorms on the Brazilian Horizon", "attrib_url": "http://earthobservatory.nasa.gov/", "attrib": "NASA's Earth Observatory" },
+            { "url": "http://tothemoon.ser.asu.edu/gallery/gemini/3", "title": "Scanned and processed orbital photographs", "attrib_url": "http://tothemoon.ser.asu.edu/about/gemini/scans", "attrib": "NASA/JSC/Arizona State University" }
         ],
         "transcript_attributions": [
-            { "url": "http://www.jsc.nasa.gov/history/mission_trans/gemini3.htm", "title": "Gemini III Composite Air-to-Ground and Onboard Voice Tape Transcription" }
+            { "url": "http://www.jsc.nasa.gov/history/mission_trans/gemini3.htm", "title": "Gemini III Composite Air-to-Ground and Onboard Voice Tape Transcription" },
+            { "url": "http://tothemoon.ser.asu.edu/files/gemini/NASA-TM-110543_Gemini.pdf", "title": "Gemini 3 70mm Photography Identification" }
         ],
         "component_suppression": {
             "leading": 1
         }
     },
     "main_transcript": "g3/TEC",
+    "media_transcript": "g3/MEDIA",
     "utc_launch_time": -150716160,
     "acts" : [
         {
