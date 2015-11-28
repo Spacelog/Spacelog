@@ -60,8 +60,19 @@ class TranscriptView(JsonTemplateView):
             if log_line.timestamp > timestamp_to_seconds(self.kwargs.get('start', "00:00:00:00")) and not done_closest:
                 log_line.closest = True
                 done_closest = True
+        # Find the previous log line from this, and then the beginning of its page
+        try:
+            previous_timestamp = self.main_transcript_query().page(start_page - 1).first().timestamp
+        except ValueError:
+            previous_timestamp = None
+        # Find the next log line and its timestamp
+        next_timestamp = log_lines[-1].next_timestamp()
         # Find all media that falls inside this same range, and add it onto the preceding line.
-        for image_line in self.media_transcript_query().range(log_lines[0].timestamp, log_lines[-1].timestamp):
+        if next_timestamp:
+            end_of_range = next_timestamp - 1
+        else:
+            next_timestamp = log_lines[-1].timestamp
+        for image_line in self.media_transcript_query().range(log_lines[0].timestamp, end_of_range):
             # Find the line just before the images
             last_line = None
             for log_line in log_lines:
@@ -70,13 +81,6 @@ class TranscriptView(JsonTemplateView):
                 last_line = log_line
             # Add the images to it
             last_line.images += image_line.images()
-        # Find the previous log line from this, and then the beginning of its page
-        try:
-            previous_timestamp = self.main_transcript_query().page(start_page - 1).first().timestamp
-        except ValueError:
-            previous_timestamp = None
-        # Find the next log line and its timestamp
-        next_timestamp = log_lines[-1].next_timestamp()
         # Return
         return log_lines, previous_timestamp, next_timestamp, 0, None
 
