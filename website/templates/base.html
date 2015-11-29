@@ -56,6 +56,14 @@
 {% block content %}{% endblock %}
 </div></div>
 
+<script type="text/javascript">
+window.Artemis = {
+  assets: {
+    spinner: "{% static "img/ajax-loader.gif" %}",
+    spinnerWhite: "{% static "img/ajax-loader-white.gif" %}"
+  }
+};
+</script>
 <script type="text/javascript" src="{% static "js/jquery-1.4.4.min.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery-ui-1.8.6.just-animations.min.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery.placeholder.js" %}"></script>

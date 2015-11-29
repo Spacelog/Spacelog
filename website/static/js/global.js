@@ -47,25 +47,20 @@ $.event.special.scrollstop = {
 // End jQuery cribbed code
 
 (function() {
-    var Artemis = {
-        animationTime: 250,
+    Artemis.animationTime = 250;
 
-        // Parses a mission timestamp from a URL and converts it to a number of 
-        // seconds
-        parseMissionTime: function(mission_time) {
-            t = _.map(mission_time.split(':'), function(i) {
-                return parseInt(i, 10);
-            });
-            return t[3] + t[2]*60 + t[1]*3600 + t[0]*86400;
-        },
+    // Parses a mission timestamp from a URL and converts it to a number of
+    // seconds
+    Artemis.parseMissionTime = function(mission_time) {
+        t = _.map(mission_time.split(':'), function(i) {
+            return parseInt(i, 10);
+        });
+        return t[3] + t[2]*60 + t[1]*3600 + t[0]*86400;
+    };
 
-        replaceWithSpinner: function(e, white) {
-            var suffix = '';
-            if (white) {
-                suffix = '-white';
-            }
-            $(e).replaceWith('<img src="/assets/img/ajax-loader'+suffix+'.gif" alt="">');
-        }
+    Artemis.replaceWithSpinner = function(e, white) {
+        var src = white ? Artemis.assets.spinnerWhite : Artemis.assets.spinner;
+        $(e).replaceWith('<img src="' + src + '" alt="">');
     };
 
     Artemis.HomepageQuoteView = Backbone.View.extend({
@@ -156,7 +151,5 @@ $.event.special.scrollstop = {
             }
         }
     });
-
-    window.Artemis = Artemis;
 })();
 
