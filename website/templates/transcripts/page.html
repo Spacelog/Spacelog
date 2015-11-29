@@ -74,6 +74,7 @@
         {{text|safe}}
         {% endif %}
       </p>
+      {% include "transcripts/_range_ui.html" %}
       </dd>
     {% endfor %}{# speaker, text #}
     {# Images #}
@@ -84,25 +85,9 @@
             <img src="{{ MISSIONS_IMAGE_URL }}{{ mission.name }}/images/media/{{ image.thumbnail_filename }}" />
           </a>
         </div>
+        {% include "transcripts/_range_ui.html" %}
       </dd>
     {% endfor %}
-    {% if log_line.highlight_index == 1 and log_line.previous_timestamp %}
-      <a href='{% selection_url log_line.previous_timestamp selection_end_timestamp %}' class='range-ui' id='expand-previous'><span>Expand selection up</span></a>
-    {% endif %}
-    {% if log_line.highlight_index == 1 and log_line.next_timestamp and log_line.next_timestamp <= selection_end_timestamp %}
-      <a href='{% selection_url log_line.next_timestamp selection_end_timestamp %}' class='range-ui' id='contract-previous'><span>Contract selection down</span></a>
-    {% endif %}
-
-    {% if log_line.highlight_index == max_highlight_index and log_line.next_timestamp %}
-      <a href='{% selection_url selection_start_timestamp log_line.next_timestamp %}' class='range-ui' id='expand-next'><span>Expand selection down</span></a>
-    {% endif %}
-    {% if log_line.highlight_index == max_highlight_index and log_line.previous_timestamp and log_line.previous_timestamp >= selection_start_timestamp %}
-      <a href='{% selection_url selection_start_timestamp log_line.previous_timestamp %}' class='range-ui' id='contract-next'><span>Contract selection up</span></a>
-    {% endif %}
-    {% if log_line.highlight_index == 1 %}
-        <a href='{% timestamp_to_url log_line.timestamp selection_start_timestamp %}' class='range-ui' id='selection-close'><span>Close</span></a>
-        <!-- Our MET in seconds is {{ log_line.timestamp }} -->
-    {% endif %}
     {% if log_line.note %}
       <dt class='note-label'>Note</dt>
       <dd class='note'><p>{{ log_line.note }}</p></dd>
