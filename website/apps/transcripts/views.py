@@ -73,7 +73,7 @@ class TranscriptView(JsonTemplateView):
         if next_timestamp:
             end_of_range = next_timestamp - 1
         else:
-            next_timestamp = log_lines[-1].timestamp
+            end_of_range = log_lines[-1].timestamp
         media_lines = self.media_transcript_query().range(
             log_lines[0].timestamp,
             end_of_range,
