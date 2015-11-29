@@ -67,22 +67,57 @@ class TranscriptView(JsonTemplateView):
             previous_timestamp = None
         # Find the next log line and its timestamp
         next_timestamp = log_lines[-1].next_timestamp()
-        # Find all media that falls inside this same range, and add it onto the preceding line.
+
+        # Find all media that falls inside this same range, and merge it into
+        # the regular log lines.
         if next_timestamp:
             end_of_range = next_timestamp - 1
         else:
             next_timestamp = log_lines[-1].timestamp
-        for image_line in self.media_transcript_query().range(log_lines[0].timestamp, end_of_range):
-            # Find the line just before the images
-            last_line = None
-            for log_line in log_lines:
-                if log_line.timestamp > image_line.timestamp:
-                    break
-                last_line = log_line
-            # Add the images to it
-            last_line.images += image_line.images()
+        media_lines = self.media_transcript_query().range(
+            log_lines[0].timestamp,
+            end_of_range,
+        )
+        merged_lines = self._merge_media(log_lines, media_lines)
+
         # Return
-        return log_lines, previous_timestamp, next_timestamp, 0, None
+        return merged_lines, previous_timestamp, next_timestamp, 0, None
+
+    def _merge_media(self, original_log_lines, original_media_lines):
+        merged_lines = []
+
+        # Copy the arguments, so we can mutate them with impunity.
+        log_lines = list(original_log_lines)
+        media_lines = list(original_media_lines)
+
+        while len(media_lines) > 0 or len(log_lines) > 0:
+            try:
+                media_ts = media_lines[0].timestamp
+            except IndexError:
+                media_ts = None
+
+            try:
+                log_ts = log_lines[0].timestamp
+            except IndexError:
+                log_ts = None
+
+            if log_ts is None or (media_ts is not None and media_ts < log_ts):
+                merged_line = media_lines.pop(0)
+            elif media_ts is None or (log_ts is not None and log_ts < media_ts):
+                merged_line = log_lines.pop(0)
+            else:
+                merged_line = log_lines.pop(0)
+                merged_line.images += media_lines.pop(0).images()
+
+            if len(merged_lines) > 0:
+                prev_line = merged_lines[-1]
+                prev_line.next_timestamp = merged_line.timestamp
+                prev_line.following_silence = merged_line.timestamp - prev_line.timestamp
+                merged_line.previous_timestamp = prev_line.timestamp
+
+            merged_lines.append(merged_line)
+
+        return merged_lines
 
     def page_number(self, timestamp):
         "Finds the page number for a given timestamp"
