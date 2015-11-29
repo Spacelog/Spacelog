@@ -102,6 +102,9 @@ class TranscriptView(JsonTemplateView):
         )
 
         while len(media_lines) > 0 or len(log_lines) > 0:
+            # Get the next timestamp from each log. If a log is exhausted,
+            # default to a timestamp beyond the end of both logs so we'll
+            # definitely draw from the other one.
             media_ts = get_timestamp(media_lines, 0, default=max_ts + 1)
             log_ts = get_timestamp(log_lines, 0, default=max_ts + 1)
 
