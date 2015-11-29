@@ -84,26 +84,30 @@ class TranscriptView(JsonTemplateView):
         return merged_lines, previous_timestamp, next_timestamp, 0, None
 
     def _merge_media(self, original_log_lines, original_media_lines):
+        def get_timestamp(sequence, index, default):
+            try:
+                return sequence[index].timestamp
+            except IndexError:
+                return default
+
         merged_lines = []
 
         # Copy the arguments, so we can mutate them with impunity.
         log_lines = list(original_log_lines)
         media_lines = list(original_media_lines)
 
+        max_ts = max(
+            get_timestamp(log_lines, -1, default=-1),
+            get_timestamp(media_lines, -1, default=-1),
+        )
+
         while len(media_lines) > 0 or len(log_lines) > 0:
-            try:
-                media_ts = media_lines[0].timestamp
-            except IndexError:
-                media_ts = None
+            media_ts = get_timestamp(media_lines, 0, default=max_ts + 1)
+            log_ts = get_timestamp(log_lines, 0, default=max_ts + 1)
 
-            try:
-                log_ts = log_lines[0].timestamp
-            except IndexError:
-                log_ts = None
-
-            if log_ts is None or (media_ts is not None and media_ts < log_ts):
+            if media_ts < log_ts:
                 merged_line = media_lines.pop(0)
-            elif media_ts is None or (log_ts is not None and log_ts < media_ts):
+            elif log_ts < media_ts:
                 merged_line = log_lines.pop(0)
             else:
                 merged_line = log_lines.pop(0)
