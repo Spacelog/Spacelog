@@ -78,12 +78,12 @@ class TranscriptView(JsonTemplateView):
             log_lines[0].timestamp,
             end_of_range,
         )
-        merged_lines = self._merge_media(log_lines, media_lines)
+        merged_lines = self._merge_media(log_lines, media_lines, next_timestamp)
 
         # Return
         return merged_lines, previous_timestamp, next_timestamp, 0, None
 
-    def _merge_media(self, original_log_lines, original_media_lines):
+    def _merge_media(self, original_log_lines, original_media_lines, next_page_timestamp):
         def get_timestamp(sequence, index, default):
             try:
                 return sequence[index].timestamp
@@ -123,6 +123,10 @@ class TranscriptView(JsonTemplateView):
                 merged_line.previous_timestamp = prev_line.timestamp
 
             merged_lines.append(merged_line)
+
+        last_line = merged_lines[-1]
+        last_line.next_timestamp = next_page_timestamp
+        last_line.following_silence = next_page_timestamp - last_line.timestamp
 
         return merged_lines
 
