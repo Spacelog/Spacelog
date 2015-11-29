@@ -91,23 +91,39 @@ class LogLine(object):
         else:
             return None
 
-    def next_timestamp(self):
-        next_log_line = self.next()
-        if next_log_line is None:
-            return None
-        else:
-            return next_log_line.timestamp
+    def get_next_timestamp(self):
+        try:
+            return self._next_timestamp
+        except AttributeError:
+            next_log_line = self.next()
+            if next_log_line is None:
+                return None
+            else:
+                return next_log_line.timestamp
 
-    def previous_timestamp(self):
-        previous_log_line = self.previous()
-        if previous_log_line is None:
-            return None
-        else:
-            return previous_log_line.timestamp
+    def set_next_timestamp(self, next_timestamp):
+        self._next_timestamp = next_timestamp
+
+    next_timestamp = property(get_next_timestamp, set_next_timestamp)
+
+    def get_previous_timestamp(self):
+        try:
+            return self._previous_timestamp
+        except AttributeError:
+            previous_log_line = self.previous()
+            if previous_log_line is None:
+                return None
+            else:
+                return previous_log_line.timestamp
+
+    def set_previous_timestamp(self, previous_timestamp):
+        self._previous_timestamp = previous_timestamp
+
+    previous_timestamp = property(get_previous_timestamp, set_previous_timestamp)
 
     def following_silence(self):
         try:
-            return self.next_timestamp() - self.timestamp
+            return self.next_timestamp - self.timestamp
         except TypeError:
             return None
 

@@ -66,7 +66,7 @@ class TranscriptView(JsonTemplateView):
         except ValueError:
             previous_timestamp = None
         # Find the next log line and its timestamp
-        next_timestamp = log_lines[-1].next_timestamp()
+        next_timestamp = log_lines[-1].next_timestamp
 
         # Find all media that falls inside this same range, and merge it into
         # the regular log lines.
@@ -119,14 +119,12 @@ class TranscriptView(JsonTemplateView):
             if len(merged_lines) > 0:
                 prev_line = merged_lines[-1]
                 prev_line.next_timestamp = merged_line.timestamp
-                prev_line.following_silence = merged_line.timestamp - prev_line.timestamp
                 merged_line.previous_timestamp = prev_line.timestamp
 
             merged_lines.append(merged_line)
 
         last_line = merged_lines[-1]
         last_line.next_timestamp = next_page_timestamp
-        last_line.following_silence = next_page_timestamp - last_line.timestamp
 
         return merged_lines
 
