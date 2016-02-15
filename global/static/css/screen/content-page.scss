@@ -163,6 +163,9 @@
 .content-page .reading-list li a {
     display:                block;
 }
+.content-page .reading-list li a.author {
+    display:                inline;
+}
 .content-page ul.contributors {
     margin:                 0 0 24px 0;
     padding:                0;
