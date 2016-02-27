@@ -11,6 +11,7 @@
 /missions/*/images/stats
 /missions/*/images/original
 /missions/*/images/media
+/dump.rdb
 /xappydb
 /artemis_assets
 ENV
