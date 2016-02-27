@@ -1,5 +1,6 @@
 from django.conf.urls import patterns, url
 from django.conf import settings
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from transcripts.views import PageView, PhasesView, RangeView, ErrorView, OriginalView
 from homepage.views import HomepageView, HomepageQuoteView
 from search.views import SearchView
@@ -25,24 +26,4 @@ urlpatterns = patterns('',
     url(r'^original/(?:(?P<transcript>[-_\w]+)/)?(?P<page>-?\d+)/$', OriginalView.as_view(), name="original"),
 )
 
-if settings.DEBUG: # pragma: no cover
-    urlpatterns += patterns('',
-        (r'^' + settings.MISSIONS_STATIC_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
-            'document_root': settings.MISSIONS_STATIC_ROOT
-        }),
-        (r'^' + settings.MISSIONS_IMAGE_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
-            'document_root': settings.MISSIONS_IMAGE_ROOT
-        }),
-        (r'^' + settings.STATIC_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
-            'document_root': settings.STATIC_ROOT
-        }),
-        # (r'^' + settings.MEDIA_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
-        #     'document_root': settings.MEDIA_ROOT
-        # }),
-        (r'^404/$', ErrorView.as_view()),
-        (r'^500/$', ErrorView.as_view(error_code=500)),
-    )
-
-handler404 = ErrorView.as_view()
-handler500 = ErrorView.as_view(error_code=500)
-
+urlpatterns += staticfiles_urlpatterns()

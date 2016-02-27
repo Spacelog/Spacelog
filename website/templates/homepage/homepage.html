@@ -1,11 +1,12 @@
 {% extends "base.html" %}
+{% load missionstatic %}
 {% load missiontime %}
 {% load linkify %}
 {% load pauses %}
 
 {% block full_title %}{{ mission.title }} transcripts on Spacelog{% endblock %}
 {% block content-class %}homepage{% endblock %}
-{% block content-extra %}style="background:url({{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/homepage/background.jpg) top left no-repeat;"{% endblock %}
+{% block content-extra %}style="background:url({% mission_static mission.name "images/homepage/background.jpg" %}) top left no-repeat;"{% endblock %}
 
 {% block content %}
 <div class='crest'>
@@ -24,7 +25,7 @@
     <a href='{% timestamp_to_url act.start %}'>
     {% endifequal %}
         {% if act.homepage %}
-        <img src="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/homepage/{{ act.homepage }}"
+        <img src="{% mission_static mission.name "images/homepage" act.homepage %}"
            alt="" width="220" height="140"/>
         {% endif %}
       Phase {{ number }}: {{ act.title }}

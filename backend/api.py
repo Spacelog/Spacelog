@@ -356,6 +356,7 @@ class Act(NarrativeElement):
             self.has_stats = True
             self.stats_image_map = stats_data['image_map']
             self.stats_image_map_id = stats_data['image_map_id']
+            self.stats_image = "graph_%s_%d.png" % (self.mission_name, self.number)
         else:
             self.has_stats = False
 
@@ -372,11 +373,13 @@ class Act(NarrativeElement):
         if self.banner_colour:
             styles.append('background-color: %s' % self.banner_colour)
         if self.banner_background:
-            styles.append('background-image: url(%s%s/images/banners/%s)' % (
-                settings.MISSIONS_STATIC_URL,
+            from apps.transcripts.templatetags.missionstatic import mission_static
+            url = mission_static(
                 self.mission_name,
+                'images/banners',
                 self.banner_background,
-            ))
+            )
+            styles.append('background-image: url(%s)' % url)
         return '; '.join(styles)
 
     class Query(NarrativeElement.Query):

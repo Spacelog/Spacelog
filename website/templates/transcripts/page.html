@@ -1,4 +1,6 @@
 {% extends "base.html" %}
+{% load staticfiles %}
+{% load missionstatic %}
 {% load missiontime %}
 {% load linkify %}
 {% load pauses %}
@@ -14,7 +16,7 @@
 {% endif %}
 {% endif %}{% endblock %}
 
-{% block extra_js %}<script type="text/javascript" src="{{ STATIC_URL }}js/page.js"></script>{% endblock %}
+{% block extra_js %}<script type="text/javascript" src="{% static "js/page.js" %}"></script>{% endblock %}
 
 
 {% block content-class %}transcript {% if max_highlight_index > 0 %}with-highlight{% endif %}{% endblock %}
@@ -26,7 +28,7 @@
     <div id='crest' {% if act.banner_class %}class='{{ act.banner_class }}'{% endif %} {% if act.banner_styles %}style='{{ act.banner_styles }}'{% endif %}><div class='wrapper'>
       <p class='act-banner'>
         {% if act.banner %}
-          <img src="{{ MISSIONS_STATIC_URL }}{{ act.mission_name }}/images/banners/{{ act.banner }}" alt="Phase {{ act.number|add:1 }}: {{ act.title }}">
+          <img src="{% mission_static act.mission_name "images/banners" act.banner %}" alt="Phase {{ act.number|add:1 }}: {{ act.title }}">
         {% else %}
           Phase {{ act.number|add:1 }}: <b>{{ act.title }}</b>
         {% endif %}
@@ -170,7 +172,7 @@
         </li>
       </ul></nav>
       {% if current_act.orbital %}
-      <img class='orbital' src='{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/orbital/{{ current_act.orbital }}'>
+      <img class='orbital' src='{% mission_static mission.name "images/orbital" current_act.orbital %}'>
       {% endif %}
     </div></div>
   </div>

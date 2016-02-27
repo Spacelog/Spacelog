@@ -12,9 +12,13 @@ dev_webserver_ip         ?= 0.0.0.0
 dev_webserver_port       ?= 8000
 dev_global_port          ?= 8001
 
-all: reindex productioncss statsporn
+all: reindex collectstatic
 
 dirty: copyxapian productioncss copy_statsporn
+
+collectstatic: productioncss statsporn
+	$(PYTHON) -m website.manage collectstatic --noinput --ignore=*.scss
+	$(PYTHON) -m global.manage collectstatic --noinput --ignore=*.scss
 
 reindex: $(indexer)
 	rm -rf xappydb

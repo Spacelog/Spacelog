@@ -53,15 +53,24 @@ MEDIA_ROOT = ''
 # Examples: "http://media.lawrence.com", "http://example.com/media/"
 MEDIA_URL = ''
 
-STATIC_ROOT = os.path.join(SITE_ROOT, 'static')
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+STATICFILES_DIGEST_FREE_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+STATICFILES_DIRS = [
+    os.path.join(SITE_ROOT, 'static'),
+]
+
+MISSIONS_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
+for mission_name in os.listdir(MISSIONS_ROOT):
+    mission_image_path = os.path.join(MISSIONS_ROOT, mission_name, 'images')
+    if os.path.isdir(mission_image_path):
+        STATICFILES_DIRS += [
+            ("missions/%s/images" % mission_name, mission_image_path),
+        ]
+
+STATIC_ROOT = os.path.join(SITE_ROOT, 'collected')
 STATIC_URL = '/assets/'
 # in dev, these come from the same place; in live, they'll be in different
 # places on the CDN
-MISSIONS_STATIC_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
-MISSIONS_STATIC_URL = '/assets/missions/'
-# FIXED_MISSIONS_STATIC_URL doesn't change with varying deploys, so can be used for
-# things that need long-term URLs, like image references in the Open Graph.
-FIXED_MISSIONS_STATIC_URL = '/assets/missions/'
 MISSIONS_IMAGE_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
 # Set this to '/assets/missions/' if you want to test local mission images
 MISSIONS_IMAGE_URL = 'http://media.spacelog.org/'
@@ -104,6 +113,7 @@ ROOT_URLCONF = 'urls'
 
 INSTALLED_APPS = (
     'django.contrib.humanize',
+    'django.contrib.staticfiles',
     'common',
     'search',
     'transcripts',

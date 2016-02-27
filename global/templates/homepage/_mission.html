@@ -1,5 +1,6 @@
+{% load missionstatic %}
 {% load missions %}<h3><a href="{{ mission|mission_url }}">
-    <img src="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/badge_thumb.png" alt=""
+    <img src="{% mission_static mission.name "images/badge_thumb.png" %}" alt=""
   width="40" height="40">
   <span>{{ mission.title }}
   ({{ mission.year }})</span>

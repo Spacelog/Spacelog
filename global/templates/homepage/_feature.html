@@ -1,5 +1,6 @@
+{% load missionstatic %}
 {% load missions %}<h3>{% if not mission.incomplete %}<a href="{{ mission|mission_url }}">{% endif %}
-        <img src="{{ MISSIONS_STATIC_URL }}{{ mission.name }}/images/badge.png" alt=""
+        <img src="{% mission_static mission.name "images/badge.png" %}" alt=""
       width="200" height="200">
   <span>{{ mission.title }} ({{ mission.year }})</span>
 {% if not mission.incomplete %}</a>{% endif %}</h3>

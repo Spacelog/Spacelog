@@ -8,6 +8,8 @@
 /global/static/css/screen.css.map
 /website/local_settings.py
 /global/local_settings.py
+/website/collected
+/global/collected
 /missions/*/images/stats
 /missions/*/images/original
 /missions/*/images/media

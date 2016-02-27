@@ -1,5 +1,6 @@
 from django.conf.urls import url, patterns
 from django.conf import settings
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 #from search.views import SearchView
 
 urlpatterns = patterns('',
@@ -10,16 +11,4 @@ urlpatterns = patterns('',
     # url(r'^search/$', SearchView.as_view(), name="search"),
 )
 
-if settings.DEBUG: # pragma: no cover
-    urlpatterns += patterns('',
-        (r'^' + settings.MISSIONS_STATIC_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
-            'document_root': settings.MISSIONS_STATIC_ROOT
-        }),
-        (r'^' + settings.STATIC_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
-            'document_root': settings.STATIC_ROOT
-        }),
-        # (r'^' + settings.MEDIA_URL[1:] + '(?P<path>.*)$', 'django.views.static.serve', {
-        #     'document_root': settings.MEDIA_ROOT
-        # }),
-    )
-
+urlpatterns += staticfiles_urlpatterns()
