@@ -7662,7 +7662,10 @@ from Canaries at 09:06 Zulu.
 meal. I've had approximately 6 swallows of water.
 I've also had a good use of the defecation bag, and
 everything is in good shape.
-45 49 53 CC Gemini 4, Houston CAP COM. Put your Quantity Read
+
+Comment The following timestamp is out-of-order in the original, recorded as 45:49:53
+
+45 52 53 CC Gemini 4, Houston CAP COM. Put your Quantity Read
 Switch ON and leave it ON until I tell you. Over.
 45 53 01 P Roger. Will do.
 45 53 03 CC Roger. I have some Flight Plan updates. Are you
@@ -9189,7 +9192,7 @@ Project and we'll be back up with you.
 52 02 07 C ...
 52 02 10 P Huh?
 52 02 12 C ...
-52 02 10 P I never saw it over here. Look here ...
+52 02 17 P I never saw it over here. Look here ...
 52 02 29 C ...
 52 02 34 P I can't believe we missed ...
 52 02 36 C No, neither can I. We sure have ...
@@ -11183,7 +11186,7 @@ now.
 
 Section CARNARVON
 
-73 51 02 CC Gemini 4, Carnarvon CAP COM.
+71 51 02 CC Gemini 4, Carnarvon CAP COM.
 71 51 39 C Hello Carnarvon, hello Carnarvon, Gemini 4.
 71 51 42 CC ... Gemini 4, Carnarvon. Loud and clear. How me?
 71 51 46 C Loud and clear.
@@ -11203,22 +11206,21 @@ you to do.
 Page 292
 71 52 13 C Stand by, let me find my data book.
 71 52 16 CC Okay, reach up and grab it.
-71 51 00 CC Gemini 4, Carnarvon CAP COM.
-71 51 40 C Hello Carnarvon, hello Carnarvon, Gemini 4.
-71 51 42 CC Gemini 4, Carnarvon. You are loud and clear.
-How me?
-71 51 45 C Loud and clear.
-71 51 47 CC Okay. You're looking good here on the ground. How
-are you doing?
-71 51 50 C We are doing fine. Ed went to sleep about half an
-hour ago and he will be sleeping, oh, maybe for
-another - at least 5 or 6 hours.
-71 52 00 CC Okay. Got a couple of things for you they want you
-to do.
-71 52 03 C Okay.
-71 52 04 CC Guaymas acquisition time 15 44 55. ...
-71 52 10 C Stand by a minute. Let me find my data book here.
-71 52 12 CC Okay, reach up and grab it.
+
+Comment This whole section is an almost-identical duplicate of the section above
+Comment Our transcript format doesn't tolerate out-of-order timestamps, so we can't use it
+Comment 71 51 00 CC Gemini 4, Carnarvon CAP COM.
+Comment 71 51 40 C Hello Carnarvon, hello Carnarvon, Gemini 4.
+Comment 71 51 42 CC Gemini 4, Carnarvon. You are loud and clear. How me?
+Comment 71 51 45 C Loud and clear.
+Comment 71 51 47 CC Okay. You're looking good here on the ground. How are you doing?
+Comment 71 51 50 C We are doing fine. Ed went to sleep about half an hour ago and he will be sleeping, oh, maybe for another - at least 5 or 6 hours.
+Comment 71 52 00 CC Okay. Got a couple of things for you they want you to do.
+Comment 71 52 03 C Okay.
+Comment 71 52 04 CC Guaymas acquisition time 15 44 55. ...
+Comment 71 52 10 C Stand by a minute. Let me find my data book here.
+Comment 71 52 12 CC Okay, reach up and grab it.
+
 71 52 32 C Okay, I was sitting on it. Go ahead.
 71 52 34 CC All right. At 15 44 55, that's Guaymas acquisition,
 they want you to switch your Real Time T/M to the
@@ -14022,7 +14024,7 @@ Indicator, with FDI.
 96 35 25 P Got them all. Good.
 96 35 28 C Retro Power, OFF.
 96 35 30 P Retro Power, SAFE. OAMS Power, OFF.
-96 33 33 C OFF.
+96 35 33 C OFF.
 96 35 35 P Attitude Control RATE COMMAND.
 96 35 37 C RATE COMMAND.
 96 35 40 P Test rings A and B.
