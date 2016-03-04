@@ -8550,10 +8550,10 @@ Section CALIFORNIA
 48 51 30 C Stand by just a second.
 48 51 31 CC Roger.
 48 51 47 C Okay. Go ahead.
-48 51 50 CC Okay. 47 ft/sec out of your forward-firing. That's l+18. 120 ft/sec out of the aft. That's 2+31. At 17 42 53. 2+48. 8+49. And the 33-1 time without burn: 17 36 33. 7+36. 4+58. Correction on that last 14+58. Want to read those back to me?
+48 51 50 CC Okay. 47 ft/sec out of your forward-firing. That's 1+18. 120 ft/sec out of the aft. That's 2+31. At 17 42 53. 2+48. 8+49. And the 33-1 time without burn: 17 36 33. 7+36. 4+58. Correction on that last 14+58. Want to read those back to me?
 48 52 44 C Houston, Gemini 4. I didn't get either one of
 those. Say again.
-48 52 51 CC Okay. 47 ft/sec and l+18 on your forward-firing. 120 ft/sec and 2+31 on your aft-firing, at 17 42 53. 2+48. 8+49.
+48 52 51 CC Okay. 47 ft/sec and 1+18 on your forward-firing. 120 ft/sec and 2+31 on your aft-firing, at 17 42 53. 2+48. 8+49.
 48 53 16 C Roger. Got 'em. Go ahead with the other one.
 48 53 18 CC Okay. Without burn: 17 36 33. 7+36. 14+58.
 
@@ -8928,7 +8928,7 @@ Section BERMUDA
 50 35 53 CC Roger. It's 40 feet. Did you get the last one I
 gave you?
 50 35 58 C Negative, I never got 36-4.
-50 36 01 CC Okay. 36-4: 40 ft/sec forward. That's l+06.
+50 36 01 CC Okay. 36-4: 40 ft/sec forward. That's 1+06.
 120 ft/sec aft at 2+31. At 23 38 08. 2+48. 8+43.
 50 36 33 C Roger. Was that 2+48 and 8+43?
 50 36 35 CC Affirmative.
@@ -9850,7 +9850,7 @@ ON for a 48-1 preretro update -
 59 25 56 CC Be advised that you have a critical tape dump and a
 Medical Data Pass Type 1 for the Command Pilot over
 the RKV this pass. 03 hours 14 minutes.
-59 26 10 P Type l for the Command Pilot over RKV.
+59 26 10 P Type 1 for the Command Pilot over RKV.
 59 26 17 P This is Gemini 4.
 59 26 20 CC Roger. Go ahead, Gemini 4.
 59 26 21 P Gemini 4. The Command Pilot is awake now. We will be
@@ -12841,7 +12841,7 @@ All your CLA's and PLA's onboard are still the 60°
 Bank.
 85 37 22 C Roger, understand.
 85 37 25 CC Okay. I have a D-9 update for you. It's a Run
-no. l, Revolution 55 and 56. Start time 05 48 45,
+no. 1, Revolution 55 and 56. Start time 05 48 45,
 use stars of opportunity.
 85 37 50 C Roger. Rev 55, and no. 1, start time 05 48 55 and
 say the last part.
@@ -12931,7 +12931,7 @@ no. 16, at a G.m.t. of 08 hours 11 minutes. Yaw
 12°, pitch 30°, use 16-mm camera. Rev 58, sequence
 12, G.m.t. 09 hours 36 minutes, yaw 3°,
 pitch 30°, use 16-mm camera. Do you copy?
-88 17 47 C Roger. Rev 57, Sequence 16, 08:ll, yaw 12°, pitch
+88 17 47 C Roger. Rev 57, Sequence 16, 08:11, yaw 12°, pitch
 30°, 16-mm camera. Rev 58, sequence 12, 09:36,
 yaw 3°, pitch 30, using 16-mm camera.
 
@@ -14801,7 +14801,7 @@ The main batteries are coming on. Verify RCS propellant
 A and B are ON.
 97 35 13 C Rog.
 97 35 18 P Indicate - Indicate Retro Attitude has been PUSHED.
-Sections l, 2, 3, ... are all ... We're on the
+Sections 1, 2, 3, ... are all ... We're on the
 Main Batteries. And the buses ... all look good.
 Platform, ORBIT RATE.
 97 35 37 C ORBIT RATE.
@@ -14901,7 +14901,7 @@ We're supposed to have ...
 97 39 42 P I'll fire it on their MARK. I think that timing's
 early.
 97 39 47 C Go ahead and arm it.
-97 39 51 CC 10, 9, 8, 7, 6, 5, 4, 3, 2, l, -- retrofire!
+97 39 51 CC 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, -- retrofire!
 97 39 59 P It fired a second early.
 97 40 10 C We're home, buddy.
 97 40 13 CC Gemini 4, do you confirm all retros fired?
