@@ -11613,7 +11613,7 @@ tell you that my batteries all checked out over the
 States. Just after I left the States, I did a
 Battery Check and they all looked normal.
 74 59 05 CC Okay. Very good. You ready to go?
-74 59 06 Go.
+74 59 06 C Go.
 74 59 08 CC 50-4: 55 forward, 71 aft. 1+31. 1+30. 21 40 33.
 3+26. 9+02.
 
@@ -12147,7 +12147,7 @@ Page 315
 blood pressure is good. Start exercise on your
 mark.
 78 25 11 P The main batteries are all 9 and 22 1/2.
-78 25 17 MARK!
+78 25 17 P MARK!
 78 25 23 CC What's your status for the 63 Rev?
 78 25 27 P Our status is GO.
 78 25 29 CC Roger. We are GO on the ground also. I am going
@@ -12648,7 +12648,7 @@ P Roger, got it.
 84 37 04 CC Roger. We have some PLA and CLA data, will you
 prepare to copy?
 84 37 09 P Roger.
-84 37 12 Roger. Area 55-DELTA: 82. 04 34 10. 9+57. Area 55-3: split burn, 55 aft, 109 forward. 1+31. 2+17. 05 15 40. 02+33. 08+47. How's it going?
+84 37 12 CC Roger. Area 55-DELTA: 82. 04 34 10. 9+57. Area 55-3: split burn, 55 aft, 109 forward. 1+31. 2+17. 05 15 40. 02+33. 08+47. How's it going?
 84 38 01 P Roger, we copied.
 84 38 04 CC You copy that last?
 84 38 05 P Roger.
