@@ -7547,7 +7547,7 @@ correct?
 43 33 09   CC    Roger, understand. Are you ready to copy a group
                  of PLA, CLA, updates?
 43 33 13    P    Roger, go ahead.
-43 33 16   CC    30-1: 109. 2+19. 13 00 13. 4+52. 9+40. 31-1: 84 aft will be 42. 2+20. 9+54. 14 34 22. 3+54. 9+18. 32-1: 84 aft wil1 be 56. 2+20. 1+11. 16 08 16. 3+05. 8+53. 33-1: 84 aft will be 68. 2+20. 1+27. 17 42 15. 2+37. 8+49. 29-BRAVO: 84. 50 aft. 2+20. 1+03. 12 16 35. 12+08. 30-BRAVO: 120. 2+32. 13 50 19. 12+29. 34-4: 120. 2+32. 20 29 04. 3+33. 8+55. 31-BRAVO: 95. 2+01. 15 30 09. 11+48. 32-BRAVO: 86. 1+50. 17 05 01. 10+40. 33-BRAVO: 84. 1+47. 18 36 28. 10+01. Over.
+43 33 16   CC    30-1: 109. 2+19. 13 00 13. 4+52. 9+40. 31-1: 84 aft will be 42. 2+20. 9+54. 14 34 22. 3+54. 9+18. 32-1: 84 aft will be 56. 2+20. 1+11. 16 08 16. 3+05. 8+53. 33-1: 84 aft will be 68. 2+20. 1+27. 17 42 15. 2+37. 8+49. 29-BRAVO: 84. 50 aft. 2+20. 1+03. 12 16 35. 12+08. 30-BRAVO: 120. 2+32. 13 50 19. 12+29. 34-4: 120. 2+32. 20 29 04. 3+33. 8+55. 31-BRAVO: 95. 2+01. 15 30 09. 11+48. 32-BRAVO: 86. 1+50. 17 05 01. 10+40. 33-BRAVO: 84. 1+47. 18 36 28. 10+01. Over.
 43 37 09    P    Roger. I got them all except for one quantity 33-1
                  the aft DELTA V.
 43 37 17   CC    Aft DELTA V 68.
@@ -8835,7 +8835,7 @@ probe. How do you read?
 49 49 24 C Stand by just a second.
 49 49 26 CC Okay.
 49 49 32 C Is this Flight Plan or retro times?
-49 49 36 CC These are S-5 and Apol1o Landmark runs.
+49 49 36 CC These are S-5 and Apollo Landmark runs.
 49 49 40 C Okay.
 49 49 43 CC For S-5, it'll be Rev 32 over the States instead of
 Rev 33. The pass will start at 17+40. And I want
@@ -10126,7 +10126,7 @@ please.
 61 35 17 CC Roger. 07 hours 20 minutes 21 seconds.
 61 35 24 P Roger. Got you. 07 20 24 7+50.
 61 35 29 CC Roger. 42 Bravo Split ∆V. 40. 120. 1+07. 2+30. 08 50 48. 8+36. 43 Bravo Split ∆V. 27. 120.
-0+45. 2+30. 10 22 59. l0+01.
+0+45. 2+30. 10 22 59. 10+01.
 61 36 17 P Roger, got 43 Bravo, but did not get the info before,
 did not get any of the information before it.
 
@@ -12227,7 +12227,7 @@ Over.
 78 35 26 CC Roger. D-8 Experiment: Check no. 1. Start at
 23:57. Check no. 2. Start at 01:30. Item no. 4,
 Onboard Map Update: Rev 50, ascending node 102°
-East at G.m.t. of 2l:26. Item no. 5: if possible,
+East at G.m.t. of 21:26. Item no. 5: if possible,
 S-6 photos of tropical storm off the west coast of
 Mexico. Tropical storm Victoria. Item no. 6:
 Delete Apollo Landmark Run no.7. Area is too
@@ -12511,7 +12511,7 @@ Page 324
 81 44 43 CC Roger. Those times I gave you were in error. That
 is 02 hours 45 minutes for your start time, 03 hours
 21 minutes for your stop time.
-81 44 54 P Roger. 02:45 and 03:2l. That -- I copied them also.
+81 44 54 P Roger. 02:45 and 03:21. That -- I copied them also.
 81 44 59 CC Roger.
 81 45 00 P Be advised my last MSC Pass through the anomaly, I
 didn't feel that I had a good yaw reference small-end-forward
@@ -13261,7 +13261,7 @@ inserted.
 91 47 09 C 11:35. Roger.
 91 47 52 CC Command Pilot, Canary CAP COM. Flight wants to know
 if you are planning to sleep now.
-91 47 58 C Roger, I am. In about another l0 or 15 minutes.
+91 47 58 C Roger, I am. In about another 10 or 15 minutes.
 91 48 02 CC Roger.
 91 48 58 CC Gemini 4, Canary CAP COM. Have you been lowering
 your Primary O2 bottle pressure?
@@ -13625,7 +13625,7 @@ going to turn your roll rate gyros off?
 96 10 03 CC Okay. You want your time to 50 000 to drogue deploy
 and to splash?
 96 10 09 C Roger.
-96 10 11 CC Okay. 10+55 to drogue deploy, and 17+l0 to splash.
+96 10 11 CC Okay. 10+55 to drogue deploy, and 17+10 to splash.
 96 10 19 C Roger. How about main chute?
 96 10 23 CC We don't have that one yet.
 96 10 25 C Roger. 10+55 to drogue, 17+55 to splash, and standing
@@ -14291,7 +14291,7 @@ to do?
 OAMS Power, MANEUVER and ATTITUDE.
 97 04 28 C Right.
 97 04 32 P Spacecraft 0-90-0. Okay. We didn't do that before.
-No sweat. Al1 right, we completed that.
+No sweat. All right, we completed that.
 97 04 37 C Right.
 97 04 42 P Okay. Check operation of aft firing thrusters.
 Spacecraft is 0-80-0. OAMS Power, ATTITUDE.
@@ -14560,7 +14560,7 @@ Page 375
 97 21 11 C Okay.
 97 21 13 P Main chute at 12+33.
 97 21 15 C Okay.
-97 21 16 P Landing is 17+l0.
+97 21 16 P Landing is 17+10.
 97 21 18 C Okay. You'll have to call those out to me again
 when we get going.
 97 21 20 P Yes. I've got them all written here.
