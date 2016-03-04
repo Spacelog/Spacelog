@@ -7479,8 +7479,6 @@ correct?
 
 
 	Page 200
-	Approved? True
-198
 
 42 38 43     P   Roger, be advised ... the Command Pilot has started
                  the sleep cycle and I just finished ...
@@ -7520,8 +7518,6 @@ correct?
 
 
 	Page 201
-	Approved? True
-                                                                 199
 
 43 32 05   CC    Roger. Read you loud and clear. Can you give me a
                  little info on how your control went over North
@@ -7556,8 +7552,6 @@ correct?
 
 
 
-	Page 202
-	Approved? True
 	Page 202
 43 37 38 CC Not at this time. You'll get one as you come along.
 43 37 41 P Roger. I'll be looking for another one.
@@ -7597,8 +7591,6 @@ tank pressure?
 
 
 	Page 203
-	Approved? True
-	Page 201
 44 32 14 CC You say 950?
 44 32 16 P That's affirmative. Just a little under.
 
@@ -7636,8 +7628,6 @@ tank pressure?
 
 
 
-	Page 204
-	Approved? True
 	Page 204
 45 48 53 P Houston CAP COM, Gemini 4.
 45 48 56 S Roger. We are receiving your oral temp. We would
@@ -7680,8 +7670,6 @@ OAMS. I say again, with OAMS.
 
 
 	Page 205
-	Approved? True
-	Page 203
 45 54 49 C This is Gemini 4 here. Understand at an elapsed
 time of about 47 hours you want to delete translation
 2-Alpha, Horizon Scan Mode Set Check, and Horizon
@@ -7723,8 +7711,6 @@ passed through Texas and Canaveral (Kennedy).
 
 
 	Page 206
-	Approved? True
-	Page 204
 45 57 37 C Oh, pretty good.
 45 57 39 CC Sound great.
 45 57 41 C Thank you. How are you?
@@ -7763,8 +7749,6 @@ passed through Texas and Canaveral (Kennedy).
 
 
 	Page 207
-	Approved? True
-	Page 205
 46 05 34 C We don't need a push.
 46 05 54 C We don't have any other place to put the oxygen
            except in the cabin. We've just finished doing it
@@ -7803,8 +7787,6 @@ passed through Texas and Canaveral (Kennedy).
 
 
 	Page 208
-	Approved? True
-	Page 206
 46 07 52 CC Okay. Your O<sub>2</sub> usage for the last 24 hours -- correction
 -- over the last 2 or 3 hours has been
 25 percent higher than normal.
@@ -7842,8 +7824,6 @@ recording ...
 46 39 03 C We're in good shape.
 
 
-	Page 209
-	Approved? True
 	Page 209
 46 39 04 CC Roger. You're looking real good here on the ground.
 I'd like a few readouts from you.
@@ -7883,8 +7863,6 @@ Plan.
 
 
 	Page 210
-	Approved? True
-	Page 210
 47 00 55 P That's the Corona Borealis that should be coming up.
 47 00 55 C Yes, that's the one ...
 47 00 57 P Yes.
@@ -7920,8 +7898,6 @@ far enough. There, hold on.
 47 03 31 C ...
 
 
-	Page 211
-	Approved? True
 	Page 211
 47 03 48 P Way up too high for me.
 47 03 50 C Too high?
@@ -7960,8 +7936,6 @@ down lower.
 
 
 	Page 212
-	Approved? True
-	Page 210
 
 47 07 52 P ...
 47 08 38 P It's gone out the top of my window now, Jim. I've
@@ -8000,8 +7974,6 @@ down lower.
 
 
 	Page 213
-	Approved? True
-	Page 213
 47 12 45 P Okay, I got it. But before I can shoot any stars
 I've got to get this stuff behind me, or I won't
 see a star. What are you looking for? Okay. I've
@@ -8037,8 +8009,6 @@ there?
 47 17 23 P I don't think we do. I'm in a good black now.
 
 
-	Page 214
-	Approved? True
 	Page 214
 47 17 26 C ...
 47 17 28 P As far as the shade. I'm shaded enough ...
@@ -8076,8 +8046,6 @@ light.
 47 19 39 P Mine's in sunlight too ...
 
 
-	Page 215
-	Approved? True
 	Page 215
 47 19 47 C Heck, I guess that what we're saying is that ...
 [Experiment] D-9 cannot be done in the daylight.
@@ -8118,8 +8086,6 @@ back to the nighttime and do a little bit more with
 that.
 
 
-	Page 216
-	Approved? True
 	Page 216
 47 23 54 CC Roger, Jim. I want to talk to you about this O<sub>2</sub>
 high usage rate thing.
@@ -8162,8 +8128,6 @@ be concerned about it.
 
 
 	Page 217
-	Approved? True
-	Page 217
 47 27 24 C Okay. I've been plotting it, and it looks like
 we're going to end up with 7 or 8 percent remaining.
 47 27 33 CC Yes, we're just trying to find some way to keep you
@@ -8203,8 +8167,6 @@ think it's this darn 100 percent oxygen. I breathe
 it in and I don't think I've ever been this dry.
 
 
-	Page 218
-	Approved? True
 	Page 218
 With the worst cold I've ever had, where I can't
 breathe through my nose and I sound like I've got
@@ -8248,8 +8210,6 @@ to cage the platform.
 
 
 	Page 219
-	Approved? True
-	Page 219
 47 45 35 C I want to get into ... attitude, Ed, and I want
 you to tell me what you think it is... 00
 attitude pitch, 0 attitude pitch.
@@ -8285,8 +8245,6 @@ we get to ...
 47 49 16 C Okay, I'd say they're right there. ...
 
 
-	Page 220
-	Approved? True
 	Page 220
 47 49 18 P Yes, I'd say we're within a couple of degrees.
 47 49 26 C Okay. Very good. Looks to me like I've yawed left
@@ -8325,8 +8283,6 @@ and I don't see the star.
 47 57 38 P ...
 
 
-	Page 221
-	Approved? True
 	Page 221
 47 57 42 C Yes, I get the distinct impression that the upper
 part of my window is a lot dirtier than the lower
@@ -8368,8 +8324,6 @@ happened to the ...
 
 
 	Page 222
-	Approved? True
-	Page 222
 48 01 02 C Okay ...
 48 01 02 P Try to get up high enough to get the stars ...
 horizon.
@@ -8406,8 +8360,6 @@ up yet?
 
 
 	Page 223
-	Approved? True
-	Page 223
 48 04 26 C I'm going to stop my event time, since we're not
 using it.
 48 08 45 P ...
@@ -8443,8 +8395,6 @@ was looking at is probably Vega.
 
 
 	Page 224
-	Approved? True
-	Page 222
 
 48 13 21 CC Okay. You're looking good here on the ground. How
            are you doing?
@@ -8483,8 +8433,6 @@ was looking at is probably Vega.
 
 
 	Page 225
-	Approved? True
-	Page 223
 48 16 11 P Well, I've had it down ... when I came back.
 48 16 26 C I think I've probably blocked him out, he's too
            high.
@@ -8523,8 +8471,6 @@ was looking at is probably Vega.
 
 
 	Page 226
-	Approved? True
-	Page 224
 48 19 33 P The one time - the other time I tried to use it, I
 got a pretty good measure on it the next time. The
 ... using no filter, I used the top of the glow
@@ -8559,8 +8505,6 @@ those. Say again.
 
 
 	Page 227
-	Approved? True
-	Page 225
 
 48 53 33 C Okay. Got them that time.
 48 53 36 CC Okay. If you will turn your computer on, we'll
@@ -8602,8 +8546,6 @@ those. Say again.
 
 
 	Page 228
-	Approved? True
-	Page 226
 48 56 01 CC Okay, fine. Coming over the States here at G.m.t.
 of 16:11, they'd like you to make some weather
 pictures. There're some thundershowers up north
@@ -8645,8 +8587,6 @@ into it.
 
 
 	Page 229
-	Approved? True
-	Page 227
 
 48 57 38 CC You have a valid load, and you can turn your computer
            off now. That gives you a TR time of 36-4 in
@@ -8688,8 +8628,6 @@ into it.
 
 
 	Page 230
-	Approved? True
-	Page 228
 
 48 59 52 C ...
 48 59 57 CC I can't read you very good right now. Wait until
@@ -8730,8 +8668,6 @@ into it.
 
 
 	Page 231
-	Approved? True
-	Page 229
 49 02 03 CC So do we.
 49 02 05 C Unfortunately -
 49 02 11 CC Are you using VOX, because you are cutting out.
@@ -8770,8 +8706,6 @@ on tape?
 
 
 	Page 232
-	Approved? True
-	Page 230
 49 05 13 C That's right.
 49 05 15 CC On the radio?
 49 05 16 C Roger.
@@ -8808,8 +8742,6 @@ island.
 
 
 	Page 233
-	Approved? True
-	Page 231
 49 14 20 C Okay, I'll look down and see you. I saw you standing
 outside waving.
 
@@ -8844,8 +8776,6 @@ Is that Rev 30?
 
 
 	Page 234
-	Approved? True
-	Page 232
 49 52 07 C ... cups of water in addition to this, since the
 last time I saw you. I had about a 4-hour nap, and
 that's the best sleep I've had so far.
@@ -8882,8 +8812,6 @@ when you're ready to copy.
 
 
 	Page 235
-	Approved? True
-	Page 233
 50 13 12 CC Roger. Rev 33. G.m.t. 18 51 44. Longitude 151°
 East. Did you copy? Over.
 50 13 31 C Roger. Rev 33. G.m.t. 18 51 44. 151° East.
@@ -8919,8 +8847,6 @@ We ran off about 35 or 36 pictures.
 
 
 	Page 236
-	Approved? True
-	Page 234
 	Section BERMUDA
 
 50 35 37 CC Gemini 4, Houston CAP COM.
@@ -8959,8 +8885,6 @@ sleep again.
 
 
 	Page 237
-	Approved? True
-	Page 235
 50 37 47 CC Okay. The other thing is, when you were doing your
 maneuvering during the first orbit, did you get
 that recorded on your onboard tape?
@@ -9001,8 +8925,6 @@ fields around Jacksonville. We took a couple of
 
 
 	Page 238
-	Approved? True
-	Page 236
                pictures of the Cape. Probably one of the best
                pictures we got was one shooting back, and we got
                the whole weather formation along the coastline
@@ -9046,8 +8968,6 @@ fields around Jacksonville. We took a couple of
 
 
 	Page 239
-	Approved? True
-	Page 237
 51 21 45 CC 37-3: 83 forward, 41 aft. 2+18. 0+50. 00 56 11.
 3+48. 9+10.
 51 22 11 P Roger.
@@ -9085,8 +9005,6 @@ already done that.
 
 
 	Page 240
-	Approved? True
-	Page 238
 51 25 40  CC  Okay, it looks real good here on the ground.
 51 25 42  P   Roger.
 51 25 46  C   Carnarvon, Gemini 4.
@@ -9123,8 +9041,6 @@ already done that.
 
 
 	Page 241
-	Approved? True
-	Page 239
 51 47 05 C Roger. Say that again, you're oscillating.
 51 47 09 CC Roger, request a cabin humidity reading and a
 hatch temperature reading.
@@ -9163,8 +9079,6 @@ last?
 
 
 	Page 242
-	Approved? True
-	Page 240
 51 57 07 C It looks like ... over to the right about 10° ...
 51 57 54 CC Gemini 4, this is Houston CAP COM.
 51 58 02 CC Gemini 4, Houston CAP COM.
@@ -9202,8 +9116,6 @@ you? Here, let me see if I can get it.
 
 
 	Page 243
-	Approved? True
-	Page 241
 52 02 58 C ...
 52 03 00 P All right. See if you can pick up ...
 52 03 02 C I'm going to track on the --see that white spot up
@@ -9242,8 +9154,6 @@ the horizon changes between sunset and sunrise.
 
 
 	Page 244
-	Approved? True
-	Page 242
 52 25 18 C ...
 52 25 20 P Man, I can't see anything now.
 52 25 33 CC Gemini 4, Houston CAP COM.
@@ -9279,8 +9189,6 @@ right.
 
 
 	Page 245
-	Approved? True
-	Page 243
 52 28 07 C It's going up now?
 52 28 09 P Got to go faster. It's going up faster than we are.
 52 28 13 CC Gemini 4, Houston CAP COM. Over.
@@ -9318,8 +9226,6 @@ gone.
 
 
 	Page 246
-	Approved? True
-	Page 244
 52 31 45 P Right now, both of them. I think it's such a dark
 night.
 52 31 53 P The green filter I have cut out most of the airglow.
@@ -9357,8 +9263,6 @@ and stuff.
 
 
 	Page 247
-	Approved? True
-	Page 245
 52 37 05 C What?
 52 37 36 C Got them yet?
 52 37 40 C What?
@@ -9395,8 +9299,6 @@ P ...
 
 
 	Page 248
-	Approved? True
-	Page 246
 52 43 06 CC Gemini 4, Houston CAP COM Over.
 52 43 07 C Say again ... 16 minutes.
 52 43 12 C Okay now. Use that curve.
@@ -9432,8 +9334,6 @@ Did you get the reading?
 
 
 	Page 249
-	Approved? True
-	Page 247
 52 50 15 C Okay. Rigil Kentauri is one them. -- which one
 is Rigil Kentauri?
 52 50 35 C ... get away an attitude.
@@ -9472,8 +9372,6 @@ gyrations ...
 
 
 	Page 250
-	Approved? True
-	Page 248
 53 03 45 C 27. What?
 53 04 03 C What did you hear that time?
 53 04 21 C No filter the first time, right?
@@ -9511,8 +9409,6 @@ again?
 
 
 	Page 251
-	Approved? True
-	Page 249
 53 13 52 S Roger. We got a good blood pressure. You can start
 your exercise on your mark.
 53 14 19 S Gemini 4, Surgeon. Do you read?
@@ -9552,8 +9448,6 @@ finished A-1 and the first part of A-2?
 
 
 	Page 252
-	Approved? True
-	Page 250
 53 17 34 S Gemini 4, Surgeon, CSQ Surgeon. Would you repeat
 your eating?
 53 21 21 P I'd like to comment a little on the sextant. Its
@@ -9600,8 +9494,6 @@ measure the bottom of the airglow.
 
 
 	Page 253
-	Approved? True
-	Page 251
 53 32 05 CC Roger, Jim We would like to get a readout on your
 OAMS source pressure, temperature, and your quantity
 gage.
@@ -9639,8 +9531,6 @@ California?
 
 
 	Page 254
-	Approved? True
-	Page 252
 53 36 00 C Okay. Must be that microphone.
 53 36 03 C I say, clouds run a third of the way between Hawaii
 and California.
@@ -9679,8 +9569,6 @@ data pass over Hawaii, the next Rev.
 
 
 	Page 255
-	Approved? True
-	Page 253
 54 46 21 C Just a second. I'll give you the battery status.
 54 46 24 CC Roger.
 54 46 36 CC Be advised, you can turn your computer and Quantity
@@ -9720,8 +9608,6 @@ Experiment data for you.
 
 
 	Page 256
-	Approved? True
-	Page 254
 54 50 29 C Roger, stand by until I get my time hack.
 54 50 32 CC We're going to have an LOS, I believe. I'll let
 Hawaii give you a G.m.t. time hack. I think we'll
@@ -9756,8 +9642,6 @@ period.
 
 
 	Page 257
-	Approved? False
-	Page 255
 	Section GUAYMAS
 
 55 06 00 CC Gemini 4, Guaymas CAP COM.
@@ -9789,8 +9673,6 @@ period.
 
 
 	Page 258
-	Approved? True
-	Page 256
 58 04 44 CC Gemini 4, Hawaii CAP COM.
 58 04 49 C Go ahead.
 58 04 50 CC Roger. I have a 48-1 load for you, if you will
@@ -9827,8 +9709,6 @@ sunset picture of the ...
 59 23 12 P Right.
 
 
-	Page 259
-	Approved? True
 	Page 259
 59 23 14 P Jim just saw another satellite. He hasn't described
  it to us yet as he did the other one. This was at
@@ -9871,8 +9751,6 @@ States.
 
 
 	Page 260
-	Approved? True
-	Page 258
 59 27 11 P ...
 59 27 14 CC Roger.
 59 27 17 C This is Gemini 4 again. I saw another satellite up there.
@@ -9896,8 +9774,6 @@ States.
 
 
 	Page 261
-	Approved? True
-	Page 259
 59 31 04 P No, I blocked out again on that one. Out out.
 59 31 09 CC Roger. I'll say again. 41-DELTA: 83. 30:09. 8+58. 15+01.
 59 31 28 CC Go ahead.
@@ -9934,8 +9810,6 @@ a mark when you're ready for your exercise.
 
 
 	Page 262
-	Approved? True
-	Page 260
 60 01 09 S Gemini 4, RKV.
 60 01 10 P Are you getting the oral temperature and the blood
  pressure?
@@ -9974,8 +9848,6 @@ zipper is no longer effective in the container.
 
 
 	Page 263
-	Approved? True
-	Page 261
 60 24 17 P Position 4.
 P Position 5.
 60 26 14 P Position 6, complete for test, D-8, for the 4th run
@@ -10015,8 +9887,6 @@ a good oral temp on the Pilot. Stand by for Surgeon.
 
 
 	Page 264
-	Approved? True
-	Page 262
 61 00 16 S Gemini, this is Surgeon. CSQ Surgeon calling Gemini.
 61 00 19 P Roger, CSQ Surgeon. Gemini 4.
 61 00 22 S Roger. Pilot. We have a good temperature for you.
@@ -10053,8 +9923,6 @@ Did you copy, Gemini?
 
 
 	Page 265
-	Approved? True
-	Page 263
 	Section CANTON
 
 61 09 41 P Canton. Gemini 4.
@@ -10092,8 +9960,6 @@ are badly broken up at this time.
 
 
 	Page 266
-	Approved? True
-	Page 264
 61 14 18 CC Roger. So are you.
 61 14 26 CC Did you copy 40 Delta? Over.
 61 14 46 CC Gemini 4, this is Houston. We rill get the rest to
@@ -10130,8 +9996,6 @@ did not get any of the information before it.
 
 
 	Page 267
-	Approved? True
-	Page 265
 61 36 25 CC Roger, I say again, 42 Bravo Split ∆V. 40. 120.
 1+O7. 2+30. 08 50 48. 8+36.
 61 36 58 P Got most of that. Say again GMTRC.
@@ -10170,8 +10034,6 @@ Run no. 2.
 
 
 	Page 268
-	Approved? True
-	Page 266
 62 03 38 CC Roger, that's all.
 62 03 44 P Am I to understand that we are authorized to use fuel on that one?
 62 03 47 CC That's affirmative. Use fuel.
@@ -10200,8 +10062,6 @@ Run no. 2.
 
 
 	Page 269
-	Approved? True
-	Page 267
 63 33 54 P Houston CAP COM, Gemini 4. Say again, please. You
 were blocked out.
 63 34 00 CC Roger. Rev 42, longitude 31° West, G.m.t. 06 40 35.
@@ -10243,8 +10103,6 @@ came on at 06 - 07:05. It took 5 minutes to
 
 
 	Page 270
-	Approved? True
-	Page 268
 extinguish it. Ring B came on at 07:20, and it also
 took 5 minutes to extinguish it. Ring B came on at
 07:37 and it took 5 minutes, and Ring A came on at
@@ -10286,8 +10144,6 @@ your Aero-Med Pass 1. Meet my Surgeon on UHF.
 
 
 	Page 271
-	Approved? True
-	Page 269
 65 02 12 P Go ahead, Canary. Gemini 4.
 65 02 14 S Request that Pilot pump up blood pressure cuff.
 65 02 27 S Cuff is full-scale.
@@ -10325,8 +10181,6 @@ by for you.
 
 
 	Page 272
-	Approved? True
-	Page 270
 66 16 18 S Is the Command Pilot still sleeping.
 66 16 19 P He's just getting up. Did you want a medical pass
 on him?
@@ -10367,8 +10221,6 @@ running over there? Is the light on?
 
 
 	Page 273
-	Approved? True
-	Page 271
 66 19 26 C Okay, want to comment on our food. So far every
 orange juice bag, every bag that I have put water
 into that has had orange juice in it in any form,
@@ -10411,8 +10263,6 @@ plan on powering up the Platform at 67:40
 
 
 	Page 274
-	Approved? True
-	Page 272
  elapsed time. Thats 67+40 elapsed time for 
  approximately 2 hours. We'll have a revised Flight Plan
  for you shortly.
@@ -10453,8 +10303,6 @@ ready to copy.
 
 
 	Page 275
-	Approved? True
-	Page 273
 66 35 54 CC Roger. 45-1: 101. 2+08. 12 37 50. 5+36. 10+33. 46-1: 114. 2+25 14 12 47. 4+05. 9+33. 47-1: Fore and aft firing thrusters. 08 and 120. 0+14 and 2+30. 15 46 36. 3+17. 8+37. 48-1: Fore and aft thrusters. 24 and 120. 0+40 and 230, correction 2+30. 17 20 19. 2+42. 8+43. 49-4: 111. 2+21. 20 06 48. 4+11. 9+46. 44 BRAVO: Fore and aft firing thrusters 14 and 120. 0+24 and 2+30. 11 55 47. 11+10 ... 5: 120. 2+30. 13 29 13. 11+42. 46 BRAVO: 94. 1. 15 08 39. 11+30. 47 BRAVO: 85. 1+48. 16 42 35. 10+36. 48 BRAVO: 82. 1+45. 18 13 36. 10+05. And that's all. Did you copy?
 66 39 59 C Affirmative, I copied.
 66 40 53 CC Gemini 4, Canary CAP COM.
@@ -10484,8 +10332,6 @@ C Okay, that happened last time -
 
 
 	Page 276
-	Approved? True
-	Page 274
 P In Texas.
 66 50 30 C Yeah. Now that we know where (illegible) will be a lot easier the next time around. The first time we looked for Cairo - for Cairo and Alexandria, we found that (illegible) a while. I never did really see the airfield. I just saw the area. I guessed if I pointed the camera right, I'd have a picture of Cairo. But this time I actually picked up the airfield. Same thing with
 Alexandria. I think if you are going to take a
@@ -10520,8 +10366,6 @@ alinement.
 
 
 	Page 277
-	Approved? True
-	Page 275
 67 12 30 C Carnarvan, I'm not reading you. Was I supposed to do MSC no. 1 and
 MSC no. 10, or just MSC-10?
 67 12 45 CC MSC-1 will go ON at that time, and you're to do
@@ -10561,8 +10405,6 @@ here.
 
 
 	Page 278
-	Approved? True
-	Page 276
 67 16 15 C We just started up the platform, it will take it
 about 30 minutes to come up before we can start
 alining it.
@@ -10603,8 +10445,6 @@ anyway.
 
 
 	Page 279
-	Approved? True
-	Page 277
 67 49 19 C Okay. Now it looks like - Okay, the weather on the
 horizon -- clouds, clouds on the horizon on the left
 hand side of the picture, I can see the clouds right
@@ -10643,8 +10483,6 @@ out like he said. I remember he said ...
 
 
 	Page 280
-	Approved? True
-	Page 278
 67 52 37 C Coming up on the time.
 67 52 44 P Yes.
 67 52 47 C MARK!
@@ -10683,8 +10521,6 @@ Check.
 
 
 	Page 281
-	Approved? True
-	Page 279
 67 59 51 C Platform Attitude Malfunction light came on at
 11:15 - 11:15.
 67 59 54 P The attitude of the sun was about 40° above the
@@ -10723,8 +10559,6 @@ marked on the event.
 
 
 	Page 282
-	Approved? True
-	Page 280
 68 04 01 CC Gemini 4, Houston. Could you give us the approximate
 time you commenced platform alinement?
 68 08 35 P The timer, I think, hangs up to magazine. Somehow,
@@ -10764,8 +10598,6 @@ ever since we took off.
 
 
 	Page 283
-	Approved? True
-	Page 281
 68 11 52 CC Everything looks good from here.
 68 11 55 C Okay, same here.
 68 13 06 C We're taking the 6 set here. Photographs at 11:25.
@@ -10805,8 +10637,6 @@ see is thunderstorms.
 
 
 	Page 284
-	Approved? True
-	Page 282
 68 44 04 C Wow!
 68 44 05 CC They need it.
 68 44 09 C Did you get it all today?
@@ -10844,8 +10674,6 @@ guess it wasn't too much trouble.
 
 
 	Page 285
-	Approved? True
-	Page 283
 68 50 22 C I see some lights shining on the clouds down below
 me at this time.
 68 50 23 CC All right. That should be Melbourne.
@@ -10884,8 +10712,6 @@ with face-plates open and gloves off.
 
 
 	Page 286
-	Approved? True
-	Page 284
 69 28 34 P Affirmative.
 69 28 37 CC Roger. We would like to know how much colored
 film remains. Just an estimate - for the Hasselblad
@@ -10925,8 +10751,6 @@ man.
 
 
 	Page 287
-	Approved? True
-	Page 285
 69 30 41 C You're making me stay up here until we burn out the
 fuel.
 69 30 44 CC Right.
@@ -10966,8 +10790,6 @@ so far.
 
 
 	Page 288
-	Approved? True
-	Page 286
 69 34 16 C I've used 15 out of 107
 69 34 20 CC Yes, 15 out of 10 available for these checks.
 69 34 25 C No, we haven't used that much at all.
@@ -11003,8 +10825,6 @@ we didn't get any break lock on the scanner.
 
 
 	Page 289
-	Approved? True
-	Page 287
 	Section CARNARVON
 
 70 16 58 CC Gemini 4, Carnarvon CAP COM.
@@ -11043,8 +10863,6 @@ we got a valid blood pressure.
 
 
 	Page 290
-	Approved? True
-	Page 288
 70 19 54 CC Stand by for Surgeon.
 70 19 56 S This is the Carnarvon Surgeon. Take your exercise
 on your mark.
@@ -11083,8 +10901,6 @@ up.
 
 
 	Page 291
-	Approved? True
-	Page 289
 70 22 49 CC Say again.
 70 22 51 C We're pointing straight down.
 70 22 53 C Roger. Got that.
@@ -11122,8 +10938,6 @@ of opportunity at your own option.
 
 
 	Page 292
-	Approved? True
-	Page 290
 70 59 31 C Okay, Ed's got it ... I don't think we can get
 anything exciting ...
 70 59 40 CC Rog, and concerning S-5 and S-6 you'll have some
@@ -11161,8 +10975,6 @@ for any clouds again.
 
 
 	Page 293
-	Approved? True
-	Page 291
 71 16 50 C You have what?
 71 16 52 CC We have you ...
 71 16 54 C That's affirmative. I'm looking for some blood
@@ -11200,8 +11012,6 @@ you to do.
 
 
 	Page 294
-	Approved? True
-	Page 292
 71 52 13 C Stand by, let me find my data book.
 71 52 16 CC Okay, reach up and grab it.
 
@@ -11240,8 +11050,6 @@ see what they are talking about.
 
 
 	Page 295
-	Approved? True
-	Page 293
 71 53 43 C I have my T/M ...
 71 53 47 CC Okay, we have good T/M. Hold up a second. I want
 to talk to Flight.
@@ -11279,8 +11087,6 @@ couple of meals in the last 2 hours.
 
 
 	Page 296
-	Approved? True
-	Page 294
 72 32 52 C That's right. Now, I've been asleep for about 2 or
 3 hours. Ed's going to sleep for about 5 or 6 here,
 so I probably won't be going again for 6 or 7.
@@ -11325,8 +11131,6 @@ the ... cover to keep the light out of our eyes.
 
 
 	Page 297
-	Approved? True
-	Page 295
 72 37 44 CC Roger.
 72 37 47 C The humidity stays down around 50 percent.
 72 37 52 CC Roger. Okay, Jim, we decided that you've got a little
@@ -11368,8 +11172,6 @@ Use your reticle.
 
 
 	Page 298
-	Approved? True
-	Page 296
 72 39 50 CC Okay. Your Orbit Nav Runs 9 and 10 do as scheduled
 in the Flight Plan. Do it just as you previously
 planned to do it. Just for information, 9 is scheduled
@@ -11410,8 +11212,6 @@ about that?
 
 
 	Page 299
-	Approved? True
-	Page 297
 72 42 17 C Actually the last 12 hours or more, maybe as much
 as 24, we haven't been too careful about keeping
 our face-plate closed and our ... bands up because
@@ -11456,8 +11256,6 @@ about 18 and 36 hours.
 
 
 	Page 300
-	Approved? True
-	Page 298
 	Section CARNARVON
 
 73 25 04 CC Gemini 4, Carnarvon CAP COM. You look good here on
@@ -11495,8 +11293,6 @@ but I can't put the two together.
 
 
 	Page 301
-	Approved? True
-	Page 299
 74 09 36 CC Okay, 25 ft/sec forward, 41 sec 120 aft, 2+32.
 At 23+16+02. 2+42. 8+45. Then without burn
 23+10+17. 7+05. 14+17.
@@ -11536,8 +11332,6 @@ trying to do that?
 
 
 	Page 302
-	Approved? True
-	Page 300
 74 12 08 C I tell you what, why don't I wait and get it at
 Canaries. How about that?
 74 12 12 CC Yes, that's a good idea.
@@ -11578,8 +11372,6 @@ Center?
 
 
 	Page 303
-	Approved? True
-	Page 301
 74 14 19 CC Hey, Jim --
 74 14 26 CC Gemini 4, CAP COM.
 74 15 03 CC Gemini 4.
@@ -11619,8 +11411,6 @@ Battery Check and they all looked normal.
 
 
 	Page 304
-	Approved? True
-	Page 302
 74 59 24 C Okay.
 74 59 32 CC 52-3: 113. 2+24. 00 33 33. 4+03. 9+25.
 74 59 56 C Okay.
@@ -11655,8 +11445,6 @@ get that later.
 
 
 	Page 305
-	Approved? True
-	Page 303
 75 03 11 C You said it, not me.
 75 03 14 CC I did it again.
 75 03 58 CC We'd like to know if your partner's been sleeping
@@ -11694,8 +11482,6 @@ you here.
 
 
 	Page 306
-	Approved? True
-	Page 304
 75 43 15 P Rog.
 75 43 16 CC This concerns the Zodiacal Light Experiment which
 is going to be on "5", and they want to find out if
@@ -11740,8 +11526,6 @@ Force Run no. 4?
 
 
 	Page 307
-	Approved? True
-	Page 305
 75 45 45 C Okay. When are we going to do the Apollo Run 4?
 That one where we take all those stars.
 75 45 50 CC Didn't you do it?
@@ -11782,8 +11566,6 @@ switch OFF?
 
 
 	Page 308
-	Approved? True
-	Page 306
 75 48 30 C You say that you still show that the computer is on?
 75 48 32 CC That's what we show here.
 75 48 34 C Okay.
@@ -11820,8 +11602,6 @@ Okay?
 
 
 	Page 309
-	Approved? True
-	Page 307
 75 50 41 C Okay. I'll leave it OFF - switch OFF, in Prelaunch,
 with the Computer light burning. Actually, the computer's
 on, I guess.
@@ -11859,8 +11639,6 @@ Switch ON and your AC Power Switch in ACME.
 
 
 	Page 310
-	Approved? True
-	Page 308
 76 04 40 CC Gemini 4, this is Houston CAP COM. If you're transmitting,
 we're not receiving, but we'd like for you
 to leave your Computer Switch ON, your AC Power
@@ -11900,8 +11678,6 @@ position.
 
 
 	Page 311
-	Approved? True
-	Page 309
 76 35 39 C Carnarvon, how do you read Gemini 4?
 76 35 41 CC Read you loud and clear. How me?
 76 35 46 CC Go ahead Gemini 4. Read you loud and clear.
@@ -11939,8 +11715,6 @@ Light?
 
 
 	Page 312
-	Approved? True
-	Page 310
 76 52 27 C  CSQ, Gemini 4.
 76 52 28 CC Roger. Do you have a Computer Malfunction Light
 on now?
@@ -11982,8 +11756,6 @@ electrical power.
 
 
 	Page 313
-	Approved? True
-	Page 311
 77 01 09 CC Roger. Stand by.
 77 01 17 CC Roger. Flight reports that you are doing great.
 77 01 22 C Above or below the predicted?
@@ -12021,8 +11793,6 @@ on now, and it won't go out.
 
 
 	Page 314
-	Approved? True
-	Page 312
 77 10 13 CC Roger. I'm not receiving T/M. I'm getting it intermittently
 now.
 77 10 33 CC Gemini 4, Guaymas CAP COM. We're standing by for
@@ -12061,8 +11831,6 @@ turns off your Mal light. Over on your left panel.
 
 
 	Page 315
-	Approved? True
-	Page 313
 77 14 20 CC Gemini 4, Houston CAP COM.
 77 14 38 CC Gemini 4, Houston CAP COM.
 77 14 40 C Go ahead Houston, Gemini 4. I'm reading you loud
@@ -12102,8 +11870,6 @@ a couple of seconds -- just like there's a malfunction.
 
 
 	Page 316
-	Approved? True
-	Page 314
 77 17 44 CC Okay, Jim. Go ahead and put your AC Power Switch
 to ACME. Leave your Computer Switch ON.
 77 17 49 C Leave the Computer Switch ON. Okay.
@@ -12137,8 +11903,6 @@ give us the blood pressure.
 
 
 	Page 317
-	Approved? True
-	Page 315
 78 24 35 CC Gemini 4 Pilot, CSQ. Do you copy?
 78 24 42 P Go ahead. This is the Pilot.
 78 24 44 CC Roger. What is the status on your main batteries?
@@ -12175,8 +11939,6 @@ to copy.
 
 
 	Page 318
-	Approved? True
-	Page 316
 78 27 10 C I guess I've been drinking water, and I've had a
 meal. As a matter of fact, I'm half way through a
 meal. I started one, and we got involved in an experiment.
@@ -12215,8 +11977,6 @@ breaking up.
 
 
 	Page 319
-	Approved? True
-	Page 317
 78 33 36 CC Roger. Item 2: MSC-2 and -3. SEF pass start at
 23:49 Zulu. End at 00:15. Rev 52. Did you copy?
 Over.
@@ -12259,8 +12019,6 @@ the seat.
 
 
 	Page 320
-	Approved? True
-	Page 320
 78 45 08 C We're going to put the gun back in our center food
 box.
 78 45 14 CC Roger.
@@ -12299,8 +12057,6 @@ refuse weighs.
 
 
 	Page 321
-	Approved? True
-	Page 319
 78 46 47 CC I'll pass that along.
 78 46 50 C ... the packages that the food came in, the defecation
 bags, and a lot of waste paper like that.
@@ -12338,8 +12094,6 @@ intervals of 5 to 10 minutes.
 80 00 30 CC Roger.
 
 
-	Page 322
-	Approved? True
 	Page 322
 80 00 36 C If we get that thing operating again, do you want
 us to leave it to operate.
@@ -12380,8 +12134,6 @@ computer.
 
 
 	Page 323
-	Approved? True
-	Page 321
 80 09 32 P That's affirmative. The procedure was given to me
 10 minutes ago. I have 10 more minutes to wait until
 I try to reset.
@@ -12421,8 +12173,6 @@ Mode.
 
 
 	Page 324
-	Approved? True
-	Page 322
 81 30 32 CC Roger. Ground will follow trend data and advise
 you later.
 81 30 36 P Roger, I understand.
@@ -12460,8 +12210,6 @@ our Surgeon.
 
 
 	Page 325
-	Approved? True
-	Page 323
 81 39 48 S We're having some difficulty recording blood pressure
 on the ground, but our data is being remoted
 to Houston. So let's try it once more.
@@ -12500,8 +12248,6 @@ ready to copy.
 
 
 	Page 326
-	Approved? True
-	Page 324
 81 44 15 P Roger. Understand Apollo Run 4 is 00 02 45, 00 03 21.
 81 44 20 CC That's it.
 81 44 37 CC Gemini 4, Hawaii CAP COM.
@@ -12539,8 +12285,6 @@ Do you have that message for me?
 
 
 	Page 327
-	Approved? True
-	Page 325
 82 02 40 CC Roger. We sure do. Indications are that the system
 is beginning to warm up somewhat and we feel
 that the computer will come on before long.
@@ -12580,8 +12324,6 @@ left.
 
 
 	Page 328
-	Approved? True
-	Page 326
 82 05 47 P Roger RKV. Thank you.
 82 08 10 P RKV, this is Gemini 4.
 82 08 21 CC Gemini 4, RKV.
@@ -12619,8 +12361,6 @@ go back to track it.
 
 
 	Page 329
-	Approved? True
-	Page 327
 83 04 38 CC Roger. We will do.
 83 05 00 CC Gemini 4, CSQ. Had you spotted Pegasus?
 83 05 07 C Negative. I'm trying to.
@@ -12657,8 +12397,6 @@ prepare to copy?
 
 
 	Page 330
-	Approved? True
-	Page 328
 
 84 39 00 P Roger.
 84 39 02 CC 56-BRAVO: split burn, 55 forward, 106 aft. 1+31. 2+15. 06 57 55. 6+42. Area 57-BRAVO: split burn, 55 forward, 103 aft. 1. 1+31. 2+10. 08 27 38. 7+22. Do you copy?
@@ -12690,8 +12428,6 @@ Apollo D-9.
 
 
 	Page 331
-	Approved? True
-	Page 329
 84 47 26 C Roger. Stand by one, please. On the Apollo D-9
 Run 4 we had Antares and Scorpii. And we made a
 long run on that one and a short one. We made also
@@ -12735,8 +12471,6 @@ your latest relative humidity.
 
 
 	Page 332
-	Approved? True
-	Page 330
 84 53 04 C Houston, Gemini 4. The humidity reading is
 79 dry bulb, 62 wet bulb.
 84 53 11 CC Say again your wet bulb.
@@ -12773,8 +12507,6 @@ time of that will be approximately 05 hours 58 minutes.
 
 
 	Page 333
-	Approved? True
-	Page 331
 85 12 02 P You might find out if they want to get a Type 1
 Medical Pass on the Pilot yet. I'll be going to
 sleep probably in a little bit.
@@ -12813,8 +12545,6 @@ Playback Switch to RESET, please.
 
 
 	Page 334
-	Approved? True
-	Page 332
 85 35 13 CC Roger. I'd like to give you a little briefing what we came up with for the terminal reentry maneuver. Are you copying me clearly?
 85 35 34 C ...
 85 35 36 CC Okay. We looked at all the possible possibilities
@@ -12855,8 +12585,6 @@ ground to answer with regards to your reentry?
 
 
 	Page 335
-	Approved? True
-	Page 333
 85 38 48 CC Gemini 4, this is Houston. We passed up this reentry
 so you two could talk it over and come back
 later on if you have any questions. For your information,
@@ -12893,8 +12621,6 @@ by for your food, water, and sleep report.
 
 
 	Page 336
-	Approved? True
-	Page 334
 86 47 10 C Roger. Gemini 4 here. This is the Command Pilot.
 I Just finished about a 5 and a half hour nap of
 which the last 3 hours of sleep were quite good.
@@ -12937,8 +12663,6 @@ yaw 3°, pitch 30, using 16-mm camera.
 
 
 	Page 337
-	Approved? True
-	Page 335
 88 18 07 CC That's affirmative. We also have the computer test
 for you. Are you prepared to copy?
 88 18 12 C Go ahead.
@@ -12983,8 +12707,6 @@ that computer.
 
 
 	Page 338
-	Approved? True
-	Page 336
 88 21 58 CC Okay. We understand.
 88 22 01 C ... on the second test.
 88 22 32 CC Gemini 4, on this insertion of the IVI's, you are
@@ -13023,8 +12745,6 @@ we turned the power OFF with the switch stuck ON.
 
 
 	Page 339
-	Approved? True
-	Page 337
 88 40 25 CC Say again.
 88 40 27 C I said I think that computer died when we turned
 the power OFF with the switch stuck in the ON position.
@@ -13070,8 +12790,6 @@ P ... nice shot.
 
 
 	Page 340
-	Approved? True
-	Page 338
 90 00 39 CC Roger, hello there, Jim. We'd like a sub-quantity
 readout, please.
 90 00 48 C Roger. Propellant quantity readout. Just a minute.
@@ -13112,8 +12830,6 @@ done. So why don't we go ahead with it?
 
 
 	Page 341
-	Approved? True
-	Page 339
 90 03 19 CC Roger. Here is the format which we'll send up to
 you for a rolling reentry. We'll give you the ∆V
 and ∆T for your OAMS burn. We'll give you the GMTRC.
@@ -13157,8 +12873,6 @@ of 63-1.
 
 
 	Page 342
-	Approved? True
-	Page 340
 90 05 40 C That's affirmative. Don't change those; we just
  want the final one.
 90 05 45 CC Roger, that'll come up just as it has been coming
@@ -13197,8 +12911,6 @@ And that's it. Do you have it?
 
 
 	Page 343
-	Approved? True
-	Page 341
 90 16 03 C I'd like to have you remind the Assistant Flight
 Director that we're not going to be able to read out
 any ∆V. It will be just on OAMS firing on time.
@@ -13236,8 +12948,6 @@ along here and I'll tell you.
 
 
 	Page 344
-	Approved? True
-	Page 342
 91 32 59 CC Gemini 4, Gemini 4, Houston CAP COM. Over.
 91 33 06 C Go ahead Houston, Gemini 4.
 91 33 08 CC Roger, Jim. We'd like your Quantity Read Switch ON
@@ -13274,8 +12984,6 @@ Thank you.
 
 
 	Page 345
-	Approved? True
-	Page 343
 	Section CARNARVON
 
 92 19 17 CC Gemini 4, Carnarvon CAP COM.
@@ -13314,8 +13022,6 @@ here.
 
 
 	Page 346
-	Approved? True
-	Page 344
 92 24 13 CC Real fine. The weather has cleared up and everybody's
 happy. We're standing by for you.
 92 24 15 P Roger. Did it finally stop raining?
@@ -13354,8 +13060,6 @@ then let you back it up.
 
 
 	Page 347
-	Approved? True
-	Page 345
 93 04 21 P Pretty good. Had a good night's sleep and ...
 water.
 93 04 25 CC Roger. We're discussing this reentry profile and
@@ -13394,8 +13098,6 @@ your systems still GO?
 
 
 	Page 348
-	Approved? True
-	Page 346
 93 53 11 CC Roger, we'd like you to take and place your Reentry
 C-band Beacon to the CONTINUOUS position.
 93 53 17 P Roger. We have the C-band going to CONTINUOUS.
@@ -13431,8 +13133,6 @@ ready to copy.
 
 
 	Page 349
-	Approved? True
-	Page 347
 94 35 14 P Go ahead Houston, Gemini 4.
 94 35 17 CC Roger, turn your Quantity Read Switch ON please,
 and we'd like a propellant quantity readout.
@@ -13473,8 +13173,6 @@ pressure.
 
 
 	Page 350
-	Approved? True
-	Page 348
 94 38 09 P Roger, that's what we got.
 94 38 37 C Hey, Houston, Gemini 4.
 94 38 38 CC Go ahead, Gemini 4.
@@ -13514,8 +13212,6 @@ If I were you, I'd be looking for a little excitement.
 
 
 	Page 351
-	Approved? True
-	Page 349
 94 41 27 CC With this zero-lift reentry, we'll be able to predict
 your IP and have the recovery forces moving
 to your landing point about 15 minutes before you
@@ -13555,8 +13251,6 @@ Standing by for your food, water, and sleep reports
 since your last Medical Data Pass.
 
 	Page 352
-	Approved? False
-	Page 350
 94 54 59 C Roger. I'm preparing to eat meal 3 of the 4th day.
 I've had 6 swallows of water and I had a very sound
 5 hours of sleep.
@@ -13595,8 +13289,6 @@ and 38 seconds.
 
 
 	Page 353
-	Approved? True
-	Page 351
 96 08 30 CC Roger. Your time without OAMS is 16 50 40. 7+03.
 96 08 45 P Roger. Is that 16 50 40? 7+03?
 96 08 51 CC Affirmative. Your attitude at 400 K should be -- on
@@ -13637,8 +13329,6 @@ that you're short of your OAMS burn.
 
 
 	Page 354
-	Approved? True
-	Page 352
 96 10 59 CC No, it never was, Jim.
 96 11 02 C It was about a week ago.
 96 11 06 CC This is a new week.
@@ -13680,8 +13370,6 @@ you every 15 minutes in the water. Affirm?
 
 
 	Page 355
-	Approved? True
-	Page 353
 96 12 58 S Gemini 4, this is Houston Surgeon. Do you read?
 96 13 02 C I got that Surgeon. We remember what they are.
 96 13 28 S Gemini 4, this is Houston Surgeon.
@@ -13720,8 +13408,6 @@ part comes after you get back to the States.
 
 
 	Page 356
-	Approved? True
-	Page 354
 BERMUDA
 96 16 00 C Listen, I just won't shave. I'm so pretty now nobody
  will like me again.
@@ -13758,8 +13444,6 @@ did I do with my glove? Here they are, here.
 
 
 	Page 357
-	Approved? True
-	Page 355
 96 17 51 CC We'll be losing you in about 2 minutes here. Hawaii
 will get your OAMS burn, and Guaymes will count you
 down to retrofire.
@@ -13796,8 +13480,6 @@ down here.
 
 
 	Page 358
-	Approved? True
-	Page 356
 96 20 02 C Just like they are. No, they are all right now.
 96 20 04 P Oh!
 96 20 06 C Just pull them down.
@@ -13836,8 +13518,6 @@ Oh, give me that ...
 
 
 	Page 359
-	Approved? True
-	Page 357
 96 23 59 C This you mean?
 96 24 02 P No, the extra meal. We had an extra meal.
 96 24 04 C Yes.
@@ -13876,8 +13556,6 @@ to plot out the ...
 
 
 	Page 360
-	Approved? True
-	Page 358
 96 27 45 P ... time?
 96 27 46 C Yes.
 96 27 47 P Well, I've just got to multiply it by two, Jim,
@@ -13918,8 +13596,6 @@ I break a Pilot ... up to you. You'll
 
 
 	Page 361
-	Approved? True
-	Page 359
 remove your survival gear from the left hatch and
 close and lock the hatch. And you attach the right
 ... That's the last thing in the world that I
@@ -13957,8 +13633,6 @@ pre-retro checklist dump.
 
 
 	Page 362
-	Approved? True
-	Page 360
 96 32 50 C Okay, here. Stow this away, and we'll go through
 the Preretro Checklist and we'll do it for real.
 No skips.
@@ -13995,8 +13669,6 @@ belt.
 
 
 	Page 363
-	Approved? True
-	Page 361
 96 34 19 P Yes.
 96 34 21 C Got your shoulder harness now?
 96 34 22 P Yes. Secondary O<sub>2</sub>, OPEN.
@@ -14032,8 +13704,6 @@ Indicator, with FDI.
 
 
 	Page 364
-	Approved? False
-	Page 362
 96 35 57 P Check them both?
 96 36 00 C Yes, what's the matter? Okay.
 96 36 06 P Did they have return?
@@ -14072,8 +13742,6 @@ though, doesn't it?
 
 
 	Page 365
-	Approved? True
-	Page 363
 96 38 57 C 36.
 96 39 04 P Okay. All overhead circuit breakers are CLOSED.
 96 39 18 P Both coolant pumps are ON. Suit fans are both ON.
@@ -14110,8 +13778,6 @@ Carnarvon. Then go through and aline the platform
 again. Get your Controller and stuff out.
 
 	Page 366
-	Approved? True
-	Page 364
 96 54 41 C ... pick up early. I don't want to get seasick.
 96 54 45 P I don't either.
 96 54 47 C Hey, you got a couple up there you probably ought to
@@ -14150,8 +13816,6 @@ awfully short.
 
 
 	Page 367
-	Approved? True
-	Page 365
 96 56 51 C Yes, I guess we did. But none of them were over
 there. The OAMS retro is always a lot shorter.
 96 56 57 P Oh, yes. You're down.
@@ -14191,8 +13855,6 @@ it.
 
 
 	Page 368
-	Approved? True
-	Page 366
 96 59 33 C That sure was a peculiar way that thing was firing
 out there. I was getting those yaw jets everytime
 I fired pitch.
@@ -14230,8 +13892,6 @@ paper ready to copy?
 10+55. Main chute 12+33. Splash 17+10.
 
 	Page 369
-	Approved? True
-	Page 367
 97 01 18 C Get them all?
 97 01 21 P Right.
 97 01 23 C Okay. We've got those times. Thank you.
@@ -14268,8 +13928,6 @@ leave that for them.
 
 
 	Page 370
-	Approved? True
-	Page 368
 97 03 31 CC Okay, in about 30 seconds I'll give you a countdown.
 97 03 52 CC 5,4,3,2,1. MARK!
 97 03 59 C Roger. Counting down.
@@ -14307,8 +13965,6 @@ ATTITUDE on there, Jim?
 
 
 	Page 371
-	Approved? True
-	Page 369
 97 05 13 P Null FDI's to aline platform.
 97 05 16 C Right. Nulling FDI's to aline platform. That's what I'm doing now.
 97 05 18 P Okay. You're ahead of the checklist.
@@ -14346,8 +14002,6 @@ the computer failed and not the ...
 97 08 14 P Yes, I'd rather be that way.
 
 	Page 372
-	Approved? True
-	Page 370
 97 08 16 C At least we have an attitude reference for retrofire
 and all the other operations. Hey, did we turn our
 batteries ON?
@@ -14383,8 +14037,6 @@ be able to.
 97 10 46 P I can't quite put my finger on it.
 
 	Page 373
-	Approved? True
-	Page 371
 97 11 28 P The new tape for the retro is tape no. 15, and I've
 got tape no. 14 loose and I'll put it -
 97 11 42 C Hey, in case you didn't ... the neck dam. I got
@@ -14424,8 +14076,6 @@ that, though.
 
 
 	Page 374
-	Approved? False
-	Page 372
 97 13 32 C I've (Illegible) have something (Illegible) Power.
 Remember we've always had that thing out of order.
 97 13 38 P Yes. Okay.
@@ -14463,8 +14113,6 @@ minus 10 seconds. I go to the AUTO RETRO and I'll
 
 
 	Page 375
-	Approved? True
-	Page 373
 97 15 45 P I'll manually fire. We're not going to use auto
 retros, are we?
 97 15 49 C No.
@@ -14505,8 +14153,6 @@ well leave that on ATTITUDE.
 
 
 	Page 376
-	Approved? True
-	Page 374
 97 17 22 C No. I'm going to leave it on RATE.
 97 17 25 P ATTITUDE or COMP-? You going to leave it on
 PLATFORM?
@@ -14544,8 +14190,6 @@ cabin vent.
 
 
 	Page 377
-	Approved? True
-	Page 375
 97 20 47 P The time to 400 000 K will be 2+38.
 97 20 54 C Right.
 97 20 56 P Blackout will commence at 2+38.
@@ -14582,8 +14226,6 @@ let me know.
 
 
 	Page 378
-	Approved? True
-	Page 376
 97 23 01 C Wonder if Paul Haney has the crowd worked up to a
 frenzy. Ha! Ha!
 97 23 04 C I don't know.
@@ -14621,8 +14263,6 @@ the gantry is going down.
 
 
 	Page 379
-	Approved? True
-	Page 377
 97 25 01 P Okay. We've got 3 minutes till our burn.
 97 25 07 C Start giving a TR-13 checklist at 14.
 97 25 10 P Okay.
@@ -14660,8 +14300,6 @@ Attitude-RATE COMMAND. You're in PULSE.
 
 
 	Page 380
-	Approved? True
-	Page 378
 97 26 24 C 0, 180, 0.
 97 26 27 P You're in good shape.
 97 26 30 P You'll burn at 15 34 01, counting on your timer,
@@ -14697,8 +14335,6 @@ and we'll get a countdown, I guess.
 
 
 	Page 381
-	Approved? True
-	Page 379
 97 29 54 P You're coming - you're coming up on 2 minutes.
 97 29 56 P MARK!
 97 30 02 C Got 10 percent of fuel left.
@@ -14734,8 +14370,6 @@ don't you?
 
 
 	Page 382
-	Approved? True
-	Page 380
 97 31 34 C Now, if that conversion table was right, we got the
 first part down exactly right.
 97 31 43 C Oh, by the way, I checked it and compared with ...
@@ -14774,8 +14408,6 @@ more whose that is.
 
 
 	Page 383
-	Approved? True
-	Page 381
 97 33 56 P Right.
 97 34 01 C I see little things floating along with us Ed.
 97 34 03 C Yes.
@@ -14813,8 +14445,6 @@ Platform, ORBIT RATE.
 
 
 	Page 384
-	Approved? True
-	Page 382
 97 35 47 C HIGH.
 97 35 49 P Attitude Control, RATE COMMAND.
 97 35 51 C RATE COMMAND.
@@ -14850,8 +14480,6 @@ standing by on your Roll Gyro.
 
 
 	Page 385
-	Approved? False
-	Page 383
 97 37 42 P Roger.
 97 37 47 C If you feel there's something wrong with that RCS,
 holler, and I'll put you in the DIRECT.
@@ -14888,8 +14516,6 @@ about it.
 
 
 	Page 386
-	Approved? True
-	Page 384
 97 39 30 C 1,2,3,4.
 97 39 32 P I think that thing's counting a little early, Jim.
 97 39 35 C Okay.
@@ -14927,8 +14553,6 @@ Ha! Ha!
 
 
 	Page 387
-	Approved? True
-	Page 385
 97 41 00 CC Roger.
 97 41 01 P Give John a pat on the back.
 97 41 03 P Okay. Retro POWER is SAFE.
@@ -14968,8 +14592,6 @@ pumping it up again.
 
 
 	Page 388
-	Approved? True
-	Page 386
 97 43 00 CC MARK! 3 minutes.
 97 43 01 P Got that, Jim.
 97 43 02 C Right.
@@ -15006,8 +14628,6 @@ the antenna sticking out.
 
 
 	Page 389
-	Approved? True
-	Page 387
 97 44 23 CC Probably go into blackout in about another minute,
 Jim.
 97 44 25 C Okay.
@@ -15046,8 +14666,6 @@ around it, doesn't it.
 
 
 	Page 390
-	Approved? True
-	Page 388
 97 46 18 C The g's are starting to build.
 97 46 23 C I don't have ammonia yet. ...
 97 46 27 P It sure is. Look, you can see - looks like three
@@ -15087,8 +14705,6 @@ at paint coming off my window.
 
 
 	Page 391
-	Approved? True
-	Page 389
 97 48 06 P Yes. Now we're really getting a little more layer.
 97 48 13 C There's 3 g's now.
 97 48 15 P Okay, I guess it's right.
@@ -15126,8 +14742,6 @@ call sign will be Sinclair 52.
 
 
 	Page 392
-	Approved? True
-	Page 390
 97 50 13 CC Say again.
 97 50 20 C I said the Landing Arm is ON.
 97 50 23 P Okay. What's our altitude?
@@ -15165,8 +14779,6 @@ itself.
 
 
 	Page 393
-	Approved? True
-	Page 391
 97 51 31 P I've got one of your arm rests. Get your D-ring.
 97 51 35 C Okay.
 97 51 35 P Get your D-ring out, Jim.
@@ -15203,8 +14815,6 @@ deploy.
 
 
 	Page 394
-	Approved? True
-	Page 392
 97 52 43 C Hurry up, we can't wait too much longer.
 97 52 45 P This is the important one for them though.
 97 52 47 C I know it, I know it.
@@ -15242,8 +14852,6 @@ pressure.
 
 
 	Page 395
-	Approved? True
-	Page 393
 97 53 53 C D-ring covered. We don't want that one out.
 97 53 54 P No.
 97 53 55 C How you feeling, Ed?
@@ -15280,8 +14888,6 @@ slower.
 
 
 	Page 396
-	Approved? True
-	Page 394
 97 55 31 C Okay, we're at 1000 feet, Ed.
 97 55 32 P Okay.
 97 55 35 C Now get ready. Remember water.
@@ -15319,8 +14925,6 @@ No leaks.
 
 
 	Page 397
-	Approved? True
-	Page 395
 97 57 13 C Oh, are our sea dye markers out?
 97 57 15 C Let's see. You got the Rescue Beacon ON?
 97 57 16 P Yes. I put that on right away.
@@ -15357,8 +14961,6 @@ coming in to put the collar on for you now. Over.
 
 
 	Page 398
-	Approved? True
-	Page 396
 98 20 50 C Coming now, Roger. Roger. Roger.
 98 20 53 CC The Peek-a-boo would like to know the condition of
 you two. Are you both in good shape?
