@@ -7532,8 +7532,8 @@ correct?
 43 32 12    P    Roger, we used Pulse Control in a minimum amount;
                  the target of number 12 was obscured by clouds; I
                  had the time and location pretty well squared away.
-                 I could have tracked if I could have seen the tar-
-                 get, I believe. Target number 13, it was in the
+                 I could have tracked if I could have seen the target,
+                 I believe. Target number 13, it was in the
                  clear, and I was able to pick up the city of
                  Alexandria. The airport I think I ... but I
                  haven't been able to put my attention on looking
@@ -7541,8 +7541,7 @@ correct?
                  I went ahead and operated the camera and took some
                  pictures as I passed over it. The location of the
                  target from the data called up was satisfactory.
-43 32 58   CC    Roger, what time did you turn your ACME power sup-
-                 ply off?
+43 32 58   CC    Roger, what time did you turn your ACME power supply off?
 43 33 01    P    Roger. I turned my ACME power supply off, I would
                  estimate at about 35.
 43 33 09   CC    Roger, understand. Are you ready to copy a group
@@ -7868,8 +7867,7 @@ need anything.
 won't have any transmissions for you.
 46 41 05 CC Okay. Very good.
 46 58 40 CC Go ahead.
-46 58 43 P We are starting the first run of Apollo. We have
-D-9, Ru-
+46 58 43 P We are starting the first run of Apollo. We have D-9, Ru -
 46 58 43 P We haven't picked up Antares, yet. I guess we have
 5 minutes to do so, though.
 46 58 52 P ... Antares.
@@ -9846,7 +9844,7 @@ window. I couldn't see anything.
 what it looked like. Kind of a white ball. I saw
 part of the white ball.
 59 25 21 CC Gemini 4, CSQ CAP COM. Would you turn your computer
-ON for a 48-1 preretro update-
+ON for a 48-1 preretro update -
 59 25 39 P Gemini 4, with the computer on.
 59 25 42 CC Say again, Gemini 4. You're broken.
 59 25 56 CC Be advised that you have a critical tape dump and a
