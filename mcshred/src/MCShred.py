@@ -4,8 +4,7 @@ import sys
 import re
 from optparse import OptionParser
 
-#MAX_FILE_NUMBER = 20
-TIMESTAMP_PARTS = 4
+DEFAULT_TIMESTAMP_PARTS = 4
 SECONDS_OFFSET = 0
 
 pageNumber = 1
@@ -61,14 +60,14 @@ def sterilize_token(token):
     
     return tempToken
 
-def get_seconds_from_mission_start(line):
-    return translate_timestamp_to_seconds_from_mission_start(line.raw)
+def get_seconds_from_mission_start(line, timestamp_parts):
+    return translate_timestamp_to_seconds_from_mission_start(line.raw, timestamp_parts)
 
-def translate_timestamp_to_seconds_from_mission_start(timestamp):
+def translate_timestamp_to_seconds_from_mission_start(timestamp, timestamp_parts):
     values =  re.split("[ \t\:]+", timestamp);
     i = 0
     days = 0
-    if TIMESTAMP_PARTS > 3:
+    if timestamp_parts > 3:
         days = int(sterilize_token(values[i]))
         i += 1
     hours = int(sterilize_token(values[i]))
@@ -79,36 +78,39 @@ def translate_timestamp_to_seconds_from_mission_start(timestamp):
     
     return (seconds + (minutes * 60) + (hours * 60 * 60) + (days * 24 * 60 * 60)) - SECONDS_OFFSET
 
-def set_timestamp_speaker_and_text(line):
+def set_timestamp_speaker_and_text(line, timestamp_parts):
     
     values =  re.split("[ \t\:]+", line.raw);
    
-    line.set_seconds_from_mission_start(get_seconds_from_mission_start(line))
+    line.set_seconds_from_mission_start(get_seconds_from_mission_start(line, timestamp_parts))
     
-    if len(values) > TIMESTAMP_PARTS:
-        line.set_speaker(values[TIMESTAMP_PARTS])
+    if len(values) > timestamp_parts:
+        line.set_speaker(values[timestamp_parts])
     else:
         line.set_speaker(u"_note")
         
-    if len(values) > (TIMESTAMP_PARTS + 1):
-        line.set_text(" ".join(values[TIMESTAMP_PARTS + 1:]))
+    if len(values) > (timestamp_parts + 1):
+        line.set_text(" ".join(values[timestamp_parts + 1:]))
     else:
         line.set_text(u"")
 
-def line_is_a_new_entry(line):
+def line_is_a_new_entry(line, timestamp_parts):
     
     dateTokens = re.split('[ \t\:]+', line.raw)
 
-    if len(dateTokens) < TIMESTAMP_PARTS:
+    if len(dateTokens) < timestamp_parts:
         return False
     
-    dateTokens = dateTokens[0:TIMESTAMP_PARTS]
+    dateTokens = dateTokens[0:timestamp_parts]
     
     for token in dateTokens:
         try:
             int(token)
         except:
             return False
+
+    while len(dateTokens) < 4:
+        dateTokens.insert(0, 0)
 
     if int(dateTokens[0]) > 20 or int(dateTokens[1]) > 23\
             or int(dateTokens[2]) > 59 or int(dateTokens[3]) > 59:
@@ -125,17 +127,17 @@ def is_a_non_log_line(line):
                 or not line.raw \
                 or "(Music" in line.raw
 
-def translate_lines(translated_lines, verbose=False):
+def translate_lines(translated_lines, verbose=False, timestamp_parts=DEFAULT_TIMESTAMP_PARTS):
     translatedLines = []
     currentLine = None
 
     for number, line in enumerate(translated_lines):
-        if line_is_a_new_entry(line):
+        if line_is_a_new_entry(line, timestamp_parts):
             if currentLine != None:
                 translatedLines.append(currentLine)
             if verbose:
                 print line.raw
-            set_timestamp_speaker_and_text(line)
+            set_timestamp_speaker_and_text(line, timestamp_parts)
             currentLine = line
         elif currentLine != None:
             if line.raw.strip():
@@ -285,6 +287,7 @@ if __name__ == "__main__":
     
     parser = OptionParser(usage=usage)
     parser.add_option('-v', '--verbose', dest='verbose', action='store_true', default=False, help="print out parsed lines")
+    parser.add_option('-t', '--timestamp-parts', dest='timestamp_parts', type='int', default=DEFAULT_TIMESTAMP_PARTS, help="the number of values in the line timestamps (e.g. 3 for hours, minutes and second)")
     (options, args) = parser.parse_args()
     
     if len(args)!=2:
@@ -295,7 +298,7 @@ if __name__ == "__main__":
     output_file = args[1]
     allRawLines = get_all_raw_lines(file_path)
     print "Read in %d raw lines (%d non-blank)." % (len(allRawLines), len(filter(lambda x: x.raw.strip(), allRawLines)))
-    translated_lines = translate_lines(allRawLines, options.verbose)
+    translated_lines = translate_lines(allRawLines, options.verbose, options.timestamp_parts)
     print "Translated to %d lines." % len(translated_lines)
     check_lines_are_in_sequence(translated_lines)
     
