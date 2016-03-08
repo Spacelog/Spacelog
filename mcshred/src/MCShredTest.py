@@ -56,8 +56,8 @@ class Test(unittest.TestCase):
         assert MCShred.get_seconds_from_mission_start(logLine, timestamp_parts=4) == expectedTime
 
     def test_get_seconds_from_mission_start_will_work_with_abbreviated_timestamps(self):
-        logLine = MCShred.LogLine(5, u"5/1", 1, u"02:03:59 CC This is the rest of the line")
-        expectedTime = (59 + (3 * 60) + (2 * 60 * 60))
+        logLine = MCShred.LogLine(5, u"5/1", 1, u"25:03:59 CC This is the rest of the line")
+        expectedTime = (59 + (3 * 60) + (25 * 60 * 60))
 
         assert MCShred.get_seconds_from_mission_start(logLine, timestamp_parts=3) == expectedTime
 
@@ -84,7 +84,17 @@ class Test(unittest.TestCase):
         assert MCShred.line_is_a_new_entry(logLine1, timestamp_parts) == True
         assert MCShred.line_is_a_new_entry(logLine2, timestamp_parts) == False
         assert MCShred.line_is_a_new_entry(logLine3, timestamp_parts) == False
-        
+
+    def test_line_is_a_new_entry_will_work_with_three_timestamp_parts(self):
+        timestamp_parts = 3
+        logLine1 = MCShred.LogLine(5, u"5/1", 1, u"26 03 59 CC This is the rest of the line")
+        logLine2 = MCShred.LogLine(5, u"5/1", 2, u"except for this thing because it's actually")
+        logLine3 = MCShred.LogLine(5, u"5/1", 3, u"a three line comment")
+
+        assert MCShred.line_is_a_new_entry(logLine1, timestamp_parts) == True
+        assert MCShred.line_is_a_new_entry(logLine2, timestamp_parts) == False
+        assert MCShred.line_is_a_new_entry(logLine3, timestamp_parts) == False
+
     def test_shred_to_lines(self):
         logLine0 = u"Tape 3/2"
         logLine1 = u"01 02 03 59 CC This is the rest of the line"

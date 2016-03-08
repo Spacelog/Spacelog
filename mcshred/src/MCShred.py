@@ -109,11 +109,13 @@ def line_is_a_new_entry(line, timestamp_parts):
         except:
             return False
 
-    while len(dateTokens) < 4:
-        dateTokens.insert(0, 0)
+    if timestamp_parts == 3 and (
+            int(dateTokens[1]) > 59 or int(dateTokens[2]) > 59):
+        return False
 
-    if int(dateTokens[0]) > 20 or int(dateTokens[1]) > 23\
-            or int(dateTokens[2]) > 59 or int(dateTokens[3]) > 59:
+    if timestamp_parts == 4 and (
+            int(dateTokens[0]) > 20 or int(dateTokens[1]) > 23
+            or int(dateTokens[2]) > 59 or int(dateTokens[3]) > 59):
         return False
 
     return True
