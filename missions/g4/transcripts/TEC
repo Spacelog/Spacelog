@@ -56,7 +56,7 @@ P: Cabin is hold--
 CC: Say again, Gemini 4.
 
 [00:00:01:31]
-CC: Gemini 4. It will be 1 40 on my mark, and we are
+CC: Gemini 4. It will be 1:40 on my mark, and we are
      not reading you very clearly. 1:40--
 
 [00:00:01:40]
@@ -213,7 +213,7 @@ C: Okay.
 CC: It's 14 05.
 
 [00:00:07:46]
-P: Understand, 1 alpha 14 05.
+P: Understand, 1 alpha 14:03.
 
 [00:00:07:49]
 CC: Roger.
@@ -309,7 +309,7 @@ CC: Roger. Standing by for your air to ground check.
 
 [00:00:15:04]
 C: Roger. We're on UHF-2 at this time. Give you a
-     count 1, 2, 5, 4, 5 ... HF antenna at this time.
+     count 1, 2, 3, 4, 5 ... HF antenna at this time.
 
 [00:00:15:12]
 CC: Say it again. Which antenna?
@@ -342,7 +342,7 @@ CC: Gemini 4, Canary CAP COM. Be advised switch radiator
      to FLOW at 40:00.
 
 [00:00:16:06]
-P: Roger, radiator to FLOW at 40 00.
+P: Roger, radiator to FLOW at 40:00.
 
 [00:00:16:48]
 CC: Gemini, Canary. Stand by to copy new 3-1 data.
@@ -361,7 +361,7 @@ P: Roger, Gemini 4. Would say again the first three
      quantities, please?
 
 [00:00:17:25]
-CC: Roger. I say again. Delta-V 167. 3+35.
+CC: Roger. I say again. ΔV 167. 3+35.
      GETRC 01 32 35. Read switch OFF, please.
 
 [00:00:17:46]
@@ -493,7 +493,7 @@ C: Roger. The light's working fine. I can't tell exactly
 
 [00:00:45:25]
 _page : 9
-CC: Okay. How much delta-V did you use before you got there?
+CC: Okay. How much ΔV did you use before you got there?
 
 [00:00:45:28]
 C: I got about 30 ft/sec showing on my window there.
@@ -527,7 +527,7 @@ CC: Did you get that time hack?
 
 [00:00:46:55]
 P: Roger, got that time hack, and am standing by for the
-     delta-V up.
+     ΔV up.
 
 [00:00:46:58]
 CC: Go ahead.
@@ -614,7 +614,7 @@ CC: Does he want to try them again?
 P: Would you say them with more pause between the, ...
      I ...
 
-[00:00:48:49]
+[00:00:48:45]
 CC: 2-1 170. 3+40. 01 32 39. 2+18. 8+32. Over.
 
 [00:00:49:01]
@@ -1125,7 +1125,7 @@ C: I'm alining the platform.
 CC: Roger.
 
 [00:01:39:10]
-CC: Gemini, we estimate you still have about 200 feet delta-V
+CC: Gemini, we estimate you still have about 200 feet ΔV
      left.
 
 [00:01:39:16]
@@ -1228,7 +1228,7 @@ CC: Okay. We want it over the Canaries. You got a
      little time yet.
 
 [00:01:43:26]
-C: Roger. We'll be over there at 1 49, right?
+C: Roger. We'll be over there at 1:49, right?
 
 [00:01:43:39]
 CC: Might be there a little sooner than that, I think.
@@ -2391,14 +2391,14 @@ P: We are going small-end-forward and it looks like it's
      very close to our orbit.
 
 [00:03:27:58]
-C: And it's at about 3 28 elapsed time.
+C: And it's at about 3:28 elapsed time.
 
 [00:03:29:48]
 P: The lights on the booster are still blinking. I can
      see them at this time.
 
 [00:03:34:00]
-C: We're just at 3+24 right now. Just going into darkness.
+C: We're just at 3+34 right now. Just going into darkness.
      The sunlight has been shining on the nose of
      the spacecraft with small-end-forward, just about.
      Actually, we're 30° left of being straight ahead,
@@ -2415,7 +2415,7 @@ P: Yes, that's what ... that last time, Jim.
 C: A bunch of thunderstorms out on the horizon.
 
 [00:03:34:51]
-C: Okay. We get to Carnarvon at 3 58. That's when
+C: Okay. We get to Carnarvon at 3:58. That's when
      we're going to get our GO. We start our depressurization
      right there. What we're going to do is
      that we're going to open the Repress, tighten your
@@ -2691,7 +2691,7 @@ P: That is affirmative. That's the configuration. The
      left is CLOSED; the right is OPEN.
 
 [00:04:00:31]
-C: We have a GO to start decompression, is that right?.
+C: We have a GO to start decompression, is that right?
 
 [00:04:00:34]
 CC: That's affirmative for decompression and a GO for
@@ -3186,7 +3186,7 @@ _page : 42
 C: Okay ... the T/M. They're calling back now.
 
 [00:04:21:29]
-P: As Ole Leonov says, (illegible) work out in
+P: As 'Ole Leonov' says, (illegible) work out in
      space. It isn't very much, but I'm doing something.
 
 [00:04:21:33]
@@ -4758,7 +4758,7 @@ C: You get the flight plan out and see who we can talk
      to.
 
 [00:05:19:02]
-C: 5 15
+C: 5:15
 
 [00:05:19:09]
 C: Shoot! We don't talk to anybody until we get to
@@ -4779,7 +4779,7 @@ C: We're going to do a delayed time tape playback over
 P: All right.
 
 [00:05:19:47]
-C: At about 5 33, just about 13 minutes ...
+C: At about 5:33, just about 13 minutes ...
 
 [00:05:19:49]
 P: Right.
@@ -5236,12 +5236,12 @@ CC: Roger. Do you want to copy down some 6-4 times?
 P: Stand by. Ready - go ahead.
 
 [00:05:36:58]
-CC: 6-4 00. 00. 01 00 08 54. 8+12. 16+19.
+CC: 6-4 00.00. 01. 00 08 54. 8+12. 16+19.
      That's it.
 
 [00:05:37:28]
 P: Roger. Will you read back the Greenwich Mean Time
-     and retro command on 6-4? I got the delta-V 00, delta-T 00.
+     and retro command on 6-4? I got the ΔV 00, ΔT 00.
      8+12. 16+19. And I didn't copy on the retro time.
 
 [00:05:37:44]
@@ -5457,7 +5457,7 @@ CC: Roger. We are planning a dump over Texas. Request
      you assume a heads-up attitude.
 
 [00:06:09:42]
-C: Roger. We are assuming a heads-up attitude, Be
+C: Roger. We are assuming a heads-up attitude. Be
      advised we do not have the exerciser out; we will
      not be able to give you the Type 1.
 
@@ -5931,7 +5931,7 @@ C: Continuing what I was debriefing about the booster,
      that I was in a real good position with it until
      we got to about Carnarvon. At that time I seemed
      to be closing rather rapidly, although I couldn't
-     really be sure of this. All the delta-V I'd added up
+     really be sure of this. All the ΔV I'd added up
      to that time had been in the direction of the
      booster, or retrograde. Unfortunately, the darned
      booster would get in position such that if I were
@@ -6429,7 +6429,7 @@ P: The main batteries are reading 9 amps and 23 volts.
 [00:07:25:09]
 C: All the main batteries are reading 9 amps and
      23 volts, and the Pilot still has his blood pressure
-     bulb in. De you want one from him?
+     bulb in. Do you want one from him?
 
 [00:07:25:16]
 CC: Negative, just the Command Pilot.
@@ -6444,7 +6444,7 @@ P: Do you want our adapter readings? Gemini 4.
 CC: Roger, go ahead.
 
 [00:07:25:33]
-P: Roger. 1A is 3 24, 1D is 3 1/2 and 24, 1C is
+P: Roger. 1A is 3-24, 1D is 3 1/2 and 24, 1C is
      3 1/2 and 24 1/2; 2A is 2 1/2 and 25, 2D is 2 1/2
      and 25, and 2C is 2 1/2 and 25.
 
@@ -6509,14 +6509,14 @@ C: It's off.
 CC: Roger.
 
 [00:07:28:09]
-CC: ... 17 16 03. This is without OAMS. 7+47,
+CC: ... 17 56 03. This is without OAMS. 7+47,
      15+36.
 
 [00:07:28:24]
 P: Your first part was blocked out. Start over, please.
 
 [00:07:28:27]
-CC: Roger. 18-1 without OAMS 17 16 03. 7+47. 15+36.
+CC: Roger. 18-1 without OAMS 17 56 03. 7+47. 15+36.
 
 [00:07:28:41]
 P: You were blocked out part way. Would you try again,
@@ -6765,7 +6765,7 @@ C: Roger. I'm afraid that Ed will be asleep by that
 CC: Greenwich Mean Time 00. Excuse me, that's 02 30 00.
 
 [00:07:49:21]
-C: Roger. 02 30.
+C: Roger. 02:30.
 
 [00:07:49:24]
 CC: Roger. And if it is at all possible, we'd like to
@@ -6811,7 +6811,7 @@ CC: Gemini, CSQ. Be advised to stand by to receive a
 
 [00:08:58:04]
 _page : 88
-C: Roger, we'll stand by to receive a flight pan update
+C: Roger, we'll stand by to receive a flight plan update
      over RKV.
 
 [00:08:58:08]
@@ -6906,7 +6906,7 @@ CC: Gemini 4, CSQ.
 CC: Gemini 4, CSQ.
 
 [00:09:25:24]
-C: Weather photography ... at about 24 - 00 41 on the
+C: Weather photography ... at about 24 - 00:41 on the
      first day. A whole series of ... clouds in a very
      peculiar pattern down on the ground. The light
      wasn't very good so I used an f stop of f/11 ...
@@ -6944,7 +6944,7 @@ CC: RKV Medical Data Pass no. 1 at G.m.t. 02 17 43 for
      area 9-3 through 13-2 and 8-Charlie through 12-BRAVO.
      D-8 experiment at G.m.t. 02 30 59. Command Pilot
      sleeping period begins at the same time. MSC Experiment
-     -2 and -3 at 03 00 00. Do you copy?
+     -2 and -3 OFF at 03 00 00. Do you copy?
 
 [00:09:33:03]
 CC: Gemini 4, RKV CAP COM. Did you copy?
@@ -6969,10 +6969,10 @@ C: Okay. What were you trying to give me that time?
 [00:09:33:34]
 _page : 90
 CC: Roger, I have a Command Pilot eating period starting
-     at 00 (illegible) 00 until 01 00 00.  Do you copy -
+     at 00 15 00 until 01 00 00.  Do you copy -
 
 [00:09:33:41]
-C: You have a Command pilot eating period from 00 (illegible) to
+C: You have a Command pilot eating period from 00 15 to
      01:00.  Is that correct?
 
 [00:09:33:58]
@@ -6983,7 +6983,7 @@ CC: Affirmative. I have an RKV Medical Data Pass no. 1
 C: RKV Medical Data Pass no. 1 on the Pilot at 02 17 43.
 
 [00:09:34:26]
-CC: Roger. D-8 experiment at 02 30 59?.
+CC: Roger. D-8 experiment at 02 30 59?
 
 [00:09:34:38]
 C: Roger. What's the name for that 02 30 59?
@@ -7135,7 +7135,7 @@ C: Roger, I'm off of High Rate already.
 
 [00:10:43:45]
 C: Okay. I'm just about upside-down now. About 120°
-     bank I'll start rolling around.
+     bank. I'll start rolling around.
 
 [00:10:43:53]
 CC: Roger, give me a count as you roll.
@@ -7246,7 +7246,7 @@ CC: 166, 3+35. 01 02 06 51. 11+18. Did you copy,
      Gemini 4?
 
 [00:10:47:25]
-P: Roger. Reading back 8-C. Delta-V 166. 3+35. 01 02 06 51.
+P: Roger. Reading back 8-C. ΔV 166. 3+35. 01 02 06 51.
      Say the last two.
 
 [00:10:47:42]
@@ -7373,7 +7373,7 @@ C: Roger. 9-Charlie 137. 2+01. 01 days, 03 40 03.
 [00:11:07:49]
 CC: Roger. I have a 10-Charlie 123. 1+45. 01 days 05 13 47.
      13+37. 11 DELTA: 087. 1+54. 01 days 07 10 46.
-     08+42. GMTRB 12+35. 103. Delta-V 0, 01 days 06 08 44.
+     08+42. GMTRB 12+35. 103. ΔV 0, 01 days 06 08 44.
      09+06. 17+59. Do you copy?
 
 [00:11:08:54]
@@ -7462,7 +7462,7 @@ P: I took an S-5 picture of a cloud formation over the
      area of the storm.
 
 [00:12:02:23]
-P: The Greenwich time is 03 18 and 25 seconds.
+P: The Greenwich time is 03:18 and 25 seconds.
 
 [00:12:03:01]
 P: I'm shooting back at 250 at 11 now.
@@ -7785,7 +7785,7 @@ P: It looks just as ... It looks just like ...
 [00:13:00:58]
 P: There's the little Corona Australis, that we decided
      to use as a calibration. It's out in front of me
-     right now,   and they go down to fifth order stars and
+     right now, and they go down to fifth order stars and
      I can see stars that are distinctly of a less magnitude
      than the stars in the Corona Australis.
 
@@ -7846,9 +7846,9 @@ CC: Roger.
 P: Ready to copy.
 
 [00:13:39:43]
-CC: Roger. Area 11-DELTA Delta-T zero. GMTRC 01 days 07 48 58.
-     RET 400 K, 15+26. Area 12-DELTA: Delta-V 96.
-     Delta-T 2+05. GMTRC 01 days, 08 hours, 46 minutes,
+CC: Roger. Area 11-DELTA ΔT zero. GMTRC 01 days 07 48 58.
+     RET 400 K, 15+26. Area 12-DELTA: ΔV 96.
+     ΔT 2+05. GMTRC 01 days, 08 hours, 46 minutes,
      55 seconds. RET 400 K 07+30. RET reverse bank
      13+31. Are you copying?
 
@@ -7860,7 +7860,7 @@ P: Roger, the last part of your first message and the
 
 [00:13:41:03]
 CC: Roger, I'll go back to 11-BRAVO, 11-BRAVO 
-     Delta-V zero. Delta-T zero. GMTRC 01 days, 07 48 58.
+     ΔV zero. ΔT zero. GMTRC 01 days, 07 48 58.
 
 [00:13:41:17]
 P: Roger. 11-B 0. 0. 01 07 48 58, and I didn't
@@ -7873,11 +7873,11 @@ CC: Roger. RET 400 K is 15+26. There is no RETRB.
 P: Roger. 15+26. Understand. Thank you.
 
 [00:13:41:37]
-CC: Roger. I have also 12-BRAVO Delta-V 160. 3+37.
+CC: Roger. I have also 12-BRAVO ΔV 160. 3+37.
      01 day, 09 31 18. 10+39. There is no RETRB.
 
 [00:13:42:02]
-P: Roger. 12-BRAV0 160. 01 09 31 18. 10+39.
+P: Roger. 12-BRAVO 160. 01 09 31 18. 10+39.
 
 [00:13:42:14]
 CC: Roger. And also Area 13-2 120. 2+33. 01 days, 10 10 25. 04+21. 9+08.
@@ -7924,7 +7924,7 @@ P: Can you give me a new update for my orbital plot
 CC: For the orbital what?
 
 [00:13:43:40]
-P: For the orbital plot. I need the ascending mode of
+P: For the orbital plot. I need the ascending node of
      the orbit crossing the equator.
 
 [00:13:43:44]
@@ -7992,7 +7992,7 @@ CC: Roger, Gemini 4. This is Houston CAP COM. Your
 P: Roger, go ahead.
 
 [00:13:51:52]
-CC: ... Ascension C-band track, 05 56 to 06 16. Try
+CC: ... Ascension C-band track, 05:56 to 06:16. Try
      your Orbital Nav Check, if possible, without using
      attitude fuel.
 
@@ -8003,7 +8003,7 @@ CC: Gemini 4, Houston CAP COM. Did you receive my last?
 P: You were all blocked out after ...
 
 [00:13:52:30]
-CC: Gemini 4, this is Houston CAP COM. I say again, 05 56 to 06 16.
+CC: Gemini 4, this is Houston CAP COM. I say again, 05:56 to 06:16.
      Orbital Nav Check using no attitude
      fuel. Over.
 
@@ -8014,7 +8014,7 @@ CC: Gemini 4, Gemini 4, Houston CAP COM ...
 P: Houston CAP COM, Houston CAP COM, Gemini 4.
 
 [00:13:53:14]
-CC: Roger, I say again. 05 56 to 06 16, Orbital Nav
+CC: Roger, I say again. 05:56 to 06:16, Orbital Nav
      Check, using no attitude fuel. Over.
 
 [00:13:53:32]
@@ -8024,13 +8024,13 @@ CC: Gemini 4, Houston CAP COM. Over.
 P: Go ahead, this is Gemini 4. Standing by.
 
 [00:13:53:40]
-C: Roger. 06 15, Command Pilot awake. Over.
+C: Roger. 06:15, Command Pilot awake. Over.
 
 [00:13:53:54]
-P: Roger. 06 15, Command Pilot awake.
+P: Roger. 06:15, Command Pilot awake.
 
 [00:13:53:57]
-CC: Roger. 07 02 RKV tape playback. Medical Data
+CC: Roger. 07:02 RKV tape playback. Medical Data
      Type 1 Command Pilot.
 
 [00:13:54:34]
@@ -8047,7 +8047,7 @@ CC: Gemini 4, this is Houston CAP COM. I'm not receiving
      you. I'll broadcast the last two items of the Flight
      Plan in the blind. Command Pilot eat 07:15 to 11:15.
      Pilot sleeps 07:15 to 11:15. This is Houston CAP
-     COM broadcasting in the blind, Flight Plan 08:35
+     COM broadcasting in the blind, Flight Plan 08:35 RKV .....
 
 [00:13:57:07]
 P: I took S-5 picture just as I got contact with Houston
@@ -8081,22 +8081,22 @@ CC: Roger. I have flight plan updates for you. How
      much did you copy over the CSQ?
 
 [00:14:13:21]
-P: Roger. 07 15 Command Pilot awakes. 07 02 RKV tape
+P: Roger. 07:15 Command Pilot awakes. 07:02 RKV tape
      dump. Medical Type 1 for Command Pilot 08:15. Command
      Pilot eats 08 o'clock. We didn't get anymore.
 
 [00:14:13:36]
-CC: Roger. 07 15 to 11 15 Pilot sleeps. 08 35 RKV will
+CC: Roger. 07:15 to 11:15 Pilot sleeps. 08:35 RKV will
      update you with PLA's and CLA's and an RKV tape dump.
      I have orbital navigation update information for you.
 
 [00:14:14:03]
-P: Roger. Understand. 07 15 to 11 15 Pilot sleeps.
+P: Roger. Understand. 07:15 to 11:15 Pilot sleeps.
      08:35 PLA and CLA update, and I am standing by for
      the orbit update.
 
 [00:14:14:25]
-CC: Roger. There will also be a tape dump at 08 35.
+CC: Roger. There will also be a tape dump at 08:35.
 
 [00:14:14:31]
 P: Roger. I'd like to know the quality of the tape dump
@@ -8299,7 +8299,7 @@ P: It'll go 360° around when it's pointing small-end-forward,
      I guess.
 
 [00:14:47:40]
-P: Put a new tape cartridge at 06 00. I just took
+P: Put a new tape cartridge at 06:00. I just took
      another S-6 picture. It was over the desert area
      showing the long longitudinal trim lines in the sand.
 
@@ -8457,11 +8457,11 @@ C: Roger. Stand by one.
 C: Okay, go ahead with your update.
 
 [00:15:51:29]
-CC: Roger. Typhoon Babe, G.m.t. 07 56, south of Hong
+CC: Roger. Typhoon Babe, G.m.t. 07:56, south of Hong
      Kong. It will be north of the ground track.
 
 [00:15:51:49]
-C: Roger, 07 56 we will see north of the ground track,
+C: Roger, 07:56 we will see north of the ground track,
      Typhoon Babe.
 
 [00:15:51:57]
@@ -8488,13 +8488,13 @@ CC: 11-BRAVO 183. 3+57. 07 58 55. 09+30. GMTRB
      N/A.
 
 [00:15:52:40]
-C: Roger. Give us our delta-V again. We missed that.
+C: Roger. Give us our ΔV again. We missed that.
 
 [00:15:52:43]
 CC: Roger. 183.
 
 [00:15:52:50]
-C: RKV, Gemini 4. Give us our delta-V again. Say it again.
+C: RKV, Gemini 4. Give us our ΔV again. Say it again.
 
 [00:15:53:00]
 CC: 183.
@@ -8525,7 +8525,7 @@ C: I just took a picture. Frame no. 14 on the Contarex
      area that extends over China.
 
 [00:16:39:28]
-P: Now it's 07 55 and 1/2. I shot off the Contarex,
+P: Now it's 07:55 and 1/2. I shot off the Contarex,
      trying to get Hurricane Babe. It wasn't very successful.
      The hurricane itself isn't very prevalent.
      Looks like another group of clouds.
@@ -9258,7 +9258,7 @@ P: Go ahead, Houston. Gemini 4 is reading you five
 [00:22:10:24]
 CC: Roger, Ed. We want you to resume your normal Flight
      Plan. We base this on the fact that we feel that
-     you have 205 ft/sec delta-V left and 63 revolutions you'll
+     you have 205 ft/sec ΔV left and 63 revolutions you'll
      still be in a 81, 125.7 orbit. That will leave us
      enough for OAMS retro which we think will be
      113 ft/sec at that time - are you getting this?
@@ -10186,7 +10186,7 @@ P: Stand by one.
 P: We're ready to copy. Go ahead.
 
 [01:01:15:39]
-CC: Okay. delta-V 180. 4+15. 18 02 57. 3+06. 9+08.
+CC: Okay. ΔV 180. 4+15. 18 02 57. 3+06. 9+08.
 
 [01:01:15:56]
 _page : 133
@@ -11095,8 +11095,12 @@ P: Thank you, honey. Bye-bye.
 _extra : (missing some recording here)
 CC: Bye.
 
+[01:02:51:56] CC: Alright, Jim, this is CAP COM.
+
+[01:02:51:59] C: Oh yeah.
+
 [01:02:52:01]
-CC: ... fuel and delta-V situation. Did Ed explain it all
+CC: Do you understand the fuel and ΔV situation? Did Ed explain it all
      to you?
 
 [01:02:53:07]
@@ -11398,7 +11402,7 @@ C: Carnarvon, Gemini 4. We're ready to copy.
 
 [01:03:41:53]
 CC: Okay. This will be a little bit different. When I
-     read you delta-V, the first two numbers will be forward.
+     read you ΔV, the first two numbers will be forward.
      The second two numbers will be aft. The same thing
      with delta-T. The first group will be forward, and the
      second group will be aft. Do you understand that?
@@ -12455,7 +12459,7 @@ C: Go ahead. I'm ready.
 
 [01:07:06:50]
 _page : 161
-CC: Roger. 21-4 Your delta-V will be split between forward
+CC: Roger. 21-4 Your ΔV will be split between forward
      and aft. 56 feet forward at 1 minute 32 seconds.
      120 ft/sec aft at 2+30. 01 days, 23 hours, 53 minutes,
      23 seconds. 2+42. 8+46.
@@ -14028,7 +14032,7 @@ C: Negative. We do not.
 [01:11:48:39]
 CC: Okay. All the days will be the second day. I'll
      just give you the GMTRC times. Area 25-3: GMTRC 05 51 18. 
-     8+14. 16+55. Area 26-DELTA: Delta-V 86. 1+49. 06 51 37. 08+47. 13+03.
+     8+14. 16+55. Area 26-DELTA: ΔV 86. 1+49. 06 51 37. 08+47. 13+03.
 
 [01:11:49:23]
 _page : 181
@@ -14039,11 +14043,11 @@ C: Okay.
 
 [01:11:49:27]
 CC: Okay. Area 27-2 96. 2+02. 08 27 55. 6+35.
-     10+58. Area 28-2: delta-V 111. 2+20. 10 02 54. 4+50.
-     9+39. Area 29-2: Okay, this is a split delta-V.
+     10+58. Area 28-2: ΔV 111. 2+20. 10 02 54. 4+50.
+     9+39. Area 29-2: Okay, this is a split ΔV.
      Forward 66. Aft 61. 1+48. 1+17. GMTRC 11 37 05.
-     3+43. 08+59. Area 24-DELTA: delta-V 89. 1+53. 03 45 30. 11+03. Area 25-DELTA: 86. 1+49. 05 19 09. 09+51. 26-BRAVO, Area 26-BRAVO:
-     Split delta-V. 66 forward 104 aft. 1+48. 2+10. 07 40 28. 8+54. Area 27-DELTA: 98. 2+29. 08 27 54. 6+44. Area 28, Area 28-BRAVO: Split delta-V.
+     3+43. 08+59. Area 24-DELTA: ΔV 89. 1+53. 03 45 30. 11+03. Area 25-DELTA: 86. 1+49. 05 19 09. 09+51. 26-BRAVO, Area 26-BRAVO:
+     Split ΔV. 66 forward 104 aft. 1+48. 2+10. 07 40 28. 8+54. Area 27-DELTA: 98. 2+29. 08 27 54. 6+44. Area 28, Area 28-BRAVO: Split ΔV.
      Forward 66. Aft 82. 1+48. 1+42. 10 43 31. 11+05.
 
 [01:11:52:35]
@@ -14067,7 +14071,7 @@ CC: Stand by.
 C: Area 26-DELTA.
 
 [01:11:53:03]
-CC: Roger. Area 26-DELTA 86 delta-V. 1+49. 06 51 37.
+CC: Roger. Area 26-DELTA 86 ΔV. 1+49. 06 51 37.
      8+47. 13+03.
 
 [01:11:53:26]
