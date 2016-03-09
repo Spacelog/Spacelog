@@ -15562,8 +15562,8 @@ CC: That is affirmative. Four updates.
 
 [01:18:38:43]
 _page : 200
-_extra : the sleep cycle and I just finished ...
 P: Roger, be advised ... the Command Pilot has started
+     the sleep cycle and I just finished ...
 
 [01:18:38:58]
 CC: Roger, everything looks good from down here.
@@ -15572,12 +15572,13 @@ CC: Roger, everything looks good from down here.
 P: Right.
 
 [01:18:40:05]
-_extra : Do you have anything?
 CC: Gemini 4, we'll have LOS in about 1 minute here.
+     Do you have anything?
 
 [01:18:40:10]
-_extra : the Apollo Landmarks. Don't have any attitude/naround that would permit getting very much on them.
 P: Negative, Gemini 4. And be advised on the D-9 of
+     the Apollo Landmarks. Don't have any attitude
+     around that would permit getting very much on them.
 
 [01:18:40:21]
 CC: Roger, we understand on that. That's okay.
@@ -15586,15 +15587,15 @@ CC: Roger, we understand on that. That's okay.
 P: ...
 
 [01:18:40:50]
-_extra : use fuel sparingly. Do you copy?
 CC: Flight advises that on numbers 12 and 13 you can
+     use fuel sparingly. Do you copy?
 
 [01:18:40:59]
-_extra : Roger.
 P: Roger, on numbers 12 and 13 I use fuel sparingly.
+     Roger.
 
 [01:18:41:05]
-_extra : CANARY ISLANDS
+_extra : Section CANARY ISLANDS
 CC: Roger. Roger.
 
 [01:18:57:24]
@@ -15607,12 +15608,12 @@ C: Go ahead, Canary. Gemini 4.
 CC: Roger, your systems look green.
 
 [01:18:57:34]
-_extra : look good up here.
 C: Roger, understand, systems green. Thank you. They
+     look good up here.
 
 [01:18:58:01]
-_extra : in the READ position?
 CC: Gemini 4, Canary CAP COM. Is your Quantity Switch
+     in the READ position?
 
 [01:18:58:05]
 C: That's affirmative. I'll turn it off now.
@@ -15621,8 +15622,8 @@ C: That's affirmative. I'll turn it off now.
 CC: Roger, it's off.
 
 [01:19:00:29]
-_extra : ACME power supply?
 CC: Gemini 4, Canary CAP COM. Have you powered your
+     ACME power supply?
 
 [01:19:00:34]
 C: Affirmative.
@@ -15638,23 +15639,34 @@ P: This is Gemini 4. Go ahead.
 
 [01:19:32:05]
 _page : 201
-_extra : little info on how your control went over North/nAfrica, and how much pulsing did you do?
 CC: Roger. Read you loud and clear. Can you give me a
+     little info on how your control went over North
+     Africa, and how much pulsing did you do?
 
 [01:19:32:12]
-_extra : the target of number 12 was obscured by clouds; I/nhad the time and location pretty well squared away./nI could have tracked if I could have seen the target,/nI believe. Target number 13, it was in the/nclear, and I was able to pick up the city of/nAlexandria. The airport I think I ... but I/nhaven't been able to put my attention on looking/nfor the airport. I could have spotted the airport./nI went ahead and operated the camera and took some/npictures as I passed over it. The location of the/ntarget from the data called up was satisfactory.
 P: Roger, we used Pulse Control in a minimum amount;
+     the target of number 12 was obscured by clouds; I
+     had the time and location pretty well squared away.
+     I could have tracked if I could have seen the target,
+     I believe. Target number 13, it was in the
+     clear, and I was able to pick up the city of
+     Alexandria. The airport I think I ... but I
+     haven't been able to put my attention on looking
+     for the airport. I could have spotted the airport.
+     I went ahead and operated the camera and took some
+     pictures as I passed over it. The location of the
+     target from the data called up was satisfactory.
 
 [01:19:32:58]
 CC: Roger, what time did you turn your ACME power supply off?
 
 [01:19:33:01]
-_extra : estimate at about 35.
 P: Roger. I turned my ACME power supply off, I would
+     estimate at about 35.
 
 [01:19:33:09]
-_extra : of PLA, CLA, updates?
 CC: Roger, understand. Are you ready to copy a group
+     of PLA, CLA, updates?
 
 [01:19:33:13]
 P: Roger, go ahead.
@@ -15663,15 +15675,15 @@ P: Roger, go ahead.
 CC: 30-1 109. 2+19. 13 00 13. 4+52. 9+40. 31-1 84 aft will be 42. 2+20. 9+54. 14 34 22. 3+54. 9+18. 32-1 84 aft will be 56. 2+20. 1+11. 16 08 16. 3+05. 8+53. 33-1 84 aft will be 68. 2+20. 1+27. 17 42 15. 2+37. 8+49. 29-BRAVO 84. 50 aft. 2+20. 1+03. 12 16 35. 12+08. 30-BRAVO 120. 2+32. 13 50 19. 12+29. 34-4 120. 2+32. 20 29 04. 3+33. 8+55. 31-BRAVO 95. 2+01. 15 30 09. 11+48. 32-BRAVO 86. 1+50. 17 05 01. 10+40. 33-BRAVO 84. 1+47. 18 36 28. 10+01. Over.
 
 [01:19:37:09]
-_extra : the aft DELTA V.
 P: Roger. I got them all except for one quantity 33-1
+     the aft DELTA V.
 
 [01:19:37:17]
 CC: Aft DELTA V 68.
 
 [01:19:37:18]
-_extra : these up.
 P: Roger, 68. You are getting pretty sharp calling
+     these up.
 
 [01:19:37:21]
 CC: Okay, very good. You're looking good here.
@@ -15776,16 +15788,16 @@ CC: Gemini 4, Carnarvon CAP COM.
 P: All right. Go ahead, Carnarvon. Gemini 4.
 
 [01:21:04:44]
-_extra : What's your status?
 CC: Okay. You're looking good here on the ground.
+     What's your status?
 
 [01:21:04:47]
-_extra : looking good.
 P: Roger. The status is GO up here and everything's
+     looking good.
 
 [01:21:04:50]
-_extra : devices yet?
 CC: Roger. Have either of you used the fecal collection
+     devices yet?
 
 [01:21:04:55]
 P: Negative, but it won't be long.
@@ -15794,12 +15806,12 @@ P: Negative, but it won't be long.
 CC: Roger. Understand.
 
 [01:21:04:59]
-_extra : little ... Do you want to take a reading on that?
 P: Roger. One thing you might check on, we've had a
+     little ... Do you want to take a reading on that?
 
 [01:21:05:14]
-_extra : by.
 CC: Okay. We'll take a check here on the ground. Stand
+     by.
 
 [01:21:05:18]
 P: Coming down at you in about 5 or 10 seconds.
@@ -15811,15 +15823,15 @@ P: Coming on now.
 CC: It's - 29 percent here on the ground.
 
 [01:21:05:46]
-_extra : you.
 P: Roger. We're reading the pressure now at 30. Thank
+     you.
 
 [01:21:05:47]
 CC: Roger.
 
 [01:21:06:00]
-_extra : need anything.
 CC: Okay. We're just standing by here for you if you
+     need anything.
 
 [01:21:06:05]
 P: Negative, everything's pretty good.
@@ -15993,31 +16005,31 @@ C: Thank you. How are you?
 CC: Had a good night's sleep.
 
 [01:21:57:47]
-_extra : the past.
 C: I got a little more sleep this time than I have in
+     the past.
 
 [01:21:57:49]
-_extra : you taken that out when you were sleeping?
 CC: How about that plug in your throat there. Have
+     you taken that out when you were sleeping?
 
 [01:21:58:01]
-_extra : left it on.
 C: Oh. Negative, I didn't disconnect my radio. I
+     left it on.
 
 [01:21:58:05]
 CC: Did it bother you at all?
 
 [01:21:58:08]
-_extra : was pretty tired, and I slept without it.
 C: It has been up till now, but this time I guess I
+     was pretty tired, and I slept without it.
 
 [01:21:58:13]
-_extra : your Quantity Read Switch OFF now.
 CC: Very good. ... Gemini 4, Houston. You can turn
+     your Quantity Read Switch OFF now.
 
 [01:21:58:30]
-_extra : Quantity Read Switch OFF.
 CC: Gemini 4, Houston CAP COM. You can turn your
+     Quantity Read Switch OFF.
 
 [01:21:58:34]
 C: Roger, it's OFF.
@@ -16029,8 +16041,8 @@ CC: Roger, you're looking good here. Have a good day.
 C: Roger.
 
 [01:21:59:12]
-_extra : O<sub>2</sub> tank pressures around 970.
 CC: Gemini 4, this is Houston CAP COM. We have your
+     O<sub>2</sub> tank pressures around 970.
 
 [01:21:59:21]
 C: Okay. We're reading about 960. We'll dump ...
@@ -16052,19 +16064,23 @@ CC: Gemini 4, Canary CAP COM.
 C: Go ahead, Canary, Gemini 4.
 
 [01:22:05:34]
-_extra : instead of O<sub>2</sub> High Rate. Also, be advised that/nHouston says do not relieve through the cabin if you/ncan avoid it.
 CC: Roger. Request that you use the Cabin Recheck Valve
+     instead of O<sub>2</sub> High Rate. Also, be advised that
+     Houston says do not relieve through the cabin if you
+     can avoid it.
 
 C: We don't need a push.
 
 [01:22:05:54]
 _page : 207
-_extra : except in the cabin. We've just finished doing it/nto the O<sub>2</sub> High Rate. We got the ECS O<sub>2</sub> pressure/ndown to 910.
 C: We don't have any other place to put the oxygen
+     except in the cabin. We've just finished doing it
+     to the O<sub>2</sub> High Rate. We got the ECS O<sub>2</sub> pressure
+     down to 910.
 
 [01:22:06:02]
-_extra : through the cabin area.
 CC: Roger. They were warning you to avoid relieving
+     through the cabin area.
 
 [01:22:06:06]
 C: O<sub>2</sub> pressure down to 910.
@@ -16073,8 +16089,9 @@ C: O<sub>2</sub> pressure down to 910.
 CC: Roger. I understand 910.
 
 [01:22:06:10]
-_extra : instead of the O<sub>2</sub> High Rate? Where else would we/nput the oxygen?
 C: Can you tell me why they want to use the Repress
+     instead of the O<sub>2</sub> High Rate? Where else would we
+     put the oxygen?
 
 [01:22:06:20]
 CC: Roger.
@@ -16083,8 +16100,10 @@ CC: Roger.
 P: Jim, we're not ...
 
 [01:22:06:30]
-_extra : the ACQ Aid Beacon OFF for 5 minutes. You know,/nyou were going to leave - to do some ECS on and/noff ... thruster.
 C: Well, he said that in order to get MSC-1 they wanted
+     the ACQ Aid Beacon OFF for 5 minutes. You know,
+     you were going to leave - to do some ECS on and
+     off ... thruster.
 
 [01:22:06:41]
 P: Okay.
@@ -16105,19 +16124,21 @@ CC: Gemini 4, Canary CAP COM.
 C: Go ahead.
 
 [01:22:07:07]
-_extra : avoid turning off your fans and to cut down on your/nnoise level in your cabin.
 CC: Roger. The reason for using the Repress was to
+     avoid turning off your fans and to cut down on your
+     noise level in your cabin.
 
 [01:22:07:17]
 C: Okay.
 
 [01:22:07:20]
-_extra : it.
 CC: They meant do not relieve overboard if you can avoid
+     it.
 
 [01:22:07:26]
-_extra : tank overboard directly. They want to vent it overboard/nthrough the cabin. Is that it?
 C: Oh, don't ... they don't want to vent the ECS O<sub>2</sub>
+     tank overboard directly. They want to vent it overboard
+     through the cabin. Is that it?
 
 [01:22:07:34]
 CC: They don't want to avoid overboard at all if possible.
@@ -16464,8 +16485,8 @@ _page : 212
 P: ...
 
 [01:23:08:38]
-_extra : got too much horizon.
 P: It's gone out the top of my window now, Jim. I've
+     got too much horizon.
 
 [01:23:08:43]
 P: Yes, that's just too big an angle in there.
@@ -16477,10 +16498,11 @@ P: It's only 23° right now ...
 C: ...
 
 [01:23:09:28]
-_extra : too much horizon now.
 P: Can you roll it to the left a little bit; I have
+     too much horizon now.
 
 C: That's what I think. How about rolling it just
+     horizontal?
 
 [01:23:09:50]
 P: Oh, boy, there goes all the "O" rings.
@@ -16516,8 +16538,9 @@ C: Disappeared.
 P: Yes.
 
 [01:23:11:02]
-_extra : down, sideways, or anything else. I like to at/nleast know the orientation.
 C: Same here with me. I don't know whether I'm up,
+     down, sideways, or anything else. I like to at
+     least know the orientation.
 
 [01:23:11:07]
 P: Okay, we never got a good one on that.
@@ -17415,19 +17438,20 @@ C: Go ahead, Carnarvon. Gemini 4.
 
 [02:00:13:21]
 _page : 224
-_extra : are you doing?
 CC: Okay. You're looking good here on the ground. How
+     are you doing?
 
 [02:00:13:25]
 C: Doing fine.
 
 [02:00:13:28]
-_extra : have gone by two full days, and we'll keep standing/nby here if you need anything.
 CC: Okay. We don't have anything here for you. You
+     have gone by two full days, and we'll keep standing
+     by here if you need anything.
 
 [02:00:13:33]
-_extra : right now, so we probably won't be talking too much.
 C: Okay. We're trying to take some star measurements
+     right now, so we probably won't be talking too much.
 
 [02:00:13:37]
 CC: That's right.
@@ -17448,8 +17472,8 @@ C: Has the nose started to get in the way?
 P: Yes, sure has. ...
 
 [02:00:14:09]
-_extra : one.
 P: Well, with a constellation like that. It's a big
+     one.
 
 [02:00:14:21]
 C: ... Vega that I saw before.
@@ -17482,15 +17506,15 @@ C: 30° and 6 minutes.
 P: What kind of a filter?
 
 [02:00:15:42]
-_extra : I taken? Five?
 C: That's a clear filter. How many measurements have
+     I taken? Five?
 
 [02:00:15:45]
 P: Four. Four.
 
 [02:00:15:47]
-_extra : third and fourth were clear.
 C: The first two were clear, second was ... and the
+     third and fourth were clear.
 
 [02:00:15:57]
 C: Try one of those.
@@ -17506,35 +17530,39 @@ _page : 225
 P: Well, I've had it down ... when I came back.
 
 [02:00:16:26]
-_extra : high.
 C: I think I've probably blocked him out, he's too
+     high.
 
 [02:00:16:28]
 P: Yes, okay.
 
 [02:00:16:35]
-_extra : taking pictures -- taking sightings without a particular/nattitude. The object of the game is to nail/na couple of ones right off the bat that you know of/nand use them.
 P: We should spend the night side here doing, just
+     taking pictures -- taking sightings without a particular
+     attitude. The object of the game is to nail
+     a couple of ones right off the bat that you know of
+     and use them.
 
 [02:00:16:57]
-_extra : up.
 P: Oh, that looks like Vega there ... Deneb coming
+     up.
 
 [02:00:17:06]
 C: Okay.
 
 [02:00:17:16]
-_extra : I think we'd do better if we make our own sightings.
 P: I think their kind of programming for us is no good.
+     I think we'd do better if we make our own sightings.
 
 [02:00:17:26]
-_extra : Ed.
 C: Yes. I think we ought to knock off on the ...,
+     Ed.
 
 [02:00:17:28]
 P: Okay.
 
 C: Well, okay, let's leave it on and see what we do.
+     If we need one or two pulses we'll do it.
 
 [02:00:17:35]
 P: Okay.
@@ -17567,15 +17595,16 @@ P: Yes, I think ... fuel ...
 C: I know you do ... don't have ...
 
 [02:00:19:13]
-_extra : you know. I think we got a few readings there for/nthem.
 P: Yes, that's what I say -- you -- makes it exciting,
+     you know. I think we got a few readings there for
+     them.
 
 [02:00:19:18]
 C: Yes.
 
 [02:00:19:21]
-_extra : to me, made a rather -- a little bit of ...
 P: Let me make a little comment on it. The green filter,
+     to me, made a rather -- a little bit of ...
 
 [02:00:19:33]
 _page : 226
@@ -17644,27 +17673,27 @@ _page : 227
 C: Okay. Got them that time.
 
 [02:00:53:36]
-_extra : give you an update.
 CC: Okay. If you will turn your computer on, we'll
+     give you an update.
 
 [02:00:53:44]
 _extra : Section TEXAS
 C: Roger. Computer coming on.
 
 [02:00:53:56]
-_extra : you would, please.
 CC: Jim, we'd like you to make a Main Battery Check, if
+     you would, please.
 
 [02:00:54:00]
-_extra : now.
 C: Roger. We are making a Main Battery Check, right
+     now.
 
 [02:00:54:03]
 CC: Okay.
 
 [02:00:54:20]
-_extra : You can go ahead.
 C: Okay, we got computer light - running light on.
+     You can go ahead.
 
 [02:00:54:24]
 CC: Okay. Computer light on.
@@ -17676,20 +17705,25 @@ CC: Okay, on your D-9 Experiment.
 C: Roger.
 
 [02:00:54:52]
-_extra : daylight side with the earth shine and not in view./nJust forget the sextant; just get dark adapted the/nbest you can on the daylight side and see if you/ncan pick out some stars.
 CC: Okay, we'd like for you to try to see stars on the
+     daylight side with the earth shine and not in view.
+     Just forget the sextant; just get dark adapted the
+     best you can on the daylight side and see if you
+     can pick out some stars.
 
 [02:00:55:09]
-_extra : able to pick out any stars on the daylight side.
 C: Roger, we tried that and we can't -- we were not
+     able to pick out any stars on the daylight side.
 
 [02:00:55:15]
-_extra : satisfactory on the sextant.
 CC: Okay. Then we'd like to know what filters were
+     satisfactory on the sextant.
 
 [02:00:55:24]
-_extra : on the 33rd Rev, if at all possible I'd like to take/nthose ... shots across the Southwestern United/nStates on Rev. 5.
 C: Okay. We have some notes on that. Listen, I think
+     on the 33rd Rev, if at all possible I'd like to take
+     those ... shots across the Southwestern United
+     States on Rev. 5.
 
 [02:00:55:40]
 CC: Roger.
@@ -17698,12 +17732,13 @@ CC: Roger.
 C: I said, I sure would like to get that out of the way.
 
 [02:00:55:45]
-_extra : here and let you know.
 CC: Okay, we'll run it through out Flight Plan section
+     here and let you know.
 
 [02:00:55:49]
-_extra : D-9 Experiments in the daylight, because that is/nhopeless.
 C: Okay, I think it would be foolhardy to run any more
+     D-9 Experiments in the daylight, because that is
+     hopeless.
 
 [02:00:56:01]
 _page : 228
@@ -17786,8 +17821,9 @@ C: Okay.
 
 [02:00:57:38]
 _page : 229
-_extra : off now. That gives you a TR time of 36-4 in/nthe computer.
 CC: You have a valid load, and you can turn your computer
+     off now. That gives you a TR time of 36-4 in
+     the computer.
 
 [02:00:57:50]
 _extra : Section CAPE KENNEDY
@@ -17800,8 +17836,8 @@ CC: Hey, Jim. Gemini 4, CAP COM.
 C: Roger. Go ahead.
 
 [02:00:58:15]
-_extra : would be Pegasus, from what we note here.
 CC: Near as we can tell, the only satellite it could be
+     would be Pegasus, from what we note here.
 
 [02:00:58:21]
 C: That's what I thought it might be, too.
@@ -17810,8 +17846,8 @@ C: That's what I thought it might be, too.
 CC: Okay.
 
 [02:00:58:31]
-_extra : 5 to 2. They're still in sixth place though.
 CC: Hey. The Astros did beat the Cards yesterday,
+     5 to 2. They're still in sixth place though.
 
 [02:00:58:37]
 C: Okay. He's got this information for you.
@@ -17838,31 +17874,42 @@ P: The rest of the electrical readings are normal.
 CC: Okay. Fine.
 
 [02:00:59:06]
-_extra : bring it all the way down to about 800 psi./nWe can't find much else that we can do about the/nthing. Just bring it down lower so you are working/nthrough a wider band. We don't think that is going/nto cause you to use any.
 CC: Next time you bleed down your primary oxygen pressure,
+     bring it all the way down to about 800 psi.
+     We can't find much else that we can do about the
+     thing. Just bring it down lower so you are working
+     through a wider band. We don't think that is going
+     to cause you to use any.
 
 [02:00:59:28]
-_extra : thing up to about 5 1/4, and I'm trying to hold it/nat 5 1/4 with the Repress ... hold it. If not,/nI'll bring it down to around 800.
 C: Roger. Bring it down. Listen, I just then ran the
+     thing up to about 5 1/4, and I'm trying to hold it
+     at 5 1/4 with the Repress ... hold it. If not,
+     I'll bring it down to around 800.
 
 [02:00:59:40]
-_extra : now without hurting anything, so if it gets to be a/nnuisance just bring it on down so that you don't have/nto watch it so close and be bothered with it too much.
 CC: Okay. We think you can go way down in your pressure
+     now without hurting anything, so if it gets to be a
+     nuisance just bring it on down so that you don't have
+     to watch it so close and be bothered with it too much.
 
 [02:00:59:52]
 _page : 230
 C: ...
 
 [02:00:59:57]
-_extra : we get to Bermuda again, will you?
 CC: I can't read you very good right now. Wait until
+     we get to Bermuda again, will you?
 
 [02:01:00:01]
 C: Okay.
 
 [02:01:00:20]
-_extra : across the Gulf of California, the Mexico side, we/nwere in a perfect small-end-forward down attitude/nso I took a series of seven or eight photographs of/nthe terrain ... stereographic ...
 C: At about 16 03, as we came across on this last pass,
+     across the Gulf of California, the Mexico side, we
+     were in a perfect small-end-forward down attitude
+     so I took a series of seven or eight photographs of
+     the terrain ... stereographic ...
 
 [02:01:00:41]
 CC: Gemini 4, Houston CAP COM.
@@ -17871,19 +17918,21 @@ CC: Gemini 4, Houston CAP COM.
 C: Go ahead, Houston. This is Gemini 4.
 
 [02:01:00:50]
-_extra : that satellite was from you yesterday?
 CC: Roger. Could you give us an estimate as to how far
+     that satellite was from you yesterday?
 
 [02:01:00:57]
-_extra : large object, and it looked like I was closing on/nit rather rapidly. Distance is rather hard to/njudge. I'd say 10 miles or so.
 C: I couldn't really tell. It looked like quite a
+     large object, and it looked like I was closing on
+     it rather rapidly. Distance is rather hard to
+     judge. I'd say 10 miles or so.
 
 [02:01:01:10]
 CC: 10 miles?
 
 [02:01:01:11]
-_extra : close enough where I could see -
 C: That's just a guess. I really can't tell. I was
+     close enough where I could see -
 
 [02:01:01:19]
 CC: You were close enough to see what?
@@ -17892,8 +17941,8 @@ CC: You were close enough to see what?
 C: ... arms and cylindrical things sticking out.
 
 [02:01:01:26]
-_extra : read that.
 CC: You're cutting up pretty badly, there. I couldn't
+     read that.
 
 [02:01:01:30]
 C: Okay.
@@ -17911,8 +17960,9 @@ CC: Close enough to it to what?
 C: ...
 
 [02:01:01:44]
-_extra : that close to you. Pegasus was about 1200 miles/naway.
 CC: Well, as near as we can tell, there wasn't anything
+     that close to you. Pegasus was about 1200 miles
+     away.
 
 [02:01:01:49]
 C: No, it wasn't quite that close -- that far away.
@@ -17921,8 +17971,8 @@ C: No, it wasn't quite that close -- that far away.
 CC: Pretty good eyeballs, all right.
 
 [02:01:01:59]
-_extra : out.
 C: Well, I took a picture of it. I just hope it comes
+     out.
 
 [02:01:02:03]
 _page : 231
@@ -18121,8 +18171,8 @@ CC: Cuff full-scale.
 CC: Will you pump up that blood pressure again?
 
 [02:01:48:45]
-_extra : C ...
 CC: Cuff full-scale.
+     C ...
 
 [02:01:49:08]
 CC: Okay. We've got a valid oral temp. Remove the
@@ -18436,7 +18486,6 @@ C: Sure.
 CC: Okay. If you want them, we'll put them on.
 
 [02:02:39:37]
-_extra : pictures of the Cape. Probably one of the best/npictures we got was one shooting back, and we got/nthe whole weather formation along the coastline/nstarting with Florida and going all the way back to/nTexas. A very well defined line of weather following/nclosely to the coastline. Then we took some/npictures of the weather formation in the State of/nFlorida, around Cuba and the island area, and into/nthe gulf ... weather build-ups, clouds, and we/ntook a couple of pictures of the island, some very/ngood pictures. We ended up taking up 55 pictures.
 C: Okay, on that last pass we took about 38 pictures
      on the Synoptic Terrain Photography, starting a
      little bit east of San Diego and until we ran into
@@ -18447,6 +18496,17 @@ C: Okay, on that last pass we took about 38 pictures
      We got some very good pictures of the weather in
      that area, then we got some pictures of the air
      fields around Jacksonville. We took a couple of
+     pictures of the Cape. Probably one of the best
+     pictures we got was one shooting back, and we got
+     the whole weather formation along the coastline
+     starting with Florida and going all the way back to
+     Texas. A very well defined line of weather following
+     closely to the coastline. Then we took some
+     pictures of the weather formation in the State of
+     Florida, around Cuba and the island area, and into
+     the gulf ... weather build-ups, clouds, and we
+     took a couple of pictures of the island, some very
+     good pictures. We ended up taking up 55 pictures.
 
 [02:02:40:31]
 _page : 238
@@ -18456,12 +18516,21 @@ CC: Gemini 4, Houston CAP COM.
 CC: Gemini 4, Houston CAP COM.
 
 [02:02:58:03]
-_extra : like a star on the ground when you see one go by./nA long, long ways away. When I saw this satellite/ngo by, we were pointed just about directly overhead./nIt looked like it was going from left to the right./n... back towards the west, so it must have been/ngoing from south to north.
 C: Just saw a satellite, very high, ... spotted away
+     like a star on the ground when you see one go by.
+     A long, long ways away. When I saw this satellite
+     go by, we were pointed just about directly overhead.
+     It looked like it was going from left to the right.
+     ... back towards the west, so it must have been
+     going from south to north.
 
 [02:03:16:20]
-_extra : cleverly fixed to take care of John's complaint that/nit vented out of scale. Now, of course, it vents/ndown into the scale and causes quite a big of problem,/nas everyone knows, with the oxygen. The problem/nstill lies in getting the ... in here ...
 P: The fix on the vent valve and the ECS 0<sub>2<sub> was very
+     cleverly fixed to take care of John's complaint that
+     it vented out of scale. Now, of course, it vents
+     down into the scale and causes quite a big of problem,
+     as everyone knows, with the oxygen. The problem
+     still lies in getting the ... in here ...
 
 [02:03:20:11]
 CC: Gemini 4, Carnarvon CAP COM.
@@ -18473,8 +18542,9 @@ CC: Gemini 4, Carnarvon CAP COM.
 P: Go ahead, Carnarvon, Gemini 4.
 
 [02:03:20:33]
-_extra : list of updates for you. Let me know when you're/nready to copy.
 CC: Roger, read you loud and clear. I've got a long
+     list of updates for you. Let me know when you're
+     ready to copy.
 
 [02:03:20:39]
 P: Roger, stand by one, please.
@@ -18483,15 +18553,15 @@ P: Roger, stand by one, please.
 P: Go ahead.
 
 [02:03:20:50]
-_extra : 3+05. 8+43.
 CC: 35-4 83 forward, 57 aft. 2+18. 1+11. 22 03 38.
+     3+05. 8+43.
 
 [02:03:21:15]
 P: Roger.
 
 [02:03:21:16]
-_extra : 2+48. 8+43.
 CC: 36-4 40 forward, 120 aft, 1+06. 2+31. 23 38 08.
+     2+48. 8+43.
 
 [02:03:21:44]
 P: Roger.
@@ -18605,8 +18675,9 @@ C: Okay, okay, Carnarvon.
 CC: Go ahead.
 
 [02:03:26:10]
-_extra : S-5 and S-6 are complete. Do not do any/nmore flight planning.
 C: You might advise Houston that as far as we're concerned
+     S-5 and S-6 are complete. Do not do any
+     more flight planning.
 
 [02:03:26:19]
 CC: Okay. Complete on the S-5 and S-6. We got that.
@@ -18666,8 +18737,8 @@ CC: Gemini 4, Hawaii CAP COM. Do you copy?
 C: Roger, Hawaii. Gemini 4. I read you.
 
 [02:03:46:50]
-_extra : humidity reading, and a hatch temperature reading.
 CC: Roger. We would like to request you take a cabin
+     humidity reading, and a hatch temperature reading.
 
 [02:03:47:05]
 _page : 241
@@ -18983,8 +19054,8 @@ P: Got a yaw, now roll right.
 C: There's something wrong.
 
 [02:04:27:05]
-_extra : them.
 P: I hate to tell you, Jim. I can't recognize any of
+     them.
 
 [02:04:27:09]
 P: Okay, I've got the ... Now, roll over to the
@@ -20159,12 +20230,14 @@ P: Right.
 
 [02:11:23:14]
 _page : 259
-_extra : it to us yet as he did the other one. This was at/n14:37. That wasn't right. Correct that to 02:37/nor 38.
 P: Jim just saw another satellite. He hasn't described
+     it to us yet as he did the other one. This was at
+     14:37. That wasn't right. Correct that to 02:37
+     or 38.
 
 [02:11:23:50]
-_extra : for us. He tried to get a picture of it.
 P: This one was a lot farther away than the one intended
+     for us. He tried to get a picture of it.
 
 [02:11:23:55]
 P: Did you get a picture?
@@ -20378,8 +20451,8 @@ _page : 262
 S: Gemini 4, RKV.
 
 [02:12:01:10]
-_extra : pressure?
 P: Are you getting the oral temperature and the blood
+     pressure?
 
 [02:12:01:19]
 S: We have the oral temp and we have the blood pressure.
@@ -21256,9 +21329,11 @@ CC: That's affirm. You got it, Jim, and would you turn
 C: Roger. Do we have some fuel to take these pictures?
 
 [02:18:26:49]
-_extra : elapsed time. Thats 67+40 elapsed time for/napproximately 2 hours. We'll have a revised Flight Plan/nfor you shortly.
 CC: That's affirm. Also Jim, for information, we tentatively
      plan on powering up the Platform at 67:40
+     elapsed time. Thats 67+40 elapsed time for 
+     approximately 2 hours. We'll have a revised Flight Plan
+     for you shortly.
 
 [02:18:27:11]
 _page : 274
@@ -21276,12 +21351,14 @@ CC: What it'll amount to, we'll follow the Flight Plan,
 C: Okay.
 
 [02:18:27:31]
-_extra : these eddy clouds?
 C: Did you say the direction we're supposed to look for
+     these eddy clouds?
 
 [02:18:27:35]
-_extra : Look for eddy clouds around the Canaries and Madeira/nIsland. Location approximately 200 miles south and/n300 miles north of spececraft position.
 CC: Roger. You can turn your Quantity Read OFF now.
+     Look for eddy clouds around the Canaries and Madeira
+     Island. Location approximately 200 miles south and
+     300 miles north of spececraft position.
 
 [02:18:28:03]
 CC: That time is just about the time of Canary's acquisition.
@@ -26417,8 +26494,8 @@ CC: Hey, Jim, we're still going to pass you your updates
 
 [03:18:05:40]
 _page : 342
-_extra : want the final one.
 C: That's affirmative. Don't change those; we just
+     want the final one.
 
 [03:18:05:45]
 CC: Roger, that'll come up just as it has been coming
@@ -27514,8 +27591,8 @@ CC: Better rest your voice, too.
 
 [04:00:16:00]
 _page : 356
-_extra : will like me again.
 C: Listen, I just won't shave. I'm so pretty now nobody
+     will like me again.
 
 [04:00:16:07]
 CC: That doesn't bother. Just don't take a bath.
