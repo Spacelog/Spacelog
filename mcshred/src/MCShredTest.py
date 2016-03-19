@@ -36,34 +36,35 @@ class Test(unittest.TestCase):
         assert int(MCShred.sterilize_token(u"h")) == 4
     
     def test_log_line(self):
-        logLine = MCShred.LogLine(5, u"5/1", u"00 01 03 59 CC This is the rest of the line")
+        logLine = MCShred.LogLine(5, u"5/1", 1, u"00 01 03 59 CC This is the rest of the line")
         
         assert logLine.page == 5
         assert logLine.tape == u"5/1"
+        assert logLine.line == 1
         assert logLine.raw == u"00 01 03 59 CC This is the rest of the line"
         
     def test_get_seconds_from_mission_start(self):
-        logLine = MCShred.LogLine(5, u"5/1", u"01 02 03 59 CC This is the rest of the line")
+        logLine = MCShred.LogLine(5, u"5/1", 1, u"01 02 03 59 CC This is the rest of the line")
         expectedTime = (59 + (3 * 60) + (2 * 60 * 60) + (1 * 24 * 60 * 60))
-        
-        
-#        print('expected time %d' % expectedTime)
-#        print('got time of %d' % MCShred.get_seconds_from_mission_start(logLine))
-        assert MCShred.get_seconds_from_mission_start(logLine) == expectedTime
-        
+
+        assert MCShred.get_seconds_from_mission_start(logLine, timestamp_parts=4) == expectedTime
+
     def test_get_seconds_from_mission_start_will_work_with_full_colon_seperated_timestamps(self):
-        logLine = MCShred.LogLine(5, u"5/1", u"01:02:03:59 CC This is the rest of the line")
+        logLine = MCShred.LogLine(5, u"5/1", 1, u"01:02:03:59 CC This is the rest of the line")
         expectedTime = (59 + (3 * 60) + (2 * 60 * 60) + (1 * 24 * 60 * 60))
-        
-        
-#        print('expected time %d' % expectedTime)
-#        print('got time of %d' % MCShred.get_seconds_from_mission_start(logLine))
-        assert MCShred.get_seconds_from_mission_start(logLine) == expectedTime
-        
+
+        assert MCShred.get_seconds_from_mission_start(logLine, timestamp_parts=4) == expectedTime
+
+    def test_get_seconds_from_mission_start_will_work_with_abbreviated_timestamps(self):
+        logLine = MCShred.LogLine(5, u"5/1", 1, u"25:03:59 CC This is the rest of the line")
+        expectedTime = (59 + (3 * 60) + (25 * 60 * 60))
+
+        assert MCShred.get_seconds_from_mission_start(logLine, timestamp_parts=3) == expectedTime
+
     def test_set_timestamp_speaker_and_text(self):
-        logLine = MCShred.LogLine(5, u"5/1", u"01 02 03 59 CC This is the rest of the line")
+        logLine = MCShred.LogLine(5, u"5/1", 1, u"01 02 03 59 CC This is the rest of the line")
         
-        MCShred.set_timestamp_speaker_and_text(logLine)
+        MCShred.set_timestamp_speaker_and_text(logLine, timestamp_parts=4)
         
         expectedTime = (59 + (3 * 60) + (2 * 60 * 60) + (1 * 24 * 60 * 60))
         
@@ -75,14 +76,25 @@ class Test(unittest.TestCase):
         assert logLine.text == "This is the rest of the line"
         
     def test_line_is_a_new_entry(self):
-        logLine1 = MCShred.LogLine(5, u"5/1", u"01 02 03 59 CC This is the rest of the line")
-        logLine2 = MCShred.LogLine(5, u"5/1", u"except for this thing because it's actually")
-        logLine3 = MCShred.LogLine(5, u"5/1", u"a three line comment")
+        timestamp_parts = 4
+        logLine1 = MCShred.LogLine(5, u"5/1", 1, u"01 02 03 59 CC This is the rest of the line")
+        logLine2 = MCShred.LogLine(5, u"5/1", 2, u"except for this thing because it's actually")
+        logLine3 = MCShred.LogLine(5, u"5/1", 3, u"a three line comment")
         
-        assert MCShred.line_is_a_new_entry(logLine1) == True
-        assert MCShred.line_is_a_new_entry(logLine2) == False
-        assert MCShred.line_is_a_new_entry(logLine3) == False
-        
+        assert MCShred.line_is_a_new_entry(logLine1, timestamp_parts) == True
+        assert MCShred.line_is_a_new_entry(logLine2, timestamp_parts) == False
+        assert MCShred.line_is_a_new_entry(logLine3, timestamp_parts) == False
+
+    def test_line_is_a_new_entry_will_work_with_three_timestamp_parts(self):
+        timestamp_parts = 3
+        logLine1 = MCShred.LogLine(5, u"5/1", 1, u"26 03 59 CC This is the rest of the line")
+        logLine2 = MCShred.LogLine(5, u"5/1", 2, u"except for this thing because it's actually")
+        logLine3 = MCShred.LogLine(5, u"5/1", 3, u"a three line comment")
+
+        assert MCShred.line_is_a_new_entry(logLine1, timestamp_parts) == True
+        assert MCShred.line_is_a_new_entry(logLine2, timestamp_parts) == False
+        assert MCShred.line_is_a_new_entry(logLine3, timestamp_parts) == False
+
     def test_shred_to_lines(self):
         logLine0 = u"Tape 3/2"
         logLine1 = u"01 02 03 59 CC This is the rest of the line"
@@ -116,8 +128,6 @@ class Test(unittest.TestCase):
         
         translatedLines = MCShred.translate_lines(shreddedLines)
         
-        print(translatedLines[0].text)
-        
         assert len(translatedLines) == 1
         assert translatedLines[0].page == 1
         assert translatedLines[0].tape == u"3/2"
@@ -143,25 +153,22 @@ class Test(unittest.TestCase):
         assert MCShred.is_a_non_log_line(logLine2) == True
         assert MCShred.is_a_non_log_line(logLine3) == True
         assert MCShred.is_a_non_log_line(logLine4) == True
-        
+
     def test_if_no_speaker_indicated_it_is_considered_a_note(self):
-        logLine = MCShred.LogLine(5, u"5/1", u"01 02 03 59")
-        
-        MCShred.set_timestamp_speaker_and_text(logLine)
-        
+        logLine = MCShred.LogLine(5, u"5/1", 1, u"01 02 03 59")
+
+        MCShred.set_timestamp_speaker_and_text(logLine, timestamp_parts=4)
+
         expectedTime = (59 + (3 * 60) + (2 * 60 * 60) + (1 * 24 * 60 * 60))
-        
-#        print(expectedTime)
-#        print(logLine.seconds_from_mission_start)
-        
+
         assert logLine.seconds_from_mission_start == expectedTime
         assert logLine.speaker == u"_note"
         assert logLine.text == ""
-        
+
 
 def make_log_line(content):
-    return MCShred.LogLine(0, 0, content)        
-            
+    return MCShred.LogLine(0, 0, 0, content)
+
+
 if __name__ == "__main__":
-    #import sys;sys.argv = ['', 'Test.testName']
     unittest.main()

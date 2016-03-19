@@ -318,7 +318,7 @@ sub process {
 
         push( @fail, 'badchar' )
           if my (@badchar) =
-              $line =~ /[^\-\t ._,A-Za-z0-9"'\?:\[\]<!&>;\/\n\(\)\*é°½¼#]/;
+              $line =~ /[^\-\t ._,A-Za-z0-9"'\?:\[\]<!&>;\/\n\(\)\*\+é°½¼#∆]/;
 
         push( @fail, 'j-grows-up-so-fast' )
           if $txt =~
@@ -334,6 +334,7 @@ sub process {
         push( @fail, 'geoff-minter-alert' )
           if $txt =~ /(\w*[^A-Z][a-z][A-Z]\w*)/ && $1 ne 'CapCom';
         push( @fail, 'ail-the-single-ladies' ) if $txt =~ /\bail\b/i;
+        push( @fail, '11-aint-all-that' )      if $txt =~ /\ba11\b/;
         push( @fail, 'hyphen-icide' )          if $txt =~ /[a-z]-$/;
         push( @fail, 'less-ls-more-1s' )       if $txt =~ /(l\d|\dl)/;
         push( @fail, 'lonely-l' )              if $txt =~ /\bl\b/;
