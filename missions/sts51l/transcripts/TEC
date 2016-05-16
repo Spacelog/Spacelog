@@ -9,15 +9,12 @@ MS 2: Hmm.
 
 [-00:00:01:58]
 CDR: Two minutes downstairs; you gotta watch running down there?
-(NASA:   Two minutes till launch.)
 
 [-00:00:01:47]
-PLT: OK there goes the lox arm.
-(NASA:   Liquid oxygen supply arm to ET.)
+PLT: OK there goes the [glossary:lox arm].
 
 [-00:00:01:46]
-CDR: Goes the beanie cap.
-(NASA:   Liquid oxygen vent cap.)
+CDR: Goes the [glossary:beanie cap].
 
 [-00:00:01:44]
 MS 1: Doesn't it go the other way?
@@ -33,11 +30,9 @@ PLT: God I hope not Ellison.
 
 [-00:00:01:38]
 MS 1: I couldn't see it moving; it was behind the center screen.
-(NASA:   Obstructed view of liquid oxygen supply arm.)
 
 [-00:00:01:33]
 MS 2: Got your harnesses locked?
-(NASA:   Seat restraints.)
 
 [-00:00:01:29]
 PLT: What for?
@@ -56,11 +51,9 @@ CDR: Unhuh.
 
 [-00:00:00:59]
 CDR: One minute downstairs.
-(NASA: One minute till launch.)
 
 [-00:00:00:52]
 MS 2: Cabin Pressure is probably going to give us an alarm.
-(NASA: Caution and warning alarm.  Routine occurrence during prelaunch).
 
 [-00:00:00:50]
 CDR: OK.
@@ -70,18 +63,15 @@ CDR: OK there.
 
 [-00:00:00:43]
 PLT: Alarm looks good.
-(NASA: Cabin pressure is acceptable.)
 
 [-00:00:00:42].
 CDR: OK.
 
 [-00:00:00:40]
-PLT: Ullage pressures are up.
-(NASA: External tank ullage pressure.)
+PLT: [glossary:Ullage] pressures are up.
 
 [-00:00:00:34]
 PLT: Right engine helium tank is just a little bit low.
-(NASA: SSME supply helium pressure.)
 
 [-00:00:00:32]
 CDR: It was yesterday, too.
@@ -91,45 +81,37 @@ PLT: OK.
 
 [-00:00:00:30]
 CDR: Thirty seconds down there.
-(NASA: 30 seconds till launch.)
 
 [-00:00:00:25]
 PLT: Remember the red button when you make a roll call.
-(NASA: Precautionary reminder for communications configuration.)
 
 [-00:00:00:23]
 CDR: I won't do that; thanks a lot.
 
 [-00:00:00:15]
 CDR: Fifteen.
-(NASA: 15 seconds till launch.)
 
 [-00:00:00:06]
 CDR: There they go guys.
-(NASA: SSME Ignition.)
 
 MS 2: All right.
 
 CDR: Three at a hundred.
-(NASA: SSME thrust level at 100% for all 3 engines.)
 
 [00:00:00:00]
 MS 2: Aaall riiight.
 
 [00:00:00:01]
 PLT: Here we go.
-(NASA: Vehicle motion.)
 
 [00:00:00:07]
 CDR: Houston, Challenger roll program.
-(NASA: Initiation of vehicle roll program.)
 
 [00:00:00:11]
 PLT: Go you Mother.
 
 [00:00:00:14]
-MS: LVLH.
-(NASA: Reminder for cockpit switch configuration change. Local vertical/local horizontal).
+MS: [glossary:LVLH].
 
 [00:00:00:15]
 MS 2: (Expletive) hot.
@@ -148,30 +130,24 @@ CDR: It's a little hard to see out my window here.
 
 [00:00:00:28]
 PLT: There's ten thousand feet and Mach point five.
-(NASA: Altitude and velocity report.)
 
 [00:00:00:30]
 Garble.
 
 [00:00:00:35]
 CDR: Point nine.
-(NASA: Velocity report, 0.9 Mach).
 
 [00:00:00:40]
 PLT: There's Mach one.
-(NASA: Velocity report, 1.0 Mach).
 
 [00:00:00:41]
 CDR: Going through nineteen thousand.
-(NASA: Altitude report, 19,000 ft.)
 
 [00:00:00:43]
 CDR: OK we're throttling down.
-(NASA: Normal SSME thrust reduction during maximum dynamic pressure region.
 
 [00:00:00:57]
 CDR: Throttling up.
-(NASA: Throttle up to 104% after maximum dynamic pressure.
 
 [00:00:00:58]
 PLT: Throttle up.
@@ -187,18 +163,15 @@ Woooohoooo.
 
 [00:00:01:02]
 PLT: Thirty-five thousand going through one point five
-(NASA: Altitude and velocity report, 35,000 ft., 1.5 Mach).
 
 [00:00:01:05]
 CDR: Reading four eighty six on mine.
-(NASA: Routine airspeed indicator check.)
 
 [00:00:01:07]
 PLT: Yep, that's what I've got, too.
 
 [00:00:01:10]
 CDR: Roger, go at throttle up.
-(NASA: SSME at 104 percent.
 
 [00:00:01:13]
 PLT: Uhoh.
