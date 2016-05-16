@@ -26,8 +26,8 @@
     },
     "shared_glossaries": ["space", "shuttle"],
     "glossary": {
-      "lox arm": { "summary": "Liquid Oxygen supply arm to the External Tank", "type": "XXXXX" },
-      "beanie cap": { "summary": "Liquid oxygen vent cap for the External Tank", "type": "XXXXXX" },
+      "lox arm": { "summary": "Liquid Oxygen supply arm to the External Tank" },
+      "beanie cap": { "summary": "Liquid oxygen vent cap for the External Tank" },
       "LVLH": { "summary": "Local Vertical/Local Horizontal", "type": "abbreviation" }
     },
     "error_pages": {
