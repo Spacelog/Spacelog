@@ -62,24 +62,24 @@
         "CDR": {
           "role": "astronaut",
           "name": "Francis R. Scobee",
-          "short_name": "Francis Scobee (CDR)",
+          "short_name": "Dick Scobee (CDR)",
           "mission_position": "Commander",
-          "bio": "XXX",
+          "bio": "Dick Scobee was a U.S. Air Force test pilot and NASA Astronaut. He was was selected as an astronaut as part of the 1978 NASA Group 8 and flew as Shuttle Pilot on STS-41-C.",
           "photo": "scobee.jpg",
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "scobee.jpg",
           "stats": [
             {
-                "value": XX,
+                "value": 167,
                 "text": "hours in space"
             },
             {
-                "value": XX,
+                "value": 2,
                 "text": "missions"
             },
             {
-                "value": XX,
+                "value": 46,
                 "text": "age at launch"
             }
           ],
@@ -90,22 +90,22 @@
           "name": "Michael J. Smith",
           "short_name": "Michael Smith (PLT)",
           "mission_position": "Pilot",
-          "bio": "XXX",
+          "bio": "Michael John Smith was a Navy aviator and a graduate of the U.S. Naval Test Pilot School with the rank of Captian. He was selected as an Astronaut as part of the 1980 NASA Group 9. STS-51-L was his first Shuttle mission.",
           "photo": "smith.jpg",
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "smith.jpg",
           "stats": [
             {
-                "value": XXX,
+                "value": 0,
                 "text": "hours in space"
             },
             {
-                "value": XX,
+                "value": 1,
                 "text": "missions"
             },
             {
-                "value": XX,
+                "value": 40,
                 "text": "age at launch"
             }
           ],
@@ -116,22 +116,22 @@
           "name": "Ellison S. Onizuka",
           "short_name": "Ellison Onizuka (MS 1)",
           "mission_position": "Mission Specialist 1",
-          "bio": "XXXX",
+          "bio": "Ellison Shoji Onizuka was an American astronaut from Kealakekua, Hawaii, who successfully flew into space with the Space Shuttle Discovery on STS-51-C. He died in the destruction of the Space Shuttle Challenger, on which he was serving as Mission Specialist for mission STS-51-L. He was the first Asian American to reach space, and the first person of Japanese ancestry to reach space.",
           "photo": "onizuka.jpg",
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "onizuka.jpg",
           "stats": [
             {
-                "value": XXX,
+                "value": 73,
                 "text": "hours in space"
             },
             {
-                "value": XX,
+                "value": 2,
                 "text": "missions"
             },
             {
-                "value": XXX,
+                "value": 39,
                 "text": "age at launch"
             }
           ],
@@ -142,22 +142,22 @@
           "name": "Judith A. Resnik",
           "short_name": "Judith Resnik (MS 2)",
           "mission_position": "Mission Specialist 2",
-          "bio": "XXXX",
+          "bio": "Resnik was the second American female astronaut, logging 145 hours in orbit. She was a graduate of Carnegie Mellon University and had a Ph.D. in electrical engineering from the University of Maryland. The IEEE Judith Resnik Award for space engineering is named in her honor.",
           "photo": "resnik.jpg",
           "photo_width": 190,
           "photo_height": 205,
           "avatar": "resnik.jpg",
           "stats": [
             {
-                "value": XXX,
+                "value": 145,
                 "text": "hours in space"
             },
             {
-                "value": XX,
+                "value": 2,
                 "text": "missions"
             },
             {
-                "value": XXX,
+                "value": 36,
                 "text": "age at launch"
             }
           ],
