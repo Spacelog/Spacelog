@@ -1,0 +1,22 @@
+{
+    "name": "g8", 
+    "utc_launch_time": "1966-03-16", 
+    "main_transcript": "g8/TEC", 
+    "subdomains": [
+        "g8"
+    ], 
+    "copy": {
+        "cleaners": [
+            "Amy Leigh", 
+            "Grant Henninger", 
+            "James Aylett", 
+            "Mark Norman Francis", 
+            "Matthew S.", 
+            "jweather"
+        ], 
+        "lower_title": "VIII", 
+        "upper_title": "Gemini", 
+        "title": "Gemini VIII"
+    }, 
+    "incomplete": true
+}
