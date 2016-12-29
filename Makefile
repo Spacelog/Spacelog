@@ -4,8 +4,9 @@ website_screen_sass       = website/static/css/screen.scss
 website_screen_sass_components = website/static/css/screen/*.scss
 global_screen_css         = global/static/css/screen.css
 global_screen_sass        = global/static/css/screen.scss
-global_screen_sass_components = global/static/css/*.scss
+global_screen_sass_components = global/static/css/screen/*.scss
 PYTHON                   ?= ./ENV/bin/python
+SASS                     ?= ./ENV/bin/pyscss
 
 # Dev Django runserver variables
 dev_webserver_ip         ?= 0.0.0.0
@@ -40,24 +41,22 @@ copyxapian:
 	cp -a ../current/xappydb xappydb
 
 $(website_screen_css): $(website_screen_sass) $(website_screen_sass_components)
-	sass --style compressed \
-		$(website_screen_sass) > $(website_screen_css)
+	$(SASS) -t compressed $(website_screen_sass) > $(website_screen_css)
 
 $(global_screen_css): $(global_screen_sass) $(global_screen_sass_components)
-	sass --style compressed \
-		$(global_screen_sass) > $(global_screen_css)
+	$(SASS) -t compressed $(global_screen_sass) > $(global_screen_css)
 
 devserver:
 	$(PYTHON) -m website.manage runserver $(dev_webserver_ip):$(dev_webserver_port)
 
 devcss:
-	sass --style compressed --watch $(website_screen_sass):$(website_screen_css)
+	watch make $(website_screen_css)
 
 devserver_global:
 	$(PYTHON) -m global.manage runserver $(dev_webserver_ip):$(dev_global_port)
 
 devcss_global:
-	sass --style compressed --watch $(global_screen_sass):$(global_screen_css)
+	watch make $(global_screen_css)
 
 thumbnails:
 	cd website/static/img/missions/a13/; $(PYTHON) resize.py
