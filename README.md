@@ -57,28 +57,73 @@ You can then make changes, commit them to your local copy (`git commit`), push t
 
 ### Software to install
 
- * python (and pip)
- * redis (often packages as `python-redis`; we need Redis 2.0 or later)
- * Xapian and its python bindings (the search engine library we use; often packaged as `python-xapian`)
- * `Sass` (a Ruby preprocessor for CSS; `gem install sass`)
+Note that you may want to use Vagrant (`vagrant up`) to give yourself
+a linux VM; you shouldn't then need to do anything else from this
+section.
+
+#### On macOS
+
+We recommend you install [homebrew](http://brew.sh/) and then:
+
+```sh
+brew install python
+brew install watch
+brew install redis
+brew install xapian --with-python
+brew install imagemagick
+brew install optipng
+```
+
+#### On linux
+
+Software you need, with the Debian/Ubuntu package names in parentheses.
+
+ * python, version 2 (`python`) and pip (`python-pip`)
+ * `watch` (`procps`)
+ * redis and its python bindings (`python-redis`)
+ * Xapian and its python bindings (`python-xapian`)
  * various python modules (run `pip install -r requirements.txt`)
- * imagemagick and optipng (for building the stats images on the phase pages; this is optional)
+ * imagemagick and optipng, for building the stats images on the phase pages; this is optional (`imagemagick`, `optipng`)
 
-The easiest way to grab the python modules may be to build a `virtualenv` in the Spacelog checkout:
+## Python modules
 
-	virtualenv --system-site-packages ENV
-  pip install --upgrade pip
-	ENV/bin/pip install -r requirements.txt
+The easiest way to grab the python modules is to build a `virtualenv`
+in the Spacelog checkout:
 
-then use `ENV/bin/python` where normally you'd use just `python`. (If it's recent enough, `virtualenv` may install a script to "activate" its copy of python in your shell, which you run as `source ENV/bin/activate`, or `ENV/Scripts/activate.bat` on Windows.)
+```sh
+virtualenv --system-site-packages ENV
+pip install --upgrade pip
+ENV/bin/pip install -r requirements.txt
+source ENV/bin/activate
+```
+
+From this point on, `python` will give you the virtual environment's python.
 
 ## Running the code
 
-If you have `screen` installed and are using a virtualenv as above, you should be able to just run `make screen` to get everything running for you. You also need to run `make reindex` to load all the details of the missions. Then you can point your web browser at [http://dev.spacelog.org:8001/](http://dev.spacelog.org:8001/) and the global homepage should come up; from there you can navigate to other missions, which will appear at URLs such as [http://apollo11.dev.spacelog.org:8000/](http://apollo11.dev.spacelog.org:8000). The DNS is managed by us, and providing you're online everything will just work.
+If you have `screen` installed (eg you will on macOS) and are using a
+virtualenv as above, you should be able to just run `make screen` to
+get everything running for you. You also need to run `make reindex` to
+load all the details of the missions. Then you can point your web
+browser
+at [http://dev.spacelog.org:8001/](http://dev.spacelog.org:8001/) and
+the global homepage should come up; from there you can navigate to
+other missions, which will appear at URLs such
+as
+[http://apollo11.dev.spacelog.org:8000/](http://apollo11.dev.spacelog.org:8000). The
+DNS is managed by us, and providing you're online everything will just
+work.
 
-`make screen` fires up an instance of `screen`, which is an easy way of running multiple programs on one terminal. Currently it leaves you looking at the development server log for the global homepage, but you can switch to a blank terminal by typing `^A 0`, ie: holding down the `ctrl` key, pressing `A`, releasing `ctrl` and then pressing `0`. This is a good place to run `make reindex` from.
+`make screen` fires up an instance of `screen`, which is an easy way
+of running multiple programs on one terminal. Currently it leaves you
+looking at the development server log for the global homepage, but you
+can switch to a blank terminal by typing `^A 0`, ie: holding down the
+`ctrl` key, pressing `A`, releasing `ctrl` and then pressing `0`. This
+is a good place to run `make reindex` from.
 
-All our `make` commands will take care of the virtualenv for you; if you're not using one, you can use `PYTHON=python make <whatever>` instead.
+All our `make` commands will take care of the virtualenv for you; if
+you're not using one, you can use `PYTHON=python make <whatever>`
+instead.
 
 ### The details
 
