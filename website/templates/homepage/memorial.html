@@ -8,8 +8,14 @@
 {% block full_title %}{{ mission.title }} on Spacelog{% endblock %}
 {% block body-class %}memorial{% endblock %}
 
+{# Jam the viewport in there as well until we move it to everything #}
 {% block meta-description %}
 <meta name="description" property="og:description dbo:abstract" content="Memorial site for {{ mission.title }}.">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+{% endblock %}
+
+{% block css-stylesheet %}
+<link rel="stylesheet" href="{% static "css/new-screen.css" %}" media="screen">
 {% endblock %}
 
 {% block content %}
