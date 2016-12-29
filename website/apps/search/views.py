@@ -9,10 +9,11 @@ import xapian
 import redis
 from backend.api import LogLine, Character
 from backend.util import timestamp_to_seconds
+from common.views import MemorialMixin
 
 PAGESIZE = 20
 
-class SearchView(TemplateView):
+class SearchView(MemorialMixin, TemplateView):
 
     template_name = 'search/results.html'
 

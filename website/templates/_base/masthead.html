@@ -3,6 +3,9 @@
   <div id='masthead'>
   <div class='wrapper'>
     <h1><a href='{{ PROJECT_HOME }}'>Spacelog</a> <a href="/" class="mission">{{ mission.title }}</a></h1>
+    {% if mission.memorial %}
+    <p class='dateline'>{{ mission.date|date:"F d, Y" }}</p>
+    {% else %}
     <nav>
       <ul>
         <li class='transcript-section'><a href='{% url "view_page" %}'>Transcripts</a></li>
@@ -16,6 +19,7 @@
           placeholder="Search transcript">
       </form>
     </nav>
+    {% endif %}
   </div>
 </div>
 </div>

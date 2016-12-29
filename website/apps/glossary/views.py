@@ -1,9 +1,13 @@
+from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from backend.api import Glossary
 
 
 def glossary(request):
+    if request.mission.memorial:
+        return HttpResponseRedirect('/')
+
     terms = sorted(
         list(
             Glossary.Query(request.redis_conn, request.mission.name).items()

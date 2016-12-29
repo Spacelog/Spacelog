@@ -438,6 +438,7 @@ class Character(object):
         self.photo_width          = data.get('photo_width', None)
         self.photo_height         = data.get('photo_height', None)
         self.quotable_log_line_id = data.get('quotable_log_line_id', None)
+        self.quote                = data.get('quote', '').decode('utf-8')
         self.precomputed_slug     = data.get('slug', None)
         
         stat_pairs = self.redis_conn.lrange( u"%s:stats" % key, 0, -1 )
@@ -587,6 +588,7 @@ class Mission(object):
         self.summary = self.copy.get('summary', '')
         self.description = self.copy.get('description', self.summary)
         self.featured = (data['featured'].lower() == 'true')
+        self.memorial = (data.get('memorial', 'false').lower() == 'true')
         self.main_transcript = data['main_transcript']
         try:
             self.main_transcript_subname = data['main_transcript'].split(u"/", 1)[1]
@@ -605,6 +607,10 @@ class Mission(object):
     def year(self):
         dt = datetime.datetime.fromtimestamp(float(self.utc_launch_time))
         return dt.year
+
+    @property
+    def date(self):
+        return datetime.datetime.utcfromtimestamp(float(self.utc_launch_time))
 
     class Query(BaseQuery):
 
