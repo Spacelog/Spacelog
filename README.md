@@ -216,6 +216,53 @@ files for all the artwork we've created is available, although we
 haven't yet put it online -- yell if you need it as a basis for making
 things like orbital diagrams.)
 
+### Images
+
+The mission images folder (eg `missions/a11/images`) contains a number
+of images in standard locations and of standard sizes. This is an
+incomplete list. There are Photoshop templates available to help with
+constructing some of these (talk to the mailing list to get hold of
+them).
+
+ * `badge.png` (200 pixels wide, square-ish) and `badge_thumb.png` (40x40
+   pixels): the mission patch, with a transparent background, designed
+   for use on a dark background
+ * `avatars/` contains images for each character in the transcript, in
+   one of the following forms:
+     * transcript name: `F.png`, `IWO_48.png`
+     * ground crew or similar: `capcom_generic.jpg`, `charlie_duke.png`, `nixon.png`, in black and white
+     * astronauts in flight: `aldrin.jpg`, `armstrong.jpg`, in black and white with a yellow filter applied
+     * `blank_avatar_48.png` (default blank avatar)
+ * `people/` contains images used on the people page, for characters in
+   the transcript we call out, which are constructed based on their `role`.
+   The three role groups should have consistent sizes, typically up to
+   200 pixels wide and 150-200 pixels high (there's a fair amount of
+   flexibility here, although 190x205 for the first two and 190x155 for
+   the others was the original design).
+     * `astronaut`: in colour (if possible); the aim is to get them in
+       spacesuits or flight suits, although this isn't always possible
+     * `mission-ops-title`: black and white (on the same page as
+       astronauts; we generally include CAPCOM and Flight there as
+       separate "characters" to explain these key roles, with people filling
+       them or otherwise interesting to the mission as `mission-ops`)
+     * `mission-ops` black and white (on another page)
+ * a number of directories for images for each act, the details of
+   which are managed in the`_meta` file's `acts` section, so can be anything,
+   but are generally `act1.jpg` or `act1.png` etc
+     * `banners/`: 1020x200 pixels, used as headers within the transcript
+     * `illustration/`: 950-960 by 300-330 pixels, optional orbital
+       diagram with spacecraft schematic (but could skip the orbital
+       diagram eg for Apollo 9), used on the phases page
+     * `orbital/`: 956x104 pixels, optional orbital diagram (only
+       makes sense for moon missions), used in the expanded transcript
+       footer
+     * `homepage/`: 220x140 pixels, used on the mission homepage
+       * This directory also contains a single `background.jpg`, which
+         should be dark, and probably feathered toward the right and
+         bottom edges. Size should be "large", but there are no
+         particular dimensions or range of dimensions. Choose
+         something that looks good.
+
 ### Memorials
 
 For missions that resulted in fatalities, we do not aim to provide a
@@ -246,7 +293,11 @@ Images (eg in `missions/a1/images/`) that should be in place are:
 
  * `badge_thumb.png`, `badge.png` (principally for sharing)
  * astronaut photos in `people/` (typically official NASA headshots)
- * `homepage/crew.jpg` (ideally a photo of the entire crew in training)
+ * `homepage/crew.jpg` (ideally a photo of the entire crew in training),
+   should be "large" (as `homepage/background.jpg`, but more foregroundy);
+   on large screens it will be shown at 960px wide, and on narrower at
+   full bleed (so on high density screens up to 1920px may be used)
+
 
 ### Multiple transcripts
 
