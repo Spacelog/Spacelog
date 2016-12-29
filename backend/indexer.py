@@ -354,20 +354,16 @@ class MetaIndexer(object):
             print "Converted launch time to UTC timestamp:", utc_launch_time
         is_memorial = meta.get('memorial', False)
         if is_memorial:
-            is_featured = True
-            is_incomplete = True
             default_main_transcript = None
         else:
-            is_featured = meta.get('featured', not is_memorial)
-            is_incomplete = meta.get('incomplete', True)
             default_main_transcript = "%s/TEC" % self.mission_name
         self.redis_conn.hmset(
             "mission:%s" % self.mission_name,
             {
                 "utc_launch_time": utc_launch_time,
                 "memorial": is_memorial,
-                "featured": is_featured,
-                "incomplete": is_incomplete,
+                "featured": meta.get('featured', False),
+                "incomplete": meta.get('incomplete', True),
                 "main_transcript": meta.get('main_transcript', default_main_transcript),
                 "media_transcript": meta.get('media_transcript', None),
                 "subdomain": meta.get('subdomain', None),

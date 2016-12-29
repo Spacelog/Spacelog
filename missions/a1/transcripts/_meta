@@ -1,11 +1,15 @@
 {
     "name": "a1",
     "memorial": true,
+    "incomplete": true,
+    "featured": false,
     "subdomains": ["apollo1", "a1"],
     "copy": {
         "title": "Apollo 1",
         "upper_title": "Apollo",
         "lower_title": "1",
+        "description": "Tragedy struck the Apollo program when an accident during training took the lives of the Apollo 1 crew.",
+        "summary": "Tragedy early in Project Apollo",
         "narrative": [
             "The crew for the first crewed test flight of the Apollo Command/Service Module had been announced in March 1966, aiming for a launch date of February 21, 1967. Training took place throughout 1966 and early 1967, as the capsule to be used for the flight was completed and underwent testing and preparation by NASA.",
             "On January 27, 1967, the crew were in the Command Module for a 'plugs-out' test of the spacecraft's internal power system. Following a brief power failure, and subsequently believed to be caused by insufficiently-insulated wiring, a fire broke out in the cockpit. Despite the crew's attempts to follow emergency procedure, they were unable to exit the capsule, and were overcome by carbon monoxide produced by the fire.",

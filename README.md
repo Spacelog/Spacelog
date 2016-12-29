@@ -270,7 +270,7 @@ regular site with a transcript. Instead, we can provide a small
 "memorial" site, controlled entirely from the `_meta` file. Set the
 `memorial` key to `true`, and the following keys will be used:
 
- * `name`, `subdomains` as normal
+ * `name`, `subdomains`, `featured`, `incomplete` as normal
  * `utc_launch_time` is used for ordering on the Spacelog homepage
  * `characters` should contain only the astronauts, with:
    * `name`, `mission_position`, `bio`
@@ -279,15 +279,12 @@ regular site with a transcript. Instead, we can provide a small
    * optional `quote`, and optional `quote_url`
    * characters in memorials should not have stats
  * `copy` with:
-   * `title`, `upper_title`, `lower_title`, `description`
+   * `title`, `upper_title`, `lower_title`, `description`, `summary`
    * `narrative` (main body for memorial page, doesn't support HTML,
      should be a list of strings, each of which forms a paragraph)
    * `image_attributions` should contain details of the crew photo
      (`url`, `title`, `attrib_url`, `attrib` and `license`) unless it
      is public domain (which it usually will be)
-
-Note that memorials will not currently be shown on the Spacelog
-homepage (so the`summary` and `description` copy keys are not used, and `incomplete` will always be treated as `true`).
 
 Images (eg in `missions/a1/images/`) that should be in place are:
 
