@@ -623,6 +623,7 @@ if __name__ == "__main__":
         new_db = current_db
         print "Reindexing into database %s" % new_db
         print "Note that this is not perfect! Do not use in production."
+        redis_conn.select(new_db)
         redis_conn.set("hold", "1")
 
     for filename in dirs:
