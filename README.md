@@ -230,9 +230,11 @@ them).
  * `avatars/` contains images for each character in the transcript, in
    one of the following forms:
      * transcript name: `F.png`, `IWO_48.png`
-     * ground crew or similar: `capcom_generic.jpg`, `charlie_duke.png`, `nixon.png`, in black and white
-     * astronauts in flight: `aldrin.jpg`, `armstrong.jpg`, in black and white with a yellow filter applied
+     * ground crew or similar: `capcom_generic.jpg`, `charlie_duke.png`, `nixon.png`, in black and white (ideally in shirt sleeves)
+     * astronauts in flight: `aldrin.jpg`, `armstrong.jpg`, in black and white with a yellow filter applied (ideally in a spacesuit)
      * `blank_avatar_48.png` (default blank avatar)
+
+   See [the relevant wiki page](https://github.com/spacelog/spacelog/wiki/avatars) for some helpful pre-built avatars.
  * `people/` contains images used on the people page, for characters in
    the transcript we call out, which are constructed based on their `role`.
    The three role groups should have consistent sizes, typically up to
