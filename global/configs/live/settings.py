@@ -4,9 +4,10 @@ ALLOWED_HOSTS = [
     '.spacelog.org',
 ]
 
-# The following MUST be an absolute URL in live deploys (it's given out
-# to other systems).
-STATIC_URL = 'http://cdn.spacelog.org/assets/global/'
+# This should be shared between all releases, so that the previous
+# release's assets are still available (particularly important with
+# upstream caching that may take a while to roll over).
+STATIC_ROOT = '/home/spacelog/assets/global'
 
 # allow local overrides, probably built during deploy
 try:

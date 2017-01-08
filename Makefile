@@ -18,8 +18,8 @@ all: reindex collectstatic
 dirty: copyxapian productioncss copy_statsporn
 
 collectstatic: productioncss statsporn
-	$(PYTHON) -m website.manage collectstatic --noinput --ignore=*.scss
-	$(PYTHON) -m global.manage collectstatic --noinput --ignore=*.scss
+	DJANGOENV=live $(PYTHON) -m website.manage collectstatic --noinput --ignore=*.scss
+	DJANGOENV=live $(PYTHON) -m global.manage collectstatic --noinput --ignore=*.scss
 
 reindex: $(indexer)
 	rm -rf xappydb
@@ -67,3 +67,16 @@ screen:
 	sleep 1
 	screen -r artemis -X source screenstart
 	screen -r artemis
+
+# it's all the rage to avoid shell scripts, apparently
+gunicornucopia: gunicorn_global gunicorn_website
+
+gunicornicide:
+	-start-stop-daemon --pidfile ~/gunicorn-global.pid --remove-pidfile -K
+	-start-stop-daemon --pidfile ~/gunicorn-website.pid --remove-pidfile -K
+
+gunicorn_global:
+	ENV/bin/gunicorn -c global/configs/live/global_gunicorn.py --daemon --pid ~/gunicorn-global.pid --error-logfile ~/gunicorn-global.log global.configs.live.global_wsgi
+
+gunicorn_website:
+	ENV/bin/gunicorn -c website/configs/live/website_gunicorn.py --daemon --pid ~/gunicorn-website.pid --error-logfile ~/gunicorn-website.log website.configs.live.website_wsgi
