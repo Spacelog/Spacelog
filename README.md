@@ -216,6 +216,14 @@ This defines the character P. `bio`, `photo` (stored in the mission's `images/pe
 
 `role` is based on initial usage, and so can be a little confusing. It should be one of astronaut, mission-ops, mission-ops-title or other (defaulting to other). Astronaut means a full-size, prominent place on the main people page (190x205 image with biography as above, and also support for stats and a quote); mission-ops-title will get a less prominent position on the main people page (190x205 with biography); mission-ops go on a second page (linked as "View Mission Control Team" from the main people page), where they get a 190x155 photo and brief biography.
 
+When dealing with translations, you can also set the role to any of
+the above with '-alias' at the end (eg astronaut-alias,
+mission-ops-title-alias) and explicitly match the `slug` to the "real"
+character definition. Transcripts will show details from the alias
+(including `short_name` and `avatar`, but will link via the explicit
+slug to the "real" biography on the relevant people page, assuming
+there is one).
+
 The people pages show the full name (the `name` key) and the mission position from the character definition. The short name is shown within the transcript, with the avatar (48x48, stored in the mission's `images/avatars` directory; astronauts get a yellow hue to differentiate them from those not in space during the mission) alongside.
 
 ### Character stats and quotes
