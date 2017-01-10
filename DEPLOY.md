@@ -16,6 +16,16 @@ apt-get install -y libffi-dev libssl-dev python-setuptools python-pip redis-serv
 service varnish stop
 mkdir /etc/systemd/system/varnish.service.d
 echo -e "[Service]\nExecStart=\nExecStart=/usr/sbin/varnishd -a :80 -F -T localhost:6082 -f /etc/varnish/default.vcl -S /etc/varnish/secret -s malloc,256m" > /etc/systemd/system/varnish.server.d/customexec.conf
+```
+
+You need to edit ``/etc/varnish/default.vcl`` to nuke cookies from the
+request, so that everything can be cached. (The only cookies that
+should be set for us are Google Analytics, which don't make any
+difference.)
+
+Within ``vcl_recv``, you should add the line ``unset req.http.Cookie;``.
+
+```
 systemctl daemon-reload
 service varnish start
 ```
