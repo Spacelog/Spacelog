@@ -14,7 +14,8 @@
         "summary": "The first human space flight",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur. (Currently very limited and only in Russian; we'd appreciate any help in improving both our coverage and in providing English explanations!)",
         "cleaners": [
-            "James Aylett"
+            "James Aylett",
+            "Igor Racyborynsky"
         ],
         "about": "Восток (Vostok) 1 was the mission that put the first man in space, and reinforced the Soviets' early lead in the Space Race. 27 year old Yuri Gagarin made one orbit of the Earth before re-entry, remaining conscious while experiencing at least 8g, before ejecting from the spacecraft 7km from the ground to land about ten minutes later.\n\nThis site allows you to explore transcripts of radio communications between Gagarin and the personnel at various ground stations across Russia.",
         "component_suppression": {
@@ -75,6 +76,14 @@
             "homepage": "act4.jpg"
         }
     ],
+    "character_ordering": [
+        "Заря 1 (Каманин)",
+        "Кедр",
+        "Заря 1 (Королев)",
+        "Заря 1 (Быков)",
+        "Заря 1 (Попович)",
+        "Заря 1 (Галай)"
+    ],
     "characters": {
         "Заря 1": {
             "identifier_lang": "ru",
@@ -92,6 +101,9 @@
             "short_name_lang": "ru",
             "comment": "Bykov",
             "role": "other",
+            "bio": "Chief Designer at NII-695, responsible for telemetry communications systems used in the Vostok programme.",
+            "mission_position": "Chief Designer (NII-695)",
+            "slug": "bykov",
             "name": "Быков",
             "short_name": "Быков",
             "avatar": "person.png"
@@ -103,6 +115,9 @@
             "short_name_lang": "ru",
             "comment": "Galaj",
             "role": "other",
+            "mission_position": "Cosmonaut trainer",
+            "bio": "One of the most renowned test pilots in the Soviet Union, Mark Gallay had supervised the training of the cosmonauts, including the parabolic flights they flew in a Tu-104 aircraft to experience microgravity.",
+            "slug": "gallay",
             "name": "Галай",
             "short_name": "Галай",
             "avatar": "person.png"
@@ -142,7 +157,7 @@
             "short_name_lang": "ru",
             "comment": "Korolev",
             "role": "mission-ops-title",
-            "mission_position": "Chief Designer",
+            "mission_position": "Chief Designer (OKB-1)",
             "name": "Королев",
             "short_name": "Королев",
             "slug": "korolyov",
@@ -159,6 +174,9 @@
             "short_name_lang": "ru",
             "comment": "Popovich (cosmonaut)",
             "role": "other",
+            "bio": "Pavel Popovich was selected for cosmonaut training at the same time as Yuri Gagarin, and would go on to command the Vostok 4 and Soyuz 14 missions. Popovich was married to Marina Popovich, a legendary and highly decorated Soviet test pilot.",
+            "mission_position": "Capsule Communicator",
+            "slug": "popovich",
             "name": "Попович",
             "short_name": "Попович",
             "avatar": "popovich.png"
@@ -233,6 +251,94 @@
             "photo_width": 190,
             "photo_height": 205,
             "bio": "27-year old Yuri Gagarin started flying as a hobby while in high school, subsequently entering military flight training before taking up his first post as a fighter pilot on the Norwegian border. One of the first group of pilots chosen for the Soviety space program, he was always one of the front-runners in the group, finally being chosen only days before the flight. Following Vostok 1 he toured internationally to promote Soviet achievement."
+        },
+        "Dawn 1 (Kamanin)": {
+            "comment": "Now we have characters for the English transcript, which will share a slug with the Russian-named characters (where we want to link to their bio on the people page). Role is 'other' throughout, so they don't appear anywhere confusing.",
+            "role": "mission-ops-title-alias",
+            "name": "Kamanin",
+            "slug": "kamanin",
+            "short_name": "Nikolai Kamanin",
+            "avatar": "kamanin.jpg"
+        },
+        "Dawn 1 (Korolev)": {
+            "comment": "We transliterate as Korolyov, although the translation uses Korolev and there are probably other variants as well.",
+            "role": "mission-ops-title-alias",
+            "name": "Korolyov",
+            "slug": "korolyov",
+            "short_name": "Sergei Korolyov",
+            "avatar": "korolyov.jpg"
+        },
+        "Cedar": {
+            "role": "astronaut-alias",
+            "name": "Gagarin",
+            "slug": "gagarin",
+            "short_name": "Yuri Gagarin",
+            "avatar": "gagarin.jpg"
+        },
+        "Dawn 1 (Bykov)": {
+            "comment": "And the characters in the English translation that don't link to biographies. We use role=other so they're hidden.",
+            "comment": "Bykov was Chief Designer at NII-695. Responsible for communications (Siddiqi 2000, p201 http://history.nasa.gov/SP-4408pt1.pdf), one of the men Gagarin 'chatted effusively' with prior to launch (p274).",
+            "role": "other",
+            "slug": "bykov",
+            "name": "Bykov",
+            "short_name": "Yuri Bykov",
+            "avatar": "person.png"
+        },
+        "Dawn 1 (Galay)": {
+            "comment": "'One of the most renowned test pilots in the Soviet Union' (Siddiqi 2000, p248). Supervised microgravity parabolic flights in Tu-104 (p248), described (p271) as 'cosmonaut trainer'.",
+            "role": "other",
+            "name": "Galay",
+            "short_name": "Mark Gallay",
+            "avatar": "person.png"
+        },
+        "Dawn 1 (Popovych)": {
+            "comment": "Transliterated as 'Popovich' since initial release.",
+            "role": "other",
+            "name": "Popovich",
+            "short_name": "Pavel Popovich (CAPCOM)",
+            "avatar": "popovich.png"
+        },
+        "Dawn 1 (Rudnev)": {
+            "comment": "Chair of the State Commission for Vostok, in Tyura-Tam before and during launch (Siddiqi 2000, pp271-274).",
+            "role": "other",
+            "name": "Rudnev",
+            "short_name": "Konstantin Rudnev",
+            "avatar": "person.png"
+        },
+        "Dawn 2 (Titarev)": {
+            "comment": "Saddiqi 2000 p278.",
+            "role": "other",
+            "name": "Lt Colonel Titarev",
+            "short_name": "Kolpashevo CAPCOM",
+            "avatar": "person.png"
+        },
+        "Dawn 2 (Seleznev)": {
+            "comment": "Saddiqi 2000 p278.",
+            "role": "other",
+            "name": "Lt Seleznev",
+            "short_name": "Kolpashevo CAPCOM",
+            "avatar": "person.png"
+        },
+        "Dawn 3 (Karpenko)": {
+            "comment": "Saddiqi 2000 p278.",
+            "role": "other",
+            "name": "Colonel Karpenko",
+            "short_name": "Yelizovo CAPCOM",
+            "avatar": "person.png"
+        },
+        "Vesna (Horoshylov)": {
+            "comment": "Saddiqi 2000 p278. Note Vesna / Desna.",
+            "role": "other",
+            "name": "Captain Khoroshilov",
+            "short_name": "Moscow CAPCOM",
+            "avatar": "person.png"
+        },
+        "Vesna (Kadushkin)": {
+            "comment": "Saddiqi 2000 p278. Not actually in Desna, according to Saddiqi.",
+            "role": "other",
+            "name": "Colonel Kadushkin",
+            "short_name": "Khabarovsk CAPCOM",
+            "avatar": "person.png"
         }
     },
     "glossary": {
