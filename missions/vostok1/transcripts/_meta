@@ -346,19 +346,26 @@
             "abbr_lang": "ru",
             "summary_lang": "ru",
             "summary": "динамический электромагнитный микрофон шлема",
-            "slug": "damsh"
+            "comment": "dynamic electromagnetic microphone helmet (probably 'headset')",
+            "slug": "damsh",
+            "type": "abbreviation"
         },
         "ПКРС": {
             "abbr_lang": "ru",
             "summary_lang": "ru",
             "summary": "прибор контроля режима спуска",
-            "slug": "pkrs"
+            "description": "Shutter mode control unit",
+            "slug": "pkrs",
+            "type": "abbreviation"
         },
         "ТДУ": {
             "abbr_lang": "ru",
             "summary_lang": "ru",
             "summary": "тормозная двигательная установка",
-            "slug": "tdu"
+            "description": "The spacecraft's retropopulsion system.",
+            "comment": "retropropulsion (prefixed by 'cylinders', and measured in atmospheres), so probably retrorocket fuel supply?",
+            "slug": "tdu",
+            "type": "abbreviation"
         }
     }
 }
