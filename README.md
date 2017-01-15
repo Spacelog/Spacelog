@@ -308,6 +308,44 @@ This means that the first shift is taken by the character with identifier DEKE_S
 
 We also (as in the first example above, from Gus Grissom's Mercury-Redstone 4 flight) use the shift system to "delegate" a generic character (such as STONY, the callsign for an astronaut communicator in the blockhouse during Mercury launches) to a specific character (in this case Deke Slayton) who served in that role for the mission in question.
 
+## Glossary
+
+Glossary terms are defined in a dictionary from identifier (used in
+the transcripts) to an object with a number of (mostly optional)
+attributes. Missions can bring in shared glossaries (in
+``missions/shared/glossary/``) by having a ``_meta`` key of
+``shared__glossaries`` containing a list of shared glossary names. They
+also have a per-mission glossary, in the ``_meta`` key ``glossary``.
+
+The following attributes are available to a glossary entry:
+
+ * ``type``: "abbreviation" or "jargon" (the latter is the default)
+ * ``links``: a list of objects (with ``url`` and ``caption`` attributes); currently not used
+ * ``summary``: short definition, typically the expansion for abbreviations
+ * ``description``: optional more detailed description of the term (for instance, "Drogue" is a glossary entry, with summary "Drogue parachute", and a description which explains what the drogues' purpose is)
+ * ``description_lang``, ``summary_lang`` and ``abbr_lang`` set the language code if not ``en-us``
+
+Glossary entries are referred to in transcripts (strictly in anything
+run through "linkify", which is also used for things like character
+biographies and quotes -- notably this includes glossary
+descriptions). Just do something like the following:
+
+```
+[glossary:term]
+[glossary:term|display]
+```
+
+The second form allows you to use a glossary entry while using
+different display text. (Particularly useful if dealing with
+translations, since the glossary terms themselves will be in one
+language.)
+
+Note that unless there's a description, the transcript won't link to
+the glossary, it'll just provide a title hover giving the glossary
+item summary.
+
+The glossary page for each mission starts with the ``glossary_introduction``
+copy key in ``_meta``.
 
 ## Code layout
 
