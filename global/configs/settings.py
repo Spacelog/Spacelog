@@ -107,6 +107,7 @@ INSTALLED_APPS = (
     'homepage',
     'search',
     'website.apps.transcripts',
+    'website.apps.common',
 )
 
 PROJECT_DOMAIN = "spacelog.org"
