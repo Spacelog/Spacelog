@@ -366,6 +366,22 @@
             "comment": "retropropulsion (prefixed by 'cylinders', and measured in atmospheres), so probably retrorocket fuel supply?",
             "slug": "tdu",
             "type": "abbreviation"
+        },
+        "Lilies of the Valley": {
+            "summary": "A popular song of the time, which the cosmonauts had adopted as a private joke.",
+            "description": "The cosmonauts jokingly called each other 'Lilies of the Valley', having parodied the love song, turning it into a drinking song."
+        },
+        "Zaria": {
+            "summary": "One of the mission communication systems, and callsigns for the ground stations",
+            "description": "Zaria (\"dawn\") was both the name of one of the mission communications systems, and used as callsigns for the ground stations. The Zaria communications system was designed by NII-695, led by their Chief Designer Yuriy Sergeyevich Bykov, who was present at the Zaria-1 ground station at the launch site."
+        },
+        "Vesna": {
+            "summary": "Callsign for HF radio stations",
+            "description": "Vesna (\"spring\") was used as callsigns of radio stations in Moscow and Khabarovsk, operating on HF rather than VHF.",
+            "comment": "For NII-4, see http://www.russianspaceweb.com/tikhonravov.html"
+        },
+        "Cedar": {
+            "summary": "Yuri Gagarin's callsign"
         }
     }
 }

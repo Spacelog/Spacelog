@@ -14,7 +14,7 @@ Cedar: I hear you well.
 
 
 [-00:01:55:00]
-Dawn 1 (Kamanin): Start  space-suit check procedure. Do you still read?
+Dawn 1 (Kamanin): Start space-suit check procedure. Do you still read?
 
 Cedar: Roger: start check of space-suit. In 3 minutes. Busy at the moment.
 
@@ -54,15 +54,15 @@ _comment: (passed with music on background).
 [-00:01:45:00]
 Dawn 1 (Kamanin): I hear you well, Do you read me?
 
-Cedar: I hear you very low, there is indication of light-sound transmission on the panel. It’s coping procedure from tape obviously. Do you understand?
+Cedar: I hear you very low, there is indication of light and sound transmission on the panel. Obviously it's recording to tape. Do you understand?
 
-Dawn 1 (Kamanin): I’ve got you, I hear you well.
+Dawn 1 (Kamanin): I've got you, I hear you well.
 
 
 
 
 [-00:01:44:00]
-Cedar: I didn’t got you. Please, turn of the music, if it’s possible.
+Cedar: I didn't read you. Please, turn off the music, if it's possible.
 
 
 Dawn 1 (Kamanin): Roger, one second. I hear you well.
@@ -81,7 +81,7 @@ Dawn 1 (Bykov): Roger. Good signal through KB-2, I hear you well.
 
 
 [-00:01:42:00]
-Cedar: Switching to [glossary:DEMSH] Start counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+Cedar: Switching to [glossary:DEMSH]. Start counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
 
 Dawn 1 (Kamanin): Roger that, continue work.
 
@@ -114,12 +114,13 @@ Cedar: Receive on the phone.
 
 
 [-00:01:39:00]
-Dawn 1 (Korolev): How do you feel, Yuriy Andreievych?
+Dawn 1 (Korolev): How do you feel, Yuri Alekseyevich?
 
 Cedar: Feel great. Checking of phones and speakers goes fine, switching to the phone.
 
 Dawn 1 (Korolev): Roger. Things goes great, preparation of machine goes stable, everything is fine.
-Cedar: Roger. I’ve knew that.
+
+Cedar: Roger. I knew that.
 
 Dawn 1 (Korolev): Roger. Great, everything is fine.
 
@@ -127,14 +128,14 @@ Dawn 1 (Korolev): Roger. Great, everything is fine.
 
 
 [-00:01:38:00]
-Cedar: Finished connection checking. Do you read me? Position of switches on the panel is set to default. Globe in place, latitude north 63 °, longtitude east 97°, correction number 710, division time is 9 hours 18 min. 07 sec.; moving index is [glossary:PKRS] set to default position — first day 7. Pressure in cabin is  1, humidity 65%, temperature 19 °C, presure in  comartment 1.2, pressure in hand-driven orientation system is 175, first automatic orientation 155, second automatic orientation 157, pressure in cylinder [glossary:TDU] 320 atmospheres. Feeling great, ready to launch. How do you hear me?
+Cedar: Finished connection checking. Do you read me? Position of switches on the panel is set to default. Globe in place, latitude north 63 °, longitude east 97°, correction number 710, division time is 9 hours 18 min. 07 sec.; moving index is [glossary:PKRS] set to default position — first day 7. Pressure in cabin is  1, humidity 65%, temperature 19 °C, pressure in  compartment 1.2, pressure in hand-driven orientation system is 175, first automatic orientation 155, second automatic orientation 157, pressure in cylinder [glossary:TDU] 320 atmospheres. Feeling great, ready to launch. How do you hear me?
 
 
 
 
 
 [-00:01:37:00]
-Dawn 1 (Korolev): Roger. Got your data, validating now. Recieved your launch readiness. Everything goes well on our side.
+Dawn 1 (Korolev): Roger. Got your data, validating now. Received your launch readiness. Everything goes well on our side.
 
 
 
@@ -144,45 +145,49 @@ Dawn 1 (Korolev):  Do you hear me? I need to transmit something.
 
 Cedar: Hear you well.
 
-Dawn 1 (Korolev): Yuriy Andeievich, I want to remind you that after last minute of readiness will be 6 minutes delay before actual flight. Don’t worry please.
+Dawn 1 (Korolev): Yuri Alekseyevich, I want to remind you that after last minute of readiness will be 6 minutes delay before actual flight. Don't worry please.
 
-Cedar: Roger. I’m absolutelly calm.
+Cedar: Roger. I'm absolutely calm.
 
-Dawn 1 (Korolev): That great, wonderful. After minute of readiness there will be some things to do. I pass the phone to  chairman.
+Dawn 1 (Korolev): That great, wonderful. After minute of readiness there will be some things to do. I'm passing the phone to the Chairman.
 
 
 
 
 
 [-00:01:34:00]
-Dawn 1 (Rudnev): Rudnev is on the phone. Yuriy Alekseievich, how do you feel, any news there, what do you see through portholes?
+Dawn 1 (Rudnev): Rudnev here on the phone. Yuri Alekseyevich, how do you feel, any news there, what do you see through the windows?
 
-_comment: Cedar: (didn’t heard, was on other line)
+_comment: original translated as portholes by Igor, but I've changed that throughout to window
 
-Cedar: …everything fine. Do you read me?
+_comment: Cedar: (didn't hear, was on other line)
 
-Dawn 1 (Korolev): Roger. Charman had heard you. Everything goes fine here.
+Cedar: ... everything fine. Do you read me?
+
+Dawn 1 (Korolev): Roger. The Chairman heard you. Everything is fine here.
 
 
 
 
 
 [-00:01:33:00]
-Dawn 1 (Popovych): Yuriyi, how is it going?
+Dawn 1 (Popovych): Yuri, how is it going?
 
-Cedar: How they taught us 
+Cedar: How they taught us.
 
 _comment: (laugh).
 
-Dawn 1 (Popovych): Ok then, good, take care. Did you know who is talking to you?
+Dawn 1 (Popovych): Ok then, good, take care. Do you know who is talking to you?
 
-Cedar: I know — Landysh
+Cedar: I know — it's [glossary:Lilies of the Valley|Lily of the Valley].
 
-_comment: (laugh. Landysh he called astronaut Popovych P. R.).
+_comment: (laugh. he called astronaut Popovych P. R. "Landysh")
 
-Dawn 1 (Popovych): They will talk to now.
+_comment: This is Russian for Lily of the Valley, a private joke between the cosmonauts who called each other Lilies of the Valley, after a popular song. Source: Leonov in Life, 14th May 1965, p124.
 
-Dawn 1 (Bykov): If you have time, please connect transmitter KB and talk, give count to 20. If you have time and not busy at the moment, let me know. Do you read me? Yuriy, but start in minute please. Do you read me?
+Dawn 1 (Popovych): They will talk to you now.
+
+Dawn 1 (Bykov): If you have time, please connect transmitter KB and talk, give count to 20. If you have time and not busy at the moment, let me know. Do you read me? Yuri, but start in one minute please. Do you read me?
 
 
 
@@ -196,9 +201,9 @@ Cedar: Roger. I will start your task right away.
 [-00:01:31:00]
 Dawn 1 (Bykov): During separation move switch closer to you.
 
-Cedar: Roger. Default position during work and on the orbit switch should be set to telegraph and “Zaria”. During sepration set switch to “signal”.
+Cedar: Roger. Default position during work and on the orbit switch should be set to telegraph and [glossary:Zaria]. During separation set switch to "signal".
 
-Dawn 1 (Popovych): Roger. Thats correct, Yuriy.
+Dawn 1 (Popovych): Roger. Thats correct, Yuri.
 
 
 
@@ -208,12 +213,15 @@ Dawn 1 (Popovych): Do you read me?
 
 Cedar: I hear you well. And myself?
 
-Dawn 1 (Popovych): I hear you well. Yuriy, what are you doing right now?
+Dawn 1 (Popovych): I hear you well. Yuri, what are you doing right now?
 
-Cedar: Ok, I’m not very busy at the moment.
+Cedar: Ok, I'm not very busy at the moment.
 
-Dawn 1 (Popovych): I’ve found continuation of “Landyshy”. Got it?
-_comment: “Landyshy” is a song
+Dawn 1 (Popovych): I've found continuation of "[glossary:Lilies of the Valley]". Got it?
+
+_comment: "Landyshy" [Lilies of the Valley again] is a song
+
+_comment: [The] music he listened to during the preparations for his flight could hardly evoke elevated patriotic feelings: he actually listened to Lilies of the Valley, a popular love song, whose lyrics cosmonauts parodied, turning it into a drinking song. (Soviet Space Mythologies, Slava Gerovitch 2015, chapter 1 "Why are we telling lies?")
 
 Cedar: Got it, got it — continue.
 
@@ -225,7 +233,7 @@ Dawn 1 (Popovych): We will sing it tonight.
 [-00:01:23:00]
 Dawn 1 (Korolev): Everything is going fine. How are you doing?
 
-Cedar: Roger. Everything fine here too. Feel myself great, I’m planing to close the hatch #1.
+Cedar: Roger. Everything fine here too. Feel myself great, I'm planing to close the hatch #1.
 
 
 
@@ -243,9 +251,12 @@ Dawn 1 (Bykov): Roger.
 
 
 [-00:01:17:00]
-Dawn 1 (Bykov): Please tell, did you worked on KB with one or both buttons?
+Dawn 1 (Bykov): Please tell, did you use HF with one or both buttons?
 
-Cedar: Working with button on panel, right now. Working with button on control knob. Working on both buttons. Do you read me? 
+_comment: КВ in Russian (I believe this is an abbreviation for "high frequency", based on "УКВ" -- очень высокая частота -- for "VHF" for instance)
+
+
+Cedar: Working with button on panel, right now. Now with button on control knob. Now with both buttons. Do you read me?
 
 Dawn 1 (Bykov): Hear you well. Good sound with both buttons.
 
@@ -253,7 +264,7 @@ Dawn 1 (Bykov): Hear you well. Good sound with both buttons.
 
 
 [-00:01:15:00]
-Dawn 1 (Galay): Check if it’s comfortable to use memoryboard and visibility of code table on “deli”. Do you read me?
+Dawn 1 (Galay): Check if it's comfortable to use memoryboard and visibility of code table on "deli". Do you read me?
 
 Cedar: Roger. Checking.
 
@@ -265,9 +276,9 @@ Dawn 1 (Galay): Roger. That great, fellow.
 
 
 [-00:01:13:00]
-Dawn 1 (Popovych): Yuriy, there is big “Hi” from all folks here. I’ve just came from thier place. Do you read me?
+Dawn 1 (Popovych): Yuri, there is big “Hi” from all folks here. I've just came from their place. Do you read me?
 
-Cedar: Roger. Great thanks. Tell them warm geat “Hi” from me.
+Cedar: Roger. Great thanks. Tell them warm greetings from me.
 
 Dawn 1 (Popovych): Ok.
 
@@ -279,9 +290,9 @@ Dawn 1 (Rudnev): Do you read me?
 
 Cedar: I hear you well. And me?
 
-Dawn 1 (Rudnev): I hear you well. Preparation are going well. Everything is fine, Yuriy.
+Dawn 1 (Rudnev): I hear you well. Preparations are going well. Everything is fine, Yuri.
 
-Cedar: Roger. Preparation are going well from my side . Feeling well, ready for launch.
+Cedar: Roger. Preparations are going well from my side. Feeling well, ready for launch.
 
 Dawn 1 (Rudnev): Roger.
 
@@ -289,13 +300,15 @@ Dawn 1 (Rudnev): Roger.
 
 
 [-00:01:11:00]
-Dawn 1 (Korolev): Yuriy Alekseievich, do you read me?
+Dawn 1 (Korolev): Yuri Alekseyevich, do you read me?
 
-Cedar: I hear you well, I know whom I’m talking to.
+Cedar: I hear you well, I know whom I'm talking to.
 
-Dawn 1 (Korolev): Yuriy Alekseievich, I want remind you that I won’t give word “seconds”, but just will spell number approximatelly every fifty seconds, for example: 50, 100, 150 and so on. Is this clear?
+Dawn 1 (Korolev): Yuri Alekseyevich, I want to remind you that I won't give the word "seconds", but just the number approximately every fifty seconds, for example: 50, 100, 150 and so on. Is this clear?
 
-Cedar: Roger. I’ve thought so.
+Cedar: Roger. I expected that.
+
+_comment: Was originally translated "I've thought so."
 
 Dawn 1 (Korolev): Great.
 
@@ -311,13 +324,13 @@ Dawn 1 (Korolev): 20th on call.
 
 Cedar: My request is to know the time each second before or after start, if connection will be stable and it will be possible.
 
-Dawn 1 (Korolev): Roger. Your request will be satisfied, Yuriy Alekseievich.
+Dawn 1 (Korolev): Roger. Your request will be satisfied, Yuri Alekseyevich.
 
 
 
 
 [-00:01:09:00]
-Dawn 1 (Korolev): Yuriy Alekseievich, we have some problem: after closing  hatch one of the hookups haven’t pressed well. Because of that we will unmount hatch and will setup it again. Do you read me?
+Dawn 1 (Korolev): Yuri Alekseyevich, we have a problem: after closing the hatch one of the contacts hasn't connected well. Because of that we will unmount hatch and will setup it again. Do you read me?
 
 Cedar: Roger. Hatch is open, checking detectors.
 
@@ -327,19 +340,21 @@ Dawn 1 (Korolev): Ok, great.
 
 
 [-00:01:02:00]
-Dawn 1 (Kamanin): Hour pre-launch readiness. Continue checking of devices. Do you read me?
+Dawn 1 (Kamanin): One hour pre-launch readiness. Continue checking of devices. Do you read me?
 
-Cedar: Roger. Hour pre-launch readiness. Everything going fine, feeling wonderful, buoyant mood, ready for launch.
+Cedar: Roger. One hour pre-launch readiness. Everything going fine, feeling wonderful, buoyant mood, ready for launch.
 
-Dawn 1 (Popovych): Roger, Yuriy.
+Dawn 1 (Popovych): Roger, Yuri.
 
 
 
 
 [-00:01:01:00]
-Dawn 1 (Popovych): Are you working now on laryngo or [glossary:DEMSH]?
+Dawn 1 (Popovych): Are you working now on throat mike or [glossary:DEMSH]?
 
-Cedar:  I’m working now on [glossary:DEMSH].
+_comment: throat mike was translated "laryngo" -- so this is somewhat of a guess (constrasts with DEMSH, which is the "dynamic electromagnetic microphone helmet", ie a headset.
+
+Cedar:  I'm working now on [glossary:DEMSH].
 
 Dawn 1 (Popovych): Roger.
 
@@ -353,7 +368,7 @@ Dawn 1 (Kamanin): Hear you well too.
 
 
 [-00:01:00:00]
-Dawn 1 (Kamanin): Did you checked the package? Can you reach it? Check the package and report.
+Dawn 1 (Kamanin): Did you check the package? Can you reach it? Check the package and report.
 
 Cedar: Checked the package. I can reach it. Do you read me?
 
@@ -363,9 +378,9 @@ Dawn 1 (Kamanin): Roger. Great.
 
 
 [-00:00:59:00]
-Dawn 1 (Kamanin): Train cars are going away right now. Interesting, do you hear them?
+Dawn 1 (Kamanin): Train cars are going away right now. Do you hear them?
 
-Cedar: Don’t hear the train. It’s very noisy here,I hear only communication.
+Cedar: Don't hear the train. It's very noisy here, I hear only communication.
 
 Dawn 1 (Kamanin): Ok, got you.
 
@@ -373,15 +388,15 @@ Dawn 1 (Kamanin): Ok, got you.
 
 
 [-00:00:57:00]
-Dawn 1 (Kamanin): Announced 50-minutes readiness .
+Dawn 1 (Kamanin): This is 50 minute readiness.
 
-Cedar: Roger: announced 50-minutes readiness.
+Cedar: Roger: 50 minute readiness.
 
 
 
 
 [-00:00:54:00]
-Dawn 1 (Korolev): Do you read me? We already started hatch setup, probably?!
+Dawn 1 (Korolev): Do you read me? Have they started closing the hatch?
 
 Cedar: I hear you well. It seems that they are finishing mounting the cover.
 
@@ -389,7 +404,7 @@ Dawn 1 (Korolev): Roger, everything fine here.
 
 Cedar: Everything fine here too. Feeling good, buoyant mood.
 
-Dawn 1 (Korolev): Thats wonderfull. Moscow just asked about your mood and how are you doing there. We replied that everything is fine.
+Dawn 1 (Korolev): Thats wonderful. Moscow just asked about your mood and how are you doing there. We replied that everything is fine.
 
 Cedar: Roger.
 
@@ -397,7 +412,7 @@ Cedar: Roger.
 
 
 [-00:00:53:00]
-Dawn 1 (Popovych): Yuriy, are you bored there?
+Dawn 1 (Popovych): Yuri, are you bored there?
 
 Cedar: Would be nice to play music, if this is possible
 
@@ -407,27 +422,27 @@ Dawn 1 (Popovych): One minute.
 
 
 [-00:00:52:00]
-Dawn 1 (Korolev): You probably should here noise right now. Thats because they are lowering catwalks. All top works had finished. Do you read me?
+Dawn 1 (Korolev): You probably should here noise right now. That's because they are lowering catwalks. All top works have finished. Do you read me?
 
-Cedar: Roger: lowering catwalks, but I don’t hear the noise. I feel some vibrations.
+Cedar: Roger: lowering catwalks, but I don't hear the noise. I feel some vibrations.
 
-Dawn 1 (Korolev): Roger. Thats fine.
+Dawn 1 (Korolev): Roger. That's fine.
 
-Dawn 1 (Korolev): Station “Zaria” it’s «Zaria-1». Please complete request of “Cedar”, play some music for him.
+Dawn 1 (Korolev): Station [glossary:Zaria] this is Zaria-1. Please complete [glossary:Cedar]'s request, play some music for him.
 
-_comment: («Zaria» - on-ground  VHF station),
+_comment: («Zaria» - on-ground VHF station),
 
-Dawn 1 (Popovych): Have you heard? Replaying «Zaria»: Trying to acomplish your request. Play the some music because I’m get bored.
+Dawn 1 (Popovych): Did you hear? Repeating Zaria: trying to accomplish your request. Play some music because I'm getting bored.
 
 
 
 
 [-00:00:50:00]
-Dawn 1 (Popovych): Whats up? — Do you hear the music?
+Dawn 1 (Popovych): What's up? Do you hear the music?
 
 Cedar: No music right now, but I hope it will be soon.
 
-Dawn 1 (Popovych): But didn’t you heard that it was promised?
+Dawn 1 (Popovych): But didn't you hear that it was promised?
 
 Dawn 1 (Korolev): So what? Music started playing, no?
 
@@ -437,44 +452,48 @@ Cedar: Nope, no music.
 
 
 [-00:00:48:00]
-Dawn 1 (Korolev): It’s ok, you know musicians : not so fast can be done as you can tell the fary tail, Yuriy Alekseievich.
+Dawn 1 (Korolev): It's ok, you know musicians; now they're here, now they're there, but they don't do anything very fast, as the saying goes, Yuri Alekseyevich.
+
+_comment: Challenge to Apollo, p276 (published by the NASA History Division as NASA SP-2000-4408)
 
 Cedar: They are playing about love.
 
-Dawn 1 (Korolev): Playing about love? Thats wise, Yuriy Alekseievich, I think so.
+Dawn 1 (Korolev): Playing about love? That's wise, Yuri Alekseyevich, I think so.
 
-Dawn 1 (Popovych): Yuriy, are they playing music, right?
+Dawn 1 (Popovych): Yuri, are they playing music, right?
 
 Cedar: Music is playing, everything is fine.
 
-Dawn 1 (Popovych): Thats great, means it won’t be boring anymore.
+Dawn 1 (Popovych): That's great, means it won't be boring anymore.
 
 
 
 
 [-00:00:47:00]
-Dawn 1 (Popovych): Yuriy, guys are happy that you are alright and feeling fine. Do you read me?
+Dawn 1 (Popovych): Yuri, the guys are happy that you are alright and feeling fine. Do you read me?
 
-Cedar: Roger.  Warm greetings to them. Listening Utesov. For soul — «Landyshy».
-_comment: Utesov - fameous russian pop singer
-Dawn 1 (Popovych): Ok then, listen then.
+Cedar: Roger.  Warm greetings to them. I'm listening to Utesov. For the soul - [glossary:Lilies of the Valley].
+
+_comment: Utesov - famous Russian pop singer
+
+Dawn 1 (Popovych): Ok then, listen away.
 
 
 
 
 [-00:00:42:00]
 Dawn 1 (Korolev): Impermeability checked - everything is normal. Do you read me?
-Cedar: Roger: impermeability checked. I hearn and check: impermeability checked. They are tapping there a little bit.
+Cedar: Roger: impermeability checked. I hear and check: impermeability checked. They are tapping there a little bit.
 
-Dawn 1 (Korolev): Thats fine, don’t worry.
+Dawn 1 (Korolev): That's fine, don't worry.
 
 
 
 
 [-00:00:40:00]
-Dawn 1 (Korolev): We just saw you through television, your chearful look made us happy. Do you read me?
+Dawn 1 (Korolev): We just saw you through television, your cheerful look made us happy. Do you read me?
 
-Cedar: Roger. Feeling fine, chearful mood, ready for launch.
+Cedar: Roger. Feeling fine, cheerful mood, ready for launch.
 
 Dawn 1 (Korolev): Great. Everything is going fine here.
 
@@ -482,29 +501,29 @@ Dawn 1 (Korolev): Great. Everything is going fine here.
 
 
 [-00:00:37:00]
-Dawn 1 (Popovych): Yuriy are you bored there?
+Dawn 1 (Popovych): Yuri are you bored there?
 
-Cedar: I’m fine, they are singing about love.
+Cedar: I'm fine, they are singing about love.
 
-Dawn 1 (Popovych): How is it going? Everything is fine here, we are preparing. There is no delay in preparation, nothing wrong at all. Guys are going on “Zaria” now .
+Dawn 1 (Popovych): How is it going? Everything is fine here, we are preparing. There is no delay in preparation, nothing wrong at all. Guys are going to [glossary:Zaria] now.
 
-_comment: (“Zaria” - onground VHF radio-station)
+_comment: ("Zaria" - onground VHF radio-station)
 
 Cedar: Roger. Everything fine here: calm and feeling great. Greetings to the guys. I feel their support all the time. They are with me.
 
-Dawn 1 (Popovych): Great, great, Yuriy.
+Dawn 1 (Popovych): Great, great, Yuri.
 
 
 
 
 [-00:00:35:00]
-Dawn 1 (Popovych): Yuriy, everybody send you best wishes all the time, ask to tell you “godspeed” and all best regards, and  everything you can imagine. Do you read me? Everybody wish you best luck and goodness.
+Dawn 1 (Popovych): Yuri, everybody send you best wishes all the time, ask to tell you “godspeed” and all best regards, and  everything you can imagine. Do you read me? Everybody wish you best luck and goodness.
 
 Cedar: Roger. Thank you very much.
 
-Dawn 1 (Rudnev): Rudnev speaking. Comrands from Moscow are asking about your health and wellness. We told them that everything is fine, you are feeling fine and we are ready for next actions.
+Dawn 1 (Rudnev): Rudnev speaking. Comrades from Moscow are asking about your health and wellness. We told them that everything is fine, you are feeling fine and we are ready for next actions.
 
-Cedar: You told them truth. Feeling fine, chearful mood, ready for futher actions.
+Cedar: You told them truth. Feeling fine, cheerful mood, ready for further actions.
 Dawn 1 (Rudnev): Roger.
 
 
@@ -513,7 +532,7 @@ Dawn 1 (Rudnev): Roger.
 [-00:00:34:00]
 Dawn 1 (Kamanin): Put yourself in start position to begin physiological functions test.
 
-Cedar: The starting position for the physiological functions test taken.
+Cedar: Starting position for the physiological functions test taken.
 
 Dawn 1 (Kamanin): Roger.
 
@@ -527,26 +546,25 @@ Cedar: Roger: they will dismount installer.
 
 
 [-00:00:30:00]
-Dawn 1 (Kamanin): Installer’s arm successfully dismounted. Do you read me?
+Dawn 1 (Kamanin): Installer's arm successfully dismounted. Do you read me?
 
-Cedar: Roger: installer’s arm successfully dismounted.
+Cedar: Roger: installer's arm successfully dismounted.
 
 
 
 
 [-00:00:27:00]
-Dawn 1 (Korolev): Yuriy Alekseievich, we are going to move this radio station to the bunker right now. So we will have 5 minutes silence on the channel. Nikolay Petrovich and Pavel Romanovich are going to bunker. I will stay here till 5-minutes readiness, but they will transmit what I will tell them. Do you read me?
+Dawn 1 (Korolev): Yuri Alekseyevich, we are going to move this radio station to the bunker right now. So we will have 5 minutes silence on the channel. Nikolay Petrovich and Pavel Romanovich are going to bunker. I will stay here till 5-minutes readiness, but they will transmit what I will tell them. Do you read me?
 
-_comment: (general KAMANIN N. P.)
-_comment: (cosmonaut captain Popovych П. Р.).
+_comment: (General KAMANIN Н. П., Cosmonaut Captain Popovych П. Р.)
 
-Cedar: Roger: right now everybody are moving to bunker, there will be silence for minute, then you will transmit through them.
+Cedar: Roger: right now everybody is moving to the bunker, there will be silence for a minute, then you will transmit through them.
 
-Dawn 1 (Korolev): Yes, everything correct: we are pulling off the arms, everything goes in schedule, machine working fine.
+Dawn 1 (Korolev): Yes, that's correct correct: we are retracting the arms, everything is going according to schedule, machine working fine.
 
-Cedar: Everything fine, too.
+Cedar: Everything fine here, too.
 
-Cedar: How is medical checks — heart beats? —
+Cedar: How are the medical checks - heart beat?
 
 _comment: (no reply).
 
@@ -559,7 +577,7 @@ Dawn 1 (Kamanin): Do you read me?
 
 Cedar: Roger. And me?
 
-Dawn 1 (Kamanin): I hear you well. Pulse - 64, breathing - 24. Everything goes fine.
+Dawn 1 (Kamanin): I hear you well. Pulse - 64, respiration - 24. Everything is fine.
 
 Cedar: Roger. This means my heart is still beating.
 
@@ -573,7 +591,7 @@ Dawn 1 (Kamanin): 15-minutes readiness. Remind you: put on your gloves. Do you r
 
 Cedar: Roger: 15-minutes readiness, put on my gloves. Proceeding.
 
-Cedar: I’ve put my gloves, everything fine.
+Cedar: I've put on my gloves, everything is fine.
 
 
 
@@ -585,27 +603,27 @@ Dawn 1 (Kamanin): Roger.
 
 
 [-00:00:19:00]
-Cedar: Type doesn’t work for automatical nither for manual recording, it seems it’s out of type. Please rewind it.
+Cedar: Tape recorder doesn't work for either automatic or manual recording, it seems it's out of tape. Please rewind it.
 
-Dawn 1 (Kamanin): Roger: I will pass your request. Rewind in process. Is light-bulb on? 
+Dawn 1 (Kamanin): Roger: I will pass on your request. Rewind in process. Is the light on?
 
 
 
 
 [-00:00:17:00]
-Cedar: Roger: rewind in progress. Let them rewind whole tape.
+Cedar: Roger: rewind in progress. Let them rewind the whole tape.
 
-Dawn 1 (Kamanin): Roger, everything fine.
+Dawn 1 (Kamanin): Roger, everything's fine.
 
 
 
 
 [-00:00:12:00]
-Dawn 1 (Kamanin): 10-minutes readiness announced . Is your helmet closed? Close the helmet and report.
+Dawn 1 (Kamanin): 10-minute readiness. Is your helmet closed? Close the helmet and report.
 
-Cedar: Roger: 10-minutes readiness announced. Helmet is closed. Everything fine, feeling great, ready for launch.
+Cedar: Roger: 10-minute readiness announced. Helmet is closed. Everything fine, feeling great, ready for launch.
 
-Dawn 1 (Kamanin): Roger
+Dawn 1 (Kamanin): Roger.
 
 
 
@@ -621,7 +639,7 @@ Cedar: Roger: 5-minutes readiness announced, set volume on maximum. Maximum volu
 [-00:00:09:00]
 Dawn 1 (Kamanin): Everything goes fine. Put yourself in start position to begin physiological functions test.
 
-Cedar: Roger. Everything goes fine, I’ve set in start position and prepared to phsyiological functions test.
+Cedar: Roger. Everything goes fine, I've set in start position and prepared to physiological functions test.
 
 Dawn 1 (Kamanin): Roger.
 
@@ -629,9 +647,9 @@ Dawn 1 (Kamanin): Roger.
 
 
 [-00:00:07:00]
-Dawn 1 (Korolev): Everything great here. Before start of our operations (one minute before) few minutes left.  Do you read me?
+Dawn 1 (Korolev): Everything great here. Before start of our operations -- a minute before -- a few minutes left.  Do you read me?
 
-Cedar: I hear you well. Roger: before start of our operations (one minute before) few minutes left. Feel great, buoyant mood, everything fine.
+Cedar: I hear you well. Roger: a few minutes before start of operations. Feel great, buoyant mood, everything fine.
 
 Dawn 1 (Korolev): Roger, correct.
 
@@ -641,7 +659,7 @@ Dawn 1 (Korolev): Roger, correct.
 [-00:00:05:00]
 Dawn 1 (Korolev): One minute readiness. Do you read me?
 
-Cedar: Roger: minute readiness. Took starting place, setup, that’s why had delay with reply.
+Cedar: Roger: one minute readiness. Took launch position, that's why had delay with reply.
 
 Dawn 1 (Korolev): Roger.
 
@@ -649,11 +667,11 @@ Dawn 1 (Korolev): Roger.
 
 
 [-00:00:04:00]
-Dawn 1 (Korolev): You can keep silence during launch. Reply when you will have ability, I will transmit details. 
+Dawn 1 (Korolev): You can keep silence during launch. Reply when you can, I will transmit details.
 
 Cedar: Roger.
 
-Dawn 1 (Korolev): Key on start! Blowing in progress.
+Dawn 1 (Korolev): Key to start! Purge in progress.
 
 Cedar: Roger.
 
@@ -661,7 +679,7 @@ Cedar: Roger.
 
 
 [-00:00:03:00]
-Dawn 1 (Korolev): Key is set on drainage.
+Dawn 1 (Korolev): Key set to drainage.
 
 Cedar: Roger.
 
@@ -669,7 +687,7 @@ Cedar: Roger.
 
 
 [-00:00:02:00]
-Dawn 1 (Korolev): Everything is fine: drainage valves had closed.
+Dawn 1 (Korolev): Everything is fine: drainage valves have closed.
 
 Cedar: Roger. Buoyant mood, feeling good, ready for launch.
 
@@ -687,22 +705,24 @@ Dawn 1 (Korolev): Roger. Great.
 
 # next two lines editorially moved back; in the transcript they are in the same minute UTC
 # however they clearly come before launch
-Dawn 1 (Korolev): Ignition started…
+
+Dawn 1 (Korolev): Ignition started.
 
 Cedar: Roger: ignition started.
 
 [00:00:00:00]
 
-Dawn 1 (Korolev): Preliminary stage… Intermediate… Main… UP!
+Dawn 1 (Korolev): Preliminary stage. Intermediate. Main… UP!
 
-Cedar: Here we go!…Noise is very decent. Everythings goes well, buoyant mood, feeling great, everthing is fine.
+Cedar: Here we go! Noise is very decent. Everything's going well, buoyant mood, feeling great, everything is fine.
 
 Dawn 1 (Korolev): We wish you good flight, everything is fine.
+
 Cedar: See you soon my dear friends!
 
 Dawn 1 (Korolev): Bye, see you soon!
 
-Cedar: Vibrations quickens, noise is increasing slowly
+Cedar: Vibrations quickening, noise is increasing slowly.
 
 
 
@@ -713,7 +733,7 @@ Dawn 1 (Korolev): Time 70.
 
 _comment: (70 seconds after launch).
 
-Cedar: Roger, 70. Feeling great, continue flight, congestion is increasing, everything fine.
+Cedar: Roger, 70. Feeling great, continue flight, g-force is increasing, everything is fine.
 
 
 
@@ -724,24 +744,24 @@ Dawn 1 (Korolev): 100. How do you feel?
 
 _comment: ( 100 seconds from launch).
 
-Cedar: Feeling great. And you?..
+Cedar: Feeling great. And you?
 
 Dawn 1 (Korolev): Speed and time is fine. How do you feel?
 
-Cedar: I feelfine…
+Cedar: I feel fine.
 
 Dawn 1 (Korolev): Everything is fine, machine works great.
 
-Cedar: …(talks illegibly).
+Cedar: ...
 
 
 
 
 
 [00:00:03:00]
-Dawn 1 (Korolev): Cone was droped off, everything fine. How are you?
+Dawn 1 (Korolev): Fairing was dropped off, everything fine. How are you?
 
-Cedar: …Drop off of main faring… I see Earth… Congestion is increasing, everything fine, buoyant mood.
+Cedar: Drop off of main fairing… I see Earth… g-force is increasing, everything fine, buoyant mood.
 
 
 
@@ -750,11 +770,13 @@ Cedar: …Drop off of main faring… I see Earth… Congestion is increasing, ev
 [00:00:04:00]
 Dawn 1 (Korolev): Well done, great! Everything goes fine.
 
-Cedar: I’m looking at clouds… Landing place… Beauty, it’s so beautiful. Do you read me?
+Cedar: I'm looking at clouds. The landing site. Beautiful, it's so beautiful. Do you read me?
 
 Dawn 1 (Korolev): Roger. Continue the flight.
 
-Cedar: Flight continues, congestion is increasing, slow rotations, everything feeling fine. Through illuminator I see Earth: it’s almost covered with clouds.
+Cedar: Flight continues, congestion is increasing, slow rotations, everything feeling fine. Through the periscope I can see the Earth: it's almost covered with clouds.
+
+_comment: Original seems to translate as porthole "eye". "Optical device for spacecraft orientation in space", apparently. Mercury, Soyuz both described as having a periscope, so I'll call it that.
 
 Dawn 1 (Korolev): Everything goes well. Roger, we hear you well.
 
@@ -763,11 +785,11 @@ Dawn 1 (Korolev): Everything goes well. Roger, we hear you well.
 
 
 [00:00:05:00]
-Cedar: Second stage fallen out.
+Cedar: Second stage separation.
 
 Dawn 1 (Korolev): Working like it should. Last stage. Everything fine.
 
-Cedar: Roger: I’ve heard inclusion. Feeling fine. I see Earth:  Самочувствие отличное. Наблюдаю Землю: visibility is good, …buoyant mood, congestion is increasing, feeling fine.
+Cedar: Roger: I've heard inclusion. Feeling fine. I see Earth: visibility is good, buoyant mood, g-force is increasing, feeling fine.
 
 Dawn 1 (Korolev): Roger.
 
@@ -778,16 +800,16 @@ Dawn 1 (Korolev): Roger.
 [00:00:06:00]
 Dawn 1 (Kamanin): Everything goes fine. Do you read me? How do you feel?
 
-Cedar: I hear you well. Feeling fine, flight going well. I see Earth, flight continues, visibility is good, I can see everthing clear, some space is covered by clouds, flight continues, everything fine.
+Cedar: I hear you well. Feeling fine, flight going well. I see Earth, flight continues, visibility is good, I can see everything clearly, some is covered by clouds, flight continues, everything fine.
 
-Dawn 1 (Kamanin): I’ve got you, well done! You make good communication, continue in this way.
+Dawn 1 (Kamanin): I've got you, well done! Your communication is good, continue in this way.
 
 
 
 
 
 [00:00:07:00]
-Cedar: Everything works fine, let’s go next.
+Cedar: Everything working fine, let's proceed.
 
 
 
@@ -803,9 +825,9 @@ Cedar: I hear you low, buoyant mood, feeling fine, continue flight, everything g
 
 
 [00:00:09:00]
-Dawn 2 (Seleznev): I’ve got you, it’s 22th speaking
+Dawn 2 (Seleznev): I've got you, this is Kolpashevo.
 
-_comment: (22th — index of representative on VHF station in Kolpashevo).
+_comment: (22nd — index of representative on VHF station in Kolpashevo).
 
 
 
@@ -813,35 +835,37 @@ _comment: (22th — index of representative on VHF station in Kolpashevo).
 [00:00:10:00]
 Dawn 2 (Seleznev): How are you?
 
-Cedar: I hear you well, feeling fine, machine works stable. I see Earth through illuminator. Everything fine. Hi. Do you read me?
-Dawn 2 (Seleznev): Roger
+Cedar: I hear you well, feeling fine, machine working well. I see the Earth through the periscope. Everything's fine. Hi. Do you read me?
 
-Cedar: Roger. I know whom I’m talking with. Hi.
+Dawn 2 (Seleznev): Roger.
+
+Cedar: Roger. I know whom I'm talking with. Hi.
 
 
 
 
 
 [00:00:14:00]
-Dawn 2 (Titarev): How do you feel? It’s 22th speaking.
+Dawn 2 (Titarev): How do you feel? This is Kolpashevo.
 
-Cedar: I’m feeling fine, continue flight. Machine working stable. I see Earth in illuminator, sky, horizon. Flight is going fine. Do you read me?
+Cedar: I'm feeling fine, continue flight. Machine working stable. I see Earth in the window, sky, horizon. Flight is going fine. Do you read me?
 
 Dawn 2 (Seleznev): Roger.
 
-Cedar: Happened…
+Cedar: Happened - -
 
 _comment: next bit over UHF to Khabarovsk
-Cedar:… indicators of [glossary:PKRS] are glowin, feeling fine, buoyant mood. Parameters of cabin: pressure 1, humidity 65, temperature 20, pressure in compartment 1, first authomatic 155, second authomatic 155, pressure in  cylinder [glossary:TDU] 320 atmospheres…
 
-_comment: Vesna (Kadushkin): (didn’t replied, worked by plan).
+Cedar: [glossary:PKRS] lights are glowing, feeling fine, buoyant mood. Parameters of cabin: pressure 1, humidity 65, temperature 20, pressure in compartment 1, first automatic 155, second automatic 155, pressure in [glossary:TDU] cylinder 320 atmospheres - -
+
+_comment: Vesna (Kadushkin): (didn't replied, worked by plan).
 
 
 
 [00:00:18:00]
-Cedar: «Zaria-3» Online. Do you read me?
+Cedar: Come in [glossary:Zaria|Zaria-3]. Do you read me?
 
-Cedar: «Zaria-3», How do you hear me, Do you read me? I don’t hear “Vesna”, don’t hear “Vesna”…
+Cedar: Zaria-3, dp you read me? I don't hear [glossary:Vesna], don't hear Vesna.
 
 Dawn 3 (Karpenko): Roger, connection is normal.
 
@@ -852,23 +876,26 @@ Cedar: Flight is going well, everything goes fine. What can you tell me?
 
 
 [00:00:19:00]
-Cedar: Flight goes well. Feeling of weightlessness is fine. All devices, entire system works stable. What can you tell me? 
+Cedar: Flight goes well. Feeling of weightlessness is fine. All devices, entire system working well. What can you tell me?
 
 Dawn 3 (Karpenko): I hear you well, devices works fine, feeling well.
 
 Cedar: I hear you well. What you can tell about flight? What can you tell me about flight?
 
-Dawn 3 (Karpenko): There is commands from 20th, flight going well.
+Dawn 3 (Karpenko): No instructions from Korolyov, flight is going well.
 
-_comment: (Korolevа)
+_comment: (20th is Korolyovа)
 
 
 
 
 
 [00:00:20:00]
-Cedar: Roger. There is commands from 20th. Please tell the flight status. Hi to Blonde-man!
-_comment: (Blonde-man was name of cosmonaut sr.l-nt Leonov, that was on VHF radio-station «Zaria-3» in Elizovo).
+Cedar: Roger. No instructions from Korolyov. Please tell me the flight status. Hi to the fair-haired boy!
+
+_comment: (Blonde-man was name of Cosmonaut Sr. Lt Leonov, that was on VHF radio-station «Zaria-3» in Elizovo).
+
+_comment: Basing our translation on that given in Life, 14th May 1965 (https://books.google.co.uk/books?id=QFMEAAAAMBAJ&pg=PA124&lpg=PA124&dq=gagarin+lily+of+the+valley&source=bl&ots=hIByPoppLo&sig=yWGlib4L9berhrOBBjIo2Vfv0tg&hl=en&sa=X&ved=0ahUKEwij1vnsoL_RAhUqIMAKHfCoDLcQ6AEILTAE#v=onepage&q=gagarin%20lily%20of%20the%20valley&f=false)
 
 
 Dawn 3 (Karpenko): Do you read me?
@@ -880,46 +907,51 @@ Cedar: I hear you well. How do you hear me?
 
 
 [00:00:22:00]
-Dawn 3 (Karpenko): How do you feel? Как Ваше самочувствие?
+Dawn 3 (Karpenko): How do you feel?
 
-Cedar: I’m feeling wonderfull, great, great, great. Tell me results about flight!
+Cedar: I'm feeling wonderful, great, great, great. Tell me results about flight!
 
-Dawn 3 (Karpenko): Repeat please, don’t hear you well.
+Dawn 3 (Karpenko): Repeat please, don't hear you well.
 
 Cedar: I feel fine, very good, great!
 
 
 
 [00:00:23:00]
-Cedar: Tell me some data about flight!
+Cedar: Give me some data about the flight!
 
 Dawn 3 (Karpenko): Do you read me?
 
 
 
-
+_comment: subsequently passed out of VHF range, and so everything subsequent was via UHF to Khabarovsk.
 
 
 [00:00:36:00]
-Cedar: … do you read me? …
+Cedar: Do you read me? - -
 
-_comment: Vesna (Kadushkin): ( didn’t replied, worked to the plan)
+_comment: Vesna (Kadushkin): ( didn't replied, worked to the plan)
 
 
 [00:00:39:00]
-Vesna (Kadushkin): By Kamanin command we transmited telegram with signal “KK” - that means “send control commands”.
+
+_note: Khabarovsk station transmitted signal "KK" by telegraph, meaning "send control commands".
+
+_comment: Following converted to comment as it seems unlikely they narrated what they were doing over UHF given presumably the point of the telegraph is when voice comms aren't effective.
+
+_comment: Vesna (Kadushkin): By Kamanin command we transmitted telegram with signal "KK" - that means "send control commands".
 
 _comment: Cedar: (no reply).
 
 
 
 [00:00:40:00]
-Cedar: Do you hear me? Transmiting next report message: 9 hours 48 minutes, flight going fine. “Spusk-1” works fine. Movable index [glossary:PKRS] is moving. Pressure in cabin 1, humidity 65, temperature 20 C, pressure in comartment 1,2 … Manual 150, first authomatic 155, second athomatic 155, cylinders [glossary:TDU] 320 athmospheres. Filling fine, buoyant mood.
+Cedar: Do you hear me? Transmitting next report message: 9:48 am, flight going fine. "Shutter-1" works fine. [glossary:ПКРС] index is moving. Pressure in cabin unit 1, humidity 65, temperature 20°C, pressure in compartment 1.2, manual 150, first automatic 155, second automatic 155, [glossary:ТДУ] cylinders 320 atmospheres. Feeling fine, buoyant mood.
 
-
+_comment: Russian was "9 hours 48 minutes". It was roughly 9:48 am Moscow time.
 
 [00:00:42:00]
-Cedar: Don’t here ground station. I’m in shadow.
+Cedar: I can't hear the ground station. I'm in shadow.
 
 
 
@@ -937,9 +969,9 @@ Vesna (Kadushkin): Roger.
 
 
 [00:00:46:00]
-Vesna (Kadushkin): By command of Kamanin (33th) was turned on transmitters and send message on board: flight goes fine, orbit is calculated.
+_comment: Seems to be internal commentary that Kamanin ordered them to break protocol and send the reassuring message by voice. 'Orbit is calculated' probably refers to the work of NII-4 (see Saddiqi, p278) in determining the orbit parameters (important in subsequently timing the retro burn).
 
-
+_comment: Vesna (Kadushkin): By command of Kamanin (33rd) turned on transmitters and send message on board: flight goes fine, orbit is calculated.
 
 [00:00:47:00]
 Vesna (Kadushkin): Flight goes fine, orbit is calculated.
@@ -952,21 +984,27 @@ Cedar: Roger: flight goes fine.
 
 
 [00:00:50:00]
-Cedar: Boyant mood, continue flight, I’m over United States now.
+Cedar: Buoyant mood, continue flight, I'm over United States now.
 
 Vesna (Kadushkin): Roger.
 
 
 
 [00:01:04:00]
-Cedar: Transmited signal «DW» through telegraph — that means “devises work fine”.
+_comment: Cedar: Transmitted signal "DW" through telegraph — that means "devises work fine".
+
+_note: Pilot transmitted signal "OH" via telegraph, meaning "the equipment is working properly".
+
+_comment: Saddiqi (p279) has this as "VN". It's not hugely important, so I've retained the literal text from the Russian original.
+
+_comment: at this point radio coverage passes from Khabarovsk to Moscow.
 
 
 
 [00:01:06:00]
 Vesna (Horoshylov): Do you read me?
 
-Cedar: I hear you well. Flight goes  … wel…
+Cedar: I hear you well. Flight goes - well - -
 
 
 
