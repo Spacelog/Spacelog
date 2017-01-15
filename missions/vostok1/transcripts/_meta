@@ -105,7 +105,7 @@
             "mission_position": "Chief Designer (NII-695)",
             "slug": "bykov",
             "name": "Быков",
-            "short_name": "Быков",
+            "short_name": "Ю.С. Быков",
             "avatar": "person.png"
         },
 
@@ -119,7 +119,7 @@
             "bio": "One of the most renowned test pilots in the Soviet Union, Mark Gallay had supervised the training of the cosmonauts, including the parabolic flights they flew in a Tu-104 aircraft to experience microgravity.",
             "slug": "gallay",
             "name": "Галай",
-            "short_name": "Галай",
+            "short_name": "М. Л. Галай",
             "avatar": "person.png"
         },
 
@@ -130,7 +130,7 @@
             "comment": "Rudnev",
             "role": "other",
             "name": "Руднев",
-            "short_name": "Руднев",
+            "short_name": "К. Н. Руднев",
             "avatar": "person.png"
         },
 
@@ -142,7 +142,7 @@
             "role": "mission-ops-title",
             "mission_position": "Head of Cosmonaut Training",
             "name": "Каманин",
-            "short_name": "Каманин",
+            "short_name": "Н. П. Каманин",
             "slug": "kamanin",
             "avatar": "kamanin.jpg",
             "bio": "Russian aviator Nikolai Kamanin was a Hero of the Soviet Union and decorated World War II Colonel General before being assigned as military chief of the Soviet crewed orbital flight program, including selection and management of the cosmonaut training squad.",
@@ -159,7 +159,7 @@
             "role": "mission-ops-title",
             "mission_position": "Chief Designer (OKB-1)",
             "name": "Королев",
-            "short_name": "Королев",
+            "short_name": "С. П. Королев",
             "slug": "korolyov",
             "avatar": "korolyov.jpg",
             "bio": "Sergei Pavlovich Korolyov, referred to officially as 'The Chief Designer', was the pioneering engineer and designer at the centre of the Soviet space program. A key figure in the Soviet ICBM program, he was able to persuade the initially skeptical military and political leaders to focus efforts on space, leading to mankind's first artificial satelite: Sputnik 1, and continuing to crewed flights with Vostok 1. He continued to lead into the development of the Soyuz spacecraft until his death in January 1966.",
@@ -178,7 +178,7 @@
             "mission_position": "Capsule Communicator",
             "slug": "popovich",
             "name": "Попович",
-            "short_name": "Попович",
+            "short_name": "П. Р. Попович",
             "avatar": "popovich.png"
         },
 
@@ -189,7 +189,7 @@
             "comment": "Titarev",
             "role": "other",
             "name": "Титарев",
-            "short_name": "Титарев",
+            "short_name": "Колпашево",
             "avatar": "person.png"
         },
 
@@ -200,7 +200,7 @@
             "comment": "Seleznev",
             "role": "other",
             "name": "Селезнев",
-            "short_name": "Селезнев",
+            "short_name": "Колпашево",
             "avatar": "person.png"
         },
 
@@ -211,7 +211,7 @@
             "comment": "Kadushkin",
             "role": "other",
             "name": "Кадушкин",
-            "short_name": "Кадушкин",
+            "short_name": "Хабаровске",
             "avatar": "person.png"
         },
 
@@ -222,7 +222,7 @@
             "comment": "Horoshilov",
             "role": "other",
             "name": "Хорошилов",
-            "short_name": "Хорошилов",
+            "short_name": "Москве",
             "avatar": "person.png"
         },
 
@@ -233,7 +233,7 @@
             "comment": "Karpenko",
             "role": "other",
             "name": "Карпенко",
-            "short_name": "Карпенко",
+            "short_name": "Елизово",
             "avatar": "person.png"
         },
         "Кедр": {
@@ -244,7 +244,7 @@
             "role": "astronaut",
             "mission_position": "Cosmonaut",
             "name": "Гагарин",
-            "short_name": "Гагарин",
+            "short_name": "Ю. А. Гагарин",
             "slug": "gagarin",
             "avatar": "gagarin.jpg",
             "photo": "gagarin.jpg",
