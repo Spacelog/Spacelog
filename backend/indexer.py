@@ -361,6 +361,7 @@ class MetaIndexer(object):
                 "main_transcript": meta.get('main_transcript', "%s/TEC" % self.mission_name),
                 "media_transcript": meta.get('media_transcript', None),
                 "subdomain": meta.get('subdomain', None),
+                "other_transcripts": json.dumps(meta.get('other_transcripts', None)),
             }
         )
         

@@ -119,6 +119,26 @@
     margin-bottom:          5px;
 }
 
+#content.homepage ol > li > ul.other-transcripts {
+    margin-top:             20px;
+}
+
+#content.homepage ol > li > ul.other-transcripts > li {
+    visibility:             hidden;
+    font-family:            "Helvetica Neue",
+                            "Arial",
+                            sans-serif;
+    font-size:              0.6em;
+    text-transform:         none;
+    > a {
+        color:                  white;
+    }
+}
+
+#content.homepage ol > li:hover > ul.other-transcripts > li {
+    visibility:             visible;
+}
+
 /*! verbatim */
 #homepage-quote {
     background-color:       rgba( 0, 0, 0, 0.3 );

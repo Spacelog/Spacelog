@@ -3,6 +3,11 @@
     "featured": false,
     "incomplete": false,
     "subdomains": ["mercury3"],
+    "other_transcripts": {
+        "mr3/PAO": {
+            "name": "Public Affairs commentary"
+        }
+    },
     "copy": {
         "title": "Mercury 3",
         "upper_title": "Mercury",

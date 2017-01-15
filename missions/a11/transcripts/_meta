@@ -3,6 +3,11 @@
     "featured": false,
     "incomplete": false,
     "subdomains": ["apollo11", "a11"],
+    "other_transcripts": {
+        "a11/CM": {
+            "name": "Command Module recorder"
+        }
+    },
     "copy": {
         "title": "Apollo 11",
         "upper_title": "Apollo",

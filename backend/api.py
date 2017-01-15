@@ -598,6 +598,9 @@ class Mission(object):
         self.utc_launch_time = data['utc_launch_time']
         self.type_search = self.copy.get('type_search', 'reentry')
         self.transcripts = self.redis_conn.smembers("mission:%s:transcripts" % self.name)
+        self.other_transcripts = json.loads(data.get('other_transcripts', '{}'))
+        for id, t in self.other_transcripts.items():
+            t['slug'] = id.split('/')[1]
         # HACK?: Hash of page counts
         self.transcript_pages = self.redis_conn.hgetall("pages:%s" % self.name)
 

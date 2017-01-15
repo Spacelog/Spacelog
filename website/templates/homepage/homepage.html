@@ -30,6 +30,17 @@
         {% endif %}
       Phase {{ number }}: {{ act.title }}
     </a>
+    {% if mission.other_transcripts %}
+    <ul class='other-transcripts'>
+      {% for transcript_id, transcript in mission.other_transcripts.items %}
+      {% if 1 == number %}
+      <li><a href='{% url "view_page" transcript=transcript.slug %}'>{{ transcript.name }}</a></li>
+      {% else %}
+      <li><a href='{% timestamp_to_url_in_transcript act.start transcript_id %}'>{{ transcript.name }}</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    {% endif %}
   </li>
 {% endfor %}
 </ol>
