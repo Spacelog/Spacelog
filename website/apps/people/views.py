@@ -6,7 +6,11 @@ from backend.api import Character
 def people(request, role=None):
     
     character_query = Character.Query(request.redis_conn, request.mission.name)
-    character_ordering = list(request.redis_conn.lrange("character-ordering:%s" % request.mission.name, 0, -1))
+    character_ordering = [
+        identifier.decode('utf-8')
+        for identifier in
+        list(request.redis_conn.lrange("character-ordering:%s" % request.mission.name, 0, -1))
+    ]
     sort_characters = lambda l: sorted(
         list(l),
         key=lambda x: character_ordering.index(x.identifier) if x.identifier in character_ordering else 100
@@ -21,7 +25,6 @@ def people(request, role=None):
         ]
         more_people = False
     else:
-        all_people = sort_characters(character_query)
         astronauts = list(character_query.role('astronaut'))
         ops = sort_characters(character_query.role('mission-ops-title'))
         people = [

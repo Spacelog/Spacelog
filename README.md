@@ -216,6 +216,14 @@ This defines the character P. `bio`, `photo` (stored in the mission's `images/pe
 
 `role` is based on initial usage, and so can be a little confusing. It should be one of astronaut, mission-ops, mission-ops-title or other (defaulting to other). Astronaut means a full-size, prominent place on the main people page (190x205 image with biography as above, and also support for stats and a quote); mission-ops-title will get a less prominent position on the main people page (190x205 with biography); mission-ops go on a second page (linked as "View Mission Control Team" from the main people page), where they get a 190x155 photo and brief biography.
 
+When dealing with translations, you can also set the role to any of
+the above with '-alias' at the end (eg astronaut-alias,
+mission-ops-title-alias) and explicitly match the `slug` to the "real"
+character definition. Transcripts will show details from the alias
+(including `short_name` and `avatar`, but will link via the explicit
+slug to the "real" biography on the relevant people page, assuming
+there is one).
+
 The people pages show the full name (the `name` key) and the mission position from the character definition. The short name is shown within the transcript, with the avatar (48x48, stored in the mission's `images/avatars` directory; astronauts get a yellow hue to differentiate them from those not in space during the mission) alongside.
 
 ### Character stats and quotes
@@ -300,6 +308,44 @@ This means that the first shift is taken by the character with identifier DEKE_S
 
 We also (as in the first example above, from Gus Grissom's Mercury-Redstone 4 flight) use the shift system to "delegate" a generic character (such as STONY, the callsign for an astronaut communicator in the blockhouse during Mercury launches) to a specific character (in this case Deke Slayton) who served in that role for the mission in question.
 
+## Glossary
+
+Glossary terms are defined in a dictionary from identifier (used in
+the transcripts) to an object with a number of (mostly optional)
+attributes. Missions can bring in shared glossaries (in
+``missions/shared/glossary/``) by having a ``_meta`` key of
+``shared__glossaries`` containing a list of shared glossary names. They
+also have a per-mission glossary, in the ``_meta`` key ``glossary``.
+
+The following attributes are available to a glossary entry:
+
+ * ``type``: "abbreviation" or "jargon" (the latter is the default)
+ * ``links``: a list of objects (with ``url`` and ``caption`` attributes); currently not used
+ * ``summary``: short definition, typically the expansion for abbreviations
+ * ``description``: optional more detailed description of the term (for instance, "Drogue" is a glossary entry, with summary "Drogue parachute", and a description which explains what the drogues' purpose is)
+ * ``description_lang``, ``summary_lang`` and ``abbr_lang`` set the language code if not ``en-us``
+
+Glossary entries are referred to in transcripts (strictly in anything
+run through "linkify", which is also used for things like character
+biographies and quotes -- notably this includes glossary
+descriptions). Just do something like the following:
+
+```
+[glossary:term]
+[glossary:term|display]
+```
+
+The second form allows you to use a glossary entry while using
+different display text. (Particularly useful if dealing with
+translations, since the glossary terms themselves will be in one
+language.)
+
+Note that unless there's a description, the transcript won't link to
+the glossary, it'll just provide a title hover giving the glossary
+item summary.
+
+The glossary page for each mission starts with the ``glossary_introduction``
+copy key in ``_meta``.
 
 ## Code layout
 
