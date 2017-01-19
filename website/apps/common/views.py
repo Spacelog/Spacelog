@@ -1,5 +1,5 @@
 import json
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.template.response import TemplateResponse
 from django.views.generic import TemplateView
 from website.apps.common.response import JsonTemplateResponse
@@ -29,3 +29,11 @@ class JsonMixin(object):
             content=json.dumps(context),
             content_type='application/json',
         )
+
+
+class MemorialMixin(object):
+    def get(self, request, *args, **kwargs):
+        if request.mission.memorial:
+            return HttpResponseRedirect('/')
+        else:
+            return super(MemorialMixin, self).get(request, *args, **kwargs)

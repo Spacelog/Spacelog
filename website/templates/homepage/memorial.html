@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load missionstatic %}
+{% load missiontime %}
+{% load linkify %}
+{% load pauses %}
+
+{% block full_title %}{{ mission.title }} on Spacelog{% endblock %}
+{% block body-class %}memorial{% endblock %}
+
+{# Jam the viewport in there as well until we move it to everything #}
+{% block meta-description %}
+<meta name="description" property="og:description dbo:abstract" content="Memorial site for {{ mission.title }}.">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+{% endblock %}
+
+{% block css-stylesheet %}
+<link rel="stylesheet" href="{% static "css/new-screen.css" %}" media="screen">
+{% endblock %}
+
+{% block content %}
+<div class='crest'>
+  <h1>{{ mission.upper_title }} <em>{{ mission.lower_title }}</em></h1>
+  <img src='{% mission_static mission.name "images/homepage/crew.jpg" %}' alt=''>
+  <div>
+    {% for line in mission.copy.narrative %}
+    <p>
+      {{ line }}
+      {% if forloop.last %}
+      <img class='badge' src='{% mission_static mission.name "images/badge.png" %}' alt=''>
+      {% endif %}
+    </p>
+    {% endfor %}
+  </div>
+</div>
+
+{% spaceless %}
+{% for group in people %}
+  {% for person in group.members %}
+    {% cycle "<div class='group'>" "" ""  %}
+    {% ifequal group.view "full" %}
+      {% include "people/_person.html" %}
+    {% else %}
+      {% include "people/_simple_person.html" %}
+    {% endifequal %}
+    {% cycle "" "" "</div>"  %}
+  {% endfor %}
+{% endfor %}
+{% endspaceless %}
+{% endblock %}

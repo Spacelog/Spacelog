@@ -9,3 +9,217 @@
     visibility: hidden;
   }
 }
+
+@mixin hide-content {
+    position: absolute;
+    left: -9999px;
+}
+
+@mixin show-content {
+    position: static;
+}
+
+/* With lots of space (min-width: 960px), people lay out across three columns.
+ *
+ * With less (min-width: 640px), they take up the full width of their container
+ * and lay out with the photo alongside the name and bio, with stats and quote
+ * falling below.
+ *
+ * With little space they take up the full width, displaying as for the largest
+ * layout, but with increased font size for paragraph text.
+ */
+@mixin person {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto 30px;
+
+    @media (min-width: 960px) {
+        width: percentage(1/3);
+        padding: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    &:target {
+        background: #333;
+        border-radius: 5px;
+        padding: 9px;
+    }
+
+    > h3 {
+        margin-bottom:          25px;
+        text-align:             center;
+        > img {
+            border:                 10px solid #fff;
+            display:                block;
+            margin:                 0  auto 20px;
+        }
+        > em {
+            font-weight:            bold;
+            display:                block;
+        }
+    }
+
+    > .stats {
+        margin:                 40px 0;
+        @include                easy-contain;
+
+        > li:first-child {
+            border-bottom:          1px solid #fff;
+            font-size:              32px;
+            font-weight:            bold;
+            margin-bottom:          5px;
+            padding-bottom:         3px;
+        }
+        > .secondary {
+            display:                table-cell;
+            float:                  left;
+            font-size:              13px;
+            padding:                0 10px 0 70px;
+            width:                  50px;
+            vertical-align:         middle;
+            > em {
+                color:                  #e5352d;
+                float:                  left;
+                font:                   50px
+                                        'League Gothic',
+                                        'Helvetica Neue Condensed',
+                                        'Arial',
+                                        sans-serif;
+                margin-left:            -60px;
+                text-align:             center;
+                width:                  60px;
+                vertical-align:         middle;
+            }
+        }
+        > .alt {
+            border-left:            1px solid #fff;
+            margin-left:            9px;
+        }
+    }
+
+    /* Biography, quotes and further reading URL. */
+    p {
+        font-size:              16px;
+        line-height:            24px;
+        margin-bottom:          16px;
+        @media (min-width: 960px) {
+            font-size: 13px;
+            line-height: 18px;
+        }
+    }
+
+    > .quote {
+        margin:                40px 0 0;
+        text-align:            center;
+
+        blockquote {
+            font:                   18px Georgia, serif;
+            line-height:            28px;
+            margin-bottom:          20px;
+            padding:                0 40px;
+            position:               relative;
+        }
+        blockquote:before,
+        blockquote:after {
+            font-size:              72px;
+            height:                 28px;
+            margin-top:             0.11em;
+            position:               absolute;
+        }
+        blockquote:before {
+            content:                "“";
+            left:                   0;
+            top:                    0;
+        }
+        blockquote:after {
+            content:                "”";
+            bottom:                 -17px;
+            right:                  0;
+        }
+
+        a {
+            font-size:              11px;
+        }
+
+        p {
+            font-size:              inherit;
+            line-height:            inherit;
+        }
+        > cite > span {
+            @include hide-content;
+        }
+    }
+
+    @media (min-width: 640px) and (max-width: 959px) {
+        & {
+            margin-top: 75px;
+        }
+        &, .stats, .quote {
+            clear: left;
+        }
+        > h3 {
+            > em {
+                font-size: 20px;
+            }
+
+            > img {
+                display: block;
+                float: left;
+                margin-right: 25px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
+
+@mixin regular-masthead {
+    background:             #232323;
+    font-family:            'League Gothic',
+                            'Helvetica Neue Condensed',
+                            'Arial',
+                            sans-serif;
+    line-height:            1.6;
+    text-transform:         uppercase;
+    @include                easy-contain;
+
+    -webkit-box-shadow:     #222 0 2px 4px;
+    -moz-box-shadow:        #222 0 2px 4px;
+    box-shadow:             #222 0 2px 4px;
+    /* HACK: Force shadow to overlay #content */
+    position: relative;
+    z-index: 10; /* See 15-core for z-index commentary */
+
+    padding: 0 5px;
+    @media (min-width: 960px) {
+        padding: 0;
+    }
+
+    h1 {
+        /* style the text */
+        color:                  white;
+
+        /* position in the grid */
+        float:                  left;
+        margin-right:           20px;
+        width:                  220px;
+        font-size:              24px;
+
+        a {
+            color: #fff;
+        }
+        a.mission {
+            color:                   #f8b334;
+        }
+    }
+
+    p.dateline {
+        @include hide-content;
+
+        @media (min-width: 640px) {
+            @include show-content;
+            float: right;
+            font-size: 24px;
+        }
+    }
+}

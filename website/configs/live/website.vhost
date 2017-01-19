@@ -1,37 +1,36 @@
-<VirtualHost *:80>
+# Used by global also
+LogFormat "%{Host}i:%p %h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" spacelog
+
+<VirtualHost *:8080>
 	ServerName apollo13.spacelog.org
-	ServerAlias mercury6.spacelog.org
-	# add further missions here as ServerAlias lines
+        # This is the default VHOST, so we don't have to add anything
+        # else explicitly -- everything will run through here. (This
+        # does mean that random other hostnames will get Apollo 13, which
+        # is kind of at random. The alternative would be to rebuild this based
+        # on the available missions, which is a drag. Or to change
+        # `apps.transcripts.middleware.MissionMiddleware` to 404
+        # instead of defaulting to Apollo 13.)
 	
-	Alias /assets/missions /home/spacelog/releases/current/missions
-	Alias /assets /home/spacelog/releases/current/website/static
+	Alias /assets /home/spacelog/assets/website
 
 	DocumentRoot /var/www
 
 	<Directory /home/spacelog>
 		Options FollowSymLinks
+                Require all granted
 		AllowOverride None
 	</Directory>
 
-	<Directory /home/spacelog/releases/current/website/static>
-		Order allow,deny
-		allow from all
-	</Directory>
-	<Directory /home/spacelog/releases/current/missions>
-		Order allow,deny
-		allow from all
+	<Directory /home/spacelog/assets/website>
+                Require all granted
 	</Directory>
 
-	WSGIDaemonProcess spacelog-website user=spacelog group=spacelog processes=5 threads=10 maximum-requests=1000
-	WSGIProcessGroup spacelog-website
-	
-	WSGIScriptAlias / /home/spacelog/releases/current/website/configs/live/website.wsgi
-	<Directory /home/spacelog/releases/current/website/configs>
-		Order allow,deny
-		allow from all
-	</Directory>
+        ProxyPass /assets/ !
+        ProxyPass / http://localhost:8082/
+        ProxyPassReverse / http://localhost:8082/
+        ProxyPreserveHost On
 
 	ErrorLog /var/log/apache2/spacelog.org/error.log
 	LogLevel warn
-	CustomLog /var/log/apache2/spacelog.org/access.log combined
+	CustomLog /var/log/apache2/spacelog.org/access.log spacelog
 </VirtualHost>

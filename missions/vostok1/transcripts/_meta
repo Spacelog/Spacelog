@@ -14,7 +14,8 @@
         "summary": "The first human space flight",
         "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur. (Currently very limited and only in Russian; we'd appreciate any help in improving both our coverage and in providing English explanations!)",
         "cleaners": [
-            "James Aylett"
+            "James Aylett",
+            "Igor Racyborynsky"
         ],
         "about": "Восток (Vostok) 1 was the mission that put the first man in space, and reinforced the Soviets' early lead in the Space Race. 27 year old Yuri Gagarin made one orbit of the Earth before re-entry, remaining conscious while experiencing at least 8g, before ejecting from the spacecraft 7km from the ground to land about ten minutes later.\n\nThis site allows you to explore transcripts of radio communications between Gagarin and the personnel at various ground stations across Russia.",
         "component_suppression": {
@@ -75,6 +76,14 @@
             "homepage": "act4.jpg"
         }
     ],
+    "character_ordering": [
+        "Заря 1 (Каманин)",
+        "Кедр",
+        "Заря 1 (Королев)",
+        "Заря 1 (Быков)",
+        "Заря 1 (Попович)",
+        "Заря 1 (Галай)"
+    ],
     "characters": {
         "Заря 1": {
             "identifier_lang": "ru",
@@ -92,8 +101,11 @@
             "short_name_lang": "ru",
             "comment": "Bykov",
             "role": "other",
+            "bio": "Chief Designer at NII-695, responsible for telemetry communications systems used in the Vostok programme.",
+            "mission_position": "Chief Designer (NII-695)",
+            "slug": "bykov",
             "name": "Быков",
-            "short_name": "Быков",
+            "short_name": "Ю.С. Быков",
             "avatar": "person.png"
         },
 
@@ -103,8 +115,11 @@
             "short_name_lang": "ru",
             "comment": "Galaj",
             "role": "other",
+            "mission_position": "Cosmonaut trainer",
+            "bio": "One of the most renowned test pilots in the Soviet Union, Mark Gallay had supervised the training of the cosmonauts, including the parabolic flights they flew in a Tu-104 aircraft to experience microgravity.",
+            "slug": "gallay",
             "name": "Галай",
-            "short_name": "Галай",
+            "short_name": "М. Л. Галай",
             "avatar": "person.png"
         },
 
@@ -115,7 +130,7 @@
             "comment": "Rudnev",
             "role": "other",
             "name": "Руднев",
-            "short_name": "Руднев",
+            "short_name": "К. Н. Руднев",
             "avatar": "person.png"
         },
 
@@ -127,7 +142,7 @@
             "role": "mission-ops-title",
             "mission_position": "Head of Cosmonaut Training",
             "name": "Каманин",
-            "short_name": "Каманин",
+            "short_name": "Н. П. Каманин",
             "slug": "kamanin",
             "avatar": "kamanin.jpg",
             "bio": "Russian aviator Nikolai Kamanin was a Hero of the Soviet Union and decorated World War II Colonel General before being assigned as military chief of the Soviet crewed orbital flight program, including selection and management of the cosmonaut training squad.",
@@ -142,9 +157,9 @@
             "short_name_lang": "ru",
             "comment": "Korolev",
             "role": "mission-ops-title",
-            "mission_position": "Chief Designer",
+            "mission_position": "Chief Designer (OKB-1)",
             "name": "Королев",
-            "short_name": "Королев",
+            "short_name": "С. П. Королев",
             "slug": "korolyov",
             "avatar": "korolyov.jpg",
             "bio": "Sergei Pavlovich Korolyov, referred to officially as 'The Chief Designer', was the pioneering engineer and designer at the centre of the Soviet space program. A key figure in the Soviet ICBM program, he was able to persuade the initially skeptical military and political leaders to focus efforts on space, leading to mankind's first artificial satelite: Sputnik 1, and continuing to crewed flights with Vostok 1. He continued to lead into the development of the Soyuz spacecraft until his death in January 1966.",
@@ -159,8 +174,11 @@
             "short_name_lang": "ru",
             "comment": "Popovich (cosmonaut)",
             "role": "other",
+            "bio": "Pavel Popovich was selected for cosmonaut training at the same time as Yuri Gagarin, and would go on to command the Vostok 4 and Soyuz 14 missions. Popovich was married to Marina Popovich, a legendary and highly decorated Soviet test pilot.",
+            "mission_position": "Capsule Communicator",
+            "slug": "popovich",
             "name": "Попович",
-            "short_name": "Попович",
+            "short_name": "П. Р. Попович",
             "avatar": "popovich.png"
         },
 
@@ -171,7 +189,7 @@
             "comment": "Titarev",
             "role": "other",
             "name": "Титарев",
-            "short_name": "Титарев",
+            "short_name": "Колпашево",
             "avatar": "person.png"
         },
 
@@ -182,7 +200,7 @@
             "comment": "Seleznev",
             "role": "other",
             "name": "Селезнев",
-            "short_name": "Селезнев",
+            "short_name": "Колпашево",
             "avatar": "person.png"
         },
 
@@ -193,7 +211,7 @@
             "comment": "Kadushkin",
             "role": "other",
             "name": "Кадушкин",
-            "short_name": "Кадушкин",
+            "short_name": "Хабаровске",
             "avatar": "person.png"
         },
 
@@ -204,7 +222,7 @@
             "comment": "Horoshilov",
             "role": "other",
             "name": "Хорошилов",
-            "short_name": "Хорошилов",
+            "short_name": "Москве",
             "avatar": "person.png"
         },
 
@@ -215,7 +233,7 @@
             "comment": "Karpenko",
             "role": "other",
             "name": "Карпенко",
-            "short_name": "Карпенко",
+            "short_name": "Елизово",
             "avatar": "person.png"
         },
         "Кедр": {
@@ -226,13 +244,101 @@
             "role": "astronaut",
             "mission_position": "Cosmonaut",
             "name": "Гагарин",
-            "short_name": "Гагарин",
+            "short_name": "Ю. А. Гагарин",
             "slug": "gagarin",
             "avatar": "gagarin.jpg",
             "photo": "gagarin.jpg",
             "photo_width": 190,
             "photo_height": 205,
             "bio": "27-year old Yuri Gagarin started flying as a hobby while in high school, subsequently entering military flight training before taking up his first post as a fighter pilot on the Norwegian border. One of the first group of pilots chosen for the Soviety space program, he was always one of the front-runners in the group, finally being chosen only days before the flight. Following Vostok 1 he toured internationally to promote Soviet achievement."
+        },
+        "Dawn 1 (Kamanin)": {
+            "comment": "Now we have characters for the English transcript, which will share a slug with the Russian-named characters (where we want to link to their bio on the people page). Role is 'other' throughout, so they don't appear anywhere confusing.",
+            "role": "mission-ops-title-alias",
+            "name": "Kamanin",
+            "slug": "kamanin",
+            "short_name": "Nikolai Kamanin",
+            "avatar": "kamanin.jpg"
+        },
+        "Dawn 1 (Korolev)": {
+            "comment": "We transliterate as Korolyov, although the translation uses Korolev and there are probably other variants as well.",
+            "role": "mission-ops-title-alias",
+            "name": "Korolyov",
+            "slug": "korolyov",
+            "short_name": "Sergei Korolyov",
+            "avatar": "korolyov.jpg"
+        },
+        "Cedar": {
+            "role": "astronaut-alias",
+            "name": "Gagarin",
+            "slug": "gagarin",
+            "short_name": "Yuri Gagarin",
+            "avatar": "gagarin.jpg"
+        },
+        "Dawn 1 (Bykov)": {
+            "comment": "And the characters in the English translation that don't link to biographies. We use role=other so they're hidden.",
+            "comment": "Bykov was Chief Designer at NII-695. Responsible for communications (Siddiqi 2000, p201 http://history.nasa.gov/SP-4408pt1.pdf), one of the men Gagarin 'chatted effusively' with prior to launch (p274).",
+            "role": "other",
+            "slug": "bykov",
+            "name": "Bykov",
+            "short_name": "Yuri Bykov",
+            "avatar": "person.png"
+        },
+        "Dawn 1 (Galay)": {
+            "comment": "'One of the most renowned test pilots in the Soviet Union' (Siddiqi 2000, p248). Supervised microgravity parabolic flights in Tu-104 (p248), described (p271) as 'cosmonaut trainer'.",
+            "role": "other",
+            "name": "Galay",
+            "short_name": "Mark Gallay",
+            "avatar": "person.png"
+        },
+        "Dawn 1 (Popovych)": {
+            "comment": "Transliterated as 'Popovich' since initial release.",
+            "role": "other",
+            "name": "Popovich",
+            "short_name": "Pavel Popovich (CAPCOM)",
+            "avatar": "popovich.png"
+        },
+        "Dawn 1 (Rudnev)": {
+            "comment": "Chair of the State Commission for Vostok, in Tyura-Tam before and during launch (Siddiqi 2000, pp271-274).",
+            "role": "other",
+            "name": "Rudnev",
+            "short_name": "Konstantin Rudnev",
+            "avatar": "person.png"
+        },
+        "Dawn 2 (Titarev)": {
+            "comment": "Saddiqi 2000 p278.",
+            "role": "other",
+            "name": "Lt Colonel Titarev",
+            "short_name": "Kolpashevo CAPCOM",
+            "avatar": "person.png"
+        },
+        "Dawn 2 (Seleznev)": {
+            "comment": "Saddiqi 2000 p278.",
+            "role": "other",
+            "name": "Lt Seleznev",
+            "short_name": "Kolpashevo CAPCOM",
+            "avatar": "person.png"
+        },
+        "Dawn 3 (Karpenko)": {
+            "comment": "Saddiqi 2000 p278.",
+            "role": "other",
+            "name": "Colonel Karpenko",
+            "short_name": "Yelizovo CAPCOM",
+            "avatar": "person.png"
+        },
+        "Vesna (Horoshylov)": {
+            "comment": "Saddiqi 2000 p278. Note Vesna / Desna.",
+            "role": "other",
+            "name": "Captain Khoroshilov",
+            "short_name": "Moscow CAPCOM",
+            "avatar": "person.png"
+        },
+        "Vesna (Kadushkin)": {
+            "comment": "Saddiqi 2000 p278.",
+            "role": "other",
+            "name": "Colonel Kadushkin",
+            "short_name": "Khabarovsk CAPCOM",
+            "avatar": "person.png"
         }
     },
     "glossary": {
@@ -240,19 +346,42 @@
             "abbr_lang": "ru",
             "summary_lang": "ru",
             "summary": "динамический электромагнитный микрофон шлема",
-            "slug": "damsh"
+            "comment": "dynamic electromagnetic microphone helmet (probably 'headset')",
+            "slug": "damsh",
+            "type": "abbreviation"
         },
         "ПКРС": {
             "abbr_lang": "ru",
             "summary_lang": "ru",
             "summary": "прибор контроля режима спуска",
-            "slug": "pkrs"
+            "description": "Shutter mode control unit",
+            "slug": "pkrs",
+            "type": "abbreviation"
         },
         "ТДУ": {
             "abbr_lang": "ru",
             "summary_lang": "ru",
             "summary": "тормозная двигательная установка",
-            "slug": "tdu"
+            "description": "The spacecraft's retropopulsion system.",
+            "comment": "retropropulsion (prefixed by 'cylinders', and measured in atmospheres), so probably retrorocket fuel supply?",
+            "slug": "tdu",
+            "type": "abbreviation"
+        },
+        "Lilies of the Valley": {
+            "summary": "A popular song of the time, which the cosmonauts had adopted as a private joke.",
+            "description": "The cosmonauts jokingly called each other 'Lilies of the Valley', having parodied the love song, turning it into a drinking song."
+        },
+        "Zaria": {
+            "summary": "One of the mission communication systems, and callsigns for the ground stations",
+            "description": "Zaria (\"dawn\") was both the name of one of the mission communications systems, and used as callsigns for the ground stations. The Zaria communications system was designed by NII-695, led by their Chief Designer Yuriy Sergeyevich Bykov, who was present at the Zaria-1 ground station at the launch site."
+        },
+        "Vesna": {
+            "summary": "Callsign for HF radio stations",
+            "description": "Vesna (\"spring\") was used as callsigns of radio stations in Moscow and Khabarovsk, operating on HF rather than VHF.",
+            "comment": "For NII-4, see http://www.russianspaceweb.com/tikhonravov.html"
+        },
+        "Cedar": {
+            "summary": "Yuri Gagarin's callsign"
         }
     }
 }

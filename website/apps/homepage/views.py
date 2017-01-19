@@ -3,11 +3,19 @@ from django.template import RequestContext
 from django.views.generic import TemplateView
 from backend.util import timestamp_to_seconds
 from backend.api import LogLine, Act
-from website.apps.common.views import JsonMixin
+from website.apps.common.views import JsonMixin, MemorialMixin
+from website.apps.people.views import mission_people
 
 class HomepageView(TemplateView):
-    template_name = 'homepage/homepage.html'
+    def get_template_names(self):
+        if self.request.mission.memorial:
+            return [ 'homepage/memorial.html' ]
+        else:
+            return [ 'homepage/homepage.html' ]
+
     def get_quote(self):
+        if self.request.mission.memorial:
+            return None
         quote_timestamp = self.request.redis_conn.srandmember(
             "mission:%s:homepage_quotes" % self.request.mission.name,
         )
@@ -25,6 +33,12 @@ class HomepageView(TemplateView):
             )
 
     def get_context_data(self):
+        if self.request.mission.memorial:
+            people, more_people = mission_people(self.request)
+            return {
+                'people': [group for group in people if group['view']=='full'],
+            }
+
         acts = [
             (x+1, act)
             for x, act in
@@ -46,5 +60,5 @@ class HomepageQuoteView(JsonMixin, HomepageView):
         }
 
         
-class AboutView(TemplateView):
+class AboutView(MemorialMixin, TemplateView):
     template_name = 'homepage/about.html'

@@ -10,8 +10,9 @@ from backend.api import LogLine, Act
 from backend.util import timestamp_to_seconds
 from transcripts.templatetags.linkify import linkify
 from transcripts.templatetags.missiontime import timestamp_to_url, selection_url
+from common.views import MemorialMixin
 
-class TranscriptView(JsonTemplateView):
+class TranscriptView(MemorialMixin, JsonTemplateView):
     """
     Base view for all views which deal with transcripts.
     Provides some nice common functionality.
@@ -330,7 +331,7 @@ class PhasesView(TranscriptView):
             'act': selected_act,
         }
 
-class ErrorView(TemplateView):
+class ErrorView(MemorialMixin, TemplateView):
 
     template_name = "error.html"
     error_code = 404
@@ -366,7 +367,7 @@ class ErrorView(TemplateView):
             "classic_moment_quote": error_info.get('classic_moment_quote', None),
         }
 
-class OriginalView(TemplateView):
+class OriginalView(MemorialMixin, TemplateView):
 
     template_name = "transcripts/original.html"
     

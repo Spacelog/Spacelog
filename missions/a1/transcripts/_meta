@@ -1,0 +1,58 @@
+{
+    "name": "a1",
+    "memorial": true,
+    "incomplete": true,
+    "featured": false,
+    "subdomains": ["apollo1", "a1"],
+    "copy": {
+        "title": "Apollo 1",
+        "upper_title": "Apollo",
+        "lower_title": "1",
+        "description": "Tragedy struck the Apollo program when an accident during training took the lives of the Apollo 1 crew.",
+        "summary": "Tragedy early in Project Apollo",
+        "narrative": [
+            "The crew for the first crewed test flight of the Apollo Command/Service Module had been announced in March 1966, aiming for a launch date of February 21, 1967. Training took place throughout 1966 and early 1967, as the capsule to be used for the flight was completed and underwent testing and preparation by NASA.",
+            "On January 27, 1967, the crew were in the Command Module for a 'plugs-out' test of the spacecraft's internal power system. Following a brief power failure, and subsequently believed to be caused by insufficiently-insulated wiring, a fire broke out in the cockpit. Despite the crew's attempts to follow emergency procedure, they were unable to exit the capsule, and were overcome by carbon monoxide produced by the fire.",
+            "They gave their lives in service to their country in the ongoing exploration of humankind's final frontier. Remember them not for how they died but for those ideals for which they lived."
+        ],
+        "narrative_notes": [
+            "After the accident, NASA suspended crewed flight tests for more than a year, resuming only once a number of changes were made to the capsule design. Despite the set back the goal of the Apollo program, of landing a man on the Moon and returning him safely to the Earth, was achieved before the end of the decade.",
+            "All three members of the crew were posthumously awarded the Congressional Space Medal of Honour. An Apollo 1 mission patch was left on the surface of the Moon by the lunar crew of Apollo 11."
+        ],
+        "image_attributions": [
+        ]
+    },
+    "utc_launch_time": -92363307,
+    "characters": {
+        "CDR": {
+          "role": "astronaut",
+          "name": "Virgil I. “Gus” Grissom",
+          "mission_position": "Commander",
+          "photo": "grissom.jpg",
+          "photo_width": 190,
+          "photo_height": 230,
+          "bio": "A decorated USAF combat veteran, Gus Grissom had been the second American in space in Mercury 4, and as commander of Gemini 3 became the first man to fly in space twice. Before his death in the Apollo 1 fire, it was anticipated that he would be the first man to step foot on the Moon.",
+          "quote": "There is a clarity, a brilliance to space that simply doesn't exist on earth. Nowhere else can you realize so fully the majesty of our Earth."
+        },
+        "SP": {
+          "role": "astronaut",
+          "name": "Edward H. White, II",
+          "mission_position": "Senior Pilot",
+          "photo": "white.jpg",
+          "photo_width": 190,
+          "photo_height": 230,
+          "bio": "An air force test pilot who'd also flown the cargo planes used by Mercury astronauts to train for zero-gravity, Ed White had been part of NASA's second astronaut intake in 1962. The first American to perform a spacewalk, as part of the Gemini IV mission, White was also the astronaut specialist for the Apollo flight control systems.",
+          "quote": "You'll never satisfy man's curiosity unless a man goes himself."
+        },
+        "P": {
+          "role": "astronaut",
+          "name": "Roger B. Chaffee",
+          "mission_position": "Pilot",
+          "photo": "chaffee.jpg",
+          "photo_width": 190,
+          "photo_height": 230,
+            "bio": "Naval aviator Roger Chaffee had been selected for astronaut training as part of NASA's Astronaut Group 3 in October 1963. During his own training, he served as CAPCOM for the first two Gemini missions, including during Ed White's space walk. Apollo 1 was to have been his first spaceflight.",
+          "quote": "You'll be flying along some nights with a full moon. You look up there and just say to yourself: I've got to get up there."
+        }
+    }
+}

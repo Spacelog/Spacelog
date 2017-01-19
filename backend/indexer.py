@@ -352,13 +352,19 @@ class MetaIndexer(object):
             time.tzset()
             utc_launch_time = int(time.mktime(time.strptime(utc_launch_time, "%Y-%m-%dT%H:%M:%S")))
             print "Converted launch time to UTC timestamp:", utc_launch_time
+        is_memorial = meta.get('memorial', False)
+        if is_memorial:
+            default_main_transcript = None
+        else:
+            default_main_transcript = "%s/TEC" % self.mission_name
         self.redis_conn.hmset(
             "mission:%s" % self.mission_name,
             {
                 "utc_launch_time": utc_launch_time,
+                "memorial": is_memorial,
                 "featured": meta.get('featured', False),
                 "incomplete": meta.get('incomplete', True),
-                "main_transcript": meta.get('main_transcript', "%s/TEC" % self.mission_name),
+                "main_transcript": meta.get('main_transcript', default_main_transcript),
                 "media_transcript": meta.get('media_transcript', None),
                 "subdomain": meta.get('subdomain', None),
             }
@@ -623,6 +629,7 @@ if __name__ == "__main__":
         new_db = current_db
         print "Reindexing into database %s" % new_db
         print "Note that this is not perfect! Do not use in production."
+        redis_conn.select(new_db)
         redis_conn.set("hold", "1")
 
     for filename in dirs:

@@ -127,9 +127,19 @@ instead.
 
 ### The details
 
-If you can't use `make screen`, or simply if you wish to know how it all fits together under the skin, then here's the details. It's also helpful in case you're developing the code directly, since under certain circumstances the Django development server can crash, and will need restarting. Similarly if you add a new CSS file, you will currently have to restart the appropriate devcss server.
+If you can't use `make screen`, or simply if you wish to know how it
+all fits together under the skin, then here's the details. It's also
+helpful in case you're developing the code directly, since under
+certain circumstances the Django development server can crash, and
+will need restarting. Similarly if you add a new CSS file, you will
+currently have to restart the appropriate devcss server.
 
-We use redis for storage, so you need to have `redis-server` running before you run `make reindex` in the checkout directory, which will import all the mission data into redis. You may also want to do `make statsporn` to build the graphs for the phases page of how much was said at different times (and, in case we've added more graphs but haven't updated this, *other things* :-).
+We use redis for storage, so you need to have `redis-server` running
+before you run `make reindex` in the checkout directory, which will
+import all the mission data into redis. You may also want to do `make
+statsporn` to build the graphs for the phases page of how much was
+said at different times (and, in case we've added more graphs but
+haven't updated this, *other things* :-).
 
 You then need to have some other servers running on top of redis:
 
@@ -140,42 +150,166 @@ You then need to have some other servers running on top of redis:
 
 ### Hosts setup for offline use
 
-If you're not online, you can't use our development DNS, so you'll need edit `/etc/hosts` to include an alias `dev.spacelog.org`, plus aliases of the form `<mission>.dev.spacelog.org`, such as `apollo13.dev.spacelog.org` and `mercury6.dev.spacelog.org`; these all need to point to `localhost` (or to your virtual machine, if that's how you develop things). For instance, here's an `/etc/hosts` entry using `localhost` (put this in addition to the `localhost` line already in there):
+If you're not online, you can't use our development DNS, so you'll
+need edit `/etc/hosts` to include an alias `dev.spacelog.org`, plus
+aliases of the form `<mission>.dev.spacelog.org`, such as
+`apollo13.dev.spacelog.org` and `mercury6.dev.spacelog.org`; these all
+need to point to `localhost` (or to your virtual machine, if that's
+how you develop things). For instance, here's an `/etc/hosts` entry
+using `localhost` (put this in addition to the `localhost` line
+already in there):
   
     127.0.0.1		apollo13.dev.spacelog.org mercury6.dev.spacelog.org dev.spacelog.org
 
-and here's one for a virtual machine (you'll need to change the dotted quad at the start of the line):
+and here's one for a virtual machine (you'll need to change the dotted
+quad at the start of the line):
   
     192.168.56.101	apollo13.dev.spacelog.org mercury6.dev.spacelog.org dev.spacelog.org
 
 ### Reindexing
 
-Whenever you edit information about a mission, or add a new one, you need to run `make reindex` again. If you get errors you may find the `lognag.pl` script in `mcshred/src` useful: just give it some transcript files and it'll tell you where it finds possible errors or weirdnesses. (For new missions, you'll probably have to add things into the valid speakers list at line 71.)
+Whenever you edit information about a mission, or add a new one, you
+need to run `make reindex` again. If you get errors you may find the
+`lognag.pl` script in `mcshred/src` useful: just give it some
+transcript files and it'll tell you where it finds possible errors or
+weirdnesses. (For new missions, you'll probably have to add things
+into the valid speakers list at line 71.)
 
-Note that a full `make reindex` can take a while, so you can index just a single mission by doing `ENV/bin/python -m backend.indexer ma6` or similar (or just `python -m backend.indexer ma6` if you aren't using a virtualenv.
+Note that a full `make reindex` can take a while, so you can index
+just a single mission by doing `ENV/bin/python -m backend.indexer ma6`
+or similar (or just `python -m backend.indexer ma6` if you aren't
+using a virtualenv.
 
 ## External Source Images
 
-We make use of external source images (which we haven't created ourselves) in the form of:
+We make use of external source images (which we haven't created
+ourselves) in the form of:
 
-* .pngs of transcript PDF pages
-* Original NASA photographs
+ * .pngs of transcript PDF pages
+ * Original NASA photographs
 
-For reasons of size these aren't stored in git, they're stored in the spacelog Amazon S3 bucket (served by Cloudfront on http://media.spacelog.org). By default, our settings point you to this host. If you want to test adding your own images, you can change the MISSIONS\_IMAGE\_URL in `website/configs/settings.py` to serve them locally. File a github ticket if you need images uploaded to S3.
+For reasons of size these aren't stored in git, they're stored in the
+spacelog Amazon S3 bucket (served by Cloudfront on
+http://media.spacelog.org). By default, our settings point you to this
+host. If you want to test adding your own images, you can change the
+`MISSIONS\_IMAGE\_URL` in `website/configs/settings.py` to serve them
+locally. File a github ticket if you need images uploaded to S3.
 
 ## Adding a new mission
 
-You'll need to create a directory in `missions`. For Mercury-Redstone missions these should start `mr`, for Mercury-Atlas `ma`, for Gemini they start just `g` and for Apollo `a`. If anyone wants to do non-NASA missions, or Shuttle missions, then get in touch and we'll figure out a naming convention.
+You'll need to create a directory in `missions`. For Mercury-Redstone
+missions these should start `mr`, for Mercury-Atlas `ma`, for Gemini
+they start just `g` and for Apollo `a`. If anyone wants to do non-NASA
+missions, or Shuttle missions, then get in touch and we'll figure out
+a naming convention.
 
-Look in `transcript-file-format` for a description of how we lay out files. If you're transcribing a mission we don't have, you will find the example `_meta` and `TEC` files useful, since they are the main two files you'll need to create (if you're going to include more than just the air-to-ground transcription, you'll want to put that in `TEC`, the command module transcript in `CM`, and so on). If you can make them in that format (or get as close as you can), and send them through to us along with a link to the original transcript PDFs you used, we'll do the rest. (If you are gifted in design, the source files for all the artwork we've created is available, although we haven't yet put it online -- yell if you need it as a basis for making things like orbital diagrams.)
+Look in `transcript-file-format` for a description of how we lay out
+files. If you're transcribing a mission we don't have, you will find
+the example `_meta` and `TEC` files useful, since they are the main
+two files you'll need to create (if you're going to include more than
+just the air-to-ground transcription, you'll want to put that in
+`TEC`, the command module transcript in `CM`, and so on). If you can
+make them in that format (or get as close as you can), and send them
+through to us along with a link to the original transcript PDFs you
+used, we'll do the rest. (If you are gifted in design, the source
+files for all the artwork we've created is available, although we
+haven't yet put it online -- yell if you need it as a basis for making
+things like orbital diagrams.)
+
+### Images
+
+The mission images folder (eg `missions/a11/images`) contains a number
+of images in standard locations and of standard sizes. This is an
+incomplete list. There are Photoshop templates available to help with
+constructing some of these (talk to the mailing list to get hold of
+them).
+
+ * `badge.png` (200 pixels wide, square-ish) and `badge_thumb.png` (40x40
+   pixels): the mission patch, with a transparent background, designed
+   for use on a dark background
+ * `avatars/` contains images for each character in the transcript, in
+   one of the following forms:
+     * transcript name: `F.png`, `IWO_48.png`
+     * ground crew or similar: `capcom_generic.jpg`, `charlie_duke.png`, `nixon.png`, in black and white (ideally in shirt sleeves)
+     * astronauts in flight: `aldrin.jpg`, `armstrong.jpg`, in black and white with a yellow filter applied (ideally in a spacesuit)
+     * `blank_avatar_48.png` (default blank avatar)
+
+   See [the relevant wiki page](https://github.com/spacelog/spacelog/wiki/avatars) for some helpful pre-built avatars.
+ * `people/` contains images used on the people page, for characters in
+   the transcript we call out, which are constructed based on their `role`.
+   The three role groups should have consistent sizes, typically up to
+   200 pixels wide and 150-200 pixels high (there's a fair amount of
+   flexibility here, although 190x205 for the first two and 190x155 for
+   the others was the original design).
+     * `astronaut`: in colour (if possible); the aim is to get them in
+       spacesuits or flight suits, although this isn't always possible
+     * `mission-ops-title`: black and white (on the same page as
+       astronauts; we generally include CAPCOM and Flight there as
+       separate "characters" to explain these key roles, with people filling
+       them or otherwise interesting to the mission as `mission-ops`)
+     * `mission-ops` black and white (on another page)
+ * a number of directories for images for each act, the details of
+   which are managed in the`_meta` file's `acts` section, so can be anything,
+   but are generally `act1.jpg` or `act1.png` etc
+     * `banners/`: 1020x200 pixels, used as headers within the transcript
+     * `illustration/`: 950-960 by 300-330 pixels, optional orbital
+       diagram with spacecraft schematic (but could skip the orbital
+       diagram eg for Apollo 9), used on the phases page
+     * `orbital/`: 956x104 pixels, optional orbital diagram (only
+       makes sense for moon missions), used in the expanded transcript
+       footer
+     * `homepage/`: 220x140 pixels, used on the mission homepage
+       * This directory also contains a single `background.jpg`, which
+         should be dark, and probably feathered toward the right and
+         bottom edges. Size should be "large", but there are no
+         particular dimensions or range of dimensions. Choose
+         something that looks good.
+
+### Memorials
+
+For missions that resulted in fatalities, we do not aim to provide a
+regular site with a transcript. Instead, we can provide a small
+"memorial" site, controlled entirely from the `_meta` file. Set the
+`memorial` key to `true`, and the following keys will be used:
+
+ * `name`, `subdomains`, `featured`, `incomplete` as normal
+ * `utc_launch_time` is used for ordering on the Spacelog homepage
+ * `characters` should contain only the astronauts, with:
+   * `name`, `mission_position`, `bio`
+   * `photo`, `photo_width` and `photo_height`
+   * `role` of `"astronaut"`
+   * optional `quote`, and optional `quote_url`
+   * characters in memorials should not have stats
+ * `copy` with:
+   * `title`, `upper_title`, `lower_title`, `description`, `summary`
+   * `narrative` (main body for memorial page, doesn't support HTML,
+     should be a list of strings, each of which forms a paragraph)
+   * `image_attributions` should contain details of the crew photo
+     (`url`, `title`, `attrib_url`, `attrib` and `license`) unless it
+     is public domain (which it usually will be)
+
+Images (eg in `missions/a1/images/`) that should be in place are:
+
+ * `badge_thumb.png`, `badge.png` (principally for sharing)
+ * astronaut photos in `people/` (typically official NASA headshots)
+ * `homepage/crew.jpg` (ideally a photo of the entire crew in training),
+   should be "large" (as `homepage/background.jpg`, but more foregroundy);
+   on large screens it will be shown at 960px wide, and on narrower at
+   full bleed (so on high density screens up to 1920px may be used)
+
 
 ### Multiple transcripts
 
-As noted above in the information for non-technical folk, if you clean up multiple different transcripts for a single mission (for instance you might do not only the TEC ("technical" ground-to-air) recording but also the CM and/or LM recordings), then please keep them in separate files rather than merging them.
+As noted above in the information for non-technical folk, if you clean
+up multiple different transcripts for a single mission (for instance
+you might do not only the TEC ("technical" ground-to-air) recording
+but also the CM and/or LM recordings), then please keep them in
+separate files rather than merging them.
 
 ## Technical glossary
 
-Within the system, there are a number of terms that describe pieces of the system but do not necessarily match what is shown on the websites.
+Within the system, there are a number of terms that describe pieces of
+the system but do not necessarily match what is shown on the websites.
 
  * TRANSCRIPT FILE -- our textual representation of the original transcript; see `transcript-file-format/TEC` for a commented example
  * TIMESTAMP -- four colon-separated numbers that represent the GET (Ground Elapsed Time), the time since launch within the mission; the four numbers are days, hours, minutes, seconds, so ignition is 00:00:00:00; these are used in the transcript files, and also in URLs
@@ -194,7 +328,10 @@ From this we generate a number of higher-level pieces which are used in the webs
 
 ## Characters
 
-Characters are defined in a _meta key `characters`, which is a dictionary with keys the character identifiers in the transcript and values a further dictionary of information about that character. For instance:
+Characters are defined in a _meta key `characters`, which is a
+dictionary with keys the character identifiers in the transcript and
+values a further dictionary of information about that character. For
+instance:
 
     {
         "characters": {
@@ -212,15 +349,39 @@ Characters are defined in a _meta key `characters`, which is a dictionary with k
         }
     }
 
-This defines the character P. `bio`, `photo` (stored in the mission's `images/people` directory; `photo_width` / `photo_height` should be set appropriately) are used on the people page.
+This defines the character P. `bio`, `photo` (stored in the mission's
+`images/people` directory; `photo_width` / `photo_height` should be
+set appropriately) are used on the people page.
 
-`role` is based on initial usage, and so can be a little confusing. It should be one of astronaut, mission-ops, mission-ops-title or other (defaulting to other). Astronaut means a full-size, prominent place on the main people page (190x205 image with biography as above, and also support for stats and a quote); mission-ops-title will get a less prominent position on the main people page (190x205 with biography); mission-ops go on a second page (linked as "View Mission Control Team" from the main people page), where they get a 190x155 photo and brief biography.
+`role` is based on initial usage, and so can be a little confusing. It
+should be one of astronaut, mission-ops, mission-ops-title or other
+(defaulting to other). Astronaut means a full-size, prominent place on
+the main people page (190x205 image with biography as above, and also
+support for stats and a quote); mission-ops-title will get a less
+prominent position on the main people page (190x205 with biography);
+mission-ops go on a second page (linked as "View Mission Control Team"
+from the main people page), where they get a 190x155 photo and brief
+biography.
 
-The people pages show the full name (the `name` key) and the mission position from the character definition. The short name is shown within the transcript, with the avatar (48x48, stored in the mission's `images/avatars` directory; astronauts get a yellow hue to differentiate them from those not in space during the mission) alongside.
+When dealing with translations, you can also set the role to any of
+the above with '-alias' at the end (eg astronaut-alias,
+mission-ops-title-alias) and explicitly match the `slug` to the "real"
+character definition. Transcripts will show details from the alias
+(including `short_name` and `avatar`, but will link via the explicit
+slug to the "real" biography on the relevant people page, assuming
+there is one).
+
+The people pages show the full name (the `name` key) and the mission
+position from the character definition. The short name is shown within
+the transcript, with the avatar (48x48, stored in the mission's
+`images/avatars` directory; astronauts get a yellow hue to
+differentiate them from those not in space during the mission)
+alongside.
 
 ### Character stats and quotes
 
-Characters with a role of "astronaut" can optionally have statistics and quotes, as shown below:
+Characters with a role of "astronaut" can optionally have statistics
+and quotes, as shown below:
 
     {
         "characters": {
@@ -253,13 +414,21 @@ Characters with a role of "astronaut" can optionally have statistics and quotes,
         }
     }
 
-The quote must be in the transcript, and is given as the transcript name followed by the GET of the logline. (This means you can't use loglines that have multiple speakers.)
+The quote must be in the transcript, and is given as the transcript
+name followed by the GET of the logline. (This means you can't use
+loglines that have multiple speakers.)
 
-There should be three stats, and you will likely have to juggle things around in order to make them fit the layout. We haven't used stats on all missions; it isn't always possible to find suitable figures for the astronauts involved.
+There should be three stats, and you will likely have to juggle things
+around in order to make them fit the layout. We haven't used stats on
+all missions; it isn't always possible to find suitable figures for
+the astronauts involved.
 
 ### The shift system
 
-On longer missions, generic positions such as CAPCOM or F (flight director) are shared between several people operating in shifts. This is done by having a character dictionary key of `shifts`, whose value is a list of two element lists:
+On longer missions, generic positions such as CAPCOM or F (flight
+director) are shared between several people operating in shifts. This
+is done by having a character dictionary key of `shifts`, whose value
+is a list of two element lists:
 
     {
         "characters": {
@@ -274,7 +443,11 @@ On longer missions, generic positions such as CAPCOM or F (flight director) are 
         }
     }
 
-This means that the first shift is taken by the character with identifier DEKE_SLAYTON, at GET 00:00:00:00. Since identifying shifts at this remove from the event isn't always straightforward, there will often be a third element in the list giving an annotation, justification or source:
+This means that the first shift is taken by the character with
+identifier DEKE_SLAYTON, at GET 00:00:00:00. Since identifying shifts
+at this remove from the event isn't always straightforward, there will
+often be a third element in the list giving an annotation,
+justification or source:
 
     {
         "characters": {
@@ -298,12 +471,58 @@ This means that the first shift is taken by the character with identifier DEKE_S
         }
     }
 
-We also (as in the first example above, from Gus Grissom's Mercury-Redstone 4 flight) use the shift system to "delegate" a generic character (such as STONY, the callsign for an astronaut communicator in the blockhouse during Mercury launches) to a specific character (in this case Deke Slayton) who served in that role for the mission in question.
+We also (as in the first example above, from Gus Grissom's
+Mercury-Redstone 4 flight) use the shift system to "delegate" a
+generic character (such as STONY, the callsign for an astronaut
+communicator in the blockhouse during Mercury launches) to a specific
+character (in this case Deke Slayton) who served in that role for the
+mission in question.
 
+## Glossary
+
+Glossary terms are defined in a dictionary from identifier (used in
+the transcripts) to an object with a number of (mostly optional)
+attributes. Missions can bring in shared glossaries (in
+``missions/shared/glossary/``) by having a ``_meta`` key of
+``shared__glossaries`` containing a list of shared glossary names. They
+also have a per-mission glossary, in the ``_meta`` key ``glossary``.
+
+The following attributes are available to a glossary entry:
+
+ * ``type``: "abbreviation" or "jargon" (the latter is the default)
+ * ``links``: a list of objects (with ``url`` and ``caption`` attributes); currently not used
+ * ``summary``: short definition, typically the expansion for abbreviations
+ * ``description``: optional more detailed description of the term (for instance, "Drogue" is a glossary entry, with summary "Drogue parachute", and a description which explains what the drogues' purpose is)
+ * ``description_lang``, ``summary_lang`` and ``abbr_lang`` set the language code if not ``en-us``
+
+Glossary entries are referred to in transcripts (strictly in anything
+run through "linkify", which is also used for things like character
+biographies and quotes -- notably this includes glossary
+descriptions). Just do something like the following:
+
+```
+[glossary:term]
+[glossary:term|display]
+```
+
+The second form allows you to use a glossary entry while using
+different display text. (Particularly useful if dealing with
+translations, since the glossary terms themselves will be in one
+language.)
+
+Note that unless there's a description, the transcript won't link to
+the glossary, it'll just provide a title hover giving the glossary
+item summary.
+
+The glossary page for each mission starts with the ``glossary_introduction``
+copy key in ``_meta``.
 
 ## Code layout
 
-The main code is two Django projects and a python library for managing transcript files into a redis data store. There is also a directory full of per-mission information (transcript files, images and so on), and some other tools directories.
+The main code is two Django projects and a python library for managing
+transcript files into a redis data store. There is also a directory
+full of per-mission information (transcript files, images and so on),
+and some other tools directories.
 
  * `website/` runs the per-mission websites (Django project)
  * `global/` runs the project global homepage (Django project)

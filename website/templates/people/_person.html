@@ -23,7 +23,7 @@
     {{ person.bio|default:"" }}
   </p>
   
-  {% if person.quotable_log_line %}
+  {% if person.quotable_log_line or person.quote %}
   <h4><span{% if person.short_name_lang %} lang="{{ person.short_name_lang }}"{% endif %}>{{ person.short_name }}</span> in words</h4>
   
   {% if person.quotable_log_line %}
@@ -38,6 +38,14 @@
     <cite>
       <a href="{% selection_url person.quotable_log_line.timestamp %}">See this quote <span>by <span{% if person.short_name_lang %} lang="{{ person.short_name_lang }}"{% endif %}>{{ person.short_name }}</span></span> in the transcript</a>
     </cite>
+  </div>
+  {% elif person.quote %}
+  <div class="quote">
+    <blockquote>
+      <p>
+        {{ person.quote }}
+      </p>
+    </blockquote>
   </div>
   {% endif %}
   {% endif %}
