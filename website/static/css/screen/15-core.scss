@@ -1,0 +1,74 @@
+/* -*- Mode: CSS; tab-width: 4; indent-tabs-mode: nil; -*-
+
+    Sets up the basic page layout, and styles any raw elements.
+
+    Equivalent of base.scss, for the newer styling. Currently
+    stripped down since it's only used for the memorial pages.
+*/
+
+body {
+    font-family:            "Helvetica Neue",
+                            "Arial",
+                            sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    max-width: 100%;
+}
+
+@media (min-width: 960px) {
+    .wrapper {
+        width:                  960px;
+        margin:                 0 auto;
+    }
+}
+
+a {
+    color:                  #00abd7;
+    text-decoration:        none;
+}
+a:hover,
+a:focus,
+a:active {
+    text-decoration:        underline;
+}
+sub {
+    vertical-align:         sub;
+}
+sup {
+    vertical-align:         super;
+}
+
+@font-face {
+    font-family:            'League Gothic';
+    src: url('../fonts/league-gothic.eot');
+    src: local('://'),
+         url('http://cdn.spacelog.org/assets/global/fonts/league-gothic.woff') format('woff'),
+         url('http://cdn.spacelog.org/assets/global/fonts/league-gothic.svg#league_gothic') format('svg'),
+         url('http://cdn.spacelog.org/assets/global/fonts/league-gothic.otf') format('opentype');
+}
+
+#masthead {
+    @include regular-masthead;
+}
+/* HACK: Wrap #masthead and hide overflow-x because Fx considers
+   shadow part of width */
+#masthead-outer {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+}
+
+/* z-index use
+ *
+ * We use z-index to elevate the masthead above everything else (z=10).
+ * The phases footer on transcript pages is the same.
+ *
+ * Individual pages can then set anything between z=1 and z=9 and work
+ * smoothly with that.
+ *
+ * Transcripts have a layering approach to cope with the highlight
+ * UI "jumping out" of the page, which is between z=3 and z=8.
+ */

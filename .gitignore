@@ -2,8 +2,8 @@
 *~
 *.pyc
 .DS_Store
-/website/static/css/screen.css
-/global/static/css/screen.css
+/website/static/css/*.css
+/global/static/css/*.css
 /website/static/css/screen.css.map
 /global/static/css/screen.css.map
 /website/local_settings.py

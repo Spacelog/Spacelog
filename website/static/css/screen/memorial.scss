@@ -1,0 +1,59 @@
+.memorial .crest > h1 {
+    @include hide-content;
+}
+
+.memorial .crest > img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 1;
+    display: block;
+    position: relative;
+}
+
+.memorial .crest > div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    z-index: 2;
+    position: relative;
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 16px;
+
+        > img.badge {
+            display: block;
+            margin: 10px auto;
+            max-width: 100%;
+        }
+    }
+}
+
+@media (min-width: 640px) {
+    .memorial .crest > div {
+        margin-top: -10%;
+        background: black;
+        background-color: rgba(0,0,0,0.6);
+    }
+}
+
+.memorial .person {
+    @include person;
+    h4 {
+        @include hide-content;
+    }
+}
+
+.memorial .group {
+    max-width: 640px;
+    margin: 20px auto 0;
+    padding: 0 10px 20px;
+    @include easy-contain;
+
+    @media (min-width: 960px) {
+        max-width: none;
+        padding: 0;
+    }
+}

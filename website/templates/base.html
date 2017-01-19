@@ -10,11 +10,15 @@
       lang="en-us">
 <head>
   <title>{% block full_title %}{% block title %}SET THE TITLE{% endblock %} &mdash; {{ mission.title }} on Spacelog{% endblock %}</title>
+  {% block css-stylesheet %}
   <link rel="stylesheet" href="{% static "css/screen.css" %}" media="screen">
+  {% endblock %}
   <link rel="shortcut icon" href="{% static "img/favicon.ico" %}">
   {% block extra_head %}{% endblock %}
 {% if mission %}
+  {% block meta-description %}
   <meta name="description" property="og:description dbo:abstract" content="Read the original story of {{ mission.title }}: {{ mission.description }}">
+  {% endblock %}
   <meta property="og:title dc:title" content="{{ mission.title }}">
   <meta property="og:type" content="space:MannedMission">
   <link rel="rdfs:type" resource="http://spacelog.org/ns/MannedMission">
