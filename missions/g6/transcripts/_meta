@@ -1,0 +1,27 @@
+{
+    "name": "g6", 
+    "utc_launch_time": "1965-12-15", 
+    "main_transcript": "g6/TEC", 
+    "subdomains": [
+        "g6"
+    ], 
+    "copy": {
+        "cleaners": [
+            "Alice Mariscotti-Wyatt", 
+            "Chris Govias", 
+            "Eric Collins", 
+            "George Brocklehurst", 
+            "JJMK", 
+            "JP Burke", 
+            "James Aylett", 
+            "Matthew", 
+            "Mr Shark", 
+            "britmap", 
+            "jweather"
+        ], 
+        "lower_title": "VI-A", 
+        "upper_title": "Gemini", 
+        "title": "Gemini VI-A"
+    }, 
+    "incomplete": true
+}
