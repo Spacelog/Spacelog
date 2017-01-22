@@ -1,27 +1,54 @@
 {
-    "name": "g6", 
-    "utc_launch_time": "1965-12-15", 
-    "main_transcript": "g6/TEC", 
+    "name": "g6",
+    "incomplete": true,
+    "utc_launch_time": "1965-12-15T13:37:26",
+    "main_transcript": "g6/TEC",
     "subdomains": [
-        "g6"
-    ], 
+        "g6",
+        "gemini6"
+    ],
     "copy": {
         "cleaners": [
-            "Alice Mariscotti-Wyatt", 
-            "Chris Govias", 
-            "Eric Collins", 
-            "George Brocklehurst", 
-            "JJMK", 
-            "JP Burke", 
-            "James Aylett", 
-            "Matthew", 
-            "Mr Shark", 
-            "britmap", 
+            "Alice Mariscotti-Wyatt",
+            "Chris Govias",
+            "Eric Collins",
+            "George Brocklehurst",
+            "JJMK",
+            "JP Burke",
+            "James Aylett",
+            "Matthew",
+            "Mr Shark",
+            "britmap",
             "jweather"
-        ], 
-        "lower_title": "VI-A", 
-        "upper_title": "Gemini", 
-        "title": "Gemini VI-A"
-    }, 
-    "incomplete": true
+        ],
+        "description": "Following a failed Agena launch, the Gemini VI docking mission was reworked as Gemini VI-A, the first piloted space rendezvouz, meeting up and station-keeping with the longer-duration Gemini-VII mission.",
+        "summary": "The first piloted space rendezvouz.",
+        "lower_title": "VI-A",
+        "upper_title": "Gemini",
+        "title": "Gemini VI-A",
+        "transcript_attributions": [
+            { "url": "https://www.jsc.nasa.gov/history/mission_trans/gemini6.htm", "title": "Gemini VI Composite Air-to-Ground and Onboard Voice Tape Transcription" }
+        ]
+    },
+    "characters": {
+        "C6": {
+            "role": "astronaut",
+            "name": "Walter M. Schirra, Jr.",
+            "short_name": "Wally Schirra",
+            "mission_position": "Command Pilot"
+        },
+        "P6": {
+            "role": "astronaut",
+            "name": "Thomas Patten (Tom) Stafford",
+            "short_name": "Tom Stafford",
+            "mission_position": "Pilot"
+        }
+    },
+    "shared_glossaries": ["space"],
+    "glossary": {
+        "GET": {
+            "summary": "Ground Elapsed Time",
+            "type": "abbreviation"
+        }
+    }
 }
