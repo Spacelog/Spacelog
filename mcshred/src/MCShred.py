@@ -14,32 +14,99 @@ errors = []
 def get_file_name_for(num):
     return str(num).zfill(3) + ".txt"
 
-def shred_to_lines(lines):
+def shred_to_lines(lines, timestamp_parts=4):
     global pageNumber
     logLines = []
     tapeNumber = None
+    prefixSpaces = None # how many spaces should we strip from the start?
         
     for number, line in enumerate(lines):
         line = line.decode('utf-8')
         try:
             if line.strip().startswith(u"Page"):
                 pageNumber = int(line.strip().lstrip(u"Page ").strip())
+                prefixSpaces = None
             elif line.strip().startswith(u"Tape "):
                 tapeNumber = line.lstrip(u"Tape ").strip()
+            elif line.strip().startswith(u"PAGE"):
+                # Page number from transcript (ignore)
+                print "Skipping line %i on page %i: %s" % (
+                    number+1,
+                    pageNumber,
+                    line.strip(),
+                )
+            elif re.match('^[0-9]+$', line.strip()):
+                # Almost certainly a page number from the transcript (ignore)
+                print "Skipping line %i on page %i: %s" % (
+                    number+1,
+                    pageNumber,
+                    line.strip(),
+                )
             else:
-                logLines.append(LogLine(pageNumber, tapeNumber, number, line))
+                # If this is the first "real" line then figure out how
+                # many spaces it has on the left, and mark to strip
+                # those from all subsequent lines. Real lines start
+                # with a timestamp (continuation lines and oddities
+                # like ground station markers should work without
+                # stripping, and if we strip based on that we'll have
+                # a problem).
+                if prefixSpaces is None:
+                    if re.match("^[0-9]{2}:", line.lstrip()):
+                        actual_line = line.lstrip()
+                        prefixSpaces = len(line) - len(actual_line)
+                        if line[0] == '\t':
+                            errors.append(
+                                "Leading tab on line %i: %s" % (
+                                    number+1,
+                                    line.strip(),
+                                )
+                            )
+                if prefixSpaces is None:
+                    logLines.append(
+                        LogLine(pageNumber, tapeNumber, number, line)
+                    )
+                else:
+                    # We only check if the expected prefix contains
+                    # non-whitespace on this line. If whitespace
+                    # continues beyond the prefix, that's probably the
+                    # indentation of a continuation line, or the tab
+                    # indenting an extra line, so we don't want to
+                    # complain.
+                    if line[:prefixSpaces].strip() != "":
+                        raise Exception("Whitespace prefix changed within page")
+                    if prefixSpaces != len(line) - len(line.lstrip()):
+                        # More space beyond the prefix. We should check to
+                        # see if it starts with something that might be
+                        # a timestamp, and warn about that.
+                        if re.match(
+                                '^' + ':'.join(
+                                    '[0-9]{2}'
+                                    for n in range(0, timestamp_parts)
+                                ) + ' ', line.lstrip()
+                        ):
+                            errors.append(
+                                "Possible logline start over-indented on line %i: %s" % (
+                                    number+1, line.strip()
+                                )
+                            )
+                    logLines.append(
+                        LogLine(
+                            pageNumber, tapeNumber,
+                            number, line[prefixSpaces:],
+                        )
+                    )
         except:
             print "Failed on line %i: %s" % (number+1, line)
             raise
 
     return logLines
 
-def get_all_raw_lines(path):
+def get_all_raw_lines(path, timestamp_parts=4):
     translated_lines = []
     try:
         file = open(path, "r")
         file_lines = file.readlines()
-        shredded_lines = shred_to_lines(file_lines)
+        shredded_lines = shred_to_lines(file_lines, timestamp_parts)
         translated_lines.extend(shredded_lines)
     except IOError:
         errors.append("Could not find the file: " + path)
@@ -121,13 +188,8 @@ def line_is_a_new_entry(line, timestamp_parts):
     return True
 
 def is_a_non_log_line(line):
-    if len(line.raw) == 0:
-        return True
-
-    return line.raw[0] == '\t' \
-                or len(line.raw) != len(line.raw.lstrip()) \
-                or not line.raw \
-                or "(Music" in line.raw
+    # non log line => extra, ie not speech
+    return len(line.raw) == 0 or line.raw[0] == '\t'
 
 def translate_lines(translated_lines, verbose=False, timestamp_parts=DEFAULT_TIMESTAMP_PARTS):
     translatedLines = []
@@ -146,9 +208,18 @@ def translate_lines(translated_lines, verbose=False, timestamp_parts=DEFAULT_TIM
                 if is_a_non_log_line(line):
                     currentLine.append_non_log_line(line.raw.strip())
                 else:
-                    currentLine.append_text(line.raw)
+                    # One or more capitals (eg CC, CDR, P), followed by
+                    # at least two spaces.
+                    if re.match(
+                            '^[A-Z]+  +',
+                            line.raw.lstrip()
+                    ):
+                        errors.append(
+                            "Line %i suspect continuation: %s" % (number+1, line.raw.strip())
+                        )
+                    currentLine.append_text(line.raw.lstrip())
         else:
-            errors.append("Line %i has no nominal timestamp: %s" % (number+1, line.raw))
+            errors.append("Line %i has no nominal timestamp: %s" % (number+1, line.raw.strip()))
     
     translatedLines.append(currentLine)
     
@@ -187,7 +258,7 @@ def get_formatted_record_for(line):
             lines.append(u"_tape : %s\n" % line.tape)
             last_tape = line.tape
         if len(line.non_log_lines) > 0:
-            lines.append(u"_extra : %s\n" % "/n".join(line.non_log_lines))
+            lines.append(u"_extra : %s\n" % "\n".join(line.non_log_lines))
         lines.append(u"%s: %s" % (line.speaker, line.text,))
         return lines
     else:
@@ -298,7 +369,7 @@ if __name__ == "__main__":
     
     file_path = args[0]
     output_file = args[1]
-    allRawLines = get_all_raw_lines(file_path)
+    allRawLines = get_all_raw_lines(file_path, options.timestamp_parts)
     print "Read in %d raw lines (%d non-blank)." % (len(allRawLines), len(filter(lambda x: x.raw.strip(), allRawLines)))
     translated_lines = translate_lines(allRawLines, options.verbose, options.timestamp_parts)
     print "Translated to %d lines." % len(translated_lines)

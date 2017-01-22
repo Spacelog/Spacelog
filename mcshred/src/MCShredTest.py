@@ -145,14 +145,12 @@ class Test(unittest.TestCase):
     def test_is_a_non_log_line(self):
         logLine0 = make_log_line(u"Tape 3/2")
         logLine1 = make_log_line(u"01 02 03 59 CC This is the rest of the line")
-        logLine2 = make_log_line(u"  except for this thing because it's actually")
-        logLine3 = make_log_line(u"    ( other weird text Thing )")
-        logLine4 = make_log_line(u"")
+        logLine2 = make_log_line(u"\texcept for this thing because it's actually")
+        logLine3 = make_log_line(u"")
         assert MCShred.is_a_non_log_line(logLine0) == False
         assert MCShred.is_a_non_log_line(logLine1) == False
         assert MCShred.is_a_non_log_line(logLine2) == True
         assert MCShred.is_a_non_log_line(logLine3) == True
-        assert MCShred.is_a_non_log_line(logLine4) == True
 
     def test_if_no_speaker_indicated_it_is_considered_a_note(self):
         logLine = MCShred.LogLine(5, u"5/1", 1, u"01 02 03 59")
