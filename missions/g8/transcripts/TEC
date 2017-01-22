@@ -9,7 +9,7 @@ CC: Ignition!
 CC: Lift-off!
 
 [00:00:00:08]
-CC: Lift-off 16 41 00! Lift-off 16 41 00!
+CC: Lift-off 16:41:00! Lift-off 16:41:00!
 
 [00:00:00:09]
 CC: Watch your clock, Gemini.
@@ -722,7 +722,7 @@ P: Coming OFF.
 
 [00:00:52:35]
 CC: Carnarvon. Gemini VIII, if you're ready for the
-Accelerometer Bias Check, we'll start counting.
+    Accelerometer Bias Check, we'll start counting.
 
 [00:00:52:39]
 C: We're ready for your check, sir.
