@@ -517,6 +517,16 @@ item summary.
 The glossary page for each mission starts with the ``glossary_introduction``
 copy key in ``_meta``.
 
+## Time links
+
+Similar to glossary references, parsed text can contain references to
+other parts of the mission. This is done using a time link, of the
+form `[time:TIME]` or `[time:TIME|display]`. The link time may be
+abbreviated (it's filled up to the four time components on the left
+with zeros, so if you use `[time:02:15]` the system will treat that as
+`[time:00:00:02:15]`. The link time must use colons as separators,
+although the transcript text may not: `[time:02:42:08|02 42 07]`.
+
 ## Code layout
 
 The main code is two Django projects and a python library for managing

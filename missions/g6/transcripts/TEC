@@ -728,11 +728,11 @@ C6: Roger on the GO for 17-1 and ready to copy on the
      ...
 
 [00:00:55:16]
-CC: GET B 01 34 03; Delta-V, 13.5. Height-Adjust
-     02:18:02; Delta-V, 59.5. Phase-Adjust: 02:42:18;
+CC: [glossary:GET] B [time:01:34:04|01 34 03]; Delta-V, 13.5. Height-Adjust
+     [time:02:18:02]; Delta-V, 59.5. Phase-Adjust: [time:02:42:18];
      Delta-V, 31.3. Plane-Change towards the south:
-     03:47:36; Delta-V, 44.3. Co-elliptical: 05:16:33;
-     Delta-V, 33.7. Terminal Phase initiate: 05:48:40;
+     [time:03:47:36]; Delta-V, 44.3. Co-elliptical: [time:05:16:33];
+     Delta-V, 33.7. Terminal Phase initiate: [time:05:48:40];
      Delta-V, 42.5. Terminal Phase final. Did you copy?
 
 [00:00:56:27]
@@ -765,7 +765,7 @@ C6: We can see the IVI's counting up.
 CC: Roger. Would you like a time hack?
 
 [00:00:57:15]
-C6: That's affirmative. We'd like a GET time hack.
+C6: That's affirmative. We'd like a [glossary:GET] time hack.
 
 [00:00:57:19]
 CC: All right. I'll give you a time hack. It's 57
@@ -799,7 +799,7 @@ CC: Roger on that.
 [00:00:59:36]
 P6: We have a night airglow passing right through the
      moon at this time, SEF. The time was at 59 minutes,
-     10 seconds GET. Estimate the layer at approximately
+     10 seconds [glossary:GET]. Estimate the layer at approximately
      1/2 degree. It was approximately the same thickness
      as the moon.
 
@@ -877,15 +877,15 @@ CC: Roger, 90. I've got your Height-Adjust information.
 C6: Ready to copy.
 
 [00:01:17:31]
-CC: GET B 01 34 02; Delta-V, 14.0; your burn time,
+CC: [glossary:GET] B [time:01:34:02|01 34 02]; Delta-V, 14.0; your burn time,
      0 plus 24; yaw 180, pitch 0; Core 25, 00140;
      Cores 26 and 27 are all zeros. Your forward
      thrusters for maneuver will be posigrade. This is
      your Height-Adjust.
 
 [00:01:18:20]
-C6: Roger. For the Height-Adjust that's GET, 01
-     plus 34 plus 02; Delta-V, 14.0; duration, 0 plus
+C6: Roger. For the Height-Adjust that's [glossary:GET],
+     [time:01:34:04|01 plus 34 plus 02]; Delta-V, 14.0; duration, 0 plus
      24; yaw 180 degrees, pitch 0; Core 25, 00140; 26
      and 27, all zeros; forward-firing thrusters,
      posigrade maneuvers.
@@ -1771,7 +1771,7 @@ P6: Okay. This is a 2 42, Wally.
 C6: What's the time?
 
 [00:02:27:04]
-P6: 02 42 07.
+P6: [time:00:02:42:08|02 42 07].
 
 [00:02:27:06]
 C6: Say it again. 02?

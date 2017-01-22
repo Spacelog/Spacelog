@@ -34,6 +34,10 @@ def mission_time(seconds, separator=':', enable_suppression=False):
     e.g. Passing in 63 seconds and ':' would return '00:00:01:03'.
     """
     if isinstance(seconds, basestring) and separator in seconds:
+        components = seconds.split(':', 4)
+        if len(components) < 4:
+            components = ['00' for x in range(4-len(components))] + components
+            seconds = ':'.join(components)
         return seconds
     mission_time = separator.join([ '%02d' % x for x in timestamp_components(abs(seconds), enable_suppression) ])
     if seconds < 0:
