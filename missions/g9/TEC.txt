@@ -1,8 +1,5 @@
-	Page 1
-	Approved? True
-Title page 
 	Page 2
-	Approved? True
+
                    PAGE 1 
                    CC  Gemini IX, this is Houston reading you loud and clear. Like to advise you that the Address 72 that we'll be looking for is 25743.
                    P   Okay. Got it, Neil. 25743. Thank you.
@@ -31,7 +28,7 @@ Title page
                    CC  I pick up T minus 3 in 2 minutes.
 
 	Page 3
-	Approved? True
+
                  C   Looks like the clouds are going away, Gene.
                  P   Yes. It's beautiful out there. Got the count about 1 minute?
                  P   Houston CAP COM, Gemini IX.
@@ -56,7 +53,7 @@ Title page
                  CC  MARK.
                  CC  Minus 2 minutes, Gemini IX.
 	Page 4
-	Approved? True
+
                    C   Roger.
                    CC  DCS, STC. Sequence 43.
                    C   And I think we're going to make it, Gene.
@@ -81,7 +78,7 @@ Title page
                    CC  IGNITION.
           00:00:01 CC  LIFT-OFF!
 	Page 5
-	Approved? True
+
 			PAGE 4
 	00:00:02	C	We're on the way! Clock is started.
 	00:00:08	P	Beautiful, Tom! We're going!
@@ -108,7 +105,7 @@ Title page
         00:01:01	CC	Roger on the Cabin.
         00:01:04	C	Starting to vibrate and shake.
 	Page 6
-	Approved? True
+
 			PAGE 5
 	00:01:06	P	Boy, I can't see in that sun!
 	00:01:21	C	Can't see a thing.
@@ -133,7 +130,7 @@ Title page
 	00:02:24	CC	Roger.
 	00:02:26	P	I have the horizon, Tom.
 	Page 7
-	Approved? True
+
 			PAGE 6
 	00:02:28	C	Yes. Good show.
 	00:02:30	C	Okay. 30, 1, 2.
@@ -159,7 +156,7 @@ Title page
 	00:03:27	P	03:25.
 	00:03:28	C	Looks good.
 	Page 8
-	Approved? True
+
 			PAGE 7
 	00:03:30	P	Okay. We've got 1/2 degree negative yaw and 1/2 degree negative pitch on the needle.
 	00:03:37	P	Oh, Tom!
@@ -182,7 +179,7 @@ Title page
 	00:04:39 	P	Roger. We're showing 0 pitch, and yaw is starting to build up at 1 degree now.
 	00:04:47 	CC	Roger.
 	Page 9
-	Approved? True
+
 	00:04:50	C	Almost 3 g's.
 	00:04:57	P	Oh baby! Keep going, just keep going!
 	00:05:01	C	... we're getting it now.
@@ -207,7 +204,7 @@ Title page
 	00:05:56	C	Roger.
 	00:05:58	P	714, Tom.
 	Page 10
-	Approved? True
+
 	PAGE 9
 	00:06:02	C	Okay. Stand by.
 	00:06:05	C	Go ahead.
@@ -233,7 +230,7 @@ Title page
 	00:07:07	C	How many do we have to go now?
 	00:07:08	P	Okay. 6 to go.
 	Page 11
-	Approved? True
+
            10 
            00:07:10   C    Roger.
            00:07:12   P    Your IVAR's looking good on it.
@@ -261,7 +258,7 @@ Title page
                            Tom. Your Boost Insert, SAFE.
            00:08:21   C    Roger.
 	Page 12
-	Approved? True
+
                                                                                         11
            00:08:26 P   Look at the horizon area.
            00:08:28 CC  Roger. Gemini IX. Your 1-Alpha time is 15:55.
@@ -291,7 +288,7 @@ Title page
            00:09:59 C   Okay. Go ahead.
 
 	Page 13
-	Approved? True
+
          12
          00:10:00 CC   20 seconds to LOS.
          00:10:02 P    Okay. I'm good here.
@@ -320,7 +317,7 @@ Title page
                        your gear stowed and then I'll get ...
          00:11:30 C    Okay. The scanners looking good.
 	Page 14
-	Approved? True
+
                                                                                           13
            00:11:35 P   Okay. Let me get this thing off so I can open
                         my - visor.
@@ -354,7 +351,7 @@ Title page
            00:18:17 CC  Roger. That's correct.
 
 	Page 15
-	Approved? True
+
 
          00:18:19 C    And the Insertion Check was just complete.
          00:18:21 CC   Roger. Thank you.
@@ -385,7 +382,7 @@ Title page
          00:25:07 CC   Roger. I'd like to give you GET time hack. It
                        will be 25:15 in three seconds.
 	Page 16
-	Approved? True
+
                                                                                              15
            00:25:16 CC   MARK.
            00:25:17 C    We're right on. Our water boiler is still ...
@@ -418,7 +415,7 @@ Title page
                          it's close to Altair.
            00:35:34 C    Roger.
 	Page 17
-	Approved? True
+
          16
          00:36:22 CC  Gemini IX. Would you take - check Tape Recorder
                       Power circuit breaker, please.
@@ -447,7 +444,7 @@ Title page
          00:50:42 P   Okay. There's 82. 82 is good.
          00:50:47 P   All zeros. 81 plus 2. That's good enough.
 	Page 18
-	Approved? True
+
               00:50:59  P    Okay.
               00:51:04  P    He wants - -
               00:51:05  C    Hit it again ... two tenths is good enough.
@@ -476,7 +473,7 @@ Title page
               00:52:42  CC   IX, Carnarvon.
               00:52:43  C    Carnarvon, IX. Go.
 	Page 19
-	Approved? True
+
         00:52:44 CC  Carnarvon's having some telemetry problems.
                      I'll give you a call as soon as we're set up
                      here.
@@ -505,7 +502,7 @@ Title page
                      please?
         00:56:55 C   OAMS Quantity reads 82 percent.
 	Page 20
-	Approved? True
+
           00:56:58 CC  Roger.
           00:57:40 CC  Gemini IX, Carnarvon. We've completed our
                        accelerometer bias summaries.
@@ -532,7 +529,7 @@ Title page
                          States.
            01:13:08 C    Roger.
 	Page 21
-	Approved? True
+
                             HAWAII
          01:17:37 CC  Gemini IX, Hawaii.
          01:17:39 C   Hawaii, Gemini IX.
@@ -560,7 +557,7 @@ Title page
          01:28:13 C   Houston, IX here. Go.
          01:28:16 CC  Roger. Your 180-nautical-mile time is 1 plus 56.
 	Page 22
-	Approved? True
+
             01:28:22 C    Roger. 1 plus 56.
             01:28:24 CC   And 1OO nautical miles will be 2 plus 39.
             01:28:29 C    Roger.
@@ -592,7 +589,7 @@ Title page
                           we've got it.
             01:30:06 CC   I'm with you.
 	Page 23
-	Approved? True
+
         01:30:07 C   Squared away.
         01:30:23 CC  Okay. You want to go to PRELAUNCH now, Tom,
                      for the Accelerometer Bias change.
@@ -621,7 +618,7 @@ Title page
          01:39:10 CC  Gemini IX, Houston.Got your maneuver message
                       when you are ready to copy.
 	Page 24
-	Approved? True
+
             01:39:15 C   Gemini IX. Go.
             01:39:17 CC  Okay. GET B: 01:55:17; Delta-V, 14.6; burn
                          time, 19 seconds; yaw 67, 67 degrees left,
@@ -656,7 +653,7 @@ Title page
             01:43:13 C    Roger. We're right on, Houston.
             01:43:15 CC   Okay.
 	Page 25
-	Approved? True
+
         01:45:30 CC  Gemini IX, Houston. We're about half a
                      minute from LOS. You still have a very small
                      bias in the accelerometer. Looks like, for
@@ -685,7 +682,7 @@ Title page
         01:56:01 C   Zero.
         01:56:06 P   80 is minus ...
 	Page 26
-	Approved? True
+
            01:56:07 CC   Gemini IX, Houston standing by.
            01:56:10 C    Roger. Just completed all of the residuals.
                          Let it go.
@@ -713,7 +710,7 @@ Title page
            01:57:26 C   Whew! I'm awful glad at this IGS support.
            01:57:28 P   Yes, so am I.
 	Page 27
-	Approved? True
+
         01:57:37 P   Boy, you sure sit on top of the cockpit, don't
                      you?
         01:57:41 C   Yes. You feel like you're bent over, head down.
@@ -742,7 +739,7 @@ Title page
                      Tom?
         01:59:20 C   When's the next burn we'll be running?
 	Page 28
-	Approved? True
+
            01:59:22 P    Next burn is at 02:24:51.
            01:59:27 C    02:24:51. Okay.
            01:59:32 C    02:24:51. Good.
@@ -770,7 +767,7 @@ Title page
            02:11:06 C   Houston ... Say again.
            02:11:11 CC  That elevation was 5.5 degrees.
 	Page 29
-	Approved? True
+
         02:11:14 C   Roger. 5.5.
         02:11:17 CC  Roger.
         02:11:59 C   Houston, this is Gemini IX. Were you trying to
@@ -800,7 +797,7 @@ Title page
                      miles; Range-Rate, 190.
         02:14:44 CC  Houston. Roger.
 	Page 30
-	Approved? True
+
            02:15:10 C   Houston, Gemini IX. Estimate azimuth Range-Rate,
                         34; elevation, 6-1/2 degrees.
            02:15:17 CC  Houston. Roger. And we're about 1 minute from
@@ -828,7 +825,7 @@ Title page
            02:24:27 CC  Gemini IX, Carnarvon CAP COM. We're standing by.
            02:24:29 C   Roger. Be burning shortly. Are we on Record?
 	Page 31
-	Approved? True
+
         02:24:34 P   24:51. You've got 20 seconds.
         02:24:37 P   On Record. Go to RATE COMMAND.
         02:24:39 C    Okay. I'll just put it right here to the last
@@ -855,7 +852,7 @@ Title page
         02:26:25 C   That's good. 82 is one.
         02:26:27 P   Yes.
 	Page 32
-	Approved? True
+
            02:26:34 C   81 is 1.
            02:26:43 C   It's coming in, too.
            02:26:51 P   Yes.
@@ -883,7 +880,7 @@ Title page
            02:32:36 CC  Roger. Would it be possible for me to get an
                        OAMS Quantity readout from you before LOS here?
 	Page 33
-	Approved? True
+
        02:32:40 P   Roger. Reading 73 percent.
        02:32:42 CC  Roger.
        02:32:47 C   Carnarvon, we also need a Bravo.
@@ -919,7 +916,7 @@ Title page
                     beautifully. You want to relay that on to Houston?
 
 	Page 34
-	Approved? True
+
           02:51:49 CC  Roger. Will do.
           02:51:55 CC  Everything is looking real good here on the
                        ground. We still read you've got solid lock.
@@ -950,7 +947,7 @@ Title page
          02:56:17  C   Hawaii. Gemini IX is 8.6 degrees; 74.58 miles;
                        125, Range-Rate.
 	Page 35
-	Approved? True
+
                           HOUSTON
         02:59:52 C    Hello, Hawaii. Gemini IX.
         03:00:01 CC   Hello, Gemini IX. Houston here.
@@ -982,7 +979,7 @@ Title page
                     is initiating the START COMP cycle. We noticed
 
 	Page 36
-	Approved? True
+
                         this just as we finished the N<sub>SR</sub> burn.
            03:03:04 CC  Roger. We're with you. Just to advise you here,
                         you've got less than 1 mile relative ellipticity,
@@ -1014,7 +1011,7 @@ Title page
                          to copy.
             03:13:54 C   Roger. Ready to copy.
 	Page 37
-	Approved? True
+
                03:13:56       CC      Roger. GET B: 03:35:35; GTN<sub>SR</sub> Delta-V, 11044,
                                       26.8; burn time, 35 seconds; Address 25, 00231;
                                       Address 26, 90134; Address 27, 90020; that's
@@ -1049,7 +1046,7 @@ Title page
                03:19:59       CC      Roger. Your darkness time is - your TPI is cur-
                                       rently 5 minutes, about 5-1/2 minutes before sunset.
 	Page 38
-	Approved? True
+
          03:20:06 C   5-1/2 before sunset.
          03:20:20 CC  Roger. Did you switch into RENDEZVOUS now?
          03:20:25 C   Roger. We switched to the RENDEZVOUS.
@@ -1078,7 +1075,7 @@ Title page
                       Range-Rate, 119.
          03:29:33 C   Houston, Gemini IX. ...
 	Page 39
-	Approved? True
+
         03:29:38 CC  Houston. Could not copy.
         03:29:41 C   Houston, this is Gemini IX. The optical boresight
                      is within a ... degree of the radar boresight.
@@ -1108,7 +1105,7 @@ Title page
                      pushed START COMP no light comes on. We'll
                      stand by for the light and see if we get it.
 	Page 40
-	Approved? True
+
                         The Closed Loop is 26 forward, 3 right and 8 up.
            03:33:24 P   Okay. At 10:40 I need a big point, Tom.
            03:33:26 C   10:40. Okay.I'll be right on it.
@@ -1136,7 +1133,7 @@ Title page
            03:35:17 C   Let's go with yours.
            03:35:18 P   - - 24 forward, 0 up/down.
 	Page 41
-	Approved? True
+
         03:35:25 P    The Ground gets 1.3 up and Closed Loop goes 8 up.
         03:35:31 C    Let's take the 1 up. Okay? Let's take 27 forward.
                       Okay?
@@ -1163,7 +1160,7 @@ Title page
                      Looks like you initiated fairly well on the
                      angle, Tom.
 	Page 42
-	Approved? True
+
            03:36:46 C   Okay.
            03:36:51 P   Here, let me get 25, 6 and 7 in 0 if I can. That
                         right here?
@@ -1193,7 +1190,7 @@ Title page
            03:38:51 P   What is?
 
 	Page 43
-	Approved? True
+
         03:38:54 C   Closed Loop. It snapped off.
         03:38:58 P   Okay. Let's go to - I want an angle and a Range-Rate
                      of 225.
@@ -1223,7 +1220,7 @@ Title page
         03:41:41  C   Yes, I did earlier.
 
 	Page 44
-	Approved? True
+
          03:41:42 P   ...
          03:41:43 C   The ACQ lights have disappeared again.
          03:41:47 P   Three of them.
@@ -1248,7 +1245,7 @@ Title page
          03:42:41 C   ... just a faint little ...
          03:42:44 P   34.8 ... 34.8
 	Page 45
-	Approved? True
+
         03:42:48 C   Hello, RKV, Gemini IX.
         03:44:20 CC  Gemini IX. Houston standing by.
         03:44:38 CC  Gemini IX. Houston standing by.
@@ -1276,7 +1273,7 @@ Title page
        03:54:47 P   I've lost him entirely now.
        03:54:53 C   What's that?
 	Page 46
-	Approved? True
+
            03:54:55 P    Hey, that is Scorpio. The head of Scorpio behind
                          the moon.
            03:54:59 C    Yes.
@@ -1304,7 +1301,7 @@ Title page
                         fact, this is looking real good. 72.5, 5.13.
                         Coming right in here.
 	Page 47
-	Approved? True
+
         03:56:38 C   Good show. We have to get in there somehow,
                      Gene.
         03:56:41 P   How about a planet, or can you tell it?
@@ -1333,7 +1330,7 @@ Title page
         03:58:01 C   Yes.
         03:58:02 P   Watch the ACQ light go around now.
 	Page 48
-	Approved? True
+
            03:58:03 C    Yes.
            03:58:05 P   Okay. At 22 minutes I need a 4:40:76.
            03:58:07 C    This is Gemini IX transmitting in the blind. We
@@ -1360,7 +1357,7 @@ Title page
            03:59:33 C   Well, if we'd have applied that number we'd have
                         really gone down.
 	Page 49
-	Approved? True
+
                           CARNARVON
         03:59:34 CC  Gemini IX, Carnarvon CAP COM. We're standing by.
         03:59:38 C   Roger. Carnarvon. We've got the ATDA in reflected
@@ -1389,7 +1386,7 @@ Title page
                     ahead.
        04:00:42 P   Okay. Let's see if we can zero 25, 6 and 7.
 	Page 50
-	Approved? True
+
            04:00:44 C   Okay. Going to CATCH-UP.
            04:00:48 P   Carnarvon. We just applied the Closed-Loop solution
                         of 3 forward and 2 down.
@@ -1419,7 +1416,7 @@ Title page
            04:02:06 CC   Roger.
 
 	Page 51
-	Approved? True
+
        04:02:12 P   Gemini IX. Elevation 94.9, range 2.37 miles, 39
                     feet per second.
        04:02:22 P   Coming up right under, Tom. Here's your last
@@ -1449,7 +1446,7 @@ Title page
        04:03:32 C   Got it. I might have been off a tenth.
        04:03:53 P   1.67 miles.
 	Page 52
-	Approved? True
+
           04:04:02 P   This is Gemini IX. Elevation 102.7, 1.67 miles,
                        and 34 feet per second and we can actually determine
                        that it is tumbling because of the ACQ light
@@ -1478,7 +1475,7 @@ Title page
                        distance between the running lights.
           04:05:50 CC  Roger.
 	Page 53
-	Approved? True
+
        04:05:55 P   Point 98.
        04:05:59 C   Should we burn to brake it down some?
        04:06:00 P   Yes, let's go to push START COMP.
@@ -1508,7 +1505,7 @@ Title page
        04:07:13 P   Stand by. Okay. You got that star behind him?
 
 	Page 54
-	Approved? True
+
           04:07:19 C   Yes. I have just one little star.
           04:07:21 P   .64 miles. And you've got about - you should have
                        about 20 feet per second.
@@ -1541,7 +1538,7 @@ Title page
           04:08:42 P   You're coming in at 1800 feet, 22 feet per second.
                        Are you in RATE COMMAND? Okay. 1800 feet. She's
 	Page 55
-	Approved? True
+
                      still going down, Tom. I think you have it now.
                      Inside 1800 feet.
         04:09:05 C    What have we got?
@@ -1573,7 +1570,7 @@ Title page
        04:10:29  P   Coming in at 800 feet. Still at 900 feet right now.
 
 	Page 56
-	Approved? True
+
           04:10:34 C   That's a weird looking machine, isn't it?
           04:10:36 P   Doesn't look like it's tumbling. It may be rolling,
                        but - it sure is.
@@ -1604,7 +1601,7 @@ Title page
           04:11:54 P   ... in it.
 
 	Page 57
-	Approved? True
+
          04:11:55 C    Look at that moose!
          04:11:56 C    I'm going to knock it down some - -
          04:11:57 P    It's upside down, but we're looking at it!
@@ -1630,7 +1627,7 @@ Title page
          04:12:51 P    It's there but it's half open all right - -
 
 	Page 58
-	Approved? True
+
           04:12:52 C    - - It didn't fire.
           04:12:54 P    It's like a clamshell. It's like a clamshell, Tom.
           04:13:01 P    Okay. You're 240 feet. Like a clamshell.
@@ -1657,7 +1654,7 @@ Title page
           04:25:25 CC   What does it look like?
 
 	Page 59
-	Approved? True
+
          04:25:26 C    Okay. Both the clamshells of the nose cones are
                        still on, but they are open wide. The front release
                        has let go, the back closing bolts attached
@@ -1693,7 +1690,7 @@ Title page
                        of breaking the cone or shaking it loose by
                        going through a few Unrigidizing-to-Rigidizing Sequences?
 	Page 60
-	Approved? True
+
           04:28:21 C   Well, I might give it a try.
           04:28:25 CC  Roger.
           04:28:38 C   Again, did you copy the information that it appears
@@ -1732,7 +1729,7 @@ Title page
                        is gone from the back of the other half one and -
 
 	Page 61
-	Approved? True
+
                       no, pardon me, it's still there. It's separated
                       from - the back is completely separated 3 to 4
                       inches and I'll give you another good check. Oh,
@@ -1767,7 +1764,7 @@ Title page
                       ATDA but just barely held on by those four little
                       pyro wires there.
 	Page 62
-	Approved? True
+
             04:32:28 CC   Roger.
             04:32:29 C    Those little wires on the strap of the disconnector.
             04:32:34 CC   Roger. Understand.
@@ -1797,7 +1794,7 @@ Title page
             04:35:53 CC   Gemini IX, Houston.
             04:35:55 C    Hello, Houston. Gemini IX.
 	Page 63
-	Approved? True
+
         04:35:57  CC   Reading you loud and clear.
         04:35:59  C    Roger. I'm out here about 20 feet from it and I
                        guess you got the word that all four explosive
@@ -1835,7 +1832,7 @@ Title page
         04:37:40  C   Okay. We're standing by to get movies when you
                       Unrigidize.
 	Page 64
-	Approved? True
+
             04:37:49 CC   Okay. I've got a maneuver message for you for a
                           Radial Sep when you're ready to copy.
             04:37:54 C    Roger. Radial Sep. Do you want us to stand by
@@ -1875,7 +1872,7 @@ Title page
                           convinced by your description of the situation.
 
 	Page 65
-	Approved? True
+
          04:40:31 C    Okay. I can't really tell whether - whether this -
                        we have two big umbilicals that go to the ATDA. I
                        can't tell whether those are still attached or not,
@@ -1912,7 +1909,7 @@ Title page
                        went real well.
 
 	Page 66
-	Approved? True
+
             04:43:22 CC   Okay.
             04:43:25 C    And we still have about 57 percent fuel.
             04:43:28 CC   Good.
@@ -1946,7 +1943,7 @@ Title page
             04:45:l0  C   Okay.
 
 	Page 67
-	Approved? True
+
         04:45:21  C    Okay.We're right behind it, Neil. Send the
                        command.
         04:45:24  CC   Roger.
@@ -1977,7 +1974,7 @@ Title page
         04:52:21  C   Hello, Houston. Gemini IX.
         04:52:23  CC  Houston here.
 	Page 68
-	Approved? True
+
            04:52:25 C   Roger. We're now directly above the ATDA and I'm
                         getting into position for the burn.
            04:52:34 CC  Okay. How did you think your Alinement went?
@@ -2010,7 +2007,7 @@ Title page
            05:02:52 CC  Roger.
 
 	Page 69
-	Approved? True
+
         05:02:56 CC   This is the Cape. Could you give us an evaluation
                      of the range in which you can see the ACQ
                      lights when you were making initial Rendezvous,
@@ -2043,7 +2040,7 @@ Title page
                       comes in very distinguished to give us the ground
 
 	Page 70
-	Approved? True
+
                         down below.
            05:20:50 CC   Roger. Understand.
            05:21:12 CC   Gene, the Comm Tech says they were waving and
@@ -2072,7 +2069,7 @@ Title page
                          the night airglow?
 
 	Page 71
-	Approved? True
+
         05:31:43 C   You want the last one, Gene? You've been working
                      hard.
         05:31:47 P   They're not that good anymore.
@@ -2104,7 +2101,7 @@ Title page
         05:37:19 P    I wish the flashing light would roll around.
 
 	Page 72
-	Approved? True
+
            05:37:35 P   There it is.
            05:37:40 C   Got it?
            05:38:28 C   How are you doing?
@@ -2133,7 +2130,7 @@ Title page
                          about to the Horizontal-Adjust Maneuver.
 
 	Page 73
-	Approved? True
+
             05:45:05    CC      Roger. Understand, and we're standing by.
             05:47:56     C       CSQ, Gemini IX.
             05:47:58     CC      Gemini IX, CSQ CAP COM. GO.
@@ -2162,7 +2159,7 @@ Title page
             06:05:45     C       Recording at 1 hour and 4 minutes after separation.
 
 	Page 74
-	Approved? True
+
            06:05:49 P   Looking at the target in reflected sunlight. Getting
                        ready for TPI. Setting in 47 degrees on the
                        sextant. The target is in the background of
@@ -2197,7 +2194,7 @@ Title page
            06:07:52 P    Oh, boy! You see the horizon's almost out of view.
 
 	Page 75
-	Approved? True
+
                    And I keep floating up to the top of the Spacecraft,
                    I can't stay down here. I've got to stay
                    very low and very close.
@@ -2227,7 +2224,7 @@ Title page
        06:10:42 C    Okay.
 
 	Page 76
-	Approved? True
+
                   06:10:46     P       Stand by.
                   06:10:48     C       Yes.
                   06:10:49     P       Stand by.
@@ -2254,7 +2251,7 @@ Title page
                   06:12:19      P       Did I foul up on this?  You still voice setting?
                   06:12:23      C       Yes.
 	Page 77
-	Approved? True
+
       06:12:25 P   I fouled up, that's all right. I'll get it. I'll
                    make it up. I fouled up. Sorry Tom, I'll get it,
                    I'll get it.
@@ -2285,7 +2282,7 @@ Title page
       06:19:22 P    Roger. We'll turn them off right now, Neil.
 
 	Page 78
-	Approved? True
+
           06:19:25 CC   Okay.
           06:19:29 P    M.A.P. verified.
            06:20:30 CC  Okay.
@@ -2316,7 +2313,7 @@ Title page
                         space to work with. It's got limitations more at
 
 	Page 79
-	Approved? True
+
                    night than it does during the day. If I could
                    just make sure I get the horizon on this next one.
                    You see, I'm forced way down in the corner of this
@@ -2347,7 +2344,7 @@ Title page
       06:27:54 C    Yes.
       06:27:55 P   Mark it.
 	Page 80
-	Approved? True
+
            06:27:56 C    Yes.
            06:27:59 P    67.9. That means it's zero, Tom. On a zero, that
                          means you want to go up. Let me just check this
@@ -2378,7 +2375,7 @@ Title page
            06:29:16 C    Okay. I'd better start knocking it down before
                          too long.
 	Page 81
-	Approved? True
+
       06:29:19 P    Okay. You're inside a half mile. You've got about
                     19 feet per second, Tom, and thrust up, up, up.
                     Keep going up and let me check range.
@@ -2408,7 +2405,7 @@ Title page
                     shape: 18OO feet, 7 feet per second.
       06:30:44 C    Okay, I'll--
 	Page 82
-	Approved? True
+
           06:30:46 P    Watch his - watch this ball now.
           06:30:47 P    - - Optically, I can see him grow. There is no
                         trouble about seeing him grow.
@@ -2439,7 +2436,7 @@ Title page
           06:32:02 P    Okay.
           06:32:07 P    You've got 7 feet per second and you're probably
 	Page 83
-	Approved? True
+
                    coming in at 1200 feet.
       06:32:13 P   Okay. You're inside of 1200 feet.
       06:32:18 P   Boy. I really screwed up on that one, Tom. I'm
@@ -2470,7 +2467,7 @@ Title page
                    good shape, Tom, and you've got 420 feet.
 
 	Page 84
-	Approved? True
+
                         CONFIDENTIAL
            06:34:01 C    Hello Houston, Gemini IX.
            06:34:08 C    Oh, look at that son-of-a-gun do it.
@@ -2499,7 +2496,7 @@ Title page
            06:35:25 C    Yes.
            06:35:27 P    It's 300 feet, Tom.
 	Page 85
-	Approved? True
+
       06:35:42 P   2-feet-per-second closing, 300 feet.
       06:35:54 P   240 feet.
       06:36:05 C    I've got 42 percent fuel.
@@ -2529,7 +2526,7 @@ Title page
       06:37:13 P   We're drifting up. If you yaw to the right a little
                    bit you'll have him.
 	Page 86
-	Approved? True
+
            06:37:33 P    This is Gemini IX. Go ahead with your update, RKV.
            06:37:35 CC   Roger. First, I have some information for you.
                          The people at the Cape and Houston do not believe
@@ -2563,7 +2560,7 @@ Title page
                          Over.
 
 	Page 87
-	Approved? True
+
       06:39:13 P   Remind me of the BEF, too.
       06:39:16 CC  Over.
       06:39:17 P   Roger. Understand. Stand by one.
@@ -2597,7 +2594,7 @@ Title page
                    subtended in the optical reticle was very good.
 
 	Page 88
-	Approved? True
+
                                                Suggest the most practical way of determining the
                                                pitch angle is to boresight continually and get
                                                pitch off the ball or out of the computer, instead
@@ -2627,7 +2624,7 @@ Title page
                                                 the maximum range was there?
                       06:58:12        C         ... estimate it.
 	Page 89
-	Approved? True
+
       06:58:22 CC   Something like 25 miles, right?
       06:58:35 C   We'll estimate we saw it just as soon it passed ...
                     around 25 miles.
@@ -2655,7 +2652,7 @@ Title page
       07:16:01 P    Proceeding aft.
       07:16:02 C    Hold it. - Okay. That's recycling.
 	Page 90
-	Approved? True
+
                    07:16:03    C        Sync.
                    07:16:09     P        All zeros.
                    07:16:12     C        Going to PRELAUNCH. Let's get the computer OFF,
@@ -2681,7 +2678,7 @@ Title page
                    07:18:44      C       We have completed Retrograde.
 
 	Page 91
-	Approved? True
+
        07:18:48 CC  Roger.
        07:18:59 C   Power Control switches are ON.
        07:19:01 CC  They are ON. Understand.
@@ -2711,7 +2708,7 @@ Title page
       07:24:52 CC   Roger at Hawaii. Time: 07:37:00; crew status
                     report.
 	Page 92
-	Approved? True
+
             07:25:07 CC  Sleep period from 08:00:00 to 09:00:00. At CSQ:
                          Time, 08:54:00; PLA update; fuel cell purge and
                          CRYO Quantity readout. Sleep period from 09:00:00
@@ -2744,7 +2741,7 @@ Title page
             07:38:46 C    Control Power is CLOSED. Control Power is OFF.
 
 	Page 93
-	Approved? True
+
       07:38:50 CC   Roger. Understand.
       07:38:54 P    If you knew what we were doing you wouldn't have
                     expected to see that thermometer.
@@ -2775,7 +2772,7 @@ Title page
       07:41:37 CC   Roger. Understand. Could you identify that meal
                     for us?
 	Page 94
-	Approved? True
+
                                                                          93
            07:41:52 C    Roger. Meal C, Day 2. Meal C and we split it.
            07:41:56 CC   Roger. Thank you.
@@ -2810,7 +2807,7 @@ Title page
            08:11:01 C    ...
            08:11:04 CC   Say again.
 	Page 95
-	Approved? True
+
       08:11:06 C    It doesn't make any difference. We can Rendezvous
                     in about any type of situation you can give us.
       08:11:11 CC   Okay. They'd would like to try this type of an
@@ -2839,7 +2836,7 @@ Title page
                     concerning the shroud.
 
 	Page 96
-	Approved? True
+
            08:31:41 C    Go ahead. I guess we're the experts.
            08:31:43 CC   I'm sure you are. I understand the shroud gap at
                          the base is about 3 to 4 inches. Is that correct?
@@ -2874,7 +2871,7 @@ Title page
            08:33:57 CC   Okay. What about at the apex of it?
 
 	Page 97
-	Approved? True
+
       08:34:00 C    At the top of it?
       08:34:02 CC   Affirm.
       08:34:04 C    2-1/2 feet, maybe 3 feet.
@@ -2913,7 +2910,7 @@ Title page
                     lanyard on the QD on the umbilical? Over.
 
 	Page 98
-	Approved? True
+
            08:35:43 C   Say again.
            08:35:44 CC   Do you think you could pull the lanyard on the
                          quick disconnect inside the shroud?
@@ -2950,7 +2947,7 @@ Title page
            08:37:34 C    Roger.
 
 	Page 99
-	Approved? True
+
       08:37:37 CC   If we do that Re-Rendezvous in daylight, which we
                     would like to do down here, we're going to cut a
                     little bit into your EVA preparation, but it still
@@ -2983,7 +2980,7 @@ Title page
                     at LOS. We'll see you later.
       08:39:37 C    Roger.
 	Page 100
-	Approved? True
+
                                COASTAL SENTRY QUEBEC
             08:55:25 CC    Gemini IX, CSQ CAP COM.
             08:55:29 C     Gemini IX. Go, CSQ.
@@ -3019,7 +3016,7 @@ Title page
             09:00:32 P    This is Gemini IX. Roger. We got all the updates,
                           weather, and understand all ... bank left 85, bank
 	Page 101
-	Approved? True
+
                     right 95.
       09:00:40 CC   That's affirmative. No Separation Maneuver required.
       09:00:44 P    Roger. We got it, thank you.
@@ -3050,7 +3047,7 @@ Title page
                     switch to FUEL CELL H<sub>2</sub> position, please.
       09:13:00 C    Roger.
 	Page 102
-	Approved? True
+
            09:13:04 CC   Roger. We're going to get a tape dump on you this
                          pass. We have a Flight Plan update for you if
                          you're ready to copy.
@@ -3084,7 +3081,7 @@ Title page
            09:16:08 CC   Gemini IX, Hawaii.
            09:16:10 P    Go, Hawaii.
 	Page 103
-	Approved? True
+
        09:16:12  CC    The camera was what they were really worried about.
        09:16:16  P     Okay. We were pretty worried about the sight
                        there for a while but we rigged it up from the
@@ -3115,7 +3112,7 @@ Title page
        17:45:37  C     Computer coming ON.
 
 	Page 104
-	Approved? True
+
             17:45:39 CC   And while you're waiting you can turn the S-12
                           collector door CLOSED.
             17:45:45 C    Roger. We've already got the collector door
@@ -3147,7 +3144,7 @@ Title page
                           and 27, all zeros; aft thrusters; Posigrade. I'll
                           go ahead with the Height-Adjust now. GET B is
 	Page 105
-	Approved? True
+
                        19:08:16; Delta-V, 17.0 burn time, 22 seconds;
                        yaw 0, pitch 0; Address 25, 00170; Address 26,
                        all zero; Address 27, zeros; aft thrusters, Posigrade.
@@ -3182,7 +3179,7 @@ Title page
                       Dave Scott's out at Los Angeles working on a -
 
 	Page 106
-	Approved? True
+
                            the procedures for it.
              17:51:05 P    Okay, fine. And you say go ahead with the fuel
                            cell purge now?
@@ -3211,7 +3208,7 @@ Title page
              17:57:13 C    Roger. We're in sync.
 
 	Page 107
-	Approved? True
+
       17:57:15 CC   Roger.
       17:57:36 CC   Gemini IX, are you ready for your PLA update?
       17:57:41 P    Roger. All set - any time.
@@ -3246,7 +3243,7 @@ Title page
                     27 plus 07; and give us FUEL CELL H<sub>2</sub>.
       18:01:31 CC   That's the end of the PLA update, Gemini IX.
 	Page 108
-	Approved? True
+
             18:01:35 P    Roger. The only question I have is 20-3 RET V.
                           Please say again.
             18:01:41 CC   RET V for Area 20-3: 27 plus 07.
@@ -3275,7 +3272,7 @@ Title page
             18:04:29 C    Roger. Houston. We're all set up for our burn.
             18:04:41 CC   Roger. Congratulations for making it past 7-3.
 	Page 109
-	Approved? True
+
       18:04:47 C   Roger, Neil. Thank you.
       18:23:19 C    Rates adjust.
       18:23:20 P    Mark it.
@@ -3302,7 +3299,7 @@ Title page
        18:34:21 CC   I have a Flight Plan update. A short one for you
                      when you're ready to copy.
 	Page 110
-	Approved? True
+
             18:34:28 P     Stand by one.
             18:34:51 P     Okay, Bill, go ahead.
             18:34:55  CC   Okay. At 19 hours, 19 minutes: Antigua, Rev 13;
@@ -3332,7 +3329,7 @@ Title page
             19:08:12  P     10, 13, 14, 15 -
             19:08:17  P     MARK.
 	Page 111
-	Approved? True
+
       19:08:18 C    Mark it.
       19:08:39 P    Okay.
       19:08:44 P    That's good ...
@@ -3362,7 +3359,7 @@ Title page
                     GET B. That's 19:53:27. Go ahead.
       19:20:43 P    Roger. Got 19:53:27 GET B.
 	Page 112
-	Approved? True
+
             19:20:47 CC   That's right. And we're using the forward
                           thrusters here so that you all have - you won't
                           have to turn around and lose radar lock and that
@@ -3393,7 +3390,7 @@ Title page
             19:22:22 CC   Okay. Like to advise you you're GO for 31-1.
             19:22:26 C    Roger. 31-1.
 	Page 113
-	Approved? True
+
       19:22:30 C   How are things in Houston this morning?
       19:22:32 CC   Oh, we're busy as beavers down here.
       19:22:35 C    I can imagine.
@@ -3425,7 +3422,7 @@ Title page
       19:25:25 CC   Okay, Tom. It looks all okay on the ground to us,
                     too.
 	Page 114
-	Approved? True
+
             19:25:29 C    Okay. I don't know what the glitch was.
             19:25:32 C    Also, we changed cords and I had Gene's utility
                           cord, so I've got my camera in the optical sight
@@ -3457,7 +3454,7 @@ Title page
             19:32:17 CC   Roger. I have a coelliptic update when you're
                           ready to copy.
 	Page 115
-	Approved? True
+
       19:32:24 C   Go ahead.
       19:32:27 CC  GET B: 19:54:24; Delta-V, 14.4; burn time, 0 plus
                    25; yaw 180, pitch 38 down; Address 25, 00114;
@@ -3490,7 +3487,7 @@ Title page
                     you think you'd like to have them prior to TPI.
 
 	Page 116
-	Approved? True
+
                        But it would mean that you'd have to turn them
                        off, you'd have to send a Command to turn them
                        off, just as soon as you got in daylight. Thought
@@ -3522,7 +3519,7 @@ Title page
                         you can set it to 3 or 4.
 
 	Page 117
-	Approved? True
+
       19:57:08 P   What have you got your clock set for?
       19:57:10 C   3 minutes.
       19:57:14 P   Okay. About 10 seconds here.
@@ -3549,7 +3546,7 @@ Title page
       20:01:10 P   Right now ... is .01 but we'll have what happens
                    here.
 	Page 118
-	Approved? True
+
             20:01:12 P    Yes.
             20:01:13 C    ...
             20:01:18 P    That's only one - -
@@ -3576,7 +3573,7 @@ Title page
             20:06:20 P    What time have you got?
 
 	Page 119
-	Approved? True
+
      20:06:21 C    11 ...
                         CARNARVON
      20:07:17 CC   Gemini IX, Carnarvon CAP COM.
@@ -3604,7 +3601,7 @@ Title page
      20:08:36 C    Okay. Go.
 
 	Page 120
-	Approved? True
+
             20:08:38 CC   GTV: 20:55:28; GTN<sub>SR</sub> 01:01:04; Delta-V, 16.7;
                          burn time, 0 plus 21; Core 25, 90147; Core 26,
                          00075; Core 27, 00020; 16.54; 0.3 up and 2.5
@@ -3635,7 +3632,7 @@ Title page
             20:52:42 P    What's the range?
 
 	Page 121
-	Approved? True
+
       20:52:43 C    20 miles?
       20:52:44 P    Range is about 20 miles, Tom.
       20:52:51 P    We're going to initiate after the ground time,
@@ -3663,7 +3660,7 @@ Title page
       20:54:37 C    Good show! Got NOMINAL, right?
       20:54:41 P    The next one is probably going to be Point B.
 	Page 122
-	Approved? True
+
              20:54:43 C   Here comes sunrise and I may lose the ATDA.
              20:54:45 P   Okay at 40 -
              20:55:00 P   Okay, I want an angle at 40.
@@ -3691,7 +3688,7 @@ Title page
             20:56:45 C    Got him.
             20:56:59 P    That was Point B.
 	Page 123
-	Approved? True
+
       20:57:00 C    Still have him in reflected sunlight in a sunrise
                     now.
       20:57:15 C    Caught like a particle of dust.
@@ -3719,7 +3716,7 @@ Title page
       20:58:26 P    Mark it.
 
 	Page 124
-	Approved? True
+
             20:58:27 C    Got it! Now one was an optical angle. The other
                           was radar. Sorry about that, Gene.
             20:58:31 P    That's all right.
@@ -3749,7 +3746,7 @@ Title page
                           coming - -
              20:59:49 CC  Got it.
 	Page 125
-	Approved? True
+
       20:59:50 P   - - we're coming down.
       20:59:51 C   Yes. I don't like the down either. The down
                    doesn't look good from here at this time.
@@ -3781,7 +3778,7 @@ Title page
                     below, even though we are down to 12 miles.
 
 	Page 126
-	Approved? True
+
              21:07:49 CC   Roger.
              21:07:52 C    Radar is doing beautiful.
              21:08:23 P    Canary, this is Gemini IX. Last point: elevation,
@@ -3812,7 +3809,7 @@ Title page
              21:14:13 P    Should give us a boosting error at 11:40.
 
 	Page 127
-	Approved? True
+
       21:14:19 C   Say, there's the sand dunes. I'll photograph
                    one. Now don't worry about me. We'll make the
                    rendezvous.
@@ -3840,7 +3837,7 @@ Title page
       21:15:43 C    13.
       21:15:44 P    Okay.
 	Page 128
-	Approved? True
+
            21:15:49 P   Mark it.
            21:16:10 P    Canary, this is Gemini IX. Elevation, 233.9;
                          5.79 miles; 51 feet per second.
@@ -3871,7 +3868,7 @@ Title page
            21:42:03 C    Hello, Houston. Gemini IX.
 
 	Page 129
-	Approved? True
+
        21:42:07 CC   Go ahead, IX. This is Carnarvon.
        21:42:09 C    Okay, Carnarvon. We're in position with them.
                      We have 18 percent fuel remaining.
@@ -3902,7 +3899,7 @@ Title page
        21:44:48 C    Roger. You mean our L-Band?
 
 	Page 130
-	Approved? True
+
              21:44:52 CC   Okay.
              21:44:55 C   Are you talking about our L-Band?
              21:45:01 CC  That's affirmative.
@@ -3931,7 +3928,7 @@ Title page
             21:49:58 CC   FUEL CELL O<sub>2</sub>.
             21:50:10 CC   FUEL CELL H<sub>2</sub>.
 	Page 131
-	Approved? True
+
       21:50:23 CC   Quantity Read to OFF and we're standing by.
                          CANTON ISLAND
       22:04:57 CC   Gemini IX, this is Houston.
@@ -3969,7 +3966,7 @@ Title page
       22:06:50 CC   Okay. We'll see you in about 15 minutes.
 
 	Page 132
-	Approved? True
+
                              GUAYMAS
           22:22:26 CC   Gemini IX, Houston.
           22:22:28 C    Gemini IX. Go.
@@ -4005,7 +4002,7 @@ Title page
                        third day EVA might be better.
 
 	Page 133
-	Approved? True
+
       22:25:28 CC   Roger. We're in agreement with that at this
                     point, and we're continuing the flight planning
                     activity in that direction.
@@ -4036,7 +4033,7 @@ Title page
       22:31:27 C    Hurry up. Let's stop it right away. ...
 
 	Page 134
-	Approved? True
+
               22:31:34  C     Now it's stopped.
               22:31:36  CC    Roger.
               22:31:41  C     Looks like it's pretty well damped.
@@ -4065,7 +4062,7 @@ Title page
                               lot. We're just about regular reentry, Neil.
 
 	Page 135
-	Approved? True
+
           22:33:45     CC      Okay.  Rigidize.
           22:33:50     C       Oh, they're really tossing the thruster fuel out
                                now.
@@ -4094,7 +4091,7 @@ Title page
                                minutes. We'll give you that dope there. What's
                                your Propellant Quantity now?
 	Page 136
-	Approved? True
+
             22:36:31 C    Roger. 12 percent, about 12 to 13 percent.
             22:36:34 CC   Okay. Tom.
             22:36:39 C    Man! Those RCS thrusters are still firing real
@@ -4125,7 +4122,7 @@ Title page
              22:44:49  C   Roger. We're going to have plenty of documentary
 
 	Page 137
-	Approved? True
+
                    evidence as to what caused the failure.
       22:44:54 CC   Roger. We're in the process right now of turning
                    the L-Band ON for you.
@@ -4158,7 +4155,7 @@ Title page
       23:04:06 C    That is affirmative.
 
 	Page 138
-	Approved? True
+
             23:04:09 CC  Roger. Was that a 3-foot-per-second Retrograde?
             23:04:13 C   Yes.
             23:04:15 CC  Roger.
@@ -4191,7 +4188,7 @@ Title page
                          did you use?
 
 	Page 139
-	Approved? True
+
        23:18:34 C   Roger. We used the forward-firing Numbers 11 and
                     12.
        23:18:38 CC   Roger. We copy.
@@ -4229,7 +4226,7 @@ Title page
                      we'll be all set for the rest of the flight.
 
 	Page 140
-	Approved? True
+
              23:58:03  C     Roger. You want to go ahead and open it at this
                              time.
              23:58:04  CC   Well, I'll just go ahead and read the procedures
@@ -4259,7 +4256,7 @@ Title page
                             watch you going across. You can relax for a while.
 
 	Page 141
-	Approved? True
+
        24:00:29 C    All the ... were done on that last rendezvous. I
                      think we learned a whole lot about rendezvous from
                      those last two and also from the first one.
@@ -4293,7 +4290,7 @@ Title page
        24:01:49 C    Yes.
        24:02:05 CC   IX, Houston.
 	Page 142
-	Approved? True
+
            24:02:06 C    Go ahead.
            24:02:08 CC   Tom, just an overall look here. What we're
                          looking at this afternoon, after you have a couple
@@ -4328,7 +4325,7 @@ Title page
            24:13:33 CC   Roger. Understand. Tell Gene I'm sorry about his
 
 	Page 143
-	Approved? True
+
                      Cubs last night, but we'll try again tonight.
        24:13:39 C    Okay. You know how the Cubs are.
        24:13:43 P    I'll be a winner tomorrow anyway, no matter how
@@ -4355,7 +4352,7 @@ Title page
        26:32:09 P    Okay. Give me a minute.
        26:32:12 CC   Roger.
 	Page 144
-	Approved? True
+
             26:32:51 P    Okay, Carnarvon. Fire away.
             26:32:54 CC   Roger. The title is D-14, that's Delta-14: Time,
                           26:52:34; Mode Number, Alpha Romeo; Remarks, extend
@@ -4385,7 +4382,7 @@ Title page
              26:37:11 CC  Roger.
 
 	Page 145
-	Approved? True
+
                          HAWAII
        26:57:10 CC   Gemini IX, Hawaii.
        26:57:12 CC   All systems are GO on the ground and we're
@@ -4414,7 +4411,7 @@ Title page
                      you want to update your Accelerometer Bias. You
 
 	Page 146
-	Approved? True
+
                            can go PRELAUNCH in the computer anytime.
              27:05:30 C    PRELAUNCH. And did Hawaii advise you about our
                            Quantity reading on hydrogen?
@@ -4447,7 +4444,7 @@ Title page
                            No indication other than the Quantity reading zero
                            percent.
 	Page 147
-	Approved? True
+
        27:08:31 CC   Roger. Understand, the Quantity. The pressure
                      is looking good down here. We'll catch this over
                      Texas in a few seconds.
@@ -4473,7 +4470,7 @@ Title page
        27:12:30 P    MARK.
        27:12:31 P    30 seconds.
 	Page 148
-	Approved? True
+
             27:12:32 CC   Roger. Understand 30-second MARK.
             27:12:40 P    Houston, let us know when we can have our computer
                           back. We've got a D-14 coming up.
@@ -4503,7 +4500,7 @@ Title page
                           may come back in.
             27:14:47 P    Okay.
 	Page 149
-	Approved? True
+
        27:17:46 C    Houston, Gemini IX. Is D-14 experiment being received?
        27:17:51 CC   Stand by. We received it in Hawaii. Let me
                     check.
@@ -4533,7 +4530,7 @@ Title page
        27:36:22 CC   Gemini IX, Houston.
        27:36:24 C    Houston. Go.
 	Page 150
-	Approved? True
+
             27:36:26 CC   Roger, Tom. How's the fuel cell purge looking?
             27:36:29 C    Say again.
             27:36:31 CC   How is the fuel cell purge going?
@@ -4563,7 +4560,7 @@ Title page
                           been kind of cloudy, too.
             28:06:19 CC   Roger.
 	Page 151
-	Approved? True
+
        28:06:24 C    You had a few thunderstorms around here; we could
                     tell that.
        28:06:26 CC   Yes. Tonight was the first time we've had rain
@@ -4594,7 +4591,7 @@ Title page
                      at Hawaii for D-14.
 
 	Page 152
-	Approved? True
+
               28:40:34 C     Roger.
 
               28:40:36 CC    I have a sequence change to one of your S-11's
@@ -4644,7 +4641,7 @@ Title page
                              time. That START COMP problem we had after the
 
 	Page 153
-	Approved? True
+
                      first rendezvous - during the first rendezvous,
                      has not reappeared and we think that problem may
                      have been either in the START COMP button or in
@@ -4694,7 +4691,7 @@ Title page
        28:44:03 CC    Okay. It doesn't look to us like there are any
 
 	Page 154
-	Approved? True
+
                         leaks. The system integrity looks good and we
                         really think it is a sensor in that case. Looks
                         like your stacks in the section are storing load
@@ -4727,7 +4724,7 @@ Title page
                          latest GET hack?
 
 	Page 155
-	Approved? True
+
        28:47:14 CC   Roger. I'll give you a hack at 28:47:20.
        28:47:20 CC   MARK. 20.
        28:47:24 P    Roger. We're right on.
@@ -4759,7 +4756,7 @@ Title page
        28:49:53 CC   Roger. Understand the D-14 at 33:15:34.
 
 	Page 156
-	Approved? True
+
              28:50:01 C   Roger.
              28:50:02 CC  Roger. I agree with that.
              28:50:17 CC  IX, Houston.
@@ -4796,7 +4793,7 @@ Title page
                             CONFIDENTIAL
 
 	Page 157
-	Approved? True
+
        29:08:14 CC  Say again.
        29:08:16 C   Roger. The GET RC of Area 22-3.
        29:08:19 CC  Roger. That is 34:13:20.
@@ -4824,7 +4821,7 @@ Title page
        29:13:27 CC  Gemini IX, Houston with a COM check through
                     Ascension.
 	Page 158
-	Approved? True
+
              29:13:33 C    Roger, Houston. Gemini IX.
              29:13:37 C    Read you five-by-five with a lot of background
                            noise. We're starting S-11.
@@ -4855,7 +4852,7 @@ Title page
              29:15:15 P    Hold our yaw ...
 
 	Page 159
-	Approved? True
+
        29:15:30 C    Okay. Use the filter to start with.
        29:15:44 P    I guess this is going to be a long process. Boy,
                      oh boy!
@@ -4882,7 +4879,7 @@ Title page
        29:17:21 P    Stand by - -
 
 	Page 160
-	Approved? True
+
              29:17:22 C   2
              29:17:24 P   - - one clip left.
              29:17:28 C   MARK. 1001, 1002.
@@ -4910,7 +4907,7 @@ Title page
              29:20:19 C   Yes.
              29:20:20 P   MARK.
 	Page 161
-	Approved? True
+
        29:20:22 C    1001, 1002.
        29:20:23 P    Stop.
        29:20:27 C    Okay. Ready for the next one.
@@ -4937,7 +4934,7 @@ Title page
        29:22:24 P    150?
 
 	Page 162
-	Approved? True
+
               29:22:26 C    150.
               29:22:37 C    It's kind of a dirty brown the way that thing
                             looks out there.
@@ -4965,7 +4962,7 @@ Title page
               29:26:06 C    MARK.
               29:26:08 P    Oh Boy ...
 	Page 163
-	Approved? True
+
        29:26:19 P    ... okay on this side.
        29:26:21 C    5 seconds.
        29:26:22 P    ... I can't stay down here. This is just
@@ -4993,7 +4990,7 @@ Title page
        29:28:40 P    Okay.
        29:28:41 C    Ready.
 	Page 164
-	Approved? True
+
              29:28:42 C    MARK.
              29:28:47 C    Stand by.
              29:28:50 C    MARK.
@@ -5024,7 +5021,7 @@ Title page
                            Another one.
              29:31:42 P    Roll right.
 	Page 165
-	Approved? True
+
       29:32:50 C   ...
       29:32:57 C   Ready.
       29:33:02 C   MARK.
@@ -5046,7 +5043,7 @@ Title page
                    29:49:02.
       29:37:09 C   ... About.
 	Page 166
-	Approved? True
+
                                 COASTAL SENTRY QUEBEC
 
            29:49:04  CC  Gemini IX, CSQ CAP COM.
@@ -5075,7 +5072,7 @@ Title page
            30:04:30  P   Mark it. It's ON.
 
 	Page 167
-	Approved? True
+
                 30:04:31         C       Attitude is ON.
 
                                                     HAWAII
@@ -5110,7 +5107,7 @@ Title page
                                          it.
 
 	Page 168
-	Approved? True
+
             30:17:27  CC   Roger.
             30:17:28  C    Next one is what, one of yours?
             30:17:29  P    Yes. 30:46, Tom.
@@ -5139,7 +5136,7 @@ Title page
             30:19:08  C    What was the time for that dude?
             30:19:10  P    We should have an eraser up here.
 	Page 169
-	Approved? True
+
         30:19:12 P   Had 21:46:40.
         30:19:14 C   21 or 31:46?
         30:19:18 C   What was the time there?
@@ -5164,7 +5161,7 @@ Title page
         30:24:05 CC  Gemini IX, Houston. One minute to LOS.
         30:24:09 C   Roger.
 	Page 170
-	Approved? True
+
                             ROSE KNOT VICTOR
 
           30:39:46 CC  Gemini IX, RKV CAP COM. We have nothing for you
@@ -5191,7 +5188,7 @@ Title page
           30:52:55 C   Standby.
           30:54:33 C   MARK.
 	Page 171
-	Approved? True
+
          30:54:50  C   Stand by.
          30:54:53  C   MARK.
          30:54:56  P   ... sun is bright.
@@ -5218,7 +5215,7 @@ Title page
          31:20:05  C   Okay ... zipper bags ...
 
 	Page 172
-	Approved? True
+
               31:20:07  P    Okay. That was after the first day, Tom. Those
                              zipper bags for the ...
 
@@ -5248,7 +5245,7 @@ Title page
                              we're standing by.
               31:49:55  C    Roger.
 	Page 173
-	Approved? True
+
                          ROSE KNOT VICTOR
 
                 CC  Gemini IX, RKV CAP COM. You need not acknowledge
@@ -5281,7 +5278,7 @@ Title page
                    mometer.
 
 	Page 174
-	Approved? True
+
             33:05:43 CC  Gemini IX, would you place your Quantity Read
                          switch to ECS O<sub>2</sub>, please?
             33:06:07 CC  Quantity Read switch to FUEL CELL O<sub>2</sub>.
@@ -5314,7 +5311,7 @@ Title page
                          I'll be turning your Adapter C-Band OFF.
             33:21:28 P   Roger.
 	Page 175
-	Approved? True
+
         33:21:39  CC   Roger. Houston would like for you to keep working
                        on that water. They say you've got a pretty big
                        day coming up tomorrow.
@@ -5347,7 +5344,7 @@ Title page
         44:55:42  C    Go ahead with the procedure, Neil.
 
 	Page 176
-	Approved? True
+
            44:55:43 CC  Okay. We want to put the Radiator to BYPASS now.
            44:55:51 C   Okay.
            44:55:53 CC  Okay. Then your Water valve and Condensate valve
@@ -5380,7 +5377,7 @@ Title page
            44:59:37 C   Okay, Neil. Ready to copy.
 
 	Page 177
-	Approved? True
+
         44:59:40 CC  Okay. We have first a node for you. It's
                      44:48:09; Remarks: Rev 28, 121.7 west; right
                      ascension, 19 hours 14 minutes; time of 45:11.
@@ -5411,7 +5408,7 @@ Title page
         45:03:13 C   And we added evaporate pressure right on top of
 
 	Page 178
-	Approved? True
+
                        evaporate ...
           45:03:18 CC  Okay. That's good.
           45:04:40 CC  Want to remind you here too, Tom, that over the
@@ -5442,7 +5439,7 @@ Title page
           45:11:36 CC  Gemini IX, Canary CAP COM.
 
 	Page 179
-	Approved? True
+
        45:11:40 C   Canary, IX. Go.
        45:11:41 CC  Roger. Would you put your thermometers in for
                     the oral temp?
@@ -5477,7 +5474,7 @@ Title page
                     58:18:23; 21 plus 13; 27 plus 22. Are you ready
                     for your bank angles?
 	Page 180
-	Approved? True
+
             45:16:46 C   Go.
             45:16:47 CC  Roger. All the bank angles are as follows: roll
                          left 85, roll right 95. The weather in the following
@@ -5511,7 +5508,7 @@ Title page
                          Would you place the Quantity Read switch to ECS O<sub>2</sub>?
 
 	Page 181
-	Approved? True
+
        45:48:07 P    Gemini IX. Roger.
        45:48:23 CC   FUEL CELL O<sub>2</sub>.
        45:48:37 CC   FUEL CELL H<sub>2</sub>.
@@ -5543,7 +5540,7 @@ Title page
        46:30:09 CC   Well, I'm sorry to say they were on the wrong end
 
 	Page 182
-	Approved? True
+
                          of a 9 to 6 score.
             46:30:13 P   Yes, I was batting zero yesterday, 500 today, maybe
                          a thousand tomorrow.
@@ -5574,7 +5571,7 @@ Title page
             46:36:05 CC  That's a boy!
             46:36:35 C   Right now we're putting on the Y connectors and
 	Page 183
-	Approved? True
+
                     taping the connections.
        46:36:43 CC  Houston. Roger.
        46:42:36 CC  Gemini IX, Houston. We have approximately 1 minute
@@ -5606,7 +5603,7 @@ Title page
        47:01:45 CC  1 minute LOS, Kano.
 
 	Page 184
-	Approved? True
+
              47:01:59 C    Roger. We have Sequence 40.
              47:02:01 CC   Roger, Tom. Thank you.
 
@@ -5637,7 +5634,7 @@ Title page
              47:14:37 C    Roger. No. 3 Thruster is out.
 
 	Page 185
-	Approved? True
+
         47:14:45 C  ... secondary retrofire power is ... Thruster.
                     No. 3 Thruster is out.
         47:14:57 CC Roger, Tom. Understand. Suggest roll logic to
@@ -5671,7 +5668,7 @@ Title page
                     results.
         47:24:37 CC Roger.
 	Page 186
-	Approved? True
+
              47:24:39 P   Now, I'll go to SECONDARY ACME logic.
              47:24:58 P   Okay. SECONDARY logic, pitch gives the same as
                           PRIMARY. The pitch needle is fly away ... when
@@ -5705,7 +5702,7 @@ Title page
                           on with the sequence.
 
 	Page 187
-	Approved? True
+
        47:28:29 CC  Roger.
 
                           CANTON
@@ -5735,7 +5732,7 @@ Title page
        48:19:11 C   Roger. Sounds like ... the Relief valve on the
                     ELSS is popping.
 	Page 188
-	Approved? True
+
               48:19:18   CC   Say again, please.
               48:19:19   C    Roger. Sounds like the ELSS Relief valve is continuously
                               popping.
@@ -5768,7 +5765,7 @@ Title page
               48:34:17   CC   Okay. Thank you, Tom.
 
 	Page 189
-	Approved? True
+
        48:34:20 C   All the systems look real good.
        48:34:21 CC  Very good.
        48:34:34 C   ...
@@ -5798,7 +5795,7 @@ Title page
                     counting up.
        48:46:31 CC  3, 2, 1,
 	Page 190
-	Approved? True
+
             48:46:35 CC  MARK.
             48:49:15 CC  Gemini IX, Houston. 1 minute to LOS Tananarive.
             48:49:20 C   ...
@@ -5827,7 +5824,7 @@ Title page
             49:03:21 CC  Okay. I'm reading 791 on ECS O<sub>2</sub> pressure. You
 
 	Page 191
-	Approved? True
+
                     want to put your Heater ON and crank it up?
        49:18:48 P   Okay. I'm at .2 and I'm satisfied.
        49:18:52 C   Roger. I'm at 4.0.
@@ -5857,7 +5854,7 @@ Title page
                      in now (pressure is holding).
 
 	Page 192
-	Approved? True
+
       49:20:06 CC  Understand. Very good.
       49:20:08 P   Okay. You're down now, you want to - -
       49:20:13 C   I'll hang on ...
@@ -5889,7 +5886,7 @@ Title page
       49:21:36 C   How you read me, Gene?
 
 	Page 193
-	Approved? True
+
         49:21:37 P   Okay. I'm reading you loud and clear, Tom, and
                      I'm reading about 4.1 right now.
         49:21:43 C   Roger. We've got 5 minutes to go to midnight.
@@ -5918,7 +5915,7 @@ Title page
         49:22:39 C   Stand by for the pop. Real easy ... psi, Gene.
 
 	Page 194
-	Approved? True
+
            49:22:47 P    Okay. They should be open right now, Tom.
            49:22:49 C    Okay.
            49:22:51 P    Hatches coming open.
@@ -5947,7 +5944,7 @@ Title page
            49:23:40 C    I can't even see the light in front of you, Gene.
 
 	Page 195
-	Approved? True
+
          49:23:42  P    All right.
          49:23:44  C    Now it looks like it's getting daylight.
          49:23:51  P    Man, the hatch is stiff!
@@ -5975,7 +5972,7 @@ Title page
          49:24:42  P    I'll grab my Hasselblad and take a picture of that.
 
 	Page 196
-	Approved? True
+
 49:24:43 C  Okay.
 49:24:44 P  But I can't turn around fast enough.
 49:24:46 C  Okay. Don't try. Let's go ahead with the next
@@ -6004,7 +6001,7 @@ Title page
             the pressure getting right out there.
 49:25:37 P  Okay. My visor is down now, Tom.
 	Page 197
-	Approved? True
+
         49:25:39 C   Okay. I'm going to push up on Spacecraft ...
                      there, we've got that.
         49:25:43 C   Okay. Position the Gain and Drive selectors to
@@ -6036,7 +6033,7 @@ Title page
         49:26:49 C   Okay. We'll retrieve S-12.
 
 	Page 198
-	Approved? True
+
           49:26:52 C    That sun is bright!
           49:26:59 P    I guess it is.
           49:27:06 P    Pull my leg down, Tom.
@@ -6064,7 +6061,7 @@ Title page
           49:27:55 C    Right. I've got S-12.
 
 	Page 199
-	Approved? True
+
         49:27:56 P   Okay. I'm letting go.
         49:27:59 C   Roger.
         49:28:01 C   Man, I've got S-12 kind of secured down in my
@@ -6092,7 +6089,7 @@ Title page
         49:29:06 C   Want to hold your foot here, Gene?
 
 	Page 200
-	Approved? True
+
             49:29:08  P    Yes. You'd better hold me so I don't leave you.
             49:29:11  C    I've got you now.
             49:29:15  C    Hanging on, Gene.
@@ -6119,7 +6116,7 @@ Title page
            49:30:08   C    Install the 16mm camera with 5mm lens.
            49:30:13   P    Okay. Tom, put me back a little more.
 	Page 201
-	Approved? True
+
             49:30:15       C      Okay.
             49:30:17       P      I don't see anything waving off the adapter from
                                   here.
@@ -6147,7 +6144,7 @@ Title page
             49:31:23       C      Okay. Try it again.
 
 	Page 202
-	Approved? True
+
            49:31:41  P    Pull me down, Tom.
            49:31:42  C    What?
            49:31:43  P    Pull me down. Whoops! Okay.
@@ -6173,7 +6170,7 @@ Title page
                           The next thing is to attach the Hasselblad to the
 
 	Page 203
-	Approved? True
+
                      ELSS chest pack.
         49:32:56 P   Okay.
         49:32:57 C   Put the lanyard and Velcro on.
@@ -6196,7 +6193,7 @@ Title page
                      to the docking bar, Gene.
         49:33:46 P   Okay.
 	Page 204
-	Approved? True
+
                             CALIFORNIA
 
          49:33:48 CC  Look, fellows, about - you broke the docking bar?
@@ -6227,7 +6224,7 @@ Title page
                       seat. We'll be going on with the Flight Plan shortly.
 
 	Page 205
-	Approved? True
+
          49:35:06  CC   Okay.
          49:35:11  CC   Very good.
          49:35:13  P    Okay. I'm relaxed for a second, Tom.
@@ -6258,7 +6255,7 @@ Title page
                         back off the Scanner Heater circuit breaker,
                         whatever you do.
 	Page 206
-	Approved? True
+
            49:36:36 C   Ease on out there, Gene. Here we go.
            49:36:38 P   Whew! We're coming right over LA, I think.
            49:36:40 C   ...
@@ -6286,7 +6283,7 @@ Title page
                         Baja California, looking ...
 
 	Page 207
-	Approved? True
+
          49:38:14 CC   Houston. Roger.
          49:38:21 P    See how everything goes up, Tom?
          49:38:23 C    Yes. Even out here.
@@ -6315,7 +6312,7 @@ Title page
          49:39:56 C    You want to come back in and let me help you with
                        this?
 	Page 208
-	Approved? True
+
           49:39:57 P    Yes.
           49:39:59 C    Give me your foot.
           49:40:06 P    Okay. Let it go now.
@@ -6347,7 +6344,7 @@ Title page
           49:41:27 C    Okay. I've got a picture, Gene.
 
 	Page 209
-	Approved? True
+
         49:41:30  P    I'd like you to smile.
         49:41:31  C    Okay, I'll smile. I've got a picture. I'll get
                        back in and we'll press right on with the Flight
@@ -6377,7 +6374,7 @@ Title page
          49:42:36 P    Have you got this other camera on?
 
 	Page 210
-	Approved? True
+
            49:42:37 C   I've got the EVA camera on. You're looking good
                         all right.
            49:42:42 P   Okay. If I can push off, I'm going to try to get
@@ -6406,7 +6403,7 @@ Title page
                         here and appears ... looking real good. Let me
                         know when you get near those thrusters.
 	Page 211
-	Approved? True
+
         49:44:12 P    Yes. I can see you in the cockpit. I'm overhead;
                       you're real good.
         49:44:22  P   Okay. I've just been back towards them, Tom.
@@ -6435,7 +6432,7 @@ Title page
         49:46:10  C   Like my hand, bring ... torch.
 
 	Page 212
-	Approved? True
+
            49:46:12 P    Okay. What happened, I started using one of those
                          Velcro pads and - I lost it. It came right off my
                          hands.
@@ -6466,7 +6463,7 @@ Title page
                          to sunset.
            49:47:30 P    Okay.
 	Page 213
-	Approved? True
+
          49:47:34 C    Okay. 35 minutes and we'll change that film pack.
                        Okay?
          49:47:39 P    Okay, Tom.
@@ -6496,7 +6493,7 @@ Title page
                        pad, but so far it doesn't look like it's stiff
                        enough.
 	Page 214
-	Approved? True
+
            49:49:42 C    You'd better shorten up on your umbilical there,
                          Gene.
            49:49:44 P    Yes. As soon as I find it, Tom.
@@ -6526,7 +6523,7 @@ Title page
            49:51:18 C    Okay. Now you're coming in.
            49:51:20 P    Okay.
 	Page 215
-	Approved? True
+
         49:51:26 C   Okay, Gene, come on down. Come on down. How are
                      you doing there?
         49:51:34 P   I must be under something. Okay.
@@ -6555,7 +6552,7 @@ Title page
         49:54:10 C   ...
         49:54:19 P   ...
 	Page 216
-	Approved? True
+
           49:54:27 C    What's that?
           49:54:28 P    ...
           49:54:58 C    Hello at Grand Turk.
@@ -6584,7 +6581,7 @@ Title page
           50:00:46 P    It may be better because I'll be going back on the
                         rails this time.
 	Page 217
-	Approved? True
+
        50:00:54  C    Okay.
        50:01:20  P    How are we doing on time?
         50:01:22 C    34 minutes. Do you want to go back to the adapter
@@ -6612,7 +6609,7 @@ Title page
        50:03:31  P   Get out here so I can see ...
        50:03:46  P   ...
 	Page 218
-	Approved? True
+
              50:03:51  P    ...
              50:03:57  P    ...
              50:04:00  P    ...
@@ -6638,7 +6635,7 @@ Title page
              50:11:16  P    Yes.
              50:11:17  C    Good show. Let me get this thing coming around here.
 	Page 219
-	Approved? True
+
               50:11:49        C      I'm having some trouble on them, Gene. Just a
                                      minute.
               50:11:53        P      I want the lights and thrusters.
@@ -6665,7 +6662,7 @@ Title page
               50:13:47        P       Yes.
               50:13:56        P       And the other one does not work. How's that?
 	Page 220
-	Approved? True
+
          50:13:58  C   What's this?
           50:13:59 P   The one on each side.
           50:14:00 C   Okay. One pen light doesn't work, one EVA light
@@ -6695,7 +6692,7 @@ Title page
           50:17:05 C   Okay, Gene. Nighttime coming your way shortly.
 
 	Page 221
-	Approved? True
+
         50:17:08  P   Okay. I'm going to wait until it gets here.
         50:17:14  C   How do the lights work? As good as we hoped?
         50:17:16  P   It's not dark back here yet.
@@ -6724,7 +6721,7 @@ Title page
                       minute. What's the next step?
 
 	Page 222
-	Approved? True
+
            50:19:22 C   Okay. Unstow tether bag and connect both orange
                         AMU tether hooks to ring on umbilical tether.
            50:19:32 P   Okay. Stand by.
@@ -6757,7 +6754,7 @@ Title page
            50:21:30 P   I'm still trying to get these darn hooks, Tom.
            50:21:32 C   Okay.
 	Page 223
-	Approved? True
+
          50:21:47 P    Let it go in the high flow until I cool off.
          50:21:49 C    Okay.
          50:21:58 C    Houston, Gemini IX. How do you read?
@@ -6785,7 +6782,7 @@ Title page
          50:23:41 P    Yes.
          50:24:01 CC   Gemini IX, Tananarive.
 	Page 224
-	Approved? True
+
            50:24:04 C    Roger. I heard Houston. The answer is negative.
            50:24:05 CC   Very good.
            50:24:10 C    Okay. You still working on hooking these hooks up?
@@ -6816,7 +6813,7 @@ Title page
            50:25:51 C    Okay. Just take your time on it, Gene. Take your
                          time.
 	Page 225
-	Approved? True
+
         50:25:58  C    ... your umbilical to ...
         50:26:10  P    I can't get the tether hooked on this cargo.
          50:26:20 C    Why, are the rings too small?
@@ -6844,7 +6841,7 @@ Title page
          50:27:46 P    You can't - can't get two hands in there.
          50:27:57 P    Oh, you bad one.
 	Page 226
-	Approved? True
+
                50:27:59       C      Get it yet?
                50:28:00       P      No.
                50:28:03       P      In 1 g you float up and your stops just won't quite
@@ -6872,7 +6869,7 @@ Title page
                50:29:50       C      Got her?
                50:29:51      P       Yes.
 	Page 227
-	Approved? True
+
         50:29:52 C    Good show,Gene.
         50:29:53 C    Okay.
         50:29:54 P    Wait a minute. It's not all the way down.
@@ -6901,7 +6898,7 @@ Title page
         50:31:05 P    I've got plenty of light.
         50:31:06 C    You've got plenty of light.
 	Page 228
-	Approved? True
+
           50:31:09 P   It's the tendency to float up out of these
                        stirrups that gets to you.
           50:31:10 C   Okay.
@@ -6928,7 +6925,7 @@ Title page
           50:33:11 C   Take your time.
          50:33:17  P   Real good.
 	Page 229
-	Approved? True
+
                              CARNARVON
         50:33:22 C    Houston, Gemini IX.
         50:33:27 C    Carnarvon, Gemini IX.
@@ -6955,7 +6952,7 @@ Title page
         50:36:14 C    Okay. You've got the Oxygen valve open?
 
 	Page 230
-	Approved? True
+
            50:36:16 C   What do you read on oxygen pressure?
            50:36:18 P   Wait till I get back down there.
            50:36:34 P   The oxygen reads about 7,500 and the nitrogen is
@@ -6984,7 +6981,7 @@ Title page
           50:37:32 C   Okay. H<sub>2</sub>O<sub>2</sub> T/M Selector switch to BACKPACK, right?
 
 	Page 231
-	Approved? True
+
          50:37:36 P    That's affirm.
          50:37:37 P    Boy, I'm fogged up. My pressure - my pressure
                        reading is fogged up, my visor's fogged up and I'm
@@ -7016,7 +7013,7 @@ Title page
          50:39:07 C    How are you doing, Gene?
 
 	Page 232
-	Approved? True
+
            50:39:08 P    Really fogged up, Tom.
            50:39:10 C    Okay.
            50:39:15 CC   That quantity is right on the money, Tom.
@@ -7049,7 +7046,7 @@ Title page
                         trouble with visibility on loosening electrical
 
 	Page 233
-	Approved? True
+
                       parts, let's just take our time.
         50:40:36 C    I'll leave the decision up to you whether you want
                       to change that ... let's take a rest.
@@ -7078,7 +7075,7 @@ Title page
         50:41:50 P    If I don't breathe.
         50:41:56 P    But I don't recommend that.
 	Page 234
-	Approved? True
+
            50:42:03 CC  Carnarvon's coming up on LOS, Gemini IX.
            50:42:10 P   Okay, Tom. I'll go ahead and make the electrical
                        changeover.
@@ -7110,7 +7107,7 @@ Title page
                         are very poor. He has a lot of garble.
 
 	Page 235
-	Approved? True
+
                       Every transmission I can barely read. Also, the
                       attitude controller arm malfunctioned completely.
                       If the situation doesn't improve - also, he's having
@@ -7143,7 +7140,7 @@ Title page
                       less fog.
 
 	Page 236
-	Approved? True
+
             51:01:18 CC   Roger.
             51:01:37 C    Gemini IX to Houston. Better check the right-hand
                           hatch. It is weak. It's fairly free to move for
@@ -7178,7 +7175,7 @@ Title page
                           we had ... experience at zero g in the airplane.
 
 	Page 237
-	Approved? True
+
          51:04:01 CC   Roger. Understand. And Houston agrees with the
                        NO-GO.
          51:04:04 C    Roger.
@@ -7211,7 +7208,7 @@ Title page
          51:06:33 P    Okay. Wait a minute, Tom. I want to try one more
                        time.
 	Page 238
-	Approved? True
+
            51:06:36 C    Oh.
            51:06:39 C    How's the fogging, Gene?
            51:06:41 P    Still about 75 percent fogged.
@@ -7241,7 +7238,7 @@ Title page
                          awhile, Gene?  Let me know when you get unfogged.
 
 	Page 239
-	Approved? True
+
         51:09:32 P    ...
         51:09:45 P    Sorry about that AMU.
         51:09:46 C    Yes.
@@ -7272,7 +7269,7 @@ Title page
                       he is still foggy.
 
 	Page 240
-	Approved? True
+
             51:11:26  CC  Roger. When he can see well enough to read that
                           bottle pressure, we'd like to get an idea what it
                           is.
@@ -7304,7 +7301,7 @@ Title page
                           left side are still fogged.
 
 	Page 241
-	Approved? True
+
         51:12:43  C   Okay, Houston. He can just see through his nose
                       and one little hole in his left eye. And I can
                       see in the mirror he's pretty well fogged over to
@@ -7339,7 +7336,7 @@ Title page
                       ... loose and the armrail came out and the umbilical
                       guard came out, so I was ... away. I had the
 	Page 242
-	Approved? True
+
                         starboard EVA light back there. I had one pen
                         light. I think one of the problems was that just
                        before sunset I bet my backpack must have gotten
@@ -7374,7 +7371,7 @@ Title page
                        up when he went up to retrieve the docking bar.
 
 	Page 243
-	Approved? True
+
                       I'm going to make the recommendation that we retrieve
                       this before sunset.
         51:20:28 CC   Roger. We agree with that, Tom.
@@ -7405,7 +7402,7 @@ Title page
         51:22:58 P    Okay, Tom. How does it look down there?
 
 	Page 244
-	Approved? True
+
                     51:23:07         C        Pretty good.
                     51:23:21         P        Tom.
                     51:23:22         C        I'll see you, Gene.
@@ -7432,7 +7429,7 @@ Title page
                     51:26:56         CC       Roger. We've got about 5 minutes to Antigua LOS,
                                               Tom.
 	Page 245
-	Approved? True
+
         51:27:02 C    ... film ... they let it go.
         51:27:33 C    We are having a very big deal getting this hatch
                       closed. I don't think I'd like to do this again,
@@ -7461,7 +7458,7 @@ Title page
         51:31:25 P    I think we got the last one now. Is that it?
 
 	Page 246
-	Approved? True
+
             51:31:42  P   What are you doing?
             51:32:06  C   Okay, Houston. Cabin pressure starting up. 1/2
                           inch.
@@ -7491,7 +7488,7 @@ Title page
                           back there, my chances were about 50-50.
 
 	Page 247
-	Approved? True
+
          51:36:31 C    More like 70-30.
          51:36:44 P    Back there I couldn't see anything, and the sunlight
                        on one side, and visor was so fogged I couldn't see
@@ -7521,7 +7518,7 @@ Title page
         51:39:08  CC  Roger.
         51:39:29 P    We're pressurized, Tom. I can't get the visor open.
 	Page 248
-	Approved? True
+
             51:39:38  C   Yes. I would.
             51:39:41  P   Or take it off. One or the other. I can't get it
                           off.
@@ -7550,7 +7547,7 @@ Title page
                           this station again. We'll be standing by.
             51:56:21  C    ...
 	Page 249
-	Approved? True
+
         52:02:07  CC  Gemini IX, Houston. If you read, we're recommending,
                       after you get the cockpit cleaned,that you have an
                       eat period for the - about the next hour.
@@ -7581,7 +7578,7 @@ Title page
         52:37:21 P    Okay. It looks like we bang a few switches around
                       here, don't we? It's reading 460 right now -
 	Page 250
-	Approved? True
+
                           pressure- and 65 degrees Fahrenheit temperature,
                           and our question is probably what you've been
                           considering. Do you want us to get rid of it or
@@ -7610,7 +7607,7 @@ Title page
             52:39:53 CC   Roger.
             52:40:03 CC   Gemini IX, Hawaii.
 	Page 251
-	Approved? True
+
          52:40:05 C    Go.
          52:40:07 CC   They'll be giving you some updates on these
                        quantities over the States.
@@ -7643,7 +7640,7 @@ Title page
          52:45:42 P    Saw the umbilical guard come over the back of the
 
 	Page 252
-	Approved? True
+
                             adapter, so I figured that they did not extend.
               52:45:47 CC   Stand by.
               52:45:51 CC   Do you read it? Do you read, Houston?
@@ -7675,7 +7672,7 @@ Title page
               52:47:46 P    The tin hose is Velcroed to the - to the arm controller.
                             The restraint harness on both sides is
 	Page 253
-	Approved? True
+
                      Velcroed to the arm controller, and the electrical
                      connection, I believe, is Velcroed. I think I've
                      got it back down but I cannot verify it.
@@ -7709,7 +7706,7 @@ Title page
                      have you monitor your VW tank, your reserve tank,
                      during the burn, and if it starts to go down, you
 	Page 254
-	Approved? True
+
                             stop your burn at that point.
               52:49:34 C    Shoot for 25 feet per second or if VW tank starts
                             down, we'll stop the burn.
@@ -7742,7 +7739,7 @@ Title page
                             a real worthwhile exercise.
              52:51:35 CC    Yes. We certainly agree with that.
 	Page 255
-	Approved? True
+
            52:51:40         C       In fact, I wished you would have gotten some ...
                                     data on the previous one.
            52:51:44         CC      Say again.
@@ -7775,7 +7772,7 @@ Title page
            52:53:20         CC      Okay. Tom, we're expecting this AMU pressure to go
 
 	Page 256
-	Approved? True
+
                             up and it may go up over 500. Then it's conceivable
                             that you could get a light here sometime
                             along the way.
@@ -7807,7 +7804,7 @@ Title page
 
              53:08:54  CC  Gemini IX, RKV.
 	Page 257
-	Approved? True
+
       53:08:55  C    RKV, Gemini IX.
       53:08:57  CC   Roger. Could you do a Fuel cell purge for us at
                      this time?
@@ -7838,7 +7835,7 @@ Title page
        53:12:47 P    Gemini IX. We're now purging oxygen, Section 2.
 
 	Page 258
-	Approved? True
+
               53:12:51 CC   Roger. Right with you.
               53:12:53 P    And the AMU tank pressure is holding.
               53:12:56 CC   Roger.
@@ -7869,7 +7866,7 @@ Title page
              53:16:40  CC   FUEL CELL H<sub>2</sub>.
              53:16:48  CC   Okay. You can go back to ECS O<sub>2</sub>.
 	Page 259
-	Approved? True
+
       53:16:52 P    ECS O<sub>2</sub>.
       53:17:12 CC   You can even turn it off if you want to, or however
                     you want to leave it.
@@ -7901,7 +7898,7 @@ Title page
       53:25:39 P    Lock. We're losing, gaining, getting lock,
 
 	Page 260
-	Approved? True
+
                             intermittently. Most of the time it's on and now
                             it's off again.
               53:25:52 P    Remember, this has to be stowed back up here, Tom.
@@ -7935,7 +7932,7 @@ Title page
                             standing by to make our burn.
              53:41:14  C    Okay. We have just burnt. Coming into 53:41.
 	Page 261
-	Approved? True
+
        53:41:28 P    Okay. I'll watch the regulated pressure and time
                      to burn.
        53:41:36 C    32, 33, 34, 35, BURN.
@@ -7969,7 +7966,7 @@ Title page
        53:44:48 P    I think that's got it. Anytime you say you're ready.
 
 	Page 262
-	Approved? True
+
               53:44:52 C    Go.
 
                                    COASTAL SENTRY QUEBEC
@@ -7999,7 +7996,7 @@ Title page
              53:54:45  P    And just ... of burn there was an indication that
                             the OAMS regulated pressure was dropping down to
 	Page 263
-	Approved? True
+
                      about 285 to 290. Now it's up again to around 290.
        53:55:00 CC   Roger. Understand.
        53:55:07 C    CSQ, Gemini IX. Are we supposed to get a Flight
@@ -8030,7 +8027,7 @@ Title page
        54:01:00 CC   Okay. You are just about to leave us here,
 
 	Page 264
-	Approved? True
+
                            Gemini IX. We show you as GO as you are going
                            over the hill.
              54:01:10 P    All right. Roger.
@@ -8066,7 +8063,7 @@ Title page
                            58:30:00 through 66:30:00: sleep period. 66:30
                            through 67:30:00: eat period. 66:38:52 over
 	Page 265
-	Approved? True
+
                    Carnarvon: purge fuel cells and Cryo Quantity
                    readout. That's all.
      54:15:38 C    Roger, Hawaii. Could you give us the first times
@@ -8100,7 +8097,7 @@ Title page
                    like the UHF nose antenna. It may or may
                    not work. I don't know whether you want to try it.
 	Page 266
-	Approved? True
+
             54:18:34 CC   I believe they've canceled the rest of the D-14
                           experiment.
             54:18:37 C    Okay.
@@ -8129,7 +8126,7 @@ Title page
             54:50:33 CC   That's affirmative.
 
 	Page 267
-	Approved? True
+
                        TANANARIVE
 
      54:50:55 CC  Gemini IX, Houston.
@@ -8157,7 +8154,7 @@ Title page
      54:58:12 P   No, left, don't you?
 
 	Page 268
-	Approved? True
+
              54:58:14 C    No, to the right.
              54:58:52 P    Okay. Anytime.
              54:58:54 C    Okay. Looks good where...
@@ -8184,7 +8181,7 @@ Title page
             55:02:07  C    You ready?
             55:02:32  P    - - When I tell you, roll left.
 	Page 269
-	Approved? True
+
        55:03:24 C   Okay.
        55:03:27 P   You got a big spot of lightning in that, right at
                     the last.
@@ -8212,7 +8209,7 @@ Title page
        55:06:13 C   Stand by one. We're still on Experiment S-1.
        55:06:16 CC  Roger.
 	Page 270
-	Approved? True
+
              55:06:20 P    Is this Gemini CAP COM?
              55:06:29 P    Go right.
              55:06:30 C    Okay.
@@ -8239,7 +8236,7 @@ Title page
              55:08:13 P    Go.
              55:08:14 C    Okay.
 	Page 271
-	Approved? True
+
         55:08:27 P    Still rolling left a little bit.
         55:08:30 C    Balls of fire!
         55:08:46 P    Okay. Go up the Milky Way now, if you can, Tom.
@@ -8270,7 +8267,7 @@ Title page
        55:12:25  P    Okay. We can't go any higher. The moon's up
                       there.
 	Page 272
-	Approved? True
+
              55:12:28 P    How many have we taken of the Milky Way?
              55:12:30 C    Three.
              55:12:32 P    It was four.
@@ -8301,7 +8298,7 @@ Title page
              55:14:44 P    Have you got the Platform Alined so we can load
                            Module 4?
 	Page 273
-	Approved? True
+
                          COASTAL SENTRY QUEBEC
 
        55:28:24 CC  Gemini IX, CSQ CAP COM.
@@ -8335,7 +8332,7 @@ Title page
        55:31:42 P   Roger. I'd like to read it back to you real quick.
 
 	Page 274
-	Approved? True
+
             55:31:44 CC  Go.
             55:31:45 P   Number 1: switch to CATCH-UP; clarify IVI's do
                          not drive. Set small numbers in IVI. Set 25, 6
@@ -8370,7 +8367,7 @@ Title page
                          about this START COMP business that we had the
                          other day?
 	Page 275
-	Approved? True
+
        55:33:45 CC  That's correct.
        55:33:46 CC  That's affirmative.
        55:33:47 P   Okay. Thank you.
@@ -8401,7 +8398,7 @@ Title page
                     the computer and then pick up the sequence you
 
 	Page 276
-	Approved? True
+
                                          already have at Number 3.
                     55:47:23      P      Roger.  Understand.
                     55:49:01      CC     Gemini IX Pilot. We have a good temperature on
@@ -8431,7 +8428,7 @@ Title page
                                          since EVA.
                     55:50:28      CC     About three times as much since EVA?
 	Page 277
-	Approved? True
+
        55:50:29 C    Roger.
        55:50:38 CC   Okay. Have you got any food to report?
        55:50:43 C    Yes. We've each had one meal today and we don't
@@ -8463,7 +8460,7 @@ Title page
        55:55:03 CC   Hawaii has LOS.
 
 	Page 278
-	Approved? True
+
             55:55:05 P    Hawaii, Gemini IX. Module 4-Alpha has been
                           loaded and - -
 
@@ -8498,7 +8495,7 @@ Title page
                      P    Altitude ... shows us to be 12-1/2 miles. Our
 
 	Page 279
-	Approved? True
+
                                       Delta, Delta-R held between 47 and 49, .49 negative,
                                       and this is based on a 50-nautical mile range. Just
                                       exactly a little over 2-1/2 miles difference, so
@@ -8540,7 +8537,7 @@ Title page
                                       burn, but the Closed Loop did come up just as predicted
                                       and with this automatic START COMP function
 	Page 280
-	Approved? True
+
                         it had, the solution was apparently a good solution.
                         The time, as far as we are concerned for TPI, however,
                         differed with the ground. The computer gave
@@ -8586,7 +8583,7 @@ Title page
                         out, it was a good thing we did not burn it. The
                         first correction obviously was initiated as Closed-
 	Page 281
-	Approved? True
+
                     Loop. We decided to see what the Closed-Loop
                     was going to give us on its first correction. It
                     came up with 2 aft and 3 up as my back-up solution.
@@ -8635,7 +8632,7 @@ Title page
                     There was a final brake at approximately 1/2 mile.
 
 	Page 282
-	Approved? True
+
                           We could tell that the cone lights were on and,
                           as we approached within 1000 feet, everything
                           looked in good shape on the ATDA since we could
@@ -8684,7 +8681,7 @@ Title page
                           we were coming in real well at - Tom.
 
 	Page 283
-	Approved? True
+
                C    At this time we continued to track him on radar
                     throughout this maneuver ... The ATDA was only 8
                     to 9 miles in front of us. It was impossible to
@@ -8733,7 +8730,7 @@ Title page
                     I think this was the difficulty.
 
 	Page 284
-	Approved? True
+
                     P    I came up with 2 down. I feel this correction
                          probably should have been 0 or close to it....
                          quite a bit of line-of-sight correction in the
@@ -8779,7 +8776,7 @@ Title page
                          mile high. We then started coming back down and 
 
 	Page 285
-	Approved? True
+
                     we went through 7-1/2 miles in Delta-Delta ...
                     all the way as high as ...
                CC   Ascension, AOS ...
@@ -8823,7 +8820,7 @@ Title page
                     through. We finally came out over the desert areas,
 
 	Page 286
-	Approved? True
+
                         where we lost the target completely.
                     P   This is where it became extremely difficult to
                         get good angles because we were going from boresight
@@ -8870,7 +8867,7 @@ Title page
                         during the equal-period orbit was that when you're
 
 	Page 287
-	Approved? True
+
                     looking down at daylight with an earth background,
                     the target is almost impossible to see.
                 C   Also, the motion that you experienced as you are
@@ -8906,7 +8903,7 @@ Title page
                      night's sleep. And a real good show, Gene.
        56:46:56  P   ...
 	Page 288
-	Approved? True
+
                               COASTAL SENTRY QUEBEC
 
             57:05:32 CC  Gemini IX, CSQ CAP COM.
@@ -8939,7 +8936,7 @@ Title page
                          65417; Core 08, 40833; Core 09, 15294; Core 10,
 
 	Page 289
-	Approved? True
+
                     02756; Core 11, 28500. Did you copy?
        57:09:23 P   This is Gemini IX. Roger. Got them all and I'll
                     check them if there's any anomaly. I'll check
@@ -8975,7 +8972,7 @@ Title page
        57:23:50 CC  Gemini IX, Hawaii.
 
 	Page 290
-	Approved? True
+
            57:23:52 P   Go.
            57:23:54 CC  Okay. Your apogee, 157.5; perigee, 145.6.
            57:24:09 P   Roger.
@@ -9005,7 +9002,7 @@ Title page
            57:28:38 CC  Roger. We'll be looking for you.
 
 	Page 291
-	Approved? True
+
                           ROSE KNOT VICTOR
 
         57:55:51 CC  Gemini IX, RKV CAP COM.
@@ -9038,7 +9035,7 @@ Title page
                      bed and let you sleep the rest of the night.
 
 	Page 292
-	Approved? True
+
              57:58:22  C    All right. Sounds good.
              57:58:24  C    We're still dictating on tape about today's
                             activity and also the Rendezvous.
@@ -9068,7 +9065,7 @@ Title page
                             you again tomorrow.
              58:02:23  C    Roger.
 	Page 293
-	Approved? True
+
        58:02:26 P   Thanks for all the help.
        58:02:28 CC  Roger. It's been a pleasure.
        58:02:31 C   How have the seas been down there these times?
@@ -9109,7 +9106,7 @@ Title page
                     on you are going to drift right out and do a somer-
 
 	Page 294
-	Approved? True
+
                         sault right over on top of what you're doing. As
                         a matter of fact, I did it a number of times and
                         I'm pretty sure that that's what broke the D-14
@@ -9156,7 +9153,7 @@ Title page
                         docking mirror, he handed me the docking mirror,
 
 	Page 295
-	Approved? True
+
                     and I put it on the docking bar. Of course, the
                     first thing is to get to the docking bar and I
                     tried to give myself a shove with my feet from the
@@ -9205,7 +9202,7 @@ Title page
                    
 
 	Page 296
-	Approved? True
+
                         some of this, didn't you?
             58:30:32 C  Right. Everytime you'd get out there and start to
                         maneuver, you always tended to go straight up -
@@ -9253,7 +9250,7 @@ Title page
                         can tend to control your attitude somewhat better
 
 	Page 297
-	Approved? True
+
                                       and, of course, make corrections to your translations.
                                       I got back in the hatch and handed Tom
                                       the EV camera and he changed the lens and the film
@@ -9300,7 +9297,7 @@ Title page
                                       see that the foot rail was deployed, the handrail
                                       on the far side was deployed - which would be the
 	Page 298
-	Approved? False
+
                         bottom of the Spacecraft. The handrail and the
                         umbilical guide on my side, or on the top of the
                         Spacecraft, were not deployed and the bathtub was
@@ -9349,7 +9346,7 @@ Title page
                         hookings, tie into the extension without any problems
 
 	Page 299
-	Approved? True
+
                                         at all. Here today, every time I would bend
                                         down there, I would float out. Then if I stiffened
                                         my ankles real tight and bent down there, it was
@@ -9394,7 +9391,7 @@ Title page
                                         on the right worked, the one on the left did not.
                                         I had one good pen light so I put it on the left.
 	Page 300
-	Approved? True
+
                                       I figured this would give me ample light, because
                                       I need most of the light on the left-hand side
                                       anyway to make my connection. We went through
@@ -9439,7 +9436,7 @@ Title page
                                       because I was able to keep them there with my right
                                       hand.  Opening that thing with the left hand was the
 	Page 301
-	Approved? False
+
                     highest - was one of the highest valve forces
                     I've ever felt on an AMU. I got it open, checked
                     the pressures, and the nitrogen pressure looked
@@ -9488,7 +9485,7 @@ Title page
        58:45:27 C   The COM check. When Gene would transmit the first
 
 	Page 302
-	Approved? True
+
                                       part of his word - say the first word, or the first
                                       part of his first word would come in very clear,
                                       followed by a series of warbles all the rest of
@@ -9534,7 +9531,7 @@ Title page
                                       controller - my attitude controller was not. I
                                       don't know why because this had happened the last
 	Page 303
-	Approved? True
+
            58:50:08 P   I actually - when we decided to come out of the
                         adapter and give up on the AMU, I made sure all
                         my connections were undone and I jettisoned the
@@ -9578,7 +9575,7 @@ Title page
                         of gear to be handled. We'd gone though it many
                         times so we were prepared for it, but it was still
 	Page 304
-	Approved? True
+
                     a long tedious process. The hatch was also hard
                     to open to the extent of the ... egress. Also
                     hard to close for the first part of the stroke.
@@ -9626,7 +9623,7 @@ Title page
                     for a little bit. I think the S-1, after my experience
                     with working - standing - in the cockpit
 	Page 305
-	Approved? True
+
                         and working in the cockpit - it's well and easy
                         to say just go ahead and lean on the hatch or lean
                         on the adapter and take a picture. If you just
@@ -9671,7 +9668,7 @@ Title page
                         it's almost unbelievable. I don't feel all was
                         lost; as a matter of fact, I feel a great deal was
 	Page 306
-	Approved? True
+
                     gained. I feel that I was able to accomplish a
                     great deal of work back there and look situations
                     over and see what was happening, such as getting
@@ -9718,7 +9715,7 @@ Title page
                     flow didn't put a dent in it, and I think this is
                     what started everything to fog up. The best way
 	Page 307
-	Approved? True
+
                         obviously to do it is out-of-plane so you don't
                         have that sun on your back, but then I'm sure
                         there are going to be some stationkeeping problems
@@ -9751,7 +9748,7 @@ Title page
                         H<sub>2</sub>O<sub>2</sub> pressure?
 
 	Page 308
-	Approved? True
+
        66:43:00 P   Roger. It's about full-scale here, 500.
        66:43:07 CC  Roger. Copy.
        66:43:08 P   It's 60 degrees.
@@ -9782,7 +9779,7 @@ Title page
        66:46:21 P   FUEL CELL O<sub>2</sub>.
 
 	Page 309
-	Approved? True
+
            66:46:28 CC  FUEL CELL H<sub>2</sub>.
            66:46:32 P   H<sub>2</sub>.
            66:46:33 CC  Roger.
@@ -9814,7 +9811,7 @@ Title page
            67:26:47 C   Let's try the Astros and the Cubs.
            67:26:53 CC  Okay. Pittsburgh 10, the Astros 5.
 	Page 310
-	Approved? True
+
        67:27:01 C    You struck out. Try again.
        67:27:05 CC   Well, if I can read this message, it looks like
                      the Reds 5 - the Reds 8 and the Cubs 3.
@@ -9846,7 +9843,7 @@ Title page
        67:28:54 P   Out of two teams, I haven't gotten many wins this
                     week.
 	Page 311
-	Approved? True
+
            67:29:22  CC  Say again?
            67:29:27  P   I said out of two teams, I don't have many wins
                          this week.
@@ -9878,7 +9875,7 @@ Title page
             67:31:22 C   Roger. We're about 4.8.
 
 	Page 312
-	Approved? True
+
          67:31:24  CC   Roger. That's quite close to what we've got
                         here.
          67:31:28  C    It has been holding about 4.9 to 4.8 all night
@@ -9907,7 +9904,7 @@ Title page
                         minute to LOS.
         67:33:56  C     Roger.
 	Page 313
-	Approved? True
+
                                  CANARY ISLANDS
 
             67:38:11  CC   Gemini IX, Canary CAP COM. We have a valid oral
@@ -9940,7 +9937,7 @@ Title page
             67:40:43 CC    Just a few right on the end.
 
 	Page 314
-	Approved? True
+
                           KANO
 
        68:13:34 CC  Gemini IX, Carnarvon.
@@ -9974,7 +9971,7 @@ Title page
        68:56:45 CC  We'll have to update that thing anyway.
 
 	Page 315
-	Approved? True
+
            68:56:47 C   Yes. Okay.
            69:03:33 C   Houston, Gemini IX.
            69:03:36 CC  Go ahead, IX.
@@ -10006,7 +10003,7 @@ Title page
             69:24:09 CC Gemini IX. Houston standing by.
 
 	Page 316
-	Approved? True
+
         69:24:13  C    Roger, Houston. Loud and clear.
         69:24:15  CC   You're the same.
         69:24:17  C    Houston, Gemini IX. Would you relay the word to
@@ -10039,7 +10036,7 @@ Title page
                        Use your back-up curves for bank angle 146 degrees.
          69:50:33  P   Carnarvon. 46-1: understand IVI's are 298 and
 	Page 317
-	Approved? True
+
                         112: downrange needle deflection zero degrees is
                         plus 189; the 55 degrees is 45; 90 degrees is 75.
            69:50:53 CC  That's minus 75.
@@ -10070,7 +10067,7 @@ Title page
             69:52:33 P  Number 1 at 22.2.
             69:52:37 CC Roger.
 	Page 318
-	Approved? True
+
        69:52:46 CC  Roger.
        69:52:50 P   Number 3 is 21.8.
        69:52:52 CC  Roger.
@@ -10099,7 +10096,7 @@ Title page
 
 
 	Page 319
-	Approved? True
+
              70:27:40  CC    Okay. We've got your Retro pad when you are ready
                              to copy.
              70:27:50   P    Stand by one.
@@ -10132,7 +10129,7 @@ Title page
                              34487; 07 is 65556; 08 is 40832; 09 is 15295; 10
                              is 07771; 11, 28500.
 	Page 320
-	Approved? True
+
        70:30:38 CC  That's correct.
        70:30:42 C   Do we have a loaded computer at this time?
        70:30:51 CC  Negative. Your computer is not loaded yet.
@@ -10160,7 +10157,7 @@ Title page
        70:32:39 CC  Roger .We copy. Would you put your Antenna Selector
                     to REENTRY, please?
 	Page 321
-	Approved? False
+
              70:32:44  P    Antenna, REENTRY.
              70:32:46  CC   Okay.
              70:32:57  CC   Okay. Your load looks good, based on the computer
@@ -10189,7 +10186,7 @@ Title page
              70:36:57  C    Roger.
               70:36:59 CC   Be careful.
 	Page 322
-	Approved? False
+
         70:37:23 C   Houston, Gemini IX. Do you want he to leave the
                      main power up or ... most of the time?
         70:37:32 CC  Yes. Let's leave them up for the rest of the time.
@@ -10222,7 +10219,7 @@ Title page
         70:44:12 CC  Roger. We understand that you can't get a full
 
 	Page 323
-	Approved? True
+
                       charge to the gun. We're about to get to LOS.
                       We'll probably talk to you at Canary.
           70:44:20 C  Roger.
@@ -10253,7 +10250,7 @@ Title page
           71:21:03 P  No COMP Light. Is that right?
           71:21:05 C  Yes.
 	Page 324
-	Approved? True
+
        71:21:08 C    ... 256. Got all the primary circuit breakers
                      checked, by the way?
        71:21:32 P    Okay. I am going to the Recharger switch right
@@ -10281,7 +10278,7 @@ Title page
        71:24:11 P    Roger. We're currently set up but we'd like a
 
 	Page 325
-	Approved? True
+
                         time hack to check it.
            71:24:16 CC  Roger. I'll give you a hack at 22 minutes.
            71:24:20 P   Roger.
@@ -10310,7 +10307,7 @@ Title page
             71:26:17 C  Okay.
             71:26:19 P  And - you will be ...
 	Page 326
-	Approved? True
+
             71:26:43      C      Have you got your D-Ring ON?
             71:26:46      P      No. It's jammed.
             71:26:51      C      Are you having any luck?
@@ -10339,7 +10336,7 @@ Title page
             71:31:25      C      ...
             71:31:44      CC     Carnarvon has 1 minute to LOS.
 	Page 327
-	Approved? True
+
            71:31:46 P   Roger. Carnarvon.
            71:32:50 C   There's our friend Gomeisa, way up there.
            71:33:51 P   Looks like the Platform is pretty well Alined.
@@ -10369,7 +10366,7 @@ Title page
                         Gomeisa for you!
            71:39:17 P   Okay.
 	Page 328
-	Approved? True
+
        71:39:22  P   Faceplate is closed and locked.
         71:40:15 P   Okay. Event timer is in sync. Computer's REENTRY.
                      Squib batteries are ON. Main Batteries are all ON.
@@ -10399,7 +10396,7 @@ Title page
         71:42:57 C   I'm in ORB RATE.
 
 	Page 329
-	Approved? True
+
            71:42:59  P   Okay. You're in ORB RATE.
             71:43:05 P   Okay. You want them to go to RCS.
             71:43:12 P   RCS, ACME.
@@ -10429,7 +10426,7 @@ Title page
             71:44:33 P    Coming up about 2 minutes, Tom.
 
 	Page 330
-	Approved? True
+
        71:44:35 P   You're in Retro-Attitude and next thing you've got
                     to do is go to RATE COMMAND.
        71:44:43 P   ...
@@ -10456,7 +10453,7 @@ Title page
        71:45:46 P   Ready?
        71:45:47 CC  1 minute.
 	Page 331
-	Approved? True
+
               71:45:48  P    There's OAMS; there's Electric; and here goes
                              Adapter. Wow! That went all right.
               71:45:56  C    SEP OAMS, SEP ELECTRIC, SEP ADAPTER.
@@ -10483,7 +10480,7 @@ Title page
               71:47:09  P    4 good Retros.
               71:47:11  CC   Roger.
 	Page 332
-	Approved? True
+
              71:47:12      C      Was it 3?
              71:47:16      P      Okay, Tom. Turn your Retrofire START COMP light
                                   on - -
@@ -10511,7 +10508,7 @@ Title page
              71:48:26      CC     Roger. Thank you.
              71:48:32      C      And we're rolling inverted at this time.
 	Page 333
-	Approved? True
+
           71:48:34 CC   Roger, Copy.
           71:48:35 P    Stopping. 296 aft, 4 right.
           71:48:41 P    Is that right? 125 down. Now left to 981, 12.
@@ -10541,7 +10538,7 @@ Title page
                         pawls, NEUTRAL. Check Thermo circuit breaker,
 
 	Page 334
-	Approved? True
+
                      OPEN. Okay. Fuel Cell Control 1 and 2 coming
                      OPEN. ECS, all the heat is OFF.
         71:50:49 P   What do I put the Cabin Air Recirc valve at, 45?
@@ -10572,7 +10569,7 @@ Title page
         71:52:51 P   Roger. We're on it.
 
 	Page 335
-	Approved? True
+
          71:52:54 CC  Gemini IX, Hawaii.
          71:53:03 CC  Gemini IX, Hawaii.
          71:53:07 C   Hawaii, Gemini IX. We were inverted and we have
@@ -10604,7 +10601,7 @@ Title page
                       125.
          71:54:43 P   Boy! There was a delay between the third and
 	Page 336
-	Approved? True
+
                      fourth retro.
         71:54:46 C   Yes.
         71:54:47 P   Boy, oh boy!
@@ -10634,7 +10631,7 @@ Title page
         71:56:14 P   And what was tape time, Tom?
         71:56:20 C   19 plus 52.
 	Page 337
-	Approved? True
+
                    71:56:37      P       18 plus 52. Okay. I've got that written down.
                                          It's back here, though.
                    71:56:41      C       Get ready and I'll call them off before I hit it
@@ -10665,7 +10662,7 @@ Title page
                     71:58:53      P      You got that horizon? I don't see the horizon.
 
 	Page 338
-	Approved? True
+
        71:58:55 C   Had it for a second.
        71:58:58 P   Okay.
        71:59:35 P   Well, we're still moving east, according to the
@@ -10697,7 +10694,7 @@ Title page
        72:03:56 C   Retro bank nominal is left 50 degrees.
 
 	Page 339
-	Approved? True
+
            72:03:57 P   Retro bank nominal is left 50 degrees. Got that
                         written down there?
            72:04:02 C   Yes.
@@ -10732,7 +10729,7 @@ Title page
             72:06:32 P  Roger. Understand.
 
 	Page 340
-	Approved? True
+
        72:06:35 C    Hey, and we have the deflection within one second
                      400K!
         72:06:38 CC  Very good.
@@ -10760,7 +10757,7 @@ Title page
        72:08:39 C    Okay. Go ahead. Put it on, Gene.
 
 	Page 341
-	Approved? True
+
              72:08:44   P    Roger. Blackout is 22 plus 01.
              72:08:59  P     No Guidance yet, right?
              72:09:01  C     No.
@@ -10790,7 +10787,7 @@ Title page
              72:11:00   P    Okay. Still full left and earth is coming slowly,
                              Tom.
 	Page 342
-	Approved? True
+
             72:11:07      P      Starting to come in slowly and we're coming in at
                                  low range.
             72:11:22      C      ...
@@ -10819,7 +10816,7 @@ Title page
                                  can.
             72:13:26      C      Keep rolling right.
 	Page 343
-	Approved? True
+
              72:13:29 P   Keep it rolling right. Beautiful!
              72:13:47 C   Beautiful!
              72:13:50 C   Roger.
@@ -10848,7 +10845,7 @@ Title page
              72:15:44 CC  Stand by for the drogue.
 
 	Page 344
-	Approved? True
+
        72:15:46 C   Okay.
        72:15:48 C   Drogue.
        72:15:50 P   There it is!
@@ -10878,7 +10875,7 @@ Title page
        72:17:19 C   Beautiful!
 
 	Page 345
-	Approved? True
+
            72:17:22 P   Gemini IX. We're on the main chute at this time.
            72:17:27 C   Great.
            72:17:29 P   Beautiful! What a sight! Wish I had a picture of
@@ -10905,7 +10902,7 @@ Title page
            72:18:17 C   Stand by to go to Landing Attitude.
            72:18:18 P   - - Okay.
 	Page 346
-	Approved? True
+
        72:18:19 C   Ready.
        72:18:21 CC  Okay. Gemini IX ... we have you directly ahead
                     of the Wasp visually. Over.
@@ -10934,7 +10931,7 @@ Title page
        72:19:37 P    The Computer switch, OFF.
 
 	Page 347
-	Approved? True
+
           72:19:41 C   Tell Captain Hartley we'd like to come aboard
                        shortly, in the Spacecraft.
           72:19:43 CC  Roger. Bring you up on the elevator.
@@ -10963,7 +10960,7 @@ Title page
           72:20:31 P   Oops! I'll get it.
           72:20:36 P   Okay. Let's go to OFF on the Platform ... section.
 	Page 348
-	Approved? True
+
        72:20:39 P   I'm not sure we'll pick up narrative upon landing ...
        72:20:43 P   SPLASHDOWN! Go ahead, Tom.
        72:20:50 C   We're on our way in, hang on.
@@ -10990,7 +10987,7 @@ Title page
        72:22:38 C   Roger. Okay.When we hit, we sprung a bulkhead
                     and have a little water ... we get ...
 	Page 349
-	Approved? True
+
          72:22:49 CC   Gemini IX. This ... Leader. We're estimating 45
                        minutes to pick you up. Over.
          72:22:56 C    Well, we're in good shape here.
