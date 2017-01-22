@@ -1,0 +1,67 @@
+{
+    "name": "g9",
+    "incomplete": true,
+    "utc_launch_time": "1966-06-03T13:39:33",
+    "main_transcript": "g9/TEC",
+    "subdomains": [
+        "g9",
+        "gemini9"
+    ],
+    "copy": {
+        "cleaners": [
+            "@_@/",
+            "Adriana",
+            "AlphusAndTory",
+            "Dave",
+            "EleGiggle",
+            "Eric Collins",
+            "ErickSoares3",
+            "George Brocklehurst",
+            "Grant Henninger",
+            "JP Burke",
+            "JSmith3564",
+            "Jackson",
+            "James Aylett",
+            "Jennifer E South",
+            "Limonotte",
+            "Paul_Ha",
+            "Piston",
+            "Shinji",
+            "TheThinker",
+            "Zach Woolf",
+            "bbarrett",
+            "gu080100",
+            "jbrackett",
+            "john.samuel",
+            "jweather",
+            "matchu",
+            "possibilogy",
+            "spacevogel",
+            "tonathonfurey",
+            "troymc"
+        ],
+        "description": "An ambitious mission that ran into problems with both docking, which proved impossible due to a stuck fairing on their ATDA docking target, and an EVA which was cut short due to overheating, stress and exhaustion.",
+        "summary": "A difficult EVA which helped prepare designs for Apollo",
+        "lower_title": "IXa",
+        "upper_title": "Gemini",
+        "title": "Gemini IXa",
+        "transcript_attributions": [
+            { "url": "https://www.jsc.nasa.gov/history/mission_trans/gemini9.htm", "title": "Gemini IX-A Composite Air-to-Ground and Onboard Voice Tape Transcription" }
+        ]        
+    },
+    "characters": {
+        "C": {
+            "role": "astronaut",
+            "name": "Thomas Pattern (Tom) Stafford",
+            "short_name": "Tom Stafford",
+            "mission_position": "Command Pilot"
+        },
+        "P": {
+            "role": "astronaut",
+            "name": "Eugene Andrew (Gene) Cernan",
+            "short_name": "Gene Cernan",
+            "mission_position": "Command Pilot"
+        }
+    },
+    "shared_glossaries": ["space"]
+}
