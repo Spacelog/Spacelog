@@ -728,7 +728,7 @@ C6: Roger on the GO for 17-1 and ready to copy on the
      ...
 
 [00:00:55:16]
-CC: GET B 01 34 03; Delta-V, 13.5. Height-Adjust 
+CC: GET B 01 34 03; Delta-V, 13.5. Height-Adjust
      02:18:02; Delta-V, 59.5. Phase-Adjust: 02:42:18;
      Delta-V, 31.3. Plane-Change towards the south:
      03:47:36; Delta-V, 44.3. Co-elliptical: 05:16:33;
@@ -800,7 +800,7 @@ CC: Roger on that.
 P6: We have a night airglow passing right through the
      moon at this time, SEF. The time was at 59 minutes,
      10 seconds GET. Estimate the layer at approximately
-     1/2 degree. It was approximately the same thickness                  
+     1/2 degree. It was approximately the same thickness
      as the moon.
 
 [00:01:15:50]
@@ -1369,7 +1369,7 @@ C6: ... Houston. We have our ... in view.
 
 [00:02:14:49]
 _page : 23
-CC: Say again, VI. You have what in view 
+CC: Say again, VI. You have what in view
 
 [00:02:14:52]
 C6: Our pressure suit patch in view.
@@ -1798,7 +1798,7 @@ CC: Roger. Would you leave your T/M switch in the
      of rendezvous please?
 
 [00:02:28:25]
-P6: Roger. Leave it to REAL-TIME and ACQ until completing 
+P6: Roger. Leave it to REAL-TIME and ACQ until completing
      the rendezvous. It must have inadvertently
      gotten knocked off.
 
@@ -2142,7 +2142,7 @@ P6: Secondary loop on and - -
 C6: Roger. We'll give it a tweak.
 
 [00:02:49:29]
-CC: Okay. We copy your pump is on. The GET B 
+CC: Okay. We copy your pump is on. The GET B
      03:03:19; Delta-V, 0.8; your burn time, zero plus
      01; yaw and pitch are zero; Core 25, 00008; Cores
      26 and 27 are zeros; use your aft thrusters; the
@@ -2780,7 +2780,7 @@ CC: The Delta-V is 42.5; duration, 53 seconds; yaw -
 P6: Roger. For the ... of Delta-V, it's 42.5; pitch-down
      is now 2 degrees; Core 25 is 00425; 26 is
      00011. We do have what looks like a policy drop-off
-     load. Radar rate is decreasing as was described 
+     load. Radar rate is decreasing as was described
      in the rendezvous node ...
 
 [00:03:27:49]
@@ -3164,7 +3164,7 @@ C6: Roger. We'll call you.
 C6: Roger. We'll call you.
 
 [00:04:26:35]
-CC: They claim VI is still showing 2-feet-per-second - 
+CC: They claim VI is still showing 2-feet-per-second -
      2-feet-per-second.
 
 [00:04:26:46]
@@ -3286,7 +3286,7 @@ P6: 45 40 GET Theta, 7.5; range, 1000.01; Delta-V
 
 [00:04:37:23]
 _page : 51
-P6: Gemini VI transmitting data point at 49 minutes 
+P6: Gemini VI transmitting data point at 49 minutes
      Theta, 8.0; R, 94.82; Delta-V total, 396; Delta-VI,
      185.6.
 
@@ -5262,7 +5262,7 @@ CC: Okay.
 P6: Okay. Gemini VI ready to copy.
 
 [00:06:02:31]
-CC: Okay. D-8 06 35 00; pass at Hawaii; Rev 4. D-8 
+CC: Okay. D-8 06 35 00; pass at Hawaii; Rev 4. D-8
      08:10:00; pass at Hawaii; Rev 5. That's it.
 
 [00:06:03:00]
@@ -6308,7 +6308,7 @@ P6: At this point, no observation.
 CC: Roger.
 
 [00:10:29:10]
-CC: Also, VI, you'll get a maneuver update through - 
+CC: Also, VI, you'll get a maneuver update through -
      Sep Maneuver update over Hawaii this revolution.
 
 [00:10:29:16]
@@ -7329,7 +7329,7 @@ P6: Roger, Houston. ... get the word on the Theta, -
 CC: Roger. We request to have that information, please.
 
 [00:22:31:55]
-P6: Roger. The range at 20 - at our GET of 21 50 00 
+P6: Roger. The range at 20 - at our GET of 21 50 00
      plus 22.24. The range 22 plus 00 plus 00 was 17.63.
      The range at 22 plus 12 plus 00 was 18.33. The
      range at 22 plus 20 plus 00 was 19.55. The range
@@ -7787,7 +7787,7 @@ CC: When you're ready to copy.
 P6: Go.
 
 [01:00:05:20]
-CC: GET RC 25 15 58; RET 400K; 20 plus 15. RET RB 
+CC: GET RC 25 15 58; RET 400K; 20 plus 15. RET RB
      26 plus 38, bank left 55. Do you copy?
 
 [01:00:05:47]
