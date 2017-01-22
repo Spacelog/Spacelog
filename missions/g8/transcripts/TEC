@@ -1,8 +1,9 @@
+[-00:00:00:10]
+CC: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1,
 
 [00:00:00:00]
 _page : 1
-_extra : CC	Ignition!
-CC: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1,
+CC: Ignition!
 
 [00:00:00:03]
 CC: Lift-off!
@@ -4702,8 +4703,8 @@ C: Okay. We'll go ahead and do that.
 CC: And also get into Retro Attitude as soon as possible. Over.
 
 [00:07:38:33]
-_extra : CC	Gemini VIII, Hawaii.
 C: ...
+CC: Gemini VIII, Hawaii.
 
 [00:07:38:51]
 C: Go ahead.
@@ -4839,8 +4840,8 @@ CC: Roger.
 C: Then after getting stabilized, we checked out our whole Thrust Control System and found that we had no yaw or roll control - or we had no yaw control of the yaw thrusters since our roll was in the yaw jets, and after that - -
 
 [00:08:14:15]
-_extra : C 	- - we had - vision; we could see the ACS thrusters firing on the Agena when we had ACS off, so we felt that something was definitely wrong.
 P: ACS was really going.
+C: - - we had - vision; we could see the ACS thrusters firing on the Agena when we had ACS off, so we felt that something was definitely wrong.
 
 [00:08:14:29]
 CC: Roger.
@@ -5303,8 +5304,8 @@ C: ATTITUDE CONTROL-DIRECT
 C: ... Control ...
 
 [00:09:20:19]
-_extra : P 	We don't want to hit the adapter.
 C: Control Spacecraft ATTITUDE to 0°, 180°, 0°.
+P: We don't want to hit the adapter.
 
 [00:09:20:24]
 _page : 89
@@ -5846,8 +5847,8 @@ CC: Ascension LOS.
 P: Okay. We've not had this yet.
 
 [00:10:01:54]
-_extra : P	...
 C: We don't. Just let it stay there.
+P: ...
 
 [00:10:01:57]
 C: Okay. I'm going to go RCS now and OAMS OFF.
