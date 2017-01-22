@@ -1,22 +1,43 @@
 {
-    "name": "g8", 
-    "utc_launch_time": "1966-03-16", 
-    "main_transcript": "g8/TEC", 
+    "name": "g8",
+    "incomplete": true,
+    "utc_launch_time": "1966-03-16T16:41:02",
+    "main_transcript": "g8/TEC",
     "subdomains": [
-        "g8"
-    ], 
+        "g8",
+        "gemini8"
+    ],
     "copy": {
         "cleaners": [
-            "Amy Leigh", 
-            "Grant Henninger", 
-            "James Aylett", 
-            "Mark Norman Francis", 
-            "Matthew S.", 
+            "Amy Leigh",
+            "Grant Henninger",
+            "James Aylett",
+            "Mark Norman Francis",
+            "Matthew S.",
             "jweather"
-        ], 
-        "lower_title": "VIII", 
-        "upper_title": "Gemini", 
-        "title": "Gemini VIII"
-    }, 
-    "incomplete": true
+        ],
+        "description": "Planned to contain both a docking and ambitious EVA, a failed OAMS after successful docking threatened the lives of the astronauts, and the mission was cut short with the crew returning safely to Earth.",
+        "summary": "First docking of two spacecraft in orbit",
+        "lower_title": "VIII",
+        "upper_title": "Gemini",
+        "title": "Gemini VIII",
+        "transcript_attributions": [
+            { "url": "https://www.jsc.nasa.gov/history/mission_trans/GT08_TEC.PDF", "title": "Gemini VIII Composite Air-to-Ground and Onboard Voice Tape Transcription" }
+        ]
+    },
+    "characters": {
+        "C": {
+            "role": "astronaut",
+            "name": "Neil A. Armstrong",
+            "short_name": "Neil Armstrong",
+            "mission_position": "Command Pilot"
+        },
+        "P": {
+            "role": "astronaut",
+            "name": "David R. Scott",
+            "short_name": "Dave Scott",
+            "mission_position": "Command Pilot"
+        }
+    },
+    "shared_glossaries": ["space"]
 }
