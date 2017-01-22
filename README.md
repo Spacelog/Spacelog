@@ -216,6 +216,218 @@ files for all the artwork we've created is available, although we
 haven't yet put it online -- yell if you need it as a basis for making
 things like orbital diagrams.)
 
+### From Kallisto
+
+[Kallisto](https://kallisto.tartarus.org/) is our crowd-cleaning tool
+for new missions. If you have admin access, you can pull a zipfile
+containing the cleaned transcript and a draft `_meta`. There is then
+a checklist to follow (on Trello) to get the mission into a state
+where it can be indexed by Spacelog and so appear as a (very draft!)
+mission on the website.
+
+There are some things you need to know:
+
+1. The export transcript is a text version of the PDF transcript.
+   However this isn't ready to be converted for a few reasons.
+
+    * each page is marked as `Page n` and `Approved? True` (or possibly
+    `Approved? False` if you've exported a mission that isn't fully
+    cleaned). You should check for `Approved? False` lines, and fix up
+    any problems. Then remove all the `Approved?` lines. The `Page`
+    lines are part of the file format, and should be retained.
+    Similarly there may be lines that look like `Tape n`, which mcshred
+    will ignore.
+
+    * some transcripts have integral page numbers, which may remain in
+    the cleaned text as `PAGE n`; these can be retained. (They will
+    often by off by one or more from the `Page n` lines. Don't worry
+    about this, and don't change the other lines; they're numbering
+    different things.) Some of them may simply have the page number,
+    and these can be left alone as well.
+
+    * any lines that just say `CONFIDENTIAL` should be removed.
+
+    * there may be a blank page at the beginning, corresponding to the
+    transcript coverpage. This should be removed.
+
+2. One of the steps is to run through `lognag.pl`. This should be
+   fairly easy to do on a macOS or linux machine, and is possible on
+   Windows if you can install perl (but we probably can't help you
+   here). If you can't do this, then someone else will be able to do
+   it for you, and it's almost certainly more helpful to move onto
+   something else (such as finding image assets, writing biographies,
+   or figuring out the "acts" of the mission).
+
+   If you're comfortable running command line tools, you want to do
+   something like this:
+
+   ```sh
+   ./mcshred/src/lognag.pl missions/g9/TEC.txt
+   ```
+
+   Assuming you're tidying up the `TEC` transcript for Gemini 9 (`g9`).
+
+   It will list the problems it detects with the file, and a summary
+   at the end (in particular, the number of errors it's found). You
+   should then fix some errors and re-run lognag, repeating until
+   there aren't any errors left.
+
+   Each error from lognag is given as a filename and line number,
+   followed by a (somewhat cryptic) error code and the line that it's
+   complaining about. You can usually search for the contents of the
+   line, and it's often obvious what the problem is. Some of the error
+   codes are explained here to help.
+
+    * ellipsis-needs-a-diet: four (or more) dots in a row. This is
+      likely because the transcript contained a single dot (as a period),
+      followed by an ellipsis, but the gap between has been lost. So
+      if you see `....` it should often be `. ...`. This can be checked
+      against the original transcript PDF. If there's text after the
+      ellipsis, there should generally be a space before it.
+
+    * lonely-l, less-ls-more-1s: a `l` that should probably be a `1`
+      (can also be triggered if there's a `1` instead of an `i`, such as
+      `m1les` which should be `miles`).
+
+    * noleet-0-please: a `0` that perhaps should be a `o` or `O` (sometimes
+      this also gets triggered when the line's problem is actually `l`
+      instead of `1`, such as`0l:42:40` which will trigger both this
+      and less-l1-more-1s).
+
+    * barchar: a character that lognag thinks shouldn't be in a NASA
+      transcript. The list it thinks is okay may be missing something,
+      or it may be a genuine error.
+
+    * hyphen-icide: a letter followed by a hyphen at the end of a line
+      probably means that a word was hyphenated in the original
+      transcript (which was probably typed by hand). You should undo
+      the hyphenation, whether it's across a single line or across a
+      page boundary. In some cases it's a hyphenated word (usually
+      a technical term like "quick-disconnects") to start off with,
+      in which case you can either collapse it onto one line or just
+      ignore the warning from lognag.
+
+    * ail-the-single-ladies: `ail` or `Ail` should probably be `all`
+      or `All`.
+
+3. You run MCShred like this, with the input file first and the output
+   second:
+
+   ```sh
+   python mcshred/bin/MCShref.py missions/g9/TEC.txt missions/g9/transcripts/TEC
+   ```
+
+   You may also have to add `-t 3` on the end (if your timestamps are in
+   three parts `HH:MM:SS` instead of four `DD:HH:MM:SS`).
+
+4. MCShred goes through a number of passes. The first just tries to
+   read in the lines, stripping unwanted whitespace. It will tell you
+   about some lines it's skipping (the page number lines mentioned
+   earlier).
+
+   A common error at this point is "Whitespace prefix changed within
+   page". This is pretty much exactly what it says. MCShred tries to
+   keep track of how many spaces each page is idented by on the left,
+   so it can strip them. It's cautious, so if it can tell for sure
+   that the indentation amount has changed within a single page, it
+   will refuse to continue.  Usually you can verify what's going on by
+   eye, and correct the transcript accordingly so the lines of the
+   page are alined.
+
+   It's possible for it to trip up if there's a continuation line at
+   the top of the page which looks like it starts with a GET
+   timestamp. The solution here is to move that line to the previous
+   page (and adjust indentation if necessary), since continuation
+   lines are collapsed to their starting logline in the output anyway.
+
+   If you use emacs, use `whitespace-mode` to highlight different
+   types of whitespace. Other editors have similar options.
+
+5. If MCShred gets through that stage, it converts everything to log
+   lines, figuring out what is a continuation line and what is the
+   start of a line (with a timestamp). Then it runs some checks on
+   what it's found. There are a range of errors that can occur at this
+   stage.
+
+    * No nominal timestamp. If you have lines at the start of the
+      file before there's a timestamp at all, you'll get this. (Some
+      NASA transcripts don't have timestamps until launch.)
+
+      It's fine to ignore these for now; they won't appear in the
+      output transcript file. However you should make a note of them
+      for later, in case someone can figure out timestamps from an
+      audio recording or similar.
+
+    * Line out of Sync error. MCShred requires that timestamps always
+      increase. If it finds one that jumps back in time, that's
+      probably a transcript error, or a cleaning error. You should
+      check the line against the original PDF.
+
+      The timestamps will be reported as `DD:HH:MM:SS`, so if the
+      transcript uses three-part timestamps (`HH:MM:SS`) you'll have
+      to convert that in your head to find them.
+
+    * Leading tab on line. MCShred is usually smart enough to
+      strip away leading whitespace while still figuring out the
+      difference between continuation lines and non-speech
+      lines. However leading tabs can cause problems if they aren't
+      consistent through the whole page. There may be some situations
+      where it still gets things wrong, which you'll notice later
+      (lots of `_extra` lines in the output is a give-away, which
+      generally will cause errors with the indexer).
+
+    * Possible logline start over-indented. This is either a
+      continuation line that happens to start with a timestamp
+      (which can be ignored), or it's the start of a new logline
+      that has been indented too far.
+
+    * Suspect continuation. This may indicate a logline without a
+      timestamp. This happens sometimes when the details timestamping
+      doesn't happen for some period of a transcript. If you can't
+      figure out timestamps (perhaps from an audio recording), you can
+      copy the timestamp from the last logline that had one. You
+      should note when you do this, so when someone has time and the
+      appropriate information we can replace them with more accurate
+      timestamps instead.
+
+   There are also some situations that MCShred can't detect. The main
+   one is if a non-speaker line (eg the markers for ground stations
+   like `HOUSTON` and `CANARY`) don't start with a tab character, then
+   they'll be treated as continuation lines. If you know what the
+   ground stations for a mission are, you can fix these up before your
+   final conversion using MCShred, or it's possible to fix in the
+   final transcript file afterwards. The tab character needs to go
+   *after* any consistent whitespace prefix for that page. (If it's
+   the first line on a page, put the tab at the start of the line.)
+
+   There may be other errors you can fix, or you may get something
+   that is impenetrable. (MCShred was originally designed to work with
+   a particular mission, and because transcripts were done by hand
+   they can vary quite a lot in conventions -- when converting a new
+   missions, MCShred may not be able to cope.) If you get an error
+   which you can't easily fix yourself, that's probably a good time to
+   turn it over to the team a large by emailing us. Someone will be
+   able to figure out how to deal with it.
+
+6. If you have time and know how to, it's helpful to run the indexer
+   over the mission, to ensure that it doesn't have any obvious
+   mistakes in the transcript format or `_meta` file:
+
+   ```
+   ENV/bin/python -m backend.indexer g9
+   ```
+
+   (Assuming you're working on Gemini 9, in `missions/g9`.)
+
+   This will also allow you to see the cleaned mission locally, for
+   instance by going to `http://g9.dev.spacelog.org:8000/`.
+
+7. When creating the pull request, you don't have to include the
+   original text version of the PDF. The structured file format we use
+   in Spacelog is capable of retaining more explicit detail, but you
+   may want to keep the text version as it can be easier to work with
+   in other ways.
+
 ### Images
 
 The mission images folder (eg `missions/a11/images`) contains a number
