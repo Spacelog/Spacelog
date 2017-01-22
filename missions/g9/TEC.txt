@@ -80,10 +80,10 @@
 	Page 5
 
 			PAGE 4
-	00:00:02	C	We're on the way! Clock is started.
-	00:00:08	P	Beautiful, Tom! We're going!
-	00:00:10	C	Yes.
-	00:00:16	P	Cabin is starting to seal.
+        00:00:02	C	We're on the way! Clock is started.
+        00:00:08	P	Beautiful, Tom! We're going!
+        00:00:10	C	Yes.
+        00:00:16	P	Cabin is starting to seal.
         00:00:18	C   	Roll Program initiated on time.
         00:00:21	CC	Roger. Roll.
         00:00:23	C	And Roll Complete.
@@ -294,7 +294,7 @@
          00:10:02 P    Okay. I'm good here.
          00:10:05 C    GREEN.
          00:10:06 P    GREEN.
-         00:l0:08 C    Got them.
+         00:10:08 C    Got them.
          00:10:09 P    Okay. We've got them.
          00:10:11 C    Good show.
          00:10:12 P    Okay. Your left Secondary O<sub>2</sub>, CLOSED.
@@ -303,7 +303,7 @@
          00:10:22 P    Main circuit breaker to the GO. (Battery test)
          00:10:31 P    Okay. Checking each amp and volt reading.
          00:10:33 C    Lots of goodies on there.
-         00:l0:35 P    Continuing with Antenna Electrical Check.
+         00:10:35 P    Continuing with Antenna Electrical Check.
          00:10:37 C    Get these burns okay?
          00:10:41 P    I'll get the firing check.
          00:10:45 P    Main line looks good. She should go around
@@ -324,7 +324,7 @@
            00:11:47 C   It was quite a ride, wasn't it?
            00:11:50 P   Pretty fantastic.
            00:11:52 C   ...
-                             CANARY ISLANDS
+           	                  CANARY ISLANDS
            00:16:33 CC  Gemini IX, Canary CAP COM.
            00:16:35 C   This is Gemini IX here.
            00:16:37 CC  Roger. Have your Phase-Adjust Maneuver here,
@@ -403,7 +403,7 @@
                          pitch 0; 25, 00750; 26, 0; 27, 0; aft thrusters;
                          Posigrade.
            00:26:30 CC   That's correct.
-                               TANANARIVE
+           	                    TANANARIVE
            00:35:05 CC   Gemini IX, Houston.
            00:35:07 C    This is Gemini IX, Houston. Read you loud and
                          clear.
@@ -453,7 +453,7 @@
               00:51:18  P    Plus one tenth on 80, plus two tenths on 81 and
                              zero on 82.
               00:51:20  C    - - Good show!
-                                    CARNARVON
+              	                      CARNARVON
               00:51:21  C    Hello, Carnarvon. Gemini IX.
               00:51:24  CC   Go ahead, Gemini IX.
               00:51:25  C    Roger. Completed our purge right on time; residuals
@@ -507,30 +507,30 @@
           00:57:40 CC  Gemini IX, Carnarvon. We've completed our
                        accelerometer bias summaries.
           00:57:45 C   Fine.
-                             CANTON
-           01:10:07 CC  Gemini IX, Houston standing by.
-           01:10:11 C   Roger, Houston.
-           01:12:23 CC  Gemini IX, Houston. Can you tell us whether
-                        you saw any drift on your IVI during your
-                        Accelerometer Bias Checks?
-           01:12:30 C   Roger. Just did now....we saw the UP go to
-                        a 1 ... UP to 1, very small.
-           01:12:43 CC  Roger. UP went to 1 and LEFT-RIGHT went to 1.
-                         Is that right?
-           01:12:47 C   That's right.
-           01:12:49 CC   Okay.
-           01:12:50 C   Want another one?
-           01:12:52 CC   Stand by. I don't think it's required.
-           01:12:55 C    Roger.
-           01:12:56 CC   We will update your Accelerometer Bias over the
-                         States.
-           01:13:03 C    Houston, say again.
-           01:13:04 CC   We will update your Accelerometer Bias over the
-                         States.
-           01:13:08 C    Roger.
+          	                   CANTON
+          01:10:07 CC  Gemini IX, Houston standing by.
+          01:10:11 C   Roger, Houston.
+          01:12:23 CC  Gemini IX, Houston. Can you tell us whether
+                       you saw any drift on your IVI during your
+                       Accelerometer Bias Checks?
+          01:12:30 C   Roger. Just did now. ... we saw the UP go to
+                       a 1 ... UP to 1, very small.
+          01:12:43 CC  Roger. UP went to 1 and LEFT-RIGHT went to 1.
+                        Is that right?
+          01:12:47 C   That's right.
+          01:12:49 CC   Okay.
+          01:12:50 C   Want another one?
+          01:12:52 CC   Stand by. I don't think it's required.
+          01:12:55 C    Roger.
+          01:12:56 CC   We will update your Accelerometer Bias over the
+                        States.
+          01:13:03 C    Houston, say again.
+          01:13:04 CC   We will update your Accelerometer Bias over the
+                        States.
+          01:13:08 C    Roger.
 	Page 21
 
-                            HAWAII
+	                            HAWAII
          01:17:37 CC  Gemini IX, Hawaii.
          01:17:39 C   Hawaii, Gemini IX.
          01:17:41 CC  Roger. You look real good here on the ground.
@@ -538,8 +538,8 @@
                       you.
          01:17:48 P   Roger. Stand by.
          01:17:52 C   Go ahead, Hawaii.
-         01:17:54 CC  Roger. GET: 0l:40:00.
-         O1:18:02 P   Roger. 01:40:00.
+         01:17:54 CC  Roger. GET: 01:40:00.
+         01:18:02 P   Roger. 01:40:00.
          01:18:05 CC  We also have a Flight Plan update for you.
          01:18:08 C   Roger. Go ahead.
          01:18:11 CC  Node: 01:13:39; Rev 1, 172.6 degrees west;
@@ -552,7 +552,7 @@
          01:21:12 CC  Gemini IX, Hawaii. We're at LOS minus 1 and
                       all systems look good.
          01:21:17 P   Gemini IX. Roger.
-                           CALIFORNIA
+         	                  CALIFORNIA
          01:28:08 CC  Gemini IX, Houston.
          01:28:13 C   Houston, IX here. Go.
          01:28:16 CC  Roger. Your 180-nautical-mile time is 1 plus 56.
@@ -573,7 +573,7 @@
             01:28:58 C    I've come to the decision that it's real hard
                           to see stars.
             01:29:02 CC   Roger.
-                               GUAYMAS
+            	                   GUAYMAS
             01:29:35 C    Houston, Gemini IX.
             01:29:38 CC   Houston, Tom.
             01:29:39 C    Roger, Neil. My Left Auxiliary Receptacle -
@@ -595,28 +595,28 @@
                      for the Accelerometer Bias change.
         01:30:28 C   Going to PRELAUNCH.
         01:30:32 C   PRELAUNCH.
-         01:30:35 CC  Okay.
+        01:30:35 CC  Okay.
         01:31:02 CC  Okay. Your bias is being changed now, IX.
         01:31:07 C   ...
-         01:31:16 CC  We didn't read you that time. Understand you
-                      did get a light.
-         01:31:21 C   Roger. That's affirmative. Now we're going to
-                      take some pictures. How do you read me on the
-                      UHF?
-         01:31:28 CC  We're reading you loud with a little bit of
-                      garble, Tom.
-         01:31:32 C   Roger.
-         01:31:33 CC  Can you change that receptacle cord from one
-                      side to the other for later in the flight?
-         01:31:41 C   It's the receptacle itself, Neil. We're going
-                      to still make the effort to complete the rendezvous
-                      and check it out.
-         01:31:48 CC  Okay.
-         01:32:17 CC  Advise your bias looks good now, Gemini IX.
-         01:32:20 C   Roger.
-                           HOUSTON
-         01:39:10 CC  Gemini IX, Houston.Got your maneuver message
-                      when you are ready to copy.
+        01:31:16 CC  We didn't read you that time. Understand you
+                     did get a light.
+        01:31:21 C   Roger. That's affirmative. Now we're going to
+                     take some pictures. How do you read me on the
+                     UHF?
+        01:31:28 CC  We're reading you loud with a little bit of
+                     garble, Tom.
+        01:31:32 C   Roger.
+        01:31:33 CC  Can you change that receptacle cord from one
+                     side to the other for later in the flight?
+        01:31:41 C   It's the receptacle itself, Neil. We're going
+                     to still make the effort to complete the rendezvous
+                     and check it out.
+        01:31:48 CC  Okay.
+        01:32:17 CC  Advise your bias looks good now, Gemini IX.
+        01:32:20 C   Roger.
+        	                  HOUSTON
+        01:39:10 CC  Gemini IX, Houston.Got your maneuver message
+                     when you are ready to copy.
 	Page 24
 
             01:39:15 C   Gemini IX. Go.
@@ -647,8 +647,8 @@
                           25, 00409; 26, 00352; 27, 00020; aft thrusters;
                          Posigrade Down and north.
             01:42:37 CC   That's correct. You're on your own now.
-            0l:42:40 C    Roger. We're all set to go, Neil.
-            0l:43:04 CC   Okay, IX. Give you a GET time hack at 01:43:10.
+            01:42:40 C    Roger. We're all set to go, Neil.
+            01:43:04 CC   Okay, IX. Give you a GET time hack at 01:43:10.
             01:43:11 CC   MARK. 01:43:10.
             01:43:13 C    Roger. We're right on, Houston.
             01:43:15 CC   Okay.
@@ -696,7 +696,7 @@
                         are zero. 80, 81 and 82 all zeros.
            01:56:41 CC  Very good.
            01:56:46 P   Okay. Back to PULSE.
-           01:5S:49 C   Good show. Back to PULSE.
+           01:56:49 C   Good show. Back to PULSE.
            01:56:51 C   Going to RENDEZVOUS.
            01:56:53 C   Back to CATCH-UP.
            01:56:59 C   Plat to ...
@@ -747,7 +747,7 @@
            01:59:39 P    This cord is a pain in the neck.
            01:59:44 P    Let's go to Record, OFF.
            01:59:45 C    4 feet per second.
-                              TANANARIVE
+           	                   TANANARIVE
            02:09:16 CC   Gemini IX, Houston.
            02:09:35 CC   Gemini IX, Houston.
            02:10:05 CC   Gemini IX, Houston.
@@ -782,8 +782,8 @@
         02:13:24 CC   This is Houston. Go ahead.
         02:13:25 C    Roger. There appears to be a radar lock-on.
         02:13:28 CC   Roger. Can you read out the range, please?
-        02:13:35 C    We are 129.45 miles and we'll get you a Range-
-                      Rate shortly.
+        02:13:35 C    We are 129.45 miles and we'll get you a Range-Rate
+                      shortly.
         02:13:40 CC   Roger.
         02:13:49 C    And we've lost radar lock. I just lost it
                       completely.
@@ -821,7 +821,7 @@
            02:24:19 C   Okay.
            02:24:21 P   Are you in RATE COMMAND?
            02:24:23 C   Roger. In RATE COMMAND.
-                              CARNARVON
+           	                   CARNARVON
            02:24:27 CC  Gemini IX, Carnarvon CAP COM. We're standing by.
            02:24:29 C   Roger. Be burning shortly. Are we on Record?
 	Page 31
@@ -889,7 +889,7 @@
        02:32:51 C   Gemini IX, fuel cell purge is complete. Everything
                     looks good.
        02:32:53 CC  Roger.
-                         HAWAII
+       	                  HAWAII
        02:50:28 C   Hello, Hawaii. Gemini IX.
        02:50:30 CC  Gemini IX, Hawaii.
        02:50:32 C   Roger. We've had a computer malfunction. Want
@@ -943,12 +943,12 @@
           02:55:03 C   Roger. Real fine.
           02:55:17 P   Hawaii, this is Gemini IX. We're presently 8
                        degrees and 76.67 miles; Range-Rate, 126.
-         02:55:24  CC  Roger. Copy.
-         02:56:17  C   Hawaii. Gemini IX is 8.6 degrees; 74.58 miles;
+          02:55:24  CC  Roger. Copy.
+          02:56:17  C   Hawaii. Gemini IX is 8.6 degrees; 74.58 miles;
                        125, Range-Rate.
 	Page 35
 
-                          HOUSTON
+	                HOUSTON
         02:59:52 C    Hello, Hawaii. Gemini IX.
         03:00:01 CC   Hello, Gemini IX. Houston here.
         03:00:03 C    Roger. Houston, Gemini IX. We've just gone
@@ -974,7 +974,7 @@
                      to make the burns, we will have to treat the
                      IVIs to do it.
         03:02:27 CC  Roger.
-                           GUAYMAS
+        	                   GUAYMAS
         03:02:52 C   Our analysis on-board, Houston, is that something
                     is initiating the START COMP cycle. We noticed
 
@@ -985,31 +985,31 @@
                         you've got less than 1 mile relative ellipticity,
                         so it's going to be reasonably easy to predict
                         the proper TPI.
-            03:03:17 C   Roger. Our Delta-Delta-R shows we're in pretty
-                         good shape, too, up here.
-            03:03:21 CC  Roger.
-            03:06:39 P   Houston, Gemini IX. 9.6 degrees; range, 61.67;
-                         Range-Rate, 125.
-            03:10:20 C   Hello, Houston. Gemini IX.
-            03:10:22 CC  Go ahead.
-            03:10:24 C   Roger. We're still Alining the Platform here,
-                         Neil.
-            03:10:26 CC  Roger. Understand.
-            03:10:30 P   Houston, IX. Elevation, 10.5 degrees; range,
-                         57.55; Range-Rate, 128.
-            03:10:37 CC  Houston. Roger.
-            03:11:20 C   Houston, Gemini IX. Elevation, 11.1; range,
-                         55.49.
-            03:11:27 CC  Houston.
-            03:13:13 C   Houston, Gemini IX. No elevation; range is 53.44;
-                         Range-Rate, 121.
-            03:13:20 CC  Houston. Roger.
-            03:13:39 C   Houston, this is IX. We're complete with the
-                         Platform Alinement. We're pitching up to the
-                         target.
-            03:13:50 CC  IX. Houston has turned TPI up when you are ready
-                         to copy.
-            03:13:54 C   Roger. Ready to copy.
+           03:03:17 C   Roger. Our Delta-Delta-R shows we're in pretty
+                        good shape, too, up here.
+           03:03:21 CC  Roger.
+           03:06:39 P   Houston, Gemini IX. 9.6 degrees; range, 61.67;
+                        Range-Rate, 125.
+           03:10:20 C   Hello, Houston. Gemini IX.
+           03:10:22 CC  Go ahead.
+           03:10:24 C   Roger. We're still Alining the Platform here,
+                        Neil.
+           03:10:26 CC  Roger. Understand.
+           03:10:30 P   Houston, IX. Elevation, 10.5 degrees; range,
+                        57.55; Range-Rate, 128.
+           03:10:37 CC  Houston. Roger.
+           03:11:20 C   Houston, Gemini IX. Elevation, 11.1; range,
+                        55.49.
+           03:11:27 CC  Houston.
+           03:13:13 C   Houston, Gemini IX. No elevation; range is 53.44;
+                        Range-Rate, 121.
+           03:13:20 CC  Houston. Roger.
+           03:13:39 C   Houston, this is IX. We're complete with the
+                        Platform Alinement. We're pitching up to the
+                        target.
+           03:13:50 CC  IX. Houston has turned TPI up when you are ready
+                        to copy.
+           03:13:54 C   Roger. Ready to copy.
 	Page 37
 
                03:13:56       CC      Roger. GET B: 03:35:35; GTN<sub>SR</sub> Delta-V, 11044,
@@ -1043,8 +1043,8 @@
                                       up with. However, we're going to have to put
                                       some addresses in the computer and check them
                                       now.
-               03:19:59       CC      Roger. Your darkness time is - your TPI is cur-
-                                      rently 5 minutes, about 5-1/2 minutes before sunset.
+               03:19:59       CC      Roger. Your darkness time is - your TPI is currently
+                                      5 minutes, about 5-1/2 minutes before sunset.
 	Page 38
 
          03:20:06 C   5-1/2 before sunset.
@@ -1098,7 +1098,7 @@
                      1.3 up. Go - go ahead, push START COMP. That
                      was Point C.
         03:32:53 C   I can't get a light.
-        03:32:57 P   Go ahead....we broke ...
+        03:32:57 P   Go ahead. ... we broke ...
         03:33:00 P   Okay. I need a good point at 10:40, Tom.
         03:33:07 C   Houston, Gemini IX. We've got the solution
                      worked out real good with Point C, but when I
@@ -1212,7 +1212,7 @@
         03:41:22 P    I've got them too. I see them. Oh great, Tom!
                       4.9. We're going to have a little UP correction
                       on this one, but --
-        03:41:24 C    Ail right. We're in business.
+        03:41:24 C    All right. We're in business.
         03:41:27 P    And we're cranking, by the way.
         03:41:31  P   Let's see, 4.9 - 4.9 and 35.
         03:41:36 C    I don't have them.
@@ -1268,10 +1268,10 @@
         03:54:34 C   There are no stars out there either.
         03:54:38 P   No, that moon is just blinding. You don't have
                     any of them (stars) period!
-       03:54:41 P   Sure glad there are flashing lights.
-       03:54:43 C   I've got some running lights on him.
-       03:54:47 P   I've lost him entirely now.
-       03:54:53 C   What's that?
+        03:54:41 P   Sure glad there are flashing lights.
+        03:54:43 C   I've got some running lights on him.
+        03:54:47 P   I've lost him entirely now.
+        03:54:53 C   What's that?
 	Page 46
 
            03:54:55 P    Hey, that is Scorpio. The head of Scorpio behind
@@ -1358,7 +1358,7 @@
                         really gone down.
 	Page 49
 
-                          CARNARVON
+	                          CARNARVON
         03:59:34 CC  Gemini IX, Carnarvon CAP COM. We're standing by.
         03:59:38 C   Roger. Carnarvon. We've got the ATDA in reflected
                      moonlight at about 3 1/2 miles and it looks like
@@ -1368,23 +1368,23 @@
         03:59:50 P   04 on aft and 3 down, but I - I'd buy 3 down. One's
                      a radar angle and one's a visual angle.
         03:59:58 C   I think our Out-of-Plane is just about 0.
-       04:00:00 P   83. Okay.I'm going to take an angle and give it
-                    to them right now.
-       04:00:02 P   You on?
-       04:00:08 C   Yes. 23, 25. Coming up with the solution.
-       04:00:12 P   That burn is going to play heck with us.
-       04:00:22 P   Carnarvon, we're at 88.2 degrees and 3 miles.
-       04:00:24 C   3 forward and 2 down.
-       04:00:25 CC  Roger.
-       04:00:26 C   3 forward and 2 down?
-       04:00:27 P   Right.
-       04:00:28 C   Okay.
-       04:00:31 C   MARK.
-       04:00:36 P   You don't even need the forward. What'd you put,
-                    2 forward or 3?
-       04:00:38 C   3. It's right in there, Gene. PULSE okay. Go
-                    ahead.
-       04:00:42 P   Okay. Let's see if we can zero 25, 6 and 7.
+        04:00:00 P   83. Okay. I'm going to take an angle and give it
+                     to them right now.
+        04:00:02 P   You on?
+        04:00:08 C   Yes. 23, 25. Coming up with the solution.
+        04:00:12 P   That burn is going to play heck with us.
+        04:00:22 P   Carnarvon, we're at 88.2 degrees and 3 miles.
+        04:00:24 C   3 forward and 2 down.
+        04:00:25 CC  Roger.
+        04:00:26 C   3 forward and 2 down?
+        04:00:27 P   Right.
+        04:00:28 C   Okay.
+        04:00:31 C   MARK.
+        04:00:36 P   You don't even need the forward. What'd you put,
+                     2 forward or 3?
+        04:00:38 C   3. It's right in there, Gene. PULSE okay. Go
+                     ahead.
+        04:00:42 P   Okay. Let's see if we can zero 25, 6 and 7.
 	Page 50
 
            04:00:44 C   Okay. Going to CATCH-UP.
@@ -1566,8 +1566,8 @@
         04:10:19 C   Well, maybe I'll knock it down a little more.
         04:10:21 P   7 feet per second right now. You're at 900 feet.
         04:10:25 C   I've got 5 feet per second on the gage.
-       04:l0:27  P   Okay.
-       04:10:29  P   Coming in at 800 feet. Still at 900 feet right now.
+        04:10:27  P   Okay.
+        04:10:29  P   Coming in at 800 feet. Still at 900 feet right now.
 
 	Page 56
 
@@ -1646,7 +1646,7 @@
           04:13:44 P    Look at that thing! Darn it! What a mess! What's
                         hanging from it, too. Okay. It's rolling our way,
                         Tom; there's the dipole extended.
-                               HAWAII
+          	                     HAWAII
           04:25:18 C    Hello, Houston. Gemini IX.
           04:25:20 CC   Gemini IX, Hawaii.
           04:25:21 C    How are you? I've got a weird looking machine
@@ -1790,7 +1790,7 @@
                           thing.
             04:33:42 CC   Okay. We're having LOS.
             04:33:44 C    The springs have just about extended full force.
-                                 TEXAS
+            	                     TEXAS
             04:35:53 CC   Gemini IX, Houston.
             04:35:55 C    Hello, Houston. Gemini IX.
 	Page 63
@@ -1819,8 +1819,8 @@
                       disconnects have pulled? Is that correct? The
                       wire bundle disconnects?
         04:37:08  C   That's affirmative. What's holding it together are
-                      the four small plugs that should have quick-
-                      disconnects on the pyros on the strap. The whole
+                      the four small plugs that should have quick-disconnects
+                      on the pyros on the strap. The whole
                       thing is just loosely hanging on there. We're
                       standing by for an Unrigidized Sequencing. If you
                       can give it right now, it would be great.
@@ -1855,7 +1855,7 @@
             04:39:18 P    Roger. We got it. GET B is 05:01:00: Delta-V,
                           20; 25-second burn time; 25, all zeros; 26 is
                           90200; 27 is zero and forward thrusters, Up.
-            04:39:34 CC   Roger ....that perhaps the cables hadn't pulled
+            04:39:34 CC   Roger. ... that perhaps the cables hadn't pulled
                           the disconnects to the wire bundles, in which case
                           we would definitely have to wait until - with the
                           Contingency Plan B - wait until later to look at
@@ -1940,7 +1940,7 @@
                           to send the commands now.
             04:45:07  C   Okay. Stand by.
             04:45:09  CC  Let us know as soon as you're ready.
-            04:45:l0  C   Okay.
+            04:45:10  C   Okay.
 
 	Page 67
 
@@ -1980,7 +1980,7 @@
            04:52:34 CC  Okay. How did you think your Alinement went?
            04:52:37 C   The needles came out pretty smooth.
            04:52:40 CC  Okay.
-                             ROSE KNOT VICTOR
+           	                  ROSE KNOT VICTOR
            05:00:15 CC  Gemini IX, RKV CAP COM. We're standing by for
                         your maneuver in approximately 1 minute.
            05:00:22 C   Roger. We're in position.
@@ -2031,7 +2031,7 @@
         05:05:38 CC   Gemini IX, RKV. We'll have LOS in about a minute
                       here.
         05:05:43 C    Roger. RKV.
-                          TANANARIVE
+        	                  TANANARIVE
         05:20:21 C    Houston, Gemini IX.
         05:20:26 C    Hello, Canary. Gemini IX.
         05:20:31 CC   Gemini IX. Houston is standing by for Tananarive.
@@ -2119,7 +2119,7 @@
            05:39:22 P    Yes.
            05:39:26 C    One never knows when you might see a falling star.
            05:39:27 P   We on?
-                              COASTAL SENTRY QUEBEC
+           	                   COASTAL SENTRY QUEBEC
            05:44:41 CC   Gemini IX, CSQ CAP COM.
            05:44:44 C    CSQ, Gemini IX.
            05:44:46 CC   Roger, Gemini IX. You can start your fuel cell
@@ -2138,11 +2138,11 @@
                                  We are exactly nominal and our corrections
                                  are zero.
             05:48:09     CC      Roger.
-                                          HAWAII
+            	                              HAWAII
             06:00:24     C       Hello, Hawaii.  Gemini IX.
             06:00:27     CC      Gemini IX, Hawaii.
             06:00:28     C       Roger. We're still Alined in our Platform. We're
-                                 standing by to roll inverted in approximately  15
+                                 standing by to roll inverted in approximately 15
                                  minutes.
             06:00:37     CC      Roger. We'll be getting a tape dump from you this
                                  pass.
@@ -2234,7 +2234,7 @@
                   06:11:02     P       Time?
                   06:11:06     C       What is it, 47?
                   06:11:09     P       20.9 degrees.   5.54 miles.
-                                                 HOUSTON
+                  	                               HOUSTON
                   06:11:13     CC      Gemini IX, Houston standing by.
                   06:11:14     P        Okay.
                   06:11:18     C        Okay.
@@ -2285,32 +2285,32 @@
 
           06:19:25 CC   Okay.
           06:19:29 P    M.A.P. verified.
-           06:20:30 CC  Okay.
-           06:20:41 P   Houston, Gemini IX. Our pitch angle is now about
-                        54 degrees.
-           06:20:46 CC  Houston. Roger.
-           06:21:06 C   Okay. One hour and 20 minutes from initiation.
-                        Pitch angle is about 56 degrees down, taking sextant
-                        sighting.
-           06:21:18 P   Checking corrections.
-           06:21:30 P   I'm going to get an angle to the sun's edges.
-           06:21:49 P   Okay. We got it?
-           06:21:52 C   Yes. She is boresighted.
-           06:22:11 P   27 feet per second. You've got the times? ...
-                        zero. 80 degrees, 80 degrees and about 2 minutes.
-                         ... might be able to recover, Tom.
-           06:22:30 P   55:22.
-           06:22:33 C   Oh, look at that ...
-           06:22:35 P   Right here. Caught you back on a curve.
-           06:22:40 C   Good show!
-           06:22:42 P   I hope we're not overshooting it.
-           06:22:45 P   Okay, Tom. In about another minute we should be
-                        coming up about 64 degrees. I wanted to get a
-                        good sextant sighting for Chuck because he wants
-                        this badly.
-           06:22:59 C   What do you think of the sextant there?
-           06:23:03 P   Well, it's all right but you've got such limited
-                        space to work with. It's got limitations more at
+          06:20:30 CC  Okay.
+          06:20:41 P   Houston, Gemini IX. Our pitch angle is now about
+                       54 degrees.
+          06:20:46 CC  Houston. Roger.
+          06:21:06 C   Okay. One hour and 20 minutes from initiation.
+                       Pitch angle is about 56 degrees down, taking sextant
+                       sighting.
+          06:21:18 P   Checking corrections.
+          06:21:30 P   I'm going to get an angle to the sun's edges.
+          06:21:49 P   Okay. We got it?
+          06:21:52 C   Yes. She is boresighted.
+          06:22:11 P   27 feet per second. You've got the times? ...
+                       zero. 80 degrees, 80 degrees and about 2 minutes.
+                        ... might be able to recover, Tom.
+          06:22:30 P   55:22.
+          06:22:33 C   Oh, look at that ...
+          06:22:35 P   Right here. Caught you back on a curve.
+          06:22:40 C   Good show!
+          06:22:42 P   I hope we're not overshooting it.
+          06:22:45 P   Okay, Tom. In about another minute we should be
+                       coming up about 64 degrees. I wanted to get a
+                       good sextant sighting for Chuck because he wants
+                       this badly.
+          06:22:59 C   What do you think of the sextant there?
+          06:23:03 P   Well, it's all right but you've got such limited
+                       space to work with. It's got limitations more at
 
 	Page 79
 
@@ -2468,7 +2468,6 @@
 
 	Page 84
 
-                        CONFIDENTIAL
            06:34:01 C    Hello Houston, Gemini IX.
            06:34:08 C    Oh, look at that son-of-a-gun do it.
            06:34:10 P    Okay. You're coming right up under it at 90 degrees.
@@ -2477,7 +2476,7 @@
            06:34:24 C    Yes. You can see just the length of it out there -
                          outline of it.
            06:34:29 P    Look at that banana claw there.
-                              ROSE KNOT VICTOR
+           	                   ROSE KNOT VICTOR
            06:34:36 CC   Gemini IX, RKV CAP COM will be standing by until
                          you stabilize and start stationkeeping.
            06:34:38 C    Roger, RKV.
@@ -2605,7 +2604,7 @@
                                                the angle that the ATDA subtended in the reticle.
                       06:47:01        C        It was very easy to see the ATDA grow all the way
                                                through the complete maneuver.
-                                                          HOUSTON
+                      	                                    HOUSTON
                       06:56:02        CC       Gemini IX, Houston. Standing by for your fuel cell
                                                purge report.
                       06:56:41        CC       Gemini IX, Houston.
@@ -2672,7 +2671,7 @@
                    07:17:56      P       Roger.  One at a time.
                    07:17:58      C       Yes.
                    07:17:59      P       ... stand by.
-                                                  COASTAL SENTRY QUEBEC
+                   	                               COASTAL SENTRY QUEBEC
                    07:18:41      CC      CSQ CAP COM.
                    07:18:43      C       CSQ CAP COM.
                    07:18:44      C       We have completed Retrograde.
@@ -2700,13 +2699,13 @@
        07:22:03 CC  Roger. Understand.
        07:22:12 CC  We have nothing further for you at this time,
                     Gemini IX. Standing by.
-      07:24:26 CC   Gemini IX, CSQ CAP COM.
-      07:24:28 C    CSQ, go ahead.
-      07:24:30 CC   We have a Flight Plan update for you.
-      07:24:32 C    Roger. Stand by.
-      07:24:51 C    Gemini IX, go ahead.
-      07:24:52 CC   Roger at Hawaii. Time: 07:37:00; crew status
-                    report.
+       07:24:26 CC   Gemini IX, CSQ CAP COM.
+       07:24:28 C    CSQ, go ahead.
+       07:24:30 CC   We have a Flight Plan update for you.
+       07:24:32 C    Roger. Stand by.
+       07:24:51 C    Gemini IX, go ahead.
+       07:24:52 CC   Roger at Hawaii. Time: 07:37:00; crew status
+                     report.
 	Page 92
 
             07:25:07 CC  Sleep period from 08:00:00 to 09:00:00. At CSQ:
@@ -2723,7 +2722,7 @@
             07:26:34 C   Roger. ...
             07:26:40 CC   And we're showing you GO as you go by.
             07:26:44 C    Roger.
-                               HAWAII
+            	                   HAWAII
             07:38:00 CC   Gemini IX, Hawaii.
             07:38:02 C    Hawaii, IX here.
             07:38:04 CC   Roger. How's it going?
@@ -2787,7 +2786,7 @@
                          Neither one of us was perspiring at all, though.
            07:43:07 CC   Okay. Very good.
 
-                              ROSE KNOT VICTOR
+           	                   ROSE KNOT VICTOR
 
            08:10:15 CC   Gemini IX, RKV.
            08:10:17 C    Hello, RKV. Gemini IX here.
@@ -2828,7 +2827,7 @@
       08:13:57 CC   Roger.
       08:17:24 CC   Gemini IX, RKV. We have about one minute to LOS.
       08:17:29 C    Roger.
-                         TANANARIVE
+      	                   TANANARIVE
       08:31:18 CC   Gemini IX, Houston.
       08:31:29 CC   Gemini IX, Houston.
       08:31:32 C    Go, Houston. Gemini IX here.
@@ -2981,7 +2980,7 @@
       08:39:37 C    Roger.
 	Page 100
 
-                               COASTAL SENTRY QUEBEC
+	                   COASTAL SENTRY QUEBEC
             08:55:25 CC    Gemini IX, CSQ CAP COM.
             08:55:29 C     Gemini IX. Go, CSQ.
             08:55:32 CC    Roger. We show you GO on the ground. We'd like
@@ -3038,7 +3037,7 @@
       09:02:53 CC   ... Time: 09:00:00 ... Sequence 01, after all
                     overboard dumps. Do you copy?
 
-                          HAWAII
+      	                    HAWAII
 
       09:12:50 CC   Gemini IX, Hawaii.
       09:12:52 C    Hawaii, IX.
@@ -3094,7 +3093,7 @@
        09:20:39  C     Looks like we are going to miss that storm. We're
                        pointed up and to the northwest right now.
 
-                             ANTIGUA
+       	                      ANTIGUA
 
        17:45:01  CC    Gemini IX, Houston.
        17:45:06  CC    Gemini IX, Houston standing by for your call.
@@ -3143,9 +3142,9 @@
                           seconds; yaw 0, pitch 0; Address 25, 00020; 26
                           and 27, all zeros; aft thrusters; Posigrade. I'll
                           go ahead with the Height-Adjust now. GET B is
+                          19:08:16; Delta-V, 17.0 burn time, 22 seconds;
 	Page 105
 
-                       19:08:16; Delta-V, 17.0 burn time, 22 seconds;
                        yaw 0, pitch 0; Address 25, 00170; Address 26,
                        all zero; Address 27, zeros; aft thrusters, Posigrade.
                        That's Height-Adjust. Go ahead.
@@ -3189,7 +3188,7 @@
              17:51:17 C    Roger. How are you reading us, Neil?
              17:51:20 CC   Reading you loud and clear, Tom.
 
-                                 CANARY ISLANDS
+             	                    CANARY ISLANDS
 
              17:56:14 C    Flight. Gemini IX to Canary CAP COM.
              17:56:17 C    Canary, Gemini IX.
@@ -3267,16 +3266,16 @@
             18:02:59 P    Roger.
             18:03:12 CC   IX, Canaries. You can turn your Quantity Read
                           OFF at this time.
-                               KANO
+            	                   KANO
             18:04:23 CC   Gemini IX, Houston. 1 minute from LOS at Kano.
             18:04:29 C    Roger. Houston. We're all set up for our burn.
             18:04:41 CC   Roger. Congratulations for making it past 7-3.
 	Page 109
 
-      18:04:47 C   Roger, Neil. Thank you.
-      18:23:19 C    Rates adjust.
-      18:23:20 P    Mark it.
-      18:23:25 P    Okay.
+       18:04:47 C   Roger, Neil. Thank you.
+       18:23:19 C    Rates adjust.
+       18:23:20 P    Mark it.
+       18:23:25 P    Okay.
        18:23:29 C    ...
        18:23:33 P    82 is 0, 81 is minus 1, - and 80 is zero.
        18:23:57 C    The next burn ...
@@ -3285,7 +3284,7 @@
        18:24:09 C    What about that time ...?
        18:24:11 P    Oh, yes. That's almost an hour away. 19:08:16.
                      Okay?
-                          CARNARVON
+       	                   CARNARVON
        18:33:44 CC   Gemini IX, Carnarvon CAP COM.
        18:33:48 C    Carnarvon, IX.
        18:33:49 CC   Roger. How did the Phase-Adjust go?
@@ -3333,8 +3332,8 @@
       19:08:18 C    Mark it.
       19:08:39 P    Okay.
       19:08:44 P    That's good ...
-                         HOUSTON
-      19:18:50 CC   Gemini IX, Houston.
+      	                   HOUSTON
+      19:18:20 CC   Gemini IX, Houston.
       19:18:24 CC   Gemini IX, Houston.
       19:18:40 C    Hello, Houston. Gemini IX. How do you read?
       19:18:42 CC   Roger, Tom. Read you loud and clear. How me?
@@ -3445,7 +3444,7 @@
                           BEF.
             19:27:33 CC   Right.
 
-                                CANARY ISLANDS
+            	                    CANARY ISLANDS
 
             19:32:04 CC   Gemini IX, CAP COM. We have a valid oral temp on
                           both Pilot and Command Pilot.
@@ -3478,7 +3477,7 @@
       19:36:20 P    Canaries, we're at 82.3 miles with a Range-Rate
                     of 69 feet per second.
       19:36:26 CC   Roger. Copy.
-                         HOUSTON
+      	HOUSTON
       19:39:56 CC   Gemini IX, Houston standing by.
       19:39:59 C    Roger, Houston. We're Alining the Platform and
                     approaching N<sub>SR</sub>.
@@ -3575,7 +3574,7 @@
 	Page 119
 
      20:06:21 C    11 ...
-                        CARNARVON
+     	                   CARNARVON
      20:07:17 CC   Gemini IX, Carnarvon CAP COM.
      20:07:23 C    Carnarvon, IX. Go.
      20:07:26 CC   Roger. Would you turn the Tape Recorder Power
@@ -3619,13 +3618,13 @@
             20:10:50 CC   Roger.
             20:10:58 CC   The ACQ lights are on, IX.
             20:11:00 C    Roger.
-                     CC   Gemini IX, Carnarvon. We're one minute to LOS.
-                     C    Roger ...
-                     P    Carnarvon. Gemini IX is at 51.9 miles, 88 feet
+            20:11:00 CC   Gemini IX, Carnarvon. We're one minute to LOS.
+            20:11:00 C    Roger ...
+            20:11:00 P    Carnarvon. Gemini IX is at 51.9 miles, 88 feet
                           per second. Address 84 is not reading out properly,
                           so negative angle at this time.
-                     CC   Roger.
-                               HOUSTON
+            20:11:00 CC   Roger.
+            	                   HOUSTON
             20:51:52 CC   Gemini IX, Houston standing by.
             20:52:29 C    From the rendezvous from above, we have reflected
                          moonlight on the target.
@@ -3673,20 +3672,20 @@
              20:55:46 CC  Roger.
              20:55:48 P   Right. This one is going to be Point B at 220.
                           Hold onto him if you can.
-            20:55:53 C    ... get ...
-            20:56:00 P    Are you holding onto him?
-            20:56:05 C    Yes.
-            20:56:10 C    Yes. I've got him in reflected sunlight.
-            20:56:15 P    This is Point B coming up.
-            20:56:17 C    And ...
-            20:56:21 P    220 at the time.
-            20:56:22 C    Okay. I'll be on him.
-            20:56:28 P    It might even be Point C, so hold onto it.
-            20:56:42 P    Okay.
-            20:56:43 C    Stand by.
-            20:56:44 P    Okay.
-            20:56:45 C    Got him.
-            20:56:59 P    That was Point B.
+             20:55:53 C    ... get ...
+             20:56:00 P    Are you holding onto him?
+             20:56:05 C    Yes.
+             20:56:10 C    Yes. I've got him in reflected sunlight.
+             20:56:15 P    This is Point B coming up.
+             20:56:17 C    And ...
+             20:56:21 P    220 at the time.
+             20:56:22 C    Okay. I'll be on him.
+             20:56:28 P    It might even be Point C, so hold onto it.
+             20:56:42 P    Okay.
+             20:56:43 C    Stand by.
+             20:56:44 P    Okay.
+             20:56:45 C    Got him.
+             20:56:59 P    That was Point B.
 	Page 123
 
       20:57:00 C    Still have him in reflected sunlight in a sunrise
@@ -3734,17 +3733,17 @@
             20:59:16 P   Houston, Gemini IX. Elevation 204.2; range 17:72.
                           Don't let me - -
             20:59:21 CC   Houston. Roger.
-             20:59:25 P   - - Ground gave 60.5 forward, 3/10ths up, and
-                          205 - 2.5 right and you have left.
-             20:59:34 C   What do you have?
-             20:59:36 P   I don't have it, Joe. I've got to get Point D at
-                          5:40. 204.2 and 7/10ths.
-             20:59:38 C    ... I'll get it.
-             20:59:42 C   Houston. Closed-Loop is 20 forward, 2 left,
-                          3 down.
-             20:59:48 P   I don't like the down, Tom. Because we're
-                          coming - -
-             20:59:49 CC  Got it.
+            20:59:25 P   - - Ground gave 60.5 forward, 3/10ths up, and
+                         205 - 2.5 right and you have left.
+            20:59:34 C   What do you have?
+            20:59:36 P   I don't have it, Joe. I've got to get Point D at
+                         5:40. 204.2 and 7/10ths.
+            20:59:38 C    ... I'll get it.
+            20:59:42 C   Houston. Closed-Loop is 20 forward, 2 left,
+                         3 down.
+            20:59:48 P   I don't like the down, Tom. Because we're
+                         coming - -
+            20:59:49 CC  Got it.
 	Page 125
 
       20:59:50 P   - - we're coming down.
@@ -3783,7 +3782,7 @@
              21:07:52 C    Radar is doing beautiful.
              21:08:23 P    Canary, this is Gemini IX. Last point: elevation,
                            215.6; range, 11.7 miles.
-                                CANARY ISLANDS
+             	                   CANARY ISLANDS
              21:10:01 P    Canary, this is Gemini IX. We're up, Alining.
                            No angle. No Range-Rate. We're at 10.21 miles.
              21:10:16 CC   Roger.
@@ -3864,7 +3863,7 @@
            21:21:08 C    Houston, Roger. Finally have a look at what's
                          down there and request ...
            21:21:14 CC   Houston. Roger.
-                              CARNARVON
+           	                   CARNARVON
            21:42:03 C    Hello, Houston. Gemini IX.
 
 	Page 129
@@ -3924,13 +3923,13 @@
                           fuel. We'll talk to you over the States.
              21:49:27 CC  Gemini IX, Carnarvon.
              21:49:30 C   Go ahead, Carnarvon.
-            21:49:31 CC   Would you place your Quantity Read to ECS O<sub>2</sub>?
-            21:49:58 CC   FUEL CELL O<sub>2</sub>.
-            21:50:10 CC   FUEL CELL H<sub>2</sub>.
+             21:49:31 CC   Would you place your Quantity Read to ECS O<sub>2</sub>?
+             21:49:58 CC   FUEL CELL O<sub>2</sub>.
+             21:50:10 CC   FUEL CELL H<sub>2</sub>.
 	Page 131
 
       21:50:23 CC   Quantity Read to OFF and we're standing by.
-                         CANTON ISLAND
+      	                   CANTON ISLAND
       22:04:57 CC   Gemini IX, this is Houston.
       22:05:01 C    Roger, Houston. How do you read?
       22:05:06 C    Houston, Gemini IX.
@@ -3967,7 +3966,7 @@
 
 	Page 132
 
-                             GUAYMAS
+	                   GUAYMAS
           22:22:26 CC   Gemini IX, Houston.
           22:22:28 C    Gemini IX. Go.
           22:22:31 CC   Roger. It's the Ground recommendation that we
@@ -4007,7 +4006,7 @@
                     point, and we're continuing the flight planning
                     activity in that direction.
       22:25:35 P    That's better.
-                          TEXAS
+      	                    TEXAS
       22:27:24 CC   IX, we're over about the middle of Texas pass.
                     Now we're standing by for your recommendation.
       22:27:31 C    Okay. We're set to photograph - go ahead and
@@ -4015,7 +4014,7 @@
       22:27:38 CC   Okay. We'll let you know as we do each action
                     here.
 
-                         HOUSTON
+      	                   HOUSTON
 
       22:28:39 CC   IX, Houston standing by here. We're waiting for
                     telemetry from the ATDA. Should have it squared
@@ -4112,14 +4111,14 @@
             22:42:55 CC   Okay. We'd like for you to do a 3-foot-per-eecond
                           Retrograde Maneuver at your convenience and give
                           us the time, please.
-             22:43:03 C   Roger. We're still snapping pictures.
-             22:43:06 CC  Okay. We're standing by. All systems look good.
-             22:43:16 P   Except the one we're taking a picture of!
-             22:44:43 C   Canary, this is IX here. We're going to have
-                          plenty of documentary evidence of what caused the
-                          failure.
-             22:44:47 CC  Say again, IX?
-             22:44:49  C   Roger. We're going to have plenty of documentary
+            22:43:03 C   Roger. We're still snapping pictures.
+            22:43:06 CC  Okay. We're standing by. All systems look good.
+            22:43:16 P   Except the one we're taking a picture of!
+            22:44:43 C   Canary, this is IX here. We're going to have
+                         plenty of documentary evidence of what caused the
+                         failure.
+            22:44:47 CC  Say again, IX?
+            22:44:49  C   Roger. We're going to have plenty of documentary
 
 	Page 137
 
@@ -4140,7 +4139,7 @@
                     Retrograde Burn. We've still got him
                     in sight, exposed a lot of film, and hope to give
                     you a call over Carnarvon or Tananarive.
-      22:54:12 CC   Roger. We're standing by. Ail we need is the
+      22:54:12 CC   Roger. We're standing by. All we need is the
                     time and velocity of the burn.
       22:54:16 C    Roger.
       23:02:47 C    Hello, Houston. Gemini IX.
@@ -4175,7 +4174,7 @@
             23:05:20 CC  Gemini IX, Houston. We're having a little trouble
                          reading you. Say again, please.
 
-                               CARNARVON
+            	                   CARNARVON
 
             23:18:02 CC  Gemini IX, Carnarvon CAP COM. We're standing by.
             23:18:05 C   Roger, Carnarvon. We're just getting squared away
@@ -4193,7 +4192,7 @@
                     12.
        23:18:38 CC   Roger. We copy.
 
-                           GUAYMAS
+       	                    GUAYMAS
 
        23:56:07 CC   Gemini IX, Houston.
        23:56:09 C    Houston, Gemini IX.
@@ -4334,7 +4333,7 @@
        24:13:50 P    Yes, try a little harder. I lost 2 out of 2
                      yesterday.
        24:13:54 CC   Say again.
-       24:l4:01 P    Yes, the Astros and the Cubs.
+       24:14:01 P    Yes, the Astros and the Cubs.
        24:14:04 CC   Well, I lost one of them with you, so that's
                      pretty close. Chris said the Yankees won.
        24:14:14 P    Say again.
@@ -4344,7 +4343,7 @@
                      wrong league.
        24:14:26 P    Yankee who?
        24:14:29 CC   Good night.
-                          CARNARVON
+       	                   CARNARVON
        26:31:49 CC   Gemini IX, Carnarvon CAP COM.
        26:31:59 CC   Gemini IX, Carnarvon CAP COM.
        26:32:02 P    Carnarvon, this is Gemini IX. Go.
@@ -4373,17 +4372,17 @@
             26:34:49 CC   The second D-14 is 27:16:33.
             26:34:54 P    Roger. I've got it 27:16:33.
             26:34:58 CC   Roger. Alpha Romeo.
-             26:35:01 P   Got it.
-             26:35:06 C   Thanks for the rest, it sure helps.
-             26:35:09 CC  You're welcome.
-             26:37:03 CC  Gemini IX, Carnarvon. 1 minute to LOS.
-             26:37:06 C   Roger, Carnarvon. We're Alining the Platform so
-                          we can give ... away.
-             26:37:11 CC  Roger.
+            26:35:01 P   Got it.
+            26:35:06 C   Thanks for the rest, it sure helps.
+            26:35:09 CC  You're welcome.
+            26:37:03 CC  Gemini IX, Carnarvon. 1 minute to LOS.
+            26:37:06 C   Roger, Carnarvon. We're Alining the Platform so
+                         we can give ... away.
+            26:37:11 CC  Roger.
 
 	Page 145
 
-                         HAWAII
+	                  HAWAII
        26:57:10 CC   Gemini IX, Hawaii.
        26:57:12 CC   All systems are GO on the ground and we're
                      standing by.
@@ -4404,7 +4403,7 @@
        26:58:37 CC   Sure will. Why don't you leave it in that position
                      until you get across the States?
        26:58:40 P    Okay.
-                          CALIFORNIA
+       	                   CALIFORNIA
        27:05:12 CC  Gemini IX, Houston.
        27:05:14 C   Houston, Gemini IX.
        27:05:16 CC   Roger. Reading you loud and clear. Understand
@@ -4448,7 +4447,7 @@
        27:08:31 CC   Roger. Understand, the Quantity. The pressure
                      is looking good down here. We'll catch this over
                      Texas in a few seconds.
-                         GUAYMAS
+       	                  GUAYMAS
        27:10:19 P    Houston, Gemini IX.
        27:10:21 CC   Gemini IX, Houston. Go.
        27:10:23 P    Roger. Just for information - my main batteries
@@ -4518,13 +4517,13 @@
        27:23:21 P    And I see by that last experiment update you're
                     watching out for your favorite 11 group.
        27:23:26 CC   Yes sir. Lots of those.
-               CC   Gemini IX, Houston.
-               P    Go ahead, Houston.
-               CC   Roger. We're thirty seconds to LOS and we did
+       27:23:26 CC   Gemini IX, Houston.
+       27:23:26 P    Go ahead, Houston.
+       27:23:26 CC   Roger. We're thirty seconds to LOS and we did
                     get good data at Antigua on D-14.
-               P    Say you did get good data?
-               CC   That's affirmative.
-               P    Good.
+       27:23:26 P    Say you did get good data?
+       27:23:26 CC   That's affirmative.
+       27:23:26 P    Good.
        27:33:20 CC   Gemini IX, Houston. We're standing by for your
                      fuel cell purge.
        27:36:22 CC   Gemini IX, Houston.
@@ -4537,7 +4536,7 @@
             27:36:34 C    Great!
             27:36:38 CC   Roger. Understand.
 
-                               TANANARIVE
+            	                   TANANARIVE
 
             27:52:24 CC   Gemini IX, Houston.
             27:52:28 C    Gemini IX. Go.
@@ -4546,7 +4545,7 @@
             27:52:32 C    We're getting ready to do the D-14 over Hawaii.
             27:52:36 CC   Roger. Understand.
 
-                               CARNARVON
+            	                   CARNARVON
 
             28:05:41 CC   Gemini IX, Carnarvon CAP COM. We have nothing
                           for you this pass. We'll be standing by.
@@ -4577,7 +4576,7 @@
        28:10:57 CC   We'll see you tomorrow.
        28:10:59 C    Roger.
 
-                          HAWAII
+       	                   HAWAII
 
        28:33:36 CC   Gemini IX, Hawaii. We're receiving your D-14
                      data and it looks real good.
@@ -4626,8 +4625,8 @@
 
               28:41:41 CC    And I've got a G and C status here for you if
                              you're interested in all that. We've got down
-                             here - it looks like as far as the OAMS are con-
-                             cerned - fuel remaining is 48 pounds, oxidizer
+                             here - it looks like as far as the OAMS are
+                             concerned - fuel remaining is 48 pounds, oxidizer
                              remaining is about 78. On-board gage should read
                              about 11 percent and usable fuel gives us about
                              82 pounds. This is plenty of OAMS for Attitude
@@ -4700,28 +4699,28 @@
            28:44:18 CC   Okay. And coolant loops -- both of them look
                         real good and I understand you are on both A
                         pumps at this time to keep a little cool.
-            28:44:25 C   That's affirmative.
-            28:44:27 CC  Okay. That's really all that we have here at
-                         this time. We'll be standing by.
-            28:44:31 C   Roger.
+           28:44:25 C   That's affirmative.
+           28:44:27 CC  Okay. That's really all that we have here at
+                        this time. We'll be standing by.
+           28:44:31 C   Roger.
 
-                               GUAYMAS
+           	                   GUAYMAS
 
-            28:45:03 CC  IX, Houston.
-            28:45:05 C   Houston, IX.
-            28:45:07 CC  Roger. How about putting your Quantity Read
-                         switch to ECS O<sub>2</sub>.
-            28:45:13 C    ... Go. We have a reading of about 65 - 64 1/2
-                         percent.
-            28:45:19 CC  Roger. Understand you're reading 64-1/2 percent.
-            28:45:52 CC  Gemini IX, Houston. Go to FUEL CELL O<sub>2</sub>.
-            28:45:57 C   FUEL CELL O<sub>2</sub>.
-            28:46:33 CC  Gemini IX, Houston. Go to FUEL CELL HYDROGEN.
-            28:46:39 C   FUEL CELL HYDROGEN.
-            28:47:03 CC  Gemini IX, Houston. You can go to Quantity Read,
-                          OFF. Everything looks good down here.
-            28:47:09 C    Quantity Read to OFF. Could you give us the
-                         latest GET hack?
+           28:45:03 CC  IX, Houston.
+           28:45:05 C   Houston, IX.
+           28:45:07 CC  Roger. How about putting your Quantity Read
+                        switch to ECS O<sub>2</sub>.
+           28:45:13 C    ... Go. We have a reading of about 65 - 64 1/2
+                        percent.
+           28:45:19 CC  Roger. Understand you're reading 64-1/2 percent.
+           28:45:52 CC  Gemini IX, Houston. Go to FUEL CELL O<sub>2</sub>.
+           28:45:57 C   FUEL CELL O<sub>2</sub>.
+           28:46:33 CC  Gemini IX, Houston. Go to FUEL CELL HYDROGEN.
+           28:46:39 C   FUEL CELL HYDROGEN.
+           28:47:03 CC  Gemini IX, Houston. You can go to Quantity Read,
+                        OFF. Everything looks good down here.
+           28:47:09 C    Quantity Read to OFF. Could you give us the
+                        latest GET hack?
 
 	Page 155
 
@@ -4768,7 +4767,7 @@
              28:50:31 CC  Okay.
              29:00:03 CC  Gemini IX, Houston. We're one minute LOS Antigua.
 
-                                ROSE KNOT VICTOR
+             	                   ROSE KNOT VICTOR
 
              29:04:28 CC   Gemini IX, RKV CAP COM.
              29:04:31 C    RKV, IX here. GO.
@@ -4789,8 +4788,6 @@
                            57; weather good. Bank angle for all areas:
                            roll right 95. No Sep Maneuver for any area.
              29:08:11 C    What I missed was the GET RC of Area 22-3.
-
-                            CONFIDENTIAL
 
 	Page 157
 
@@ -4816,7 +4813,7 @@
        29:12:59 P   Oh, the cockpit position ... just I thought ...
        29:13:23 C   ... moon reflecting down.
 
-                         HOUSTON
+       	                  HOUSTON
 
        29:13:27 CC  Gemini IX, Houston with a COM check through
                     Ascension.
@@ -5044,7 +5041,7 @@
       29:37:09 C   ... About.
 	Page 166
 
-                                COASTAL SENTRY QUEBEC
+	                     COASTAL SENTRY QUEBEC
 
            29:49:04  CC  Gemini IX, CSQ CAP COM.
            29:49:06  C   Stand by.
@@ -5075,21 +5072,21 @@
 
                 30:04:31         C       Attitude is ON.
 
-                                                    HAWAII
+                	                                    HAWAII
 
                 30:09:40         CC      Gemini IX, Hawaii. We're receiving your D-14
                                          data and it looks real good.
                 30:09:45         C       Gemini IX. Roger.
 
-                                                    CALIFORNIA
+                	                                    CALIFORNIA
 
                 30:16:32         CC      Gemini IX, Houston.
                 30:16:33         C       Houston, Gemini IX.
                 30:16:35         CC      Roger, Tom. We are standing by. We don't have
                                          anything for you this pass, except one question.
                                          If you can recall when you closed the S-12 door,
-                                         do you have any idea how long that door was run-
-                                         ning before it closed? Over.
+                                         do you have any idea how long that door was running
+                                         before it closed? Over.
                                     
                 30:16:52         C       We couldn't hear it operate,
                 30:16:55         CC      Okay. Fine, thank you.
@@ -5162,7 +5159,7 @@
         30:24:09 C   Roger.
 	Page 170
 
-                            ROSE KNOT VICTOR
+	                  ROSE KNOT VICTOR
 
           30:39:46 CC  Gemini IX, RKV CAP COM. We have nothing for you
                        this pass. We are standing by.
@@ -5219,16 +5216,16 @@
               31:20:07  P    Okay. That was after the first day, Tom. Those
                              zipper bags for the ...
 
-                                   COASTAL SENTRY QUEBEC
+              	                     COASTAL SENTRY QUEBEC
 
               31:23:46  CC   Gemini IX, CSQ CAP COM. You need not answer. We
                              have nothing special for you at this time. We
                              show your vehicle as GO. We are standing by.
               31:23:58  C    Gemini IX. Roger, CSQ.
-                        CC   Gemini IX. We have you GO and we are at LOS, we
+              31:23:58  CC   Gemini IX. We have you GO and we are at LOS, we
                              just received an answer.
 
-                                   HAWAII
+              	                     HAWAII
 
               31:46:21  CC   Gemini IX, Hawaii. We're receiving your D-14
                              data and all systems look good.
@@ -5246,21 +5243,21 @@
               31:49:55  C    Roger.
 	Page 173
 
-                         ROSE KNOT VICTOR
+	                         ROSE KNOT VICTOR
 
-                CC  Gemini IX, RKV CAP COM. You need not acknowledge
+       31:49:55 CC  Gemini IX, RKV CAP COM. You need not acknowledge
                     this transmission. We've got you GO on the ground
                     and are standing by.
-                CC  Gemini IX, RKV. We have about a minute to LOS.
+       31:49:55 CC  Gemini IX, RKV. We have about a minute to LOS.
                     Will be standing by.
-                C   Roger.
-       32:37:45 CC Gemini IX, Houston is standing by. We have noth-
-                   ing for you this pass.
+       31:49:55 C   Roger.
+       32:37:45 CC Gemini IX, Houston is standing by. We have nothing
+                   for you this pass.
        32:37:51 C  ...
-                         COASTAL SENTRY QUEBEC
+       	                  COASTAL SENTRY QUEBEC
 
-       33:00:34 CC Gemini IX, CSQ CAP COM. We have a valid temper-
-                   ature on the Command Pilot. Kindly disregard, at
+       33:00:34 CC Gemini IX, CSQ CAP COM. We have a valid temperature
+                   on the Command Pilot. Kindly disregard, at
                    this time, the temperature. We're standing by for
                    your food and water report and fuel cell purge, at
                    your convenience.
@@ -5274,8 +5271,7 @@
        33:01:41 C  Roger. 02444.
        33:01:47 CC Roger. Copy 02444.
        33:02:06 CC Roger, Gemini IX. We have a valid temperature on
-                   the Pilot at this time. You can remove the ther-
-                   mometer.
+                   the Pilot at this time. You can remove the thermometer.
 
 	Page 174
 
@@ -5292,7 +5288,7 @@
             33:07:14 CC  Roger. We show you as GO and you're around 20
                          seconds - 30 seconds from our LOS.
 
-                              HAWAII
+            	                  HAWAII
 
             33:19:41 CC  Gemini IX, Hawaii.
             33:19:42 CC  Gemini IX, Hawaii.
@@ -5318,17 +5314,17 @@
         33:21:46  P    Okay. Will do.
         33:22:18  CC   Gemini IX, Hawaii.
         33:22:21  C    Go ahead, Hawaii.
-        33:22:22  CC   This will be about all the air-to-ground conver-
-                       sations we'll have with you for awhile and we won't
-                       be calling you any more for some time, unless some-
-                       thing comes up we need you for.
+        33:22:22  CC   This will be about all the air-to-ground conversations
+                       we'll have with you for awhile and we won't
+                       be calling you any more for some time, unless something
+                       comes up we need you for.
         33:22:32  P    Okay. Thank you very much.
 
-                             HOUSTON
+        	                     HOUSTON
 
         44:54:11  CC   Gemini IX, Houston. Did you take any water at all?
-        44:54:16  C    ... We've got a little problem with the water build-
-                       ing up. What does your counter read?
+        44:54:16  C    ... We've got a little problem with the water building
+                       up. What does your counter read?
         44:54:22  C    Stand by, Neil.
         44:54:24  C    2472, 02472.
         44:54:31  CC   Okay. Well, we're going to have you - have you
@@ -5434,7 +5430,7 @@
                        good enough.
           45:08:14 C   Roger.
 
-                             CANARY ISLANDS
+          	                   CANARY ISLANDS
 
           45:11:36 CC  Gemini IX, Canary CAP COM.
 
@@ -5502,7 +5498,7 @@
                          with your fuel cell purge when you're ready.
             45:19:28 P   Fine. Roger.
 
-                               CARNARVON
+            	                   CARNARVON
 
             45:48:01 CC  Gemini IX, Carnarvon CAP COM. All systems are GO.
                          Would you place the Quantity Read switch to ECS O<sub>2</sub>?
@@ -5520,7 +5516,7 @@
        45:49:20 C    6 to 7 percent.
        45:54:59 P    Roger, Carnarvon.
 
-                         HOUSTON
+       	                  HOUSTON
 
        46:29:28 CC   Gemini IX, Houston.
        46:29:30 P    Go ahead, Houston.
@@ -5561,7 +5557,7 @@
                          we're not quite sure what's happening, so would you
                          give us a gun count when you complete drinking water
                          any time in the next two revolutions?
-            46:35:05 C   Okay. Roger....we'll give you one later on.
+            46:35:05 C   Okay. Roger. ... we'll give you one later on.
             46:35:09 CC  Roger.
             46:35:51 CC  IX, Houston. On that water - we only need that
                          when you're through drinking, just before the EVA.
@@ -5583,7 +5579,7 @@
        46:42:55 C   Sequence 24.
        46:42:56 CC  Roger, Tom. Thank you.
 
-                         CANARY ISLANDS
+       	                  CANARY ISLANDS
 
        46:47:20 CC  Gemini IX, Canary CAP COM. We have you GO on the
                     ground. You need not acknowledge this transmission.
@@ -5592,7 +5588,7 @@
                     snake out of the black box.
        46:49:38 CC  Roger, IX.
 
-                         KANO
+       	                  KANO
 
        46:55:48 CC  Gemini IX, Houston. Standing by.
        46:55:52 P   Roger, Houston. We're still at it.
@@ -5607,7 +5603,7 @@
              47:01:59 C    Roger. We have Sequence 40.
              47:02:01 CC   Roger, Tom. Thank you.
 
-                                TANANARIVE
+             	                   TANANARIVE
 
              47:08:15 CC   Gemini IX, Houston. Standing by.
              47:08:18 C    ...
@@ -5641,7 +5637,7 @@
                     Pitch.
         47:15:02 C  ...
 
-                          CARNARVON
+        	                  CARNARVON
 
         47:22:45 P  Hello, Carnarvon. Gemini IX.
         47:22:47 CC Go ahead, IX.
@@ -5705,7 +5701,7 @@
 
        47:28:29 CC  Roger.
 
-                          CANTON
+       	                   CANTON
 
        47:43:19 CC  Gemini IX, Houston standing by.
        47:43:21 C   Roger, Houston. It looks like we're all squared
@@ -5715,7 +5711,7 @@
        47:43:39 CC  There'll be days like that.
        47:43:42 C   Find these little curses now and then.
 
-                          GUAYMAS
+       	                   GUAYMAS
 
        48:00:33 CC  Gemini IX, Houston standing by.
        48:00:44 C   This is Gemini IX. We're ...
@@ -5738,7 +5734,7 @@
                               popping.
               48:19:27   CC   Roger. Understand.
 
-                                     CANARY ISLANDS
+              	                       CANARY ISLANDS
 
               48:25:46   CC   Gemini IX, Canary CAP COM. We have you GO on the
                               ground. You need not acknowledge. We're standing
@@ -5754,7 +5750,7 @@
               48:28:22   C    ...
               48:28:29   CC   Houston. Roger.
 
-                                     KANO
+              	                       KANO
 
               48:34:03   C    Houston, Gemini IX.
               48:34:04   CC   Gemini IX. Go ahead.
@@ -5772,7 +5768,7 @@
        48:34:53 CC  We'll give you that Sunrise Check at Tananarive.
                     We're 1 minute to LOS.
 
-                         HOUSTON
+       	                  HOUSTON
 
        48:42:34 CC  Gemini IX, Houston standing by.
        48:42:36 C   ...
@@ -5800,7 +5796,7 @@
             48:49:15 CC  Gemini IX, Houston. 1 minute to LOS Tananarive.
             48:49:20 C   ...
 
-                               CARNARVON
+            	                   CARNARVON
 
             48:58:47 CC  Gemini IX, Carnarvon CAP COM.
             48:58:49 C   Carnarvon. Ready to go.
@@ -5843,7 +5839,7 @@
        49:19:46 C   Roger. ...
        49:19:48 C   You all come back ...
 
-                          CANTON ISLAND
+       	                   CANTON ISLAND
 
        49:19:50 CC   Gemini IX, Houston. Standing by.
        49:19:54 C    I have just depressurized the cabin and all systems
@@ -5864,14 +5860,14 @@
       49:20:24 P   Okay. I can't because it's wedged but I'll get it 
                    down as soon as I open the hatch.
       49:20:27 C   Sunrise: unlock the hatch, push the Spacecraft
-                   hatch so it's unlocked.  We're at 1/4 psi pressure
+                   hatch so it's unlocked. We're at 1/4 psi pressure
                    reading ... We've got about 6 minutes to go to
                    sunup.
       49:20:41 C   You want to go ahead and get some of that out of
                    the way?
       49:20:43 P   Get what out of the way?
       49:20:45 C   Get the hatch opening out of the way.  Do you want
-                   to stay there awhile?  Can you see?
+                   to stay there awhile? Can you see?
       49:20:53 P   The only way I can see - as soon as I see the sun's
                    rays coming over, Tom - well although we're using
                    water ...
@@ -6102,19 +6098,19 @@
             49:29:35  C    What do you see back there? Any hoses off the
                            back end?
             49:29:37  P    What?
-           49:29:49   P    I think the cutters will stay.
-           49:29:51   C    Okay.
-           49:29:54   C    Okay. We'll install the 16mm EV camera now.
-           49:29:55   P    Pull me back down.
-           49:29:56   C    I'll pull you down. Here you come in. Coming
-                           down.
-           49:29:59   P    Okay. Pull me down some more.
-           40:30:01   C    Coming down. Keep your legs together.
-           49:30:03   P    Okay.
-           49:30:04   C    Come back here!
-           49:30:05   P    Okay.
-           49:30:08   C    Install the 16mm camera with 5mm lens.
-           49:30:13   P    Okay. Tom, put me back a little more.
+            49:29:49   P    I think the cutters will stay.
+            49:29:51   C    Okay.
+            49:29:54   C    Okay. We'll install the 16mm EV camera now.
+            49:29:55   P    Pull me back down.
+            49:29:56   C    I'll pull you down. Here you come in. Coming
+                            down.
+            49:29:59   P    Okay. Pull me down some more.
+            49:30:01   C    Coming down. Keep your legs together.
+            49:30:03   P    Okay.
+            49:30:04   C    Come back here!
+            49:30:05   P    Okay.
+            49:30:08   C    Install the 16mm camera with 5mm lens.
+            49:30:13   P    Okay. Tom, put me back a little more.
 	Page 201
 
             49:30:15       C      Okay.
@@ -6127,7 +6123,7 @@
             49:30:37       C      Got it?
             49:30:39       P      Okay.
             49:30:40       C      I'm holding you down here.
-             49:30:42      P      Got the camera. Now let me check the settings
+            49:30:42       P      Got the camera. Now let me check the settings
                                   again, Tom.
             49:30:44       C      Okay.
             49:30:45       P      Six frames per second, 1/2OOth of a second.
@@ -6194,7 +6190,7 @@
         49:33:46 P   Okay.
 	Page 204
 
-                            CALIFORNIA
+	                            CALIFORNIA
 
          49:33:48 CC  Look, fellows, about - you broke the docking bar?
          49:33:52 P   Neil, get back to work on the thrusters.
@@ -6306,7 +6302,7 @@
          49:39:42 P    If I'm going to go out, I got to get myself pushed
                        forward.
 
-                             TEXAS
+         	                    TEXAS
 
          49:39:55 P    I can't get there unless I come down a little bit.
          49:39:56 C    You want to come back in and let me help you with
@@ -6354,24 +6350,24 @@
         49:41:49  P    Okay, Tom.
         49:41:51  C    All right.
         49:41:54  P    I'm going to pitch off here to the left.
-         49:41:58 C    Okay. Come on over to the left.
-         49:42:03 P    To my left over here?
-         49:42:04 C    To your left.
-         49:42:06 P    Okay. I'll come to your left. It doesn't make
-                       any difference.
-         49:42:07 C    Come on down there so I can help you down ...
-         49:42:10 C    Let me know if you get down near those thrusters.
-         49:42:13 P    I don't know where I'm going right now, so hold on.
-         49:42:15 P    Yes. I'm getting there, Tom.
-         49:42:17 C    Well, let me know when you get on the adapter.
-                       Maybe you ought to bang on it now.
-         49:42:22 C    Let me know to shut it off. Shut them off?
-         49:42:25 P    Yes. I'm all right.
-         49:42:26 C    Okay.
-         49:42:27 P    Okay. I've got the snake all over me.
-         49:42:30 C    You've got what?
-         49:42:31 P    Snake all over me.
-         49:42:36 P    Have you got this other camera on?
+        49:41:58 C    Okay. Come on over to the left.
+        49:42:03 P    To my left over here?
+        49:42:04 C    To your left.
+        49:42:06 P    Okay. I'll come to your left. It doesn't make
+                      any difference.
+        49:42:07 C    Come on down there so I can help you down ...
+        49:42:10 C    Let me know if you get down near those thrusters.
+        49:42:13 P    I don't know where I'm going right now, so hold on.
+        49:42:15 P    Yes. I'm getting there, Tom.
+        49:42:17 C    Well, let me know when you get on the adapter.
+                      Maybe you ought to bang on it now.
+        49:42:22 C    Let me know to shut it off. Shut them off?
+        49:42:25 P    Yes. I'm all right.
+        49:42:26 C    Okay.
+        49:42:27 P    Okay. I've got the snake all over me.
+        49:42:30 C    You've got what?
+        49:42:31 P    Snake all over me.
+        49:42:36 P    Have you got this other camera on?
 
 	Page 210
 
@@ -6584,16 +6580,16 @@
 
        50:00:54  C    Okay.
        50:01:20  P    How are we doing on time?
-        50:01:22 C    34 minutes. Do you want to go back to the adapter
+       50:01:22 C    34 minutes. Do you want to go back to the adapter
                       earlier, or just stay here and relax?
        50:01:29  P    Oh, it's probably going to take a little bit more
                       time to close the hatch than I thought. The seal
                       is still soft.
-        50:01:37  C   What?
-        50:01:38  P   The seal is still soft.
-        50:01:39  C   Yes, it is.
-        50:01:48  CC  Gemini IX, Houston standing by over Ascension.
-        (Note: Transmissions through 50:05:21 were garbled. Unable to clarify.)
+       50:01:37  C   What?
+       50:01:38  P   The seal is still soft.
+       50:01:39  C   Yes, it is.
+       50:01:48  CC  Gemini IX, Houston standing by over Ascension.
+       	(Note: Transmissions through 50:05:21 were garbled. Unable to clarify.)
        50:01:51  C   Roger ...
        50:02:03  CC  Okay. We're not reading you very well yet.
        50:02:06  C   ...
@@ -6604,7 +6600,7 @@
        50:02:33  CC  Okay.
        50:02:42  C   ...
        50:02:57  C   ...
-                 P   ... close the hatch.
+       50:02:57  P   ... close the hatch.
        50:03:01  C   ... I don't think so.
        50:03:31  P   Get out here so I can see ...
        50:03:46  P   ...
@@ -6642,7 +6638,7 @@
               50:11:54        C      I've got the lights on.
               50:11:56        P      Okay. I've only got one of them on back here. The one light.
               50:11:58        C       One light. Roger.
-              50:12:l0        P       Okay.
+              50:12:10        P       Okay.
               50:12:12        C       Pull your umbilical to remove slack. You all
                                       squared sway?
               50:12:15        P       Yes.
@@ -6663,11 +6659,11 @@
               50:13:56        P       And the other one does not work. How's that?
 	Page 220
 
-         50:13:58  C   What's this?
+          50:13:58  C   What's this?
           50:13:59 P   The one on each side.
           50:14:00 C   Okay. One pen light doesn't work, one EVA light
                        doesn't work.
-          50:14:l0 C   Okay.
+          50:14:10 C   Okay.
           50:14:12 C   Ready for the next step?
           50:14:15 P   Yes. Let's go slow though.
           50:14:17 C   I'm going back in Plat mode. Stand by for a couple
@@ -6740,7 +6736,7 @@
            50:20:34 C   Okay. Going back to medium flow. Place time at
                         54 minutes (EVA time from hatch opening).
 
-                              TANANARIVE
+           	                   TANANARIVE
 
            50:20:41 C   Hello, Houston. Gemini IX.
            50:20:51 CC  Houston. Go ahead.
@@ -6816,30 +6812,30 @@
 
         50:25:58  C    ... your umbilical to ...
         50:26:10  P    I can't get the tether hooked on this cargo.
-         50:26:20 C    Why, are the rings too small?
-         50:26:22 P    No. They're just too hard to get at.
-         50:26:27 C    Roger. Just take your time. We've got plenty of
-                       time.
-         50:26:29 P    I've got the 125-foot hook on, Tom. I'm tempted to
-                       leave the other one for awhile.
-         50:26:31 C    Okay. Just leave it. Go ahead.
-         50:26:33 P    I'm going to leave it.
-         50:26:34 C    Go ahead.
-         50:26:36 C    Okay. The next item: inspect AMU battery cases
-                       and verify RCS handles in stowed position.
-         50:26:49 P    Check.
-         50:26:53 P    Okay. Battery cases are GO.
-         50:26:55 C    Okay.
-         50:27:01 P    RCS handles stowed.
-         50:27:10 P    And that one's stowed.
-         50:27:11 C    Okay.
-         50:27:14 C    Okay. Install attitude controller arm, and verify
-                       all six positions.
-         50:27:29 P    Okay. It's going to be a bad one.
-         50:27:39 P    Oh, shucks!
-         50:27:44 C    It's worse than under - under simulation.
-         50:27:46 P    You can't - can't get two hands in there.
-         50:27:57 P    Oh, you bad one.
+        50:26:20 C    Why, are the rings too small?
+        50:26:22 P    No. They're just too hard to get at.
+        50:26:27 C    Roger. Just take your time. We've got plenty of
+                      time.
+        50:26:29 P    I've got the 125-foot hook on, Tom. I'm tempted to
+                      leave the other one for awhile.
+        50:26:31 C    Okay. Just leave it. Go ahead.
+        50:26:33 P    I'm going to leave it.
+        50:26:34 C    Go ahead.
+        50:26:36 C    Okay. The next item: inspect AMU battery cases
+                      and verify RCS handles in stowed position.
+        50:26:49 P    Check.
+        50:26:53 P    Okay. Battery cases are GO.
+        50:26:55 C    Okay.
+        50:27:01 P    RCS handles stowed.
+        50:27:10 P    And that one's stowed.
+        50:27:11 C    Okay.
+        50:27:14 C    Okay. Install attitude controller arm, and verify
+                      all six positions.
+        50:27:29 P    Okay. It's going to be a bad one.
+        50:27:39 P    Oh, shucks!
+        50:27:44 C    It's worse than under - under simulation.
+        50:27:46 P    You can't - can't get two hands in there.
+        50:27:57 P    Oh, you bad one.
 	Page 226
 
                50:27:59       C      Get it yet?
@@ -6865,7 +6861,7 @@
                50:29:39       C      Still working on the translational controller,
                                      right?
                50:29:41       P      Yes.  Coming up to it now.
-               50:29:49       C      I can tell you're heated back there....
+               50:29:49       C      I can tell you're heated back there. ...
                50:29:50       C      Got her?
                50:29:51      P       Yes.
 	Page 227
@@ -6874,7 +6870,7 @@
         50:29:53 C    Okay.
         50:29:54 P    Wait a minute. It's not all the way down.
         50:30:03 P    Okay.
-        50:30:08 C    Okay ....
+        50:30:08 C    Okay. ...
         50:30:09 P    Who said this visor wouldn't fog up?
         50:30:10 P    Is it fogging on you?
         50:30:11 P    Yes.
@@ -6920,13 +6916,13 @@
           50:32:36 C   Go to HIGH RATE if you have to, Gene.
           50:32:38 P   I am HIGH RATE.
           50:33:03 P   Okay. I've got the other side.
-          50:33:04 C   Okay....next is electrical umbilical.
+          50:33:04 C   Okay. ... next is electrical umbilical.
           50:33:10 P   I'm really fogging up, Tom.
           50:33:11 C   Take your time.
-         50:33:17  P   Real good.
+          50:33:17  P   Real good.
 	Page 229
 
-                             CARNARVON
+	                     CARNARVON
         50:33:22 C    Houston, Gemini IX.
         50:33:27 C    Carnarvon, Gemini IX.
         50:33:32 P    Okay.
@@ -6975,10 +6971,10 @@
            50:37:12 P   BACKPACK.
            50:37:15 C   Okay. Turn left 180 degrees and back into the AMU.
            50:37:20 P   Tom, we've got the Battery switch to GO.
-          50:37:22  C   Okay. Main Power switch ON.
-          50:37:24  P   Okay. Main Power switch is ON. The lights are ON
-                       and we've got power.
-          50:37:32 C   Okay. H<sub>2</sub>O<sub>2</sub> T/M Selector switch to BACKPACK, right?
+           50:37:22 C   Okay. Main Power switch ON.
+           50:37:24 P   Okay. Main Power switch is ON. The lights are ON
+                        and we've got power.
+           50:37:32 C   Okay. H<sub>2</sub>O<sub>2</sub> T/M Selector switch to BACKPACK, right?
 
 	Page 231
 
@@ -7088,12 +7084,12 @@
            50:42:27 C    Okay. Real good.
            50:42:29 P    Okay, Tom. Here comes the electrical changeover.
            50:42:32 C    Okay.
-                   C    We'll go back to the electrical umbilical ...
-                   C    Houston, Gemini IX.
-                   CC   Houston is here, Gemini IX. We're reading you
+           50:42:32        C    We'll go back to the electrical umbilical ...
+           50:42:32        C    Houston, Gemini IX.
+           50:42:32        CC   Houston is here, Gemini IX. We're reading you
                         pretty weak. Go ahead.
-                   CC   Gemini IX, Houston. Go ahead.
-                   C    ... computer ...
+           50:42:32        CC   Gemini IX, Houston. Go ahead.
+           50:42:32        C    ... computer ...
            50:59:04 C    Very good.
            50:59:13 C    ...
            50:59:19 C   Hello, Houston. Gemini IX.
@@ -7160,7 +7156,7 @@
                           you can see enough, switch back to the Spacecraft
                           electrical umbilical.
 
-                                 HAWAII
+            	                     HAWAII
 
             51:03:29  C   Hawaii, Gemini IX.
             51:03:31  CC  Gemini IX, Hawaii.
@@ -7204,7 +7200,7 @@
                        the adapter.
          51:06:20 C    Okay. Cannot open it.
          51:06:21 P    I'm facing it, and I cannot get it open.
-         51:06:24 C    Cannot get it open ....Okay. It's a NO-GO ....
+         51:06:24 C    Cannot get it open. ... Okay. It's a NO-GO. ...
          51:06:33 P    Okay. Wait a minute, Tom. I want to try one more
                        time.
 	Page 238
@@ -7235,7 +7231,7 @@
            51:09:17 P    ... Get some of this stuff in here and stay in here
                          for a minute and see what happens.
            51:09:24 C    Okay. Why don't you just stand there and relax for
-                         awhile, Gene?  Let me know when you get unfogged.
+                         awhile, Gene? Let me know when you get unfogged.
 
 	Page 239
 
@@ -7253,7 +7249,7 @@
         51:10:35 P    ...
         51:10:38 C    Still fogged?
         51:10:39 P    Still about 50 percent fogged over.
-        51:10:42 C    Roger ....
+        51:10:42 C    Roger. ...
         51:10:43 P    Did you get this?
         51:10:51 C    What about for the nighttime? ... In case you go
                       into a fog we can take you ... if you do we're going
@@ -7315,10 +7311,10 @@
                       finger there and feel the hatch ... to see what it's
                       like.
         51:13:27  P    ...
-        51:13:29  C   Okay, Bill ....
+        51:13:29  C   Okay, Bill . ...
         51:13:33  CC  Roger, Tom.
         51:13:50  P   ... let me sit here for a minute.
-        51:13:56  P   The left side has cleared up pretty well ....
+        51:13:56  P   The left side has cleared up pretty well . ...
                       pressure gage is 80 percent fogged over. I can
                       see it's still reading somewhere around 4 psi.
         51:14:51  P   Hey, Neil. You might tell everyone down there
@@ -7361,7 +7357,7 @@
            51:16:46 P    Okay. I'll go up and get it.
            51:17:26 C   You bet.
            51:17:37 P   I'm slipping forward, forward to do it. I am
-                        coming up on it....hold it, please ...
+                        coming up on it. ...hold it, please ...
            51:19:53 C    ... phase we've got about 31 minutes left. If
                        you've fogged up, I don't want you to try it.
            51:20:12 P    I'm fogging up again and working here in high-flow.
@@ -7422,7 +7418,7 @@
                     51:24:30         C        He's starting to fog now, Houston.
                     51:24:38         P        ... at about a ...
                     51:24:55         P        I'm starting to fog up at eye level.  Hey, Houston,
-                                               ... this way.  My face towards you.
+                                               ... this way. My face towards you.
                     51:25:19         P        I don't think I'll make it that way.
                     51:26:53         C        Houston. That hatch was harder to close than we
                                               thought it would.
@@ -7465,7 +7461,7 @@
             51:32:13  P   Okay. Put the ...
             51:32:17  CC  Houston copies.
 
-                                 ROSE KNOT VICTOR
+            	                     ROSE KNOT VICTOR
 
             51:35:23  C    ... fog pusher.
             51:35:26  P   Oh, man! Solid, Tom!
@@ -7499,24 +7495,24 @@
                        you, but I could tell you were talking and I didn't
                        get anything at all.
          51:37:26 CC   Gemini IX, RKV.
-        51:37:28  C    RKV, Gemini IX.
-        51:37:30  CC   Roger. Would you turn your ECS O<sub>2</sub> Manual Heater
+         51:37:28 C    RKV, Gemini IX.
+         51:37:30 CC   Roger. Would you turn your ECS O<sub>2</sub> Manual Heater
                        ON?
-        51:37:37  P    That's Cabin Pressure, ON, Tom.
-        51:37:43  P    Let me know when ...
-        51:37:52  C    Cabin pressure 3.13.
-        51:37:55  CC  Roger.
-        51:38:07  P   Darn. I should be able ...
-        51:38:43  C   Okay ... RKV, Gemini IX. We're up to 4 psi.
-        51:38:48  CC  Roger. Copy.
-        51:38:54  P   RKV, Gemini IX.
-        51:38:56  CC  Go, IX.
-        51:38:58  P   You might ask Houston whether or not they have any
-                      more D-14's planned for us. If they do, we'd better
-                      just take the first one and take a look at it because
-                      I broke off the antenna.
-        51:39:08  CC  Roger.
-        51:39:29 P    We're pressurized, Tom. I can't get the visor open.
+         51:37:37  P    That's Cabin Pressure, ON, Tom.
+         51:37:43  P    Let me know when ...
+         51:37:52  C    Cabin pressure 3.13.
+         51:37:55  CC  Roger.
+         51:38:07  P   Darn. I should be able ...
+         51:38:43  C   Okay ... RKV, Gemini IX. We're up to 4 psi.
+         51:38:48  CC  Roger. Copy.
+         51:38:54  P   RKV, Gemini IX.
+         51:38:56  CC  Go, IX.
+         51:38:58  P   You might ask Houston whether or not they have any
+                       more D-14's planned for us. If they do, we'd better
+                       just take the first one and take a look at it because
+                       I broke off the antenna.
+         51:39:08  CC  Roger.
+         51:39:29 P    We're pressurized, Tom. I can't get the visor open.
 	Page 248
 
             51:39:38  C   Yes. I would.
@@ -7539,7 +7535,7 @@
             51:42:29  CC  Houston copies.
             51:42:49  C   ... in the wrong direction.
 
-                                 TANANARIVE
+            	                     TANANARIVE
 
             51:56:06  CC  Gemini IX, Houston standing by, Tananarive.
             51:56:10  C   ...
@@ -7617,7 +7613,7 @@
          52:43:08 C    Roger, Hawaii.
          52:43:55 CC   Hawaii has LOS.
 
-                             CALIFORNIA
+         	                    CALIFORNIA
 
          52:44:49 CC   Gemini IX, Houston.
          52:44:54 C    Houston, Gemini IX. Go.
@@ -7707,14 +7703,14 @@
                      during the burn, and if it starts to go down, you
 	Page 254
 
-                            stop your burn at that point.
-              52:49:34 C    Shoot for 25 feet per second or if VW tank starts
-                            down, we'll stop the burn.
+                           stop your burn at that point.
+             52:49:34 C    Shoot for 25 feet per second or if VW tank starts
+                           down, we'll stop the burn.
              52:49:38  CC   That's right. And let us know how many feet per
                             second you burned.
              52:49:41  C    Roger.
 
-                                  GUAYMAS
+             	                     GUAYMAS
 
              52:49:52  C    Go ahead with the GET.
              52:49:53  CC   Okay. GET B: 53:41:35; Delta-V, 25; burn time,
@@ -7753,7 +7749,7 @@
                                     some pictures. We also got a lot of thermal inputs
                                     to give back to the people.
            52:52:11         CC      Yes. We can see that it was very valuable. You
-                                    know the EVA bottle is empty.  
+                                    know the EVA bottle is empty.
            52:52:19         P       Thanks a lot.
            52:52:20         C       Thanks a lot, Dick.
            52:52:22         P       Still batting 500, Dick, but a lot smarter.
@@ -7767,7 +7763,7 @@
            52:52:45         CC      MARK.
            52:52:48         C       Right on.
 
-                                                TEXAS
+           	                                     TEXAS
 
            52:53:20         CC      Okay. Tom, we're expecting this AMU pressure to go
 
@@ -7786,30 +7782,30 @@
                             However, in the configuration you have it - we
                             don't see any reason why we won't be able to
                             jettison it if, for some reason, we have to.
-             52:54:33 C     Roger.
-             52:56:18 CC    Houston is about a minute from LOS
-             52:56:22 P     Roger, Neil. We'll be set up and we'll make the
-                            burn according to instructions.
-             52:56:28 CC    Right. The guys down here think you made a real
-                            good show there, Gene.
-             52:56:34 P     Like I say, I feel I'm only batting 500 but that's
-                            better than nothing.
-             52:56:40 CC    We're with you.
-             52:56:45 P     Tom thinks I need some ballet lessons.
-             52:56:48 CC    (Laughter)
-             52:56:52 CC    You want me to give them to you?
-             52:56:56 P     Not exactly.
+              52:54:33 C     Roger.
+              52:56:18 CC    Houston is about a minute from LOS
+              52:56:22 P     Roger, Neil. We'll be set up and we'll make the
+                             burn according to instructions.
+              52:56:28 CC    Right. The guys down here think you made a real
+                             good show there, Gene.
+              52:56:34 P     Like I say, I feel I'm only batting 500 but that's
+                             better than nothing.
+              52:56:40 CC    We're with you.
+              52:56:45 P     Tom thinks I need some ballet lessons.
+              52:56:48 CC    (Laughter)
+              52:56:52 CC    You want me to give them to you?
+              52:56:56 P     Not exactly.
 
-                                  ROSE KNOT VICTOR
+              	                    ROSE KNOT VICTOR
 
-             53:08:54  CC  Gemini IX, RKV.
+              53:08:54  CC  Gemini IX, RKV.
 	Page 257
 
-      53:08:55  C    RKV, Gemini IX.
-      53:08:57  CC   Roger. Could you do a Fuel cell purge for us at
+       53:08:55 C    RKV, Gemini IX.
+       53:08:57 CC   Roger. Could you do a Fuel cell purge for us at
                      this time?
-      53:09:02  C    ...
-      53:09:12  CC   We'd like to have you do a Section 1 purge and
+       53:09:02 C    ...
+       53:09:12 CC   We'd like to have you do a Section 1 purge and
                      then a Section 2.
        53:09:46 P    Okay, RKV. I'm with you now. You want Section 1
                      first?
@@ -7829,9 +7825,9 @@
                      close on the current. Hold really in there.
        53:11:22 CC   Gemini IX, RKV. When you get a chance, could you
                      give us a water gun count, please?
-                P    Roger. Water gun now reads 2706.
-                CC   Roger. Copy 2706.
-                P    We're starting on this ATDA Command Signaling.
+       53:11:22 P    Roger. Water gun now reads 2706.
+       53:11:22 CC   Roger. Copy 2706.
+       53:11:22 P    We're starting on this ATDA Command Signaling.
        53:12:47 P    Gemini IX. We're now purging oxygen, Section 2.
 
 	Page 258
@@ -7854,17 +7850,17 @@
               53:15:32 P    Okay. Thank you.
               53:15:43 CC   Okay. Would you place your Quantity Read switch
                             to the - let's see - FUEL CELL O<sub>2</sub> position?
-             53:15:54  P    Okay. FUEL CELL O<sub>2</sub>.
-             53:16:20  CC   Flight just advised that the ATDA is 160 miles
-                            behind you.
-             53:16:26  P    Roger. And the transponder's ON?
-             53:16:29  CC   That's affirm.
-             53:16:31  P    Okay. We'll do a little interrogating here.
-             53:16:33  CC   Roger. We notice you have your radio on.
-             53:16:36  P    Okay. Will you give us FUEL CELL H<sub>2</sub> quantity,
-                            please?
-             53:16:40  CC   FUEL CELL H<sub>2</sub>.
-             53:16:48  CC   Okay. You can go back to ECS O<sub>2</sub>.
+              53:15:54  P    Okay. FUEL CELL O<sub>2</sub>.
+              53:16:20  CC   Flight just advised that the ATDA is 160 miles
+                             behind you.
+              53:16:26  P    Roger. And the transponder's ON?
+              53:16:29  CC   That's affirm.
+              53:16:31  P    Okay. We'll do a little interrogating here.
+              53:16:33  CC   Roger. We notice you have your radio on.
+              53:16:36  P    Okay. Will you give us FUEL CELL H<sub>2</sub> quantity,
+                             please?
+              53:16:40  CC   FUEL CELL H<sub>2</sub>.
+              53:16:48  CC   Okay. You can go back to ECS O<sub>2</sub>.
 	Page 259
 
       53:16:52 P    ECS O<sub>2</sub>.
@@ -7909,28 +7905,28 @@
                             feet per second.
               53:26:30 C    Do you have your swizzle stick over there?
 
-                                   TANANARIVE
+              	                     TANANARIVE
 
               53:30:27 P    ... Gemini IX.
               53:30:32 CC   Gemini IX, this is Houston. How do you read?
-             53:30:35  P    Gemini IX. We read you loud and clear. A lot of
-                            noise going on ...
-             53:30:41  P    ...
-             53:30:48  CC   Gene, you're coming in very garbled. I've got
-                            some dope for you, though. Your H<sub>2</sub> quantity is
-                            around 40 to 46 percent and is okay. We're getting
-                            a Flight Plan update ready and we'll send it up at
-                            Hawaii. Over.
-             53:31:05  P    Roger. Understand. Flight Plan update at Hawaii
-                            and H<sub>2</sub> quantity is okay.
-             53:31:11  C    And what about ...
-             53:32:16  P    Gemini IX. At GET of 53 hours 32 minutes. We're
-                            opening at 2 feet per second. Range is now 159
-                            miles, 159.92 miles - at 10 feet per second.
-             53:39:04  P    This is Gemini IX. It's now 160.88 miles. Range-Rate
-                            is 17 feet per second. It's 53:39 and we're
-                            standing by to make our burn.
-             53:41:14  C    Okay. We have just burnt. Coming into 53:41.
+              53:30:35  P    Gemini IX. We read you loud and clear. A lot of
+                             noise going on ...
+              53:30:41  P    ...
+              53:30:48  CC   Gene, you're coming in very garbled. I've got
+                             some dope for you, though. Your H<sub>2</sub> quantity is
+                             around 40 to 46 percent and is okay. We're getting
+                             a Flight Plan update ready and we'll send it up at
+                             Hawaii. Over.
+              53:31:05  P    Roger. Understand. Flight Plan update at Hawaii
+                             and H<sub>2</sub> quantity is okay.
+              53:31:11  C    And what about ...
+              53:32:16  P    Gemini IX. At GET of 53 hours 32 minutes. We're
+                             opening at 2 feet per second. Range is now 159
+                             miles, 159.92 miles - at 10 feet per second.
+              53:39:04  P    This is Gemini IX. It's now 160.88 miles. Range-Rate
+                             is 17 feet per second. It's 53:39 and we're
+                             standing by to make our burn.
+              53:41:14  C    Okay. We have just burnt. Coming into 53:41.
 	Page 261
 
        53:41:28 P    Okay. I'll watch the regulated pressure and time
@@ -7969,7 +7965,7 @@
 
               53:44:52 C    Go.
 
-                                   COASTAL SENTRY QUEBEC
+              	                     COASTAL SENTRY QUEBEC
 
               53:53:28 CC   Gemini IX, CSQ CAP COM.
               53:53:32 C    Okay, CSQ. Go ahead.
@@ -7982,19 +7978,19 @@
               53:53:54 C    OAMS Prop Quantity I have now indicated as zero.
               53:53:59 CC   Roger. Would you give me your OAMS Reserve Tank
                             pressure?
-             53:54:02  C    Roger. We have now 295.
-             53:54:06  CC   Roger. Understand. We have nothing further for
-                            you at this time.
-             53:54:12  P    CSQ, Gemini IX.
-             53:54:14  CC   Go ahead, Gemini IX. CSQ.
-             53:54:16  P    Residuals on that burn were Address 80 minus 0013.
-             53:54:22  CC   Roger.
-             53:54:24  P    81 is 00006; 82 is 00022.
-             53:54:35  CC   Okay. Would you give me an Address 81, please?
-             53:54:38  P    Roger. 81 was 00006.
-             53:54:43  CC   Roger. Understand. I copy.
-             53:54:45  P    And just ... of burn there was an indication that
-                            the OAMS regulated pressure was dropping down to
+              53:54:02  C    Roger. We have now 295.
+              53:54:06  CC   Roger. Understand. We have nothing further for
+                             you at this time.
+              53:54:12  P    CSQ, Gemini IX.
+              53:54:14  CC   Go ahead, Gemini IX. CSQ.
+              53:54:16  P    Residuals on that burn were Address 80 minus 0013.
+              53:54:22  CC   Roger.
+              53:54:24  P    81 is 00006; 82 is 00022.
+              53:54:35  CC   Okay. Would you give me an Address 81, please?
+              53:54:38  P    Roger. 81 was 00006.
+              53:54:43  CC   Roger. Understand. I copy.
+              53:54:45  P    And just ... of burn there was an indication that
+                             the OAMS regulated pressure was dropping down to
 	Page 263
 
                      about 285 to 290. Now it's up again to around 290.
@@ -8032,7 +8028,7 @@
                            over the hill.
              54:01:10 P    All right. Roger.
 
-                                  HAWAII
+             	                     HAWAII
 
              54:11:19 CC   Gemini IX, Hawaii.
              54:11:21 C    Hello, Hawaii. Gemini IX.
@@ -8058,8 +8054,8 @@
                            it's 55:46:18 crew status report. S-11: 56:49:17;
                            Sequence 02, southern horizon only. Use Acamar for
                            yaw attitude. CSQ: 57:04:02; PLA update. RKV
-                           58:00:00; purge fuel cells and Cryo Quantity read-
-                           out. 57:30:00 through 58:30:00: eat period.
+                           58:00:00; purge fuel cells and Cryo Quantity
+                           read-out. 57:30:00 through 58:30:00: eat period.
                            58:30:00 through 66:30:00: sleep period. 66:30
                            through 67:30:00: eat period. 66:38:52 over
 	Page 265
@@ -8103,7 +8099,7 @@
             54:18:37 C    Okay.
             54:18:41 CC   We're at LOS minus 1, Gemini IX.
 
-                               ROSE KNOT VICTOR
+            	                   ROSE KNOT VICTOR
 
             54:45:10 CC   Gemini IX, RKV standing by.
             54:45:12 C    Roger, RKV. We're taking a quick nap.
@@ -8127,7 +8123,7 @@
 
 	Page 267
 
-                       TANANARIVE
+	           TANANARIVE
 
      54:50:55 CC  Gemini IX, Houston.
      54:50:57 C   Roger, Houston. We're in the middle of a ...
@@ -8158,7 +8154,7 @@
              54:58:14 C    No, to the right.
              54:58:52 P    Okay. Anytime.
              54:58:54 C    Okay. Looks good where...
-             54:58:56 P    Okay ....
+             54:58:56 P    Okay . ...
              54:58:57 C    All set?
              54:58:58 P    Anytime you say.
              54:59:00 C    Hit it.
@@ -8167,19 +8163,19 @@
                            Don't do anything yet.
              54:59:34 P    Okay. You can thrust. Okay. Don't do anything.
              55:00:17 C    Go on for the next one, if you'd like.
-            55:01:11 P    ... over CSQ. Should work with that off the West
-                           Coast.
-            55:01:14  C    Yes. I know but that's - -
-            55:01:17  P    Before you get to Hawaii?
-            55:01:20  C    - - We'll never be able to transfer there.
-            55:01:26  P    When do we get there?
-            55:01:34  C    Load Module 4 down there.
-            55:01:39  CC   We're having an S-11 down here. ...
-            55:01:49  P    Crew status at Hawaii?
-            55:01:57  CC   Okay. They're there.
-            55:02:05  P    You will even get EVA. I'll tell you because - -
-            55:02:07  C    You ready?
-            55:02:32  P    - - When I tell you, roll left.
+             55:01:11 P    ... over CSQ. Should work with that off the West
+                            Coast.
+             55:01:14  C    Yes. I know but that's - -
+             55:01:17  P    Before you get to Hawaii?
+             55:01:20  C    - - We'll never be able to transfer there.
+             55:01:26  P    When do we get there?
+             55:01:34  C    Load Module 4 down there.
+             55:01:39  CC   We're having an S-11 down here. ...
+             55:01:49  P    Crew status at Hawaii?
+             55:01:57  CC   Okay. They're there.
+             55:02:05  P    You will even get EVA. I'll tell you because - -
+             55:02:07  C    You ready?
+             55:02:32  P    - - When I tell you, roll left.
 	Page 269
 
        55:03:24 C   Okay.
@@ -8263,9 +8259,9 @@
                       able to get the rest of them on another one.
         55:11:50 C    Okay.
         55:11:51 P    You ready?
-       55:11:55 C     Okay.
-       55:12:25  P    Okay. We can't go any higher. The moon's up
-                      there.
+        55:11:55 C     Okay.
+        55:12:25  P    Okay. We can't go any higher. The moon's up
+                       there.
 	Page 272
 
              55:12:28 P    How many have we taken of the Milky Way?
@@ -8299,7 +8295,7 @@
                            Module 4?
 	Page 273
 
-                         COASTAL SENTRY QUEBEC
+	                         COASTAL SENTRY QUEBEC
 
        55:28:24 CC  Gemini IX, CSQ CAP COM.
        55:28:25 C   CSQ, Gemini IX. We're loading water into the
@@ -8384,7 +8380,7 @@
        55:35:22 P   Okay. We'll try it right there.
        55:35:27 CC  Stand by.
 
-                          HAWAII
+       	                   HAWAII
 
        55:46:55 CC  Gemini IX, Hawaii
        55:46:56 P   Go, Hawaii.
@@ -8464,7 +8460,7 @@
             55:55:05 P    Hawaii, Gemini IX. Module 4-Alpha has been
                           loaded and - -
 
-                              ROSE KNOT VICTOR
+            	                  ROSE KNOT VICTOR
 
             56:20:57 CC   Gemini IX, RKV. Would you go to the EXPERIMENT
                           position and give us a readout on the Hydrogen
@@ -8476,7 +8472,7 @@
                           and it's been verified with 4-Bravo and verified
                           ... and verified 4-Alpha and 4-Bravo.
             56:21:30 CC   Roger. Very good.
-            56:21:33 P    Ail procedures checked out.
+            56:21:33 P    All procedures checked out.
             56:21:35 CC   Roger.
             56:21:42 CC   You're looking good from down here. We have
                           nothing further for you.
@@ -8581,10 +8577,10 @@
                         solution was that there was little or no ellipticity
                         and it just didn't appear right to us. As it turned
                         out, it was a good thing we did not burn it. The
-                        first correction obviously was initiated as Closed-
+                        first correction obviously was initiated as Closed-Loop.
 	Page 281
 
-                    Loop. We decided to see what the Closed-Loop
+                    We decided to see what the Closed-Loop
                     was going to give us on its first correction. It
                     came up with 2 aft and 3 up as my back-up solution.
                     We did get a Closed-Loop solution to go with it.
@@ -8603,8 +8599,8 @@
                     back-up solution 0 forward and 3 down. We burned,
                     in Closed-Loop, 3 forward and 2 down. After that
                     point, the corrections, we felt, were very small
-                    and the back-up solutions agreed with the Closed-
-                    Loop. We went Closed-Loop and came right up the
+                    and the back-up solutions agreed with the Closed-Loop.
+                    We went Closed-Loop and came right up the
                     pipe. We had very few LOS problems to control at
                     all. They were all within boundaries and we had
                     little or no braking problems at 1 mile. As I
@@ -8665,7 +8661,7 @@
                           the target against the ground background. We
                           discovered that it was very difficult during
                           Rendezvous even up to as close, as I recall, a
-                          mile because we were coming in from above....
+                          mile because we were coming in from above. ...
                           so, as a result, none of the sextant practice was
                           actually done because I could not acquire the
                           target visually at all. I did get a sextant reading
@@ -8720,8 +8716,8 @@
                     window, I was not able to pick the horizon out. I
                     feel that this correction went very good. I computed
                     it with a combination of sextant angles and
-                    Delta-Theta and came up with the time and a Delta-
-                    Theta, but the correction was slightly biased or
+                    Delta-Theta and came up with the time and a Delta-Theta,
+                    but the correction was slightly biased or
                     ended up to be a bad correction because of the
                     last sextant angle. Delta-Theta was good, but
                     the 80-degree sextant angle was bad. You just
@@ -8732,7 +8728,7 @@
 	Page 284
 
                     P    I came up with 2 down. I feel this correction
-                         probably should have been 0 or close to it....
+                         probably should have been 0 or close to it. ...
                          quite a bit of line-of-sight correction in the
                          mode prior to braking. Like to talk about the
                          lighting and braking, Tom?
@@ -8765,7 +8761,7 @@
                          down in a fairly systematic order. We had a lot
                          of faith in our Closed-Loop by the time it came.
                          However, we saw ... ellipticity for about - let
-                         me see ... mile Delta-H. We were about 8 m1les
+                         me see ... mile Delta-H. We were about 8 miles
                          ... and then we were ... and then we were still
                          going. We were still going up when we hit TPI
                          and our computer gave out ... the pass over the
@@ -8886,7 +8882,7 @@
                     179 miles, at which time we changed our attitudes
                     and did not follow it any further.
 
-                          TANANARIVE
+                	          TANANARIVE
 
         56:42:37 CC  Gemini IX, Gemini IX. This is Houston at
                      Tananarive. We're standing by. We have nothing
@@ -8899,12 +8895,12 @@
                      LOS. Have a good night's sleep. Real good show,
                      Gene.
         56:46:42 C   What was the last transmission ...
-       56:46:46  CC  Roger. We have 1 minute to LOS. Have a good
-                     night's sleep. And a real good show, Gene.
-       56:46:56  P   ...
+        56:46:46  CC  Roger. We have 1 minute to LOS. Have a good
+                      night's sleep. And a real good show, Gene.
+        56:46:56  P   ...
 	Page 288
 
-                              COASTAL SENTRY QUEBEC
+	                              COASTAL SENTRY QUEBEC
 
             57:05:32 CC  Gemini IX, CSQ CAP COM.
             57:05:34 P   CSQ, Gemini IX. Go.
@@ -8959,7 +8955,7 @@
                     all areas, good. Sep Maneuvers, none. Did you
                     copy?
 
-                         HAWAII
+       	                  HAWAII
 
        57:23:17 C   Hawaii, Gemini IX.
        57:23:19 CC  Gemini IX, Hawaii.
@@ -9003,7 +8999,7 @@
 
 	Page 291
 
-                          ROSE KNOT VICTOR
+	                          ROSE KNOT VICTOR
 
         57:55:51 CC  Gemini IX, RKV CAP COM.
         57:55:53 C   RKV, Gemini IX. Go.
@@ -9103,11 +9099,11 @@
                     because everything had to be one-handed, and some
                     time - because you have to hold on with the other
                     hand - because if you don't find some way to hold
-                    on you are going to drift right out and do a somer-
+                    on you are going to drift right out and do a somersault
 
 	Page 294
 
-                        sault right over on top of what you're doing. As
+                        right over on top of what you're doing. As
                         a matter of fact, I did it a number of times and
                         I'm pretty sure that that's what broke the D-14
                         antenna. I actually sat on it - laid on it with
@@ -9204,7 +9200,7 @@
 	Page 296
 
                         some of this, didn't you?
-            58:30:32 C  Right. Everytime you'd get out there and start to
+           58:30:32 C   Right. Everytime you'd get out there and start to
                         maneuver, you always tended to go straight up -
                         float up.
            58:30:38 P   Again, I think this was not so much because of the
@@ -9834,7 +9830,7 @@
        67:28:21 CC   How about 85 degrees west and about 18 degrees
                      north?
        67:28:27 C    85 and 18. Okay.
-       67:28:22 P    Looks like we pass just about over it next time
+       67:28:32 P    Looks like we pass just about over it next time
                     around.
        67:28:36 CC  On the Cubs, Gene - had a double header. The
                     first one was Reds 8, and the Cubs 3, and the
@@ -9868,11 +9864,11 @@
            67:30:57  C   We had good solid lock on the radar yesterday.
                          170 miles on it.
            67:31:03  CC  Yes. That was real good.
-            67:31:14 CC  Gemini IX, Houston.
-            67:31:16  C  Go ahead.
-            67:31:18 CC  What sort of reading are you getting now on
-                         your Cabin Pressure?
-            67:31:22 C   Roger. We're about 4.8.
+           67:31:14 CC  Gemini IX, Houston.
+           67:31:16  C  Go ahead.
+           67:31:18 CC  What sort of reading are you getting now on
+                        your Cabin Pressure?
+           67:31:22 C   Roger. We're about 4.8.
 
 	Page 312
 
@@ -9895,17 +9891,17 @@
          67:32:39  C    You did.
          67:32:41  CC   Okay. We'll be seeing you, oh, perhaps later
                         on this afternoon.
-        67:32:45   P    Roger.
-        67:33:41   CC   Gemini IX, Houston.
-        67:33:43   C    Go ahead, Houston. With you.
-        67:33:45  CC    Roger. I'd like to remind you of a crew status
-                        report over Canaries and put the temperature
-                        probes in at, oh, about 1 minute. We've got 1
-                        minute to LOS.
-        67:33:56  C     Roger.
+         67:32:45   P    Roger.
+         67:33:41   CC   Gemini IX, Houston.
+         67:33:43   C    Go ahead, Houston. With you.
+         67:33:45  CC    Roger. I'd like to remind you of a crew status
+                         report over Canaries and put the temperature
+                         probes in at, oh, about 1 minute. We've got 1
+                         minute to LOS.
+         67:33:56  C     Roger.
 	Page 313
 
-                                 CANARY ISLANDS
+	                     CANARY ISLANDS
 
             67:38:11  CC   Gemini IX, Canary CAP COM. We have a valid oral
                            temp. We're standing by for your third water
@@ -9938,7 +9934,7 @@
 
 	Page 314
 
-                          KANO
+	                   KANO
 
        68:13:34 CC  Gemini IX, Carnarvon.
        68:13:42 P   Go ahead, Carnarvon.
@@ -9946,7 +9942,7 @@
                     need anything, give us a call.
        68:13:48 P   Will do. Thank you, Bill.
 
-                          GUAYMAS
+       	                   GUAYMAS
 
        68:55:16 CC  Gemini IX, Houston.
        68:55:20 C   Houston, Gemini IX.
@@ -9960,7 +9956,7 @@
                     we get a little more elevation here.
        68:55:48 C   Okay.
 
-                          TEXAS
+       	                   TEXAS
 
        68:56:28 CC  IX, Houston. You say you find your Electronic
                     Timer circuit breaker knocked off for a little bit
@@ -9991,16 +9987,16 @@
            69:08:53 CC  Houston is about 1 minute from LOS at Bermuda.
            69:08:57 C   Roger.
 
-                              CANARY ISLANDS
+           	                   CANARY ISLANDS
 
            69:15:34 CC  Gemini IX, Canary CAP COM. You're looking good on
                         the ground. We're standing by.
-            69:15:38 C  Roger. Canary. We're just taking a few pictures
-                        here.
-            69:15:42 CC Roger.
+           69:15:38 C  Roger. Canary. We're just taking a few pictures
+                       here.
+           69:15:42 CC Roger.
 
-                              KANO
-            69:24:09 CC Gemini IX. Houston standing by.
+           	                  KANO
+           69:24:09 CC Gemini IX. Houston standing by.
 
 	Page 316
 
@@ -10014,33 +10010,33 @@
         69:24:27  CC   Tom, your IVI versus bank angle chart is satisfactory
                        for this orbit.
         69:24:36  C    Roger.
-         69:28:35 CC   Gemini IX, Houston approaching LOS.
+        69:28:35 CC   Gemini IX, Houston approaching LOS.
 
-                              CARNARVON
+        	                     CARNARVON
 
-         69:48:51 CC   Gemini IX, Carnarvon.
-         69:48:52 C    Go ahead, Carnarvon.
-         69:48:53 CC   I've got some reentry information for you when
-                       you're ready to copy.
-         69:48:57 C    Roger. You're coming in very weak. Go ahead.
-         69:49:00 CC   I say we have some reentry information for you when
-                       you're ready to copy.
-         69:49:04  C   Ready to copy.
-         69:49:07  CC  Okay. This is the 46-1: your nominal IVI's are
-                       aft 298 and down 112; bank angle additional deflection
-                       at 0 is 189; 55 is plus 45, and 90 is 75;
-                       pitch gimbal at 400K 90. You won't have a lighted
-                       horizon at Retro, but you will at 400K. Begin
-                       blackout at 22 plus 08; end blackout at 20 plus 75;
-                       RET of drogue, 28 plus 47; RET main, 30 plus 21.
-                       Use your back-up curves for bank angle 146 degrees.
-         69:50:33  P   Carnarvon. 46-1: understand IVI's are 298 and
+        69:48:51 CC   Gemini IX, Carnarvon.
+        69:48:52 C    Go ahead, Carnarvon.
+        69:48:53 CC   I've got some reentry information for you when
+                      you're ready to copy.
+        69:48:57 C    Roger. You're coming in very weak. Go ahead.
+        69:49:00 CC   I say we have some reentry information for you when
+                      you're ready to copy.
+        69:49:04  C   Ready to copy.
+        69:49:07  CC  Okay. This is the 46-1: your nominal IVI's are
+                      aft 298 and down 112; bank angle additional deflection
+                      at 0 is 189; 55 is plus 45, and 90 is 75;
+                      pitch gimbal at 400K 90. You won't have a lighted
+                      horizon at Retro, but you will at 400K. Begin
+                      blackout at 22 plus 08; end blackout at 20 plus 75;
+                      RET of drogue, 28 plus 47; RET main, 30 plus 21.
+                      Use your back-up curves for bank angle 146 degrees.
+        69:50:33  P   Carnarvon. 46-1: understand IVI's are 298 and
 	Page 317
 
                         112: downrange needle deflection zero degrees is
                         plus 189; the 55 degrees is 45; 90 degrees is 75.
-           69:50:53 CC  That's minus 75.
-           69:50:54 P   Minus 75. Roger. And pitch gimbal is 400K, 90
+            69:50:53 CC  That's minus 75.
+            69:50:54 P   Minus 75. Roger. And pitch gimbal is 400K, 90
                         degrees.
             69:50:59 CC Roger.
             69:51:03 P  ... that was blackout at 22 plus 08; end blackout
@@ -10089,7 +10085,7 @@
        69:56:43 CC  We're 40 seconds LOS, Gemini IX.
        69:56:48 C   Roger.
 
-                         GUAYMAS
+       	                  GUAYMAS
 
        70:27:35 CC  Gemini IX, Houston.
        70:27:38 C   Go ahead, Houston. Gemini IX.
@@ -10104,30 +10100,30 @@
                              rings at this time.
              70:28:01   C    Go ahead. I'll do the bookkeeping.
              70:28:08   CC   Have you armed it yet, Tom?
-              70:28:10  C    Not yet, Neil.
-              70:28:11  CC   Okay. Hold off till we get over - a couple minutes
-                             here - till we get to Texas and will have T/M.
-              70:28:17   C   Give me a mark when you want me to.
-              70:28:19   CC  Okay.
-              70:28:23   C   Go ahead with the pad, Neil.
-              70:28:25   CC  Okay. This is 46-1: GET RC, 71:46:44; 400K, 19
-                             plus 52; RET RB, 25 plus 42; bank left 50, bank
-                             right 50. I think you got the rest of the stuff
-                             on that page.
-              70:28:47  C    Yes, I've got it.
-              70:28:57   P   Okay. 46-1: GET RC is 71:46:44; 400K, 19 plus
-                             left bank at 25 plus 42; left bank 50, right bank
-                             50.
-              70:29:10   CC  Right, and I have your MDIU stuff when you're ready
-                             to copy.
-              70:29:14   C   Go ahead.
-              70:29:16   CC  Okay. Address 03, 64006; Address 04, 34775;
-                             Address 65, 01881; Address 66, 34487; Address 07,
-                             65556; Address 08, 40832; Address 09, 15295;
-                             Address 10, 07771; Address 11, 28500. Go ahead.
-              70:30:08   P   Roger. 03, 64006; 04 is 34775; 65 is 01881; 66 is
-                             34487; 07 is 65556; 08 is 40832; 09 is 15295; 10
-                             is 07771; 11, 28500.
+             70:28:10  C    Not yet, Neil.
+             70:28:11  CC   Okay. Hold off till we get over - a couple minutes
+                            here - till we get to Texas and will have T/M.
+             70:28:17   C   Give me a mark when you want me to.
+             70:28:19   CC  Okay.
+             70:28:23   C   Go ahead with the pad, Neil.
+             70:28:25   CC  Okay. This is 46-1: GET RC, 71:46:44; 400K, 19
+                            plus 52; RET RB, 25 plus 42; bank left 50, bank
+                            right 50. I think you got the rest of the stuff
+                            on that page.
+             70:28:47  C    Yes, I've got it.
+             70:28:57   P   Okay. 46-1: GET RC is 71:46:44; 400K, 19 plus
+                            left bank at 25 plus 42; left bank 50, right bank
+                            50.
+             70:29:10   CC  Right, and I have your MDIU stuff when you're ready
+                            to copy.
+             70:29:14   C   Go ahead.
+             70:29:16   CC  Okay. Address 03, 64006; Address 04, 34775;
+                            Address 65, 01881; Address 66, 34487; Address 07,
+                            65556; Address 08, 40832; Address 09, 15295;
+                            Address 10, 07771; Address 11, 28500. Go ahead.
+             70:30:08   P   Roger. 03, 64006; 04 is 34775; 65 is 01881; 66 is
+                            34487; 07 is 65556; 08 is 40832; 09 is 15295; 10
+                            is 07771; 11, 28500.
 	Page 320
 
        70:30:38 CC  That's correct.
@@ -10184,7 +10180,7 @@
              70:36:52  CC   I think that you'll know where you're landing better
                             than they know where they are.
              70:36:57  C    Roger.
-              70:36:59 CC   Be careful.
+             70:36:59 CC   Be careful.
 	Page 322
 
         70:37:23 C   Houston, Gemini IX. Do you want he to leave the
@@ -10192,7 +10188,7 @@
         70:37:32 CC  Yes. Let's leave them up for the rest of the time.
         70:37:37 C   Okay.
 
-                          ANTIGUA
+        	                  ANTIGUA
 
         70:39:51 CC  Gemini IX, Houston. You want to give us a status
                      report on your reentry stowage and Pre-Retro Check
@@ -10202,7 +10198,7 @@
                      List. Standing by now for T<sub>R</sub> minus 256.
         70:40:08 CC  Roger.
 
-                          BERMUDA
+        	                  BERMUDA
 
         70:41:50 C   Houston, Gemini IX.
         70:41:52 CC  Go ahead.
@@ -10224,21 +10220,21 @@
                       We'll probably talk to you at Canary.
           70:44:20 C  Roger.
 
-                            CANARY ISLANDS
+          	                  CANARY ISLANDS
 
-         70:49:49 CC  Gemini IX, Canary CAP COM. We have you GO on the
+          70:49:49 CC Gemini IX, Canary CAP COM. We have you GO on the
                       ground and we're standing by.
           70:49:55 P  Thank you, Canary.
           70:49:57 C  We Alined the Platform at this time. Heading
                       straight to the water and everything is smooth.
           70:50:02 CC Very good.
 
-                             HOUSTON
+          	                   HOUSTON
 
           70:56:56 CC Gemini IX, Houston standing by.
           70:56:59 C  Roger, Houston.
 
-                             TANANARIVE
+          	                   TANANARIVE
 
           71:09:28 CC Gemini IX, Houston standing by.
           71:09:31 C  Roger, Houston. We're still Alining the Platform
@@ -10269,7 +10265,7 @@
        71:23:04 C    Holding steady.
        71:23:07 P    A ragged horizon.
 
-                          CARNARVON
+       	                   CARNARVON
 
        71:24:00 CC   Gemini IX, Carnarvon.
        71:24:03 P    Go ahead, Carnarvon. Gemini IX.
@@ -10304,8 +10300,8 @@
                         down at the bottom, and my part at the top, with
                         the exception of where I am right now. I'll read
                         right through.
-            71:26:17 C  Okay.
-            71:26:19 P  And - you will be ...
+           71:26:17 C  Okay.
+           71:26:19 P  And - you will be ...
 	Page 326
 
             71:26:43      C      Have you got your D-Ring ON?
@@ -10367,7 +10363,7 @@
            71:39:17 P   Okay.
 	Page 328
 
-       71:39:22  P   Faceplate is closed and locked.
+        71:39:22 P   Faceplate is closed and locked.
         71:40:15 P   Okay. Event timer is in sync. Computer's REENTRY.
                      Squib batteries are ON. Main Batteries are all ON.
                      Prop gages are indicating RCS A. Record switch is
@@ -10397,7 +10393,7 @@
 
 	Page 329
 
-           71:42:59  P   Okay. You're in ORB RATE.
+            71:42:59 P   Okay. You're in ORB RATE.
             71:43:05 P   Okay. You want them to go to RCS.
             71:43:12 P   RCS, ACME.
             71:43:16 P   Got Control?
@@ -10415,7 +10411,7 @@
                          we'll be all set.
             71:44:07 P   Okay. We're waiting for - -
 
-                              CANTON
+            	                  CANTON
 
             71:44:08 CC   Gemini IX, Houston. Standing by.
             71:44:13 C    Roger. Houston. We're - time is 2:30.
@@ -10464,7 +10460,7 @@
               71:46:15  C    How are we doing on time, Sir?
               71:46:17  C    30.
               71:46:18  C    Get the time to Retro.
-              71:46:19  P    l, 2, 3, 4 -
+              71:46:19  P    1, 2, 3, 4 -
               71:46:24  P    Okay. And T<sub>R<sub> minus 10. Give me a Mark on 10. I'm
                              on the Auto Retro.
               71:46:27  C    Get ready.
@@ -10553,7 +10549,7 @@
                      plus 13.
         71:51:55 P   65 degrees would be the back-up, Tom.
 
-                           HAWAII
+        	                   HAWAII
 
         71:52:01 CC  Gemini, Hawaii.
         71:52:03 C   Hawaii, Gemini IX.
@@ -10649,17 +10645,17 @@
                                          we can't push much else off, Tom.
                    71:57:40       C      All set on you?  Over there on the pulse?
                    71:57:46       P      Yes.  All set.
-                    71:57:47      C      Really going to feel good to feel these g's. I'm
+                   71:57:47      C      Really going to feel good to feel these g's. I'm
                                          not kidding you.
                    71:57:50       P      How high do you think we'll get up there?
                    71:57:52       C      ... what we had going out on lock.
-                    71:57:55      P      Oh, really?
-                    71:57:56      C      Packed itself way down.
-                    71:58:34      P      Picked up sunlight.
-                    71:58:36      P      Oh boy!
-                    71:58:41      C      That's it now.  There's no doubt about it.
-                    71:58:43      P      Man, that's - that's really - really something!
-                    71:58:53      P      You got that horizon? I don't see the horizon.
+                   71:57:55      P      Oh, really?
+                   71:57:56      C      Packed itself way down.
+                   71:58:34      P      Picked up sunlight.
+                   71:58:36      P      Oh boy!
+                   71:58:41      C      That's it now.  There's no doubt about it.
+                   71:58:43      P      Man, that's - that's really - really something!
+                   71:58:53      P      You got that horizon? I don't see the horizon.
 
 	Page 338
 
@@ -10709,7 +10705,7 @@
                         numbers now? Okay.
            72:05:13 P   There's the moon up there.
 
-                              TEXAS
+           	                   TEXAS
 
            72:05:18 CC  Okay, Gemini IX. We're ready with the Retro update
                         when you're ready to copy.
@@ -10722,15 +10718,15 @@
                         22 plus 01; and blackout, 27 plus 07; drogue at
                         28 plus 43; main at 30 plus 08; downrange, 10 plus
                         94.
-            72:06:11 P  Okay. 400K is 19 plus 37, Tom.
+           72:06:11 P  Okay. 400K is 19 plus 37, Tom.
            72:06:25 CC  There's a - that looks like it was based on your
                         IVI's. We'll be getting you any other data we
                         can from radar.
-            72:06:32 P  Roger. Understand.
+           72:06:32 P  Roger. Understand.
 
 	Page 340
 
-       72:06:35 C    Hey, and we have the deflection within one second
+        72:06:35 C   Hey, and we have the deflection within one second
                      400K!
         72:06:38 CC  Very good.
         72:06:42 C   Going to roll left 50 degrees.
@@ -10747,14 +10743,14 @@
         72:07:53 P   That's back-up, Tom. 50 degrees. Go to 50 degrees.
         72:07:57 C   Okay.
         72:07:58 P   Okay. This is back-up angle of 50 degrees.
-       72:08:01 C    What's our status?
-       72:08:03 P    They haven't had any banks yet, have they?
-       72:08:05 C    Yes.
+        72:08:01 C   What's our status?
+        72:08:03 P   They haven't had any banks yet, have they?
+        72:08:05 C   Yes.
         72:08:32 C   ...
-       72:08:35 P    Yes.
-       72:08:37 P    Okay. Even the computer is GO, Tom.
-       72:08:38 CC   See you after blackout.
-       72:08:39 C    Okay. Go ahead. Put it on, Gene.
+        72:08:35 P   Yes.
+        72:08:37 P   Okay. Even the computer is GO, Tom.
+        72:08:38 CC  See you after blackout.
+        72:08:39 C   Okay. Go ahead. Put it on, Gene.
 
 	Page 341
 
@@ -10796,7 +10792,7 @@
                                  in closer. You can go ahead and turn it if you
                                  want to.
             72:11:42      C      Okay.
-            72:11:43      P      Okay.  It's beautiful....
+            72:11:43      P      Okay.  It's beautiful. ...
             72:11:50      P      Okay. Now we're going to start rolling downrange
                                  just about any time. Crossrange looks real good.
             72:12:00      P      Boy! What a fireball! Whew!
@@ -10906,7 +10902,7 @@
        72:18:19 C   Ready.
        72:18:21 CC  Okay. Gemini IX ... we have you directly ahead
                     of the Wasp visually. Over.
-       72:18:22 P   Ready....Wasp manually over. Wasp. Roger.
+       72:18:22 P   Ready. ... Wasp manually over. Wasp. Roger.
                     Have you got two points? We're going down. Give
                     my congratulations to your Captain Hartley for be -
                     on the spot.
