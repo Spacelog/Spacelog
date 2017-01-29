@@ -146,11 +146,77 @@ def _get_reading_list(country_code):
 
 @cache_control(no_cache=True)
 def about(request):
+    country_code = request.META.get('HTTP_CF_IPCOUNTRY')
+    if country_code is None:
+        country_code = request.META.get(
+            'GEOIP_COUNTRY_CODE',
+            '--',
+        )
+
+    # Fetch the list of contributors from the various missions. Use a
+    # set() because we only want to list each contributor once.
+    contributors = set()
+    for mission in list(Mission.Query(request.redis_conn)):
+        if not mission.incomplete:
+            contributors = contributors | set(mission.copy.get('cleaners', []))
+    # Some people have contributed code changes but haven't worked on
+    # missions.
+    contributors = contributors | {
+        'Adam Johnson',
+        'Tom Morris',
+        'Christopher Stumm',
+    }
+
+    # Strip out any of the original team, because they're already
+    # listed explicitly.
+    contributors = contributors - {
+        'Matthew Ogle',
+        'Russ Garrett',
+        'Hannah Donovan',
+        'Chris Govias',
+        'Gavin O\'Carroll',
+        'Ryan Alexander',
+        'James Aylett',
+        'George Brocklehurst',
+        'David Brownlee',
+        'Ben Firshman',
+        'Mark Norman Francis',
+        'Andrew Godwin',
+        'Steve Marshall',
+    }
+
+    def _sort(element):
+        return element.split(' ')[-1]
+    contributors = sorted(contributors, key=_sort)
+
+    # Finally, we have websites for some of these (but we don't use
+    # that on the mission cleaners list).
+    def _as_dict(contributor):
+        ret = {
+            'name': contributor,
+        }
+        url = {
+            'Emily Carney': 'http://this-space-available.blogspot.com/',
+            'Adam Johnson': 'http://pkqk.net',
+            'Tom Morris': 'http://tommorris.org',
+            'Matthew Somerville': 'http://www.dracos.co.uk',
+            'Christopher Stumm': 'http://stumm.ca/',
+        }.get(contributor)
+        if url is not None:
+            ret['website'] = url
+        return ret
+
+    contributors = [ _as_dict(contributor) for contributor in contributors ]
+
     return render_to_response(
-            'pages/about.html',
-            {'READING_LISTS': _get_reading_list(request.META.get('GEOIP_COUNTRY_CODE', '--')), 'page': 'about'},
-            context_instance = RequestContext(request),
-            )
+        'pages/about.html',
+        {
+            'READING_LISTS': _get_reading_list(country_code),
+            'contributors': contributors,
+            'page': 'about',
+        },
+        context_instance = RequestContext(request),
+    )
 
 @cache_control(no_cache=True)
 def press(request):

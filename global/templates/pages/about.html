@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load nbspify %}
 {% block title %}About Spacelog{% endblock %}
 
 {% block content-class %}content-page about{% endblock %}
@@ -44,27 +45,8 @@
  --><li><a href='http://nascentguruism.com/'>Steve&nbsp;Marshall</a></li><!-- FLIGHT -->
   </ul>
   <h3>Contributors</h3>
-  <ul class='contributors'><!--
- --><li><a href='http://this-space-available.blogspot.com/'>Emily&nbsp;Carney</a></li><!--
- --><li>Palmer&nbsp;Dabbelt</li><!--
- --><li>Peter&nbsp;Dufault</li><!--
- --><li>David&nbsp;Ginsberg</li><!--
- --><li><a href='http://pkqk.net'>Adam&nbsp;Johnson</a></li><!--
- --><li>Tim&nbsp;Hatch</li><!--
- --><li>Nathaniel&nbsp;Hine</li><!--
- --><li>Jeff&nbsp;Hlywa</li><!--
- --><li>Benjamin&nbsp;Levine</li><!--
- --><li>Steve&nbsp;Midgley</li><!--
- --><li><a href='http://tommorris.org'>Tom&nbsp;Morris</a></li><!--
- --><li>Igor&nbsp;Racyborynsky</li><!--
- --><li>Dananjaya&nbsp;Ramanayke</li><!--
- --><li>Greg&nbsp;Roodt</li><!--
- --><li><a href='http://www.dracos.co.uk'>Matthew&nbsp;Somerville</a></li><!--
- --><li><a href='http://stumm.ca/'>Christopher&nbsp;Stumm</a></li><!--
- --><li>Jeff&nbsp;Venverloh</li><!--
- --><li>Jeremy&nbsp;Weatherford</li><!--
- --><li>Sophie&nbsp;Welles</li><!--
- --><li>Trent&nbsp;VanDenBerghe</li>
+  <ul class='contributors'>
+    {% for person in contributors %}<li>{% if person.website %}<a href='{{ person.website }}'>{% endif %}{{ person.name|nbspify }}{% if person.website %}</a>{% endif %}</li>{% endfor %}
   </ul>
   <h2>Made in a fort</h2>
   <p>
