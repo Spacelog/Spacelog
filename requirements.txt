@@ -1,4 +1,5 @@
 django~=1.11.0
+psycopg2
 redis~=2.2.0
 boto
 gunicorn==19.3.0

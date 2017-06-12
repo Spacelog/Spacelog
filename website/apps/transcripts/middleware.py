@@ -1,7 +1,8 @@
 import redis
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from backend.api import Mission
+from models import Mission
+from backend.api import Mission as RedisMission
 from transcripts.templatetags.missiontime import component_suppression
 
 class MissionMiddleware(object):
@@ -15,11 +16,17 @@ class MissionMiddleware(object):
         # Get the mission subdomain
         subdomain = request.META['HTTP_HOST'].split(".")[0]
         if not request.holding:
+            try:
+                request.mission = Mission.objects.get(subdomains__contains=[subdomain])
+            except Mission.DoesNotExist:
+                request.mission = Mission.objects.get(name='a13')
+
+            #FIXME: Port component_suppression to PostgreSQL
             mission_name = request.redis_conn.get("subdomain:%s" % subdomain) or "a13"
-            request.mission = Mission(request.redis_conn, mission_name)
-            if request.mission.copy.get('component_suppression', None):
-                component_suppression.leading = request.mission.copy['component_suppression'].get('leading', None)                
-                component_suppression.trailing = request.mission.copy['component_suppression'].get('trailing', None)
+            redis_mission = RedisMission(request.redis_conn, mission_name)
+            if redis_mission.copy.get('component_suppression', None):
+                component_suppression.leading = redis_mission.copy['component_suppression'].get('leading', None)                
+                component_suppression.trailing = redis_mission.copy['component_suppression'].get('trailing', None)
             else:
                 component_suppression.leading = None
                 component_suppression.trailing = None

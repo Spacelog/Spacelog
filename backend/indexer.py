@@ -1,4 +1,5 @@
 from __future__ import with_statement
+import datetime
 import os
 import sys
 import re
@@ -336,6 +337,34 @@ class MetaIndexer(object):
         self.mission_name = mission_name
 
     def index(self):
+        self.index_to_postgres()
+        self.index_to_redis()
+
+    def index_to_postgres(self):
+        meta = self.parser.get_meta()
+
+        from website.apps.transcripts.models import Mission
+        unique_identifiers = {'name': self.mission_name}
+        try:
+            mission = Mission.objects.get(**unique_identifiers)
+        except Mission.DoesNotExist:
+            mission = Mission(**unique_identifiers)
+
+        mission.subdomains = meta['subdomains']
+        mission.utc_launch_time = datetime.datetime.utcfromtimestamp(
+            self.get_timestamp(meta, 'utc_launch_time'),
+        )
+        mission.memorial = meta.get('memorial', False)
+        mission.featured = meta.get('featured', False)
+        mission.incomplete = meta.get('incomplete', True)
+        mission.main_transcript = self.get_main_transcript(meta, mission.memorial)
+        mission.media_transcript = meta.get('media_transcript', None)
+
+        mission.save()
+
+        mission.refresh_from_db()
+
+    def index_to_redis(self):
         meta = self.parser.get_meta()
 
         # Store mission info
@@ -344,19 +373,8 @@ class MetaIndexer(object):
                 meta['subdomain'] = subdomain
             self.redis_conn.set("subdomain:%s" % subdomain, meta['name'])
         del meta['subdomains']
-        utc_launch_time = meta['utc_launch_time']
-        if isinstance(utc_launch_time, basestring):
-            # parse as something more helpful than a number
-            # time.mktime operates in the local timezone, so force that to UTC first
-            os.environ['TZ'] = 'UTC'
-            time.tzset()
-            utc_launch_time = int(time.mktime(time.strptime(utc_launch_time, "%Y-%m-%dT%H:%M:%S")))
-            print "Converted launch time to UTC timestamp:", utc_launch_time
+        utc_launch_time = self.get_timestamp(meta, 'utc_launch_time')
         is_memorial = meta.get('memorial', False)
-        if is_memorial:
-            default_main_transcript = None
-        else:
-            default_main_transcript = "%s/TEC" % self.mission_name
         self.redis_conn.hmset(
             "mission:%s" % self.mission_name,
             {
@@ -364,7 +382,7 @@ class MetaIndexer(object):
                 "memorial": is_memorial,
                 "featured": meta.get('featured', False),
                 "incomplete": meta.get('incomplete', True),
-                "main_transcript": meta.get('main_transcript', default_main_transcript),
+                "main_transcript": self.get_main_transcript(meta, is_memorial),
                 "media_transcript": meta.get('media_transcript', None),
                 "subdomain": meta.get('subdomain', None),
             }
@@ -400,6 +418,25 @@ class MetaIndexer(object):
         self.index_characters(meta)
         self.index_special_searches(meta)
         self.index_errors(meta)
+
+    def get_timestamp(self, meta, key):
+        timestamp = meta[key]
+        if isinstance(timestamp, basestring):
+            # parse as something more helpful than a number
+            # time.mktime operates in the local timezone, so force that to UTC first
+            os.environ['TZ'] = 'UTC'
+            time.tzset()
+            timestamp = int(time.mktime(time.strptime(timestamp, "%Y-%m-%dT%H:%M:%S")))
+            print "Converted launch time to UTC timestamp:", timestamp
+        return timestamp
+
+    def get_main_transcript(self, meta, is_memorial):
+        if is_memorial:
+            default_main_transcript = None
+        else:
+            default_main_transcript = "%s/TEC" % self.mission_name
+
+        return meta.get('main_transcript', default_main_transcript)
 
     def index_narrative_elements(self, meta):
         "Stores acts and key scenes in redis"
@@ -601,6 +638,13 @@ class MissionIndexer(object):
 
 
 if __name__ == "__main__":
+    from django.conf import settings
+    from website.configs import settings as website_settings
+    settings.configure(
+        DATABASES=website_settings.DATABASES,
+        TIME_ZONE=website_settings.TIME_ZONE,
+    )
+
     redis_conn = redis.Redis()
     transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
     if len(sys.argv)>1:
