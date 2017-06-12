@@ -90,7 +90,7 @@
           <a href='{% selection_url selection_start_timestamp log_line.previous_timestamp %}' class='range-ui' id='contract-next'><span>Contract selection up</span></a>
         {% endif %}
         {% if log_line.highlight_index == 1 %}
-            <a href='{% timestamp_to_url log_line.timestamp selection_start_timestamp %}' class='range-ui' id='selection-close'><span>Close</span></a>
+            <a href='{% timestamp_to_url log_line.timestamp anchor=selection_start_timestamp %}' class='range-ui' id='selection-close'><span>Close</span></a>
             <!-- Our MET in seconds is {{ log_line.timestamp }} -->
         {% endif %}
 

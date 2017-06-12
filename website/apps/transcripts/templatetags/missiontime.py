@@ -2,10 +2,6 @@ from django.template import Library
 from django.core.urlresolvers import reverse
 from backend.util import timestamp_to_seconds
 
-from templatetag_sugar.register import tag
-from templatetag_sugar.parser import Variable, Optional
-
-
 import threading
 
 register = Library()
@@ -48,14 +44,14 @@ def mission_time(seconds, separator=':', enable_suppression=False):
 def mission_time_format(seconds):
     return mission_time(seconds, ' ', True)
 
-@tag(register, [Variable(), Optional([Variable()])])
-def timestamp_to_url(context, seconds, anchor=None):
+@register.simple_tag(takes_context=True)
+def timestamp_to_url(context, seconds, **kwargs):
     transcript = None
     if 'transcript_name' in context:
         transcript = context['transcript_name']
-    return timestamp_to_url_in_transcript(context, seconds, transcript, anchor)
+    return timestamp_to_url_in_transcript(context, seconds, transcript, **kwargs)
 
-@tag(register, [Variable(), Variable(), Optional([Variable()])])
+@register.simple_tag(takes_context=True)
 def timestamp_to_url_in_transcript(context, seconds, transcript, anchor=None):
     url_args = {
         "start": mission_time(seconds)
@@ -71,14 +67,19 @@ def timestamp_to_url_in_transcript(context, seconds, transcript, anchor=None):
     return url
     
 
-@tag(register, [Variable(), Optional([Variable()])])
-def selection_url(context, start_seconds, end_seconds=None):
+@register.simple_tag(takes_context=True)
+def selection_url(context, start_seconds, *args):
+    if len(args) == 0:
+        end_seconds = None
+    else:
+        end_seconds = args[0]
+
     transcript = None
     if 'transcript_name' in context:
         transcript = context['transcript_name']
     return selection_url_in_transcript(context, start_seconds, transcript, end_seconds)
 
-@tag(register, [Variable(), Variable(), Optional([Variable()])])
+@register.simple_tag(takes_context=True)
 def selection_url_in_transcript(context, start_seconds, transcript, end_seconds=None):
     url_args = {
         "start": mission_time(start_seconds)
