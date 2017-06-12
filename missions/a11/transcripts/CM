@@ -1372,7 +1372,7 @@ CMP: Now, let's see. We want to go to the suit circuit - -
 LMP: Yes, I'll get the suit circuit if I can find that valve.
 
 [00:01:54:50]
-CMP: Okay, let's see, that's the EDS POWER, ON.
+CMP: Okay, let's see, that's the [glossary:EDS] POWER, ON.
 
 [00:01:54:54]
 LMP: Oh, that thing is hard.
@@ -1387,10 +1387,10 @@ LMP: Suit's closed.
 CMP: - - on that VERB 48?
 
 [00:01:55:10]
-CDR: Ready for EDS POWER, ON, you think?
+CDR: Ready for [glossary:EDS] POWER, ON, you think?
 
 [00:01:55:13]
-CMP: EDS POWER, up and ON, yes.
+CMP: [glossary:EDS] POWER, up and ON, yes.
 
 [00:01:55:17]
 CDR: Okay, it's ON.
@@ -2188,10 +2188,10 @@ CMP: You got that TRANSLUNAR switched to INJECT, huh?
 CDR: Yes, to INJECT.
 
 [00:02:23:47]
-LMP: EDS POWER, you got ON?
+LMP: [glossary:EDS] POWER, you got ON?
 
 [00:02:23:49]
-CDR: EDS POWER is ON.
+CDR: [glossary:EDS] POWER is ON.
 
 [00:02:23:53]
 LMP: PYROs are ARMED?

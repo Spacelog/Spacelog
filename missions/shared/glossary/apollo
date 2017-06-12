@@ -143,6 +143,11 @@
         "summary": "Environmental control system",
         "type": "abbreviation"
     },
+    "EDS": {
+        "summary": "Emergency detection system",
+        "type": "abbreviation",
+        "description": "The emergency detection system monitored the flight vehicle during the early stages of the launch. It could trigger an automatic abort in situations where the flight crew could not be expected to react quickly enough to ensure a successful escape from the booster."
+    },
     "EI": {
         "summary": "Entry interface",
         "type": "abbreviation"

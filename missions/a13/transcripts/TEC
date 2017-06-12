@@ -80,7 +80,7 @@ CDR: I Charlie.
 CC:  And, 13, you are GO for staging.
 
 [00:00:02:04]
-CDR: GO for staging. Roger. We're EDS MANUAL.
+CDR: GO for staging. Roger. We're [glossary:EDS] MANUAL.
 
 [00:00:02:08]
 _page : 9
@@ -27347,7 +27347,7 @@ CMP: Oh, that's right. Oh, I knew that. I'm not
 
 [03:20:00:19]
 CC:  Okay. Now the next one, two, three, four, five
-     are the same, and we want EDS AUTO to OFF. Over.
+     are the same, and we want [glossary:EDS] AUTO to OFF. Over.
 
 [03:20:00:33]
 CMP: Okay.
@@ -27404,7 +27404,7 @@ CMP: Okay. And that's exactly where I was. COMMAND
      MODULE [glossary:RCS] PROPELLANT 2, center, on, up; PROPELLANT 
      talkbacks, two, gray; SERVICE MODULE [glossary:RCS]
      SECONDARY FUEL PRESSURE, four, center, and
-     CLOSED; EDS AUTO, OFF; COMMAND MODULE/[glossary:LM] FINAL
+     CLOSED; [glossary:EDS] AUTO, OFF; COMMAND MODULE/[glossary:LM] FINAL
      SEP, two, off; COMMAND MODULE/SERVICE MODULE
      SEP, two, down; [glossary:S-IVB]/[glossary:LM] SEP, off, down, guarded;
      PROPELLANT DUMP to [glossary:RCS] COMMAND; 2 ENGINE OUT and
@@ -27653,7 +27653,7 @@ CC:  Okay. On panel 6, skip the first one. We want
 CMP: All right.
 
 [03:20:14:27]
-CC:  Okay. On panel 7 we want EDS POWER, OFF. [glossary:TVC] SERVO
+CC:  Okay. On panel 7 we want [glossary:EDS] POWER, OFF. [glossary:TVC] SERVO
      POWER 1 and 2, OFF; [glossary:FDAI]/GPI POWER, OFF; and LOGIC 2
      slash 3 POWER, OFF. Over.
 
@@ -27708,12 +27708,12 @@ CC:  Okay. And SEQ ARM, two, open.
 CMP: Okay. Are you with me? SEQ ARM, two of them open.
 
 [03:20:17:58]
-CC:  Roger. The next is EDS, three, to open.
+CC:  Roger. The next is [glossary:EDS], three, to open.
 
 [03:20:18:05]
 _page : 438
 _tape : Tape 62/15
-CMP: EDS, three, open.
+CMP: [glossary:EDS], three, open.
 
 [03:20:18:08]
 CC:  Roger. The next are ELS BAT A, BAT B, two, open.
@@ -32022,7 +32022,7 @@ CMP: Okay. On panel 3: TRANSPONDER to PRIMARY;
 CC:  Hey, very good. Okay, panel 225: circuit
      breaker FLIGHT BUS, MAIN B, to close; circuit
      breaker CTE, MAIN B, to close. Panel 250: CB
-     BAT C BAT CHARGER/EDS 2 to close.
+     BAT C BAT CHARGER/[glossary:EDS] 2 to close.
 
 [04:05:15:18]
 CMP: Hey, Vance, just a minute. Slow down, would you?
@@ -32037,7 +32037,7 @@ CMP: Okay. I got distracted here. On panel 225: CB
 
 [04:05:15:37]
 CC:  Okay. After that, CB CTE, MAIN B, to close.
-     Next, panel 250: CB BAT C BAT CHARGE/EDS2 to
+     Next, panel 250: CB BAT C BAT CHARGE/[glossary:EDS]2 to
      close; CB BAT C POWER ENTRY/POSTLANDING to
      close. Next, panel 275: CB MAIN B, BAT BUS B,
      to close; CB INVERTER POWER 2, MAIN B, to close.
@@ -32052,7 +32052,7 @@ CMP: Okay. Let me give you all of panel 225 again.
      CB FLIGHT BUS, MAIN B, close; CB CTE, MAIN B,
      close. On panel 250: CB BAT - B BAT CHARGE,
      that should be BAT C, Charlie, isn't it? BAT
-     CHARGE/EDS2 closed?
+     CHARGE/[glossary:EDS]2 closed?
 
 [04:05:18:01]
 CC:  That's right. That's - -
@@ -32065,7 +32065,7 @@ CC:  Okay. That should be BAT Charlie.
 
 [04:05:18:08]
 CMP: Let me finish. Okay. That's what I thought.
-     BAT Charlie BAT CHARGE/EDS2, close; BAT Baker
+     BAT Charlie BAT CHARGE/[glossary:EDS]2, close; BAT Baker
      POWER ENTRY/POSTLANDING, closed. On panel 275:
      CB MAIN B, BAT BUS B, closed; CB INVERTER POWER 2,
      MAIN B, closed.
