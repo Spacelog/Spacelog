@@ -1,4 +1,4 @@
-from django.template import Context, engines
+from django.template import engines
 import json
 import unittest
 from website.apps.common.response import JsonTemplateResponse
@@ -13,7 +13,7 @@ class TestJsonTemplateResponse(unittest.TestCase):
         response = JsonTemplateResponse(
             request=None,
             template=template,
-            context=Context(),
+            context={},
         )
         response.render()
 
