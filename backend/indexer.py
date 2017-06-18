@@ -359,10 +359,9 @@ class MetaIndexer(object):
         mission.incomplete = meta.get('incomplete', True)
         mission.main_transcript = self.get_main_transcript(meta, mission.memorial)
         mission.media_transcript = meta.get('media_transcript', None)
+        mission.copy = self.get_copy(meta)
 
         mission.save()
-
-        mission.refresh_from_db()
 
     def index_to_redis(self):
         meta = self.parser.get_meta()
@@ -398,11 +397,9 @@ class MetaIndexer(object):
             )
         
         
-        copy = meta.get("copy", {})
+        copy = self.get_copy(meta)
         for key, value in copy.items():
             copy[key] = json.dumps(value)
-        if copy.get('based_on_header', None) is None:
-            copy['based_on_header'] = json.dumps('Based on the original transcript')
         self.redis_conn.hmset(
             "mission:%s:copy" % self.mission_name,
             copy,
@@ -437,6 +434,12 @@ class MetaIndexer(object):
             default_main_transcript = "%s/TEC" % self.mission_name
 
         return meta.get('main_transcript', default_main_transcript)
+
+    def get_copy(self, meta):
+        copy = meta.get("copy", {})
+        if copy.get('based_on_header', None) is None:
+            copy['based_on_header'] = json.dumps('Based on the original transcript')
+        return copy
 
     def index_narrative_elements(self, meta):
         "Stores acts and key scenes in redis"
