@@ -343,7 +343,7 @@ class MetaIndexer(object):
     def index_to_postgres(self):
         meta = self.parser.get_meta()
 
-        from website.apps.transcripts.models import Mission
+        from transcripts.models import Mission
         unique_identifiers = {'name': self.mission_name}
         try:
             mission = Mission.objects.get(**unique_identifiers)
@@ -638,12 +638,10 @@ class MissionIndexer(object):
 
 
 if __name__ == "__main__":
-    from django.conf import settings
-    from website.configs import settings as website_settings
-    settings.configure(
-        DATABASES=website_settings.DATABASES,
-        TIME_ZONE=website_settings.TIME_ZONE,
-    )
+    import os
+    import django
+    os.environ['DJANGO_SETTINGS_MODULE'] = 'website.configs.settings'
+    django.setup()
 
     redis_conn = redis.Redis()
     transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
