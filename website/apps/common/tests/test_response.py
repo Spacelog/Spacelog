@@ -1,11 +1,11 @@
-from django.template import Context, Template
+from django.template import Context, engines
 import json
 import unittest
 from website.apps.common.response import JsonTemplateResponse
 
 class TestJsonTemplateResponse(unittest.TestCase):
     def test_blocks(self):
-        template = Template("""
+        template = engines['django'].from_string("""
 {% extends "blah blah" %}
 {% block title %}Title!{% endblock%}
 {% block content %}Blah blah content{% endblock %}
