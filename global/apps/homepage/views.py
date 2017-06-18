@@ -115,7 +115,6 @@ def homepage(request):
             'missions_coming_soon': missions_coming_soon,
             'quote': random.choice(NICE_THINGS),
         },
-        context_instance = RequestContext(request),
     )
 
 def _get_amazon_url(country_code, asin):
@@ -215,7 +214,6 @@ def about(request):
             'contributors': contributors,
             'page': 'about',
         },
-        context_instance = RequestContext(request),
     )
 
 @cache_control(no_cache=True)
@@ -226,7 +224,6 @@ def press(request):
                 'page': 'press',
                 'NICE_THINGS': NICE_THINGS,
             },
-            context_instance = RequestContext(request),
             )
 
 @cache_control(no_cache=True)
@@ -234,5 +231,4 @@ def get_involved(request):
     return render_to_response(
             'pages/get-involved.html',
             {'page': 'get-involved'},
-            context_instance = RequestContext(request),
             )

@@ -1,6 +1,6 @@
-from django.http import Http404, HttpResponseRedirect
-from django.shortcuts import render_to_response
-from django.template import RequestContext
+from django.http import Http404
+from django.views.generic import TemplateView
+from common.views import MemorialMixin
 from backend.api import Character
 
 def mission_people(request, role=None):
@@ -42,21 +42,19 @@ def mission_people(request, role=None):
 
     return people, more_people
 
-def people(request, role=None):
-    if request.mission.memorial:
-        return HttpResponseRedirect('/')
 
-    people, more_people = mission_people(request, role)
-    
-    # 404 if we have no content
-    if 1 == len(people) and 0 == len(people[0]['members']):
-        raise Http404( "No people were found" )
-    return render_to_response(
-        'people/people.html',
-        {
-            'role':   role,
+class PeopleView(TemplateView, MemorialMixin):
+    template_name = 'people/people.html'
+
+    def get_context_data(self, role=None, **kwargs):
+        people, more_people = mission_people(self.request, role)
+
+        # 404 if we have no content
+        if 1 == len(people) and 0 == len(people[0]['members']):
+            raise Http404( "No people were found" )
+
+        return {
+            'role': role,
             'people': people,
             'more_people': more_people,
-        },
-        context_instance = RequestContext(request),
-    )
+        }

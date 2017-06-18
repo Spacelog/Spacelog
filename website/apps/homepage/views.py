@@ -1,5 +1,4 @@
 from django.template.loader import render_to_string
-from django.template import RequestContext
 from django.views.generic import TemplateView
 from backend.util import timestamp_to_seconds
 from backend.api import LogLine, Act
@@ -55,7 +54,7 @@ class HomepageQuoteView(JsonMixin, HomepageView):
             'quote': render_to_string(
                 'homepage/_quote.html',
                 { 'quote': self.get_quote() },
-                RequestContext(self.request),
+                request=self.request,
             )
         }
 
