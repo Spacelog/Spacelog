@@ -8,12 +8,12 @@ class TestJsonTemplateResponse(unittest.TestCase):
         template = engines['django'].from_string("""
 {% extends "blah blah" %}
 {% block title %}Title!{% endblock%}
-{% block content %}Blah blah content{% endblock %}
+{% block content %}Hello, {{thing}}{% endblock %}
 """)
         response = JsonTemplateResponse(
             request=None,
             template=template,
-            context={},
+            context={'thing': 'world'},
         )
         response.render()
 
@@ -21,7 +21,7 @@ class TestJsonTemplateResponse(unittest.TestCase):
             json.loads(response.content),
             {
                 'title': 'Title!',
-                'content': 'Blah blah content',
+                'content': 'Hello, world',
             }
         )
 
