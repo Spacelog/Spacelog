@@ -21,7 +21,9 @@ class StatsPornGenerator(object):
         self.redis_conn = redis_conn
 
     def build_all_missions(self):
-        for mission in list(Mission.Query(self.redis_conn)):
+        from transcripts.models import Mission
+
+        for mission in Mission.objects.all():
             self.build_mission(mission)
 
     def build_mission(self, mission):
@@ -135,6 +137,10 @@ class StatsPornGenerator(object):
 
 
 if __name__ == "__main__":
+    import django
+    os.environ['DJANGO_SETTINGS_MODULE'] = 'website.configs.settings'
+    django.setup()
+
     redis_conn = redis.Redis()
     current_db = int(redis_conn.get("live_database") or 0)
     print "Building visualisations from database %d" % current_db
