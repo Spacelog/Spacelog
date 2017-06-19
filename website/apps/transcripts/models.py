@@ -40,3 +40,7 @@ class Mission(models.Model):
     @property
     def type_search(self):
         return self.copy.get('type_search', 'reentry')
+
+    @property
+    def year(self):
+        return self.utc_launch_time.year

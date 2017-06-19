@@ -4,7 +4,7 @@ from django.template import RequestContext
 from django.views.decorators.cache import cache_control
 from urllib import quote
 import random
-from backend.api import Mission
+from website.apps.transcripts.models import Mission
 
 AFFILIATE_CODES = {'us': 'spacelog-20', 'uk': 'spacelog-21'}
 
@@ -100,14 +100,11 @@ NICE_THINGS = [
 ]
 
 def homepage(request):
-    missions = [
-        mission for mission in list(Mission.Query(request.redis_conn))
-        if not mission.incomplete
-    ]
-    missions_coming_soon = [
-        mission for mission in list(Mission.Query(request.redis_conn))
-        if mission.incomplete and mission.featured
-    ]
+    missions = Mission.objects.filter(incomplete=False)
+    missions_coming_soon = Mission.objects.filter(
+        incomplete=True,
+        featured=True,
+    )
     return render_to_response(
         'homepage/homepage.html',
         {
