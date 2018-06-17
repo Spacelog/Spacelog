@@ -84,10 +84,10 @@ a:active {
 @font-face {
     font-family:            'League Gothic';
     src: url('../fonts/league-gothic.eot');
-    src: local('://'),
-         url('http://cdn.spacelog.org/assets/global/fonts/league-gothic.woff') format('woff'),
-         url('http://cdn.spacelog.org/assets/global/fonts/league-gothic.svg#league_gothic') format('svg'),
-         url('http://cdn.spacelog.org/assets/global/fonts/league-gothic.otf') format('opentype');
+    src: local('League Gothic'),
+         url('../fonts/league-gothic.woff') format('woff'),
+         url('../fonts/league-gothic.svg#league_gothic') format('svg'),
+         url('../fonts/league-gothic.otf') format('opentype');
 }
 .league-gothic {
     font-family:            'League Gothic';
