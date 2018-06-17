@@ -119,4 +119,4 @@ INSTALLED_APPS = (
     'transcripts',
 )
 
-PROJECT_HOME = "http://spacelog.org/"
+PROJECT_HOME = "https://spacelog.org/"
