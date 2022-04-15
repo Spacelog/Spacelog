@@ -5,8 +5,8 @@ website_scss_components   = $(wildcard website/static/css/*/*.scss)
 global_scss_sources       = $(wildcard global/static/css/*.scss)
 global_css_targets        = $(patsubst %.scss,%.css,$(global_scss_sources))
 global_scss_components    = $(wildcard global/static/css/*/*.scss)
-PYTHON                   ?= ./ENV/bin/python
-SASS                     ?= ./ENV/bin/pyscss
+PYTHON                   ?= python
+SASS                     ?= pyscss
 
 # Dev Django runserver variables
 dev_webserver_ip         ?= 0.0.0.0
