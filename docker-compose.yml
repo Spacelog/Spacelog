@@ -1,0 +1,28 @@
+version: "3"
+services:
+  website:
+    build: .
+    command: python -m website.manage runserver 0.0.0.0:8000
+    depends_on: 
+     - redis
+    environment:
+      REDIS_URL: "redis://redis:6379"
+    init: true
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/src
+  global:
+    build: .
+    command: python -m global.manage runserver 0.0.0.0:8001
+    depends_on: 
+     - redis
+    environment:
+      REDIS_URL: "redis://redis:6379"
+    init: true
+    ports:
+      - "8001:8001"
+    volumes:
+      - .:/src
+  redis:
+    image: redis
