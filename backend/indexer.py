@@ -608,7 +608,7 @@ if __name__ == "__main__":
         flip_db = False
     else:
         dirs = os.listdir(transcript_dir)
-        flip_db = True
+        flip_db = False
     # Find out what the current database number is
     if not redis_conn.exists("live_database"):
         redis_conn.set("live_database", 0)
@@ -629,8 +629,8 @@ if __name__ == "__main__":
         new_db = current_db
         print "Reindexing into database %s" % new_db
         print "Note that this is not perfect! Do not use in production."
-        redis_conn.select(new_db)
-        redis_conn.set("hold", "1")
+        # redis_conn.select(new_db)
+        # redis_conn.set("hold", "1")
 
     for filename in dirs:
         path = os.path.join(transcript_dir, filename)
