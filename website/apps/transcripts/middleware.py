@@ -1,3 +1,4 @@
+import os
 import redis
 from django.shortcuts import render_to_response
 from django.template import RequestContext
@@ -9,7 +10,7 @@ class MissionMiddleware(object):
     Adds a mission and redis object into every request.
     """
     def process_request(self, request):
-        request.redis_conn = redis.Redis()
+        request.redis_conn = redis.from_url(os.environ.get("REDIS_URL", "redis://localhost:6379"))
         # Get the current database
         request.redis_conn.select(int(request.redis_conn.get("live_database") or 0))
         # Get the mission subdomain
@@ -29,7 +30,7 @@ class HoldingMiddleware(object):
     Shows a holding page if we're in the middle of an upgrade.
     """
     def process_request(self, request):
-        redis_conn = redis.Redis()
+        redis_conn = redis.from_url(os.environ.get("REDIS_URL", "redis://localhost:6379"))
         # Get the current database
         redis_conn.select(int(redis_conn.get("live_database") or 0))
         if redis_conn.get("hold"):
