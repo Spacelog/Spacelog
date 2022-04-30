@@ -46,50 +46,45 @@ NICE_THINGS = [
     Thing(
         "Seriously cool.",
         "Seriously cool",
-        "http://techcrunch.com/2011/05/07/did-devfort-just-hand-over-astronaut-listening-data-to-the-www/",
+        "https://techcrunch.com/2011/05/07/did-devfort-just-hand-over-astronaut-listening-data-to-the-www/",
         "TechCrunch",
         "7 May, 2011",
-    ),
-    Thing(
-        "A must-visit site for space enthusiasts.", 
-        "Must-visit for space enthusiasts", 
-        "http://www.komando.com/coolsites/index.aspx?id=10587", "Kim Komando Cool Site of the Day",  "11 Apr, 2011",
     ),
   
     Thing(
         "Spacelog is awesome.", 
         "Spacelog is awesome", 
-        "http://www.rockpapershotgun.com/2010/12/05/the-sunday-papers-148/", "Rock, Paper, Shotgun", "5 Dec, 2010",
+        "https://www.rockpapershotgun.com/2010/12/05/the-sunday-papers-148/", "Rock, Paper, Shotgun", "5 Dec, 2010",
     ),
 
     Thing(
         "This is the kind of historical documentation and access that reminds us of why the internet is so, insanely awesome.", 
         "Reminds us the internet is so, insanely awesome",
-        "http://www.engadget.com/2010/12/02/spacelog-provides-fascinating-searchable-text-transcripts-for-na/", "Engadget", "2 Dec, 2010",
+        "https://www.engadget.com/2010/12/02/spacelog-provides-fascinating-searchable-text-transcripts-for-na/", "Engadget", "2 Dec, 2010",
     ),
 
     Thing(
         "&hellip;highly addictive&hellip;", 
         "&hellip;highly addictive&hellip;", 
-        "http://www.huffingtonpost.com/2010/12/02/spacelogorg-nasa-mission-transcripts_n_790735.html", "The Huffington Post", "2 Dec, 2010",
+        "https://www.huffingtonpost.com/2010/12/02/spacelogorg-nasa-mission-transcripts_n_790735.html", "The Huffington Post", "2 Dec, 2010",
     ),
 
     Thing(
         "[Spacelog] is the best thing ever on the internet!", 
         "[Spacelog] is the best thing ever on the internet!", 
-        "http://twitter.com/moleitau/status/9930034542288896", "Matt Jones", "1 Dec, 2010",
+        "https://twitter.com/moleitau/status/9930034542288896", "Matt Jones", "1 Dec, 2010",
     ),
 
     Thing(
         "Wonderful stuff.", 
         "Wonderful stuff", 
-        "http://kottke.org/10/12/spacelog", "Jason Kottke", "1 Dec, 2010",
+        "https://kottke.org/10/12/spacelog", "Jason Kottke", "1 Dec, 2010",
     ),
 
     Thing(
         "I absolutely love this. Spacelog.org is taking the radio transcripts from NASA missions, pairing them with great graphic design, and making the whole thing searchable and linkable. The result: A delightfully immersive perspective on history.", 
         "A delightfully immersive perspective on history",
-        "http://www.boingboing.net/2010/12/01/an-interactive-histo.html", "Boing Boing", "1 Dec, 2010",
+        "https://boingboing.net/2010/12/01/an-interactive-histo.html", "Boing Boing", "1 Dec, 2010",
     ),
 
     Thing(
@@ -124,8 +119,8 @@ def _get_amazon_url(country_code, asin):
     else:
         domain = 'com'
         code = AFFILIATE_CODES['us']
-    url = "http://www.amazon.%s/dp/%s" % (domain, asin)
-    link_string = "http://www.amazon.%s/gp/redirect.html?ie=UTF8&location=%s&tag=%s" % \
+    url = "https://www.amazon.%s/dp/%s" % (domain, asin)
+    link_string = "https://www.amazon.%s/gp/redirect.html?ie=UTF8&location=%s&tag=%s" % \
             (domain, quote(url, safe=''), code)
     return link_string
 
@@ -195,9 +190,9 @@ def about(request):
             'name': contributor,
         }
         url = {
-            'Emily Carney': 'http://this-space-available.blogspot.com/',
-            'Adam Johnson': 'http://pkqk.net',
-            'Tom Morris': 'http://tommorris.org',
+            'Emily Carney': 'https://this-space-available.blogspot.com/',
+            'Adam Johnson': 'https://pkqk.net',
+            'Tom Morris': 'https://tommorris.org',
             'Matthew Somerville': 'http://www.dracos.co.uk',
             'Christopher Stumm': 'http://stumm.ca/',
         }.get(contributor)

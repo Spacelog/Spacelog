@@ -73,7 +73,7 @@ STATIC_URL = '/assets/'
 # places on the CDN
 MISSIONS_IMAGE_ROOT = os.path.join(SITE_ROOT, '..', 'missions')
 # Set this to '/assets/missions/' if you want to test local mission images
-MISSIONS_IMAGE_URL = 'http://media.spacelog.org/'
+MISSIONS_IMAGE_URL = 'https://media.spacelog.org/'
 
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
@@ -119,4 +119,4 @@ INSTALLED_APPS = (
     'transcripts',
 )
 
-PROJECT_HOME = "http://spacelog.org/"
+PROJECT_HOME = "https://spacelog.org/"

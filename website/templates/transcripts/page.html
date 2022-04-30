@@ -120,7 +120,7 @@
     Spoken on {{ first_highlighted_line.utc_time }} UTC ({{ first_highlighted_line.utc_time|timesince }} ago)<span>. </span>
     <i>Link to this<span> transcript range is</span>:</i>
     <input type="text" name="" value="{{ permalink }}">
-    <a title="Tweet this transcript range" href="http://twitter.com/share?url={{ permalink|urlencode:'' }}&amp;text={{ first_highlighted_line.lines.0.1|truncatewords:15|urlencode }}&amp;via=spacelog&amp;related=devfort">Tweet</a>
+    <a title="Tweet this transcript range" href="https://twitter.com/share?url={{ permalink|urlencode:'' }}&amp;text={{ first_highlighted_line.lines.0.1|truncatewords:15|urlencode }}&amp;via=spacelog&amp;related=devfort">Tweet</a>
     </p>
     {% endif %}
     {% if log_line.following_silence > 3600 and max_highlight_index %}
@@ -166,15 +166,10 @@
         {% else %}
           <li class='next'><span>Next</span></li>
         {% endif %}
-        <li id='fb-like'>{# Facebook like button #}
-          <fb:like href="{{ MISSION_URL }}" layout="button_count" show_faces="false" width="85"></fb:like>
-          <span class="arrow"></span>
-        </li>
       </ul></nav>
       {% if current_act.orbital %}
       <img class='orbital' src='{% mission_static mission.name "images/orbital" current_act.orbital %}'>
       {% endif %}
     </div></div>
   </div>
-  <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
 {% endblock %}
