@@ -135,10 +135,7 @@ class StatsPornGenerator(object):
 
 
 if __name__ == "__main__":
-    redis_conn = redis.Redis()
-    current_db = int(redis_conn.get("live_database") or 0)
-    print "Building visualisations from database %d" % current_db
-    redis_conn.select(current_db)
+    redis_conn = redis.from_url(os.environ.get("REDIS_URL", "redis://localhost:6379"))
 
     generator = StatsPornGenerator(redis_conn)
     generator.build_all_missions()
