@@ -2,11 +2,10 @@ version: "3"
 services:
   website:
     build: .
-    command: python -m website.manage runserver 0.0.0.0:8000
-    depends_on: 
-     - redis
-    environment:
-      REDIS_URL: "redis://redis:6379"
+    command: |
+      sh -c "
+        /etc/init.d/redis-server start &&
+        make devserver"
     init: true
     ports:
       - "8000:8000"
@@ -14,15 +13,12 @@ services:
       - .:/src
   global:
     build: .
-    command: python -m global.manage runserver 0.0.0.0:8001
-    depends_on: 
-     - redis
-    environment:
-      REDIS_URL: "redis://redis:6379"
+    command: |
+      sh -c "
+        /etc/init.d/redis-server start &&
+        make devserver_global"
     init: true
     ports:
       - "8001:8001"
     volumes:
       - .:/src
-  redis:
-    image: redis
