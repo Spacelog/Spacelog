@@ -2,23 +2,11 @@ version: "3"
 services:
   website:
     build: .
-    command: |
-      sh -c "
-        /etc/init.d/redis-server start &&
-        make devserver"
-    init: true
+    command: overmind start && rm -rf .overmind.sock
+    environment:
+      - OVERMIND_PROCFILE=Procfile.dev
     ports:
       - "8000:8000"
-    volumes:
-      - .:/src
-  global:
-    build: .
-    command: |
-      sh -c "
-        /etc/init.d/redis-server start &&
-        make devserver_global"
-    init: true
-    ports:
       - "8001:8001"
     volumes:
       - .:/src

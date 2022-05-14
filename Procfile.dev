@@ -1,0 +1,3 @@
+redis: redis-server
+global: make devserver_global
+website: make devserver
