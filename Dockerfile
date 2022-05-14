@@ -23,4 +23,5 @@ COPY requirements.txt /src/
 RUN --mount=type=cache,target=/root/.cache/pip pip install -r requirements.txt
 COPY . /src/
 RUN /etc/init.d/redis-server start && \
-  make all
+  make all && \
+  redis-cli shutdown save
