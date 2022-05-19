@@ -10,8 +10,8 @@ SASS                     ?= pyscss
 
 # Dev Django runserver variables
 dev_webserver_ip         ?= 0.0.0.0
-dev_webserver_port       ?= 8000
-dev_global_port          ?= 8001
+dev_webserver_port       ?= 8001
+dev_global_port          ?= 8000
 
 all: reindex collectstatic
 

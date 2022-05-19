@@ -14,7 +14,11 @@ RUN apt-get update && \
 COPY --from=overmind-builder /go/bin/overmind /usr/bin/
 CMD ["overmind", "start"]
 
-RUN apt-get update -qq && apt-get install -yq imagemagick optipng procps python python-pip python-xapian redis-server
+RUN apt-get update -qq && \
+    apt-get install -yq \
+        imagemagick optipng procps \
+        python python-pip python-xapian \
+        redis-server
 ENV PYTHONUNBUFFERED 1
 RUN mkdir -p /src
 
@@ -25,3 +29,6 @@ COPY . /src/
 RUN /etc/init.d/redis-server start && \
   make all && \
   redis-cli shutdown save
+
+EXPOSE 8000
+EXPOSE 8001

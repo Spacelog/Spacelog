@@ -106,11 +106,11 @@ virtualenv as above, you should be able to just run `make screen` to
 get everything running for you. You also need to run `make reindex` to
 load all the details of the missions. Then you can point your web
 browser
-at [http://dev.spacelog.org:8001/](http://dev.spacelog.org:8001/) and
+at [http://dev.spacelog.org:8000/](http://dev.spacelog.org:8000/) and
 the global homepage should come up; from there you can navigate to
 other missions, which will appear at URLs such
 as
-[http://apollo11.dev.spacelog.org:8000/](http://apollo11.dev.spacelog.org:8000). The
+[http://apollo11.dev.spacelog.org:8001/](http://apollo11.dev.spacelog.org:8001). The
 DNS is managed by us, and providing you're online everything will just
 work.
 
