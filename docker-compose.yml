@@ -5,6 +5,9 @@ services:
     command: overmind start && rm -rf .overmind.sock
     environment:
       - OVERMIND_PROCFILE=Procfile.dev
+      - GLOBAL_LINK_PORT=8000
+      - WEBSITE_LINK_PORT=8001
+      - PROJECT_DOMAIN=dev.spacelog.org
     ports:
       - "8000:8000"
       - "8001:8001"

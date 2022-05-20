@@ -32,3 +32,7 @@ RUN /etc/init.d/redis-server start && \
 
 EXPOSE 8000
 EXPOSE 8001
+
+# In production mode, generate links that point to port-less URLs
+ENV GLOBAL_LINK_PORT 80
+ENV WEBSITE_LINK_PORT 80

@@ -110,4 +110,7 @@ INSTALLED_APPS = (
     'website.apps.common',
 )
 
-PROJECT_DOMAIN = "spacelog.org"
+WEBSITE_LINK_PORT = os.getenv('WEBSITE_LINK_PORT', '80')
+PROJECT_DOMAIN = os.getenv('PROJECT_DOMAIN', 'spacelog.org')
+if WEBSITE_LINK_PORT.strip() and WEBSITE_LINK_PORT != '80':
+    PROJECT_DOMAIN = '%s:%s' % (PROJECT_DOMAIN, WEBSITE_LINK_PORT)

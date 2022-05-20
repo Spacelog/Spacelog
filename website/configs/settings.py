@@ -119,4 +119,9 @@ INSTALLED_APPS = (
     'transcripts',
 )
 
-PROJECT_HOME = "https://spacelog.org/"
+GLOBAL_LINK_PORT = os.getenv('GLOBAL_LINK_PORT', '80')
+PROJECT_DOMAIN = os.getenv('PROJECT_DOMAIN', 'spacelog.org')
+if GLOBAL_LINK_PORT.strip() and GLOBAL_LINK_PORT != '80':
+    PROJECT_HOME = "//%s:%s/" % (PROJECT_DOMAIN, GLOBAL_LINK_PORT)
+else:
+    PROJECT_HOME = "//%s/" % PROJECT_DOMAIN
