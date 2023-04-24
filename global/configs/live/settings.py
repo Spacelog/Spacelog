@@ -1,6 +1,7 @@
 from configs.settings import *
 
 ALLOWED_HOSTS = [
+    '.' + os.getenv('PROJECT_DOMAIN', 'spacelog.org'),
     '.spacelog.org',
 ]
 
