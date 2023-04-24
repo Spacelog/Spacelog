@@ -80,3 +80,17 @@ gunicorn_global:
 
 gunicorn_website:
 	ENV/bin/gunicorn -c website/configs/live/website_gunicorn.py --daemon --pid ~/gunicorn-website.pid --error-logfile ~/gunicorn-website.log website.configs.live.website_wsgi
+
+redisserver:
+	# Enable swap memory if we're in an environment that supports it,
+	# because in low-/fixed-memory environments, Redis quickly gets OOM-killed
+	if ! grep '\/proc\/sys\b.*\bro\b' /proc/mounts > /dev/null; then \
+	  fallocate -l 512M /swapfile; \
+	  chmod 0600 /swapfile; \
+	  mkswap /swapfile; \
+	  echo 10 > /proc/sys/vm/swappiness; \
+	  swapon /swapfile; \
+	  echo 1 > /proc/sys/vm/overcommit_memory; \
+	fi
+	# Actually run Redis
+	redis-server /etc/redis/redis.conf --logfile "" --daemonize no

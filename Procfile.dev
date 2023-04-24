@@ -1,4 +1,4 @@
-redis: redis-server /etc/redis/redis.conf --logfile "" --daemonize no
+redis: make redisserver
 global: make devserver_global
 website: make devserver
 css: while true; do make productioncss | grep -v 'Nothing to be done' && sleep 0.1; done
