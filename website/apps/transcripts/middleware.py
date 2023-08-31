@@ -14,7 +14,7 @@ class MissionMiddleware(object):
         # Get the current database
         # request.redis_conn.select(int(request.redis_conn.get("live_database") or 0))
         # Get the mission subdomain
-        subdomain = request.META['HTTP_HOST'].split(".")[0]
+        subdomain = request.get_host().split(".")[0]
         if not request.holding:
             mission_name = request.redis_conn.get("subdomain:%s" % subdomain) or "a13"
             request.mission = Mission(request.redis_conn, mission_name)

@@ -144,6 +144,8 @@ INSTALLED_APPS = (
     'transcripts',
 )
 
+USE_X_FORWARDED_HOST = True
+
 GLOBAL_LINK_PORT = os.getenv('GLOBAL_LINK_PORT', '80')
 PROJECT_DOMAIN = os.getenv('PROJECT_DOMAIN', 'spacelog.org')
 if GLOBAL_LINK_PORT.strip() and GLOBAL_LINK_PORT != '80':

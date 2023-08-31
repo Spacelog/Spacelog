@@ -5,7 +5,7 @@ def mission(request):
         "mission": getattr(request, 'mission', None),
         "PROJECT_HOME": settings.PROJECT_HOME,
         "MISSION_URL": "http://%s%s" % (
-            request.META['HTTP_HOST'],
+            request.get_host(),
             # "apollo13.spacelog.org",
             '/',
         ),

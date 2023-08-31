@@ -217,7 +217,7 @@ class PageView(TranscriptView):
             'first_highlighted_line': first_highlighted_line,
             'original_transcript_page': original_transcript_page,
             'permalink': 'http://%s%s%s' % (
-                self.request.META['HTTP_HOST'],
+                self.request.get_host(),
                 self.request.path,
                 permalink_fragment,
             ),
