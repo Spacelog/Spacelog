@@ -1,3 +1,4 @@
+nginx: make nginx_proxy
 redis: make redisserver
 global: make devserver_global
 website: make devserver

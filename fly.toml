@@ -2,11 +2,10 @@ app = "spacelog"
 primary_region = "lhr"
 
 [env]
-  WEBSITE_LINK_PORT=8001
-  PROJECT_DOMAIN="spacelog.fly.dev"
+  PROJECT_DOMAIN="spacelog.org"
 
 [[services]]
-  internal_port = 8000
+  internal_port = 9000
   processes = ["app"]
   protocol = "tcp"
 
@@ -23,27 +22,6 @@ primary_region = "lhr"
   [[services.ports]]
     handlers = ["tls", "http"]
     port = 443
-
-  [[services.tcp_checks]]
-    grace_period = "1s"
-    interval = "15s"
-    restart_limit = 0
-    timeout = "2s"
-
-
-[[services]]
-  internal_port = 8001
-  processes = ["app"]
-  protocol = "tcp"
-
-  [services.concurrency]
-    type = "connections"
-    hard_limit = 25
-    soft_limit = 20
-
-  [[services.ports]]
-    handlers = ["tls", "http"]
-    port = 8001
 
   [[services.tcp_checks]]
     grace_period = "1s"

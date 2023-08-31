@@ -18,7 +18,8 @@ RUN apt-get update -qq && \
     apt-get install -yq \
         imagemagick optipng procps \
         python python-pip python-xapian \
-        redis-server
+        redis-server \
+        nginx
 ENV PYTHONUNBUFFERED 1
 RUN mkdir -p /src
 
@@ -32,6 +33,9 @@ RUN /etc/init.d/redis-server start && \
 
 EXPOSE 8000
 EXPOSE 8001
+EXPOSE 9000
+
+ENV NGINX_PORT 9000
 
 # In production mode, generate links that point to port-less URLs
 ENV GLOBAL_LINK_PORT 80

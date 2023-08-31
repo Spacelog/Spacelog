@@ -12,6 +12,8 @@ SASS                     ?= pyscss
 dev_webserver_ip         ?= 0.0.0.0
 dev_webserver_port       ?= 8001
 dev_global_port          ?= 8000
+NGINX_PORT               ?= 9000
+PROJECT_DOMAIN           ?= dev.spacelog.org
 
 all: reindex collectstatic
 
@@ -80,6 +82,14 @@ gunicorn_global:
 
 gunicorn_website:
 	ENV/bin/gunicorn -c website/configs/live/website_gunicorn.py --daemon --pid ~/gunicorn-website.pid --error-logfile ~/gunicorn-website.log website.configs.live.website_wsgi
+
+nginx_proxy:
+	sed \
+	  -e 's|$${NGINX_PORT}|'"${NGINX_PORT}"'|g' \
+	  -e 's|$${PROJECT_DOMAIN}|'"${PROJECT_DOMAIN}"'|g' \
+	  nginx_proxy.conf.template \
+	> /etc/nginx/sites-available/default
+	exec nginx -g 'daemon off;'
 
 redisserver:
 	# Enable swap memory if we're in an environment that supports it,
