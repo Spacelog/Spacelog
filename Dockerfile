@@ -1,5 +1,5 @@
 # syntax = docker/dockerfile:1.2
-FROM golang AS overmind-builder
+FROM golang:1.20.4 AS overmind-builder
 
 RUN go install github.com/DarthSim/overmind/v2@latest
 
