@@ -125,6 +125,20 @@ just a single mission by doing `ENV/bin/python -m backend.indexer ma6`
 or similar (or just `python -m backend.indexer ma6` if you aren't
 using a virtualenv.
 
+## Deploying to production
+
+We host Spacelog on [Fly.io](https://fly.io), and use [Cloudflare](https://www.cloudflare.com/) for DNS management, caching, and so forth. If you think you should have access to these, you probably already know who to talk to.
+
+If you want to manage our infrastructure in Fly.io, you'll need to [install their command-line tools](https://fly.io/docs/hands-on/install-flyctl/).
+
+The deployment configuration for Fly.io is in the `fly.toml` file. To deploy changes (as we don't currently have continuous deployment set up), run:
+
+```sh
+fly deploy
+```
+
+At the moment, missions' DNS and certificates are configured in Fly and Cloudflare manually, so any new mission requires a new DNS entry in Cloudflare (pointing at the IPs listed in `fly ips list`), and a new certificate (by running `fly certs add '<mission>.spacelog.org'` and adding the DNS entries it specifies). In future, we plan to simplify this by using wildcard certificates and DNS for missions.
+
 ## External Source Images
 
 We make use of external source images (which we haven't created
