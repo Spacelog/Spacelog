@@ -6,7 +6,6 @@ def mission(request):
         "PROJECT_HOME": settings.PROJECT_HOME,
         "MISSION_URL": "http://%s%s" % (
             request.get_host(),
-            # "apollo13.spacelog.org",
             '/',
         ),
     }
