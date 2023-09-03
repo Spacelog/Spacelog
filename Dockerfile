@@ -35,6 +35,8 @@ EXPOSE 8000
 EXPOSE 8001
 EXPOSE 9000
 
+ENV GLOBAL_PORT 8000
+ENV WEBSITE_PORT 8001
 ENV NGINX_PORT 9000
 
 # In production mode, generate links that point to port-less URLs

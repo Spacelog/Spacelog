@@ -9,8 +9,6 @@ services:
       - WEBSITE_LINK_PORT=9000
       - PROJECT_DOMAIN=dev.spacelog.org
     ports:
-      - "8000:8000"
-      - "8001:8001"
       - "9000:9000"
     volumes:
       - .:/src

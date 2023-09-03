@@ -5,7 +5,7 @@ server {
   server_name spacelog.org dev.spacelog.org ${PROJECT_DOMAIN} spacelog.fly.dev;
 
   location / {
-      proxy_pass http://localhost:8000/;
+      proxy_pass http://localhost:${GLOBAL_PORT}/;
       proxy_set_header X-Forwarded-Host $http_host;
   }
 }
@@ -17,7 +17,7 @@ server {
   server_name *.spacelog.org *.dev.spacelog.org *.${PROJECT_DOMAIN};
 
   location / {
-      proxy_pass http://localhost:8001/;
+      proxy_pass http://localhost:${WEBSITE_PORT}/;
       proxy_set_header X-Forwarded-Host $http_host;
   }
 }

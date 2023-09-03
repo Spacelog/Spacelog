@@ -10,8 +10,8 @@ SASS                     ?= pyscss
 
 # Dev Django runserver variables
 dev_webserver_ip         ?= 0.0.0.0
-dev_webserver_port       ?= 8001
-dev_global_port          ?= 8000
+WEBSITE_PORT             ?= 8001
+GLOBAL_PORT              ?= 8000
 NGINX_PORT               ?= 9000
 PROJECT_DOMAIN           ?= dev.spacelog.org
 
@@ -49,13 +49,13 @@ $(global_css_targets): $(global_scss_sources) $(global_scss_components)
 	$(SASS) -t compressed $(@:.css=.scss) > $@
 
 devserver:
-	$(PYTHON) -m website.manage runserver $(dev_webserver_ip):$(dev_webserver_port)
+	$(PYTHON) -m website.manage runserver $(dev_webserver_ip):$(WEBSITE_PORT)
 
 devcss:
 	watch -n 0.1 make $(website_css_targets)
 
 devserver_global:
-	$(PYTHON) -m global.manage runserver $(dev_webserver_ip):$(dev_global_port)
+	$(PYTHON) -m global.manage runserver $(dev_webserver_ip):$(GLOBAL_PORT)
 
 devcss_global:
 	watch -n 0.1 make $(global_css_targets)
@@ -86,6 +86,8 @@ gunicorn_website:
 nginx_proxy:
 	sed \
 	  -e 's|$${NGINX_PORT}|'"${NGINX_PORT}"'|g' \
+	  -e 's|$${GLOBAL_PORT}|'"${GLOBAL_PORT}"'|g' \
+	  -e 's|$${WEBSITE_PORT}|'"${WEBSITE_PORT}"'|g' \
 	  -e 's|$${PROJECT_DOMAIN}|'"${PROJECT_DOMAIN}"'|g' \
 	  nginx_proxy.conf.template \
 	> /etc/nginx/sites-available/default
