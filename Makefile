@@ -57,7 +57,11 @@ prodserver:
 	  website.configs.live.website_wsgi
 
 devcss:
-	watch -n 0.1 make $(website_css_targets)
+	while true; do \
+	  make --no-print-directory productioncss \
+	    | grep -v 'Nothing to be done' \
+	    && sleep 0.1; \
+	done
 
 devserver_global:
 	$(PYTHON) -m global.manage runserver $(dev_webserver_ip):$(GLOBAL_PORT)
@@ -66,9 +70,6 @@ prodserver_global:
 	PORT=$(GLOBAL_PORT) gunicorn \
 	  -c global/configs/live/global_gunicorn.py \
 	  global.configs.live.global_wsgi
-
-devcss_global:
-	watch -n 0.1 make $(global_css_targets)
 
 thumbnails:
 	cd website/static/img/missions/a13/; $(PYTHON) resize.py
