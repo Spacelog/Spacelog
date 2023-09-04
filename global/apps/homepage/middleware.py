@@ -10,7 +10,6 @@ class HoldingMiddleware(object):
     def process_request(self, request):
         request.redis_conn = redis.from_url(os.environ.get("REDIS_URL", "redis://localhost:6379"))
         # Get the current database
-        # request.redis_conn.select(int(request.redis_conn.get("live_database") or 0))
         if request.redis_conn.get("hold"):
             if request.path.startswith("/assets"):
                 request.holding = True
