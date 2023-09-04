@@ -71,7 +71,7 @@ Once you have Docker (including Docker Compose) installed, you should be able to
 docker compose up
 ```
 
-That will build the Docker container, containing all the current mission content, with CSS and code re-generated as it changes. Once that command finishes (it won't exit, but it will say things like “Starting development server”), you can point your web browser at [http://dev.spacelog.org:8000/](http://dev.spacelog.org:8000/) and the global homepage should come up; from there you can navigate to other missions, which will appear at URLs such as [http://apollo11.dev.spacelog.org:8001/](http://apollo11.dev.spacelog.org:8001). The DNS is managed by us, and providing you're online everything will just work.
+That will build the Docker container, containing all the current mission content, with CSS and code re-generated as it changes. Once that command finishes (it won't exit, but it will say things like “Starting development server”), you can point your web browser at [http://dev.spacelog.org:9000/](http://dev.spacelog.org:9000/) and the global homepage should come up; from there you can navigate to other missions, which will appear at URLs such as [http://apollo11.dev.spacelog.org:9000/](http://apollo11.dev.spacelog.org:9000). The DNS is managed by us, and providing you're online everything will just work.
 
 ### The details
 
