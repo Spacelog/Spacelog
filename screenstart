@@ -1,7 +1,0 @@
-#!/usr/bin/env screen -r artemis -X source 
-screen -t redis 1 redis-server
-screen -t devcss 2 make devcss
-screen -t devcss_global 3 make devcss_global
-screen -t website 4 make devserver
-screen -t global 5 make devserver_global
-select 0

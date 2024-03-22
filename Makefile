@@ -74,13 +74,6 @@ prodserver_global:
 thumbnails:
 	cd website/static/img/missions/a13/; $(PYTHON) resize.py
 
-# assume there's no artemis screen session already, and just make one from scratch
-screen:
-	screen -dmS artemis
-	sleep 1
-	screen -r artemis -X source screenstart
-	screen -r artemis
-
 nginx_proxy:
 	sed \
 	  -e 's|$${NGINX_PORT}|'"${NGINX_PORT}"'|g' \
