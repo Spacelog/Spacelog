@@ -13,6 +13,29 @@ sys.path.append(os.path.join(SITE_ROOT, 'apps'))
 
 DEBUG = False
 
+LOGLEVEL = os.getenv('DJANGO_LOGLEVEL', 'info').upper()
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'console': {
+            'format': '%(asctime)s %(levelname)s [%(name)s:%(lineno)s] %(module)s %(process)d %(thread)d %(message)s',
+        },
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'console',
+        },
+    },
+    'loggers': {
+        '': {
+            'level': LOGLEVEL,
+            'handlers': ['console',],
+        },
+    },
+}
+
 ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
 )
@@ -53,7 +76,7 @@ MEDIA_ROOT = ''
 # Examples: "http://media.lawrence.com", "http://example.com/media/"
 MEDIA_URL = ''
 
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATICFILES_DIGEST_FREE_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 STATICFILES_DIRS = [
     os.path.join(SITE_ROOT, 'static'),
@@ -96,6 +119,7 @@ TEMPLATES = [
 ]
 
 MIDDLEWARE_CLASSES = (
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'homepage.middleware.HoldingMiddleware',
 )
@@ -103,6 +127,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'urls'
 
 INSTALLED_APPS = (
+    'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'homepage',
     'search',
@@ -110,4 +135,7 @@ INSTALLED_APPS = (
     'website.apps.common',
 )
 
-PROJECT_DOMAIN = "spacelog.org"
+WEBSITE_LINK_PORT = os.getenv('WEBSITE_LINK_PORT', '80')
+PROJECT_DOMAIN = os.getenv('PROJECT_DOMAIN', 'spacelog.org')
+if WEBSITE_LINK_PORT.strip() and WEBSITE_LINK_PORT != '80':
+    PROJECT_DOMAIN = '%s:%s' % (PROJECT_DOMAIN, WEBSITE_LINK_PORT)

@@ -1,0 +1,14 @@
+version: "3"
+services:
+  website:
+    build: .
+    command: overmind start && rm -rf .overmind.sock
+    environment:
+      - OVERMIND_PROCFILE=Procfile.dev
+      - GLOBAL_LINK_PORT=9000
+      - WEBSITE_LINK_PORT=9000
+      - PROJECT_DOMAIN=dev.spacelog.org
+    ports:
+      - "9000:9000"
+    volumes:
+      - .:/src

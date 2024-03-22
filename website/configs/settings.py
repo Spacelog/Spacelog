@@ -13,6 +13,29 @@ sys.path.append(os.path.join(SITE_ROOT, 'apps'))
 
 DEBUG = False
 
+LOGLEVEL = os.getenv('DJANGO_LOGLEVEL', 'info').upper()
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'console': {
+            'format': '%(asctime)s %(levelname)s [%(name)s:%(lineno)s] %(module)s %(process)d %(thread)d %(message)s',
+        },
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'console',
+        },
+    },
+    'loggers': {
+        '': {
+            'level': LOGLEVEL,
+            'handlers': ['console',],
+        },
+    },
+}
+
 ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
 )
@@ -53,7 +76,7 @@ MEDIA_ROOT = ''
 # Examples: "http://media.lawrence.com", "http://example.com/media/"
 MEDIA_URL = ''
 
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATICFILES_DIGEST_FREE_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 STATICFILES_DIRS = [
     os.path.join(SITE_ROOT, 'static'),
@@ -104,6 +127,7 @@ TEMPLATES = [
 ]
 
 MIDDLEWARE_CLASSES = (
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'transcripts.middleware.HoldingMiddleware',
     'transcripts.middleware.MissionMiddleware',
@@ -112,6 +136,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'urls'
 
 INSTALLED_APPS = (
+    'whitenoise.runserver_nostatic',
     'django.contrib.humanize',
     'django.contrib.staticfiles',
     'common',
@@ -119,4 +144,11 @@ INSTALLED_APPS = (
     'transcripts',
 )
 
-PROJECT_HOME = "https://spacelog.org/"
+USE_X_FORWARDED_HOST = True
+
+GLOBAL_LINK_PORT = os.getenv('GLOBAL_LINK_PORT', '80')
+PROJECT_DOMAIN = os.getenv('PROJECT_DOMAIN', 'spacelog.org')
+if GLOBAL_LINK_PORT.strip() and GLOBAL_LINK_PORT != '80':
+    PROJECT_HOME = "//%s:%s/" % (PROJECT_DOMAIN, GLOBAL_LINK_PORT)
+else:
+    PROJECT_HOME = "//%s/" % PROJECT_DOMAIN

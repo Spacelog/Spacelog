@@ -1,0 +1,23 @@
+server {
+  listen ${NGINX_PORT};
+  listen [::]:${NGINX_PORT};
+
+  server_name spacelog.org dev.spacelog.org ${PROJECT_DOMAIN} spacelog.fly.dev;
+
+  location / {
+      proxy_pass http://localhost:${GLOBAL_PORT}/;
+      proxy_set_header X-Forwarded-Host $http_host;
+  }
+}
+
+server {
+  listen ${NGINX_PORT} default_server;
+  listen [::]:${NGINX_PORT} default_server;
+
+  server_name *.spacelog.org *.dev.spacelog.org *.${PROJECT_DOMAIN};
+
+  location / {
+      proxy_pass http://localhost:${WEBSITE_PORT}/;
+      proxy_set_header X-Forwarded-Host $http_host;
+  }
+}

@@ -8,8 +8,6 @@ We hope you have fun with this -- we have!
 
 [The Spacelog team](mail:spacelog@googlegroups.com)
 
-
-
 # Getting involved without technical knowledge
 
 ## Correcting minor errors
@@ -50,103 +48,50 @@ Clone the repository from git:
     $ git clone git://github.com/Spacelog/Spacelog.git
 
 However for any changes you make (fixed, new missions, or even new website features), you will want to issue a pull request to us from another [github](http://github.com/) repository). In order to do that, you'll need to set up a github account, and while logged in go to [our repository there](http://github.com/Spacelog/Spacelog) and hit the "fork" button (top right, near the search box). This will create a copy of Spacelog under your github user; you can then grab the SSH URL (which will look like `git@github.com:<your user>/Spacelog.git`) and use for git clone, as:
-    
+
     $ git clone <github SSH URL>
 
 You can then make changes, commit them to your local copy (`git commit`), push them up to your github copy (`git push`) and finally send us a pull request (which you do via the github website). Github has some great guides to getting started with git and github linked from their homepage once you're signed in, in particular [their description of forking a repository](http://help.github.com/fork-a-repo/).
 
 ### Software to install
 
-Note that you may want to use Vagrant (`vagrant up`) to give yourself
-a linux VM; you shouldn't then need to do anything else from this
-section.
+We strongly recommend you use [Docker](https://www.docker.com) and [Docker Compose](https://docs.docker.com/compose/) to work with Spacelog. It makes sure you're running your code in an environment that's like the real site, and doesn't require you to install dependencies manually.
 
-#### On macOS
-
-We recommend you install [homebrew](http://brew.sh/) and then:
+You can [follow Docker's installation guide here](https://docs.docker.com/desktop/) or, if you're on a Mac, you can install with [homebrew](http://brew.sh/) by running:
 
 ```sh
-brew install python
-brew install watch
-brew install redis
-brew install xapian --with-python
-brew install imagemagick
-brew install optipng
+brew install --cask docker
 ```
-
-#### On linux
-
-Software you need, with the Debian/Ubuntu package names in parentheses.
-
- * python, version 2 (`python`) and pip (`python-pip`)
- * `watch` (`procps`)
- * redis and its python bindings (`python-redis`)
- * Xapian and its python bindings (`python-xapian`)
- * various python modules (run `pip install -r requirements.txt`)
- * imagemagick and optipng, for building the stats images on the phase pages; this is optional (`imagemagick`, `optipng`)
-
-## Python modules
-
-The easiest way to grab the python modules is to build a `virtualenv`
-in the Spacelog checkout:
-
-```sh
-virtualenv --system-site-packages ENV
-pip install --upgrade pip
-ENV/bin/pip install -r requirements.txt
-source ENV/bin/activate
-```
-
-From this point on, `python` will give you the virtual environment's python.
 
 ## Running the code
 
-If you have `screen` installed (eg you will on macOS) and are using a
-virtualenv as above, you should be able to just run `make screen` to
-get everything running for you. You also need to run `make reindex` to
-load all the details of the missions. Then you can point your web
-browser
-at [http://dev.spacelog.org:8001/](http://dev.spacelog.org:8001/) and
-the global homepage should come up; from there you can navigate to
-other missions, which will appear at URLs such
-as
-[http://apollo11.dev.spacelog.org:8000/](http://apollo11.dev.spacelog.org:8000). The
-DNS is managed by us, and providing you're online everything will just
-work.
+Once you have Docker (including Docker Compose) installed, you should be able to run:
 
-`make screen` fires up an instance of `screen`, which is an easy way
-of running multiple programs on one terminal. Currently it leaves you
-looking at the development server log for the global homepage, but you
-can switch to a blank terminal by typing `^A 0`, ie: holding down the
-`ctrl` key, pressing `A`, releasing `ctrl` and then pressing `0`. This
-is a good place to run `make reindex` from.
+```sh
+docker compose up
+```
 
-All our `make` commands will take care of the virtualenv for you; if
-you're not using one, you can use `PYTHON=python make <whatever>`
-instead.
+That will build the Docker container, containing all the current mission content, with CSS and code re-generated as it changes. Once that command finishes (it won't exit, but it will say things like “Starting development server”), you can point your web browser at [http://dev.spacelog.org:9000/](http://dev.spacelog.org:9000/) and the global homepage should come up; from there you can navigate to other missions, which will appear at URLs such as [http://apollo11.dev.spacelog.org:9000/](http://apollo11.dev.spacelog.org:9000). The DNS is managed by us, and providing you're online everything will just work.
 
 ### The details
 
-If you can't use `make screen`, or simply if you wish to know how it
+If you can't use Docker, or simply if you wish to know how it
 all fits together under the skin, then here's the details. It's also
 helpful in case you're developing the code directly, since under
 certain circumstances the Django development server can crash, and
 will need restarting. Similarly if you add a new CSS file, you will
 currently have to restart the appropriate devcss server.
 
-We use redis for storage, so you need to have `redis-server` running
-before you run `make reindex` in the checkout directory, which will
-import all the mission data into redis. You may also want to do `make
-statsporn` to build the graphs for the phases page of how much was
-said at different times (and, in case we've added more graphs but
-haven't updated this, *other things* :-).
+We use [Overmind](https://github.com/DarthSim/overmind) to run all the components of Spacelog. Those components are:
 
-You then need to have some other servers running on top of redis:
+- `global`: The Django application for the overall Spacelog project, with information about the various missions, the team, and so forth.
+- `website`: The Django application for the various mission sites, including their search engines.
+- `redis`: The storage that underlies both global and website, and contains all the data that those Django apps show. Redis's contents are generated when we build the Docker container, so if you change content (or want to rebuild the search index with `make reindex`, or the phase graphs with `make statsporn`), you need to rebuild the container (or run the relevant make commands inside your container).
+- `nginx`: We proxy access to `global` and `website` through Nginx because [Fly.io](https://fly.io), where we host Spacelog, doesn't currently support multiple applications per “machine”, and [advises using nginx proxies to handle projects that support multiple domains](https://fly.io/docs/app-guides/custom-domains-with-fly/).
+- `css`: In development, we also run a process to update the CSS every 10th of a second.
 
- * `make devcss` will run `sass` in watch mode, so changes to CSS files will be reflected automatically
- * `make devcss_global` will run `sass` for the project homepage
- * `make devserver` will run the mission-specific websites; if not using a `virtualenv`, `PYTHON=python make devserver` should do the trick
- * `make devserver_global` will run the project homepage; if not using a `virtualenv`, `PYTHON=python make devserver_global` should do the trick
+The commands to run these servers are in `Procfile` (or `Procfile.dev`
+for development), but they mostly just call out to `Makefile` tasks
 
 ### Hosts setup for offline use
 
@@ -179,6 +124,20 @@ Note that a full `make reindex` can take a while, so you can index
 just a single mission by doing `ENV/bin/python -m backend.indexer ma6`
 or similar (or just `python -m backend.indexer ma6` if you aren't
 using a virtualenv.
+
+## Deploying to production
+
+We host Spacelog on [Fly.io](https://fly.io), and use [Cloudflare](https://www.cloudflare.com/) for DNS management, caching, and so forth. If you think you should have access to these, you probably already know who to talk to.
+
+If you want to manage our infrastructure in Fly.io, you'll need to [install their command-line tools](https://fly.io/docs/hands-on/install-flyctl/).
+
+The deployment configuration for Fly.io is in the `fly.toml` file. To deploy changes (as we don't currently have continuous deployment set up), run:
+
+```sh
+fly deploy
+```
+
+At the moment, missions' DNS and certificates are configured in Fly and Cloudflare manually, so any new mission requires a new DNS entry in Cloudflare (pointing at the IPs listed in `fly ips list`), and a new certificate (by running `fly certs add '<mission>.spacelog.org'` and adding the DNS entries it specifies). In future, we plan to simplify this by using wildcard certificates and DNS for missions.
 
 ## External Source Images
 

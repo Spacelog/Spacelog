@@ -5,13 +5,15 @@ website_scss_components   = $(wildcard website/static/css/*/*.scss)
 global_scss_sources       = $(wildcard global/static/css/*.scss)
 global_css_targets        = $(patsubst %.scss,%.css,$(global_scss_sources))
 global_scss_components    = $(wildcard global/static/css/*/*.scss)
-PYTHON                   ?= ./ENV/bin/python
-SASS                     ?= ./ENV/bin/pyscss
+PYTHON                   ?= python
+SASS                     ?= pyscss
 
 # Dev Django runserver variables
 dev_webserver_ip         ?= 0.0.0.0
-dev_webserver_port       ?= 8000
-dev_global_port          ?= 8001
+WEBSITE_PORT             ?= 8001
+GLOBAL_PORT              ?= 8000
+NGINX_PORT               ?= 9000
+PROJECT_DOMAIN           ?= dev.spacelog.org
 
 all: reindex collectstatic
 
@@ -47,16 +49,27 @@ $(global_css_targets): $(global_scss_sources) $(global_scss_components)
 	$(SASS) -t compressed $(@:.css=.scss) > $@
 
 devserver:
-	$(PYTHON) -m website.manage runserver $(dev_webserver_ip):$(dev_webserver_port)
+	$(PYTHON) -m website.manage runserver $(dev_webserver_ip):$(WEBSITE_PORT)
+
+prodserver:
+	PORT=$(WEBSITE_PORT) gunicorn \
+	  -c website/configs/live/website_gunicorn.py \
+	  website.configs.live.website_wsgi
 
 devcss:
-	watch -n 0.1 make $(website_css_targets)
+	while true; do \
+	  make --no-print-directory productioncss \
+	    | grep -v 'Nothing to be done' \
+	    && sleep 0.1; \
+	done
 
 devserver_global:
-	$(PYTHON) -m global.manage runserver $(dev_webserver_ip):$(dev_global_port)
+	$(PYTHON) -m global.manage runserver $(dev_webserver_ip):$(GLOBAL_PORT)
 
-devcss_global:
-	watch -n 0.1 make $(global_css_targets)
+prodserver_global:
+	PORT=$(GLOBAL_PORT) gunicorn \
+	  -c global/configs/live/global_gunicorn.py \
+	  global.configs.live.global_wsgi
 
 thumbnails:
 	cd website/static/img/missions/a13/; $(PYTHON) resize.py
@@ -68,15 +81,26 @@ screen:
 	screen -r artemis -X source screenstart
 	screen -r artemis
 
-# it's all the rage to avoid shell scripts, apparently
-gunicornucopia: gunicorn_global gunicorn_website
+nginx_proxy:
+	sed \
+	  -e 's|$${NGINX_PORT}|'"${NGINX_PORT}"'|g' \
+	  -e 's|$${GLOBAL_PORT}|'"${GLOBAL_PORT}"'|g' \
+	  -e 's|$${WEBSITE_PORT}|'"${WEBSITE_PORT}"'|g' \
+	  -e 's|$${PROJECT_DOMAIN}|'"${PROJECT_DOMAIN}"'|g' \
+	  nginx_proxy.conf.template \
+	> /etc/nginx/sites-available/default
+	exec nginx -g 'daemon off;'
 
-gunicornicide:
-	-start-stop-daemon --pidfile ~/gunicorn-global.pid --remove-pidfile -K
-	-start-stop-daemon --pidfile ~/gunicorn-website.pid --remove-pidfile -K
-
-gunicorn_global:
-	ENV/bin/gunicorn -c global/configs/live/global_gunicorn.py --daemon --pid ~/gunicorn-global.pid --error-logfile ~/gunicorn-global.log global.configs.live.global_wsgi
-
-gunicorn_website:
-	ENV/bin/gunicorn -c website/configs/live/website_gunicorn.py --daemon --pid ~/gunicorn-website.pid --error-logfile ~/gunicorn-website.log website.configs.live.website_wsgi
+redisserver:
+	# Enable swap memory if we're in an environment that supports it,
+	# because in low-/fixed-memory environments, Redis quickly gets OOM-killed
+	if ! grep '\/proc\/sys\b.*\bro\b' /proc/mounts > /dev/null; then \
+	  fallocate -l 512M /swapfile; \
+	  chmod 0600 /swapfile; \
+	  mkswap /swapfile; \
+	  echo 10 > /proc/sys/vm/swappiness; \
+	  swapon /swapfile; \
+	  echo 1 > /proc/sys/vm/overcommit_memory; \
+	fi
+	# Actually run Redis
+	redis-server /etc/redis/redis.conf --logfile "" --daemonize no
