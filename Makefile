@@ -17,8 +17,6 @@ PROJECT_DOMAIN           ?= dev.spacelog.org
 
 all: reindex collectstatic
 
-dirty: copyxapian productioncss copy_statsporn
-
 collectstatic: productioncss statsporn
 	DJANGOENV=live $(PYTHON) -m website.manage collectstatic --noinput --ignore=*.scss
 	DJANGOENV=live $(PYTHON) -m global.manage collectstatic --noinput --ignore=*.scss
@@ -27,20 +25,10 @@ reindex: $(indexer)
 	rm -rf xappydb
 	$(PYTHON) -m backend.indexer
 
-# backwards compatibility
-build_statsporn: statsporn
-
 statsporn:
 	$(PYTHON) -m backend.stats_porn
 
-copy_statsporn:
-	$(foreach d, $(wildcard ../current/missions/*/images/stats), cp -a $d `echo $d | sed 's#../current/##'`;)
-
 productioncss:	$(website_css_targets) $(global_css_targets)
-
-# only use this in production, it'll explode entertainingly otherwhere
-copyxapian:
-	cp -a ../current/xappydb xappydb
 
 $(website_css_targets): $(website_scss_sources) $(website_scss_components)
 	$(SASS) -t compressed $(@:.css=.scss) > $@
@@ -70,9 +58,6 @@ prodserver_global:
 	PORT=$(GLOBAL_PORT) gunicorn \
 	  -c global/configs/live/global_gunicorn.py \
 	  global.configs.live.global_wsgi
-
-thumbnails:
-	cd website/static/img/missions/a13/; $(PYTHON) resize.py
 
 nginx_proxy:
 	sed \
