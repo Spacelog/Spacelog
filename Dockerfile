@@ -17,7 +17,7 @@ CMD ["overmind", "start"]
 RUN apt-get update -qq && \
     apt-get install -yq \
         imagemagick optipng procps \
-        python python-pip python-xapian \
+        python3 python3-pip python3-xapian \
         redis-server \
         nginx
 ENV PYTHONUNBUFFERED 1
@@ -25,7 +25,7 @@ RUN mkdir -p /src
 
 WORKDIR /src
 COPY requirements.txt /src/
-RUN --mount=type=cache,target=/root/.cache/pip pip install -r requirements.txt
+RUN --mount=type=cache,target=/root/.cache/pip pip3 install -r requirements.txt
 COPY . /src/
 RUN /etc/init.d/redis-server start && \
   make all && \
