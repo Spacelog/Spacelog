@@ -129,7 +129,7 @@ TEMPLATES = [
 MIDDLEWARE_CLASSES = (
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'transcripts.middleware.HoldingMiddleware',
+    'transcripts.middleware.RedisMiddleware',
     'transcripts.middleware.MissionMiddleware',
 )
 
