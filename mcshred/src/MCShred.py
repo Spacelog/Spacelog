@@ -37,7 +37,7 @@ def shred_to_lines(lines):
 def get_all_raw_lines(path):
     translated_lines = []
     try:
-        file = open(path, "r")
+        file = open(path, encoding="utf-8")
         file_lines = file.readlines()
         shredded_lines = shred_to_lines(file_lines)
         translated_lines.extend(shredded_lines)
@@ -213,7 +213,7 @@ def report_errors_and_exit():
     sys.exit(0)
 
 def output_lines_to_file(lines, output_file_name_and_path):
-    outputFile = open(output_file_name_and_path, "w")
+    outputFile = open(output_file_name_and_path, "w", encoding="utf-8")
     for i, line in enumerate(lines):
         try:
             outputFile.writelines(

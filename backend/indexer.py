@@ -509,7 +509,10 @@ class MetaIndexer(object):
         shared_glossary_files_path  = os.path.join(os.path.dirname( __file__ ), '..', 'missions', 'shared', 'glossary')
         
         for filename in shared_glossary_files:
-            with open(os.path.join(shared_glossary_files_path, filename)) as fh:
+            with open(
+                os.path.join(shared_glossary_files_path, filename),
+                encoding="utf-8"
+            ) as fh:
                 glossary_terms.update(json.load(fh))
         
         # Add the mission specific glossary terms

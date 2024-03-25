@@ -16,7 +16,7 @@ class TranscriptParser(object):
         self.path = path
 
     def get_lines(self, offset):
-        with open(self.path) as fh:
+        with open(self.path, encoding="utf-8") as fh:
             fh.seek(offset)
             for line in fh:
                 yield line
@@ -126,7 +126,7 @@ class MetaParser(TranscriptParser):
     
     def get_meta(self):
         try:
-            with open(self.path) as fh:
+            with open(self.path, encoding="utf-8") as fh:
                 return json.load(fh)
         except ValueError as e:
             raise ValueError("JSON decode error in file %s: %s" % (self.path, e))
