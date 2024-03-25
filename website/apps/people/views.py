@@ -6,7 +6,7 @@ from backend.api import Character
 def mission_people(request, role=None):
     character_query = Character.Query(request.redis_conn, request.mission.name)
     character_ordering = [
-        identifier.decode('utf-8')
+        identifier
         for identifier in
         list(request.redis_conn.lrange("character-ordering:%s" % request.mission.name, 0, -1))
     ]

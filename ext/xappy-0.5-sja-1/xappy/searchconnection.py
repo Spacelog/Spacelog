@@ -1515,7 +1515,7 @@ class SearchConnection(object):
             if isinstance(querystr, str):
                 # Encode as UTF-8 for consistency - this happens automatically
                 # to values passed to Xapian.
-                return querystr.encode('utf-8')
+                return querystr
             return querystr
         return corrected
 

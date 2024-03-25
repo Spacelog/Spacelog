@@ -69,7 +69,7 @@ class Highlighter(object):
 
         """
         if isinstance(text, str):
-            text = text.encode('utf-8')
+            text = text
 
         words = self._split_re.findall(text)
         if strip_tags:

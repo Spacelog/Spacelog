@@ -118,7 +118,7 @@ class StatsPornGenerator(object):
 
                 image_map.append('<area shape="rect" coords="%(coords)s" href="%(url)s" alt="%(alt)s">' % {
                     "url":      '/%s/%s/#show-selection' % (seconds_to_timestamp(key_scene.start), seconds_to_timestamp(key_scene.end)),
-                    "alt":      key_scene.title.decode('utf-8'),
+                    "alt":      key_scene.title,
                     "coords":   '%s,%s,%s,%s' % (top_left_x, top_left_y, bottom_right_x, bottom_right_y),
                 })
 

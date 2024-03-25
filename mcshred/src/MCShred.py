@@ -20,7 +20,7 @@ def shred_to_lines(lines):
     tapeNumber = None
         
     for number, line in enumerate(lines):
-        line = line.decode('utf-8')
+        line = line
         try:
             if line.strip().startswith("Page"):
                 pageNumber = int(line.strip().lstrip("Page ").strip())
@@ -218,7 +218,7 @@ def output_lines_to_file(lines, output_file_name_and_path):
         try:
             outputFile.writelines(
                 list(map(
-                    lambda x: x.encode('utf8'),
+                    lambda x: x,
                     get_formatted_record_for(line),
                 ))
             )

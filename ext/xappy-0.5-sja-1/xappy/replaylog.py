@@ -207,7 +207,7 @@ class ReplayLog(object):
 
         if isinstance(arg, str):
             if isinstance(arg, str):
-                arg = arg.encode('utf-8')
+                arg = arg
             return 'str(%d,%s)' % (len(arg), arg)
 
         if isinstance(arg, int):

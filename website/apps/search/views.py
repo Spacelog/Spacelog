@@ -91,7 +91,7 @@ class SearchView(MemorialMixin, TemplateView):
 
         def page_url(offset):
             return reverse("search") + '?' + urllib.parse.urlencode({
-                'q': q.encode('utf-8'),
+                'q': q,
                 'offset': offset,
             })
 

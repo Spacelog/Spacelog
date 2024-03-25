@@ -40,7 +40,7 @@ class TranscriptParser(object):
                 except StopIteration:
                     break
                 offset += len(line)
-                line = line.decode("utf8")
+                line = line
             # If it's a comment or empty line, ignore it.
             if not line.strip() or line.strip()[0] == "#":
                 continue
@@ -74,7 +74,7 @@ class TranscriptParser(object):
                     except StopIteration:
                         break
                     offset += len(line)
-                    line = line.decode("utf8")
+                    line = line
                     if not line.strip() or line.strip()[0] == "#":
                         continue
                     if line[0] in string.whitespace:
