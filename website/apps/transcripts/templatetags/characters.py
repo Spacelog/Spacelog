@@ -23,7 +23,7 @@ def avatar_and_name(speaker, mission_name, timestamp=None):
     if current_speaker.short_name_lang:
         short_name_lang = format_html(" lang='{}'", current_speaker.short_name_lang)
 
-    detail = format_html(u"""
+    detail = format_html("""
           <img src='{avatar}' alt='' width='48' height='48'>
           <span{short_name_lang}>{short_name}</span>
         """,
@@ -42,7 +42,7 @@ def avatar_and_name(speaker, mission_name, timestamp=None):
         url = '%s#%s' % (reverse("people"), current_speaker.slug)
 
     if url:
-        return format_html(u"<a href='{}'>{}</a>", url, detail)
+        return format_html("<a href='{}'>{}</a>", url, detail)
     else:
         return detail
 
@@ -74,6 +74,6 @@ def avatar(speaker, mission_name, timestamp=None):
         url = '%s#%s' % (reverse("people"), current_speaker.slug)
 
     if url:
-        return format_html(u"<a href='{}'>{}</a>", url, detail)
+        return format_html("<a href='{}'>{}</a>", url, detail)
     else:
         return detail

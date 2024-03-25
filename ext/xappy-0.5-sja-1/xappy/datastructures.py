@@ -20,10 +20,10 @@ r"""datastructures.py: Datastructures for search engine core.
 """
 __docformat__ = "restructuredtext en"
 
-import errors
-from replaylog import log
+from . import errors
+from .replaylog import log
 import xapian
-import cPickle
+import pickle
 
 class Field(object):
     # Use __slots__ because we're going to have very many Field objects in
@@ -182,7 +182,7 @@ class ProcessedDocument(object):
 
         """
         if self._data is not None:
-            self._doc.set_data(cPickle.dumps(self._data, 2))
+            self._doc.set_data(pickle.dumps(self._data, 2))
             self._data = None
         return self._doc
 
@@ -192,7 +192,7 @@ class ProcessedDocument(object):
             if rawdata == '':
                 self._data = {}
             else:
-                self._data = cPickle.loads(rawdata)
+                self._data = pickle.loads(rawdata)
         return self._data
     def _set_data(self, data):
         if not isinstance(data, dict):

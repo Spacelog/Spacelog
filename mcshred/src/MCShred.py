@@ -22,14 +22,14 @@ def shred_to_lines(lines):
     for number, line in enumerate(lines):
         line = line.decode('utf-8')
         try:
-            if line.strip().startswith(u"Page"):
-                pageNumber = int(line.strip().lstrip(u"Page ").strip())
-            elif line.strip().startswith(u"Tape "):
-                tapeNumber = line.lstrip(u"Tape ").strip()
+            if line.strip().startswith("Page"):
+                pageNumber = int(line.strip().lstrip("Page ").strip())
+            elif line.strip().startswith("Tape "):
+                tapeNumber = line.lstrip("Tape ").strip()
             else:
                 logLines.append(LogLine(pageNumber, tapeNumber, number, line))
         except:
-            print "Failed on line %i: %s" % (number+1, line)
+            print("Failed on line %i: %s" % (number+1, line))
             raise
 
     return logLines
@@ -87,12 +87,12 @@ def set_timestamp_speaker_and_text(line, timestamp_parts):
     if len(values) > timestamp_parts:
         line.set_speaker(values[timestamp_parts])
     else:
-        line.set_speaker(u"_note")
+        line.set_speaker("_note")
         
     if len(values) > (timestamp_parts + 1):
         line.set_text(" ".join(values[timestamp_parts + 1:]))
     else:
-        line.set_text(u"")
+        line.set_text("")
 
 def line_is_a_new_entry(line, timestamp_parts):
     
@@ -138,7 +138,7 @@ def translate_lines(translated_lines, verbose=False, timestamp_parts=DEFAULT_TIM
             if currentLine != None:
                 translatedLines.append(currentLine)
             if verbose:
-                print line.raw
+                print(line.raw)
             set_timestamp_speaker_and_text(line, timestamp_parts)
             currentLine = line
         elif currentLine != None:
@@ -178,17 +178,17 @@ def get_formatted_record_for(line):
     global last_page, last_tape
     if validate_line(line):
         lines = []
-        lines.append(u"\n[%s]\n" % get_timestamp_as_mission_time(line))
+        lines.append("\n[%s]\n" % get_timestamp_as_mission_time(line))
 #        lines.append(u"\n[%d]\n" % line.seconds_from_mission_start)
         if line.page != last_page:
-            lines.append(u"_page : %d\n" % line.page)
+            lines.append("_page : %d\n" % line.page)
             last_page = line.page
         if line.tape != last_tape:
-            lines.append(u"_tape : %s\n" % line.tape)
+            lines.append("_tape : %s\n" % line.tape)
             last_tape = line.tape
         if len(line.non_log_lines) > 0:
-            lines.append(u"_extra : %s\n" % "/n".join(line.non_log_lines))
-        lines.append(u"%s: %s" % (line.speaker, line.text,))
+            lines.append("_extra : %s\n" % "/n".join(line.non_log_lines))
+        lines.append("%s: %s" % (line.speaker, line.text,))
         return lines
     else:
         return []
@@ -204,12 +204,12 @@ def check_lines_are_in_sequence(lines):
 
 def report_errors_and_exit():
     if len(errors) > 0:
-        print "Shred returned errors, please check the following:"
+        print("Shred returned errors, please check the following:")
         for error in errors:
-            print error
+            print(error)
         sys.exit(1)
     
-    print "No errors found"    
+    print("No errors found")    
     sys.exit(0)
 
 def output_lines_to_file(lines, output_file_name_and_path):
@@ -217,13 +217,13 @@ def output_lines_to_file(lines, output_file_name_and_path):
     for i, line in enumerate(lines):
         try:
             outputFile.writelines(
-                map(
+                list(map(
                     lambda x: x.encode('utf8'),
                     get_formatted_record_for(line),
-                )
+                ))
             )
         except:
-            print >>sys.stderr, "Failure in line %i (raw line %i)" % (i, line.line)
+            print("Failure in line %i (raw line %i)" % (i, line.line), file=sys.stderr)
             raise
     outputFile.close()
 
@@ -299,9 +299,9 @@ if __name__ == "__main__":
     file_path = args[0]
     output_file = args[1]
     allRawLines = get_all_raw_lines(file_path)
-    print "Read in %d raw lines (%d non-blank)." % (len(allRawLines), len(filter(lambda x: x.raw.strip(), allRawLines)))
+    print("Read in %d raw lines (%d non-blank)." % (len(allRawLines), len([x for x in allRawLines if x.raw.strip()])))
     translated_lines = translate_lines(allRawLines, options.verbose, options.timestamp_parts)
-    print "Translated to %d lines." % len(translated_lines)
+    print("Translated to %d lines." % len(translated_lines))
     check_lines_are_in_sequence(translated_lines)
     
     amalgamated_lines = amalgamate_lines_by_timestamp(translated_lines)

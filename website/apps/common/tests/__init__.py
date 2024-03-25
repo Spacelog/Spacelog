@@ -1,2 +1,2 @@
-from test_response import *
+from .test_response import *
 

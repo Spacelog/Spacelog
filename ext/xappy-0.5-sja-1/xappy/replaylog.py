@@ -22,7 +22,7 @@ __docformat__ = "restructuredtext en"
 
 import datetime
 import sys
-import thread
+import _thread
 import threading
 import time
 import traceback
@@ -85,7 +85,7 @@ class ReplayLog(object):
             for membername in dir(item):
                 member = getattr(item, membername)
                 if isinstance(member, types.MethodType):
-                    self._xapian_methods[member.im_func] = (name, membername)
+                    self._xapian_methods[member.__func__] = (name, membername)
                     has_members = True
             if has_members:
                 self._xapian_classes[item] = name
@@ -129,7 +129,7 @@ class ReplayLog(object):
         if classname is not None:
             return True
         # Check for subclasses of xapian classes.
-        for classobj, classname in self._xapian_classes.iteritems():
+        for classobj, classname in self._xapian_classes.items():
             if isinstance(obj, classobj):
                 return True
         # Not a xapian class or subclass.
@@ -142,12 +142,12 @@ class ReplayLog(object):
 
         """
         # Check if it's a xapian class, or subclass.
-        if isinstance(obj, types.TypeType):
+        if isinstance(obj, type):
             classname = self._xapian_classes.get(obj, None)
             if classname is not None:
                 return classname
 
-            for classobj, classname in self._xapian_classes.iteritems():
+            for classobj, classname in self._xapian_classes.items():
                 if issubclass(obj, classobj):
                     return "subclassof_%s" % (classname, )
 
@@ -168,14 +168,14 @@ class ReplayLog(object):
 
         # Check if it's a proxied method.
         if isinstance(obj, LoggedProxyMethod):
-            classname, methodname = self._xapian_methods[obj.real.im_func]
+            classname, methodname = self._xapian_methods[obj.real.__func__]
             objnum = self._get_obj_num(obj.proxyobj, maybe_new=maybe_new)
             return "%s#%d.%s" % (classname, objnum, methodname)
 
         # Check if it's a subclass of a xapian class.  Note: this will only
         # pick up subclasses, because the original classes are filtered out
         # higher up.
-        for classobj, classname in self._xapian_classes.iteritems():
+        for classobj, classname in self._xapian_classes.items():
             if isinstance(obj, classobj):
                 objnum = self._get_obj_num(obj, maybe_new=maybe_new)
                 return "subclassof_%s#%d" % (classname, objnum)
@@ -205,18 +205,18 @@ class ReplayLog(object):
         if xapargname is not None:
             return xapargname
 
-        if isinstance(arg, basestring):
-            if isinstance(arg, unicode):
+        if isinstance(arg, str):
+            if isinstance(arg, str):
                 arg = arg.encode('utf-8')
             return 'str(%d,%s)' % (len(arg), arg)
 
-        if isinstance(arg, long):
+        if isinstance(arg, int):
             try:
                 arg = int(arg)
             except OverFlowError:
                 pass
 
-        if isinstance(arg, long):
+        if isinstance(arg, int):
             return 'long(%d)' % arg
 
         if isinstance(arg, int):
@@ -256,7 +256,7 @@ class ReplayLog(object):
         call_num = self._next_call
         self._next_call += 1
 
-        thread_id = thread.get_ident()
+        thread_id = _thread.get_ident()
         try:
             thread_num = self._thread_ids[thread_id]
         except KeyError:
@@ -289,11 +289,11 @@ class ReplayLog(object):
             self._log("CALL%s:UNKNOWN:%r(%s)\n" % (call_id, call, logargs))
         return call_id
 
-    def log_except(self, (etype, value, tb), call_id):
+    def log_except(self, xxx_todo_changeme, call_id):
         """Log an exception which has occurred.
 
         """
-        # No access to an members, so no need to acquire mutex.
+        (etype, value, tb) = xxx_todo_changeme
         exc = traceback.format_exception_only(etype, value)
         self._log("EXCEPT%s:%s\n" % (call_id, ''.join(exc).strip()))
 

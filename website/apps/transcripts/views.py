@@ -1,4 +1,4 @@
-from __future__ import division
+
 import os.path
 from django.conf import settings
 from django.http import Http404, HttpResponseRedirect, HttpResponse
@@ -400,7 +400,7 @@ class OriginalView(MemorialMixin, TemplateView):
             return None
 
     def log_lines(self):
-        return self.transcript_query().transcript_page(self.page).items()
+        return list(self.transcript_query().transcript_page(self.page).items())
 
     def transcript_query(self):
         return self.log_line_query().transcript(self.get_transcript_name())
@@ -439,7 +439,7 @@ class ProgressiveFileWrapper(object):
     def __iter__(self):
         return self
 
-    def next(self):
+    def __next__(self):
         self._wait()
         data = self.filelike.read(self.blksize)
         if data:

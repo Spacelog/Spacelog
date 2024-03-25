@@ -35,7 +35,7 @@ except ImportError:
 # We haven't found anything helpful yet, so use development.
 if environment is None:
     try:
-        import configs.development.settings
+        from . import configs.development.settings
         os.environ.setdefault("DJANGO_SETTINGS_MODULE", "configs.development.settings")
         environment = 'development'
         sys.path.insert(0, os.path.join(project_path, 'configs', environment))

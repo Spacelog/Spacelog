@@ -1,4 +1,4 @@
-from __future__ import with_statement
+
 import string
 try:
     import json
@@ -36,7 +36,7 @@ class TranscriptParser(object):
                 reuse_line = None
             else:
                 try:
-                    line = lines.next()
+                    line = next(lines)
                 except StopIteration:
                     break
                 offset += len(line)
@@ -53,7 +53,7 @@ class TranscriptParser(object):
                     try:
                         timestamp = timestamp_to_seconds(line[1:].split("]")[0])
                     except ValueError:
-                        print "Error: invalid timestamp %s" % (line[1:], )
+                        print("Error: invalid timestamp %s" % (line[1:], ))
                         raise
                 if current_chunk:
                     yield current_chunk
@@ -70,7 +70,7 @@ class TranscriptParser(object):
                 name, blob = line.split(":", 1)
                 while True:
                     try:
-                        line = lines.next()
+                        line = next(lines)
                     except StopIteration:
                         break
                     offset += len(line)
@@ -91,18 +91,18 @@ class TranscriptParser(object):
                         try:
                             data = json.loads('"%s"' % blob.replace('"', r'\"'))
                         except ValueError:
-                            print "Error: Invalid json at timestamp %s, key %s" % \
-                                            (seconds_to_timestamp(timestamp), name)
+                            print("Error: Invalid json at timestamp %s, key %s" % \
+                                            (seconds_to_timestamp(timestamp), name))
                             continue
                     current_chunk['meta'][name.strip()] = data
             # If it's a continuation, append to the current line
             elif line[0] in string.whitespace:
                 # Continuation line
                 if not current_chunk:
-                    print "Error: Continuation line before first timestamp header. Line: %s" % \
-                                                                        (line)
+                    print("Error: Continuation line before first timestamp header. Line: %s" % \
+                                                                        (line))
                 elif not current_chunk['lines']:
-                    print "Error: Continuation line before first speaker name."
+                    print("Error: Continuation line before first speaker name.")
                 else:
                     current_chunk['lines'][-1]['text'] += " " + line.strip()
             # If it's a new line, start a new line. Shock.
@@ -111,7 +111,7 @@ class TranscriptParser(object):
                 try:
                     speaker, text = line.split(":", 1)
                 except ValueError:
-                    print "Error: First speaker line not in Name: Text format: %s." % (line,)
+                    print("Error: First speaker line not in Name: Text format: %s." % (line,))
                 else:
                     line = {
                         "speaker": speaker.strip(),
@@ -128,6 +128,6 @@ class MetaParser(TranscriptParser):
         try:
             with open(self.path) as fh:
                 return json.load(fh)
-        except ValueError, e:
+        except ValueError as e:
             raise ValueError("JSON decode error in file %s: %s" % (self.path, e))
         return json.load(fh)

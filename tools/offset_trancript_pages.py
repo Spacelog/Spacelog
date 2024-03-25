@@ -3,9 +3,9 @@
 import os, sys
 
 if len(sys.argv) < 3:
-    print >>sys.stderr, "Usage: python offset_transcript_pages.py [transcript file] [offset]"
-    print >>sys.stderr
-    print >>sys.stderr, "Mass-modifies transcript page numbers by a specified offset."
+    print("Usage: python offset_transcript_pages.py [transcript file] [offset]", file=sys.stderr)
+    print(file=sys.stderr)
+    print("Mass-modifies transcript page numbers by a specified offset.", file=sys.stderr)
     sys.exit(1)
 
 transcript_file = sys.argv[1]

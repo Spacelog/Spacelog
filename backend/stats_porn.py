@@ -25,9 +25,9 @@ class StatsPornGenerator(object):
             self.build_mission(mission)
 
     def build_mission(self, mission):
-        print "Building data visualisations for %s..." % mission.name
+        print("Building data visualisations for %s..." % mission.name)
         for act in list(Act.Query(self.redis_conn, mission.name)):
-            print ' ... %s' % act.title
+            print(' ... %s' % act.title)
 
             # Split the act into sections, one for each bar on the graph
             act_duration = act.end - act.start
@@ -100,7 +100,7 @@ class StatsPornGenerator(object):
 
             # Iterate over the key scenes adding them to the graph and image map
             for i, key_scene in enumerate(act.key_scenes()):
-                print '     - %s' % key_scene.title
+                print('     - %s' % key_scene.title)
 
                 top_left_x =     int((self.graph_background_width / float(act_duration)) * (key_scene.start - act.start)) + 2
                 top_left_y =     self.max_bar_height + 5 + 14

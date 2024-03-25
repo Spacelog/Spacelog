@@ -1,5 +1,5 @@
 import os
-import urllib
+import urllib.request, urllib.parse, urllib.error
 from django.views.generic import TemplateView
 from django.core.urlresolvers import reverse
 from django.conf import settings
@@ -90,7 +90,7 @@ class SearchView(MemorialMixin, TemplateView):
             log_lines.append(log_line)
 
         def page_url(offset):
-            return reverse("search") + '?' + urllib.urlencode({
+            return reverse("search") + '?' + urllib.parse.urlencode({
                 'q': q.encode('utf-8'),
                 'offset': offset,
             })
@@ -136,7 +136,7 @@ class SearchView(MemorialMixin, TemplateView):
         )
         if not error_info:
             error_info = {}
-        if error_info.has_key('classic_moment_quote'):
+        if 'classic_moment_quote' in error_info:
             error_quote = LogLine(
                 self.request.redis_conn,
                 self.request.mission.main_transcript,
