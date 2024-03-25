@@ -604,7 +604,10 @@ class MissionIndexer(object):
 
 
 if __name__ == "__main__":
-    redis_conn = redis.from_url(os.environ.get("REDIS_URL", "redis://localhost:6379"))
+    redis_conn = redis.from_url(
+        os.environ.get("REDIS_URL", "redis://localhost:6379"),
+        decode_responses=True
+    )
     transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
     dirs = os.listdir(transcript_dir)
 
