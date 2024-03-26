@@ -188,7 +188,7 @@ class ProcessedDocument(object):
 
     def _get_data(self):
         if self._data is None:
-            rawdata = self._doc.get_data()
+            rawdata = self._doc.get_data().decode()
             if rawdata == '':
                 self._data = {}
             else:

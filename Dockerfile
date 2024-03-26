@@ -27,6 +27,7 @@ WORKDIR /src
 COPY requirements.txt /src/
 RUN --mount=type=cache,target=/root/.cache/pip pip3 install -r requirements.txt
 COPY . /src/
+ENV PYTHONIOENCODING utf-8:ignore
 RUN /etc/init.d/redis-server start && \
   make all && \
   redis-cli shutdown save
