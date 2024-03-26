@@ -17,7 +17,7 @@ PROJECT_DOMAIN           ?= dev.spacelog.org
 
 all: reindex collectstatic
 
-collectstatic: productioncss statsporn
+collectstatic: productioncss
 	DJANGOENV=live $(PYTHON) -m website.manage collectstatic --noinput --ignore=*.scss
 	DJANGOENV=live $(PYTHON) -m global.manage collectstatic --noinput --ignore=*.scss
 
