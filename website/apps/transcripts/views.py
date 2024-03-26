@@ -395,7 +395,7 @@ class OriginalView(MemorialMixin, TemplateView):
 
     def first_log_line(self):
         try:
-            return next(self.log_lines())
+            return next(iter(self.log_lines()))
         except StopIteration:
             return None
 
