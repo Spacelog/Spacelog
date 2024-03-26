@@ -102,11 +102,12 @@ class Highlighter(object):
         900
 
         """
-        for p in range(len(term)):
-            if not term[p].isupper():
-                return term[p:]
-            elif term[p] == 'R':
-                return term[p+1:]
+        decoded_term = term.decode()
+        for p in range(len(decoded_term)):
+            if not decoded_term[p].isupper():
+                return decoded_term[p:]
+            elif decoded_term[p] == 'R':
+                return decoded_term[p+1:]
         return ''
 
     def _query_to_stemmed_words(self, query):

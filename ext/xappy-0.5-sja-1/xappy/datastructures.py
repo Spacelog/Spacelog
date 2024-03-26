@@ -188,8 +188,8 @@ class ProcessedDocument(object):
 
     def _get_data(self):
         if self._data is None:
-            rawdata = self._doc.get_data().decode()
-            if rawdata == '':
+            rawdata = self._doc.get_data()
+            if rawdata == b'':
                 self._data = {}
             else:
                 self._data = pickle.loads(rawdata)
@@ -209,7 +209,7 @@ class ProcessedDocument(object):
     def _get_id(self):
         tl = self._doc.termlist()
         try:
-            term = tl.skip_to('Q').term
+            term = tl.skip_to('Q').term.decode()
             if len(term) == 0 or term[0] != 'Q':
                 return None
         except StopIteration:
