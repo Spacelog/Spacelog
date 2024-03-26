@@ -26,11 +26,20 @@ RUN mkdir -p /src
 WORKDIR /src
 COPY requirements.txt /src/
 RUN --mount=type=cache,target=/root/.cache/pip pip3 install -r requirements.txt
-COPY . /src/
+
+# Only copy what we need for indexing and stats generation at this stage
+COPY missions /src/missions/
+COPY backend /src/backend/
+COPY ext /src/ext/
+COPY Makefile /src/
+
 ENV PYTHONIOENCODING utf-8:ignore
 RUN /etc/init.d/redis-server start && \
-  make all && \
+  make reindex statsporn && \
   redis-cli shutdown save
+
+COPY . /src/
+RUN make collectstatic
 
 EXPOSE 8000
 EXPOSE 8001

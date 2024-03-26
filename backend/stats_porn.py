@@ -53,7 +53,7 @@ class StatsPornGenerator(object):
                 os.makedirs(real_output_path)
             except OSError:
                 pass
-            graph_file = 'graph_%s_%s.png' % (mission.name, act.number)
+            graph_file = 'graph_%s.png' % act.number
             output_path = '%s/%s' % (real_output_path, graph_file)
 
             # Add initial draw command
