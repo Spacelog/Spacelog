@@ -5,6 +5,7 @@ website_scss_components   = $(wildcard website/static/css/*/*.scss)
 global_scss_sources       = $(wildcard global/static/css/*.scss)
 global_css_targets        = $(patsubst %.scss,%.css,$(global_scss_sources))
 global_scss_components    = $(wildcard global/static/css/*/*.scss)
+mission_dirs              = $(subst missions/shared,,$(wildcard missions/*))
 PYTHON                   ?= python3
 SASS                     ?= pyscss
 
@@ -25,8 +26,10 @@ reindex: $(indexer)
 	rm -rf xappydb
 	$(PYTHON) -m backend.indexer
 
-statsporn:
-	$(PYTHON) -m backend.stats_porn
+statsporn: $(mission_dirs:%=%/images/stats/graph_0.png)
+
+missions/%/images/stats/graph_0.png: missions/%/transcripts/*
+	$(PYTHON) -m backend.stats_porn $*
 
 productioncss:	$(website_css_targets) $(global_css_targets)
 
