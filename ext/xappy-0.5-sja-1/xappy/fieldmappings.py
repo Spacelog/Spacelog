@@ -20,7 +20,7 @@ r"""fieldmappings.py: Mappings from field names to term prefixes, etc.
 """
 __docformat__ = "restructuredtext en"
 
-import cPickle as _cPickle
+import pickle as _cPickle
 
 class FieldMappings(object):
     """Mappings from field names to term prefixes, slot values, etc.
@@ -82,7 +82,7 @@ class FieldMappings(object):
         If the prefix is not found, return None.
 
         """
-        for key, val in self._prefixes.iteritems():
+        for key, val in self._prefixes.items():
             if val == prefix:
                 return key
         return None

@@ -26,10 +26,10 @@ __docformat__ = "restructuredtext en"
 
 __version__ = '0.5'
 
-import _checkxapian
-from datastructures import Field, UnprocessedDocument, ProcessedDocument
-from errors import *
-from fieldactions import FieldActions
-from indexerconnection import IndexerConnection
-from searchconnection import SearchConnection
-from replaylog import set_replay_path
+from . import _checkxapian
+from .datastructures import Field, UnprocessedDocument, ProcessedDocument
+from .errors import *
+from .fieldactions import FieldActions
+from .indexerconnection import IndexerConnection
+from .searchconnection import SearchConnection
+from .replaylog import set_replay_path

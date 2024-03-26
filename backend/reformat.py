@@ -12,15 +12,15 @@ def reformat(filename):
     for chunk in parser.get_chunks():
         timestamp = seconds_to_timestamp(chunk['timestamp'])
         for line in chunk['lines']:
-            print "%s\t%s:\t %s" % (
+            print("%s\t%s:\t %s" % (
                 timestamp,
                 line['speaker'],
                 line['text'],
-            )
+            ))
 
 if __name__ == "__main__":
     try:
         reformat(sys.argv[1])
     except IndexError:
-        print "Please pass a file to reformat"
+        print("Please pass a file to reformat")
 

@@ -20,12 +20,12 @@ r"""fieldactions.py: Definitions and implementations of field actions.
 """
 __docformat__ = "restructuredtext en"
 
-import _checkxapian
-import errors
-import marshall
-from replaylog import log
+from . import _checkxapian
+from . import errors
+from . import marshall
+from .replaylog import log
 import xapian
-import parsedate
+from . import parsedate
 
 def _act_store_content(fieldname, doc, value, context):
     """Perform the STORE_CONTENT action.
@@ -153,7 +153,7 @@ class SortableMarshaller(object):
         """
         try:
             value = parsedate.date_from_string(value)
-        except ValueError, e:
+        except ValueError as e:
             raise self._err("Value supplied to field %r must be a "
                             "valid date: was %r: error is '%s'" %
                             (fieldname, value, str(e)))
@@ -320,7 +320,7 @@ class FieldActions(object):
         info = self._action_info[action]
 
         # Check parameter names
-        for key in kwargs.keys():
+        for key in list(kwargs.keys()):
             if key not in info[1]:
                 raise errors.IndexerError("Unknown parameter name for action %r: %r" % (info[0], key))
 
@@ -378,7 +378,7 @@ class FieldActions(object):
             field_mappings.add_prefix(self._fieldname)
         if 'slot' in info[3]:
             purposes = info[3]['slot']
-            if isinstance(purposes, basestring):
+            if isinstance(purposes, str):
                 field_mappings.add_slot(self._fieldname, purposes)
             else:
                 slotnum = None
@@ -409,7 +409,7 @@ class FieldActions(object):
         - `context` is an ActionContext object used to keep state in.
 
         """
-        for type, actionlist in self._actions.iteritems():
+        for type, actionlist in self._actions.items():
             info = self._action_info[type]            
             for kwargs in actionlist:
                 info[2](self._fieldname, doc, value, context, **kwargs)

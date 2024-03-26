@@ -46,7 +46,7 @@ def glossary_link(match, request):
         display = match.group(1)
 
     if title:
-        display = u"<%(tag)s class='jargon' title='%(title)s'>%(text)s</%(tag)s>" % {
+        display = "<%(tag)s class='jargon' title='%(title)s'>%(text)s</%(tag)s>" % {
             "tag":   tag,
             "title": title,
             "text":  display,
@@ -54,13 +54,13 @@ def glossary_link(match, request):
 
     if more_information:
         if gitem is not None:
-            return u"<a href='%s#%s'>%s</a>" % (
+            return "<a href='%s#%s'>%s</a>" % (
                 reverse("glossary"),
                 gitem.slug,
                 display,
             )
         else:
-            return u"<a href='%s#%s'>%s</a>" % (
+            return "<a href='%s#%s'>%s</a>" % (
                 reverse("glossary"),
                 slugify(match.group(1)),
                 display,
@@ -93,7 +93,7 @@ def linkify(text, request=None):
         'glossary': lambda m: glossary_link(m, request),
     }
     
-    for link_type, link_maker in link_types.items():
+    for link_type, link_maker in list(link_types.items()):
         # first, the "full" version
         text = re.sub(
             r"\[%s:([^]]+)\|([^]]+)\]" % link_type,

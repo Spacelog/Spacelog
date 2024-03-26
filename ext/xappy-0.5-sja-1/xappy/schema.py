@@ -20,9 +20,9 @@ r"""schema.py: xdefinitions and implementations of field actions.
 """
 __docformat__ = "restructuredtext en"
 
-import errors as _errors
-from replaylog import log as _log
-import parsedate as _parsedate
+from . import errors as _errors
+from .replaylog import log as _log
+from . import parsedate as _parsedate
 
 class Schema(object):
     def __init__(self):

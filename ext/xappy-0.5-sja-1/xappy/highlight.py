@@ -68,8 +68,8 @@ class Highlighter(object):
         Returns a list of utf-8 encoded simple strings.
 
         """
-        if isinstance(text, unicode):
-            text = text.encode('utf-8')
+        if isinstance(text, str):
+            text = text
 
         words = self._split_re.findall(text)
         if strip_tags:
@@ -102,11 +102,12 @@ class Highlighter(object):
         900
 
         """
-        for p in xrange(len(term)):
-            if not term[p].isupper():
-                return term[p:]
-            elif term[p] == 'R':
-                return term[p+1:]
+        decoded_term = term.decode()
+        for p in range(len(decoded_term)):
+            if not decoded_term[p].isupper():
+                return decoded_term[p:]
+            elif decoded_term[p] == 'R':
+                return decoded_term[p+1:]
         return ''
 
     def _query_to_stemmed_words(self, query):
@@ -171,7 +172,7 @@ class Highlighter(object):
 
         # select high-scoring blocks first, down to zero-scoring
         chars = 0
-        for count in xrange(3, -1, -1):
+        for count in range(3, -1, -1):
             for b in blocks:
                 if b[3] >= count:
                     if not strict_length or chars == 0 or chars + b[2] < maxlen:
@@ -195,7 +196,7 @@ class Highlighter(object):
 
         # trim down to maxlen
         l = 0
-        for i in xrange (len (words2)):
+        for i in range (len (words2)):
             if words2[i] != ellipsis:
                 l += len (words2[i])
             if l >= maxlen:

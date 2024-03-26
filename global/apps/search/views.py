@@ -1,5 +1,5 @@
 import os
-import urllib
+import urllib.request, urllib.parse, urllib.error
 from django.views.generic import TemplateView
 from django.core.urlresolvers import reverse
 from django.conf import settings
@@ -72,7 +72,7 @@ class SearchView(TemplateView):
             log_lines.append(log_line)
 
         def page_url(offset):
-            return reverse("search") + '?' + urllib.urlencode({
+            return reverse("search") + '?' + urllib.parse.urlencode({
                 'q': q,
                 'offset': offset,
             })

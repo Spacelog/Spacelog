@@ -25,7 +25,7 @@ for root, _, filenames in os.walk(sys.argv[1]):
         remote_path = path.abspath(path.join(sys.argv[2], root, filename))
         k = Key(bucket, remote_path)
         if not k.exists():
-            print("Uploading %s" % remote_path)
+            print(("Uploading %s" % remote_path))
             k.set_contents_from_filename(local_path,
                                          headers={'Cache-Control': 'max-age=%s' % TTL})
             k.set_acl('public-read')

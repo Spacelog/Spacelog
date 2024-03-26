@@ -29,7 +29,7 @@ def mission_time(seconds, separator=':', enable_suppression=False):
     Takes a timestamp and a separator and returns a mission time string
     e.g. Passing in 63 seconds and ':' would return '00:00:01:03'.
     """
-    if isinstance(seconds, basestring) and separator in seconds:
+    if isinstance(seconds, str) and separator in seconds:
         components = seconds.split(':', 4)
         if len(components) < 4:
             components = ['00' for x in range(4-len(components))] + components
@@ -93,6 +93,6 @@ def selection_url_in_transcript(context, start_seconds, transcript, end_seconds=
     
     # Render the URL
     url = reverse("view_range", kwargs=url_args)
-    if isinstance(start_seconds, basestring):
+    if isinstance(start_seconds, str):
         start_seconds = timestamp_to_seconds(start_seconds)
     return '%s#log-line-%i' % ( url, start_seconds )

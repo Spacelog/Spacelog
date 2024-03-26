@@ -20,20 +20,20 @@ r"""searchconnection.py: A connection to the search engine for searching.
 """
 __docformat__ = "restructuredtext en"
 
-import _checkxapian
+from . import _checkxapian
 import os as _os
-import cPickle as _cPickle
+import pickle as _cPickle
 import math
 
 import xapian as _xapian
-from datastructures import *
-from fieldactions import *
-import fieldmappings as _fieldmappings
-import highlight as _highlight 
-import errors as _errors
-import indexerconnection as _indexerconnection
+from .datastructures import *
+from .fieldactions import *
+from . import fieldmappings as _fieldmappings
+from . import highlight as _highlight 
+from . import errors as _errors
+from . import indexerconnection as _indexerconnection
 import re as _re
-from replaylog import log as _log
+from .replaylog import log as _log
 
 class SearchResult(ProcessedDocument):
     """A result from a search.
@@ -77,7 +77,7 @@ class SearchResult(ProcessedDocument):
 
         """
         actions = self._results._conn._field_actions[field]._actions
-        for action, kwargslist in actions.iteritems():
+        for action, kwargslist in actions.items():
             if action == FieldActions.INDEX_FREETEXT:
                 for kwargs in kwargslist:
                     try:
@@ -180,11 +180,11 @@ class SearchResultIter(object):
         else:
             self._iter = iter(self._order)
 
-    def next(self):
+    def __next__(self):
         if self._order is None:
-            msetitem = self._iter.next()
+            msetitem = next(self._iter)
         else:
-            index = self._iter.next()
+            index = next(self._iter)
             msetitem = self._results._mset.get_hit(index)
         return SearchResult(msetitem, self._results)
 
@@ -309,8 +309,8 @@ class SearchResults(object):
         tophits = []
         nottophits = []
 
-        clusterstarts = dict(((c[0], None) for c in clusters.itervalues()))
-        for i in xrange(self.endrank):
+        clusterstarts = dict(((c[0], None) for c in clusters.values()))
+        for i in range(self.endrank):
             if i in clusterstarts:
                 tophits.append(i)
             else:
@@ -324,14 +324,14 @@ class SearchResults(object):
 
         """
         prefixes = {}
-        if isinstance(fields, basestring):
+        if isinstance(fields, str):
             fields = [fields]
         for field in fields:
             try:
                 actions = self._conn._field_actions[field]._actions
             except KeyError:
                 continue
-            for action, kwargslist in actions.iteritems():
+            for action, kwargslist in actions.items():
                 if action == FieldActions.INDEX_FREETEXT:
                     prefix = self._conn._field_mappings.get_prefix(field)
                     prefixes[prefix] = None
@@ -341,7 +341,7 @@ class SearchResults(object):
                               FieldActions.FACET,):
                     prefix = self._conn._field_mappings.get_prefix(field)
                     prefixes[prefix] = None
-        prefix_re = _re.compile('|'.join([_re.escape(x) + '[^A-Z]' for x in prefixes.keys()]))
+        prefix_re = _re.compile('|'.join([_re.escape(x) + '[^A-Z]' for x in list(prefixes.keys())]))
         class decider(_xapian.ExpandDecider):
             def __call__(self, term):
                 return prefix_re.match(term) is not None
@@ -377,7 +377,7 @@ class SearchResults(object):
         sim_count = 0
         new_order = []
         end = min(self.endrank, maxcount)
-        for i in xrange(end):
+        for i in range(end):
             if full:
                 new_order.append(i)
                 continue
@@ -414,12 +414,12 @@ class SearchResults(object):
             for hit in nottophits:
                 new_order.append(hit.rank)
         if end != self.endrank:
-            new_order.extend(range(end, self.endrank))
+            new_order.extend(list(range(end, self.endrank)))
         assert len(new_order) == self.endrank
         if reordered:
             self._mset_order = new_order
         else:
-            assert new_order == range(self.endrank)
+            assert new_order == list(range(self.endrank))
 
     def __repr__(self):
         return ("<SearchResults(startrank=%d, "
@@ -620,7 +620,7 @@ class SearchResults(object):
             raise errors.SearchError("Facets unsupported with this release of xapian")
         if self._facetspy is None:
             raise _errors.SearchError("Facet selection wasn't enabled when the search was run")
-        if isinstance(required_facets, basestring):
+        if isinstance(required_facets, str):
             required_facets = [required_facets]
         scores = []
         facettypes = {}
@@ -688,7 +688,7 @@ class SearchResults(object):
             if facettypes[field] == 'float':
                 # Convert numbers to python numbers, and number ranges to a
                 # python tuple of two numbers.
-                for value, frequency in values.iteritems():
+                for value, frequency in values.items():
                     if len(value) <= 9:
                         value1 = _log(_xapian.sortable_unserialise, value)
                         value2 = value1
@@ -697,7 +697,7 @@ class SearchResults(object):
                         value2 = _log(_xapian.sortable_unserialise, value[9:])
                     newvalues.append(((value1, value2), frequency))
             else:
-                for value, frequency in values.iteritems():
+                for value, frequency in values.items():
                     newvalues.append((value, frequency))
 
             newvalues.sort()
@@ -792,7 +792,7 @@ class SearchConnection(object):
             actions = self._field_actions[field]._actions
         except KeyError:
             actions = {}
-        for action, kwargslist in actions.iteritems():
+        for action, kwargslist in actions.items():
             if action == FieldActions.SORT_AND_COLLAPSE:
                 for kwargs in kwargslist:
                     return kwargs['type']
@@ -871,9 +871,9 @@ class SearchConnection(object):
         for handler, userdata in self._close_handlers:
             try:
                 handler(indexpath, userdata)
-            except Exception, e:
+            except Exception as e:
                 import sys, traceback
-                print >>sys.stderr, "WARNING: unhandled exception in handler called by SearchConnection.close(): %s" % traceback.format_exception_only(type(e), e)
+                print("WARNING: unhandled exception in handler called by SearchConnection.close(): %s" % traceback.format_exception_only(type(e), e), file=sys.stderr)
 
     def get_doccount(self):
         """Count the number of documents in the database.
@@ -1033,7 +1033,7 @@ class SearchConnection(object):
         except KeyError:
             actions = {}
         facettype = None
-        for action, kwargslist in actions.iteritems():
+        for action, kwargslist in actions.items():
             if action == FieldActions.FACET:
                 for kwargs in kwargslist:
                     facettype = kwargs.get('type', None)
@@ -1043,7 +1043,7 @@ class SearchConnection(object):
                 break
 
         if facettype == 'float':
-            if isinstance(val, basestring):
+            if isinstance(val, str):
                 val = [float(v) for v in val.split(',', 2)]
             assert(len(val) == 2)
             try:
@@ -1072,9 +1072,9 @@ class SearchConnection(object):
         if self._index is None:
             raise _errors.SearchError("SearchConnection has been closed")
 
-        if isinstance(allow, basestring):
+        if isinstance(allow, str):
             allow = (allow, )
-        if isinstance(deny, basestring):
+        if isinstance(deny, str):
             deny = (deny, )
         if allow is not None and len(allow) == 0:
             allow = None
@@ -1084,9 +1084,9 @@ class SearchConnection(object):
             raise _errors.SearchError("Cannot specify both `allow` and `deny` "
                                       "(got %r and %r)" % (allow, deny))
 
-        if isinstance(default_allow, basestring):
+        if isinstance(default_allow, str):
             default_allow = (default_allow, )
-        if isinstance(default_deny, basestring):
+        if isinstance(default_deny, str):
             default_deny = (default_deny, )
         if default_allow is not None and len(default_allow) == 0:
             default_allow = None
@@ -1110,7 +1110,7 @@ class SearchConnection(object):
                 actions = self._field_actions[field]._actions
             except KeyError:
                 actions = {}
-            for action, kwargslist in actions.iteritems():
+            for action, kwargslist in actions.items():
                 if action == FieldActions.INDEX_EXACT:
                     # FIXME - need patched version of xapian to add exact prefixes
                     #qp.add_exact_prefix(field, self._field_mappings.get_prefix(field))
@@ -1142,7 +1142,7 @@ class SearchConnection(object):
                     actions = self._field_actions[field]._actions
                 except KeyError:
                     actions = {}
-                for action, kwargslist in actions.iteritems():
+                for action, kwargslist in actions.items():
                     if action == FieldActions.INDEX_FREETEXT:
                         qp.add_prefix('', self._field_mappings.get_prefix(field))
                         # FIXME - set stemming options for the default prefix
@@ -1172,7 +1172,7 @@ class SearchConnection(object):
                                                self._qp_flags_synonym |
                                                self._qp_flags_bool,
                                                prefix)
-        except _xapian.QueryParserError, e:
+        except _xapian.QueryParserError as e:
             # If we got a parse error, retry without boolean operators (since
             # these are the usual cause of the parse error).
             q1 = self._query_parse_with_prefix(qp, string,
@@ -1187,7 +1187,7 @@ class SearchConnection(object):
                                                self._qp_flags_base |
                                                self._qp_flags_bool,
                                                prefix)
-        except _xapian.QueryParserError, e:
+        except _xapian.QueryParserError as e:
             # If we got a parse error, retry without boolean operators (since
             # these are the usual cause of the parse error).
             q2 = self._query_parse_with_prefix(qp, string,
@@ -1263,7 +1263,7 @@ class SearchConnection(object):
             actions = {}
 
         # need to check on field type, and stem / split as appropriate
-        for action, kwargslist in actions.iteritems():
+        for action, kwargslist in actions.items():
             if action in (FieldActions.INDEX_EXACT,
                           FieldActions.TAG,
                           FieldActions.FACET,):
@@ -1376,11 +1376,11 @@ class SearchConnection(object):
         if allow is not None and deny is not None:
             raise _errors.SearchError("Cannot specify both `allow` and `deny`")
 
-        if isinstance(ids, basestring):
+        if isinstance(ids, str):
             ids = (ids, )
-        if isinstance(allow, basestring):
+        if isinstance(allow, str):
             allow = (allow, )
-        if isinstance(deny, basestring):
+        if isinstance(deny, str):
             deny = (deny, )
 
         # Set "allow" to contain a list of all the fields to use.
@@ -1396,7 +1396,7 @@ class SearchConnection(object):
                 actions = self._field_actions[field]._actions
             except KeyError:
                 actions = {}
-            for action, kwargslist in actions.iteritems():
+            for action, kwargslist in actions.items():
                 if action == FieldActions.INDEX_FREETEXT:
                     prefixes[self._field_mappings.get_prefix(field)] = field
 
@@ -1405,7 +1405,7 @@ class SearchConnection(object):
             try:
                 eterms = self._perform_expand(ids, prefixes, simterms, weight)
                 break;
-            except _xapian.DatabaseModifiedError, e:
+            except _xapian.DatabaseModifiedError as e:
                 self.reopen()
         return eterms, prefixes
 
@@ -1443,7 +1443,7 @@ class SearchConnection(object):
         for id in ids:
             pl = self._index.postlist('Q' + id)
             try:
-                xapid = pl.next()
+                xapid = next(pl)
                 rset.add_document(xapid.docid)
             except StopIteration:
                 pass
@@ -1512,10 +1512,10 @@ class SearchConnection(object):
                            qp.FLAG_SPELLING_CORRECTION)
         corrected = qp.get_corrected_query_string()
         if len(corrected) == 0:
-            if isinstance(querystr, unicode):
+            if isinstance(querystr, str):
                 # Encode as UTF-8 for consistency - this happens automatically
                 # to values passed to Xapian.
-                return querystr.encode('utf-8')
+                return querystr
             return querystr
         return corrected
 
@@ -1550,7 +1550,7 @@ class SearchConnection(object):
         ends a prefix, even if followed by capital letters.
         
         """
-        for p in xrange(len(term)):
+        for p in range(len(term)):
             if term[p].islower():
                 return term[:p]
             elif term[p] == 'R':
@@ -1684,7 +1684,7 @@ class SearchConnection(object):
         matchspies = []
 
         # First, add a matchspy for any gettags fields
-        if isinstance(gettags, basestring):
+        if isinstance(gettags, str):
             if len(gettags) != 0:
                 gettags = [gettags]
         tagspy = None
@@ -1723,14 +1723,14 @@ class SearchConnection(object):
                     field = self._field_mappings.get_fieldname_from_prefix(prefix)
                     if field and FieldActions.FACET in self._field_actions[field]._actions:
                         queryfacets.add(field)
-                    termsiter.next()
+                    next(termsiter)
 
             for field in allowfacets:
                 try:
                     actions = self._field_actions[field]._actions
                 except KeyError:
                     actions = {}
-                for action, kwargslist in actions.iteritems():
+                for action, kwargslist in actions.items():
                     if action == FieldActions.FACET:
                         # filter out non-top-level facets that aren't subfacets
                         # of a facet in the query
@@ -1792,7 +1792,7 @@ class SearchConnection(object):
                     mset = enq.get_mset(startrank, maxitems, checkatleast,
                                         None, None, matchspy)
                 break
-            except _xapian.DatabaseModifiedError, e:
+            except _xapian.DatabaseModifiedError as e:
                 self.reopen()
         facet_hierarchy = None
         if usesubfacets:
@@ -1833,12 +1833,12 @@ class SearchConnection(object):
             try:
                 postlist = self._index.postlist('Q' + id)
                 try:
-                    plitem = postlist.next()
+                    plitem = next(postlist)
                 except StopIteration:
                     # Unique ID not found
                     raise KeyError('Unique ID %r not found' % id)
                 try:
-                    postlist.next()
+                    next(postlist)
                     raise _errors.IndexerError("Multiple documents " #pragma: no cover
                                                "found with same unique ID")
                 except StopIteration:
@@ -1849,7 +1849,7 @@ class SearchConnection(object):
                 result.id = id
                 result._doc = self._index.get_document(plitem.docid)
                 return result
-            except _xapian.DatabaseModifiedError, e:
+            except _xapian.DatabaseModifiedError as e:
                 self.reopen()
 
     def iter_synonyms(self, prefix=""):

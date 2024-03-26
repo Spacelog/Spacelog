@@ -2,7 +2,7 @@
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from django.views.decorators.cache import cache_control
-from urllib import quote
+from urllib.parse import quote
 import random
 from backend.api import Mission
 

@@ -14,7 +14,7 @@ requires = {
 }
 
 unmet_requirements = []
-for name, command in requires.iteritems():
+for name, command in requires.items():
     tf = tempfile.TemporaryFile()
     try:
         subprocess.call( command, stdin=None, stdout=tf, stderr=tf )
@@ -22,13 +22,13 @@ for name, command in requires.iteritems():
         unmet_requirements += [ '%s (%s)' % ( name, command ) ]
 
 if unmet_requirements:
-    print >>sys.stderr, 'Unmet requirements: %s' % ', '.join( unmet_requirements )
+    print('Unmet requirements: %s' % ', '.join( unmet_requirements ), file=sys.stderr)
     sys.exit(1)
 
 if len(sys.argv) < 2:
-    print >>sys.stderr, "Usage: python pdf_to_images.py [pdf file]"
-    print >>sys.stderr
-    print >>sys.stderr, "Converts a PDF into a directory full of PNGs. Requires ImageMagick and optipng."
+    print("Usage: python pdf_to_images.py [pdf file]", file=sys.stderr)
+    print(file=sys.stderr)
+    print("Converts a PDF into a directory full of PNGs. Requires ImageMagick and optipng.", file=sys.stderr)
     sys.exit(1)
 
 pdf_file = sys.argv[1]
@@ -41,16 +41,16 @@ def generate_image( image_name, page, resize_dimensions=None ):
     png_file = os.path.join(output_dir, '%s.png' % image_name)
     
     # Convert and resize in two passes to get the smallest filesize
-    print "Converting page %s to %s..." % ( page, png_file )
+    print("Converting page %s to %s..." % ( page, png_file ))
     exit_code = subprocess.call([
         'convert', 
         '-density', '300', 
-        u'%s[%s]' % (pdf_file, page-1), # zero indexed pages
+        '%s[%s]' % (pdf_file, page-1), # zero indexed pages
         png_file,
     ])
     
     if not exit_code:
-        print "Resizing %s..." % png_file
+        print("Resizing %s..." % png_file)
         # HACK: Assumes that the input image is black and white,
         #       and 16 colors will suffice for antialiasing
         exit_code = subprocess.call([
@@ -64,7 +64,7 @@ def generate_image( image_name, page, resize_dimensions=None ):
         
     if not exit_code:
         # This usually takes many times longer than the extract
-        print "Optimising %s..." % png_file
+        print("Optimising %s..." % png_file)
         optimise_exit_code = subprocess.call([
             'optipng',
             '-q',
@@ -72,7 +72,7 @@ def generate_image( image_name, page, resize_dimensions=None ):
             png_file,
         ])
         if optimise_exit_code != 0:
-            print >>sys.stderr, "optipng failed"
+            print("optipng failed", file=sys.stderr)
             sys.exit(1)
     
     return exit_code
