@@ -3,7 +3,7 @@ FROM golang:1.20.4 AS overmind-builder
 
 RUN go install github.com/DarthSim/overmind/v2@latest
 
-FROM ubuntu:16.04
+FROM ubuntu:22.04
 
 RUN apt-get update && \
     apt-get install -yq \
