@@ -1,11 +1,11 @@
 import os
 import redis
-from django.shortcuts import render_to_response
 from django.template import RequestContext
 from backend.api import Mission
 from transcripts.templatetags.missiontime import component_suppression
+from django.utils.deprecation import MiddlewareMixin
 
-class RedisMiddleware(object):
+class RedisMiddleware(MiddlewareMixin):
     """
     Add a redis object to every request
     """
@@ -15,7 +15,7 @@ class RedisMiddleware(object):
             decode_responses=True
         )
 
-class MissionMiddleware(object):
+class MissionMiddleware(MiddlewareMixin):
     """
     Adds a mission object into every request.
     """

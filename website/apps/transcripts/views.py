@@ -4,7 +4,7 @@ from django.conf import settings
 from django.http import Http404, HttpResponseRedirect, HttpResponse
 from django.views.generic import TemplateView
 from django.views.decorators.http import condition
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from website.apps.common.views import JsonTemplateView
 from backend.api import LogLine, Act
 from backend.util import timestamp_to_seconds
