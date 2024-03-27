@@ -132,7 +132,7 @@ TEMPLATES = [
     },
 ]
 
-MIDDLEWARE_CLASSES = (
+MIDDLEWARE = (
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'transcripts.middleware.RedisMiddleware',

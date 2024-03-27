@@ -1,7 +1,8 @@
 import os
 import redis
+from django.utils.deprecation import MiddlewareMixin
 
-class RedisMiddleware(object):
+class RedisMiddleware(MiddlewareMixin):
     """
     Add a redis object to every request
     """
