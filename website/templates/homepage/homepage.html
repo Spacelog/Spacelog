@@ -19,11 +19,11 @@
 <ol>
 {% for number, act in acts %}
   <li>
-    {% ifequal 1 number %}
+    {% if 1 == number %}
     <a href='{% url "view_page" %}'>
     {% else %}
     <a href='{% timestamp_to_url act.start %}'>
-    {% endifequal %}
+    {% endif %}
         {% if act.homepage %}
         <img src="{% mission_static mission.name "images/homepage" act.homepage %}"
            alt="" width="220" height="140"/>
