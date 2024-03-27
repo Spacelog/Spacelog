@@ -1,7 +1,7 @@
 import os
 import urllib.request, urllib.parse, urllib.error
 from django.views.generic import TemplateView
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.conf import settings
 from django.utils.safestring import mark_safe
 import xappy

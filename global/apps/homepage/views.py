@@ -140,7 +140,7 @@ def _get_reading_list(country_code):
 
 @cache_control(no_cache=True)
 def about(request):
-    country_code = request.META.get('HTTP_CF_IPCOUNTRY')
+    country_code = request.headers.get('cf-ipcountry')
     if country_code is None:
         country_code = request.META.get(
             'GEOIP_COUNTRY_CODE',

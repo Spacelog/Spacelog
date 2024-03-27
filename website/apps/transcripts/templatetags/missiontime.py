@@ -1,5 +1,5 @@
 from django.template import Library
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from backend.util import timestamp_to_seconds
 
 import threading
