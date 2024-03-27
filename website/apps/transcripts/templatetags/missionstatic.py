@@ -2,14 +2,11 @@ import os
 from django import template
 from django.conf import settings
 from django.contrib.staticfiles.storage import (
-    get_storage_class, staticfiles_storage,
+    storages, staticfiles_storage,
 )
 
 
-staticfiles_digest_free_storage = get_storage_class(
-    settings.STATICFILES_DIGEST_FREE_STORAGE,
-)()
-
+staticfiles_digest_free_storage = storages["staticfiles"]
 
 def full_path(mission, *path):
     """
