@@ -38,11 +38,11 @@
 {% for group in people %}
   {% for person in group.members %}
     {% cycle "<div class='group'>" "" ""  %}
-    {% ifequal group.view "full" %}
+    {% if group.view == "full" %}
       {% include "people/_person.html" %}
     {% else %}
       {% include "people/_simple_person.html" %}
-    {% endifequal %}
+    {% endif %}
     {% cycle "" "" "</div>"  %}
   {% endfor %}
 {% endfor %}
