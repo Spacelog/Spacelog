@@ -121,7 +121,7 @@ TEMPLATES = [
 MIDDLEWARE_CLASSES = (
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'homepage.middleware.HoldingMiddleware',
+    'homepage.middleware.RedisMiddleware',
 )
 
 ROOT_URLCONF = 'urls'
