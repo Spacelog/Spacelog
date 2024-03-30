@@ -395,12 +395,9 @@ class OriginalView(MemorialMixin, TemplateView):
 
     def first_log_line(self):
         try:
-            return next(iter(self.log_lines()))
+            return next(self.transcript_query().transcript_page(self.page).items())
         except StopIteration:
             return None
-
-    def log_lines(self):
-        return list(self.transcript_query().transcript_page(self.page).items())
 
     def transcript_query(self):
         return self.log_line_query().transcript(self.get_transcript_name())

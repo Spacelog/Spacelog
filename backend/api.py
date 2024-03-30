@@ -29,7 +29,7 @@ class BaseQuery(object):
         return self.__class__(self.redis_conn, self.mission_name, new_filters)
 
     def __iter__(self):
-        return iter( list(self.items()) )
+        yield from self.items()
     
 
 class LogLine(object):
