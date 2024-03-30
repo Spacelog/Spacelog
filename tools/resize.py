@@ -17,7 +17,7 @@ for filename in os.listdir("."):
         if os.path.exists(thumbname):
             pass
             #continue
-        print "Converting %s" % filename
+        print("Converting %s" % filename)
         # Step one: big version
         source = Image.open(filename)
         thumbnail = source.copy()

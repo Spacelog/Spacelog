@@ -1,4 +1,4 @@
-from __future__ import with_statement
+
 import os
 import sys
 import re
@@ -13,7 +13,7 @@ from django.utils.html import strip_tags
 
 from backend.parser import TranscriptParser, MetaParser
 from backend.api import Act, KeyScene, Character, Glossary, LogLine
-from backend.util import seconds_to_timestamp
+from backend.util import redis_connection, seconds_to_timestamp
 
 search_db = xappy.IndexerConnection(
     os.path.join(os.path.dirname(__file__), '..', 'xappydb'),
@@ -21,7 +21,7 @@ search_db = xappy.IndexerConnection(
 
 def mission_time_to_timestamp(mission_time):
     """Takes a mission time string (XX:XX:XX:XX) and converts it to a number of seconds"""
-    d,h,m,s = map(int, mission_time.split(':'))
+    d,h,m,s = list(map(int, mission_time.split(':')))
     timestamp = d*86400 + h*3600 + m*60 + s
     
     if mission_time[0] == "-":
@@ -96,7 +96,7 @@ class TranscriptIndexer(object):
             xappy.FieldActions.STORE_CONTENT,
         )
         # Add names as synonyms for speaker identifiers
-        characters = Character.Query(self.redis_conn, self.mission_name).items()
+        characters = list(Character.Query(self.redis_conn, self.mission_name).items())
         self.characters = {}
         for character in characters:
             self.characters[character.identifier] = character
@@ -146,10 +146,10 @@ class TranscriptIndexer(object):
                 doc.fields.append(xappy.Field("speaker", line['speaker']))
         doc.id = id
         try:
-            search_db.replace(search_db.process(doc))
+            search_db.replace(doc)
         except xappy.errors.IndexerError:
-            print "umm, error"
-            print id, lines
+            print("umm, error")
+            print(id, lines)
             raise
 
     def index(self):
@@ -171,8 +171,8 @@ class TranscriptIndexer(object):
         for chunk in self.parser.get_chunks():
             timestamp = chunk['timestamp']
             log_line_id = "%s:%i" % (self.transcript_name, timestamp)
-            if timestamp <= previous_timestamp:
-                raise Exception, "%s should be after %s" % (seconds_to_timestamp(timestamp), seconds_to_timestamp(previous_timestamp))
+            if previous_timestamp and timestamp <= previous_timestamp:
+                raise Exception("%s should be after %s" % (seconds_to_timestamp(timestamp), seconds_to_timestamp(previous_timestamp)))
             # See if there's transcript page info, and update it if so
             if chunk['meta'].get('_page', 0):
                 current_transcript_page = int(chunk["meta"]['_page'])
@@ -185,7 +185,7 @@ class TranscriptIndexer(object):
                 if act.includes(timestamp):
                     break
             else:
-                print "Error: No act for timestamp %s" % seconds_to_timestamp(timestamp)
+                print("Error: No act for timestamp %s" % seconds_to_timestamp(timestamp))
                 continue
             # If we've filled up the current page, go to a new one
             if current_page_lines >= self.LINES_PER_PAGE or (last_act is not None and last_act != act):
@@ -232,11 +232,11 @@ class TranscriptIndexer(object):
             previous_log_line_id = log_line_id
             previous_timestamp = timestamp
             # Also store the text
-            text = u""
+            text = ""
             for line in chunk['lines']:
                 self.redis_conn.rpush(
                     "log_line:%s:lines" % log_line_id,
-                    u"%(speaker)s: %(text)s" % line,
+                    "%(speaker)s: %(text)s" % line,
                 )
                 text += "%s %s" % (line['speaker'], line['text'])
             # Store any images
@@ -267,7 +267,7 @@ class TranscriptIndexer(object):
             # Read the new labels into current_labels
             has_labels = False
             if '_labels' in chunk['meta']:
-                for label, endpoint in chunk['meta']['_labels'].items():
+                for label, endpoint in list(chunk['meta']['_labels'].items()):
                     if endpoint is not None and label not in current_labels:
                         current_labels[label] = endpoint
                     elif label in current_labels:
@@ -279,7 +279,7 @@ class TranscriptIndexer(object):
                         self.redis_conn.sadd("label:%s" % label, log_line_id)
                         has_labels = True
             # Expire any old labels
-            for label, endpoint in current_labels.items():
+            for label, endpoint in list(current_labels.items()):
                 if endpoint < chunk['timestamp']:
                     del current_labels[label]
             # Apply any surviving labels
@@ -288,7 +288,7 @@ class TranscriptIndexer(object):
                 has_labels = True
             # And add this logline to search index
             if has_labels:
-                print "weight = 3 for %s" % log_line_id
+                print("weight = 3 for %s" % log_line_id)
                 weight = 3.0 # magic!
             else:
                 weight = 1.0
@@ -316,9 +316,9 @@ class TranscriptIndexer(object):
             self.transcript_name
         )
         if not pages_set and current_transcript_page:
-            print "%s original pages: %d" % (
+            print("%s original pages: %d" % (
                 self.transcript_name, current_transcript_page
-            )
+            ))
             self.redis_conn.hset(
                 "pages:%s" % self.mission_name, 
                 self.transcript_name,
@@ -345,13 +345,13 @@ class MetaIndexer(object):
             self.redis_conn.set("subdomain:%s" % subdomain, meta['name'])
         del meta['subdomains']
         utc_launch_time = meta['utc_launch_time']
-        if isinstance(utc_launch_time, basestring):
+        if isinstance(utc_launch_time, str):
             # parse as something more helpful than a number
             # time.mktime operates in the local timezone, so force that to UTC first
             os.environ['TZ'] = 'UTC'
             time.tzset()
             utc_launch_time = int(time.mktime(time.strptime(utc_launch_time, "%Y-%m-%dT%H:%M:%S")))
-            print "Converted launch time to UTC timestamp:", utc_launch_time
+            print("Converted launch time to UTC timestamp:", utc_launch_time)
         is_memorial = meta.get('memorial', False)
         if is_memorial:
             default_main_transcript = None
@@ -373,7 +373,7 @@ class MetaIndexer(object):
         # TODO: Default to highest _page from transcript if we don't have this
         transcript_pages = meta.get( 'transcript_pages' )
         if transcript_pages:
-            print "Setting original pagecounts from _meta"
+            print("Setting original pagecounts from _meta")
             self.redis_conn.hmset(
                 "pages:%s" % self.mission_name,
                 transcript_pages
@@ -381,7 +381,7 @@ class MetaIndexer(object):
         
         
         copy = meta.get("copy", {})
-        for key, value in copy.items():
+        for key, value in list(copy.items()):
             copy[key] = json.dumps(value)
         if copy.get('based_on_header', None) is None:
             copy['based_on_header'] = json.dumps('Based on the original transcript')
@@ -418,7 +418,7 @@ class MetaIndexer(object):
                     "%s:%i" % (self.mission_name, i),
                 )
 
-                data['start'], data['end'] = map(mission_time_to_timestamp, data['range'])
+                data['start'], data['end'] = list(map(mission_time_to_timestamp, data['range']))
                 del data['range']
 
                 self.redis_conn.hmset(key, data)
@@ -428,7 +428,7 @@ class MetaIndexer(object):
             key = "act:%s:0" % (self.mission_name,)
             title = meta.get('copy', {}).get('title', None)
             if title is None:
-                title = meta.get('name', u'The Mission')
+                title = meta.get('name', 'The Mission')
             else:
                 title = json.loads(title)
             data = {
@@ -458,7 +458,7 @@ class MetaIndexer(object):
                 "character-ordering:%s" % self.mission_name,
                 identifier,
             )
-        for identifier, data in meta.get('characters', {}).items():
+        for identifier, data in list(meta.get('characters', {}).items()):
             mission_key   = "characters:%s" % self.mission_name
             character_key = "%s:%s" % (mission_key, identifier)
             
@@ -509,14 +509,17 @@ class MetaIndexer(object):
         shared_glossary_files_path  = os.path.join(os.path.dirname( __file__ ), '..', 'missions', 'shared', 'glossary')
         
         for filename in shared_glossary_files:
-            with open(os.path.join(shared_glossary_files_path, filename)) as fh:
+            with open(
+                os.path.join(shared_glossary_files_path, filename),
+                encoding="utf-8"
+            ) as fh:
                 glossary_terms.update(json.load(fh))
         
         # Add the mission specific glossary terms
         glossary_terms.update(meta.get('glossary', {}))
         
         # Add all the glossary terms to redis
-        for identifier, data in glossary_terms.items():
+        for identifier, data in list(glossary_terms.items()):
             term_key = "%s:%s" % (self.mission_name, identifier.lower())
             
             # Add the ID to the list for this mission
@@ -530,16 +533,16 @@ class MetaIndexer(object):
             data['abbr'] = identifier
             data['times_mentioned'] = 0
             
-            if data.has_key('summary') and data.has_key('description'):
+            if 'summary' in data and 'description' in data:
                 data['extended_description'] = data['description']
                 data['description'] = data['summary']
                 del data['summary']
             else:
-                data['description'] = data.get('summary') or data.get('description', u"")
-            if data.has_key('description_lang'):
+                data['description'] = data.get('summary') or data.get('description', "")
+            if 'description_lang' in data:
                 data['extended_description_lang'] = data['description_lang']
                 del data['description_lang']
-            if data.has_key('summary_lang'):
+            if 'summary_lang' in data:
                 data['description_lang'] = data['summary_lang']
                 del data['summary_lang']
             
@@ -557,12 +560,12 @@ class MetaIndexer(object):
 
     def index_special_searches(self, meta):
         "Indexes things that in no way sound like 'feaster legs'."
-        for search, value in meta.get('special_searches', {}).items():
+        for search, value in list(meta.get('special_searches', {}).items()):
             self.redis_conn.set("special_search:%s:%s" % (self.mission_name, search), value)
 
     def index_errors(self, meta):
         "Indexes error page info"
-        for key, info in meta.get('error_pages', {}).items():
+        for key, info in list(meta.get('error_pages', {}).items()):
             self.redis_conn.hmset(
                 "error_page:%s:%s" % (self.mission_name, key),
                 info,
@@ -586,14 +589,14 @@ class MissionIndexer(object):
     def index_transcripts(self):
         for filename in os.listdir(self.folder_path):
             if "." not in filename and filename[0] != "_" and filename[-1] != "~":
-                print "Indexing %s..." % filename
+                print("Indexing %s..." % filename)
                 path = os.path.join(self.folder_path, filename)
                 parser = TranscriptParser(path)
                 indexer = TranscriptIndexer(self.redis_conn, self.mission_name, "%s/%s" % (self.mission_name, filename), parser)
                 indexer.index()
 
     def index_meta(self):
-        print "Indexing _meta..."
+        print("Indexing _meta...")
         path = os.path.join(self.folder_path, "_meta")
         parser = MetaParser(path)
         indexer = MetaIndexer(self.redis_conn, self.mission_name, parser)
@@ -601,16 +604,15 @@ class MissionIndexer(object):
 
 
 if __name__ == "__main__":
-    redis_conn = redis.from_url(os.environ.get("REDIS_URL", "redis://localhost:6379"))
     transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
     dirs = os.listdir(transcript_dir)
 
-    print "Reindexing into database"
+    print("Reindexing into database")
 
     for filename in dirs:
         path = os.path.join(transcript_dir, filename)
         if filename[0] not in "_." and os.path.isdir(path) and os.path.exists(os.path.join(path, "transcripts", "_meta")):
-            print "Mission: %s" % filename
-            idx = MissionIndexer(redis_conn, filename, os.path.join(path, "transcripts")) 
+            print("Mission: %s" % filename)
+            idx = MissionIndexer(redis_connection, filename, os.path.join(path, "transcripts"))
             idx.index()
     search_db.flush()

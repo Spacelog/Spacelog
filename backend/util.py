@@ -1,4 +1,6 @@
 import math
+import os
+import redis
 
 def seconds_to_timestamp(seconds):
     abss = abs(seconds)
@@ -19,6 +21,10 @@ def timestamp_to_seconds(timestamp):
         mult = -1
     else:
         mult = 1
-    parts = map(floor_and_int, timestamp.split(":", 3))
+    parts = list(map(floor_and_int, timestamp.split(":", 3)))
     return mult * ((parts[0] * 86400) + (parts[1] * 3600) + (parts[2] * 60) + parts[3])
 
+redis_connection = redis.from_url(
+    os.environ.get("REDIS_URL", "redis://localhost:6379"),
+    decode_responses=True
+)

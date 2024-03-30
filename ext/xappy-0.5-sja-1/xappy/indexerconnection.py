@@ -20,16 +20,16 @@ r"""indexerconnection.py: A connection to the search engine for indexing.
 """
 __docformat__ = "restructuredtext en"
 
-import _checkxapian
-import cPickle
+from . import _checkxapian
+import pickle
 import xapian
 
-from datastructures import *
-import errors
-from fieldactions import *
-import fieldmappings
-import memutils
-from replaylog import log
+from .datastructures import *
+from . import errors
+from .fieldactions import *
+from . import fieldmappings
+from . import memutils
+from .replaylog import log
 
 class IndexerConnection(object):
     """A connection to the search engine for indexing.
@@ -116,7 +116,7 @@ class IndexerConnection(object):
         """
         assert self._index is not None
 
-        config_str = cPickle.dumps((
+        config_str = pickle.dumps((
                                      self._field_actions,
                                      self._field_mappings.serialise(),
                                      self._facet_hierarchy,
@@ -138,10 +138,10 @@ class IndexerConnection(object):
             return
 
         try:
-            (self._field_actions, mappings, self._facet_hierarchy, self._facet_query_table, self._next_docid) = cPickle.loads(config_str)
+            (self._field_actions, mappings, self._facet_hierarchy, self._facet_query_table, self._next_docid) = pickle.loads(config_str)
         except ValueError:
             # Backwards compatibility - configuration used to lack _facet_hierarchy and _facet_query_table
-            (self._field_actions, mappings, self._next_docid) = cPickle.loads(config_str)
+            (self._field_actions, mappings, self._next_docid) = pickle.loads(config_str)
             self._facet_hierarchy = {}
             self._facet_query_table = {}
         self._field_mappings = fieldmappings.FieldMappings(mappings)
@@ -199,7 +199,7 @@ class IndexerConnection(object):
         """
         if self._index is None:
             raise errors.IndexerError("IndexerConnection has been closed")
-        return self._field_actions.keys()
+        return list(self._field_actions.keys())
 
     def process(self, document):
         """Process an UnprocessedDocument with the settings in this database.
@@ -431,7 +431,7 @@ class IndexerConnection(object):
         """
         if self._index is None:
             raise errors.IndexerError("IndexerConnection has been closed")
-        return [k for k, v in self._facet_hierarchy.iteritems() if v == facet] 
+        return [k for k, v in self._facet_hierarchy.items() if v == facet] 
 
     FacetQueryType_Preferred = 1;
     FacetQueryType_Never = 2;
@@ -476,7 +476,7 @@ class IndexerConnection(object):
         if query_type not in self._facet_query_table:
             return None
         facet_dict = self._facet_query_table[query_type]
-        return set([facet for facet, assoc in facet_dict.iteritems() if assoc == association])
+        return set([facet for facet, assoc in facet_dict.items() if assoc == association])
 
     def set_metadata(self, key, value):
         """Set an item of metadata stored in the connection.
@@ -608,12 +608,12 @@ class IndexerConnection(object):
             raise errors.IndexerError("IndexerConnection has been closed")
         postlist = self._index.postlist('Q' + id)
         try:
-            plitem = postlist.next()
+            plitem = next(postlist)
         except StopIteration:
             # Unique ID not found
             raise KeyError('Unique ID %r not found' % id)
         try:
-            postlist.next()
+            next(postlist)
             raise errors.IndexerError("Multiple documents " #pragma: no cover
                                        "found with same unique ID")
         except StopIteration:
@@ -674,7 +674,7 @@ class IndexerConnection(object):
             raise errors.IndexerError("IndexerConnection has been closed")
         if 'facets' in _checkxapian.missing_features:
             raise errors.IndexerError("Facets unsupported with this release of xapian")
-        return self._facet_hierarchy.iteritems()
+        return iter(self._facet_hierarchy.items())
 
     def iter_facet_query_types(self, association):
         """Get an iterator over query types and their associated facets.
@@ -737,7 +737,7 @@ class PrefixedTermIter(object):
     def __iter__(self):
         return self
 
-    def next(self):
+    def __next__(self):
         """Get the next term with the specified prefix.
 
         """
@@ -770,11 +770,11 @@ class SynonymIter(object):
     def __iter__(self):
         return self
 
-    def next(self):
+    def __next__(self):
         """Get the next synonym.
 
         """
-        synkey = self._syniter.next()
+        synkey = next(self._syniter)
         pos = 0
         for char in synkey:
             if char.isupper(): pos += 1
@@ -802,20 +802,20 @@ class FacetQueryTypeIter(object):
         IndexerConnection.FacetQueryType_Never).
 
         """
-        self._table_iter = facet_query_table.iteritems()
+        self._table_iter = iter(facet_query_table.items())
         self._association = association
 
     def __iter__(self):
         return self
 
-    def next(self):
+    def __next__(self):
         """Get the next (query type, facet set) 2-tuple.
 
         """
-        query_type, facet_dict = self._table_iter.next()
-        facet_list = [facet for facet, association in facet_dict.iteritems() if association == self._association]
+        query_type, facet_dict = next(self._table_iter)
+        facet_list = [facet for facet, association in facet_dict.items() if association == self._association]
         if len(facet_list) == 0:
-            return self.next()
+            return next(self)
         return (query_type, set(facet_list))
 
 if __name__ == '__main__':
