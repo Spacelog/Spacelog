@@ -13,7 +13,7 @@ from django.utils.html import strip_tags
 
 from backend.parser import TranscriptParser, MetaParser
 from backend.api import Act, KeyScene, Character, Glossary, LogLine
-from backend.util import seconds_to_timestamp
+from backend.util import redis_connection, seconds_to_timestamp
 
 search_db = xappy.IndexerConnection(
     os.path.join(os.path.dirname(__file__), '..', 'xappydb'),
@@ -604,10 +604,6 @@ class MissionIndexer(object):
 
 
 if __name__ == "__main__":
-    redis_conn = redis.from_url(
-        os.environ.get("REDIS_URL", "redis://localhost:6379"),
-        decode_responses=True
-    )
     transcript_dir = os.path.join(os.path.dirname( __file__ ), '..', "missions")
     dirs = os.listdir(transcript_dir)
 
@@ -617,6 +613,6 @@ if __name__ == "__main__":
         path = os.path.join(transcript_dir, filename)
         if filename[0] not in "_." and os.path.isdir(path) and os.path.exists(os.path.join(path, "transcripts", "_meta")):
             print("Mission: %s" % filename)
-            idx = MissionIndexer(redis_conn, filename, os.path.join(path, "transcripts")) 
+            idx = MissionIndexer(redis_connection, filename, os.path.join(path, "transcripts"))
             idx.index()
     search_db.flush()

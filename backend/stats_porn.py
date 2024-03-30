@@ -1,9 +1,8 @@
 import subprocess
-import redis
 import os
 
 from backend.api import Mission, Act, LogLine
-from backend.util import seconds_to_timestamp
+from backend.util import redis_connection, seconds_to_timestamp
 
 
 class StatsPornGenerator(object):
@@ -135,10 +134,5 @@ class StatsPornGenerator(object):
 
 
 if __name__ == "__main__":
-    redis_conn = redis.from_url(
-        os.environ.get("REDIS_URL", "redis://localhost:6379"),
-        decode_responses=True
-    )
-
-    generator = StatsPornGenerator(redis_conn)
+    generator = StatsPornGenerator(redis_connection)
     generator.build_all_missions()
