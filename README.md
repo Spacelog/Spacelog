@@ -47,7 +47,7 @@ Clone the repository from git:
 
     $ git clone git://github.com/Spacelog/Spacelog.git
 
-However for any changes you make (fixed, new missions, or even new website features), you will want to issue a pull request to us from another [github](http://github.com/) repository). In order to do that, you'll need to set up a github account, and while logged in go to [our repository there](http://github.com/Spacelog/Spacelog) and hit the "fork" button (top right, near the search box). This will create a copy of Spacelog under your github user; you can then grab the SSH URL (which will look like `git@github.com:<your user>/Spacelog.git`) and use for git clone, as:
+However for any changes you make (fixed, new missions, or even new website features), you will want to issue a pull request to us from another [GitHub](http://github.com/) repository). In order to do that, you'll need to set up a GitHub account, and while logged in go to [our repository there](http://github.com/Spacelog/Spacelog) and hit the "fork" button (top right, near the search box). This will create a copy of Spacelog under your GitHub user; you can then grab the SSH URL (which will look like `git@github.com:<your user>/Spacelog.git`) and use for git clone, as:
 
     $ git clone <github SSH URL>
 
@@ -79,8 +79,7 @@ If you can't use Docker, or simply if you wish to know how it
 all fits together under the skin, then here's the details. It's also
 helpful in case you're developing the code directly, since under
 certain circumstances the Django development server can crash, and
-will need restarting. Similarly if you add a new CSS file, you will
-currently have to restart the appropriate devcss server.
+will need restarting.
 
 We use [Overmind](https://github.com/DarthSim/overmind) to run all the components of Spacelog. Those components are:
 
@@ -103,27 +102,36 @@ need to point to `localhost` (or to your virtual machine, if that's
 how you develop things). For instance, here's an `/etc/hosts` entry
 using `localhost` (put this in addition to the `localhost` line
 already in there):
-  
-    127.0.0.1		apollo13.dev.spacelog.org mercury6.dev.spacelog.org dev.spacelog.org
 
-and here's one for a virtual machine (you'll need to change the dotted
-quad at the start of the line):
-  
-    192.168.56.101	apollo13.dev.spacelog.org mercury6.dev.spacelog.org dev.spacelog.org
+    127.0.0.1		apollo13.dev.spacelog.org mercury6.dev.spacelog.org dev.spacelog.org
 
 ### Reindexing
 
 Whenever you edit information about a mission, or add a new one, you
-need to run `make reindex` again. If you get errors you may find the
-`lognag.pl` script in `mcshred/src` useful: just give it some
-transcript files and it'll tell you where it finds possible errors or
-weirdnesses. (For new missions, you'll probably have to add things
-into the valid speakers list at line 71.)
+need to reindex the content again to see it in your local environment.
 
-Note that a full `make reindex` can take a while, so you can index
-just a single mission by doing `ENV/bin/python -m backend.indexer ma6`
-or similar (or just `python -m backend.indexer ma6` if you aren't
-using a virtualenv.
+If you're running in Docker (as we recommend), reindexing happens as
+part of the container build process. You can manually rebuild the
+container with `docker compose build` or you can have it happen
+automatically as needed by rebuilding the container every time you
+start your environment using `docker compose up --build` (which is a
+little slower than starting a container normally, but might be easier
+if you're working on missions content).
+
+If you're running without Docker (or working inside the container
+manually), you can reindex using `make reindex`.
+
+If you get errors you may find the `lognag.pl` script in `mcshred/src`
+useful: just give it some transcript files and it'll tell you where it
+finds possible errors or weirdnesses. (For new missions, you'll
+probably have to add things into the valid speakers list at line 71.)
+
+Note that a full reindex can take a while (usually about 5 minutes), so
+you can index just a single mission by running `python3 -m
+backend.indexer MISSION_ID` (where `MISSION_ID` is the name of the
+folder that the mission files are in) inside your container. If you're
+not familiar with Docker containers, however, it's usually easier to do
+a full container rebuild as described above.
 
 ## Deploying to production
 
@@ -131,13 +139,13 @@ We host Spacelog on [Fly.io](https://fly.io), and use [Cloudflare](https://www.c
 
 If you want to manage our infrastructure in Fly.io, you'll need to [install their command-line tools](https://fly.io/docs/hands-on/install-flyctl/).
 
-The deployment configuration for Fly.io is in the `fly.toml` file. To deploy changes (as we don't currently have continuous deployment set up), run:
+The deployment configuration for Fly.io is in the `fly.toml` file. We automatically deploy changes to Fly when they are merged to `main` on GitHub, but if you need to deploy changes manually, run:
 
 ```sh
 fly deploy
 ```
 
-At the moment, missions' DNS and certificates are configured in Fly and Cloudflare manually, so any new mission requires a new DNS entry in Cloudflare (pointing at the IPs listed in `fly ips list`), and a new certificate (by running `fly certs add '<mission>.spacelog.org'` and adding the DNS entries it specifies). In future, we plan to simplify this by using wildcard certificates and DNS for missions.
+At the moment, missions' DNS and certificates are configured in Fly and Cloudflare manually, so any new mission requires a new DNS entry in Cloudflare (pointing at the IPs listed in `fly ips list`), and a new certificate (by running `fly certs add '<mission>.spacelog.org'` and adding the DNS entries it specifies to Cloudflare). In future, we plan to simplify this by using wildcard certificates and DNS for missions.
 
 ## External Source Images
 
