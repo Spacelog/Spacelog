@@ -8,6 +8,7 @@ global_scss_components    = $(wildcard global/static/css/*/*.scss)
 mission_dirs              = $(subst missions/shared,,$(wildcard missions/*))
 PYTHON                   ?= python3
 SASS                     ?= pyscss
+SEARCHDB_PATH            ?= /xappydb
 
 # Dev Django runserver variables
 dev_webserver_ip         ?= 0.0.0.0
@@ -22,13 +23,15 @@ collectstatic: productioncss statsporn
 	DJANGOENV=live $(PYTHON) -m website.manage collectstatic --noinput --ignore=*.scss
 	DJANGOENV=live $(PYTHON) -m global.manage collectstatic --noinput --ignore=*.scss
 
-reindex: $(indexer)
-	rm -rf xappydb
+reindex: $(SEARCHDB_PATH)
+
+$(SEARCHDB_PATH): missions/*/transcripts/* missions/shared/glossary/* backend/indexer.py
+	rm -rf $(SEARCHDB_PATH)
 	$(PYTHON) -m backend.indexer
 
 statsporn: $(mission_dirs:%=%/images/stats/graph_0.png)
 
-missions/%/images/stats/graph_0.png: missions/%/transcripts/*
+missions/%/images/stats/graph_0.png: missions/%/transcripts/* backend/stats_porn_assets/*  backend/stats_porn.py
 	$(PYTHON) -m backend.stats_porn $*
 
 productioncss:	$(website_css_targets) $(global_css_targets)

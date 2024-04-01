@@ -1,6 +1,7 @@
 import math
 import os
 import redis
+import xappy
 
 def seconds_to_timestamp(seconds):
     abss = abs(seconds)
@@ -28,3 +29,14 @@ redis_connection = redis.from_url(
     os.environ.get("REDIS_URL", "redis://localhost:6379"),
     decode_responses=True
 )
+
+searchdb_location = os.getenv(
+    'SEARCHDB_PATH',
+    os.path.join(os.path.dirname(__file__), '..', 'xappydb')
+)
+
+def get_search_indexer_connection(path=searchdb_location):
+    return xappy.IndexerConnection(path)
+
+def get_search_connection(path=searchdb_location):
+    return xappy.SearchConnection(path)

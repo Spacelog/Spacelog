@@ -4,10 +4,10 @@ from django.views.generic import TemplateView
 from django.urls import reverse
 from django.conf import settings
 from django.utils.safestring import mark_safe
-import xappy
 import xapian
 import redis
 from backend.api import LogLine, Character
+from backend.util import get_search_connection
 
 PAGESIZE = 20
 
@@ -39,13 +39,7 @@ class SearchView(TemplateView):
             }
 
         # Get the results from Xapian
-        db = xappy.SearchConnection(
-            os.path.join(
-                settings.SITE_ROOT,
-                '..',
-                "xappydb",
-            ),
-        )
+        db = get_search_connection()
         query = db.query_parse(
             q,
             default_op=db.OP_OR,

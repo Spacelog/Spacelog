@@ -4,11 +4,10 @@ from django.views.generic import TemplateView
 from django.urls import reverse
 from django.conf import settings
 from django.utils.safestring import mark_safe
-import xappy
 import xapian
 import redis
 from backend.api import LogLine, Character
-from backend.util import timestamp_to_seconds
+from backend.util import timestamp_to_seconds, get_search_connection
 from common.views import MemorialMixin
 
 PAGESIZE = 20
@@ -43,13 +42,7 @@ class SearchView(MemorialMixin, TemplateView):
             }
 
         # Get the results from Xapian
-        db = xappy.SearchConnection(
-            os.path.join(
-                settings.SITE_ROOT,
-                '..',
-                "xappydb",
-            ),
-        )
+        db = get_search_connection()
         db.set_weighting_scheme(
             xapian.BM25Weight(
                 1, # k1
