@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.urls import path, re_path
 from django.conf import settings
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from glossary.views import GlossaryView
@@ -11,21 +11,21 @@ from transcripts.views import PageView, PhasesView, RangeView, ErrorView, Origin
 tspatt = r'-?\d+:\d+:\d+:\d+'
 
 urlpatterns = [
-    url(r'^$', HomepageView.as_view(), name="homepage"),
-    url(r'^homepage-quote/$', HomepageQuoteView.as_view()),
-    url(r'^about/$', AboutView.as_view(), name="about"),
-    url(r'^page/(?:(?P<transcript>[-_\w]+)/)?$', PageView.as_view(), name="view_page"),
-    url(r'^page/(?P<start>' + tspatt + ')/(?:(?P<transcript>[-_\w]+)/)?$', PageView.as_view(), name="view_page"),
-    url(r'^(?P<start>' + tspatt + ')/(?:(?P<transcript>[-_\w]+)/)?$', RangeView.as_view(), name="view_range"),
-    url(r'^stream/(?P<start>' + tspatt + ')/?$', transcripts_views.stream, name="stream"),
-    url(r'^(?P<start>' + tspatt + ')/(?P<end>' + tspatt + ')/(?:(?P<transcript>[-_\w]+)/)?$', RangeView.as_view(), name="view_range"),
-    url(r'^phases/$', PhasesView.as_view(), name="phases"),
-    url(r'^phases/(?P<phase_number>\d+)/$', PhasesView.as_view(), name="phases"),
-    url(r'^search/$', SearchView.as_view(), name="search"),
-    url(r'^people/$', PeopleView.as_view(), name="people"),
-    url(r'^people/(?P<role>[-_\w]+)/$', PeopleView.as_view(), name="people"),
-    url(r'^glossary/$', GlossaryView.as_view(), name="glossary"),
-    url(r'^original/(?:(?P<transcript>[-_\w]+)/)?(?P<page>-?\d+)/$', OriginalView.as_view(), name="original"),
+    path('', HomepageView.as_view(), name="homepage"),
+    path('homepage-quote/', HomepageQuoteView.as_view()),
+    path('about/', AboutView.as_view(), name="about"),
+    re_path(r'^page/(?:(?P<transcript>[-_\w]+)/)?$', PageView.as_view(), name="view_page"),
+    re_path(r'^page/(?P<start>' + tspatt + ')/(?:(?P<transcript>[-_\w]+)/)?$', PageView.as_view(), name="view_page"),
+    re_path(r'^(?P<start>' + tspatt + ')/(?:(?P<transcript>[-_\w]+)/)?$', RangeView.as_view(), name="view_range"),
+    re_path(r'^stream/(?P<start>' + tspatt + ')/?$', transcripts_views.stream, name="stream"),
+    re_path(r'^(?P<start>' + tspatt + ')/(?P<end>' + tspatt + ')/(?:(?P<transcript>[-_\w]+)/)?$', RangeView.as_view(), name="view_range"),
+    path('phases/', PhasesView.as_view(), name="phases"),
+    path('phases/<int:phase_number>/', PhasesView.as_view(), name="phases"),
+    path('search/', SearchView.as_view(), name="search"),
+    path('people/', PeopleView.as_view(), name="people"),
+    re_path(r'^people/(?P<role>[-_\w]+)/$', PeopleView.as_view(), name="people"),
+    path('glossary/', GlossaryView.as_view(), name="glossary"),
+    re_path(r'^original/(?:(?P<transcript>[-_\w]+)/)?(?P<page>-?\d+)/$', OriginalView.as_view(), name="original"),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
