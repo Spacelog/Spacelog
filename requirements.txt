@@ -4,6 +4,6 @@ boto==2.49.0
 gunicorn~=21.2
 pyScss~=1.4
 eventlet~=0.36.1
-whitenoise~=4.1.4
+whitenoise~=6.0
 greenlet~=3.0
 tzdata
