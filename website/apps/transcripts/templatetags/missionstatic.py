@@ -6,7 +6,7 @@ from django.contrib.staticfiles.storage import (
 )
 
 
-staticfiles_digest_free_storage = storages["staticfiles"]
+staticfiles_digest_free_storage = storages["digest_free_staticfiles"]
 
 def full_path(mission, *path):
     """
@@ -19,7 +19,7 @@ def full_path(mission, *path):
 
 def digest_free_static(path):
     """
-    Uses STATICFILES_DIGEST_FREE_STORAGE instead of STATICFILES_STORAGE
+    Uses storages["digest_free_staticfiles"] instead of storages["staticfiles"]
     to produce a URL that doesn't include the digest of the file's current
     contents.
 
