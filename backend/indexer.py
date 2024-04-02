@@ -13,11 +13,9 @@ from django.utils.html import strip_tags
 
 from backend.parser import TranscriptParser, MetaParser
 from backend.api import Act, KeyScene, Character, Glossary, LogLine
-from backend.util import redis_connection, seconds_to_timestamp
+from backend.util import redis_connection, seconds_to_timestamp, get_search_indexer_connection
 
-search_db = xappy.IndexerConnection(
-    os.path.join(os.path.dirname(__file__), '..', 'xappydb'),
-)
+search_db = get_search_indexer_connection()
 
 def mission_time_to_timestamp(mission_time):
     """Takes a mission time string (XX:XX:XX:XX) and converts it to a number of seconds"""
