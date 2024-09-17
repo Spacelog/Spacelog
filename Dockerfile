@@ -33,6 +33,7 @@ COPY backend /src/backend/
 COPY ext /src/ext/
 COPY Makefile /src/
 
+ENV SEARCHDB_PATH /xappydb
 ENV PYTHONIOENCODING utf-8:ignore
 RUN /etc/init.d/redis-server start && \
   make reindex statsporn && \

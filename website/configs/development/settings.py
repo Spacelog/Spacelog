@@ -10,3 +10,7 @@ try:
     from local_settings import *
 except ImportError:
     pass
+
+STATICFILES_DIRS += [
+    "/home/spacelog/assets/website"
+]
