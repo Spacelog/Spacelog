@@ -9,21 +9,21 @@
     
     <nav>
       <ul>
-        {% ifequal page "about" %}
+        {% if page == "about" %}
         <li><span class="current">About</span></li>
         {% else %}
         <li><a href="/about/">About</a></li>
-        {% endifequal %}
-        {% ifequal page "press" %}
+        {% endif %}
+        {% if page == "press" %}
         <li><span class="current">Press</span></li>
         {% else %}
         <li><a href="/press/">Press</a></li>
-        {% endifequal %}
-        {% ifequal page "get-involved" %}
+        {% endif %}
+        {% if page == "get-involved" %}
         <li><span class="current">Get Involved</span></li>
         {% else %}
         <li><a href="/get-involved/">Get Involved</a></li>
-        {% endifequal %}
+        {% endif %}
       </ul>
     </nav>
     

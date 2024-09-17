@@ -1,7 +1,7 @@
 import re
 from django.template import Library
 from django.template.defaultfilters import slugify
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.utils.safestring import mark_safe
 from backend.api import Glossary
 from backend.util import timestamp_to_seconds

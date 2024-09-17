@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-from django.shortcuts import render_to_response
+from django.shortcuts import render
 from django.template import RequestContext
 from django.views.decorators.cache import cache_control
 from urllib.parse import quote
@@ -103,7 +103,8 @@ def homepage(request):
         mission for mission in list(Mission.Query(request.redis_conn))
         if mission.incomplete and mission.featured
     ]
-    return render_to_response(
+    return render(
+        request,
         'homepage/homepage.html',
         {
             'missions': missions,
@@ -140,7 +141,7 @@ def _get_reading_list(country_code):
 
 @cache_control(no_cache=True)
 def about(request):
-    country_code = request.META.get('HTTP_CF_IPCOUNTRY')
+    country_code = request.headers.get('cf-ipcountry')
     if country_code is None:
         country_code = request.META.get(
             'GEOIP_COUNTRY_CODE',
@@ -202,7 +203,8 @@ def about(request):
 
     contributors = [ _as_dict(contributor) for contributor in contributors ]
 
-    return render_to_response(
+    return render(
+        request,
         'pages/about.html',
         {
             'READING_LISTS': _get_reading_list(country_code),
@@ -213,7 +215,8 @@ def about(request):
 
 @cache_control(no_cache=True)
 def press(request):
-    return render_to_response(
+    return render(
+            request,
             'pages/press.html',
             {
                 'page': 'press',
@@ -223,7 +226,8 @@ def press(request):
 
 @cache_control(no_cache=True)
 def get_involved(request):
-    return render_to_response(
+    return render(
+            request,
             'pages/get-involved.html',
             {'page': 'get-involved'},
             )
