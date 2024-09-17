@@ -1,5 +1,6 @@
 import subprocess
 import os
+import sys
 
 from backend.api import Mission, Act, LogLine
 from backend.util import redis_connection, seconds_to_timestamp
@@ -53,7 +54,7 @@ class StatsPornGenerator(object):
                 os.makedirs(real_output_path)
             except OSError:
                 pass
-            graph_file = 'graph_%s_%s.png' % (mission.name, act.number)
+            graph_file = 'graph_%s.png' % act.number
             output_path = '%s/%s' % (real_output_path, graph_file)
 
             # Add initial draw command
@@ -135,4 +136,11 @@ class StatsPornGenerator(object):
 
 if __name__ == "__main__":
     generator = StatsPornGenerator(redis_connection)
-    generator.build_all_missions()
+
+    selected_missions_to_build = sys.argv[1:]
+    if selected_missions_to_build:
+        for mission_name in selected_missions_to_build:
+            mission = Mission(redis_connection, mission_name)
+            generator.build_mission(mission)
+    else:
+        generator.build_all_missions()

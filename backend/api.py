@@ -354,7 +354,7 @@ class Act(NarrativeElement):
             self.has_stats = True
             self.stats_image_map = stats_data['image_map']
             self.stats_image_map_id = stats_data['image_map_id']
-            self.stats_image = "graph_%s_%d.png" % (self.mission_name, self.number)
+            self.stats_image = "graph_%d.png" % self.number
         else:
             self.has_stats = False
 
