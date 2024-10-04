@@ -1,0 +1,193 @@
+{
+    "name": "sts51l",
+    "featured": false,
+    "incomplete": true,
+    "subdomains": ["STS-51-L", "sts51l"],
+    "utc_launch_time": "1986-01-28T16:38:00",
+    "copy": {
+        "title": "STS-51-L",
+        "upper_title": "Space Shuttle",
+        "lower_title": "Challenger Disaster",
+        "description": "",
+        "summary": "Space Shuttle Challenger Disaster",
+        "glossary_introduction": "Space flight involves a lot of technical terms and acronyms. This glossary gives an expansion or brief description of many of those most likely to occur.",
+        "cleaners": [
+            "David Woods",
+            "Frank O'Brien",
+            "George Brocklehurst",
+            "Greg Roodt",
+            "Jeremy Weatherford",
+            "Mick Boldon"
+        ],
+        "transcript_attributions": [
+            { "url": "http://science.ksc.nasa.gov/shuttle/missions/51-l/docs/transcript.txt", "title": "Transcript of the Challenger Crew Comments from the Operational Recorder" }
+        ],
+        "about": "On January 28, 1986, the Space Shuttle program suffered from the first of two lost flights, along with the lives of all seven astronauts on board.  Commander Francis R. Scobee, Pilot Michael J. Smith, Mission Specialist 1 Ellison S. Onizuka,  Mission Specialist 2 Judith A. Resnik, Mission Specialist 3 Ronald E. McNair, Payload Specialist 1 S. Christa McAuliffe, and Payload Specialist 2 Gregory B.  Jarvis lost there lives when an O-ring in one of the Shuttle's two Solid Rocket Boosters failed, causing Challenger to explode 73 seconds into the flight."
+    },
+    "shared_glossaries": ["space", "shuttle"],
+    "glossary": {
+      "lox arm": { "summary": "Liquid Oxygen supply arm to the External Tank" },
+      "beanie cap": { "summary": "Liquid oxygen vent cap for the External Tank" },
+      "LVLH": { "summary": "Local Vertical/Local Horizontal", "type": "abbreviation" }
+    },
+    "error_pages": {
+        "404": {
+            "title": "404 - Who stirred the tanks?",
+            "heading": "That's<br />no moon.",
+            "subheading": "404 - Page Not Found.",
+            "text": "Looks like we've lost a page.  Sorry about that.  Not your fault at all.",
+            "classic_moment": "Christmas broadcast",
+            "classic_moment_quote": "03:14:04:53"
+        },
+        "500": {
+            "title": "500 - This is Houston, hold 1 please.",
+            "heading": "We blew it.",
+            "subheading": "500 - Server Error.",
+            "text": "Apollo 8, Houston. Could you stand by one? We are working on something here.",
+            "classic_moment": "Christmas broadcast",
+            "classic_moment_quote": "03:14:04:53"
+        },
+        "no_search_results": {
+            "text": "Sorry about that. Still, it could be worse, the crew of Apollo 8 couldn't always find the earth:",
+            "classic_moment_quote": "00:04:10:35"
+        }
+    },
+    "character_ordering": [
+        "MIKE_COLLINS",
+        "KEN_MATTINGLY",
+        "JERRY_CARR",
+        "DEKE_SLAYTON"
+    ],
+    "characters": {
+        "CDR": {
+          "role": "astronaut",
+          "name": "Francis R. Scobee",
+          "short_name": "Dick Scobee (CDR)",
+          "mission_position": "Commander",
+          "bio": "Dick Scobee was a U.S. Air Force test pilot and NASA Astronaut. He was was selected as an astronaut as part of the 1978 NASA Group 8 and flew as Shuttle Pilot on STS-41-C.",
+          "photo": "scobee.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "scobee.jpg",
+          "stats": [
+            {
+                "value": 167,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 46,
+                "text": "age at launch"
+            }
+          ],
+          "quotable_log_line_id": "TEC:00:00:01:10"
+        },
+        "PLT": {
+          "role": "astronaut",
+          "name": "Michael J. Smith",
+          "short_name": "Michael Smith (PLT)",
+          "mission_position": "Pilot",
+          "bio": "Michael John Smith was a Navy aviator and a graduate of the U.S. Naval Test Pilot School with the rank of Captian. He was selected as an Astronaut as part of the 1980 NASA Group 9. STS-51-L was his first Shuttle mission.",
+          "photo": "smith.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "smith.jpg",
+          "stats": [
+            {
+                "value": 0,
+                "text": "hours in space"
+            },
+            {
+                "value": 1,
+                "text": "missions"
+            },
+            {
+                "value": 40,
+                "text": "age at launch"
+            }
+          ],
+          "quotable_log_line_id": "TEC:00:00:01:13"
+        },
+        "MS 1": {
+          "role": "astronaut",
+          "name": "Ellison S. Onizuka",
+          "short_name": "Ellison Onizuka (MS 1)",
+          "mission_position": "Mission Specialist 1",
+          "bio": "Ellison Shoji Onizuka was an American astronaut from Kealakekua, Hawaii, who successfully flew into space with the Space Shuttle Discovery on STS-51-C. He died in the destruction of the Space Shuttle Challenger, on which he was serving as Mission Specialist for mission STS-51-L. He was the first Asian American to reach space, and the first person of Japanese ancestry to reach space.",
+          "photo": "onizuka.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "onizuka.jpg",
+          "stats": [
+            {
+                "value": 73,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 39,
+                "text": "age at launch"
+            }
+          ],
+          "quotable_log_line_id": "TEC:-00:00:01:38"
+        },
+        "MS 2": {
+          "role": "astronaut",
+          "name": "Judith A. Resnik",
+          "short_name": "Judith Resnik (MS 2)",
+          "mission_position": "Mission Specialist 2",
+          "bio": "Resnik was the second American female astronaut, logging 145 hours in orbit. She was a graduate of Carnegie Mellon University and had a Ph.D. in electrical engineering from the University of Maryland. The IEEE Judith Resnik Award for space engineering is named in her honor.",
+          "photo": "resnik.jpg",
+          "photo_width": 190,
+          "photo_height": 205,
+          "avatar": "resnik.jpg",
+          "stats": [
+            {
+                "value": 145,
+                "text": "hours in space"
+            },
+            {
+                "value": 2,
+                "text": "missions"
+            },
+            {
+                "value": 36,
+                "text": "age at launch"
+            }
+          ],
+          "quotable_log_line_id": "TEC:00:00:00:15"
+        },
+    },
+    "main_transcript": "sts51l/TEC",
+    "media_transcript": "sts51l/MEDIA",
+    "acts" : [
+        {
+            "title": "Launch",
+            "description": "XXX",
+            "range": ["-00:00:02:05", "00:00:01:13"],
+            "banner_background": "act1.jpg",
+            "banner_colour": "#628eb3",
+            "orbital": "act1.png",
+            "illustration": "act1.png",
+            "homepage": "act1.jpg"
+        },
+    ],
+    "key_scenes": [
+      {
+        "title": "LOSS OF ALL DATA",
+        "range": ["00:00:01:13", "00:00:01:13"]
+      },
+    ],
+    "homepage_quotes" : [
+        "00:00:00:01",
+        "00:00:00:15",
+        "00:00:00:60",
+        "00:00:01:13",
+    ]
+}
