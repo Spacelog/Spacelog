@@ -16,7 +16,7 @@ my $invalid_inline_timestamps;
 my $log_timestamp_elements = 4;
 my $output_dir;
 my $report_fail;
-my $show_stats;
+my $show_speaker_stats;
 my $x_fort;
 
 if (
@@ -27,7 +27,7 @@ if (
         'inline-timestamps|T'         => \$inline_timestamps,
         'invalid-inline-timestamps|I' => \$invalid_inline_timestamps,
         'log-timestamp-elements|t=i'  => \$log_timestamp_elements,
-        'stats-porn|v'                => \$show_stats,
+        'speaker-stats|v'             => \$show_speaker_stats,
         'output-dir|o=s'              => \$output_dir,
     )
     || $help
@@ -41,8 +41,8 @@ if (
  --invalid-inline-timestamps : Search and markup 'invalid' inline timestamps
 --log-timestamp-elements num : Number of timestamp elements in log lines (default 4)
               --report regex : Only report failures of type 'regex'
-	    --output-dir dir : Write sanitised/updated files into dir
-                --stats-porn : Show some stats on speakers
+            --output-dir dir : Write sanitised/updated files into dir
+             --speaker-stats : Show some stats on speakers
 eg:
    ./lognag.pl AS13_TEC/0_CLEAN/[0-9]*.txt
 
@@ -74,7 +74,7 @@ foreach my $file ( sort filesort @ARGV ) { process($file); }
 print 'Bad files: ', join( ' ', sort keys %badfiles ), "\n" if %badfiles;
 print 'Fail: ', $total_fail, "\n" if $total_fail;
 
-if ($show_stats) {
+if ($show_speaker_stats) {
     foreach my $speaker ( sort keys %speakers ) {
         my $perday;
         my $total;
