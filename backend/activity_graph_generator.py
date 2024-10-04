@@ -6,16 +6,16 @@ from backend.api import Mission, Act, LogLine
 from backend.util import redis_connection, seconds_to_timestamp
 
 
-class StatsPornGenerator(object):
+class ActivityGraphGenerator(object):
     width = 901
     height = 78
-    key_scene_marker_files = 'backend/stats_porn_assets/key_scene_%d.png'
+    key_scene_marker_files = 'backend/activity_graph_components/key_scene_marker_%d.png'
     max_bar_height = 40
     graph_background_width = 896
     graph_bar_colour = '#00a9d2'
     end_marker_colour = '#989898'
 
-    image_output_path = 'missions/%s/images/stats/'
+    image_output_path = 'missions/%s/images/activity/'
 
     def __init__(self, redis_conn):
         self.redis_conn = redis_conn
@@ -25,7 +25,7 @@ class StatsPornGenerator(object):
             self.build_mission(mission)
 
     def build_mission(self, mission):
-        print("Building data visualisations for %s..." % mission.name)
+        print("Building activity graphs for %s..." % mission.name)
         for act in list(Act.Query(self.redis_conn, mission.name)):
             print(' ... %s' % act.title)
 
@@ -135,7 +135,7 @@ class StatsPornGenerator(object):
 
 
 if __name__ == "__main__":
-    generator = StatsPornGenerator(redis_connection)
+    generator = ActivityGraphGenerator(redis_connection)
 
     selected_missions_to_build = sys.argv[1:]
     if selected_missions_to_build:

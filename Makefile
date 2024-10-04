@@ -19,7 +19,7 @@ PROJECT_DOMAIN           ?= dev.spacelog.org
 
 all: reindex collectstatic
 
-collectstatic: productioncss statsporn
+collectstatic: productioncss activity_graphs
 	DJANGOENV=live $(PYTHON) -m website.manage collectstatic --noinput --ignore=*.scss
 	DJANGOENV=live $(PYTHON) -m global.manage collectstatic --noinput --ignore=*.scss
 
@@ -29,10 +29,10 @@ $(SEARCHDB_PATH): missions/*/transcripts/* missions/shared/glossary/* backend/in
 	rm -rf $(SEARCHDB_PATH)
 	$(PYTHON) -m backend.indexer
 
-statsporn: $(mission_dirs:%=%/images/stats/graph_0.png)
+activity_graphs: $(mission_dirs:%=%/images/activity/graph_0.png)
 
-missions/%/images/stats/graph_0.png: missions/%/transcripts/* backend/stats_porn_assets/*  backend/stats_porn.py
-	$(PYTHON) -m backend.stats_porn $*
+missions/%/images/activity/graph_0.png: missions/%/transcripts/* backend/activity_graph_components/*  backend/activity_graph_generator.py
+	$(PYTHON) -m backend.activity_graph_generator $*
 
 productioncss:	$(website_css_targets) $(global_css_targets)
 

@@ -49,7 +49,7 @@
           <em class='end'>{{ act.end|mission_time_format }}</em>
         </p>
         {{ act.stats_image_map|safe }}
-        <img src='{% mission_static mission.name "images/stats" act.stats_image %}' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
+        <img src='{% mission_static mission.name "images/activity" act.stats_image %}' alt='Frequency of lines in {{ act.title }}' usemap='#{{ act.stats_image_map_id }}' />
       </div>
     {% endif %}
 
