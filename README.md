@@ -85,7 +85,7 @@ We use [Overmind](https://github.com/DarthSim/overmind) to run all the component
 
 - `global`: The Django application for the overall Spacelog project, with information about the various missions, the team, and so forth.
 - `website`: The Django application for the various mission sites, including their search engines.
-- `redis`: The storage that underlies both global and website, and contains all the data that those Django apps show. Redis's contents are generated when we build the Docker container, so if you change content (or want to rebuild the search index with `make reindex`, or the phase graphs with `make statsporn`), you need to rebuild the container (or run the relevant make commands inside your container).
+- `redis`: The storage that underlies both global and website, and contains all the data that those Django apps show. Redis's contents are generated when we build the Docker container, so if you change content (or want to rebuild the search index with `make reindex`, or the phase graphs with `make activity_graphs`), you need to rebuild the container (or run the relevant make commands inside your container).
 - `nginx`: We proxy access to `global` and `website` through Nginx because [Fly.io](https://fly.io), where we host Spacelog, doesn't currently support multiple applications per “machine”, and [advises using nginx proxies to handle projects that support multiple domains](https://fly.io/docs/app-guides/custom-domains-with-fly/).
 - `css`: In development, we also run a process to update the CSS every 10th of a second.
 
